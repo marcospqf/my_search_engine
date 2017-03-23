@@ -1,6 +1,14 @@
 #ifndef _scheduler_hpp
 #define _scheduler_hpp
-#include<bits/stdc++.h>
+#include <vector>
+#include <algorithm>
+#include <set>
+#include <streambuf>
+#include <ostream>
+#include <fstream>
+#include<iostream>
+#include <cstdio>
+#include <cstdlib>
 #include<unordered_set>
 using namespace std;
 

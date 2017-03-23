@@ -1,4 +1,12 @@
-#include<bits/stdc++.h>
+#include <vector>
+#include <algorithm>
+#include <set>
+#include <streambuf>
+#include <ostream>
+#include <fstream>
+#include<iostream>
+#include <cstdio>
+#include <cstdlib>
 #include<CkSpider.h>
 #include "scheduler.hpp"
 using namespace std;
