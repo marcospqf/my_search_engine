@@ -34,8 +34,8 @@ void ChilkatSample(ostream &os)
 		//if(cont>100) break;
 		if (success) {
 			//  Show the URL of the page just spidered.
-						os << spider.lastUrl() << "\n";
-						//os << spider.lastHtml() << "\n";
+			os << spider.lastUrl() << "\n";
+			//os << spider.lastHtml() << "\n";
 			//  The HTML is available in the LastHtml property
 			int size=spider.get_NumOutboundLinks();
 			set<int> jafoi;
