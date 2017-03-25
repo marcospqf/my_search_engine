@@ -1,7 +1,11 @@
 #include "crawler.hpp"
 using namespace std;
 
-std::mutex Crawler::scheduler_mutex;
+mutex Crawler::scheduler_mutex;
+mutex Crawler::crawlado;
+int Crawler::ncraw=0;
+string Crawler::foldername;
+
 Crawler::Crawler() 
 {
 	int x=rand()%3;
@@ -17,9 +21,12 @@ Crawler::Crawler()
 	Crawler::scheduler_mutex.unlock();
 }
 
+void Crawler::SetFolder(string s){
+	Crawler::foldername=s;
+}
+
 void Crawler::Start(int nthreads)
 {
-	cout<<"Starting to crawl.."<<endl;
 	vector<thread> running;
 	for(int i=0;i<nthreads;i++){
 		running.push_back(thread(&Crawler::Crawl,this));
@@ -33,22 +40,24 @@ void Crawler::Start(int nthreads)
 
 void Crawler::Crawl()
 {
+	FileWriter fw;
 	CkSpider spider;
 	CkString collectedUrl,collectedHtml;
 	
 	stringstream ss;
 	ss << this_thread::get_id();
-	string filename ="Html"+ss.str();
-	filebuf fb;
-	fb.open(filename,ios::out);
-	ostream os(&fb);
-	
+	string filename =this->foldername+"mp"+ss.str()+".txt";
+	fw.SetFilename(filename);
+	fw.OpenStream();
+	int cont=0;
 	while(true){
+		if(ncraw>1000) return;		
 		scheduler_mutex.lock();
 		string nextUrl= Scheduler::TopUrl();
 		Crawler::scheduler_mutex.unlock();
 		if(nextUrl.size()==0) continue;
-
+		if(Scheduler::IsEmpty(false) and Scheduler::IsEmpty(true)) cont++;
+		if(cont>100) break;
 		spider.Initialize(nextUrl.c_str());
 		spider.AddUnspidered(nextUrl.c_str());
 		
@@ -56,9 +65,11 @@ void Crawler::Crawl()
 		{
 			spider.get_LastUrl(collectedUrl);
 			spider.get_LastHtml(collectedHtml);
-			os<<collectedUrl.getString()<< " | "<<collectedHtml.getString()  << "|||" ;
-			cout<<"COLETANDO: "<<endl;
-			cout<<collectedUrl.getString()<<endl;
+			fw.print(collectedUrl,collectedHtml);
+			crawlado.lock();
+			ncraw++;
+			cout<<"numero de site ja coletados: "<<ncraw<<endl;
+			crawlado.unlock();
 			int size=spider.get_NumOutboundLinks();
 			set<int> jafoi;
 			while(jafoi.size()<min(size,15)){
@@ -69,7 +80,6 @@ void Crawler::Crawl()
 					Scheduler::PushUrl(spider.getOutboundLink(x),false);
 					Crawler::scheduler_mutex.unlock();
 				}
-
 			}
 			jafoi.clear();
 			spider.ClearOutboundLinks();
@@ -95,9 +105,13 @@ void Crawler::Crawl()
 				spider.SkipUnspidered(0);
 			}
 		}
+		else{
+			cout<<"PAU"<<endl;
+		}
 		spider.ClearOutboundLinks();
 	   spider.ClearSpideredUrls();
 	   spider.ClearFailedUrls();
-
 	}
+	for(int i=0;i<100000;i++) cout<<"#";
+	cout<<endl;
 }

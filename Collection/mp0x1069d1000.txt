@@ -1,0 +1,570 @@
+|||
+http://www.redetv.uol.com.br/redetvnews
+|
+<!DOCTYPE html>
+<!--[if IE 8 ]> <html lang="pt-br" class="no-js ie ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="pt-br" class="no-js ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="pt-br" ng-app="redetvApp">
+<!--<![endif]-->
+<head>
+    <title>
+        RedeTV News |  RedeTV!
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="RedeTV!" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="Um telejornal dinâmico, moderno e crítico." />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="http://www.redetv.uol.com.br/jornalismo/redetvnews/" />
+    <link type="text/css" rel="stylesheet" href="http://cdn.redetv.uol.com.br/css/base/base.min.css" />
+    <link type="text/css" rel="stylesheet" href="http://cdn.redetv.uol.com.br/css/mmenu/jquery.mmenu.css" />
+    <link type="text/css" rel="stylesheet" href="http://cdn.redetv.uol.com.br/css/swipebox/swipebox.min.css" />
+    <link type="text/css" rel="stylesheet" href="/jornalismo/redetvnews/assets/css/stylesheet.min.css" />
+
+    <script type="text/javascript" src="http://cdn.redetv.uol.com.br/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.redetv.uol.com.br/js/base/base.min.js"></script>
+    <script type="text/javascript" src="http://cdn.redetv.uol.com.br/js/jquery/jquery.maskedinput.min.js"></script>    
+
+    
+    
+    <!-- js analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-12966154-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    
+
+    
+
+    
+    </head>
+<body>
+    <div class="tm-ads img-nofx" id="banner-1x1">
+        <script>window.uolads && window.uolads.push({ id: "banner-1x1-area" });</script>
+    </div>
+
+    <!--<script type="text/javascript" src="http://jsuol.com/barra/parceiro-1024.js?refbusca=redetv&full=true"></script>-->
+<!--<div><script type="text/javascript" src="http://jsuol.com.br/barra/parceiro-res.js?parceiro=redetv"></script></div>
+-->
+<!--UOL Barra-->
+<script type="text/javascript">
+window.universal_variable = window.universal_variable || {};
+window.universal_variable.dfp = {
+"custom_params" : {
+"subchan" : "",
+}
+};
+window.uolads = window.uolads || [];
+;(function() {
+var scr = document.createElement("script");
+scr.async = true;
+scr.src = "//tm.jsuol.com.br/uoltm.js?id=o4y2br";
+var el = document.getElementsByTagName("script")[0];
+el.parentNode.insertBefore(scr, el);
+})();
+</script>
+<div id="topo-container">
+	<div id="topo-wrap" style=" width:660px; height:45px">
+		<h1><a href="/"><span>RedeTV</span></a></h1>
+		<ul>
+			<li class="separador">|</li>
+			<li><a href="/programacao" title="Programação">PROGRAMAÇÃO</a></li>
+			<li class="separador">|</li>
+            <li><a href="/tvfama" title="TV Fama">TV FAMA</a></li>
+			<li class="separador">|</li>
+			<li><a href="/jornalismo" title="Notícias">NOTÍCIAS</a></li>
+			<li class="separador">|</li>
+			<li><a href="/esportes" title="Esportes">ESPORTES</a></li>
+			<li class="separador">|</li>
+			<li><a href="/videos" title="Vídeos">VÍDEOS</a></li>
+			<li class="separador">|</li>
+            <li><a href="/nossos-programas" title="Nossos Programas">NOSSOS PROGRAMAS</a></li>
+		</ul>
+	</div>
+</div>
+
+
+    <div class="page">
+        <!-- header -->
+        <header class="header">
+            <div class="container head">
+                <div class="brand">
+                    <div>
+                        <h1 class="logo">
+                            <a href="/jornalismo/redetvnews/"><span>RedeTV! News</span></a>
+                        </h1>
+                        
+                    </div>
+                </div>
+
+                <!-- search box -->
+                <div class="searchbox">
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/redetv" target="_blank" class="icon-facebook" title="Facebook"></a></li>
+                        <li><a href="https://twitter.com/redetv" target="_blank" class="icon-twitter" title="Twitter"></a></li>
+                        
+                    </ul>
+
+<form action="/jornalismo/RedeTVNews/Busca" id="frmBusca" method="get">                        <fieldset>
+                            <label>
+                                <input name="q" type="text" id="q" placeholder="Localizar" />
+                            </label>
+                            <button type="submit" id="btn" class="btn-search icon-search" />
+                        </fieldset>
+</form>                </div>
+                <!-- ./searchbox -->
+            </div>
+        </header>
+
+        <div class="mobile-rtv-bar">
+            <a href="#nav-menu" class="menu-anchor icon-bars"></a>
+            <a href="http://www.redetv.com.br/"><i class="icon-fama-mobile"></i></a>
+            <div class="nav-mobile" id="nav-menu">
+                <ul>
+                    <li><a href="/jornalismo/redetvnews/" title="Home">Home</a></li>
+                            <li><a href="/jornalismo/redetvnews/institucional/o-programa" title="O Programa">O Programa</a></li>
+      <li><a href="/jornalismo/redetvnews/institucional/apresentadores" title="Apresentadores">Apresentadores</a></li>
+
+
+                    <li><a href="/jornalismo/redetvnews/blog" title="Blog">Blog</a></li>  
+                    <li><a href="/jornalismo/redetvnews/fotos" title="Fotos">Fotos</a></li>
+                    <li><a href="/jornalismo/redetvnews/videos" title="Vídeos">Vídeos</a></li>                    
+                    <li><a href="/jornalismo/redetvnews/enquete" title="Enquete">Enquete</a></li>
+                    <li><a href="/jornalismo/redetvnews/denuncia" title="Faça sua denúncia">Faça sua denúncia</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar fade">
+            <div class="container">
+                <ul>
+                    <li class="scroll-menu"><a href="/jornalismo/redetvnews/" title="Home">Home</a></li>
+                            <li><a href="/jornalismo/redetvnews/institucional/o-programa" title="O Programa">O Programa</a></li>
+      <li><a href="/jornalismo/redetvnews/institucional/apresentadores" title="Apresentadores">Apresentadores</a></li>
+
+
+                    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="/jornalismo/redetvnews/blog" title="Blog">Blog</a>
+    <ul class="dropdown-menu videos" role="menu">
+        <li><a href="/jornalismo/redetvnews/blog" title="Todos os videos">Todos os artigos</a></li>
+        <li><a href="/jornalismo/redetvnews/blog/blog-do-programa" title="Blog do Programa">Blog do Programa</a></li>
+        <li><a href="/jornalismo/redetvnews/blog/luciano-jr-por-ai" title="Luciano Jr por a&#237;">Luciano Jr por a&#237;</a></li>
+        <li><a href="/jornalismo/redetvnews/blog/panama-papers" title="Panama Papers">Panama Papers</a></li>
+    </ul>
+</li>
+
+                    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="/jornalismo/redetvnews/fotos" title="Fotos">Fotos</a>
+    <ul class="dropdown-menu videos" role="menu">        
+         <li><a href="/jornalismo/redetvnews/fotos" title="Todas as fotos">Todas as fotos</a></li>
+        <li><a href="/jornalismo/redetvnews/fotos/imagens-do-dia" title="Imagens do dia">Imagens do dia</a></li>
+    </ul>
+</li>
+
+                    <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="/jornalismo/redetvnews/videos" title="Vídeos">Vídeos</a>
+    <ul class="dropdown-menu videos" role="menu">
+        <li><a href="/jornalismo/redetvnews/videos" title="Todos os vídeos">Todos os vídeos</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/cidades" title="Cidades">Cidades</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/ciencia" title="Ci&#234;ncia">Ci&#234;ncia</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/cultura" title="Cultura">Cultura</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/economia" title="Economia">Economia</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/editoriais" title="Editoriais">Editoriais</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/educacao" title="Educa&#231;&#227;o">Educa&#231;&#227;o</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/esporte" title="Esporte">Esporte</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/exclusivo" title="Exclusivo">Exclusivo</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/gastronomia" title="Gastronomia">Gastronomia</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/giro-internacional" title="Giro Internacional">Giro Internacional</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/meio-ambiente" title="Meio-ambiente">Meio-ambiente</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/outros-videos" title="Outros v&#237;deos">Outros v&#237;deos</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/pela-ordem" title="Pela Ordem">Pela Ordem</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/politica" title="Pol&#237;tica">Pol&#237;tica</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/previsao-do-tempo" title="Previs&#227;o do tempo">Previs&#227;o do tempo</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/seguranca" title="Seguran&#231;a">Seguran&#231;a</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/servico" title="Servi&#231;o">Servi&#231;o</a></li>
+        <li><a href="/jornalismo/redetvnews/videos/tecnologia" title="Tecnologia">Tecnologia</a></li>
+    </ul>
+</li>
+                    
+                    <li><a href="/jornalismo/redetvnews/enquete" title="Enquete">Enquete</a></li>                    
+                    <li><a href="/jornalismo/redetvnews/denuncia" title="Faça sua denúncia">Faça sua denúncia</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container all">
+            <!-- slider:bxslider-->
+
+    <figure class="slider-wrap">
+        <ul class="slider">
+<li>
+
+                    <div class="slider-img">
+                        <!-- imagem destaque -->
+                        <a href="/jornalismo/redetvnews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga">
+                            <img title="/jornalismo/redetvnews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523624.jpg" style="border-width: 0px;" /></a>
+
+                            <span class="icon-play">
+                                <a id="linkToContentPlay"></a>
+                            </span>
+                    </div>
+
+                    <div class="slider-content">
+                        <span class="slider-chapeu"></span>
+                        <h3><a href="/jornalismo/redetvnews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga">RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga</a></h3>
+
+                        <span class="slider-publicada">
+                            <strong>Publicada:</strong>
+                            <time class="pubdate" datetime="24/03/2017 00:00:00">24/03/2017</time>
+                        </span>
+                    </div>
+                </li>
+<li>
+
+                    <div class="slider-img">
+                        <!-- imagem destaque -->
+                        <a href="/jornalismo/redetvnews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;">
+                            <img title="/jornalismo/redetvnews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523623.jpg" style="border-width: 0px;" /></a>
+
+                            <span class="icon-play">
+                                <a id="linkToContentPlay"></a>
+                            </span>
+                    </div>
+
+                    <div class="slider-content">
+                        <span class="slider-chapeu"></span>
+                        <h3><a href="/jornalismo/redetvnews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;">Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;</a></h3>
+
+                        <span class="slider-publicada">
+                            <strong>Publicada:</strong>
+                            <time class="pubdate" datetime="24/03/2017 00:00:00">24/03/2017</time>
+                        </span>
+                    </div>
+                </li>
+<li>
+
+                    <div class="slider-img">
+                        <!-- imagem destaque -->
+                        <a href="/jornalismo/redetvnews/videos/cidades/governo-do-df-destroi-orla-do-lago-paranoa" title="Governo do DF destr&#243;i orla do lago Parano&#225;">
+                            <img title="/jornalismo/redetvnews/videos/cidades/governo-do-df-destroi-orla-do-lago-paranoa" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523612.jpg" style="border-width: 0px;" /></a>
+
+                            <span class="icon-play">
+                                <a id="linkToContentPlay"></a>
+                            </span>
+                    </div>
+
+                    <div class="slider-content">
+                        <span class="slider-chapeu"></span>
+                        <h3><a href="/jornalismo/redetvnews/videos/cidades/governo-do-df-destroi-orla-do-lago-paranoa" title="Governo do DF destr&#243;i orla do lago Parano&#225;">Governo do DF destr&#243;i orla do lago Parano&#225;</a></h3>
+
+                        <span class="slider-publicada">
+                            <strong>Publicada:</strong>
+                            <time class="pubdate" datetime="24/03/2017 00:00:00">24/03/2017</time>
+                        </span>
+                    </div>
+                </li>
+        </ul>
+        <ul class="slider-thumb">
+<li>
+                    <!-- thumb destaque -->
+                    <a data-slide-index="0" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga">
+                        <img title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga" class="img-responsive" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523624.jpg" style="height: 70px; width: 115px; border-width: 0px;" />
+                    </a>
+                </li>
+<li>
+                    <!-- thumb destaque -->
+                    <a data-slide-index="1" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;">
+                        <img title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;" class="img-responsive" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523623.jpg" style="height: 70px; width: 115px; border-width: 0px;" />
+                    </a>
+                </li>
+<li>
+                    <!-- thumb destaque -->
+                    <a data-slide-index="2" title="Governo do DF destr&#243;i orla do lago Parano&#225;">
+                        <img title="Governo do DF destr&#243;i orla do lago Parano&#225;" class="img-responsive" src="http://images.redetv.uol.com.br//thumbnail_videos/480x270//NEWS/2017/03/24/523612.jpg" style="height: 70px; width: 115px; border-width: 0px;" />
+                    </a>
+                </li>
+        </ul>
+    </figure>
+
+
+<div class="clearfix"></div>
+
+<!-- Banner Abaixo do Slider -->
+<div class="container mobile-hidden ads720x90">
+    <hr>
+    <div class="tm-ads ads-720x90 center" id="banner-728x90-area">
+        <script>window.uolads && window.uolads.push({ id: "banner-728x90-area" });</script>
+    </div>
+    <hr>
+</div>
+
+<div class="container">
+    <!-- lastVideos -->
+<div class="ultimas col-md-8 col-xs-12">
+    <h2 class="title">Últimos Vídeos</h2>
+    <ul class="feature-list">
+
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/exclusivo/marcelo-de-carvalho-redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="Marcelo de Carvalho: &quot;RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga&quot;">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/25/523686.jpg" alt="Marcelo de Carvalho: &quot;RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga&quot;" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/exclusivo/marcelo-de-carvalho-redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="Marcelo de Carvalho: &quot;RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga&quot;" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/exclusivo/marcelo-de-carvalho-redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="Marcelo de Carvalho: &quot;RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga&quot;">Marcelo de Carvalho: &quot;RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga&quot;</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/outros-videos/assista-a-integra-da-edicao-de-24-de-marco-de-2017-do-redetv-news" title="Assista &#224; &#237;ntegra da edi&#231;&#227;o de 24 de mar&#231;o de 2017 do RedeTV News">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523628.jpg" alt="Assista &#224; &#237;ntegra da edi&#231;&#227;o de 24 de mar&#231;o de 2017 do RedeTV News" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/outros-videos/assista-a-integra-da-edicao-de-24-de-marco-de-2017-do-redetv-news" title="Assista &#224; &#237;ntegra da edi&#231;&#227;o de 24 de mar&#231;o de 2017 do RedeTV News" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/outros-videos/assista-a-integra-da-edicao-de-24-de-marco-de-2017-do-redetv-news" title="Assista &#224; &#237;ntegra da edi&#231;&#227;o de 24 de mar&#231;o de 2017 do RedeTV News">Assista &#224; &#237;ntegra da edi&#231;&#227;o de 24 de mar&#231;o de 2017 do RedeTV News</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/cultura/longa-sobre-power-rangers-mostra-origem-do-fenomeno-da-decada-de-1990" title="Longa sobre Power Rangers mostra origem do fen&#244;meno da d&#233;cada de 1990">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523627.jpg" alt="Longa sobre Power Rangers mostra origem do fen&#244;meno da d&#233;cada de 1990" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/cultura/longa-sobre-power-rangers-mostra-origem-do-fenomeno-da-decada-de-1990" title="Longa sobre Power Rangers mostra origem do fen&#244;meno da d&#233;cada de 1990" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/cultura/longa-sobre-power-rangers-mostra-origem-do-fenomeno-da-decada-de-1990" title="Longa sobre Power Rangers mostra origem do fen&#244;meno da d&#233;cada de 1990">Longa sobre Power Rangers mostra origem do fen&#244;meno da d&#233;cada de 1990</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/esporte/paulistao-tera-sao-paulo-x-corinthians-neste-final-de-semana" title="Paulist&#227;o ter&#225; S&#227;o Paulo x Corinthians neste final de semana">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523626.jpg" alt="Paulist&#227;o ter&#225; S&#227;o Paulo x Corinthians neste final de semana" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/esporte/paulistao-tera-sao-paulo-x-corinthians-neste-final-de-semana" title="Paulist&#227;o ter&#225; S&#227;o Paulo x Corinthians neste final de semana" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/esporte/paulistao-tera-sao-paulo-x-corinthians-neste-final-de-semana" title="Paulist&#227;o ter&#225; S&#227;o Paulo x Corinthians neste final de semana">Paulist&#227;o ter&#225; S&#227;o Paulo x Corinthians neste final de semana</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/economia/governo-espera-que-exportacao-de-carne-volte-ao-normal-em-duas-semanas" title="Governo espera que exporta&#231;&#227;o de carne volte ao normal em duas semanas">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523625.jpg" alt="Governo espera que exporta&#231;&#227;o de carne volte ao normal em duas semanas" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/economia/governo-espera-que-exportacao-de-carne-volte-ao-normal-em-duas-semanas" title="Governo espera que exporta&#231;&#227;o de carne volte ao normal em duas semanas" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/economia/governo-espera-que-exportacao-de-carne-volte-ao-normal-em-duas-semanas" title="Governo espera que exporta&#231;&#227;o de carne volte ao normal em duas semanas">Governo espera que exporta&#231;&#227;o de carne volte ao normal em duas semanas</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523624.jpg" alt="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/exclusivo/redetv-sbt-e-recordtv-sairao-do-ar-da-tv-paga" title="RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga">RedeTV!, SBT e RecordTV sair&#227;o do ar da TV paga</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523623.jpg" alt="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/pela-ordem/reinaldo-azevedo-questao-e-se-tse-vai-separar-contas-de-dilma-e-temer" title="Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;">Reinaldo Azevedo: &quot;Quest&#227;o &#233; se TSE vai separar contas de Dilma e Temer&quot;</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/politica/ex-executivos-da-odebrecht-dizem-que-padilha-era-responsavel-por-propina" title="Ex-executivos da Odebrecht dizem que Padilha era respons&#225;vel por propina">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523622.jpg" alt="Ex-executivos da Odebrecht dizem que Padilha era respons&#225;vel por propina" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/politica/ex-executivos-da-odebrecht-dizem-que-padilha-era-responsavel-por-propina" title="Ex-executivos da Odebrecht dizem que Padilha era respons&#225;vel por propina" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/politica/ex-executivos-da-odebrecht-dizem-que-padilha-era-responsavel-por-propina" title="Ex-executivos da Odebrecht dizem que Padilha era respons&#225;vel por propina">Ex-executivos da Odebrecht dizem que Padilha era respons&#225;vel por propina</a></p>
+            </li>
+            <li class="col-md-4 col-xs-12">
+                <div class="img-wrap">
+                    <a href="/jornalismo/RedeTVNews/videos/politica/lula-chama-procurador-da-lava-jato-de-moleque" title="Lula chama procurador da Lava Jato de &#39;moleque&#39;">
+                        <img src="http://images.redetv.uol.com.br/thumbnail_videos/370x208//NEWS/2017/03/24/523621.jpg" alt="Lula chama procurador da Lava Jato de &#39;moleque&#39;" class="img-responsive" />
+                    </a>
+                    <a href="/jornalismo/RedeTVNews/videos/politica/lula-chama-procurador-da-lava-jato-de-moleque" title="Lula chama procurador da Lava Jato de &#39;moleque&#39;" class="icon-play"></a>
+                </div>
+                <span class="chapeu">Últimos programas</span>
+                <p><a href="/jornalismo/RedeTVNews/videos/politica/lula-chama-procurador-da-lava-jato-de-moleque" title="Lula chama procurador da Lava Jato de &#39;moleque&#39;">Lula chama procurador da Lava Jato de &#39;moleque&#39;</a></p>
+            </li>
+    </ul>
+</div>
+<!-- /lastVideos -->
+
+
+    <div class="sidebar col-md-4">
+        
+
+
+
+    <div class="top-mostread img-fx">
+        <h2 class="title">Mais Vistos</h2>
+        <ul>
+                <li><span class="top-mostread-1">1</span>
+                    <a href="/jornalismo/RedeTVNews/videos/cidades/motociclista-e-arrastado-por-enxurrada-em-avare-sp" title="Motociclista &#233; arrastado por enxurrada em Avar&#233; (SP)">
+                                  
+                        <img src="http://images.redetv.uol.com.br//thumbnail_videos/100X54//NEWS/2017/01/28/519470.jpg" alt="Motociclista &#233; arrastado por enxurrada em Avar&#233; (SP)">
+                    </a>
+                    <span class="chapeu">RedeTV News</span>
+                    <p><a href="/jornalismo/RedeTVNews/videos/cidades/motociclista-e-arrastado-por-enxurrada-em-avare-sp" title="Motociclista &#233; arrastado por enxurrada em Avar&#233; (SP)">Motociclista &#233; arrastado por enxurrada em Avar&#233; (SP)</a></p>
+                </li>
+                <li><span class="top-mostread-2">2</span>
+                    <a href="/jornalismo/RedeTVNews/videos/cidades/mae-de-eliza-recorre-da-decisao-que-coloca-goleiro-bruno-a-solta" title="M&#227;e de Eliza recorre da decis&#227;o que coloca goleiro Bruno &#224; solta">
+                                  
+                        <img src="http://images.redetv.uol.com.br//thumbnail_videos/100X54//NEWS/2017/03/04/522176.jpg" alt="M&#227;e de Eliza recorre da decis&#227;o que coloca goleiro Bruno &#224; solta">
+                    </a>
+                    <span class="chapeu">RedeTV News</span>
+                    <p><a href="/jornalismo/RedeTVNews/videos/cidades/mae-de-eliza-recorre-da-decisao-que-coloca-goleiro-bruno-a-solta" title="M&#227;e de Eliza recorre da decis&#227;o que coloca goleiro Bruno &#224; solta">M&#227;e de Eliza recorre da decis&#227;o que coloca goleiro Bruno &#224; solta</a></p>
+                </li>
+                <li><span class="top-mostread-3">3</span>
+                    <a href="/jornalismo/RedeTVNews/videos/pela-ordem/reinaldo-azevedo-detona-ato-de-cortar-cabelo-de-eike-ritual-humilhante" title="Reinaldo Azevedo detona ato de cortar cabelo de Eike: &quot;Ritual humilhante&quot;">
+                                  
+                        <img src="http://images.redetv.uol.com.br//thumbnail_videos/100X54//NEWS/2017/01/30/519543.jpg" alt="Reinaldo Azevedo detona ato de cortar cabelo de Eike: &quot;Ritual humilhante&quot;">
+                    </a>
+                    <span class="chapeu">RedeTV News</span>
+                    <p><a href="/jornalismo/RedeTVNews/videos/pela-ordem/reinaldo-azevedo-detona-ato-de-cortar-cabelo-de-eike-ritual-humilhante" title="Reinaldo Azevedo detona ato de cortar cabelo de Eike: &quot;Ritual humilhante&quot;">Reinaldo Azevedo detona ato de cortar cabelo de Eike: &quot;Ritual humilhante&quot;</a></p>
+                </li>
+                <li><span class="top-mostread-4">4</span>
+                    <a href="/jornalismo/RedeTVNews/videos/cidades/animais-em-alphaville-sao-vitimas-de-envenenamento" title="Animais em Alphaville s&#227;o v&#237;timas de envenenamento">
+                                  
+                        <img src="http://images.redetv.uol.com.br//thumbnail_videos/100X54//NEWS/2017/02/03/519912.jpg" alt="Animais em Alphaville s&#227;o v&#237;timas de envenenamento">
+                    </a>
+                    <span class="chapeu">RedeTV News</span>
+                    <p><a href="/jornalismo/RedeTVNews/videos/cidades/animais-em-alphaville-sao-vitimas-de-envenenamento" title="Animais em Alphaville s&#227;o v&#237;timas de envenenamento">Animais em Alphaville s&#227;o v&#237;timas de envenenamento</a></p>
+                </li>
+                <li><span class="top-mostread-5">5</span>
+                    <a href="/jornalismo/RedeTVNews/videos/giro-internacional/vento-faz-caminhao-tombar-e-esmagar-viatura-nos-eua" title="Vento faz caminh&#227;o tombar e esmagar viatura nos EUA">
+                                  
+                        <img src="http://images.redetv.uol.com.br//thumbnail_videos/100X54//NEWS/2017/02/11/520496.jpg" alt="Vento faz caminh&#227;o tombar e esmagar viatura nos EUA">
+                    </a>
+                    <span class="chapeu">RedeTV News</span>
+                    <p><a href="/jornalismo/RedeTVNews/videos/giro-internacional/vento-faz-caminhao-tombar-e-esmagar-viatura-nos-eua" title="Vento faz caminh&#227;o tombar e esmagar viatura nos EUA">Vento faz caminh&#227;o tombar e esmagar viatura nos EUA</a></p>
+                </li>
+        </ul>
+    </div>
+
+        <hr>
+        <div class="clearfix"></div>
+                        <div class="ads-300x250 fr">
+                            <!--inicio halfpage-->
+                            <div id="banner-300x250-area">
+                                <script>
+                                    window.uolads && window.uolads.push({ id: "banner-300x250-area" });
+                                </script>
+                            </div>
+                            <!--fim halfpage-->
+                        </div>
+
+    </div>
+    <hr>
+   <div class=" col-md-4">
+
+
+
+<div class="mdl-gallery">
+    <h2 class="title">Galeria</h2>
+
+    <div class="galeria-destaque">            <div class="img-wrap">                <a href="/jornalismo/RedeTVNews/fotos/imagens-do-dia/caminhao-deixa-mortos-e-feridos-ao-invadir-feira-de-natal-em-berlim" title="Caminh&#227;o deixa mortos e feridos ao invadir feira de Natal em Berlim">                                        <img src="http://images.redetv.uol.com.br//siteredetv/grupos/jornalismo/redetvnews/Fotos/Gal_15194/IHOME_15194.jpg" />                                                    <span class="icon-camera"></span>                </a>            </div>        </div>        <p>            <a href="/jornalismo/RedeTVNews/fotos/imagens-do-dia/caminhao-deixa-mortos-e-feridos-ao-invadir-feira-de-natal-em-berlim" title="Caminh&#227;o deixa mortos e feridos ao invadir feira de Natal em Berlim">                Caminh&#227;o deixa mortos e feridos ao invadir feira de Natal em Berlim            </a>        </p>      
+</div>
+<!--./galeria -->
+
+
+   </div>
+        <!-- mdl-social -->
+    <div class="row">
+        <div class="mdl-social col-md-4">
+            <h2 class="title">Rede Social</h2>
+            <div>
+                <a class="twitter-timeline" href="https://twitter.com/hashtag/redetvnews" data-widget-id="608990108465926144">redetvnews Tweets</a>
+                <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>
+            </div>
+        </div>
+        
+        <hr class="pub-mobile">
+
+        <!--./mdl-social -->
+
+        <div class=" col-md-4">
+            <div class="mdl-enquete" ng-controller="enqueteController" ng-init="init(4 , 52)">
+    <h2 class="title">Enquete</h2>
+    <div class="enquete-container ng-cloak">
+        <h3>{{obj.nmPergunta}}</h3>
+        <p>{{status}}</p>
+        <ul id="enqueteForm" class="enq-opt ng-hide" ng-show="showOptions">
+            <li ng-repeat="item in obj.Respostas">
+                <label>
+                    <input type="radio" ng-model="$parent.voto" name="votos" value="{{item.cdResposta}}" />{{item.nmResposta}}
+                </label>
+            </li>
+        </ul>
+
+        <ul id="enqueteResposta" class="enq-result ng-hide" ng-show="showResults">
+            <li ng-repeat="item in obj.Respostas">
+                <label>{{item.nmResposta}}</label>
+                <progress class="progressbar" value="{{item.nrPercentual}}" max="100"></progress>
+                <span class="progress-value">{{item.nrPercentual}}%</span>
+            </li>
+        </ul>
+    </div>
+    <input type="button" value="Voltar" class="btn-voltar ng-hide" ng-click="back()" ng-show="showButtonBack" />
+    <input type="button" value="Votar" class="btn-vote" ng-click="rate()" ng-disabled="disabledButtonRate" ng-show="showButtonRate" />
+    <input type="button" value="Resultado" class="btn-result" ng-click="results()" ng-disabled="disabledButtonResults" ng-show="showButtonResults" />
+</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="tm-ads img-nofx">
+            <script>window.uolads && window.uolads.push({ id: "banner-728x90-area" });</script>
+        </div>
+    </div>
+
+</div>
+<hr>
+
+<div class="clearfix"></div>
+
+        </div>
+    </div>
+
+     <!-- FOOTER -->
+<div class="footer">
+    <button class="footer-btn-top icon icon-arrow-up" title="Voltar ao topo" id="btn-scrollTop"></button>
+
+    <div class="container">
+        <div class="logo"><a href="/" title="Rede TV!"><span>Rede TV!</span></a></div>
+        <div class="separador"></div>
+
+        <section class="col-md-4 item nossosprogramas">
+            <blockquote>Nossos Programas <span class="icon icon-desktop"></span></blockquote>
+
+            <ul class="esquerdo">
+                <li><a href='http://www.redetv.uol.com.br/atardeesua/' title='A Tarde é Sua'>A Tarde é Sua</a></li><li><a href='http://www.redetv.uol.com.br/amauryjrshow' title='Amaury Jr. Show'>Amaury Jr. Show</a></li><li><a href='http://www.redetv.uol.com.br/bastidoresdocarnaval' title='Bastidores do Carnaval'>Bastidores do Carnaval</a></li><li><a href='http://www.redetv.uol.com.br/bolanarede' title='Bola na Rede'>Bola na Rede</a></li><li><a href='http://www.redetv.uol.com.br/conexaomodels' title='Conexão Models'>Conexão Models</a></li><li><a href='http://www.redetv.uol.com.br/jornalismo/documentoverdade' title='Documento Verdade'>Documento Verdade</a></li><li><a href='http://www.redetv.uol.com.br/enoticia' title='É Notícia'>É Notícia</a></li><li><a href='http://www.redetv.uol.com.br/encrenca/' title='Encrenca'>Encrenca</a></li><li><a href='http://www.redetv.uol.com.br/joaoklebershow' title='João Kléber Show'>João Kléber Show</a></li><li><a href='http://www.redetv.uol.com.br/leituradinamica' title='Leitura Dinâmica'>Leitura Dinâmica</a></li><li><a href='http://www.redetv.uol.com.br/lucianabynight/' title='Luciana By Night'>Luciana By Night</a></li><li><a href='http://www.redetv.uol.com.br/jornalismo/marianagodoyentrevista' title='Mariana Godoy Entrevista'>Mariana Godoy Entrevista</a></li><li><a href='http://www.redetv.uol.com.br/megasenha' title='Mega Senha'>Mega Senha</a></li><li><a href='http://www.redetv.uol.com.br/jornalismo/melhorpravoce' title='Melhor Pra Você'>Melhor Pra Você</a></li><li><a href='http://www.redetv.uol.com.br/oceueolimite' title='O Céu é o limite'>O Céu é o limite</a></li><li><a href='http://www.redetv.uol.com.br/operacaoderisco' title='Operação de Risco'>Operação de Risco</a></li><li><a href='http://www.redetv.uol.com.br/jornalismo/previsaodotempo/' title='Previsão do Tempo'>Previsão do Tempo</a></li><li><a href='http://www.redetv.uol.com.br/redetvnews' title='RedeTV News'>RedeTV News</a></li><li><a href='http://www.redetv.uol.com.br/redetvgeeks' title='RedeTV! Geeks'>RedeTV! Geeks</a></li><li><a href='http://www.redetv.uol.com.br/especiais/retrospectiva2016' title='Retrospectiva 2016'>Retrospectiva 2016</a></li><li><a href='http://www.redetv.uol.com.br/ritmobrasil' title='Ritmo Brasil'>Ritmo Brasil</a></li><li><a href='http://www.redetv.uol.com.br/sensacional' title='Sensacional'>Sensacional</a></li><li><a href='http://www.redetv.uol.com.br/superfaixadoesporte' title='Super Faixa do Esporte'>Super Faixa do Esporte</a></li><li><a href='http://www.redetv.uol.com.br/superfaixadoesporte' title='Super Liga de Vôlei'>Super Liga de Vôlei</a></li><li><a href='http://www.redetv.uol.com.br/superpop' title='SuperPop'>SuperPop</a></li><li><a href='http://www.redetv.uol.com.br/tasabendo' title='Tá Sabendo?'>Tá Sabendo?</a></li><li><a href='http://www.redetv.uol.com.br/tepeguei' title='Te Peguei'>Te Peguei</a></li><li><a href='http://www.redetv.uol.com.br/thetudors' title='The Tudors'>The Tudors</a></li><li><a href='http://www.redetv.uol.com.br/tvfama' title='TV Fama'>TV Fama</a></li>
+            </ul>
+        </section>
+
+
+
+        <section class="col-md-2 item links">
+            <blockquote>Links <span class="icon icon-link"></span></blockquote>
+
+            <ul>
+                <li><a href="/anuncie" title="Anuncie no Portal">Anuncie no Portal</a></li>
+                <li><a href="/colunistas" title="Colunistas">Colunistas</a></li>
+                <li><a href="/faleconosco/comercial" title="Comercial">Comercial</a></li>
+                <li

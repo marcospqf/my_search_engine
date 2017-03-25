@@ -14,5 +14,8 @@ using namespace std;
 int main()
 {
 	Crawler c;
-	c.Start(10);
+	c.SetFolder("./Collection/");
+	cout<<"Starting to crawl"<<endl;
+	c.Start(80);
+	cout<<"ACABOU JOVEM!"<<endl;
 }

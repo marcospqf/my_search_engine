@@ -11,6 +11,7 @@
 #include <CkSpider.h>
 #include <sstream>
 #include "scheduler.hpp"
+#include "FileWriter.hpp"
 using namespace std;
 
 
@@ -19,8 +20,12 @@ class Crawler
 	public:
 
 		Crawler();
-		// Starts to crawl
+		
 		void Start(int nthreads);
+
+		void SetFolder(string s);
+
+		static int ncraw;
 
 	private:
 
@@ -28,9 +33,13 @@ class Crawler
 		static string folderName;
 
 		static mutex scheduler_mutex;
-		// Number of threads the crawler will create in order to collect the pages
+		
+		static mutex crawlado;
+		
 		int nthreads;
 		
+		static string foldername;
+
 		void Crawl();
 
 };
