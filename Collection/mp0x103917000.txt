@@ -1,0 +1,743 @@
+|||
+http://tc.batepapo.uol.com.br/todas_as_salas.html?theme=/Idades
+|
+<!doctype html>
+<html lang="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Bate-papo UOL" />
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/466685703489724416/fl8Dhvzk_400x400.png" />
+
+        <base href="http://tc.batepapo.uol.com.br/">
+
+        <title>Bate-Papo UOL - Todas as salas</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="http://h.imguol.com/favicon.ico">
+    <link rel="apple-touch-icon" href="http://home.img.uol.com.br/icon-touch.png">
+
+        <link rel="stylesheet" href="//jsuol.com.br/c/bp/styles/all-rooms-fd4def1ecd.css">
+
+    <!--[if lte IE 9]>
+
+    <script src="//jsuol.com.br/c/bp/scripts/es5shim.js"></script>
+
+    <![endif]-->
+
+
+
+</head>
+<body>
+<div id="fb-root" bp-facebook></div>
+        <!-- uol bar -->
+        <div>
+            <div class="barrauol-bg full">
+                <div id="barrauol" class="buol2011">
+                    <ul class="poll-left">
+                        <li class="logouol"><a href="http://click.uol.com.br/?rf=barrageral&amp;u=http://www.uol.com.br/"
+                                               target="_top" title="UOL - O melhor conteúdo"><img
+                                src="http://imguol.com/c/_layout/v1/_geral/icones/logo-uol-2.png" border="0" width="61" height="21"
+                                alt="UOL - O melhor conteúdo" title="UOL - O melhor conteúdo"></a></li>
+                        <li class="suporte assinen"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=1&amp;grp=src:10;creative:barrauol&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://assine.uol.com.br/index.htm?eos=yes&amp;promo=117570810&amp;sg=300016192&amp;sa=UOL-barra-assine&amp;promochild=PROMOCOMBIAVSS"
+                                target="_top"><strong>Assine</strong>&nbsp;<span>0800 703 3000</span></a></li>
+                        <li class="suporte sacn"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://click.uol.com.br/?rf=barrageral&amp;u=https://sac.uol.com.br/">SAC</a>
+                        </li>
+                    </ul>
+                    <ul class="poll-right">
+                        <li class="canal buol_bate-papo"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://batepapo.uol.com.br/">Bate-papo</a></li>
+                        <li class="canal buol_e-mail"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://email.uol.com.br/">E-mail</a></li>
+                        <li class="canal buol_e-mailgratis"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=58&amp;grp=src:13;creative:barrauol_superior;link:email_gratis&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://www.bol.uol.com.br/">BOL</a>
+                        </li>
+                        <li class="canal buol_noticias"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://noticias.uol.com.br/">Notícias</a></li>
+                        <li class="canal buol_esporte"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://esporte.uol.com.br/">Esporte</a></li>
+                        <li class="canal buol_entretenimento"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://entretenimento.uol.com.br/">Entretenimento</a>
+                        </li>
+                        <li class="canal buol_mulher"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://mulher.uol.com.br/">Mulher</a></li>
+                        <li class="canal buol_radio"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://radio.uol.com.br/">Rádio</a></li>
+                        <li class="canal buol_video"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://tvuol.uol.com.br/">TV UOL</a></li>
+                        <li class="canal buol_shopping"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/shopping/?prd=239&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;nortrk=1&amp;grp=src:13;size:18;chn:103;creative:link_fixo;thm:barra_navegacao&amp;redir=http://shopping.uol.com.br/">Shopping</a>
+                        </li>
+                        <li class="canal buol_home-page"><a
+                                href="http://click.uol.com.br/?rf=home2011-cabecalho-pagina-inicial&amp;u=http://www.uol.com.br/p15"><i
+                                class="icone-casa-barraUOL"><!-- icone --></i></a>
+        
+                            <div><span>Faça do UOL sua home page</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div style="clear: left;"></div>
+            </div>
+        </div>
+        <!-- uol bar /end -->
+
+        <!-- uol logo -->
+        <header class="header">
+            <div class="centralize">
+                <a href="http://batepapo.uol.com.br">
+                    <img src="//imguol.com/c/bp/images/logo-v2.png" width="115" height="82" alt="Bate-papo UOL"/>
+                </a>
+        
+                <div class="ads" data-banner="tm-728x90">
+                    <iframe src="./tm728x90.html" frameborder="0" width="728" height="90"></iframe>
+                    
+                    
+                </div>
+            </div>
+        </header>
+        <!-- uol logo /end -->
+
+
+        <!-- search -->
+        <div class="search-area">
+            <section class="search internal">
+                <button class="menu-button internal"></button>
+                <div>
+                    <h1>Busque por:</h1>
+        
+                    <form class="search-form internal" action="index.html">
+        
+                        <div class="search-input">
+                            <input type="text" tabindex="3"/>
+                            <button></button>
+                        </div>
+                        <div class="search-options internal">
+                            <input type="radio" id="room-search" name="search-field" tabindex="3" value="room" checked/>
+                            <label for="room-search">Sala</label>
+        
+                            <input type="radio" id="user-search" name="search-field" tabindex="2" value="user"/>
+                            <label for="user-search">Participante</label>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- search / end -->
+
+
+
+
+
+        <div class="centralize pt-60px pb-60px">
+            <header class="page-title printing pb-30px">
+                <h1>TODAS AS SALAS</h1>
+            </header>
+
+            <!-- rooms -->
+            <div id="reactAllRooms">
+                <div class="la-ball-grid-beat la-3x centralize">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- rooms /end -->
+        </div>
+
+
+
+
+<!-- home stripe 8 -->
+
+<footer class="footer">
+
+    <div class="centralize">
+
+        <!-- about -->
+
+        <div class="about">
+            <section class="about-links">
+                <a href="#"><img src="//imguol.com/c/bp/images/logo-v2.png" width="102" height="73" alt="Bate-papo UOL"/></a>
+            </section>
+
+            <section class="about-links social">
+                <h3>Siga-nos nas Redes Sociais</h3>
+                <a href="https://twitter.com/batepapouol" target="_blank"><img src="//imguol.com/c/bp/images/icons/twitter.png"
+                                                                               width="45" height="46"
+                                                                               alt="Twitter"/></a>
+                <a href="https://www.facebook.com/BatePapoUOL" target="_blank"><img src="//imguol.com/c/bp/images/icons/facebook.png"
+                                                                                    width="45" height="46"
+                                                                                    alt="Facebook"/></a>
+            </section>
+
+            <section class="about-links">
+                <h3>Salas por temas</h3>
+
+                <div id="reactRoomsThemes">
+                </div>
+            </section>
+            <!-- about uol -->
+            		
+			
+			
+							
+						<!-- about uol -->
+<!-- build:aboutUol -->
+    <section class="about-links">
+        <h3>Sobre o BP</h3>
+        <ul>
+            
+                    
+                            <li><a href="http://batepapo.uol.com.br/indice_faq.html">Ajuda</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/faq/regras-de-uso-do-bate-papo-uol.html">Regras de uso</a></li>
+                        
+                
+                    
+                            <li data-send-error><a
+                                    onclick="s_objectID=&quot;javascript:ShowEnviaErro()_1&quot;;return this.s_oc?this.s_oc(e):true"
+                                    href="javascript:ShowEnviaErro()">Comunicar erro</a></li>
+                        
+                
+                    
+                            <li><a href="https://denuncia.uol.com.br/">Denuncie</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/indice_noticias.html">Notícias</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/albuns/2015/11/18/conheca-as-novas-salas-do-bate-papo-uol.html?fotoNav=1">Fotos</a></li>
+                        
+                
+        </ul>
+    </section>
+<!-- endbuild -->
+<!-- about uol /end -->
+						            <!-- about uol /end -->
+            <!-- moreProducts -->
+            		
+			
+			
+							
+						<!-- moreProducts -->
+<!-- build:moreProducts -->
+<section class="about-links">
+        <h3>Produtos UOL</h3>
+        <ul>
+            
+                    <li><a href="http://email.uol.com.br/gigamail/#rmcl" target="_blank">Gigamail</a></li>
+                
+                    <li><a href="http://uoleducacao.com.br/" target="_blank">Educação</a></li>
+                
+                    <li><a href="http://jogos.uol.com.br/loja/saladejogos/#rmcl" target="_blank">Loja de Jogos</a></li>
+                
+                    <li><a href="http://assistenciatecnica.uol.com.br/#rmcl" target="_blank">Assistência Técnica</a></li>
+                
+                    <li><a href="http://www.uolhost.com.br/#rmcl" target="_blank">UOL Host</a></li>
+                
+            <li><a href="http://produtos.uol.com.br/" target="_blank"><b>[+] Ver mais</b></a></li>
+        </ul>
+</section>
+<!-- endbuild -->
+<!-- moreProducts /end -->
+						            <!-- moreProducts /end -->
+        </div>
+
+        <!-- about /end -->
+
+        <!-- apps -->
+        <div class="apps">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="//imguol.com/c/bp/images/icons/mobile.png" alt="Baixe o app do Bate-Papo UOL" width="30"
+                             height="50"/>
+                        <span>Baixe o app do <br> Bate-Papo UOL</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://itunes.apple.com/us/app/bate-papo-uol-para-iphone/id806313157?ls=1&mt=8"
+                       target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/apple_store.png" alt="Disponível na App Store" width="145"
+                             height="43"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id=br.com.uol.batepapo" target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/play_store.png" alt="Disponível no Google Play" width="128"
+                             height="43"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://denuncia.uol.com.br/" target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/crimes.png" alt="Crimes na internet" width="139"
+                             height="43"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- apps /end -->
+
+        <!-- copyrights -->
+
+        <div class="copyrights printing">
+            © 1996 - 2015 UOL - O melhor conteúdo. Todos os direitos reservados. Hospedagem: UOL Host
+        </div>
+
+        <!-- copyright /end -->
+
+
+    </div>
+
+</footer>
+
+<!-- home stripe 8 /end -->
+
+<script src="//jsuol.com.br/c/bp/scripts/vendor-107fbe9555.js"></script>
+
+        <script src="//jsuol.com.br/c/bp/scripts/common-ea8041229f.js"></script>
+
+        <script src="//jsuol.com.br/c/bp/scripts/all_rooms-788dd7b428.js"></script>
+
+<link rel="stylesheet" href="//jsuol.com.br/c/bp/styles/font-face-fd781b91f2.css">
+
+
+
+
+
+
+        <script type="text/javascript" src="//tm.jsuol.com.br/uoltm.js?id=mzjgr6"></script>
+        
+        <!-- links patrocinados -->
+        <script type="text/javascript">
+            // variáveis de configuração
+            var LPIdentificador = "51eed576aff54be8b1311d90735f36a6";  // identificação do canal. Único para estações UOL
+            var LPEqualize = "_setWidth();";
+            var LPQtdAnuncio = 4; // quantidade de anúncios
+            var LPCookie = true;
+        </script>
+        <script type="text/javascript" src="http://lib.uol.com.br/liblp/liblp-3lp.js" ></script>
+        <!-- links patrocinados /end -->
+
+<!-- COMUNICAR ERRO -->
+<form method="post" action="http://app.uol.com.br/envie/enviar.php" name="reportar" target="iframeErros">
+    <input type="hidden" name="titmateria" value="Bate-papo UOL"/>
+    <input type="hidden" name="chmateria" id="chmateria" value='<%DATE format="dd/MM/yyyy"%>'>
+    <input type="hidden" name="estacao" value="Bate-papo UOL"/>
+    <input type="hidden" name="coderramos" value="33"/>
+    <input type="hidden" name="seunome" value=""/>
+    <input type="hidden" name="seuemail" value=""/>
+    <input type="hidden" name="descricao" value=""/>
+    <input type="hidden" name="urlmateria" value=""/>
+    <input type="hidden" name="obrigado" value=""/>
+</form>
+<script async="" src="http://lib.uol.com.br/fullopacity/fullopacity.js"></script>
+<script type="text/javascript" src="http://tc.batepapo.uol.com.br/assets/comunicar-erro.js" charset="ISO-8859-1"></script>
+<!-- COMUNICAR ERRO / end-->
+
+
+
+
+
+</body>
+</html>
+
+|||
+http://seminariosfolha.folha.com.br?cmpid=menutopo
+|
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Seminário Folha">
+  <meta name="keywords" content="Seminário Folha">
+  <title>Seminário Folha</title>
+  <link href="css/basic.css?2016120101" type="text/css" rel="stylesheet">
+  <script src="http://static.folha.uol.com.br/library/modernizr/2.6.2/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="top">
+      <header class="header">
+        <p><img src="images/modelo08_01.jpg" alt="Logo Seminários Folha" width="524" height="90"></p>
+        <p class="title">O Brasil precisa ser discutido. <br> Quem concorda segue a Folha.</p>
+        <p class="descripition-title">Existem discussões que não podem mais ser adiadas. Com o propósito de contribuir com ideias para solucionar os maiores desafios do país, a Folha de S.Paulo está promovendo debates importantes sobre temas relevantes à nossa realidade. Todos abordados com a credibilidade, o criticismo e o pluralismo que caracterizam o jornal.</p>
+       <p class="descripition-title">Veja a programação dos próximos seminários:</p>
+       <!-- <p class="descripition-title">Veja a programação dos próximos seminários:</p>-->
+        <!--<span class="descripition-title descripition-title-others">Veja os temas que já foram discutidos:</span><br>-->
+      </header>
+        <div class="stars"><img src="images/estrelas-13x48.png" alt="estrelas" width="13" height="48"></div>
+    </div>
+
+        <div class="section-content">
+
+          <div class="section-forum">
+          
+          
+
+
+			<section class="forumsaude">
+              <header>
+                <h2>4º Fórum a saúde do Brasil</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Em sua 4ª edição, estarão em discussão as fraudes, a falta de informação, os planos de saúde, os altos custos e o desperdício de recursos tanto no sistema público quanto no privado.</span>
+                <span class="description">Data do evento: <time datetime="2016-11-29 9:00"><strong>27 e 28 de março 2017</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/forumsaude" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            <p class="descripition-title">Veja os temas que já foram discutidos:</p>
+            
+            <section class="comofalardehpv">
+              <header>
+                <h2>Adolescência: como falar de HPV</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Nesse seminário o tema é o desafio de deixar a população imune ao HPV. Será discutido o tabu que ainda é o diálogo sobre doenças sexualmente transmissíveis com adolescentes.</span>
+                <span class="description">Data do evento: <time datetime="2016-11-29 9:00"><strong>29 de novembro 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/comofalardehpv" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            
+            
+                       
+            <section class="baixocarbono">
+              <header>
+                <h2>Fórum economia de baixo carbono</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Participe da reflexão sobre o momento economico e industrial que o país atravessa diante da transição para uma economia limpa e quais os caminhos que o Brasil precisa seguir para construir uma economia de baixo carbono.</span>
+                <span class="description">Data do evento: <time datetime="2016-11-23 9:00"><strong>23 de novembro 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/baixocarbono" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            
+            <section class="inovacaoeducativa">
+              <header>
+                <h2>Fórum inovação educativa</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Uma nova educação, um novo mundo. Venha discutir a inovação e tecnologia na educação, o papel e a formação dos professores no novo século, além da reforma educacional brasileira.</span>
+                <span class="description">Data do evento: <time datetime="2016-11-23 9:00"><strong>22 e 23 de novembro 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/inovacaoeducativa" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            
+          
+            
+            <section class="comercioexterior">
+              <header>
+                <h2>Fórum de Comércio Exterior</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Grandes especialistas estarão reunidos para discutir os desafios do comércio exterior do país, desde sua ampliação até a saída do isolamento e a integração do Brasil à cadeia global de produção. Participe. Não dá pra não ir.</span>
+                <span class="description">Data do evento: <time datetime="2016-10-25 10:00"><strong>25 de outubro 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2016/comercio-exterior/" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            
+            <section class="impactoseevidencias">
+              <header>
+                <h2>Seminário Internacional Impactos e evidências</h2>
+              </header>
+              <div class="offseta">
+                <span class="description">Promovido pelo Instituto Unibanco e correalizado pela Folha, <br>o seminário reúne mais uma vez especialistas para discutir formas<br> de melhorar a qualidade da educação pública.</span>
+                <span class="description">Data do evento: <time datetime="2016-08-23 10:00"><strong>15 e 16 de setembro 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/gestaoescolar" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+                
+              </div>
+            </section>
+            
+            
+            <section class="revolucaoenergetica">
+              <header>
+                <h2>Fórum revolução energética</h2>
+              </header>
+              <div class="offseta">
+                <span class="description">Especialistas no assunto discutirão se o Brasil pode chegar em 2050 com 100% de participação de fontes renováveis em sua matriz de energia.
+                Com essa possibilidade em mente, as emissões de gases de efeito estufa, a poluição do ar, a integração do sistema elétrico e a melhoria na qualidade de vida nas cidades serão enfocados no debate.</span>
+                <span class="description">Data do evento: <time datetime="2016-08-23 10:00"><strong>23 de agosto 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/revolucaoenergetica" target="_blank">Para mais informações clique aqui!</a></span>
+                
+         
+                
+              </div>
+            </section>
+            
+            <section class="economialimpa">
+              <header>
+                <h2>Fórum economia limpa</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Especialistas e convidados discutirão sobre a busca por soluções verdes, a utilização de materiais reciclados, a emissão de carbono,
+                 a renovação da matriz energética, a economia circular, e outros assuntos essenciais para nosso futuro.</span>
+                <span class="description">Data do evento: <time datetime="2016-06-20 10:00"><strong>20 e 21 de junho 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/economialimpa" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+              </div>
+            </section>
+            
+            <section class="saudeecrise">
+              <header>
+                <h2>A saúde em tempo de recessão</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Grandes especialistas irão se reunir com o objetivo de discutir como a crise econômica pode impactar a saúde pública no país.</span>
+                <span class="description">Data do evento: <time datetime="2016-06-14 10:00"><strong>14 e 15 de junho 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/saudeecrise" target="_blank">Para mais informações clique aqui!</a></span>
+               
+                
+              </div>
+            </section>
+            
+            
+            <section class="cidadeseterritorios">
+              <header>
+                <h2>Seminário Cidades e Territórios</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Venha discutir políticas sociais em grandes centros urbanos.</span>
+                <span class="description">Data do evento: <time datetime="2016-05-14 10:00"><strong>14 de junho 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/cidadeseterritorios" target="_blank">Para mais informações clique aqui!</a></span>
+                
+               
+                
+              </div>
+            </section>
+            
+            
+            
+            <section class="cancer">
+              <header>
+                <h2>Fórum O Futuro do Combate ao Câncer</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Fórum o Futuro do combate ao Câncer: os principais avanços e obstáculos da medicina contra o câncer, abordando temas das áreas de pesquisa, tecnologia e novas terapias.</span>
+                <span class="description">Data do evento: <time datetime="2016-03-29 10:00"><strong>29 e 30 de março de 2016</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2016/forum-combate-ao-cancer" target="_blank">Para mais informações clique aqui!</a></span>
+               
+                
+              </div>
+            </section>
+            
+            
+            
+            <section class="carbono">
+              <header>
+                <h2>Economia de Baixo Carbono</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Debate sobre uma mudança no sistema tributário que contemple a tributação da emissão de gases de efeito estufa, 
+                corrigindo as distorções da estrutura de tributos sobre bens e serviços.</span>
+                <span class="description">Data do evento: <time datetime="2015-11-24 10:00"><strong>24 de novembro de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/baixocarbono" target="_blank">Para mais informações clique aqui!</a></span>
+               
+                
+              </div>
+            </section>
+            
+            
+            
+            
+            <section class="transporte">
+              <header>
+                <h2>Fórum Infraestrutura de Transporte</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Fórum Infraestrutura de Transporte: Os caminhos que o Brasil já pode percorrer e os que ele ainda precisa construir.</span>
+                <span class="description">Data do evento: <time datetime="2015-11-24 10:00"><strong>24 e 25 de novembro de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com/infradetransporte" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+              </div>
+            </section>
+            
+            
+            
+            <section class="digitalizacao">
+              <header>
+                <h2>Fórum Digitalização</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Soluções para um Brasil mais competitivo. Venha discutir a inovação como um diferencial na produtividade da indústria, 
+                nas perspectivas dos negócios e na construção de uma economia mais forte.</span>
+                <span class="description">Data do evento: <time datetime="2015-09-28 10:00"><strong>28 de setembro de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/forumdigitalizacao" target="_blank">Para mais informações clique aqui!</a></span>
+                
+                
+              </div>
+            </section>
+            
+            
+            <section class="desmatamento">
+              <header>
+                <h2>Desmatamento Zero</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Com o objetivo de contribuir para a discussão sobre o tema, a Folha, com o apoio da CLUA (Climate and Land Use Alliance), reúne grandes especialistas e convidados.</span>
+                <span class="description">Data do evento: <time datetime="2015-09-21 10:00"><strong>21 e 22 de setembro de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2015/forum-desmatamento-zero/" target="_blank">Para mais informações clique aqui!</a></span>
+               
+              </div>
+            </section>
+            
+            
+            <section class="internacional">
+              <header>
+                <h2>Gestão Escolar</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Promovidos pelo Instituto Unibanco e correalizados pela Folha reúnem especialistas para discutir formas de melhorar a gestão da escola pública.</span>
+                <span class="description">Data do evento: <time datetime="2015-09-02 10:00"><strong>2 e 3 de setembro de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2015/seminario-gestao-escolar" target="_blank">Para mais informações clique aqui!</a></span>
+                
+              </div>
+            </section>
+            
+            
+            <section class="tecnologia">
+              <header>
+                <h2>Tecnologia</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Debate e troca de conhecimento quanto ao uso de novas tecnologias na prevenção e no tratamento de doenças e 
+na ampliação do acesso à saúde.</span>
+                <span class="description">Data do evento: <time datetime="2015-08-31 10:00"><strong>31 de agosto de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2015/forum-de-tecnologia-em-saude/" target="_blank">Para mais informações clique aqui!</a></span>
+                              </div>
+            </section>
+            
+            
+
+            <section class="saude-II">
+              <header>
+                <h2>Saúde</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Dirigentes de hospitais, clínicas e serviços de saúde, empresários do setor, médicos etc, colocam em pauta mais um debate sobre a saúde no Brasil.</span>
+                <span class="description">Data do evento: <time datetime="2015-05-11 10:00"><strong>11 e 12 de maio de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2015/2-forum-a-saude-do-brasil/" target="_blank">Para mais informações clique aqui!</a></span>
+               
+              </div>
+            </section>
+            
+            
+            
+            <section class="contraband">
+              <header>
+                <h2>Contrabando</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Debate sobre o contrabando e seus impactos na economia brasileira, incluindo indústrias e setores mais afetados, e os caminhos para combatê-lo.</span>
+                <span class="description">Data do evento: <time datetime="2015-03-18 10:00"><strong>18 e 19 de março de 2015</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2015/seminarios-folha-contrabando/" target="_blank">Para mais informações clique aqui!</a></span>
+                
+              </div>
+            </section>
+            
+            
+
+            <section class="export-forum">
+              <header>
+              <h2>Fórum de exportação</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Discussões sobre o deficit na balança, impostos, o efeito China, <br>câmbio, protecionismo, entre outros assuntos.</span>
+                <span class="description">Data do evento: <time datetime="2014-08-27 10:00"><strong>27 e 28 de agosto de 2014</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/seminariosfolha/2014/08/1506278-folha-discute-exportacoes-brasileiras-em-seminario.shtml" target="_blank">Para mais informações clique aqui!</a></span>
+              </div>
+            </section>
+
+            <section class="sustainability-forum">
+              <header>
+                <h2>Fórum de Sustentabilidade</h2>
+              </header>
+              <div class="offset">
+                <span class="description">A Folha traça um panorama das principais questões ambientais <br>que o brasileiro enfrenta em seu dia a dia.</span>
+                <span class="description">Data do evento: <time datetime="2014-06-02 10:00"><strong>2 e 3 de junho de 2014</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/forumsustentabilidade" target="_blank">Para mais informações clique aqui!</a></span>
+              </div>
+            </section>
+
+            <section class="health-brazil">
+              <header>
+                <h2>Sáude do Brasil</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Sintomas, diagnósticos e tratamento para um dos <br>assuntos mais importantes do Brasil: a saúde.</span>
+                <span class="description">Data do evento: <time datetime="2014-03-26 10:00"><strong>26 e 27 de março de 2014</strong></time></span>
+                <span class="link-subtitle"><a href="http://www1.folha.uol.com.br/especial/2014/saudedobrasil/" target="_blank">Para mais informações clique aqui!</a></span>
+              </div>
+            </section>
+
+            <section class="urban-mobility">
+              <header>
+                <h2>Mobilidade Urbana</h2>
+              </header>
+              <div class="offset">
+                <span class="description">Siga as discussões sobre um tema que tem <br> andado pouco no país.</span>
+                <span class="description">Data do evento: <time datetime="2014-10-09 10:00"><strong>9 e 10 de outubro de 2013</strong></time></span>
+                <span class="link-subtitle"><a href="http://www.folha.com.br/mobilidadeurbana" target="_blank">Para mais informações clique aqui!</a></span>
+              </div>
+            </section>
+
+            <div class="social">
+              <img src="images/social_logos-332x94.png" alt="Siga a Folha">
+            </div>
+
+          </div>
+
+          <div class="item-image">
+            <img src="images/sustentabilidade-332x1444a.png?2016120101" alt="Sustentabilidade" border="0" style="display: block;">
+            <img src="images/sustentabilidade-332x1444b.png?2016120101" alt="Sustentabilidade" border="0" style="display: block;">
+          </div>
+
+        </div>
+    </div>
+
+
+
+    <!--IVC -->
+    <script type="text/javascript"> 
+    var ivcUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudfront.net/" :
+      "http://ivccftag.ivcbrasil.org.br/") + "ivc.js";
+    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+      p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+      };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagNa

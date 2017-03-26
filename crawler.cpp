@@ -51,7 +51,7 @@ void Crawler::Crawl()
 	fw.OpenStream();
 	int cont=0;
 	while(true){
-		if(cont>100000) break;
+		if(cont>50000) break;
 		scheduler_mutex.lock();
 		string nextUrl= Scheduler::TopUrl();
 		Crawler::scheduler_mutex.unlock();
@@ -79,22 +79,26 @@ void Crawler::Crawl()
 			unordered_set<int> jafoi;
 			for(int x=0;x<sz;x++){
 					Crawler::scheduler_mutex.lock();
-					Scheduler::PushUrl(spider.getOutboundLink(x),false);
+					string Url=spider.getOutboundLink(x);
+					Url=spider.canonicalizeUrl(Url.c_str());
+					Scheduler::PushUrl(Url,false);
 					Crawler::scheduler_mutex.unlock();
 				}
 			spider.ClearOutboundLinks();
 			sz=spider.get_NumUnspidered();
 			
-			while(jafoi.size()<min(sz,35)){
+			while(jafoi.size()<min(sz,26)){
 				int x=rand()%sz;
 				//cout<<"NO WHILE"<<endl;
 				if(!jafoi.count(x)){
 					jafoi.insert(x);
 					CkString Next;
 					spider.GetUnspideredUrl(x,Next);
-
+					
 					Crawler::scheduler_mutex.lock();
-					Scheduler::PushUrl(Next.getString(),true);
+					
+					string Url=spider.canonicalizeUrl(Next.getString());
+					Scheduler::PushUrl(Url,true);
 					Crawler::scheduler_mutex.unlock();
 
 				}

@@ -1,0 +1,1262 @@
+|||
+http://tc.batepapo.uol.com.br/todas_as_salas.html?theme=/Amizade
+|
+<!doctype html>
+<html lang="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Bate-papo UOL" />
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/466685703489724416/fl8Dhvzk_400x400.png" />
+
+        <base href="http://tc.batepapo.uol.com.br/">
+
+        <title>Bate-Papo UOL - Todas as salas</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="http://h.imguol.com/favicon.ico">
+    <link rel="apple-touch-icon" href="http://home.img.uol.com.br/icon-touch.png">
+
+        <link rel="stylesheet" href="//jsuol.com.br/c/bp/styles/all-rooms-fd4def1ecd.css">
+
+    <!--[if lte IE 9]>
+
+    <script src="//jsuol.com.br/c/bp/scripts/es5shim.js"></script>
+
+    <![endif]-->
+
+
+
+</head>
+<body>
+<div id="fb-root" bp-facebook></div>
+        <!-- uol bar -->
+        <div>
+            <div class="barrauol-bg full">
+                <div id="barrauol" class="buol2011">
+                    <ul class="poll-left">
+                        <li class="logouol"><a href="http://click.uol.com.br/?rf=barrageral&amp;u=http://www.uol.com.br/"
+                                               target="_top" title="UOL - O melhor conteúdo"><img
+                                src="http://imguol.com/c/_layout/v1/_geral/icones/logo-uol-2.png" border="0" width="61" height="21"
+                                alt="UOL - O melhor conteúdo" title="UOL - O melhor conteúdo"></a></li>
+                        <li class="suporte assinen"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=1&amp;grp=src:10;creative:barrauol&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://assine.uol.com.br/index.htm?eos=yes&amp;promo=117570810&amp;sg=300016192&amp;sa=UOL-barra-assine&amp;promochild=PROMOCOMBIAVSS"
+                                target="_top"><strong>Assine</strong>&nbsp;<span>0800 703 3000</span></a></li>
+                        <li class="suporte sacn"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://click.uol.com.br/?rf=barrageral&amp;u=https://sac.uol.com.br/">SAC</a>
+                        </li>
+                    </ul>
+                    <ul class="poll-right">
+                        <li class="canal buol_bate-papo"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://batepapo.uol.com.br/">Bate-papo</a></li>
+                        <li class="canal buol_e-mail"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://email.uol.com.br/">E-mail</a></li>
+                        <li class="canal buol_e-mailgratis"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/?prd=58&amp;grp=src:13;creative:barrauol_superior;link:email_gratis&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;redir=http://www.bol.uol.com.br/">BOL</a>
+                        </li>
+                        <li class="canal buol_noticias"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://noticias.uol.com.br/">Notícias</a></li>
+                        <li class="canal buol_esporte"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://esporte.uol.com.br/">Esporte</a></li>
+                        <li class="canal buol_entretenimento"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://entretenimento.uol.com.br/">Entretenimento</a>
+                        </li>
+                        <li class="canal buol_mulher"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://mulher.uol.com.br/">Mulher</a></li>
+                        <li class="canal buol_radio"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://radio.uol.com.br/">Rádio</a></li>
+                        <li class="canal buol_video"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://tvuol.uol.com.br/">TV UOL</a></li>
+                        <li class="canal buol_shopping"><a
+                                href="http://click.uol.com.br/?rf=barrageral&amp;u=http://clicklogger.rm.uol.com.br/shopping/?prd=239&amp;msr=Cliques%20de%20Origem:1&amp;oper=11&amp;nortrk=1&amp;grp=src:13;size:18;chn:103;creative:link_fixo;thm:barra_navegacao&amp;redir=http://shopping.uol.com.br/">Shopping</a>
+                        </li>
+                        <li class="canal buol_home-page"><a
+                                href="http://click.uol.com.br/?rf=home2011-cabecalho-pagina-inicial&amp;u=http://www.uol.com.br/p15"><i
+                                class="icone-casa-barraUOL"><!-- icone --></i></a>
+        
+                            <div><span>Faça do UOL sua home page</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div style="clear: left;"></div>
+            </div>
+        </div>
+        <!-- uol bar /end -->
+
+        <!-- uol logo -->
+        <header class="header">
+            <div class="centralize">
+                <a href="http://batepapo.uol.com.br">
+                    <img src="//imguol.com/c/bp/images/logo-v2.png" width="115" height="82" alt="Bate-papo UOL"/>
+                </a>
+        
+                <div class="ads" data-banner="tm-728x90">
+                    <iframe src="./tm728x90.html" frameborder="0" width="728" height="90"></iframe>
+                    
+                    
+                </div>
+            </div>
+        </header>
+        <!-- uol logo /end -->
+
+
+        <!-- search -->
+        <div class="search-area">
+            <section class="search internal">
+                <button class="menu-button internal"></button>
+                <div>
+                    <h1>Busque por:</h1>
+        
+                    <form class="search-form internal" action="index.html">
+        
+                        <div class="search-input">
+                            <input type="text" tabindex="3"/>
+                            <button></button>
+                        </div>
+                        <div class="search-options internal">
+                            <input type="radio" id="room-search" name="search-field" tabindex="3" value="room" checked/>
+                            <label for="room-search">Sala</label>
+        
+                            <input type="radio" id="user-search" name="search-field" tabindex="2" value="user"/>
+                            <label for="user-search">Participante</label>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <!-- search / end -->
+
+
+
+
+
+        <div class="centralize pt-60px pb-60px">
+            <header class="page-title printing pb-30px">
+                <h1>TODAS AS SALAS</h1>
+            </header>
+
+            <!-- rooms -->
+            <div id="reactAllRooms">
+                <div class="la-ball-grid-beat la-3x centralize">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- rooms /end -->
+        </div>
+
+
+
+
+<!-- home stripe 8 -->
+
+<footer class="footer">
+
+    <div class="centralize">
+
+        <!-- about -->
+
+        <div class="about">
+            <section class="about-links">
+                <a href="#"><img src="//imguol.com/c/bp/images/logo-v2.png" width="102" height="73" alt="Bate-papo UOL"/></a>
+            </section>
+
+            <section class="about-links social">
+                <h3>Siga-nos nas Redes Sociais</h3>
+                <a href="https://twitter.com/batepapouol" target="_blank"><img src="//imguol.com/c/bp/images/icons/twitter.png"
+                                                                               width="45" height="46"
+                                                                               alt="Twitter"/></a>
+                <a href="https://www.facebook.com/BatePapoUOL" target="_blank"><img src="//imguol.com/c/bp/images/icons/facebook.png"
+                                                                                    width="45" height="46"
+                                                                                    alt="Facebook"/></a>
+            </section>
+
+            <section class="about-links">
+                <h3>Salas por temas</h3>
+
+                <div id="reactRoomsThemes">
+                </div>
+            </section>
+            <!-- about uol -->
+            		
+			
+			
+							
+						<!-- about uol -->
+<!-- build:aboutUol -->
+    <section class="about-links">
+        <h3>Sobre o BP</h3>
+        <ul>
+            
+                    
+                            <li><a href="http://batepapo.uol.com.br/indice_faq.html">Ajuda</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/faq/regras-de-uso-do-bate-papo-uol.html">Regras de uso</a></li>
+                        
+                
+                    
+                            <li data-send-error><a
+                                    onclick="s_objectID=&quot;javascript:ShowEnviaErro()_1&quot;;return this.s_oc?this.s_oc(e):true"
+                                    href="javascript:ShowEnviaErro()">Comunicar erro</a></li>
+                        
+                
+                    
+                            <li><a href="https://denuncia.uol.com.br/">Denuncie</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/indice_noticias.html">Notícias</a></li>
+                        
+                
+                    
+                            <li><a href="http://batepapo.uol.com.br/albuns/2015/11/18/conheca-as-novas-salas-do-bate-papo-uol.html?fotoNav=1">Fotos</a></li>
+                        
+                
+        </ul>
+    </section>
+<!-- endbuild -->
+<!-- about uol /end -->
+						            <!-- about uol /end -->
+            <!-- moreProducts -->
+            		
+			
+			
+							
+						<!-- moreProducts -->
+<!-- build:moreProducts -->
+<section class="about-links">
+        <h3>Produtos UOL</h3>
+        <ul>
+            
+                    <li><a href="http://email.uol.com.br/gigamail/#rmcl" target="_blank">Gigamail</a></li>
+                
+                    <li><a href="http://uoleducacao.com.br/" target="_blank">Educação</a></li>
+                
+                    <li><a href="http://jogos.uol.com.br/loja/saladejogos/#rmcl" target="_blank">Loja de Jogos</a></li>
+                
+                    <li><a href="http://assistenciatecnica.uol.com.br/#rmcl" target="_blank">Assistência Técnica</a></li>
+                
+                    <li><a href="http://www.uolhost.com.br/#rmcl" target="_blank">UOL Host</a></li>
+                
+            <li><a href="http://produtos.uol.com.br/" target="_blank"><b>[+] Ver mais</b></a></li>
+        </ul>
+</section>
+<!-- endbuild -->
+<!-- moreProducts /end -->
+						            <!-- moreProducts /end -->
+        </div>
+
+        <!-- about /end -->
+
+        <!-- apps -->
+        <div class="apps">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="//imguol.com/c/bp/images/icons/mobile.png" alt="Baixe o app do Bate-Papo UOL" width="30"
+                             height="50"/>
+                        <span>Baixe o app do <br> Bate-Papo UOL</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://itunes.apple.com/us/app/bate-papo-uol-para-iphone/id806313157?ls=1&mt=8"
+                       target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/apple_store.png" alt="Disponível na App Store" width="145"
+                             height="43"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://play.google.com/store/apps/details?id=br.com.uol.batepapo" target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/play_store.png" alt="Disponível no Google Play" width="128"
+                             height="43"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://denuncia.uol.com.br/" target="_blank">
+                        <img src="//imguol.com/c/bp/images/icons/crimes.png" alt="Crimes na internet" width="139"
+                             height="43"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- apps /end -->
+
+        <!-- copyrights -->
+
+        <div class="copyrights printing">
+            © 1996 - 2015 UOL - O melhor conteúdo. Todos os direitos reservados. Hospedagem: UOL Host
+        </div>
+
+        <!-- copyright /end -->
+
+
+    </div>
+
+</footer>
+
+<!-- home stripe 8 /end -->
+
+<script src="//jsuol.com.br/c/bp/scripts/vendor-107fbe9555.js"></script>
+
+        <script src="//jsuol.com.br/c/bp/scripts/common-ea8041229f.js"></script>
+
+        <script src="//jsuol.com.br/c/bp/scripts/all_rooms-788dd7b428.js"></script>
+
+<link rel="stylesheet" href="//jsuol.com.br/c/bp/styles/font-face-fd781b91f2.css">
+
+
+
+
+
+
+        <script type="text/javascript" src="//tm.jsuol.com.br/uoltm.js?id=mzjgr6"></script>
+        
+        <!-- links patrocinados -->
+        <script type="text/javascript">
+            // variáveis de configuração
+            var LPIdentificador = "51eed576aff54be8b1311d90735f36a6";  // identificação do canal. Único para estações UOL
+            var LPEqualize = "_setWidth();";
+            var LPQtdAnuncio = 4; // quantidade de anúncios
+            var LPCookie = true;
+        </script>
+        <script type="text/javascript" src="http://lib.uol.com.br/liblp/liblp-3lp.js" ></script>
+        <!-- links patrocinados /end -->
+
+<!-- COMUNICAR ERRO -->
+<form method="post" action="http://app.uol.com.br/envie/enviar.php" name="reportar" target="iframeErros">
+    <input type="hidden" name="titmateria" value="Bate-papo UOL"/>
+    <input type="hidden" name="chmateria" id="chmateria" value='<%DATE format="dd/MM/yyyy"%>'>
+    <input type="hidden" name="estacao" value="Bate-papo UOL"/>
+    <input type="hidden" name="coderramos" value="33"/>
+    <input type="hidden" name="seunome" value=""/>
+    <input type="hidden" name="seuemail" value=""/>
+    <input type="hidden" name="descricao" value=""/>
+    <input type="hidden" name="urlmateria" value=""/>
+    <input type="hidden" name="obrigado" value=""/>
+</form>
+<script async="" src="http://lib.uol.com.br/fullopacity/fullopacity.js"></script>
+<script type="text/javascript" src="http://tc.batepapo.uol.com.br/assets/comunicar-erro.js" charset="ISO-8859-1"></script>
+<!-- COMUNICAR ERRO / end-->
+
+
+
+
+
+</body>
+</html>
+
+|||
+http://xdesexo.blogfolha.uol.com.br
+|
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" >
+	<!-- readspeaker ads -->
+	<!-- <script src="http://www1.folha.uol.com.br/blogs/readspeaker-ads.js"></script> -->
+	<!-- favicon -->
+	<link rel="shortcut icon" href="//f.i.uol.com.br/favicon.ico">
+	<title>X de Sexo &#8211; A cama é de todos</title>
+<script>var deviceType = "desktop" </script>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//code.jquery.com' />
+<link rel='dns-prefetch' href='//static.folha.uol.com.br' />
+<link rel='dns-prefetch' href='//tag.navdmp.com' />
+<link rel='dns-prefetch' href='//f1.na.readspeaker.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/xdesexo.blogfolha.uol.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='comentarios-css'  href='http://static.folha.uol.com.br/blogs/folha/css/3/common/comments.css?ver=4.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='folhablogs-style-css'  href='http://static.folha.uol.com.br/blogs/folha/css/4/common/base.min.css?ver=20170326' type='text/css' media='all' />
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-migrate-1.2.1.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://static.folha.uol.com.br/library/modernizr/2.6.2/modernizr.js?ver=20170326'></script>
+<script type='text/javascript' src='http://tag.navdmp.com/tm23947.js?ver=20170326'></script>
+<script type='text/javascript' src='http://static.folha.uol.com.br/folha/js/5.4/common/common.js?ver=20170326'></script>
+<script type='text/javascript' src='http://f1.na.readspeaker.com/script/6877/ReadSpeaker.js?pids=embhl&#038;ver=20170326'></script>
+<link rel='https://api.w.org/' href='http://xdesexo.blogfolha.uol.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://xdesexo.blogfolha.uol.com.br/xmlrpc.php?rsd" />
+<!-- Social media tags -->
+<meta property="fb:app_id" content="554363517934447" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="X de Sexo - Folha de S.Paulo - Blogs" />
+<meta property="og:url" content="http://xdesexo.blogfolha.uol.com.br/" />
+<meta property="og:title" content="X de Sexo - A cama é de todos" />
+<meta property="og:type" content="website">
+<meta property="description" content="A cama é de todos" />
+<meta property="og:description" content="A cama é de todos" />
+<meta property="og:image" content="http://f.i.uol.com.br/folha/furniture/5.2/images/lgo-folha_facebook.jpg" />
+<!-- Social media tags //-->
+<script>
+	folha.information.section = "online.blog.xdesexo" ;
+	folha.information.page.channel = "blogs";
+	folha.information.page.subchannel = "X de Sexo"  ;
+
+	/*Tag Manager*/
+	folha.tag_manager.banners = ["banner-970x90-1", "banner-728x90-1", "banner-300x50-1", "banner-300x600-1", "banner-300x600-2", "banner-300x250-2", "banner-300x250-3", "banner-1x1-2"];
+	folha.tag_manager.create() ;
+	</script>
+	<script src="http://tm.uol.com.br/h/par/folha.js"></script><style type='text/css'>
+		.boxuolmais {
+			display: block;
+			float: left;
+			max-width: 100%;
+			visibility: visible !important;
+			/* alignment CSS placeholder */
+		}
+		.boxuolmais img {
+			max-width: 100%;
+			height: 100%;
+		}
+		.boxuolmais object {
+			max-width: 100%;
+		}
+		</style><script type="text/javascript" src="http://static.folha.uol.com.br/blogs/folha/js/1/comentarios.min.validacao.js?2016111601" charset="windows-1252"></script>
+	
+		
+		<script src="http://jsuol.com.br/barra/parceiro.js?parceiro=folha"></script>
+		<script charset="windows-1252" src="//www1.folha.uol.com.br/folha/furniture/navbar/search.js"></script>
+
+	
+</head>
+<body class="home blog" itemscope itemtype="http://schema.org/Blog">
+	<a id="anchor-top"></a>
+	<div class="full">
+	<!-- full -->
+			<div class="col-lg-12 col-sm-12 col-xs-12">
+			<!-- grid -->
+				<header class="main-header" >
+					<div class="container">
+					<!-- container -->
+						<a class="main-menu-button"></a>
+						<div class="top-title" >
+
+															<h1 class="blog-title"><a href="http://xdesexo.blogfolha.uol.com.br/" rel="home" >X de Sexo</a></h1>
+							
+															<p class="blog-description">A cama é de todos</p>
+													</div>
+					<!-- container -->
+					</div>
+				</header>
+			<!-- grid -->
+			</div>
+	<!-- full -->
+	</div>
+
+	<section class="main-menu"></section>
+
+	<section class="intro">
+			<!-- introdu -->
+		<div class="container">
+		<!-- container -->
+			<div class="row">
+			<!-- row -->
+				<div class="col-lg-12 col-sm-12 col-xs-12" id="author-profile-display">
+					<!-- INFORMAES DO AUTOR -->
+						<div class="author-profile" itemscope itemtype="http://schema.org/Person">
+
+		<img class="image-description" itemprop="image" src="http://f.i.uol.com.br/folha/colunas/images/16120514.jpeg" alt=" - ">		<div class="description" itemprop="description"><p>Blog fala de sexo a partir de histórias do dia a dia, narra experiências reais e conta com a colaboração de leitores. É produzido de <b>forma anônima</b>.</p>
+<p><a href="http://xdesexo.blogfolha.uol.com.br/perfil/">Perfil completo</a></p>
+</div>		<div class="blog-info">
+			<ul class="contact">
+				<li class="hidden"><span itemprop="name">Carmen</span></li>				<li><a href="mailto:carmenfaladesexo@gmail.com" itemprop="email"><span class="icon-blog icon-mail"></span> carmenfaladesexo@gmail.com</a></li>				<li><a href="http://xdesexo.blogfolha.uol.com.br/feed/" itemprop="url"><span class="icon-blog icon-rss"></span> Assine o feed do blog</a></li>
+															</ul>
+		</div>
+
+	</div>
+					<!-- INFORMAES DO AUTOR -->
+				</div>
+			<!-- row -->
+			</div>
+
+		</div>
+		<!-- container -->
+	</section>
+
+	<!-- TOP ADS 1260-->
+	<div class="container">
+	<!-- container -->
+		<div class="row">
+		<!-- row -->
+			<div class="col-lg-12 col-sm-12 col-xs-12">
+			<!-- grid -->
+				<div class="box-ads-1260">
+
+					<!-- ad-970x90-1 -->
+					<div id="ad-970x90-1" class="advertising ad-970x90">
+						<span class="label">Publicidade</span>
+						<div id="banner-970x90-1-area" class="tm-ads"></div>
+					</div>
+					<!-- /ad-970x90-1 -->
+
+					<!-- ad-728x90-1 -->
+					<div id="ad-728x90-1" class="advertising ad-728x90">
+						<span class="label">Publicidade</span>
+						<div id="banner-728x90-1-area" class="tm-ads"></div>
+					</div>
+					<!-- /ad-728x90-1 -->
+
+					<!-- ad-300x50-1 -->
+					<div id="ad-300x50-1" class="advertising ad-300x50">
+						<span class="label">Publicidade</span>
+						<div id="banner-300x50-1-area" class="tm-ads"></div>
+					</div>
+					<!-- /ad-300x50-1 -->
+
+					<!-- ad-320x50-1 -->
+					<div id="ad-320x50-1" class="advertising ad-320x50">
+						<span class="label">Publicidade</span>
+						<div id="banner-320x50-1-area" class="tm-ads"></div>
+					</div>
+					<!-- /ad-300x50-1 -->
+
+				</div>
+			<!-- grid -->
+			</div>
+		<!-- row -->
+		</div>
+	<!-- container -->
+	</div>
+	<!-- ADS -->
+	<!--primary -->
+	<div class="container">
+	<!-- container -->
+		<div class="row">
+		<!-- row -->
+
+			<!-- LEFT COLUMN -->
+			<div class="col-lg-8 col-sm-12 col-xs-12">
+				<main id="main" class="site-main">
+
+					
+						
+												
+							<article id="post-2005" class="box card post-2005 post type-post status-publish format-standard hentry category-menage tag-bissexual-2 tag-boquete tag-chupada-2 tag-festa-2 tag-gozo tag-menage-2 tag-sexo-casual tag-sexo-oral" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-25T07:19:01+00:00">
+				25/03/2017 <i class="sprite icon-clock"></i> 07:19
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-2005&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/25/no-churrasco-a-carne-nao-foi-fraca/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="No churrasco, a carne (não) foi fraca" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/25/no-churrasco-a-carne-nao-foi-fraca/" rel="bookmark">No churrasco, a carne (não) foi fraca</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>&#8220;Eu morava em Brasília na época, trabalhava em uma dessas empresas públicas fodonas em cargo comissionado. Era a primeira vez que eu morava sozinha. Quer dizer, fora da casa dos meus pais, dividindo apartamento com uma amiga. No sábado, fomos a um churrasco de aniversário entre amigos. Na grelha, um cara de ombros largos, cara(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/25/no-churrasco-a-carne-nao-foi-fraca/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/25/no-churrasco-a-carne-nao-foi-fraca/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-2002" class="box card post-2002 post type-post status-publish format-standard hentry category-menage tag-bissexual-2 tag-festa-2 tag-gay-2 tag-heterossexual tag-homossexual tag-tesao tag-transa" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-20T18:09:28+00:00">
+				20/03/2017 <i class="sprite icon-clock"></i> 18:09
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-2002&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/20/um-batom-roxo-no-inicio-do-outono/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Um batom roxo no início do outono" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/20/um-batom-roxo-no-inicio-do-outono/" rel="bookmark">Um batom roxo no início do outono</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Cada vez me mais tenho recebido relatos sem rótulos. Não importa quem &#8211; na história, na vida &#8211; é hétero, homo, trans, o que quiser. Sejamos felizes como turma aí abaixo! &#8220;Era uma tarde de início de outono. Nos conhecemos em uma festa na casa de uma amiga em comum. Cada um trouxe o que queria beber(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/20/um-batom-roxo-no-inicio-do-outono/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/20/um-batom-roxo-no-inicio-do-outono/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1998" class="box card post-1998 post type-post status-publish format-standard hentry category-sexo tag-aplicativo-de-encontro tag-app-de-relacionamento tag-desejo tag-heterossexual tag-pau-2 tag-pau-duro tag-sexo-oral tag-tesao tag-vergonha" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-14T15:03:41+00:00">
+				14/03/2017 <i class="sprite icon-clock"></i> 15:03
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1998&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/14/quando-tesao-e-vergonha-andam-juntos/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Quando tesão e vergonha andam juntos" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/14/quando-tesao-e-vergonha-andam-juntos/" rel="bookmark">Quando tesão e vergonha andam juntos</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Sem julgamento, quem já teve um(a) amante maravilhoso(a), mas tinha vergonha de confessar? Pode parecer um tanto superficial, mas eu consegui me colocar no lugar da Marcele, que teve a melhor foda da vida com um cara que achava feio, esquisito e chato! Vai entender as entranhas do desejo, não é mesmo? “Eu conheci o(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/14/quando-tesao-e-vergonha-andam-juntos/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/14/quando-tesao-e-vergonha-andam-juntos/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1995" class="box card post-1995 post type-post status-publish format-standard hentry category-fantasia-sexual tag-bissexual-2 tag-depilacao-2 tag-fantasia tag-fantasia-sexual-2 tag-masturbacao-2 tag-pornografia tag-prazer tag-siririca" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-10T14:47:35+00:00">
+				10/03/2017 <i class="sprite icon-clock"></i> 14:47
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1995&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/10/minha-pos-verdade-sexual/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Minha pós-verdade sexual" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/10/minha-pos-verdade-sexual/" rel="bookmark">Minha pós-verdade sexual</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Pessoal, este relato que chegou é tão bem escrito e maravilhoso que eu prefiro nem dar detalhes da autora. Apenas leiam e se deleitem nesta sexta-feira à tarde &#8211; como ela mesma deve estar fazendo neste instante (ou não!). &#8220;Depois de anos trabalhando em ambiente corporativo, abri meu negócio e passei a trabalhar em esquema de home(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/10/minha-pos-verdade-sexual/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/10/minha-pos-verdade-sexual/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1991" class="box card post-1991 post type-post status-publish format-standard hentry category-orgasmo tag-buceta-2 tag-chupada-2 tag-coito-interrompido tag-ejaculacao tag-esperma tag-gozada tag-penetracao tag-sexo-oral" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-07T19:26:47+00:00">
+				07/03/2017 <i class="sprite icon-clock"></i> 19:26
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1991&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/07/a-geografia-do-gozo/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="A geografia do gozo" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/07/a-geografia-do-gozo/" rel="bookmark">A geografia do gozo</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>&nbsp; &nbsp; Não sei se já comentei aqui, mas meu orgasmo muitas vezes chega bem na hora que sinto meu amante ejacular dentro de mim. Tanto a sensação quanto a simbologia de ele “encher minha buceta de porra” aceleram o meu prazer. Estava pensando que nos relatos eróticos aqui, em sites de contos, e também(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/07/a-geografia-do-gozo/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/07/a-geografia-do-gozo/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1987" class="box card post-1987 post type-post status-publish format-standard hentry category-lesbica tag-beijo tag-carnaval tag-homossexual tag-menage-2 tag-meninas tag-peitos" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-03-03T18:41:35+00:00">
+				03/03/2017 <i class="sprite icon-clock"></i> 18:41
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1987&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/03/03/menage-de-beijo-de-lingua-so-tem-no-carnaval/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Ménage de beijo de língua só tem no Carnaval" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/03/menage-de-beijo-de-lingua-so-tem-no-carnaval/" rel="bookmark">Ménage de beijo de língua só tem no Carnaval</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Mais uma de Carnaval, porque, bem,a gente sabe como a folia rende.  &#8220;Já não aguentava mais de tanto pular Carnaval nos blocos de rua quando me convenceram a ir ao último deles, o Bloco Pagu. A ideia era me convencer de que a concentração de mulheres por metro quadrado me renderia muitas bucetinhas quentes e(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/03/03/menage-de-beijo-de-lingua-so-tem-no-carnaval/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/03/03/menage-de-beijo-de-lingua-so-tem-no-carnaval/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1984" class="box card post-1984 post type-post status-publish format-standard hentry category-gay tag-bahia tag-boquete tag-fantasia-sexual-2 tag-porto-seguro tag-sexo-oral tag-viagem" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-02-24T19:15:52+00:00">
+				24/02/2017 <i class="sprite icon-clock"></i> 19:15
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1984&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/02/24/insonia-e-algo-mais-em-porto-seguro/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Insônia e algo mais em Porto Seguro" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/24/insonia-e-algo-mais-em-porto-seguro/" rel="bookmark">Insônia e algo mais em Porto Seguro</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Se tem um lugar de muitos prazeres nesta época do ano, é a Bahia. Com vocês, uma história de insônia, axé e sexo oral em Porto Seguro. &#8220;Eu tinha 18 anos de idade e viajei com meus pais para Porto Seguro, na Bahia. O ano era 1999. Naquela época, era a cidade que todos queriam estar.(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/02/24/insonia-e-algo-mais-em-porto-seguro/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/02/24/insonia-e-algo-mais-em-porto-seguro/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1980" class="box card post-1980 post type-post status-publish format-standard hentry category-sexo-casual-2 tag-carnaval tag-exibicionismo tag-salvador tag-sexo-heterossexual tag-sexo-oral" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-02-20T17:47:55+00:00">
+				20/02/2017 <i class="sprite icon-clock"></i> 17:47
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1980&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/02/20/exibicionismo-no-trio-eletrico-em-salvador/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Exibicionismo no trio elétrico em Salvador" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/20/exibicionismo-no-trio-eletrico-em-salvador/" rel="bookmark">Exibicionismo no trio elétrico em Salvador</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>No clima de Carnaval, mais um relato de pegação em um bloco, desta vez na Bahia! “A gente se viu pela primeira vez, ainda nem tinha começado oficialmente a folia em Salvador, mas o clima hedonista já tomava conta do saguão daquele hotel da Barra. Apesar de estarmos no olho do furacão do axé, nenhum(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/02/20/exibicionismo-no-trio-eletrico-em-salvador/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/02/20/exibicionismo-no-trio-eletrico-em-salvador/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1977" class="box card post-1977 post type-post status-publish format-standard hentry category-sexo-casual-2 tag-camisinha tag-carnaval tag-fantasia tag-gay-2 tag-heterossexual tag-homossexual tag-sexo-casual" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-02-17T15:35:38+00:00">
+				17/02/2017 <i class="sprite icon-clock"></i> 15:35
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1977&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/02/17/faltou-camisinha-no-bloco-de-rua/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Faltou camisinha no bloco de rua" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/17/faltou-camisinha-no-bloco-de-rua/" rel="bookmark">Faltou camisinha no bloco de rua</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>E como aqui a gente só quer saber de ziriguidum pelos próximos dias, mais uma história de samba (ou melhor, salsa), suor e tesão. Aproveitem! “Somos de Brasília e resolvemos curtir o carnaval de rua de São Paulo – eu, em busca de amores de verão heterossexuais; ele, em busca de mocinhos deliciosos. Era um(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/02/17/faltou-camisinha-no-bloco-de-rua/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/02/17/faltou-camisinha-no-bloco-de-rua/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+							<article id="post-1973" class="box card post-1973 post type-post status-publish format-standard hentry category-gay tag-balada tag-bissexual-3 tag-carnaval tag-homossexual tag-taxi tag-taxista" itemscope itemType="http://schema.org/BlogPosting" itemprop="blogPost">
+	<meta itemprop="inLanguage" content="pt-BR"/>
+	<header class="entry-header">
+				<div class="entry-meta">
+			<!--TOOL BAR -->
+			<div id="toolbar-container" class="toolbar"><span class="box-time">
+			<time itemprop="datePublished" datetime="2017-02-14T07:11:09+00:00">
+				14/02/2017 <i class="sprite icon-clock"></i> 07:11
+			</time></span><div id="readspeaker_button1" class="read-speaker rs_skip rsbtn_sampleskin rs_preserve">
+		<a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker" href="http://app-na.readspeaker.com/cgi-bin/rsent?customerid=6877&amp;lang=pt_br&amp;readid=post-1973&amp;url=">
+			<span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+			<span class="rsbtn_right rsimg rsplay rspart"></span>
+		</a>
+	</div><div data-share-buttons="facebook whatsapp twitter googleplus linkedin" data-share-url=http://xdesexo.blogfolha.uol.com.br/2017/02/14/experimente-algo-novo-no-carnaval/ data-share-button-facebook-text="Compartilhar" data-share-twitter-text="Experimente algo novo no Carnaval" data-share-twitter-hashtags="folha" data-share-email-site="blogfolha"  ></div><div class="full-line"></div></div>			<!--TOOL BAR -->
+			
+			<!-- FEATURED IMAGE -->
+						<!-- FEATURED IMAGE -->
+
+					</div><!-- .entry-meta -->
+		<h2 class="box-title" itemprop="headline"><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/14/experimente-algo-novo-no-carnaval/" rel="bookmark">Experimente algo novo no Carnaval</a></h2>			</header><!-- .entry-header -->
+
+	<div class="entry-content" itemprop="articleBody">
+		<p>Ah, o Carnaval&#8230;Chovem histórias como confete e serpentina&#8230; &#8220;Estava eu sentado no meio fio depois de uma balada de carnaval. Eram 4h da manhã e tinha sido gentilmente expulso do local por causa do horário. Era uma balada de salsa e todo aquele movimento de corpos tinha me deixado animado. Mesmo assim, saí no zero(&#8230;)</p>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<a href="http://xdesexo.blogfolha.uol.com.br/2017/02/14/experimente-algo-novo-no-carnaval/" class="read-more" itemprop="url">Leia mais</a><div class="comments-box"> <a itemprop="discussionUrl" href="http://xdesexo.blogfolha.uol.com.br/2017/02/14/experimente-algo-novo-no-carnaval/#comentarios"><span class="comments-icon">Ícone de comentário</span><span itemprop="commentCount">Comentários</span></a></div>	</footer><!-- .entry-footer -->
+</article><!-- #post-## -->
+
+						
+											<!-- RSPEAK_STOP -->
+				</main><!-- #main -->
+				
+				<!-- VEJA MAIS POSTS -->
+				<div class="box-more-posts">
+					
+	<nav class="navigation posts-navigation" role="navigation">
+		<h2 class="screen-reader-text">Navegação por posts</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="http://xdesexo.blogfolha.uol.com.br/page/2/" >Publicações anteriores</a></div></div>
+	</nav>				</div>
+				<!-- VEJA MAIS POSTS -->
+
+				<!-- BOTTOM ADS -->
+			<aside class="ads-bottom">
+			<!-- grid -->
+				<div class="box-ads-300">
+				<!-- ad-300x250-4 -->
+				<div id="ad-300x250-2" class="advertising ad-300x250">
+					<span class="label">Publicidade</span>
+					<div id="banner-300x250-2-area" class="tm-ads"></div>
+				</div>
+				<!-- /ad-300x250-4 -->
+				</div>
+				<div class="box-ads-300 ads-300x250-3">
+				<!-- ad-300x250-5 -->
+				<div id="ad-300x250-3" class="advertising ad-300x250">
+					<span class="label">Publicidade</span>
+					<div id="banner-300x250-3-area" class="tm-ads"></div>
+				</div>
+				<!-- /ad-300x250-5 -->
+				</div>
+			<!-- grid -->
+			<div class="clearfix"></div>
+			</aside>
+	<!-- ADS -->
+				<!-- BLOGS DA FOLHA -->
+				<section class="box-more-blogs">
+			<a href="#" class="title-more-blogs">
+				<h3>Blogs da Folha</h3>
+				<span class="icon-expand more-blog"></span>
+			</a>
+			<div class="more-blogs"></div></section>				<!-- BLOGS DA FOLHA-->
+
+			</div>
+			<!-- LEFT COLUMN -->
+			<!-- RIGHT COLUMN -->
+				<!-- grid -->
+			<div class="col-lg-4 col-sm-12 col-xs-12">
+				<div id="search-2" class="widget widget_search box cardkicker"><h3 class="widget-title box-title" >Busca</h3><form role="search" method="get" class="search-form" action="http://xdesexo.blogfolha.uol.com.br/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</form></div><div id="most_viewed_posts-2" class="widget widget_most_viewed_posts box cardkicker"><h3 class="widget-title box-title" >Mais acessadas</h3><ul><li><p class="date">10/03/17</p><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/10/minha-pos-verdade-sexual/" class="title">Minha pós-verdade sexual</a></li><li><p class="date">24/02/17</p><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/24/insonia-e-algo-mais-em-porto-seguro/" class="title">Insônia e algo mais em Porto Seguro</a></li><li><p class="date">20/02/17</p><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/20/exibicionismo-no-trio-eletrico-em-salvador/" class="title">Exibicionismo no trio elétrico em Salvador</a></li><li><p class="date">03/03/17</p><a href="http://xdesexo.blogfolha.uol.com.br/2017/03/03/menage-de-beijo-de-lingua-so-tem-no-carnaval/" class="title">Ménage de beijo de língua só tem no Carnaval</a></li><li><p class="date">17/02/17</p><a href="http://xdesexo.blogfolha.uol.com.br/2017/02/17/faltou-camisinha-no-bloco-de-rua/" class="title">Faltou camisinha no bloco de rua</a></li></ul></div><div id="categories-2" class="widget widget_categories box cardkicker"><h3 class="widget-title box-title" >Categorias</h3>		<ul>
+	<li class="cat-item cat-item-40"><a href="http://xdesexo.blogfolha.uol.com.br/category/amor/" >amor</a>
+</li>
+	<li class="cat-item cat-item-36"><a href="http://xdesexo.blogfolha.uol.com.br/category/anal/" >Anal</a>
+</li>
+	<li class="cat-item cat-item-152"><a href="http://xdesexo.blogfolha.uol.com.br/category/arte-erotica/" >arte erótica</a>
+</li>
+	<li class="cat-item cat-item-151"><a href="http://xdesexo.blogfolha.uol.com.br/category/assedio-sexual/" >Assédio sexual</a>
+</li>
+	<li class="cat-item cat-item-236"><a href="http://xdesexo.blogfolha.uol.com.br/category/bissexual/" >bissexual</a>
+</li>
+	<li class="cat-item cat-item-156"><a href="http://xdesexo.blogfolha.uol.com.br/category/buceta/" >buceta</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://xdesexo.blogfolha.uol.com.br/category/cabelo/" >cabelo</a>
+</li>
+	<li class="cat-item cat-item-54"><a href="http://xdesexo.blogfolha.uol.com.br/category/cadeira/" >cadeira</a>
+</li>
+	<li class="cat-item cat-item-148"><a href="http://xdesexo.blogfolha.uol.com.br/category/casal-2/" >casal</a>
+</li>
+	<li class="cat-item cat-item-157"><a href="http://xdesexo.blogfolha.uol.com.br/category/chana/" >chana</a>
+</li>
+	<li class="cat-item cat-item-124"><a href="http://xdesexo.blogfolha.uol.com.br/category/chupada/" >chupada</a>
+</li>
+	<li class="cat-item cat-item-66"><a href="http://xdesexo.blogfolha.uol.com.br/category/cinema/" >cinema</a>
+</li>
+	<li class="cat-item cat-item-96"><a href="http://xdesexo.blogfolha.uol.com.br/category/claudia-ohana/" >Claudia Ohana</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://xdesexo.blogfolha.uol.com.br/category/convidado/" >convidado</a>
+</li>
+	<li class="cat-item cat-item-70"><a href="http://xdesexo.blogfolha.uol.com.br/category/cozinha/" >cozinha</a>
+</li>
+	<li class="cat-item cat-item-150"><a href="http://xdesexo.blogfolha.uol.com.br/category/crossdresser/" >crossdresser</a>
+</li>
+	<li class="cat-item cat-item-115"><a href="http://xdesexo.blogfolha.uol.com.br/category/cu/" >cu</a>
+</li>
+	<li class="cat-item cat-item-97"><a href="http://xdesexo.blogfolha.uol.com.br/category/dedo-no-cu/" >dedo no cu</a>
+</li>
+	<li class="cat-item cat-item-94"><a href="http://xdesexo.blogfolha.uol.com.br/category/depilacao/" >depilação</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://xdesexo.blogfolha.uol.com.br/category/desconhecido/" >desconhecido</a>
+</li>
+	<li class="cat-item cat-item-83"><a href="http://xdesexo.blogfolha.uol.com.br/category/dia-das-maes/" >dia das mães</a>
+</li>
+	<li class="cat-item cat-item-116"><a href="http://xdesexo.blogfolha.uol.com.br/category/dor/" >dor</a>
+</li>
+	<li class="cat-item cat-item-99"><a href="http://xdesexo.blogfolha.uol.com.br/category/emocional/" >emocional</a>
+</li>
+	<li class="cat-item cat-item-146"><a href="http://xdesexo.blogfolha.uol.com.br/category/exibicionismo-2/" >exibicionismo</a>
+</li>
+	<li class="cat-item cat-item-87"><a href="http://xdesexo.blogfolha.uol.com.br/category/famosas-peladas/" >famosas peladas</a>
+</li>
+	<li class="cat-item cat-item-65"><a href="http://xdesexo.blogfolha.uol.com.br/category/fantasia-sexual/" >fantasia sexual</a>
+</li>
+	<li class="cat-item cat-item-72"><a href="http://xdesexo.blogfolha.uol.com.br/category/feminismo/" >feminismo</a>
+</li>
+	<li class="cat-item cat-item-149"><a href="http://xdesexo.blogfolha.uol.com.br/category/festa/" >festa</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="http://xdesexo.blogfolha.uol.com.br/category/fotografia/" >fotografia</a>
+</li>
+	<li class="cat-item cat-item-55"><a href="http://xdesexo.blogfolha.uol.com.br/category/gang-bang/" >gang bang</a>
+</li>
+	<li class="cat-item cat-item-42"><a href="http://xdesexo.blogfolha.uol.com.br/category/gay/" >gay</a>
+</li>
+	<li class="cat-item cat-item-75"><a href="http://xdesexo.blogfolha.uol.com.br/category/homem/" >homem</a>
+</li>
+	<li class="cat-item cat-item-168"><a href="http://xdesexo.blogfolha.uol.com.br/category/humor/" >humor</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://xdesexo.blogfolha.uol.com.br/category/insinuacao/" >insinuação</a>
+</li>
+	<li class="cat-item cat-item-102"><a href="http://xdesexo.blogfolha.uol.com.br/category/instagram/" >instagram</a>
+</li>
+	<li class="cat-item cat-item-108"><a href="http://xdesexo.blogfolha.uol.com.br/category/inteligencia-artificial/" >inteligência artificial</a>
+</li>
+	<li class="cat-item cat-item-78"><a href="http://xdesexo.blogfolha.uol.com.br/category/internet/" >internet</a>
+</li>
+	<li class="cat-item cat-item-125"><a href="http://xdesexo.blogfolha.uol.com.br/category/lambida/" >lambida</a>
+</li>
+	<li class="cat-item cat-item-47"><a href="http://xdesexo.blogfolha.uol.com.br/category/lesbica/" >lésbica</a>
+</li>
+	<li class="cat-item cat-item-80"><a href="http://xdesexo.blogfolha.uol.com.br/category/lingerie/" >lingerie</a>
+</li>
+	<li class="cat-item cat-item-119"><a href="http://xdesexo.blogfolha.uol.com.br/category/lingerie-para-homem/" >lingerie para homem</a>
+</li>
+	<li class="cat-item cat-item-93"><a href="http://xdesexo.blogfolha.uol.com.br/category/massagem/" >massagem</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="http://xdesexo.blogfolha.uol.com.br/category/masturbacao/" >masturbação</a>
+</li>
+	<li class="cat-item cat-item-34"><a href="http://xdesexo.blogfolha.uol.com.br/category/menage/" >ménage</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://xdesexo.blogfolha.uol.com.br/category/motel/" >motel</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://xdesexo.blogfolha.uol.com.br/category/musica/" >música</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://xdesexo.blogfolha.uol.com.br/category/orgasmo/" >orgasmo</a>
+</li>
+	<li class="cat-item cat-item-74"><a href="http://xdesexo.blogfolha.uol.com.br/category/pau/" >pau</a>
+</li>
+	<li class="cat-item cat-item-101"><a href="http://xdesexo.blogfolha.uol.com.br/category/pelada/" >pelada</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="http://xdesexo.blogfolha.uol.com.br/category/penis/" >pênis</a>
+</li>
+	<li class="cat-item cat-item-123"><a href="http://xdesexo.blogfolha.uol.com.br/category/pilula-do-dia/" >pílula do dia</a>
+</li>
+	<li class="cat-item cat-item-61"><a href="http://xdesexo.blogfolha.uol.com.br/category/piscina/" >piscina</a>
+</li>
+	<li class="cat-item cat-item-67"><a href="http://xdesexo.blogfolha.uol.com.br/category/pompoarismo/" >pompoarismo</a>
+</li>
+	<li class="cat-item cat-item-57"><a href="http://xdesexo.blogfolha.uol.com.br/category/ponto-g/" >ponto G</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="http://xdesexo.blogfolha.uol.com.br/category/porno/" >porno</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://xdesexo.blogfolha.uol.com.br/category/praia/" >praia</a>
+</li>
+	<li class="cat-item cat-item-121"><a href="http://xdesexo.blogfolha.uol.com.br/category/preguica/" >preguiça</a>
+</li>
+	<li class="cat-item cat-item-132"><a href="http://xdesexo.blogfolha.uol.com.br/category/primeira-vez/" >primeira vez</a>
+</li>
+	<li class="cat-item cat-item-62"><a href="http://xdesexo.blogfolha.uol.com.br/category/primeiro-encontro/" >primeiro encontro</a>
+</li>
+	<li class="cat-item cat-item-77"><a href="http://xdesexo.blogfolha.uol.com.br/category/privacidade/" >privacidade</a>
+</li>
+	<li class="cat-item cat-item-134"><a href="http://xdesexo.blogfolha.uol.com.br/category/prostituicao/" >prostituição</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://xdesexo.blogfolha.uol.com.br/category/rapidinha/" >rapidinha</a>
+</li>
+	<li class="cat-item cat-item-110"><a href="http://xdesexo.blogfolha.uol.com.br/category/redes-sociais/" >redes sociais</a>
+</li>
+	<li class="cat-item cat-item-127"><a href="http://xdesexo.blogfolha.uol.com.br/category/reveillon/" >réveillon</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo/" >sexo</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo-a-tres/" >sexo a três</a>
+</li>
+	<li class="cat-item cat-item-325"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo-casual-2/" >sexo casual</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo-oral/" >sexo oral</a>
+</li>
+	<li class="cat-item cat-item-46"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo-sujo/" >sexo sujo</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://xdesexo.blogfolha.uol.com.br/category/sexo-virtual/" >sexo virtual</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://xdesexo.blogfolha.uol.com.br/category/sms/" >SMS</a>
+</li>
+	<li class="cat-item cat-item-126"><a href="http://xdesexo.blogfolha.uol.com.br/category/sofa/" >sofá</a>
+</li>
+	<li class="cat-item cat-item-153"><a href="http://xdesexo.blogfolha.uol.com.br/category/submissao/" >submissão</a>
+</li>
+	<li class="cat-item cat-item-45"><a href="http://xdesexo.blogfolha.uol.com.br/category/sujeira/" >sujeira</a>
+</li>
+	<li class="cat-item cat-item-56"><a href="http://xdesexo.blogfolha.uol.com.br/category/swing/" >swing</a>
+</li>
+	<li class="cat-item cat-item-120"><a href="http://xdesexo.blogfolha.uol.com.br/category/tanga/" >tanga</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://xdesexo.blogfolha.uol.com.br/category/tantra/" >tantra</a>
+</li>
+	<li class="cat-item cat-item-31"><a href="http://xdesexo.blogfolha.uol.com.br/category/tapas/" >tapas</a>
+</li>
+	<li class="cat-item cat-item-141"><a href="http://xdesexo.blogfolha.uol.com.br/category/trabalho/" >trabalho</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://xdesexo.blogfolha.uol.com.br/category/traicao/" >traição</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://xdesexo.blogfolha.uol.com.br/category/uncategorized/" >Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://xdesexo.blogfolha.uol.com.br/category/viagem/" >viagem</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://xdesexo.blogfolha.uol.com.br/category/vibrador/" >vibrador</a>
+</li>
+	<li class="cat-item cat-item-50"><a href="http://xdesexo.blogfolha.uol.com.br/category/video/" >vídeo</a>
+</li>
+	<li class="cat-item cat-item-48"><a href="http://xdesexo.blogfolha.uol.com.br/category/voyeur/" >voyeur</a>
+</li>
+		</ul>
+</div><div id="tag_cloud-3" class="widget widget_tag_cloud box cardkicker"><h3 class="widget-title box-title" >Tags</h3><div class="tagcloud"><a href='http://xdesexo.blogfolha.uol.com.br/tag/bissexual-2/' class='tag-link-237 tag-link-position-1' title='4 tópicos' style='font-size: 12.4pt;'>. bissexual</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/amor-2/' class='tag-link-259 tag-link-position-2' title='2 tópicos' style='font-size: 8pt;'>amor</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/app-de-relacionamento/' class='tag-link-312 tag-link-position-3' title='3 tópicos' style='font-size: 10.4pt;'>app de relacionamento</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/aviao/' class='tag-link-5 tag-link-position-4' title='2 tópicos' style='font-size: 8pt;'>aviao</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/balada/' class='tag-link-226 tag-link-position-5' title='5 tópicos' style='font-size: 14pt;'>balada</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/banheiro/' class='tag-link-13 tag-link-position-6' title='4 tópicos' style='font-size: 12.4pt;'>banheiro</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/boquete/' class='tag-link-183 tag-link-position-7' title='8 tópicos' style='font-size: 17.4pt;'>boquete</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/bunda/' class='tag-link-176 tag-link-position-8' title='2 tópicos' style='font-size: 8pt;'>bunda</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/carnaval/' class='tag-link-220 tag-link-position-9' title='5 tópicos' style='font-size: 14pt;'>carnaval</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/carro/' class='tag-link-225 tag-link-position-10' title='2 tópicos' style='font-size: 8pt;'>carro</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/casal/' class='tag-link-143 tag-link-position-11' title='6 tópicos' style='font-size: 15.4pt;'>casal</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/chupada-2/' class='tag-link-184 tag-link-position-12' title='12 tópicos' style='font-size: 20.6pt;'>chupada</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/cu-2/' class='tag-link-117 tag-link-position-13' title='3 tópicos' style='font-size: 10.4pt;'>cu</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/depilacao-2/' class='tag-link-230 tag-link-position-14' title='3 tópicos' style='font-size: 10.4pt;'>depilação</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/exibicionismo/' class='tag-link-142 tag-link-position-15' title='3 tópicos' style='font-size: 10.4pt;'>exibicionismo</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/fantasia/' class='tag-link-14 tag-link-position-16' title='5 tópicos' style='font-size: 14pt;'>fantasia</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/fantasia-sexual-2/' class='tag-link-277 tag-link-position-17' title='3 tópicos' style='font-size: 10.4pt;'>fantasia sexual</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/festa-2/' class='tag-link-172 tag-link-position-18' title='6 tópicos' style='font-size: 15.4pt;'>festa</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/fetiche/' class='tag-link-180 tag-link-position-19' title='3 tópicos' style='font-size: 10.4pt;'>fetiche</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/gay-2/' class='tag-link-238 tag-link-position-20' title='5 tópicos' style='font-size: 14pt;'>gay</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/gozo/' class='tag-link-227 tag-link-position-21' title='11 tópicos' style='font-size: 20pt;'>gozo</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/heterossexual/' class='tag-link-228 tag-link-position-22' title='9 tópicos' style='font-size: 18.4pt;'>heterossexual</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/homossexual/' class='tag-link-218 tag-link-position-23' title='12 tópicos' style='font-size: 20.6pt;'>homossexual</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/internet-2/' class='tag-link-210 tag-link-position-24' title='3 tópicos' style='font-size: 10.4pt;'>internet</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/lesbica-2/' class='tag-link-240 tag-link-position-25' title='2 tópicos' style='font-size: 8pt;'>lésbica</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/masturbacao-2/' class='tag-link-216 tag-link-position-26' title='8 tópicos' style='font-size: 17.4pt;'>masturbação</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/menage-2/' class='tag-link-217 tag-link-position-27' title='4 tópicos' style='font-size: 12.4pt;'>menage</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/nude/' class='tag-link-208 tag-link-position-28' title='2 tópicos' style='font-size: 8pt;'>nude</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/orgasmo-2/' class='tag-link-188 tag-link-position-29' title='5 tópicos' style='font-size: 14pt;'>orgasmo</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/penetracao/' class='tag-link-269 tag-link-position-30' title='5 tópicos' style='font-size: 14pt;'>penetração</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/pornografia/' class='tag-link-276 tag-link-position-31' title='3 tópicos' style='font-size: 10.4pt;'>pornografia</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/praia-2/' class='tag-link-129 tag-link-position-32' title='2 tópicos' style='font-size: 8pt;'>praia</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/prazer/' class='tag-link-187 tag-link-position-33' title='6 tópicos' style='font-size: 15.4pt;'>prazer</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/primeiro-encontro-2/' class='tag-link-200 tag-link-position-34' title='2 tópicos' style='font-size: 8pt;'>primeiro encontro</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/punheta/' class='tag-link-215 tag-link-position-35' title='3 tópicos' style='font-size: 10.4pt;'>punheta</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/reveillon-2/' class='tag-link-130 tag-link-position-36' title='3 tópicos' style='font-size: 10.4pt;'>réveillon</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/sexo/' class='tag-link-6 tag-link-position-37' title='10 tópicos' style='font-size: 19.2pt;'>sexo</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/sexo-anal/' class='tag-link-177 tag-link-position-38' title='2 tópicos' style='font-size: 8pt;'>sexo anal</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/sexo-casual/' class='tag-link-204 tag-link-position-39' title='9 tópicos' style='font-size: 18.4pt;'>sexo casual</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/sexo-oral/' class='tag-link-3 tag-link-position-40' title='14 tópicos' style='font-size: 22pt;'>sexo oral</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/tesao/' class='tag-link-260 tag-link-position-41' title='5 tópicos' style='font-size: 14pt;'>tesão</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/tinder/' class='tag-link-167 tag-link-position-42' title='2 tópicos' style='font-size: 8pt;'>Tinder</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/transa/' class='tag-link-207 tag-link-position-43' title='6 tópicos' style='font-size: 15.4pt;'>transa</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/viagem/' class='tag-link-7 tag-link-position-44' title='2 tópicos' style='font-size: 8pt;'>viagem</a>
+<a href='http://xdesexo.blogfolha.uol.com.br/tag/whatsapp/' class='tag-link-211 tag-link-position-45' title='2 tópicos' style='font-size: 8pt;'>Whatsapp</a></div>
+</div>				
+				<!-- ADS 300X600 -->
+				<div id="ad-300x600-1" class="advertising ad-300x600">
+					<span class="label">Publicidade</span>
+					<div id="banner-300x600-1-area" class="tm-ads"></div>
+				</div>
+				<!-- ADS 300X600 -->
+
+				<div class="drops">
+					<!-- Livraria Drops -->
+					<script type="text/javascript" charset="windows-1252" src="http://www1.folha.uol.com.br/virtual/5.4/common/livraria-drops.js"></script>
+					<!-- /Livraria Drops -->
+					<div id="ad-150x385-1" class="item publicidade advertising ad-150x385">
+							<span class="label">Publicidade</span>
+							<div id="banner-150x385-1-area" class="tm-ads"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<!-- ADS 300X600 -->
+				<div id="ad-300x600-2" class="advertising ad-300x600">
+					<span class="label">Publicidade</span>
+					<div id="banner-300x600-2-area" class="tm-ads"></div>
+				</div>
+				<!-- ADS 300X600 -->
+				<script type="text/javascript" src="http://www1.folha.uol.com.br/blogs/xdesexo/livraria-side.js" charset="windows-1252"></script>			<!-- grid -->
+</div>
+			<!-- row -->
+		</div>
+	<!-- container -->
+	</div><!-- #primary -->
+
+	
+	<!-- FOOTER -->
+	<footer>
+		<script src="http://static.folha.uol.com.br/plugins/stats/1.0/stats.js"></script>
+		<div class="full top">
+		<!-- full -->
+			<div class="container">
+			<!-- container -->
+				<div class="row">
+				<!-- row -->
+					<div class="col-lg-12 col-sm-12 col-xs-12 top-icon">
+					<!-- grid -->
+						<a id="scrolltop" href="#anchor-top">VOLTAR AO TOPO</a>
+					<!-- grid -->
+					</div>
+				<!-- row -->
+				</div>
+			<!-- container -->
+			</div>
+		<!-- full -->
+		</div>
+
+		<div class="full copy">
+		<!-- full -->
+			<div class="container">
+			<!-- container -->
+				<div class="row">
+				<!-- row -->
+					<div class="col-lg-12 col-sm-12 col-xs-12">
+					<!-- grid -->
+						<p>Copyright Folha de S.Paulo. Todos os direitos reservados. É proibida a reprodução do conteúdo desta página em qualquer meio de comunicação, eletrônico ou impresso, sem autorização escrita da Folhapress (pesquisa@folhapress.com.br).</p>
+					<!-- grid -->
+					</div>
+				<!-- row -->
+				</div>
+			<!-- container -->
+			</div>
+		<!-- full -->
+		</div>	
+	</footer>
+	<!-- FOOTER -->
+	<!-- Tag Manager -->
+
+<div class="ad-1x1-2" id="ad-1x1-2">
+<div class="tm-ads" id="banner-1x1-2-area"></div>
+</div>
+<div class="tm-ads" id="banner-1x1-2">
+<script type="text/javascript">folha.tag_manager.get( "1x1-2" ) ;</script>
+</div>
+
+<div id="banner-970x90-1" class="tm-ads">
+<script>folha.tag_manager.get( "970x90-1" ) ;</script>
+</div>
+
+<div id="banner-728x90-1" class="tm-ads">
+<script>folha.tag_manager.get( "728x90-1" ) ;</script>
+</div>
+
+<div id="banner-300x50-1" class="tm-ads">
+<script>folha.tag_manager.get( "300x50-1" ) ;</script>
+</div>
+
+<div id="banner-300x600-1" class="tm-ads">
+<script>folha.tag_manager.get( "300x600-1" ) ;</script>
+</div>
+
+<div id="banner-300x600-2" class="tm-ads">
+<script>folha.tag_manager.get( "300x600-2" ) ;</script>
+</div>
+
+<div id="banner-300x250-2" class="tm-ads">
+<script>folha.tag_manager.get( "300x250-2" ) ;</script>
+</div>
+
+<div id="banner-300x250-3" class="tm-ads">
+<script>folha.tag_manager.get( "300x250-3" ) ;</script>
+</div>
+
+<div id="banner-150x385-1" class="tm-ads">
+<script>folha.tag_manager.get( "150x385-1" ) ;</script>
+</div>
+
+<script>folha.tag_manager.check() ;</script>
+<script src="http://tm.uol.com.br/b/par/folha.js"></script>
+<!-- /Tag Manager -->
+
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pt-BR'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!-- IVC -->
+<script type="text/javascript"> 
+	    var ivcUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudf

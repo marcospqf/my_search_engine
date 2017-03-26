@@ -10,6 +10,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include<unordered_set>
+#include <queue>
 using namespace std;
 
 class Scheduler
@@ -39,8 +40,10 @@ class Scheduler
 			url(const string &s);
 			bool operator<(const url &a) const;
 		};
-		static set<url> inside_url;
-		static set<url> outside_url;
+
+		static priority_queue<url> inside_url;
+		static priority_queue<url> outside_url;
+		//just a simple polinomial hash!
 		static unordered_set<long long> visited;
 };
 #endif

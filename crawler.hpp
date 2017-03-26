@@ -21,19 +21,24 @@ class Crawler
 
 		Crawler();
 		
+		//Start crawnling..
 		void Start(int nthreads);
 
+		//Set the folder the Html and Urls will be located
 		void SetFolder(string s);
 
+		// number of Url crawlead
 		static int ncraw;
 
 	private:
 
 		// Name of the folder that will keep the pages crawled
 		static string folderName;
-
+		
+		//lock of tread when we access the queue		
 		static mutex scheduler_mutex;
 		
+		// lock of ncraw
 		static mutex crawlado;
 		
 		int nthreads;
