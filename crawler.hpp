@@ -31,7 +31,6 @@ class Crawler
 
 		//Set the initial time to measure how 
 		//fast we are crowling;
-		void SetTime();
 
 		// number of Url crawlead
 		static int ncraw;
@@ -51,8 +50,6 @@ class Crawler
 		
 		static string foldername;
 		
-		static clock_t tbegin;
-	
 		void Crawl();
 
 };

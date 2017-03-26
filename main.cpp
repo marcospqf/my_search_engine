@@ -17,7 +17,6 @@ int main()
 	Crawler c;
 	c.SetFolder("./Collection/");
 	cout<<"Starting to crawl"<<endl;
-	c.SetTime();
-	c.Start(80);
+	c.Start(1);
 	cout<<"ACABOU JOVEM!"<<endl;
 }

@@ -12,7 +12,7 @@ bool Scheduler::url::operator<(const url &cur) const {
 	if(priority != cur.priority )
 		return priority < cur.priority;
 	
-	return name < cur.name;
+	return name > cur.name;
 }
 
 Scheduler::url::url(const string &s){
@@ -27,22 +27,24 @@ Scheduler::url::url(const string &s){
 }
 
 void Scheduler::PushUrl(const string &s, bool inside){
-	
-	if(s.size()<5) return;
+	if(s.size()<10 or s.size()>80) return;	
 	url cur(s);
-	cout<<cur.name<<endl;
 	long long hp=0;
 	if(inside){
 		if(inside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
-		if(!visited.count(hp)) visited.insert(hp),
-			inside_url.insert(cur);
+		if(!visited.count(hp)) {
+			visited.insert(hp),
+			Scheduler::inside_url.insert(cur);
+		}
 	}
 	else{
 		if(outside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
-		if(!visited.count(hp)) visited.insert(hp),
-			outside_url.insert(cur);
+		if(!visited.count(hp)) {
+			visited.insert(hp),
+			Scheduler::outside_url.insert(cur);
+		}
 	}
 }
 
@@ -83,5 +85,6 @@ string Scheduler::TopUrl(){
 			return s;
 		}
 	}
+	cout<<inside_url.size()<<" "<<outside_url.size()<<endl;
 	return "";
 }
