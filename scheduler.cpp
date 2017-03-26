@@ -4,7 +4,7 @@ using namespace std;
 set<Scheduler::url> Scheduler::inside_url;
 set<Scheduler::url> Scheduler::outside_url;
 unordered_set<long long> Scheduler::visited;
-const long long B=31;
+const long long B=33;
 Scheduler::Scheduler() {}
 
 bool Scheduler::url::operator<(const url &cur) const {
@@ -26,10 +26,15 @@ Scheduler::url::url(const string &s){
 }
 
 void Scheduler::PushUrl(const string &s, bool inside){
+	if(s.size()>80) return;
+	if(s.size()<3) return;
+	//cout<<" tamanho "<<" ";
+//	cout<<(Scheduler::inside_url.size())<<" ";
+//	cout<<(Scheduler::outside_url.size())<<endl;
 	url cur(s);
 	long long hp=0;
 	if(inside){
-		if(inside_url.size()>1e5) return;
+		if(inside_url.size()>1e4) return;
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) visited.insert(hp),
 			inside_url.insert(cur);

@@ -12,11 +12,11 @@ Crawler::Crawler()
 	Crawler::scheduler_mutex.lock();
 	
 	if(x==0)
-	Scheduler::PushUrl("www.globo.com",false);
+	Scheduler::PushUrl("http://www.naosalvo.com.br/",false);
 	if(x==1)
 	Scheduler::PushUrl("www.uol.com",false);
 	if(x==2)
-	Scheduler::PushUrl("www.terra.com",false);
+	Scheduler::PushUrl("http://www.g1.com.br",false);
 	
 	Crawler::scheduler_mutex.unlock();
 }
@@ -51,13 +51,15 @@ void Crawler::Crawl()
 	fw.OpenStream();
 	int cont=0;
 	while(true){
-		if(ncraw>1000) return;		
+		if(cont>100000) break;
 		scheduler_mutex.lock();
 		string nextUrl= Scheduler::TopUrl();
 		Crawler::scheduler_mutex.unlock();
-		if(nextUrl.size()==0) continue;
-		if(Scheduler::IsEmpty(false) and Scheduler::IsEmpty(true)) cont++;
-		if(cont>100) break;
+		if(nextUrl.size()==0) {
+			//cout<<"COCO"<<endl;
+			cont++;
+			continue;
+		}
 		spider.Initialize(nextUrl.c_str());
 		spider.AddUnspidered(nextUrl.c_str());
 		
@@ -66,27 +68,26 @@ void Crawler::Crawl()
 			spider.get_LastUrl(collectedUrl);
 			spider.get_LastHtml(collectedHtml);
 			fw.print(collectedUrl,collectedHtml);
+		
 			crawlado.lock();
 			ncraw++;
 			cout<<"numero de site ja coletados: "<<ncraw<<endl;
 			crawlado.unlock();
-			int size=spider.get_NumOutboundLinks();
-			set<int> jafoi;
-			while(jafoi.size()<min(size,15)){
-				int x=rand()%size;
-				if(!jafoi.count(x)) {
-					jafoi.insert(x);
+			int sz=spider.get_NumOutboundLinks();
+			//cout<<"tamanho ";
+			//cout<<sz<<endl;
+			unordered_set<int> jafoi;
+			for(int x=0;x<sz;x++){
 					Crawler::scheduler_mutex.lock();
 					Scheduler::PushUrl(spider.getOutboundLink(x),false);
 					Crawler::scheduler_mutex.unlock();
 				}
-			}
-			jafoi.clear();
 			spider.ClearOutboundLinks();
-			size=spider.get_NumUnspidered();
+			sz=spider.get_NumUnspidered();
 			
-			while(jafoi.size()<min(size,5)){
-				int x=rand()%size;
+			while(jafoi.size()<min(sz,35)){
+				int x=rand()%sz;
+				//cout<<"NO WHILE"<<endl;
 				if(!jafoi.count(x)){
 					jafoi.insert(x);
 					CkString Next;
@@ -100,18 +101,19 @@ void Crawler::Crawl()
 			}
 
 			int unspidered = spider.get_NumUnspidered();
+			//cout<<"tamanho2 "<<unspidered<<endl;
 			for(int i = 0; i < unspidered; i++)
 			{
 				spider.SkipUnspidered(0);
 			}
+			spider.ClearOutboundLinks();
+	   	spider.ClearSpideredUrls();
+	   	spider.ClearFailedUrls();
 		}
 		else{
-			cout<<"PAU"<<endl;
+	//		cout<<"PAU"<<endl;
 		}
-		spider.ClearOutboundLinks();
-	   spider.ClearSpideredUrls();
-	   spider.ClearFailedUrls();
 	}
-	for(int i=0;i<100000;i++) cout<<"#";
+	for(int i=0;i<1000;i++) cout<<"#";
 	cout<<endl;
 }
