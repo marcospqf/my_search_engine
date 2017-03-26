@@ -1,18 +1,18 @@
 #include "scheduler.hpp"
 using namespace std;
 
-priority_queue<Scheduler::url> Scheduler::inside_url;
-priority_queue<Scheduler::url> Scheduler::outside_url;
+set<Scheduler::url> Scheduler::inside_url;
+set<Scheduler::url> Scheduler::outside_url;
 unordered_set<long long> Scheduler::visited;
-const long long B=271;
-const long long MAX_SIZE_HEAP=5e4;
+const long long  B=33;
+const int MAX_HEAP=1e5;
 Scheduler::Scheduler() {}
 
 bool Scheduler::url::operator<(const url &cur) const {
 	if(priority != cur.priority )
-		return priority > cur.priority;
+		return priority < cur.priority;
 	
-	return name > cur.name;
+	return name < cur.name;
 }
 
 Scheduler::url::url(const string &s){
@@ -28,33 +28,30 @@ Scheduler::url::url(const string &s){
 
 void Scheduler::PushUrl(const string &s, bool inside){
 	
-	if(s.size()>70) return;
-	if(s.size()<6) return;
-	//cout<<" tamanho "<<" ";
-//	cout<<(Scheduler::inside_url.size())<<" ";
-//	cout<<(Scheduler::outside_url.size())<<endl;
+	if(s.size()<5) return;
 	url cur(s);
+	cout<<cur.name<<endl;
 	long long hp=0;
 	if(inside){
-		if(inside_url.size()>MAX_SIZE_HEAP) return;
+		if(inside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) visited.insert(hp),
-			inside_url.push(cur);
+			inside_url.insert(cur);
 	}
 	else{
-		if(outside_url.size()>MAX_SIZE_HEAP) return;
+		if(outside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) visited.insert(hp),
-			outside_url.push(cur);
+			outside_url.insert(cur);
 	}
 }
 
 void Scheduler::PopUrl(bool inside){
 	if(inside){
-		if(!inside_url.empty()) inside_url.pop();
+		if(!inside_url.empty()) inside_url.erase(inside_url.begin());
 	}
 	else{
-		if(!outside_url.empty()) outside_url.pop();
+		if(!outside_url.empty()) outside_url.erase(inside_url.begin());
 	}
 }
 
@@ -74,15 +71,15 @@ string Scheduler::TopUrl(){
 	}
 	if(q){
 		if(!inside_url.empty()) {
-			string s=(inside_url.top()).name;
-			inside_url.pop();
+			string s=(*inside_url.begin()).name;
+			inside_url.erase(inside_url.begin());
 			return s;
 		}
 	}
 	else{
 		if(!outside_url.empty()) {
-			string s=(outside_url.top()).name;
-			outside_url.pop();
+			string s=(*outside_url.begin()).name;
+			outside_url.erase(outside_url.begin());
 			return s;
 		}
 	}

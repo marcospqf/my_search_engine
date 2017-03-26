@@ -1,6 +1,7 @@
 #ifndef _crawler_hpp
 #define _crawler_hpp
 
+#include <iomanip>
 #include <string>
 #include <thread>
 #include <mutex>
@@ -10,6 +11,7 @@
 #include <iostream>
 #include <CkSpider.h>
 #include <sstream>
+#include <time.h>
 #include "scheduler.hpp"
 #include "FileWriter.hpp"
 using namespace std;
@@ -26,6 +28,10 @@ class Crawler
 
 		//Set the folder the Html and Urls will be located
 		void SetFolder(string s);
+
+		//Set the initial time to measure how 
+		//fast we are crowling;
+		void SetTime();
 
 		// number of Url crawlead
 		static int ncraw;
@@ -44,7 +50,9 @@ class Crawler
 		int nthreads;
 		
 		static string foldername;
-
+		
+		static clock_t tbegin;
+	
 		void Crawl();
 
 };

@@ -1,0 +1,725 @@
+|||
+http://www.tusalario.org/chile/main/salario/Comparatusalario
+|
+<!doctype html>
+<html lang="es-CL">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&amp;subset=latin,latin-ext,vietnamese" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/chile/++theme++wi.theme/css/main-3c66a2b2.css" media="screen">
+    <script src="/chile/++theme++wi.theme/js/wi-theme-top-6beab848.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.1/jquery.smartmenus.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.1/addons/keyboard/jquery.smartmenus.keyboard.js"></script>
+
+<base href="http://www.tusalario.org/chile/main/salario/Comparatusalario/"><title>Tusalario.org/Chile - Comparador Salarial, Conoce el salario neto y bruto de tus colegas en Chili</title><meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="description" content="Compara tu salario, conoce el salario bruto y neto de otras personas con tu ocupación en Chili - Tusalario.org/Chili."><link rel="canonical" href="http://www.tusalario.org/chile/main/salario/Comparatusalario"><link rel="shortcut icon" type="image/x-icon" href="http://www.tusalario.org/chile/favicon_wageindicator.ico"><link rel="search" href="http://www.tusalario.org/chile/main/@@search" title="Buscar en este sitio"><script id="wageindicator-globals">
+var WageIndicatorGlobals = {
+    'subsite_id': 'chile',
+    'country_code': 'CL'
+}
+</script><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['es'],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script><style data-extra-css="1">
+#cookie-bar { z-index: 999999999 !important; }
+</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-293192-54', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+
+
+<body dir="ltr" class="template-folder_listing portaltype-menufolder site-main section-salario subsection-Comparatusalario icons-on userrole-anonymous chile"><!-- INDEX DEFAULT --><div class="container-fluid">
+
+    
+        <div id="above-site-portlets" class="row">
+            
+        </div>
+    <header class="doc-header col-md-12">
+
+    <div class="header-title col-xs-12 col-md-offset-1">
+        <img alt="wageindicator logo" src="/chile/++theme++wi.theme/images/wageindicator.png">
+        <span class="title"><a href="http://www.tusalario.org/chile">
+        <span class="subsite_title">Tusalario.org/Chile</span>
+    </a></span>
+    </div>
+
+    <div class="subtitle col-xs-6 col-md-offset-1">
+        <a href="//wageindicator.org">You Share, We Compare</a>
+    </div>
+
+    <div class="header-partof col-xs-6 col-md-4">
+        <span>
+            <a href="//www.wageindicator.org"><span class="subsite_partof">Parte de WageIndicator Fundación</span></a>
+        </span>
+    </div>
+
+</header>
+
+    <main class="col-xs-12">
+
+        <row class="row-fluid">
+            <section id="nav-pillar" class="col-md-offset-1 col-xs-12 col-md-7">
+                    <div class="smartmenu"><nav class="main-nav" role="navigation">
+
+    <input id="main-menu-state" type="checkbox">
+
+    <label class="main-menu-btn" for="main-menu-state">
+        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+    </label>
+
+    <ul id="main-menu" class="sm sm-simple row">
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.tusalario.org/chile/main/salario">
+                            <span>Salario</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero">Brecha de género</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero/mapa-mundial-de-la-brecha-salarial-de-genero">Mapa Mundial de la Brecha Salarial de Género</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero/que-es-la-brecha-salarial-de-genero">¿Qué es la brecha salarial de género?</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero/brecha-salarial-de-genero-preguntas-frecuentes">Brecha Salarial de Género - Preguntas Frecuentes en Chile</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero/test-de-la-brecha-salarial-de-genero-para-empleadas-y-empleados">Test de la Brecha Salarial de Género para Empleadas y Empleados en Chile</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/brecha-de-genero/test-de-brecha-salarial-de-genero-para-empresarios">Test de Brecha Salarial de Género para empresarios en Chile</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/Comparatusalario">Comparador salarial</a>
+                                
+                            </li>
+                        
+                            
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/costo-de-vida-encuesta">Costo de Vida: Encuesta</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/encuesta">Encuesta salarial</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos">Salarios de los Famosos</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/presidentes-de-america-latina">Presidentes de América Latina</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/lideres-internacionales">Líderes internacionales</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/deportistas-salario">Deportistas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/futbolistas-salario">Futbolistas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/ceo-salario">CEO´s</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/club-del-dolar">Club del dolar</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/banqueros">Banqueros</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/mujeres-famosas-salario">Mujeres Famosas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/personalidades-de-tv-salario">Personalidades de TV </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/actores-salario">Actores </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/actrices">Actrices</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/directores-de-cine-salario">Directores de cine </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/musicos-salario">Músicos </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/escritores">Escritores</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-de-los-famosos/modelos">Modelos</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salario-minimo-m">Salario Mínimo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/salarios-promedio">Salarios promedio</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/salario/trabajadores-de-casa-particular-1">Trabajadores de casa particular</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/trabajadores-de-casa-particular-1/que-es-el-trabajo-domestico">¿Qué es el trabajo doméstico?</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir">Salarios en Contexto</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/salario-digno">Salario digno</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Chile-Salario-Minimo-Vital">Chile - Salario minimo vital</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Salarios-minimos-vitales-comparados-con-salarios-reales-y-salario-minimos">Chile - Salarios mínimos vitales comparados con salarios reales y salario mínimos</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Salarios-Minimos-Vitales-comparados-con-salarios-minimos">Chile - Salarios mínimos vitales comparados con salarios mínimos</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Linea%20de%20pobreza%20nacional">Chile - Línea de pobreza nacional</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Linea%20de%20pobreza%20del%20Banco%20Mundial">Chile - Línea de pobreza del Banco Mundial</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Costes-de-vivienda-comida-y-transporte">Chile - Costes de vivienda, comida y transporte</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/salario/mapa-mundial-del-salario-para-vivir/Chile-Precios-de-consumo-de-los-alimentos">Chile - Precios de consumo de los alimentos</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales">
+                            <span>Derechos laborales</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/compensacion">Compensación</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-y-enfermedad">Licencia por Enfermedad</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-y-enfermedad/prestacion-por-lesiones-de-trabajo">Prestación por Lesiones de Trabajo</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/maternidad">Maternidad y Trabajo</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/maternidad/lactancia">Lactancia</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/maternidad/proteccion">Protección</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/responsabilidades-familiares">Responsabilidades Familiares</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/salud-y-seguridad">Salud y Seguridad</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/salud-y-seguridad/higiene-y-seguridad">Higiene y seguridad</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-en-el-trabajo">Seguridad Laboral</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-en-el-trabajo/preaviso-y-compensacion-por-despido">Preaviso y Compensación por Despido</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-en-el-trabajo/seguridad-laboral">Seguridad laboral en Chile</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-social">Seguridad Social</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-social/seguro-de-desempleo">Seguro de Desempleo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/seguridad-social/sistema-previsional">Sistema previsional</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/derechos-sindicales">Sindicatos</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/derechos-sindicales/organizacion-sindical">Organización sindical</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-a-domicilio">Trabajo a domicilio</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-a-domicilio/que-es-el-trabajo-a-domicilio">¿Qué es el trabajo a domicilio?</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-y-salarios">Trabajo y Salarios</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-y-salarios/aguinaldo">Aguinaldo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trabajo-y-salarios/jornada-laboral-y-pago-de-horas-extra-1">Jornada laboral y pago de horas extra</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/trato-justo">Trato Justo</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trato-justo/acoso-sexual">Acoso Sexual</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trato-justo/menores">Menores y Jóvenes</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/trato-justo/trabajo-forzoso">Trabajo Forzoso</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.tusalario.org/chile/main/derechos-laborales/vacaciones-anuales-y-dias-festivos">Vacaciones</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/vacaciones-anuales-y-dias-festivos/feriados">Feriados</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/vacaciones-anuales-y-dias-festivos/vacaciones-anuales">Vacaciones anuales</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/derechos-laborales/mapa-mundial-de-leyes-laborales">Mapa Mundial de Leyes Laborales</a>
+                                
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.tusalario.org/chile/main/carrera">
+                            <span>Carrera laboral</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/carrera/funcion-y-salario">Función y Salario</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/carrera/mujer-y-liderazgo">Mujer y liderazgo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/carrera/nuevo-empleo">Nuevo empleo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/carrera/empleo-para-jovenes-y-estudiantes">Empleo para jóvenes y estudiantes</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.tusalario.org/chile/main/carrera/mujeres-como-solicitar-un-trabajo">Mujeres: ¿Cómo solicitar un trabajo?</a>
+                                
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            
+        
+            
+        
+    </ul>
+</nav></div>
+
+    <div class="pillars row">
+        
+
+        
+
+        
+    </div>
+
+    <div class="pillar-footers row">
+        <div id="pillar-1-footer" class="col-md-4">
+            
+        </div>
+        <div id="pillar-2-footer" class="col-md-4">
+            
+        </div>
+        <div id="pillar-3-footer" class="col-md-4">
+            
+        </div>
+    </div>
+
+            </section>
+            <section id="search-pillar" class="col-md-3 col-xs-12">
+                    <div class="pillar">
+        <div class="search pillar-header">
+            <div class="search-form">
+    <form action="google-search-result" class=" form-inline">
+  <input type="text" id="searchGadget" name="q">
+  <input type="submit" class="searchButton" value="Search">
+</form>
+  </div>
+        </div>
+    </div>
+
+            </section>
+        </row>
+
+        <row class="row-fluid">
+            <section id="content" class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div id="portal-breadcrumbs" class="breadcrumb">
+    <span id="breadcrumbs-home">
+        <a href="http://www.tusalario.org/chile/main">Inicio</a>
+        
+            
+                <i class="fa fa-angle-right"></i>
+            
+            
+        
+    </span>
+    <span dir="ltr" id="breadcrumbs-1">
+        
+            <a href="http://www.tusalario.org/chile/main/salario">Salario</a>
+            
+                
+                    <i class="fa fa-angle-right"></i>
+                
+                
+            
+            
+        
+    </span>
+    <span dir="ltr" id="breadcrumbs-2">
+        
+            
+            
+            <span id="breadcrumbs-current">Comparador salarial</span>
+        
+    </span>
+
+    
+
+    
+</div>
+
+    <div class="smallscreen-ctas row"></div>
+
+    <div class="teaser-ctas row">
+        
+    </div>
+
+    
+
+    <div class="articles row"><section class="col-xs-12 full_width_items">
+            <article class="   teaser_item full_width category-"><div class="article-content">
+                        <h2>
+                            
+                        </h2>
+                        
+                        
+<div class="scheck" data-locale="es_CL">...</div>
+<script src="https://scapp.wageindicator.org/js/webwidget.min.js"></script>
+
+                        
+                    </div></article>
+        </section>
+        <div class="color1 col col-md-4">
+            
+            
+            
+        
+        
+    </div>
+
+        <div class="color2 col col-md-4">
+            
+            
+        
+        
+    </div>
+
+        <div class="color3 col col-md-4">
+
+            
+
+            
+            
+        
+        
+    </div>
+    <div class="col-xs-12 news_items_block">
+        
+      </div></div>
+        <div class="addthis_toolbox ">
+        <a class="addthis_button_facebook" title="Facebook" href="#">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a class="addthis_button_twitter" title="Tweet" href="#">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="addthis_button_google_plusone_share">
+            <i class="fa fa-google-plus"></i>
+        </a>
+        <a class="addthis_button_linkedin" href="#" target="_blank" title="LinkedIn">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a class="addthis_button_email" target="_blank" title="Email" href="#">
+            <i class="fa fa-email">@</i>
+        </a>
+        <div class="atclear"></div>
+    </div>
+    <div class="row cite-wrappper">
+    <div class="col-xs-12" id="cite">
+    Citar esta página © WageIndicator 2017 -  Tusalario.org/Chile - <a href="http://www.tusalario.org/chile/main/salario/Comparatusalario">Comparador salarial</a><a>
+</a></div>
+</div>
+
+
+            <div id="viewlet-below-content">
+
+
+
+
+
+</div></section>
+            
+        </row>
+
+    
+        <section id="below-content" class="col-md-7 col-xs-12 col-md-offset-1">
+            <div class="portlet custom ">
+
+  <div class="portlet_header">
+    
+  </div>
+
+  <div class="portlet_body">
+      <script type="text/javascript">// <![CDATA[
+if( $(window).width() >= 750) {
+  document.write('<div class="massarius-unit" data-id="862642" data-width="728" data-height="90">&nbsp;</div>');
+} else {
+  document.write('<div class="massarius-unit" data-id="862648" data-width="300" data-height="250">&nbsp;</div>');
+}
+// ]]></script>
+  </div>
+
+  <div class="portlet_footer"></div>
+
+</div>
+
+
+        </section>
+    </main>
+
+    
+    <footer class="doc-footer col-xs-12">
+<div class="row footer-color1">
+<div class="col-md-offset-1">
+<div class="col-md-2 col-xs-6">
+<div class="list-header">Quienes somos?</div>
+<ul>
+<li><a href="http://www.tusalario.org/chile/main/bfque-es-tusalario.org">Sobre nosotros</a></li>
+<li><a href="http://www.tusalario.org/chile/main/contacto">Contacto</a></li>
+<li><a href="http://www.wageindicator.org/main/Wageindicatorfoundation/publications">Publications (English)</a></li>
+<li><a href="http://www.wageindicator.org/main/Wageindicatorfoundation/disclaimer">Disclaimer</a></li>
+</ul>
+</div>
+<div class="col-md-2 col-xs-6">
+<div 

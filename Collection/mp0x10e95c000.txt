@@ -1,0 +1,321 @@
+|||
+http://noticias.uol.com.br/arquivohome/arquivo.jhtm
+|
+<html> <head> <meta http-equiv="refresh" content="1;url=http://noticias.uol.com.br/arquivohome/"> <script>location.replace("http://noticias.uol.com.br/arquivohome/"+window.location.search);</script> </head> <body bgcolor=white> </body> </html>
+|||
+http://isabelmueller.com.br/
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta http-equiv="expires" content="0" />
+	<meta name="description" content="Isabel Mueller trabalha com astrologia h&aacute; mais de 22 anos, atendendo a consultas de Mapa Astral, Tr&acirc;nsitos, Revolu&ccedil;&atilde;o Solar e Sinastria. Ministra cursos e palestras. Escreve para jornais, revistas e sites do Brasil e de outros pa&iacute;ses." />
+	<meta name="language" content="BR" />
+	<meta name="author" content="Rian Design" />
+	<meta name="copyright" content="&copy; 2017 Isabel Mueller" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="reply-to" content="contato@riandesign.com.br" />
+	<meta name="rating" content="general" />
+	<meta name="keywords" content="astrologia, horoscopo, horoscopo do dia, livro astrologia, livro horoscopo, astrologa, astrologo, consulta astrologica" />
+	
+	<title>
+		Isabel Mueller | Astr&oacute;loga e escritora	</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />    
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>    <![endif]-->
+    
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+        <link rel="stylesheet" type="text/css" href="/css/unsemantic-grid-responsive.css" />    <!--<![endif]-->
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" /><link rel="stylesheet" type="text/css" href="/css/ie-estilos.css" />    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="/css/generico.css" /><link rel="stylesheet" type="text/css" href="/css/estilos.css" /><script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script><script type="text/javascript" src="/js/parallax.js"></script><script type="text/javascript" src="/js/magnific-popup/jquery.magnific-popup.js"></script><link rel="stylesheet" type="text/css" href="/js/magnific-popup/magnific-popup.css" />    
+    <script>
+	$(document).ready(function() {
+		
+		// Tradu do magnificPopup
+		$.extend(true, $.magnificPopup.defaults, {
+			tClose: 'Sair (Esc)',
+			tLoading: 'Carregando...',
+			gallery: {
+				tPrev: 'Anterior',
+				tNext: 'Pra',
+				tCounter: '%curr% de %total%'
+			},
+			image: {
+				tError: '<a href="%url%">A imagem</a> n&atilde;o p&ocirc;de ser carregada.'
+			},
+			ajax: {
+				tError: '<a href="%url%">O conte&uacute;do</a> n&atilde;o p&ocirc;de ser carregado.'
+			}
+		});		
+		
+	});
+	</script>
+</head>
+<body>
+
+
+<div class="topo bgParallax" data-speed="2">
+	<div class="grid-container">
+    	<div class="grid-100">
+        	<div class="logo">
+            	<a href="/" title="Ir para In&iacute;cio"><img src="/img/logo-isabel-mueller.png" alt="Isabel Mueller" /></a>            </div>
+        </div>
+    </div>
+    
+    <div class="menu openSans">
+        <div class="grid-container">
+            <div class="grid-100">
+            	<div style="position: relative;">
+                	
+                                        
+                    <ul>
+                        <li><a href="/">In&iacute;cio</a></li>
+                        <li><a href="/isabel_mueller">Isabel Mueller</a></li>
+                                                <li><a href="/astrologia">Astrologia</a></li>
+                        <li><a href="/videos">V&iacute;deos</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menuMobile">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Menu</option>
+            <option value="/">
+                In&iacute;cio
+            </option>
+            <option value="/isabel_mueller">
+                Isabel Mueller
+            </option>
+                        <option value="/astrologia">
+                Astrologia
+            </option>
+            <option value="/videos">
+                V&iacute;deos
+            </option>
+            <option value="/contato">
+                Contato
+            </option>
+        </select>
+    </div>
+</div>
+
+
+<div class="contPg">
+	<div class="grid-container">
+		<div style="margin-bottom: 20px;">
+	<div class="grid-25 hide-on-mobile">
+    	<div class="titBox1">
+        	<a href="https://www.facebook.com/AstrologaIsabelMueller" target="_blank">Facebook</a>        </div>
+        <div>
+        	<iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FAstrologaIsabelMueller&amp;height=278&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;show_border=false&amp;appId=1404575759814347" scrolling="no" frameborder="0" style="border:1px solid #e8e8e8; overflow:hidden; width:100%; height:278px; background: #fff;" allowTransparency="true" class="borderRadius5"></iframe>
+        </div>
+    </div>
+    
+    <div class="grid-25 hide-on-mobile">
+    	<div class="titBox1">
+        	<a href="/isabel_mueller">Livros</a>        </div>
+        <div>
+        	<div style="margin-bottom: 10px;">
+				<a href="/isabel_mueller"><img src="/img/banner-livros.jpg" class="img-100" alt="2015" /></a>            </div>
+            <div>
+            	Conhe&ccedil;a as obras publicadas e as premia&ccedil;&otilde;es liter&aacute;rias de Isabel Mueller.
+                <a href="/isabel_mueller"><strong>Conhe&ccedil;a os livros</strong></a>.
+            </div>
+        </div>
+    </div>
+    
+    
+	<div class="grid-25 mobile-grid-50">
+    	<div class="titBox1">
+        	<a href="/signos">Signos</a>        </div>
+        <div>
+        	<div style="margin-bottom: 10px;">
+				<a href="/signos"><img src="/img/banner-signos-2.jpg" class="img-100" alt="2015" /></a>            </div>
+            <div>
+            	O Mapa Astral &eacute; a nossa identidade c&oacute;smica. Seu tra&ccedil;ado &uacute;nico simboliza nossa singularidade no Universo.
+                <a href="/signos"><strong>Continue lendo</strong></a>.
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="grid-25 mobile-grid-50">
+    	<div class="titBox1 hide-on-mobile">
+        	<a href="/pages/consulta_astrologica">Consulta</a>        </div>
+        <div class="titBox1 hide-on-desktop">
+        	<a href="/pages/consulta_astrologica">Consulta</a>        </div>
+        <div>
+        	<div style="margin-bottom: 10px;">
+				<a href="/pages/consulta_astrologica"><img src="/img/banner-consulta-astrologica.jpg" class="img-100" alt="Consulta astrológica" /></a>            </div>
+            <div>
+            	Mapa Astral, Tr&acirc;nsitos, Progress&otilde;es, Revolu&ccedil;&atilde;o Solar.
+                <a href="/pages/consulta_astrologica"><strong>Saiba mais</strong></a>.
+            </div>
+        </div>
+    </div>
+    
+	<div class="clear"></div>
+</div>
+
+
+
+<div style="margin-bottom: 30px;">
+	
+    <div class="grid-80 grid-parent">
+    	<div class="grid-100">
+            <div class="titBox2">
+                <a href="/escritos">Escritos</a>            </div>
+        </div>
+        
+		            <div class="grid-25 mobile-grid-50">
+                <div>
+                                            <div style="margin-bottom: 10px;">
+                            <a href="/escrito/62/Plenitude_da_presenca"><img src="/files/pensamentos/mini/CapturaZdeZTelaZ2017-03-10ZsZ12.51.20.jpg" class="img-100" alt="" /></a>                        </div>
+                                        <div>
+                        
+	Tudo o que se faz com paix&atilde;o e aten&ccedil;&atilde;o plena, estando verdadeiramente presente, &eacute; uma medita&ccedil;&atilde;o, uma forma de conex&atilde;o com o sagrado.
+ (...) <a href="/escrito/62/Plenitude_da_presenca">Continue lendo</a>                    </div>
+                </div>
+                
+                <div class="hide-on-desktop" style="margin-bottom: 20px;"></div>
+            </div>
+                    <div class="grid-25 mobile-grid-50">
+                <div>
+                                            <div style="margin-bottom: 10px;">
+                            <a href="/escrito/61/Essencia"><img src="/files/pensamentos/mini/CapturaZdeZTelaZ2017-03-10ZsZ12.59.40.jpg" class="img-100" alt="" /></a>                        </div>
+                                        <div>
+                        
+	N&atilde;o &eacute; correndo atr&aacute;s ansiosamente do que queremos que nos ser&atilde;o mostradas as coisas mais valiosas. Mas, sim, estando receptivos ao que &eacute; nosso, ao que nos (...) <a href="/escrito/61/Essencia">Continue lendo</a>                    </div>
+                </div>
+                
+                <div class="hide-on-desktop" style="margin-bottom: 20px;"></div>
+            </div>
+                    <div class="grid-25 mobile-grid-50">
+                <div>
+                                            <div style="margin-bottom: 10px;">
+                            <a href="/escrito/60/Revelacoes"><img src="/files/pensamentos/mini/CapturaZdeZTelaZ2017-03-10ZsZ12.53.19.jpg" class="img-100" alt="" /></a>                        </div>
+                                        <div>
+                        
+	Mundos al&eacute;m do Sistema Solar s&atilde;o descobertos, revelados e voc&ecirc; ainda insiste em velhos paradigmas e pontos de vista?&nbsp;Reveja os seus conceitos. Expanda os seus (...) <a href="/escrito/60/Revelacoes">Continue lendo</a>                    </div>
+                </div>
+                
+                <div class="hide-on-desktop" style="margin-bottom: 20px;"></div>
+            </div>
+                    <div class="grid-25 mobile-grid-50">
+                <div>
+                                            <div style="margin-bottom: 10px;">
+                            <a href="/escrito/59/Salto_evolutivo"><img src="/files/pensamentos/mini/CapturaZdeZTelaZ2017-03-10ZsZ12.43.57.jpg" class="img-100" alt="" /></a>                        </div>
+                                        <div>
+                        
+	O salto no novo contrasta com a insist&ecirc;ncia na desconfort&aacute;vel zona de conforto. Pois onde antes havia conforto, agora h&aacute; confronto.
+
+	O desafio &eacute; positivo, pois (...) <a href="/escrito/59/Salto_evolutivo">Continue lendo</a>                    </div>
+                </div>
+                
+                <div class="hide-on-desktop" style="margin-bottom: 20px;"></div>
+            </div>
+            </div>
+    
+    
+    <div class="grid-20 grid-parent">
+    	<div class="grid-100">
+            <div class="titBox2">
+                <a href="/o-ano">2017</a>            </div>
+        </div>
+        
+        <div class="grid-100">
+            <div>
+                <div style="margin-bottom: 10px;">
+                	<a href="/o-ano">
+                    	<img src="/img/2017-o-ano.jpg" class="img-100" alt="" />                    </a>
+                </div>
+                <div>
+                    2017 chega para restaurar a confian&ccedil;a e renovar a esperan&ccedil;a. &Eacute; novamente poss&iacute;vel sonhar e realizar, juntando os cacos do ano anterior, depois de tantas estruturas e situa&ccedil;&otilde;es que desmoronaram.
+                    <a href="/o-ano">Continue lendo</a>                </div>
+            </div>
+            
+            <div class="hide-on-desktop" style="margin-bottom: 20px;"></div>
+        </div>
+	</div>
+    
+    
+    
+    
+	<div class="clear"></div>
+</div>    </div>
+</div>
+
+
+
+<div class="astralMes">
+    <div class="grid-container">
+        <div class="grid-100">
+            <div class="tit">
+                Hor&oacute;scopo
+            </div>
+            <div class="subTit">
+                <strong>Hor&oacute;scopo do dia</strong>, astral da semana, c&eacute;u do m&ecirc;s e ano.
+            </div>
+        </div>
+        
+        <div class="signos signosPreto">
+            
+            <div class="grid-25 mobile-grid-100 grid-parent">                <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_aries">
+                        <a href="/signos/aries" title="Áries"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/aries">Áries</a>                    </div>
+                </div>
+                            <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_touro">
+                        <a href="/signos/touro" title="Touro"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/touro">Touro</a>                    </div>
+                </div>
+                            <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_gemeos">
+                        <a href="/signos/gemeos" title="Gêmeos"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/gemeos">Gêmeos</a>                    </div>
+                </div>
+            </div><div class="grid-25 mobile-grid-100 grid-parent">                <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_cancer">
+                        <a href="/signos/cancer" title="Câncer"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/cancer">Câncer</a>                    </div>
+                </div>
+                            <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_leao">
+                        <a href="/signos/leao" title="Leão"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/leao">Leão</a>                    </div>
+                </div>
+                            <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_virgem">
+                        <a href="/signos/virgem" title="Virgem"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/virgem">Virgem</a>                    </div>
+                </div>
+            </div><div class="grid-25 mobile-grid-100 grid-parent">                <div class="item grid-33 mobile-grid-33">
+                    <div class="simbolo simbolo_libra">
+                        <a href="/signos/libra" title="Libra"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>                    </div>
+                    <div class="nome">
+                        <a href="/signos/libra">Libra</a>                    </div>
+                </div>
+                            <div class="item grid-33 mobile-grid-33">
+                    <

@@ -1,0 +1,140 @@
+|||
+http://www.assinefolha.com.br/?gid=FOL
+|
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt-BR"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="pt-BR"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="pt-BR"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-BR"> <!--<![endif]-->
+<head>
+<meta charset="iso-8859-1">
+<meta name="description" content="">
+<link rel="shortcut icon" type="image/x-icon" href="//f.i.uol.com.br/favicon.ico">
+
+<script src="//static.folha.uol.com.br/library/modernizr/2.6.2/modernizr.js"></script>
+
+<script src="//static.folha.uol.com.br/library/jquery/1.7.2/jquery.js"></script>
+<script type="text/javascript" src="//static.folha.uol.com.br/assinaturas/js/1/common/common.js?201608231637"></script>
+<script type="text/javascript" src="//static.folha.uol.com.br/boilerplate/js/1/common/plugins.js?201608231637"></script>
+
+<script src="//static.folha.uol.com.br/plugins/jquerymasked/1.3.1/maskedinput.js"></script>
+
+<link rel="stylesheet" href="https://secure.folha.com.br/furniture/app.css?201608231637">
+<script src="https://secure.folha.com.br/furniture/app.js?201608231637"></script>
+
+<link rel="stylesheet" href="https://secure.folha.com.br/furniture/home.css?201608231637">
+
+<script type="text/javascript"><!-- OMNITURE
+folha.information.page.channel = "assinaturas";
+folha.information.page.type = "home";
+//--></script>
+
+<title>Assinaturas - Folha de S.Paulo</title>
+</head>
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MHSCM9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MHSCM9');
+</script>
+<!-- End Google Tag Manager -->
+
+<form action="#" name="promocao" method="post">
+<input type="hidden" name="h" value="">
+<input type="hidden" name="document" value="">
+<table width="760" id="container" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+    	<td>
+        	<div id="barraUol">
+				<script language="JavaScript" src="furniture/barraing.js" type="text/javascript"></script>
+            </div>
+            <div id="cabecalho">
+            	<p id="logoFolhaAssinaturas">
+                	<img alt="" src="furniture/images/lgo-assinaturas.gif">
+                </p>
+                <p id="logoFolhaOnline">
+                    <a href="http://www.folha.com.br">
+                        <img alt="" src="furniture/images/logo_folha_online.gif" border="0">
+                    </a>
+                </p>
+            </div>
+            <div id="corpo">
+            	<div id="confirmaCPF">
+                	<p id="btnFechar"><a onclick="closeBuble()" href="javascript:void(0);"><img alt="" src="furniture/images/buble_Close.gif" border="0"></a></p>
+              		<div id="formCPF">
+                        <p id="inputCPF">
+                            <!-- form name="sendCPF" id="sendCPF" method="post" -->
+                            	<input name="cpf" class="home_check_cpf" id="cpf" type="text" maxlength="11">
+                                <a onclick="assine.home_functions();" href="#">
+                                    <img id="malaBtnEnvia" alt="Enviar CPF para receber 15 dias grátis" src="furniture/images/buble_Ok.gif" border="0">
+                                </a>
+                            <!-- /form -->
+                        </p>
+                        <p id="alertCPF">
+                            <img id="acWarning" alt="CPF inválido!" src="furniture/images/buble_Error.gif">
+                            <label id="acWarningText">Promoção válida uma vez por CPF</label>
+                        </p>
+                 	</div>
+              </div>
+            	<p id="titPlanosDeAssinatura">
+                	<img alt="" src="furniture/images/tit_PlanosDeAssinatura.gif">
+                </p>
+                <p id="ofertas">
+                	<a id="bl1" href="/folha/assine/300338" class="hide"></a>
+                    <a href="javascript:void(0);" id="bl1" onclick="showMe('confirmaCPF'); document.promocao.cpf.focus();"></a>
+                    <a id="bl2" href="https://secure.folha.com.br/folha/assine/300339"></a>
+                    <a id="bl3" href="https://secure.folha.com.br/folha/assine/320617"></a>
+                </p>
+                <p id="outrasOpcoes">
+                	<span><img alt="" src="furniture/images/c4_t1.gif"></span>
+                    <span><a href="https://secure.folha.com.br/folha/assine/300340"><img alt="" src="furniture/images/c4_t2.gif" border="0"></a></span>
+                    <span><a href="https://secure.folha.com.br/folha/assine/300341"><img alt="" src="furniture/images/c4_t3.gif" border="0"></a></span>
+                </p>
+
+                <p id="outrasOfertas">
+                	<a id="oo1" href="https://secure.folha.com.br/folha/brindes">
+                    	<span id="brindes">
+                    		Assine a Folha com um superdesconto e ainda GANHE um <strong>brinde especial</strong> que você mesmo vai escolher.
+                        </span>
+                    </a>
+                    <span id="bgmala">
+                        <span id="mala">
+                        <!-- form name="sendMala" id="sendMala" method="post" -->
+                            <label>Se você recebeu uma oferta de assinatura, digite o código da promoção.</label>
+
+							<input type="text" name="code" id="code" class="number">
+                            <img src="furniture/images/btn_MalaError.gif" id="malaError" alt="Código Inválido">
+							<input type="submit" name="send" value="" id="send" class="sprite-btn-home">
+                        <!-- /form -->
+                        </span>
+                    </span>
+		        <div id="assinePeloFone">
+				<span id="links">
+					<a href="http://grupofolha.nccserver.com.br/grupofolha115/chat5/Cliente/frm_login.aspx?IdArea=2&amp;sel=AssineFolha" title="Atendimento Online" onclick="javascript:open_chat( this.href );return false;" class="sprite-home"><span style="color: rgb(0, 113, 213); font-size: 12px; font-weight: bold; margin-left: 8px;">Atendimento online</span></a>
+				</span>
+                    		<img alt="" src="furniture/images/img_AssinePeloTelefone.gif">
+                    	</div>
+                <p></p>
+                <div id="links">
+                    <div id="conhecaFolha">
+						<p class="mfTitle">Conheça a Folha de S.Paulo: </p>
+                        <ul>
+                            <li><a href="http://www1.folha.uol.com.br/folha/conheca/">A empresa</a> | </li>
+                            <li><a href="http://www1.folha.uol.com.br/institucional/conheca_a_folha.shtml">O jornal Folha de S.Paulo</a> | </li>
+                            <li><a href="http://assine.folha.com.br/folha/assinatura/wass0100.asp">Vantagens e serviços</a> | </li>
+                            <li><a href="https://atendimento.folha.com.br/atendefolha/DuvidasFrequentes.do">Dúvidas frequentes</a></li>
+                        </ul>
+                    </div>
+                    <div id="servicos">
+						<p class="mfTitle">Serviços: </p>
+                        <ul>
+                            <li><a href="http://www.clubefolha.com.br">ClubeFolha</a> |</li>
+                            <li><a href="http://atendefolha.folha.com.br">Atendimento ao assinante</a> |</li>
+                            <li><a href="https://atendimento.folha.com.br/atendefolha/FaleConosco.do?method=inicializar">Fale conosco</a></li>
+                        </ul>
+                    </div>
+              </div>
+              <div id="blBlock">
+                <p id="info15diasGratis">
+                	<strong>*Importante:</strong> Ao solicitar os 15 dias de Folha grátis, deverão ser informados os dados pessoais e de cobrança. Caso não nos ligue até o 10.º (décimo) dia de entrega dos exemplares gratuitos, a cobrança da sua ass

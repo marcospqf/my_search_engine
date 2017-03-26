@@ -1,0 +1,609 @@
+|||
+http://movenext.com.br/
+|
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+	<!-- ON HUTT -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<script type="text/javascript" src="/js/jquery-1.10.1.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	<script>
+		$(function(){
+			$('a').click(function(){
+				if($(this).data('div') != 'undefined') {
+					$('html, body').animate({
+				        scrollTop: $("."+$(this).data('div')).offset().top
+				    }, 1000);
+				}
+			});
+					});
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-23999092-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+</head>
+<body>
+	<div class="row apresentacao">
+		<img src="img/logo.png" />
+		<div class="clear"></div>
+		<div class="col-md-6 menu">
+			<ul>
+				<li class="active">
+					<a data-div="apresentacao">Home</a>
+				</li>
+				<li>
+					<a data-div="about">About</a>
+				</li>
+				<li>
+					<a data-div="contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-6 call">
+			<div class="title">
+				A dynamic, ambitious<br>
+				and creative mobile<br>
+				technology company. 
+			</div>
+			<div class="text">
+				Under the wings of <a href="http://www.hutt.com.br" target="_blank">HUTT</a>,<br>
+				our focus is creating amazing<br>
+				apps for the world to use.<br>
+				We are the proud company<br>
+				behind <a href="http://www.meeapp.com.br" target="_blank">Mee</a> and <a href="http://zenapp.com.br" target="_blank">Zen</a>
+			</div><br>
+			<a data-div="about" class="button">Read more</a>
+		</div>
+	</div>
+	<div class="row stripe about">
+		<div class="env">
+			<div class="col-md-7 ">
+				<div class="title">
+					About
+				</div>
+				<div class="subtitle">
+					A dynamic, ambitious and creative mobile technology company. 
+				</div>
+				<div class="text">
+					Founded in 2008, responsible for a multitude of apps launched in Brazil, our areas of expertise are Objective-C and Java development.  
+					<br><br>
+					Under the wings of <a href="http://www.hutt.com.br" target="_blank">HUTT</a>, our focus is creating amazing apps for the whole world to use. We are the proud company behind <a href="http://www.meeapp.com.br" target="_blank">Mee</a> and <a href="http://zenapp.com.br" target="_blank">Zen</a>
+					<br><br>
+					We live a dream and are grateful to have the freedom to continue dreaming, creating and making the impossible possible. 
+				</div>
+			</div>
+			<div class="col-md-5">
+				<div class="letus">
+					Making the<br>
+					impossible<br>
+					<b>possible!</b>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row stripe contact">
+		<div class="env">
+			<div class="title">Contact</div>
+			<div class="clear"></div>
+			<div class="col-md-5">
+				<div class="letus">
+					Get in touch<br>
+					with <b>us</b>.
+				</div>
+			</div>
+			<div class="col-md-7">
+				<form method="POST" action="?" accept-charset="UTF-8">
+				<div class="col-md-6">
+					<input type="text" name="nome" placeholder="NAME"/><br>
+					<input type="text" name="email" placeholder="EMAIL"/><br>
+					<input type="text" name="telefone" placeholder="PHONE"/>
+									</div>
+				<div class="col-md-6">
+					<textarea name="mensagem" placeholder="MESSAGE"></textarea>
+					<div class="g-recaptcha" data-sitekey="6Ld7GhMUAAAAAA6u3l8EPED4l-7FUK0kRQOWJA3_" style="float: right; margin: 0 10px 20px 0;"></div>
+					<input type="submit" class="button" value="SEND"/>
+				</div>	
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="row stripe footer">
+		<a href="http://www.hutt.com.br" target="_blank">
+			<img src="img/logo2.png"/>
+		</a>
+	</div>
+</body>
+</html>
+<!-- linode -->
+
+|||
+http://158-1.tumblr.com/mobile
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    	<style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}</style><link rel="alternate" type="application/rss+xml" title="RSS" 
+        href="/rss"/>
+        <title>1.5.8-1</title>
+    <script src="http://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=eaeb98f51ce8ef044da5d23afc31336b"></script><link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="1.5.8-1" /><meta property="og:url" content="http://158-1.tumblr.com/?og=1" /><meta property="og:description" content="EH NOIS" /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://68.media.tumblr.com/avatar_dcbc23a45fc3_128.png" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=158-1" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=158-1" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="158-1" /><meta name="twitter:title" content="158-1" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=158-1&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=158-1&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=158-1&amp;referrer=twitter-cards" /><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"ItemList","url":"http:\/\/158-1.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/158-1.tumblr.com\/post\/88795219966\/sem-violencia"},{"@type":"ListItem","position":2,"url":"http:\/\/158-1.tumblr.com\/post\/88775030140\/hasteando-o-patriotismo"},{"@type":"ListItem","position":3,"url":"http:\/\/158-1.tumblr.com\/post\/88700811510\/em-breve-mais-uma-serie-pro-youtube"},{"@type":"ListItem","position":4,"url":"http:\/\/158-1.tumblr.com\/post\/88680220242\/sampacaos"},{"@type":"ListItem","position":5,"url":"http:\/\/158-1.tumblr.com\/post\/88605758908\/pauta-do-dia-nas-internets"},{"@type":"ListItem","position":6,"url":"http:\/\/158-1.tumblr.com\/post\/88584455756\/aqui-os-funcionarios-vestem-a-camisa-eoh-wait"}],"@context":"http:\/\/schema.org"}</script><link rel="canonical" href="http://158-1.tumblr.com" /></head>
+    <body style="font-family:sans-serif;">
+        <h1>1.5.8-1</h1>
+
+        
+            
+                <h2>
+                    Jun 14
+                </h2>
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/389e9628c668b1d5634f266af6ff3e5a/tumblr_n6yy3kjquj1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/389e9628c668b1d5634f266af6ff3e5a/tumblr_n6yy3kjquj1r5wrz2o1_250.jpg" alt="#sem #violencia" border="0"/></a
+                    
+                        <br/><p>#sem #violencia</p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/fed4d3c376141d21a8c12077e9f71660/tumblr_n6yy30YAPp1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/fed4d3c376141d21a8c12077e9f71660/tumblr_n6yy30YAPp1r5wrz2o1_250.jpg" alt="hasteando o patriotismo" border="0"/></a
+                    
+                        <br/><p>hasteando o patriotismo</p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+            
+                <h2>
+                    Jun 13
+                </h2>
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/9fba37109eba9bc03d9359d8057cfb5a/tumblr_n6yy1yH9vf1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/9fba37109eba9bc03d9359d8057cfb5a/tumblr_n6yy1yH9vf1r5wrz2o1_250.jpg" alt="Em breve mais uma serie pro youtube: &ldquo;Empreendedores Icompreendidos&rdquo;, com @ianblack e @mrmanson" border="0"/></a
+                    
+                        <br/><p><span data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0]"><span data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0].[1].[1].[0].[0].[0].[0].[1].[2][1]"><span data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0].[1].[1].[0].[0].[0].[0].[1].[2][1].[0]">Em breve mais uma serie pro youtube: <strong>&ldquo;Empreendedores Icompreendidos&rdquo;</strong>, com </span><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Finstagram.com%2Fianblack&amp;t=NmRmYjI2MDMzMTQ0MmM3OTZiNTVmOGExYWNiODc3ZDI2N2M3ZjQzZSxzWGw5RjlSUA%3D%3D&amp;b=t%3AzsqdH6Ydbp7mjVIEYusPCA&amp;p=http%3A%2F%2F158-1.tumblr.com%2Fpost%2F88700811510%2Fem-breve-mais-uma-serie-pro-youtube&amp;m=1" data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0].[1].[1].[0].[0].[0].[0].[1].[2][1].[1]">@ianblack</a><span data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0].[1].[1].[0].[0].[0].[0].[1].[2][1].[2]"> e </span><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Finstagram.com%2Fmrmanson&amp;t=YzJhZWI5OGJmMTU1ZDNkYTAxMjU5MjhhNzE4Njk1ODkyNzAwYTIyNCxzWGw5RjlSUA%3D%3D&amp;b=t%3AzsqdH6Ydbp7mjVIEYusPCA&amp;p=http%3A%2F%2F158-1.tumblr.com%2Fpost%2F88700811510%2Fem-breve-mais-uma-serie-pro-youtube&amp;m=1" data-reactid=".r[0].[0].[1].[0].[0].[0].[0].[0].[0].[1].[1].[0].[0].[0].[0].[1].[2][1].[3]">@mrmanson</a></span></span></p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/3f0413499233cbbe27cdd43c53d8db3c/tumblr_n6yxwiBpwj1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/3f0413499233cbbe27cdd43c53d8db3c/tumblr_n6yxwiBpwj1r5wrz2o1_250.jpg" alt="SAMPA_CAOS" border="0"/></a
+                    
+                        <br/><p>SAMPA_CAOS</p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+            
+                <h2>
+                    Jun 12
+                </h2>
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/2babf423d1e34ac88b4b1581b6217cb4/tumblr_n6yxq3w8ag1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/2babf423d1e34ac88b4b1581b6217cb4/tumblr_n6yxq3w8ag1r5wrz2o1_250.jpg" alt="Pauta do dia nas internets" border="0"/></a
+                    
+                        <br/><p>Pauta do dia nas internets</p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+            
+        
+            <p>
+                
+                
+                
+                    <a href="http://68.media.tumblr.com/533bf7b64d1c8e67a91070b31b02e91c/tumblr_n6yxt5yYbR1r5wrz2o1_500.jpg"><img src="http://68.media.tumblr.com/533bf7b64d1c8e67a91070b31b02e91c/tumblr_n6yxt5yYbR1r5wrz2o1_250.jpg" alt="Aqui os funcionarios vestem a camisa e..OH WAIT!!" border="0"/></a
+                    
+                        <br/><p>Aqui os funcionarios vestem a camisa e..OH WAIT!!</p>
+                    
+                
+                
+                
+                
+                
+                
+                  
+
+                  
+            </p>
+        
+        
+        <div id="navigation">
+            
+        
+            
+                <a href="/mobile/page/2">next</a>
+            
+        </div>
+    
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?014c746a3d64793a0cd2c1d60347ef36#" +
+                              "http://158-1.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/mobile?route=%2Fmobile'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/mobile';
+                    var tumblelog_id = '32612282';
+                    var yahoo_space_id = '1197719233';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1490498824&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMTU4LTEudHVtYmxyLmNvbVwvbW9iaWxlIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL21vYmlsZSJ9&U=HLNOKINEPF&K=ebe5478c4594b7205109f484820cc9176f90ebd214716f7be7e7da891c6efafd&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1490498824&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMTU4LTEudHVtYmxyLmNvbVwvbW9iaWxlIiwicmVxdHlwZSI6MCwicm91dGUiOiJcL21vYmlsZSIsIm5vc2NyaXB0IjoxfQ==&U=HLNOKINEPF&K=1ea1bc40cd9549e202b5d09d0dc9947c170bfc91f56fa7793d7f475bdbadbcee&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=a95b5ce756d322385d677d6378669123';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1490498824&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzE1OC0xLnR1bWJsci5jb21cL21vYmlsZSIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9tb2JpbGUiLCJwb3N0cyI6W3sicG9zdGlkIjoiODg3OTUyMTk5NjYiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg3NzUwMzAxNDAiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg3MDA4MTE1MTAiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg2ODAyMjAyNDIiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg2MDU3NTg5MDgiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg1ODQ0NTU3NTYiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9XX0=&U=ICGMIMOONA&K=1dbcf6bb1544530fa08e03d2f85a026e5142b2e81b0f1808cd4a123332c2d3a5&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1490498824&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cLzE1OC0xLnR1bWJsci5jb21cL21vYmlsZSIsInJlcXR5cGUiOjAsInJvdXRlIjoiXC9tb2JpbGUiLCJwb3N0cyI6W3sicG9zdGlkIjoiODg3OTUyMTk5NjYiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg3NzUwMzAxNDAiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg3MDA4MTE1MTAiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg2ODAyMjAyNDIiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg2MDU3NTg5MDgiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiODg1ODQ0NTU3NTYiLCJibG9naWQiOiIzMjYxMjI4MiIsInNvdXJjZSI6MzN9XSwibm9zY3JpcHQiOjF9&U=ICGMIMOONA&K=f729d7b040562bb369e8bd68dc81856c54a4660e11d960699fa46ad467948014&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;TumblelogIframe&quot;:{&quot;unified&quot;:false,&quot;variant&quot;:null,&quot;isCompact&quot;:false,&quot;tumblelogBundleSrc&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=e1e6c604496aaba2acbde5734d94462e&quot;,&quot;tumblelogName&quot;:&quot;158-1&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;1.5.8-1&quot;,&quot;tumblelogAvatar&quot;:&quot;http:\/\/68.media.tumblr.com\/avatar_dcbc23a45fc3_40.png&quot;,&quot;tumblelogHost&quot;:&quot;http:\/\/158-1.tumblr.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:true,&quot;themeHeaderImage&quot;:&quot;https:\/\/assets.tumblr.com\/images\/default_header\/optica_pattern_11_focused_v3.png?_v=4275fa0865b78225d79970023dde05a1&quot;,&quot;themeBackgroundColor&quot;:&quot;#FAFAFA&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:true,&quot;adsEnabled&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:null,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:true,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;blog&quot;,&quot;currentPage&quot;:&quot;1&quot;,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;&quot;,&quot;src&quot;:&quot;http:\/\/158-1.tumblr.com\/mobile&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;http:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=2cad4097ceb8efba8fd14b28d51fa0e6&quot;,&quot;appInstallUrl&quot;:&quot;https:\/\/go.onelink.me\/893408789?pid=tumblr_blog_network\u0026c=tumblr_blog_network\u0026af_sub3=blog_name&quot;,&quot;appOpenReferrer&quot;:&quot;mobile_banner&quot;,&quot;isShowSearch&quot;:true}},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwidGFibGV0X2Jhbm5lcl9hY3RpdmUiOnRydWUsIm1vYmlsZV9iYW5uZXJfYWN0aXZlIjp0cnVlLCJsb2dfc2VhcmNoX2JveCI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3BvdmVyX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwiaW5kYXNoX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwicG9wdGljYV90dW1ibGVsb2dfcG9wb3ZlcnMiOnRydWUsInR1bWJscl90diI6dHJ1ZSwiZGVwcmVjYXRlX2ZlYXR1cmVkX3RhZ3MiOnRydWUsInJlYmxvZ191aV9yZWZyZXNoIjp0cnVlLCJ0YWJfc3dpdGNoZXIiOnRydWUsImZhc3RfY29tcG9zZSI6dHJ1ZSwiZGFzaGJvYXJkX3JlZnJlc2giOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJtb2JpbGVfd2ViX2dhdGUiOnRydWUsIm1vYmlsZV93ZWJfcGFnZV90aXRsZXMiOnRydWUsIm1vYmlsZV93ZWJfYWJ1c2VfZm9ybSI6dHJ1ZSwiZG9udF9jYXN0X2pzX2ZvbGxvd3MiOnRydWUsImFkc19uZXdfdmVuZG9yX2J1dHRvbnMiOnRydWUsImJsb2NrX2ZlYXR1cmUiOnRydWUsInJlYWN0aXZhdGlvbl9mbG93Ijp0cnVlLCJndWxwanNfYWRtaW4iOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsImxpdmVwaG90b3Nfd2ViIjp0cnVlLCJscmVjX29uX2Jsb2dfcGFnZXNfcGVlcHIiOnRydWUsImhpZGVfZGVmYXVsdF9oZWFkZXJzX2Jsb2dfY2FyZHMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsImxpdmVwaG90b3MiOnRydWUsInN0aWNreV9hZHMiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1490498824000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;http:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;http:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;http:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;http:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;http:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript><script src="http://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=e1e6c604496aaba2acbde5734d94462e"></script></body>
+</html>
+|||
+http://158-1.tumblr.com/archive?before_time=1397841626
+|
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><meta http-equiv="x-dns-prefetch-control" content="off"/><meta name="viewport" content="width=device-width"><title>1.5.8-1: Archive</title><link rel="icon" href="http://68.media.tumblr.com/avatar_dcbc23a45fc3_128.png" type="image/png"/><link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/global.build.css?_v=51509f6f6c356b8c2846540b9dad6070"><link rel="stylesheet" media="screen" href="http://assets.tumblr.com/client/prod/app/context/archive/index.build.css?_v=c24b0bfd03336273c70184d510809f5b"><script nonce="Ysw2DeRFafG4PNK26jpNmhzDo">
+var _flags = 'eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwidGFibGV0X2Jhbm5lcl9hY3RpdmUiOnRydWUsIm1vYmlsZV9iYW5uZXJfYWN0aXZlIjp0cnVlLCJsb2dfc2VhcmNoX2JveCI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3BvdmVyX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwiaW5kYXNoX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwicG9wdGljYV90dW1ibGVsb2dfcG9wb3ZlcnMiOnRydWUsInR1bWJscl90diI6dHJ1ZSwiZGVwcmVjYXRlX2ZlYXR1cmVkX3RhZ3MiOnRydWUsInJlYmxvZ191aV9yZWZyZXNoIjp0cnVlLCJ0YWJfc3dpdGNoZXIiOnRydWUsImZhc3RfY29tcG9zZSI6dHJ1ZSwiZGFzaGJvYXJkX3JlZnJlc2giOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJtb2JpbGVfd2ViX2dhdGUiOnRydWUsIm1vYmlsZV93ZWJfcGFnZV90aXRsZXMiOnRydWUsIm1vYmlsZV93ZWJfYWJ1c2VfZm9ybSI6dHJ1ZSwiZG9udF9jYXN0X2pzX2ZvbGxvd3MiOnRydWUsImFkc19uZXdfdmVuZG9yX2J1dHRvbnMiOnRydWUsImJsb2NrX2ZlYXR1cmUiOnRydWUsInJlYWN0aXZhdGlvbl9mbG93Ijp0cnVlLCJndWxwanNfYWRtaW4iOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsImxpdmVwaG90b3Nfd2ViIjp0cnVlLCJscmVjX29uX2Jsb2dfcGFnZXNfcGVlcHIiOnRydWUsImhpZGVfZGVmYXVsdF9oZWFkZXJzX2Jsb2dfY2FyZHMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsImxpdmVwaG90b3MiOnRydWUsInN0aWNreV9hZHMiOnRydWV9';
+var _assets = 'http://assets.tumblr.com/client/prod/';
+</script><script nonce="Ysw2DeRFafG4PNK26jpNmhzDo" src="http://assets.tumblr.com/client/prod/app/header.build.js?_v=befec95442e88042a3f795274e275d98"></script><script nonce="">
+    (function(exports) {
+        'use strict';
+
+        exports.getRealNow = (function(p, ts) {
+            var start = (p && p.timing && p.timing.responseStart) || Date.now();
+            function getRealNow() {
+                return ts + (Date.now() - start);
+            };
+            getRealNow.startedAt = (new Date()).getTime();
+            getRealNow.realStartedAt = getRealNow();
+            return getRealNow;
+        })(window.performance, 1490498825000);
+    })(window.Tumblr || (window.Tumblr = {}));
+</script><script src="http://assets.tumblr.com/languages/strings/en_US.js?1343"></script><script src="http://assets.tumblr.com/assets/scripts/tumblr/utils/exceptions.js?_v=eb7e8db0c1b20a81d08fe73cc6699164"></script><script>
+            var l10n_str = l10n_str || {},
+            just_clicked_browse_months = false,
+            is_mobile = RegExp(" Mobile/").test(navigator.userAgent);
+        </script><!--[if lt IE 9]><script>
+              document.createElement('header');
+              document.createElement('nav');
+              document.createElement('section');
+              document.createElement('article');
+              document.createElement('aside');
+              document.createElement('footer');
+           </script><![endif]--></head><body id="body" 
+                id="tumblelog_archive"        
+    
+        
+
+                class="flag--reblog-ui-refresh tumblelog_archive logged_out without_auto_paginate layout_standard"        
+    
+        
+><header id="nav_archive" class="blue_bar"><a href="/" class="title"><span id="back_to_blog"></span><img class="avatar" src="http://68.media.tumblr.com/avatar_dcbc23a45fc3_40.png" alt="" /><h1 class="blog_title">1.5.8-1</h1></a><div class="archive-controls-wrapper"><div id="browse_months"><div id="jump_to_month"><span class="month">Month </span><span class="icon_arrow_carrot_down"></span></div></div><div class="archive-controls inactive" data-view="archive-controls"><div class="search_control post_mode"><div class="search_control_items"><div class="filter_popover_menu search_control_item post_type_filter_menu search_control" data-search-action-type="filter_post_type"><a href="#" class="launch_button search_control_button"><i class="filter_popover_arrow icon_arrow_carrot_down"></i><span class="control_text">Filter by post type</span></a><div class="filter_popover popover_v2" style=""><div class="menu_inner"><span class="filter_popover_nipple"></span><div class="menu_item post_all_filter" data-search-action-value="all"><i class="icon icon_posts"></i><span class="menu_item_text">All posts</span></div><hr class="item_divider" /><div class="menu_item post_type post_text_filter" data-search-action-value="text"><i class="icon icon_post_text_small"></i><span class="menu_item_text">Text</span></div><div class="menu_item post_type post_photo_filter" data-search-action-value="photo"><i class="icon icon_post_photo_small"></i><span class="menu_item_text">Photo</span></div><div class="menu_item post_type post_quote_filter" data-search-action-value="quote"><i class="icon icon_post_quote_small"></i><span class="menu_item_text">Quote</span></div><div class="menu_item post_type post_link_filter" data-search-action-value="link"><i class="icon icon_post_link_small"></i><span class="menu_item_text">Link</span></div><div class="menu_item post_type post_chat_filter" data-search-action-value="chat"><i class="icon icon_post_chat_small"></i><span class="menu_item_text">Chat</span></div><div class="menu_item post_type post_audio_filter" data-search-action-value="audio"><i class="icon icon_post_audio_small"></i><span class="menu_item_text">Audio</span></div><div class="menu_item post_type post_video_filter" data-search-action-value="video"><i class="icon icon_post_video_small"></i><span class="menu_item_text">Video</span></div><div class="menu_item post_type post_ask_filter" data-search-action-value="ask"><i class="icon icon_help"></i><span class="menu_item_text">Ask</span></div></div></div></div></div></div></div></div><nav id="register" class="nav_right"><iframe scrolling="no" frameborder="0" id="tumblr_controls" src="http://assets.tumblr.com/assets/html/archive_iframe.html?_v=627d18ee91b1ccd54ea52c00d2018601#src=http%3A%2F%2F158-1.tumblr.com%2Farchive%3Fbefore_time%3D1397841626&amp;name=158-1" width="400" height="28" style="border:0; background-color:transparent; overflow:hidden; "></iframe>                </nav></header><div class="l-content"><!-- START CONTENT --><header class="heading" style="display:none;"><h2 class="date">April 2014</h2></header><section id="posts_201404" class="posts loading" style="display:none;"><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_83030209365" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/9f90d9eb66c48e9b5d29306669eb7024/tumblr_n4374bZUka1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/83030209365/risadaria-2014"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;83030209365&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 17, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_83008600544" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/060ffe23bcf1a9422ed4c9f99556f5cf/tumblr_n4370dYC6m1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/83008600544/viciado-em-escrever"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;83008600544&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 17, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_82928404529" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/bab4a7f51b3a78c09628288bd326f177/tumblr_n436wr7RQX1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/82928404529/rolezinho-de-1-ano-da-zona-grupo-fechado-de-fieis"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;82928404529&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 16, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_82906760791" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/38de81200376c71bd019ac1eea6c4ebd/tumblr_n436uaViZU1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/82906760791/nem-um-terninho"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;82906760791&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 16, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_82826656046" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/673a1ece910688489cf2a43c67d97120/tumblr_n436yuaAio1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/82826656046/lollapazoolla-2014"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;82826656046&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 15, 2014            </span><span class="post_notes"
+                    data-notes="4">
+                    4 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_81619135760" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/393311e665ca0a7c2434a83bccb79a64/tumblr_n3d5ooOixh1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81619135760/24h-augusta"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81619135760&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 3, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_81597204395" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/e41449358c3bdd6c500dc65e56cea08d/tumblr_n3d5nrMSqT1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81597204395/j&amp;aacute;-viram-o-layout-novo-do-amigos-do-f&amp;oacute;rum"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81597204395&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 3, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_81522003261" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/ee99a4b7ed7d05c891fb89fe457cd266/tumblr_n3d5m6Kcdl1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81522003261/selvagem"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81522003261&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 2, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_81499706116" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/841364804db03b53297cfe8703e65f5d/tumblr_n3d5l2VjH51r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81499706116/ivo-neuman-indo-pro-escritorio-acompanhado-dos"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81499706116&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 2, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_81423951643" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/d36ac7a5349212f1fc3f4dd327be8e62/tumblr_n3d5jmeBzP1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81423951643/shots-de-lactovacilos-no-anivers&amp;aacute;rio-do-igorseco"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81423951643&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 1, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_81403787545" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/3d23554d205242febf757cc4cc8c5505/tumblr_n3d5exBJYU1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81403787545/idade-mental-tb-faz-anivers&amp;aacute;rio"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81403787545&quot;}" ><div class="hover_inner"><span class="post_date">
+                Apr 1, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div></section><header class="heading" style="display:none;"><h2 class="date">March 2014</h2></header><section id="posts_201403" class="posts loading" style="display:none;"><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_81008817671" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/471e2db936c0f481b6dc46995c74f65a/tumblr_n30blhtIAB1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/81008817671/a-dura-vida-de-igorseco"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;81008817671&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 28, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80987040943" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/38086bebd4eaa6152207f7d5bfc8737e/tumblr_n30bjw3vfT1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80987040943/davisoopinando-a-fera-do-2048"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80987040943&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 28, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80912382643" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/a8670071243bfdc083756b653420d28b/tumblr_n30bhgZFkH1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80912382643/i-amsterdam-3"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80912382643&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 27, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80889963883" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/1567daaf42ee0477c5be381eb5349741/tumblr_n30bf1VVmf1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80889963883/revela&amp;ccedil;&amp;otilde;es-parte-ii"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80889963883&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 27, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80813301029" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/48b49bd9c9c2f4fd5e16f8ab12fdcea1/tumblr_n30bdhZYoE1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80813301029/encontro-improvisado-de-fieis-leitores-da-fran&amp;ccedil;a"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80813301029&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 26, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80790395483" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/da0a216ed29830523e92b024e131e675/tumblr_n30bc81o1S1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80790395483/sofrendo-calado-relaxando"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80790395483&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 26, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80712143334" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/1e32f405d21e556de4d45bc765116acd/tumblr_n30bavWE9H1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80712143334/algu&amp;eacute;m-sabe-como-se-diz-pesco&amp;ccedil;o-em-franc&amp;ecirc;s"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80712143334&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 25, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80508908887" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/11cb7ba5aea9097ef637055549669145/tumblr_n2naruzoHA1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80508908887/luide-mostrando-o-truque-do-desaparecimento-de"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80508908887&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 23, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80482381028" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/9ca11b24d4c0bc4f3321e6df4d0cc9c0/tumblr_n2naqhxVx71r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80482381028/protesto-de-ciclistas-pelados-na-augusta"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80482381028&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 23, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80397417661" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/1b2df6b9d0205eb3bd66430aba02528e/tumblr_n2abjxzgol1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80397417661/luide-sendo-luide"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80397417661&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 22, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80374303467" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/67e349befb4241c039662f7558cea0cd/tumblr_n2abkuF3Um1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80374303467/paparazzi-n&amp;atilde;o-descansam"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80374303467&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 22, 2014            </span><span class="post_notes"
+                    data-notes="5">
+                    5 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80294116738" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/56126da3f8f5732949669f9813c2daaf/tumblr_n2abd09jgW1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80294116738/dicas-de-leitura-com-igorseco"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80294116738&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 21, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80272805555" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/bb31c2a581ee8ed277855e950d3e6c0a/tumblr_n2abbyycMg1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80272805555/makeup-revela&amp;ccedil;&amp;otilde;es-nofilter"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80272805555&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 21, 2014            </span><span class="post_notes"
+                    data-notes="3">
+                    3 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80198024239" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/9868f480e523f825a5ab95f90c91069a/tumblr_n2na9oeHgI1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80198024239/double-rainbow-emocionando-o-luide-no-qg"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80198024239&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 20, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_80176368993" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/864288643176ec25627675b9933f0266/tumblr_n2naoskjCm1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80176368993/encontro-de-leitores-em-londres-no-st-patricks"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80176368993&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 20, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80100963522" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/14369e56fee72beab0a0c97f7d6485ed/tumblr_n2namx63PE1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80100963522/adquirindo-trajes-t&amp;iacute;picos-londrinos-para-n&amp;atilde;o"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80100963522&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 19, 2014            </span><span class="post_notes"
+                    data-notes="3">
+                    3 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80078662754" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/84ce0fb9f79a1050a5ba69e61e45b030/tumblr_n2naluvZL11r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80078662754/ok-vou-revelar-oq-vim-fazer-de-verdade-aqui-em"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80078662754&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 19, 2014            </span><span class="post_notes"
+                    data-notes="4">
+                    4 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_80002908232" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/c0ac2317822a77371ba7bdf4b631a3a5/tumblr_n2nak0nCLs1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/80002908232/london-london"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;80002908232&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 18, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_79986522795" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/b948d2c73bbb1c8b50675c0be2cc1889/tumblr_n2abhnZJFp1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79986522795/truque-do-desaparecimento-de-sp"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79986522795&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 18, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_79891391581" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/c9cf728db0133354aca4c652e1a2d9e3/tumblr_n2ab6fGloR1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79891391581/davi-s&amp;oacute;-editando"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79891391581&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 17, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_79788846778" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/c9cfcfa09479717e42a6e497bf387029/tumblr_n2ab4rT3yn1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79788846778/igorseco-apreciando-as-belezas-l&amp;iacute;quidas-de-seu"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79788846778&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 16, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_79679863678" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/c5ce00745c09a383dd3563fc4b5644ee/tumblr_n2ab8d3f2f1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79679863678/carnaval-hipster"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79679863678&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 15, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_79576404000" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/47d62d4962252b652bfe41bfe9960bad/tumblr_n2ab38CNGY1r5wrz2o3_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79576404000/ivoneuman-no-carnaval-de-rua-do-rio"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79576404000&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 14, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_79480271037" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/ba513d99d3b2b07526a764b696bb99cc/tumblr_n2ab0deTlW1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79480271037/encontro-rel&amp;acirc;mpago-de-fieis-leitores-em-salvador"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79480271037&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 13, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_79382046642" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/39dd1d60a0a50015bf70121775d53267/tumblr_n2aay928n51r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79382046642/carnaval-de-salvador-pqsim"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79382046642&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 12, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_79284278367" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/85e473eaea93f32a0f5341746123ce19/tumblr_n2aavag7ce1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79284278367/luide-o-evangelizador"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79284278367&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 11, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_79278460522" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/0f00beb44974457783be8c73b304984c/tumblr_n2aat9DEaH1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/79278460522/tutorial-de-modelo-com-luide"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;79278460522&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 11, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_78241380515" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/b20125ff48220d126a3e935ee3ac5263/tumblr_n1mgq7WKIS1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/78241380515/gravando-o-game-show-mais-dif&amp;iacute;cil-do-mundo"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;78241380515&quot;}" ><div class="hover_inner"><span class="post_date">
+                Mar 1, 2014            </span><span class="post_notes"
+                    data-notes="2">
+                    2 notes                </span></div><div class="hover_tags"></div></a></div></div></section><header class="heading" style="display:none;"><h2 class="date">February 2014</h2></header><section id="posts_201402" class="posts loading" style="display:none;"><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_78133826469" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/b56f1e4184628ccb39bb890d0d5a7887/tumblr_n1mgmvV0w11r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/78133826469/gravando-o-bebendo-e-falando-merda-com-o-pc-e"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;78133826469&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 28, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_78033600382" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/2fac3c0c7003f5508f0b90a8f2dab0be/tumblr_n1mgloQ2dt1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/78033600382/sendo-feliz-numa-degusta&amp;ccedil;&amp;atilde;o-de-chocolate"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;78033600382&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 27, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_77303492452" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/142f23bb2d36729e331918470faeff21/tumblr_n17i2ptCEQ1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/77303492452/churrasquinho-de-gato"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;77303492452&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 20, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_77200806849" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/2f7402d4849b8e2c1f69fd625e4f30e9/tumblr_n17i1syvtY1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/77200806849/on-fire-na-internete"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;77200806849&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 19, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_77096207676" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/769003aeb25c2906f072a896fba3f8dc/tumblr_n17i0iBv6q1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/77096207676/fuck-the-police"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;77096207676&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 18, 2014            </span><span class="post_notes"
+                    data-notes="3">
+                    3 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_76876190159" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/0a9a7e14edd8db29e9f11966ae83aacf/tumblr_n0uljgE7A31r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76876190159/o-chefe-vigia-at&amp;eacute;-no-banheiro"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76876190159&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 16, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_76762846372" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/c0883a8facf0e97bb8ea7ede294452d8/tumblr_n0ulipHND71r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76762846372/topless-no-guaruj&amp;aacute;"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76762846372&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 15, 2014            </span><span class="post_notes"
+                    data-notes="5">
+                    5 notes                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_76658116757" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/5713c93ee4beb5610514f5adc32a4d48/tumblr_n0uli3Hbgx1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76658116757/tu-ta-maluco"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76658116757&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 14, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_76555497187" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/175df66f82b4a5a08784730cd67a4546/tumblr_n0ulhlrEWT1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76555497187/ivoneuman-fazendo-selfie-no-elevador-do-qg"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76555497187&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 13, 2014            </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source reblog_ui_refresh has_hover" id="post_micro_76452025432" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/b7004ccb696a2274c03a4a2279c3f133/tumblr_n0ulgrNKGA1r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76452025432/walter-white"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76452025432&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 12, 2014            </span><span class="post_notes"
+                    data-notes="1">
+                    1 note                </span></div><div class="hover_tags"></div></a></div></div><div class="post post_micro is_photo post_tumblelog_82ab9b9e1cbc50cfdd5b2dc3a7cc5e38 not_mine is_original with_permalink no_source generic_source no_notes reblog_ui_refresh has_hover" id="post_micro_76350891469" ><div class="post_content"><div class="post_content_inner"><div class="post_thumbnail_container has_imageurl" style="height: 150px; width: 150px;" data-imageurl="http://68.media.tumblr.com/3013c82e128c09cf0eb0e74bdb30e018/tumblr_n0ulfklDU21r5wrz2o1_250.jpg"></div></div></div><div class="post_glass post_micro_glass_w_controls post_micro_glass" title=""><a target="_blank" class="hover" title="" href="http://158-1.tumblr.com/post/76350891469/dando-carteirada"  data-peepr="{&quot;tumblelog&quot;:&quot;158-1&quot;,&quot;postId&quot;:&quot;76350891469&quot;}" ><div class="hover_inner"><span class="post_date">
+                Feb 11, 2014            </span></div><div class="hover_tags"></div></a></div></div></section><!-- END CONTENT --></div><div id="pagination"><div rel="nowfollow" id="next_page" style="display:none"><a id="next_page_link" href="/archive?before_time=1392150621">Next page &rarr;</a></div></div><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?014c746a3d64793a0cd2c1d60347ef36#" +
+                              "http://158-1.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/archive?before_time=1397841626\x26route=%2Farchive'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/archive';
+                    var tumblelog_id = '32612282';
+                    var yahoo_space_id = '1197719231';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1490498825&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMTU4LTEudHVtYmxyLmNvbVwvYXJjaGl2ZT9iZWZvcmVfdGltZT0xMzk3ODQxNjI2IiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmUifQ==&U=EACJJGGLCK&K=9f98f6efc7759865b590ae00900fe7d5d8b54baa5bb008cd8259e0478d0bae88&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1490498825&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvMTU4LTEudHVtYmxyLmNvbVwvYXJjaGl2ZT9iZWZvcmVfdGltZT0xMzk3ODQxNjI2IiwicmVxdHlwZSI6MCwicm91dGUiOiJcL2FyY2hpdmUiLCJub3NjcmlwdCI6MX0=&U=EACJJGGLCK&K=1ecc997962b0dc37fdbd257f848e11b55d9c7e1fc96ecb45fb2746ac78c53757&R="></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=a95b5ce756d322385d677d6378669123';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><div id="browse_months_widget" class="popover popover_gradient" style="display:none"><div class="popover_inner"><section id="year_2014" class="year" style="display:block"><header class="year_navigation"><a class="previous_year" href="#"><span>2013</span></a><span class="current_year">2014</span><div class="next_year"><span></span></div><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2014/1">January</a></li><li><a href="/archive/2014/2">February</a></li><li><a href="/archive/2014/3">March</a></li><li><a href="/archive/2014/4">April</a></li><li><a href="/archive/2014/5">May</a></li><li><a href="/archive/2014/6">June</a></li><li class="empty"><span>July</span></li><li class="empty"><span>August</span></li><li class="empty"><span>September</span></li><li class="empty"><span>October</span></li><li class="empty"><span>November</span></li><li class="empty"><span>December</span></li></ul></nav></section><section id="year_2013" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2012</span></a><span class="current_year">2013</span><a class="next_year" href="#"><span>2014</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2013/1">January</a></li><li><a href="/archive/2013/2">February</a></li><li><a href="/archive/2013/3">March</a></li><li><a href="/archive/2013/4">April</a></li><li><a href="/archive/2013/5">May</a></li><li><a href="/archive/2013/6">June</a></li><li><a href="/archive/2013/7">July</a></li><li><a href="/archive/2013/8">August</a></li><li><a href="/archive/2013/9">September</a></li><li><a href="/archive/2013/10">October</a></li><li><a href="/archive/2013/11">November</a></li><li><a href="/archive/2013/12">December</a></li></ul></nav></section><section id="year_2012" class="year" style="display:none"><header class="year_navigation"><a class="previous_year" href="#"><span>2011</span></a><span class="current_year">2012</span><a class="next_year" href="#"><span>2013</span></a><div class="clear"></div></header><nav class="months"><ul><li><a href="/archive/2012/1">January</a></li><li class="empty"><span>February</span></li><li><a href="/archive/2012/3">March</a></li><li><a href="/archive/2012/4">April</a></li><li><a href="/archive/2012/5">May</a></li><li><a href="/archive/2012/6">June</a></li><li><a href="/archive/2012/7">July</a></li><li><a href="/archive/2012/8">August</a></li><li><a href="/archive/2012/9">September</a></li><li><a href="/archive/2012/10">October</a></li><li><a href="/archive/2012/11">November</a></li><li><a href="/archive/2012/12">December</a></li></ul></nav></section><section id="year_2011" class="year" style="display:none"><header class="year_navigation"><div class="previous_year"><span></span></div><span class="current_year">2011</span><a class="next_year" href="#"><span>2012</span></a><div class="clear"></div></header><nav class="months"><ul><li class="empty"><span>January</span></li><li class="empty"><span>February</span></li><li class="empty"><span>March</span></li><li class="empty"><span>April</span></li><li class="empty"><span>May</span></li><li class="empty"><span>June</span></li><li class="empty"><span>July</span></li><li class="empty"><span>August</span></li><li class="empty"><span>September</span></li><li class="empty"><span>October</span></li><li class="empty"><span>November</span></li><li><a href="/archive/2011/12">December</a></li></ul></nav></section></div></div><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[]},&quot;Flags&quot;:{&quot;doods&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwia2V5Y29tbWFuZF9hdXRvX3BhZ2luYXRlIjp0cnVlLCJsb2dnZWRfb3V0X3NlYXJjaCI6dHJ1ZSwiYXJjaGl2ZS1wbHVzIjp0cnVlLCJzZWN1cmVfZm9ybV9rZXkiOnRydWUsInNlY3VyZV9mb3JtX2tleV9mdWxseV9vbiI6dHJ1ZSwidHVtYmxlbG9nX3BvcG92ZXIiOnRydWUsImNhbm9uaWNhbF91cmxfd3JpdGVzIjp0cnVlLCJlbmFibGVfY2FwdHVyZV9qcyI6dHJ1ZSwicHJpbWFfcG9zdF9mb3JtcyI6dHJ1ZSwibG9ja2VkX3JlYmxvZ191aSI6dHJ1ZSwidGFibGV0X2Jhbm5lcl9hY3RpdmUiOnRydWUsIm1vYmlsZV9iYW5uZXJfYWN0aXZlIjp0cnVlLCJsb2dfc2VhcmNoX2JveCI6dHJ1ZSwidXNlcl9tZW50aW9ucyI6dHJ1ZSwiaHRtbDVfYXVkaW9fcGxheWVyIjp0cnVlLCJwb3BvdmVyX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwiaW5kYXNoX3JlY29tbWVuZGF0aW9ucyI6dHJ1ZSwicG9wdGljYV90dW1ibGVsb2dfcG9wb3ZlcnMiOnRydWUsInR1bWJscl90diI6dHJ1ZSwiZGVwcmVjYXRlX2ZlYXR1cmVkX3RhZ3MiOnRydWUsInJlYmxvZ191aV9yZWZyZXNoIjp0cnVlLCJ0YWJfc3dpdGNoZXIiOnRydWUsImZhc3RfY29tcG9zZSI6dHJ1ZSwiZGFzaGJvYXJkX3JlZnJlc2giOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJtb2JpbGVfd2ViX2dhdGUiOnRydWUsIm1vYmlsZV93ZWJfcGFnZV90aXRsZXMiOnRydWUsIm1vYmlsZV93ZWJfYWJ1c2VfZm9ybSI6dHJ1ZSwiZG9udF9jYXN0X2pzX2ZvbGxvd3MiOnRydWUsImFkc19uZXdfdmVuZG9yX2J1dHRvbnMiOnRydWUsImJsb2NrX2ZlYXR1cmUiOnRydWUsInJlYWN0aXZhdGlvbl9mbG93Ijp0cnVlLCJndWxwanNfYWRtaW4iOnRydWUsImVuYWJsZV9qc19lcGhlbWVyYWxfbG9nIjp0cnVlLCJsb2dfbGFkeSI6dHJ1ZSwiY3Nsb2dnZXJfanMiOnRydWUsImRpc2NvdmVyeV9odWJfYWNjZXNzIjp0cnVlLCJoZWFkZXJfYWNjb3VudF9tZW51Ijp0cnVlLCJlbmFibGVfc2hhcmVfZW1iZWRfY29kZSI6dHJ1ZSwicmVkZGl0X3NoYXJpbmciOnRydWUsInBvc3RfaXRfZm9yd2FyZCI6dHJ1ZSwicGVlcHJfc2VhcmNoX2FuZF9maWx0ZXIiOnRydWUsImludGVybnNfcGFnZSI6dHJ1ZSwiZm9sbG93ZWRfc2VhcmNoZXNfYmlnX3dlYiI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsImxpdmVwaG90b3Nfd2ViIjp0cnVlLCJscmVjX29uX2Jsb2dfcGFnZXNf

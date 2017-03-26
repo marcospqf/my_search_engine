@@ -1,0 +1,851 @@
+|||
+http://acervo.folha.com.br/?cmpid=menulate
+|
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<title>Acervo Folha</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Digital Pages"/>
+	<meta name="distribution" content="global"/>
+	<meta name="revisit-after" content="30 days"/>
+	<meta name="copyright" content="digitalpages.com.br"/>
+
+	<link href="http://f.i.uol.com.br/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="http://f.i.uol.com.br/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+	<link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
+	
+</head>
+
+<body class='home'>
+
+	<!--barra Uol-->
+		<script src="http://jsuol.com.br/barra/parceiro.js?parceiro=folha"></script>
+	<!--/barra Uol-->
+	<div id="header">
+		<h1><a href="/" title="Folha de S.Paulo">Folha de S.Paulo</a></h1>
+		<div id="splash" class="img2"></div>
+	</div>
+
+	<div id="toolbar">
+		<form accept-charset="UTF-8" action="/resultados/" id="search" method="get">
+			<div class="label"><img alt="Busca" src="/images/embed/toolbar/title_busca.gif?1323280607" /></div>
+			<div class="key"><input id="q" name="q" type="text" value="Digite aqui" /></div>
+			<div class="site"><select id="site" name="site"><option value="">Jornais</option>
+<option value="fsp">Folha de S.Paulo</option>
+<option value="fdm">Folha da Manhã</option>
+<option value="fdn">Folha da Noite</option></select></div>
+			<div class="interval"><select id="periodo" name="periodo"><option value="acervo">Desde 1921</option>
+<option value="dia">Hoje</option>
+<option value="mes">Últimos 30 dias</option>
+<option value="ano">Últimos 12 meses</option></select></div>
+			<div class="submit"><input type="image" src="/images/embed/toolbar/bt_ok.gif" alt="ok" /></div>
+			<div class="details"><a href="/busca_detalhada/" title="Busca detalhada">Busca detalhada</a></div>
+			<div class="border">&nbsp;</div>
+			<div class="folha"><a href="http://www.folha.uol.com.br/"><img src="/images/embed/logo-folha.png" alt="Folha.com" title="Folha" /></a></div>
+		</form>
+		<ul class="icons">
+		  
+			<li class="send">
+				<span class="send" title="Enviar">&nbsp;</span>
+				<div id="sub-menu-send">
+					<img src="/images/embed/submenu-top.png" class="arrow_top_submenu" alt=" " />
+					<ul>
+						<li><a href="/enviar_para_amigo/" title="Enviar por e-mail">Enviar por e-mail</a></li>
+						<li class="last-child">
+							<em>Compartilhar</em>
+							<p>
+								<a href="http://twitter.com/home?status=Folha%20p%C3%B5e%20na%20internet%2090%20anos%20de%20hist%C3%B3ria%20em%201%2C8%20milh%C3%A3o%20de%20p%C3%A1ginas%20http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-twitter.jpg" alt="" /></a>
+								<a href="http://www.facebook.com/share.php?u=http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-facebook.jpg" alt="" /></a>
+								<a href="http://promote.orkut.com/preview?nt=orkut.com&amp;tt=Folha%20p%C3%B5e%20na%20internet%2090%20anos%20de%20hist%C3%B3ria%20em%201%2C8%20milh%C3%A3o%20de%20p%C3%A1ginas&amp;du=http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-orkut.jpg" alt="" /></a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="print"><span class="toolTip print" title="Imprimir">&nbsp;</span></li>
+			<li class="visualizador"><span class="toolTip viewer" title="Visualizador">&nbsp;</span></li>
+			<li class="report"><span class="toolTip report" title="Comunicar erros">&nbsp;</span></li>
+			<li class="help">
+				<span title="Ajuda">&nbsp;</span>
+				<div id="sub-menu">
+					<img src="/images/embed/submenu-top.png" class="arrow_top_submenu" alt="" />
+					<ul>
+						<li><a href="http://www1.folha.uol.com.br/acervo/ajuda.html">Ajuda</a></li>
+						<li><a href="/acervo/">Sobre o acervo</a></li>
+						<li><a href="/fale-com-o-banco-de-dados/">Fale com o Banco de Dados Folha</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="full_screen"><span class="toolTip fullscreen" title="Tela cheia">&nbsp;</span></li>
+		</ul>
+	</div>
+
+	<div id="breadcrumb">
+		<img alt="Consulta" class="title1" id="title_breadcrumb" src="/images/embed/toolbar/breadcrumb.png?1323280607" />
+		<img alt="Edição" class="title2" id="title_section" src="/images/embed/toolbar/edition.gif?1323280607" />
+		<div class="select_box">
+			<select class="publication" id="publication" name="publication"><option value="" selected="selected">Jornais</option>
+<option value="fsp">Folha de S.Paulo</option>
+<option value="fdm">Folha da Manhã</option>
+<option value="fdn">Folha da Noite</option></select>
+			<select class="year" id="year" name="year"><option value="">Ano</option></select>
+			<select class="month" id="month" name="month"><option value="">Mês</option></select>
+			<select class="day" id="day" name="day"><option value="">Dia</option></select>
+			<select class="section" id="section" name="section"><option value="">Caderno</option></select>
+			<select class="page" id="page" name="page"><option value="">Página</option></select> <img src="/images/embed/link.png" class="link_actual"/>
+			<div id="link_box">
+				Link <input type="text" name="" value="" id="link_actual" /><span id="copy_show">&nbsp;</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="content" class="actived">
+	<div id="container" style="width:942px!important">
+		<div class="yesterday">
+			<a href="/fsp/2017/03/23/" title="quinta-feira, 23 de março de 2017"><img alt="quinta-feira, 23 de Março de 2017" class="img_home" height="355" src="http://acervo2.folha.com.br/11/71/83/4/6048371/600/6048371.jpg" width="200" /></a>
+			<div class="see">
+				<img src="/images/embed/titulo_consulte.gif" title="Consulte">
+				<ul>
+					<li><a href="/jornais/" title="Desde 1921">Desde 1921</a></li>
+					<li><a href="/fsp/2017/" title="Todas as edições do ano">Todas as edições do ano</a></li>
+					<li><a href="/fsp/2017/03/" title="Todas as edições do mês">Todas as edições do mês</a></li>
+				</ul>
+				<p class="assinante">Somente para assinantes</p>
+				<a href="/fsp/2017/03/25/2/" title="Leia a edição de hoje"><img alt="LEIA A EDIÇÃO DE HOJE" class="bt" src="/images/embed/title_editions_today.gif?1323280607" /></a>
+				<a href="/fsp/2017/03/24/2/" title="Leia a edição de ontem"><img alt="LEIA A EDIÇÃO DE ONTEM" class="bt" src="/images/embed/title_editions_yesterday.png?1341007790" /></a>
+				<ul class="last_editions-ul">
+						<li class="li_0"><a href="/fsp/2017/03/23/" title="Quinta, 23.mar.2017">Quinta, 23.mar.2017</a></li>
+						<li class="li_1"><a href="/fsp/2017/03/22/" title="Quarta, 22.mar.2017">Quarta, 22.mar.2017</a></li>
+						<li class="li_2"><a href="/fsp/2017/03/21/" title="Terça, 21.mar.2017">Terça, 21.mar.2017</a></li>
+						<li class="li_3"><a href="/fsp/2017/03/20/" title="Segunda, 20.mar.2017">Segunda, 20.mar.2017</a></li>
+						<li class="li_4"><a href="/fsp/2017/03/19/" title="Domingo, 19.mar.2017">Domingo, 19.mar.2017</a></li>
+						<li class="li_5"><a href="/fsp/2017/03/18/" title="Sábado, 18.mar.2017">Sábado, 18.mar.2017</a></li>
+					<li><strong><a href="/fsp/" title="Edições anteriores">Edições anteriores</a></strong></li>
+				</ul>
+				<a href="http://assine.folha.com.br/folha/assinatura/" target="_blank"><img src="/images/embed/assine-a-folha.gif" class="assine-folha"/></a>
+			</div>
+			<p style="clear:both;padding:8px 13px;font-size:12px!important">O acervo será gratuito por um período de degustação</p>
+		</div>
+		<div class="newspapers">
+			<h3><img src="/images/embed/titulo_jornais.gif" alt="jornais"></h3>
+			<div>
+				<a href="/fsp" title="Folha de S.Paulo">
+					<img src="/images/embed/fsp.jpg" alt="" class="home_fsp"/>
+				</a>
+				<a href="/fdm" title="Folha da Manhã">
+					<img src="/images/embed/fdm.jpg" alt="" class="home_fdm"/>
+				</a>
+				<a href="/fdn" title="Folha da Noite">
+					<img src="/images/embed/fdn.jpg" alt="" class="home_fdn"/>
+				</a>
+			</div>
+		</div>
+		<div class="neutral">&nbsp;</div>
+		<div class="buy">
+			<h3><img src="/images/embed/bt_buy.gif" alt="compre" /></h3>
+			<div id="img1">
+				<img src="images/embed/thumbnail1.gif" alt="" style="float:left;"/>
+				<p>
+					Tenha uma cópia da primeira página da Folha do dia em que você nasceu, ou na data que escolher. <strong><a href="https://assinatura.folha.com.br//capas/" target="blank">Saiba como</a></strong>.
+				</p>
+			</div>
+			<div id="img2">
+				<img src="images/embed/thumbnail2.gif" alt="" style="float:left"/>
+				<p>
+					<strong><a href="http://livraria.folha.com.br/catalogo/1161627/primeira-pagina-7-edicao"  target="blank">Compre</a></strong> a coleção das melhores primeiras páginas da Folha, em livro que relata a história do Brasil pelo jornal.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<a href="#full" id="page_full_screen" title="Sair do modo tela cheia">Sair</a>
+
+	<div id="footer">
+		<a href="http://digitalpages.com.br/" target="blank"><img alt="Digital Pages" class="digital_pages" id="digital_pages" src="/images/embed/digital_pages.png?1323280607" /></a>
+		<span>&copy; Folha.com. Direitos reservados. Proibida a reprodução do conteúdo em qualquer meio de comunicação, eletrônico ou
+		impresso sem autorização da <a href="mailto:pesquisa@folhapress.com.br">Folhapress</a></span>
+	</div>
+
+	<script type="text/javascript" src="http://google-analytics.com/ga.js" ></script>
+
+	<script type="text/javascript">
+	var pageTracker 	= _gat._getTracker("UA-6263320-61");
+	pageTracker._trackPageview();
+
+	var DPPageTracker	= _gat._getTracker("UA-29230115-1");
+	DPPageTracker._trackPageview();
+	</script>
+
+	<div id="stats_folha">
+		<!--STATS-->
+		<script type="text/javascript">
+			document.write('<img src="http://stats.folha.com.br/stats?url=' + escape( location.href ) + '&amp;ref=' + escape( document.referrer || '' ) + '&amp;rand=' + Math.random() + '" width="1" height="1" alt="">');
+		</script>
+		<noscript><div><img src="http://stats.folha.com.br/stats" width="1" height="1" alt=""></div></noscript>
+		<!--/STATS-->
+		<!-- SiteCatalyst code version: H.19.3. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+		<script type="text/javascript" src="http://me.jsuol.com.br/omtr/acervofolha.js"></script>
+		<script type="text/javascript"><!--
+			/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+			var s_code=uol_sc.t();if(s_code)document.write(s_code)//-->
+		</script>
+		<!-- End SiteCatalyst code version: H.19.3. -->
+	</div>
+
+	<script src="/assets/base.js" type="text/javascript"></script>
+	<script src="/assets/priority.js" type="text/javascript"></script>
+		<div id='bookmarklet_dialog'><!-- Dialog bookmaklet --></div>
+		<script src="/assets/bookmarklet.js" type="text/javascript"></script>
+		<script src="http://www1.folha.uol.com.br/acervo/90_anos-acervo.js" type="text/javascript"></script>
+	<script type="text/javascript">
+//<![CDATA[
+
+		$("#container .neutral").html(folha_facts);
+		$.cookie("page_with_zoom", null, {path: "/"});
+
+//]]>
+</script>
+
+	<!-- 10.20.23.35 -->
+</body>
+</html>
+
+|||
+http://agfight.band.uol.com.br/
+|
+<!DOCTYPE html><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--> <!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--> <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--> <!--[if IE 9]><html class="no-js ie9" lang="en"> <![endif]--> <!--[if gt IE 9]><html class="no-js gt-ie9" lang="en"> <![endif]--> <!--[if gt IE 8]><!--><html class="no-js" lang="pt-br"> <!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=1"><link type="text/css" media="all" href="http://agfight.com.br/wp-content/cache/autoptimize/css/autoptimize_a52799089702fcdd32ab89a8a8708b05.css" rel="stylesheet" /><title>Ag. Fight | Agência de Notícias</title>
+
+<link rel="stylesheet" href="http://agfight.band.uol.com.br/wp-content/plugins/sitepress-multilingual-cms/res/css/language-selector.css?v=3.5.3.1" type="text/css" media="all" /><!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]--><link rel="alternate" hreflang="pt-br" href="http://agfight.band.uol.com.br/" /><link rel="alternate" hreflang="es" href="http://agfight.band.uol.com.br/es/" /><link rel="alternate" hreflang="en" href="http://agfight.band.uol.com.br/en/" /><link rel='dns-prefetch' href='//s0.wp.com' /><link rel='dns-prefetch' href='//agfight.com.br' /><link rel='dns-prefetch' href='//fonts.googleapis.com' /><link rel='dns-prefetch' href='//s.w.org' /><link rel="alternate" type="application/rss+xml" title="Feed para Ag. Fight &raquo;" href="http://agfight.band.uol.com.br/feed/" /><link rel="alternate" type="application/rss+xml" title="Feed de comentários para Ag. Fight &raquo;" href="http://agfight.band.uol.com.br/comments/feed/" /><link rel="alternate" type="text/calendar" title="Ag. Fight &raquo; do iCal Feed" href="http://agfight.band.uol.com.br/calendario/?ical=1" /><link rel="alternate" type="application/rss+xml" title="Feed de comentários para Ag. Fight &raquo; Home" href="http://agfight.band.uol.com.br/home/feed/" /><link rel='stylesheet' id='contact-form-7-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.5.1' type='text/css' media='all' /><link rel='stylesheet' id='mks_shortcodes_fntawsm_css-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-flexible-shortcodes/css/font-awesome/css/font-awesome.min.css?ver=1.2.8' type='text/css' media='screen' /><link rel='stylesheet' id='mks_shortcodes_simple_line_icons-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-flexible-shortcodes/css/simple-line/simple-line-icons.css?ver=1.2.8' type='text/css' media='screen' /><link rel='stylesheet' id='mks_shortcodes_css-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-flexible-shortcodes/css/style.css?ver=1.2.8' type='text/css' media='screen' /><link rel='stylesheet' id='thr_font_0-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400&#038;subset=latin&#038;ver=1.4.0' type='text/css' media='screen' /><link rel='stylesheet' id='thr_font_1-css'  href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow%3A400&#038;subset=latin%2Clatin-ext&#038;ver=1.4.0' type='text/css' media='screen' /><link rel='stylesheet' id='thr_font_2-css'  href='http://fonts.googleapis.com/css?family=Roboto+Condensed%3A400&#038;subset=latin%2Clatin-ext&#038;ver=1.4.0' type='text/css' media='screen' /><link rel='stylesheet' id='thr_style-css'  href='http://agfight.band.uol.com.br/wp-content/themes/agfight/style.css?ver=1.5.3' type='text/css' media='screen' /><link rel='stylesheet' id='thr_responsive-css'  href='http://agfight.band.uol.com.br/wp-content/themes/agfight/css/responsive.css?ver=1.4.0' type='text/css' media='screen' /><link rel='stylesheet' id='thr_child_style-css'  href='http://agfight.band.uol.com.br/wp-content/themes/agfight-child/style.css?ver=1.4.0' type='text/css' media='screen' /><link rel='stylesheet' id='meks-ads-widget-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-easy-ads-widget/css/style.css?ver=1.2.1' type='text/css' media='all' /><link rel='stylesheet' id='meks-flickr-widget-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-simple-flickr-widget/css/style.css?ver=1.1.2' type='text/css' media='all' /><link rel='stylesheet' id='meks-author-widget-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-smart-author-widget/css/style.css?ver=1.0.8' type='text/css' media='all' /><link rel='stylesheet' id='meks-social-widget-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-smart-social-widget/css/style.css?ver=1.2.5' type='text/css' media='all' /><link rel='stylesheet' id='meks-themeforest-widget-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/meks-themeforest-smart-widget/css/style.css?ver=1.2' type='text/css' media='all' /><link rel='stylesheet' id='jetpack_css-css'  href='http://agfight.band.uol.com.br/wp-content/plugins/jetpack/css/jetpack.css?ver=4.1.1' type='text/css' media='all' />  <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-51693126-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');</script> <link rel='https://api.w.org/' href='http://agfight.band.uol.com.br/wp-json/' /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://agfight.com.br/xmlrpc.php?rsd" /><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://agfight.com.br/wp-includes/wlwmanifest.xml" /><meta name="generator" content="WordPress 4.6.4" /><link rel="canonical" href="http://agfight.band.uol.com.br/" /><link rel='shortlink' href='http://agfight.band.uol.com.br/' /><link rel="alternate" type="application/json+oembed" href="http://agfight.band.uol.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fagfight.band.uol.com.br%2F" /><link rel="alternate" type="text/xml+oembed" href="http://agfight.band.uol.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fagfight.band.uol.com.br%2F&#038;format=xml" /><meta property="og:title" content=""/><meta property="og:type" content="blog"/><meta property="og:url" content="http://agfight.com.br"/><meta property="og:image" content=""/><meta property="og:site_name" content="Ag. Fight"/><meta property="fb:admins" content=""/><meta property="og:description" content=""/><meta name="generator" content="WPML ver:3.5.3.1 stt:1,2,43;" /><meta property="og:type" content="website" /><meta property="og:title" content="Ag. Fight" /><meta property="og:description" content="Agência de Notícias" /><meta property="og:url" content="http://agfight.band.uol.com.br/" /><meta property="og:site_name" content="Ag. Fight" /><meta property="og:image" content="https://s0.wp.com/i/blank.jpg" /><meta property="og:locale" content="pt_BR" /><meta name="twitter:site" content="@agfight" /><meta name="twitter:card" content="summary" /><link rel="shortcut icon" href="https://agfight.com.br/wp-content/uploads/2015/04/favicon.ico" type="image/x-icon" /></head><body class="home page page-id-22691 page-template page-template-template-home page-template-template-home-php thr_body_sidebar_left gecko thr_content_wrapped thr_widget_wrapped"><div style="width:100% !important; max-width: 100% !important; overflow: hidden !important;" id="uol_tab"> <script type="text/javascript" src="http://jsuol.com.br/barra/parceiro.js?parceiro=agfight"></script> <div id="menu_eband" style="overflow: hidden !important"><script type="text/javascript" src="http://www.band.com.br/barra/grupo_parceiro_inteira.js"></script></div></div><header id="header" class="header full_width clearfix"><div class="header-main"><div class="content_wrapper"> <a class="nav-btn" id="nav-open-btn" href="#"><i class="fa fa-bars"></i></a><div class="logo_wrapper"><h1 class="site-title"> <a href="http://agfight.band.uol.com.br/" title="Ag. Fight" > <img src="https://agfight.com.br/wp-content/uploads/2015/04/logo_agfight.png" alt="Ag. Fight" /> </a></h1></div><div class="header_ads_space"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:728px;height:90px"
+data-ad-client="ca-pub-2986967443297427"
+data-ad-slot="2250924999"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div class="flags_mobile"> <a href="http://agfight.band.uol.com.br"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png" scale="0"></a> <a href="http://agfight.band.uol.com.br/es/"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" scale="0"></a> <a href="http://agfight.band.uol.com.br/en/"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" scale="0"></a><div style="clear: both"></div></div></div><div class="header-bottom"><div class="content_wrapper"><div class="header-bottom-wrapper"><nav id="nav" class="main_navigation"><ul id="thr_main_navigation_menu" class="nav-menu"><li id="menu-item-29771" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22691 current_page_item menu-item-29771"><a href="http://agfight.band.uol.com.br/">Home</a></li><li id="menu-item-22663" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22663"><a href="http://agfight.band.uol.com.br/quem-somos/">Quem somos</a></li><li id="menu-item-22664" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22664"><a href="http://agfight.band.uol.com.br/ranking1/">Ranking do UFC</a></li><li id="menu-item-22703" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22703"><a href="http://agfight.com.br/?post_type=tribe_events" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://agfight.com.br/?post_type=tribe_events', 'Calendário');">Calendário</a></li><li id="menu-item-22665" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22665"><a href="http://agfight.band.uol.com.br/category/mma-na-esquiva/">MMA na esquiva</a></li><li id="menu-item-22667" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22667"><a href="http://agfight.band.uol.com.br/galerias">Galerias</a></li><li id="menu-item-22983" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22983"><a href="http://agfight.band.uol.com.br/tag/videos/">Videos</a></li><li id="menu-item-22701" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22701"><a href="http://agfight.band.uol.com.br/contato/">Contato</a></li><li class="flag_pt_br"><a href="http://agfight.band.uol.com.br"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/pt-br.png" /></a></li><li><a href="http://agfight.band.uol.com.br/es/"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png" /></a></li><li><a href="http://agfight.band.uol.com.br/en/"><img src="https://agfight.com.br/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" /></a></li><li id="search_header_wrap"><a id="search_header" class="search_header" href="javascript:void(0)"><i class="fa fa-search"></i></a><form class="search_header_form" action="http://agfight.band.uol.com.br/" method="get"> <input name="s" class="search_input" size="20" type="text" value="Digite aqui para buscar ..." onfocus="(this.value == 'Digite aqui para buscar ...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Digite aqui para buscar ...')" placeholder="Digite aqui para buscar ..." /></form></li></ul></nav></div></div></div></header><main id="main_content" class="clearfix"><section id="featured_wrapper" class="featured_wrapper full_width"><div class="content_wrapper"><div class="featured_2"><div class="featured_element"><div class="featured_item"> <img class="wp-image-thumb img-responsive " src="https://agfight.com.br/wp-content/uploads/2017/03/aldo-holloway-534x327.jpg" width="534" height="327" alt="" /></div> <a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" class="f_overlay"></a><div class="featured_title_over"><h2><a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" title="">Holloway publica pôster de sua luta com Aldo no UFC Rio</a></h2><div class="featured_excerpt"><p>A cada dia que passa a expectativa para mais uma grande noite de lutas do Ultimate no Brasil aumenta mais. E não são apenas os...</p> <a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" class="f_read_more"><i class="icon-arrow-right"></i> Leia mais</a></div></div><div class="f_title_bg"></div></div><div class="featured_element"><div class="featured_item"> <img class="wp-image-thumb img-responsive " src="https://agfight.com.br/wp-content/uploads/2016/03/IMG_2821-534x327.jpg" width="534" height="327" alt="" /></div> <a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" class="f_overlay"></a><div class="featured_title_over"><h2><a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" title="">Erick Silva encara Yancy Medeiros em card do UFC Rio</a></h2><div class="featured_excerpt"><p>Erick Silva voltará a atuar pelo Ultimate. Após vencer Luan Chagas no UFC Brasília, ocorrido em setembro do ano passado...</p> <a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" class="f_read_more"><i class="icon-arrow-right"></i> Leia mais</a></div></div><div class="f_title_bg"></div></div></div><div class="featured_3"><div class="featured_element"><div class="featured_item"> <img class="wp-image-thumb img-responsive " src="https://agfight.com.br/wp-content/uploads/2016/12/UFC-Fight-Night_Cyborg-x-Lansberg_9440-1-1-534x327.jpg" width="534" height="327" alt="" /></div> <a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" class="f_overlay"></a><div class="featured_title_over"><h2><a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" title="">Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine</a></h2><div class="featured_excerpt"><p>É oficial! Agora Cris &#8216;Cyborg&#8217; não é mais campeã peso-pena (66 kg) do Invicta FC e vai em busca do título da...</p> <a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" class="f_read_more"><i class="icon-arrow-right"></i> Leia mais</a></div></div><div class="f_title_bg"></div></div><div class="featured_element"><div class="featured_item"> <img class="wp-image-thumb img-responsive " src="https://agfight.com.br/wp-content/uploads/2017/03/anjos-534x327.jpg" width="534" height="327" alt="" /></div> <a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" class="f_overlay"></a><div class="featured_title_over"><h2><a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" title="">Rafael Dos Anjos faz campanha para poder lutar no UFC Rio</a></h2><div class="featured_excerpt"><p>&nbsp;
+O Ultimate irá ao Rio de Janeiro pela primeira vez no ano de 2017 no próximo dia 3 de junho, e já conta com um card...</p> <a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" class="f_read_more"><i class="icon-arrow-right"></i> Leia mais</a></div></div><div class="f_title_bg"></div></div><div class="featured_element"><div class="featured_item"> <img class="wp-image-thumb img-responsive " src="https://agfight.com.br/wp-content/uploads/2017/02/anderson-silva-534x327.jpg" width="534" height="327" alt="" /></div> <a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" class="f_overlay"></a><div class="featured_title_over"><h2><a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" title="">Anderson Silva divulga cenas de jogo de guerra que participa; veja</a></h2><div class="featured_excerpt"><p>Que a rotina de uma estrela do MMA é agitada todos imaginamos, mas Anderson Silva prova que sempre sobra um espaço para fazer...</p> <a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" class="f_read_more"><i class="icon-arrow-right"></i> Leia mais</a></div></div><div class="f_title_bg"></div></div></div></div></section><section id="thr_main" class="content_wrapper"><aside id="sidebar" class="sidebar left"><div id="search-2" class="widget widget_search"><h4 class="widget-title"><span>Pesquisar</span></h4><form class="search_form" action="http://agfight.band.uol.com.br/" method="get"> <input name="s" class="search_input" size="20" type="text" value="Digite aqui para buscar ..." onfocus="(this.value == 'Digite aqui para buscar ...') && (this.value = '')" onblur="(this.value == '') && (this.value = 'Digite aqui para buscar ...')" placeholder="Digite aqui para buscar ..." /> <i class="icon-magnifier"></i></form></div><div id="thr_adsense_widget-2" class="widget thr_adsense_widget thr_adsense_expand"><div class="thr_adsense_wrapper"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>  <ins class="adsbygoogle"
+style="display:inline-block;width:300px;height:250px"
+data-ad-client="ca-pub-2986967443297427"
+data-ad-slot="4039325794"></ins> <script>(adsbygoogle = window.adsbygoogle || []).push({});</script> </div></div><div id="twitter_timeline-2" class="widget widget_twitter_timeline"><h4 class="widget-title"><span>Twitter</span></h4><a class="twitter-timeline" data-width="270" data-height="300" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="8" data-lang="PT" data-chrome="noheader nofooter noborders transparent" data-widget-id="454088097118969856">Meus Tuítes</a></div></aside><div class="main_content_wrapper"><div class="posts_wrapper layout_c"><article id="post-101370" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/" title="Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2017/03/soto-1-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/" title="Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza">Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza</a></h2></div><div class="entry-content"><p>Quem acompanhou de perto todas as lutas do UFC Fortaleza, disputado no último dia 11 deste mês, com certeza se lembra de uma em especial. Joe Soto...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/&amp;t=Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/&amp;text=Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/&amp;media=https://agfight.com.br/wp-content/uploads/2017/03/soto-1.jpg&amp;description=Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/soto-publica-foto-de-maca-ensanguentada-apos-duelo-no-ufc-fortaleza/&amp;title=Soto publica foto de maca ensanguentada após duelo no UFC Fortaleza"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101368" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" title="Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/12/UFC-Fight-Night_Cyborg-x-Lansberg_9440-1-1-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" title="Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine">Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine</a></h2></div><div class="entry-content"><p>É oficial! Agora Cris &#8216;Cyborg&#8217; não é mais campeã peso-pena (66 kg) do Invicta FC e vai em busca do título da mesma categoria no UFC...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/&amp;t=Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/&amp;text=Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/&amp;media=https://agfight.com.br/wp-content/uploads/2016/12/UFC-Fight-Night_Cyborg-x-Lansberg_9440-1-1.jpg&amp;description=Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/cris-cyborg-deixa-titulo-do-invicta-vago-e-desafia-germaine/&amp;title=Cris &#8216;Cyborg&#8217; deixa título do Invicta vago e desafia Germaine"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101355" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/" title="Cigano brinca, dança e é flagrado por Miocic; veja"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2014/07/junior-cigano-jéssica-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> <span class="featured_icon"> <i class="icon-camcorder"></i> </span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/" title="Cigano brinca, dança e é flagrado por Miocic; veja">Cigano brinca, dança e é flagrado por Miocic; veja</a></h2></div><div class="entry-content"><p>A pouco menos de um mês para sua disputa pelo cinturão peso-pesado do Ultimate, Júnior &#8216;Cigano&#8217; ainda encontra tempo para se...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/&amp;t=Cigano brinca, dança e é flagrado por Miocic; veja"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/&amp;text=Cigano brinca, dança e é flagrado por Miocic; veja"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/&amp;media=https://agfight.com.br/wp-content/uploads/2014/07/junior-cigano-jéssica.jpg&amp;description=Cigano brinca, dança e é flagrado por Miocic; veja"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/cigano-brinca-danca-e-e-flagrado-por-miocic-veja/&amp;title=Cigano brinca, dança e é flagrado por Miocic; veja"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101359" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" title="Rafael Dos Anjos faz campanha para poder lutar no UFC Rio"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2017/03/anjos-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" title="Rafael Dos Anjos faz campanha para poder lutar no UFC Rio">Rafael Dos Anjos faz campanha para poder lutar no UFC Rio</a></h2></div><div class="entry-content"><p>&nbsp;
+O Ultimate irá ao Rio de Janeiro pela primeira vez no ano de 2017 no próximo dia 3 de junho, e já conta com um card recheado de astros...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/&amp;t=Rafael Dos Anjos faz campanha para poder lutar no UFC Rio"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/&amp;text=Rafael Dos Anjos faz campanha para poder lutar no UFC Rio"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/&amp;media=https://agfight.com.br/wp-content/uploads/2017/03/anjos.jpg&amp;description=Rafael Dos Anjos faz campanha para poder lutar no UFC Rio"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/rafael-dos-anjos-faz-campanha-para-poder-lutar-no-ufc-rio/&amp;title=Rafael Dos Anjos faz campanha para poder lutar no UFC Rio"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101342" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" title="Anderson Silva divulga cenas de jogo de guerra que participa; veja"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2017/02/anderson-silva-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" title="Anderson Silva divulga cenas de jogo de guerra que participa; veja">Anderson Silva divulga cenas de jogo de guerra que participa; veja</a></h2></div><div class="entry-content"><p>Que a rotina de uma estrela do MMA é agitada todos imaginamos, mas Anderson Silva prova que sempre sobra um espaço para fazer algo que lhe...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/&amp;t=Anderson Silva divulga cenas de jogo de guerra que participa; veja"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/&amp;text=Anderson Silva divulga cenas de jogo de guerra que participa; veja"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/&amp;media=https://agfight.com.br/wp-content/uploads/2017/02/anderson-silva.jpg&amp;description=Anderson Silva divulga cenas de jogo de guerra que participa; veja"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/anderson-silva-divulga-cenas-de-jogo-de-guerra-que-participa-veja/&amp;title=Anderson Silva divulga cenas de jogo de guerra que participa; veja"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101326" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/" title="Desafiante de Amanda Nunes indica que definição para data da luta está próxima"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/03/russa-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/" title="Desafiante de Amanda Nunes indica que definição para data da luta está próxima">Desafiante de Amanda Nunes indica que definição para data da luta está próxima</a></h2></div><div class="entry-content"><p>Amanda Nunes, campeã peso-galo (61 kg) feminina do Ultimate, já sabe quem será sua próxima adversária, ainda que o duelo ainda não tenha...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/&amp;t=Desafiante de Amanda Nunes indica que definição para data da luta está próxima"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/&amp;text=Desafiante de Amanda Nunes indica que definição para data da luta está próxima"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/&amp;media=https://agfight.com.br/wp-content/uploads/2016/03/russa.jpg&amp;description=Desafiante de Amanda Nunes indica que definição para data da luta está próxima"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/desafiante-de-amanda-nunes-indica-que-definicao-para-data-da-luta-esta-proxima/&amp;title=Desafiante de Amanda Nunes indica que definição para data da luta está próxima"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101317" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/" title="Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/11/cigano-erik1-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> <span class="featured_icon"> <i class="icon-camcorder"></i> </span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/" title="Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja">Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja</a></h2></div><div class="entry-content"><p>Júnior dos Santos, mais conhecido  como &#8216;Cigano&#8217;, terá a chance de recuperar o cinturão peso-pesado do Ultimate no dia 13 de maio...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/&amp;t=Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/&amp;text=Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/&amp;media=https://agfight.com.br/wp-content/uploads/2016/11/cigano-erik1.jpg&amp;description=Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/cigano-e-miocic-protagonizam-show-de-fisiculturismo-durante-jogo-da-nba-veja/&amp;title=Cigano e Miocic protagonizam show de fisiculturismo durante jogo da NBA; veja"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101310" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" title="Max Holloway publica pôster de sua luta com Aldo no UFC Rio"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2017/03/aldo-holloway-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" title="Max Holloway publica pôster de sua luta com Aldo no UFC Rio">Max Holloway publica pôster de sua luta com Aldo no UFC Rio</a></h2></div><div class="entry-content"><p>A cada dia que passa a expectativa para mais uma grande noite de lutas do Ultimate no Brasil aumenta mais. E não são apenas os fãs que sentem essa...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/&amp;t=Max Holloway publica pôster de sua luta com Aldo no UFC Rio"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/&amp;text=Max Holloway publica pôster de sua luta com Aldo no UFC Rio"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/&amp;media=https://agfight.com.br/wp-content/uploads/2017/03/aldo-holloway.jpg&amp;description=Max Holloway publica pôster de sua luta com Aldo no UFC Rio"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/max-holloway-publica-poster-de-sua-luta-com-aldo-no-ufc-rio/&amp;title=Max Holloway publica pôster de sua luta com Aldo no UFC Rio"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101298" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" title="Erick Silva encara Yancy Medeiros em card do UFC Rio"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/03/IMG_2821-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" title="Erick Silva encara Yancy Medeiros em card do UFC Rio">Erick Silva encara Yancy Medeiros em card do UFC Rio</a></h2></div><div class="entry-content"><p>Erick Silva voltará a atuar pelo Ultimate. Após vencer Luan Chagas no UFC Brasília, ocorrido em setembro do ano passado, finalmente o capixaba...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/&amp;t=Erick Silva encara Yancy Medeiros em card do UFC Rio"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/&amp;text=Erick Silva encara Yancy Medeiros em card do UFC Rio"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/&amp;media=https://agfight.com.br/wp-content/uploads/2016/03/IMG_2821.jpg&amp;description=Erick Silva encara Yancy Medeiros em card do UFC Rio"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/erick-silva-encara-yancy-medeiros-em-card-do-ufc-rio/&amp;title=Erick Silva encara Yancy Medeiros em card do UFC Rio"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101243" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/" title="Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2015/09/money11-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/" title="Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather">Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather</a></h2></div><div class="entry-content"><p>O possível combate de boxe entre Floyd Mayweather, pugilista multicampeão mundial, e Conor McGregor, dono do cinturão peso-leve (70 kg) do...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/&amp;t=Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/&amp;text=Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/&amp;media=https://agfight.com.br/wp-content/uploads/2015/09/money11.jpg&amp;description=Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/lenda-do-boxe-garante-que-mcgregor-nao-duraria-um-round-contra-mayweather/&amp;title=Lenda do boxe garante que McGregor &#8220;não duraria um round&#8221; contra Mayweather"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101252" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/" title="José Aldo afia chutes antes de defesa de cinturão no UFC; veja"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/12/aldo-1-1-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> <span class="featured_icon"> <i class="icon-camcorder"></i> </span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/" title="José Aldo afia chutes antes de defesa de cinturão no UFC; veja">José Aldo afia chutes antes de defesa de cinturão no UFC; veja</a></h2></div><div class="entry-content"><p>Max Holloway, campeão interino na divisão peso-pena (66 kg) do Utimate, que se cuide, porque, ao que tudo indica, José Aldo estará com a...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/&amp;t=José Aldo afia chutes antes de defesa de cinturão no UFC; veja"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/&amp;text=José Aldo afia chutes antes de defesa de cinturão no UFC; veja"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/&amp;media=https://agfight.com.br/wp-content/uploads/2016/12/aldo-1-1.jpg&amp;description=José Aldo afia chutes antes de defesa de cinturão no UFC; veja"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/jose-aldo-afia-chutes-antes-de-defesa-de-cinturao-no-ufc-veja/&amp;title=José Aldo afia chutes antes de defesa de cinturão no UFC; veja"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101274" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/" title="Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/11/werdum-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> <span class="featured_icon"> <i class="icon-picture"></i> </span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/" title="Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC">Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC</a></h2></div><div class="entry-content"></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/&amp;t=Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/&amp;text=Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/&amp;media=https://agfight.com.br/wp-content/uploads/2016/11/werdum.jpg&amp;description=Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/galerias/top-10-relembre-as-maiores-confusoes-de-fabricio-werdum-no-ufc/&amp;title=Top 10: Relembre as maiores confusões de Fabrício Werdum no UFC"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101275" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/" title="Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2017/03/mark-hunt-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/" title="Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia">Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia</a></h2></div><div class="entry-content"><p>Embalado por seis vitórias seguidas no UFC, Derrick Lewis retorna ao octógono mais famoso do mundo para o dar o passo mais importante de sua...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/&amp;t=Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/&amp;text=Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/&amp;media=https://agfight.com.br/wp-content/uploads/2017/03/mark-hunt.jpg&amp;description=Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/duelo-de-gigantes-mark-hunt-e-derrick-lewis-lutam-no-ufc-nova-zelandia/&amp;title=Duelo de gigantes! Mark Hunt e Derrick Lewis lutam no UFC Nova Zelândia"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101253" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/" title="Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2016/10/Luke_Rockhold_Sädler-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/" title="Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão">Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão</a></h2></div><div class="entry-content"><p>Luke Rockhold e Fabrício Werdum não se bicam desde a época em que ambos competiam no Strikeforce. Mas, passados alguns anos e diversos combates...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/&amp;t=Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/&amp;text=Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/&amp;media=https://agfight.com.br/wp-content/uploads/2016/10/Luke_Rockhold_Sädler.jpg&amp;description=Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/rockhold-acusa-werdum-de-usar-esteroides-e-diz-que-ufc-nao-o-quer-como-campeao/&amp;title=Rockhold acusa Werdum de usar esteroides e diz que UFC não o quer como campeão"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101232" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry "><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/" title="&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2015/07/minoto-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/" title="&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site">&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site</a></h2></div><div class="entry-content"><p>Em má fase no Ultimate, Antônio Rogério Nogueira, mais conhecido pelo grande público como &#8216;Minotouro&#8217;, já sabe quando terá a...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/&amp;t=&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/&amp;text=&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/&amp;media=https://agfight.com.br/wp-content/uploads/2015/07/minoto.jpg&amp;description=&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/minotouro-e-escalado-para-enfrentar-sueco-no-ufc-oklahoma-diz-site/&amp;title=&#8216;Minotouro&#8217; é escalado para enfrentar sueco no UFC Oklahoma, diz site"></a></li></ul></div></div></div></div><div class="clear"></div></article><article id="post-101231" class="post loop-posts type-post status-publish format-standard has-post-thumbnail hentry last"><div class="entry-image featured_image"> <a href="http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/" title="&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;"><img class="wp-image-thumb img-responsive attachment-thr-layout-c" src="https://agfight.com.br/wp-content/uploads/2015/03/rampage-325x175.jpg" width="325" height="175" alt="" /> <span class="featured_item_overlay"></span> </a></div><div class="entry-header"><h2 class="entry-title"><a href="http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/" title="&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;">&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;</a></h2></div><div class="entry-content"><p>Quinton &#8216;Rampage&#8217; Jackson se prepara para encarar &#8216;King Mo&#8217; no próximo dia 31 de março quando dará uma folga em...</p></div><div class="entry-footer"><div class="meta-item"> <a href="http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/" class="read_more_button read_more_small"><i class="icon-arrow-right"></i>Leia mais</a></div><div class="meta-item meta-item-share meta-item-share-small"><div class="meta-item-wrapper"><div class="soc_sharing"><div class="thr_share_button"> <i class="icon-share"></i></div><ul class="thr_share_items"><li><a class="fa fa-facebook" href="javascript:void(0);" data-url="http://www.facebook.com/sharer.php?u=http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/&amp;t=&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;"></a></li><li><a class="fa fa-twitter" href="javascript:void(0);" data-url="http://twitter.com/intent/tweet?url=http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/&amp;text=&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;"></a></li><li><a class="fa fa-google-plus" href="javascript:void(0);" data-url="https://plus.google.com/share?url=http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/"></a></li><li><a class="fa fa-pinterest" href="javascript:void(0);" data-url="http://pinterest.com/pin/create/button/?url=http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/&amp;media=https://agfight.com.br/wp-content/uploads/2015/03/rampage.jpg&amp;description=&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;"></a></li><li><a class="fa fa-linkedin" href="javascript:void(0);" data-url="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://agfight.band.uol.com.br/rampage-critica-excesso-de-fas-homens-no-mma-e-garante-queria-ser-como-justin-bieber/&amp;title=&#8216;Rampage&#8217; critica excesso de fãs homens no MMA e garante: &#8220;Queria ser como Justin Bieber&#8221;"></a></li></ul></div></div></div></div><div class="clear"></div></article></div><div class="clear"></div><nav id="pagination" class="pagination-wapper"><div id="thr_pagination"><span class='page-numbers current'>1</span> <a class='page-numbers' href='http://agfight.band.uol.com.br/page/2/'>2</a> <a class='page-numbers' href='http://agfight.band.uol.com.br/page/3/'>3</a> <span class="page-numbers dots">&hellip;</span> <a class='page-numbers' href='http://agfight.band.uol.com.br/page/813/'>813</a> <a class="next page-numbers" href="http://agfight.band.uol.com.br/page/2/">Proximo</a></div></nav></div></section><div style="clear: both;"></div><div id="footer" style="text-align: center; padding-bottom: 20px;"> Copyright © 2017 | AGFIGHT Agência de Notícias | <a  href="javascript: alert('Fale com Fernando Henriques: fernando.trabalhos@gmail.com');" style="color: #c9c9c9; opacity: 0.7;"> Otimizado por Fernando Henriques</a></div> <script>var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-49821201-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();</script> <script type='text/javascript' src='http://stats.wp.com/e-201712.js' async defer></script> <script type='text/javascript'>_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.1.1',blog:'107843031',post:'22691',tz:'-3',srv:'agfight.com.br'} ]);
+	_stq.push([ 'clickTrackerInit', '107843031', '22691' ]);</script>  <script type="text/javascript" defer src="http://agfight.com.br/wp-content/cache/autoptimize/js/autoptimize_8b3897e0d820400326112f3cddd9217b.js"></script></body></html>
+|||
+http://atarde.uol.com.br/contatos
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- iPad iOS7+ com Retina Display -->
+<link rel="apple-touch-icon" sizes="152x152" href="/assets_portal/apple-touch-icon-152x152-e41764dec763d6c5d73bdd4063708ce9ffacb463484f28e10ff489cddc7a47c1.png">
+<!-- iPad iOS7- com Retina Display -->
+<link rel="apple-touch-icon" sizes="144x144" href="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png">
+<!-- iPhone iOS7+ com Retina Display -->
+<link rel="apple-touch-icon" sizes="120x120" href="/assets_portal/apple-touch-icon-120x120-f65c142c5a87e37fd8d83fc7202ab8f36bcf00b226d5bc1abc8b2615754e9c3c.png">
+<!-- iPhone iOS7- com Retina Display -->
+<link rel="apple-touch-icon" sizes="114x114" href="/assets_portal/apple-touch-icon-114x114-a15f3ca1100ee2b4176a31c76598731b3cf2167b87a0fd7e2278250169484973.png">
+<!-- iPad iOS7+ sem retina display e iPad Mini-->
+<link rel="apple-touch-icon" sizes="76x76" href="/assets_portal/apple-touch-icon-76x76-f9e15ed1f3411a7aa5c443c93b23377a6bb08065aff7befa22276f5ca6140770.png">
+<!-- iPad iOS7- sem retina display  -->
+<link rel="apple-touch-icon" sizes="72x72" href="/assets_portal/apple-touch-icon-72x72-551db87696f840c0c94d2a49c473c7297070abf47ac2ef7661000e681c49f04e.png">
+<!-- iPhone iOS7-, iPod Touch e Android 2.2+  -->
+<link rel="apple-touch-icon" href="/assets_portal/apple-touch-icon-43565d3df861ca2201703639df627249f69ce5a3137527573f5f71e3ad1a4e22.png">
+
+<meta name="msapplication-TileImage" content="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png"/>
+<meta name="msapplication-TileColor" content="#5b83c2"/>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="9OMZGf/c65aCWtIs0OL3ZpZ8DBD1x+UWILXHJRELXW4Jp7O/V9KZZE0xfJ6+InM77uFiZATodmtELtSVpHGtRg==" />
+
+<link rel="stylesheet" media="screen" href="/assets_portal/application-7d35c58a4bc8a22f9dba740b42dff69f6890d8b0f44131b3afcc9838329e8813.css" />
+<script src="/assets_portal/application-2a16afc4619a771001be8f14b31b93e896beafdaff4cc10fb7556c16ceb16fc4.js" media="all" async="async"></script>
+
+<!-- METATAGS -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="classification" content="Internet"/>
+<meta name="robots" content="INDEX, FOLLOW"/>
+<meta name="page_content" content="all"/>
+<meta name="distribution" content="Global"/>
+<meta name="rating" content="General"/>
+<meta name="author" content="A TARDE On Line"/>
+<meta name="generator" content="TopSys Framework"/>
+<meta name="revisit-after" content="1 days"/>
+<meta name="language" content="pt-br"/>
+<meta name="doc-class" content="Completed"/>
+<meta name="doc-rights" content="Public"/>
+<meta name="copyright" content="&#169; 1996-2017 A TARDE On Line"/>
+<meta name="google-site-verification" content="4MCtxJiTM9c-mK18nSkbqzyY89elyqwD9XCImg9pbxU" />
+<meta name="keywords" content="jornal, not&#237;cia, not&#237;cias, web, tv, galeria, mundo, esporte, pol&#237;tica, brasil, cidades, cidade, cultura, cinema, economia, tempo, vestibular, p&#243;s, gradua&#231;&#227;o, blog, revista, infografia, infografias, seguran&#231;a, viol&#234;ncia, sa&#250;de, chuva, teatro, salvador, bahia, exposi&#231;&#227;o, m&#250;sica, interatividade, classificados, hor&#243;scopo"/>
+    <meta name="description" content="Últimas Notícias de Salvador, Bahia, Brasil e do mundo da redação do jornal A TARDE. Encontre anúncios classificados de autos, imóveis e empregos, informações de tempo, trânsito, cinema, teatro e dicas de lazer."/>
+<link rel="canonical" href="http://atarde.uol.com.br/contatos">
+
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25157125-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setLocalGifPath','http://www.atarde.uol.com.br/ivc/urchin.gif']);
+    _gaq.push(['_setLocalRemoteServerMode', true]);
+    _gaq.push(['_setDomainName', '.atarde.uol.com.br']);
+    _gaq.push(['_setAllowLinker', true]);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+<meta property="plataforma" content="desktop"/>
+
+    
+    
+
+
+
+
+
+
+
+
+<!-- <link rel="canonical" href="http://atarde.uol.com.br"/> -->
+<link rel="shortcut icon" href="/assets_portal/favicon-ff7971074a0a83e5cf640be04cc54b99517a612efcb28e969ffc469cb336823d.ico"/>
+
+
+<!--[if lt IE 9]>
+<script async src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+
+
+<script type="text/javascript">
+    window.universal_variable = window.universal_variable || {};
+    window.universal_variable.dfp = {
+        "custom_params" : {
+            "subchan" : "",
+        }
+    };
+
+    window.uolads = window.uolads || [];
+
+    ;(function() {
+        var scr = document.createElement("script");
+        scr.async = true;
+        scr.src =  "//tm.jsuol.com.br/uoltm.js?id=uteqwq";
+        var el = document.getElementsByTagName("script")[0];
+            el.parentNode.insertBefore(scr, el);
+    })();
+</script>
+<hr class="separadorTopouol">
+
+
+
+
+
+
+
+    <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+        <div class="rg-image-wrapper">
+            {{if itemsCount > 1}}
+                <div class="rg-image-nav">
+                    <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                    <a href="#" class="rg-image-nav-next">Next Image</a>
+                </div>
+            {{/if}}
+            <div class="rg-image"></div>
+            <div class="rg-loading"></div>
+            <div class="rg-caption-wrapper">
+                <div class="rg-caption" style="display:none;">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </script>
+</head>
+
+<body>
+
+
+<header class="header">
+      <input type="checkbox" id="control-nav" />
+      <label for="control-nav" class="control-nav"></label>
+      <label for="control-nav" class="control-nav-close"></label>
+
+      <h1 class="marcaATARDE">
+        <a href="http://atarde.uol.com.br/" alt="Marca Portal A TARDE" title="Marca Portal A TARDE"></a>
+      </h1>
+
+      <nav>
+
+         <div class="atalhos">
+
+                <a href="http://assine.atarde.com.br/" target="blank" title="Assine" class="assineBx">
+                  <h1>ASSINE A TARDE</h1>
+                  <span>(71) 3533-0855</span>
+                </a>
+
+                <!--
+                <div class="assine">
+                  <a href="http://assine.atarde.com.br/" target="blank" title="Assine">
+                  <i class="selo-assine"></i></a>
+                </div>
+                -->
+
+                <div class="anuncie">
+                  <a href="https://anuncie.atarde.com.br/" target="_blank" title="Anuncie"><i class="ico-anuncie-menu"></i>
+                    <p>Anuncie</p></a></div>
+                <div class="atMais">
+                  <a href="http://atardemais.atarde.uol.com.br/" target="_blank" title="A TARDE +"><i class="ico-atardemais-menu"></i>
+                    <p>A TARDE +</p></a></div>
+
+                <div class="contatos"><a href="/contatos"><i class="ico-contato-menu" target="_blank" title="Contatos"></i>
+                  <p>Contatos</p></a></div>
+
+          </div>
+
+
+
+          <ul class="destaquesUltimas">
+            <li><a href="/ultimas-noticias" title="Últimas notícias">Últimas notícias</a></li>
+          </ul>
+
+          <!--AGRUPAMENTO-1 MENU -->
+          <ul class="grupos">
+            <li class="noticias"><a href="/grupos/noticias" title="Notícias">Notícias</a></li>
+            <li class="esportes"><a href="/grupos/esportes" title="Esportes">Esportes</a></li>
+            <li class="entretenimento"><a href="/grupos/entretenimento" title="Entretenimento">Entretenimento</a></li>
+          </ul>
+          <!--/FECHA AGRUPAMENTO-1 MENU -->
+
+          <!--AGRUPAMENTO-2 MENU -->
+          <ul class="navmenu-nav">
+
+                <!-- CANAIS E EDITORIAS -->
+                <li>
+                  <ul>
+                    <li>
+                        <h2>
+                           Canais e editorias
+                        </h2>
+                    </li>
+                    <li>
+                    <!--Para destacar a tag "a" no carnaval  usar class="Cdestaque"
+                     <a href="http://www.atarde.com.br/carnaval" title="Carnaval2017">Carnaval</a>
+                    </li>-->
+                    
+                    <li><a href="http://agenda2mais.atarde.com.br/" title="Agenda 2+">Agenda 2+</a></li>
+                    <li><a href="/autos" title="Autos">Autos</a></li>
+                    <li><a href="/bahia" title="Bahia">Bahia</a></li>
+                    <li><a href="/brasil" title="Brasil">Brasil</a></li>
+                    <li><a href="/cienciaevida" title="Ciência e vida">Ciência e vida</a></li>
+                    <li><a href="http://www.cineinsite.com.br/" title="Cinema">Cinema</a></li>
+                    <li><a href="/concursos" title="Concursos">Concursos</a></li>
+                    <li><a href="/cultura" title="Cultura">Cultura</a></li>
+                    <li><a href="/digital" title="Digital">Digital</a></li>
+                    <li><a href="/esportes/bahia" title="E.C. Bahia">E.C. Bahia</a></li>
+                    <li><a href="/esportes/vitoria" title="E.C. Vitória ">E.C. Vitória</a></li>
+                    <li><a href="/economia" title="Economia">Economia</a></li>
+                    <li><a href="/educacao" title="Educação">Educação</a></li>
+                    <li><a href="/empregos" title="Empregos">Empregos</a></li>
+                    <li><a href="/gastronomia" title="Gastronimia">Gastronomia</a></li>
+                    <li><a href="/famosos" title="Mexerico">Mexerico</a></li>
+                    <li><a href="/muito" title="Muito">Muito</a></li>
+                    <li><a href="/mundo" title="Mundo">Mundo</a></li>
+                    <li><a href="/opiniao" title="Opinião">Opinião</a></li>
+                    <li><a href="/politica" title="Política">Política</a></li>
+                    <li><a href="/bahia/salvador" title="Salvador">Salvador</a></li>
+                    <li><a href="/transito" title="Trânsito">Trânsito</a></li>
+                    <li><a href="/turismo" title="Turismo">Turismo</a></li>
+                  </ul>
+                </li>
+                <!-- /FECHA CANAIS E EDITORIAS -->
+
+
+                <!-- BLOGS E COLUNISTAS -->
+                <li>
+                  <ul>
+                    <li>
+                       <h2>
+                         blogs e colunistas
+                       </h2>
+                    </li>
+                    <li><a href="/colunista/luizteles" title="Acréscimos">Acréscimos</a></li>
+                    <li><a href="/colunista/robertonunes" title="Autos Brasil">Auto Brasil</a></li>
+                    <li><a href="/colunista/mannogoes" title="Coluna do Manno">Coluna do Manno</a></li>
+                    <li><a href="/colunista/danieldorea" title="Detalhe Tático">Detalhe Tático</a></li>
+                    <li><a href="/colunista/joseraimundo" title="Olhar Rubro-Negro">Olhar Rubro-Negro</a></li>
+                    <li><a href="/colunista/ronaldojacobina" title="Ronaldo Jacobina">Ronaldo Jacobina</a></li>
+                    <li><a href="/colunista/levivasconcelos" title="Tempo Presente">Tempo Presente</a></li>
+                    <li><a href="/colunista/geraldobastos" title="Tendências & Mercado">Tendências & Mercado</a></li>
+                    <li><a href="http://blogdoted.atarde.com.br/" title="Blog do Ted" target="_blank">Blog do Ted</a></li>
+                    <li><a href="http://maisti.atarde.com.br/" title="Mais TI" target="_blank">Mais TI</a></li>
+                    <li><a href="http://moda.atarde.uol.com.br/" title="Moda" target="_blank">Moda</a></li>
+                  </ul>
+                </li>
+
+                <li><a href="/cidadaoreporter">cidadão reporter</a></li>
+                <li><a href="/charges">charges</a></li>
+                <li><a href="http://foco.atarde.com.br" target="_blank">foco</a></li>
+                <li><a href="/galerias">galerias</a></li>
+                <!-- /FECHA BLOGS E COLUNISTAS -->
+
+        </ul>
+        <!--FECHA AGRUPAMENTO-2 MENU -->
+
+                <!-- AGRUPAMENTO-3 MENU -->
+                <ul class="outros">
+                    <li><a href="http://edicaodigital.atarde.com.br/" title="Edição digital">Edição digital</a></li>
+                    <li><a href="http://classificados.atarde.uol.com.br" title="Classificados">Classificados</a></li>
+                    <li><a href="http://publicidade.atarde.com.br/" title="Publicidade">Publicidade</a></li>
+                </ul>
+                 <!--/FECHA AGRUPAMENTO-3 MENU -->
+
+
+     </nav>
+
+     <!--
+          <div class="contato">
+            <a href="/contatos">
+              <i class="glyphicon glyphicon-envelope" data-toggle="tooltip" data-placement="bottom" title="Fale conosco"></i></a>
+          </div>
+
+
+          <div class="busca btn-group">
+            <i class="glyphicon glyphicon-search dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Buscar"></i>
+
+            <div class="dropdown-menu aba">
+              <form action="/buscas">
+                <label for=""><input name="busca" type="text" placeholder="Buscar por"/></label>
+                <input type="submit" value="buscar"/>
+              </form>
+            </div>
+          </div>
+          -->
+
+        <a href="/buscas" class="busca btn-group">
+            <i class="glyphicon glyphicon-search" title="Buscar"></i>
+        </a>
+</header>
+
+<!--<div class="navmenu navmenu-default navmenu-fixed-left nav"></div>-->
+
+
+
+
+<div class="container-fluid topo -grupo">
+
+  <div class="container">
+    <h2>fale conosco</h2>
+    <div class="selo">
+      
+    </div>
+  </div>
+</div>
+
+<div class="container atarde">
+
+    <div class="conteudo col-md-12">
+  <!-- [ABRE] CONTATOS -->
+  <aside class="row contato">
+    <nav class="col-md-3 col-sm-8 col-xs-12">
+      <select name="assunto" id="assunto" class="hidden-md hidden-lg">
+        <option data-email="" disabled="disabled" selected="selected">Selecione o setor</option>
+        <option value="" data-email="assinaturas@grupoatarde.com.br" data-url="#assinaturas">Assinaturas e Assinantes
+        </option>
+        <option value="" data-email="redacao@grupoatarde.com.br" data-url="#redacao">Fale com a Redação</option>
+        <option value="" data-email="apoiopopulares@grupoatarde.com.br" data-url="#classificados">Classificados</option>
+        <option value="" data-email="agenciaatarde@grupoatarde.com.br" data-url="#agencia">Agência A TARDE</option>
+        <option value="" data-email="midiasdigitais@grupoatarde.com.br" data-url="#digital">Mídias Digitais/ Parceria
+        </option>
+        <option value="" data-email="publicidade@grupoatarde.com.br" data-url="#comercial">Comercial Publicidade
+        </option>
+        <option value="" data-email="rhcurriculo@grupoatarde.com.br" data-url="#trabalhe">Trabalhe conosco</option>
+      </select>
+
+      <ul class="hidden-xs hidden-sm">
+        <li class="ativo">
+          <a data-email="assinaturas@grupoatarde.com.br" href="#assinaturas">Assinaturas e Assinantes</a></li>
+        <li><a data-email="redacao@grupoatarde.com.br" href="#redacao">Fale com a Redação</a></li>
+        <li><a data-email="apoiopopulares@grupoatarde.com.br" href="#classificados">Classificados</a></li>
+        <li><a data-email="agenciaatarde@grupoatarde.com.br" href="#agencia">Agência A TARDE</a></li>
+        <li><a data-email="midiasdigitais@grupoatarde.com.br" href="#digital">Mídias Digitais / Parceria</a></li>
+        <li><a data-email="publicidade@grupoatarde.com.br" href="#comercial">Comercial / Publicidade</a></li>
+        <li><a data-email="rhcurriculo@grupoatarde.com.br" href="#trabalhe">Trabalhe conosco</a></li>
+      </ul>
+    </nav>
+
+    <section class="col-md-6 col-sm-8 col-xs-12 formulario">
+      <p class="titForm">Preencha o formulário com seus dados e a mensagem que deseja enviar. Campos marcados com
+        asterisco(*) são obrigatórios.</p>
+
+      <form action="/contatos" method="post">
+        <fieldset>
+          <input type="text" name="nome" id="nome" value="" placeholder="Nome(*)"/>
+          <input type="mail" name="email" id="email" value="" placeholder="E-mail(*)"/>
+          <input type="text" name="cpf" id="cpf" value="" placeholder="CPF(*)"/>
+          <input type="tel" name="telefone" id="telefone" value="" placeholder="Telefone(*)"/>
+          <label for="">Mensagem(*)</label>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+          <p class="email">assinaturas@grupoatarde.com.br</p>
+          <input id="enviar" name="enviar" type="submit" value="enviar"/>
+          <input type="hidden" name="email_interno" id="email_interno" value="assinaturas@grupoatarde.com.br">
+        </fieldset>
+      </form>
+    </section>
+
+    <section class="col-md-3 col-sm-4 col-xs-12">
+      <blockquote class="outrosDados">
+        <div id="assinaturas">
+          <p class="contato-label">Capital e regiões metropolitanas</p>
+          <p class="tel">(71)3533-0850</p>
+          <p class="contato-label">Demais localidades</p>
+          <p class="tel">0800 0718500</p>
+          <p class="contato-label">Horário de Atendimento:</p>
+          <p class="contato-label">Segunda a Sexta das 7h às 19h e sábado das 7h às 13h.</p>
+        </div>
+
+        <div id="redacao">
+          <p class="contato-label">Redação Grupo A TARDE:</p>
+          <p class="tel">(71)3340-8800</p>
+          <p class="contato-label">Horário de Atendimento:</p>
+          <p class="contato-label">Segunda a Sexta das 8h às 24h e sábado, domingo e feriado das 9h às 21h</p>
+        </div>
+
+        <div id="classificados">
+          <p class="contato-label">Central de Atendimento:</p>
+          <p class="tel">(71)3533-0855</p>
+          <p class="contato-label">Segunda a sexta 08 às 20h, sábados das 08 às 14h</p>
+          <!-- E-mail: apoiopopulares@grupoatarde.com.br -->
+          <p class="contato-label">Site: http://classificados.atarde.com.br</p>
+        </div>
+
+        <div id="agencia">
+          <p class="contato-label">Coordenação:</p>
+          <p class="tel">(71) 3340-8832</p>
+
+          <p class="contato-label">Pesquisa:</p>
+          <p class="tel">(71) 3340-8716</p>
+
+          <p class="contato-label">Fotografia:</p>
+          <p class="tel">(71) 3340-8633 / 3340-8653</p>
+
+          <p class="contato-label">Operações:</p>
+          <p class="tel">(71) 3340-8516</p>
+
+          <p class="contato-label">Site: www.agenciaatarde.com.br</p>
+        </div>
+
+        <div id="digital">
+          <p class="contato-label">Telefone:</p>
+          <p class="tel">(71) 3340-8921</p>
+        </div>
+
+        <div id="comercial">
+          <p class="contato-label">Telefone:</p>
+          <p class="tel">(71) 3340-8551 / 3340-8731</p>
+          <p class="tel">(71) 3340-8757 / 3340-8813</p>
+          <p class="contato-label">Site: http://publicidade.atarde.com.br</p>
+        </div>
+
+        <div id="trabalhe">
+          <p class="contato-label">Telefone:</p>
+          <p class="tel">(71) 3340-8513 / 8771</p>
+
+          <p class="contato-label">Envie seu currículo no formato *.pdf para rhcurriculo@grupoatarde.com.br</p>
+        </div>
+      </blockquote>
+    </section>
+  </aside>
+</div>
+
+<script type="text/javascript">
+
+
+    function validate_cpf(val) {
+
+        if (val.match(/^\d{3}\.\d{3}\.\d{3}\-\d{2}$/) != null) {
+            var val1 = val.substring(0, 3);
+            var val2 = val.substring(4, 7);
+            var val3 = val.substring(8, 11);
+            var val4 = val.substring(12, 14);
+
+            var i;
+            var number;
+            var result = true;
+
+            number = (val1 + val2 + val3 + val4);
+
+            s = number;
+            c = s.substr(0, 9);
+            var dv = s.substr(9, 2);
+            var d1 = 0;
+
+            for (i = 0; i < 9; i++) {
+                d1 += c.charAt(i) * (10 - i);
+            }
+
+            if (d1 == 0)
+                result = false;
+
+            d1 = 11 - (d1 % 11);
+            if (d1 > 9) d1 = 0;
+
+            if (dv.charAt(0) != d1)
+                result = false;
+
+            d1 *= 2;
+            for (i = 0; i < 9; i++) {
+                d1 += c.charAt(i) * (11 - i);
+            }
+
+            d1 = 11 - (d1 % 11);
+            if (d1 > 9) d1 = 0;
+
+            if (dv.charAt(1) != d1)
+                result = false;
+
+            return result;
+        }
+
+        return false;
+    }
+
+
+
+
+
+    $(document).ready(function () {
+
+        $("#enviar").click(function () {
+            if(!validate_cpf($("#cpf").val())){
+                alert('CPF inválido');
+                return false;
+            }
+
+        })
+
+
+    });
+
+        $("#telefone").mask("(99) 99999-9999");
+        $("#cpf").mask('000.000.000-00');
+
+
+
+</script>
+
+
+</div>
+
+<!-- [ABRE] rodape -->
+
+
+<div id="rodapePortal" class=" hidden-xs hidden-sm">
+
+  <div class="topoRodape">
+    <div class="conteudoTopo container">
+      <img src="/assets_portal/marcaRodape-13e374a38938a53334a747bb34ba518d46b6d975192bda00858812630ba383cb.png" alt="Marca do A TARDE" class="marcaRodape" />
+
+      <ul>
+        <li><a href="/grupos/noticias">notícias</a></li>
+        <li><a href="/esportes">esportes</a></li>
+        <li><a href="/entretenimento">entretenimento</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="baseRodape">
+    <div class="conteudoRodape container">
+      <div class="colunaImpresso">
+
+        <div class="impresso">
+          <!-- <div class="app">
+            <span class="sprite2015 ico-android"><a href="https://play.google.com/store/apps/details?id=br.com.digitalpages.atarde" target="_blank">APP para Android</a></span>
+            <span class="sprite2015 ico-ios"><a href="https://itunes.apple.com/us/app/a-tarde/id663955316?mt=8" target="_blank">APP para IOS</a></span>
+          </div> -->
+        </div>
+
+
+        <div class="assine">
+          <h4>assine</h4>
+          <p>Salvador e região metropolitana</p>
+          <p>(71)3533-0855</p>
+
+          <p>Demais localidades</p>
+          <p>0800 071 8500</p>
+
+          <p>SEG a SEX:7h às 19h</p>
+          <p>SAB,DOM e feriados: 7h às13h</p>
+        </div>
+      </div>
+      <div class="colunaCanais">
+        <p class="tituloColuna">canais e editorias</p>
+        <div class="row">
+            <ul class="col-md-6">
+              <li><a href="/autos">Autos</a></li>
+              <li><a href="/bahia">Bahia</a></li>
+              <li><a href="/brasil">Brasil</a></li>
+              <li><a href="/cidadaoreporter">Cidadão Repórter</a></li>
+              <li><a href="/cienciaevida">Ciência e Vida</a></li>
+              <li><a href="http://www.cineinsite.com.br" target="_blank">Cinema</a></li>
+              <li><a href="/concursos">Concursos</a></li>
+              <li><a href="/cultura">Cultura</a></li>
+              <li><a href="/digital">Digital</a></li>
+              <li><a href="/economia">Economia</a></li>
+            </ul>
+            <ul class="col-md-6">
+              <li><a href="/esportes/bahia">E.C. Bahia</a></li>
+              <li><a href="/esportes/vitoria">E.C. Vitória</a></li>
+              <li><a href="/empregos">Empregos</a></li>
+              <li><a href="/gastronomia">Gastronomia</a></li>
+              <li><a href="/muito">Muito</a></li>
+              <li><a href="/mundo">Mundo</a></li>
+              <li><a href="/opiniao">Opinião</a></li>
+              <li><a href="/politica">Política</a></li>
+              <li><a href="/bahia/salvador">Salvador</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="colunaEmpresas">
+        <p class="tituloColuna"><span class="sprite2015 ico-simboloAtarde-g"></span>grupo a atarde</p>
+        <ul>
+          <li><a href="http://anuncie.atarde.com.br/" target="_blank"> A TARDE</a></li>
+          <li><a href="http://www.jornalmassa.com.br/" target="_blank">MASSA!</a></li>
+          <li><a href="http://www.atardefm.com.br/" target="_blank">A TARDE FM</a></li>
+          <li><a href="http://www.agenciaatarde.com.br/" target="_blank">AGÊNCIA A TARDE</a></li>
+          <li><a href="http://www.atardeservicosgraficos.com.br/" target="_blank">SERVIÇOS GRÁFICOS</a></li>
+          <li><a href="http://www.atardeeducacao.com.br/" target="_blank">A TARDE EDUCAÇÂO</a></li>
+        </ul>
+
+
+
+
+
+
+      </div>
+      <div class="colunaContatos">
+        <!-- <div class="redesSociais">
+          <span class="sprite2015 ico-feed"><a href="">Feed</a></span>
+          <span class="sprite2015 ico-tw-branco"><a href="http://

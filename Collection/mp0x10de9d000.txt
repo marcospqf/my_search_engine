@@ -1,0 +1,279 @@
+|||
+http://isabelmueller.com.br/signos/aquario
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta http-equiv="expires" content="0" />
+	<meta name="description" content="Isabel Mueller trabalha com astrologia h&aacute; mais de 22 anos, atendendo a consultas de Mapa Astral, Tr&acirc;nsitos, Revolu&ccedil;&atilde;o Solar e Sinastria. Ministra cursos e palestras. Escreve para jornais, revistas e sites do Brasil e de outros pa&iacute;ses." />
+	<meta name="language" content="BR" />
+	<meta name="author" content="Rian Design" />
+	<meta name="copyright" content="&copy; 2017 Isabel Mueller" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="reply-to" content="contato@riandesign.com.br" />
+	<meta name="rating" content="general" />
+	<meta name="keywords" content="astrologia, horoscopo, horoscopo do dia, livro astrologia, livro horoscopo, astrologa, astrologo, consulta astrologica" />
+	
+	<title>
+		Isabel Mueller | Signos | Aquário	</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />    
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>    <![endif]-->
+    
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+        <link rel="stylesheet" type="text/css" href="/css/unsemantic-grid-responsive.css" />    <!--<![endif]-->
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" /><link rel="stylesheet" type="text/css" href="/css/ie-estilos.css" />    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="/css/generico.css" /><link rel="stylesheet" type="text/css" href="/css/estilos.css" /><script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script><script type="text/javascript" src="/js/parallax.js"></script><script type="text/javascript" src="/js/magnific-popup/jquery.magnific-popup.js"></script><link rel="stylesheet" type="text/css" href="/js/magnific-popup/magnific-popup.css" />    
+    <script>
+	$(document).ready(function() {
+		
+		// Tradu do magnificPopup
+		$.extend(true, $.magnificPopup.defaults, {
+			tClose: 'Sair (Esc)',
+			tLoading: 'Carregando...',
+			gallery: {
+				tPrev: 'Anterior',
+				tNext: 'Pra',
+				tCounter: '%curr% de %total%'
+			},
+			image: {
+				tError: '<a href="%url%">A imagem</a> n&atilde;o p&ocirc;de ser carregada.'
+			},
+			ajax: {
+				tError: '<a href="%url%">O conte&uacute;do</a> n&atilde;o p&ocirc;de ser carregado.'
+			}
+		});		
+		
+	});
+	</script>
+</head>
+<body>
+
+
+<div class="topo bgParallax" data-speed="2">
+	<div class="grid-container">
+    	<div class="grid-100">
+        	<div class="logo">
+            	<a href="/" title="Ir para In&iacute;cio"><img src="/img/logo-isabel-mueller.png" alt="Isabel Mueller" /></a>            </div>
+        </div>
+    </div>
+    
+    <div class="menu openSans">
+        <div class="grid-container">
+            <div class="grid-100">
+            	<div style="position: relative;">
+                	
+                                        
+                    <ul>
+                        <li><a href="/">In&iacute;cio</a></li>
+                        <li><a href="/isabel_mueller">Isabel Mueller</a></li>
+                                                <li><a href="/astrologia">Astrologia</a></li>
+                        <li><a href="/videos">V&iacute;deos</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menuMobile">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Menu</option>
+            <option value="/">
+                In&iacute;cio
+            </option>
+            <option value="/isabel_mueller">
+                Isabel Mueller
+            </option>
+                        <option value="/astrologia">
+                Astrologia
+            </option>
+            <option value="/videos">
+                V&iacute;deos
+            </option>
+            <option value="/contato">
+                Contato
+            </option>
+        </select>
+    </div>
+</div>
+
+
+<div class="contPg">
+	<div class="grid-container">
+		<div class="grid-100">
+	<div class="titPg">
+    	Signos
+    </div>
+</div>
+
+<div class="hide-on-desktop grid-100">
+	<div id="linkToggle" class="linkToggle">
+		Mostrar signos
+    </div>
+</div>
+
+<div id="signosLista" class="signos signosBranco" style="margin-bottom: 30px;">
+    
+    <div class="grid-25 mobile-grid-100 grid-parent">        <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_aries simbolo_cinza">
+                <a href="/signos/aries" title="Áries"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/aries">Áries</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_touro simbolo_cinza">
+                <a href="/signos/touro" title="Touro"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/touro">Touro</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_gemeos simbolo_cinza">
+                <a href="/signos/gemeos" title="Gêmeos"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/gemeos">Gêmeos</a>            </div>
+        </div>
+    </div><div class="grid-25 mobile-grid-100 grid-parent">        <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_cancer simbolo_cinza">
+                <a href="/signos/cancer" title="Câncer"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/cancer">Câncer</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_leao simbolo_cinza">
+                <a href="/signos/leao" title="Leão"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/leao">Leão</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_virgem simbolo_cinza">
+                <a href="/signos/virgem" title="Virgem"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/virgem">Virgem</a>            </div>
+        </div>
+    </div><div class="grid-25 mobile-grid-100 grid-parent">        <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_libra simbolo_cinza">
+                <a href="/signos/libra" title="Libra"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/libra">Libra</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_escorpiao simbolo_cinza">
+                <a href="/signos/escorpiao" title="Escorpião"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/escorpiao">Escorpião</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_sagitario simbolo_cinza">
+                <a href="/signos/sagitario" title="Sagitário"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/sagitario">Sagitário</a>            </div>
+        </div>
+    </div><div class="grid-25 mobile-grid-100 grid-parent">        <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_capricornio simbolo_cinza">
+                <a href="/signos/capricornio" title="Capricórnio"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/capricornio">Capricórnio</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_aquario ">
+                <a href="/signos/aquario" title="Aquário"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/aquario">Aquário</a>            </div>
+        </div>
+            <div class="item grid-33 mobile-grid-33">
+            <div class="simbolo simbolo_peixes simbolo_cinza">
+                <a href="/signos/peixes" title="Peixes"><img src="/img/blank1x1.png" class="img-100" alt=" " /></a>            </div>
+            <div class="nome">
+                <a href="/signos/peixes">Peixes</a>            </div>
+        </div>
+    </div>    
+    <div class="clear"></div>
+</div>
+
+
+<div class="grid-100">
+	<div class="subTitPg" style="color: #b375cd; border-bottom-color: #b375cd">
+    	Aquário    </div>
+</div>
+
+<div>
+    <div class="grid-60">
+        
+        <div style="margin-bottom: 20px;">
+            <div class="tam22" style="margin-bottom: 10px;"><strong>Hor&oacute;scopo do dia</strong></div>
+            
+            <strong>25/03/2017</strong><br />
+            </span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Helvetica; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;">
+	<span style="font-size:14px;"><span style="font-kerning: none">Um belo dia para voc&ecirc; refletir sobre os seus sonhos e valores, aquariano. Evite gastos desnecess&aacute;rios e tenha cuidado com a car&ecirc;ncia emocional. O momento &eacute; oportuno para resolver situa&ccedil;&otilde;es que estejam lhe preocupando.</span></span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Helvetica; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial; min-height: 14px;">
+	&nbsp;</p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Helvetica; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;">
+	<span style="font-size: 14px;">            
+            <hr />
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+        	<div class="tam22" style="margin-bottom: 10px;"><strong>Astral da semana</strong></div>
+            
+            </span></font></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; -webkit-text-stroke-color: rgb(148, 33, 146); -webkit-text-stroke-width: initial;">
+	<span style="color: rgb(0, 0, 0); font-size: 14px;">Semana de 20 &agrave; 26 de mar&ccedil;o</span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; color: rgb(148, 33, 146); -webkit-text-stroke-color: rgb(148, 33, 146); -webkit-text-stroke-width: initial;">
+	<span style="color:#000000;"><span style="font-size:14px;"><span style="font-kerning: none">Novas ideias, interesses e contatos marca a semana dos aquarianos com o novo movimento do Sol, que &eacute; tamb&eacute;m o in&iacute;cio de um novo ano astrol&oacute;gico.&nbsp;</span><span style="line-height: normal; font-family: 'Book Antiqua'; -webkit-font-kerning: none;"> </span><span style="font-kerning: none">&Eacute; uma fase em que podem retornar assuntos delicados para serem conversados na rela&ccedil;&otilde;es amorosa. Fortes questionamentos emocionais com a movimenta&ccedil;&atilde;o retr&oacute;grada do planeta V&ecirc;nus.</span><span style="line-height: normal; font-family: 'Book Antiqua'; -webkit-font-kerning: none;"> </span><span style="font-kerning: none">Momento importante para a express&atilde;o profissional que dependa da comunica&ccedil;&atilde;o, do uso da intelig&ecirc;ncia, da palavra e dos contatos interpessoais.</span></span></span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: 'Book Antiqua'; color: rgb(148, 33, 146); -webkit-text-stroke-color: rgb(148, 33, 146); -webkit-text-stroke-width: initial; min-height: 14px;">
+	&nbsp;</p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; -webkit-text-stroke-color: rgb(148, 33, 146); -webkit-text-stroke-width: initial;">
+	<font color="#000000"><span style="font-size: 14px;">            
+            <hr />
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+        	<div class="tam22" style="margin-bottom: 10px;"><strong>C&eacute;u do m&ecirc;s</strong></div>
+            
+            </span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;">
+	<span style="font-size:14px;"><span style="font-kerning: none">Voc&ecirc; tem talentos t&atilde;o criativos e sens&iacute;veis, chegou a hora de utiliz&aacute;-los, aquariano.&nbsp; O m&ecirc;s de mar&ccedil;o promove uma consci&ecirc;ncia maior de suas habilidades e qualidades que passam justamente pela inspira&ccedil;&atilde;o, intui&ccedil;&atilde;o e imagina&ccedil;&atilde;o. Mas nas quest&otilde;es mais concretas e l&oacute;gicas como, por exemplo, as financeiras, &eacute; preciso que tenha mais temperan&ccedil;a e cautela. &Eacute; hora de perceber o que realmente voc&ecirc; considera valioso e priorit&aacute;rio. Isso n&atilde;o est&aacute; unicamente relacionado ao dinheiro, embora mar&ccedil;o seja um m&ecirc;s com refer&ecirc;ncias materiais significativas. &Eacute; o&nbsp; momento de voc&ecirc; repensar sua atitude e os v&iacute;nculos com pessoas pr&oacute;ximas, a fim de resolver pend&ecirc;ncias do passado que ainda possam atrapalhar a qualidade destas intera&ccedil;&otilde;es.</span></span></p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial; min-height: 14px;">
+	&nbsp;</p>
+<p style="margin: 0px; text-align: justify; line-height: normal; font-family: Arial; color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;">
+	<span style="font-size: 14px;">            
+            <hr />
+        </div>
+        
+        <div style="margin-bottom: 20px;">
+        	<div class="tam22" style="margin-bottom: 10px;"><strong>Astral do m&ecirc;s</strong></div>
+            
+            <iframe class="videoIFrame2" src="//www.youtube.com/embed/oRNMKeRmsw8?rel=0" frameborder="0" allowfullscreen></iframe>
+            
+            <hr />
+        </div>
+        
+        <div>
+        	<div class="tam22" style="margin-bottom: 10px;"><strong>Astral do ano</strong></div>
+            
+            <a href="/o-ano" style="text-decoration: underline">Veja aqui o astral do ano para os signos</a>        </div>
+        
+    </div>
+    
+    <div class="grid-40">
+        <div class="boxExtra">
+            <div class="tit">
+                Sobre
+            </div>
+            
+            <div class="textoLongo3">
+           

@@ -1,0 +1,345 @@
+|||
+http://folhaleaks.folha.com.br/?cmpid=menulate
+|
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Folha de S.Paulo - FolhaLeaks</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="title" content="Envie informações de interesse público que possam merecer investigação jornalística da Folha">
+<meta name="description" content="Se você tem informações de interesse público ou documentos inéditos que possam motivar uma investigação jornalística, poderá enviá-los ao FOLHALEAKS">
+<meta name="keywords" content="folhaleaks, leaks">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="Thu, 01 Jan 1970 00:00:00 GMT">
+<meta http-equiv="Cache-Control" content="no-store">
+<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+<link rel="stylesheet" type="text/css" href="//static.folha.uol.com.br/folha/css/5.2/common/base.css?0326201701">
+<script type="text/javascript" src="//static.folha.uol.com.br/library/jquery/1.4.4/jquery.js?2206201202"></script>
+<script type="text/javascript" src="//static.folha.uol.com.br/folha/js/5.2/common/common.js?03262017"></script>
+<script type="text/javascript" src="includes/checkpoint.js"></script>
+<script src="//tag.navdmp.com/tm23947.js" id="navegg" type="text/javascript"></script>
+<script type="text/javascript"><!--
+folha.information.section = 'poder';
+//--></script>
+<style type="text/css"><!--
+#masthead .sprite { background:url(image/lgo-folhaleaks-187x38.gif) no-repeat; width:187px }
+#main_body { float: none; margin: 0 auto; }
+#main_body #header { margin: 0 0 17px; }
+#main_body #header div.divisor { border-bottom: 1px solid #ccc; height: 1px; }
+
+/*Folhaleaks*/
+#articleNew { margin-bottom: 30px }
+#articleNew .tagline { font-size: 12px }
+#articleNew #articleDate { margin: 10px 0 0 }
+
+#aligner #f-leaks { border-bottom: 4px solid #eee; border-top: 4px solid #eee; margin: 20px 0; padding: 20px 0 10px }
+#aligner #f-leaks fieldset { border: 0; margin: 0; padding: 0 }
+#aligner #f-leaks label { display: block; font-weight: 700; margin-bottom: 15px }
+#aligner #f-leaks label .lgd { display: block; margin-bottom: 2px; position: relative }
+#aligner #f-leaks label .lgd span { font-weight: 100 }
+#aligner #f-leaks .lb label { display: inline-block; padding-right: 40px; text-align: left; width: 364px }
+#aligner #f-leaks .desc { margin: 10px 0 25px }
+#aligner #f-leaks .stg { font-weight: 700; margin-top: 20px }
+#aligner #f-leaks .simple { margin-top: 20px }
+/*#aligner #f-leaks .column { width: 465px }*/
+#aligner #f-leaks .col-r { float: left; padding-left:80px;}
+#aligner #f-leaks .column label input { width: 450px }
+#aligner #f-leaks input,
+#aligner #f-leaks textarea { border: 2px solid #ccc; border-radius: 4px; color: #333; font-family: verdanda, helvetica, sans-serif; padding: 3px }
+#aligner #f-leaks input:focus,
+#aligner #f-leaks textarea:focus { border-color: #00B7F0; outline-color: transparent }
+#aligner #f-leaks textarea { width: 99% }
+
+#aligner #f-leaks .files { margin: 0; padding: 0; display: inline; float: left; }
+#aligner #f-leaks .files,
+#aligner #f-leaks .files li { list-style: none outside none }
+#aligner #f-leaks .files li { margin-bottom: 7px }
+#aligner #f-leaks .action { padding: 15px 0; text-align: center }
+#aligner #f-leaks .action input { background: #fff; cursor: pointer; margin-left: 10px; padding:1px 2px }
+#aligner #f-leaks .divdesc p { font-style: italic; font-size: 11px; padding: 0; line-height: 10px; clear: both; }
+#aligner #f-leaks .divimg { float: right; width: 300px; height: 60px;  margin-top: 20px; }
+
+#aligner .more_information a:link,
+#aligner .more_information a:visited { font-weight: 700; text-decoration: none ! important }
+#aligner .more_information a:hover { text-decoration: underline ! important }
+
+.idx{ background: #efefef ; font-size: 28px; font-weight: 700; line-height: 30px; padding: 20px 0; text-align: center }
+
+.openBox.facebookLike { margin: 10px 0 0 }
+
+#articleNew .message { height: auto; margin: 8px 0 15px; padding: 10px; }
+#articleNew .message h2 { font-weight: 700; font-size: 14px; margin: 5px 0 !important; }
+#articleNew .message p { margin: 5px 0; }
+#articleNew .message .label { width: 935px; height: 14px; margin: 0 0 5px -7px; padding: 2px 10px; background-color: #99312d; color: #fff; text-align: left; }
+#articleNew .info { border: 1px solid #9c9; background-color: #e2f9e3; color: #006647; }
+#articleNew .warning { border: 1px solid #fc9; background-color: #ff9; color: #000; }
+#articleNew .error { color: #eef2ff; font-weight: 700 !important; border: 1px solid #c99; background-color: #c00; }
+
+#main_body .main_menu .main_menu_nav > li { padding: 2px 18px 2px 18px; }
+#main_body .main_menu .main_menu_nav > li.last { padding: 2px 20px 2px 20px; text-transform: capitalize; }
+#main_body .main_menu .main_menu_nav > li:hover { border-bottom: 0px !important; }
+#main_body .main_menu .main_menu_nav > li.last:hover { border-right: 0px !important; }
+
+.hide {display: none}
+.hide,
+.clear { font-size: 0; line-height: 0; margin: 0; padding: 0; overflow: hidden }
+.clear { clear: both }
+
+.double_column {width:100% !important;}
+
+.column{ width: 435px;}
+--></style>
+
+<script type="text/javascript">
+folha.information.page.channel = "folha leaks" ;
+folha.information.page.type = "card" ;
+folha.information.page.title = "participe" ;
+</script>
+</head>
+<body>
+<div id="aligner">
+
+<div id="main_body" class="poder">
+
+<div id="header" class="header">
+
+<div class="inner_middle">
+
+<div class="printed"></div>
+
+<script type="text/javascript"><!--
+folha.date.day = '26' ; //Define o dia atual
+folha.date.month = '03' ; //Define o mês atual
+folha.date.year = '2017' ; //Define o ano atual
+folha.date.hour = '01' ; //Define a hora atuall
+folha.date.minute = '18' ; //Define o minuto atual
+//--></script>
+
+<div class="inner_title">
+<h1 class="sprite logo"><a href="http://www.folha.uol.com.br/" title="Folha de S. Paulo"><span>Folha de S.Paulo</span></a></h1>
+<h2 class="hide">Um jornal a serviço do Brasil</h2>
+<span class="time hide">&nbsp;<span class="sprite clock"></span>&nbsp;</span>
+</div>
+
+
+</div>
+
+<div class="divisor">&nbsp;</div>
+
+
+</div>
+
+<div id="masthead">
+<div class="canvas">&nbsp;</div>
+<a href="http://folhaleaks.folha.com.br/" class="sprite section"></a>
+</div>
+<div class="double_column">
+<div id="articleNew">
+<div id="articleDate">PARTICIPE</div>
+
+<h1>Envie informações de interesse público que possam merecer investigação jornalística da Folha.</h1>
+<!--TEXTO-->
+<p>Se você tem informações de interesse público ou documentos inéditos
+que possam motivar uma investigação jornalística, poderá enviá-los ao
+<b>FOLHALEAKS</b>, de duas maneiras:</p>
+
+<p>1 - Preenchendo o formulário abaixo:</p>
+
+
+<!--form-->
+<form id="f-leaks" action="index" enctype="multipart/form-data" method="post">
+<p><input type="hidden" value="20971520" name="MAX_FILE_SIZE" ></p>
+<fieldset>
+<legend class="hide">Formulário FohaLeaks</legend>
+
+<div class="lb">
+<label>Gostaria de manter o anonimato?</label>
+<input type="radio" name="anonymity" value="1" checked> Sim
+<input type="radio" name="anonymity" value="0"> Não
+</div>
+
+<div class="lb">
+<label>Gostaria de eventualmente ser procurado pela reportagem para prestar mais informações?</label>
+<input type="radio" name="contribute" value="1" checked> Sim
+<input type="radio" name="contribute" value="0"> Não
+</div>
+
+<p class="desc stg">Em caso afirmativo, informe os seguintes dados, que não serão divulgados:</p>
+
+<!-- column -->
+<div class="column">
+<label>
+<span class="lgd">Nome</span>
+<input type="text" name="name">
+</label>
+
+<label>
+<span class="lgd">Endereço</span>
+<input type="text" name="address">
+</label>
+</div>
+<!-- /column -->
+
+<!-- right column -->
+<div class="column col-r">
+<label>
+<span class="lgd">E-mail</span>
+<input type="text" name="email">
+</label>
+
+<label>
+<span class="lgd">Telefone</span>
+<input type="text" name="phone" maxlength="15">
+</label>
+</div>
+<!-- /right column -->
+<div class="clear"></div>
+
+<p class="desc"><b>Obs.</b> A Folha confirmará o recebimento das informações, mas não se obriga a informar o andamento e a conclusão de suas avaliações, nem se publicará ou não reportagem</p>
+
+<div class="clear"></div>
+
+<label>
+<span class="lgd">Resumo da informação <span>( máximo 1000 caracteres )</span></span>
+<textarea name="brief" cols="30" rows="8"></textarea>
+</label>
+
+<p class="simple"><b>Envio de arquivos</b> ( vídeo, foto, áudio, doc, pdf e texto )</p>
+<ul class="files">
+
+<li><input type="file" name="file[]"></li>
+<li><input type="file" name="file[]"></li>
+<li><input type="file" name="file[]"></li>
+<li><input type="file" name="file[]"></li>
+
+</ul>
+
+<div class="divdesc">
+<p><strong>Vídeos</strong>: .avi, .mpeg, .wmv, .mp4, .3gp ( formato de celular )</p>
+<p><strong>Imagens</strong>: .jpeg, .gif, .png, .bmp</p>
+<p><strong>Som</strong>: .mp3, .wav, .wma</p>
+<p><strong>Documentos</strong>: .doc, .xls, .pdf, .txt</p>
+</div>
+
+<div class="action">
+<input type="reset" name="reset" value="Cancelar">
+<input type="submit" name="submit" value="Enviar">
+</div>
+</fieldset>
+</form>
+<!--/form-->
+<script type="text/javascript"><!--
+var f_leaks = $( '#f-leaks' ),
+f_input = $( 'input[type=text], textarea', f_leaks );
+
+//blur
+f_input.blur( function( ){
+  $(this).css('color', '#999'); 
+} );
+f_input.focus( function( ){
+  $(this).css('color', '#333'); 
+} );
+
+//máscara
+function mask( src, character ){
+  var i = src.value.length,
+  saida = character.substring( 0,1 ),
+  texto = character.substring( i );
+  
+  if ( texto.substring(0,1) != saida )
+    src.value += texto.substring( 0,1 );
+}
+
+//telefone
+/*$('input[name=phone]' ).keypress( function(event){
+   mask(this, '##-##-####-####');
+} );*/
+
+//limite
+$( "textarea[name=brief]" ).keypress( function(event){
+  var key = event.which, limit = 1000,
+  len = this.value.length; 
+
+ //todas as teclas incluindo enter
+ if( key >= 33 || key == 13 ) {
+  if( len >= limit ) {
+   event.preventDefault();
+  }
+  }
+} );
+
+//validar
+f_leaks.submit( function(){
+  var field = '', errors = [];
+   
+  $.each( f_input, function( i, el ){
+    var input = $(el), msg = input.prev('span.lgd').text();
+    value = input.val();
+    
+  //outros
+  /*  if(value == ''){   
+        if(input.attr('type') !== 'text'){
+            field += ' Resumo da informação, ';
+			
+        } else {
+            field += ' ' + msg + ', ';    
+        }
+        errors[i] = true;
+    } */
+
+	//resumo
+  if(value == ''){
+    if(input.attr('name') == 'brief'){
+      field += ' ' + msg + ', ';	
+		errors[i] = true;
+	}	else
+		errors[i] = false;
+		
+  }
+    
+    //email
+ /*   if(input.attr('name') === 'email' && value != '' ){
+        var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        if( !regex.test(value) ){
+            errors[i] = true;
+            field += ' ' + msg + ' válido, ';
+        } else {
+            errors[i] = false;
+        }
+    }*/ 
+    
+  } );
+  
+  if( errors.inArray(true) ){
+		alert('Campo' + field.slice(0, -2) + ' deve ser preenchido.');
+		return false;
+   }
+   else return true;
+});
+
+//--></script>
+
+<p>2- Por carta anônima para o seguinte endereço:
+Alameda Barão de Limeira, 425 - Campos Elíseos - 4º andar - 01202-900 - São Paulo - SP
+No envelope, escreva <b>"Referência: Folhaleaks"</b></p>
+
+<p class="more_information"><a href="/informacao">Obtenha mais informações sobre o serviço.</a></p>
+
+</div>
+</div>
+</div>
+
+</div>
+<script type="text/javascript">
+folha.information.check() ;
+</script>
+<script type="text/javascript" src="https://simg.uol.com.br/nocache/omtr/folhacom.js"></script>
+
+
+<!-- IVC -->
+<script type="text/javascript"> 
+  var ivcUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudfront.net/" :
+  "http://ivccftag.ivcbrasil.org.br/") + "ivc.js";
+  ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+  p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push

@@ -1,0 +1,3673 @@
+|||
+http://horoscopo-virtual.bol.uol.com.br/horoscopo/
+|
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+<title>Descubra tudo que a astrologia reserva para sua vida.</title>
+<meta name="description" content="Previsão diária, semanal e mensal, astral do dia e o perfil do seu signo. Tudo isso reunido em um único lugar.">
+<link rel="image_src" href="http://horoscopovirtual.uol.com.br/imagem/src/horoscopo.jpg"> 
+
+<link rel="canonical" href="http://horoscopovirtual.uol.com.br/horoscopo" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.horoscopovirtual.uol.com.br/horoscopo" >
+
+<!-- Facebook metas -->
+<meta property="og:description" content="Previsão diária, semanal e mensal, astral do dia e o perfil do seu signo. Tudo isso reunido em um único lugar."/>
+<meta property="og:image" content="http://horoscopovirtual.uol.com.br/imagem/src/horoscopo.jpg"/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:site_name" content="Horóscopo Virtual"/>
+<meta property="og:title" content="Descubra tudo que a astrologia reserva para sua vida."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content=""/>
+<meta property="og:locale" content="pt_BR">
+<meta property="fb:app_id" content="391593784300905" />
+<!-- -->
+
+<!--meta name="viewport" content="width=device-width, user-scalable=no"-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" href="/imagem/src/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/imagem/src/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/imagem/src/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/imagem/src/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/imagem/src/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/imagem/src/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/imagem/src/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/imagem/src/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/imagem/src/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/imagem/src/apple-touch-icon-180x180.png" />
+
+<link type="text/css" rel="stylesheet" href="/css/styles.min.css?e693039b">
+<link type="text/css" rel="stylesheet" href="/css/zebra-datapicker.css">
+<link type="text/css" rel="stylesheet" href="/css/colorpicker/colorpicker.css">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic" type="text/css" />
+<script src="/js/libs/html5shiv.js"></script>
+	<meta name="signo" content="" />
+	<meta name="dataHoje" content="25-03-2017" />
+<!-- UOL Barra -->
+<script type="text/javascript">
+		window.universal_variable = window.universal_variable || {};
+		window.universal_variable.dfp = {
+			"custom_params" : {
+				"subchan" : "",
+			}
+		};
+		window.uolads = window.uolads || [];
+		;(function() {
+			var scr = document.createElement("script");
+			scr.async = true;
+			scr.src ="//tm.jsuol.com.br/uoltm.js?id=j8dxgi";
+			var el = document.getElementsByTagName("script")[0];
+				el.parentNode.insertBefore(scr, el);
+		})();
+</script>
+<script type='text/javascript'>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+  (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') +
+      '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+  })();
+</script>
+
+<script type='text/javascript'>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/1016608/HV3_Desktop_Zodiac_Header_728x90', [728, 90], 'div-gpt-ad-1467141496561-7').addService(googletag.pubads());
+    googletag.defineSlot('/1016608/HV3_Desktop_Zodiac_Middle_468x60', [468, 60], 'div-gpt-ad-1467141496561-8').addService(googletag.pubads());
+    googletag.defineSlot('/1016608/HV3_Desktop_Zodiac_Sidebar_300x250', [300, 250], 'div-gpt-ad-1467141496561-9').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+</head>
+<body class="pg-horoscopo">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id)) return;
+ js = d.createElement(s); js.id = id;
+ js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=391593784300905";
+ fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><!--[if lt IE 8]><iframe src="http://www.google.com/chromeframe/?redirect=true" width="100%" height="700" frameborder="0"><![endif]-->
+	<div id="main">
+		<header role="banner" id="header">
+			<div class="centraliza">
+				<div class="clearfix">
+					<h1 class="logo">
+						<a href="/">
+							<span class="icon-logo-lua"></span>
+							<span class="icon-logo-nome"></span>
+							<span class="indent">Horóscopo Virtual</span>
+						</a>
+					</h1>
+					<div class="header728x90">
+									<!-- /1016608/HV3_Desktop_Zodiac_Header_728x90 -->
+		<div id='div-gpt-ad-1467141496561-7' style='height:90px; width:728px;'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1467141496561-7'); });
+		</script>
+		</div>
+						</div>
+				</div>
+				<nav role="navigation" class="mn-signos">
+					<ul>
+						<li class="aries">
+							<a href="/horoscopo/aries" class="icon-aries"><span>Áries</span></a>
+						</li>
+						<li class="touro">
+							<a href="/horoscopo/touro" class="icon-touro"><span>Touro</span></a>
+						</li>
+						<li class="gemeos">
+							<a href="/horoscopo/gemeos" class="icon-gemeos"><span>Gêmeos</span></a>
+						</li>
+						<li class="cancer">
+							<a href="/horoscopo/cancer" class="icon-cancer"><span>Câncer</span></a>
+						</li>
+						<li class="leao">
+							<a href="/horoscopo/leao" class="icon-leao"><span>Leão</span></a>
+						</li>
+						<li class="virgem">
+							<a href="/horoscopo/virgem" class="icon-virgem"><span>Virgem</span></a>
+						</li>
+						<li class="libra">
+							<a href="/horoscopo/libra" class="icon-libra"><span>Libra</span></a>
+						</li>
+						<li class="escorpiao">
+							<a href="/horoscopo/escorpiao" class="icon-escorpiao"><span>Escorpião</span></a>
+						</li>
+						<li class="sagitario">
+							<a href="/horoscopo/sagitario" class="icon-sagitario"><span>Sagitário</span></a>
+						</li>
+						<li class="capricornio">
+							<a href="/horoscopo/capricornio" class="icon-capricornio"><span>Capricórnio</span></a>
+						</li>
+						<li class="aquario">
+							<a href="/horoscopo/aquario" class="icon-aquario"><span>Aquário</span></a>
+						</li>
+						<li class="peixes">
+							<a href="/horoscopo/peixes" class="icon-peixes"><span>Peixes</span></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main role="main" id="content" class="centraliza">
+
+		
+
+
+<div class="navegacao clearfix">
+    <div class="clearfix">
+        <nav role="navigation" class="mn-main clearfix">
+         	<ul class="mn-categorias interna"><!-- incluir a class "interna" quando não for a hoem -->
+        		
+					<li class="c-sub horoscopo">
+						<a href="/categoria/horoscopo">Horóscopo<i></i></a>
+		                    <div class="sub">
+		                        <ul>
+				
+				<li><a href="/astrologia">Astrologia</a></li>
+			
+				<li><a href="/horoscopo">Horóscopo</a></li>
+			
+				<li><a href="/horoscopo-chines">Horóscopo Chinês</a></li>
+			
+				<li><a href="horoscopo-das-arvores">Horóscopo das Árvores</a></li>
+			
+				<li><a href="/horoscopo-criancas">Horóscopo das Crianças</a></li>
+			
+				<li><a href="/horoscopo-das-flores">Horóscopo das Flores</a></li>
+			
+				<li><a href="/artigos/horoscopo-indiano-signos-vedicos">Horóscopo Indiano</a></li>
+			
+				<li><a href="horoscopo-japones">Horóscopo Japonês</a></li>
+			
+				<li><a href="/horoscopo-materno">Horóscopo Materno</a></li>
+			
+				<li><a href="/horoscopo-mobile">Horóscopo Mobile</a></li>
+			
+				<li><a href="/horoscopo-paterno">Horóscopo Paterno</a></li>
+			
+				<li><a href="/horoscopo-profissional">Horóscopo Profissional</a></li>
+			
+				<li><a href="/horoscopo-semanal">Horóscopo Semanal</a></li>
+			
+				<li><a href="/horoscopo-xamanico">Horóscopo Xamânico</a></li>
+			
+				<li><a href="/isabel-mueller">Isabel Mueller</a></li>
+			
+				<li><a href="/mapa-astral">Mapa Astral</a></li>
+			
+				<li><a href="/previsoes-2017">Previsões para 2017</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/qual-o-signo-de-quem-nasce-numa-transicao-astral">
+							<img src="/imagem/artigos/artigos/mapa-2.jpg">
+							<h3>Sabia que você pode ser nativo de outro signo sem nem saber?</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/quando-cada-signo-deve-aceitar-amor">
+							<img src="/imagem/artigos/artigos/signosemor.jpg">
+							<h3>Descobrimos como cada signo deve se entregar ao amor</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/o-que-seu-signo-diz-sobre-sua-linguagem-corporal">
+							<img src="/imagem/artigos/artigos/-490.jpg">
+							<h3>Entenda como cada signo usa a linguagem corporal</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/horoscopo" class="outros-artigos">ver mais artigos de horóscopo</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub amor">
+						<a href="/categoria/amor">Amor<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/cupido-do-amor">Cupido do Amor</a></li>
+			
+				<li><a href="/oraculo-do-casal">Oráculo do Casal</a></li>
+			
+				<li><a href="/pontos-eroticos">Pontos Eróticos</a></li>
+			
+				<li><a href="/simpatias-amor">Simpatias de Amor</a></li>
+			
+				<li><a href="/simpatias-casamento">Simpatias de Casamento</a></li>
+			
+				<li><a href="/mapa-astral">Sinastria Amorosa</a></li>
+			
+				<li><a href="/sinastria-famosos">Sinastria dos Famosos</a></li>
+			
+				<li><a href="/tarot-amor">Tarot do Amor</a></li>
+			
+				<li><a href="/artigos/categoria/amor-relacionamento">Tudo sobre amor</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/sera-que-ainda-podemos">
+							<img src="/imagem/artigos/artigos/id_453_capa.jpg">
+							<h3>Quando o coração e o relacionamento se quebram.</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/romance-que-da-certo">
+							<img src="/imagem/artigos/artigos/romance-que-da-certo.jpg">
+							<h3>Para o amor ser eterno, siga estas dicas e reflexões. </h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/nada-e-por-acaso">
+							<img src="/imagem/artigos/artigos/nada-e-por-acaso.jpg">
+							<h3>Para tudo na vida há uma explicação, um motivo...</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/amor-relacionamento" class="outros-artigos">ver mais artigos de amor</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub casa-familia">
+						<a href="/categoria/casa-e-familia">Casa e Família<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/artigos/os-avos-de-cada-signo?">Avós de cada signo</a></li>
+			
+				<li><a href="/feng-shui">Feng Shui</a></li>
+			
+				<li><a href="/horoscopo-criancas">Horóscopo das Crianças</a></li>
+			
+				<li><a href="/horoscopo-materno">Horóscopo Materno</a></li>
+			
+				<li><a href="/horoscopo-paterno">Horóscopo Paterno</a></li>
+			
+				<li><a href="/objetos-perdidos">Objetos Perdidos</a></li>
+			
+				<li><a href="/oraculo-do-casal">Oráculo do Casal</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/o-amor-nao-esta-no-sangue">
+							<img src="/imagem/artigos/artigos/familia.jpg">
+							<h3>Até quando seremos movidos a estereótipos?</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/relacionamento-familiar">
+							<img src="/imagem/artigos/artigos/familia-2.jpg">
+							<h3>Relacionamento familiar molda todas suas outras relações</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/dia-da-familia-aproveite-cada-minuto-com-eles">
+							<img src="/imagem/artigos/artigos/-179.jpg">
+							<h3>Família é a base de tudo. Aproveite a sua!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/casa-e-familia" class="outros-artigos">ver mais artigos de casa e família</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub autoconhecimento">
+						<a href="/categoria/autoconhecimento">Autoconhecimento<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/anjos">Anjos</a></li>
+			
+				<li><a href="/artigos">Artigos</a></li>
+			
+				<li><a href="/baralho-cigano">Baralho Cigano</a></li>
+			
+				<li><a href="/mitologia-e-conto-de-fadas">Contos de Fadas</a></li>
+			
+				<li><a href="/cristalomancia">Cristalomancia</a></li>
+			
+				<li><a href="/grafologia">Grafologia</a></li>
+			
+				<li><a href="/buzios">Jogo de Búzios</a></li>
+			
+				<li><a href="/mapa-astral">Mapa Astral</a></li>
+			
+				<li><a href="/mitologia-e-conto-de-fadas">Mitologia</a></li>
+			
+				<li><a href="/numerologia">Numerologia</a></li>
+			
+				<li><a href="/oraculo-das-deusas">Oráculo das Deusas</a></li>
+			
+				<li><a href="/oraculo-floral">Oráculo Floral</a></li>
+			
+				<li><a href="/pensamentos">Pensamentos</a></li>
+			
+				<li><a href="/personalidade-numerologica">Personalidade Numerológica</a></li>
+			
+				<li><a href="/tarot">Portal do Tarot</a></li>
+			
+				<li><a href="/runas">Runas</a></li>
+			
+				<li><a href="/simpatias">Simpatias</a></li>
+			
+				<li><a href="/sonhos">Sonhos</a></li>
+			
+				<li><a href="tarot-graal">Tarot do Santo Graal</a></li>
+			
+				<li><a href="/tarot-orixas">Tarot dos Orixás</a></li>
+			
+				<li><a href="tarot-egipcio">Tarot Egípcio</a></li>
+			
+				<li><a href="/tarot-mitologico">Tarot Mitológico</a></li>
+			
+				<li><a href="/testes">Testes</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/a-jornada-do-louco-vivenciando-a-lua">
+							<img src="/imagem/artigos/artigos/luaarcano.jpg">
+							<h3>A Lua te mostra todo o conhecimento escondido em você</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/tipos-de-tarot">
+							<img src="/imagem/artigos/artigos/tarot-10.jpg">
+							<h3>Conheça 4 tipos de Tarot e escolha qual revelará seu destino</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/serie-de-perguntas-classicas-ao-taro-viverei-com-esta-pessoa-o-resto-da-minha-vida">
+							<img src="/imagem/artigos/artigos/viverei-com-esta-pessoa-o-resto-da-vida.jpg">
+							<h3>Na busca por um amor eterno, o melhor é curtir o presente!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/autoconhecimento" class="outros-artigos">ver mais artigos de autoconhecimento</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub carreira">
+						<a href="/categoria/carreira-e-dinheiro">Carreira e Dinheiro<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/aniversario-dos-famosos">Aniversário dos Famosos</a></li>
+			
+				<li><a href="/biscoito-da-sorte">Biscoito da Sorte</a></li>
+			
+				<li><a href="/horoscopo-profissional">Horóscopo Profissional</a></li>
+			
+				<li><a href="/artigos/afaste-as-mas-energias-do-seu-trabalho">Melhore a energia no seu trabalho</a></li>
+			
+				<li><a href="/artigos/entenda-seu-signo-e-seja-mais-produtivo">Seja mais produtivo no trabalho</a></li>
+			
+				<li><a href="/simpatias-negocios">Simpatias de Negócios</a></li>
+			
+				<li><a href="/simpatias-trabalho">Simpatias de Trabalho</a></li>
+			
+				<li><a href="/tarot-trabalho">Tarot do Trabalho</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/ano-novo-e-as-financas-em-dia">
+							<img src="/imagem/artigos/artigos/anonovo-1.jpg">
+							<h3>Comece o ano novo com o pé direito e o bolso cheio!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/dicas-para-acabar-com-a-falta-de-comprometimento">
+							<img src="/imagem/artigos/artigos/feng.jpg">
+							<h3>Como o Feng Shui pode te ajudar a ser mais produtivo?</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/saiba-como-lidar-com-os-efeitos-da-crise">
+							<img src="/imagem/artigos/artigos/-137.jpg">
+							<h3>Não deixe a crise financeira se tornar uma crise pessoal</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/carreira-e-dinheiro" class="outros-artigos">ver mais artigos de carreira e dinheiro</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub bem-estar">
+						<a href="/categoria/bem-estar">Bem-estar<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/artigos/dicas-de-saude-para-cada-signo">Dicas de saúde</a></li>
+			
+				<li><a href="/medicina-chinesa-e-acupuntura">Medicina Chinesa e Acupuntura</a></li>
+			
+				<li><a href="/reiki">Reiki</a></li>
+			
+				<li><a href="/simpatias-saude">Simpatias de Saúde</a></li>
+			
+				<li><a href="/tarot-saude">Tarot da Saúde</a></li>
+			
+						</ul>
+						<div>
+	                       
+					<article>
+						<a href="/artigos/anti-stress-o-caminho-preventivo">
+							<img src="/imagem/artigos/artigos/anti-stress-o-caminho-preventivo.jpg">
+							<h3>Mude seus hábitos e livre-se do indesejado stress!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/plantas-medicinais">
+							<img src="/imagem/artigos/artigos/plantas-medicinais.jpg">
+							<h3>Conheça os benefícios das plantas medicinais e use-as!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/escolha-bons-alimentos">
+							<img src="/imagem/artigos/artigos/escolha-alimentos.jpg">
+							<h3>Três alimentos que fazem sucesso nas dietas</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos/categoria/saude-bem-estar" class="outros-artigos">ver mais artigos de bem-estar</a>
+                    </div>
+					</li>
+				
+					<li class="c-sub novos-artigos">
+						<a href="/artigos">Novos Artigos<i></i></a>
+                    	<div class="sub">
+	                        <ul>
+
+				
+				<li><a href="/artigos/categoria/amor-relacionamento">Amor e Relacionamento</a></li>
+			
+				<li><a href="/artigos/categoria/autoconhecimento">Autoconhecimento</a></li>
+			
+				<li><a href="/artigos/categoria/carreira-e-dinheiro">Carreira e Dinheiro</a></li>
+			
+				<li><a href="/artigos/categoria/casa-e-familia">Casa e Família</a></li>
+			
+				<li><a href="/artigos/categoria/comportamento">Comportamento</a></li>
+			
+				<li><a href="/artigos/categoria/diversos">Diversos</a></li>
+			
+				<li><a href="/artigos/categoria/espiritualidade">Espiritualidade</a></li>
+			
+				<li><a href="/artigos/categoria/horoscopo">Horóscopo</a></li>
+			
+				<li><a href="/artigos/categoria/reflexao">Reflexão</a></li>
+			
+				<li><a href="/artigos/categoria/saude-bem-estar">Saúde e Bem-Estar</a></li>
+			
+                	</ul>
+	                	<div>
+	                        
+					<article>
+						<a href="/artigos/como-iniciar-a-pratica-da-meditacao">
+							<img src="/imagem/artigos/artigos/meditacao-11.jpg">
+							<h3>Supere as dificuldades e comece a meditar em 3 passos!</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/beleza-oculta-amor">
+							<img src="/imagem/artigos/artigos/amor-20.jpg">
+							<h3>Amor verdadeiro é de graça e tem o poder de unir o Universo</h3>
+							<p></p>
+						</a>
+					</article>
+				
+					<article>
+						<a href="/artigos/como-alcancar-a-alegria-e-fugir-da-tristeza-em-7-pensamentos">
+							<img src="/imagem/artigos/artigos/felicidade-12.jpg">
+							<h3>Siga estes 7 conselhos para deixar a tristeza para trás</h3>
+							<p></p>
+						</a>
+					</article>
+				
+	                    </div>
+	                    <a href="/artigos" class="outros-artigos">ver mais artigos</a>
+                    </div>
+        		</li>
+			
+    		</ul>
+        </nav>
+        <form method="get" action="/busca" class="mn-search">
+            <div class="search">
+                <input type="text" name="q" placeholder="Digite sua busca">
+                <input type="button" value="x">
+            </div>
+            <input type="submit">
+        </form>
+    </div>
+
+     <!--nav>
+	    <ul class="mn-destaques">
+	        
+			<li><a href="horoscopo-das-arvores">Horóscopo das Árvores</a></li>
+		
+			<li><a href="/previsoes-2017">Previsões 2017</a></li>
+		
+			<li><a href="/horoscopo-xamanico">Horóscopo Xamânico</a></li>
+		
+			<li><a href="/horoscopo-paterno">Horóscopo Paterno</a></li>
+		
+			<li><a href="/previsao-por-sms">Previsão por SMS</a></li>
+		
+	    </ul>
+	</nav-->
+</div>
+
+
+
+<aside class="sidebar-left">
+	<div class="avatar-signos-isabel-mueller">
+		<a href="http://www.isabelmueller.com.br/" target="_blank">
+			<div class="signos-isabel-mueller"></div>
+			<p>previsões por isabel mueller</p>
+		</a>
+	</div>
+
+	<div class="ads300x250">
+		<!-- /1016608/HV3_Desktop_Zodiac_Sidebar_300x250 -->
+<div id='div-gpt-ad-1467141496561-9' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1467141496561-9'); });
+</script>
+</div>	</div>
+
+	
+<section class="horoscopo-leia-tambem">
+    <ul>
+	    
+				<article>
+					<a href="/artigos/o-que-significa-o-sol-em-aries">
+						<img src="/imagem/artigos/artigos/-423.jpg">
+						<p>O Sol em Áries traz uma energia contagiante de renovação</p>
+					</a>
+				</article> 
+			
+				<article>
+					<a href="/artigos/viver-a-vida">
+						<img src="/imagem/artigos/artigos/viver-a-vida.jpg">
+						<p>Vamos viver nossos sonhos, temos tão pouco tempo...</p>
+					</a>
+				</article> 
+			
+		<article>
+			<a href="https://www.eusemfronteiras.com.br/yoga-fora-do-tapetinho-o-foco/" rel="nofollow" title="Foque no Yoga!" target="_blank">
+				<img src="https://www.eusemfronteiras.com.br/wp-content/uploads/2017/03/39921517_m-810x540.jpg?zoom=2&resize=300%2C169" height="169px">
+				<p>Foque no Yoga!</p>
+			</a>
+		</article>
+	
+    </ul>
+</section>
+
+
+</aside>
+
+<section class="content">
+	<nav role="navigation" class="clearfix signos">
+		<h2>previsões astrológicas</h2>
+			<ul>
+				<li class="aries signos-bg-1">
+					<a href="/horoscopo/aries" class="icon-aries">
+						<span class="off">Áries</span>
+						<span class="on">21/03-20/04</span>
+					</a>
+				</li>
+				<li class="touro signos-bg-2">
+					<a href="/horoscopo/touro" class="icon-touro">
+						<span class="off">Touro</span>
+						<span class="on">21/04-20/05</span>
+					</a>
+				</li>
+				<li class="gemeos signos-bg-1">
+					<a href="/horoscopo/gemeos" class="icon-gemeos">
+						<span class="off">Gêmeos</span>
+						<span class="on">21/05-20/06</span>
+					</a>
+				</li>
+				<li class="cancer signos-bg-2">
+					<a href="/horoscopo/cancer" class="icon-cancer">
+						<span class="off">Câncer</span>
+						<span class="on">21/06-21/07</span>
+					</a>
+				</li>
+				<li class="leao signos-bg-2">
+					<a href="/horoscopo/leao" class="icon-leao">
+						<span class="off">Leão</span>
+						<span class="on">22/07-22/08</span>
+					</a>
+				</li>
+				<li class="virgem signos-bg-1">
+					<a href="/horoscopo/virgem" class="icon-virgem">
+						<span class="off">Virgem</span>
+						<span class="on">23/08-22/09</span>
+					</a>
+				</li>
+				<li class="libra signos-bg-2">
+					<a href="/horoscopo/libra" class="icon-libra">
+						<span class="off">Libra</span>
+						<span class="on">23/09-22/10</span>
+					</a>
+				</li>
+				<li class="escorpiao signos-bg-1">
+					<a href="/horoscopo/escorpiao" class="icon-escorpiao">
+						<span class="off">Escorpião</span>
+						<span class="on">23/10-21/11</span>
+					</a>
+				</li>
+				<li class="sagitario signos-bg-1">
+					<a href="/horoscopo/sagitario" class="icon-sagitario">
+						<span class="off">Sagitário</span>
+						<span class="on">22/11-21/12</span>
+					</a>
+				</li>
+				<li class="capricornio signos-bg-2">
+					<a href="/horoscopo/capricornio" class="icon-capricornio">
+						<span class="off">Capricórnio</span>
+						<span class="on">22/12-20/01</span>
+					</a>
+				</li>
+				<li class="aquario signos-bg-1">
+					<a href="/horoscopo/aquario" class="icon-aquario">
+						<span class="off">Aquário</span>
+						<span class="on">21/01-19/02</span>
+					</a>
+				</li>
+				<li class="peixes signos-bg-2 last">
+					<a href="/horoscopo/peixes" class="icon-peixes">
+						<span class="off">Peixes</span>
+						<span class="on">20/02-20/03</span>
+					</a>
+				</li>
+			</ul>
+	</nav>
+
+	<section class="mod-astral">
+		
+<h3><span class="icon-star-full"></span> Astral do dia</h3>
+<p>A Lua está no signo de Peixes enfatizando a intuição e a sensibilidade. Um dia em que devemos estar atentos ao sinais e evitar situações dúbias. É hora de descansar e repor as energias para um novo ciclo que iniciará na próxima semana.</p>
+
+	</section>
+
+	<div class="ads468x60">
+		<!-- /1016608/HV3_Desktop_Zodiac_Middle_468x60 -->
+<div id='div-gpt-ad-1467141496561-8' style='height:60px; width:468px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1467141496561-8'); });
+</script>
+</div>	</div>
+
+	<section class="mais-horoscopo">
+		<div class="clearfix">
+
+			<form class="mod-atracao" method="post">
+				<div class="signos-combinacao-amorosa"></div>
+				<h3>Combinação Amorosa</h3>
+				<input value="" id="signo1" name="signo1" type="hidden">
+				<input value="touro" id="signo2" name="signo2" type="hidden">
+				<div class="seta">
+					<div></div>
+					<select name="signo1" class="sel-signo">
+						<option value="">seu signo</option>
+				  <option value="aries">Áries</option>
+				  <option value="touro">Touro</option>
+				  <option value="gemeos">Gêmeos</option>
+				  <option value="cancer">Cancêr</option>
+				  <option value="leao">Leão</option>
+				  <option value="virgem">Virgem</option>
+				  <option value="libra">Libra</option>
+				  <option value="escorpiao">Escorpião</option>
+				  <option value="sagitario">Sagitário</option>
+				  <option value="capricornio">Capricórnio</option>
+				  <option value="aquario">Aquário</option>
+				  <option value="peixes">Peixes</option>
+					</select>
+				</div>
+				<div class="seta">
+					<div></div>
+					<select name="signo2" class="sel-signo">
+						<option value="">signo dele (a)</option>
+				  <option value="aries">Áries</option>
+				  <option value="touro">Touro</option>
+				  <option value="gemeos">Gêmeos</option>
+				  <option value="cancer">Cancêr</option>
+				  <option value="leao">Leão</option>
+				  <option value="virgem">Virgem</option>
+				  <option value="libra">Libra</option>
+				  <option value="escorpiao">Escorpião</option>
+				  <option value="sagitario">Sagitário</option>
+				  <option value="capricornio">Capricórnio</option>
+				  <option value="aquario">Aquário</option>
+				  <option value="peixes">Peixes</option>
+					</select>
+				</div>
+				<a href="javascript:void(0);" class="combinar">Combinar!</a>
+			</form>
+
+			<div class="mod-mapa-astral">
+				<div class="signos-mapa-astral"></div>
+				<p>Descubra o que os astros revelam sobre você através do seu <strong>Mapa Astral</strong></p>
+				<a href="/mapa-astral">Eu quero!</a>
+			</div>
+
+			<div class="mod-outros-horoscopos">
+				<h3>Horóscopo</h3>
+				<ul>
+					<li>
+						<a href="/horoscopo-chines">Chinês</a>
+					</li>
+					<li>
+						<a href="/artigos/horoscopo-indiano-signos-vedicos">Indiano</a>
+					</li>
+					<li>
+						<a href="/horoscopo-criancas">Infantil</a>
+					</li>
+					<li>
+						<a href="/horoscopo-profissional">Profissional</a>
+					</li>
+					<li>
+						<a href="/horoscopo-xamanico" class="last">Xamãnico</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</section>
+
+	
+<div id="bloco-native-recomendados"></div>
+
+
+
+</section>
+
+	</main>
+	<footer id="footer">
+		<div class="bg-mn-copy">
+			<div class="centraliza">
+				<p class="copy">9 Giga &copy; 2016</p>
+				<nav role="navigation" class="mn-copy">
+					<ul>
+						<li>
+							<a href="/copyright">Copyright</a>
+						</li>
+                        <li>
+							<a href="/termos-de-uso">Termos de Uso</a>
+						</li>
+						<li>
+							<a href="/parcerias">Parcerias</a>
+						</li>
+						<li>
+							<a href="http://www.9giga.com.br" target="_blank">Anuncie</a>
+						</li>
+						<li>
+							<a href="http://www.9giga.com.br/contato/horoscopovirtual.com.br" target="_blank">Contato</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="bg-mn-footer">
+			<div class="centraliza">
+
+					
+					<div class="mn-footer">
+						<h3><a href="/categoria/horoscopo">Horóscopo</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/astrologia">Astrologia</a></li>
+			
+				<li><a href="/horoscopo">Horóscopo</a></li>
+			
+				<li><a href="/horoscopo-chines">Horóscopo Chinês</a></li>
+			
+				<li><a href="horoscopo-das-arvores">Horóscopo das Árvores</a></li>
+			
+				<li><a href="/horoscopo-criancas">Horóscopo das Crianças</a></li>
+			
+				<li><a href="/horoscopo-das-flores">Horóscopo das Flores</a></li>
+			
+				<li><a href="/artigos/horoscopo-indiano-signos-vedicos">Horóscopo Indiano</a></li>
+			
+				<li><a href="horoscopo-japones">Horóscopo Japonês</a></li>
+			
+				<li><a href="/horoscopo-materno">Horóscopo Materno</a></li>
+			
+				<li><a href="/horoscopo-mobile">Horóscopo Mobile</a></li>
+			
+				<li><a href="/horoscopo-paterno">Horóscopo Paterno</a></li>
+			
+				<li><a href="/horoscopo-profissional">Horóscopo Profissional</a></li>
+			
+				<li><a href="/horoscopo-semanal">Horóscopo Semanal</a></li>
+			
+				<li><a href="/horoscopo-xamanico">Horóscopo Xamânico</a></li>
+			
+				<li><a href="/isabel-mueller">Isabel Mueller</a></li>
+			
+				<li><a href="/mapa-astral">Mapa Astral</a></li>
+			
+				<li><a href="/previsoes-2017">Previsões para 2017</a></li>
+			
+						</ul>
+					</nav>
+				</div>
+				
+					<div class="mn-footer">
+						<h3><a href="/categoria/amor">Amor</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/cupido-do-amor">Cupido do Amor</a></li>
+			
+				<li><a href="/oraculo-do-casal">Oráculo do Casal</a></li>
+			
+				<li><a href="/pontos-eroticos">Pontos Eróticos</a></li>
+			
+				<li><a href="/simpatias-amor">Simpatias de Amor</a></li>
+			
+				<li><a href="/simpatias-casamento">Simpatias de Casamento</a></li>
+			
+				<li><a href="/mapa-astral">Sinastria Amorosa</a></li>
+			
+				<li><a href="/sinastria-famosos">Sinastria dos Famosos</a></li>
+			
+				<li><a href="/tarot-amor">Tarot do Amor</a></li>
+			
+				<li><a href="/artigos/categoria/amor-relacionamento">Tudo sobre amor</a></li>
+			
+						</ul>
+					</nav>
+				</div>
+				
+					<div class="mn-footer">
+						<h3><a href="/categoria/casa-e-familia">Casa e Família</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/artigos/os-avos-de-cada-signo?">Avós de cada signo</a></li>
+			
+				<li><a href="/feng-shui">Feng Shui</a></li>
+			
+				<li><a href="/horoscopo-criancas">Horóscopo das Crianças</a></li>
+			
+				<li><a href="/horoscopo-materno">Horóscopo Materno</a></li>
+			
+				<li><a href="/horoscopo-paterno">Horóscopo Paterno</a></li>
+			
+				<li><a href="/objetos-perdidos">Objetos Perdidos</a></li>
+			
+				<li><a href="/oraculo-do-casal">Oráculo do Casal</a></li>
+			
+						</ul>
+					</nav>
+				</div>
+				
+					<div class="mn-footer">
+						<h3><a href="/categoria/autoconhecimento">Autoconhecimento</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/anjos">Anjos</a></li>
+			
+				<li><a href="/artigos">Artigos</a></li>
+			
+				<li><a href="/baralho-cigano">Baralho Cigano</a></li>
+			
+				<li><a href="/mitologia-e-conto-de-fadas">Contos de Fadas</a></li>
+			
+				<li><a href="/cristalomancia">Cristalomancia</a></li>
+			
+				<li><a href="/grafologia">Grafologia</a></li>
+			
+				<li><a href="/buzios">Jogo de Búzios</a></li>
+			
+				<li><a href="/mapa-astral">Mapa Astral</a></li>
+			
+				<li><a href="/mitologia-e-conto-de-fadas">Mitologia</a></li>
+			
+				<li><a href="/numerologia">Numerologia</a></li>
+			
+				<li><a href="/oraculo-das-deusas">Oráculo das Deusas</a></li>
+			
+				<li><a href="/oraculo-floral">Oráculo Floral</a></li>
+			
+				<li><a href="/pensamentos">Pensamentos</a></li>
+			
+				<li><a href="/personalidade-numerologica">Personalidade Numerológica</a></li>
+			
+				<li><a href="/tarot">Portal do Tarot</a></li>
+			
+				<li><a href="/runas">Runas</a></li>
+			
+				<li><a href="/simpatias">Simpatias</a></li>
+			
+				<li><a href="/sonhos">Sonhos</a></li>
+			
+				<li><a href="tarot-graal">Tarot do Santo Graal</a></li>
+			
+				<li><a href="/tarot-orixas">Tarot dos Orixás</a></li>
+			
+				<li><a href="tarot-egipcio">Tarot Egípcio</a></li>
+			
+				<li><a href="/tarot-mitologico">Tarot Mitológico</a></li>
+			
+				<li><a href="/testes">Testes</a></li>
+			
+						</ul>
+					</nav>
+				</div>
+				
+					<div class="mn-footer">
+						<h3><a href="/categoria/carreira-e-dinheiro">Carreira e Dinheiro</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/aniversario-dos-famosos">Aniversário dos Famosos</a></li>
+			
+				<li><a href="/biscoito-da-sorte">Biscoito da Sorte</a></li>
+			
+				<li><a href="/horoscopo-profissional">Horóscopo Profissional</a></li>
+			
+				<li><a href="/artigos/afaste-as-mas-energias-do-seu-trabalho">Melhore a energia no seu trabalho</a></li>
+			
+				<li><a href="/artigos/entenda-seu-signo-e-seja-mais-produtivo">Seja mais produtivo no trabalho</a></li>
+			
+				<li><a href="/simpatias-negocios">Simpatias de Negócios</a></li>
+			
+				<li><a href="/simpatias-trabalho">Simpatias de Trabalho</a></li>
+			
+				<li><a href="/tarot-trabalho">Tarot do Trabalho</a></li>
+			
+						</ul>
+					</nav>
+				</div>
+				
+					<div class="mn-footer">
+						<h3><a href="/categoria/bem-estar">Bem-estar</a></h3>
+						<nav role="navigation">
+							<ul>
+				
+				<li><a href="/artigos/dicas-de-saude-para-cada-signo">Dicas de saúde</a></li>
+			
+				<li><a href="/medicina-chinesa-e-acupuntura">Medicina Chinesa e Acupuntura</a></li>
+			
+				<li><a href="/reiki">Reiki</a></li>
+			
+				<li><a href="/simpatias-saude">Simpatias de Saúde</a></li>
+			
+				<li><a href="/tarot-saude">Tarot da Saúde</a></li>
+			
+                		</ul>
+					</nav>
+				</div>
+			
+
+			</div>
+		</div>
+		<div class="bg-app-footer">
+			<div class="centraliza">
+				<div class="apps-social">
+					<nav role="navigation" class="apps">
+						<h4>Disponível nas plataformas</h4>
+						<ul>
+							<li class="apple-store">
+								<a href="http://www.apple.com/itunes/affiliates/download/?id=440359709" target="_blank">Apple Store</a>
+							</li>
+							<!--
+							<li class="google-play">
+								<a href="https://play.google.com/store/apps/details?id=horoscopo.virtual" target="_blank">Play Store</a>
+							</li>
+							-->
+							<li class="google-chrome">
+								<a href="https://chrome.google.com/webstore/detail/hor%C3%B3scopo-virtual/pmhbjcfjdphlldipihjjofiinmganadm" target="_blank">Google Chrome</a>
+							</li>
+						</ul>
+					</nav>
+					<nav role="navigation" class="social">
+						<h4>Siga-nos</h4>
+                        <ul>
+							<li class="facebook">
+								<a href="http://fb.com/horoscopovirtual" target="_blank" class="icon-facebook"></a>
+							</li>
+							<li class="twitter">
+								<a href="http://twitter.com/horoscopohv" target="_blank" class="icon-twitter"></a>
+							</li>
+							<li class="youtube">
+								<a href="https://www.youtube.com/channel/UCrHf_LPJlCY33SNpdB1LsRw" target="_blank" class="icon-youtube"></a>
+							</li>
+							<li class="google-plus">
+								<a href="https://plus.google.com/+HoroscopoVirtualOficial" target="_blank" class="icon-google-plus"></a>
+							</li>
+							<li class="pinterest">
+								<a href="https://www.pinterest.com/horoscopoHV/" target="_blank" class="icon-pinterest2"></a>
+							</li>
+							<!--li class="app-horoscopo">
+								<a href="/parcerias">Horóscopo no seu site</a>
+							</li-->
+						</ul>
+					</nav>
+					<nav role="navigation" class="parceria">
+						<h4>Parceria gratuita</h4>
+                        <ul>
+                            <li>
+                                <a href="/parcerias">
+                            		<div class="icon-leao"></div>
+                                	<span>Gadgets</span>
+                                	<span>Horóscopo, Anjos, Cupido do amor e Horóscopo chinês</span>
+                                </a>
+                            </li>
+                        </ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<div class="overlay"></div>
+<div class="modal">
+    <a href="#" class="close">Fechar</a>
+</div>
+
+<script type="text/javascript" src="/js/libs/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="/js/libs/modernizr.custom.79639.js"></script>
+<script type="text/javascript" src="/js/scripts.min.js?e693039b"></script>
+<script type="text/javascript" src="/js/libs/zebra_datepicker.js"></script>
+<script type="text/javascript" src="/js/libs/lib.rotativo.js"></script>
+<script type="text/javascript" src="/js/libs/validate.js"></script>
+<script type="text/javascript" src="/js/libs/maskedinput.js"></script><script>
+	//ANALYTICS
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-1997803-1', 'horoscopovirtual.com.br');
+	ga('require', 'displayfeatures');
+	ga('send', 'pageview');
+
+	window.google_analytics_uacct = "UA-1997803-1";
+
+</script>
+
+<!-- SiteCatalyst code version: H.20.2. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="http://me.jsuol.com/omtr/horoscopovirtual.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=uol_sc.t();if(s_code)document.write(s_code)//--></script>
+<!-- End SiteCatalyst code version: H.20.2. -->
+
+<!-- OptinMonster --><script>var om58110ea61e325,om58110ea61e325_poll=function(){var r=0;return function(n,l){clearInterval(r),r=setInterval(n,l)}}();!function(e,t,n){if(e.getElementById(n)){om58110ea61e325_poll(function(){if(window['om_loaded']){if(!om58110ea61e325){om58110ea61e325=new OptinMonsterApp();return om58110ea61e325.init({"s":"21311.58110ea61e325","staging":0,"dev":0,"beta":0});}}},25);return;}var d=false,o=e.createElement(t);o.id=n,o.src="//a.optnmnstr.com/app/js/api.min.js",o.onload=o.onreadystatechange=function(){if(!d){if(!this.readyState||this.readyState==="loaded"||this.readyState==="complete"){try{d=om_loaded=true;om58110ea61e325=new OptinMonsterApp();om58110ea61e325.init({"s":"21311.58110ea61e325","staging":0,"dev":0,"beta":0});o.onload=o.onreadystatechange=null;}catch(t){}}}};(document.getElementsByTagName("head")[0]||document.documentElement).appendChild(o)}(document,"script","omapi-script");</script><!-- / OptinMonster --><!-- BEGIN Popunder -->
+<script type="text/javascript" src="//www.mensagenscomamor.com/content/static/popunder/popunder-2.4.14.js"></script>
+<script type="text/javascript" src="//www.mensagenscomamor.com/content/static/popunder/license.23.js"></script>
+<script>
+var randomUrl = function() {
+    var urls = [
+        'https://goo.gl/eDytdL',
+        'https://goo.gl/eDytdL'
+    ];
+    return urls[Math.floor(Math.random() * urls.length)];
+};
+BetterJsPop
+    .config({mobileSensitive:10})
+	.bindTo('a')
+    .add(randomUrl, {
+        cookieExpires: 86400,
+        name: 'hvpop7'
+    });
+</script>
+<!-- END Popunder -->
+
+</body>
+</html>
+|||
+http://agenda2mais.atarde.com.br/
+|
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><head><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=5.3" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=881163968a686196b80d6ebdec40?ln=primefaces&amp;v=5.3"></script><script type="text/javascript" src="/javax.faces.resource/primefaces.js.xhtml;jsessionid=881163968a686196b80d6ebdec40?ln=primefaces&amp;v=5.3"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/primefaces.css.xhtml;jsessionid=881163968a686196b80d6ebdec40?ln=primefaces&amp;v=5.3" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=881163968a686196b80d6ebdec40?ln=primefaces&amp;v=5.3"></script><script type="text/javascript">if(window.PrimeFaces){}</script>
+	
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    
+	    <title>A TARDE - Agenda 2+ </title>	    
+
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssFonts.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssReset.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssAgenda.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/spriteAgenda.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/jquery.bxslider.css" />
+	    
+	    <link href="http://fw.atarde.com.br/fw/css/2012/01/cssFontFace.css" rel="stylesheet" type="text/css" media="all" />
+
+  		<link rel="shortcut icon" href="http://fw.atarde.uol.com.br/fw/img/2008/04/favicon.ico" />	    
+	    
+		<script type="text/javascript">
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		  (function() {
+		    var gads = document.createElement('script');
+		    gads.async = true;
+		    gads.type = 'text/javascript';
+		    var useSSL = 'https:' == document.location.protocol;
+		    gads.src = (useSSL ? 'https:' : 'http:') +
+		      '//www.googletagservices.com/tag/js/gpt.js';
+		    var node = document.getElementsByTagName('script')[0];
+		    node.parentNode.insertBefore(gads, node);
+		  })();
+		</script>
+		 
+		<script type="text/javascript">
+		  googletag.cmd.push(function() {
+		    googletag.defineSlot('/21419831/Agenda2mais_Selo_120x40', [120, 40], 'div-gpt-ad-1448376245180-0').addService(googletag.pubads());
+		    googletag.pubads().enableSingleRequest();
+		    googletag.enableServices();
+		  });
+		</script>
+ 
+ 		<!-- ESTATISTICA GOOGLE -->
+          <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-25157125-1']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_setDomainName', '.atarde.uol.com.br']);
+            _gaq.push(['_setAllowLinker', true]);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+          <!-- TERMINA ESTATISTICA GOOGLE -->
+
+		<script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
+		
+		<script type="text/javascript">
+		if(WURFL.is_mobile){
+		    window.location = "/mobile/index.xhtml";
+		  }
+		</script><script type='text/javascript'>
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+ var gads = document.createElement('script');
+ gads.async = true;
+ gads.type = 'text/javascript';
+ var useSSL = 'https:' == document.location.protocol;
+ gads.src = (useSSL ? 'https:' : 'http:') +
+ '//www.googletagservices.com/tag/js/gpt.js';
+ var node = document.getElementsByTagName('script')[0];
+ node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+<script type='text/javascript'>
+ googletag.cmd.push(function() {
+
+ googletag.defineSlot('/21419831/Agenda2mais_SuperBanner_728x90', [[970, 90], [728, 90]], 'div-gpt-ad-1441737210810-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21419831/Agenda2mais_970x250', [970, 250], 'div-gpt-ad-1441737287224-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21419831/Agenda2mais_ArranhaCeu_160x600', [160, 600], 'div-gpt-ad-1441737578390-0').addService(googletag.pubads());
+
+
+googletag.defineSlot('/21419831/Agenda2mais_Selo_120x40', [120, 40], 'div-gpt-ad-1448376245180-0').addService(googletag.pubads());
+
+ googletag.pubads().enableSingleRequest();
+ googletag.enableServices();
+ });
+</script>
+
+		<style>
+		.ui-corner-all {
+			border: 0;
+		}		
+		.ui-datascroller-item {
+			display: none;
+		}
+		</style>
+		
+	<!-- SCRIPT BARRA UOL -->
+	<script type="text/javascript">
+        window.universal_variable = window.universal_variable || {};
+        window.universal_variable.dfp = {
+            "custom_params" : {
+                "subchan" : "",
+            }
+        };
+
+        window.uolads = window.uolads || [];
+
+        ;(function() {
+            var scr = document.createElement("script");
+            scr.async = true;
+            scr.src =  "//tm.jsuol.com.br/uoltm.js?id=uteqwq";
+            var el = document.getElementsByTagName("script")[0];
+                el.parentNode.insertBefore(scr, el);
+        })();
+    </script>
+    <!-- /SCRIPT BARRA UOL --></head>
+			
+	<body id="agendaWeb"><input type="hidden" name="j_idt9" value="br.com.atarde.agenda2mais.faces.SessaoFaces@1b8de9f" /><div id="j_idt10"></div><script id="j_idt10_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt10",{id:"j_idt10",start:function(){PF('statusDialog').show();},success:function(){PF('statusDialog').hide();}});});</script><div id="j_idt11" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-content ui-widget-content"><img id="j_idt12" src="/assets/images/atualizando.gif;jsessionid=881163968a686196b80d6ebdec40?pfdrid_c=true" alt="" /></div></div><script id="j_idt11_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","statusDialog",{id:"j_idt11",draggable:false,resizable:false,modal:true});});</script>	
+		
+<!-- TOPO SIMPLIFICADO -->
+    
+	<div class="barraPortalEspeciais">
+		<nav class="gruposPortal">
+			<ul>
+				<li><a href="http://www.atarde.com.br/noticias" target="_blank">notícias</a></li>
+				<li><a href="http://www.atarde.com.br/esportes" target="_blank">esportes</a></li>
+				<li><a href="http://www.atarde.com.br/entretenimento" target="_blank">entretenimento</a></li>
+			</ul>
+		</nav>
+
+		<h1>
+			<a href="http://www.atarde.com.br/" target="_blank">
+				<img src="/assets/images/marcaAtarde.png" alt="marca do Jornal A TARDE" />
+			</a>
+		</h1>
+
+		<nav class="outrosLinks">
+			<ul>
+				<li><a href="http://assine.atarde.com.br/" target="_blank">assine</a></li>
+				<li><a href="http://classificados.atarde.com.br/" target="_blank">classificados</a></li>
+			</ul>
+		</nav>
+	</div>
+
+<!-- FIM TOPO SIMPLIFICADO -->
+	    
+	    <!-- GERAL -->
+	    <div id="geral">
+	
+	        <!-- CABECALHO -->
+	        <div class="cabecalho">
+	            
+	            <div class="logo">
+	                <a href="/"><h1><img src="/assets/images/logoAgenda.png" title="Agenda 2+" alt="logo Agenda 2+" /></h1></a>
+	            </div>
+	
+	            <nav>
+	                <ul>
+	                	<li class="musica"><a href="/eventos/show">Shows</a></li>
+	                	<li class="cenicas"><a href="/eventos/teatro">Teatro &amp; Dança</a></li>
+	                	<li class="plasticas"><a href="/eventos/exposicao">Exposição</a></li>
+	                	<li class="estacao"><a href="/eventos/eventos">Eventos</a></li>
+	                    <li class="cinema"><a href="http://www.atarde.uol.com.br/cinema/" target="_blank">cinema</a></li>
+	                </ul>
+	            </nav>
+	            
+	        </div>
+	        <!-- FIM CABECALHO -->
+	
+		<script>document.getElementById('geral').className = "";</script>
+	    <!-- DESTAQUES -->
+        <div id="destaques">
+            <div class="principal musica">
+                <a href="evento/1485-sandra-de-sa">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/636x361_2017321135322868_sandra-de-sa.jpg" title="Foto: Divulga&ccedil;&atilde;o"/>
+                    <div class="descricao">
+                        <p>Sandra de S&aacute;</p>
+                        <span>Caf&eacute;-Teatro Rubi</span>    
+                    </div> 	
+                </a>
+            </div>
+
+            <div class="secundario estacao">
+                <a href="evento/1482-tia-ma-com-a-lingua-solta">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/314x180_20173171936953_tia-ma-com-a-lingua-solta.jpg" title="Foto: Reprodu&ccedil;&atilde;o | Instagram"/>
+                    <div class="descricao">
+                        <p>Tia M&aacute; com a L&iacute;ngua Solta</p>
+                        <span>Teatro Jorge Amado</span>
+                    </div>    
+                </a>
+            </div>
+
+            <div class="secundario cenicas">
+                <a href="evento/1483-sarau-kids">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/314x180_2017321111324595_sarau-kids.jpg" title="Foto: Divulga&ccedil;&atilde;o"/>
+                    <div class="descricao">
+                        <p>Sarau Kids</p>
+                        <span>Concha Ac&uacute;stica (TCA)</span>    
+                    </div>
+                </a>
+            </div>
+        </div>        
+        <!-- FIM DESTAQUES -->
+        
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <!-- REDES SOCIAIS -->
+            <div class="redesSociaisAtarde">
+                    <div class="aba-fb">
+                        <i class="spriteAgenda icoFacebook"></i>
+                        <div class="cont-aba">
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=391106577619793";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                            <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-width="210" data-height="310" data-colorscheme="light" data-layout="box_count" data-show-faces="true"></div>
+                        </div>
+                    </div>
+                    <div class="aba-tw">
+                        <i class="sprite2015 spriteAgenda icoTwitter"></i>
+                        <div class="cont-aba">
+                            <a class="twitter-share-button" href="https://www.atarde.com.br" data-size="large" data-url="https://dev.twitter.com/web/tweet-button" data-count-url="https://dev.twitter.com/web/tweet-button" data-via="atarde">
+                            @atarde
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aba-go">
+                        <i class="spriteAgenda icoGooglePlus"></i>
+                        <div class="cont-aba">
+
+							<div class="g-plusone"></div>
+
+							<script type="text/javascript">
+							  window.___gcfg = {lang: 'pt-BR'};
+							
+							  (function() {
+							    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							    po.src = 'https://apis.google.com/js/platform.js';
+							    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+							  })();
+							</script>
+							
+                        </div>
+                    </div>
+                    <div class="aba-ins">
+                        <i class="spriteAgenda icoInstagram"></i>
+                        <div class="cont-aba"><a href="http://www.instagram.com/jornalatarde" target="_blank">@jornalatarde</a></div>
+                    </div>
+                    <div class="aba-zap">
+                        <i class="spriteAgenda icoWhatsApp"></i>
+                        <div class="cont-aba">(71) 9601-0020</div>
+                    </div>
+            </div>
+        <!-- FIM REDES SOCIAIS -->
+        <div class="banner"><!-- /21419831/Agenda2mais_SuperBanner_728x90 -->
+<div id='div-gpt-ad-1441737210810-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737210810-0'); });
+</script>
+</div>
+        </div>
+<form id="formulario" name="formulario" method="post" action="/;jsessionid=881163968a686196b80d6ebdec40" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario" />
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="6m8qsPRPfmjb3Ms31ocPPOm+sn6Sjp+ba1vk679HLb+Mc7+84uAg9yiV9EIscE5CltW+6hv7x4PnmnDQKTAno3u2GojF07c4nHgZ8XKT30wpGSC5cRoNTxv8YJwlI2BoTEOuCBUiPAn7yHO1XDZcoTAabI9fHpL+nSOpE0PHSHmfzUCMsvixLaNGnOPDmWhWMogFG/ppd1fsCeeFV11I+5eakgM5UGqdC20tTHGkB1kRb9HIaB1AmZQqZa45Yg8bnEbBUQyuq9sUgXk8zCnnvUk/Oo8+OgiZZqpBb9yWD3kICP419I0DlnNe8bnPFK3Zo/9JYemrezbK9vfXotVLRrJtZAOUCZvtQa68n9HQRvgx/oDPvA/LCVGZxzeJZDu0z9+Yd7hmz61kdqjXkVOl17m5EW4xcs5aOmcRVObmiEiMPBuxLPirtUXai5HFNkI0Zbc6YnaipeaFe7JzZPbdQRLEA+FNPz3gXXXbsWD0vpurvneayS5rBwJGItK6IPmVpEqJSdidh0Ue9fafuYic+zHRf1iPFPaibwQmjS/T4gI+LmD/qQEplPYaPGcDQbK8kSrZzLHcKJOo7Sy+VML843EYptZ3yYzwaXwLXlvyen0HbHfzCQQzBEQr2RaUYGMoip735LfhBCb5FV5YIaJQulS5KwS4lhLcjyp5mK0IftA=" autocomplete="off" />
+
+
+        <!-- BUSCA -->
+        <div id="busca"><script type="text/javascript">buscar = function() {PrimeFaces.ab({s:"j_idt24",f:"formulario",p:"formulario",onco:function(xhr,status,args){window.location.href='/pesquisa.xhtml';},pa:arguments[0]});}</script>
+           
+               <fieldset id="buscaInterna"><input id="j_idt26" name="j_idt26" type="search" placeholder="BUSCA" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="j_idt26_s" type="text/javascript">PrimeFaces.cw("InputText","widget_j_idt26",{id:"j_idt26"});</script><input id="icoBusca" type="submit" name="icoBusca" value="" class="spriteAgenda" />
+                   
+               </fieldset>
+
+               <!-- SELECIONAR CIDADE -->
+               <div id="local">
+                   <div class="inactive spriteAgenda setaBaixo" id="select_box">
+                     	<UL id="list">
+                     	<li><a id="j_idt28:0:j_idt30" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt28:0:j_idt30&quot;,u:&quot;@([id$=cidadeSelecionada]) @([id$=comboCategorias]) @([id$=categoriaSelecionada])&quot;});return false;">RIBEIRA DO POMBAL</a>
+                     	</li>
+                     	<li><a id="j_idt28:1:j_idt30" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt28:1:j_idt30&quot;,u:&quot;@([id$=cidadeSelecionada]) @([id$=comboCategorias]) @([id$=categoriaSelecionada])&quot;});return false;">SALVADOR</a>
+                     	</li>
+                     	</UL><div id="cidadeSelecionada" class="ui-outputpanel ui-widget">
+                     <div id="default_text">SALVADOR</div></div>
+                   </div>
+               </div>
+               <!-- FIM SELECIONAR CIDADE -->
+
+               <!-- SELECIONAR CATEGORIA --><div id="genero" class="ui-outputpanel ui-widget">
+                   <div class="inactive spriteAgenda setaBaixo" id="select_box">
+                     <UL id="list"><div id="comboCategorias" class="ui-outputpanel ui-widget">
+                     	<li><a id="j_idt36:0:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:0:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Estação</a>
+                       </li>
+                     	<li><a id="j_idt36:1:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:1:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Exposição</a>
+                       </li>
+                     	<li><a id="j_idt36:2:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:2:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Música</a>
+                       </li>
+                     	<li><a id="j_idt36:3:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:3:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Teatro</a>
+                       </li></div>
+                     </UL><div id="categoriaSelecionada" class="ui-outputpanel ui-widget">
+                     <div id="default_text">Categorias</div></div>
+                   </div></div>
+               <!-- FIM SELECIONAR CATEGORIA -->
+
+        </div>
+        <!-- FIM BUSCA -->
+
+        <!-- CALENDARIO -->
+        <div id="calendario">
+                <!-- SEELECIONAR O M&Ecirc;S -->
+                <div id="mes">
+                    <div class="inactive spriteAgenda setaBaixo" id="select_mes">
+                      <ul id="list" class="mesPosicao">
+                      	<li><a id="j_idt45:0:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:0:j_idt47&quot;,p:&quot;j_idt45:0:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Março</a>
+						</li>
+                      	<li><a id="j_idt45:1:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:1:j_idt47&quot;,p:&quot;j_idt45:1:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Abril</a>
+						</li>
+                      	<li><a id="j_idt45:2:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:2:j_idt47&quot;,p:&quot;j_idt45:2:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Maio</a>
+						</li>
+                      </ul><div id="mesSelecionado" class="ui-outputpanel ui-widget">
+                      <div id="default_text">Março</div></div>
+                    </div>
+                </div>
+                <!-- FIM SELECIONAR O M&Ecirc;S  --><div id="intervalos" class="ui-outputpanel ui-widget">
+				
+				<script>
+				$(function(){
+				    $('#calendario .bxSlider, #calendarioInterno .bxSlider').bxSlider({
+				      mode: 'fade',
+				      pager: false,
+				      captions: false,
+				      hideControlOnEnd:true,
+				      infiniteLoop: false
+				      });
+				});
+				
+				</script>
+				
+                <ul class="bxSlider" id="thumbselector">
+                    <li>
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA -->
+<script type="text/javascript" src="/javax.faces.resource/jsf.js.xhtml?ln=javax.faces"></script>
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:0:j_idt57':'j_idt53:0:j_idt55:0:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Sáb</span>
+                                        <span>25</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:1:j_idt57':'j_idt53:0:j_idt55:1:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Dom</span>
+                                        <span>26</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:2:j_idt57':'j_idt53:0:j_idt55:2:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Seg</span>
+                                        <span>27</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:3:j_idt57':'j_idt53:0:j_idt55:3:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Ter</span>
+                                        <span>28</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:4:j_idt57':'j_idt53:0:j_idt55:4:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Qui</span>
+                                        <span>30</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                    </li>
+                </ul></div>
+  
+            </div>
+            <!-- FIM CALENDARIO -->
+</form>
+
+        <!-- CANAIS -->
+        <div id="canais">
+            
+            <div class="musica">
+                <h2>Shows</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1485-sandra-de-sa"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017321135322868_sandra-de-sa.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Sandra de Sá</p>
+                            <p class="dia">Dias 24 e 25/3</p>
+                            <p class="local">Café-Teatro Rubi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1483-sarau-kids"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017321111324595_sarau-kids.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Sarau Kids</p>
+                            <p class="dia">Sábado, 25/03</p>
+                            <p class="local">Concha Acústica (TCA)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1489-campus-duca"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_201732384915806_campus-duca.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Campus Duca</p>
+                            <p class="dia">Sábado, 25/03</p>
+                            <p class="local">Armazém Hall</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1493-projeto-musica-na-praca"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017323191836343_projeto-musica-na-praca.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Projeto Música na Praça</p>
+                            <p class="dia">Sexta-feira, 24, sábado, 25, e domingo, 26</p>
+                            <p class="local">Outro</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/show" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="cenicas">
+                <h2>Teatro &amp; Dança</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1490-espetaculo-magico-mar"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_201732385439529_espetaculo-magico-mar.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Espetáculo Mágico Mar</p>
+                            <p class="dia">De quinta-feira, 23/03 até sábado, 25/03</p>
+                            <p class="local">Teatro Gamboa Nova</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1469-marcos-caruso-em-o-escandalo-philippe-dussaert"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017310831108_marcos-caruso-em-o-escandalo-philippe-dussaert.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Marcos Caruso em "O Escândalo Philippe Dussaert"</p>
+                            <p class="dia">Sábado, 25/03 e Domingo 26/03</p>
+                            <p class="local">Teatro Isba</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1491-a-bofetada"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_20173231620868_a-bofetada.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>A Bofetada</p>
+                            <p class="dia">sábado, 25, 19h e domingo, 26, às, 18h</p>
+                            <p class="local">Teatro Eva Herz - Livraria Cultura</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1487-a-fabulosa-fabrica-de-chocolate"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_20173238436875_a-fabulosa-fabrica-de-chocolate.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>A Fabulosa Fábrica de Chocolate</p>
+                            <p class="dia">Sábado, 25/03 e Domingo 26/03</p>
+                            <p class="local">Teatro Jorge Amado</p>
+                        </a>
+                    </li>
+                    <a href="/eventos/teatro" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="plasticas">
+                <h2>Exposição</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1476-exposicao-fotografica-retratos"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017314103429797_exposicao-fotografica-retratos.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Exposição Fotográfica “Retratos”.</p>
+                            <p class="dia">De quarta-feira, 14/03 à terça-feira, 28/03</p>
+                            <p class="local">Shopping da Bahia</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/exposicao" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="estacao">
+                <h2>Eventos</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1492-feira-de-adocao-no-mundo-pet"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017323182824795_feira-de-adocao-no-mundo-pet.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Feira de adoção no Mundo Pet</p>
+                            <p class="dia">Sábado, 25, e domingo, 26</p>
+                            <p class="local">Outro</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/eventos" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+
+			
+            <div class="colPub">
+				<!-- SELO PATROCINADOR -->
+				<div id="patrocinador"><!-- /21419831/Agenda2mais_Selo_120x40 -->
+<!--p>patrocínio</p-->
+<div id='div-gpt-ad-1448376245180-0' style='height:40px; width:120px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1448376245180-0'); });
+</script>
+</div>
+	 			</div>            
+	            
+	            <div id="publicidade">       		        	
+	                <p>Publicidade</p><!-- /21419831/Agenda2mais_ArranhaCeu_160x600 -->
+<div id='div-gpt-ad-1441737578390-0' style='height:600px; width:160px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737578390-0'); });
+</script>
+</div>
+	            </div>
+            
+            </div>
+            
+
+        </div>
+        <!-- FIM CANAIS -->
+        <div class="banner"><!-- /21419831/Agenda2mais_970x250 -->
+<div id='div-gpt-ad-1441737287224-0' style='height:250px; width:970px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737287224-0'); });
+</script>
+</div>
+        </div>
+	
+	    </div>
+	    <!-- FIM GERAL -->
+		
+		<script type="text/javascript" src="http://fw.atarde.com.br/fw/js/rodape_portal_externo.js"></script>
+
+		<script type="text/javascript" src="/assets/javascript/jquery.bxslider.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/jquery.easing.1.3.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/jquery.fitvids.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/scripts.js"></script>
+		
+		<!-- ESTATISTICA UOL -->       
+		    <!-- SiteCatalyst code version: H.19.3. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+		
+		    <script language="JavaScript" type="text/javascript" src="http://me.jsuol.com.br/omtr/atarde.js"></script>
+		    
+		    <script language="JavaScript" type="text/javascript">
+		    
+		    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		    
+		    var s_code=uol_sc.t();if(s_code)document.write(s_code)</script>
+		    
+		    <!-- End SiteCatalyst code version: H.19.3. -->   
+		<!-- TERMINA ESTATISTICA UOL -->
+		
+	</body>
+
+</html>
+|||
+http://agenda2mais.atarde.uol.com.br/
+|
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br"><head><link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo" /><link type="text/css" rel="stylesheet" href="/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=5.3" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=8811a77a85d54f29e6df1fdb730e?ln=primefaces&amp;v=5.3"></script><script type="text/javascript" src="/javax.faces.resource/primefaces.js.xhtml;jsessionid=8811a77a85d54f29e6df1fdb730e?ln=primefaces&amp;v=5.3"></script><link type="text/css" rel="stylesheet" href="/javax.faces.resource/primefaces.css.xhtml;jsessionid=8811a77a85d54f29e6df1fdb730e?ln=primefaces&amp;v=5.3" /><script type="text/javascript" src="/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=8811a77a85d54f29e6df1fdb730e?ln=primefaces&amp;v=5.3"></script><script type="text/javascript">if(window.PrimeFaces){}</script>
+	
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    
+	    <title>A TARDE - Agenda 2+ </title>	    
+
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssFonts.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssReset.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/cssAgenda.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/spriteAgenda.css" />
+	    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/jquery.bxslider.css" />
+	    
+	    <link href="http://fw.atarde.com.br/fw/css/2012/01/cssFontFace.css" rel="stylesheet" type="text/css" media="all" />
+
+  		<link rel="shortcut icon" href="http://fw.atarde.uol.com.br/fw/img/2008/04/favicon.ico" />	    
+	    
+		<script type="text/javascript">
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		  (function() {
+		    var gads = document.createElement('script');
+		    gads.async = true;
+		    gads.type = 'text/javascript';
+		    var useSSL = 'https:' == document.location.protocol;
+		    gads.src = (useSSL ? 'https:' : 'http:') +
+		      '//www.googletagservices.com/tag/js/gpt.js';
+		    var node = document.getElementsByTagName('script')[0];
+		    node.parentNode.insertBefore(gads, node);
+		  })();
+		</script>
+		 
+		<script type="text/javascript">
+		  googletag.cmd.push(function() {
+		    googletag.defineSlot('/21419831/Agenda2mais_Selo_120x40', [120, 40], 'div-gpt-ad-1448376245180-0').addService(googletag.pubads());
+		    googletag.pubads().enableSingleRequest();
+		    googletag.enableServices();
+		  });
+		</script>
+ 
+ 		<!-- ESTATISTICA GOOGLE -->
+          <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-25157125-1']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_setDomainName', '.atarde.uol.com.br']);
+            _gaq.push(['_setAllowLinker', true]);
+
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+          <!-- TERMINA ESTATISTICA GOOGLE -->
+
+		<script type="text/javascript" src="//wurfl.io/wurfl.js"></script>
+		
+		<script type="text/javascript">
+		if(WURFL.is_mobile){
+		    window.location = "/mobile/index.xhtml";
+		  }
+		</script><script type='text/javascript'>
+ var googletag = googletag || {};
+ googletag.cmd = googletag.cmd || [];
+ (function() {
+ var gads = document.createElement('script');
+ gads.async = true;
+ gads.type = 'text/javascript';
+ var useSSL = 'https:' == document.location.protocol;
+ gads.src = (useSSL ? 'https:' : 'http:') +
+ '//www.googletagservices.com/tag/js/gpt.js';
+ var node = document.getElementsByTagName('script')[0];
+ node.parentNode.insertBefore(gads, node);
+ })();
+</script>
+
+<script type='text/javascript'>
+ googletag.cmd.push(function() {
+
+ googletag.defineSlot('/21419831/Agenda2mais_SuperBanner_728x90', [[970, 90], [728, 90]], 'div-gpt-ad-1441737210810-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21419831/Agenda2mais_970x250', [970, 250], 'div-gpt-ad-1441737287224-0').addService(googletag.pubads());
+
+googletag.defineSlot('/21419831/Agenda2mais_ArranhaCeu_160x600', [160, 600], 'div-gpt-ad-1441737578390-0').addService(googletag.pubads());
+
+
+googletag.defineSlot('/21419831/Agenda2mais_Selo_120x40', [120, 40], 'div-gpt-ad-1448376245180-0').addService(googletag.pubads());
+
+ googletag.pubads().enableSingleRequest();
+ googletag.enableServices();
+ });
+</script>
+
+		<style>
+		.ui-corner-all {
+			border: 0;
+		}		
+		.ui-datascroller-item {
+			display: none;
+		}
+		</style>
+		
+	<!-- SCRIPT BARRA UOL -->
+	<script type="text/javascript">
+        window.universal_variable = window.universal_variable || {};
+        window.universal_variable.dfp = {
+            "custom_params" : {
+                "subchan" : "",
+            }
+        };
+
+        window.uolads = window.uolads || [];
+
+        ;(function() {
+            var scr = document.createElement("script");
+            scr.async = true;
+            scr.src =  "//tm.jsuol.com.br/uoltm.js?id=uteqwq";
+            var el = document.getElementsByTagName("script")[0];
+                el.parentNode.insertBefore(scr, el);
+        })();
+    </script>
+    <!-- /SCRIPT BARRA UOL --></head>
+			
+	<body id="agendaWeb"><input type="hidden" name="j_idt9" value="br.com.atarde.agenda2mais.faces.SessaoFaces@149a86b7" /><div id="j_idt10"></div><script id="j_idt10_s" type="text/javascript">$(function(){PrimeFaces.cw("AjaxStatus","widget_j_idt10",{id:"j_idt10",start:function(){PF('statusDialog').show();},success:function(){PF('statusDialog').hide();}});});</script><div id="j_idt11" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container"><div class="ui-dialog-content ui-widget-content"><img id="j_idt12" src="/assets/images/atualizando.gif;jsessionid=8811a77a85d54f29e6df1fdb730e?pfdrid_c=true" alt="" /></div></div><script id="j_idt11_s" type="text/javascript">$(function(){PrimeFaces.cw("Dialog","statusDialog",{id:"j_idt11",draggable:false,resizable:false,modal:true});});</script>	
+		
+<!-- TOPO SIMPLIFICADO -->
+    
+	<div class="barraPortalEspeciais">
+		<nav class="gruposPortal">
+			<ul>
+				<li><a href="http://www.atarde.com.br/noticias" target="_blank">notícias</a></li>
+				<li><a href="http://www.atarde.com.br/esportes" target="_blank">esportes</a></li>
+				<li><a href="http://www.atarde.com.br/entretenimento" target="_blank">entretenimento</a></li>
+			</ul>
+		</nav>
+
+		<h1>
+			<a href="http://www.atarde.com.br/" target="_blank">
+				<img src="/assets/images/marcaAtarde.png" alt="marca do Jornal A TARDE" />
+			</a>
+		</h1>
+
+		<nav class="outrosLinks">
+			<ul>
+				<li><a href="http://assine.atarde.com.br/" target="_blank">assine</a></li>
+				<li><a href="http://classificados.atarde.com.br/" target="_blank">classificados</a></li>
+			</ul>
+		</nav>
+	</div>
+
+<!-- FIM TOPO SIMPLIFICADO -->
+	    
+	    <!-- GERAL -->
+	    <div id="geral">
+	
+	        <!-- CABECALHO -->
+	        <div class="cabecalho">
+	            
+	            <div class="logo">
+	                <a href="/"><h1><img src="/assets/images/logoAgenda.png" title="Agenda 2+" alt="logo Agenda 2+" /></h1></a>
+	            </div>
+	
+	            <nav>
+	                <ul>
+	                	<li class="musica"><a href="/eventos/show">Shows</a></li>
+	                	<li class="cenicas"><a href="/eventos/teatro">Teatro &amp; Dança</a></li>
+	                	<li class="plasticas"><a href="/eventos/exposicao">Exposição</a></li>
+	                	<li class="estacao"><a href="/eventos/eventos">Eventos</a></li>
+	                    <li class="cinema"><a href="http://www.atarde.uol.com.br/cinema/" target="_blank">cinema</a></li>
+	                </ul>
+	            </nav>
+	            
+	        </div>
+	        <!-- FIM CABECALHO -->
+	
+		<script>document.getElementById('geral').className = "";</script>
+	    <!-- DESTAQUES -->
+        <div id="destaques">
+            <div class="principal musica">
+                <a href="evento/1485-sandra-de-sa">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/636x361_2017321135322868_sandra-de-sa.jpg" title="Foto: Divulga&ccedil;&atilde;o"/>
+                    <div class="descricao">
+                        <p>Sandra de S&aacute;</p>
+                        <span>Caf&eacute;-Teatro Rubi</span>    
+                    </div> 	
+                </a>
+            </div>
+
+            <div class="secundario estacao">
+                <a href="evento/1482-tia-ma-com-a-lingua-solta">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/314x180_20173171936953_tia-ma-com-a-lingua-solta.jpg" title="Foto: Reprodu&ccedil;&atilde;o | Instagram"/>
+                    <div class="descricao">
+                        <p>Tia M&aacute; com a L&iacute;ngua Solta</p>
+                        <span>Teatro Jorge Amado</span>
+                    </div>    
+                </a>
+            </div>
+
+            <div class="secundario cenicas">
+                <a href="evento/1483-sarau-kids">
+                    <img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/314x180_2017321111324595_sarau-kids.jpg" title="Foto: Divulga&ccedil;&atilde;o"/>
+                    <div class="descricao">
+                        <p>Sarau Kids</p>
+                        <span>Concha Ac&uacute;stica (TCA)</span>    
+                    </div>
+                </a>
+            </div>
+        </div>        
+        <!-- FIM DESTAQUES -->
+        
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <!-- REDES SOCIAIS -->
+            <div class="redesSociaisAtarde">
+                    <div class="aba-fb">
+                        <i class="spriteAgenda icoFacebook"></i>
+                        <div class="cont-aba">
+                            <div id="fb-root"></div>
+                            <script>(function(d, s, id) {
+                              var js, fjs = d.getElementsByTagName(s)[0];
+                              if (d.getElementById(id)) return;
+                              js = d.createElement(s); js.id = id;
+                              js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=391106577619793";
+                              fjs.parentNode.insertBefore(js, fjs);
+                            }(document, 'script', 'facebook-jssdk'));</script>
+                            <div class="fb-follow" data-href="https://www.facebook.com/zuck" data-width="210" data-height="310" data-colorscheme="light" data-layout="box_count" data-show-faces="true"></div>
+                        </div>
+                    </div>
+                    <div class="aba-tw">
+                        <i class="sprite2015 spriteAgenda icoTwitter"></i>
+                        <div class="cont-aba">
+                            <a class="twitter-share-button" href="https://www.atarde.com.br" data-size="large" data-url="https://dev.twitter.com/web/tweet-button" data-count-url="https://dev.twitter.com/web/tweet-button" data-via="atarde">
+                            @atarde
+                            </a>
+                        </div>
+                    </div>
+                    <div class="aba-go">
+                        <i class="spriteAgenda icoGooglePlus"></i>
+                        <div class="cont-aba">
+
+							<div class="g-plusone"></div>
+
+							<script type="text/javascript">
+							  window.___gcfg = {lang: 'pt-BR'};
+							
+							  (function() {
+							    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+							    po.src = 'https://apis.google.com/js/platform.js';
+							    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+							  })();
+							</script>
+							
+                        </div>
+                    </div>
+                    <div class="aba-ins">
+                        <i class="spriteAgenda icoInstagram"></i>
+                        <div class="cont-aba"><a href="http://www.instagram.com/jornalatarde" target="_blank">@jornalatarde</a></div>
+                    </div>
+                    <div class="aba-zap">
+                        <i class="spriteAgenda icoWhatsApp"></i>
+                        <div class="cont-aba">(71) 9601-0020</div>
+                    </div>
+            </div>
+        <!-- FIM REDES SOCIAIS -->
+        <div class="banner"><!-- /21419831/Agenda2mais_SuperBanner_728x90 -->
+<div id='div-gpt-ad-1441737210810-0'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737210810-0'); });
+</script>
+</div>
+        </div>
+<form id="formulario" name="formulario" method="post" action="/;jsessionid=8811a77a85d54f29e6df1fdb730e" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formulario" value="formulario" />
+<input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="Me6CgswtB0azwUO0D7MqUV4Us9qQRpw93aSTN/0kp7mwqc/SmJA0p7QH/DrtnzcFDUxnN+7wbS//etNuef1dAPjEG85yegt5yCNQHPaSw1bgIdb2hKT+WTbMD0Jo/4TuAqcOXmVbLPBpgHL6hdL4XXVio1JsMCd+r+r2PZ/qY9wqRzcIyijq12HRQ2hWrl+9o5A1b+vghPE8+0iztMwgFrNv25WXy1GFrhGOMOc4SPGGKDSGAdJrBHflIB0f8YdCdCTcPX+ScYj7Npd3zgZEqwzMzCWmbSXGlI5MMBr7u627UfwMBOrwO8YJKQXl1q7zOlMGkyDZVZbCk9Yyq7YtToSWpONhsa4V/sZ4HjDm9YxzLdG1mOzYKq82QjG4GjkHZZOUSZ2bzwLAJ6zTBJhcLqO8VbKQQ3y0M59fM8nxWfsaBW8ZQUv6M3I7FllFj1Jxlhtll9TE7iHMKrr0wxxX9kp/fE/q0MRzeQ4KJIV9R6knVYN381rXM9eukEeg5VblOQCjUkZPW5BCZ8q0XLKwNAbYnOZFnjAFqwQcacQNdEV/yLPiF8FF/eZOTWoc8YJV6p6kf01mGKV53EWU08ZQVvxzRby9kOq/x2TGv5HCh2gnoLyyOPWaMwb1cKT/cudYagP1KRnNj3zxG8NdI1R65knDKFla+nEZmFBFdWMXv/8=" autocomplete="off" />
+
+
+        <!-- BUSCA -->
+        <div id="busca"><script type="text/javascript">buscar = function() {PrimeFaces.ab({s:"j_idt24",f:"formulario",p:"formulario",onco:function(xhr,status,args){window.location.href='/pesquisa.xhtml';},pa:arguments[0]});}</script>
+           
+               <fieldset id="buscaInterna"><input id="j_idt26" name="j_idt26" type="search" placeholder="BUSCA" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all" /><script id="j_idt26_s" type="text/javascript">PrimeFaces.cw("InputText","widget_j_idt26",{id:"j_idt26"});</script><input id="icoBusca" type="submit" name="icoBusca" value="" class="spriteAgenda" />
+                   
+               </fieldset>
+
+               <!-- SELECIONAR CIDADE -->
+               <div id="local">
+                   <div class="inactive spriteAgenda setaBaixo" id="select_box">
+                     	<UL id="list">
+                     	<li><a id="j_idt28:0:j_idt30" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt28:0:j_idt30&quot;,u:&quot;@([id$=cidadeSelecionada]) @([id$=comboCategorias]) @([id$=categoriaSelecionada])&quot;});return false;">RIBEIRA DO POMBAL</a>
+                     	</li>
+                     	<li><a id="j_idt28:1:j_idt30" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt28:1:j_idt30&quot;,u:&quot;@([id$=cidadeSelecionada]) @([id$=comboCategorias]) @([id$=categoriaSelecionada])&quot;});return false;">SALVADOR</a>
+                     	</li>
+                     	</UL><div id="cidadeSelecionada" class="ui-outputpanel ui-widget">
+                     <div id="default_text">SALVADOR</div></div>
+                   </div>
+               </div>
+               <!-- FIM SELECIONAR CIDADE -->
+
+               <!-- SELECIONAR CATEGORIA --><div id="genero" class="ui-outputpanel ui-widget">
+                   <div class="inactive spriteAgenda setaBaixo" id="select_box">
+                     <UL id="list"><div id="comboCategorias" class="ui-outputpanel ui-widget">
+                     	<li><a id="j_idt36:0:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:0:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Estação</a>
+                       </li>
+                     	<li><a id="j_idt36:1:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:1:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Exposição</a>
+                       </li>
+                     	<li><a id="j_idt36:2:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:2:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Música</a>
+                       </li>
+                     	<li><a id="j_idt36:3:j_idt38" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt36:3:j_idt38&quot;,u:&quot;@([id$=categoriaSelecionada])&quot;});return false;">Teatro</a>
+                       </li></div>
+                     </UL><div id="categoriaSelecionada" class="ui-outputpanel ui-widget">
+                     <div id="default_text">Categorias</div></div>
+                   </div></div>
+               <!-- FIM SELECIONAR CATEGORIA -->
+
+        </div>
+        <!-- FIM BUSCA -->
+
+        <!-- CALENDARIO -->
+        <div id="calendario">
+                <!-- SEELECIONAR O M&Ecirc;S -->
+                <div id="mes">
+                    <div class="inactive spriteAgenda setaBaixo" id="select_mes">
+                      <ul id="list" class="mesPosicao">
+                      	<li><a id="j_idt45:0:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:0:j_idt47&quot;,p:&quot;j_idt45:0:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Março</a>
+						</li>
+                      	<li><a id="j_idt45:1:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:1:j_idt47&quot;,p:&quot;j_idt45:1:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Abril</a>
+						</li>
+                      	<li><a id="j_idt45:2:j_idt47" href="#" class="ui-commandlink ui-widget" onclick="PrimeFaces.ab({s:&quot;j_idt45:2:j_idt47&quot;,p:&quot;j_idt45:2:j_idt47&quot;,u:&quot;@([id$=mesSelecionado]) @([id$=intervalos])&quot;});return false;">Maio</a>
+						</li>
+                      </ul><div id="mesSelecionado" class="ui-outputpanel ui-widget">
+                      <div id="default_text">Março</div></div>
+                    </div>
+                </div>
+                <!-- FIM SELECIONAR O M&Ecirc;S  --><div id="intervalos" class="ui-outputpanel ui-widget">
+				
+				<script>
+				$(function(){
+				    $('#calendario .bxSlider, #calendarioInterno .bxSlider').bxSlider({
+				      mode: 'fade',
+				      pager: false,
+				      captions: false,
+				      hideControlOnEnd:true,
+				      infiniteLoop: false
+				      });
+				});
+				
+				</script>
+				
+                <ul class="bxSlider" id="thumbselector">
+                    <li>
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA -->
+<script type="text/javascript" src="/javax.faces.resource/jsf.js.xhtml?ln=javax.faces"></script>
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:0:j_idt57':'j_idt53:0:j_idt55:0:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Sáb</span>
+                                        <span>25</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:1:j_idt57':'j_idt53:0:j_idt55:1:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Dom</span>
+                                        <span>26</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:2:j_idt57':'j_idt53:0:j_idt55:2:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Seg</span>
+                                        <span>27</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:3:j_idt57':'j_idt53:0:j_idt55:3:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Ter</span>
+                                        <span>28</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                        <!-- ITEM -->
+                        <div class="item">
+                            <a>
+                                <!-- DIA --><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formulario'),{'j_idt53:0:j_idt55:4:j_idt57':'j_idt53:0:j_idt55:4:j_idt57'},'');return false">
+                                
+                                    <div class="dia">
+                                        <span>Qui</span>
+                                        <span>30</span>
+                                    </div></a>
+                                <!-- FIM DIA -->
+                            </a>
+                        </div>
+                        <!-- FIM ITEM -->
+                    </li>
+                </ul></div>
+  
+            </div>
+            <!-- FIM CALENDARIO -->
+</form>
+
+        <!-- CANAIS -->
+        <div id="canais">
+            
+            <div class="musica">
+                <h2>Shows</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1485-sandra-de-sa"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017321135322868_sandra-de-sa.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Sandra de Sá</p>
+                            <p class="dia">Dias 24 e 25/3</p>
+                            <p class="local">Café-Teatro Rubi</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1483-sarau-kids"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017321111324595_sarau-kids.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Sarau Kids</p>
+                            <p class="dia">Sábado, 25/03</p>
+                            <p class="local">Concha Acústica (TCA)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1489-campus-duca"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_201732384915806_campus-duca.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Campus Duca</p>
+                            <p class="dia">Sábado, 25/03</p>
+                            <p class="local">Armazém Hall</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1493-projeto-musica-na-praca"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017323191836343_projeto-musica-na-praca.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Projeto Música na Praça</p>
+                            <p class="dia">Sexta-feira, 24, sábado, 25, e domingo, 26</p>
+                            <p class="local">Outro</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/show" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="cenicas">
+                <h2>Teatro &amp; Dança</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1490-espetaculo-magico-mar"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_201732385439529_espetaculo-magico-mar.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Espetáculo Mágico Mar</p>
+                            <p class="dia">De quinta-feira, 23/03 até sábado, 25/03</p>
+                            <p class="local">Teatro Gamboa Nova</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1469-marcos-caruso-em-o-escandalo-philippe-dussaert"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017310831108_marcos-caruso-em-o-escandalo-philippe-dussaert.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Marcos Caruso em "O Escândalo Philippe Dussaert"</p>
+                            <p class="dia">Sábado, 25/03 e Domingo 26/03</p>
+                            <p class="local">Teatro Isba</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1491-a-bofetada"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_20173231620868_a-bofetada.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>A Bofetada</p>
+                            <p class="dia">sábado, 25, 19h e domingo, 26, às, 18h</p>
+                            <p class="local">Teatro Eva Herz - Livraria Cultura</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/evento/1487-a-fabulosa-fabrica-de-chocolate"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_20173238436875_a-fabulosa-fabrica-de-chocolate.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>A Fabulosa Fábrica de Chocolate</p>
+                            <p class="dia">Sábado, 25/03 e Domingo 26/03</p>
+                            <p class="local">Teatro Jorge Amado</p>
+                        </a>
+                    </li>
+                    <a href="/eventos/teatro" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="plasticas">
+                <h2>Exposição</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1476-exposicao-fotografica-retratos"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017314103429797_exposicao-fotografica-retratos.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Exposição Fotográfica “Retratos”.</p>
+                            <p class="dia">De quarta-feira, 14/03 à terça-feira, 28/03</p>
+                            <p class="local">Shopping da Bahia</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/exposicao" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+            
+            <div class="estacao">
+                <h2>Eventos</h2>
+                <ul>
+                    <li>
+                        <a href="/evento/1492-feira-de-adocao-no-mundo-pet"><img src="http://imgfw.atarde.com.br/agenda2mais/2017/03/175x172_2017323182824795_feira-de-adocao-no-mundo-pet.jpg" title="Foto: Divulgação" />
+                            <span class="cidade">SALVADOR</span>
+                            <p>Feira de adoção no Mundo Pet</p>
+                            <p class="dia">Sábado, 25, e domingo, 26</p>
+                            <p class="local">Outro</p>
+                            <span class="gratuito">gratuito</span>
+                            
+                        </a>
+                    </li>
+                    <a href="/eventos/eventos" class="verMais spriteAgenda icoMais">e muito mais</a>
+                </ul>
+            </div>            
+            <!-- FIM MUSICA -->
+
+			
+            <div class="colPub">
+				<!-- SELO PATROCINADOR -->
+				<div id="patrocinador"><!-- /21419831/Agenda2mais_Selo_120x40 -->
+<!--p>patrocínio</p-->
+<div id='div-gpt-ad-1448376245180-0' style='height:40px; width:120px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1448376245180-0'); });
+</script>
+</div>
+	 			</div>            
+	            
+	            <div id="publicidade">       		        	
+	                <p>Publicidade</p><!-- /21419831/Agenda2mais_ArranhaCeu_160x600 -->
+<div id='div-gpt-ad-1441737578390-0' style='height:600px; width:160px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737578390-0'); });
+</script>
+</div>
+	            </div>
+            
+            </div>
+            
+
+        </div>
+        <!-- FIM CANAIS -->
+        <div class="banner"><!-- /21419831/Agenda2mais_970x250 -->
+<div id='div-gpt-ad-1441737287224-0' style='height:250px; width:970px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1441737287224-0'); });
+</script>
+</div>
+        </div>
+	
+	    </div>
+	    <!-- FIM GERAL -->
+		
+		<script type="text/javascript" src="http://fw.atarde.com.br/fw/js/rodape_portal_externo.js"></script>
+
+		<script type="text/javascript" src="/assets/javascript/jquery.bxslider.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/jquery.easing.1.3.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/jquery.fitvids.js"></script>
+	    <script type="text/javascript" src="/assets/javascript/scripts.js"></script>
+		
+		<!-- ESTATISTICA UOL -->       
+		    <!-- SiteCatalyst code version: H.19.3. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+		
+		    <script language="JavaScript" type="text/javascript" src="http://me.jsuol.com.br/omtr/atarde.js"></script>
+		    
+		    <script language="JavaScript" type="text/javascript">
+		    
+		    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		    
+		    var s_code=uol_sc.t();if(s_code)document.write(s_code)</script>
+		    
+		    <!-- End SiteCatalyst code version: H.19.3. -->   
+		<!-- TERMINA ESTATISTICA UOL -->
+		
+	</body>
+
+</html>
+|||
+http://assineinner.com.br/adega.asp
+|
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Assine &middot; Revista ADEGA</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"28c52ddc20","agent":"","transactionName":"bwABZxNSC0NVAUwIDVZKJUYPUBFZWwwXCAxWABEdAEAWWVoHFhcLXRIQCQ5VAEJAA0s=","applicationID":"5231658","errorBeacon":"bam.nr-data.net","applicationTime":46}</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assine Revista ADEGA">
+  <meta name="author" content="Inner Editora Ltda.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="Revista ADEGA">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:site" content="@revistaadega"> 
+  <link rel="dns-prefetch" href="//www.amdb.com.br">
+  <!-- analytics UA-40696379-3 -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40696379-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  <!-- Bootstrap 3 -->
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<!--[if lt IE 9]>
+	<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> 
+	<script src="//oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+
+  
+<link rel="icon" type="image/png" href="/static/favicon/favicon-192x192.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/static/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="57x57" href="/static/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/static/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/static/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/static/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/static/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/static/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/static/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/static/favicon/apple-touch-icon-152x152.png">
+<meta name="msapplication-config" content="/IEconfig.xml" />
+
+
+  <link rel="stylesheet" href="/static/bs2_legacy.min.css?170131">
+  <link rel="stylesheet" href="/static/footer_bs3.min.css?170131">
+  <link rel="stylesheet" href="/static/inner_common.min.css?170131">
+  <link rel="stylesheet" href="/static/amdb_overrides.min.css?170131">
+
+  
+    
+      
+      <!-- uol_tagmanager_async -->
+<script type="text/javascript">
+        window.universal_variable = window.universal_variable || {};
+        window.universal_variable.dfp = {
+            "custom_params" : {
+                "subchan" : "",
+            }
+        };
+        window.uolads = window.uolads || [];
+        ;(function() {
+            var scr = document.createElement("script");
+            scr.async = true;
+            scr.src =  "//tm.jsuol.com.br/uoltm.js?id=qenuaf";
+            var el = document.getElementsByTagName("script")[0];
+                el.parentNode.insertBefore(scr, el);
+        })();
+</script>
+      <!-- Hotjar Tracking Code 236825 -->
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:236825,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+    
+  
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window,document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1275794022486456'); 
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+  <img height="1" width="1" 
+  src="https://www.facebook.com/tr?id=1275794022486456&ev=PageView
+  &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+</head>
+<body>
+  
+  
+  <!-- block:header -->
+
+
+<div class="container">
+  <div class="base_logo">
+    <a href="http://revistaadega.uol.com.br"><img src="/static/img/logo_adega_470_black.png" alt="Revista ADEGA" class="img-responsive">
+    </a>
+  </div>
+  <div class="propaganda_uol" style="float:right; width:730px; margin:15px 0;">
+    <!-- include_banners_async2 ad:728x90 on:True -->
+
+	<div id="banner-728x90-area">
+        <script>
+            window.uolads && window.uolads.push({ id: "banner-728x90-area" });
+        </script>
+	</div>
+
+  </div>
+  <br style="clear:both;">
+</div>
+
+  <div class="container">
+
+
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Seções <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                
+  <li><a href="/artigo/?secao=4">Entrevista</a></li>
+
+  <li><a href="/artigo/?secao=9">Terroir Brasil</a></li>
+
+  <li><a href="/artigo/?secao=20">Escola do vinho</a></li>
+
+  <li><a href="/artigo/?secao=21">DOC</a></li>
+
+  <li><a href="/artigo/?secao=22">Grands Châteaux</a></li>
+
+  <li><a href="/artigo/?secao=25">Harmonização</a></li>
+
+  <li><a href="/artigo/?secao=29">Curiosidades</a></li>
+
+  <li><a href="/artigo/?secao=30">Especiais</a></li>
+
+  <li><a href="/artigo/?secao=32">Enoturismo</a></li>
+
+  <li><a href="/artigo/?secao=45">Grandes degustações</a></li>
+
+  <li><a href="/artigo/?secao=46">Perfil</a></li>
+
+
+                <li role="separator" class="divider"></li>
+                <li><a href="/secoes/">Todas seções</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outras áreas <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li><a href="/revista/">Nas Bancas</a></li>
+                
+                  <li><a href="/revista/">Edições Anteriores</a></li>
+                
+                  <li><a href="/faleconosco/">Fale Conosco</a></li>
+                
+                  <li><a href="/artigo/expediente_9338.html">Expediente</a></li>
+                
+                  <li><a href="/cadastro">Cadastre-se</a></li>
+                
+              </ul>
+            </li>
+            <li class="assine_ja"><a href="/assine">Assine Já!</a></li>
+            <li><a href="/artigo/media-kit_10048.html">Mídia Kit</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inner Editora <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                  <li>
+                    <a style="background-image: url(http://revistatenis.uol.com.br/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://www.revistatenis.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">Revista TÊNIS</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://aeromagazine.uol.com.br/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://www.aeromagazine.com.br?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">AERO Magazine</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://revistaadega.uol.com.br/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://www.revistaadega.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">Revista ADEGA</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://melhorvinho.uol.com.br/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://www.melhorvinho.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">Melhor Vinho</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://www.clubeadega.com.br/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="https://www.clubeadega.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">Clube Adega</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://www.aeromagazine.net/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://www.aeromagazine.net?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">AERO Magazine América Latina</a></li>
+                
+                  <li>
+                    <a style="background-image: url(http://sabor.club/static/favicon/favicon-16x16.png); background-position:5px 5px; background-repeat: no-repeat; padding-left: 26px;" role="menuitem" tabindex="-1" href="http://sabor.club?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=menu_superior" target="_blank">Sabor.Club</a></li>
+                
+                <li role="separator" class="divider"></li>
+                <li><a href="http://www.assineinner.com.br/">Assine Inner</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form navbar-right" action="http://revistaadega.uol.com.br/artigo/">
+            <div class="form-group">
+              <input name="q" type="text" class="form-control search-query" placeholder="Faça uma busca">
+            </div>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+  </div>
+  
+
+
+<!-- block:headline -->
+
+
+
+<!-- block:main_content -->
+
+<!-- current_edition void -->
+
+<div class="container" style="margin-top:-15px; outline: 6px solid #f60; background-color:#f60;">
+	<div class="row">
+		<div class="col-sm-9 col-md-9" style="overflow-x:auto;">
+			
+<table class="assine_tabela_precos">
+	<tr class="inv"><th><img src="/static/img/assine/assine_64_op.png" width="99" height="40" alt="Assine Inner"></th><td class="oferta_icon" style="background-image: url(/media/uploads/assine/impresso_32x32_64gray_op.png)">Impressa</td><td class="oferta_icon" style="background-image: url(/media/uploads/assine/impresso_32x32_64gray_op.png)">Impressa</td><td class="oferta_icon" style="background-image: url(/media/uploads/assine/android_32x32_64gray_op.png)">PDF/Android</td><td class="oferta_icon" style="background-image: url(/media/uploads/assine/iphone_32x32_64gray_op.png)">iPad/iPhone</td></tr>
+	<tr><th></th><td>1 ano</td><td>2 anos</td><td>1 ano</td><td>1 ano</td></tr>
+	<tr><th>Edições</th><td>12</td><td>24</td><td>12</td><td>12</td></tr>
+	<tr><th>Comprando Avulso você pagaria</th><td>R$ 202,80</td><td>R$ 405,06</td><td>R$ 202,80</td><td>R$ 202,80</td></tr>
+	<tr><th>Assine Agora por</th><td class="tpe"><b>R$ 182,52</b></td><td class="tpe"><b>R$ 324,04</b></td><td class="tpe"><b>R$ 119,96</b></td><td class="tpe"><b>R$ 119,96</b></td></tr>
+	<tr><th>Desconto</th><td><div class="botao_desconto"><a href="https://adega.assinaja.com/l/208&amp;ORIGEM_TXT=SITEADEGA" target="_blank"><span>10%</span><em>de desconto</em></a></div></td><td><div class="botao_desconto"><a href="https://adega.assinaja.com/l/511" target="_blank"><span>20%</span><em>de desconto</em></a></div></td><td><div class="botao_desconto"><a href="http://br.zinio.com/www/browse/product.jsp?offer=500454165&amp;productId=500734118&amp;pss=1&amp;bd=1&amp;WT.mc_id=PUB_www_br_500734118_publisher301012&amp;rf=PUB_www_br_500734118&amp;_requestid=923101" target="_blank"><span>40%</span><em>de desconto</em></a></div></td><td><div class="botao_desconto"><a href="http://br.zinio.com/www/browse/product.jsp?offer=500454165&amp;productId=500734118&amp;pss=1&amp;bd=1&amp;WT.mc_id=PUB_www_br_500734118_publisher301012&amp;rf=PUB_www_br_500734118&amp;_requestid=923101" target="_blank"><span>40%</span><em>de desconto</em></a></div></td></tr>
+	<tr><th>Economiza</th><td><b>R$ 20,28</b></td><td><b>R$ 81,02</b></td><td><b>R$ 82,84</b></td><td><b>R$ 82,84</b></td></tr>
+	<tr><th>Parcelado sem juros no cartão de crédito</th>
+		
+		<td>
+			
+			3x R$ 60,84
+			
+		</td>
+		
+		<td>
+			
+			6x R$ 54,00
+			
+		</td>
+		
+		<td>
+			
+		</td>
+		
+		<td>
+			
+		</td>
+		
+	</tr>
+	<tr><th>Assinando agora você <b>GANHA</b> também</th>
+		
+		<td>
+			
+			<img src="/media/versions/uploads/assine/poster_cores_vinho_free_small.jpg" alt="1 Pôster das Cores do Vinho" style="width:80%; height:auto;">
+			
+		</td>
+		
+		<td>
+			
+			<img src="/media/versions/uploads/assine/37937_313x313.jpg_free_small.jpg" alt="1 Etilômetro + Pôster das Cores do Vinho" style="width:80%; height:auto;">
+			
+		</td>
+		
+		<td>
+			
+			<img src="/media/versions/uploads/assine/cotacao_dolar2_free_small.jpg" alt="" style="width:80%; height:auto;">
+			
+		</td>
+		
+		<td>
+			
+			<img src="/media/versions/uploads/assine/cotacao_dolar2_free_small.jpg" alt="" style="width:80%; height:auto;">
+			
+		</td>
+		
+	</tr>
+	<tr><th></th><td><div class="botao_comprar"><a href="https://adega.assinaja.com/l/208&amp;ORIGEM_TXT=SITEADEGA" target="_blank">Compre Agora</a></div></td><td><div class="botao_comprar"><a href="https://adega.assinaja.com/l/511" target="_blank">Compre Agora</a></div></td><td><div class="botao_comprar"><a href="http://br.zinio.com/www/browse/product.jsp?offer=500454165&amp;productId=500734118&amp;pss=1&amp;bd=1&amp;WT.mc_id=PUB_www_br_500734118_publisher301012&amp;rf=PUB_www_br_500734118&amp;_requestid=923101" target="_blank">Compre Agora</a></div></td><td><div class="botao_comprar"><a href="http://br.zinio.com/www/browse/product.jsp?offer=500454165&amp;productId=500734118&amp;pss=1&amp;bd=1&amp;WT.mc_id=PUB_www_br_500734118_publisher301012&amp;rf=PUB_www_br_500734118&amp;_requestid=923101" target="_blank">Compre Agora</a></div></td></tr>
+</table>
+		</div>
+		<div class="col-sm-3 col-md-3">
+			<img src="/media/versions/uploads/capas_revistas/capa_137_revista.jpg" alt="Tinto ou Branco?" style="margin-top: 44px;" class="img-responsive">
+		</div>
+	</div>
+</div>
+<br>
+
+
+
+<!-- block:footer -->
+
+  
+  <div class="footer_wrapper">
+    <div class="container footer">
+        <div class="row">
+            <div class="col-xs-12">
+              <!-- footer_bs3:Revista ADEGA -->
+
+    <div class="aba aba_inactive">
+        <a href="http://www.revistatenis.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://revistatenis.uol.com.br/static/img/logo_tenis_novo_270.png" alt="Revista TÊNIS" style="width: 85%">
+        </a>
+    </div>
+
+    <div class="aba aba_inactive">
+        <a href="http://www.aeromagazine.com.br?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://aeromagazine.uol.com.br/static/img/logo_aero_270_black.png" alt="AERO Magazine" style="width: 75%">
+        </a>
+    </div>
+
+    <div class="aba aba_active">
+        <a href="http://www.revistaadega.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://revistaadega.uol.com.br/static/img/logo_adega_470_black.png" alt="Revista ADEGA" style="width: 85%">
+        </a>
+    </div>
+
+    <div class="aba aba_inactive">
+        <a href="http://www.melhorvinho.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://melhorvinho.uol.com.br/static/img/melhorvinho_logo_770.png" alt="Melhor Vinho" style="width: 90%">
+        </a>
+    </div>
+
+    <div class="aba aba_inactive">
+        <a href="https://www.clubeadega.com.br/?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://www.clubeadega.com.br/static/img/logo.png" alt="Clube Adega" style="width: 70%">
+        </a>
+    </div>
+
+    <div class="aba aba_inactive">
+        <a href="http://www.aeromagazine.net?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://www.aeromagazine.net/static/img/logo_aero_270_black.png" alt="AERO Magazine América Latina" style="width: 75%">
+        </a>
+    </div>
+
+    <div class="aba aba_inactive">
+        <a href="http://sabor.club?utm_source=Revista%20ADEGA&amp;utm_medium=site&amp;utm_content=abas_rodape" target="_blank">
+            <img src="http://sabor.club/static/logo-saborclub.png" alt="Sabor.Club" style="width: 80%">
+        </a>
+    </div>
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-10 col-sm-11">
+                <p>
+                <img src="/static/img/logo_inner_branco_100_64_op.png" alt="Inner Editora Ltda." style="text-align: left; margin:5px;">
+                  &copy; <a href="http://www.innereditora.com.br/"><b>Inner Editora Ltda.</b></a> 1997-2017 |
+                  <a href="http://www.linkedin.com/company/inner-editora" target="_blank">Linkedin</a> |
+                  <a href="https://www.facebook.com/pages/Inner-Editora/313165448707312" title="Facebook Inner Editora Ltda." target="_blank">Facebook</a> |
+                  <a href="/faleconosco/" target="">Fale Conosco</a> | Tel: (11) 3876-8200
+                  </p>
+            </div>
+          <div class="col-xs-2 col-sm-1">
+              
+<p style="font-size:10px; line-height:11px; padding-top:8px">
+<a href="http://www.amdb.com.br/" target="_blank" title="Cria&ccedil;&atilde;o do Site por AMDB">
+Cria&ccedil;&atilde;o<br>
+<img src="/static/img/amdb_logo_70.png" alt="AMDB" style="width:100%;height:auto;margin-top:4px;border:1px outset #f60;">
+</a>
+</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+  <!-- Tynt dh3caGopCr5iy4acwqm_6l -->
+
+  <script type="text/javascript">
+  if(document.location.protocol=='http:'){
+   var Tynt=Tynt||[];Tynt.push('dh3caGopCr5iy4acwqm_6l');
+   (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+  }
+  </script>
+
+</body>
+</html>
+
+|||
+http://bandnewsfm.band.uol.com.br/Colunista.aspx?COD=13
+|
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title id="pgTitle">Band News FM</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/site.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/miolo.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/jquery.checkbox.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js" language="javascript"></script>
+<script type="text/javascript" src="js/jquery.pngfix.js" language="javascript"></script>
+<script type="text/javascript" src="js/jquery.checkbox.js" language="javascript"></script>
+<script type="text/javascript" src="js/swfobject.js" language="javascript"></script>
+<script type="text/javascript" src="js/padrao.js" language="javascript"></script>
+
+<!--<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer-3.2.12.min.js"></script>
+<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer-plugin.js"></script>
+<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer.ipad-3.2.12.min.js"></script>-->
+
+<script language="javascript" type="text/javascript"  >
+    $(document).ready(function () {
+        $("#ainot3_rp").hide();
+        $("#ainot2_rp").hide();
+        $("#ainot1_rp").show();
+    });
+    function colunistas_abas(aba) {
+        $("#ainot3_rp").hide();
+        $("#ainot2_rp").hide();
+        $("#ainot1_rp").hide();
+
+        $(".col_ativo").removeClass("col_ativo");
+
+        $("#ainot" + aba).addClass("col_ativo");
+        $("#ainot" + aba + "_rp").show();
+        return false;
+    }
+</script>
+<meta http-equiv="Cache-Control" content="max-age=120">
+<script type='text/javascript'>
+     var gptadslots=[];
+     var googletag = googletag || {};
+     googletag.cmd = googletag.cmd || [];
+     (function(){ var gads = document.createElement('script');
+         gads.async = true; gads.type = 'text/javascript';
+         var useSSL = 'https:' == document.location.protocol;
+         gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+         var node = document.getElementsByTagName('script')[0];
+         node.parentNode.insertBefore(gads, node);
+     })();
+</script>
+<script type = 'text/javascript'>
+     googletag.cmd.push(function() {
+         gptadslots[1] = googletag.defineSlot('/6405/radios/bandnewsfm/colunistas', [[728,90]],'div-gpt-ad-6405-728x90').addService(googletag.pubads());
+         gptadslots[2] = googletag.defineSlot('/6405/radios/bandnewsfm/colunistas', [[300,250]],'div-gpt-ad-6405-300x250-1').addService(googletag.pubads());
+         googletag.pubads().enableSingleRequest();
+         googletag.pubads().enableAsyncRendering();
+         googletag.enableServices();
+     });
+</script>
+<script type = 'text/javascript'>
+
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var COD = getParameterByName('COD');
+
+if (COD == '280'){
+	
+		window.location.href='http://www.revolucaobandnewsfm.com.br/';
+}
+
+
+
+</script>
+
+<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-CCNR');</script>
+    <!-- End Google Tag Manager -->
+	
+	
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-CCNR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script type="text/javascript" src="http://jsuol.com/barra/parceiro-1024.js?refbusca=band&full=true"></script>
+<form name="Form1" method="post" action="Colunista.aspx?COD=13" id="Form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAzNzIxOTQxMg9kFgQCAQ8WAh4JaW5uZXJodG1sBQxCYW5kIE5ld3MgRk1kAgMPZBYOAgMPFgIeBFRleHQFIkJ1ZW1iYSEsIEJ1ZW1iYSEsIGNvbSBKb3PDqSBTaW3Do29kAgQPFgIeA3NyYwUoaHR0cDovL2ltYWdlbS5iYW5kLmNvbS5ici9DT0xfRlQxXzEzLmpwZ2QCBQ8PFgIfAQUzU2VnIGEgU2V4LCDDoHMgMGgxNywgM2gzNywgNmgzNCwgOGg0MiwgMTBoMjAsIDE3aDM3ZGQCBg8WAh8BBcoLSm9zw6kgU2ltw6NvIGUgUmljYXJkbyBCb2VjaGF0LCBhbyBsYWRvIGRlIENhcmxhIEJpZ2F0dG8gZSBFZHVhcmRvIEJhcsOjbywgY29tYW5kYW0gbyBxdWFkcm8gbWFpcyBkaXZlcnRpZG8sIGVzcGlyaXR1b3NvIGUgc2luY2VybyBkbyByw6FkaW8gYnJhc2lsZWlyby4gSW50ZWxpZ2VudGUsIGJlbSBpbmZvcm1hZG8gZSBiZW0gaHVtb3JhZG8sIG8gY29sdW5pc3RhIGRpdmlkZSBjb20gb3MgYXByZXNlbnRhZG9yZXMgLSBlIHByaW5jaXBhbG1lbnRlIGNvbSBvICBvdXZpbnRlIC0gYSBhbsOhbGlzZSBkb3MgcHJpbmNpcGFpcyBmYXRvcyBkbyBkaWEsIHF1ZSB2w6NvIGRlc2RlIHNpdHVhw6fDtWVzIGNvdGlkaWFuYXMgZG8gQnJhc2lsIGUgZG8gbXVuZG8gYXTDqSBjb21lbnTDoXJpb3Mgc29icmUgZm90b3MgZSBmYXRvcyB0cmF6aWRvcyBwZWxvcyBwcsOzcHJpb3Mgb3V2aW50ZXMuDQoNClVtIGRvcyBtYWlzIGlycmV2ZXJlbnRlcyBjcm9uaXN0YXMgZGEgaW1wcmVuc2EgYnJhc2lsZWlyYSwgSm9zw6kgU2ltw6NvIGluZ3Jlc3NvdSBuYSBGYWN1bGRhZGUgZGUgRGlyZWl0byBkbyBMYXJnbyBkZSBTw6NvIEZyYW5jaXNjbyBlbSAxOTY5LCBjdXJzbyBkbyBxdWFsIGRlc2lzdGl1IGxvZ28gZW0gc2VndWlkYS4gRW50cm91IG5hICdGb2xoYSBkZSBTLlBhdWxvJyBlbSAxOTg3LCBvbmRlIG1hbnTDqW0gdW1hIGNvbHVuYSBxdWUgZWxlIHByw7NwcmlvIGNoYW1hIGRlICd0ZWxlam9ybmFsIGh1bW9yw61zdGljbycuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCg0KPGRpdiBzdHlsZT0ibWFyZ2luLXRvcDogMTBweDsgbWFyZ2luLWJvdHRvbTogMTBweDsiPg0KPGlmcmFtZSBzY3JvbGxpbmc9Im5vIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3d0cmFuc3BhcmVuY3k9InRydWUiIHNyYz0iaHR0cDovL3BsYXRmb3JtLnR3aXR0ZXIuY29tL3dpZGdldHMvZm9sbG93X2J1dHRvbi4xMzQwMTc5NjU4Lmh0bWwjXz0xMzQwNjUzOTc4NjY4JmlkPXR3aXR0ZXItd2lkZ2V0LTAmbGFuZz1wdCZzY3JlZW5fbmFtZT1qb3NlX3NpbWFvJnNob3dfY291bnQ9ZmFsc2Umc2hvd19zY3JlZW5fbmFtZT10cnVlJnNpemU9bSIgY2xhc3M9InR3aXR0ZXItZm9sbG93LWJ1dHRvbiIgc3R5bGU9IndpZHRoOiAxMjVweDsgaGVpZ2h0OiAyMHB4OyIgdGl0bGU9IlR3aXR0ZXIgRm9sbG93IEJ1dHRvbiI+PC9pZnJhbWU+DQo8c2NyaXB0PiFmdW5jdGlvbihkLHMsaWQpe3ZhciBqcyxmanM9ZC5nZXRFbGVtZW50c0J5VGFnTmFtZShzKVswXTtpZighZC5nZXRFbGVtZW50QnlJZChpZCkpe2pzPWQuY3JlYXRlRWxlbWVudChzKTtqcy5pZD1pZDtqcy5zcmM9Ii8vcGxhdGZvcm0udHdpdHRlci5jb20vd2lkZ2V0cy5qcyI7ZmpzLnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKGpzLGZqcyk7fX0oZG9jdW1lbnQsInNjcmlwdCIsInR3aXR0ZXItd2pzIik7PC9zY3JpcHQ+DQo8L2Rpdj4NCg0KZAIHD2QWAmYPFgIeBGhyZWYFF21haWx0bzpzaW1hb0B1b2wuY29tLmJyZAIJDxYCHgtfIUl0ZW1Db3VudAIUFigCAQ9kFgJmDxUDEDI0LzAzLzIwMTcgMDk6NDdWSG9qZSBlbSBkaWEsIHBvZGVtb3MgbGV2YXIgMyB0aXBvcyBkZSBjYXJuZSBwYXJhIG8gY2h1cnJhc2NvOiBTdcOtbmEsIEJvdmluYSBlIFByb3BpbmE5aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzI0MDMubXAzZAICD2QWAmYPFQMQMjMvMDMvMjAxNyAxMDowM2RWZXJzw61jdWxvIGRhIELDrWJsaWE6ICJNdWl0byB0cmFiYWxoYXLDoXMsIG1hcyBuw6NvIHNlIGFwb3NlbnRhcsOhcyIuIFByZXNpZGVudGUgTWljaGVsIFRlbWVyIDIwOjE3OWh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNy8wMy9TSU1BT18yMzAzLm1wM2QCAw9kFgJmDxUDEDIyLzAzLzIwMTcgMDk6MjhfUHJlZGVzdGluYWRvcyEgQ29uaGXDp2EgbyBTdXBlcmludGVuZGVudGUgZG8gTWluaXN0w6lyaW8gZGEgQWdyaWN1bHR1cmE6IErDumxpbyBDw6lzYXIgQ2FybmVpcm85aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzIyMDMubXAzZAIED2QWAmYPFQMQMjEvMDMvMjAxNyAxMDowNWJQcmVkZXN0aW5hZG8gZGEgT3BlcmHDp8OjbyBDYXJuZSBGcmFjYTogSm9yZ2UgTHXDrXMgQmlmZSwgbyBHZXJlbnRlIGluZHVzdHJpYWwgZG8gRnJpZ29yw61maWNvIEJSRjlodHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTcvMDMvU0lNQU9fMjEwMy5tcDNkAgUPZBYCZg8VAxAyMC8wMy8yMDE3IDA5OjQwYUJyZWFraW5nIE5ld3MhIE5hIGNhcm5lIGRhIEZyaWJvaSB0aW5oYSBhdMOpIHBlbG8gZG8gVG9ueSBSYW1vcy4gRGV2ZXLDrWFtb3MgdG9kb3MgdmlyYXIgdmVnYW5vcz85aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzIwMDMubXAzZAIGD2QWAmYPFQMQMTcvMDMvMjAxNyAwODo1OGNCcmFzaWwsIG8gcGHDrXMgZGEgcGlhZGEgcHJvbnRhOiBNYXJpZG8gZGUgZW1wcmVzw6FyaWEgcXVlIHBlZGl1IHBhcmEgTW9ybyBsaW1wYXIgbyBCcmFzaWwgw6kgcHJlc285aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzE3MDMubXAzZAIHD2QWAmYPFQMQMTYvMDMvMjAxNyAxMDoyN0UiTGlzdGEgZGUgSmFub3Q6IEx1bGEgZSBEaWxtYSwgc8OjbyBmaWd1cmluaGFzIHJlcGV0aWRhcy4gSsOhIHRlbmhvISI5aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzE2MDMubXAzZAIID2QWAmYPFQMQMTUvMDMvMjAxNyAxMDowNzwiQSBMaXN0YSBkZSBKYW5vdCBuw6NvIMOpIHVtYSBsaXN0YSwgw6kgZXhjZXNzbyBkZSBiYWdhZ2VtISI6aHR0cDovL2JhbmRuZXdzZm0uYmFuZC5jb20uYnIvYXVkaW8vMjAxNy8wMy9TSU1BT18xNTAzLm1wM2QCCQ9kFgJmDxUDEDE0LzAzLzIwMTcgMTA6MzlRICJDdW5oYSBlIENhYnJhbCBwZWRlbSBzYcOtZGEgdGVtcG9yw6FyaWEgZGEgcHJpc8OjbyBwYXJhIHJldGlyYXIgRkdUUyBuYSBTdWnDp2EiOmh0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTcvMDMvU0lNQU9fMTQwMy5tcDNkAgoPZBYCZg8VAxAxMy8wMy8yMDE3IDEwOjA2YVRlbWlkYSBkaXZ1bGdhw6fDo28gZGEgIkxpc3RhIGRlIEphbm90IiB0ZXLDoSBlc3BldMOhY3VsbyBlbSBCcmFzw61saWEgY29tbyBvICJMYWdvIGRvcyBjw61uaWNvcyI6aHR0cDovL2JhbmRuZXdzZm0uYmFuZC5jb20uYnIvYXVkaW8vMjAxNy8wMy9TSU1BT18xMzAzLm1wM2QCCw9kFgJmDxUDEDEwLzAzLzIwMTcgMDk6NTlXU3VwZXJtZXJjYWRvcyBUZW1lcjogYmVsbywgcmVjYXRhZG8gZSBkbyBsYXIgImV1IG7Do28gc2VpIG8gcHJlw6dvLCBtYXMgYSBNYXJjZWxhIHNhYmUiOmh0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTcvMDMvU0lNQU9fMTAwMy5tcDNkAgwPZBYCZg8VAxAwOS8wMy8yMDE3IDEwOjE3RVByb251bmNpYW1lbnRvICJCZWxvIFJlY2F0YWRvIGUgZG8gTGFyIiBkZSBUZW1lciB0ZW0gbWF1IHJlcGVyY3Vzc8OjbzpodHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzA5MDMubXAzZAIND2QWAmYPFQMQMDgvMDMvMjAxNyAxMDowMTtDb21lbW9yYcOnw7VlcyBlc3BlY2lhaXMgcGFyYSBvIERpYSBJbnRlcm5hY2lvbmFsIGRhIE11bGhlcjpodHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzA4MDMubXAzZAIOD2QWAmYPFQMQMDcvMDMvMjAxNyAxMDo0OGJPIFByZXNpZGVudGUgZG8gUEdOIHRlbSB1bWEgbWVuc2FnZW0gcGFyYSBhIGV4LXByZXNpZGVudGEgRGlsbWE6IMKTUHJlc2lkZW50YSwgYSBDaGFwYSB0w6EgcXVlbnRhIjpodHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE3LzAzL1NJTUFPXzA3MDMubXAzZAIPD2QWAmYPFQMQMDYvMDMvMjAxNyAxMDoxNEBDaWVudGlzdGFzIGJyaXTDom5pY29zIGRlc2NvYnJlbSBhbGdvIGN1cmlvc28gYSByZXNwZWl0byBkZSBMdWxhOWh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNy8wMy9TSU1BT18wNjAzLm1wM2QCEA9kFgJmDxUDEDAzLzAzLzIwMTcgMDk6NDFmTyBjYXJuYXZhbCBuw6NvIGFjYWJvdSEgU8OjbyBQYXVsbyB0ZXLDoSA4MCBibG9jb3Mgbm8gcHLDs3hpbW8gZmluYWwgZGUgc2VtYW5hOyA1IGRpYXMgw6kgcGFyYSBhbWFkb3IhOWh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNy8wMy9TSU1BT18wMzAzLm1wM2QCEQ9kFgJmDxUDEDI0LzAyLzIwMTcgMTE6NDhdQnJlYWtpbmcgTmV3cyEgRXgtbWluaXN0cm8gSm9zw6kgU2VycmEgcGVkZSBkZW1pc3PDo28gcGFyYSBncmF2YXIgbm92YSB0ZW1wb3JhZGEgZG9zIFNpbXBzb25zOmh0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTcvMDEvU0lNQU9fMjQwMi5tcDNkAhIPZBYCZg8VAxAyMy8wMi8yMDE3IDExOjMzY1ZlcmVhZG9yIFN1ZWNvIHByb3DDtWUgcGF1c2EgZGUgdW1hIGhvcmEgZGlhcmlhbWVudGUgbm8gdHJhYmFsaG8gcGFyYSBxdWUgZnVuY2lvbsOhcmlvcyBmYcOnYW0gc2V4bzlodHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTcvMDIvU0lNQU9fMjMwMi5tcDNkAhMPZBYCZg8VAxAyMi8wMi8yMDE3IDA5OjExXVNhYmF0aW5hIG91IEhhcHB5IEhvdXI/IE8gUHJlc2lkZW50ZSBkbyBQR04gZGl6IG8gcXVlIGFjb250ZWNldSBvbnRlbSBjb20gQWxleGFuZHJlIGRlIE1vcmFlczlodHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTcvMDIvU0lNQU9fMjIwMi5tcDNkAhQPZBYCZg8VAxAyMS8wMi8yMDE3IDA5OjQzZ0JyZWFraW5nIE5ld3MhIEJvbHNvbmFybyBwZWRlIHF1ZSB0b2RvcyBvcyByZWzDs2dpb3Mgc2VqYW0gYXRyYXNhZG9zIGF0w6kgMTk2NCBhcMOzcyBob3LDoXJpbyBkZSB2ZXLDo285aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE3LzAyL1NJTUFPXzIxMDIubXAzZAIKD2QWAmYPFgIfBAIEFghmD2QWAmYPFQQCMDEGNzkwNDM2AzIyNUVBbG1pciBQYXp6aWFub3R0byBhcHJlc2VudGEgaW1wb3J0YW50ZSBvcGluacOjbyBzb2JyZSB0ZXJjZWlyaXphw6fDo29kAgEPZBYCZg8VBAIwMgY3OTA0MjEDMjI1REEgYXRlbsOnw6NvIGRhcyBjcmlhbsOnYXMgbmEgaG9yYSBkZSBlc2NvbGhlciBvIHF1ZSBjb2xvY2FyIG5vIHByYXRvZAICD2QWAmYPFQQCMDMGNzkwMzgxAzIyNWlGYXVzdG8gRGUgU2FuY3RpcyBjcml0aWNhIGEgYXByb3hpbWHDp8OjbyBlbnRyZSBqdcOtemVzIGUgcG9sw610aWNvcywgYWzDqW0gZGFzIGVzdHJhdMOpZ2lhcyBkYSBMYXZhIEphdG9kAgMPZBYCZg8VBAIwNAY3OTAzMzkDMjI1R0EgY2llbnRpc3RhIGJyYXNpbGVpcmEgRmVybmFuZGEgV2VybmVjayByZWNlYmUgbyBwcsOqbWlvIFJpc2luZyBUYWxlbnRzZGSVdtayjjikTdoOtCe1ZRmh5jn7Cw==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="23147C2D" />
+</div>
+  <div id="barra_band">
+    
+  <center>
+    <script language="JavaScript" src="http://www.band.uol.com.br/barra/grupo_parceiro_inteira.js"></script>
+  </center>
+  </div>
+  <div id="container">
+    
+
+<link rel="stylesheet" href="/css/home.css">
+<script type="text/javascript" src="http://www.band.uol.com.br/library/modernizr/modernizr-1.7.min.js"></script>
+
+<div id="site_body">
+
+	<div id="area_header">
+		<header class="largura_site">
+				
+			<h1><a href="/" class="eband_ir"><span>Band News FM</span></a></h1>
+
+			<div id="publicidade_superbanner">
+
+				<div id="div-gpt-ad-6405-oop">
+				<script type="text/javascript">
+					var is_adm = is_adm || "";
+					if(!is_adm){
+						 googletag.cmd.push(function() {
+						 	googletag.display('div-gpt-ad-6405-oop'); 
+						 });
+					}
+				</script>
+				</div>
+				<div id="div-gpt-ad-6405-728x90" >
+					   <script type="text/javascript">
+							  googletag.cmd.push(function() { googletag.display('div-gpt-ad-6405-728x90'); });
+					   </script>
+				</div>
+			
+			</div>
+								
+			<nav id="menu1">
+				<ul>
+					<li><a href="Institucional.aspx">Quem Somos</a> | </li>
+					<li><a href="equipe.aspx">Rede</a> | </li>
+					<li><a href="apresentadores.aspx">Apresentadores</a> | </li> 
+					<li><a href="apresentadores.aspx?tipo=esporte">Equipe Esportiva</a> | </li>
+					<li><a href="colunistas.aspx">Colunistas</a> </li>
+					<!--<li><a href="Blogs.aspx">Blogs</a> | </li>-->
+					<!--<li><a href="promocoes.aspx">Promoções</a></li>-->
+				</ul>
+			</nav>
+
+			<nav id="menu2">
+				<ul>
+					<li><a href="noticias.aspx?cod=99">Brasil</a></li>
+					<li><a href="noticias.aspx?cod=230">Economia</a></li>
+					<li><a href="noticias.aspx?cod=363">Política</a></li>
+					<li><a href="noticias.aspx?cod=231">Internacional</a></li>
+					<li><a href="noticias.aspx?cod=232">Esporte</a></li>
+					<li><a href="noticias.aspx?cod=233">Cultura</a></li>
+					<li><a href="faleconosco.aspx">Fale conosco</a></li>
+				</ul>
+			</nav>
+			
+
+		</header>
+        </div>
+
+	<div id="area_conteudo">
+
+
+    
+<div id="barra_radios">
+                <div class="largura_site" style="position: relative;">
+                    <ul>		    
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">São Paulo<br />
+                            <strong>96,9</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_rio', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Rio de Janeiro<br />
+                            <strong>94,9 - 90,3</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_poa', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Porto Alegre<br />
+                            <strong>99,3</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_bhz', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Belo Horizonte<br />
+                            <strong>89,5</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sal', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Salvador<br />
+                            <strong>99,1</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_bsb', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Brasília<br />
+                            <strong>90,5</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_cwb', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Curitiba<br />
+                            <strong>96,3</strong> <br/><span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <!--<li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Ribeirão Preto<br />
+                            <strong>96,7</strong> <br/><span>Ouça agora</span></a> </li>
+			<li class="separador">|</li>-->
+			<li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_for', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip" class="radios_tooltip">Fortaleza<br>
+                            <strong>101,7</strong> <br/><span>Ouça agora</span></a> </li>
+			<li class="separador">|</li>
+			 <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_jp', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip" class="radios_tooltip">João Pessoa<br>
+                            <strong>103,3</strong> <br/><span>Ouça agora</span></a> </li>
+			    <li class="separador">|</li>
+			<li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_vitoria', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip" class="radios_tooltip">Vitória<br>
+                            <strong>90,1</strong> <br/><span>Ouça agora</span></a> </li>
+
+                        
+                    </ul>
+		    <img src="/imagens/layout/ouca_seta.png" class="ouca_seta">
+                </div>
+            </div>
+
+        
+	    <div class="largura_site"><!-- essa DIV fecha dentro do rodape -->
+        
+    <div id="col_c_interna">
+      <h1>Colunista</h1>
+      <h2><a href="Default.aspx">home</a> > <a href="Colunistas.aspx">Colunistas</a></h2>
+      <div class="cl_caixa_grande">
+        <div class="cl_titulo">
+          <p class="titulo_colunista">Buemba!, Buemba!, com José Simão</p>
+        </div>
+        <div class="cl_conteudo">
+          <dl class="cl_apresentador">
+            <dt><img src="http://imagem.band.com.br/COL_FT1_13.jpg" id="imgCol" width="112" /></dt>
+            <dd>
+              <p><span id="lthorario">Seg a Sex, às 0h17, 3h37, 6h34, 8h42, 10h20, 17h37</span></p>
+              <p>José Simão e Ricardo Boechat, ao lado de Carla Bigatto e Eduardo Barão, comandam o quadro mais divertido, espirituoso e sincero do rádio brasileiro. Inteligente, bem informado e bem humorado, o colunista divide com os apresentadores - e principalmente com o  ouvinte - a análise dos principais fatos do dia, que vão desde situações cotidianas do Brasil e do mundo até comentários sobre fotos e fatos trazidos pelos próprios ouvintes.
+
+Um dos mais irreverentes cronistas da imprensa brasileira, José Simão ingressou na Faculdade de Direito do Largo de São Francisco em 1969, curso do qual desistiu logo em seguida. Entrou na 'Folha de S.Paulo' em 1987, onde mantém uma coluna que ele próprio chama de 'telejornal humorístico'.                                                                 
+
+<div style="margin-top: 10px; margin-bottom: 10px;">
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1340179658.html#_=1340653978668&id=twitter-widget-0&lang=pt&screen_name=jose_simao&show_count=false&show_screen_name=true&size=m" class="twitter-follow-button" style="width: 125px; height: 20px;" title="Twitter Follow Button"></iframe>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+</p>
+              <div id="dvColEmail" class="cl_informacao_contato_equipe"><a href="mailto:simao@uol.com.br" id="aMail">Mande um e-mail para a coluna</a></div>
+            </dd>
+          </dl>
+          <br clear="all" />
+        </div>
+      </div>
+      <div class="cl_caixa_grande" style="margin-top:0px;">
+        <div class="cl_conteudo cl_b_top">
+          <div class="cl_info_audio">
+            <center>
+              <dl>
+                <dt><img src="imagens/icone_ipod.jpg" />
+                  <p><a href="http://www.band.com.br/rss/colunista_13.xml" target="_blank">Receba áudios deste colunista
+                    em seu computador ou iPod.</a></p>
+                </dt>
+                <dd> <img src="imagens/icone_ipod_duvida.jpg" />
+                  <p><a href="podcast.aspx">Se precisa de mais orientação, clique aqui.</a></p>
+                </dd>
+              </dl>
+            </center>
+          </div>
+          <br clear="all" />
+        </div>
+      </div>
+         
+      <ul class="cl_lista_programas_downlaod">
+        <li>
+          <h2>24/03/2017 09:47</h2>
+          <h1>Hoje em dia, podemos levar 3 tipos de carne para o churrasco: Suína, Bovina e Propina</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_2403.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>23/03/2017 10:03</h2>
+          <h1>Versículo da Bíblia: "Muito trabalharás, mas não se aposentarás". Presidente Michel Temer 20:17</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_2303.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>22/03/2017 09:28</h2>
+          <h1>Predestinados! Conheça o Superintendente do Ministério da Agricultura: Júlio César Carneiro</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_2203.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>21/03/2017 10:05</h2>
+          <h1>Predestinado da Operação Carne Fraca: Jorge Luís Bife, o Gerente industrial do Frigorífico BRF</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_2103.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>20/03/2017 09:40</h2>
+          <h1>Breaking News! Na carne da Friboi tinha até pelo do Tony Ramos. Deveríamos todos virar veganos?</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_2003.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>17/03/2017 08:58</h2>
+          <h1>Brasil, o país da piada pronta: Marido de empresária que pediu para Moro limpar o Brasil é preso</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_1703.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>16/03/2017 10:27</h2>
+          <h1>"Lista de Janot: Lula e Dilma, são figurinhas repetidas. Já tenho!"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_1603.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>15/03/2017 10:07</h2>
+          <h1>"A Lista de Janot não é uma lista, é excesso de bagagem!"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_1503.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>14/03/2017 10:39</h2>
+          <h1> "Cunha e Cabral pedem saída temporária da prisão para retirar FGTS na Suiça"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_1403.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>13/03/2017 10:06</h2>
+          <h1>Temida divulgação da "Lista de Janot" terá espetáculo em Brasília como o "Lago dos cínicos"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_1303.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>10/03/2017 09:59</h2>
+          <h1>Supermercados Temer: belo, recatado e do lar "eu não sei o preço, mas a Marcela sabe"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_1003.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>09/03/2017 10:17</h2>
+          <h1>Pronunciamento "Belo Recatado e do Lar" de Temer tem mau repercussão</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_0903.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>08/03/2017 10:01</h2>
+          <h1>Comemorações especiais para o Dia Internacional da Mulher</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_0803.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>07/03/2017 10:48</h2>
+          <h1>O Presidente do PGN tem uma mensagem para a ex-presidenta Dilma: Presidenta, a Chapa tá quenta"</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/03/SIMAO_0703.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>06/03/2017 10:14</h2>
+          <h1>Cientistas britânicos descobrem algo curioso a respeito de Lula</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_0603.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>03/03/2017 09:41</h2>
+          <h1>O carnaval não acabou! São Paulo terá 80 blocos no próximo final de semana; 5 dias é para amador!</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/03/SIMAO_0303.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>24/02/2017 11:48</h2>
+          <h1>Breaking News! Ex-ministro José Serra pede demissão para gravar nova temporada dos Simpsons</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://bandnewsfm.band.com.br/audio/2017/01/SIMAO_2402.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>23/02/2017 11:33</h2>
+          <h1>Vereador Sueco propõe pausa de uma hora diariamente no trabalho para que funcionários façam sexo</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/02/SIMAO_2302.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>22/02/2017 09:11</h2>
+          <h1>Sabatina ou Happy Hour? O Presidente do PGN diz o que aconteceu ontem com Alexandre de Moraes</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/02/SIMAO_2202.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          
+        <li>
+          <h2>21/02/2017 09:43</h2>
+          <h1>Breaking News! Bolsonaro pede que todos os relógios sejam atrasados até 1964 após horário de verão</h1>
+			<Br/>
+			
+			<div style="height:50px;margin-top:10px">
+			<script>
+				var largura = '800';
+				var altura = '80';
+				var audio = 'http://www.bandnewsfm.com.br/audio/2017/02/SIMAO_2102.mp3';
+		   </script>
+
+          <script src="http://player.band.com.br/audio/js/audio.js"></script>
+			</div>
+			
+
+	        
+		  </li>
+          </ul>
+	  
+	  
+      
+      
+    </div>
+    <div id="col_d_interna">
+      
+
+<div class="botao_ouca">
+	<a href="#"><img src="/imagens/layout/botao_ouca.png"></a>
+</div>
+<script type="text/javascript" src="http://bandnewsfm.band.com.br/js/scripts.js"></script>
+
+<div class="cl_caixa_d_interna">
+  <div class="cl_titulo">
+    <p id="ainot" class="cl_ativo"><a href="javascript:;" onclick="carregar_noticia();">Últimas</a></p>
+    <p id="aifal"><a href="faleconosco.aspx" >Fale Conosco</a></p>
+  </div>
+  <div class="cl_conteudo">
+    <div id="ax_bloco" style="display: none;">
+      <table width="270" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="186" align="center" valign="middle"><img src="imagens/ajax-loader.gif" width="24" height="24" alt="carregando..." /></td>
+        </tr>
+      </table>
+    </div>
+    <div id="conteudo_bloco">
+      
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">01</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=790436&Tipo=225">Almir Pazzianotto apresenta importante opinião sobre terceirização</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">02</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=790421&Tipo=225">A atenção das crianças na hora de escolher o que colocar no prato</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">03</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=790381&Tipo=225">Fausto De Sanctis critica a aproximação entre juízes e políticos, além das estratégias da Lava Jato</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">04</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=790339&Tipo=225">A cientista brasileira Fernanda Werneck recebe o prêmio Rising Talents</a></p>
+            </dd>
+          </dl>
+        
+    </div>
+    <br clear="all" />
+  </div>
+</div>
+
+<div id="banner"><center>
+               
+                                <div id="publicidade_arroba"><div id="div-gpt-ad-6405-300x250-1" >
+       <script type="text/javascript">
+              googletag.cmd.push(function() { googletag.display('div-gpt-ad-6405-300x250-1'); });
+       </script>
+</div>
+</div>
+</center></div>
+      
+    </div>
+    <br clear="all" />
+  </div>
+  
+ </div> <!-- fechando a DIV largura_site -->
+<div id="rodape">
+  <div id="conteudo"> <img src="imagens/topo_conteudo_rodape.jpg" width="939" height="18" />
+    <ul class="cl_menu_r_p">
+	<li><a href="Institucional.aspx">Quem Somos</a></li>
+	<li><a href="equipe.aspx">Rede</a></li>
+	<li><a href="apresentadores.aspx">Âncoras</a></li> 
+	<li><a href="apresentadores.aspx?tipo=esporte">Equipe Esportiva</a></li>
+	<li><a href="colunistas.aspx">Colunistas</a></li>
+	<li><a href="FaleConosco.aspx">Fale com a BandNews FM</a></li>
+    </ul>
+    <ul class="cl_menu_r_s">
+      <li><a href="Noticias.aspx?COD=363">Política</a></li>
+      <li><a href="Noticias.aspx?COD=230">Economia</a></li>
+      <li><a href="Noticias.aspx?COD=99">Brasil</a></li>
+      <li><a href="Noticias.aspx?COD=231">Internacional</a></li>
+      <li><a href="Noticias.aspx?COD=232">Esporte</a></li>
+      <li><a href="Noticias.aspx?COD=233">Cultura</a></li>
+    </ul>
+    <p class="cl_direitos">All rights reserved.</p>
+    <p class="redes">
+    <a href="http://twitter.com/radiobandnewsfm" target="_blank" title="Twitter" class="facebook">Twitter</a>
+    <a href="http://www.facebook.com/pages/R%C3%A1dio-BandNews-FM/245513265559924" target="_blank" title="Facebook" class="twitter">Facebook</a>
+    </p>
+    <p class="cl_menu_d"><a href="/comercial/TabelaBandNewsFM2017_2.pdf" target="_blank" >Como Anunciar</a></p>
+	
+
+    
+  </div>
+</div>
+</div></div>
+<div id="sombra"></div>
+<map name="sp" id="sp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-80,0,-80,86,220,85,220,19,197,20,197,1" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao')" />
+</map>
+<map name="camp" id="camp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-81,2,-81,88,219,87,219,21,196,22,196,3" href="javascript:;" onclick="alert('Em breve!')" />
+</map>
+<map name="rj" id="rj">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,1,-77,87,223,86,223,20,200,21,200,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_rio')" />
+</map>
+<map name="rs" id="rs">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-78,2,-78,88,222,87,222,21,199,22,199,3" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_poa')" />
+</map>
+<map name="bh" id="bh">
+  <area shape="poly" coords="-78,1,-78,87,222,86,222,20,199,21,199,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_bhz')" />
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+</map>
+<map name="ba" id="ba">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,0,-77,86,223,85,223,19,200,20,200,1" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_sal')" />
+</map>
+<map name="df" id="df">
+  <area shape="poly" coords="-77,1,-77,87,223,86,223,20,200,21,200,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_bsb')" />
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+</map>
+<map name="pr" id="pr">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,-1,-77,85,223,84,223,18,200,19,200,0" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_cwb')" />
+</map>
+<map name="sprp" id="sprp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,-1,-77,85,223,84,223,18,200,19,200,0" href="javascript:;" onclick="alert('Em breve!')" />
+</map>
+
+<script type="text/javascript">
+  var is_adm = "";	
+  if(!is_adm){		
+	    var _sf_async_config = _sf_a

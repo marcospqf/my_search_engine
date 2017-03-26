@@ -1,0 +1,863 @@
+|||
+https://twitter.com/share
+|
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+      class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <meta name="twitter:widgets:csp" content="on">
+    <title>Post a Tweet on Twitter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://abs.twimg.com/a/1490316554/css/tfw/intents_rosetta.bundle.css">
+
+    <style type="text/css">
+      html { display:none; }
+    </style>
+    <noscript>
+      <style type="text/css">
+        html { display: block; }
+      </style>
+    </noscript>
+  </head>
+  
+  
+  <body class=" tfw en logged-out ltr nofooter  noloki">
+
+    <div id="header" role="banner">
+      <div class="bar">
+        <h1 class="logo">
+          <a class="alternate-context" href="/home">Twitter</a>
+        </h1>
+
+        <div id="not-logged-in">
+          <a class="register alternate-context" href="https://twitter.com/signup?context=webintent">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="bd" role="main">
+      <h2 class="action-information">
+      What’s happening?
+</h2>
+
+<form
+  action="https://twitter.com/intent/sessions"
+  id="update-form"
+  method="post">
+  <div class="hd">
+      <input name="url" type="hidden" value="">
+
+      <input type="hidden" name="repost_after_login" value="/intent/tweet">
+    <input type="hidden" name="authenticity_token" value="b49f5fefa3dccd36d30e1d066ae18d96c5cd0bd6">
+
+    <label for="status" id="status-label">Tweet Text</label>
+  </div>
+
+
+  <div class="bd ">
+    <span class="field">
+      <textarea id="status" name="status" required autofocus
+        aria-required="true" aria-describedby="post-error char-count"
+        
+      ></textarea>
+    </span>
+  </div>
+
+  <div class="ft">
+     <fieldset class="sign-in">
+  <legend>Log in to Twitter</legend>
+  <div class="row user ">
+    <label for="username_or_email" tabindex="-1">
+      Phone, email or username
+    </label>
+    <input
+      type="text"
+      id="username_or_email"
+      name="session[username_or_email]"
+      required="required"
+      autocorrect="off"
+      autocapitalize="off"
+      aria-required="true"
+      class="text"
+      
+      
+    />
+  </div>
+  <div class="row password ">
+    <label for="password" tabindex="-1">Password</label>
+    <input
+      type="password"
+      class="password text"
+      id="password"
+      name="session[password]"
+      required="required"
+      aria-required="true"
+      value
+    >
+  </div>
+  <p>
+    <input type="checkbox" name="remember_me" id="remember" value="1">
+    <label for="remember">Remember me</label>
+    &middot;
+    <a
+      href="/account/begin_password_reset"
+      class="alternate-context"
+    >Forgot password?</a>
+  </p>
+</fieldset>
+
+    <fieldset class="submit">
+      <input
+        type="submit"
+        class="button selected submit"
+        
+        value="Log in and Tweet">
+    </fieldset>
+  </div>
+</form>
+
+    </div>
+
+        <div id="promo" >
+  <div class="inner">
+    <h2>
+      New to Twitter?
+      <a class="sign-up button alternate-context" href="https://twitter.com/signup?context=webintent" rel="noopener">Sign up</a>
+    </h2>
+    <p>
+      Get instant updates from your friends, industry experts, favorite celebrities, and what's happening around the world.
+    </p>
+    <p><a href="//support.twitter.com/groups/31-twitter-basics/topics/104-welcome-to-twitter-support/articles/215585-twitter-101-how-should-i-get-started-using-twitter" rel="noopener">What is Twitter? Learn more</a>.</p>
+  </div>
+</div>
+
+
+    <script type="text/javascript" charset="utf-8" nonce="DoF3cdgDYAinDfKld0N9kA==">
+      var twttr = twttr || {};
+      twttr.form_authenticity_token = 'b49f5fefa3dccd36d30e1d066ae18d96c5cd0bd6';
+      if (self == top) {
+        document.documentElement.style.display = 'block';
+      }
+    </script>
+
+    <script src="https://abs.twimg.com/a/1490316554/tfw/loadrunner.js" type="text/javascript" data-path="https://abs.twimg.com/a/1490316554/tfw" data-main="tfw/intents/main"></script>
+
+    <script type="text/javascript" charset="utf-8" nonce="DoF3cdgDYAinDfKld0N9kA==">
+
+  var twttr = twttr || {};
+  twttr.tco = {
+    length: 23
+  };
+
+  using('tfw/intents/tweetbox', 'imports/jquery', function(Tweetbox, $) {
+    $('#status').each(function() {
+      new Tweetbox(this, 0, 0);
+    });
+  });
+
+</script>
+
+    <script type="text/javascript" nonce="DoF3cdgDYAinDfKld0N9kA==">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  try {
+    var pageTracker = _gat._getTracker("UA-30775-6");
+    pageTracker._setDomainName("twitter.com");
+    
+    pageTracker._setVar('Not Logged In');
+    pageTracker._setVar('lang: en');
+    pageTracker._initData();
+    pageTracker._trackPageview();
+  } catch(err) { }
+</script>
+
+  </body>
+</html>
+
+|||
+https://t.co/JkKT9em6rx
+|
+<head><meta name="referrer" content="always"><noscript><META http-equiv="refresh" content="0;URL=http://NaoSalvo.com.br"></noscript><title>http://NaoSalvo.com.br</title></head><script>window.opener = null; location.replace("http:\/\/NaoSalvo.com.br")</script>
+|||
+http://bobagento.com/
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="google-site-verification" content="BGdL4UBj-ymZvingvFKOis_-aRACp30-Rp-YwRlOlEI" />
+<title>Bobagento - Besteira pouca é bobagem...</title>
+
+<link rel="stylesheet" href="http://bobagento.com/wp-content/themes/bobagento/style.css?v=0.6" type="text/css" media="screen" />
+
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://feeds.feedburner.com/bobagento" />
+<link rel="alternate" type="text/xml" title="RSS .92" href="http://feeds.feedburner.com/bobagento" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://feeds.feedburner.com/bobagento" />
+<link rel="pingback" href="http://bobagento.com/xmlrpc.php" />
+<link rel="shortcut icon" href="http://bobagento.com/wp-content/themes/bobagento/images/bobagento.ico" />
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Bobagento &raquo;" href="http://bobagento.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Bobagento &raquo;" href="http://bobagento.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/bobagento.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='colorbox-theme3-css'  href='http://bobagento.com/wp-content/plugins/jquery-colorbox/themes/theme3/colorbox.css?ver=4.6.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='fbc_rc_widgets-style-css'  href='http://bobagento.com/wp-content/plugins/facebook-comments-for-wordpress/css/facebook-comments-widgets.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://bobagento.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://bobagento.com/wp-content/plugins/wp-polls/polls-css.css?ver=2.73.2' type='text/css' media='all' />
+<style id='wp-polls-inline-css' type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://bobagento.com/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+<!-- This site uses the Google Analytics by MonsterInsights plugin v6.0.16 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+	__gaTracker('create', 'UA-1276146-1', 'auto');
+	__gaTracker('set', 'forceSSL', true);
+	__gaTracker('send','pageview');
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+<script type='text/javascript' src='http://bobagento.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://bobagento.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://bobagento.com/wp-content/plugins/prev-next-keyboard-navigation/pnkeynav.js?ver=4.7.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jQueryColorboxSettingsArray = {"jQueryColorboxVersion":"4.6.2","colorboxInline":"false","colorboxIframe":"false","colorboxGroupId":"","colorboxTitle":"","colorboxWidth":"false","colorboxHeight":"false","colorboxMaxWidth":"false","colorboxMaxHeight":"false","colorboxSlideshow":"false","colorboxSlideshowAuto":"false","colorboxScalePhotos":"false","colorboxPreloading":"false","colorboxOverlayClose":"true","colorboxLoop":"true","colorboxEscKey":"true","colorboxArrowKey":"true","colorboxScrolling":"true","colorboxOpacity":"0.85","colorboxTransition":"elastic","colorboxSpeed":"350","colorboxSlideshowSpeed":"2500","colorboxClose":"fechar","colorboxNext":"pr\u00f3xima","colorboxPrevious":"anterior","colorboxSlideshowStart":"iniciar apresenta\u00e7\u00e3o","colorboxSlideshowStop":"parar apresenta\u00e7\u00e3o","colorboxCurrent":"Imagem {current} de {total}","colorboxXhrError":"This content failed to load.","colorboxImgError":"This image failed to load.","colorboxImageMaxWidth":"false","colorboxImageMaxHeight":"false","colorboxImageHeight":"false","colorboxImageWidth":"false","colorboxLinkHeight":"false","colorboxLinkWidth":"false","colorboxInitialHeight":"100","colorboxInitialWidth":"300","autoColorboxJavaScript":"","autoHideFlash":"true","autoColorbox":"true","autoColorboxGalleries":"","addZoomOverlay":"","useGoogleJQuery":"","colorboxAddClassToLinks":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://bobagento.com/wp-content/plugins/jquery-colorbox/js/jquery.colorbox-min.js?ver=1.4.33'></script>
+<script type='text/javascript' src='http://bobagento.com/wp-content/plugins/jquery-colorbox/js/jquery-colorbox-wrapper-min.js?ver=4.6.2'></script>
+<link rel='https://api.w.org/' href='http://bobagento.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bobagento.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bobagento.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3" />
+
+				<!--/ Facebook Thumb Fixer Open Graph /-->
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="http://bobagento.com" />
+				<meta property="og:title" content="Bobagento" />
+				<meta property="og:description" content="Besteira pouca é bobagem..." />
+				<meta property="og:site_name" content="Bobagento" />
+				<meta property="og:image" content="" />
+
+				<meta itemscope itemtype="website" />
+				<meta itemprop="description" content="Besteira pouca é bobagem..." />
+				<meta itemprop="image" content="" />
+			
+
+
+<!-- platinum seo pack 1.3.8 -->
+<meta name="robots" content="index,follow,noodp,noydir" />
+<meta name="description" content="O Bobagento é um blog com doses generosas de humor sarcástico e irônico, nele você encontra vídeos engraçados, imagens inusitadas e notícias bizarras acompanhadas de comentários infames." />
+<meta name="keywords" content="site de humor,site engraçado,blog de humor,blog engraçado,tirinhas,memes,videos engraçados,fotos engraçadas,imagens engraçadas,bobagento,raphael mendes" />
+<link rel="canonical" href="http://bobagento.com/" />
+<!-- /platinum one seo pack -->
+
+<script type="text/javascript" src="http://bobagento.com/wp-content/themes/bobagento/js/bobagento.js"></script>
+<style type="text/css" media="screen">
+@font-face{font-family: 'RockoUltraFLFRegular';src: url('/wp-content/themes/bobagento/fonts/rockoultraflf-webfont.eot');src: url('/wp-content/themes/bobagento/fonts/rockoultraflf-webfont.eot?#iefix') format('embedded-opentype'),url('/wp-content/themes/bobagento/fonts/rockoultraflf-webfont.woff') format('woff'),url('/wp-content/themes/bobagento/fonts/rockoultraflf-webfont.ttf') format('truetype'),url('/wp-content/themes/bobagento/fonts/rockoultraflf-webfont.svg#RockoUltraFLFRegular') format('svg');font-weight: normal;font-style: normal;}
+</style>
+
+<link rel="stylesheet" href="http://bobagento.com/wp-content/themes/bobagento/nivo-slider.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://bobagento.com/wp-content/themes/bobagento/js/nivo-slider.js"></script>
+<script type="text/javascript" src="http://bobagento.com/wp-content/themes/bobagento/js/nivo.js"></script>
+
+<script type="text/javascript">
+var VOXUS_CHANNEL_ID=68;
+var MidContentMainParagraph = '.entry';
+</script> 
+<script type="text/javascript" src="http://voxus-static-voxusmidia.netdna-ssl.com/monetize.js"></script>
+<script async type="text/javascript" src="http://voxus-static-voxusmidia.netdna-ssl.com/midcontent_min.js"></script>
+
+</head>
+
+<body onbeforeunload="_gaq.push(['_trackEvent', 'UserAction', 'Out', 'Site']);" class="home blog">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=154875661277828";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="page">
+
+	<div id="header">
+					<h1 id="logo"><a href="http://bobagento.com/" title="Bobagento"><span></span></a></h1>
+				
+		<ul id="header-menu">
+			<li><a href="/" title="Home">Home</a></li>
+			
+			<li><a href="/politica-de-privacidade/" title="Política de Privacidade">Política de Privacidade</a></li>
+			<li><a href="/anuncie/" title="Anuncie">Anuncie</a></li>
+			<li><a href="/contato/" title="Contato">Contato</a></li>
+		</ul>
+		
+			</div>
+	
+	<div id="main">	<script src="http://connect.facebook.net/pt_BR/all.js#xfbml=1"></script>
+		
+	<div id="content" role="main">
+
+			
+				
+				<div class="post" id="post-81110">
+					<div class="tit">
+						<span class="data">22/03</span>						
+						<span class="dados">Por: <a href="http://bobagento.com/author/bobagento/" title="Posts de Raphael Mendes" rel="author">Raphael Mendes</a> em 
+															<a href="http://bobagento.com/categoria/plantao/" title="Plantão" >Plantão</a> 														<span class="coments"><a href="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/#facebook-comments" title="Comentar"><fb:comments-count href="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/"></fb:comments-count> Comentários</a></span>
+						</span>
+						<div style="height:30px; float:right; width:250px; padding-top:10px;">
+							<div style="float:left;"><div class="fb-like" data-href="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div></div>
+							<div style="float:left; margin-left:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/" data-text="Deputada cria projeto de lei que multa homens que se masturbarem" data-lang="pt">Tweetar</a></div>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div style="width:100%;float:left;clear:both;"></div>
+						<h2 style="width:100%;float:left;"><a href="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/" title="Deputada cria projeto de lei que multa homens que se masturbarem">Deputada cria projeto de lei que multa homens que se masturbarem</a></h2>						
+					</div>
+					<div class="entry">
+					
+					
+						<p class="resumo">Deputada apresenta projeto para multar a masturbação masculina por ser considerada um “ato contra uma criança que ainda não nasceu”. Verdadeira intenção por trás da proposta é protestar contra o aprofundamento das leis antiaborto, nos Estados Unidos</p>
+<div class="foto-conteudo-post centro completa">
+<div class="borda-foto" style="text-align: center;"><img class="alignnone size-full wp-image-81111 colorbox-81110" src="http://bobagento.com/wp-content/uploads/2017/03/Deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem.jpg" alt="" width="620" height="419" srcset="http://bobagento.com/wp-content/uploads/2017/03/Deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem.jpg 620w, http://bobagento.com/wp-content/uploads/2017/03/Deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem-300x203.jpg 300w" sizes="(max-width: 620px) 100vw, 620px" /></div>
+<div class="legenda-foto" style="text-align: center;">Para protestar contra legislação antiaborto que criminaliza e humilha a mulher, Jessica Farrar apresentou projeto de lei.</div>
+</div>
+<div></div>
+<p class="par_texto para_texto_1">Jessica Farrar, deputada do Texas, nos EUA, propôs recentemente uma lei que proíbe a masturbação masculina e estipula uma multa de US$ 100 para o homem que burlar a regra. As informações são da <a href="http://www.bbc.com/news/world-us-canada-39251655" target="_blank"><em>BBC</em></a> e do <a href="https://www.theguardian.com/us-news/2017/mar/13/texas-masturbation-bill-abortion-jessica-farrar" target="_blank"><em>The Guardian</em></a>.</p>
+<p class="par_texto">A deputada democrata argumenta que o objetivo do projeto é proteger as crianças que ainda irão ser geradas. Se um homem ejacula sozinho, por exemplo, pela masturbação, isso seria considerado um “ato contra uma criança que ainda não nasceu”.</p>
+<p class="par_texto"><strong>Pode parecer contraditório</strong>, mas Jessica é favorável à interrupção da gravidez por escolha da mulher e apresentou o projeto para protestar contra as duras leis antiaborto no Texas e nos EUA.</p>
+<p class="par_texto">Curiosidade: O que aconteceria se você ficasse sem se masturbar?</p>
+<p class="par_texto" style="text-align: center;"><iframe src="https://www.youtube.com/embed/-K15HYwIpE4" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p class="par_texto">Via: <a href="http://www.pragmatismopolitico.com.br/">Pragmatismo Político</a>.</p>
+						<center><div class="fb-share-button" data-href="http://bobagento.com/deputada-cria-projeto-de-lei-que-multa-homens-que-se-masturbarem/" data-layout="box_count"></div>
+</center>
+&nbsp;
+
+
+					
+						
+						
+					</div>
+				</div>
+				
+				
+				<div class="post" id="post-81095">
+					<div class="tit">
+						<span class="data">17/03</span>						
+						<span class="dados">Por: <a href="http://bobagento.com/author/bobagento/" title="Posts de Raphael Mendes" rel="author">Raphael Mendes</a> em 
+															<a href="http://bobagento.com/categoria/destaques/" title="Destaques" >Destaques</a> 														<span class="coments"><a href="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/#facebook-comments" title="Comentar"><fb:comments-count href="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/"></fb:comments-count> Comentários</a></span>
+						</span>
+						<div style="height:30px; float:right; width:250px; padding-top:10px;">
+							<div style="float:left;"><div class="fb-like" data-href="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div></div>
+							<div style="float:left; margin-left:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/" data-text="Fiquei revoltado na internet olha só no que deu" data-lang="pt">Tweetar</a></div>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div style="width:100%;float:left;clear:both;"></div>
+						<h2 style="width:100%;float:left;"><a href="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/" title="Fiquei revoltado na internet olha só no que deu">Fiquei revoltado na internet olha só no que deu</a></h2>						
+					</div>
+					<div class="entry">
+					
+					
+						<p><img class="size-full wp-image-81096 aligncenter colorbox-81095" src="http://bobagento.com/wp-content/uploads/2017/03/memes.jpg" alt="" width="630" height="1748" srcset="http://bobagento.com/wp-content/uploads/2017/03/memes.jpg 630w, http://bobagento.com/wp-content/uploads/2017/03/memes-108x300.jpg 108w, http://bobagento.com/wp-content/uploads/2017/03/memes-541x1500.jpg 541w" sizes="(max-width: 630px) 100vw, 630px" /></p>
+<p style="text-align: center;">MALDITO DESPERDIÇANDO COMIDA HERRP DERRP</p>
+						<center><div class="fb-share-button" data-href="http://bobagento.com/fiquei-revoltado-na-internet-olha-so-no-que-deu/" data-layout="box_count"></div>
+</center>
+&nbsp;
+
+
+					
+						
+						
+					</div>
+				</div>
+				
+				
+				<div class="post" id="post-81090">
+					<div class="tit">
+						<span class="data">14/03</span>						
+						<span class="dados">Por: <a href="http://bobagento.com/author/bobagento/" title="Posts de Raphael Mendes" rel="author">Raphael Mendes</a> em 
+																													<span class="coments"><a href="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/#facebook-comments" title="Comentar"><fb:comments-count href="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/"></fb:comments-count> Comentários</a></span>
+						</span>
+						<div style="height:30px; float:right; width:250px; padding-top:10px;">
+							<div style="float:left;"><div class="fb-like" data-href="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div></div>
+							<div style="float:left; margin-left:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/" data-text="Fez video xingando a PM e depois deu de cara com o vizinho policial na escada do prédio" data-lang="pt">Tweetar</a></div>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div style="width:100%;float:left;clear:both;"></div>
+						<h2 style="width:100%;float:left;"><a href="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/" title="Fez video xingando a PM e depois deu de cara com o vizinho policial na escada do prédio">Fez video xingando a PM e depois deu de cara com o vizinho policial na escada do prédio</a></h2>						
+					</div>
+					<div class="entry">
+					
+					
+						<p>Cidadão revoltado com a greve na PM do ES resolveu desabafar num vídeo mas acabou se exaltando e ofendendo a corporação. Ele não contava com a aparição de um vizinho que por acaso é PM pra tirar satisfação:</p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/zbuQrAJNRME" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;">PERDÃO PELO VACILO!</p>
+						<center><div class="fb-share-button" data-href="http://bobagento.com/fez-video-xingando-a-pm-e-depois-deu-de-cara-com-o-vizinho-policial-na-escada-do-predio/" data-layout="box_count"></div>
+</center>
+&nbsp;
+
+
+					
+						
+						
+					</div>
+				</div>
+				
+				
+				<div class="post" id="post-81087">
+					<div class="tit">
+						<span class="data">10/03</span>						
+						<span class="dados">Por: <a href="http://bobagento.com/author/bobagento/" title="Posts de Raphael Mendes" rel="author">Raphael Mendes</a> em 
+																													<span class="coments"><a href="http://bobagento.com/a-vagina-falante/#facebook-comments" title="Comentar"><fb:comments-count href="http://bobagento.com/a-vagina-falante/"></fb:comments-count> Comentários</a></span>
+						</span>
+						<div style="height:30px; float:right; width:250px; padding-top:10px;">
+							<div style="float:left;"><div class="fb-like" data-href="http://bobagento.com/a-vagina-falante/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div></div>
+							<div style="float:left; margin-left:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bobagento.com/a-vagina-falante/" data-text="A vagina falante" data-lang="pt">Tweetar</a></div>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div style="width:100%;float:left;clear:both;"></div>
+						<h2 style="width:100%;float:left;"><a href="http://bobagento.com/a-vagina-falante/" title="A vagina falante">A vagina falante</a></h2>						
+					</div>
+					<div class="entry">
+					
+					
+						<p>Se você ja viu de tudo na internet, esse video vai acrescentar ainda mais o seu vasto conhecimento:</p>
+<p style="text-align: center;"><iframe src="http://embed.voxus.tv/player/view/?id=178523" width="676" height="380" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0" ></iframe></p>
+<p>De qual filme brasileiro veio essa obra de arte?</p>
+						<center><div class="fb-share-button" data-href="http://bobagento.com/a-vagina-falante/" data-layout="box_count"></div>
+</center>
+&nbsp;
+
+
+					
+						
+						
+					</div>
+				</div>
+				
+				
+				<div class="post" id="post-81083">
+					<div class="tit">
+						<span class="data">10/03</span>						
+						<span class="dados">Por: <a href="http://bobagento.com/author/bobagento/" title="Posts de Raphael Mendes" rel="author">Raphael Mendes</a> em 
+																													<span class="coments"><a href="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/#facebook-comments" title="Comentar"><fb:comments-count href="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/"></fb:comments-count> Comentários</a></span>
+						</span>
+						<div style="height:30px; float:right; width:250px; padding-top:10px;">
+							<div style="float:left;"><div class="fb-like" data-href="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false"></div></div>
+							<div style="float:left; margin-left:20px;"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/" data-text="Travesti da lacrada violenta em rapaz que arrancou sua peruca" data-lang="pt">Tweetar</a></div>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+						</div>
+						<div style="width:100%;float:left;clear:both;"></div>
+						<h2 style="width:100%;float:left;"><a href="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/" title="Travesti da lacrada violenta em rapaz que arrancou sua peruca">Travesti da lacrada violenta em rapaz que arrancou sua peruca</a></h2>						
+					</div>
+					<div class="entry">
+					
+					
+						<p>Já disseram por aqui que travesti não é bagunça, e a Halessia Rockefeller mostra isso dando um turn down for what no rapaz que arrancou sua peruca no carnaval:</p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/EYoNEyHagVA" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p style="text-align: center;">VRÁ QUERIDA!</p>
+						<center><div class="fb-share-button" data-href="http://bobagento.com/travesti-da-lacrada-violenta-em-rapaz-que-arrancou-sua-peruca/" data-layout="box_count"></div>
+</center>
+&nbsp;
+
+
+					
+						
+						
+					</div>
+				</div>
+				
+			
+
+			<div class="navigation"><ol class="wp-paginate font-inherit"><li><span class="title">Páginas:</span></li><li><span class='page current'>1</span></li><li><a href='http://bobagento.com/page/2/' title='2' class='page'>2</a></li><li><a href='http://bobagento.com/page/3/' title='3' class='page'>3</a></li><li><a href='http://bobagento.com/page/4/' title='4' class='page'>4</a></li><li><a href='http://bobagento.com/page/5/' title='5' class='page'>5</a></li><li><a href='http://bobagento.com/page/6/' title='6' class='page'>6</a></li><li><a href='http://bobagento.com/page/7/' title='7' class='page'>7</a></li><li><span class='gap'>...</span></li><li><a href='http://bobagento.com/page/1362/' title='1362' class='page'>1362</a></li><li><a href="http://bobagento.com/page/2/" class="next">&raquo;</a></li></ol></div>	
+		
+	</div>
+
+	<div id="sidebar" role="complementary">
+	<form role="search" method="get" id="searchform" class="searchform" action="http://bobagento.com/">
+				<div>
+					<label class="screen-reader-text" for="s">Pesquisar por:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Pesquisar" />
+				</div>
+			</form>	
+		
+	<ul>
+		<li id="weblizar_facebook_likebox-2" class="widget widget_weblizar_facebook_likebox"><h2 class="widgettitle">Curta:</h2>		<style>
+		@media (max-width:767px) {
+			.fb_iframe_widget {
+				width: 100%;
+			}
+			.fb_iframe_widget span {
+				width: 100% !important;
+			}
+			.fb_iframe_widget iframe {
+				width: 100% !important;
+			}
+			._8r {
+				margin-right: 5px;
+				margin-top: -4px !important;
+			}
+		}
+		</style>
+        <div style="display:block;width:100%;float:left;overflow:hidden;margin-bottom:20px">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-like-box" style="background-color: auto;" data-small-header="true" data-height="560" data-href="https://www.facebook.com/Bobagento2" data-show-border="true" data-show-faces="true" data-stream="false" data-width="300" data-force-wall="false"></div>
+			<div style="display:none;">Facebook By Weblizar Powered By Weblizar</div>
+		</div>
+        </li><li id="text-29" class="widget widget_text">			<div class="textwidget"><iframe src="https://www.youtube.com/embed/videoseries?list=UUp0zoVgluSQi2LgtIDtvUEA" width="300" height="170" frameborder="0" allowfullscreen="allowfullscreen" data-keep-youtube="1"></iframe>
+
+
+<iframe frameborder="0" id="fr" scrolling="no" src="http://www.youtube.com/subscribe_widget?p=p0zoVgluSQi2LgtIDtvUEA" style="border: 0px; height: 104px; background:#FFF; overflow-x: hidden; overflow-y: hidden; width: 300px;"></iframe>
+
+</div>
+		</li><li id="text-7" class="widget widget_text"><h2 class="widgettitle">Twitter</h2>			<div class="textwidget"><a href="https://twitter.com/bobagento" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://twitter.com/bobagento', 'Tweets de @bobagento');" class="twitter-timeline"  data-widget-id="451552267045335040">Tweets de @bobagento</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+		</li><li id="text-6" class="widget widget_text"><h2 class="widgettitle">Brodagem</h2>			<div class="textwidget"><ul id="parceiros">
+
+<li class="first">
+<a href="http://www.naointendo.com.br/" title="Ñintendo" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/n-intendo.jpg') no-repeat;" title="Ñintendo"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.naosalvo.com.br/" title="Não Salvo" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/nao-salvo.jpg') no-repeat;" title="Não Salvo"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.ahnegao.com.br/" title="Ah Negão" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-ahnegao.jpg') no-repeat;" title="Ah Negão"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.lindasmensagens.com.br/frases/amor" target="_blank"><img class="alignnone wp-image-81005 size-full" title="frases de amor" src="http://bobagento.com/wp-content/uploads/2016/12/Frases-de-Amor.jpg" alt="Frases de Amor" width="40" height="40" /></a></li>
+
+
+<li>
+<a href="http://www.testosterona.blog.br/" title="Testosterona" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2012/10/banner-testosterona2.jpg') no-repeat;" title="Ah Negão"></span>
+</a>
+</li>
+
+<li>
+<a href="http://capinaremos.com/" title="Capinaremos" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2012/10/banner-capinaremos.jpg') no-repeat;" title="Ah Negão"></span>
+</a>
+</li>
+
+<li>
+<a href="http://colunistas.ig.com.br/obutecodanet/" title="Buteco da Net" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/buteco-da-net.jpg') no-repeat;" title="Buteco da Net"></span>
+</a>
+</li>
+
+
+<li class="first">
+<a href="http://www.lulz.com.br/" title="LULZ" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2012/10/banner-lulz.jpg') no-repeat;" title="Não Mesmo"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.osprofanos.com/" title="Os Profanos" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2012/10/banner-profanos.jpg') no-repeat;" title="Bogassado"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://blog.bytequeeugosto.com.br/" title="Byte que eu gosto!" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/bqeg.jpg') no-repeat;" title="Byte que eu gosto!"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.cocagelada.net/" title="Coca Gelada" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/coca-gelada.jpg') no-repeat;" title="Coca Gelada"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.cortocabeloepinto.com/" title="Corto Cabelo e Pinto" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/corto-pinto.jpg') no-repeat;" title="Corto Cabelo e Pinto"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.desaforo.com/" title="Desaforo" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/desaforo.jpg') no-repeat;" title="Desaforo"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://www.amigosdoforum.com.br/" title="Luide" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-amigosdoforum.jpg') no-repeat;" title="Luide"></span>
+</a>
+</li>
+
+
+<li class="first">
+<a href="http://www.oversodoinverso.com/" title="O Verso do Inverso" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-overso.jpg') no-repeat;" title="O Verso do Inverso"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://www.ahnao.com.br/" title="Ah Não!" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-ahnao.jpg') no-repeat;" title="Ah Não!"></span>
+</a>
+</li>
+
+<li>
+
+<a href="http://medob.blogspot.com.br/" target="_blank"><img class="alignnone size-full wp-image-56383" alt="Medo B" src="http://bobagento.com/wp-content/uploads/2014/10/banner-medob.jpg" width="40" height="40" /></a>
+</li>
+
+<li>
+<a href="http://www.failwars.com.br/" title="Fail Wars" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-failwars.jpg') no-repeat;" title="Fail Wars"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.leninja.com.br/" title="Le Ninja" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-leninja.jpg') no-repeat;" title="Le Ninja"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://www.trollando.com/" title="Trollando Blog" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-trollando.jpg') no-repeat;" title="Trollando Blog"></span>
+</a>
+</li>
+
+<li>
+<a href="http://bebidaliberada.com.br/" title="Bebida Liberada" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-bebida.jpg') no-repeat;" title="Bebida Liberada"></span>
+</a>
+</li>
+
+
+
+
+<li class="first">
+<a href="http://www.omachoalpha.com.br/" title="O Macho Alpha" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-MACHO.jpg') no-repeat;" title="O Macho Alpha"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://www.fotos.ntr.br/" title="Fotos" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-fotos.jpg') no-repeat;" title="Fotos"></span>
+</a>
+</li>
+
+
+
+
+<li>
+
+<a href="http://cotovelodeformiga.com.br/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://cotovelodeformiga.com.br/', '');" title="Cotovelo de Formiga"  target="_blank"><img class="alignnone size-full wp-image-56381" alt="cotovelo" src="http://bobagento.com/wp-content/uploads/2014/10/banner-cotovelo.jpg" width="40" height="40" /></a>
+</li>
+
+
+
+<li>
+<a href="http://www.bogassado.com.br/" title="Bogassado" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2011/05/bogassado.jpg') no-repeat;" title="Bogassado"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.jesusmanero.blog.br" title="Jesus Manero" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-jesus.jpg') no-repeat;" title="Jesus Manero"></span>
+</a>
+</li>
+
+<li>
+<a href="http://www.tirandosarro.com.br" title="Tirando Sarro" target="_blank">
+<span style="background:url('http://bobagento.com/wp-content/uploads/2014/10/banner-tirandosarro.jpg') no-repeat;" title="Tirandio Sarro"></span>
+</a>
+</li>
+
+
+<li>
+<a href="http://sedentario.org" target="_blank"><img class="alignnone size-full wp-image-56377" title="Sedentário &amp; Hiperativo" alt="Sedentário &amp; Hiperativo" src="http://bobagento.com/wp-content/uploads/2014/10/banner-sedentario.jpg" width="40" height="40" /></a>
+</li>
+
+
+</ul>
+
+</div>
+		</li><li id="text-32" class="widget widget_text"><h2 class="widgettitle">18+</h2>			<div class="textwidget"><ul id="parceiros">
+
+<li class="first">
+
+<a href="http://videosexo.blog.br" target="_blank"><img class="alignnone" title="porno gratis" src="http://bobagento.com/wp-content/uploads/2016/12/Filmes-Porno.jpg" alt="porno gratis" width="40" height="40" /></a>
+</li>
+
+<li>
+<a href="http://xvideosx.com.br/" target="_blank"><img title="xvideo" src="http://bobagento.com/wp-content/uploads/2016/09/porno-2.jpg" alt="xvideo" /></a>
+</li>
+
+<li>
+<a href="http://megaporno.com.br/"><img title="mega porno" src="http://bobagento.com/wp-content/uploads/2016/09/50x50_megaporno.jpg" alt="mega porno" /></a>
+</li>
+
+
+<li>
+<a href="http://pornobuceta.com" target="_blank"><img class="alignnone wp-image-80991 size-full" title="Porno Buceta" src="http://bobagento.com/wp-content/uploads/2016/12/banner-pbuceta.jpg" alt="Porno Buceta" width="40" height="40" /></a>
+</li>
+
+
+<li>
+<a href="http://pornobrasileiro.blog.br" target="_blank"><img class="alignnone wp-image-80990 size-full" title="Videos Porno" src="http://bobagento.com/wp-content/uploads/2016/12/banner-pbrasileiro.jpg" alt="Videos Porno" width="40" height="40" /></a>
+</li>
+
+<li>
+<a href="http://filmespornos.blog.br" target="_blank"><img class="alignnone wp-image-80992 size-full" title="videos pornos" src="http://bobagento.com/wp-content/uploads/2016/12/banner-filmespornos.jpg" alt="videos pornos" width="40" height="40" /></a>
+</li>
+
+
+<li>
+<a href="http://xvideosporno.blog.br/" target="_blank"><img class="alignnone" title="Xvideosporno Brasil" src="http://bobagento.com/wp-content/uploads/2016/10/xvideosporno.jpg" alt="Xvideosporno Brasil" width="52" height="52" /></a>
+</li>
+
+
+
+
+
+<li class="first">
+<a href="http://www.pornobengala.com/" target="_blank"><img class="alignnone" title="Videos Porno Bengala" src="http://bobagento.com/wp-content/uploads/2016/10/pornobengala.jpg" alt="Videos Porno Bengala" width="50" height="50" /></a>
+</li>
+
+
+<li>
+<a href="http://videosdesexoxxx.blog.br/redtube/" target="_blank"><img class="alignnone size-full wp-image-56378" title="redtube" alt="RedTube" src="http://bobagento.com/wp-content/uploads/2016/09/redtube.jpg" width="40" height="40" /></a>
+</li>
+
+
+<li>
+<a href="http://xvideos5.com.br/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://xvideos5.com.br/', '');" title="xvideos"  target="_blank"><img class="alignnone size-full wp-image-56379" alt="xvideos" src="http://bobagento.com/wp-content/uploads/2016/09/xvideos.jpg" width="40" height="40" /></a>
+
+</li>
+
+<li>
+<a href="http://videosdesexoxxx.blog.br/filme-porno/" onclick="__gaTracker('send', 'event', 'outbound-widget', 'http://videosdesexoxxx.blog.br/filme-porno/', '');" title="filme porno"  target="_blank"><img class="alignnone size-full wp-image-56379" alt="filme porno" src="http://bobagento.com/wp-content/uploads/2017/01/filmes-porno.jpg" width="40" height="40" /></a>
+
+</li>
+
+<li>
+<a href="https://www.flagrasamadores.net" onclick="__gaTracker('send', 'event', 'outbound-widget', 'https://www.flagrasamadores.net', '');" title="porno amador"  target="_blank"><img class="alignnone size-full wp-image-56379" alt="porno amador" src="http://bobagento.com/wp-content/uploads/2016/11/flagras-sexo.png" width="40" height="40" /></a>
+
+</li>
+
+<li>
+<a href="http://www.pornomineiro.com/" target="_blank"><img title="porno mineiro" src="http://bobagento.com/wp-content/uploads/2016/09/50x50_pm.jpg" alt="porno mineiro" width="50" height="50" /></a>
+</li>
+
+
+<li><a href="http://www.pornonacionais.com" target="_blank"><img class="alignnone wp-image-81016 size-full" title="video porno" src="http://bobagento.com/wp-content/uploads/2017/01/logo.png" alt="video porno" width="40" height="40" /></a>
+
+</li>
+
+
+
+
+
+
+
+<li class="first">
+
+<a href="http://xvideos.blog.br" target="_blank"><img class="alignnone wp-image-81019 size-full" title="Xvideos Brasil" src="http://bobagento.com/wp-content/uploads/2017/01/Porno-Brasileiro.jpg" alt="Xvideos Brasil" /></a>
+
+</li>
+
+<li>
+
+<a href="http://xvideos10.blog.br" target="_blank"><img class="alignnone" title="Xvideos Porno" src="http://bobagento.com/wp-content/uploads/2017/01/xvideos.jpg" alt="Xvideos Porno" width="40" height="40" /></a>
+
+</li>
+
+<li>
+
+<a href="http://www.pornogratis.tv.br" target="_blank"><img class="alignnone wp-image-81067 size-full" title="Filmes de Sexo" src="http://bobagento.com/wp-content/uploads/2017/01/porno-gratis.jpg" alt="Filmes de Sexo" width="40" height="40" /></a>
+
+</li>
+
+<li>
+
+<a href="http://www.novinhagostosa10.com" target="_blank"><img class="alignnone wp-image-81069 size-full" title="novinhas" src="http://bobagento.com/wp-content/uploads/2017/01/novinhas.png" alt="novinhas" width="40" height="40" /></a>
+
+</li>
+
+<li>
+
+<a href="http://www.xvideoporno.tv" target="_blank"><img class="alignnone wp-image-81073 size-full" title="xvideos br" src="http://bobagento.com/wp-content/uploads/2017/03/xvideo.jpg" alt="xvideos br" width="40" height="40" /></a></li>
+</div>
+		</li><li id="text-31" class="widget widget_text"><h2 class="widgettitle">BobaRadio (em construção)</h2>			<div class="textwidget"><iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Abobagento%3Aplaylist%3A1b3peEBkPVHwayMvnJaJJc" width="300" height="380" frameborder="0" allowtransparency="true"></iframe></div>
+		</li>	</ul>
+</div>
+<script type="text/javascript">var isInIFrame = (window.location != window.top.location) ? true : false; if (isInIFrame) window.top.location = window.location;</script>	</div>
+	
+	<div id="footer" role="contentinfo">
+		<span class="bobagento">Afinal, besteira pouca é bobagem...</span>
+		<p>O conteúdo desse site é fictício, recheado de ironia e sarcasmo, estamos aqui de brincadeira.</p>
+		
+		<small>Copyleft 2017 - Quase nada reservado. LOL</small>
+		<ul>
+			<li><span>Siga o Bobagento</span></li>
+			<li class="tt"><a href="http://twitter.com/bobagento" title="Siga nosso Twitter!" target="_blank">Twitter</a></li>
+			<li class="fb"><a href="http://www.facebook.com/bobagento" title="Acompanhe nosso Facebook!" target="_blank">Facebook</a></li>
+			<li class="ok"><a href="http://www.orkut.com.br/Main#Community.aspx?cmm=27299730" title="Nossa comunidade no Orkut!" target="_blank">Orkut</a></li>
+			<li class="rs"><a href="http://feeds.feedburner.com/bobagento" title="Assine n

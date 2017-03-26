@@ -1,0 +1,257 @@
+|||
+http://mapadobrincar.folha.com.br/?cmpid=menulate
+|
+
+
+ 
+ 
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Folha.com - Mapa do Brincar</title>
+
+<!--HEAD-->
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://f.i.uol.com.br/favicon.ico">
+<link rel="stylesheet" type="text/css" href="/furniture/1/common/common.css" media="all">
+<link rel="stylesheet" type="text/css" href="/furniture/1/common/print.css" media="print">
+
+<script type="text/javascript" src="http://www1.folha.uol.com.br/folha/furniture/5/common/jquery.js"></script>
+<script type="text/javascript" src="http://www1.folha.uol.com.br/folha/furniture/5/common/jquery_mousewheel.js"></script>
+<script type="text/javascript" src="http://www1.folha.uol.com.br/folha/furniture/5/common/jquery_jscrollpane.js"></script>
+<script type="text/javascript" src="http://www1.folha.uol.com.br/folha/furniture/5/common/jquery_jcarousellite.js"></script>
+<script type="text/javascript" src="http://www1.folha.uol.com.br/folha/furniture/5/common/pjax.js"></script>
+
+<!--[if lt IE 10]>
+<script type="text/javascript" src="/furniture/1/common/pie.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="/furniture/1/common/common.js"></script>
+
+
+<!--/HEAD-->
+
+<script type="text/javascript">
+folha.information.page.channel = "Folhinha" ;
+folha.information.page.subchannel = "Mapa do brincar" ;
+
+// Tag Manager
+folha.tag_manager.create() ;
+</script>
+<script type="text/javascript" src="http://tm.uol.com.br/h/par/folha.js"></script>
+<!-- /Tag Manager -->
+
+</head>
+
+<body>
+
+<!--MAPA DO BRINCAR-->
+
+<script type="text/javascript" src="http://jsuol.com.br/barra/parceiro-async.js"></script>
+
+<!--BARRA FOLHA-->
+<script type="text/javascript"  src="http://static.folha.uol.com.br/navbar/1.0/folha_search.js"></script>
+<!--/BARRA FOLHA-->
+
+<div class="clear-fix"></div>
+
+<div id="mapadobrincar" class="background home">
+
+<!--HEADER-->
+<div id="header">
+
+<h1><a href="http://mapadobrincar.folha.com.br">Mapa do Brincar</a></h1>
+
+<div class="ads small">
+<span class="subtitle">PUBLICIDADE</span>
+<div id="ad-220x90-1">
+<!--<script type="text/javascript">folha.mapadobrincar.ads();</script>-->
+<div class="tm-ads" id="banner-220x90-1">
+<script type="text/javascript">TM.display() ;</script>
+</div>
+
+</div>
+</div>
+
+</div>
+<!--/HEADER-->
+
+	
+<!--SIDEBAR-->
+<div id="sidebar">
+
+<ul class="menu font main">
+<li class="first">
+<a href="/projeto/">projeto</a>
+</li>
+
+<li>
+<a href="/brincadeiras/">brincadeiras</a>
+
+<ul class="font sub games">
+<li class="first"><a href="/brincadeiras/amarelinha/">Amarelinha</a></li>
+<li class=""><a href="/brincadeiras/bola/">Bola</a></li>
+<li class=""><a href="/brincadeiras/bolinha-de-gude/">Bolinha de Gude</a></li>
+<li class=""><a href="/brincadeiras/cantadas/">Cantadas</a></li>
+<li class=""><a href="/brincadeiras/construir/">Construir</a></li>
+<li class=""><a href="/brincadeiras/corda/">Corda</a></li>
+<li class=""><a href="/brincadeiras/diversas/">Diversas</a></li>
+<li class=""><a href="/brincadeiras/elastico/">Elástico</a></li>
+<li class=""><a href="/brincadeiras/esconder/">Esconder</a></li>
+<li class=""><a href="/brincadeiras/formulas-de-escolha/">Fórmulas de escolha</a></li>
+<li class=""><a href="/brincadeiras/jogos-de-salao/">Jogos de salão</a></li>
+<li class=""><a href="/brincadeiras/palmas/">Palmas</a></li>
+<li class=""><a href="/brincadeiras/pegar/">Pegar</a></li>
+<li class=""><a href="/brincadeiras/piao/">Pião</a></li>
+<li class=""><a href="/brincadeiras/pipa/">Pipa</a></li>
+<li class="last"><a href="/brincadeiras/roda/">Roda</a></li>
+
+</ul>
+
+</li>
+
+<li>
+<a href="/galerias/audio.shtml">galerias</a>
+
+<ul class="font sub gallery">
+<li class="first"><a href="/galerias/audio.shtml">áudios</a></li>
+<li><a href="/galerias/fotos.shtml">fotos</a></li>
+<li><a href="/galerias/videos.shtml">vídeos</a></li>
+<li class="last"><a href="/galerias/desenhos.shtml">desenhos</a></li>
+</ul>
+
+</li>
+
+<li>
+<a href="/memorias/indice">memória</a>
+</li>
+
+<li>
+<a href="/mestres/">mestres</a>
+</li>
+
+<li>
+<a href="/glossario/">glossário</a>
+</li>
+
+<li>
+<a href="/biblioteca/">biblioteca</a>
+</li>
+
+<li>
+<a href="/contato.shtml">contato</a>
+</li>
+
+<li class="last">
+<a href="#">mais</a>
+<ul class="font sub most">
+<li class="first "><a href="/noticias/">notícias</a></li>
+<li class="last "><a href="/participantes/">participantes</a></li>
+</ul>
+</li>
+
+</ul>
+
+<div class="search">
+<form action="/brincadeiras/indice" method="get">
+<p>
+<input type="text" class="text font sub" name="q">
+<input type="image" class="image" src="http://f.i.uol.com.br/folha/mapadobrincar/btn_lupa-27x25.png" alt="Buscar" title="Buscar">
+</p>
+</form>
+</div>
+
+</div>
+<div class="sidebar_shadow"></div>
+<!--/SIDEBAR-->
+
+
+<script type="text/javascript">
+folha.information.page.type = "home" ;
+
+$(document).ready(function () {
+
+	// Gambita pra funcionar no chrome.
+	$('<div/>').bind('click', function () {
+		$.ajax({
+			url: 'http://www1.folha.uol.com.br/mundo/cabecalho.inc',
+			dataType: 'jsonp',
+			crossDomain: true,
+			success: function(data) {
+				console.log(data)
+			},
+			
+			error: function () { }
+		})
+	}).click().remove();
+});
+</script>
+	
+<!--CONTENT-->
+<div id="content">
+<div class="font sub object_wrapper">
+<!-- ELEMENTS -->
+<div class="object element tree1"></div>
+<div class="object element tree2"></div>
+<div class="object element tree3"></div>
+<div class="object element tree4"></div>
+<div class="object element tree5"></div>
+<div class="object element boat"></div>
+<div class="object element doll"></div>
+<div class="object element dog"></div>
+<div class="object element car"></div>
+<div class="object element small_horse"></div>
+<div class="object element horse"></div>
+<div class="object element cat"></div>
+<div class="object element bird"></div>
+<div class="object element cloud1"></div>
+<div class="object element cloud2"></div>
+<div class="object element cloud3"></div>
+<div class="object element shoes"></div>
+
+<!-- GAMES -->
+<a href="/brincadeiras/amarelinha/" class="object game amarelinha"><span class="ballon">Amarelinha</span></a>
+<a href="/brincadeiras/bola/" class="object game bola"><span class="ballon">Bola</span></a>
+<a href="/brincadeiras/bolinhadegude/" class="object game bolinhadegude"><span class="ballon two_lines">Bolinha de gude</span></a>
+<a href="/brincadeiras/cantadas/" class="object game cantadas"><span class="ballon">Cantadas</span></a>
+<a href="/brincadeiras/construir/" class="object game construir"><span class="ballon">Construir</span></a>
+<a href="/brincadeiras/corda/" class="object game corda"><span class="ballon">Corda</span></a>
+<a href="/brincadeiras/diversas/" class="object game diversas"><span class="ballon">Diversas</span></a>
+<a href="/brincadeiras/elastico/" class="object game elastico"><span class="ballon">Elástico</span></a>
+<a href="/brincadeiras/esconder/" class="object game esconder"><span class="ballon">Esconder</span></a>
+<a href="/brincadeiras/formulasdeescolha/" class="object game formulasdeescolha"><span class="ballon two_lines">Fórmulas de escolha</span></a>
+<a href="/brincadeiras/jogosdesalao/" class="object game jogosdesalao"><span class="ballon two_lines">Jogos de <br>salão</span></a>
+<a href="/brincadeiras/palmas/" class="object game palmas"><span class="ballon">Palmas</span></a>
+<a href="/brincadeiras/pegar/" class="object game pegar"><span class="ballon">Pegar</span></a>
+<a href="/brincadeiras/piao/" class="object game piao"><span class="ballon">Pião</span></a>
+<a href="/brincadeiras/pipa/" class="object game pipa"><span class="ballon">Pipa</span></a>
+<a href="/brincadeiras/roda/" class="object game roda"><span class="ballon">Roda</span></a>
+</div>
+
+</div>
+<!--/CONTENT-->
+
+<div class="lightbox">
+<div class="video">
+<script type="text/javascript"><!--
+document.write( player_home );
+//-->
+</script>
+</div>
+<div class="veil">&nbsp;</div>
+</div>
+
+<!--FOOTER-->
+<div id="footer">
+<a href="http://mais.uol.com.br/view/12346510" class="watch_video">Assista ao vídeo e saiba o que é o Mapa do Brincar</a>
+
+<div class=" font sub hints">
+<dl>
+<dt class="first"><a href="http://mapadobrinca

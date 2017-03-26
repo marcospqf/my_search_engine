@@ -1,0 +1,1361 @@
+|||
+http://twitter.com/share
+|
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+      class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <meta name="twitter:widgets:csp" content="on">
+    <title>Post a Tweet on Twitter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://abs.twimg.com/a/1490316554/css/tfw/intents_rosetta.bundle.css">
+
+    <style type="text/css">
+      html { display:none; }
+    </style>
+    <noscript>
+      <style type="text/css">
+        html { display: block; }
+      </style>
+    </noscript>
+  </head>
+  
+  
+  <body class=" tfw en logged-out ltr nofooter  noloki">
+
+    <div id="header" role="banner">
+      <div class="bar">
+        <h1 class="logo">
+          <a class="alternate-context" href="/home">Twitter</a>
+        </h1>
+
+        <div id="not-logged-in">
+          <a class="register alternate-context" href="https://twitter.com/signup?context=webintent">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="bd" role="main">
+      <h2 class="action-information">
+      What’s happening?
+</h2>
+
+<form
+  action="https://twitter.com/intent/sessions"
+  id="update-form"
+  method="post">
+  <div class="hd">
+      <input name="url" type="hidden" value="">
+
+      <input type="hidden" name="repost_after_login" value="/intent/tweet">
+    <input type="hidden" name="authenticity_token" value="cfbea07a7d202ccb729499bb91327952d2efefef">
+
+    <label for="status" id="status-label">Tweet Text</label>
+  </div>
+
+
+  <div class="bd ">
+    <span class="field">
+      <textarea id="status" name="status" required autofocus
+        aria-required="true" aria-describedby="post-error char-count"
+        
+      ></textarea>
+    </span>
+  </div>
+
+  <div class="ft">
+     <fieldset class="sign-in">
+  <legend>Log in to Twitter</legend>
+  <div class="row user ">
+    <label for="username_or_email" tabindex="-1">
+      Phone, email or username
+    </label>
+    <input
+      type="text"
+      id="username_or_email"
+      name="session[username_or_email]"
+      required="required"
+      autocorrect="off"
+      autocapitalize="off"
+      aria-required="true"
+      class="text"
+      
+      
+    />
+  </div>
+  <div class="row password ">
+    <label for="password" tabindex="-1">Password</label>
+    <input
+      type="password"
+      class="password text"
+      id="password"
+      name="session[password]"
+      required="required"
+      aria-required="true"
+      value
+    >
+  </div>
+  <p>
+    <input type="checkbox" name="remember_me" id="remember" value="1">
+    <label for="remember">Remember me</label>
+    &middot;
+    <a
+      href="/account/begin_password_reset"
+      class="alternate-context"
+    >Forgot password?</a>
+  </p>
+</fieldset>
+
+    <fieldset class="submit">
+      <input
+        type="submit"
+        class="button selected submit"
+        
+        value="Log in and Tweet">
+    </fieldset>
+  </div>
+</form>
+
+    </div>
+
+        <div id="promo" >
+  <div class="inner">
+    <h2>
+      New to Twitter?
+      <a class="sign-up button alternate-context" href="https://twitter.com/signup?context=webintent" rel="noopener">Sign up</a>
+    </h2>
+    <p>
+      Get instant updates from your friends, industry experts, favorite celebrities, and what's happening around the world.
+    </p>
+    <p><a href="//support.twitter.com/groups/31-twitter-basics/topics/104-welcome-to-twitter-support/articles/215585-twitter-101-how-should-i-get-started-using-twitter" rel="noopener">What is Twitter? Learn more</a>.</p>
+  </div>
+</div>
+
+
+    <script type="text/javascript" charset="utf-8" nonce="j31QCxW8dqjsZBsk46qLEg==">
+      var twttr = twttr || {};
+      twttr.form_authenticity_token = 'cfbea07a7d202ccb729499bb91327952d2efefef';
+      if (self == top) {
+        document.documentElement.style.display = 'block';
+      }
+    </script>
+
+    <script src="https://abs.twimg.com/a/1490316554/tfw/loadrunner.js" type="text/javascript" data-path="https://abs.twimg.com/a/1490316554/tfw" data-main="tfw/intents/main"></script>
+
+    <script type="text/javascript" charset="utf-8" nonce="j31QCxW8dqjsZBsk46qLEg==">
+
+  var twttr = twttr || {};
+  twttr.tco = {
+    length: 23
+  };
+
+  using('tfw/intents/tweetbox', 'imports/jquery', function(Tweetbox, $) {
+    $('#status').each(function() {
+      new Tweetbox(this, 0, 0);
+    });
+  });
+
+</script>
+
+    <script type="text/javascript" nonce="j31QCxW8dqjsZBsk46qLEg==">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  try {
+    var pageTracker = _gat._getTracker("UA-30775-6");
+    pageTracker._setDomainName("twitter.com");
+    
+    pageTracker._setVar('Not Logged In');
+    pageTracker._setVar('lang: en');
+    pageTracker._initData();
+    pageTracker._trackPageview();
+  } catch(err) { }
+</script>
+
+  </body>
+</html>
+
+|||
+http://graxinha.com.br/
+|
+<!DOCTYPE html>
+<html 	lang="pt-br"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:og="http://ogp.me/ns#"
+		xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+	<meta property="fb:app_id" content="533329546870258" />
+	<meta property="og:site_name" content="Graxinha | Uma overdose de fofura!" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Graxinha | Uma overdose de fofura!" />
+    <meta property="og:title" content="Graxinha | Uma overdose de fofura!" />
+    <meta property="og:url" content="http://graxinha.com.br" />
+    <meta property="og:image" content="http://graxinha.com.br/wp-content/themes/graxinha2016/assets/images/logo.png" />
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="WordPress 4.7.3" />
+	<meta name="Language" content="pt_BR">
+	<link rel="apple-touch-icon" sizes="57x57" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/favicon-16x16.png">
+<link rel="manifest" href="http://graxinha.com.br/wp-content/themes/graxinha2016/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#8787DD">
+<meta name="msapplication-TileImage" content="http://graxinha.com.br/wp-content/themes/graxinha2016/ms-icon-144x144.png">
+<meta name="theme-color" content="#8787DD">	
+<!-- This site is optimized with the Yoast SEO plugin v3.1.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Graxinha Sua overdose de fofura, Imagens, videos, gifs e tudo que tem de mais fofo nessa internet"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://graxinha.com.br" />
+<link rel="next" href="http://graxinha.com.br/page/2/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Graxinha - Uma Overdose de Fofura" />
+<meta property="og:description" content="Ooooonnnwwwwww" />
+<meta property="og:url" content="http://graxinha.com.br" />
+<meta property="og:site_name" content="Graxinha" />
+<meta property="og:image" content="http://graxinha.com.br/wp-content/uploads/2016/06/graxinha-logo.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Graxinha Sua overdose de fofura, Imagens, videos, gifs e tudo que tem de mais fofo nessa internet" />
+<meta name="twitter:title" content="Graxinha | Uma overdose de fofura!" />
+<meta name="twitter:site" content="@graxinhablog" />
+<meta name="twitter:image" content="http://graxinha.com.br/wp-content/uploads/2016/06/graxinha-logo.png" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/graxinha.com.br\/","name":"Graxinha","potentialAction":{"@type":"SearchAction","target":"http:\/\/graxinha.com.br\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/graxinha.com.br","sameAs":["https:\/\/www.facebook.com\/graxinhablog","https:\/\/twitter.com\/graxinhablog"],"name":"Graxinhas","logo":"http:\/\/graxinha.com.br\/wp-content\/uploads\/2016\/06\/graxinha-logo.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//graxinha.com.br' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://graxinha.com.br/wp-content/plugins/wp-to-twitter/css/twitter-feed.css' type='text/css' media='all' />
+<link rel='stylesheet' id='MostLikedPosts-css'  href='http://graxinha.com.br/wp-content/plugins/most-liked-posts/MostLikedPosts.css' type='text/css' media='all' />
+<link rel='stylesheet' id='econsulters-cache-plugin-styles-css'  href='http://graxinha.com.br/wp-content/plugins/econsulters-cache/public/assets/css/public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='Base-css'  href='http://graxinha.com.br/wp-content/themes/graxinha2016/style.css?ver=236695926' type='text/css' media='all' />
+<link rel='stylesheet' id='Css-css'  href='http://graxinha.com.br/wp-content/themes/graxinha2016/assets/css/style.css?ver=45218071' type='text/css' media='all' />
+<script type='text/javascript' src='http://graxinha.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://graxinha.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://graxinha.com.br/wp-content/plugins/econsulters-cache/public/assets/js/public.js?ver=1.0.0'></script>
+<!-- nsads CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.g-2 { min-width:0px; max-width:692px; float:left; clear:left; }
+	.b-2 { margin:0px 10px 0px 0px; }
+	.g-3 {  margin: 0 auto; }
+	.g-4 {  margin: 0 auto; }
+	.g-5 { min-width:0px; max-width:600px; margin: 0 auto; }
+	.b-5 { margin:0px 0px 10px 0px; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+</style>
+<!-- /nsads CSS -->
+
+	<title>Graxinha | Uma overdose de fofura!</title>
+	<script>
+		var facebookcount = 0;
+		var ncomments = 0;
+		var link = 'http://graxinha.com.br/wp-content/themes/graxinha2016';
+	</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-76274407-3']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript"> (function (tos) { window.setInterval(function () { tos = (function (t) { return t[0] == 50 ? (parseInt(t[1]) + 1) + ':00' : (t[1] || '0') + ':' + (parseInt(t[0]) + 10); })(tos.split(':').reverse()); window.pageTracker ? pageTracker._trackEvent('Time', 'Log', tos) : _gaq.push(['_trackEvent', 'Time', 'Log', tos]); }, 10000); })('00'); </script>
+</head>
+
+<script src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/16489416/GraxinhaHomeCabeçalho', [728, 90], 'div-gpt-ad-1481313195101-0').addService(googletag.pubads());
+		googletag.defineSlot('/16489416/GraxinhaSky', [300, 600], 'div-gpt-ad-1481314822661-0').addService(googletag.pubads());
+        googletag.defineSlot('/16489416/GraxinhaQuadradoHome1', [336, 280], 'div-gpt-ad-1481313195101-3').addService(googletag.pubads());
+    googletag.defineSlot('/16489416/GraxinhaQuadradoHome2', [336, 280], 'div-gpt-ad-1481313195101-4').addService(googletag.pubads());
+		    googletag.pubads().enableSingleRequest();
+    googletag.pubads().enableSyncRendering();
+    googletag.enableServices();
+  });
+</script>
+
+<body>
+
+<header class="body top">
+	<div class="wrapper">
+		<div class="logo">
+			<a href="http://graxinha.com.br"><img src="http://graxinha.com.br/wp-content/themes/graxinha2016/assets/images/logo.png"></a>
+		</div>
+		<nav>
+					<ul id="menu-menu-1" class="menu"><li id="menu-item-3364" class="bixinhos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3364"><a href="http://graxinha.com.br/c/bixinhos/">Bixinhos</a></li>
+<li id="menu-item-3366" class="baixinhos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3366"><a href="http://graxinha.com.br/c/baixinhos/">Baixinhos</a></li>
+<li id="menu-item-3368" class="gifs menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3368"><a href="http://graxinha.com.br/c/gifs/">Gifs</a></li>
+<li id="menu-item-3367" class="fotos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3367"><a href="http://graxinha.com.br/c/fotos/">Fotos</a></li>
+<li id="menu-item-3365" class="videos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3365"><a href="http://graxinha.com.br/c/videos/">Videos</a></li>
+</ul>				<a href="http://graxinha.com.br/contato" title="Entre Contato"><span id="contato"></span></a>
+		<a href="http://graxinha.com.br/sobre" title="Sobre"><span id="sobre"></span></a>
+		</nav>
+	</div>
+</header>
+<header class="body fixed">
+	<div class="wrapper">
+		<div class="logo">
+			<a href="http://graxinha.com.br"><img src="http://graxinha.com.br/wp-content/themes/graxinha2016/assets/images/logo.png"></a>
+		</div>
+		<nav>
+					<ul id="menu-menu-2" class="menu"><li class="bixinhos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3364"><a href="http://graxinha.com.br/c/bixinhos/">Bixinhos</a></li>
+<li class="baixinhos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3366"><a href="http://graxinha.com.br/c/baixinhos/">Baixinhos</a></li>
+<li class="gifs menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3368"><a href="http://graxinha.com.br/c/gifs/">Gifs</a></li>
+<li class="fotos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3367"><a href="http://graxinha.com.br/c/fotos/">Fotos</a></li>
+<li class="videos menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3365"><a href="http://graxinha.com.br/c/videos/">Videos</a></li>
+</ul>				<a href="http://graxinha.com.br/contato" title="Entre Contato"><span id="contato"></span></a>
+		<a href="http://graxinha.com.br/sobre" title="Sobre"><span id="sobre"></span></a>
+		</nav>
+	</div>
+
+</header>
+
+<section class="content">
+
+		<div class="wrapper">
+		<div class="header-lucro"><div class="g g-1"><div class="g-single a-5"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Graxinha Cabeçalho Home -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9603907080234737"
+     data-ad-slot="4210884009"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></div>
+				<div class="clear"></div>
+
+
+	<aside>
+	<div class="sidebar" id="text-2" ><h2>Facebook</h2>			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/graxinhablog/" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div></div>
+		</div><div class="sidebar" id="nsads_widgets-4" ><div class="g g-7"><div class="g-single a-14"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Graxinha Arranha-Ceu -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-9603907080234737"
+     data-ad-slot="7181941204"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></div></aside>
+		<div id="posts">
+		
+			  <article class="section-block" thetiltle="É isso que acontece quando um pai fica sozinho com o filho"  urlpost="http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/"  id='post_3678'>
+			    <header class="article">
+			      <h1><a href="http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/">É isso que acontece quando um pai fica sozinho com o filho</a></h1>
+			    </header>
+
+			    <div class="article-content">
+			      <p>Colocar pra dormir? Trocar fralda?</p>
+<p>Nada disso. Vamos é inventar moda!</p><div class="post-lucro"><div class="g g-2"><div class="g-col b-2 a-12"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Graxinha Quadrado 1 Single -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9603907080234737"
+     data-ad-slot="5907943201"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="g-col b-2 a-13"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Graxinha Quadrado 2 Single -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9603907080234737"
+     data-ad-slot="7384676404"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div></div><p>&nbsp;</p>
+<div class="video-container">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/3NFYDTsqOdk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+</p>			    </div>
+
+			    
+			    <footer class="social">
+						<div class="infos-counter">
+												<a class="comments" id="3678">Comentários</a>
+						</div>
+						<ul>
+			        <li><div class="fb-like" data-href="http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div></li>
+			        <li><a href="https://twitter.com/intent/tweet?text=É isso que acontece quando um pai fica sozinho com o filho&url=http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/&original_referer=graxinha&via=graxinhablog" class="twitter-share-button" data-lang="pt">Tweetar</a>
+			        <div class="bubblect"><span class="bubblectarrow"></span><div class="bubbletw">2</div></div></li>
+			        <li><div class="g-plusone" data-annotation="none" data-href="http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/"></div></li>
+			      </ul>
+			    </footer>
+			  </article>
+								<div class="facebook-comment-box" id="comments_3678">
+			    <div>
+			      <div class="fb-comments" data-href="http://graxinha.com.br/e-isso-que-acontece-quando-um-pai-fica-sozinho-com-o-filho/" data-numposts="5" data-width="100%" ></div>
+			    </div>
+			  </div>
+				<div class="clear"></div>
+				</div>
+
+	      <script type="text/javascript">postID = "3678"; carrega = 0; var prev_post = 3675 ;</script>
+			
+<div id="loading">
+<div class='uil-default-css' style='transform:scale(0.3);'><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(0deg) translate(0,-60px);transform:rotate(0deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(30deg) translate(0,-60px);transform:rotate(30deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(60deg) translate(0,-60px);transform:rotate(60deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(90deg) translate(0,-60px);transform:rotate(90deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(120deg) translate(0,-60px);transform:rotate(120deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(150deg) translate(0,-60px);transform:rotate(150deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(180deg) translate(0,-60px);transform:rotate(180deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(210deg) translate(0,-60px);transform:rotate(210deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(240deg) translate(0,-60px);transform:rotate(240deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(270deg) translate(0,-60px);transform:rotate(270deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(300deg) translate(0,-60px);transform:rotate(300deg) translate(0,-60px);border-radius:10px;position:absolute;'></div><div style='top:80px;left:93px;width:14px;height:40px;background:#8b8be4;-webkit-transform:rotate(330deg) translate(0,-60px);transform:rotate(330deg) translate(0,-60px);border-radius:10px;position:absolute;'></div></div>
+</div>
+
+		</div>
+</section>
+<div class="clear"></div>
+<div id="fb-root"></div>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'pt-BR'}
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var click_object = {"ajax_url":"http:\/\/graxinha.com.br\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://graxinha.com.br/wp-content/plugins/nsads/library/jquery.nsads.clicktracker.js?ver=0.7'></script>
+<script type='text/javascript' src='http://graxinha.com.br/wp-content/themes/graxinha2016/assets/js/jquery.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://graxinha.com.br/wp-content/themes/graxinha2016/assets/js/main.js?ver=673440113'></script>
+<!-- nsads JS -->
+<script type="text/javascript">
+</script>
+<!-- /nsads JS -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=533329546870258";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>
+
+|||
+http://cafedofeliz.com/
+|
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pt-BR">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 6) & !(IE 7) & !(IE 8)]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Café do Feliz</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="https://s0.wp.com/wp-content/themes/pub/twentyeleven/style.css" />
+<link rel="pingback" href="https://cafedofeliz.com/xmlrpc.php" />
+<!--[if lt IE 9]>
+<script src="https://s0.wp.com/wp-content/themes/pub/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+		<script src='https://r-login.wordpress.com/remote-login.php?action=js&amp;host=cafedofeliz.com&amp;id=39086425&amp;t=1490496585&amp;back=https%3A%2F%2Fcafedofeliz.com%2F' type="text/javascript"></script>
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		</script>
+		<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//cafedofeliz.wordpress.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Café do Feliz &raquo;" href="https://cafedofeliz.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Café do Feliz &raquo;" href="https://cafedofeliz.com/comments/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJyNkeFOwzAMhF+IYKZtaH8Qz5IEL/WWxFGcburb464wGLCIP+2ddV96buBcjOfcMDdIoylxDJQFzsVzMpIo4vTDPXqRB/gbi3REgQO2Yv3RXFwvTnlPmdp0Fb2w54o6T8W2OZHwjSxGTBrrYak8f1KzHLRYt9Oyq3OloojRZ6IxmTboh35zyxjK6KCddTBpoRNmkDZFNJejFoYgcyPF5Cp6JQKyiextI843xuyjpdpDK7rIQWUATX2z/7qIOwv1WOvnYs7WL9WLF5a2bAEy2Dr3/Hj3KGFPNupvCHxr7l3JsIEQ2dk4B17Ty2qz227Xu9X66fAOMpodFg==' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyF0G0KwjAMBuAL2dXJxP0Rz1Lr60hdP2zaDT29FSYiVIVAIHkISeQcBDk95hNYmhLXjHhbUmN4JX8BYWmIKqGx5F5Ye5fg0tNaf6QRIjOiGkqtDDr7iguekwVzQZXu50rkJsL8lxmkoPRFRDDdUTuEw3vn7x9Y1MHu267fbfp2263NA675cvs='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://cafedofeliz.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress.com" />
+<link rel='shortlink' href='http://wp.me/2E0ad' />
+
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Café do Feliz" />
+<meta property="og:url" content="https://cafedofeliz.com/" />
+<meta property="og:site_name" content="Café do Feliz" />
+<meta property="og:image" content="https://secure.gravatar.com/blavatar/cab2104e2b24eab063cca58ab0691287?s=200&amp;ts=1490496585" />
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="200" />
+<meta property="og:locale" content="pt_BR" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/cab2104e2b24eab063cca58ab0691287?s=32" sizes="16x16" />
+<link rel="icon" type="image/x-icon" href="https://secure.gravatar.com/blavatar/cab2104e2b24eab063cca58ab0691287?s=32" sizes="16x16" />
+<link rel="apple-touch-icon-precomposed" href="https://secure.gravatar.com/blavatar/cab2104e2b24eab063cca58ab0691287?s=114" />
+<link rel='openid.server' href='https://cafedofeliz.wordpress.com/?openidserver=1' />
+<link rel='openid.delegate' href='https://cafedofeliz.wordpress.com/' />
+<link rel="search" type="application/opensearchdescription+xml" href="https://cafedofeliz.com/osd.xml" title="Café do Feliz" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="theme-color" content="#ffffff" />
+	<style>
+		/* Link color */
+		a,
+		#site-title a:focus,
+		#site-title a:hover,
+		#site-title a:active,
+		.entry-title a:hover,
+		.entry-title a:focus,
+		.entry-title a:active,
+		.widget_twentyeleven_ephemera .comments-link a:hover,
+		section.recent-posts .other-recent-posts a[rel="bookmark"]:hover,
+		section.recent-posts .other-recent-posts .comments-link a:hover,
+		.format-image footer.entry-meta a:hover,
+		#site-generator a:hover {
+			color: #4055f6;
+		}
+		section.recent-posts .other-recent-posts .comments-link a:hover {
+			border-color: #4055f6;
+		}
+		article.feature-image.small .entry-summary p a:hover,
+		.entry-header .comments-link a:hover,
+		.entry-header .comments-link a:focus,
+		.entry-header .comments-link a:active,
+		.feature-slider a.active {
+			background-color: #4055f6;
+		}
+	</style>
+<style type="text/css">
+.widget_twitter li {
+	word-wrap: break-word;
+}
+</style>
+<meta name="application-name" content="Café do Feliz" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Assinar;action-uri=https://cafedofeliz.com/feed/;icon-uri=https://secure.gravatar.com/blavatar/cab2104e2b24eab063cca58ab0691287?s=16" /><meta name="msapplication-task" content="name=Registre um blog gratuito;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Suporte do WordPress.com;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Fóruns;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Café do Feliz em WordPress.com" />
+	<style type="text/css" id="twentyeleven-header-css">
+			#site-title,
+		#site-description {
+			position: absolute;
+			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+<style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="home blog custom-background mp6 customizer-styles-applied single-author two-column right-sidebar highlander-enabled highlander-light infinite-scroll">
+<div id="page" class="hfeed">
+	<header id="branding" role="banner">
+			<hgroup>
+				<h1 id="site-title"><span><a href="https://cafedofeliz.com/" rel="home">Café do Feliz</a></span></h1>
+				<h2 id="site-description"></h2>
+			</hgroup>
+
+						<a href="https://cafedofeliz.com/">
+									<img src="https://cafedofeliz.files.wordpress.com/2015/11/cropped-capa-rough-2.jpg" width="1000" height="320" alt="" />
+							</a>
+			
+							<div class="only-search with-image">
+					<form method="get" id="searchform" action="https://cafedofeliz.com/">
+		<label for="s" class="assistive-text">Pesquisa</label>
+		<input type="text" class="field" name="s" id="s" placeholder="Pesquisa" />
+		<input type="submit" class="submit" name="submit" id="searchsubmit" value="Pesquisa" />
+	</form>
+				</div>
+			
+			<nav id="access" role="navigation">
+				<h3 class="assistive-text">Menu principal</h3>
+								<div class="skip-link"><a class="assistive-text" href="#content">Pular para o conteúdo principal</a></div>
+									<div class="skip-link"><a class="assistive-text" href="#secondary">Pular para o conteúdo secundário</a></div>
+												<div class="menu"><ul>
+<li class="current_page_item"><a href="https://cafedofeliz.com/">Início</a></li><li class="page_item page-item-6143"><a href="https://cafedofeliz.com/happystore/">Happy Store!</a></li>
+<li class="page_item page-item-2"><a href="https://cafedofeliz.com/about/">Quem é o &#8220;Feliz&#8221;?</a></li>
+<li class="page_item page-item-1184"><a href="https://cafedofeliz.com/contato/">Contato</a></li>
+<li class="page_item page-item-3438"><a href="https://cafedofeliz.com/f-a-q/">F.A.Q.</a></li>
+<li class="page_item page-item-1559"><a href="https://cafedofeliz.com/wallpapers/">Wallpapers</a></li>
+</ul></div>
+			</nav><!-- #access -->
+	</header><!-- #branding -->
+
+
+	<div id="main">
+
+		<div id="primary">
+			<div id="content" role="main">
+
+			
+						<nav id="nav-above">
+			<h3 class="assistive-text">Navegação de Posts</h3>
+			<div class="nav-previous"><a href="https://cafedofeliz.com/page/2/" ><span class="meta-nav">  </span> Posts Anteriores</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+								
+					
+	<article id="post-7057" class="post-7057 post type-post status-publish format-standard hentry category-love-sucks tag-amor tag-bad tag-casamento tag-diego tag-josie tag-pe-na-bunda">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/" rel="bookmark">Love Sucks &#8211; Capítulo&nbsp;02</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2017-02-13T08:00:03+00:00">fevereiro 13, 2017</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/#comments">9</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Olá, leitores e leitoras!<br />
+O capítulo de hoje de <strong>Love Sucks</strong> vai te levar de volta a uma época que você achava que era simples, mas pode parecer bem assustadora em retrospecto: a adolescência!<br />
+E se você ainda está passando por essa fase, lhe desejo a melhor das sortes para sair dela sem maiores traumas.</p>
+<p>Se você perdeu ou quer reler o Capítulo 01, pode <a href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/" target="_blank">clicar aqui</a>.<br />
+E vamos lá!</p>
+<p><img data-attachment-id="7062" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_01-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_01-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7062" src="https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=584&#038;h=895" alt="02_01-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_01-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7063" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_02-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_02-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7063" src="https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=584&#038;h=895" alt="02_02-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_02-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7064" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_03-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_03-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7064" src="https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=584&#038;h=895" alt="02_03-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_03-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7065" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_04-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_04-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7065" src="https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=584&#038;h=895" alt="02_04-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_04-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7066" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_05-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_05-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7066" src="https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=584&#038;h=895" alt="02_05-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_05-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7067" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_06-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_06-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7067" src="https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=584&#038;h=895" alt="02_06-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_06-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7068" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_07-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_07-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7068" src="https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=584&#038;h=895" alt="02_07-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_07-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7069" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_08-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_08-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7069" src="https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=584&#038;h=895" alt="02_08-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_08-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7070" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_09-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_09-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7070" src="https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=584&#038;h=895" alt="02_09-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_09-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7071" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_10-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_10-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7071" src="https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=584&#038;h=895" alt="02_10-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_10-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7072" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_11-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_11-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7072" src="https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=584&#038;h=895" alt="02_11-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_11-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7073" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_12-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_12-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7073" src="https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=584&#038;h=895" alt="02_12-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_12-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7074" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_13-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_13-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7074" src="https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=584&#038;h=895" alt="02_13-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_13-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7075" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_14-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_14-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7075" src="https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=584&#038;h=895" alt="02_14-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_14-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7076" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_15-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_15-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7076" src="https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=584&#038;h=895" alt="02_15-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_15-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7077" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_16-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_16-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7077" src="https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=584&#038;h=895" alt="02_16-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_16-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7078" data-permalink="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/02_17-copiar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="02_17-copiar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7078" src="https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=584&#038;h=895" alt="02_17-copiar" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2017/02/02_17-copiar.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Pra quem se interessa por continuidade, os <em>flashbacks</em> se passam antes do início de <strong>High School Sux</strong>, quando Diego ainda não estudava no Independência.<br />
+Estou procurando encaixar tudo certinho na cronologia para que a história possa ser apreciada tanto pelos novos leitores quanto pelos antigos.</p>
+<p>Mais uma vez, agradeço a <strong>Má Matiazi</strong> que me ajudou com a revisão do texto e algumas dicas. A Má é quadrinista e começou recentemente um canal no <strong>YouTube</strong> com dicas de ilustração e quadrinhos. <a href="https://www.youtube.com/channel/UCsP12tVnw2vHDNy4tf_EDPQ" target="_blank">Clique aqui </a>pra conferir o canal e <a href="http://oabismohq.tumblr.com/" target="_blank">aqui</a> pra acompanhar a webcomic de terror <a href="http://oabismohq.tumblr.com/" target="_blank"><strong>O Abismo</strong></a>!</p>
+<p>Outro agradecimento especial à <strong>Mari Andrello</strong>, que me ajudou fazendo os &#8220;flats&#8221; das páginas, o que me poupou muuuuito tempo da colorização.<br />
+Muito obrigado mesmo, Mari! </p>
+<p>Seguindo a ideia de fazer dessa história uma espécie de <em>&#8220;mix-tape&#8221; </em>pros momentos de sofrência, a trilha sonora deste capítulo é do segundo álbum de estúdio do <strong>Green Day</strong>, o <strong>Kerplunk.</strong> Pouco conhecido, mas um dos meus favoritos do trio. A vibe <em>teen</em> do disco é irresistível e as páginas de hoje estão cheias de referências a ele (e à banda).<br />
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='584' height='359' src='https://www.youtube.com/embed/_WHnHx1IZLY?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></p>
+<p>Por hoje é só, leitores e leitoras. Espero que estejam curtindo a HQ!<br />
+Até o próximo capítulo!<br />
+-Vinnie</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-7057" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-7057" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-7057-58d72c494d56f' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=7057&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-7057-58d72c494d56f' data-name='like-post-frame-39086425-7057-58d72c494d56f'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/love-sucks/" rel="category tag">love sucks</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/amor/" rel="tag">amor</a>, <a href="https://cafedofeliz.com/tag/bad/" rel="tag">bad</a>, <a href="https://cafedofeliz.com/tag/casamento/" rel="tag">casamento</a>, <a href="https://cafedofeliz.com/tag/diego/" rel="tag">diego</a>, <a href="https://cafedofeliz.com/tag/josie/" rel="tag">josie</a>, <a href="https://cafedofeliz.com/tag/pe-na-bunda/" rel="tag">pé na bunda</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2017/02/13/love-sucks-capitulo-02/#comments"><b>9</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-7057 -->
+
+				
+					
+	<article id="post-7047" class="post-7047 post type-post status-publish format-standard hentry category-giblog category-o-infeliz tag-andarilho tag-feliz tag-infeliz tag-webcomics">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/" rel="bookmark">O Andarilho: Quebrando paredes e&nbsp;costelas</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2017-01-18T08:00:53+00:00">janeiro 18, 2017</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/#comments">2</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><img data-attachment-id="7048" data-permalink="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/andarilho/" data-orig-file="https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=584&#038;h=1217" data-orig-size="1692,3527" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="andarilho" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=584&#038;h=1217?w=144" data-large-file="https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=584&#038;h=1217?w=576" class="alignnone size-full wp-image-7048" src="https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=584&#038;h=1217" alt="andarilho" width="584" height="1217" srcset="https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=584&amp;h=1217 584w, https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=1168&amp;h=2434 1168w, https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=72&amp;h=150 72w, https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=144&amp;h=300 144w, https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=768&amp;h=1601 768w, https://cafedofeliz.files.wordpress.com/2017/01/andarilho.jpg?w=576&amp;h=1200 576w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Olá, leitores e leitoras!<br />
+O <strong>Andarilho</strong> é uma brincadeira proposta pelo <strong>Fábio Coala</strong>, em que o nosso amigo de camiseta vermelha da tirinha acima faz um tour pelas webcomics nacionais!<br />
+Ele já visitou vários quadrinhos e, depois de ser mandado pra cá pelo <strong>Leonardo Maciel</strong>, está indo para o site do <a href="http://zambiarts.com/holland/"><strong>Sir Holland, o Bravo</strong></a>, do <strong>Sandro Zambi</strong>!<br />
+Não deixe de conferir!</p>
+<p>Você pode acompanhar a jornada do Andarilho aqui:</p>
+<p><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fmentirinhas.com.br%2Fmentirinhas-1045%2F&amp;t=ZmE5MzAzMTQzOTgzZmQ1NjkyODg3MzQzOTBiMTE2ZmUxZDAyMzgyOSwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Mentirinhas<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.willtirando.com.br%2Fo-quebrador-de-paredes%2F&amp;t=ZmZlODdjMWU5ODFiOTFlNWFjM2E1YzNmN2NlNGY1M2JlN2U0OGExMCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Will Tirando<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.oslevadosdabreca.com%2Fso-tem-problema%2F&amp;t=Y2IzYjk5YzBiMmFlMzI0YjJhODFkMjAzN2JkNjljMWU3ODU1ODdmNCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Depósito do Wes<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fprofeticos.net%2Fboco-e-o-andarilho-das-webcomics%2F&amp;t=Y2I4NjdiMTU2YTg2ZjcxMDgwMGY1ZWE2OWMyMzIzMzcwNDc4ZTViZSwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Vacilândia (por Marçal)<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.manjericcao.com.br%2Fparedes%2F&amp;t=OWNkYTY0ODIxMmFlYzQ0ZTlkNjZkZjcwNjRjZmJiZGZjN2IyMGQzZiwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Manjericcão<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fryotiras.com%2Fe-o-fim%2F&amp;t=ZDMwMWM3Nzk3OWNjMThmNzc5NmRhYjM0ZTgxYmRjOTVhZDA3OWI2ZiwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">RYOTiras<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fdigofreitas.com%2Fhq%2Fminha-vida-de-cao-pedagio%2F&amp;t=YWYwZjg5OTFlYzYxMjE3N2RlYTZiNzYzMWEyNTFjZTc1OGFlOGUzNiwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Digo Freitas<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fblueeosgatos.com.br%2Fsite%2Fblue-e-os-gatos-660-andarilho-das-tiras%2F&amp;t=MTJlMmJkNTgyMDgwZjJhMDY4Zjg3Y2NiMWFiNmVlMDg1OGZiYTA1OCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Blue e os Gatos<br />
+</a><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fporquepedro.wordpress.com%2F2016%2F10%2F05%2Fpqp-especial-o-andarilho%2F&amp;t=ZTVhMDQ2YTUwNDQ5OGQ5NDQ3YjAzMmQ1MjJlODY2ZWY1ZTQwNTE2NiwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Por quê, Pedro?<br />
+</a><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fbruxinhamo.wordpress.com%2F2016%2F10%2F06%2Fbruxice-especial-o-andarilho%2F&amp;t=NmUzN2E4YjUzMGYzZThjODZkZTg5Y2ZiMDJlYWEwMjM0NGRjOTRmYSwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">As Aventuras da Bruxinha Mô<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.comoeurealmente.com%2F2016%2F10%2Fo-andarilho-especial.html&amp;t=MTliYmQ0ZDhjNGZmNzYxZWNjOGVkODA4MWUyZjEyZTM1Yjg2ZDFlNCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Como Eu Realmente<br />
+</a><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.facebook.com%2Fobjetosinanimadoscartoon%2Fphotos%2Fa.246591588759209.61835.246582585426776%2F1122346501183709%2F%3Ftype%3D3%26theater&amp;t=YjI1YmQzYzdjZDVmZDZlMDI1NGRmMzZjYjk0NzY0NDIwOWNhZjNlZCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Objetos Inanimados<br />
+</a><a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D1189214921160534%26set%3Da.224508004297902.54774.100002161136939%26type%3D3%26theater&amp;t=MWY0Y2VlYWFhZDRiZmQ3ZDUzMzQzYmUzMzc5MGQ1Njk2NTEwOTVkOSwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Mundo Amarelo<br />
+</a><a href="http://tirinhasbaboom.blogspot.com.br/2016/10/andarilho.html" target="_blank">Baboom</a><a href="http://tirinhasbaboom.blogspot.com.br/2016/10/andarilho.html" target="_blank"><br />
+</a><a href="http://marisanttosblog.tumblr.com/post/151672040654/o-andarilho-chegou-at%C3%A9-as-minhas-tirinhas-agora" target="_blank">Mari Santtos<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fbarbadobardo.com.br%2F2016%2F10%2F12%2Fo-andarilho-das-webcomics%2F&amp;t=NDc3NTYzMzE0ZjYyZTc1MGIyODU4MWYzMmM1ZjQwYWJmNjJkMGNiMywwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Barba do Bardo</a><br />
+<a href="http://t.umblr.com/redirect?z=https%3A%2F%2Fnaviodragao.wordpress.com%2F2016%2F10%2F21%2Fo-andarilho-das-webcomics%2F&amp;t=YTBiN2Y4N2JiNWJiM2JmNDhiZDQyMmEwMGFiYmRlYWE1YWJmZDJiMSwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Navio Dragão<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.quadrinhosacidos.com.br%2F2016%2F11%2Fo-andarilho-dos-quadrinhos.html&amp;t=NmM4NGU4NmFmNWU0NzFmMTVlYjViYjEyYmZkMDVjNTEzYmFkMjMwNCwwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Quadrinhos Ácidos<br />
+</a><a href="http://t.umblr.com/redirect?z=http%3A%2F%2Fwww.umsabadoqualquer.com%2Fo-andarilho-dos-quadrinhos%2F&amp;t=Y2QzZTAyNWJhMWExNGYzM2M1Y2M3YTI0NjRjYmI4YjBkM2VmZDM4MywwVk5nSTBwbg%3D%3D&amp;b=t%3A1At1RqCmJedWefjYjS9WsA&amp;p=http%3A%2F%2Fwww.macielcorporation.com%2Fpost%2F155941847364%2Fandarilho-dos-quadrinhos-o-andarilho-%C3%A9-um&amp;m=1" target="_blank">Um Sábado Qualquer<br />
+</a><a href="http://www.macielcorporation.com/post/155941847364/andarilho-dos-quadrinhos-o-andarilho-%C3%A9-um">Maciel Corporation</a></p>
+<p>Até a próxima!<br />
+-Vinnie</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-7047" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-7047" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-7047-58d72c494efd3' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=7047&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-7047-58d72c494efd3' data-name='like-post-frame-39086425-7047-58d72c494efd3'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/giblog/" rel="category tag">giblog</a>, <a href="https://cafedofeliz.com/category/o-infeliz/" rel="category tag">o infeliz</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/andarilho/" rel="tag">andarilho</a>, <a href="https://cafedofeliz.com/tag/feliz/" rel="tag">feliz</a>, <a href="https://cafedofeliz.com/tag/infeliz/" rel="tag">infeliz</a>, <a href="https://cafedofeliz.com/tag/webcomics/" rel="tag">webcomics</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2017/01/18/o-andarilho-quebrando-paredes-e-costelas/#comments"><b>2</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-7047 -->
+
+				
+					
+	<article id="post-7043" class="post-7043 post type-post status-publish format-standard hentry category-retrospectiva tag-feliz tag-lista tag-quadrinhos tag-recomendacoes tag-retrospectiva-2 tag-top tag-topzera tag-video">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/" rel="bookmark">Os quadrinhos mais &#8220;TOPZERA&#8221; de&nbsp;2016</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2017-01-02T08:00:47+00:00">janeiro 2, 2017</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/#respond"><span class="leave-reply">Resposta</span></a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Olá, leitores e leitoras!<br />
+Começamos o ano com uma retrospectiva em quadrinhos das minhas leituras de 2016 (essa, pelo menos, não é tão catastrófica quanto a da Globo).<br />
+Então prepare um café e se ajeite na poltrona, porque a lista é longa. São mais de 40 títulos listados, nacionais ou gringos, independentes ou editoriais.<br />
+Espero que curtam!</p>
+<p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='584' height='359' src='https://www.youtube.com/embed/jlOfCHEaBXI?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></p>
+<p>Deixe registrado nos comentários o que você achou da lista, suas opiniões sobre os quadrinhos lançados em 2016 e suas próprias recomendações.<br />
+Valeu, pessoal!<br />
+-Vinnie</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-7043" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-7043" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-7043-58d72c494fd66' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=7043&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-7043-58d72c494fd66' data-name='like-post-frame-39086425-7043-58d72c494fd66'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/retrospectiva/" rel="category tag">Retrospectiva</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/feliz/" rel="tag">feliz</a>, <a href="https://cafedofeliz.com/tag/lista/" rel="tag">lista</a>, <a href="https://cafedofeliz.com/tag/quadrinhos/" rel="tag">quadrinhos</a>, <a href="https://cafedofeliz.com/tag/recomendacoes/" rel="tag">recomendações</a>, <a href="https://cafedofeliz.com/tag/retrospectiva-2/" rel="tag">retrospectiva</a>, <a href="https://cafedofeliz.com/tag/top/" rel="tag">top</a>, <a href="https://cafedofeliz.com/tag/topzera/" rel="tag">topzera</a>, <a href="https://cafedofeliz.com/tag/video/" rel="tag">vídeo</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2017/01/02/os-quadrinhos-mais-topzera-de-2016/#respond"><span class="leave-reply">Deixe uma resposta</span></a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-7043 -->
+
+				
+					
+	<article id="post-7021" class="post-7021 post type-post status-publish format-standard hentry category-love-sucks tag-amor tag-bad tag-diego tag-love-sucks tag-musica tag-pe-na-bunda tag-vodka">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/" rel="bookmark">Love Sucks &#8211; Capítulo&nbsp;01</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2016-12-30T08:00:38+00:00">dezembro 30, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/#comments">26</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Olá, leitores e leitoras!<br />
+Este é o primeiro capítulo de uma história que vem ocupando um cantinho da minha cabeça desde a primeira metade do ano.<br />
+Depois da turnê de lançamento do <strong>Tinta Fresca</strong> consegui colocar tudo em ordem, e aqui vocês conferem a primeira parte de um projeto maior que preparei para vocês em 2017.<br />
+Sem mais delongas, aqui vai!</p>
+<p><img data-attachment-id="7028" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_01/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_01" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7028" src="https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=584&#038;h=895" alt="01_01" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_01.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7029" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_02/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_02" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7029" src="https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=584&#038;h=895" alt="01_02" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_022.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7030" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_03/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_03" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7030" src="https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=584&#038;h=895" alt="01_03" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_031.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7031" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_04/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_04" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7031" src="https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=584&#038;h=895" alt="01_04" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_041.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7032" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_05/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_05" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7032" src="https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=584&#038;h=895" alt="01_05" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_051.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7033" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_06/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_06" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7033" src="https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=584&#038;h=895" alt="01_06" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_06.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /> <img data-attachment-id="7034" data-permalink="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/01_07/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=584&#038;h=895" data-orig-size="1772,2717" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="01_07" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=584&#038;h=895?w=196" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=584&#038;h=895?w=584" class="alignnone size-full wp-image-7034" src="https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=584&#038;h=895" alt="01_07" width="584" height="895" srcset="https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=584&amp;h=895 584w, https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=1168&amp;h=1790 1168w, https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=196&amp;h=300 196w, https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=768&amp;h=1178 768w, https://cafedofeliz.files.wordpress.com/2016/12/01_07.jpg?w=783&amp;h=1200 783w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Já havia comentado aqui que eu iria mudar minha rotina de trabalho com os quadrinhos para me adequar à minha nova realidade, mas assim como alguns leitores, eu havia estabelecido laços com os personagens que criei.<br />
+Decidi então utilizar personagens já conhecidos em uma história completamente nova e fechada, para que leitores antigos e novos pudessem aproveitá-la da mesma forma. Estou bem ansioso com esse projeto e espero que vocês curtam!</p>
+<p>Um agradecimento especial à <strong>Má Matiazi</strong> que fez a revisão do texto e se prontificou de imediato a me ajudar com o roteiro. Ela é escritora e quadrinista e você confere o trabalho dela <a href="http://oabismohq.tumblr.com/" target="_blank">aqui</a>. Valeu, Má!</p>
+<p><strong>Love Sucks</strong>, como vocês já devem ter percebido, é uma história sobre a famosa &#8220;<em>bad</em>&#8221; pós-relacionamento. Quem já passou por isso (imagino que todo mundo) poderá se identificar com uma coisinha ou outra nos quadrinhos. Uma delas é a <em>soundtrack</em> depressiva que todo mundo cria para se afundar ainda mais na fossa. Por isso, a HQ vai funcionar como uma <em>mixtape</em> pra curtir uma dor de cotovelo, com cada capítulo levando o título de uma música. E a faixa de abertura escolhida é essa aqui:<br />
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='584' height='359' src='https://www.youtube.com/embed/2pMiLtXDTvM?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></p>
+<p>Por enquanto é isso, leitores e leitoras. Aguardem mais capítulos para o ano que vem!<br />
+-Vinnie</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-7021" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-7021" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-7021-58d72c4953a53' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=7021&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-7021-58d72c4953a53' data-name='like-post-frame-39086425-7021-58d72c4953a53'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/love-sucks/" rel="category tag">love sucks</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/amor/" rel="tag">amor</a>, <a href="https://cafedofeliz.com/tag/bad/" rel="tag">bad</a>, <a href="https://cafedofeliz.com/tag/diego/" rel="tag">diego</a>, <a href="https://cafedofeliz.com/tag/love-sucks/" rel="tag">love sucks</a>, <a href="https://cafedofeliz.com/tag/musica/" rel="tag">música</a>, <a href="https://cafedofeliz.com/tag/pe-na-bunda/" rel="tag">pé na bunda</a>, <a href="https://cafedofeliz.com/tag/vodka/" rel="tag">vodka</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/12/30/love-sucks-capitulo-01/#comments"><b>26</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-7021 -->
+
+				
+					
+	<article id="post-7000" class="post-7000 post type-post status-publish format-standard hentry category-comunicado category-friday-bloody-friday tag-ccxp tag-comic-con-experience tag-eventos tag-feliz tag-quadrinhos">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/" rel="bookmark">CCXP 2016 &#8211; Foi épico pra&nbsp;c@r@l#0!</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/" title="8:06 am" rel="bookmark"><time class="entry-date" datetime="2016-12-09T08:06:45+00:00">dezembro 9, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/#comments">6</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Oi, leitores e leitoras!<br />
+Quanto tempo, né?<br />
+Então, eu sei que andei sumido daqui por uns bons meses. Desde que voltei do <strong>FIQ de 2015</strong> e desde que mudei de cidade, percebi que meu trabalho com os quadrinhos precisava se adequar à minha realidade.</p>
+<p>E parece que toda essa mudança foi para me preparar para o maior evento de cultura pop do Brasil, <strong>a Comic Con Experience</strong>!<br />
+Se você estava em outro planeta durante os últimos meses, a feira aconteceu nos dias <strong>01 a 04 de dezembro</strong> em<strong> São Paulo/SP</strong>. Este ano dividi a mesa com meu amigo <strong>Digo Freitas</strong>, o criador do <strong>Tinta Fresca</strong> e parceiro de projeto em 2016. Bom, na verdade, ao lado dos amigos Carlos Ruas, Pietro Progetti, Leonardo Maciel, Fábio Coala, Rafael Marçal, Wesley Samp e Fábio Ciccone, aquela região do <strong>Artists&#8217; Alley</strong> virou quase uma mesa quádrupla!</p>
+<p><img data-attachment-id="7001" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/stranger/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg" data-orig-size="1570,1570" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="stranger" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=300&#038;h=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=584" class="alignleft wp-image-7001 size-medium" src="https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=300&#038;h=300" alt="stranger" width="300" height="300" srcset="https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=300&amp;h=300 300w, https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=600&amp;h=600 600w, https://cafedofeliz.files.wordpress.com/2016/12/stranger.jpg?w=150&amp;h=150 150w" sizes="(max-width: 300px) 100vw, 300px" />Aliás, essa tem sido uma das melhores partes desde que levei meus quadrinhos pra fora de <strong>Hell City</strong>: estar no meio de tanta gente que produz HQ. Seja por hobby, seja profissionalmente, ou seja porque querer deixar sua marca no meio artístico. A energia de uma convenção é sempre boa!</p>
+<p>É sempre bom rever tantos amigos depois de meses, encontrar pessoas que você só viu na internet, conhecer gente nova e conversar com pessoas cujo trabalho você admira.</p>
+<p>E quando começa o &#8220;fervo&#8221; mal dá pra sair da mesa! A circulação de pessoas na CCXP chega a ser <strong>assustadora</strong>. Mas a vantagem é que isso sempre acaba trazendo gente que já teve algum contato com seu trabalho e, em ocasiões não raras, que já o acompanham há tempos!<br />
+Foi muito legal conhecer leitores de longa data do <strong>Café do Feliz</strong>. Apareceram alguns que conheciam o blog desde as primeiras tirinhas! Um deles é o<strong> Éttore</strong>, que apareceu de surpresa no domingo pra dar um abraço e retribuir o bar que ele ganhou de presente de aniversário em 2013:</p>
+<p><img data-attachment-id="7002" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/bar/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=584&#038;h=263" data-orig-size="1118,503" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="bar" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=584&#038;h=263?w=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=584&#038;h=263?w=584" class="alignnone size-full wp-image-7002" src="https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=584&#038;h=263" alt="bar" width="584" height="263" srcset="https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=584&amp;h=263 584w, https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=150&amp;h=67 150w, https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=300&amp;h=135 300w, https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg?w=768&amp;h=346 768w, https://cafedofeliz.files.wordpress.com/2016/12/bar.jpg 1118w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p><img data-attachment-id="7003" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/icaro/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg" data-orig-size="768,960" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="icaro" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=240&#038;h=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=584" class="wp-image-7003 size-medium alignleft" src="https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=240&#038;h=300" alt="icaro" width="240" height="300" srcset="https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=240&amp;h=300 240w, https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=480&amp;h=600 480w, https://cafedofeliz.files.wordpress.com/2016/12/c3adcaro.jpg?w=120&amp;h=150 120w" sizes="(max-width: 240px) 100vw, 240px" />Aliás, a recepção do público superou expectativas!<br />
+Várias pessoas foram à nossa mesa já procurando o Tinta Fresca porque já tinham ouvido falar! Seja pela <a href="http://www.universohq.com/noticias/melhores-de-outubro-de-2016/">recomendação do Sidney Gusman no Universo HQ</a>, pela <a href="http://melhoresdomundo.net/quando-aventura-chegou-de-vez-no-quadrinho-independente-brasileiro/">resenha do Poderoso Porco no MDM</a>, ou mesmo porque ouviu comentários, muita gente chegou à nossa mesa já com o Tinta na cabeça.<br />
+E a melhor parte foi quando um menino pegou a revista com os olhos brilhando dizendo que se chamava <strong>Ícaro </strong>(o protagonista do livro)! Sério, para quem faz quadrinhos, essas são as melhores recompensas! Posso dizer, tanto por mim quanto pelo Digo, que nossa função como quadrinistas foi cumprida com satisfação. E agradecemos a todos vocês, leitores, pelo carinho que estamos recebendo.</p>
+<p>Claro que podia ter sido melhor. A reclamação geral sobre o evento foi o <strong>palco rock</strong> que estava bem próximo ao Artists&#8217; Alley, fazendo a galera forçar o gogó pra conseguir ser ouvido. E o fucking palco da <strong>Netflix</strong> com seu fucking <strong>karaokê</strong>, que nos fez ouvir as piores interpretações de <strong>What&#8217;s Up</strong> do <strong>4NonBlondes</strong>. Aquela música chiclete que tocou naquela cena memorável de <strong>Sense8</strong>. Graças à isso, agora eu odeio a série. ¬¬</p>
+<p>O chato de você ir no evento pra trabalhar também é perder quase todas as atrações e painéis. Dos atores gringos, eu mal lembro quem estava lá. Não tive nem meia chance de pegar autógrafo de uns picas dos quadrinhos, como o <strong>Eduardo Risso</strong>, o <strong>Simon Bisley</strong>, o <strong>Frank Quitely</strong>, etc.<br />
+Mas consegui tirar uma foto com a<strong> Laerte</strong>! =D<br />
+<img data-attachment-id="7004" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/laerte/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg" data-orig-size="1590,1590" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="laerte" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=300&#038;h=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=584" class="alignleft wp-image-7004 size-medium" src="https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=300&#038;h=300" alt="laerte" width="300" height="300" srcset="https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=300&amp;h=300 300w, https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=600&amp;h=600 600w, https://cafedofeliz.files.wordpress.com/2016/12/laerte.jpg?w=150&amp;h=150 150w" sizes="(max-width: 300px) 100vw, 300px" />De qualquer jeito, são quatro dias inesquecíveis para qualquer fã de quadrinhos e cultura pop, tanto para quem está do lado de lá quanto do lado de cá da mesa do Alley.</p>
+<p>Eu visitei a CCXP em 2014 como fã e foi uma das melhores coisas que fiz naquele ano. O evento já começou gigante e cresceu ainda mais. Não só pelo número de novidades relacionadas às séries, aos filmes e aos personagens icônicos que amamos, mas pelo cuidado que os organizadores têm em nos proporcionar uma experiência inesquecível. E porque cada vez mais tem coisa pra ver e cada vez mais tem talentos nacionais para se descobrir.</p>
+<p>Por falar nisso&#8230;<img data-attachment-id="7005" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/img_20161205_130819/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=584&#038;h=479" data-orig-size="3159,2592" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="img_20161205_130819" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=584&#038;h=479?w=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=584&#038;h=479?w=584" class="alignnone size-full wp-image-7005" src="https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=584&#038;h=479" alt="img_20161205_130819" width="584" height="479" srcset="https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=584&amp;h=479 584w, https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=1168&amp;h=958 1168w, https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=150&amp;h=123 150w, https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=300&amp;h=246 300w, https://cafedofeliz.files.wordpress.com/2016/12/img_20161205_130819.jpg?w=768&amp;h=630 768w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Esses são os quadrinhos que trouxe de volta comigo. Alguns eu havia apoiado no <strong>Catarse</strong> e retirei no evento, mas a maioria foi tipo &#8220;<em>shut up and take my money</em>&#8221; mesmo. E olha que só não levei mais porque não ia aguentar carregar a mala de volta pra casa!<br />
+Quadrinhos estes que foram feitos por essa galera aqui, ó:<br />
+<img data-attachment-id="7006" data-permalink="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/quadrinistas/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=584&#038;h=286" data-orig-size="895,439" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="quadrinistas" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=584&#038;h=286?w=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=584&#038;h=286?w=584" class="alignnone size-full wp-image-7006" src="https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=584&#038;h=286" alt="quadrinistas" width="584" height="286" srcset="https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=584&amp;h=286 584w, https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=150&amp;h=74 150w, https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=300&amp;h=147 300w, https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg?w=768&amp;h=377 768w, https://cafedofeliz.files.wordpress.com/2016/12/quadrinistas.jpg 895w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Gente bagarai, né? Pois aí nessa foto mal tinha<strong> um décimo</strong> da galera. O Artists&#8217; Alley da CCXP contava com uns 400 artistas. Ainda terei uma oportunidade de falar mais sobre os quadrinhos nacionais (independentes ou não) produzidos por toda essa gente querida.</p>
+<p>Por enquanto, me despeço de vocês, leitores e leitoras.<br />
+Antes, quero deixar um agradecimento especial ao Digo, pelo profissionalismo e pela parceria nos quadrinhos e nos eventos que participamos este ano. Um grande abraço a todos os amigos e amigas quadrinistas, cuja lista já é grande demais pra lembrar de cabeça e não quero correr o risco de deixar ninguém de fora.<br />
+E um muito obrigado a todo mundo que pôde comparecer ao evento e dar um pulinho na mesa A16 para dar um abraço e levar um quadrinho, print, botton ou caneca.<br />
+Deixo também minha eterna gratidão a todos vocês que me incentivam a continuar a trilhar esse caminho que eu amo. A todos que compartilham posts, deixam seus comentários ou trocam uma ideia no twitter.<br />
+Vocês moram no meu S2!</p>
+<p>-Feliz</p>
+<p>P.S. Vocês já devem ter visto um certo teaser na fanpage e no twitter, mas vou reiterar que em breve teremos novidades!<br />
+<span class="embed-youtube" style="text-align:center; display: block;"><iframe class='youtube-player' type='text/html' width='584' height='359' src='https://www.youtube.com/embed/luGZoZxNrZ8?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></span></p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-7000" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-7000" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-7000-58d72c495955e' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=7000&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-7000-58d72c495955e' data-name='like-post-frame-39086425-7000-58d72c495955e'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/comunicado/" rel="category tag">comunicado</a>, <a href="https://cafedofeliz.com/category/friday-bloody-friday/" rel="category tag">friday bloody friday</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/ccxp/" rel="tag">ccxp</a>, <a href="https://cafedofeliz.com/tag/comic-con-experience/" rel="tag">comic con experience</a>, <a href="https://cafedofeliz.com/tag/eventos/" rel="tag">eventos</a>, <a href="https://cafedofeliz.com/tag/feliz/" rel="tag">feliz</a>, <a href="https://cafedofeliz.com/tag/quadrinhos/" rel="tag">quadrinhos</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/12/09/ccxp-2016-foi-epico-pra-crl0/#comments"><b>6</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-7000 -->
+
+				
+					
+	<article id="post-6998" class="post-6998 post type-post status-publish format-standard hentry category-comunicado tag-comunicado">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/09/16/e-agora-jose/" rel="bookmark">E agora, José?</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/09/16/e-agora-jose/" title="7:46 am" rel="bookmark"><time class="entry-date" datetime="2016-09-16T07:46:03+00:00">setembro 16, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/09/16/e-agora-jose/#comments">7</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><em>A Bienal acabou, o Tinta Fresca lançou, o desenhista sumiu&#8230;</em></p>
+<p>Então, leitores e leitoras. Depois de meses de produção do Tinta Fresca, HQ que eu desenvolvi com o Digo Freitas, finalmente pude parar e descansar. Mas e agora? O CdF vai voltar, certo?<br />
+Bom, talvez a resposta não seja exatamente do agrado de muitos de vocês.</p>
+<p>Durante a produção da HQ eu avaliei e repensei todo meu trabalho como criador. A conclusão que cheguei é que eu precisava mudar completamente minha linha de trabalho. Desde minha mudança para Curitiba, postar tiras de segunda a sexta tornou-se impossível, pois minha rotina mudou drasticamente. Mesmo postando 3 vezes por semana eu sentia que não estava cumprindo com minha proposta inicial para o blog. Parecia que eu não tinha exatamente algo a dizer e as histórias estavam perdendo o propósito.</p>
+<p>Quando o CdF começou, lá em 2012, eu era uma pessoa completamente diferente do que sou hoje. Na época eu não sabia muito bem onde eu queria e poderia chegar com isso. Só comecei a desenhar e foda-se. Depois que passei a conhecer melhor a realidade da produção de quadrinhos no Brasil percebi que talvez o formato que eu estava publicando não seria adequado ao que eu quero fazer.</p>
+<p>Por isso as coisas vão mudar um bocado. Pretendo seguir escrevendo e desenhando histórias maiores agora. Ao invés de publicar uma tira ou uma página, pretendo publicar capítulos inteiros. Isso significa que as atualizações serão bem menos frequentes. No momento estou escrevendo uma HQ mais longa e vocês poderão acompanhá-la aqui ou através da fanpage. Também estou desenhando uma história para minha amiga Chairim Arrais, parte da série vampírica <a href="https://www.facebook.com/HQMarerosso" target="_blank">Mare Rosso</a>, de criação dela. Aqui no blog você também poderá acompanhar um pouco do processo de produção das HQs e outras notícias, como eventos e alguns reviews.</p>
+<p>Mas não pensem que abandonarei o Felizverso. De forma alguma! Durante esses 4 anos me apeguei demais a esses personagens e não pretendo esquecê-los. Tanto que a HQ que estou escrevendo (e as que estou cozinhando na cabeça) se passam no universo das tiras, com os personagens que você já conhece e ama e mais alguns novos que espero que vocês gostem tanto quanto eu estou gostando.</p>
+<p>Bom&#8230; por enquanto é isso, leitores e leitoras. Eu realmente sinto muito desapontar quem estava esperando o retorno triunfal do CdF com as tiras regulares. Espero que a nova fase seja bem recebida e que as mudanças sejam para melhor.<br />
+Abraço a todos.<br />
+-F</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-6998" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/09/16/e-agora-jose/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-6998" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/09/16/e-agora-jose/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-6998-58d72c495ac1a' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=6998&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-6998-58d72c495ac1a' data-name='like-post-frame-39086425-6998-58d72c495ac1a'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/comunicado/" rel="category tag">comunicado</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/comunicado/" rel="tag">comunicado</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/09/16/e-agora-jose/#comments"><b>7</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-6998 -->
+
+				
+					
+	<article id="post-6978" class="post-6978 post type-post status-publish format-standard hentry category-comunicado tag-comunicado tag-tinta-fresca">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/05/09/entao/" rel="bookmark">Então&#8230;</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/05/09/entao/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2016-05-09T08:00:28+00:00">maio 9, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/05/09/entao/#comments">2</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p>Oi, leitores e leitoras.</p>
+<p>Eu estou devendo uma explicação para a falta de atualizações, né?<br />
+Pois bem, como vocês já sabem, a campanha do <strong>Tinta Fresca</strong> está chegando na metade. E como a previsão de entrega da HQ aos apoiadores é na Gibicon de Curitiba (que deve rolar em setembro), a produção está a mil.</p>
+<p>Portanto, o Café do Feliz e eu estamos dando um tempo em nosso relacionamento.<br />
+Por enquanto, concentrarei meus esforços no Tinta Fresca. Ainda estarei disponível no Twitter e no Facebook. Eventualmente postarei algumas tiras antigas e novidades sobre o projeto, que aliás, está ficando bacanudo, dá uma olhada:</p>
+<p><img data-attachment-id="6979" data-permalink="https://cafedofeliz.com/2016/05/09/entao/pag-06/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg" data-orig-size="1181,1799" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HP Scanjet dj_d02a&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1461875652&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="pág 06" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=197" data-large-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=400&#038;h=609" class="alignleft wp-image-6979" src="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=400&#038;h=609" alt="pág 06" width="400" height="609" srcset="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=400&amp;h=609 400w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=800&amp;h=1218 800w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=197&amp;h=300 197w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-06.jpg?w=768&amp;h=1170 768w" sizes="(max-width: 400px) 100vw, 400px" /> <img data-attachment-id="6980" data-permalink="https://cafedofeliz.com/2016/05/09/entao/pag-07/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg" data-orig-size="1181,1799" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HP Scanjet dj_d02a&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1461958550&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="pág 07" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=197" data-large-file="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=400&#038;h=609" class="alignnone wp-image-6980" src="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=400&#038;h=609" alt="pág 07" width="400" height="609" srcset="https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=400&amp;h=609 400w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=800&amp;h=1218 800w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=98&amp;h=150 98w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=197&amp;h=300 197w, https://cafedofeliz.files.wordpress.com/2016/05/pc3a1g-07.jpg?w=768&amp;h=1170 768w" sizes="(max-width: 400px) 100vw, 400px" /></p>
+<p><img data-attachment-id="6982" data-permalink="https://cafedofeliz.com/2016/05/09/entao/06_07/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=584&#038;h=445" data-orig-size="667,508" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="06_07" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=584&#038;h=445?w=300" data-large-file="https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=584&#038;h=445?w=584" class="alignnone size-full wp-image-6982" src="https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=584&#038;h=445" alt="06_07" width="584" height="445" srcset="https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=584&amp;h=445 584w, https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=150&amp;h=114 150w, https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg?w=300&amp;h=228 300w, https://cafedofeliz.files.wordpress.com/2016/05/06_07.jpg 667w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Enfim. Por enquanto é isso, pessoal. Lamento muuuito ter que suspender as atualizações.<br />
+Por enquanto vou tirar umas férias dos meus queridos personagens e histórias. Espero voltar com todo gás para criar arcos memoráveis.</p>
+<p>Não esqueça de apoiar: <a href="http://catarse.me/tintafresca" rel="nofollow">http://catarse.me/tintafresca</a></p>
+<p>-Feliz</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-6978" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/05/09/entao/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-6978" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/05/09/entao/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-6978-58d72c495cfe2' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=6978&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-6978-58d72c495cfe2' data-name='like-post-frame-39086425-6978-58d72c495cfe2'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/comunicado/" rel="category tag">comunicado</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/comunicado/" rel="tag">comunicado</a>, <a href="https://cafedofeliz.com/tag/tinta-fresca/" rel="tag">tinta fresca</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/05/09/entao/#comments"><b>2</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-6978 -->
+
+				
+					
+	<article id="post-6975" class="post-6975 post type-post status-publish format-standard hentry category-giblog tag-capitao-america tag-cinema tag-feliz tag-guerra-civil tag-homem-de-ferro tag-infeliz tag-review">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/05/02/giblog-145/" rel="bookmark">Giblog #145</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/05/02/giblog-145/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2016-05-02T08:00:18+00:00">maio 2, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/05/02/giblog-145/#comments">6</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><img data-attachment-id="6976" data-permalink="https://cafedofeliz.com/2016/05/02/giblog-145/cdf_145/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=472&#038;h=560" data-orig-size="1181,1402" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HP Scanjet dj_d02a&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1462141402&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="cdf_145" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=472&#038;h=560?w=253" data-large-file="https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=472&#038;h=560?w=584" class="alignnone wp-image-6976" src="https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=472&#038;h=560" alt="cdf_145" width="472" height="560" srcset="https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=472&amp;h=560 472w, https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=944&amp;h=1120 944w, https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=126&amp;h=150 126w, https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=253&amp;h=300 253w, https://cafedofeliz.files.wordpress.com/2016/05/cdf_145.jpg?w=768&amp;h=912 768w" sizes="(max-width: 472px) 100vw, 472px" /></p>
+<p>Ok, eu sei que a essa altura, falar de Batman v Superman já é chutar cachorro morto, mas é impossível não comparar os dois grandes eventos cinematográficos das grandes editoras de quadrinhos. A grande diferença entre os dois filmes é que Guerra Civil não entregou o ouro antes do filme estrear.</p>
+<p>O terceiro filme da franquia do Bandeiroso tem apenas uma leve inspiração no mega evento dos quadrinhos, escrito por Mark Millar. A maior inspiração vem da excelente passagem de Ed Brubaker pelo Capitão América. E isso acaba sendo uma coisa positiva para o filme, criando um universo cinematográfico único e distinto dos quadrinhos.</p>
+<p>Aqui a gente vê como uma boa direção faz toda a diferença. O grande evento da DC falhou em trabalhar com tantos personagens e acontecimentos em 2:30 de filme, sem dosar o timing para a ação, para a trama e o desenvolvimento dos personagens. Guerra Civil trabalhou isso de forma impecável no mesmo tempo de filme. Houve bastante espaço para nos empolgarmos com cada cena de ação, para refletir sobre o tema proposto e, muito importante, para cada personagem brilhar. As melhores cenas de luta, sem dúvida, são da Viúva Negra e do Falcão. E o filme já nos coloca no hype para o filme solo do Pantera Negra.</p>
+<p>E o Homem-Aranha?<br />
+Bem&#8230; só digo uma coisa: meu fanboy interior está feliz.<br />
+É um filme que verei novamente no cinema.<br />
+-Feliz</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-6975" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/05/02/giblog-145/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-6975" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/05/02/giblog-145/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-6975-58d72c495e831' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=6975&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-6975-58d72c495e831' data-name='like-post-frame-39086425-6975-58d72c495e831'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/giblog/" rel="category tag">giblog</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/capitao-america/" rel="tag">capitão américa</a>, <a href="https://cafedofeliz.com/tag/cinema/" rel="tag">cinema</a>, <a href="https://cafedofeliz.com/tag/feliz/" rel="tag">feliz</a>, <a href="https://cafedofeliz.com/tag/guerra-civil/" rel="tag">guerra civil</a>, <a href="https://cafedofeliz.com/tag/homem-de-ferro/" rel="tag">homem de ferro</a>, <a href="https://cafedofeliz.com/tag/infeliz/" rel="tag">infeliz</a>, <a href="https://cafedofeliz.com/tag/review/" rel="tag">review</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/05/02/giblog-145/#comments"><b>6</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-6975 -->
+
+				
+					
+	<article id="post-6972" class="post-6972 post type-post status-publish format-standard hentry category-high-school-sux tag-edu tag-golpe tag-gremio tag-pedalada tag-talita">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/" rel="bookmark">High School Sux&nbsp;#316</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/" title="8:45 am" rel="bookmark"><time class="entry-date" datetime="2016-04-22T08:45:21+00:00">abril 22, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/#comments">3</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><img data-attachment-id="6973" data-permalink="https://cafedofeliz.com/2016/04/22/high-school-sux-316/hss_316/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=584&#038;h=618" data-orig-size="1181,1250" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HP Scanjet dj_d02a&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1461312779&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="hss_316" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=584&#038;h=618?w=283" data-large-file="https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=584&#038;h=618?w=584" class="alignnone size-full wp-image-6973" src="https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=584&#038;h=618" alt="hss_316" width="584" height="618" srcset="https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=584&amp;h=618 584w, https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=1168&amp;h=1236 1168w, https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=142&amp;h=150 142w, https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=283&amp;h=300 283w, https://cafedofeliz.files.wordpress.com/2016/04/hss_316.jpg?w=768&amp;h=813 768w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>E agora? É ou não é?<br />
+-Feliz</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-6972" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-6972" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-6972-58d72c495f96a' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=6972&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-6972-58d72c495f96a' data-name='like-post-frame-39086425-6972-58d72c495f96a'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/high-school-sux/" rel="category tag">high school sux</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/edu/" rel="tag">edu</a>, <a href="https://cafedofeliz.com/tag/golpe/" rel="tag">golpe</a>, <a href="https://cafedofeliz.com/tag/gremio/" rel="tag">grêmio</a>, <a href="https://cafedofeliz.com/tag/pedalada/" rel="tag">pedalada</a>, <a href="https://cafedofeliz.com/tag/talita/" rel="tag">talita</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/04/22/high-school-sux-316/#comments"><b>3</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-6972 -->
+
+				
+					
+	<article id="post-6968" class="post-6968 post type-post status-publish format-standard hentry category-punk-the-system tag-critica tag-musica tag-punk tag-review tag-tom tag-zumbi">
+		<header class="entry-header">
+						<h1 class="entry-title"><a href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/" rel="bookmark">Punk the System&nbsp;#137</a></h1>
+			
+						<div class="entry-meta">
+				<span class="sep">Publicado em </span><a href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/" title="8:00 am" rel="bookmark"><time class="entry-date" datetime="2016-04-21T08:00:44+00:00">abril 21, 2016</time></a><span class="by-author"> <span class="sep"> por </span> <span class="author vcard"><a class="url fn n" href="https://cafedofeliz.com/author/cafedofeliz/" title="Ver todos os artigos de Feliz" rel="author">Feliz</a></span></span>			</div><!-- .entry-meta -->
+			
+						<div class="comments-link">
+				<a href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/#comments">4</a>			</div>
+					</header><!-- .entry-header -->
+
+				<div class="entry-content">
+			<p><img data-attachment-id="6969" data-permalink="https://cafedofeliz.com/2016/04/21/punk-the-system-137/pts_137/" data-orig-file="https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg" data-orig-size="1181,1251" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;HP Scanjet dj_d02a&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1461187846&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="pts_137" data-image-description="" data-medium-file="https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=283" data-large-file="https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=584&#038;h=619" class="alignnone wp-image-6969 size-large" src="https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=584&#038;h=619" alt="pts_137" width="584" height="619" srcset="https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=584&amp;h=619 584w, https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=1168&amp;h=1238 1168w, https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=142&amp;h=150 142w, https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=283&amp;h=300 283w, https://cafedofeliz.files.wordpress.com/2016/04/pts_137.jpg?w=768&amp;h=814 768w" sizes="(max-width: 584px) 100vw, 584px" /></p>
+<p>Ai meu corasaum!<br />
+-Feliz</p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Compartilhe!</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-6968" class="share-twitter sd-button share-icon" href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/?share=twitter" target="_blank" title="Clique para compartilhar no Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-6968" class="share-facebook sd-button share-icon" href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/?share=facebook" target="_blank" title="Compartilhar no Facebook"><span>Facebook</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-39086425-6968-58d72c4960a86' data-src='//widgets.wp.com/likes/#blog_id=39086425&amp;post_id=6968&amp;origin=cafedofeliz.wordpress.com&amp;obj_id=39086425-6968-58d72c4960a86' data-name='like-post-frame-39086425-6968-58d72c4960a86'><h3 class='sd-title'>Curtir isso:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Curtir</span></span> <span class="loading">Carregando...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+		
+		<footer class="entry-meta">
+												<span class="cat-links">
+				<span class="entry-utility-prep entry-utility-prep-cat-links">Publicado em</span> <a href="https://cafedofeliz.com/category/punk-the-system/" rel="category tag">punk the system</a>			</span>
+															<span class="sep"> | </span>
+							<span class="tag-links">
+				<span class="entry-utility-prep entry-utility-prep-tag-links">Marcado com</span> <a href="https://cafedofeliz.com/tag/critica/" rel="tag">crítica</a>, <a href="https://cafedofeliz.com/tag/musica/" rel="tag">música</a>, <a href="https://cafedofeliz.com/tag/punk/" rel="tag">punk</a>, <a href="https://cafedofeliz.com/tag/review/" rel="tag">review</a>, <a href="https://cafedofeliz.com/tag/tom/" rel="tag">tom</a>, <a href="https://cafedofeliz.com/tag/zumbi/" rel="tag">zumbi</a>			</span>
+						
+									<span class="sep"> | </span>
+						<span class="comments-link"><a href="https://cafedofeliz.com/2016/04/21/punk-the-system-137/#comments"><b>4</b> Respostas</a></span>
+			
+					</footer><!-- .entry-meta -->
+	</article><!-- #post-6968 -->
+
+				
+						<nav id="nav-below">
+			<h3 class="assistive-text">Navegação de Posts</h3>
+			<div class="nav-previous"><a href="https://cafedofeliz.com/page/2/" ><span class="meta-nav">  </span> Posts Anteriores</a></div>
+			<div class="nav-next"></div>
+		</nav><!-- #nav-above -->
+	
+			
+			</div><!-- #content -->
+		</div><!-- #primary -->
+
+		<div id="secondary" class="widget-area" role="complementary">
+					<aside id="categories-2" class="widget widget_categories"><h3 class="widget-title">Categorias</h3>		<ul>
+	<li class="cat-item cat-item-33226618"><a href="https://cafedofeliz.com/category/bbcdf/" >BBCdF</a>
+</li>
+	<li class="cat-item cat-item-4750759"><a href="https://cafedofeliz.com/category/cafe-diario/" >café diário</a>
+</li>
+	<li class="cat-item cat-item-49356"><a href="https://cafedofeliz.com/category/comunicado/" >comunicado</a>
+</li>
+	<li class="cat-item cat-item-19282329"><a href="https://cafedofeliz.com/category/friday-bloody-friday/" >friday bloody friday</a>
+</li>
+	<li class="cat-item cat-item-48965782"><a href="https://cafedofeliz.com/category/giblog/" >giblog</a>
+</li>
+	<li class="cat-item cat-item-165527677"><a href="https://cafedofeliz.com/category/high-school-sux/" >high school sux</a>
+</li>
+	<li class="cat-item cat-item-40708"><a href="https://cafedofeliz.com/category/love-sucks/" >love sucks</a>
+</li>
+	<li class="cat-item cat-item-6929189"><a href="https://cafedofeliz.com/category/o-infeliz/" >o infeliz</a>
+</li>
+	<li class="cat-item cat-item-140813062"><a href="https://cafedofeliz.com/category/punk-the-system/" >punk the system</a>
+</li>
+	<li class="cat-item cat-item-561679"><a href="https://cafedofeliz.com/category/retrospectiva/" >Retrospectiva</a>
+</li>
+	<li class="cat-item cat-item-5078"><a href="https://cafedofeliz.com/category/sem-categoria/" >sem categoria</a>
+</li>
+		</ul>
+</aside><aside id="twitter-2" class="widget widget_twitter"><h3 class="widget-title"><a href='http://twitter.com/cafedofeliz'>Segui!</a></h3><ul class='tweets'>
+			<li>
+				Cabei de ver o filme dos Power Rangers.
+Pode fazer mais, já. 				<a href="http://twitter.com/cafedofeliz/statuses/845741114598543360" class="timesince">5&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				RT @<a href='http://twitter.com/Entrevistamento'>Entrevistamento</a>: Vendo a line-up do Lollapalooza <a href="https://t.co/iaTWL7wmrh" rel="nofollow">https://t.co/iaTWL7wmrh</a> 				<a href="http://twitter.com/cafedofeliz/statuses/845710430857314306" class="timesince">7&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			
+			<li>
+				Falando em Chupa Cu, finalmente resolvi ler a 1a Graphic MSP do Chico Bento, Pavor Espaciar. Não tinha lido por puro preconceito bobo... 				<a href="http://twitter.com/cafedofeliz/statuses/845686145367330819" class="timesince">9&nbsp;hours&nbsp;ago</a>
+			</li>
+
+			</ul><a href="http://twitter.com/cafedofeliz"  class='twitter-follow-button' data-show-count='false' data-link-color='#4055f6' data-text-color='#333333'>Follow @cafedofeliz</a></aside><aside id="facebook-likebox-2" class="widget widget_facebook_likebox"><h3 class="widget-title"><a href="https://www.facebook.com/cafedofeliz">Curti!</a></h3>		<div id="fb-root"></div>
+		<div class="fb-page" data-href="https://www.facebook.com/cafedofeliz" data-width="200"  data-height="432" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+		<div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/cafedofeliz"><a href="https://www.facebook.com/cafedofeliz">Curti!</a></blockquote></div>
+		</div>
+		<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = '//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=249643311490&version=v2.3'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+		</aside><aside id="linkcat-108469684" class="widget widget_links"><h3 class="widget-title">Links Bacanas!</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.webcomicsbrasil.com.br/portfolio/vinicius-gressana-cafe-feliz/" title="Perfil Webcomics Brasil" target="_blank"><img src="http://i60.tinypic.com/29mmvpl.jpg"  alt="Perfil Webcomics Brasil"  title="Perfil Webcomics Brasil" /></a></li>
+<li><a href="http://angulodevista.com/" target="_blank"><img src="http://ap.imagensbrasil.org/images/14218183_857533027712422_956011875_n.jpg"  alt="Ângulo de Vista"  /></a></li>
+<li><a href="http://digofreitas.com/hq/" target="_blank"><img src="http://i67.tinypic.com/un8f7.gif"  alt="Blog do Digo Freitas"  /></a></li>
+<li><a href="http://www.oslevadosdabreca.com/" target="_blank"><img src="http://oslevadosdabreca.com/botoes/selo_wes.gif"  alt="Os Levados da Breca"  /></a></li>
+<li><a href="http://contratemposmodernos.blogspot.com.br" target="_blank"><img src="http://farm4.static.flickr.com/3170/2762335073_8d0bddb65d_o.gif"  alt="Contratempos Modernos"  /></a></li>
+<li><a href="http://www.talcoeshow.com" target="_blank"><img src="http://2.bp.blogspot.com/-AeqgK0yWaQU/Tv38flPsNhI/AAAAAAAAAHI/qHQ1Gp5iXTM/s1600/talco120x60_2.gif"  alt="Talco e Show"  /></a></li>
+<li><a href="http://mentirinhas.com.br" target="_blank"><img src="http://mentirinhas.com.br/wp-content/uploads/2010/02/banner_mentirinhas120x60.jpg"  alt="Mentirinhas"  /></a></li>
+<li><a href="http://chtres.blogspot.com" target="_blank"><img src="http://i63.tinypic.com/a5hfd.gif"  alt="CH3"  /></a></li>
+<li><a href="http://www.willtirando.com.br/" target="_blank"><img src="http://i66.tinypic.com/w18ggp.png"  alt="Will Tirando"  /></a></li>
+<li><a href="http://profeticos.net/"><img src="http://i66.tinypic.com/1z3utkw.jpg"  alt="Proféticos by Marçal"  /></a></li>
+
+	</ul>
+</aside>
+<aside id="archives-2" class="widget widget_archive"><h3 class="widget-title">Arquivos</h3>		<ul>
+			<li><a href='https://cafedofeliz.com/2017/02/'>fevereiro 2017</a></li>
+	<li><a href='https://cafedofeliz.com/2017/01/'>janeiro 2017</a></li>
+	<li><a href='https://cafedofeliz.com/2016/12/'>dezembro 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/09/'>setembro 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/05/'>maio 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/04/'>abril 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/03/'>março 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/02/'>fevereiro 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2016/01/'>janeiro 2016</a></li>
+	<li><a href='https://cafedofeliz.com/2015/12/'>dezembro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/11/'>novembro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/10/'>outubro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/09/'>setembro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/08/'>agosto 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/07/'>julho 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/06/'>junho 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/05/'>maio 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/04/'>abril 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/03/'>março 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/02/'>fevereiro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2015/01/'>janeiro 2015</a></li>
+	<li><a href='https://cafedofeliz.com/2014/12/'>dezembro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/11/'>novembro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/10/'>outubro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/09/'>setembro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/08/'>agosto 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/07/'>julho 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/06/'>junho 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/05/'>maio 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/04/'>abril 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/03/'>março 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/02/'>fevereiro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2014/01/'>janeiro 2014</a></li>
+	<li><a href='https://cafedofeliz.com/2013/12/'>dezembro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/11/'>novembro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/10/'>outubro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/09/'>setembro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/08/'>agosto 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/07/'>julho 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/06/'>junho 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/05/'>maio 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/04/'>abril 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/03/'>março 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/02/'>fevereiro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2013/01/'>janeiro 2013</a></li>
+	<li><a href='https://cafedofeliz.com/2012/12/'>dezembro 2012</a></li>
+	<li><a href='https://cafedofeliz.com/2012/11/'>novembro 2012</a></li>
+	<li><a href='https://cafedofeliz.com/2012/10/'>outubro 2012</a></li>
+	<li><a href='https://cafedofeliz.com/2012/09/'>setembro 2012</a></li>
+	<li><a href='https://cafedofeliz.com/2012/08/'>agosto 2012</a></li>
+		</ul>
+		</aside>		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<footer id="colophon" role="contentinfo">
+
+			
+
+			<div id="site-generator">
+				 				<a href="https://wordpress.com/?ref=footer_blog">Blog no WordPress.com.</a>
+			</div>
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+		<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"content","ajaxurl":"https:\/\/cafedofeliz.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"page","click_handle":"1","text":"Publica\u00e7\u00f5es mais antigas","totop":"Rolar de volta ao topo","currentday":"21.04.16","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"cafedofeliz.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2016-04-21 08:00:44","stats":"blog=39086425&v=wpcom&tz=-4&user_id=0&subd=cafedofeliz&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+		<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201712y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Conectando\u2026","submittingText":"Postando Coment\u00e1rio\u2026","postCommentText":"Publicar coment\u00e1rio","connectingToText":"Conectando a %s","commentingAsText":"%1$s: Voc\u00ea est\u00e1 comentando utilizando sua conta %2$s.","logoutText":"Sair","loginText":"Fazer login","connectURL":"https:\/\/cafedofeliz.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/cafedofeliz.wordpress.com\/wp-login.php?action=logout&_wpnonce=3bc46af53e","homeURL":"https:\/\/cafedofeliz.com\/","postID":"7057","gravDefault":"identicon","enterACommentError":"Por favor escreva um coment\u00e1rio","enterEmailError":"Insira seu endere\u00e7o de email aqui","invalidEmailError":"Email inv\u00e1lido","enterAuthorError":"Digite o seu nome aqui","gravatarFromEmail":"Essa foto aparecer\u00e1 sempre que voc\u00ea deixar um coment\u00e1rio. Clicar para personaliz\u00e1-la.","logInToExternalAccount":"Fa\u00e7a login para usar detalhes de uma de suas conta.","change":"Alterar","changeAccount":"Alterar Conta","comment_registration":"0","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j'></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Adicione suas ideias aqui... (opcional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Publicar em</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancelar</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblogar Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="39086425" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://cafedofeliz.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Café do Feliz" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="c0be4d26a7" /><input type="hidden" name="_wp_http_referer" value="/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/cafedofeliz.com\/2017\/02\/13\/love-sucks-capitulo-02\/":7057,"https:\/\/cafedofeliz.com\/2017\/01\/18\/o-andarilho-quebrando-paredes-e-costelas\/":7047,"https:\/\/cafedofeliz.com\/2017\/01\/02\/os-quadrinhos-mais-topzera-de-2016\/":7043,"https:\/\/cafedofeliz.com\/2016\/12\/30\/love-sucks-capitulo-01\/":7021,"https:\/\/cafedofeliz.com\/2016\/12\/09\/ccxp-2016-foi-epico-pra-crl0\/":7000,"https:\/\/cafedofeliz.com\/2016\/09\/16\/e-agora-jose\/":6998,"https:\/\/cafedofeliz.com\/2016\/05\/09\/entao\/":6978,"https:\/\/cafedofeliz.com\/2016\/05\/02\/giblog-145\/":6975,"https:\/\/cafedofeliz.com\/2016\/04\/22\/high-school-sux-316\/":6972,"https:\/\/cafedofeliz.com\/2016\/04\/21\/punk-the-system-137\/":6968};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+		<link rel='stylesheet' id='all-css-0-3' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='all-css-2-3' href='https://s2.wp.com/_static/??/wp-content/mu-plugins/widgets/facebook-likebox/style.css,/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146j' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"39086425","siteName":"Caf\u00e9 do Feliz","siteURL":"https:\/\/cafedofeliz.com","icon":"<img alt='' src='https:\/\/secure.gravatar.com\/blavatar\/cab2104e2b24eab063cca58ab0691287?s=50&d=https%3A%2F%2Fs1.wp.com%2Fi%2Flogo%2Fwpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/twentyeleven","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/cafedofeliz.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcafedofeliz.com%2F2017%2F02%2F13%2Flove-sucks-capitulo-02%2F","themeURL":"https:\/\/wordpress.com\/theme\/twentyeleven\/","xhrURL":"https:\/\/cafedofeliz.com\/wp-admin\/admin-ajax.php","nonce":"d967beeb5f","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"4fc4f25c32\" \/>","referer":"https:\/\/cafedofeliz.com\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/cafedofeliz.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fcafedofeliz.wordpress.com%2F","i18n":{"view":"Exibir site","follow":"Seguir","following":"Seguindo","edit":"Editar","login":"Fazer login","signup":"Registre-se","customize":"Personalizar","report":"Denunciar este conte\u00fado","themeInfo":"Obtenha o tema: Twenty Eleven","shortlink":"Copiar link curto","copied":"Copiado","followedText":"Novos posts deste site ser\u00e3o exibidos agora em seu <a href=\"https:\/\/wordpress.com\/\">Leitor<\/a>","foldBar":"Esconder esta barra","unfoldBar":"Mostrar esta barra","editSubs":"Gerenciar assinaturas","viewReader":"Visualizar site no Leitor","subscribe":"Cadastre-me","enterEmail":"Insira seu endere\u00e7o de email","followers":"Junte-se a 23.372 outros seguidores","alreadyUser":"J\u00e1 tem uma conta do WordPress.com? <a href=\"https:\/\/cafedofeliz.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcafedofeliz.com%2F2017%2F02%2F13%2Flove-sucks-capitulo-02%2F\">Fa\u00e7a login agora.<\/a>","stats":"Estat\u00edsticas"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"pt","ajaxurl":"https:\/\/cafedofeliz.com\/wp-admin\/admin-ajax.php","nonce":"e97905db84","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Coment\u00e1rio","post_comment":"Publicar coment\u00e1rio","write_comment":"Escreva um Coment\u00e1rio","loading_comments":"Carregando coment\u00e1rios...","download_original":"Visualizar tamanho original <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Certifique-se de enviar algum texto com o seu coment\u00e1rio.","no_comment_email":"Informe um endere\u00e7o de email para comentar.","no_comment_author":"Forne\u00e7a seu nome para comentar.","comment_post_error":"Desculpe, mas ocorreu um erro ao postar seu coment\u00e1rio. Tente novamente mais tarde.","comment_approved":"Seu coment\u00e1rio foi aprovado.","comment_unapproved":"Seu coment\u00e1rio est\u00e1 aguardando modera\u00e7\u00e3o.","camera":"C\u00e2mera","aperture":"Abertura","shutter_speed":"Velocidade do Obturador","focal_length":"Comprimento Focal","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/cafedofeliz.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fcafedofeliz.com%2F2017%2F02%2F13%2Flove-sucks-capitulo-02%2F","blog_id":"39086425","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (obrigat\u00f3rio)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Nome (obrigat\u00f3rio)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Site<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblogar","reblogged":"Re-blogado","reblog_add_thoughts":"Adicione suas ideias aqui... (opcional)","reblogging":"Reblogando...","post_reblog":"Post Reblog","stats_query_args":"blog=39086425&v=wpcom&tz=-4&user_id=0&subd=cafedofeliz","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJx9UNsOgjAM/SFnJYFEH4zfMkbRjtHNdQP9e4cJxPjA2+npuTSFOSjjOSEnsAIdTmQwvI5WDvCzGrMKLt+JBRwNKPDMmPGhuXMYd8TEPTGl9wZ2tLobiVWrI4xaEsaClJ8wRupK4cbtJZhEnpeEDe2ojY4+CzqwmII2g1qJ1UNsXF66y2Nk7n1r0aT/wDVtKld60CKYvobvHCKKFMdtvFb1+dJUp7o52Q8J2IvQ'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=20111117'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"pt","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??-eJyVzTEOwjAMheELYQwSEBgQZ0kbE1xcN3Jcqt6+XRhYQExP//Dp4VSgHdRJHfsRioyZtaJP7E4GjcT22bAlKEyo9CIjTax529UN/mPLb8dCCXIUIZs/64sqQ3W4S2TD+oi2Xrx3Rbf+uj+cL7twCsfQLZZaV/w='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "cafedofeliz.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","wpcom-masterbar-js","wpcom-actionbar-bar","jetpack-carousel","swfobject","videopress","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery","sharing-js"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","jetpack_likes","the-neverending-homepage","wpcom-core-compat-playlist-styles","mp6hacks","wpcom-bbpress2-staff-css","twentyeleven-wpcom-style","noticons","geo-location-flair","reblogging","infinity-twentyeleven","wpcom-actionbar-bar","sharedaddy","social-logos","h4-global","highlander-comments","highlander-comments-ie7","jetpack-carousel","jetpack_facebook_likebox","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206&amp;lang=pt-br' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> blogueiros gostam disto:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = 

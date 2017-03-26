@@ -1,0 +1,741 @@
+|||
+http://esporte.band.uol.com.br/clube/
+|
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-br" class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		
+		<title>Band Esporte Clube - Band.com.br</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Tudo o que rola no Brasil e no mundo" />
+		<meta name="robots" content="index, follow" />
+		<meta http-equiv="X-Frame-Options" content="deny">
+
+		
+		
+		
+		<link rel="canonical" href="http://esporte.band.com.br/bandesporteclube" />
+		
+			<!-- Tocar Vídeos no Facebook -->
+			<meta property="og:video"           	content="http://player.mais.uol.com.br/player_video_v3.swf?mediaId=">
+			<meta property="og:video:secure_url"	content="https://player.mais.uol.com.br/player_video_v3.swf?mediaId=">
+			<meta property="og:video:type"       	content="application/x-shockwave-flash">
+			<meta property="og:video:width" content="640">
+			<meta property="og:video:height" content="360"> 
+			<meta property="og:image" 	content="https://thumb.mais.uol.com.br/-xlarge.jpg">
+			<base href="http://esporte.band.com.br/bandesporteclube/videos/" />
+		
+		
+
+		<meta property="og:title" content="Band Esporte Clube - Band.com.br"/>
+		<meta property="og:type" content=""/>
+		<meta property="og:url" content="http://esporte.band.com.br/bandesporteclube"/>
+		<meta property="og:image" content="http://esporte.band.com.br/bandesporteclube/images/social.jpg"/>
+		<meta property="og:site_name" content="Band Esporte Clube"/>
+		<meta property="fb:admins" content=""/>
+		<meta property="og:description" content="Tudo o que rola no Brasil e no mundo"/>
+
+
+		
+			<!-- Tag:Twitter Videos  -->
+			<meta name="twitter:card" content="player">
+			<meta name="twitter:site" content="@e_band">
+			<meta name="twitter:title" content=""/>
+			<meta name="twitter:description" content="">
+			<meta name="twitter:image" content="http://thumb.mais.uol.com.br/.jpg"/>
+			<meta name="twitter:player" content="https://s.band.com.br/videos_embed.asp?id=&w=505&h=280">
+			<meta name="twitter:player:width" content="505">
+			<meta name="twitter:player:height" content="280">
+			<!-- FIM Tag:Twitter Videos  -->
+		
+
+		<!-- CSS -->
+		<link rel="shortcut icon" href="http://esporte.band.com.br/bandesporteclube/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="http://esporte.band.com.br/bandesporteclube/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="http://www.band.com.br/includes/public/css/mega_menu2.css">
+		<link rel="stylesheet" type="text/css" href="http://esporte.band.com.br/bandesporteclube/css/layout.css">
+		<link rel="stylesheet" type="text/css" href="http://esporte.band.com.br/bandesporteclube/css/bandstyle.css">
+		<link rel="stylesheet" type="text/css" href="http://esporte.band.com.br/bandesporteclube/css/uielements.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css">
+		
+		
+			<script language="javascript">
+				var ua = navigator.userAgent,
+				mobile = /iPhone/i.test(ua) || /iPod/i.test(ua) || /iPad/i.test(ua) || /Android/i.test(ua);
+
+				if (mobile)
+					window.location.href += '?mobile=true';
+
+			</script>
+		 <link rel="stylesheet" href="http://www.band.uol.com.br/core/publicidade/css/publicidade.css">
+ <script type='text/javascript'>
+var gptadslots=[];
+(function(){
+	var useSSL = 'https:' == document.location.protocol;
+	var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+	document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script><script type="text/javascript">
+var _sf_async_config = _sf_async_config || {};
+	_sf_async_config.uid = 62968; // ACCOUNT NUMBER
+	_sf_async_config.domain = 'band.uol.com.br'; // DOMAIN
+	_sf_async_config.flickerControl = false;
+	_sf_async_config.useCanonical = true;
+var _sf_startpt = (new Date()).getTime();
+</script>	
+
+		  
+		
+	</head>
+<body>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  appId      : '1910174312543109',
+		  xfbml      : true,
+		  version    : 'v2.7'
+		});
+	  };
+
+	  (function(d, s, id){
+		 var js, fjs = d.getElementsByTagName(s)[0];
+		 if (d.getElementById(id)) {return;}
+		 js = d.createElement(s); js.id = id;
+		 js.src = "//connect.facebook.net/en_US/sdk.js";
+		 fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>
+
+	<!-- Twitter -->
+	
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	
+	
+	<div id="oop"></div>
+		<script src="http://www.band.uol.com.br/includes/public/barra/barra_parceiro.js"></script>
+		
+		<div id="superleaderboard_leaderboard" class="banner"></div><nav class="megamenu">
+  <div class="content-menu">
+	<div class="container">
+		<span class="logo-band">
+		  <a href="http://www.band.uol.com.br/" data-name="home" title="Logotipo do Portal da Band">Band.com.br</a>
+		</span>
+
+		<ul class="menu">
+		  <li class="principal noticia">
+			<a href="http://noticias.band.uol.com.br/" data-name="noticias">Notícias</a>
+
+			<div class="sub-menu noticia">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="http://noticias.band.uol.com.br/">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>
+				  <li>Notícias</li>
+				  <li><a href="http://noticias.band.uol.com.br/brasil/" target="_self">Brasil</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/noticia" target="_self">Cidades</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/economia/" target="_self">Economia</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/educacao/" target="_self">Educação</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/eleicoes/2016/" target="_self">Eleições</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/esquisito/" target="_self">Esquisito</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/mundo/" target="_self">Mundo</a></li>
+				  <li><a href="http://showmetech.com.br/" target="_self">Tecnologia</a></li>
+				 </ul>
+				
+				<ul> 
+				  <li> Opinião</li>
+				  <li><a href="http://noticias.band.uol.com.br/cafe-com-jornal/sp/videos/boechat/" target="_self">Boechat</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/jornaldanoite/" target="_self">Fernando Mitre</a></li>
+				  <li><a href="http://bandnewstv.band.uol.com.br/videos/colunistas/jose-simao" target="_self">José Simão</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/colunas/podcast.asp?colunista=189" target="_self">Mariana Mazza</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/blogs/" target="_self">Blogs</a></li>
+				  		
+				</ul>
+
+				<ul>
+				  <li>Sua Região</li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/amazonas/" target="_self">Amazonas</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/bahia/" target="_self">Bahia</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/minasgerais/" target="_self">Minas Gerais</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/rio/" target="_self">Rio de Janeiro</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/rs/" target="_self">Rio Grande do Sul</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/paulista/" target="_self">Paulista</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cidades/vale/" target="_self">Vale do Paraíba</a></li>
+				</ul>
+
+				<ul>
+				  <li>Programas</li>
+				  <li><a href="http://noticias.band.uol.com.br/alta-conexao/" target="_self">Alta Conexão</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/brasilurgente/" target="_self">Brasil Urgente</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/cafe-com-jornal/" target="_self">Café com Jornal</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/canallivre/" target="_self">Canal Livre</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/jornaldaband/" target="_self">Jornal da Band</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/jornaldanoite/" target="_self">Jornal da Noite</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/policia24h/" target="_self">Polícia 24h</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/showbusiness/" target="_self">Show Business</a></li>
+				</ul>
+				
+				<ul>
+				<li>Parceiros</li>
+				  <li><a href="http://autoetecnica.band.uol.com.br/" target="_blank">Auto &amp; Técnica</a></li>
+				  <li><a href="http://www.showmetech.com.br/" target="_blank">Showmetech</a></li>
+				</ul>
+				  
+			  </div>
+			</div>
+		  </li>
+		  <li class="principal esporte">
+			<a href="http://esporte.band.uol.com.br/" data-name="esporte">Esporte</a>
+
+			<div class="sub-menu">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="http://esporte.band.uol.com.br/">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>
+				  <li>Futebol</li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/brasileirao-serie-a/" target="_self">Brasileirão</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/brasileirao-serie-b/" target="_self">Série B</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/copa-america/" target="_self">Copa América</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/copa-do-brasil/" target="_self">Copa do Brasil</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/eurocopa" target="_self">Eurocopa</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/futebol-internacional/" target="_self">Futebol Internacional</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/libertadores/" target="_self">Libertadores</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/liga-dos-campeoes/" target="_self">Liga dos Campeões</a></li>
+				  <li><a href="http://esporte.band.uol.com.br/futebol/selecao/" target="_self">Seleção</a></li>
+				</ul>
+
+				<ul>
+				  <li class="other-title">Opinião</li>
+				  <li><a href="http://noticias.band.uol.com.br/jornaldanoite/milton-neves" target="_blank">Milton Neves</a></li>
+				  <li><a href="http://alvarojose.band.uol.com.br/" target="_blank">Blog do Álvaro José</a></li>
+				  <li><a href="http://wanderleioliveira.band.uol.com.br/" target="_blank">Blog do WO</a></li>
+				</ul>
+
+				<ul>
+				  <li>Times</li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/atletico-mg/">Atlético MG</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/botafogo/">Botafogo</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/chapecoense/">Chapecoense</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/corinthians/">Corinthians</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/cruzeiro/">Cruzeiro</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/flamengo/">Flamengo</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/fluminense/">Fluminense</a></li>
+				</ul>
+				
+				<ul class="cont_list">
+				  <li></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/gremio/">Grêmio</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/internacional/">Internacional</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/palmeiras/">Palmeiras</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/sao-paulo/">São Paulo</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/santos/">Santos</a></li>
+				  <li><a target="_self" href="http://esporte.band.uol.com.br/futebol/times/vasco/">Vasco</a></li>
+				</ul>
+
+				<ul>
+				  <li>Outros Esportes</li>
+				  <li><a href="http://esporte.band.uol.com.br/rio-2016/">Rio 2016 </a></li>
+				  <li><a href="http://bandsports.band.uol.com.br/rolandgarros/">Roland Garros</a></li>
+				  <li><a href="http://agfight.band.uol.com.br/">AgFight</a></li>
+				  <li><a href="http://bandsports.band.uol.com.br/noticias/modalidade/100000874/">Jungle Fight </a></li>
+				  <li><a href="http://tenisnews.band.uol.com.br/">Tênis News </a></li>
+				  <li><a href="http://esporte.band.uol.com.br/velocidade/formula-indy/">Fórmula Indy </a></li>
+				  <li><a href="http://www.formulatruck.com.br/">Fórmula Truck </a></li>
+				</ul>
+
+				<ul>
+				  <li>Programas</li>
+				  <li><a href="http://www.band.uol.com.br/clube/" target="_blank">Band Esporte Clube</a></li>
+				  <li><a href="http://www.band.uol.com.br/golograndemomento/" target="_blank">Gol - O Grande<br> Momento do Futebol</a></li>
+				  <li><a href="http://www.band.uol.com.br/jogoaberto/" target="_blank">Jogo Aberto</a></li>
+				  <li><a href="http://www.band.uol.com.br/osdonosdabola/" target="_blank">Os Donos da Bola</a></li>
+				  <li><a href="http://www.band.uol.com.br/terceirotempo/" target="_blank">Terceiro Tempo</a></li>
+				</ul>           
+			  </div>
+			</div>
+		  </li>
+		  <li class="principal entreterimento">
+			<a href="http://entretenimento.band.uol.com.br/" data-name="entreterimento">Entretenimento</a>
+		  
+			<div class="sub-menu">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="http://entretenimento.band.uol.com.br/">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>  
+				  <li>Entretenimento</li>
+				  <li><a href="http://entretenimento.band.uol.com.br/bandfolia/" target="_self">Band Folia</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/famosos/" target="_self">Famosos</a></li>
+				  <li><a href="http://tvgameover.com.br/" target="_blank"> Game Over </a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/miss/" target="_self">Miss Brasil</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/cinema/reporter-hollywood/" target="_self">Repórter Hollywood</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/tv/" target="_self">Televisão</a></li>
+				  <li><a href="http://vivabem.band.uol.com.br/tops/" target="_self">Tops</a></li>
+				</ul>
+
+				<ul>
+				  <li>Programas</li>
+				  <li><a href="http://entretenimento.band.uol.com.br/aliga/" target="_self">A Liga</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/batevolta/" target="_self">Bate & Volta</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/diadia/" target="_self">Dia Dia</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/ezel/" target="_self">Ezel</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/masterchef/" target="_self">MasterChef</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/masterchef/profissionais/" target="_self">MasterChef Profissionais</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/masterchef/junior/" target="_self">MasterChef Júnior</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/omundosegundoosbrasileiros/" target="_self">O Mundo Segundo...</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/paniconaband/" target="_self">Pânico na Band</a></li>
+				</ul>
+				
+				<ul class="cont_list">
+				  <li></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/pesadelonacozinha" target="_self">Pesadelo na Cozinha</a></li>
+				  <li><a href="http://noticias.band.uol.com.br/policia24h/" target="_self">Polícia 24h</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/sabado-animal/" target="_self">Sábado Animal</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/semprebem/" target="_self">Sempre Bem</a></li>
+				  <li><a href="http://blogs.band.com.br/series" target="_self">Séries</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/sila/" target="_self">Sila</a></li>
+				  <li><a href="http://entretenimento.band.uol.com.br/xfactor" target="_self">X Factor</a></li>
+				</ul>
+    
+			  </div>
+			</div>
+		  </li>
+		  <li class="principal canais_band">
+			<a href="#" data-name="canais_band">Canais Band</a>
+
+			<div class="sub-menu">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="#">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>
+				  <li>Canais Band</li>
+				  <li>
+					<a href="http://www.band.uol.com.br/tv/">Band TV</a>
+				  </li>
+				  <li>
+					<a href="http://bandnewstv.band.uol.com.br/">BandNews TV</a>
+				  </li>
+				  <li>
+					<a href="http://bandsports.band.uol.com.br/">BandSports</a>
+				  </li>
+				  <li>
+					<a href="http://tvterraviva.band.uol.com.br/">Terraviva</a>
+				  </li>
+				  <li>
+					<a href="http://arte1.band.uol.com.br/">Arte 1</a>
+				  </li>
+				  <li>
+					<a href="http://www.band.uol.com.br/internacional/">Band Internacional</a>
+				  </li>               
+				  <li>
+					<a href="http://www.band.uol.com.br/emissoras-da-rede/">Emissoras da rede</a>
+				  </li>
+				</ul>           
+			  </div>
+			</div>
+		  </li>
+		  <li class="principal radios">
+			<a href="http://playersradios.band.uol.com.br/" data-name="radios">Rádios</a>
+
+			<div class="sub-menu">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="http://playersradios.band.uol.com.br/">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>
+				  <li>Rádios</li>
+				  <li>
+					<a href="http://radiobandeirantes.band.uol.com.br/">Rádio Bandeirantes</a>
+				  </li>
+				  <li>
+					<a href="http://bandnewsfm.band.uol.com.br/">BandNews FM</a>
+				  </li>
+				  <li>
+					<a href="http://bandfm.band.uol.com.br/Paginas/default.aspx">Band FM</a>
+				  </li>
+				  <li>
+					<a href="http://nativa.band.uol.com.br/">Nativa</a>
+				  </li>
+				  <li>
+					<a href="http://playersradios.band.uol.com.br/index.php?r=RadioTransito_RadioTransito/">Rádio Trânsito</a>
+				  </li>
+				  <li>
+					<a href="http://www.bandvalefm.com.br/">Band Vale</a>
+				  </li>
+				  <li>
+					<a href="http://www.educadorafm.com.br/">Educadora FM</a>
+				  </li>
+				  <li>
+					<a href="http://ipanema.uol.com.br/">Ipanema FM</a>
+				  </li>
+				  <li>
+					<a href="http://bradescoesportesfm.band.uol.com.br/">Bradesco Esportes FM</a>
+				  </li>
+				  <li>
+					<a href="http://www.mpbbrasil.com.br/">MPB FM</a>
+				  </li>
+				</ul>         
+			  </div>
+			</div>
+		  </li>
+		  <li class="principal mais">
+			<a href="#" data-name="mais">+Mais</a>
+
+			<div class="sub-menu">
+			  <div class="header-submenu">
+				<div class="content">
+				  <h3>
+					<a href="http://www.band.uol.com.br/grupo/">Página Inicial</a>
+				  </h3>
+				</div>
+			  </div>
+
+			  <div class="content-submenu">
+				<ul>
+				  <li>Mais+</li>
+				  <li>
+					<a href="http://www.band.uol.com.br/bandimagem/">Band Imagem</a>
+				  </li>
+				  <li>
+					<a href="http://www.band.uol.com.br/distribution/">Band Content Distribution</a>
+				  </li>
+				  <li>
+					<a href="http://www.band.uol.com.br/investor/">Investor Relations</a>
+				  </li>
+				  <li>
+					<a href="http://www.band.uol.com.br/torre/">Torre Band</a>
+				  </li>
+				  <li>
+					<a href="http://www.metrojornal.com.br/">Metro Jornal</a>
+				  </li>
+				  <li>
+					<a href="http://primeiramao.band.com.br/">Primeiramão</a>
+				  </li>
+				</ul>
+
+				<ul class="item_menu_200">
+				  <li>Recursos Humanos</li>
+				  <li>
+					<a href="https://portalfuncionario.band.com.br/candidatoweb2.html">Trabalhe Conosco</a>
+				  </li>
+				</ul>         
+			  </div>
+			</div>
+		  </li>
+		</ul>
+
+		<div class="content-share">
+		  <ul>
+			<li class="ico-menu-facebook">
+			  <a href="https://www.facebook.com/Band.com.br/" target="_blank">Facebook</a>
+			</li>
+			<li class="ico-menu-twitter">
+			  <a href="https://twitter.com/portaldaband" target="_blank">Twitter</a>
+			</li>
+		  </ul>
+		</div>
+	</div>
+  </div>
+</nav>
+<div class="clearfix"></div>
+
+
+<div class="container">
+	<header class="titulo">
+		
+		<div class="menu_titulo">
+			<a href="#" class="menu_botao"><i class="fa fa-bars"></i></a>
+			<nav>
+	<div class="seta"></div>
+	<div class="parte1">
+		<ul>
+	<li><a href="http://esporte.band.com.br/bandesporteclube/" title="" class="ativo">Página inicial</a></li>
+	<li><a href="http://esporte.band.com.br/bandesporteclube/aovivo/" title="" class="">Ao vivo</a></li>
+	
+</ul>
+	</div>
+	<div class="parte2">
+		<h3 class="category-menu" ><a href="http://esporte.band.uol.com.br/">Esporte</a></h3>
+<h4 class="category-menu">Editorias</h4>
+<ul>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/">Futebol</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/brasileirao-serie-a/">Brasileirão</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/brasileirao-serie-b/">Série B</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/copa-america/2016/">Copa América</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/copa-do-brasil/">Copa do Brasil</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/eurocopa/">Eurocopa</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/feminino/">Futebol Feminino</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/futebol-internacional/">Futebol Internacional</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/libertadores/2016/">Libertadores</a></li>
+	<li><a target="_self" href="http://esporte.band.uol.com.br/futebol/liga-dos-campeoes/2016-17/">Liga dos Campeões</a></li>
+	
+</ul>
+
+<h4 class="category-menu">Programas da TV</h4>
+<ul>
+		<li><a target="_self" href="http://esporte.band.uol.com.br/jogoaberto/">Jogo Aberto </a></li>
+		<li><a target="_self" href="http://esporte.band.uol.com.br/osdonosdabola/">Os Donos da Bola </a></li>
+		<li><a target="_self" href="http://esporte.band.uol.com.br/terceirotempo/">Terceiro Tempo </a></li>
+</ul>
+</ul>
+	</div>
+</nav> 
+		</div>
+
+		
+			<h2>
+				<a href="http://esporte.band.com.br/bandesporteclube/">Band Esporte Clube<span> .</span></a>
+			</h2>
+		
+		
+		<ul class="cp-share-list">
+          <li>
+            <a href="http://www.band.uol.com.br/tv/programacao.asp" target="_blank" title="Programação completa"><img src="http://esporte.band.com.br/bandesporteclube/images/icon_horarios.png"></a>
+          </li>
+		
+        </ul>
+
+	</header> 
+
+	
+	
+	
+	
+</div>
+<main ng-cloak class=main ng-app=videosBand id=videos><link rel=stylesheet href=http://www.band.uol.com.br/includes/html/videos/styles/vendor-2c7a868db2.css><link rel=stylesheet href=http://www.band.uol.com.br/includes/html/videos/styles/app-7df6713154.css><script type=text/javascript>var _USAR_DESTAQUE_EDITOR = ('False'.toLowerCase() === 'true');
+        var _PROXIMO_VIDEO_AUTOMATICO = ('True'.toLowerCase() === 'true');
+        var _USAR_VIDEOS_RELACIONADOS = ('True'.toLowerCase() === 'true');
+        var _USAR_VIDEOS_POR_DATA = ('False'.toLowerCase() === 'true');
+        var _USAR_DESTAQUE_NOTICIAS = ('False'.toLowerCase() === 'true');
+        var _TITULO_DESTAQUE_NOTICIAS = 'Destaques';
+        var _ITEMS_POR_NOTICIAS = '';
+        var _USAR_ENQUETE = ('False'.toLowerCase() === 'true');
+        var _COD_PROFILE = 'hpekq03k3r08';
+        var _COD_EDITOR = parseInt('29');
+        var _ITEMS_PER_PAGE = parseInt('20');
+        var _PERIOD_START = '';
+        var _PERIOD_END = '';
+        var _DEFAULT_TAG_ID = '589615';
+        var _TAG_ID_DESTAQUE_EDITOR = '177960';
+        var _CODIGO_MENU_VID = '89';
+        var _CODIGO_PDT = '100000806';
+        var _CODIGO_CNL = '29';
+        var _TAG_NAME = 'band esporte clube';
+        var _USAR_TAG_AOVIVO = (''.toLowerCase() === 'true');
+        var _STREAM_KEY = '';</script><!-- <script type="text/javascript">
+      var _USAR_DESTAQUE_EDITOR = false;
+      var _PROXIMO_VIDEO_AUTOMATICO = true;
+      var _USAR_VIDEOS_RELACIONADOS = false;
+      var _USAR_VIDEOS_POR_DATA = false;
+      var _USAR_DESTAQUE_NOTICIAS = false;
+      var _TITULO_DESTAQUE_NOTICIAS = "destaques";
+      var _ITEMS_POR_NOTICIAS = 3;
+      var _USAR_ENQUETE = false;
+      var _COD_PROFILE = "";
+      var _COD_EDITOR = 29;
+      var _ITEMS_PER_PAGE = 12;
+      var _PERIOD_START = "";
+      var _PERIOD_END = "";
+      var _DEFAULT_TAG_ID = "67239";
+      var _TAG_ID_DESTAQUE_EDITOR = "177960";
+      var _CODIGO_MENU_VID = "81";
+      var _CODIGO_PDT = "16";
+      var _CODIGO_CNL = "16";
+      var _TAG_NAME = "jornal da band";
+      var _USAR_TAG_AOVIVO = true;
+      var _STREAM_KEY = 'brasilurgente'
+    </script>  --><div ui-view></div><script src=http://www.band.uol.com.br/includes/html/videos/scripts/vendor-36f115a5db.js></script><script src=//mais.uol.com.br/stc/mais/j/uolplayer/uolplayer.iframe.min.js></script><script type=text/javascript>(function (factory) {
+              if (typeof define === 'function' && define.amd) {
+                  define(['moment'], factory); // AMD
+              } else if (typeof exports === 'object') {
+                  module.exports = factory(require('../moment')); // Node
+              } else {
+                  factory(window.moment); // Browser global
+              }
+          }(function (moment) {
+              return moment.defineLocale('pt-br', {
+                  months : 'janeiro_fevereiro_março_abril_maio_junho_julho_agosto_setembro_outubro_novembro_dezembro'.split('_'),
+                  monthsShort : 'jan_fev_mar_abr_mai_jun_jul_ago_set_out_nov_dez'.split('_'),
+                  weekdays : 'domingo_segunda-feira_terça-feira_quarta-feira_quinta-feira_sexta-feira_sábado'.split('_'),
+                  weekdaysShort : 'dom_seg_ter_qua_qui_sex_sáb'.split('_'),
+                  weekdaysMin : 'dom_2ª_3ª_4ª_5ª_6ª_sáb'.split('_'),
+                  longDateFormat : {
+                      LT : 'HH:mm',
+                      L : 'DD/MM/YYYY',
+                      LL : 'D [de] MMMM [de] YYYY',
+                      LLL : 'D [de] MMMM [de] YYYY [às] LT',
+                      LLLL : 'dddd, D [de] MMMM [de] YYYY [às] LT'
+                  },
+                  calendar : {
+                      sameDay: '[Hoje às] LT',
+                      nextDay: '[Amanhã às] LT',
+                      nextWeek: 'dddd [às] LT',
+                      lastDay: '[Ontem às] LT',
+                      lastWeek: function () {
+                          return (this.day() === 0 || this.day() === 6) ?
+                              '[Último] dddd [às] LT' : // Saturday + Sunday
+                              '[Última] dddd [às] LT'; // Monday - Friday
+                      },
+                      sameElse: 'L'
+                  },
+                  relativeTime : {
+                      future : 'em %s',
+                      past : '%s atrás',
+                      s : 'segundos',
+                      m : 'um minuto',
+                      mm : '%d minutos',
+                      h : 'uma hora',
+                      hh : '%d horas',
+                      d : 'um dia',
+                      dd : '%d dias',
+                      M : 'um mês',
+                      MM : '%d meses',
+                      y : 'um ano',
+                      yy : '%d anos'
+                  },
+                  ordinal : '%dº'
+              });
+          }));</script><script src=http://www.band.uol.com.br/includes/html/videos/scripts/app-fb48ee817c.js></script></main><div id="billboard_superleaderboard" class="banner"></div>
+
+<!-- FOOTER -->
+
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!--<script src="http://esporte.band.com.br/bandesporteclube/js/configuracoes.js"></script>-->
+	<script src="http://esporte.band.com.br/bandesporteclube/js/mobile-detect.js"></script>
+	<script src="http://esporte.band.com.br/bandesporteclube/js/mobile-menu.js"></script>
+	<script src="http://esporte.band.com.br/bandesporteclube/js/menuMobile.js"></script>
+	<script src="http://esporte.band.com.br/bandesporteclube/js/scripts.js"></script>
+	<!--<script src="http://esporte.band.com.br/bandesporteclube/js/scripts.js"></script>
+	<script src="http://esporte.band.com.br/bandesporteclube/js/plugins/handlebars.js"></script>
+	<script src="http://esporte.band.com.br/bandesporteclube/js/fotos.js"></script>-->
+
+	<!--<script src="http://esporte.band.com.br/bandesporteclube/js/plugins/owl.carousel2.min.js"></script>-->
+	
+	<script src="//mais.uol.com.br/stc/mais/j/uolplayer/uolplayer.iframe.min.js"></script>
+	
+	
+
+	
+	<script type="text/javascript">
+ 
+	var Config = window.config || {}
+
+	Config.Metricas = {
+	  'parceiro'       : 'Bandportal',
+	  'canal'          : 'Esporte',
+	  'subcanal'       : 'Band Esporte Clube'
+	}; 
+
+	<!-- Google Tag Manager -->
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-CCNR');
+	<!-- End Google Tag Manager -->
+
+	console.log('canal: ' + Config.Metricas.canal);
+	console.log('subcanal: ' + Config.Metricas.subcanal);
+
+    </script>
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-CCNR" height="0" width="0" style="display:none;visibility:hidden">	</iframe></noscript>
+
+
+    <!-- SiteCatalyst code version: H.20.2. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+    
+    <script language="JavaScript" type="text/javascript" src="http://me.jsuol.com/omtr/band.js"></script>
+    
+    <script language="JavaScript" type="text/javascript"><!--
+	
+	
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+	
+    var s_code=uol_sc.t();if(s_code)document.write(s_code)//--></script>
+    <!-- End SiteCatalyst code version: H.20.2. -->
+    </script>
+
+	<div class="bg_breadcrumb_program mb-30 mt50">
+		<div class="container">
+			<ul class="breadcrumb_program">
+				<li><a href="http://www.band.uol.com.br/" title="Portal da Band">Band.com.br</a></li>
+				<li><a href="http://esporte.band.uol.com.br/" title="Editoria de Esporte">Esporte</a></li>
+				<li><a href="http://esporte.band.com.br/bandesporteclube" title="Band Esporte Clube">Band Esporte Clube</a></li>
+			</ul>
+		</div>
+	</div>
+	
+    	<link rel="stylesheet" type="text/css" href="http://www.band.uol.com.br/css/rodape_pq.css">
+	<div class="rodape-novo">
+		<div class="container">
+			
+			<div class="etapa1">
+				<h2>
+					<a href="http://www.band.uol.com.br/grupo/grupo.asp" target="_blank">
+						<img src="http://www.band.uol.com.br/rodape-novo/logo-band-rodape.png" alt="Logotipo do Grupo Bandeirantes">
+					</a>
+				</h2>
+				<p>Rua Carlos Cirilo Jr, 92 - São Paulo - SP</p>
+			</div>
+
+			<div class="etapa2">
+				<ul>
+					<li>Contato</li>
+					<li><a href="https://portalfuncionario.band.com.br/candidatoweb2.html" target="_blank" title="Trabalhe Aqui">Trabalhe Aqui</a></li>
+					<li><a href="http://www.band.uol.com.br/faleconosco/" target="_blank" title="Fale Conosco">Fale Conosco</a></li>
+				</ul>
+
+				<ul>
+					<li>Comercial</li>
+					<li><a href="http://blogs.band.com.br/midiakit/" target="_blank" title="Anuncie On-line">Anuncie On-line</a></li>
+					<li><a href="http://comercial.band.uol.com.br/" target="_blank" title="Anuncie TV">Anuncie TV</a></li>
+				</ul>
+			</div>
+
+			<div class="etapa3">
+				<ul>
+					<li>
+						<a href="https://twitter.com/bandtv" target="_blank" title="Perfil da Band no Twit

@@ -1,0 +1,1875 @@
+|||
+http://nesse.link/SucuriNS
+|
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US" prefix="og: http://ogp.me/ns#">
+<head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Sucuri — A Website Security Platform</title>
+    <meta name="description" content="Sucuri is a platform-agnostic Website Security Platform built on a suite of security tools designed to help website owners monitor security issues, fix hacked websites, and protect against all emerging threats." />
+    <meta name="keywords" content="website security, malware removal, hack removal, ddos protection, website protection, WordPress hacked, joomla hacked, hack recover, sucuri, securi, waf, WordPress security" />
+    <meta name="robots" content="noodp,noydir" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://sucuri.net/" />
+
+    <link rel="stylesheet" href="/css/style.css?v=1489981781" type="text/css" />
+
+    <link rel='stylesheet' id='googleFonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic&#038;ver=3.9.1' type='text/css' media='all' />
+
+    <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+
+    <meta property="fb:admins" content="106976436017527" />
+    <meta property="fb:app_id" content="129097357114488" />
+    <meta property="og:url" content="https://sucuri.net/" />
+    <meta property="og:title" content="Sucuri Security" />
+    <meta property="og:site_name" content="Sucuri Security" />
+    <meta property="og:description" content="Sucuri is a platform-agnostic Website Security Platform built on a suite of security tools designed to help website owners monitor security issues, fix hacked websites, and protect against all emerging threats." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://sucuri.net/images/og/SucuriWebsite.png" />
+    <meta property="og:locale" content="en_us" />
+
+	<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+  <!-- start Mixpanel -->
+  <script type="text/javascript">
+  (function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+  for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+  mixpanel.init("c59343135653bd9019d29f1db79e348b");
+  </script>
+  <!-- end Mixpanel -->
+  
+  <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-4077922-18', 'auto');
+     ga('require', 'linker');
+     ga('linker:autoLink', ['ddecode.com', 'unmaskparasites.com', 'urlfind.org']);
+     ga('send', 'pageview');
+  </script>
+  <!-- Start bing pixel -->
+  <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5117505"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5117505&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+  <!-- End bing pixel -->
+
+</head>
+
+
+<body class="home-a">
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        
+        <i id="toggle-main-menu-mobile"></i>
+        <!-- <i id="toggle-user-menu-mobile"></i> -->
+
+        <div class="c-lg-2 c-md-2 sucuri-logo">
+          <a href="/" title="Sucuri Security" class="mp-sucuri-logo"></a>
+        </div>
+
+        <div id="mp-top-nav" class="top-nav-wrapper">
+          <div class="c-lg-3 c-md-3 nav-bar pro-sol">
+            <ul class="nav">
+              <li class="dropdown">
+                <a href="/website-security-platform/signup" class="mp-products-button">Products</a>
+                <div class="inner-nav-bar prod">
+                  <i class="pointer"></i>
+                  <ul>
+                    <li>
+                      <a href="/website-security-platform/" class="mp-website-complete-security">Sucuri Platform</a>
+                    </li>
+                    <li>
+                      <a class="right-firewall-malwareprevention mp-website-protection" href="/website-firewall/">Sucuri Firewall </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a href="/website-security-platform/signup" class="mp-industry-button">Industry</a>
+                <div class="inner-nav-bar sol">
+                  <i class="pointer"></i>
+                  <ul>
+                    <li>
+                      <a class="right-antivirus-cleanup  mp-website-enterprise" href="/custom/enterprise/">Enterprise Solutions</a>
+                    </li>
+                    <li>
+                       <a class="right-antivirus-cleanup  mp-website-agency" href="/custom/agency/">Agency Solutions</a>
+                    </li>
+                    <li>
+                      <a href="/lp/education-website-security" class="mp-website-education">Education</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+                        <ul class="nav lang-toggle">
+              <li class="default">
+              <span class="default-lang"></span>
+                <ul class="dropdown">
+                  <li class="eng"><a href="/" class="mp-english"><span class="flag"></span>English</a></li>
+                  <li class="spani"><a href="/es/" class="mp-spanish"><span class="flag"></span>Spanish</a></li>
+                  <li class="porto"><a href="/pt/" class="mp-portuguese"><span class="flag"></span>Portuguese</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="c-lg-3 c-md-3 nav-bar ua-lg">
+            <ul class="nav">
+              <li class="dropdown">
+                <a href="/website-security-platform/signup" class="mp-under-attack-button u-attack">Are You Under Attack?</a>
+                <div class="inner-nav-bar ua">
+                  <i class="pointer"></i>
+                  <a class="mp-under-attack-malware-removal" href="/website-security/malware-removal">
+                    <p class="lead">Clean Hacked Site</p>
+                    <p>My site has malware, is Blacklisted or Hacked</p>
+                  </a>
+                  <a class="mp-under-attack-ddos-protection" href="/website-security/ddos-protection">
+                    <p class="lead">Protect My Site</p>
+                    <p>My site is under Attack (ie: DDoS, Brute force)</p>
+                  </a>
+                </div>
+              </li>
+              <li class="dropdown"><a href="https://dashboard.sucuri.net/login" class="login mp-login-btn">Login</a></li>
+            </ul>
+          </div>
+          
+          <div class="phone">
+            <a href="tel:+1–888–873–0817">1&ndash;888&ndash;873&ndash;0817</a> 
+          </div>
+
+          <div class="header-social">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="p-ft-social-fb" href="https://www.facebook.com/SucuriSecurity" target="_blank"><i class="social-icon facebook"></i></a></li>
+                <li class="list-inline-item"><a class="p-ft-social-tw" href="https://twitter.com/sucurisecurity" target="_blank"><i class="social-icon twitter"></i></a></li>
+                <li class="list-inline-item"><a class="p-ft-social-ig" href="https://www.instagram.com/sucurisecurity/" target="_blank"><i class="social-icon instagram"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- top-nav-wrapper -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- header -->
+
+<!-- start Mixpanel -->
+<script type="text/javascript">
+mixpanel.track('Page Viewed', {
+    'page name' : "Website Home Page - EN",
+    'url' : window.location.pathname
+});
+</script>
+<!-- end Mixpanel -->
+
+<!-- start Knowledge Graph -->
+ <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name" : "Sucuri Security",
+      "url": "http://sucuri.net",
+      "sameAs" : [ "http://www.facebook.com/sucurisecurity",
+         "http://www.twitter.com/sucurisecurity",
+         "https://www.instagram.com/sucurisecurity",
+         "https://plus.google.com/+SucuriNet",
+         "https://www.linkedin.com/company/sucuri-security"], 
+      "logo": "http://sucuri.net/images/logo.png",
+     "contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+1–888–873–0817",
+      "contactType" : "Sales",
+      "contactOption" : "TollFree"
+       } ] }
+    </script>
+<!-- end Knowledge Graph -->
+
+    <div id="mp-home-hero" class="hero home-a">
+      <div class="container-fluid no-padding-bottom">
+        <div class="row">
+
+	          <div class="c-lg-12 lead hero-text">
+	            <h1>Complete Website Security</h1>
+	            <h2>Enterprise-grade security for every website.</h2>
+	          </div>
+	
+	          <div class="c-lg-12  hero-cards">
+	            <div class="cards-wrapper">
+	              <div class="card clean-s text-left">
+                  <h3 class="heading">Clean Hacked Sites:</h3>
+	                <ul class="check-list">
+	                  <li class="list-block-item">Infected with Malware</li>
+	                  <li class="list-block-item">Blacklisted by Google</li>
+	                  <li class="list-block-item">Disabled by Host</li>
+	                  <li class="list-block-item">Spam in Search Results</li>
+	                </ul>
+	
+	              </div>
+	              <div class="card protect-s">
+                  <h3 class="heading">Protect from attacks:</h3>
+	                <ul class="check-list">
+	                  <li class="list-block-item">Under DDoS</li>
+	                  <li class="list-block-item">Under Brute Force</li>
+	                  <li class="list-block-item">Multiple Reinfections</li>
+	                  <li class="list-block-item">Exploiting Vulnerabilities</li>
+	                </ul>
+	              </div>
+	            </div>
+	          </div>
+
+          <div class="c-lg-12 hero-btns-wrapper">
+            <a href="/website-security-platform/signup" class="btn mp-home-hero-secure-now">Secure Your Site</a>
+            <a href="#c-ws-wrapper" class="btn outline mp-home-hero-learn-more">Learn More</a>
+          </div>
+          <div class="c-lg-12 text-right t-feat">
+              <p class="small hidden-sm-down"><span>Mostar • Bosnia and Herzegovina •  Home of Sucuri's</span><br>Jo&scaron;ko - Sales Representative &amp; Ante - Software Engineer</p>
+            </div>
+          <div class="bg-gray">
+            <div class="logos-container">
+              <ul class="list-inline">
+                <li class="list-inline-item"><img src="/images/15-wordpress-white-logo.png" width="177px" alt="WordPress"></li>
+                <li class="list-inline-item"><img src="/images/15-joomla-white-logo.png" width="128px" alt="Joomla"></li>
+                <li class="list-inline-item"><img src="/images/15-drupal-white-logo.png" width="114px" alt="Drupal"></li>
+                <li class="list-inline-item"><img src="/images/15-magento-white-logo.png" width="122px" alt="Magento"></li>
+                <li class="list-inline-item"><img src="/images/15-microsoft-white-logo.png" width="102px" alt="Dot net"></li>
+                <li class="list-inline-item"><img src="/images/15-phpbb-white-logo.png" width="70px" alt="phpbb"></li>
+                <li class="list-inline-item"><img src="/images/15-vbulletin-white-logo.png" width="89px"  alt="Bulletin"></li>
+              </ul>
+            </div>
+            <!-- /.logos-container --> 
+          </div>
+          <!-- /.bg-gray -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- .hero -->
+
+    <div class="website-security-stack-container" id="mp-puzzle-container">
+      <div class="container website-security-stack-wrapper">
+        <div class="row">
+          <div class="c-lg-12">
+            <div class="lead text-center">
+              <h3>Website Security Platform</h3>
+              <p class="header">Detection. Response. Protection. Performance.</p>
+            </div>
+            <!-- /.lead -->
+            <div class="c-lg-7 center-block">
+              <p class="text-center no-margin">Our platform offers the most complete suite of tools designed to offer peace of mind and solutions when they are needed most.</p>
+            </div>
+          </div>
+          
+          <div class="c-lg-12 website-security-stack margin-top-15 hidden-md-up">
+            <div class="left-stacks">
+              <div class="stack-defence-wrapper">
+                <div class="pointer">
+                  <div class="line"></div>
+                  <div class="line-break-down"></div>
+                </div>
+                <div class="icon-container">
+                  <i class="icon icon-defence"></i>
+                </div>
+                <div class="stack stack-defence">
+                  <p class="heading">Performance</p>
+                  <p>Performance optimization via an Anycast Content Distribution Network (CDN).</p>
+                </div>
+              </div>
+              <div class="stack-response-wrapper">
+                <div class="pointer">
+                  <div class="line"></div>
+                  <div class="line-break-down"></div>
+                </div>
+                <div class="icon-container">
+                  <i class="icon icon-response"></i>
+                </div>
+                <div class="stack stack-response">
+                  <p class="heading">Response</p>
+                  <p>Security incident response team available 24/7/365.</p>
+                </div>
+              </div>
+            </div>
+            <div class="puzzle-container">
+              <img src="/images/15-puzzle-image.png" alt="website security stack puzzle">
+            </div>
+            <div class="right-stacks">
+              <div class="stack-protection-wrapper">
+                <div class="pointer">
+                  <div class="line-break-down"></div>
+                  <div class="line"></div>
+                </div>
+                <div class="icon-container">
+                  <i class="icon icon-protection"></i>
+                </div>
+                <div class="stack stack-protection">
+                  <p class="heading">Protection</p>
+                  <p>Enterprise-grade cloud-based Website Application Firewall (WAF) &amp; Intrusion Prevention System (IPS).</p>
+                </div>
+              </div>
+              <div class="stack-detection-wrapper">
+                <div class="pointer">
+                  <div class="line-break-down"></div>
+                  <div class="line"></div>
+                </div>
+                <div class="icon-container">
+                  <i class="icon icon-detection"></i>
+                </div>
+                <div class="stack stack-detection">
+                  <p class="heading">Detection</p>
+                  <p class="no-margin-bottom">Continuous monitoring of all security related issues, quickly identify potential Indicators of Compromise (IoC) (e.g., malware).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /.website-security-stack -->
+
+          <div class="c-lg-12 website-security-stack margin-top-15 hidden-sm-down text-center">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 940 381" style="enable-background:new 0 0 940 447.9;" xml:space="preserve">
+              <g id="Puzzle">
+                <path class="st0" d="M587.1,207.6l12.9-25.4l-36.2-18.4c0,0,17.4-12.5-0.2-21.4c-17.6-8.9-17.4,12.5-17.4,12.5l-35.5-17.1
+                  l-12.9,25.4c0,0,21.9,0.5,13.3,17.4c-8.6,17-21.9-0.5-21.9-0.5l-12.9,25.4l35.5,17.1c0,0-17.4,12.5,0.2,21.4
+                  c17.6,8.9,17.4-12.5,17.4-12.5l36.2,18.4l12.9-25.4c0,0-21.9-0.5-13.3-17.4C573.8,190.2,587.1,207.6,587.1,207.6L587.1,207.6z"/>
+                <path class="st1" d="M510.8,137.7l12.7-25.5c0,0-21.9-0.3-13.4-17.3c8.5-17,21.9,0.3,21.9,0.3l15.4-33.9l-34.5-18.5
+                  c0,0,0.4,21.4-17.3,12.6c-17.7-8.8-0.4-21.4-0.4-21.4l-37.1-18.8l-15.4,33.9c0,0-13.4-17.3-21.9-0.3c-8.5,17,13.4,17.3,13.4,17.3
+                  l-12.7,25.5l37.1,18.8c0,0-0.4-21.4,17.3-12.6c17.7,8.8,0.4,21.4,0.4,21.4L510.8,137.7L510.8,137.7z"/>
+                <path class="st2" d="M387.3,159.6l-12.9,25.4c0,0,21.9,0.5,13.3,17.4c-8.6,17-21.9-0.5-21.9-0.5l-17.4,33.5l37,19.1
+                  c0,0-17.4,12.5,0.2,21.4c17.6,8.9,17.4-12.5,17.4-12.5l34.5,17.9l17.4-33.5c0,0,13.3,17.4,21.9,0.5c8.6-17-13.3-17.4-13.3-17.4
+                  l12.9-25.4l-34.5-17.9c0,0,0.2,21.4-17.4,12.5c-17.6-8.9-0.2-21.4-0.2-21.4L387.3,159.6L387.3,159.6z"/>
+                <path class="st3" d="M342.3,52.4l-12.9,25.4c0,0,21.9,0.5,13.3,17.4c-8.6,17-21.9-0.5-21.9-0.5l-12.9,25.4l30.4,15.6
+                  c0,0-0.2-21.4,17.4-12.5c17.6,8.9,0.2,21.4,0.2,21.4l31.4,14.9l12.9-25.4c0,0,13.3,17.4,21.9,0.5c8.6-17-13.3-17.4-13.3-17.4
+                  l12.9-25.4l-31.4-14.9c0,0,17.4-12.5-0.2-21.4C372.6,46.6,372.8,68,372.8,68L342.3,52.4L342.3,52.4z"/>
+                <path class="st4" d="M489.1,177.9l1.1,1.5c0.1,0.1,6.2,7.9,12.3,7.4c3-0.3,5.5-2.5,7.7-6.8c2.1-4.2,2.5-7.6,0.9-10.2
+                  c-3.1-5.3-13.1-5.5-13.2-5.5l-1.9,0l13.2-26.1l-35.2-18.8l1.5-1.1c0.1-0.1,7.6-5.6,7.1-11.4c-0.3-3-2.7-5.7-7.3-8
+                  c-4.6-2.3-8.2-2.6-10.8-1c-5,3.1-4.9,12.5-4.9,12.6l0,1.9l-37.5-19l-11.6,22.8c3.4,0.4,10.4,1.7,13.3,6.5c2,3.3,1.7,7.5-0.8,12.4
+                  c-2.5,5-5.7,7.7-9.5,8c-5.7,0.5-10.9-4.4-13.1-6.9l-11.6,22.8l37.6,19.4l-1.5,1.1c-0.1,0.1-7.6,5.6-7.2,11.4c0.2,3,2.7,5.7,7.2,8
+                  c4.5,2.3,8.2,2.7,10.8,1.1c5-3.1,5-12.4,5-12.5l0-1.9l35.2,18.2L489.1,177.9z"/>
+                <text transform="matrix(0.8986 0.4387 -0.4387 0.8986 441.0919 140.9224)"><tspan x="0" y="0" class="st5 st6 st7">Your</tspan><tspan x="-14.3" y="20.7" class="st5 st6 st7">Website</tspan></text>
+              </g>
+              <g id="Protection_1_">
+                <path class="st8" d="M25,335.8c-4.2,0.2-8.2-1.6-10.1-3c-2.9-2.2-5.1-5.4-5.8-9.1c-0.5-3.1-0.6-6.2,1.6-9.6
+                  c-1.2,4.8,3.4,9.7,7.2,9.3c-3-0.6-5.3-4.3-5.3-7.4c0-5,4-9.4,7.5-13.2c3.2-3.5,6.1-9.4,2.8-12.6h0.2c2.2,0.6,4.6,3.8,5,5.8
+                  c0.8,3.4-0.1,6.2-1.3,8.6c-1.2,2.2-3.2,4.2-3.8,6.7c-0.2,0.9-0.1,1.9,0.3,2.8c0.6,1.2,1.6,2,3,1.4c3-1.2,1.8-5.1-0.2-7
+                  c3.8,2,6.7,6.1,4.5,11c-0.5,1-1.3,2.1-2.3,2.7c3.1-1.2,5.2-5.1,5.4-8.5c0.2-3.2-2.3-6.6-1.5-9.8c0.5-1.8,1.5-3.5,3.4-4.2
+                  c-4.1,3.4,1,8.9,3.4,12.4c3.9,5.7,2.8,13.2-1.4,18c-2.4,2.8-6.7,5.6-11.9,5.6H25z"/>
+                <path class="st9" d="M30.1,310.6h1v1.5C30.8,311.6,30.5,311.1,30.1,310.6z M32.6,316.2c0.2-0.8,0.4-1.6,0.4-2.4
+                  c0.1-1-0.2-2.1-0.5-3.2h-0.3v5c0,0.2,0,0.4,0,0.5H32.6z M24.1,313.8c0.3,0.7,1,1.5,2,1.1c0.7-0.3,1.1-0.8,1.3-1.5
+                  c0.2-0.8-0.1-1.8-0.6-2.7h-2.7c-0.1,0.3-0.2,0.5-0.2,0.8C23.7,312.2,23.8,313.1,24.1,313.8z M45.8,316.2h12.6v-5.5H45.8V316.2z
+                   M52.6,322.8h12.6v-5.5H52.6V322.8z M58.4,297.4H45.8v5.5h12.6V297.4z M51.6,304H39v5.5h12.6V304z M39.7,311.8
+                  c0.9,1.3,1.6,2.8,2,4.4h3.1v-5.5h-5.9C39.2,311,39.5,311.4,39.7,311.8z M38,309.4V304h-3C35.4,305.6,36.6,307.5,38,309.4z
+                   M59.5,329.4h12.6v-5.5H59.5V329.4z M45.8,329.4h12.6v-5.5H45.8V329.4z M39.4,329.4h5.4v-5.5h-3C41.4,325.8,40.5,327.7,39.4,329.4z
+                   M19.5,302.4L19.5,302.4c1.3-1.4,2.5-3.1,3.3-5h-4.2v5.5H19C19.2,302.8,19.3,302.6,19.5,302.4z M59.5,297.4v5.5h12.6v-5.5H59.5z
+                   M66.3,304v5.5H72V304H66.3z M59.5,316.2h12.6v-5.5H59.5V316.2z M66.3,317.3v5.5H72v-5.5H66.3z M28,304c-0.1,0.3-0.3,0.6-0.4,0.9
+                  c-0.4,0.8-1,1.6-1.5,2.4c-0.1,0.1-0.1,0.2-0.2,0.2l0.7,0.4c0.8,0.4,1.6,1,2.4,1.6h3.2c-0.6-1.8-1.1-3.7-0.7-5.5H28z M28.4,303h2.7
+                  v-5.5h-2C29.3,299.3,29.1,301.1,28.4,303z M35.4,299.1l4.1-1.5l-3.3,2.8c-0.9,0.7-1.3,1.6-1.3,2.5h9.9v-5.5H32.2v4.6
+                  C33,300.6,34.1,299.6,35.4,299.1z M51.6,322.8v-5.5H42c0.3,1.8,0.4,3.7,0.1,5.5H51.6z M65.2,304H52.6v5.5h12.6V304z"/>
+                <text transform="matrix(1 0 0 1 87.0173 299.231)" class="st10 st6 st11">Protection</text>
+                <text transform="matrix(1 0 0 1 87.0179 322.3527)"><tspan x="0" y="0" class="st10 st12 st11">Website Application Firewall (WAF)  </tspan><tspan x="0" y="21" class="st10 st12 st11">&amp; Intrusion Prevention System (IPS).</tspan></text>
+                <path class="st13" d="M25,335.8c-4.2,0.2-8.2-1.6-10.1-3c-2.9-2.2-5.1-5.4-5.8-9.1c-0.5-3.1-0.6-6.2,1.6-9.6
+                  c-1.2,4.8,3.4,9.7,7.2,9.3c-3-0.6-5.3-4.3-5.3-7.4c0-5,4-9.4,7.5-13.2c3.2-3.5,6.1-9.4,2.8-12.6h0.2c2.2,0.6,4.6,3.8,5,5.8
+                  c0.8,3.4-0.1,6.2-1.3,8.6c-1.2,2.2-3.2,4.2-3.8,6.7c-0.2,0.9-0.1,1.9,0.3,2.8c0.6,1.2,1.6,2,3,1.4c3-1.2,1.8-5.1-0.2-7
+                  c3.8,2,6.7,6.1,4.5,11c-0.5,1-1.3,2.1-2.3,2.7c3.1-1.2,5.2-5.1,5.4-8.5c0.2-3.2-2.3-6.6-1.5-9.8c0.5-1.8,1.5-3.5,3.4-4.2
+                  c-4.1,3.4,1,8.9,3.4,12.4c3.9,5.7,2.8,13.2-1.4,18c-2.4,2.8-6.7,5.6-11.9,5.6H25z"/>
+                <polygon class="st2" points="295.1,275.6 9.8,275.6 9.8,278.3 296.1,278.3 312.8,263.2 312.8,259.5  "/>
+              </g>
+              <g id="Detection">
+                <text transform="matrix(1 0 0 1 87.2216 27.7653)" class="st10 st6 st11">Detection</text>
+                <text transform="matrix(1 0 0 1 87.2222 50.8868)"><tspan x="0" y="0" class="st10 st12 st11">Continuous website security</tspan><tspan x="0" y="21" class="st10 st12 st11">monitoring to quickly identify</tspan><tspan x="0" y="42" class="st10 st12 st11">potential Indicators of </tspan><tspan x="0" y="63" class="st10 st12 st11">Compromise (IoC).</tspan></text>
+                <path class="st14" d="M74.2,48C74,41.5,71.9,35.3,68,30.1l-1.1-1.4l-1.4,1.1l-21.5,16c-0.1,0-0.1-0.1-0.2-0.1
+                  c-0.5-0.2-1-0.3-1.5-0.3c-1.3,0-2.6,0.8-3.1,1.9c-0.4,0.8-0.5,1.8-0.1,2.7c0.3,0.9,0.9,1.6,1.8,2c0.5,0.2,1,0.3,1.5,0.3
+                  c1.1,0,2.2-0.5,2.9-1.5l28.9-1.2L74.2,48z"/>
+                <path class="st15" d="M62.8,51.4c-0.3,2.2-0.9,4.4-1.8,6.4C57.4,65.1,50,69.5,42.4,69.5c-2.9,0-5.9-0.6-8.8-2
+                  C23.4,62.7,19,50.4,23.8,40.2c2.4-5,6.5-8.7,11.7-10.5c5.2-1.8,10.7-1.6,15.7,0.8c2.2,1,4.2,2.5,5.9,4.2l-2.2,1.7
+                  c-3.1-3.1-7.3-4.9-11.6-5.1c-4.7-0.2-9.3,1.4-12.9,4.6c-3.5,3.2-5.6,7.6-5.8,12.4c-0.2,4.8,1.4,9.3,4.6,12.9s7.6,5.6,12.4,5.8
+                  c9.2,0.4,17.3-6.3,18.5-15.3L62.8,51.4z M49.6,51.9c-1.3,3.3-4.8,5.3-8.5,4.8c-4.3-0.7-7.2-4.7-6.5-9c0.7-4.3,4.7-7.2,9-6.5
+                  c0.7,0.1,1.5,0.3,2.1,0.7c0.3,0.1,0.6,0.3,0.9,0.5l1.8-1.4c-3.8-3-9.3-2.8-12.9,0.7c-1.9,1.8-3.1,4.3-3.1,7
+                  c-0.1,2.7,0.9,5.2,2.7,7.1c2,2.1,4.6,3.1,7.3,3.1c2.5,0,4.9-0.9,6.8-2.7c1.3-1.2,2.2-2.7,2.7-4.4L49.6,51.9z M68.7,51.1
+                  c-0.3,3.2-1.1,6.3-2.5,9.2C60,73.5,44.2,79.1,31,72.9c-13.2-6.3-18.8-22.1-12.5-35.3C24.7,24.4,40.5,18.8,53.7,25
+                  c3,1.4,5.8,3.5,8.1,6l2.6-2c-2.6-2.9-5.8-5.3-9.3-7c-14.8-7-32.6-0.7-39.6,14.1c-3.4,7.2-3.8,15.2-1.2,22.7
+                  c2.7,7.5,8.1,13.5,15.2,16.9c4.1,2,8.4,2.9,12.7,2.9c11.1,0,21.8-6.3,26.9-17c1.6-3.4,2.6-7,2.8-10.7L68.7,51.1z"/>
+                <polygon class="st2" points="9.8,6.2 297.5,6.2 315.2,22.3 315.2,18.7 298.5,3.6 9.8,3.6  "/>
+              </g>
+              <g id="Response">
+                <path class="st16" d="M646.3,35.2v-1.9h2.5v-1.2c0-2.1,1.9-3.8,4.2-3.8c2.3,0,4.2,1.7,4.2,3.8v1.2h2.4v1.9H646.3z M661.8,57.1
+                  c-2.7,0-5,2.2-5,5c0,2.7,2.2,5,5,5c2.7,0,4.9-2.2,4.9-5C666.7,59.3,664.5,57.1,661.8,57.1z M661.8,64.4c-1.3,0-2.4-1.1-2.4-2.4
+                  c0-1.3,1.1-2.4,2.4-2.4c1.3,0,2.4,1.1,2.4,2.4C664.2,63.4,663.1,64.4,661.8,64.4z M633.4,57.1c-2.7,0-5,2.2-5,5c0,2.7,2.2,5,5,5
+                  c2.7,0,5-2.2,5-5C638.4,59.3,636.2,57.1,633.4,57.1z M633.5,64.4c-1.3,0-2.4-1.1-2.4-2.4c0-1.3,1.1-2.4,2.4-2.4s2.4,1.1,2.4,2.4
+                  C635.8,63.3,634.8,64.4,633.5,64.4z"/>
+                <path class="st17" d="M670.1,48c1.5,0.3,2.4,0.9,3,4.6l1.1,6.6c0.4,2.1-0.8,2.9-2.3,2.9h-3.6c0-3.6-2.9-6.4-6.4-6.4
+                  c-3.6,0-6.4,2.9-6.4,6.4h-15.5c0-3.6-2.9-6.4-6.4-6.4c-3.6,0-6.4,2.9-6.4,6.4h-3c-1.1,0-1.9-0.8-1.9-1.8V38.6
+                  c0-1.2,0.9-2.1,2.1-2.1h33.5h5.5c1.5,0,2.6,0.7,3.1,2L670.1,48z M657.1,38.6v9h10.4l-3.7-9H657.1z M647.8,46.5V41h-5.5v5.5h-5.5V52
+                  h5.5v5.5h5.5V52h5.5v-5.5H647.8z"/>
+                <text transform="matrix(1 0 0 1 689.7582 37.0245)" class="st10 st6 st11">Response</text>
+                <text transform="matrix(1 0 0 1 689.7602 60.1462)"><tspan x="0" y="0" class="st10 st12 st11">Professional incident response</tspan><tspan x="0" y="21" class="st10 st12 st11">team available 24/7/365.</tspan></text>
+                <g>
+                  <polygon class="st2" points="930.3,13.7 602.7,13.7 586,28.7 586,32.4 603.7,16.3 930.3,16.3    "/>
+                </g>
+              </g>
+              <g id="Defense_IN_Depth">
+                <text transform="matrix(1 0 0 1 690.1436 313.9484)" class="st10 st6 st11">Performance</text>
+                <text transform="matrix(1 0 0 1 690.1456 337.0701)"><tspan x="0" y="0" class="st10 st12 st11">Performance optimization via</tspan><tspan x="0" y="21" class="st10 st12 st11">an anycast Content Distribution</tspan><tspan x="0" y="42" class="st10 st12 st11">Network (CDN)</tspan></text>
+                <path class="st18" d="M667.6,340.2l0,1.5c0,2.9,0,5.8,0,8.8c-2.3,0-4.6,0-7,0c0-0.3,0-0.5,0-0.8c0-6.3,0-12.7,0-19
+                  c0-0.4,0.1-0.6,0.4-0.9c2.2-1.8,4.4-3.7,6.5-5.5c0,0.7,0,1.5,0,2.4l0,1.6C667.6,332.3,667.6,336.3,667.6,340.2z M649.5,350.5
+                  c0-0.2,0-0.4,0-0.6c0-4.3,0-8.6,0-12.9c0-0.4,0.1-0.6,0.5-0.8c2-1,4-2,6-3c0.1-0.1,0.3-0.1,0.5-0.3c0,2.7,0,5.3,0,7.8l0,1
+                  c0,2.8,0,5.8,0,8.8C654.2,350.5,651.9,350.5,649.5,350.5z M638.5,339.8c2.3-0.6,4.6-1.2,7-1.7c0,0.9,0,9.6,0,12.2
+                  c0,0.1,0,0.2,0,0.4c-2.3,0-4.6,0-7,0C638.5,346.9,638.5,343.3,638.5,339.8z M634.4,340.3c0,3.4,0,6.8,0,10.3c-2.3,0-4.6,0-7,0
+                  c0-0.2,0-0.4,0-0.6c0-2.5-0.1-9.3-0.1-9.3C627.6,340.7,633.4,340.4,634.4,340.3z"/>
+                <path id="XMLID_1_" class="st16" d="M670.6,318.4c-11.5,13.5-26,20.2-43.6,20.2c0-0.2,0-0.3,0-0.4c0-0.7,0-1.3,0-2
+                  c7.5-0.9,14.5-3.2,21-6.9c6.6-3.7,12.1-8.6,17-14.5c-1.1-0.7-2.1-1.4-3.2-2.1c4.1-1.8,8.1-3.5,12.2-5.2c0,4.4,0,8.8,0,13.2
+                  C672.8,319.8,671.7,319.1,670.6,318.4z"/>
+                <polygon class="st2" points="930.4,290.8 603.5,290.8 585.8,274.7 585.8,278.4 602.5,293.5 930.4,293.5  "/>
+              </g>
+            </svg>
+
+          </div>
+          <!-- /.website-security-stack -->
+
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.website-security-stack-wrapper -->
+    </div>
+    <!-- /.website-security-stack-container -->
+
+    <div id="c-ws-wrapper" class="c-ws-wrapper bg-gray-opac">
+      <div class="container ">
+        <div class="row">
+          <div class="c-lg-12">
+            <div class="lead text-center no-margin-bottom">
+              <h3>We keep your website safe and hack-free!</h3>
+              <p class="header no-margin">The Sucuri Platform is a suite of tools designed for complete website security. With no additional cost or hidden fees, the Sucuri Platform is affordable, easy to deploy, and supported by a team of professionals at your disposal.</p>
+            </div>
+          </div>
+          <div class="c-lg-12 cws-feat-wrapper">
+            <div class="c-lg-3">
+              <div class="feat-card">
+                <div class="top-feat">
+                  <i class="icon icon-crhw"></i>
+                  <h4>Clean &amp; Repair Hacked Websites</h4>
+                </div>
+                <div class="feat-body">
+                  <p>Professional security incident response team available 24/7/365.</p>
+                  <a href="/website-security-platform/malware-removal" class="btn gray mp-home-crhw">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="c-lg-3">
+              <div class="feat-card">
+                <div class="top-feat">
+                  <i class="icon icon-ahp"></i>
+                  <h4>Attack &amp; Hack Prevention</h4>
+                </div>
+                <div class="feat-body">
+                  <p>A cloud-based WAF/IPS solution designed to stop hacks and attacks.</p>
+                  <a href="/website-firewall/stop-website-attacks-and-hacks" class="btn gray mp-home-ahp">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="c-lg-3">
+              <div class="feat-card">
+                <div class="top-feat">
+                  <i class="icon icon-grt"></i>
+                  <h4>Continuous<br> Monitoring</h4>
+                </div>
+                <div class="feat-body">
+                  <p>Continuous monitoring and alerting of any security related issues.</p>
+                  <a href="/website-security-platform/malware-scanning-and-detection" class="btn gray mp-home-sm">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="c-lg-3">
+              <div class="feat-card">
+                <div class="top-feat">
+                  <i class="icon icon-po"></i>
+                  <h4>Performance Optimization</h4>
+                </div>
+                <div class="feat-body">
+                  <p>Performance via a Content Distribution Network (CDN).</p>
+                  <a href="/website-firewall/your-site-faster" class="btn gray mp-home-po">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.c-ws-wrapper -->
+    </div>
+    <!-- /.c-ws-container -->
+
+    <div class="featured-in">
+      <div class="container padding-top-60 padding-bottom-60 no-b-padding-sm">
+        <div class="row">
+          <div class="c-lg-12 text-center">
+            <h3>Globally Recognized for our Research</h3>
+            <div class="logos-container">
+              <ul class="inline-list">
+                <li class="list-inline-item"><img src="/images/masable-logo-15.png" width="84px" alt="Mashable"></li>
+                <li class="list-inline-item"><img src="/images/cio-logo-15.png" width="66px" alt="CIO"></li>
+                <li class="list-inline-item"><img src="/images/zdnet-logo-15.png" width="84px" alt="ZDNET"></li>
+                <li class="list-inline-item"><img src="/images/pcworld-logo-15.png" width="113px" alt="PC World"></li>
+                <li class="list-inline-item"><img src="/images/forbes-logo-15.png" width="94px" alt="Forbes"></li>
+                <li class="list-inline-item"><img src="/images/arstech-logo-15.png" width="126px" alt="Ars Technica"></li>
+              </ul>
+            </div>
+            <!-- /.logos-container -->
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    
+    <div class="conatiner-fluid ad-feat-wrapper">
+      <div class="container ">
+        <div class="row">
+          <div class="lead text-center no-margin-bottom">
+            <h3>A Worry-Free Website Security Platform</h3>
+            <p class="no-margin header">Your website stays clean of hacks and protected year-round, hassle free.</p>
+          </div>
+
+
+          <div class="c-lg-12 ad-feat-container">
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-pyi"></i>
+                <h4>Protect Your Investment</h4>
+              </div>
+              <div class="feat-body">
+                <p>Your website content and traffic is important to you. We make sure it stays safe from harm.</p>
+              </div>
+            </div>
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-tsp"></i>
+                <h4>Trusted Service Provider</h4>
+              </div>
+              <div class="feat-body">
+                <p>We are recommended for our reliable support and cutting-edge website security research.</p>
+              </div>
+            </div>
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-etdu"></i>
+                <h4>Easy to Deploy &amp; Use</h4>
+              </div>
+              <div class="feat-body">
+                <p>No complicated setup or installation. You can set it and forget it, or customize freely.</p>
+              </div>
+            </div>
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-aaf"></i>
+                <h4>Affordable and Flexible</h4>
+              </div>
+              <div class="feat-body">
+                <p>Our annual plans are fixed in price, removing all price ambiguity.</p>
+              </div>
+            </div>
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-ps"></i>
+                <h4>Professional Support </h4>
+              </div>
+              <div class="feat-body">
+                <p>Our experienced team is always available 24/7/365 via our secure ticketing system.</p>
+              </div>
+            </div>
+            <div class="c-lg-4 adfeat">
+              <div class="feat-top">
+                <i class="icon icon-cdp"></i>
+                <h4>Customer Data Protection</h4>
+              </div>
+              <div class="feat-body">
+                <p>Keep your customers safe with free SSL certificates and PCI compliant firewall protection.</p>
+              </div>
+            </div>
+          </div>
+          <div class="c-lg-12 text-center">
+            <p class="header margin-top-60 margin-bottom-30">Secure Your Website with our Website Security Platform</p>
+            <a href="/website-security-platform/" class="btn mp-home-awfwsp">Get Started</a>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.conatiner-fluid ad-feat-container bg-gray-light -->
+
+    <div class="container-fluid ywst-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="lead text-center">
+            <h3>Your Website Security Team</h3>
+
+            <p class="header text-center">With Sucuri, you get a highly technical team of security professionals distributed around the world, each trained in identifying and fixing any issues you might be faced with. Consider us an extension of your existing team.</p>
+
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.container-fluid ywst-wrapper -->
+
+    <div class="hstats-wrapper container">
+      <div class="row">
+        <div class="c-lg-12">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1113.35 94.16">
+            <defs>
+            </defs>
+            <title>home-page-call-outs</title>
+            <g id="Seperators">
+              <line class="cls-1" x1="270.07" y1="22.62" x2="270.07" y2="84.62"/>
+              <line class="cls-1" x1="598.57" y1="22.62" x2="598.57" y2="84.62"/>
+              <line class="cls-1" x1="895.57" y1="22.62" x2="895.57" y2="84.62"/>
+            </g>
+            <g id="Right">
+              <text class="cls-2" transform="translate(997.84 50.44)">70%</text>
+              <text class="cls-3" transform="translate(980.25 69.12)">Faster Website<tspan x="-20.35" y="18">Reported on Average</tspan></text>
+              <path class="cls-4" d="M1465.81,176.55l12.63-9.37c-11.41-9-27.16-14.26-42.77-14.26a67.56,67.56,0,0,0-65.72,52.28h10.59a52.16,52.16,0,0,1,50.92-40.46C1444,164.6,1456.85,169.08,1465.81,176.55Z" transform="translate(-403.32 -152.92)"/>
+              <path class="cls-4" d="M1483.46,171.39l-11.68,11c5,6.11,8.69,14.8,10.59,22.81h19C1498.54,192.71,1492.15,180.21,1483.46,171.39Z" transform="translate(-403.32 -152.92)"/>
+              <path class="cls-5" d="M1484.28,167l-.56-.66-17,12.71a3.18,3.18,0,1,0,2.19,2.25Z" transform="translate(-403.32 -152.92)"/>
+            </g>
+            <g id="Left">
+              <text class="cls-6" transform="translate(109.65 51.8)">98%</text>
+              <text class="cls-3" transform="translate(112.46 72.12)">Support Ticket<tspan x="0" y="18">Satisfaction</tspan></text>
+              <path class="cls-4" d="M435.66,183.76a17.72,17.72,0,0,0,0,25.18l31,30.94,31-30.9a17.84,17.84,0,0,0-25.27-25.18l-5.71,5.69-5.74-5.72A17.88,17.88,0,0,0,435.66,183.76Z" transform="translate(-403.32 -152.92)"/>
+              <path class="cls-5" d="M434.32,210.28a19.62,19.62,0,0,1,0-27.87,19.84,19.84,0,0,1,28,0l.88.88a14.61,14.61,0,0,0-4.3-9.57,14.77,14.77,0,0,0-20.87,0l-4.71,4.7-4.74-4.73a14.73,14.73,0,0,0-20.87,20.8L433.25,220l5.43-5.41Z" transform="translate(-403.32 -152.92)"/>
+            </g>
+            <g id="MiddleLeft">
+              <polygon class="cls-4" points="350.17 11.16 349.65 14.08 349.62 14.09 346.5 14.66 349.65 15.25 350.22 18.46 350.8 15.25 350.82 15.24 353.94 14.66 350.8 14.08 350.26 11.07 350.22 10.87 350.17 11.16"/>
+              <polygon class="cls-4" points="487.28 5.64 486.76 8.56 486.72 8.57 483.61 9.14 486.76 9.73 487.33 12.94 487.9 9.73 487.93 9.72 491.05 9.14 487.9 8.56 487.37 5.55 487.33 5.35 487.28 5.64"/>
+              <polygon class="cls-4" points="474.34 7.36 473.82 10.29 473.78 10.29 470.67 10.87 473.82 11.45 474.39 14.66 474.96 11.45 474.99 11.45 478.11 10.87 474.96 10.29 474.43 7.28 474.39 7.07 474.34 7.36"/>
+              <polygon class="cls-4" points="481.68 7.83 480.31 15.47 480.23 15.49 472.08 17 480.31 18.53 481.81 26.93 483.31 18.53 483.38 18.52 491.55 17 483.31 15.47 481.91 7.6 481.81 7.07 481.68 7.83"/>
+              <polygon class="cls-4" points="420.43 40.11 419.9 43.03 419.87 43.04 416.76 43.61 419.9 44.2 420.48 47.41 421.05 44.2 421.07 44.19 424.2 43.61 421.05 43.03 420.51 40.02 420.48 39.82 420.43 40.11"/>
+              <polygon class="cls-4" points="407.48 41.83 406.96 44.75 406.93 44.76 403.82 45.34 406.96 45.92 407.54 49.13 408.11 45.92 408.13 45.92 411.26 45.34 408.11 44.75 407.57 41.74 407.54 41.54 407.48 41.83"/>
+              <polygon class="cls-4" points="414.82 42.3 413.46 49.94 413.37 49.96 405.23 51.47 413.46 53 414.96 61.4 416.46 53 416.52 52.99 424.69 51.47 416.46 49.94 415.05 42.07 414.96 41.54 414.82 42.3"/>
+              <polygon class="cls-4" points="346.11 9.43 345.59 12.36 345.56 12.36 342.44 12.94 345.59 13.52 346.17 16.73 346.74 13.52 346.76 13.52 349.89 12.94 346.74 12.36 346.2 9.35 346.17 9.14 346.11 9.43"/>
+              <polygon class="cls-4" points="340.51 11.63 339.15 19.27 339.06 19.28 330.91 20.79 339.15 22.32 340.65 30.72 342.15 22.32 342.21 22.31 350.38 20.79 342.15 19.27 340.74 11.39 340.65 10.87 340.51 11.63"/>
+              <text class="cls-3" transform="translate(346.15 72.12)">Sites Cleaned<tspan x="0" y="18">Each Month</tspan></text>
+              <text class="cls-7" transform="translate(335.5 51.33)">12,000+</text>
+            </g>
+            <g id="MiddleRight">
+              <path class="cls-4" d="M1120.5,175.77a33,33,0,1,0,0,46.6A33,33,0,0,0,1120.5,175.77Zm-3.68,42.93a27.75,27.75,0,1,1,0-39.25A27.75,27.75,0,0,1,1116.82,218.69Z" transform="translate(-403.32 -152.92)"/>
+              <text class="cls-8" transform="translate(673.4 57.94)">25</text>
+              <text class="cls-8" transform="translate(707.44 48.02) scale(0.58)">+</text>
+              <text class="cls-3" transform="translate(735.6 30.54)"><tspan class="cls-9"><tspan class="cls-10" x="0" y="18">Billion </tspan><tspan class="cls-11" x="49.21" y="18">Unique</tspan></tspan><tspan x="0" y="36">Pageviews / Month</tspan></text>
+              <rect class="cls-5" x="1054.66" y="231.13" width="23.42" height="8.31" transform="translate(-243.19 691.65) rotate(-46.36)"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.hstats-wrapper container -->
+
+    <div class="pt-wrapper container-fluid no-padding bg-gray-opac outerSlidesWrapper">
+      <div class="container">
+        <div class="row">
+          <div class="c-lg-12">
+            <div class="lead text-center margin-bottom-60">
+              <h3>Trusted by Tens of Thousands Website Owners</h3>
+              <p class="header margin-top-10">Don't take our word for it. See what website owners like you have to say:</p>
+            </div>
+          </div>
+          <div class="c-lg-12">
+            <div class="has-slides">
+              <div class="slides-wrapper">
+                <div class="slides-container withopacity">
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-syed-balkhi@2.jpg" alt="Syed Balkhi">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">WPBeginner CEO,</span> Syed Balkhi</p>
+                      <blockquote>We would get a lot of feed attacks, which is aggressive DDoS-style attacks where bots would hit our feed and scrape it. We would try to block the caches, but there were times we would get 10s of 1000s of people with requests coming from just one IP address trying to get feed access, trying to bust the cache. Anytime they were able to bust the cache, they could DDoS the site.</blockquote>
+                      <a href="/customers/wpbeginner" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-big-spring@2.jpg" alt="Jon Martin">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">Big Springs,</span> Jon Martin</p>
+                      <blockquote>When you have so many clients and so many websites we can’t look at everything all the time, so we need someone proactively checking that on our behalf and checking that when we need it. Another thing we like is that Sucuri knows about security issues before they become a problem – in advance.</blockquote>
+                      <a href="/customers/bigspring" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-financial-ducks@2.jpg" alt="">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">Financial Ducks in a Row,</span> Jim Blankenship</p>
+                      <blockquote>I've had 2-3 different times when my blog was hacked, causing errors and invalid pages to show up. Sucuri's team fixed the problem right away and got me back to work within just a few hours. In addition [Sucuri] provided me with procedures (best practices) that can be helpful in avoiding such attacks in the future.</blockquote>
+                      <a href="/customers/financialducksinarow" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-james-tracey@2.jpg" alt="James Tracey">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">James Tracey Photography</span></p>
+                      <blockquote>I could not be more impressed with the speed, professionalism, and courtesy of the staff I had dealings with and I will be recommending Sucuri to anyone I know who runs a website like myself.</blockquote>
+                      <a href="/customers/jamestracey" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-pecise-leades@2.jpg" alt="Avi Susana">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">Precise Leads CEO,</span> Avi Susana</p>
+                      <blockquote>The firewall is a great add-on because it’s always being updated. It’s not something static, that you set once and then no one touches it. It’s always up to date for any new threats. Someone is taking care of that. The Sucuri Firewall is a great first defense that even covers items I never really considered, or thought about.</blockquote>
+                      <a href="/customers/preciseleads" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-lisa-rigby@2.jpg" alt="Lisa Rigby">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">Lisa Rigby Photography</span></p>
+                      <blockquote>I’m just one person who has to do everything. I was trying to figure out IT problems and I’m not an IT person. To be spending that much time...it was taking away from my actual photography work and this was my busy season.</blockquote>
+                      <a href="/customers/lisarigby" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                  <div class="c-lg-12 n-slide">
+                    <div class="c-lg-4 c-md-4 pta-container">
+                      <img src="/images/clients/17-sucuri-homepage-testimonial-sarria@2.jpg" alt="Stefan Becker">
+                    </div>
+                    <div class="c-lg-8 c-md-8 ptb-testi-container">
+                      <p class="ptb-title"><span class="bold">Sarrià Quiropràctica Founder,</span> Stefan Becker</p>
+                      <blockquote>For the price of what I paid other "Hack Experts" to try to fix the hack over weeks, Sucuri included hack removal in 12 hours, PLUS continuous hack scanning, blacklisting monitoring, customer support to answer all my questions, SSL certificate, and then a firewall on top of that!</blockquote>
+                       <a href="/customers/sarria" class="read-more">Read More</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.slides-container -->
+              </div>
+              <!-- /.slides-wrapper -->
+
+              <div class="testimonials-nav nextprev-nav on-dark-bg">
+                <a href="#" class="prev" style="top: 54.5px;"></a>
+                <a href="#" class="next" style="top: 54.5px;"></a>
+              </div>
+              <!-- /.testimonials-nav -->
+            </div>
+            <!-- /.has-slides -->
+          </div>
+          <div class="c-lg-12 text-center margin-top-60">
+            <p class="header margin-bottom-30 no-margin-top">View Testimonials &amp; Case Studies</p>
+            <a href="/customers/" class="btn mp-home-testi">See More</a>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.bg-d-grad container-fluid -->
+
+    <div class="solutions-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="lead text-center margin-bottom-60">
+            <h3>Solutions for Larger Organizations</h3>
+          </div>
+          <!-- <div class="c-lg-3">
+            <div class="icon-wrapper">
+              <i class="icon ecom"></i>
+            </div>
+            <div class="content">
+              <h5>eCommerce</h5>
+              <p>Ensure your online store is protected and PCI compliant</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div> -->
+          <div class="c-lg-4 c-sm-12" id="mp-learn-container">
+            <a href="/custom/enterprise/" class="mp-enterprise-learn">
+              <div class="icon-wrapper">
+                <i class="icon enterp"></i>
+              </div>
+              <div class="content">
+                <h5>Enterprise</h5>
+                <p>Custom plans to scale for larger organizations</p>
+                <p class="under-line">Learn More</p>
+              </div>
+            </a>
+          </div>
+          <div class="c-lg-4 c-sm-12" id="mp-learn-container">
+            <a href="/custom/agency/" class="mp-agency-learn">
+              <div class="icon-wrapper">
+                <i class="icon agency"></i>
+              </div>
+              <div class="content">
+                <h5>Agency / Developers</h5>
+                <p>Protection and management of your client websites</p>
+                <p class="under-line">Learn More</p>
+              </div>
+            </a>
+          </div>
+          <div class="c-lg-4 c-sm-12" id="mp-learn-container">
+            <a href="/lp/education-website-security" class="mp-education-learn">
+              <div class="icon-wrapper">
+                <i class="icon educ"></i>
+              </div>
+              <div class="content">
+                <h5>Education Institutions</h5>
+                <p>Built for the full scope of your institution's web properties</p>
+                <p class="under-line">Learn More</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.solutions-wrapper -->
+
+    <div class="container-fluid bg-gray-opac kuotlws-wrapper no-padding-top-bottom" id="mp-latest">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+            <div class="lead text-center margin-bottom-60">
+              <h3>Keep Up-to-Date On The Latest In Website Security</h3>
+            </div>
+            <div class="c-lg-3 sbtm-nav">
+              <a href="https://blog.sucuri.net/" class="mp-blog">
+                <div class="top-icon-wrapper">
+                  <i class="sbtm-nav-icon icon-sblog"></i>
+                  <p class="heading">Sucuri Blog</p>
+                </div>
+              </a>
+            </div>
+            <div class="c-lg-3 sbtm-nav">
+              <a href="/webinars/" class="mp-webinar">
+                <div class="top-icon-wrapper">
+                  <i class="sbtm-nav-icon icon-sweb"></i>
+                  <p class="heading">Sucuri Webinars</p>
+                </div>
+              </a>
+            </div>
+             <div class="c-lg-3 sbtm-nav">
+              <a href="/guides/" class="mp-guides">
+                <div class="top-icon-wrapper">
+                  <i class="sbtm-nav-icon icon-sg"></i>
+                  <p class="heading">Sucuri Guides</p>
+                </div>
+              </a>
+            </div>
+            <div class="c-lg-3 sbtm-nav">
+              <a href="/website-security/hacked-reports/" class="mp-quarter">
+                <div class="top-icon-wrapper">
+                  <i class="sbtm-nav-icon icon-sqrep"></i>
+                  <p class="heading">Hacked Report</p>
+                </div>
+              </a>
+            </div>
+            <div class="c-lg-3 sbtm-nav">
+              <a href="/infographics/" class="mp-infographics">
+                <div class="top-icon-wrapper">
+                  <i class="sbtm-nav-icon icon-sinf"></i>
+                  <p class="heading">Infographics</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container-fluid .kuotlws-wrapper-->
+
+  <div class="bg-gray-lighter contact-us-wrapper">
+    <div class="container help-wrapper">
+        <div class="row">
+            <div class="c-lg-12">
+                <div class="lead text-center">
+                    <h3>Contact Us</h3>
+                </div>
+                <div class="help text-center">
+                    <ul class="list-inline contact-us-icons">
+                        <li class="list-inline-item">
+                            <a href="mailto:info@sucuri.net">
+                                <i class="icon icon-email"></i>
+                                <p>info@sucuri.net</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://support.sucuri.net/support/?new&amp;__hstc=181257784.12bc42542bd10c3ca4e4d0c0c3aa38ec.1449154822524.1476466445598.1476468935211.91&amp;__hssc=181257784.85.1476468935211&amp;__hsfp=3713955599" target="_blank">
+                                <i class="icon icon-ticket"></i>
+                                <p>Submit Ticket</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://sucuri.net/live-chat?__hstc=181257784.12bc42542bd10c3ca4e4d0c0c3aa38ec.1449154822524.1476466445598.1476468935211.91&amp;__hssc=181257784.85.1476468935211&amp;__hsfp=3713955599" target="_blank">
+                                <i class="icon icon-livechat"></i>
+                                <p>Live Chat</p>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="icon icon-phone"></i>
+                            <p>1-888-873-0817</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</div>
+    <!-- Start Mixpanel link Tracking -->
+    <script type="text/javascript">
+        
+      //Top Navigation
+        
+      mixpanel.track_links("#mp-top-nav a.mp-products-button", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Products",
+      }); 
+
+      mixpanel.track_links("#mp-top-nav a.mp-website-complete-security", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Product-Complete-Security",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-website-protection", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Product-Protection",
+      });
+        
+      mixpanel.track_links("#mp-top-nav a.mp-industry-button", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Industry",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-website-enterprise", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Industry-Enterprise",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-website-agency", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Industry-Agency",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-website-education", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Industry-Education",
+      });
+        
+      mixpanel.track_links("#mp-top-nav a.mp-english", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Language-English",
+      });
+        
+      mixpanel.track_links("#mp-top-nav a.mp-spanish", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Language-Spanish",
+      });
+                
+      mixpanel.track_links("#mp-top-nav a.mp-portuguese", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Language-Portuguese",
+      });
+        
+      mixpanel.track_links("#mp-top-nav a.mp-under-attack-button", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Under-Attack-Button",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-under-attack-malware-removal", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Under-Attack-Malware-Removal",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-under-attack-ddos-protection", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Under-Attack-DDoS-Protection",
+      });
+
+      mixpanel.track_links("#mp-top-nav a.mp-login-btn", "Homepage Page Clicks", {
+         "Element": "Header Navigation",
+         "Link Clicked": "Header-Login-Button",
+      });
+
+      //Homepage Hero section
+
+      mixpanel.track_links("#mp-home-hero a.mp-home-hero-secure-now", "Homepage Page Clicks", {
+         "Element": "Home Hero Secure Now Button",
+         "Link Clicked": "Home-Hero-Secure-Now-Button",
+      });
+
+      mixpanel.track_links("#mp-home-hero a.mp-home-hero-learn-more", "Homepage Page Clicks", {
+         "Element": "Home Hero Learn More Button",
+         "Link Clicked": "Home-Hero-Learn-More-Button",
+      });
+
+      mixpanel.track_links("#c-ws-wrapper a.mp-home-crhw", "Homepage Page Clicks", {
+         "Element": "Home Clean & Repair Hacked Websites Learn More Button",
+         "Link Clicked": "Home-Clean-Repair-Hacked-Websites-Learn-More-Button",
+      });
+
+      mixpanel.track_links("#c-ws-wrapper a.mp-home-ahp", "Homepage Page Clicks", {
+         "Element": "Home Attack/Hack Prevention Learn More Button",
+         "Link Clicked": "Home-Attack-Hack-Prevention-Learn-More-Button",
+      });
+
+      mixpanel.track_links("#c-ws-wrapper a.mp-home-sm", "Homepage Page Clicks", {
+         "Element": "Home Scanning Monitoring Learn More Button",
+         "Link Clicked": "Home-Scanning-Monitoring-Learn-More-Button",
+      });
+
+      mixpanel.track_links("#c-ws-wrapper a.mp-home-po", "Homepage Page Clicks", {
+         "Element": "Home Performance Optimization Learn More Button",
+         "Link Clicked": "Home-Performance-Optimization-Learn-More-Button",
+      });
+
+       mixpanel.track_links("#mp-worryfree a.mp-home-awfwsp", "Homepage Page Clicks", {
+         "Element": "Home Worry Free Get Started Button",
+         "Link Clicked": "Home-Worry-Free-Get-Started-Button",
+      });
+
+      mixpanel.track_links("#mp-cust a.mp-home-testi", "Homepage Page Clicks", {
+         "Element": "Home Testimonials See More Button",
+         "Link Clicked": "Home-Testimonials-See-More-Button",
+      });
+
+      // Homepage Footer Link Tracking
+
+      // Footer Solutions Section 
+
+      mixpanel.track_links("#mp-footer a.mp-ft-prod-wf", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Products-Firewall"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-prod-av", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Products-AntiVirus"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-prod-bp", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Products-Backups"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-prod-wps", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Products-WordPressSecurity"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-prod-ent", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Products-Enterprise"
+      });
+  
+      // Footer Products Section
+    
+      mixpanel.track_links("#mp-footer a.mp-ft-sol-ddos", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Solutions-DDOS"
+      });      
+    
+      mixpanel.track_links("#mp-footer a.mp-ft-sol-scan", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Solutions-Scanning"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sol-remove", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Solutions-Removal"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sol-prevent", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Solutions-Prevent"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sol-blacklist", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Solutions-Blacklist"
+      });
+  
+      // Footer Support Section
+    
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-login", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-Login"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-kb", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-KB"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-sc", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-SiteCheck"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-blog", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-Blog"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-lab", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-Lab"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-ref", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-Referral"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-sup-faq", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Support-FAQ"
+      });
+
+
+      // Footer Support Section
+    
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-about", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-About"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-media", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-Media"
+      });
+         
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-events", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-Events"
+      });
+         
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-employment", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-Employment"
+      });
+         
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-contact", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-Contact"
+      });
+          
+      mixpanel.track_links("#mp-footer a.mp-ft-comp-testimonials", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Company-Testimonials"
+      });
+
+
+      // Footer Social Media Section
+    
+      mixpanel.track_links("#mp-footer-social-media a.mp-ft-social-fb", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Social-Facebook"
+      });
+          
+      mixpanel.track_links("#mp-footer-social-media a.mp-ft-social-tw", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Social-Twitter"
+      });
+          
+      mixpanel.track_links("#mp-footer-social-media a.mp-ft-social-ld", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Social-LinkedIn"
+      });
+
+
+      // Footer Copyright Section -->
+    
+      mixpanel.track_links("#mp-footer-copyright a.mp-ft-copyright-terms", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Copyright-Terms"
+      });
+          
+      mixpanel.track_links("#mp-footer-copyright a.mp-ft-copyright-priv", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Copyright-Privacy"
+      });
+          
+      mixpanel.track_links("#mp-footer-copyright a.mp-ft-copyright-faq", "Homepage Page Clicks", {
+        "Element": "Footer Section",
+        "Link Clicked": "Footer-Copyright-FAQ"
+      });
+    </script>                   
+    <!-- End Mixpanel link Tracking -->
+
+    <!-- Start Sucuri link Tracking -->
+    <iframe id="s-affli" width="0" height="0" src="https://affl.sucuri.net/?affl=8fedd13cfe82ba6b5fd4a93876cc2065&noredir&trid=homepage"></iframe>
+     <!-- end Sucuri link Tracking -->
+
+<footer id="n-footer">
+   <div id="mp-footer" class="container">
+     <div class="row">
+        <div class="c-lg-12">
+            <div class="c-lg-2 c-md-2">
+                <div class="footer-products">
+                    <div class="footer-heading">
+                        <p>Products</p>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="list-block list-unstyled">
+                            <li class="list-block-item"><a class="mp-ft-prod-wf" href="/website-firewall/">Website Firewall</a></li>
+                            <li class="list-block-item"><a class="mp-ft-prod-av" href="/website-security-platform/">Website Antivirus</a></li>
+                            <li class="list-block-item"><a class="mp-ft-prod-bp" href="/website-backups/">Website Backups</a></li>
+                            <li class="list-block-item"><a class="mp-ft-prod-wps" href="/wordpress-security/">WordPress Security</a></li>
+                            <li class="list-block-item"><a class="mp-ft-prod-ent" href="/custom/enterprise/">Enterprise Services</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="c-lg-2 c-md-2">
+                <div class="footer-solutions">
+                    <div class="footer-heading">
+                        <p>Solutions</p>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="list-block list-unstyled">
+                            <li class="list-block-item"><a class="mp-ft-sol-ddos" href="/website-firewall/ddos-protection">DDoS Protection</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sol-scan" href="/website-security-platform/malware-scanning-and-detection">Malware Detection</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sol-removal" href="/website-security-platform/malware-removal">Malware Removal</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sol-prevent" href="/website-firewall/stop-website-attacks-and-hacks">Malware Prevention</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sol-blacklist" href="/website-security-platform/blacklist-removal-and-repair">Blacklist Removal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="c-lg-2 c-md-2">
+                <div class="footer-support">
+                    <div class="footer-heading">
+                        <p>Support</p>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="list-block list-unstyled">
+                            <li class="list-block-item"><a class="mp-ft-sup-blog" href="https://blog.sucuri.net/">Blog</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sup-kb" href="https://kb.sucuri.net/">Knowledge Base</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sup-sc" href="https://sitecheck.sucuri.net/">SiteCheck</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sup-lab" href="http://labs.sucuri.net/">Research Labs</a></li>
+                            <li class="list-block-item"><a class="mp-ft-sup-faq" href="/faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="c-lg-2 c-md-2">
+                <div class="footer-support">
+                    <div class="footer-heading">
+                        <p>Company</p>
+                    </div>
+                    <div class="footer-menu">
+                        <ul class="list-block list-unstyled">
+                            <li class="list-block-item"><a class="mp-ft-comp-about" href="/company">About</a></li>
+                            <li class="list-block-item"><a class="mp-ft-comp-media" href="/company/media">Media</a></li>
+                            <li class="list-block-item"><a class="mp-ft-comp-events" href="/company/events">Events</a></li>
+                            <li class="list-block-item"><a class="mp-ft-comp-employment" href="/company/employment">Employment</a></li>
+                            <li class="list-block-item"><a class="mp-ft-comp-contact" href="/company/contact-us">Contact</a></li>
+                            <li class="list-block-item"><a class="mp-ft-comp-testimonials" href="/customers/">Testimonials</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="c-lg-4 c-md-4 text-center">
+                <div class="footer-social-icons">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="p-ft-social-fb" href="https://www.facebook.com/SucuriSecurity" target="_blank"><i class="social-icon facebook"></i></a></li>
+                        <li class="list-inline-item"><a class="p-ft-social-tw" href="https://twitter.com/sucurisecurity" target="_blank"><i class="social-icon twitter"></i></a></li>
+                        <li class="list-inline-item"><a class="p-ft-social-ld" href="https://www.linkedin.com/company/899487" target="_blank"><i class="social-icon linkedin"></i></a></li>
+                        <li class="list-inline-item"><a class="p-ft-social-ig" href="https://www.instagram.com/sucurisecurity/" target="_blank"><i class="social-icon instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p><a href="https://dashboard.sucuri.net/login/" class="btn login mp-ft-login">Customer Login</a></p>
+                </div>
+                <div class="footer-logo-wrapper">
+                    <a href="/" class="footer-logo"></a>
+                </div>
+            </div>
+        </div>
+
+            <div class="c-lg-12 footer-b">
+                <hr>
+                <div class="c-lg-8 c-md-8">
+                    <ul class="list-inline unstyled-list">
+                        <li class="list-inline-item"><a class="mp-ft-copyright-terms" href="/terms-of-service">Terms of Use</a></li>
+                        <li class="list-inline-item"><a class="mp-ft-copyright-priv" href="/privacy-policy">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a class="mp-ft-copyright-faq" href="/faq">Frequently Asked Questions</a></li>
+                    </ul>
+                </div>
+                <div class="c-lg-4 c-md-4 copyright text-center">
+                    <p>© 2017 Sucuri Inc. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <div class="chat-widget-wrapper">
+      <div class="chat-widget-container">
+        <div class="chat-widget-text">
+          <p class="heading">LIVE CHAT</p>
+          <p class="sub-text">How can we help?</p>
+        </div>
+        <div class="chat-widget-avatar">
+          <img src="/images/team/josko-dzidic.png" alt="How can we help?" />
+        </div>
+      </div>
+      <div class="chat-box-container">
+      </div>
+    </div>
+</footer>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1040458670;
+var google_conversion_label = "ZMfLCJ7ZoGgQrseQ8AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1040458670/?value=1.00&amp;currency_code=USD&amp;label=ZMfLCJ7ZoGgQrseQ8AM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script src="/js/script.min.js?v=1489981806"></script>
+<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaCallback&render=explicit&hl=" async defer></script>
+</body>
+</html>
+
+|||
+http://cotovelodeformiga.com.br/
+|
+<!DOCTYPE html>
+<html lang="pt-BR" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head profile="http://gmpg.org/xfn/11">
+
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/boo-inject.js"></script>
+<meta name="bbx-domain-token" content="5a8a6e3325893117b98016224c9e8f82728192f9"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Cotovelo de Formiga RSS Feed" href="http://cotovelodeformiga.com.br/feed/" />
+<link rel="pingback" href="http://cotovelodeformiga.com.br/xmlrpc.php" />
+
+<!-- This site is optimized with the Yoast SEO plugin v4.2.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Cotovelo de Formiga - Blog de humor, besteiras e bobagens direto do formigueiro!</title>
+<meta name="description" content="Blog de humor, besteiras e bobagens direto do formigueiro."/>
+<meta name="robots" content="noodp"/>
+<meta name="keywords" content="Blog de humor, blog engraçado, blog humorístico, site de humor, site engraçado, site humorístico, cotovelodeformiga, vídeos engraçados, tirinhas, motivacional, desmotivacional, imagens engraçadas,cotovelo,engraçado"/>
+<link rel="canonical" href="http://cotovelodeformiga.com.br/" />
+<link rel="next" href="http://cotovelodeformiga.com.br/page/2/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Cotovelo de Formiga" />
+<meta property="og:description" content="Blog de humor, besteiras e bobagens direto do formigueiro." />
+<meta property="og:url" content="http://cotovelodeformiga.com.br/" />
+<meta property="og:site_name" content="Cotovelo de Formiga" />
+<meta property="fb:admins" content="100001744249372" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Blog de humor, besteiras e bobagens direto do formigueiro." />
+<meta name="twitter:title" content="Cotovelo de Formiga - Blog de humor, besteiras e bobagens direto do formigueiro!" />
+<meta name="twitter:site" content="@cotoveloformiga" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/cotovelodeformiga.com.br\/","name":"Cotovelo de Formiga","potentialAction":{"@type":"SearchAction","target":"http:\/\/cotovelodeformiga.com.br\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<meta name="msvalidate.01" content="074F3D79834A3C417CB3273567A3D9A5" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/cotovelodeformiga.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='estilo-css'  href='http://cotovelodeformiga.com.br/wp-content/themes/cotovelo2014/style.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='responsivo-css'  href='http://cotovelodeformiga.com.br/wp-content/themes/cotovelo2014/responsivo.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fbSEOStylesheet-css'  href='http://cotovelodeformiga.com.br/wp-content/plugins/seo-facebook-comments/assets/fbseo-style.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fbSEOwpcomments-css'  href='http://cotovelodeformiga.com.br/wp-content/plugins/seo-facebook-comments/assets/wpcomments.css?ver=4.7.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://cotovelodeformiga.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://cotovelodeformiga.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://cotovelodeformiga.com.br/wp-content/themes/cotovelo2014/script.js?ver=4.7.3'></script>
+<link rel='https://api.w.org/' href='http://cotovelodeformiga.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://cotovelodeformiga.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://cotovelodeformiga.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.3" />
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url("http://cotovelodeformiga.com.br/wp-content/themes/cotovelo2014/images/texturabg.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16799526-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<!-- Posicione esta tag depois da última tag do botão +1. -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'pt-BR'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<meta property="fb:admins" content="100001744249372"/>
+<meta name="google-site-verification" content="TruVyPBWO8R0cS24LqAYaS9CwFF6C1lDC35SV4zlUFU" />
+</head>
+
+<body>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=157962701065930&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="cabecalho">
+<div class="mainpage">
+
+	<div id="logo">
+    	<a href="http://cotovelodeformiga.com.br"><img src="http://cotovelodeformiga.com.br/wp-content/themes/cotovelo2014/images/logo.png"border="0"></a>
+    </div>
+    
+    <div id="adstopo">
+		<script type="text/javascript">
+ bb_bid = "1645997";
+ bb_lang = "pt-BR";
+ bb_name = "custom";
+ bb_limit = "8";
+ bb_format = "bbb";
+ bb_bbdo = "806";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>    </div>
+    
+</div>
+</div>
+
+	<div class="menulargo">   
+    <div class="mainpage">             
+         <div id="buscablog">
+               <form action="http://cotovelodeformiga.com.br" method="get">
+                    <input type="text" size="20" name="s" id="s" value="" /> <input type="submit" id="acao" value=" "/>
+               </form>
+         </div>
+         
+
+        <div class="menu"><ul>
+<li class="page_item page-item-7110"><a href="http://cotovelodeformiga.com.br/anuncie/">ANUNCIE</a></li>
+<li class="page_item page-item-1875"><a href="http://cotovelodeformiga.com.br/contato/">CONTATO</a></li>
+<li class="page_item page-item-12312"><a href="http://cotovelodeformiga.com.br/parceria/">PARCERIA</a></li>
+</ul></div>
+    </div>
+    </div>
+
+<div class="mainpage">
+	<div id="bloco-posts">
+				<div class="post" id="post-47047">
+        
+            <h2 class="titulopost">
+                <a href="http://cotovelodeformiga.com.br/fa-nao-consegue-ingresso-para-show-do-justin-bieber-e-da-chilique-em-fonte/" rel="bookmark" title="Fã não consegue ingresso para show do Justin Bieber e da chilique em fonte">Fã não consegue ingresso para show do Justin Bieber e da chilique em fonte</a>
+            </h2> 
+            <div class="content">
+                <div class="infopost"> <strong>31/10/2016</strong> - Por <strong><a href="http://cotovelodeformiga.com.br/author/cotovelodeformiga/" title="Posts de Douglas Ramone" rel="author">Douglas Ramone</a></strong> em  <strong><a href="http://cotovelodeformiga.com.br/category/videos/" rel="category tag">Videos</a></strong>
+                                	<div class="colink">
+                    <a href="http://cotovelodeformiga.com.br/fa-nao-consegue-ingresso-para-show-do-justin-bieber-e-da-chilique-em-fonte/#respond">Comente!</a>                    </div>
+                                </div>
+                
+                <p style="text-align: justify;">Você fica na fila para comprar um ingresso para o show do seu cantor favorito, no caso do vídeo é o Justin Bieber, fica horas na fila e não consegue comprar o ingresso, o que você faz? Entra na fonte do <strong>Citibank Hall</strong> e da chilique, é claro. Assista:</p>
+<p><center></p>
+<blockquote class="twitter-video" data-lang="en">
+<p lang="pt" dir="ltr">Fã que não conseguiu ingresso pra ver Justin Bieber em São Paulo entra na fonte do Citibank Hall e começa a gritar. <a href="https://t.co/h9YuoXXxXY">pic.twitter.com/h9YuoXXxXY</a></p>
+<p>&mdash; PAN (@forumpandlr) <a href="https://twitter.com/forumpandlr/status/793163908156620800">October 31, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center></p>
+<p style="text-align: justify;">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                
+				  
+                
+                <div class="postfooter">  
+                
+                <div class="sharepost">
+                	<table width="370" style="float:left;" border="0" cellspacing="2" cellpadding="2">
+
+                      <tr>
+                        <td><div class="fb-like" data-href="http://cotovelodeformiga.com.br/fa-nao-consegue-ingresso-para-show-do-justin-bieber-e-da-chilique-em-fonte/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
+
+                        <td><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://cotovelodeformiga.com.br/fa-nao-consegue-ingresso-para-show-do-justin-bieber-e-da-chilique-em-fonte/" data-text="Fã não consegue ingresso para show do Justin Bieber e da chilique em fonte" data-via="CotoveloFormiga" data-lang="pt" data-related="CotoveloFormiga">Tweetar</a></td>
+
+			<td><a href="https://twitter.com/CotoveloFormiga" class="twitter-follow-button" data-show-count="false">Follow @CotoveloFormiga</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+
+			<td><div class="g-plusone" data-size="button" data-href="http://cotovelodeformiga.com.br/fa-nao-consegue-ingresso-para-show-do-justin-bieber-e-da-chilique-em-fonte/"></div></td>
+
+                      </tr>
+                    </table>       
+                </div>       
+            
+			</div>
+            </div>
+			
+		</div>
+
+							<div class="post" id="post-47042">
+        
+            <h2 class="titulopost">
+                <a href="http://cotovelodeformiga.com.br/maria-beltrao-e-o-dr-cuca-beludo-na-globo-news/" rel="bookmark" title="Maria Beltrão e o Dr. Cuca Beludo na Globo News">Maria Beltrão e o Dr. Cuca Beludo na Globo News</a>
+            </h2> 
+            <div class="content">
+                <div class="infopost"> <strong>31/10/2016</strong> - Por <strong><a href="http://cotovelodeformiga.com.br/author/cotovelodeformiga/" title="Posts de Douglas Ramone" rel="author">Douglas Ramone</a></strong> em  <strong><a href="http://cotovelodeformiga.com.br/category/videos/" rel="category tag">Videos</a></strong>
+                                	<div class="colink">
+                    <a href="http://cotovelodeformiga.com.br/maria-beltrao-e-o-dr-cuca-beludo-na-globo-news/#respond">Comente!</a>                    </div>
+                                </div>
+                
+                <p style="text-align: justify;">A internet é um meio de comunicação dominado pela zueira, onde sempre alguém tenta zuar programas de TV que usam o twitter como meio de interação com o público. Ultimamente os apresentadores estão ligados e a zueira não passa, mas dessa vez a <strong>Maria Beltrão</strong>, jornalista da <strong>Globo News</strong>, chamou o <strong>Dr. Cuca Beludo</strong>&#8230; Assista:</p>
+<p><center></p>
+<blockquote class="twitter-video" data-lang="en">
+<p lang="pt" dir="ltr">E a Maria Beltrão caiu na piada do Cuca Beludo. <a href="https://t.co/Wxieklz6VB">pic.twitter.com/Wxieklz6VB</a></p>
+<p>&mdash; Notavel (@notavel) <a href="https://twitter.com/notavel/status/793127171468427264">October 31, 2016</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></center></p>
+<p style="text-align: justify;"><a href="https://www.facebook.com/omelhordobreobrasileiro/" target="_blank">O melhor do Brasil é o brasileiro</a>.</p>
+                
+				  
+                
+                <div class="postfooter">  
+                
+                <div class="sharepost">
+                	<table width="370" style="float:left;" border="0" cellspacing="2" cellpadding="2">
+
+                      <tr>
+                        <td><div class="fb-like" data-href="http://cotovelodeformiga.com.br/maria-beltrao-e-o-dr-cuca-beludo-na-globo-news/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
+
+                        <td><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://cotovelodeformiga.com.br/maria-beltrao-e-o-dr-cuca-beludo-na-globo-news/" data-text="Maria Beltrão e o Dr. Cuca Beludo na Globo News" data-via="CotoveloFormiga" data-lang="pt" data-related="CotoveloFormiga">Tweetar</a></td>
+
+			<td><a href="https://twitter.com/CotoveloFormiga" class="twitter-follow-button" data-show-count="false">Follow @CotoveloFormiga</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+
+			<td><div class="g-plusone" data-size="button" data-href="http://cotovelodeformiga.com.br/maria-beltrao-e-o-dr-cuca-beludo-na-globo-news/"></div></td>
+
+                      </tr>
+                    </table>       
+                </div>       
+            
+			</div>
+            </div>
+			
+		</div>
+
+							<div class="post" id="post-47032">
+        
+            <h2 class="titulopost">
+                <a href="http://cotovelodeformiga.com.br/mulher-passeando-com-o-cachorro-na-mata-encontra-equipe-testando-um-de-seus-robos/" rel="bookmark" title="Mulher passeando com o cachorro na mata encontra equipe testando um de seus robôs">Mulher passeando com o cachorro na mata encontra equipe testando um de seus robôs</a>
+            </h2> 
+            <div class="content">
+                <div class="infopost"> <strong>18/07/2016</strong> - Por <strong><a href="http://cotovelodeformiga.com.br/author/cotovelodeformiga/" title="Posts de Douglas Ramone" rel="author">Douglas Ramone</a></strong> em  <strong><a href="http://cotovelodeformiga.com.br/category/videos/" rel="category tag">Videos</a></strong>
+                                	<div class="colink">
+                    <a href="http://cotovelodeformiga.com.br/mulher-passeando-com-o-cachorro-na-mata-encontra-equipe-testando-um-de-seus-robos/#respond">Comente!</a>                    </div>
+                                </div>
+                
+                <p style="text-align: justify;">A mulher saiu passear com seu cachorro na mata como sempre faz, mas dessa vez ela acabou tendo uma surpresa, ela encontrou a equipe da Boston Dynamics testando e caminhando com um de seus robôs bípedes. Veja:</p>
+<p><center><iframe width="640" height="360" src="https://www.youtube.com/embed/fjNwcMHI29k" frameborder="0" allowfullscreen></iframe></center></p>
+<p style="text-align: justify;">Caminhando ou marchando? Confesso que fiquei com um pouco de medo.</p>
+                
+				  
+                
+                <div class="postfooter">  
+                
+                <div class="sharepost">
+                	<table width="370" style="float:left;" border="0" cellspacing="2" cellpadding="2">
+
+                      <tr>
+                        <td><div class="fb-like" data-href="http://cotovelodeformiga.com.br/mulher-passeando-com-o-cachorro-na-mata-encontra-equipe-testando-um-de-seus-robos/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
+
+                        <td><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://cotovelodeformiga.com.br/mulher-passeando-com-o-cachorro-na-mata-encontra-equipe-testando-um-de-seus-robos/" data-text="Mulher passeando com o cachorro na mata encontra equipe testando um de seus robôs" data-via="CotoveloFormiga" data-lang="pt" data-related="CotoveloFormiga">Tweetar</a></td>
+
+			<td><a href="https://twitter.com/CotoveloFormiga" class="twitter-follow-button" data-show-count="false">Follow @CotoveloFormiga</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+
+			<td><div class="g-plusone" data-size="button" data-href="http://cotovelodeformiga.com.br/mulher-passeando-com-o-cachorro-na-mata-encontra-equipe-testando-um-de-seus-robos/"></div></td>
+
+                      </tr>
+                    </table>       
+                </div>       
+            
+			</div>
+            </div>
+			
+		</div>
+
+							<div class="post" id="post-47025">
+        
+            <h2 class="titulopost">
+                <a href="http://cotovelodeformiga.com.br/empresa-japonesa-criou-um-ventilador-de-suvaco/" rel="bookmark" title="Empresa japonesa criou um ventilador de suvaco">Empresa japonesa criou um ventilador de suvaco</a>
+            </h2> 
+            <div class="content">
+                <div class="infopost"> <strong>18/07/2016</strong> - Por <strong><a href="http://cotovelodeformiga.com.br/author/cotovelodeformiga/" title="Posts de Douglas Ramone" rel="author">Douglas Ramone</a></strong> em  <strong><a href="http://cotovelodeformiga.com.br/category/japao/" rel="category tag">Japão</a></strong>
+                                	<div class="colink">
+                    <a href="http://cotovelodeformiga.com.br/empresa-japonesa-criou-um-ventilador-de-suvaco/#respond">Comente!</a>                    </div>
+                                </div>
+                
+                <p style="text-align: justify;">Cansado de fazer a famosa pizza no suvaco da camisa quando faz muito calor? Seus problemas acabaram, pois uma empresa japonesa chamada Thanko inventou um ventilador de suvaco.</p>
+<p style="text-align: justify;">O ventilador é bem pequeno e simples, fica acoplado na manga da sua camisa mandando uma brisa gostosa no suvaco e deixando ele sempre fresquinho. Veja:</p>
+<p><img src="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/1.jpg" alt="1" width="750" height="1125" class="aligncenter size-full wp-image-47026" srcset="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/1.jpg 750w, http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/1-200x300.jpg 200w, http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/1-683x1024.jpg 683w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><img src="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/2.jpg" alt="2" width="750" height="623" class="aligncenter size-full wp-image-47027" srcset="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/2.jpg 750w, http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/2-300x249.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><img src="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/3.jpg" alt="3" width="750" height="785" class="aligncenter size-full wp-image-47028" srcset="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/3.jpg 750w, http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/3-287x300.jpg 287w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p><img src="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/4.jpg" alt="4" width="750" height="941" class="aligncenter size-full wp-image-47029" srcset="http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/4.jpg 750w, http://cotovelodeformiga.com.br/wp-content/uploads/2016/07/4-239x300.jpg 239w" sizes="(max-width: 750px) 100vw, 750px" /></p>
+<p style="text-align: justify;">O aparelho tem pilhas recarregáveis através do USB. Japão, só podia ser lá.</p>
+                
+				  
+                
+                <div class="postfooter">  
+                
+                <div class="sharepost">
+                	<table width="370" style="float:left;" border="0" cellspacing="2" cellpadding="2">
+
+                      <tr>
+                        <td><div class="fb-like" data-href="http://cotovelodeformiga.com.br/empresa-japonesa-criou-um-ventilador-de-suvaco/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
+
+                        <td><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://cotovelodeformiga.com.br/empresa-japonesa-criou-um-ventilador-de-suvaco/" data-text="Empresa japonesa criou um ventilador de suvaco" data-via="CotoveloFormiga" data-lang="pt" data-related="CotoveloFormiga">Tweetar</a></td>
+
+			<td><a href="https://twitter.com/CotoveloFormiga" class="twitter-follow-button" data-show-count="false">Follow @CotoveloFormiga</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+
+			<td><div class="g-plusone" data-size="button" data-href="http://cotovelodeformiga.com.br/empresa-japonesa-criou-um-ventilador-de-suvaco/"></div></td>
+
+                      </tr>
+                    </table>       
+                </div>       
+            
+			</div>
+            </div>
+			
+		</div>
+
+							<div class="post" id="post-47020">
+        
+            <h2 class="titulopost">
+                <a href="http://cotovelodeformiga.com.br/atleta-russo-praticando-parkour/" rel="bookmark" title="Atleta russo praticando Parkour">Atleta russo praticando Parkour</a>
+            </h2> 
+            <div class="content">
+                <div class="infopost"> <strong>13/07/2016</strong> - Por <strong><a href="http://cotovelodeformiga.com.br/author/cotovelodeformiga/" title="Posts de Douglas Ramone" rel="author">Douglas Ramone</a></strong> em  <strong><a href="http://cotovelodeformiga.com.br/category/videos/" rel="category tag">Videos</a></strong>
+                                	<div class="colink">
+                    <a href="http://cotovelodeformiga.com.br/atleta-russo-praticando-parkour/#respond">Comente!</a>                    </div>
+                                </div>
+                
+                <p style="text-align: justify;">Parkour é uma parada incrível, precisa de muita habilidade e coragem para executar os movimentos, agora você imagina um atleta russo praticando, lógico que o cara vai ser épico. O atleta se chama Erik Mukhametshin e ele mostrou um pouco da sua habilidade nesse vídeo. Veja:</p>
+<p><center><iframe width="640" height="360" src="https://www.youtube.com/embed/HiSD63133nI" frameborder="0" allowfullscreen></iframe></center></p>
+<p style="text-align: justify;">Se fosse eu no lugar já teria quebrado todos os ossos do corpo. De uma só vez.</p>
+                
+				  
+                
+                <div class="postfooter">  
+                
+                <div class="sharepost">
+                	<table width="370" style="float:left;" border="0" cellspacing="2" cellpadding="2">
+
+                      <tr>
+                        <td><div class="fb-like" data-href="http://cotovelodeformiga.com.br/atleta-russo-praticando-parkour/" data-width="80" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></td>
+
+                        <td><a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="http://cotovelodeformiga.com.br/atleta-russo-praticando-parkour/" data-text="Atleta russo praticando Parkour" data-via="CotoveloFormiga" data-lang="pt" data-related="CotoveloFormiga">Tweetar</a></td>
+
+			<td><a href="https://twitter.com/CotoveloFormiga" class="twitter-follow-button" data-show-count="false">Follow @CotoveloFormiga</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></td>
+
+			<td><div class="g-plusone" data-size="button" data-href="http://cotovelodeformiga.com.br/atleta-russo-praticando-parkour/"></div></td>
+
+                      </tr>
+                    </table>       
+                </div>       
+            
+			</div>
+            </div>
+			
+		</div>
+
+					
+						</div>
+
+<div id="bdireita">
+       
+	<ul id="sidebar">
+		<li id="text-53" class="widget widget_text">			<div class="textwidget"><center><script type="text/javascript">
+	bb_bid = "1645997";
+	bb_lang = "pt-BR";
+	bb_name = "custom";
+	bb_limit = "6";
+	bb_format = "bbn";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script></center></div>
+		</li>
+<li id="text-49" class="widget widget_text"><h2 class="widgettitle">Curta no Facebook</h2>
+			<div class="textwidget"><center><div class="fb-page" data-href="https://www.facebook.com/cotovelodeformiga" data-width="300" data-height="500" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div></center></div>
+		</li>
+<li id="text-31" class="widget widget_text"><h2 class="widgettitle">Parceiros</h2>
+			<div class="textwidget"><center>
+<a title="Ocioso" href="http://www.ocioso.com.br/" target="_blank"><img class="acende" src="http://i.imgur.com/4T3zPZk.jpg" alt="Ocioso"/></a>
+
+<a title="DESABILITADO" href="http://desabilitado.com.br/" target="_blank"><img class="acende" src="http://i.imgur.com/StiZTrN.jpg"  width="75" height="75" alt="DESABILITADO"/></a>
+
+<a title="O MACHO ALPHA" href="http://www.omachoalpha.com.br/" target="_blank"><img class="acende" src="https://lh3.googleusercontent.com/-ofDyWm3SGC8/UQxb7EPK0jI/AAAAAAAAEoE/eWq1iNwH-1w/h120/omacho.jpg" width="75" height="75" alt="O MACHO ALPHA"/></a>
+
+<a title="BOBAGENTO" href="http://bobagento.com/" target="_blank"><img class="acende" src="https://lh5.googleusercontent.com/-ZwW33oKUNzA/UQxb1139LCI/AAAAAAAAElo/EdKgGXGZrgE/h120/bobagento.jpg" width="75" height="75" alt="BOBAGENTO"/></a>
+
+<a title="TENSO" href="http://tenso.blog.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-33ifSw3OQ9k/UQxb7B9rnJI/AAAAAAAAEn0/6oWj4_70SYU/h120/tento.jpg" width="75" height="75" alt="TENSO"/></a>
+
+<a title="LEGITIMO GEEK" href="http://www.legitimogeek.com/" target="_blank"><img class="acende" src="https://lh6.googleusercontent.com/-MCw2ep0Na-8/UB4OkEAnN7I/AAAAAAAAB0Y/6OoOFjT-4qM/h120/legitimo.jpg" width="75" height="75" alt="LEGITIMO GEEK"/></a>
+
+<a title="OS PROFANOS" href="http://osprofanos.com" target="_blank"><img class="acende"  src="http://osprofanos.com/wp-content/uploads/banners/banner125x125.jpg" width="75" height="75" alt="OS PROFANOS"/></a>
+
+<a title="COMPLEXO GEEK" href="http://complexogeek.com/" target="_blank"><img class="acende"  src="https://lh5.googleusercontent.com/-kAeNIp8YMBo/UB4Ofh-ogSI/AAAAAAAABy0/T0-cy35yAeg/h120/CG.jpg" width="75" height="75" alt="COMPLEXO GEEK"/></a>
+
+<a title="ELA TA DE XICO" href="http://www.elatadexico.org/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-AECxDgahXoA/UQxb78T40rI/AAAAAAAAEoA/7ySjdBNOJjc/h120/xico.jpg" width="75" height="75" alt="ELA TA DE XICO"/></a>
+
+<a title="TUDO E ETC" href="http://www.tudoeetc.blog.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-hqF3ZwO9VoY/UQxb2tnFqVI/AAAAAAAAEmA/XfQJdMrDngc/h120/etc.jpg" width="75" height="75" alt="TUDO E ETC"/></a>
+
+<a title="ROCK'N TECH" href="http://rockntech.com.br/" target="_blank"><img class="acende" src="https://lh3.googleusercontent.com/-tmuKbHmUDpE/UQxb1wmrjLI/AAAAAAAAElk/Pvav0p4pxlw/h120/banner-rnt_125x125.jpg" width="75" height="75" alt="ROCK'N TECH"/></a>
+
+<a title="FOTTUS" href="http://fottus.com/" target="_blank"><img class="acende" src="https://lh6.googleusercontent.com/-Mzctp2aSLCQ/UViZyarfc5I/AAAAAAAAFHc/RS4CchDXoY4/s70/fottus.jpg" width="75" height="75" alt="FOTTUS"/></a>
+
+<a title="BLOG DO BRAIAN" href="http://www.braian.com.br/" target="_blank"><img class="acende" src="https://lh6.googleusercontent.com/-j7AaxO1XT1M/UB4Oe2nQGCI/AAAAAAAAByk/qvpM7LjkeLw/h120/75x75.jpg" width="75" height="75" alt="BLOG DO BRAIAN"/></a>
+
+<a title="OPREH" href="http://opreh.com.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-kphJ2_uTMO8/UB4Oo1EK04I/AAAAAAAAB1k/pPOq8EBmbyo/h120/opreh.jpg" width="75" height="75" alt="OPREH"/></a>
+
+<a title="KOALA OBESO" href="http://www.koalaobeso.com.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-j7o5scV9wEo/UB4OkHxBbEI/AAAAAAAAB0k/KieoO1N6Zwg/h120/koala.jpg" width="75" height="75" alt="KOALA OBESO"/></a>
+
+<a title="PROIBIDO LER" href="http://proibidoler.com/" target="_blank"><img class="acende" src="https://lh3.googleusercontent.com/-gWISjj_OU1Q/UB4OparDP8I/AAAAAAAAB10/c4BlUn4J27I/h120/pl60x60.png" width="75" height="75" alt="PROIBIDO LER"/></a>
+
+<a title="CUPOM DE DESCONTO" href="http://www.cupomvalido.com.br" target="_blank"><img class="acende" src="http://i.imgur.com/oYQwiW9.png" width="75" height="75" alt="CUPOM DE DESCONTO" /></a>
+
+<a title="AH NEGÃO" href="http://www.ahnegao.com.br/" target="_blank"><img class="acende" class="acende" src="https://lh4.googleusercontent.com/-pglNJoSlYnI/UB4Ogg6DfBI/AAAAAAAABzo/OGt6tZZ2Z_A/h120/ahnegao.jpg" width="75" height="75" alt="AH NEGÃO"/></a>
+
+<a title="NÃO SALVO" href="http://www.naosalvo.com.br/" target="_blank"><img class="acende" src="https://lh5.googleusercontent.com/-WNaOC93iX8o/UB4OoBQ6nJI/AAAAAAAAB1Y/tEXtPoh78MM/h120/naosalvo.jpg" width="75" height="75" alt="Não Salvo"/></a>
+
+<a title="NÃO INTENDO" href="http://www.naointendo.com.br/" target="_blank"><img class="acende"  src="https://lh4.googleusercontent.com/-JUkcunzSkxg/UB4OoEjhh3I/AAAAAAAAB1g/nvBZE1JH5q4/h120/naointendo.jpg" width="75" height="75" alt="NÃO INTENDO"/></a>
+
+<a title="FUTIRINHAS" href="http://futirinhas.com/" target="_blank"><img class="acende" src="https://lh5.googleusercontent.com/-qpuNatIRPA8/UB4OjTfxwzI/AAAAAAAAB0M/Mm93piBSMHQ/h120/futi.jpg" width="75" height="75" alt="FUTIRINHAS"/></a>
+
+<a title="BEBIDA LIBERADA" href="http://bebidaliberada.com.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-l-WjasOEWTY/UQxbzVKmK1I/AAAAAAAAEkc/T84bFYugco4/h120/BEBIDA-LIBERADA.jpg" width="75" height="75" alt="BEBIDA LIBERADA"/></a>
+
+<a title="CORVO ASSASSINO" href="http://batblz.com/a/corvo" target="_blank"><img class="acende" src="https://lh5.googleusercontent.com/-nz6PilAfh7Q/UQxb0Sy744I/AAAAAAAAEkw/KkoHQ-4ybfc/h120/CORVO.jpg" width="75" height="75" alt="CORVO ASSASSINO"/></a>
+
+<a title="TRETA" href="http://www.treta.com.br/" target="_blank"><img class="acende" src="https://lh3.googleusercontent.com/-yHCYIV-J6IY/UQxb7TGdKAI/AAAAAAAAEn8/Nc1B21Jw3oI/h120/treta.jpg" width="75" height="75" alt="TRETA"/></a>
+
+<a title="ZONA DO GUAXINIM" href="http://www.zonadoguaxinim.com.br/" target="_blank"><img class="acende" src="https://lh4.googleusercontent.com/-h3GTzBfY_Dw/UOC7pj3dW2I/AAAAAAAAEWw/ra6Fr7yOvHs/s100/100x100%2520Zona%2520do%2520Guaxinim%2520Banner%2520Oficial.png" width="75" height="75" alt="ZONA DO GUAXINIM"/></a>
+</center>
+
+
+<a href="http://videosdesexoxxx.blog.br/" target="_blank" title="Videos de sexo" alt="Videos de sexo">Videos de sexo</a>
+<br />
+<a href="http://videosexo.blog.br" target="_blank" title="Videos Porno" alt="Videos Porno">Videos Porno</a>
+<br />
+<a href="http://www.1001cupomdedescontos.com.br/cupom-de-desconto-americanas">Cupom de desconto Americanas
+</a>
+<br />
+<a href="https://www.reembolse.com.br/cupom-desconto/zattini/">Cupom de desconto Zattini</a>
+<br />
+<a href="http://www.pornonacionais.com/">Porno Nacional</a>
+<br />
+<a href="http://pequenasfrases.com.br">Frases</a>
+<br />
+<a href="http://jogosfriv.club/">friv</a>
+<br />
+<a href="http://dietaemagrece.com.br/dieta-detox.html">Dieta Detox</a>
+<br />
+<a href="http://kizijogosonline.com.br/">kizi</a>
+<br />
+<a href="http://bubblewitchsaga.com.br/">Bubble Witch Saga</a>
+<br />
+<a href="http://www.pornomineiro.com" target="_blank">Porno</a>
+<br />
+<a href="http://megaporno.com.br" target="_blank">Porno Gratis</a>
+<br />
+<a href="http://xvideospornogratis.club" target="_blank">xvideos</a>
+<br />
+<a href="http://xxxgaysporno.com/" target="_blank">porno gay</a>
+<br />
+<a href="http://porno18.blog.br" target="_blank">video porno</a>
+<br />
+ <a href="http://filmesporno.net.br/" alt="Filmes Porno" title="Filmes Porno" target="_blank" rel="dofollow">Filmes Porno</a> 
+</div>
+		</li>
+<li id="text-51" class="widget widget_text"><h2 class="widgettitle">Categorias</h2>
+			<div class="textwidget"><center>
+<a title="Imagens" href="http://cotovelodeformiga.com.br/category/imagens/" target="_blank"><img class="acende" src="http://i.imgur.com/vu7Ax5p.jpg" alt="Imagens"/></a>
+
+<a title="Motivacional" href="http://cotovelodeformiga.com.br/category/desmotivacional/" target="_blank"><img class="acende" src="http://i.imgur.com/kPAKpD8.jpg" alt="Motivacional"/></a>
+
+<a title="Curiosidades" href="http://cotovelodeformiga.com.br/category/curiosidades/" target="_blank"><img class="acende" src="http://i.imgur.com/vgFJHV7.jpg" alt="Curiosidades"/></a>
+
+<a title="Tirinhas" href="http://cotovelodeformiga.com.br/category/tirinha/" target="_blank"><img class="acende" src="http://i.imgur.com/r4UVLUd.jpg" alt="Tirinhas"/></a>
+
+<a title="Vídeos" href="http://cotovelodeformiga.com.br/category/videos/" target="_blank"><img class="acende" src="http://i.imgur.com/Xaqzqzd.jpg" alt="Vídeos"/></a>
+
+<a title="Notícias" href="http://cotovelodeformiga.com.br/category/noticias/" target="_blank"><img class="acende" src="http://i.imgur.com/IM5lEkm.jpg" alt="Notícias"/></a>
+
+<a title="Gifs" href="http://cotovelodeformiga.com.br/category/gif/" target="_blank"><img class="acende" src="http://i.imgur.com/oAvQIzO.jpg" alt="Gifs"/></a>
+
+<a title="Gordisse" href="http://cotovelodeformiga.com.br/category/gordisse-2/" target="_blank"><img class="acende" src="http://i.imgur.com/kFTLxX6.jpg" alt="Gordisse"/></a>
+</center></div>
+		</li>
+<li id="text-37" class="widget widget_text">			<div class="textwidget"><center><form class="assine" action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=blogcotovelodeformiga', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><input type="text"  name="email" id="email" placeholder="Receba por email"/><input type="hidden" value="blogcotovelodeformiga" name="uri"/><input type="hidden" name="loc" value="pt_BR"/><input type="submit" value="Assine!" id="assinar" /></form>
+</center>
+
+</div>
+		</li>
+<li id="text-42" class="widget widget_text">			<div class="textwidget"><center><script type="text/javascript">
+	bb_bid = "1645997";
+	bb_lang = "pt-BR";
+	bb_name = "custom";
+	bb_limit = "6";
+	bb_format = "bbn";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script>
+<script type="text/javascript">
+	bb_bid = "1645997";
+	bb_lang = "pt-BR";
+	bb_name = "custom";
+	bb_limit = "4";
+	bb_format = "bbm";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script></center>

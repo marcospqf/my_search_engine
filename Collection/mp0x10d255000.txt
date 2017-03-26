@@ -1,0 +1,392 @@
+|||
+http://blog.riandesign.com.br/
+|
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://blog.riandesign.com.br/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://blog.riandesign.com.br/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Blog Rian Design &#8211; Tecnologia e Design</title>
+<link rel="alternate" type="application/rss+xml" title="Feed para Blog Rian Design &raquo;" href="http://blog.riandesign.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Blog Rian Design &raquo;" href="http://blog.riandesign.com.br/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blog.riandesign.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.7"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cptch_stylesheet-css'  href='http://blog.riandesign.com.br/wp-content/plugins/captcha/css/style.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://blog.riandesign.com.br/wp-includes/css/dashicons.min.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='cptch_desktop_style-css'  href='http://blog.riandesign.com.br/wp-content/plugins/captcha/css/desktop_style.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://blog.riandesign.com.br/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://blog.riandesign.com.br/wp-content/themes/twentyfifteen/style.css?ver=4.5.7' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://blog.riandesign.com.br/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://blog.riandesign.com.br/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='__EPYT__style-css'  href='http://blog.riandesign.com.br/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=4.5.7' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+</style>
+<script type='text/javascript' src='http://blog.riandesign.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://blog.riandesign.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"http:\/\/blog.riandesign.com.br\/wp-admin\/admin-ajax.php","security":"5cff632e61","gallery_scrolloffset":"20","eppathtoscripts":"http:\/\/blog.riandesign.com.br\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","epresponsiveselector":"[\"iframe.__youtube_prefs_widget__\"]","epdovol":"1","version":"11.1","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blog.riandesign.com.br/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=4.5.7'></script>
+<link rel='https://api.w.org/' href='http://blog.riandesign.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog.riandesign.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog.riandesign.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5.7" />
+		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://blog.riandesign.com.br/wp-content/uploads/2016/05/bg-blog.jpg'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+<link rel="icon" href="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo2-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo2-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo2-180x180.jpg" />
+<meta name="msapplication-TileImage" content="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo2-270x270.jpg" />
+    
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="home blog custom-background wp-custom-logo">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Pular para o conteúdo</a>
+
+	<div id="sidebar" class="sidebar">
+		<header id="masthead" class="site-header" role="banner">
+			<div class="site-branding">
+				<a href="http://blog.riandesign.com.br/" class="custom-logo-link" rel="home" itemprop="url"><img width="248" height="248" src="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo-1.jpg" class="custom-logo" alt="cropped-riandesignlogo-1.jpg" itemprop="logo" srcset="http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo-1.jpg 248w, http://blog.riandesign.com.br/wp-content/uploads/2016/05/cropped-riandesignlogo-1-150x150.jpg 150w" sizes="(max-width: 248px) 100vw, 248px" /></a>						<h1 class="site-title"><a href="http://blog.riandesign.com.br/" rel="home">Blog Rian Design</a></h1>
+											<p class="site-description">Tecnologia e Design</p>
+									<button class="secondary-toggle">Menu e widgets</button>
+			</div><!-- .site-branding -->
+		</header><!-- .site-header -->
+
+			<div id="secondary" class="secondary">
+
+		
+		
+					<div id="widget-area" class="widget-area" role="complementary">
+				<aside id="pages-2" class="widget widget_pages"><h2 class="widget-title">Páginas</h2>		<ul>
+			<li class="page_item page-item-2602"><a href="http://blog.riandesign.com.br/sobre/">CONHEÇA NOSSO TRABALHO</a></li>
+		</ul>
+		</aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://blog.riandesign.com.br/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit screen-reader-text" value="Pesquisar" />
+			</form></aside>		<aside id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Tópicos recentes</h2>		<ul>
+					<li>
+				<a href="http://blog.riandesign.com.br/2017/03/17/rian-design-desenvolve-o-novo-site-do-apresentador-e-comediante-tom-cavalcante/">Rian Design desenvolve o novo site do Apresentador e Comediante Tom Cavalcante</a>
+						</li>
+					<li>
+				<a href="http://blog.riandesign.com.br/2017/03/16/conhecam-o-novo-site-da-advogada-e-professora-ana-frazao-desenvolvido-pela-rian-design/">Conheçam o novo site da Advogada e Professora Ana Frazão, desenvolvido pela Rian Design.</a>
+						</li>
+					<li>
+				<a href="http://blog.riandesign.com.br/2017/03/14/rian-design-desenvolve-site-para-importante-empresa-canadense-ephere-inc/">Rian Design desenvolve site para importante empresa canadense, Ephere Inc.</a>
+						</li>
+					<li>
+				<a href="http://blog.riandesign.com.br/2017/03/13/conheca-o-novo-site-da-iron-equipamentos-desenvolvido-pela-rian-design/">Conheça o novo site da Iron Equipamentos, desenvolvido pela Rian Design.</a>
+						</li>
+					<li>
+				<a href="http://blog.riandesign.com.br/2017/01/02/conheca-o-novo-site-do-lutador-de-mma-marlon-moraes-atual-campeao-do-peso-galo-do-wsof-site-desenvolvido-pela-rian-design/">Conheça o novo site do lutador de MMA Marlon Moraes, atual campeão do peso galo do WSOF. Site desenvolvido pela Rian Design.</a>
+						</li>
+				</ul>
+		</aside>		<aside id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Comentários</h2><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Fellipe Aguiar</span> em <a href="http://blog.riandesign.com.br/2016/07/20/por-que-o-site-da-rian-design-esta-tao-feio-parece-tao-antigo/#comment-49">Por que o site da Rian Design está tão FEIO? Parece tão antigo!</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.blutek.com.br/capas-de-celular' rel='external nofollow' class='url'>Leticia</a></span> em <a href="http://blog.riandesign.com.br/2014/12/12/vivo-lanca-x5-max-smart-mais-fino-do-mundo-com-tela-de-55-polegadas/#comment-4">Vivo lança X5 Max, smart mais fino do mundo com tela de 5,5 polegadas</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://riandesign.wordpress.com/2014/07/09/baixaki-opinou-sobre-o-game-cidade-contra-zumbis/' rel='external nofollow' class='url'>Baixaki opinou sobre o game &#8220;Cidade Contra Zumbis&#8221; | Blog da Rian Design</a></span> em <a href="http://blog.riandesign.com.br/2014/07/08/crie-um-site-para-seu-casamento/#comment-3">Crie um site para seu casamento</a></li><li class="recentcomments"><span class="comment-author-link">Eduardo Fernandes</span> em <a href="http://blog.riandesign.com.br/2014/06/04/spotify-rdio-deezer-e-outros-saiba-qual-o-melhor-streaming-de-musica/#comment-2">Spotify, Rdio, Deezer e outros; saiba qual o melhor streaming de música</a></li></ul></aside><aside id="archives-2" class="widget widget_archive"><h2 class="widget-title">Arquivos</h2>		<ul>
+			<li><a href='http://blog.riandesign.com.br/2017/03/'>março 2017</a></li>
+	<li><a href='http://blog.riandesign.com.br/2017/01/'>janeiro 2017</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/12/'>dezembro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/11/'>novembro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/10/'>outubro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/09/'>setembro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/08/'>agosto 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/07/'>julho 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/06/'>junho 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/05/'>maio 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/04/'>abril 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/03/'>março 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/02/'>fevereiro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2016/01/'>janeiro 2016</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/12/'>dezembro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/11/'>novembro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/10/'>outubro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/09/'>setembro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/08/'>agosto 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/07/'>julho 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/06/'>junho 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/05/'>maio 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/04/'>abril 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/03/'>março 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/02/'>fevereiro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2015/01/'>janeiro 2015</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/12/'>dezembro 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/11/'>novembro 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/10/'>outubro 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/09/'>setembro 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/08/'>agosto 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/07/'>julho 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/06/'>junho 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/05/'>maio 2014</a></li>
+	<li><a href='http://blog.riandesign.com.br/2014/04/'>abril 2014</a></li>
+		</ul>
+		</aside><aside id="categories-2" class="widget widget_categories"><h2 class="widget-title">Categorias</h2>		<ul>
+	<li class="cat-item cat-item-1"><a href="http://blog.riandesign.com.br/category/sem-categoria/" >Sem categoria</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://blog.riandesign.com.br/category/tudo/" >Tudo</a>
+</li>
+		</ul>
+</aside><aside id="meta-2" class="widget widget_meta"><h2 class="widget-title">Meta</h2>			<ul>
+						<li><a href="http://blog.riandesign.com.br/wp-login.php">Fazer login</a></li>
+			<li><a href="http://blog.riandesign.com.br/feed/">Posts <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://blog.riandesign.com.br/comments/feed/"><abbr title="em inglês: Really Simple Syndication">RSS</abbr> dos comentários</a></li>
+			<li><a href="https://br.wordpress.org/" title="Powered by WordPress, uma plataforma semântica de vanguarda para publicação pessoal.">WordPress.org</a></li>			</ul>
+			</aside>			</div><!-- .widget-area -->
+		
+	</div><!-- .secondary -->
+
+	</div><!-- .sidebar -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+			
+<article id="post-2906" class="post-2906 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2017/03/17/rian-design-desenvolve-o-novo-site-do-apresentador-e-comediante-tom-cavalcante/" rel="bookmark">Rian Design desenvolve o novo site do Apresentador e Comediante Tom Cavalcante</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Tem cliente novo da Rian Design na área!</p>
+<p>Conheçam o novo site do Tom Cavalcante<br />
+<a href="http://www.tomcavalcante.com.br">www.tomcavalcante.com.br</a></p>
+<p>Conheçam outros trabalhos da Rian Design<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2907" src="http://blog.riandesign.com.br/wp-content/uploads/2017/03/capa-tom-rian-design.jpg" alt="capa tom rian design" width="925" height="916" srcset="http://blog.riandesign.com.br/wp-content/uploads/2017/03/capa-tom-rian-design.jpg 925w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/capa-tom-rian-design-150x150.jpg 150w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/capa-tom-rian-design-300x297.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/capa-tom-rian-design-768x761.jpg 768w" sizes="(max-width: 925px) 100vw, 925px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2017/03/17/rian-design-desenvolve-o-novo-site-do-apresentador-e-comediante-tom-cavalcante/" rel="bookmark"><time class="entry-date published updated" datetime="2017-03-17T17:07:47+00:00">17/03/2017</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2017/03/17/rian-design-desenvolve-o-novo-site-do-apresentador-e-comediante-tom-cavalcante/#respond">Deixe um comentário <span class="screen-reader-text"> em Rian Design desenvolve o novo site do Apresentador e Comediante Tom Cavalcante</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2903" class="post-2903 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2017/03/16/conhecam-o-novo-site-da-advogada-e-professora-ana-frazao-desenvolvido-pela-rian-design/" rel="bookmark">Conheçam o novo site da Advogada e Professora Ana Frazão, desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Advogada e Professora de Direito Civil e Comercial da Universidade de Brasília – UnB. Ex-Conselheira do CADE – Conselho Administrativo de Defesa Econômica (2012-2015). Ex-Diretora da Faculdade de Direito da Universidade de Brasília (2009-2012). Graduada em Direito pela Universidade de Brasília – UnB, Especialista em Direito Econômico e Empresarial pela Fundação Getúlio Vargas – FGV, Mestre em Direito e Estado pela Universidade de Brasília – UnB e Doutora em Direito Comercial pela Pontifícia Universidade Católica de São Paulo – PUCSP. Líder do GECEM – Grupo de Estudos Constituição, Empresa e Mercado.</p>
+<p>Dentre os prêmios recebidos, encontra-se o de Jovem Comercialista do ano, concedido pelo IDSA &#8211; Instituto de Direito Societário Aplicado em 2015.</p>
+<p>Advogada inscrita na Ordem dos Advogados do Brasil, nas Seções do Distrito Federal e dos Estados do Rio de Janeiro, São Paulo e Distrito Federal. Sócia do escritório Gustavo Tepedino Advogados desde 2015.</p>
+<p>Visitem o site da Ana Frazão<br />
+<a href="http://www.anafrazao.com.br">www.anafrazao.com.br</a></p>
+<p>Conheçam outros trabalhos da Rian Design<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2904" src="http://blog.riandesign.com.br/wp-content/uploads/2017/03/layout-Ana-Frazão-riandesign.com_.br_.jpg" alt="layout Ana Frazão - riandesign.com.br" width="895" height="911" srcset="http://blog.riandesign.com.br/wp-content/uploads/2017/03/layout-Ana-Frazão-riandesign.com_.br_.jpg 895w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/layout-Ana-Frazão-riandesign.com_.br_-295x300.jpg 295w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/layout-Ana-Frazão-riandesign.com_.br_-768x782.jpg 768w" sizes="(max-width: 895px) 100vw, 895px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2017/03/16/conhecam-o-novo-site-da-advogada-e-professora-ana-frazao-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2017-03-16T16:44:50+00:00">16/03/2017</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2017/03/16/conhecam-o-novo-site-da-advogada-e-professora-ana-frazao-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Conheçam o novo site da Advogada e Professora Ana Frazão, desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2900" class="post-2900 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2017/03/14/rian-design-desenvolve-site-para-importante-empresa-canadense-ephere-inc/" rel="bookmark">Rian Design desenvolve site para importante empresa canadense, Ephere Inc.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Rian Design desenvolve site e projetos gráficos para importante empresa do Canadá, Ephere Inc., a qual tem clientes como Autodesk, RockStar Games, Blizzard, Capcom, Ubisoft, assim como projetos feitos para cinema e games, tais como Deadpool, Uncharted e Far Cry.</p>
+<p>Confira o site da Ephere:<br />
+<a href="http://www.ephere.com" target="_blank"><strong>www.ephere.com</strong></a></p>
+<p><img class="alignnone size-full wp-image-2901" src="http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere.jpg" alt="ephere" width="1280" height="1280" srcset="http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere.jpg 1280w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere-150x150.jpg 150w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere-300x300.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere-768x768.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/ephere-1024x1024.jpg 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2017/03/14/rian-design-desenvolve-site-para-importante-empresa-canadense-ephere-inc/" rel="bookmark"><time class="entry-date published updated" datetime="2017-03-14T13:52:19+00:00">14/03/2017</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2017/03/14/rian-design-desenvolve-site-para-importante-empresa-canadense-ephere-inc/#respond">Deixe um comentário <span class="screen-reader-text"> em Rian Design desenvolve site para importante empresa canadense, Ephere Inc.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2897" class="post-2897 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2017/03/13/conheca-o-novo-site-da-iron-equipamentos-desenvolvido-pela-rian-design/" rel="bookmark">Conheça o novo site da Iron Equipamentos, desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>A Iron Equipamentos é uma empresa brasileira, tecnologicamente projetadas para o desenvolvimento, fabricação, comercialização e exportação de diversas soluções em equipamentos.</p>
+<p>Com mais de 20 anos de experiência e profissionais qualificados, faz da Iron Equipamentos uma referência nos seguimentos de atuação.</p>
+<p>Com uma característica voltada para inovação, qualidade dos produtos e excelência no atendimento, investimos em pesquisas e desenvolvimentos de novas soluções, buscando sempre a inovação e satisfação dos nossos clientes.</p>
+<p>Visite o novo site da Iron Equipamentos:<br />
+<a href="http://www.ironequipamentos.com.br">www.ironequipamentos.com.br</a></p>
+<p>Conheça outros trabalhos da Rian Design:<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2898" src="http://blog.riandesign.com.br/wp-content/uploads/2017/03/Iron-layout.jpg" alt="Iron layout" width="1133" height="837" srcset="http://blog.riandesign.com.br/wp-content/uploads/2017/03/Iron-layout.jpg 1133w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/Iron-layout-300x222.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/Iron-layout-768x567.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2017/03/Iron-layout-1024x756.jpg 1024w" sizes="(max-width: 1133px) 100vw, 1133px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2017/03/13/conheca-o-novo-site-da-iron-equipamentos-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2017-03-13T10:05:50+00:00">13/03/2017</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2017/03/13/conheca-o-novo-site-da-iron-equipamentos-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Conheça o novo site da Iron Equipamentos, desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2893" class="post-2893 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2017/01/02/conheca-o-novo-site-do-lutador-de-mma-marlon-moraes-atual-campeao-do-peso-galo-do-wsof-site-desenvolvido-pela-rian-design/" rel="bookmark">Conheça o novo site do lutador de MMA Marlon Moraes, atual campeão do peso galo do WSOF. Site desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Marlon Moraes é um lutador de MMA brasileiro que atualmente compete pela World Series of Fighting na Divisão dos galos, onde é o dono do cinturão. A partir de março de 2015, Moraes foi classificado como o lutador top 3 da categoria no mundo pela Sherdog.</p>
+<p>Moraes começou a praticar artes marciais com o Muay Thai aos sete anos de idade e começou a treinar Jiu-Jitsu aos 15 anos. Ele viu o sucesso nacional com o Muay Thai no Brasil, ganhando o Muay Thai National Championships antes de mudar em tempo integral para o MMA.</p>
+<p>No Xtreme Fighting Championships, em 2 de dezembro de 2011, Moraes lutou contra Chris Manuel no XFC 15, vencendo por decisão unânime. Em 13 de abril de 2012, Moraes lutou com Jarrod Card no XFC 17, Ele venceu por nocaute em 47 segundos do primeiro round. Em setembro de 2012, Moraes assinou com a World Series of Fighting.</p>
+<p>Visite o site do lutador Marlon Moraes<br />
+<a href="http://www.mmarlonmoraes.com">www.mmarlonmoraes.com</a></p>
+<p>Conheça outros trabalhos da Rian Design<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2894" src="http://blog.riandesign.com.br/wp-content/uploads/2017/01/marlon-layout.jpg" alt="marlon-layout" width="1279" height="888" srcset="http://blog.riandesign.com.br/wp-content/uploads/2017/01/marlon-layout.jpg 1279w, http://blog.riandesign.com.br/wp-content/uploads/2017/01/marlon-layout-300x208.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2017/01/marlon-layout-768x533.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2017/01/marlon-layout-1024x711.jpg 1024w" sizes="(max-width: 1279px) 100vw, 1279px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2017/01/02/conheca-o-novo-site-do-lutador-de-mma-marlon-moraes-atual-campeao-do-peso-galo-do-wsof-site-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2017-01-02T10:41:05+00:00">02/01/2017</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2017/01/02/conheca-o-novo-site-do-lutador-de-mma-marlon-moraes-atual-campeao-do-peso-galo-do-wsof-site-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Conheça o novo site do lutador de MMA Marlon Moraes, atual campeão do peso galo do WSOF. Site desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2889" class="post-2889 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2016/12/21/visite-o-site-da-planejar-construtora-desenvolvido-pela-rian-design/" rel="bookmark">Visite o site da Planejar Construtora, desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Fundada em 2011, a Planejar Construtora tem como objetivo diminuir o déficit habitacional, realizando o sonho da casa própria. Reune os principais requisitos para uma gestão eficaz, atuando desde a incorporação, construção até a comercialização de seus imóveis.</p>
+<p>Contamos com uma equipe de profissionais experientes, com flexibilidade para estabelecer parcerias e identificar oportunidades, buscando sempre a melhoria continua de seus processos, objetivando a satisfação dos seus clientes internos e externos, para obter maior lucratividade.</p>
+<p>Visite o site da Planejar Construtora:<br />
+<a href="http://www.planejarconstrutora.com">www.planejarconstrutora.com</a></p>
+<p>Conheça outros trabalhos da Rian Design:<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2890" src="http://blog.riandesign.com.br/wp-content/uploads/2016/12/planejar-riandesign.jpg" alt="planejar-riandesign" width="1230" height="914" srcset="http://blog.riandesign.com.br/wp-content/uploads/2016/12/planejar-riandesign.jpg 1230w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/planejar-riandesign-300x223.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/planejar-riandesign-768x571.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/planejar-riandesign-1024x761.jpg 1024w" sizes="(max-width: 1230px) 100vw, 1230px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2016/12/21/visite-o-site-da-planejar-construtora-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2016-12-21T09:46:41+00:00">21/12/2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2016/12/21/visite-o-site-da-planejar-construtora-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Visite o site da Planejar Construtora, desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2886" class="post-2886 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2016/12/20/conheca-o-site-da-amaro-engenharia-empresa-de-angra-dos-reis-site-desenvolvido-pela-rian-design/" rel="bookmark">Conheça o site da Amaro Engenharia, empresa de Angra dos Reis. Site desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Em atividade desde 2006, à AMARO ENGENHARIA é uma empresa focada na prestação de serviços para as áreas de Engenharia, Arquitetura, Construção e Facilities.</p>
+<p>Com sede na cidade de Angra dos Reis, atuamos em todo o território nacional, provendo soluções em engenharia a fim de alcançar a plena satisfação de nossos clientes.</p>
+<p>Preservando os valores éticos, contribuindo para o desenvolvimento sustentável e com comprovada experiência na execução de serviços de engenharia, contamos com uma equipe técnica com vasta experiência no desenvolvimento de nossas atividades.</p>
+<p>Conheça o site da Amaro Engenharia:<br />
+<a href="http://www.amaroengenharia.com.br">www.amaroengenharia.com.br</a></p>
+<p>Veja outros trabalhos da Rian Design:<br />
+<a href="http://www.riandesign.com.br">www.riandesign.com.br</a></p>
+<p><img class="alignnone size-full wp-image-2887" src="http://blog.riandesign.com.br/wp-content/uploads/2016/12/Amaro-layout-Rian-design.jpg" alt="amaro-layout-rian-design" width="1460" height="917" srcset="http://blog.riandesign.com.br/wp-content/uploads/2016/12/Amaro-layout-Rian-design.jpg 1460w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Amaro-layout-Rian-design-300x188.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Amaro-layout-Rian-design-768x482.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Amaro-layout-Rian-design-1024x643.jpg 1024w" sizes="(max-width: 1460px) 100vw, 1460px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2016/12/20/conheca-o-site-da-amaro-engenharia-empresa-de-angra-dos-reis-site-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2016-12-20T10:19:15+00:00">20/12/2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2016/12/20/conheca-o-site-da-amaro-engenharia-empresa-de-angra-dos-reis-site-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Conheça o site da Amaro Engenharia, empresa de Angra dos Reis. Site desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2884" class="post-2884 post type-post status-publish format-standard hentry category-sem-categoria tag-cartao-natal tag-desenho-animado tag-mascote tag-natal tag-papai-noel-desenho tag-tres-rios">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2016/12/19/cartao-de-natal-em-forma-de-desenho-animado/" rel="bookmark">Cartão de Natal em forma de desenho animado!</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Neste <strong>Natal</strong>, fizemos uma divertida animação desenhada à mão, desejando-lhes um feliz Natal e que ano que vem seja ainda melhor!</p>
+<p>Agradecemos a todos que apoiam nossas ideias, projetos e apreciam nosso design. Estaremos por aqui, caso queiram conversar conosco e discutir novos projetos.</p>
+<p><em><strong>Grande abraço da equipe Rian Design!</strong></em><br />
+<iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagenciariandesign%2Fvideos%2F622867364504674%2F&amp;show_text=0&amp;width=400" width="400" height="400" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2016/12/19/cartao-de-natal-em-forma-de-desenho-animado/" rel="bookmark"><time class="entry-date published updated" datetime="2016-12-19T15:51:46+00:00">19/12/2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="tags-links"><span class="screen-reader-text">Tags </span><a href="http://blog.riandesign.com.br/tag/cartao-natal/" rel="tag">cartão natal</a>, <a href="http://blog.riandesign.com.br/tag/desenho-animado/" rel="tag">desenho animado</a>, <a href="http://blog.riandesign.com.br/tag/mascote/" rel="tag">mascote</a>, <a href="http://blog.riandesign.com.br/tag/natal/" rel="tag">natal</a>, <a href="http://blog.riandesign.com.br/tag/papai-noel-desenho/" rel="tag">papai noel desenho</a>, <a href="http://blog.riandesign.com.br/tag/tres-rios/" rel="tag">tres rios</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2016/12/19/cartao-de-natal-em-forma-de-desenho-animado/#respond">Deixe um comentário <span class="screen-reader-text"> em Cartão de Natal em forma de desenho animado!</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2879" class="post-2879 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2016/12/12/prefeito-de-tres-rios-vinicius-farah-divulga-projeto-historia-em-maos-da-rian-design/" rel="bookmark">Prefeito de Três Rios, Vinícius Farah, divulga projeto &#8220;História em Mãos&#8221; da Rian Design</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Vinícius Farah, prefeito de Três Rios, agradece e divulga o projeto &#8220;História em Mãos&#8221;, desenvolvido pela Rian Design e doado para a cidade de Três Rios.</p>
+<p><img class="alignnone size-full wp-image-2881" src="http://blog.riandesign.com.br/wp-content/uploads/2016/12/vinicius-farah-historia-em-maos-tres-rios-rian-design.jpg" alt="vinicius-farah-historia-em-maos-tres-rios-rian-design" width="768" height="768" srcset="http://blog.riandesign.com.br/wp-content/uploads/2016/12/vinicius-farah-historia-em-maos-tres-rios-rian-design.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/vinicius-farah-historia-em-maos-tres-rios-rian-design-150x150.jpg 150w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/vinicius-farah-historia-em-maos-tres-rios-rian-design-300x300.jpg 300w" sizes="(max-width: 768px) 100vw, 768px" /></p>
+<p>O Projeto, instalado nos principais pontos históricos de Três Rios, visa contar a história real e origem de cada um dos pontos, assim como mostrar fotos antigas de obras, construções e eventos importantes.</p>
+<p>Assista à matéria veiculada na TV Rio Sul (Rede Globo):<br />
+<iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fagenciariandesign%2Fvideos%2F617349008389843%2F&amp;show_text=0&amp;width=560" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Extraído de: <a href="https://www.facebook.com/farah.vinicius/posts/1222394564502825" target="_blank">https://www.facebook.com/farah.vinicius/posts/1222394564502825</a></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2016/12/12/prefeito-de-tres-rios-vinicius-farah-divulga-projeto-historia-em-maos-da-rian-design/" rel="bookmark"><time class="entry-date published" datetime="2016-12-12T11:10:07+00:00">12/12/2016</time><time class="updated" datetime="2016-12-12T11:11:09+00:00">12/12/2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2016/12/12/prefeito-de-tres-rios-vinicius-farah-divulga-projeto-historia-em-maos-da-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Prefeito de Três Rios, Vinícius Farah, divulga projeto &#8220;História em Mãos&#8221; da Rian Design</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+<article id="post-2876" class="post-2876 post type-post status-publish format-standard hentry category-sem-categoria">
+	
+	<header class="entry-header">
+		<h2 class="entry-title"><a href="http://blog.riandesign.com.br/2016/12/12/conhecam-o-site-do-sicomercio-de-volta-redonda-site-desenvolvido-pela-rian-design/" rel="bookmark">Conheçam o site do Sicomércio de Volta Redonda. Site desenvolvido pela Rian Design.</a></h2>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<p>Criado em 02/06/1982, o Sindicato do Comércio Varejista de Volta Redonda – SICOMÉRCIO-VR, cadastrado na Federação do Comércio no Estado do Rio de Janeiro – Fecomércio/RJ, e na Confederação Nacional do Comércio – CNC tem como exigibilidade reconhecida  a representar a categoria do Comércio Varejista, e Comércio de prestação de Bens e Serviços dentro do município de Volta Redonda.</p>
+<p>Acesse o site do Sicomércio de Volta Redonda<br />
+www.sicomerciovr.com.br</p>
+<p>Conheça outros trabalhos da Rian Design<br />
+www.riandesign.com.br</p>
+<p><img src="http://blog.riandesign.com.br/wp-content/uploads/2016/12/Sico-vr-layout.jpg" alt="sico-vr-layout" width="1031" height="876" class="alignnone size-full wp-image-2877" srcset="http://blog.riandesign.com.br/wp-content/uploads/2016/12/Sico-vr-layout.jpg 1031w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Sico-vr-layout-300x255.jpg 300w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Sico-vr-layout-768x653.jpg 768w, http://blog.riandesign.com.br/wp-content/uploads/2016/12/Sico-vr-layout-1024x870.jpg 1024w" sizes="(max-width: 1031px) 100vw, 1031px" /></p>
+	</div><!-- .entry-content -->
+
+	
+	<footer class="entry-footer">
+		<span class="posted-on"><span class="screen-reader-text">Publicado em </span><a href="http://blog.riandesign.com.br/2016/12/12/conhecam-o-site-do-sicomercio-de-volta-redonda-site-desenvolvido-pela-rian-design/" rel="bookmark"><time class="entry-date published updated" datetime="2016-12-12T10:20:27+00:00">12/12/2016</time></a></span><span class="cat-links"><span class="screen-reader-text">Categorias </span><a href="http://blog.riandesign.com.br/category/sem-categoria/" rel="category tag">Sem categoria</a></span><span class="comments-link"><a href="http://blog.riandesign.com.br/2016/12/12/conhecam-o-site-do-sicomercio-de-volta-redonda-site-desenvolvido-pela-rian-design/#respond">Deixe um comentário <span class="screen-reader-text"> em Conheçam o site do Sicomércio de Volta Redonda. Site desenvolvido pela Rian Design.</span></a></span>			</footer><!-- .entry-footer -->
+
+</article><!-- #post-## -->
+
+	<nav class="navigation pagination" role="navigation">
+		<h2 class="screen-reader-text">Navegação por posts</h2>
+		<div class="nav-links"><span class='page-numbers current'><span class="meta-nav screen-reader-text

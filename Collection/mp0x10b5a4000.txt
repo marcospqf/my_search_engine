@@ -1,0 +1,506 @@
+|||
+http://noticias.uol.com.br/home-compartilhe/facebook.htm
+|
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <html> <head> <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"> <title>UOL - Facebook</title> </head> <script type="text/javascript">location.replace("http://www.facebook.com/UOL");</script> <body> </body> </html>
+|||
+http://bandsports.band.uol.com.br/
+|
+
+<!doctype html>
+	<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+	<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+	<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+	<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+	<!--[if (gt IE 9)|!(IE)]><!--> <html lang="pt-br" class="no-js"> <!--<![endif]-->
+	<head>
+	
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Cache-Control" content="max-age=120" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Bandsports - o canal de todos os esportes" />
+		<meta name="robots" content="index, follow" />
+		
+		<!-- Início Summary Card Twitter -->
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@bandsportsTV">
+		<meta name="twitter:title" content="">
+		<meta name="twitter:description" content="">
+		<meta name="twitter:creator" content="bandsportsTV">
+		<meta name="twitter:image:src" content="">
+		<meta name="twitter:domain" content="bandsports.com.br">
+		<!-- Fim Summary Card Twitter -->
+
+		<!-- Tag:Facebook -->
+		<meta property="og:title" content="Bandsports - o canal de todos os esportes"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content="http://bandsports.band.uol.com.br/Default.asp"/>
+		<meta property="og:image" content="http://bandsports.band.uol.com.br/imagens/facebook.jpg"/>
+		<meta property="og:site_name" content="Bandsports - o canal de todos os esportes"/>
+		<meta property="fb:admins" content="100001413372741,100001413372741,100000322040655"/>
+		<meta property="og:description" content="Bandsports - o canal de todos os esportes"/>
+	
+		
+		<title>Bandsports - o canal de todos os esportes</title>
+		
+		<link rel="stylesheet" href="http://bandsports.band.uol.com.br/css/style.css?Rnd=0,7055475">
+		
+		
+
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+		
+			<!--[if lte IE 6]><script src="http://www.band.uol.com.br/library/ie6-upgrade-warning/warning.js"></script><script>window.onload=function(){e("/library/ie6-upgrade-warning/")}</script><![endif]-->
+		
+
+		
+		<!-- habilita "CSS3 mediaqueries" para IE8 ou mais antigo -->
+		<!--[if lt IE 9]>
+			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+		<![endif]-->
+		
+		
+		<script type="text/javascript" src="http://www.band.uol.com.br/library/modernizr/modernizr-1.7.min.js"></script>
+		
+			<script language="javascript">
+				var ua = navigator.userAgent,
+					mobile = /iPhone/i.test(ua) || /iPod/i.test(ua) || /Android/i.test(ua);
+				
+				if (mobile) {
+					window.location.href='?mobile=true';
+				};
+			</script>
+			<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-CCNR');</script>
+    <!-- End Google Tag Manager --> <link rel="stylesheet" href="http://www.band.uol.com.br/core/publicidade/css/publicidade.css">
+ <script type='text/javascript'>
+var gptadslots=[];
+(function(){
+	var useSSL = 'https:' == document.location.protocol;
+	var src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+	document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+	<script type="text/javascript"> 
+		 var _sf_async_config = _sf_async_config || {};
+		_sf_async_config.uid = 62968; // ACCOUNT NUMBER 
+		_sf_async_config.domain = 'band.uol.com.br'; // DOMAIN 
+		_sf_async_config.flickerControl = false; 
+		_sf_async_config.useCanonical = true;  
+		var _sf_startpt = (new Date()).getTime();
+	</script>
+	</head>
+	
+	
+	
+	<body class="home" id="home">
+	
+		<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-CCNR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+		
+		<!-- SDK facebook -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=287658088060605&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
+		<!-- Twitter -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+		
+		
+
+
+
+		<div id="topo-fix">
+		
+			
+				<div id="gb_menu_band">
+					
+						<script type="text/javascript" src="http://www.band.com.br/barra/grupo_parceiro_inteira.js"></script>
+					
+				</div>
+			
+				
+			<div id="area_header">
+				<header class="grid-full">
+				
+					
+						<h1 class="logo"><a href="http://bandsports.band.uol.com.br/default.asp" class="band_ir sprite">Bandsports - o canal de todos os esportes</a></h1>
+					<div id="oop"></div><div id="superleaderboard_leaderboard" class="banner"></div> 
+				
+				</header>
+			</div>
+		
+			<nav id="menu" class="grid-full">
+	<h3>Navegação</h3>
+	<ul class="menu">
+		<!-- Seguir sempre o mesmo padrão abaixo -->
+		<li class=""><a href="http://bandsports.band.uol.com.br/o-canal.asp">O Canal</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/programacao.asp">Programação</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/ancine">Programação Ancine</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/videos.asp">Vídeos</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/fotos.asp">Fotos</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/rolandgarros/2016">Roland Garros</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/noticias.asp">Notícias</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/quem-faz.asp">Quem Faz</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/comercial.asp">Comercial</a></li>
+		<li class=""><a href="http://bandsports.band.uol.com.br/como-assinar.asp">Como Assinar</a></li>
+		
+	
+	<li class="aovivo">
+			<a href=""><span class="sprite"></span> Ao vivo</a>
+			<p>para<br> <b>assinantes</b></p>
+		</li>
+	</ul>
+
+	<ul class="menu-social">
+		<li><a href="http://www.band.uol.com.br/rss/bandsports_-_geral.xml" class="rss sprite" target="_blank">RSS</a></li>
+		<li><a href="http://www.facebook.com/bandsportstv" class="facebook sprite" target="_blank">Facebook</a></li>
+		<li><a href="http://www.twitter.com/bandsportstv" class="twitter sprite" target="_blank">Twitter</a></li>
+		<li><a href="https://plus.google.com/100984407761312396725/posts" class="gplus sprite" target="_blank">G+</a></li>
+	</ul>
+
+	<div id="selo" </div> 
+
+</nav>
+			
+		</div><!-- fecha #topo-fix -->
+			
+		<div id="area_conteudo">
+
+
+<!-- Destaque home -->
+<section id="destaque-home">
+
+	<ul>
+		<li class="pgrid-50 materia mat-lista">
+			<article class="destaque-edita-755"><a href="http://bandsports.band.uol.com.br/noticia/100000851076/palmeiras-fica-no-2-a-2-diante-do-audax-pelo-paulistao.html" class=""><img src="http://imagem.band.com.br/homes/home_484308.jpg" width="720" height="415" alt="guedesvoadora1078aa.jpg"><div class="text pgrid-100 clearfix"><div><h3>COM VOADORA DE GUEDES</h3><h2>Palmeiras fica no empate por 2 a 2 diante do Audax</h2></div></div></a>	</article>
+		<ul></ul></li><li class="pgrid-50 materia">
+			<article class="destaque-edita-755"><a href="http://bandsports.band.uol.com.br/noticia/100000851080/treino-do-brasil-no-morumbi-tem-festa-e-invasao-de-garotos.html" class=""><img src="http://imagem.band.com.br/homes/home_484307.jpg" width="720" height="415" alt="neymarmorumbi7a.jpg"><div class="text pgrid-100 clearfix"><div><h3>SELEÇÃO BRASILEIRA</h3><h2>Treino no Morumbi tem festa da torcida e invasão</h2></div></div></a>	</article>
+		</li>
+				
+	</ul>
+
+</section>
+<!-- Fim Destaque home -->
+
+<div id="corpo-home">
+	
+	
+
+	<div id="barra-noar">
+		<div class="grid-full">
+			<div class="programa noar pgrid-50">
+				<h3>no ar</h3>
+				<h4><b>23h00</b> Resenha
+					<div class="info">
+						<span class="ico sprite">i</span>
+							<div class="tooltip">
+								<p>Bate-papo informal com grandes nomes do futebol brasileiro, boas histórias e muita informação exclusivas.</p>
+								<span class="seta sprite"></span>
+							</div>
+						</div>
+					</h4>
+			</div>
+			<div class="pgrid-40">
+				<div class="programa pgrid-50">
+					<h3>a seguir</h3>
+					<h4><b>00h00</b> Campeonato Italian...
+						<div class="info">
+						<span class="ico sprite">i</span>
+							<div class="tooltip">
+								<p>Cittadella x Spezia.</p>
+								<span class="seta sprite"></span>
+							</div>
+						</div>
+					</h4>
+				</div>
+				<div class="programa pgrid-50">
+					<h3>e depois</h3>
+					<h4><b>02h00</b> Liga Italiana de V...
+						<div class="info">
+						<span class="ico sprite">i</span>
+							<div class="tooltip">
+								<p>Perugia x Trentino.</p>
+								<span class="seta sprite"></span>
+							</div>
+						</div>
+					</h4>
+				</div>
+			</div>
+			<div class="pgrid-10">
+				<a href="programacao.asp" class="bt-mais">
+					<b>Programação</b>
+					<br/>
+					Completa&nbsp;»
+					
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<section id="bloco-videos" class="grid-full">
+		<div class="grid-4">
+			<div id="arroba1" class="banner"></div>
+		</div>
+
+		
+
+<div class="grid-11 last">
+	<header class="header-padrao">
+		<h2>Vídeos</h2>
+		<aside class="link">
+			<a href="videos.asp">+vídeos</a>
+		</aside>
+	</header>
+	<div class="box-slide clearfix">
+		<a href="" class="bt-prev"><span class="ico sprite band_ir">Voltar</span></a>
+		<a href="" class="bt-next"><span class="ico sprite band_ir">Avançar</span></a>
+		<div class="mask">
+			<ul class="lista-videos">
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173220&t=palmeiras-esta-pronto-para-enfrentar-o-audax">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>5:40</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173220-large.jpg?ver=1" alt="Palmeiras está pronto para enfrentar o Audax">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173220&t=palmeiras-esta-pronto-para-enfrentar-o-audax">Palmeiras está pronto para enfrentar o Audax</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173210&t=richarlison-comanda-virada-do-flu-para-cima-de-botafogo">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>2:44</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173210-large.jpg?ver=1" alt="Richarlison comanda virada do Flu para cima de Botafogo">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173210&t=richarlison-comanda-virada-do-flu-para-cima-de-botafogo">Richarlison comanda virada do Flu para cima de Botafogo</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173209&t=com-muitos-desfalques-sao-paulo-se-prepara-para-majestoso">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>2:48</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173209-large.jpg?ver=1" alt="Com muitos desfalques, São Paulo se prepara para Majestoso">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173209&t=com-muitos-desfalques-sao-paulo-se-prepara-para-majestoso">Com muitos desfalques, São Paulo se prepara para Majestoso</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173207&t=corinthians-esta-ha-tres-rodadas-sem-vencer">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>3:02</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173207-large.jpg?ver=1" alt="Corinthians está há três rodadas sem vencer">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173207&t=corinthians-esta-ha-tres-rodadas-sem-vencer">Corinthians está há três rodadas sem vencer</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173006&t=palmeiras-vence-mirassol-no-allianz">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>3:32</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173006-large.jpg?ver=1" alt="Palmeiras vence Mirassol no Allianz">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173006&t=palmeiras-vence-mirassol-no-allianz">Palmeiras vence Mirassol no Allianz</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173004&t=brasil-e-uruguai-se-enfrentam-em-montevideu">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>2:03</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173004-large.jpg?ver=1" alt="Brasil e Uruguai se enfrentam em Montevideu">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173004&t=brasil-e-uruguai-se-enfrentam-em-montevideu">Brasil e Uruguai se enfrentam em Montevideu</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16173005&t=marlone-e-emprestado-ao-galo-ate-o-fim-do-ano">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>0:17</span></time>
+								<img src="https://thumb.mais.uol.com.br/16173005-large.jpg?ver=1" alt="Marlone é emprestado ao Galo até o fim do ano">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16173005&t=marlone-e-emprestado-ao-galo-ate-o-fim-do-ano">Marlone é emprestado ao Galo até o fim do ano</a></h3>
+					</article>
+				</li>
+				  
+				<li>
+					<article>
+						<figure>
+							<a href="videos.asp?id=16172921&t=majestoso-tricolor-e-timao-tentam-quebrar-jejum">
+								<span class="ico sprite"></span>
+								<time datetime=""> <span>3:58</span></time>
+								<img src="https://thumb.mais.uol.com.br/16172921-large.jpg?ver=1" alt="Majestoso: Tricolor e Timão tentam quebrar jejum">
+							</a>
+						</figure>
+						<h3><a href="videos.asp?id=16172921&t=majestoso-tricolor-e-timao-tentam-quebrar-jejum">Majestoso: Tricolor e Timão tentam quebrar jejum</a></h3>
+					</article>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+	</section>
+	
+	<!--hr class="grid-full" /-->
+
+	<!-- include file="includes/box_comentaristas.asp" -->
+	
+	<hr class="grid-full" />
+	
+	<div class="grid-full">
+		
+<section id="bloco-noticias" class="grid-11">
+
+				<div class="grid-4">
+					<header class="header-padrao">
+						<h2>Notícias</h2>
+		
+						<aside class="link">
+							<a href="noticias.asp">+notícias</a>
+						</aside>
+					</header>
+					<article>
+						<figure>
+						
+							<a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851089&t=gremio-goleia-juventude-e-carimba-a-vaga-pelo-gaucho.html">
+								<img src="http://imagem.band.com.br/f_385243.jpg" alt="Grêmio goleia Juventude e carimba a vaga pelo Gaúcho">
+							</a>
+						</figure>
+						<time datetime="2008-02-14">25/03/2017 <span>| 21:26</span></time>
+						<h3><a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851089&t=gremio-goleia-juventude-e-carimba-a-vaga-pelo-gaucho.html">Grêmio goleia Juventude e carimba a vaga pelo Gaúcho</a></h3>
+					</article>
+				</div>
+				<div class="grid-7 last">
+
+					<article>
+						<figure class="grid-2">
+							<a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851088&t=franca-vence-e-holanda-perde-pelas-eliminatorias-na-europa.html">
+								<img src="http://imagem.band.com.br/f_385242.jpg" alt="França vence e Holanda perde pelas Eliminatórias na Europa">
+							</a>
+						</figure>
+						<time datetime="2008-02-14">25/03/2017 <span>| 20:37</span></time>
+						<h3><a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851088&t=franca-vence-e-holanda-perde-pelas-eliminatorias-na-europa.html">França vence e Holanda perde pelas Eliminatórias na Europa</a></h3>
+					</article>
+					<hr />		
+
+					<article>
+						<figure class="grid-2">
+							<a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851086&t=portugal-vence-com-golacos-de-cristiano-ronaldo.html">
+								<img src="http://imagem.band.com.br/f_385240.jpg" alt="Portugal vence com golaços de Cristiano Ronaldo">
+							</a>
+						</figure>
+						<time datetime="2008-02-14">25/03/2017 <span>| 19:51</span></time>
+						<h3><a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851086&t=portugal-vence-com-golacos-de-cristiano-ronaldo.html">Portugal vence com golaços de Cristiano Ronaldo</a></h3>
+					</article>
+					<hr />		
+
+					<article>
+						<figure class="grid-2">
+							<a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851083&t=palmeiras-encaminha-acerto-com-o-zagueiro-luan-do-vasco.html">
+								<img src="http://imagem.band.com.br/f_385235.jpg" alt="Palmeiras encaminha acerto com o zagueiro Luan, do Vasco">
+							</a>
+						</figure>
+						<time datetime="2008-02-14">25/03/2017 <span>| 18:41</span></time>
+						<h3><a href="http://bandsports.band.uol.com.br/noticia.asp?id=100000851083&t=palmeiras-encaminha-acerto-com-o-zagueiro-luan-do-vasco.html">Palmeiras encaminha acerto com o zagueiro Luan, do Vasco</a></h3>
+					</article>
+					<hr />		
+
+		</div>
+
+</section>
+<section id="bloco-fotos" class="grid-4 last">
+	<header class="header-padrao">
+		<h2>Fotos</h2>
+	</header>
+
+			<article>
+				<figure>
+					<a href="galeria.asp?id=10000012028">
+						<h3>Homenagens marcam primeiro jogo da Chape após acidente <span class="ico">+</span></h3>
+						<img src="http://imagem.band.com.br/f_d91d48e1-8cfc-4e5b-8761-b2f4c6ef82cd_ami1aa.jpg" alt="Homenagens marcam primeiro jogo da Chape após acidente">
+					</a>
+				</figure>
+			</article>
+
+</section>
+	</div>
+	
+	<div id="barra_falenews">
+
+			<div class="barra_fale">
+				<div class="conteudo">
+					<div class="icone sprite"></div>
+					<div class="texto">
+						<span>Fale <b>Conosco</b></span>
+					</div>
+					<div class="texto2">
+						<span>para enviar sua mensagem</span>
+						<a href="http://bandsports.band.uol.com.br/fale-conosco.asp" class="botao">clique aqui</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="barra_news">
+				<div class="conteudo">
+					<div class="icone sprite"></div>
+					<form id="newsletter" method="get" target="popup" action="http://www.band.com.br/newsletter/cadastro.asp">
+						<input value="bandsports-noticias" name="uri" type="hidden">
+						<input name="loc" value="pt_BR" type="hidden">
+						<input value="0" name="Pai" type="hidden">
+						<input value="4" name="ProdutoID" type="hidden">
+
+						<span>Receba a <b>Newsletter</b> do <b>Bandsports</b></span>
+						<input name="nome" id="newsletter_nome" value="Nome" type="text">
+						<input name="email" id="newsletter_email" value="E-mail" type="text">
+						<input value="enviar" id="newsletter_botao" type="submit">
+						<label><input value="sim" name="aceito" id="newsletter_checkbox" checked="checked" type="checkbox"><span>Receber e-mails do Bandsports e parceiros</span></label>
+					</form>
+				</div>
+			</div>
+		
+
+	</div>
+
+</div>
+				<footer class="grid-full">
+					<div id="billboard_superleaderboard" clas

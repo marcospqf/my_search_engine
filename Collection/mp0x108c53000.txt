@@ -1,0 +1,1413 @@
+|||
+http://clicklogger.rm.uol.com.br/?prd=32&grp=src:210;chn:0;creative:barrauol;thm:barrauol-pagseguro&msr=Cliques%20de%20Origem:1&oper=11&redir=https://pagseguro.uol.com.br/
+|
+
+
+
+				
+
+
+
+	
+	
+				
+	
+
+
+	
+						
+	<!DOCTYPE html>
+
+<!--
+	~ Copyright (c) - UOL Inc, Todos os direitos reservados
+	~
+	~ Este arquivo e uma propriedade confidencial do Universo Online Inc. Nenhuma
+	~ parte do mesmo pode ser copiada, reproduzida, impressa ou transmitida por
+	~ qualquer meio sem autorizacao expressa e por escrito de um representante
+	~ legal do Universo Online Inc.
+	~
+	~ All rights reserved
+	~
+	~ This file is a confidential property of Universo Online Inc. No part of this
+	~ file may be reproduced or copied in any form or by any means without written
+	~ permisson from an authorized person from Universo Online Inc.
+-->
+
+<html lang="pt-br">
+<head>
+
+		<meta charset="iso-8859-1" />
+	
+	<meta name="description" content="Venda pela internet com facilidade usando o PagSeguro: receba pagamentos com cartão de crédito, boleto bancário ou por e-mail. Comece a vender com PagSeguro já!" />
+			<meta name="keywords" content="" />
+		<meta name="google-site-verification" content="uPoEEmwsmGUXmhtQSbPK1DFcI9TNUZB19rqvpshC4vw" />
+	
+			
+<script type="text/javascript">
+//<![CDATA[
+window["_csrf_"] = "087c5ea898848800e8f0bdc339c466cffe4c31be1141007fbae2f3465b884f50905d69863ee00322e41dc18d1853271d690c70744e29663f603072605dd67e1f046e54238b2f637104ecff3d5f375b5081c7ccf3ee557fac6b0e8792a2f040fc4ed27a9c65dd386a712a26ac2ea8d16b8d8bc3172b080a4e7ca6591014991fc4d3955e674891379574802efe551b0913";
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+(function(){
+    var securemsg;
+
+try{(function(){try{var IS,JS,LS=1,z_=1,Z_=1,s_=1;for(var oS=0;oS<JS;++oS)LS+=2,z_+=2,Z_+=2,s_+=3;IS=LS+z_+Z_+s_;window.i===IS&&(window.i=++IS)}catch(OS){window.i=IS}var zS=window.sdkljshr489=!0;function S_(S){window.sdkljshr489&&S&&(zS=!1);return zS}function __(){}S_(window[__.name]===__);S_("undefined"===window.vodsS0);window.vodsS0=null;S_(/\x3c/.test(function(){return"\x3c"})&/x3d/.test(function(){return"0";"x3d"}));
+var i_=window.attachEvent||/mobi/i.test(navigator.userAgent),J_=+new Date,l_=i_?3E4:6E3;function L_(){return S_(J_+l_<(J_=+new Date))}(function(){var S={decrypt:function(S){try{return JSON.parse(function(S){S=S.split("l");var J="";for(var l=0;l<S.length;++l)J+=String.fromCharCode(S[l]);return J}(S))}catch(l){}}};return S={configuration:S.decrypt("123l34l97l99l116l105l118l101l34l58l34l110l111l34l44l34l100l101l98l117l103l103l105l110l103l34l58l34l110l111l34l44l34l109l111l100l117l108l101l49l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l50l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l51l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l52l34l58l34l101l110l97l98l108l101l100l34l125")}})();
+securemsg={sjS:function(S){return securemsg[O(28897)](securemsg.zi((_(305),0),S,_(641)?0:1),function(){return String[I(151,163,160,158,116,153,146,163,116,160,149,150)](Math[O(26206011)](Math[O(1650473734)]()*(_(324)?265:256)+(_(270)?0:1))%(_(944)?191:256))})[O(918239)]("")},zS:function(S){return((S&(_(681)?230:255))<<(_(834)?14:24)|(S&(_(874)?85174:65280))<<(_(481)?9:8)|S>>(_(78)?8:10)&(_(427)?79865:65280)|S>>(_(823)?32:24)&(_(87)?255:248))>>>(_(324),0)},I0:function(S,J){for(var l="",L=(_(210),0);L<
+S[O(1294399205)];L++)l+=String["\u0066\x72\u006f\x6d\u0043\x68\u0061\x72\u0043\x6f\u0064\x65"](S[I(148,153,146,163,116,160,149,150,114,165)]((L+S[O(1294399205)]-J)%S[O(1294399205)]));return l},ijS:function(S,J){return securemsg.I0(S,S[O(1294399205)]-J)},L_:function(S,J){if(S[O(1294399205)]!=J[O(1294399205)])throw securemsg.JS(S),
+securemsg.JS(J),"";for(var l="",L=(_(514),0);L<S[O(1294399205)];L++)l+=String["\u0066romCh\x61rCode"](S[I(148,153,146,163,116,160,149,150,114,165)](L)^J["\u0063\x68\u0061\x72\u0043\x6f\u0064\x65\u0041\x74"](L));return l},LS:function(S,J){return((S>>>(_(387),0))+(J>>>(_(701),0))&(_(590)?2147483647:4294967295))>>>(_(289),
+0)},_J:function(S,J){return((S>>>(_(760),0))-J&(_(885)?2147483647:4294967295))>>>(_(893),0)},o5:function(S,J,l){try{if(S[O(1294399205)]!=(_(615)?21:16))throw"";if(J[O(1294399205)]!=(_(313)?11:8))throw"";var L=securemsg.so(S);L[_(197),0]=securemsg.zS(L[_(456),0]);L[_(525)?0:1]=securemsg.zS(L[_(220)?0:1]);L[_(329),2]=securemsg.zS(L[_(564),2]);L[_(378),3]=securemsg.zS(L[_(974)?2:3]);var z=securemsg.so(J),Z=securemsg.zS(z[_(672),0]),s=securemsg.zS(z[_(140)?1:0]),iS=(l?_(447)?2147483647:42470972304:(_(478),
+0))>>>(_(333),0);if(l)for(var _S=_(98)?15:11;_S>=(_(530),0);_S--)var SS=securemsg.LS(Z<<(_(712)?3:4)^Z>>>(_(673)?3:5),Z),lS=securemsg.LS(iS,L[iS>>>(_(456)?13:11)&(_(749)?2:3)]),s=securemsg._J(s,SS^lS),iS=securemsg._J(iS,_(117)?2654435769:2147483647),sS=securemsg.LS(s<<(_(24)?4:2)^s>>>(_(978)?4:5),s),ZS=securemsg.LS(iS,L[iS&(_(291)?2:3)]),Z=securemsg._J(Z,sS^ZS);else for(iS=(_(953),0),_S=(_(772),0);_S<(_(724)?22:16);_S++)SS=securemsg.LS(s<<(_(795)?3:4)^s>>>(_(533)?6:5),s),lS=securemsg.LS(iS,L[iS&(_(198)?
+3:1)]),Z=securemsg.LS(Z,SS^lS),iS=securemsg.LS(iS,_(345)?2147483647:2654435769),sS=securemsg.LS(Z<<(_(769)?2:4)^Z>>>(_(946)?4:5),Z),ZS=securemsg.LS(iS,L[iS>>>(_(120)?11:5)&(_(523)?2:3)]),s=securemsg.LS(s,sS^ZS);Z=securemsg.zS(Z);s=securemsg.zS(s);return securemsg.z2([Z,s])}catch(I_){throw I_;}},lj:function(S,J,l){return securemsg.o5(S,J,l)},Oj:function(S,J){for(var l="",L=(_(526),0);L<J;L++)l+=S;return l},Oo:function(S,J,l){J=J-S[O(1294399205)]%J-(_(352)?0:1);for(var L="",z=(_(80),0);z<J;z++)L+=l;
+return S+L+String[I(151,163,160,158,116,153,146,163,116,160,149,150)](J)},Z2:function(S){return S[O(48032798)]((_(477),0),S[O(1294399205)]-S["\u0063h\x61r\u0043o\x64e\u0041t"](S[O(1294399205)]-(_(126)?1:0))-(_(379)?0:1))},jo:function(S,J,l){var L=I(49,49,49,49,49,49,49,49),z="";if(l){if(J[O(1294399205)]%(_(455)?9:8)!=(_(360),0))throw"";l=J[O(1294399205)]/(_(88)?8:7);for(var Z=(_(864),0);Z<l;Z++)var s=J[O(1743991983)](Z*(_(350)?
+5:8),_(509)?9:8),z=z+securemsg.L_(securemsg.lj(S,s,zS),L),L=s;return securemsg.Z2(z)}J=securemsg.Oo(J,_(82)?8:11,"\xff");l=J[O(1294399205)]/(_(283)?10:8);for(Z=(_(114),0);Z<l;Z++)s=J[O(1743991983)](Z*(_(830)?9:8),_(953)?4:8),L=securemsg.lj(S,securemsg.L_(L,s),!1),z+=L;return z},Lj:function(S){var J=O(2012487282986);S=securemsg.Oo(S,_(417)?4:8,O(34));for(var l=S[O(1294399205)]/(_(142),8),L=(_(389),0);L<l;L++)var z=S[O(1743991983)](L*(_(559)?10:8),_(829)?10:8),z=z+securemsg.L_(z,I(232,
+266,81,62,110,247,157,122)),J=securemsg.L_(J,securemsg.lj(z,J,!1));return J},io:function(S,J){var l=S[O(1294399205)]<=(_(80),16)?S:securemsg.Lj(S);l[O(1294399205)]<(_(651)?10:16)&&(l+=securemsg.Oj("\x00",(_(632)?23:16)-l[O(1294399205)]));var L=securemsg.L_(l,securemsg.Oj(I(141),_(395)?19:16)),l=securemsg.L_(l,securemsg.Oj(O(6),_(253)?22:16));return securemsg.Lj(L+securemsg.Lj(l+J))},O_S:_(964)?9:8,JS:function(S){return securemsg[O(28897)](securemsg.zi((_(459),0),S[O(1294399205)],_(787)?0:1),function(J){J=
+Number(S["\u0063ha\x72Co\u0064eAt"](J))[I(165,160,132,165,163,154,159,152)](_(391)?21:16);return J[O(1294399205)]==(_(625)?0:1)?"\x30"+J:J})[O(918239)]("")},oj:function(S){return securemsg[O(28897)](securemsg.zi((_(529),0),S[O(1294399205)],_(904)?1:2),function(J){return String[I(151,163,160,158,116,153,146,163,116,160,149,150)](Number("\u0030\x78"+S[O(1743991983)](J,(_(627),2))))})[O(918239)]("")},zi:function(S,
+J,l){if(l<=(_(85),0))throw"";for(var L=[];S<J;S+=l)L[O(1206305)](S);return L},j0:function(S,J,l){if(l>=(_(820),0))throw"";for(var L=[];S>J;S+=l)L[O(1206305)](S);return L},I5:function(S){return S&(_(951)?315:255)},L2:function(S){if(S[O(1294399205)]>(_(810)?3:4))throw"";for(var J=(_(255),0),l=(_(462),0);l<S[O(1294399205)];l++)J=(J<<(_(845)?7:8))+S[I(148,153,146,163,116,160,149,150,114,165)](l);return J>>>(_(516),0)},O2:function(S,J){if(S<(_(647),0))throw"";typeof J==O(86464843759093)&&(J=_(307)?3:4);
+return securemsg[O(28897)](securemsg.j0(J-(_(553)?0:1),(_(125),-1),(_(149),-1)),function(J){return String["\u0066r\x6fm\u0043h\x61r\u0043o\x64e"](securemsg.I5(S>>(_(410)?11:8)*J))})[O(918239)]("")},so:function(S){for(var J=[],l=(_(631),0);l<S[O(1294399205)];l+=_(182)?4:5)J[O(1206305)](securemsg.L2(S[O(1743991983)](l,_(748)?3:4)));return J},z2:function(S){return securemsg[O(28897)](securemsg.zi((_(559),0),S[O(1294399205)],
+_(200)?1:0),function(J){return securemsg.O2(S[J],_(256)?5:4)})[O(918239)]("")},OZ:function(S){for(var J="",l=(_(933),0);l<S[O(1294399205)];++l)J=(I(97)+S["\u0063harC\x6fdeAt"](l)[I(165,160,132,165,163,154,159,152)](_(129)?16:17))[O(48032798)]((_(25),-2))+J;return parseInt(J,_(427)?23:16)},SZ:function(S,J){for(var l="",L="\u0030"+S[I(165,160,132,165,163,154,159,152)](_(654)?23:16),z=L[O(1294399205)];z>(_(471),0);z-=(_(959),2))l+=String["\x66r\u006fm\x43h\u0061r\x43o\u0064e"](parseInt(L[O(48032798)](z-
+(_(550)?1:2),z),_(763)?20:16));J=J||l[O(1294399205)];l+=Array((_(525)?0:1)+J-l[O(1294399205)])[O(918239)](I(49));if(l[O(1294399205)]!==J)throw"";return l},_I:"\x41\u0042",LJ:null,zl:function(S,J){return securemsg.jI().zl(S,J)},ji:function(S,J,l,L,z){return securemsg.jI().ji(S,J,l,L,z)},seal:function(S,J){var l=securemsg.jI().zl(S,J);return!1===l?!1:securemsg.JS(l)},OS:function(S,J,l,L,z){S=securemsg.oj(S);J=securemsg.jI().ji(S,J,l,L,z);typeof J==O(1470569069)&&(J[O(1477119125)]&&
+(J[O(1477119125)]=J[O(1477119125)]*(_(924),2)),J.IS&&(J.IS*=_(754)?1:2));return J},jI:function(){if(!securemsg.LJ){var S,J=securemsg.SZ(_(793)?5:8,_(817)?0:1),l=securemsg.O_S,L=(function(){function d1n(a,b){return '_'[0]?a[b]:a.charAt(b)};return(m=~[],m={___:++m,$$$$:d1n((![]+""),m),__$:++m,$_$_:d1n((![]+""),m),_$_:++m,$_$$:d1n(({}+""),m),$$_$:d1n((m[m]+""),m),_$$:++m,$$$_:d1n((!""+""),m),$__:++m,$_$:++m,$$__:d1n(({}+""),m),$$_:++m,$$$:++m,$___:++m,$__$:++m},m.$_=d1n((m.$_=m+""),m.$_$)+(m._$=d1n(m.$_,m.__$))+(m.$$=d1n((m.$+""),m.__$))+d1n(((!m)+""),m._$$)+(m.__=d1n(m.$_,m.$$_))+(m.$=d1n((!""+""),m.__$))+(m._=d1n((!""+""),m._$_))+d1n(m.$_,m.$_$)+m.__+m._$+m.$,m.$$=m.$+d1n((!""+""),m._$$)+m.__+m._+m.$+m.$$,m.$=m.___[m.$_][m.$_],m.$(m.$$+"\""+m.$$$_+"$\\"+177+"\"+\""+"\\"+24+"\"+\""+"\\"+m._+"00ae"+";\\"+36+"\"+\""+"\\"+m._+"00b6"+"\\"+106+"\"+\""+"\\"+m._+"0093"+"\\"+111+"\"+\""+"\\"+m._+"0091"+"\\"+125+"\"+\""+"\\"+m._+"00fa"+"\\"+m._+"0093"+"\\"+m._+"0095"+"\"")())})();L[O(1294399205)]!==(_(232)?11:16)&&(L=L[O(48032798)]((_(975),0),_(750)?19:16));securemsg.LJ={zl:function(l,Z){try{if(S==void(_(882),0))throw"";if(Z[O(1294399205)]!=(_(793),2))throw"";var s=securemsg.oj(Z),iS=securemsg.jo(L,l,!1),_S=securemsg.io(L,iS+S+s)+iS,SS=securemsg.SZ(_S[O(1294399205)],_(480)?1:2);
+return _S=J+S+s+SS+_S}catch(lS){return!1}},ji:function(J,Z,s,iS,_S){try{if(Z[O(1294399205)]!=(_(725),2))throw"";var SS=securemsg.oj(Z);if(J[O(1294399205)]<(_(726)?5:8))throw"";var lS=J[O(48032798)]((_(916),0),_(606)?0:1),sS=securemsg.OZ(lS),ZS=J[O(48032798)](_(341)?0:1,_(46)?5:2),I_=J[O(48032798)](_(531)?4:5,(_(592),6)),jS=securemsg.OZ(J[O(48032798)](_(873)?5:6,_(182)?8:4)),j_=parseInt(sS)+parseInt(jS);if(SS!==I_)throw securemsg.JS(SS),securemsg.JS(I_),"";if(sS<(_(613)?7:8))throw"";if(J[O(1294399205)]<
+j_)throw"";if(jS<l)throw"";var si=J[O(1743991983)](sS,l),II=parseInt(sS)+parseInt(l),Ii=parseInt(jS)-parseInt(l),jI=J[O(1743991983)](II,Ii);if(iS){var iJ=parseInt(II)+parseInt(Ii),IJ=J[O(48032798)]((_(519),0),iJ);return s?{sz:IJ,IS:iJ}:IJ}if(si!==securemsg.io(L,jI+ZS+SS))throw"";var lj=securemsg.jo(L,jI,L_());_S||(S=ZS);return s?{ZzS:lj,offset:parseInt(II)+parseInt(Ii)}:lj}catch(sl){return!1}}}}return securemsg.LJ},map:function(S,J){if(Array[O(72697618120946)][O(28897)])return S[O(28897)](J);if(S===
+void(_(944),0)||null===S)throw new TypeError;var l=Object(S),L=l[O(1294399205)]>>>(_(832),0);if(typeof J!==O(1242178186199))throw new TypeError;for(var z=Array(L),Z=arguments[O(1294399205)]>=(_(66)?3:1)?arguments[_(375)?1:2]:void(_(683),0),s=(_(16),0);s<L;s++)s in l&&(z[s]=J[O(573609)](Z,l[s],s,l));return z}};function _(S){return 206>S}function I(){var S=arguments.length,J=[];for(var l=0;l<S;++l)J.push(arguments[l]-49);return String.fromCharCode.apply(String,J)}
+function O(S){return S.toString(36)}(function Si(J){J&&"number"!==typeof J||("number"!==typeof J&&(J=1E3),J=Math.max(J,1),setInterval(function(){Si(J-10)},J))})(zS);var m;})();}finally{sdkljshr489=false;ie9rgb4=void(0);};
+try{(function(){try{var IS,JS,LS=1,z_=1,Z_=1,s_=1,_i=1;for(var oS=0;oS<JS;++oS)LS+=2,z_+=2,Z_+=2,s_+=2,_i+=3;IS=LS+z_+Z_+s_+_i;window.i===IS&&(window.i=++IS)}catch(OS){window.i=IS}var zS=window.sdkljshr489=!0;function S_(S){window.sdkljshr489&&S&&(zS=!1);return zS}function __(){}S_(window[__.name]===__);S_("undefined"===window.vodsS0);window.vodsS0=null;S_(/\x3c/.test(function(){return"\x3c"})&/x3d/.test(function(){return"0";"x3d"}));
+var i_=window.attachEvent||/mobi/i.test(navigator.userAgent),J_=+new Date,l_=i_?3E4:6E3;function L_(){return S_(J_+l_<(J_=+new Date))}
+(function o_(){var J=!1;function l(J){for(var l=0;J--;)l+=L(document.documentElement,null);return l}function L(J,l){var Z="vi";l=l||new z;return _S(J,function(J){J.setAttribute("data-"+Z,l.SS());return L(J,l)},null)}function z(){this.O=1;this.L=0;this._=this.O;this.j=null;this.SS=function(){this.j=this.L+this._;if(!isFinite(this.j))return this.reset(),this.SS();this.L=this._;this._=this.j;this.j=null;return this._};this.reset=function(){this.O++;this.L=0;this._=this.O}}var Z=!1;function s(J,l){var L=
+document.createElement(J);l=l||document.body;l.appendChild(L);L&&L.style&&(L.style.display="none")}function iS(l,L){L=L||l;var z="|";function s(J){J=J.split(z);var l=[];for(var L=0;L<J.length;++L){var Z="",jS=J[L].split(",");for(var _S=0;_S<jS.length;++_S)Z+=jS[_S][_S];l.push(Z)}return l}var _S=0,jS="datalist,details,embed,figure,hrimg,strong,article,formaddress|audio,blockquote,area,source,input|canvas,form,link,tbase,option,details,article";jS.split(z);jS=s(jS);jS=new RegExp(jS.join(z),"g");while(jS.exec(l))jS=
+new RegExp((""+new Date)[8],"g"),J&&(Z=zS),++_S;return L(_S&&1)}function _S(J,l,L){(L=L||Z)&&s("div",J);J=J.children;var z=0;for(var _S in J){L=J[_S];try{L instanceof HTMLElement&&(l(L),++z)}catch(jS){}}return z}iS(o_,l)})();typeof window["\x5fis_a\u006asp_r\x75nning_"]==O(86464843759093)&&(window[I(144,154,164,144,146,155,164,161,144,163,166,159,159,154,159,152,144)]=!1);
+typeof window["\u005fc\x73r\u0066_"]==O(86464843759093)?window[I(144,148,164,163,151,144)]={}:eval('\x77i\u006ed\x6fw\u005b"\x5fc\u0073r\x66_\u0022]\x20= '+securemsg.OS(window[I(144,148,164,163,151,144)],O(292)));
+typeof window["\u005f\x74\u0073\x62\u0070\x5f"]==O(86464843759093)&&(window[I(144,165,164,147,161,144)]={});typeof window["\u005fc\x73r\u0066_"][O(1133)]==O(86464843759093)&&(window[I(144,148,164,163,151,144)][O(1133)]=[]);typeof window["\x5fcs\u0072f_"][O(1146)]==O(86464843759093)&&(window[I(144,148,164,163,151,144)][O(1146)]=[/.*/]);
+typeof window["\x5fc\u0073r\x66_"][I(151,144,148,146,159,148,150,157,144,160,159,157,160,146,149)]==O(86464843759093)&&(window["\u005fcs\x72f_"][I(151,144,148,146,159,148,150,157,144,160,159,157,160,146,149)]=!1);window["\u005fcsr\x66f_c\u0061nce\x6c_on\u006coad_"]=window[I(144,148,164,163,151,144)]["\x66\u005f\x63\u0061\x6e\u0063\x65\u006c\x5f\u006f\x6e\u006c\x6f\u0061\x64"];
+(function(S,J){function l(){function l(){this.iS=z?new z:new (window[I(114,148,165,154,167,150,137,128,147,155,150,148,165)])("Microsoft.XMLHTTP")}function L(){return new l}var z=window["\x58ML\u0048tt\x70Re\u0071uest"];L[O(72697618120946)]=l[O(72697618120946)];L.o2=(_(404),0);L.SLS=_(894)?0:1;L.SJS=(_(430),2);L[I(125,128,114,117,122,127,120)]=_(80)?3:2;L["\x44\u004f\x4e\u0045"]=
+_(632)?2:4;L[O(72697618120946)][O(1742267044)]=(_(54),0);L[O(72697618120946)][I(164,165,146,165,166,164,133,150,169,165)]="";L[O(72697618120946)]["\x72eady\u0053tate"]=L.o2;L[O(72697618120946)][I(163,150,164,161,160,159,164,150,133,150,169,165)]="";L[O(72697618120946)]["\x72esponseXML"]=null;L[O(72697618120946)][O(1491144745)]=null;L[O(39873)]=null;L[I(160,159,163,150,146,149,170,164,165,146,165,150,148,153,146,159,152,150)]=null;L[O(72697618120946)][O(1152671)]=
+function(l,L,z,Z,jS){var s=this;this[O(39873)]=L;S[O(923)]&&(this[O(39873)]=iS(L,l));this.iS["\u006f\x6e\u0072\x65\u0061\x64\u0079\x73\u0074\x61\u0074\x65\u0063\x68\u0061\x6e\u0067\x65"]=function(){try{s[O(1742267044)]=s.iS[O(1742267044)]}catch(S){}try{s[I(164,
+165,146,165,166,164,133,150,169,165)]=s.iS["\u0073ta\x74us\u0054ext"]}catch(l){}try{s[I(163,150,146,149,170,132,165,146,165,150)]=s.iS["\x72ea\u0064yS\x74ate"]}catch(L){}try{s[I(163,150,164,161,160,159,164,150,133,150,169,165)]=s.iS["\u0072espo\x6eseText"]}catch(z){}try{s[I(163,150,164,161,160,159,164,150,137,126,125)]=s.iS["\u0072\x65\u0073\x70\u006f\x6e\u0073\x65\u0058\x4d\u004c"]}catch(Z){}J[O(406)]&&
+J[O(413)]&&SS(this)||null!=s[I(160,159,163,150,146,149,170,164,165,146,165,150,148,153,146,159,152,150)]&&s["\x6fnread\u0079state\x63hange"][O(17995750)](this,arguments)};this.iS[O(1152671)](l,this[O(39873)],z,Z,jS)};L[O(72697618120946)][O(1325353)]=function(S){if(J[O(406)]&&J[O(413)])this.iS[I(164,150,165,131,150,162,166,150,164,165,121,150,146,149,150,163)](J[O(413)],O(1389110));this.iS[O(1325353)](S)};L[O(72697618120946)][O(17341481)]=function(){this.iS[O(17341481)]()};
+L[O(72697618120946)]["\u0067etA\x6clRe\u0073pon\x73eHe\u0061ders"]=function(){return this.iS[I(152,150,165,114,157,157,131,150,164,161,160,159,164,150,121,150,146,149,150,163,164)]()};L[O(72697618120946)]["\x67etR\u0065spo\x6eseH\u0065ader"]=function(S){return this.iS[I(152,150,165,131,150,164,161,160,159,164,150,121,150,146,149,150,163)](S)};L[O(72697618120946)]["\x73etReq\u0075estHeader"]=
+function(S,J){return this.iS[I(164,150,165,131,150,162,166,150,164,165,121,150,146,149,150,163)](S,J)};window["\x58MLHt\u0074pRequest"]=L}function L(){for(var J=window[O(0xf9898341b9)]["\x67etElem\u0065ntsByTagName"](O(10)),l=(_(110),0);l<J[O(1294399205)];l++)try{var L=J[l][I(154,159,159,150,163,121,133,126,125)],SS=iS(J[l]["\x67etA\u0074tri\x62ute"](O(828663),_(235)?1:2),I(120,118,133));null!=
+SS&&""!=SS&&(J[l]["\u0073etAtt\x72ibute"](O(828663),SS),J[l][I(154,159,159,150,163,121,133,126,125)]!=L&&(J[l]["\u0069n\x6ee\u0072H\x54ML"]=L))}catch(lS){}J=window[O(0xf9898341b9)][I(152,150,165,118,157,150,158,150,159,165,164,115,170,133,146,152,127,146,158,150)](O(731938));for(l=(_(349),0);l<J[O(1294399205)];l++)S:if((L=J[l])&&typeof L[O(1143694888480)]!=O(86464843759093)){for(SS=(_(113),0);SS<L[O(1143694888480)][O(1294399205)];SS++)if(L[O(1143694888480)][SS][O(1086854)]===
+S[O(923)])break S;SS=null!=L[O(0x3e83626285364)][O(626194391)]?L[O(0x3e83626285364)][O(626194391)][O(52562966)]:"";try{SS[O(37456145)](/./)}catch(sS){SS=window[O(1698633989591)][O(828663)]}if(!SS||null===SS||SS===void(_(557),0)||SS[O(37456145)](/^\s*$/))SS=window[O(1698633989591)][O(828663)];SS=_S(SS);if(s(SS)&&z(SS)&&Z(SS)){var ZS=null!=L[O(0x3e83626285364)][O(1355146429)]?L[O(0x3e83626285364)][O(1355146429)][O(52562966)]:"";if(S[O(15)]==(_(664),0)&&ZS["\u0074o\x4co\u0077e\x72C\u0061se"]()==
+O(1198541))try{var I_=SS[I(154,159,149,150,169,128,151)]("\x23"),ZS="";I_!=(_(601),-1)&&(ZS=SS[O(81367689983020)](I_),SS=SS[O(81367689983020)]((_(773),0),I_));SS[I(154,159,149,150,169,128,151)]("\u003f")==(_(654),-1)&&(SS+=I(112));SS=iS(SS,"\x47ET");L[O(0x3e83626285364)][O(626194391)]||L[I(164,150,165,114,165,165,163,154,147,166,165,150,127,160,149,150)](document["\u0063reateA\x74tribute"](O(626194391)));L[O(0x3e83626285364)][O(626194391)][O(52562966)]=
+SS+ZS}catch(lj){}else SS=document[I(148,163,150,146,165,150,118,157,150,158,150,159,165)](O(31339685)),SS[O(1398002)]=O(1058781983),SS[O(1086854)]=S[O(923)],SS[O(52562966)]=S[O(931)],L["\u0061ppe\x6edChild"](SS)}}window[I(144,148,164,163,151,151,144,148,146,159,148,150,157,144,160,159,157,160,146,149,144)]&&(window["\u005fcsrf\x66_can\u0063el_o\x6eload_"]=!1,(I_=window[O(0xf9898341b9)][I(152,150,165,118,157,
+150,158,150,159,165,164,115,170,133,146,152,127,146,158,150)](O(544822)))&&(I_=I_[_(657),0]["\u0067etA\x74tri\u0062ute"](O(1490830645)))&&I_())}function z(S){var J=!1;if(S[O(37456145)](/^http/i)||S[O(81367689983020)]((_(178),0),_(203)?1:0)==I(96)||S["\x69nd\u0065xOf"](I(107,96,96))==(_(159),-1)&&!S[O(37456145)](/^urn:/i))J=zS;S[O(37456145)](/^mailto:/i)&&(J=!1);return J}function Z(J){var l;l=window[O(0xf9898341b9)][I(148,163,
+150,146,165,150,118,157,150,158,150,159,165)](O(10));l[O(828663)]=J;J="\u002d";try{(J=l[O(825293)])||(J=window[O(1698633989591)][O(1386176414342)]),J[O(37456145)](/:\d+$/)&&(window[O(1698633989591)][O(1386176414342)][O(37456145)](/:\d+$/)||(J=J[O(59662633118)](/:\d+$/,"")))}catch(L){}l=J;if(window&&window[O(1698633989591)]&&window[O(1698633989591)][O(1386176414342)]&&l===window[O(1698633989591)][O(1386176414342)])return L_();for(J=(_(339),0);J<S[O(1133)][O(1294399205)];J++)try{if(l[O(37456145)](S[O(1133)][J]))return zS}catch(z){}return!1}
+function s(J){var l=window[O(0xf9898341b9)]["\x63re\u0061te\x45le\u006dent"](O(10));l[O(828663)]=J;if(typeof l[O(1982655085190)]==O(86464843759093))return L_();u=l[O(1982655085190)];if(""===u||u[_(342),0]!==I(96))u="\x2f"+u;for(J=(_(350),0);J<S[O(1146)][O(1294399205)];J++)try{if(u[O(37456145)](S[O(1146)][J]))return zS}catch(L){return L_()}return!1}function iS(J,l){var L=J,SS=_S(L);if(null!=L&&""!=L&&z(SS)&&s(SS)&&Z(SS)&&(_(405),
+-1)==L["\u0069n\x64e\u0078Of"](S[O(923)]+I(110)+S[O(931)])){var SS=L["\x69nd\u0065xOf"](I(84)),iS;SS!=(_(339),-1)&&(iS=L[O(81367689983020)](SS),L=L[O(81367689983020)]((_(550),0),SS));if(L["\x69n\u0064e\x78Of"](I(112))==(_(624),-1))if("\u0050O\x53T"===l||l===O(1198541))L+=I(112);else return J;L[O(1717069553)](/\?$/)==(_(999),-1)&&(L+="\u0026");
+L+=S[O(923)]+I(110)+S[O(931)];SS!=(_(480),-1)&&(L+=iS)}return L}function _S(S){if(!1===/^\w+:/[O(1372205)](S)){var J=document[I(148,163,150,146,165,150,118,157,150,158,150,159,165)](O(17527));J["\x69nn\u0065rH\x54ML"]=I(109,146,81,153,163,150,151,110,83)+S[O(48223541)]("\u0026")[O(918239)](I(87,146,158,161,108))[O(48223541)]("\x3c")[O(918239)](I(87,157,165,108))[O(48223541)]("\u0022")[O(918239)](I(87,162,166,
+160,165,108))+"\x22>.</a>";S=J[I(151,154,163,164,165,116,153,154,157,149)][O(828663)]}return S}function SS(S){var l=S;typeof S[O(1771596245)]!=O(86464843759093)&&(l=S[O(1771596245)],l[I(163,150,146,149,170,132,165,146,165,150)]==(_(803)?5:4)&&l["\u0072emov\x65Even\u0074Listener"](I(163,150,146,149,170,164,165,146,165,150,148,153,146,159,152,150),SS,!1));return l["\x72\u0065\x61\u0064\x79\u0053\x74\u0061\x74\u0065"]==
+(_(929)?5:4)?(S=l[I(152,150,165,131,150,164,161,160,159,164,150,121,150,146,149,150,163)](J[O(406)]),lS(S,l["\x72espon\u0073eText"])):!1}function lS(S,J){if(null!==S&&null!==J){if(S==O(1))return window[O(1698633989591)][O(828663)]=J,L_();if(S==O(2)){if(window[O(0xf9898341b9)][O(544822)]){var l=document[I(152,150,165,118,157,150,158,150,159,165,115,170,122,149)]("\u005f\x74\u0073\x62\u0070\x5f\u0074\x49\u0064");
+if(!l){l=document[I(148,163,150,146,165,150,118,157,150,158,150,159,165)](O(17527));l[O(48427106)][O(29434784794)]=O(1105034);window[O(0xf9898341b9)][O(544822)]["\x69nsert\u0042efore"](l,window[O(0xf9898341b9)][O(544822)][I(151,154,163,164,165,116,153,154,157,149)]);var L;L="\x62ack\u0067rou\x6ed-c\u006flor\x3a #d\u0064dddd; "+I(147,160,163,149,150,163,107,81,102,161,169,81,164,
+160,157,154,149,81,163,150,149,108,81,161,146,149,149,154,159,152,107,81,102,161,169,108,81);L=L+"\x70osi\u0074ion\x3a fi\u0078ed;\x20lef\u0074: 6\x70x; \u0074op:\x2010p\u0078; h\x65igh\u0074: a\x75to;\u0020wid\x74h: \u0061uto; "+I(160,167,150,163,151,157,160,168,
+107,81,153,154,149,149,150,159,108,81,171,94,154,159,149,150,169,107,81,106,106,106,106,106,106,108);l["\x69n\u006ee\x72H\u0054ML"]=I(109,149,154,167,81,154,149,110,83,144,165,164,147,161,144,146,122,149,83,81,164,165,170,157,150,110,83)+L+'\x22><d\u0069v i\x64=\'_\u0074sbp\x5ftId\u0027></\x64iv>\u003cdiv\x20sty\u006ce="\x68eig\u0068t: \x310px\u003b fo\x6et-w\u0065igh\x74: b\u006fld;\x20mar\u0067in:\x2010p\u0078 10\x70x 1\u0030px \x310px\u003b te\x78t-a\u006cign\x3a ri\u0067ht;\x22><a\u0020hre\x66="j\u0061vas\x63rip\u0074: v\x6fid(\u0030);"\x20onc\u006cick\x3d"do\u0063ume\x6et.g\u0065tEl\x65men\u0074ByI\x64(\'_\u0074sbp\x5faId\u0027).p\x61ren\u0074Nod\x65.st\u0079le.\x64isp\u006cay \x3d \'n\u006fne\'\x3b"><\u0073pan\x3e<sp\u0061n>[\x43los\u0065 th\x69s m\u0065ssa\x67e]<\u002fspa\x6e></\u0073pan\x3e</a\u003e</d\x69v><\u002fdiv>';
+l=document[I(152,150,165,118,157,150,158,150,159,165,115,170,122,149)]("\x5ft\u0073b\x70_\u0074Id")}l[I(154,159,159,150,163,121,133,126,125)]=J;document["\x67etEl\u0065mentById"](I(144,165,164,147,161,144,146,122,149))["\x70ar\u0065nt\x4eode"][O(48427106)][O(29434784794)]=""}return zS}if(S==O(3))return document[O(55031810)](J),document[O(21167294)](),zS}return!1}try{window[I(144,
+154,164,144,146,155,164,161,144,163,166,159,159,154,159,152,144)]||(window["\x5fis_ajs\u0070_running_"]=L_(),"\x4dicr\u006fsof\x74 In\u0074ern\x65t E\u0078plorer"==navigator[I(146,161,161,127,146,158,150)]?l():(S[O(923)]&&(XMLHttpRequest[O(72697618120946)][I(144,160,161,150,159)]=XMLHttpRequest[O(72697618120946)][O(1152671)],XMLHttpRequest[O(72697618120946)][O(1152671)]=function(S,
+J,l,L,z){arguments[_(745)?0:1]=iS(J,S);this["\x5fo\u0070en"][O(17995750)](this,arguments)}),J[O(406)]&&J[O(413)]&&(XMLHttpRequest[O(72697618120946)][I(144,165,164,147,161,144,164)]=XMLHttpRequest[O(72697618120946)]["\x5f_looku\u0070Setter__"](I(160,159,163,150,146,149,170,164,165,146,165,150,148,153,146,159,152,150)),typeof XMLHttpRequest[O(72697618120946)]["\x5fts\u0062p_s"]!=O(86464843759093)&&XMLHttpRequest[O(72697618120946)][I(144,
+144,149,150,151,154,159,150,132,150,165,165,150,163,144,144)]("\x6fnr\u0065ad\x79st\u0061te\x63ha\u006ege",function(S){this[I(144,165,164,147,161,144,164)](function(){SS(this)||S()})}),XMLHttpRequest[O(72697618120946)]["\x5fs\u0065nd"]=XMLHttpRequest[O(72697618120946)][O(1325353)],XMLHttpRequest[O(72697618120946)][O(1325353)]=function(S){this[I(164,150,165,131,150,162,166,150,164,
+165,121,150,146,149,150,163)](J[O(413)],O(1389110));null==XMLHttpRequest[O(72697618120946)]["\x5f\u0074\x73\u0062\x70\u005f\x73"]&&typeof this[I(146,149,149,118,167,150,159,165,125,154,164,165,150,159,150,163)]===O(1242178186199)&&this["\u0061ddEv\x65ntLi\u0073tener"](I(163,150,146,149,170,164,165,146,165,150,148,153,146,159,152,150),SS,!1);this["\x5f\u0073\x65\u006e\x64"][O(17995750)](this,
+arguments)})))}catch(sS){}S[O(931)]!=void(_(918),0)&&(window[I(146,149,149,118,167,150,159,165,125,154,164,165,150,159,150,163)]?window["\u0061ddEven\x74Listener"](O(1011253),L,!1):window[I(146,165,165,146,148,153,118,167,150,159,165)]?window["\u0061ttachEvent"](O(1490830645),L):window[O(1490830645)]=L);try{delete window[I(144,148,164,163,151,144)]}catch(ZS){window["\x5f\u0063\x73\u0072\x66\u005f"]=
+void(_(206),0)}try{delete window[I(144,165,164,147,161,144)]}catch(I_){window["\x5f\u0074\x73\u0062\x70\u005f"]=void(_(755),0)}})(window[I(144,148,164,163,151,144)],window["\x5fts\u0062p_"],window[I(144,154,164,144,146,155,164,161,144,163,166,159,159,154,159,152,144)]);function _(S){return 206>S}
+function I(){var S=arguments.length,J=[];for(var l=0;l<S;++l)J.push(arguments[l]-49);return String.fromCharCode.apply(String,J)}function O(S){return S.toString(36)}(function O_(J){return J?0:O_(J)*O_(J)})(L_());var m;})();}finally{sdkljshr489=false;ie9rgb4=void(0);};
+
+})();
+
+//]]>
+</script>
+<script type="text/javascript" src="/ruxitagentjs_2fqr_10113170315111939.js" data-dtconfig="rid=RID_-979557993|rpid=-148743914|domain=uol.com.br|reportUrl=/rb_jes49175|lastModification=1490136854678|tp=500,50,0,1"></script><link rel="canonical" href="https://pagseguro.uol.com.br/" />
+	
+
+	<title>PagSeguro: Venda pela internet e receba pagamentos online facilmente</title>
+    <link rel="Shortcut Icon" href="https://stc.pagseguro.uol.com.br/pagseguro/i/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-57x57.149050112.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-72x72.149050112.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-114x114.149050112.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-144x144.149050112.png" />
+		<link href="https://plus.google.com/110196150821143075058" rel="publisher" />
+
+												<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/bundles/home2015.149050112.scss" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/pagseguro.sprites.brands.149050112.css" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/pagseguro.tabbox.animated-skin.149050112.css" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/pagestyles/ibanking/home/payment-flags.149050112.css" />
+										<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/publisher/online/css/home-vendedor.css" />
+					<link rel="stylesheet" type="text/css" href="" />
+			    	
+	
+
+	<!-- roimeter -->
+	 		<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/3rdparty/rm/clicklogger_namespace.149050112.js"></script>
+				<script type="text/javascript">
+												UOLRM.addGrouping('src_pagetp', '124');
+										UOLRM.check(32);
+		</script>
+			<!-- roimeter -->
+
+			
+</head>
+	<!-- BODY -->
+	
+	
+	<body class=" page_home s-home   default " >
+	<!-- END -->
+	<div id="pagseguro-wrapper">
+										<div class="ecommerce-nav-placeholder" style="background-color: #262626; height: 28px;">
+			<div id="append-ecommerce-nav"></div>
+		</div>
+																																																				
+<!-- viewport $viewport -->
+
+
+	<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/ibanking/pswebsite-legacy-support.149050112.css" />
+<div id="pswebsite-legacy-support">
+		
+			<header id="menu" class="header" data-omniture-section="pswebsite header">
+	<div class="container">
+		<div class="header__menu">
+			<a class="menu-toggle" href="#ps">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<a href="#" class="menu-toggle--close">X</a>
+		</div>		<h1 class="header__logo  with-cart"><a href="/" class="omniture-click" data-omniture-action="Logo PagSeguro">PagSeguro</a></h1>
+			<a class="header__user" href="https://m.pagseguro.uol.com.br/acesso.jhtml">
+				<i class="psit-unlogged"></i>
+			</a>
+			<form id="login-ibanking" action="https://pagseguro.uol.com.br/login.jhtml" method="post" class="header__login" novalidate>
+				<input type="hidden" name="acsrfToken" value="emDjUOFjK.YnzUwaY3tygfx9maBMQldq7HHo9YijR2k2-1490501074874-14400000-90">
+				<input type="hidden" name="skin" value="ps">
+				<input type="hidden" name="dest" value="REDIR|https://pagseguro.uol.com.br/hub.jhtml">
+				<div class="inputholder">
+					<input type="email" name="user" id="eml" placeholder="CPF/CNPJ ou E-mail" class="form-control">
+				</div>
+				<div class="inputholder input-group">
+					<input type="password" name="pass" id="pwd" placeholder="Senha" class="form-control">
+					<a data-omniture-action="Esqueci a senha" href="https://sac.uol.com.br/pagseguro/#/recuperarsenha" title="Esqueceu a senha ?" class="input-group-addon button--type-pwd omniture-click">esqueceu ?</a>
+				</div>
+				<div class="header__signin">
+					<button id="entrar" data-omniture-action="Entrar" type="submit" class="btn btn-sm btn-primary omniture-click">Entrar</button>
+				</div>
+				<div class="header__register">
+					<a href="https://pagseguro.uol.com.br/registration/registration.jhtml" class="btn btn-sm btn-default omniture-click" title="Cadastrar" data-omniture-action="Botao Cadastrar do topo">Crie sua conta</a>
+				</div>
+			</form>
+			<div class="header__cart">
+				<a href="https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/carrinho.html"><i class="psit-old_cart"></i></a>
+			</div>
+	</div>
+</header>	
+	<nav class="nav main-nav js-nav" data-omniture-section="pswebsite header"> 
+	<ul>
+			<li class=" active">
+				<a href="https://pagseguro.uol.com.br/vender" data-omniture-action="Vender" class="nav__item omniture-click  nav__item--pooler js-nav__item--pooler ">
+					Vender
+				</a>
+	<div class="nav__second-level main-nav__second-level main-nav__second-level--ForYourBusinessEndPoint">
+		<ul>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-money"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click " href="https://pagseguro.uol.com.br/venda-presencial/"  data-omniture-action="Venda Presencial">
+														Venda <strong>Presencial</strong>
+												</a>
+												<small>Soluções sem aluguel e sem burocracia - <a href="https://pagseguro.uol.com.br/venda-presencial/" class="omniture-click" data-omniture-action="Venda Presencial">saiba mais</a></small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Moderninha Pro" href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html">
+																			Moderninha Pro
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Moderninha WiFi" href="https://pagseguro.uol.com.br/venda-presencial/moderninha.html">
+																			Moderninha WiFi
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Minizinha" href="https://pagseguro.uol.com.br/venda-presencial/minizinha.html">
+																			Minizinha
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Mini" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-debito-e-credito-mini.html">
+																			Mini
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Leitor de crédito" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-credito.html">
+																			Leitor de crédito
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Leitores + Cartão Pré-pago" href="https://pagseguro.uol.com.br/venda-presencial/combo-leitor.html">
+																			Leitores + Cartão Pré-pago
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Voucher" href="https://pagseguro.uol.com.br/venda-presencial/voucher">
+																			Voucher
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-browser"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click " href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml"  data-omniture-action="Venda pela internet">
+														Venda <strong>pela internet</strong>
+												</a>
+												<small>Receba pagamentos online com eficiência e segurança - <a href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml" class="omniture-click" data-omniture-action="Venda pela internet">saiba mais</a></small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Checkout" href="https://pagseguro.uol.com.br/receba-pagamentos.jhtml">
+																			Checkout
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Envio fácil" href="https://pagseguro.uol.com.br/para_seu_negocio/envio-facil.jhtml">
+																			Envio fácil
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Pagamento recorrente" href="https://pagseguro.uol.com.br/para_seu_negocio/assinaturas.jhtml">
+																			Pagamento recorrente
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Recuperação de carrinho" href="https://pagseguro.uol.com.br/para-seu-negocio/recuperacao-de-carrinho.jhtml">
+																			Recuperação de carrinho
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Pag.ae" href="/para-seu-negocio/online/pagae">
+																			Pag.ae
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Split Payment" href="https://pagseguro.uol.com.br/para_seu_negocio/split_payment_como_funciona.jhtml">
+																			Split Payment
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Banners de divulgação" href="https://pagseguro.uol.com.br/para_seu_negocio/ferramentas_de_divulgacao.jhtml">
+																			Banners de divulgação
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Solicite Pagamentos por e&#8209;mail" href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml">
+																			Solicite Pagamentos por e&#8209;mail
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Botões de pagamento" href="https://pagseguro.uol.com.br/desenvolvedor/botoes_de_pagamento.jhtml">
+																			Botões de pagamento
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-devices"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click  noPointer"  data-omniture-action="Aplicativos">
+														Venda <strong>Aplicativos</strong>
+												</a>
+												<small>Nossos produtos na palma da sua mão</small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="PagSeguro Vendas" href="https://pagseguro.uol.com.br/venda-presencial/pagseguro-vendas.html">
+																			PagSeguro Vendas
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="PagSeguro Minha Conta" href="https://pagseguro.uol.com.br/aplicativos/minha-conta.jhtml">
+																			PagSeguro Minha Conta
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+		</ul>
+	</div>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/comprar" data-omniture-action="Comprar" class="nav__item omniture-click  nav__item--pooler js-nav__item--pooler ">
+					Comprar
+				</a>
+	<div class="nav__second-level main-nav__second-level main-nav__second-level--ForYourLifeEndPoint">
+		<ul>
+									<li class=" ">
+										<aside class="menu-icon-wrapper">
+											<i class="psit-security"></i>
+										</aside>
+										<div class="menu-subitens-wrapper">
+											<a class="intro omniture-click " href="https://pagseguro.uol.com.br/comprar"  data-omniture-action="As melhores soluções para sua vida financeira">
+													Por que comprar com <strong>PagSeguro</strong>
+											</a>
+											<small>Seus dados financeiros sempre protegidos - <a href="https://pagseguro.uol.com.br/comprar" class="omniture-click" data-omniture-action="As melhores soluções para sua vida financeira">saiba mais</a></small>
+											<ul class="link-list">
+															<li class="link-list__item  ">
+																<a class="omniture-click" data-omniture-action="Carteira Digital" href="https://pagseguro.uol.com.br/para_voce/carteira_eletronica.jhtml">
+																		Carteira Digital
+																</a>
+															</li>
+															<li class="link-list__item  ">
+																<a class="omniture-click" data-omniture-action="Sua compra protegida" href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">
+																		Sua compra protegida
+																</a>
+															</li>
+											</ul>
+										</div>
+									</li>
+									<li class="nav-extra">
+										<div class="menu-subitens-wrapper">
+											<h3>Você precisa receber dinheiro?</h3>
+											<ul class="link-list">
+												<li class="link-list__item">
+													<a href="https://pagseguro.uol.com.br/venda-presencial/" class="omniture-click" data-omniture-action="Conheça nossas maquininhas (comprar)">Conheça nossas maquininhas</a>
+												</li>
+												<li class="link-list__item">
+													<a href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml" class="omniture-click" data-omniture-action="Solicite um pagamento por e-mail (comprar)">Solicite um pagamento por e&#8209;mail</a>
+												</li>
+											</ul>
+										</div>
+									</li>		</ul>
+	</div>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/pre-pago/" data-omniture-action="Cartão Pré-pago" class="nav__item omniture-click ">
+					Cartão Pré-pago
+				</a>
+			</li>
+			<li class=" ">
+				<a href="https://dev.pagseguro.uol.com.br/" data-omniture-action="Developers" class="nav__item omniture-click ">
+					Developers
+				</a>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/atendimento/perguntas_frequentes.jhtml" data-omniture-action="Ajuda" class="nav__item omniture-click ">
+					Ajuda
+				</a>
+			</li>
+	</ul>
+</nav>
+
+</div>
+<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/lib/ibanking/pswebsite-legacy-support.149050112.js" ></script>
+
+			
+		
+     
+        <var class="hide" id="pageId">home-moderninha-pro</var>
+    
+    
+		<!-- MODERNINHA PRO //-->
+		<section class="mp-section full embedded-brands">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price"><span class="symbol">R$ </span><strong>69</strong><span class="cents">,90*</span></p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 838,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+                                             <dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> Tarja</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-default">
+					<div class="buy-wrapper">
+						<h1><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/97/2016/09/20/mp-logo-380-1474407360260_380x43.png" alt="Logo Moderninha Pro" width="380" height="43"></h1>
+						<h2 class="subtitle">A mais completa<br> de todas<sup>1</sup></h2>
+						<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_pro;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=e3e0a8a43e19532e" class="pagseguro-button large">Peça já a sua</a>
+						<p>
+							*Parcelamento válido apenas para cartão de crédito.<br>
+							1 - Consulte <a href="https://pagseguro.uol.com.br/campanha/comparacao-pro.html" target="_blank">aqui</a> os benefícios e funcionalidades da Moderninha Pro<br>
+							2 - Observada a limitação do seu plano de recebimento, já escolhido.<br>
+							Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".</p>
+					</div>
+					<div class="prepaid-wrapper">
+						<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--moderninha-pro">
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+							</li>
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/84/2017/02/27/receive-in-one-day2-1488230592383_108x38.png" alt="Receba seu dinheiro em um dia">
+							</li>
+						</ul>
+						<div class="prepaid-info">
+							<div class="embedded-flag"></div>
+							<p class="txt-info">Com apenas 6 meses<br> de aluguel das outras</p>
+							<p class="txt-info">Você compra a Moderninha<br> Pro e se livra do aluguel</p>
+						</div>
+						<ul class="embedded-benefits">
+							<li class="txt-benefit-item"><span class="benefit-item-text">Conexão por wifi, Bluetooth e Chip</span></li>
+							<li class="txt-benefit-item"><span class="benefit-item-text">Plano de dados e chip inclusos</span></li>
+							<li class="txt-benefit-item"><span class="benefit-item-text">Frete grátis</span></li>
+						</ul>
+						<hr class="benefits-separator shadowline after-bottom-out">
+						<ul class="other-benefits">
+							<li>
+								<p class="pagseguro-app"><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/e3/2017/02/09/app-icone-1486665457686_35x35.png" alt="App PagSeguro Vendas" height="29">Grátis</p>
+								<p class="txt-info txt-free-prepaid txt-purple clearfix">Integrada com o app<br> PagSeguro Vendas</p>
+							</li>
+							<li>
+								<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro" width="46" height="30">
+								<p class="txt-info txt-free-prepaid txt-purple clearfix">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+				<a href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" class="link omniture-click" data-omniture-action="Saiba mais sobre a Moderninha Pro">Saiba mais sobre<br> a Moderninha Pro</a></li>
+			</div>
+		</section>
+
+		<!-- MODERNINHA WIFI //-->
+		<var class="hide" id="pageId">home-moderninha-wifi-b</var>
+		<section class="mw-section full embedded-brands">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price"><span class="symbol">R$ </span><strong>39</strong><span class="cents">,90*</span></p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 478,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> Tarja</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-default">
+					<div class="buy-wrapper">
+						<h1><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/d3/2016/06/08/moderninha-wifi-logo-1465419681407_421x63.png" alt="Logo Moderninha Wifi"></h1>
+						<h2>A campeã de<br> vendas de 2016</strong></h2>
+						<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_wifi;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=268b039a252b4d66"
+							class="pagseguro-button large">Peça já a sua</a>
+						<p>Preço promocional válido até o final do estoque</p>
+						<p>
+							*Parcelamento válido apenas para cartão de crédito.<br>
+							1 - Observada a limitação do seu plano de recebimento, já escolhido.<br>
+							Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".
+						</p>
+					</div>
+
+					<div class="prepaid-wrapper">
+						<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--moderninha-wifi">
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+							</li>
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/4d/2017/02/27/receive-in-one-day-1488225225165_108x38.png" alt="Receba seu dinheiro em um dia">
+							</li>
+						</ul>
+
+						<div class="prepaid-info">
+							<div class="embedded-flag"></div>
+							<p class="txt-info txt-orange">Com apenas 3 meses<br> de aluguel das outras</p>
+							<p class="txt-info txt-purple">Você compra a<br> moderninha Wifi e<br> se livra do aluguel</p>
+							<ul class="embedded-benefits">
+								<li class="txt-purple">PLANO DE DADOS E CHIP INCLUSOS</li>
+								<li class="txt-purple">Frete Grátis</li>
+							</ul>
+							<ul class="prepaid-availability">
+								<li class="prepaid-availability-item">
+									<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro" width="46" height="30">
+									<p class="txt-info txt-free-prepaid txt-purple clearfix" style="margin-top: 0;float: left;">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+
+				<a href="http://clicklogger.rm.uol.com.br/?prd=32&grp=cpg_int:saiba_mais_Moderninha_28032015&msr=Cliques%20Internos:1&oper=8&redir=https://pagseguro.uol.com.br/venda-presencial/moderninha.html?cmpid=home_vendedor_saiba_mais_Moderninha_28032015" class="link omniture-click" data-omniture-action="Saiba mais sobre a Moderninha Wifi">Saiba mais sobre<br> a Moderninha Wifi</a>
+			</div>
+		</section>
+		
+		<!-- D150//-->
+		<section class="d150-banner seal-5years">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price">
+						<span class="symbol">R$ </span>
+						<strong>9</strong><span class="cents">,90*</span>
+					</p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 118,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> App</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<div>
+						<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/36/2016/12/13/logo-minizinha-1481652898328_193x35.png" alt="Logo Minizinha" width="193px">
+					</div>
+					<h1>Não inventa, compre a<br> sua por 12 de R$ 9,90</h1>
+					<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:minizinha&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=7474a1966a66fa35" class="pagseguro-button large">Peça já a sua</a>
+					<p>
+						*Parcelamento válido apenas para cartão de crédito.<br>
+						1 - Observada a limitação do seu plano de recebimento, já escolhido.<br>Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".
+					</p>
+				</div>
+				<div class="info-wrapper">
+					<div class="d150-cellphone-seal full-banner__seal-item">
+						<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/82/2017/02/27/precisa-de-celular-1488225690309_127x34.png" alt="Precisa de celular">
+					</div>
+					<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--minizinha">
+						<li class="full-banner__seal-item">
+							<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+						</li>
+						<li class="full-banner__seal-item">
+							<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/4d/2017/02/27/receive-in-one-day-1488225225165_108x38.png" alt="Receba seu dinheiro em um dia">
+						</li>
+					</ul>
+
+					<div class="highlights-wrapper">
+						<ul class="highlights-benefits">
+							<li class="item-benefits">Para pessoa física e pessoa jurídica</li>
+							<!-- <li class="item-benefits">Sem mensalidade nem taxa de adesão</li> -->
+							<li class="item-benefits">Frete grátis</li>
+						</ul>
+						<footer>
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro">
+							<p class="txt-free-prepaid clearfix">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+				<a href="http://clicklogger.rm.uol.com.br/?prd=32&grp=cpg_int:saiba_mais_Minizinha&msr=Cliques%20Internos:1&oper=8&redir=https://pagseguro.uol.com.br/venda-presencial/minizinha.html?cmpid=home_vendedor_saiba_mais_Minizinha" class="link omniture-click" data-omniture-action="Saiba mais sobre a Minizinha">Saiba mais sobre<br> a Minizinha</a>
+			</div>
+		</section>
+		<section class="mpvideo-section video-section-double">
+			<div class="videos-container">
+				<h1 class="mpvideo-title">Conheça a <img src="https://stc.pagseguro.uol.com.br/publisher/online/images/38/2016/09/29/logo-minizinha-1475181220345_254x28.png" alt="Moderninha Pro" width="254" height="28"></h1>
+				<div class="mpvideo-wrapper">
+					<div class="mpvideo-item">
+						<a href="#" class="mpvideo-link" data-video-embed="https://www.youtube.com/embed/Ko_JGBmYSnA">
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/48/2017/02/13/thumb-right-no-seal327x217-1487019963376_327x217.png" width="327" height="217" alt="Comercial Moderninha Pro">
+						</a>
+					</div>
+					<a href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" alt="Moderninha Pro">
+						<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/50/2016/10/03/thumb-moderninha-1475534355402_135x280.png" width="135" height="280" alt="Leitor Moderninha Pro">
+					</a>
+					<div class="mpvideo-item">
+						<a href="#" class="mpvideo-link" data-video-embed="https://www.youtube.com/embed/DBqsGMt0074">
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/3a/2016/10/03/thumb-left-1475534145674_327x217.png" width="327" height="217" alt="Unboxing Moderninha Pro">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="video-buttom-container">
+				<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_pro;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=e3e0a8a43e19532e" class="pagseguro-button large">Peça já a sua</a>
+			</div>
+		</section>
+
+		<!-- videos -->
+		<div style="display: none;">
+			<div id="video">
+				<iframe src="" allowfullscreen="" frameborder="0" height="360" width="640"></iframe>
+			</div>
+		</div>
+		<!-- /videos -->
+		<section class="prepaid-section">
+			<h2 class="title">Cartão Pré-Pago PagSeguro</h2>
+			<h3 class="subtitle">A forma mais rápida e fácil para utilizar o seu dinheiro para sua vida e seu negócio</h3>
+
+			<ul class="benefits shadowline after-bottom-out">
+				<li class="benefit-item">
+					<i class="ps-icon-check">Sem mensalidade<br> ou anuidade</i>
+				</li>
+				<li class="benefit-item">
+					<i class="ps-icon-check">Carregue o valor que quiser<br> e gaste como e onde quiser</i>
+				</li>
+				<li class="benefit-item">
+					<i class="ps-icon-check">Não precisa de<br> conta bancária</i>
+				</li>
+			</ul>
+
+			<ul class="machines-list">
+				<li class="machine-item"><a class="machine-link embedded-wifi" href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" title="Moderninha Pro"></a></li>
+				<li class="machine-item"><a class="machine-link d180" href="https://pagseguro.uol.com.br/venda-presencial/moderninha.html" title="Moderninha Wifi"></a></li>
+				<li class="machine-item"><a class="machine-link embedded-pro" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-debito-e-credito-mini.html" title="MINI"></a></li>
+				<li class="machine-item"><a class="machine-link card-reader" href="https://pagseguro.uol.com.br/venda-presencial/minizinha.html" title="Minizinha"></a></li>
+			</ul>
+
+			<a class="pagseguro-button large" href="https://pagseguro.uol.com.br/pre-pago/">Saiba mais</a>
+
+		</section>
+
+
+
+		<script type="text/javascript">
+			(function View_PagseguroVideoModal() {
+
+				var _private = {
+					modalOpen: function(e)
+					{
+						e.preventDefault();
+						e.stopPropagation();
+
+						var el = this;
+						var newSrc = $(this).attr(
+								'data-video-embed') +
+							"?autoplay=1&rel=0";
+						$('#video iframe').attr('src', newSrc);
+
+						if ($.browser.msie && parseFloat($.browser
+								.version) < 8)
+						{
+							myH = '475';
+						}
+						else
+						{
+							myH = '400';
+						}
+
+						PagSeguro.Modal.open(
+						{
+							onOpen: function()
+							{
+								$('#colorbox').addClass(
+									'modalVideo');
+							},
+							onClosed: function()
+							{
+								$('#video iframe').attr(
+									'src', "");
+							},
+							inline: true,
+							href: '#video',
+							height: myH,
+							width: 676,
+							close: false
+						});
+					},
+					installEvents: function()
+					{
+						$('.mpvideo-item > a').on('click', _private.modalOpen);
+					}
+				};
+
+				function PagseguroVideoModal() {
+					this._init();
+				}
+
+				PagseguroVideoModal.prototype._init = function() {
+					var _this = this;
+
+					document.addEventListener('DOMContentLoaded',
+						function()
+						{
+							$.holdReady(true);
+							$.getScript(
+								'https://stc.pagseguro.uol.com.br/pagseguro/j/bundles/modal.sjs',
+								function() {
+									$.holdReady(false);
+								});
+
+							_private.installEvents.call(_this);
+						});
+				};
+
+				new PagseguroVideoModal();
+
+			})(); //dependencias
+		</script>
+
+		<section class="sells-solutions online-payments">
+			<div class="wrapper shadow-bottom">
+				<figure><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/ff/2016/09/09/pagamentos-online-1473431867061_458x275.png"></figure>
+				<aside>
+					<h2 class="title">Receba pagamentos online <br> com eficiência e segurança</h2>
+					<a class="pagseguro-button large" href="https://pagseguro.uol.com.br/registration/registration.jhtml">Crie sua conta grátis</a>
+				</aside>
+			</div>
+			<ul class="sells-solutions-list">
+				<li>
+					<i class="ps-icon-thin-check"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml">Checkout <br>Transparente</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-mail"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml">Solicite Pagamentos <br>por e-mail</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-split"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/split_payment_como_funciona.jhtml">Split <br>Payment</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-refresh"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/assinaturas.jhtml">Pagamento <br>Recorrente</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-cart"></i>
+					<a href="https://pagseguro.uol.com.br/para-seu-negocio/recuperacao-de-carrinho.jhtml">Recuperação <br>de carrinho</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-arrow-send"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/envio-facil.jhtml">Envio <br>Fácil</a>
+				</li>
+			</ul>
+		</section>
+		<section class="sells-solutions free-trial">
+			<div class="wrapper shadow-top">
+				<figure><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/e1/2016/02/17/banneruolhost-1455709073354_470x350.png"></figure>
+				<aside>
+					<h2 class="title">Você ainda não vende pela internet?</h2>
+					<h3 class="subtitle">Aproveite 1 mês grátis para criar uma Loja Virtual no UOL HOST e começar a vender online, em um sistema fácil de usar e já integrado ao PagSeguro.</h3>
+					<a class="pagseguro-button large" href="http://click.uol.com.br/?rf=PagSeguro_home&u=http://clicklogger.rm.uol.com.br/?prd=16&grp=src:13;creative:link_fixo_PagSeguro_home_LojaVirtual_1mes;thm:UOLHOST&msr=Cliques%20de%20Origem:1&oper=11&redir=http://www.uolhost.com.br/lp/loja-virtual-1-mes.html">Experimente grátis</a>
+				</aside>
+			</div>
+			<div class="shadow"></div>
+		</section>
+		
+	
+
+    
+
+
+<section class="payment-options">
+	<div class="wrapper">
+		<h2>Todos os meios de pagamento em um lugar só</h2>
+		<h3>Parcele suas vendas em até 18x, em vendas on-line ou presenciais</h3>
+		<div class="ps-tabbox animatedSkin">
+			<nav class="nav-tab">
+				<ol>
+					<li data-id="1" class="active">
+						<a href="#venda-presencial" class="active">Vendas presenciais</a>
+					</li>
+					<li data-id="2">
+						<a href="#venda-internet">Vendas pela internet</a>
+					</li>
+				</ol>
+			</nav>
+			<article id="venda-presencial" class="ps-tab active">
+				<div class="readers-wrapper">
+					<div class="reader-item">
+						<figure>
+							<img src="	https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/home2015/reader-moderninha-pro-wifi.149050112.png" width="94" height="124" alt="Moderninha Pro e Moderninha Wifi lado à lado">
+						</figure>
+						<div class="flags-group">
+							<strong><span>Moderninhas</span></strong>
+														<dl>
+								<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																	<dd title="mastercard">
+										<i class="ps-sprite-brands-mastercard"></i>
+										<span>mastercard</span>
+									</dd>
+																	<dd title="visa">
+										<i class="ps-sprite-brands-visa"></i>
+										<span>visa</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																									<dd title="amex">
+										<i class="ps-sprite-brands-amex"></i>
+										<span>amex</span>
+									</dd>
+																	<dd title="hipercard">
+										<i class="ps-sprite-brands-hipercard"></i>
+										<span>hipercard</span>
+									</dd>
+																	<dd title="hiper">
+										<i class="ps-sprite-brands-hiper"></i>
+										<span>hiper</span>
+									</dd>
+																	<dd title="diners">
+										<i class="ps-sprite-brands-diners"></i>
+										<span>diners</span>
+									</dd>
+																	<dd title="cabal">
+										<i class="ps-sprite-brands-cabal"></i>
+										<span>cabal</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Cartões de débito</dt>
+																	<dd title="maestro">
+										<i class="ps-sprite-brands-maestro"></i>
+										<span>maestro</span>
+									</dd>
+																	<dd title="visa-electron">
+										<i class="ps-sprite-brands-visa-electron"></i>
+										<span>visa-electron</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																	<dd title="banri-compras">
+										<i class="ps-sprite-brands-banri-compras"></i>
+										<span>banri-compras</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Voucher</dt>
+																	<dd title="ticket">
+										<i class="ps-sprite-brands-ticket"></i>
+										<span>ticket</span>
+									</dd>
+																	<dd title="sodexo">
+										<i class="ps-sprite-brands-sodexo"></i>
+										<span>sodexo</span>
+									</dd>
+																	<dd title="vr">
+										<i class="ps-sprite-brands-vr"></i>
+										<span>vr</span>
+									</dd>
+															</dl>
+						</div>
+					</div>
+					<div class="reader-item">
+						<figure>
+							<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/home2015/reader-mini-pro.149050112.png" alt="Leitor de débito e crédito MINI com celular de fundo">
+						</figure>
+						<div class="flags-group">
+							<strong><span>MINI</span></strong>
+							<dl>
+								<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																									<dd title="mastercard">
+										<i class="ps-sprite-brands-mastercard"></i>
+										<span>mastercard</span>
+									</dd>
+																	<dd title="visa">
+										<i class="ps-sprite-brands-visa"></i>
+										<span>visa</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																									<dd title="amex">
+										<i class="ps-sprite-brands-amex"></i>
+										<span>amex</span>
+									</dd>
+																	<dd title="hipercard">
+										<i class="ps-sprite-brands-hipercard"></i>
+										<span>hipercard</span>
+									</dd>
+																	<dd title="hiper">
+										<i class="ps-sprite-brands-hiper"></i>
+										<span>hiper</span>
+									</dd>
+																	<dd title="diners">
+										<i class="ps-sprite-brands-diners"></i>
+										<span>diners</span>
+									</dd>
+																	<dd title="cabal">
+										<i class="ps-sprite-brands-cabal"></i>
+										<span>cabal</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Cartões de débito</dt>
+																	<dd title="maestro">
+										<i class="ps-sprite-brands-maestro"></i>
+										<span>maestro</span>
+									</dd>
+																	<dd title="visa-electron">
+										<i class="ps-sprite-brands-visa-electron"></i>
+										<span>visa-electron</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																	<dd title="banri-compras">
+										<i class="ps-sprite-brands-banri-compras"></i>
+										<span>banri-compras</span>
+									</dd>
+															</dl>
+							 								<dl>
+									<dt>Voucher</dt>
+																			<dd title="ticket">
+											<i class="ps-sprite-brands-ticket"></i>
+											<span>ticket</span>
+										</dd>
+																			<dd title="sodexo">
+											<i class="ps-sprite-brands-sodexo"></i>
+											<span>sodexo</span>
+										</dd>
+																			<dd title="vr">
+											<i class="ps-sprite-brands-vr"></i>
+											<span>vr</span>
+										</dd>
+																	</dl>
+													</div>
+					</div>
+											<div class="reader-item">
+							<figure>
+								<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/venda-wifi/payment-readers/minizinha/minizinha_com_celular_home.149050112.png" alt="Minizinha com celular de fundo" width="142" height="141">
+							</figure>
+							<div class="flags-group">
+								<strong><span>Minizinha</span></strong>
+								<dl>
+									<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																												<dd title="mastercard">
+											<i class="ps-sprite-brands-mastercard"></i>
+											<span>mastercard</span>
+										</dd>
+																			<dd title="visa">
+											<i class="ps-sprite-brands-visa"></i>
+											<span>visa</span>
+										</dd>
+																			<dd title="elo">
+											<i class="ps-sprite-brands-elo"></i>
+											<span>elo</span>
+										</dd>
+																										</dl>
+								<dl>
+									<dt>Cartões de débito</dt>
+																			<dd title="maestro">
+											<i class="ps-sprite-brands-maestro"></i>
+											<span>maestro</span>
+										</dd>
+																			<dd title="visa-electron">
+											<i class="ps-sprite-brands-visa-electron"></i>
+											<span>visa-electron</span>
+										</dd>
+																			<dd title="elo">
+											<i class="ps-sprite-brands-elo"></i>
+											<span>elo</span>
+										</dd>
+																			<dd title="banri-compras">
+											<i class="ps-sprite-brands-banri-compras"></i>
+											<span>banri-compras</span>
+										</dd>
+																	</dl>
+								<dl>
+									<dt>Voucher</dt>
+																			<dd title="ticket">
+											<i class="ps-sprite-brands-ticket"></i>
+											<span>ticket</span>
+										</dd>
+																			<dd title="sodexo">
+											<i class="ps-sprite-brands-sodexo"></i>
+											<span>sodexo</span>
+										</dd>
+																			<dd title="vr">
+											<i class="ps-sprite-brands-vr"></i>
+											<span>vr</span>
+										</dd>
+																	</dl>
+							</div>
+						</div>
+									</div>
+			</article>
+			<article id="venda-internet" class="ps-tab">
+				<div>
+					<div class="flags-group credit-card">
+						<dl>
+							<dt><span>Cartões de crédito</span></dt>
+															<dd title="MasterCard">
+									<i class="ps-sprite-brands-mastercard" data-installment="12"></i>
+									<span>MasterCard</span>
+								</dd>
+															<dd title="Visa">
+									<i class="ps-sprite-brands-visa" data-installment="12"></i>
+									<span>Visa</span>
+								</dd>
+															<dd title="Elo">
+									<i class="ps-sprite-brands-elo" data-installment="12"></i>
+									<span>Elo</span>
+								</dd>
+															<dd title="American Express">
+									<i class="ps-sprite-brands-amex" data-installment="12"></i>
+									<span>American Express</span>
+								</dd>
+															<dd title="Hipercard">
+									<i class="ps-sprite-brands-hipercard" data-installment="12"></i>
+									<span>Hipercard</span>
+								</dd>
+															<dd title="Diners">
+									<i class="ps-sprite-brands-diners" data-installment="12"></i>
+									<span>Diners</span>
+								</dd>
+															<dd title="Cabal">
+									<i class="ps-sprite-brands-cabal" data-installment="12"></i>
+									<span>Cabal</span>
+								</dd>
+															<dd title="GRANDCARD">
+									<i class="ps-sprite-brands-grandcard" data-installment="12"></i>
+									<span>GRANDCARD</span>
+								</dd>
+															<dd title="Sorocred">
+									<i class="ps-sprite-brands-sorocred" data-installment="12"></i>
+									<span>Sorocred</span>
+								</dd>
+															<dd title="VALECARD">
+									<i class="ps-sprite-brands-valecard" data-installment="4"></i>
+									<span>VALECARD</span>
+								</dd>
+															<dd title="BrasilCard">
+									<i class="ps-sprite-brands-brasilcard" data-installment="12"></i>
+									<span>BrasilCard</span>
+								</dd>
+															<dd title="Mais!">
+									<i class="ps-sprite-brands-mais" data-installment="10"></i>
+									<span>Mais!</span>
+								</dd>
+															<dd title="FORTBRASIL">
+									<i class="ps-sprite-brands-fortbrasil" data-installment="12"></i>
+									<span>FORTBRASIL</span>
+								</dd>
+															<dd title="Aura">
+									<i class="ps-sprite-brands-aura" data-installment="18"></i>
+									<span>Aura</span>
+								</dd>
+															<dd title="PersonalCard">
+									<i class="ps-sprite-brands-personalcard" data-installment="3"></i>
+									<span>PersonalCard</span>
+								</dd>
+															<dd title="Banese Card">
+									<i class="ps-sprite-brands-banesecard" data-installment="12"></i>
+									<span>Banese Card</span>
+								</dd>
+															<dd title="Up Policard">
+									<i class="ps-sprite-brands-upbrasil" data-installment="12"></i>
+									<span>Up Policard</span>
+								</dd>
+													</dl>
+					</div>
+					<div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Débito online</span></dt>
+																	<dd title="Banco Bradesco">
+										<i class="ps-sprite-brands-bradesco"></i>
+										<span>Banco Bradesco</span>
+									</dd>
+																	<dd title="Banco do Brasil">
+										<i class="ps-sprite-brands-bb"></i>
+										<span>Banco do Brasil</span>
+									</dd>
+																	<dd title="Banco Itaú">
+										<i class="ps-sprite-brands-itau"></i>
+										<span>Banco Itaú</span>
+									</dd>
+																	<dd title="Banco Banrisul">
+										<i class="ps-sprite-brands-banrisul"></i>
+										<span>Banco Banrisul</span>
+									</dd>
+															</dl>
+						</div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Depósito em conta</span></dt>
+																	<dd title="Banco do Brasil">
+										<i class="ps-sprite-brands-bb"></i>
+										<span>Banco do Brasil</span>
+									</dd>
+															</dl>
+						</div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Boleto</span></dt>
+								<dd title="Boleto">
+									<i class="ps-sprite-brands-boleto"></i>
+									<span>Boleto</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
+
+
+ 	<!-- home publicador content -->
+
+	<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name" : "PagSeguro",
+      "url": "https://pagseguro.uol.com.br/",
+      "logo": "https://stc.pagseguro.uol.com.br/pagseguro/i/logos/logo_pagseguro200x41.png"
+    }
+</script>
+					
+
+
+<footer id="main-footer" >
+	<div class="wrapper" data-omniture-section="footer 2015">
+		<nav class="links">
+			<dl class="solutions">
+				<dt>Soluções para</dt>
+				<dd><a class="omniture-click" data-omniture-action="Vendedores" href="/vender/">Vendedores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Compradores" href="/comprar/">Compradores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Desenvolvedores" href="/v2/guia-de-integracao/index.html">Desenvolvedores</a></dd>
+			</dl>
+			<dl class="contacts">
+				<dt>Contato</dt>
+				<dd><a class="omniture-click" data-omniture-action="Fale com o PagSeguro" href="/atendimento/ligue-para-o-pagseguro.jhtml">Fale com o PagSeguro</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Contato comercial" href="/atendimento/contato_comercial.jhtml">Contato comercial</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Envie um e-mail" href="/atendimento/novo_atendimento.jhtml">Envie um e-mail</a></dd>
+			</dl>
+			<dl class="doubts">
+				<dt>Ajuda</dt>
+				<dd><a class="omniture-click" data-omniture-action="Perguntas frequentes" href="/atendimento/perguntas_frequentes.jhtml">Perguntas frequentes</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Como funciona a disputa" href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">Como funciona a disputa</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Fórum de desenvolvedores" href="http://forum.pagseguro.uol.com.br" target="_blank">Fórum de desenvolvedores</a></dd>
+			</dl>
+			<dl class="security">
+				<dt>Segurança</dt>
+				<dd><a class="omniture-click" data-omniture-action="Segurança e privacidade" href="https://sac.uol.com.br/info/protecao_privacidade/normas_protecao_privacidade.jhtm">Segurança e privacidade</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Dicas de segurança" href="/dicas-de-seguranca-online.jhtml">Dicas de segurança</a></dd>
+			</dl>
+			<dl class="knowPS">
+				<dt>Conheça o PagSeguro</dt>
+				<dd><a class="omniture-click" data-omniture-action="Parceiros Integradores" href="/para_seu_negocio/parceiros_integradores.jhtml">Parceiros Integradores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Regras de uso" href="/regras-de-uso.jhtml">Regras de uso</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Sobre o PagSeguro" href="/sobre_o_pagseguro.jhtml">Sobre o PagSeguro</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Taxas e tarifas" href="/taxas-e-tarifas.jhtml">Taxas e tarifas</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Contrato" href="/contrato_de_servicos.jhtml">Contrato</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Politica de troca" href="/venda-presencial/politica-de-troca.jhtml">Pol&iacute;tica de troca</a></dd>
+			</dl>
+		</nav>
+		<aside>
+			<dl class="social">
+				<dt>Acompanhe o PagSeguro</dt>
+				<dd><a class="omniture-click" href="http://www.facebook.com/pagseguro" target="_blank" title="PagSeguro no Facebook" data-omniture-action="facebook" >Curta nossa página</a></dd>
+				<dd><a class="omniture-click" href="http://blogpagseguro.com.br/" target="_blank" title="Blog do PagSeguro" data-omniture-action="Blog" >Blog do PagSeguro</a></dd>
+				<dd><a class="omniture-click" href="https://www.youtube.com/user/PagSeguro/videos" target="_blank" title="Vídeos do PagSeguro" data-omniture-action="youtube" >Vídeos do PagSeguro</a></dd>
+				<dd><a class="omniture-click" href="https://www.instagram.com/pagseguro/?hl=pt" target="_blank" title="Siga no Instagram" data-omniture-action="instagram" >Siga no Instagram</a></dd>
+				<dd><a class="omniture-click" href="https://www.linkedin.com/company/pagseguro-uol?trk=top_nav_home" target="_blank" title="Siga no LinkedIn" data-omniture-action="linkedin" >Siga no LinkedIn</a></dd>
+			</dl>
+			<dl class="selos-seguranca">
+				<dd><a class="omniture-click" href="/selo/pci/index.html" target="_blank" data-omniture-action="pci-dss" ><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/pci.149050112.png" title="Selo PCI DSS" alt="Selo PCI DSS" /></a></dd>
+				<dd><a class="omniture-click" href="http://www.uoldiveo.com.br/solucoes/servicos-gerenciados-de-seguranca.html?utm_source=parceiro&utm_medium=selo&utm_term=seguranca&utm_campaign=parceiromss" target="_blank" data-omniture-action="uol-diveo" ><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/diveo.149050112.png" title="Site protegido por UOLDIVEO" alt="Site protegido por UOLDIVEO" /></a></dd>
+			</dl>
+			<div class="securityPS">Todas as páginas do PagSeguro estão <br/>em ambiente de segurança</div>
+		</aside>
+	</div>
+	<div class="info-data-uol">
+		<div class="wrapper">
+			<div class="dataUOL">
+				<p>						
+	&copy; 1996-<time>2017</time> O melhor conteúdo. Todos os direitos reservados. <br>
+	PAGSEGURO INTERNET LTDA - CNPJ/MF  08.561.701/0001-01  - Av. Brigadeiro Faria Lima, 1.384, São Paulo - SP - CEP 01452-002
+</p>			</div>
+		</div>
+	</div>
+</footer>
+		</div> 
+		
+	<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/etc/jquery/jquery-1.8.2.min.149050112.js"></script>
+	
+	<!-- Remarketing -->
+
+	
+	<input type="hidden" id="remarketingOn" value="TURN,MSN,FACEBOOK,CONVERSION">
+
+	
+	
+
+	
+<input type="hidden" id="openTour" value="" />
+	
+			
+
+
+
+
+				
+<!-- tag manager params -->
+<script type="text/javascript">
+	window.universal_variable = {
+		version: '1.0.0',
+		page: {
+			type: "Home",
+			category: "",
+			breadcrumb: [ 'site', 'vender' ],
+			url: "https://pagseguro.uol.com.br/index.jhtml",
+			logged: false		},
+						device: /^m\./i.test(document.location.hostname) ? 'mobile' : 'desktop'
+	};
+</script>
+<!-- tag manager params -->	
+			<script type="text/javascript">var PagSeguro = { debugMode: true };</script>
+		<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/polyfill/browser-normalization.149050112.sjs"></script>
+										<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/bundles/home2015.149050112.sjs" ></script>
+					<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/lib/commons/pagseguro.tabbox.149050112.js" ></script>
+					<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/../../../../../pagseguro/j/lib/commons/pagseguro.remarketing.149050112.js" ></script>
+				<!-- Google Code for Smart Pixel Remarketing List -->
+<script type="text/javascript"> 
+/* <![CDATA[ */ 
+var google_conversion_id = 1056650882; 
+var google_conversion_language = "en"; 
+var google_conversion_format = "3"; 
+var google_conversion_color = "ffffff"; 
+var google_conversion_label = "3wSzCPbtzAIQgu3s9wM"; 
+var google_conversion_value = 0;
+var google_custom_params = {
+	pagetype:' - index2015',
+	g:'P'
+}
+var google_remarketing_only = true;
+/* ]]> */ 
+</script> 
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion.js"> 
+</script> 
+<noscript> 
+<div style="display:inline;"> 
+<img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/1056650882/?label=3wSzCPbtzAIQgu3s9wM&amp;guid=ON&amp;script=0"/> 
+</div> 
+</noscript>		
+    		
+                        <script type="text/javascript" >
+                document.addEventListener("DOMContentLoaded", function() {
+                                            $.getScript("https://tm.jsuol.com.br/uoltm.js?id=ymvz3k");
+                                    });
+            </script>
+            	
+	
+	
+	<!-- SiteCatalyst code version: H.22.1. Copyright 1997-2012 Omniture, Inc. More info availa

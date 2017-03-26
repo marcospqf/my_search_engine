@@ -1,0 +1,1183 @@
+|||
+http://mentirinhas.com.br/
+|
+<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="pingback" href="http://mentirinhas.com.br/xmlrpc.php" />
+    <link rel="shortcut icon" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/img/favicon.ico">
+    <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/font-awesome/css/font-awesome.min.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/font-awesome/css/font-awesome.min.css" type="text/css" media="screen" />
+     <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/owl-carousel/owl.carousel.css" type="text/css" media="screen"  />
+     <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/owl-carousel/owl.theme.css" type="text/css" media="screen"  />
+     <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/owl-carousel/owl.transitions.css" type="text/css" media="screen"  />
+    <title>Mentirinhas - Histórias em Quadrinhos e Tirinhas do Fábio Coala&lt;/title&gt;</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Histórias em Quadrinhos e Tirinhas do Fábio Coala&lt;/title&gt;"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="http://mentirinhas.com.br" />
+<link rel="next" href="http://mentirinhas.com.br/page/2/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Mentirinhas - Histórias em quadrinhos e Tirinhas do Fabio Coala" />
+<meta property="og:description" content="Histórias em Quadrinhos e Tirinhas do Fábio Coala&lt;/title&gt;" />
+<meta property="og:url" content="http://mentirinhas.com.br" />
+<meta property="og:site_name" content="Mentirinhas" />
+<meta property="og:image" content="http://mentirinhas.com.br/wp-content/themes/Mentirinhas-Movenext/images/header-mobile.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/mentirinhas.com.br\/","name":"Mentirinhas","potentialAction":{"@type":"SearchAction","target":"http:\/\/mentirinhas.com.br\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//mentirinhas.com.br' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed para Mentirinhas &raquo;" href="http://mentirinhas.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Mentirinhas &raquo;" href="http://mentirinhas.com.br/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/mentirinhas.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=47fe617263787450c8c7b4eec81f32d0"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://mentirinhas.com.br/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='creativ_sponsor-css'  href='http://mentirinhas.com.br/wp-content/plugins/cr3ativ-sponsor/includes/css/cr3ativsponsor.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSImainCss-css'  href='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-icons/css/sfsi-style.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='SFSIPLUSmainCss-css'  href='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-plus/css/sfsi-style.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsisac_slick_style-css'  href='http://mentirinhas.com.br/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/slick.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpsisac_recent_post_style-css'  href='http://mentirinhas.com.br/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/slick-slider-style.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='econsulters-cache-plugin-styles-css'  href='http://mentirinhas.com.br/wp-content/plugins/econsulters-cache/public/assets/css/public.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap.css-css'  href='http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/css/bootstrap.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-css'  href='http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/style.css?ver=47fe617263787450c8c7b4eec81f32d0' type='text/css' media='all' />
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-includes/js/jquery/jquery.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/js/slick.min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/econsulters-cache/public/assets/js/public.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<link rel='https://api.w.org/' href='http://mentirinhas.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://mentirinhas.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://mentirinhas.com.br/wp-includes/wlwmanifest.xml" /> 
+
+<meta property="fb:app_id" content="247836115549229"/>
+<meta property="fb:admins" content=""/>
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:locale:alternate" content="pt_BR" />
+<meta name="specificfeeds-verification-code-cnlzdkZGajlvdnEva3ViUEdEYmxnSTMwL1BvZ0FINmJzOHE2OFFnbVlsNmNNRHlkU0Y4SGZjUEVkRGs5OUt1VVhsNmk1QUQ3RXA3NDV1VlhLMU90dGsrNWVkVzBvaWdRdk9Zb1pwUGNtUGRDdTduMmt3TGdhbjN0N0JneVZzakV8UjFsdFFDSWR0UnpjOTlKUW5EU09JSndKa3RGVEtvc3FtZko1V1VNRmV1Yz0=" content="c942XhBxEZYK34GWN27H"/>    	<script>
+			jQuery(document).ready(function(e) {
+                jQuery("body").addClass("sfsi_1.44")
+            });
+			function sfsi_processfurther(ref) {
+				var feed_id = 'cnlzdkZGajlvdnEva3ViUEdEYmxnSTMwL1BvZ0FINmJzOHE2OFFnbVlsNmNNRHlkU0Y4SGZjUEVkRGs5OUt1VVhsNmk1QUQ3RXA3NDV1VlhLMU90dGsrNWVkVzBvaWdRdk9Zb1pwUGNtUGRDdTduMmt3TGdhbjN0N0JneVZzakV8UjFsdFFDSWR0UnpjOTlKUW5EU09JSndKa3RGVEtvc3FtZko1V1VNRmV1Yz0=';
+				var feedtype = 8;
+				var email = jQuery(ref).find('input[name="data[Widget][email]"]').val();
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if ((email != "Enter your email") && (filter.test(email))) {
+					if (feedtype == "8") {
+						var url = "'.$url.'"+feed_id+"/"+feedtype;
+						window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+						return true;
+					}
+				} else {
+					alert("Please enter email address");
+					jQuery(ref).find('input[name="data[Widget][email]"]').focus();
+					return false;
+				}
+			}
+		</script>
+        <style type="text/css" aria-selected="true">
+			.sfsi_subscribe_Popinner
+			{
+								width: 100% !important;
+				height: auto !important;
+												border: 1px solid #b5b5b5 !important;
+								padding: 18px 0px !important;
+				background-color: #ffffff !important;
+			}
+			.sfsi_subscribe_Popinner form
+			{
+				margin: 0 20px !important;
+			}
+			.sfsi_subscribe_Popinner h5
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				margin: 0 0 10px !important;
+    			padding: 0 !important;
+			}
+			.sfsi_subscription_form_field {
+				margin: 5px 0 !important;
+				width: 100% !important;
+				display: inline-flex;
+				display: -webkit-inline-flex;
+			}
+			.sfsi_subscription_form_field input {
+				width: 100% !important;
+				padding: 10px 0px !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+			   	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-moz-placeholder { /* Firefox 18- */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {  /* Firefox 19+ */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {  
+			  	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_subscribe_Popinner input[type=submit]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				background-color: #dedede !important;
+			}
+		</style>
+	    	<script>
+			jQuery(document).ready(function(e) {
+                jQuery("body").addClass("sfsi_plus_2.51")
+            });
+			function sfsi_plus_processfurther(ref) {
+				var feed_id = 'K0R3YW5xSzE5NFJsaFJ6NFh5dkQ5YVpFR3dObnRmRG85cVlzT1FlcWVOWlRQYUd4Q2M1RkdtaGU1MnhESmlMTEtmZDg0bkVLdTc0NkxtbmIzTlJtL0NubzVkdWVieXpRaUhrSmhRSjVXb2FVTmFUdVZDdXQ2b0Fpajh3K1d4Vkd8czNLOGFnWFQzUGdpckRwbXB2M215V1M0UnR1aDFMRlVQdTM0S1c1NlZRcz0=';
+				var feedtype = 8;
+				var email = jQuery(ref).find('input[name="data[Widget][email]"]').val();
+				var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+				if ((email != "Enter your email") && (filter.test(email))) {
+					if (feedtype == "8") {
+						var url = "http://www.specificfeeds.com/widgets/subscribeWidget/"+feed_id+"/"+feedtype;
+						window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+						return true;
+					}
+				} else {
+					alert("Please enter email address");
+					jQuery(ref).find('input[name="data[Widget][email]"]').focus();
+					return false;
+				}
+			}
+		</script>
+    	<style type="text/css" aria-selected="true">
+			.sfsi_plus_subscribe_Popinner
+			{
+								width: 100% !important;
+				height: auto !important;
+												border: 1px solid #b5b5b5 !important;
+								padding: 18px 0px !important;
+				background-color: #ffffff !important;
+			}
+			.sfsi_plus_subscribe_Popinner form
+			{
+				margin: 0 20px !important;
+			}
+			.sfsi_plus_subscribe_Popinner h5
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				margin: 0 0 10px !important;
+    			padding: 0 !important;
+			}
+			.sfsi_plus_subscription_form_field {
+				margin: 5px 0 !important;
+				width: 100% !important;
+				display: inline-flex;
+				display: -webkit-inline-flex;
+			}
+			.sfsi_plus_subscription_form_field input {
+				width: 100% !important;
+				padding: 10px 0px !important;
+			}
+			.sfsi_plus_subscribe_Popinner input[type=email]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_plus_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+			   font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			
+			.sfsi_plus_subscribe_Popinner input[type=email]:-moz-placeholder { /* Firefox 18- */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			
+			.sfsi_plus_subscribe_Popinner input[type=email]::-moz-placeholder {  /* Firefox 19+ */
+			    font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			
+			.sfsi_plus_subscribe_Popinner input[type=email]:-ms-input-placeholder {  
+			  	font-family: Helvetica,Arial,sans-serif !important;
+								font-style: normal !important;
+								color:  !important;
+				font-size: 14px !important;
+				text-align: center !important;
+			}
+			.sfsi_plus_subscribe_Popinner input[type=submit]
+			{
+				font-family: Helvetica,Arial,sans-serif !important;
+								font-weight: bold !important;
+								color: #000000 !important;
+				font-size: 16px !important;
+				text-align: center !important;
+				background-color: #dedede !important;
+			}
+		</style>
+	<meta name="specificfeeds-verification-code-K0R3YW5xSzE5NFJsaFJ6NFh5dkQ5YVpFR3dObnRmRG85cVlzT1FlcWVOWlRQYUd4Q2M1RkdtaGU1MnhESmlMTEtmZDg0bkVLdTc0NkxtbmIzTlJtL0NubzVkdWVieXpRaUhrSmhRSjVXb2FVTmFUdVZDdXQ2b0Fpajh3K1d4Vkd8czNLOGFnWFQzUGdpckRwbXB2M215V1M0UnR1aDFMRlVQdTM0S1c1NlZRcz0=" content="c942XhBxEZYK34GWN27H"/>
+            <style>
+
+               .custom-header-text-color { color: #000 }
+
+            </style>
+
+    		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//mentirinhas.com.br/?wordfence_logHuman=1&hid=27181AC862E40B2B31B1DF0EEAD6A7C9');
+</script>      <link rel="stylesheet" href="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/css/custom.css" type="text/css" media="screen"  />
+    <script src="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/owl-carousel/owl.carousel.min.js"></script>
+
+
+<!-- bxSlider CSS file -->
+
+  <script>
+    jQuery(document).ready(function() {
+      jQuery("#owl-slider").owlCarousel({
+        autoPlay : false,
+        stopOnHover : true,
+        paginationSpeed : 1000,
+        goToFirstSpeed : 2000,
+        singleItem : true,
+        autoHeight : true,
+        transitionStyle:"fade",
+      });
+	  
+	   var owl = jQuery("#owl-slider");
+	    jQuery(".next").click(function(){
+    owl.trigger('owl.next');
+  })
+  jQuery(".prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+    });
+    </script>
+   <script>
+       jQuery(document).ready(function() {
+
+        var r= jQuery('<div class="perfil"><button type="button" class="btn btn-default btn-sm hide_list">-</button> <button class="btn btn-default btn-sm show_list" type="button">+</button></div>');
+        jQuery("aside#text-5 .textwidget").append(r);
+		
+		
+        var z= jQuery('<div class="perfil"><button type="button" class="btn btn-default btn-sm hide_list_1">-</button> <button class="btn btn-default btn-sm show_list_1" type="button">+</button></div>');
+        jQuery("aside#text-6 .textwidget").append(z);
+
+});
+	  jQuery(document).ready(function() {
+		     jQuery('button.show_list').click(function() {	
+		  jQuery( "aside#text-5 .cr3_sponsorwrapper" ).addClass( "active" );
+
+	});
+	   jQuery('button.hide_list').click(function() {	
+		  jQuery( "aside#text-5 .cr3_sponsorwrapper" ).removeClass( "active" );
+
+	});
+	
+	   jQuery('button.show_list_1').click(function() {	
+		  jQuery( "aside#text-6 .cr3_sponsorwrapper" ).addClass( "active" );
+
+	});
+	   jQuery('button.hide_list_1').click(function() {	
+		  jQuery( "aside#text-6 .cr3_sponsorwrapper" ).removeClass( "active" );
+
+	});
+ 	});
+  </script>
+   <script>
+       jQuery(window).load(function() {
+  jQuery('[data-toggle="tooltip"]').tooltip()
+  });	
+ jQuery(document).ready(function() {
+  jQuery('.ones-column').mouseover(function() { /* remove focus state from all input elements */
+  var theValue  = jQuery(this, 'h2 a').text();
+     jQuery(this).attr('data-original-title', theValue ); /* add focus state to currently clicked element */
+    var currentId =  jQuery(this).attr('id');
+  });
+  });
+   jQuery(document).ready(function() {
+	   jQuery('.ones-column').attr('data-toggle', 'tooltip');
+  });
+
+
+    </script>
+    <style>
+	ul.commentlist {
+    padding: 0;
+}
+.comment-body {
+    background: #f7f7f7;
+    padding: 20px;
+}
+.comment-reply-link {
+    color: #ffffff;
+    background-color: #598E02;
+    border-color: #436B02;
+}
+ul.children .comment {
+    border-left: 2px solid #C1C1C1;
+}
+.sfsi_socialwpr .sf_fb {
+    width: 173px!important;
+}
+.cr3_sponsorwrapper {
+    max-height: 252px;
+}
+.cr3_sponsor_image {
+    margin: 3px;
+}
+.sfsi_Sicons {
+    z-index: 999;
+}
+.img-post {
+    display: inline-block;
+	    width: 100%;
+}
+.post{
+     min-height: 436px;
+}
+h2.page-header-category {
+    font-family: radikal;
+    color: #609E0A;
+    font-size: 22px;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 8px;
+}
+@media screen and (max-width: 768px) {
+.post-show-a{
+	display:block;
+    width: auto;
+    height: 100%;
+    padding-bottom: 20px;
+	
+}
+}
+.col-md-3.dmbs-right {
+    padding-top: 0px;
+}
+	</style>
+</head>
+<body class="home blog">
+
+
+
+
+<div class="header-top">
+
+<div class="container dmbs-container">
+
+
+
+
+
+
+    <div class="row dmbs-header">
+
+
+      
+
+    <div class="dmbs-top-menu">
+
+           <nav class="navbar navbar-default">
+
+         
+
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+
+                        <span class="sr-only">Toggle navigation</span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                        <span class="icon-bar"></span>
+
+                    </button>
+<a class="navbar-brand" href="http://mentirinhas.com.br/"><img src="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/img/deafaultlogo.png" alt="" /></a>
+
+
+                </div>
+
+
+
+                <div class="collapse navbar-collapse navbar-1-collapse"><ul id="menu-main_menu" class="nav navbar-nav navbar-right"><li id="menu-item-65373" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-65373 active"><a title="Home" href="http://mentirinhas.com.br/">Home</a></li>
+<li id="menu-item-65380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65380"><a title="Sobre" href="http://mentirinhas.com.br/sobre/">Sobre</a></li>
+<li id="menu-item-65381" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65381"><a title="Hq" href="http://mentirinhas.com.br/c/hq/">Hq</a></li>
+<li id="menu-item-65382" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65382"><a title="Como eu vejo" href="http://mentirinhas.com.br/c/como-eu-vejo/">Como eu vejo</a></li>
+<li id="menu-item-65383" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-65383"><a title="ilustrinha" href="http://mentirinhas.com.br/c/ilustrinha/">ilustrinha</a></li>
+<li id="menu-item-65402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65402"><a title="Contato" href="http://mentirinhas.com.br/contato/">Contato</a></li>
+<li id="menu-item-65384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-65384"><a title="Portifólio" target="_blank" href="http://coala-io.deviantart.com/gallery/">Portifólio</a></li>
+</ul></div>
+      
+
+        </nav>
+
+  </div>
+
+
+
+
+   </div>
+
+
+
+
+ </div>
+
+  </div>
+
+  <div class="slider">		<div id="cptbc_511" class="carousel slide"  data-interval="8000">
+			
+							<ol class="carousel-indicators">
+									<li data-target="#cptbc_511" data-slide-to="0" class="active"></li>
+									<li data-target="#cptbc_511" data-slide-to="1" ></li>
+									<li data-target="#cptbc_511" data-slide-to="2" ></li>
+									<li data-target="#cptbc_511" data-slide-to="3" ></li>
+								</ol>
+			
+			<div class="carousel-inner">
+			
+				<div class="item active" id="cptbc-item-65370"  style="height: 200px; background: url('http://mentirinhas.com.br/wp-content/uploads/2016/03/header2016_mentirinhas4ok.png') no-repeat center center ; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto;">
+									</div>
+			
+				<div class="item " id="cptbc-item-65422"  style="height: 200px; background: url('http://mentirinhas.com.br/wp-content/uploads/2016/03/header2016_mentirinhas2x.png') no-repeat center center ; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto;">
+									</div>
+			
+				<div class="item " id="cptbc-item-65559"  style="height: 200px; background: url('http://mentirinhas.com.br/wp-content/uploads/2016/03/header2016_mentirinhas3ok.png') no-repeat center center ; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto;">
+									</div>
+			
+				<div class="item " id="cptbc-item-65561"  style="height: 200px; background: url('http://mentirinhas.com.br/wp-content/uploads/2016/03/header2016_mentirinhas1ok.png') no-repeat center center ; -webkit-background-size: auto; -moz-background-size: auto; -o-background-size: auto; background-size: auto;">
+									</div>
+						</div>
+
+								<a class="left carousel-control" href="#cptbc_511" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					<a class="right carousel-control" href="#cptbc_511" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				
+		</div>
+
+        		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				jQuery('#cptbc_511').carousel({
+					interval: 8000				});
+			});
+		</script>
+         </div>
+
+<div class="carousel-select"></div>
+
+
+</div>
+
+</div></div>
+
+<div class="container dmbs-container">
+
+
+<div class="row dmbs-content">
+
+
+
+    
+    
+
+
+    <div class="col-md-9 dmbs-main">
+	
+		<div class="banner-home">
+        <aside id="text-11" class="side-widget widget_text">			<div class="textwidget">		<div class="wpsisac-slick-slider-1 wpsisac-slick-slider design-1">
+				  <div class="slick-image-slide" style="max-height:500px;">
+							<a href="http://mentirinhas.com.br/oba-lojinha-ou-quase/" >	<img width="990" height="148" src="http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_lojinha2.jpg" class="attachment-url size-url wp-post-image" alt="" srcset="http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_lojinha2.jpg 990w, http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_lojinha2-300x45.jpg 300w, http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_lojinha2-768x115.jpg 768w" sizes="(max-width: 990px) 100vw, 990px" />		</a>													
+	</div>  <div class="slick-image-slide" style="max-height:500px;">
+							<a href="https://apoia.se/clubinhodocoala" >	<img width="990" height="148" src="http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_clubinho2.jpg" class="attachment-url size-url wp-post-image" alt="" srcset="http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_clubinho2.jpg 990w, http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_clubinho2-300x45.jpg 300w, http://mentirinhas.com.br/wp-content/uploads/2016/12/banner_home_clubinho2-768x115.jpg 768w" sizes="(max-width: 990px) 100vw, 990px" />		</a>													
+	</div>
+		  </div><!-- #post-## -->		
+
+		  
+<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+		jQuery('.wpsisac-slick-slider-1').slick({
+
+			dots: false,
+			infinite: true,
+			arrows: false,
+			speed: 300,
+			autoplay: true,				
+			fade: false,
+			autoplaySpeed: 3000,
+
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			adaptiveHeight: false
+			
+
+			
+});
+	});
+
+	</script>				 
+</div>
+		</aside>    </div>
+
+                        
+                                        <article class="category-post post first" id="post-66901" class="post-66901 post type-post status-publish format-standard has-post-thumbnail hentry category-mentirinhas category-o-monstro tag-aceitar tag-aqui tag-caminho tag-correria tag-entender tag-longe tag-meditar tag-monstro tag-mudancas tag-mudar tag-parar tag-passos tag-paz tag-perdoar tag-qualaultimavezquevoceesteveapenasconsigo tag-reconhecer tag-redimir tag-respiramospoucoapenasosuficienteprasobreviver tag-respirar tag-tempo tag-vida tag-voce">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 24, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/aqui/">Aqui</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><a href="http://mentirinhas.com.br/aqui/"><img class="aligncenter size-full wp-image-66902" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/m_aquiA.jpg" alt="" width="635" height="95" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/m_aquiA.jpg 635w, http://mentirinhas.com.br/wp-content/uploads/2017/03/m_aquiA-300x45.jpg 300w" sizes="(max-width: 635px) 100vw, 635px" /></a><br />
+ <a href="http://mentirinhas.com.br/aqui/#more-66901" class="more-link">CLIQUE PARA LER</a></p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/aqui/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/aqui/" data-url="http://mentirinhas.com.br/aqui/" data-text="Aqui" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/aqui/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+                        
+                                        <article class="category-post post first" id="post-66897" class="post-66897 post type-post status-publish format-standard has-post-thumbnail hentry category-mentirinhas tag-aquelavelhaopiniaoformadasobretudo tag-caos tag-comentario tag-comentarista tag-definitiva tag-emuitatretavixe tag-engracado tag-fiqueicomvergonhadecomentarnatirinha tag-intelectual tag-observar tag-opiniao tag-palhaco tag-post tag-postagem tag-profissaocomentaristadeinternet tag-tarsio tag-treta tag-troll">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 23, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/mentirinhas-1126/">Mentirinhas #1126</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><img class="aligncenter size-full wp-image-66898" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1118.jpg" alt="" width="500" height="640" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1118.jpg 500w, http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1118-234x300.jpg 234w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Eu tô off-line.</p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/mentirinhas-1126/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/mentirinhas-1126/" data-url="http://mentirinhas.com.br/mentirinhas-1126/" data-text="Mentirinhas #1126" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/mentirinhas-1126/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+                        
+                                        <article class="category-post post first" id="post-66893" class="post-66893 post type-post status-publish format-standard has-post-thumbnail hentry category-mentirinhas tag-atrair tag-biologia tag-boca tag-carnivora tag-devoradoaospouquinhos tag-essacarnedehumanoedafriboi tag-flores tag-guerra tag-humanidade tag-humanos tag-isca tag-operacaoprimaveravermelha tag-plano tag-plantas tag-quemeesserau tag-smartphone tag-vitoria">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 22, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/mentirinhas-1125/">Mentirinhas #1125</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><img class="aligncenter size-full wp-image-66894" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1117.jpg" alt="" width="500" height="639" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1117.jpg 500w, http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1117-235x300.jpg 235w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Se os próprios humanos não gostam dos humanos, quem vai gostar?</p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/mentirinhas-1125/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/mentirinhas-1125/" data-url="http://mentirinhas.com.br/mentirinhas-1125/" data-text="Mentirinhas #1125" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/mentirinhas-1125/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+                        
+                                        <article class="category-post post first" id="post-66889" class="post-66889 post type-post status-publish format-standard has-post-thumbnail hentry category-mentirinhas category-mhdm tag-acougue tag-apocalipse tag-besteira tag-carne tag-comer tag-decepcao tag-esperavamaisdevocecarneestragada tag-estragado tag-mae tag-maisumoutonocomecouenadadeapocalipsezumbi tag-mhdm tag-mutante tag-naotenhodinheiropracomprardessascarnesdosartistas tag-terceira tag-vaca tag-zumbi">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 21, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/mhdm-167/">MHDM #167</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><img class="aligncenter size-full wp-image-66890" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/mhdm_167.jpg" alt="" width="500" height="640" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/mhdm_167.jpg 500w, http://mentirinhas.com.br/wp-content/uploads/2017/03/mhdm_167-234x300.jpg 234w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Tá difícil sair esse apocalipse zumbi #chateado</p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/mhdm-167/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/mhdm-167/" data-url="http://mentirinhas.com.br/mhdm-167/" data-text="MHDM #167" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/mhdm-167/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+                        
+                                        <article class="category-post post first" id="post-66885" class="post-66885 post type-post status-publish format-standard has-post-thumbnail hentry category-mentirinhas category-a-segunda tag-armadura tag-bola tag-demolicao tag-dojeitoqueasemanacomecaagentejaimaginacomotermina tag-elmo tag-enfrentar tag-ferro tag-porrada tag-preparado tag-pronto tag-quemensinouelaapilotaressacoisa tag-segunda tag-segunda-feira tag-sofaltam5dias tag-wreckingball">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 20, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/mentirinhas-1124/">Mentirinhas #1124</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><img class="aligncenter size-full wp-image-66886" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1116.jpg" alt="" width="500" height="640" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1116.jpg 500w, http://mentirinhas.com.br/wp-content/uploads/2017/03/mentirinhas_1116-234x300.jpg 234w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Miley Cyrus, é você?</p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/mentirinhas-1124/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/mentirinhas-1124/" data-url="http://mentirinhas.com.br/mentirinhas-1124/" data-text="Mentirinhas #1124" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/mentirinhas-1124/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+                        
+                                        <article class="category-post post first" id="post-66881" class="post-66881 post type-post status-publish format-standard has-post-thumbnail hentry category-horo category-mentirinhas tag-aceitar tag-alem tag-avo tag-batalhas tag-bombeirosfeelings tag-castor tag-chorar tag-compreensao tag-continuar tag-daumabracomestre tag-doenca tag-forca tag-horo tag-impotente tag-lutar tag-melhor tag-mestre tag-ocoracaoemaispersistentequearazao tag-suficiente tag-toro">
+                    	<div class="article-content" >
+                            <header>
+                                <span class="entry-date" style="display: none">março 17, 2017</span>
+                                <h1 class="entry-title"><a href="http://mentirinhas.com.br/horo-9/">Horo #9</a></h1>
+                            </header>
+                            
+                        </div>
+                                            	
+						 <p><img class="aligncenter size-full wp-image-66882" src="http://mentirinhas.com.br/wp-content/uploads/2017/03/horo_09.jpg" alt="" width="500" height="640" srcset="http://mentirinhas.com.br/wp-content/uploads/2017/03/horo_09.jpg 500w, http://mentirinhas.com.br/wp-content/uploads/2017/03/horo_09-234x300.jpg 234w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>Enfrentaremos muitas batalhas assim durante nossa jornada </p>
+<div class='sfsiaftrpstwpr' style=''><div class='sfsi_plus_Sicons left' style='float:left'><div style='display: inline-block;margin-bottom: 0; margin-left: 0; margin-right: 8px; margin-top: 0; vertical-align: middle;width: auto;'><span></span></div><div class='sf_fb' style='display: inline-block; vertical-align: middle;width: auto;'><div class="fb-like" href="http://mentirinhas.com.br/horo-9/" width="180" send="false" showfaces="false"  action="like" data-share="true"data-layout="button_count" ></div></div><div class='sf_twiter' style='display: inline-block;vertical-align: middle;width: auto;'><a href="http://twitter.com/share" class="sr-twitter-button twitter-share-button" lang="en_US" data-counturl="http://mentirinhas.com.br/horo-9/" data-url="http://mentirinhas.com.br/horo-9/" data-text="Horo #9" ></a></div><div class='sf_google' style='display: inline-block;vertical-align: middle;width: 63px;'><div class="g-plusone" data-href="http://mentirinhas.com.br/horo-9/" data-size="large" ></div></div></div></div>	
+							 
+                                            </article><!-- #post-## -->
+                    
+					                    <hr size="2" />
+
+            			
+
+<div class="clear"></div>
+                 <div style="margin-top:50px;"></div>
+              <div class="row"><div class="col-lg-12 text-center"><div class="navigation"><ul>
+<li class="active"><a href="http://mentirinhas.com.br/">1</a></li>
+<li><a href="http://mentirinhas.com.br/page/2/">2</a></li>
+<li><a href="http://mentirinhas.com.br/page/3/">3</a></li>
+<li>…</li>
+<li><a href="http://mentirinhas.com.br/page/400/">400</a></li>
+<li><a href="http://mentirinhas.com.br/page/2/" >Próxima Página &raquo;</a></li>
+</ul></div>
+</div></div>
+                <div style="margin-bottom:130px;"></div>
+
+    </div>
+
+
+
+    
+    
+    <div class="col-md-3 dmbs-right">
+        <aside id="sfsi-widget-2" class="side-widget sfsi">            <div class="sfsi_widget" data-position="widget">   
+				<div id='sfsi_wDiv'></div>
+                    <div class="norm_row sfsi_wDiv"  style="width:225px;text-align:left;position:absolute;"><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px;' class='sfsi_wicons shuffeldiv '><div class='inerCnt'><a class=' sficn' effect='' target='_blank'  href='http://mentirinhas.com.br/feed/' id='sfsiid_rss' alt='RSS' style='opacity:1' ><img alt='RSS' title='RSS' src='http://mentirinhas.com.br/wp-content/uploads/2016/03//custom_iconrss_skin.png' width='40' style='' class='sfcm sfsi_wicon' effect=''   /></a></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px;' class='sfsi_wicons shuffeldiv '><div class='inerCnt'><a class=' sficn' effect='' target='_blank'  href='http://' id='sfsiid_facebook' alt='Facebook' style='opacity:1' ><img alt='Facebook' title='Facebook' src='http://mentirinhas.com.br/wp-content/uploads/2016/03//custom_iconfacebook_skin.png' width='40' style='' class='sfcm sfsi_wicon' effect=''   /></a><div class="sfsi_tool_tip_2 fb_tool_bdr sfsiTlleft" style="width:62px ;opacity:0;z-index:-1;margin-left:-47.5px;" id="sfsiid_facebook"><span class="bot_arow bot_fb_arow"></span><div class="sfsi_inside"><div  class='icon2'><div class="fb-like" data-href="http://www.mentirinhas.com.br/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div></div><div  class='icon3'><div class="fb-share-button" data-href="http://www.mentirinhas.com.br/" data-layout="button"></div></div></div></div></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px;' class='sfsi_wicons shuffeldiv '><div class='inerCnt'><a class=' sficn' effect='' target='_blank'  href='javascript:void(0);' id='sfsiid_google' alt='Google+' style='opacity:1' ><img alt='Google+' title='Google+' src='http://mentirinhas.com.br/wp-content/uploads/2016/03//custom_icongoogle_skin.png' width='40' style='' class='sfcm sfsi_wicon' effect=''   /></a><div class="sfsi_tool_tip_2 gpls_tool_bdr sfsiTlleft" style="width:76px ;opacity:0;z-index:-1;margin-left:-54.5px;" id="sfsiid_google"><span class="bot_arow bot_gpls_arow"></span><div class="sfsi_inside"><div  class='icon2'><div class="g-plusone" data-href="http://www.mentirinhas.com.br/" data-size="large" data-annotation="none" ></div></div><div  class='icon3'><div class="g-plus" data-action="share" data-annotation="none" data-height="24" data-href="http://www.mentirinhas.com.br/">http://www.mentirinhas.com.br/"></div></div></div></div></div></div><div style='width:40px; height:40px;margin-left:5px;margin-bottom:5px;' class='sfsi_wicons shuffeldiv '><div class='inerCnt'><a class=' sficn' effect='' target='_blank'  href='javascript:void(0);' id='sfsiid_twitter' alt='Twitter' style='opacity:1' ><img alt='Twitter' title='Twitter' src='http://mentirinhas.com.br/wp-content/uploads/2016/03//custom_icontwitter_skin.png' width='40' style='' class='sfcm sfsi_wicon' effect=''   /></a><div class="sfsi_tool_tip_2 twt_tool_bdr sfsiTlleft" style="width:59px ;opacity:0;z-index:-1;margin-left:-46px;" id="sfsiid_twitter"><span class="bot_arow bot_twt_arow"></span><div class="sfsi_inside"><div  class='icon2'><a rel="nofollow" href="http://twitter.com/share" data-count="none" class="sr-twitter-button twitter-share-button" lang="en" data-url="http://www.mentirinhas.com.br/" data-text="Hey, check out this cool site I found: www.yourname.com #Topic via@my_twitter_name" ></a></div></div></div></div></div></div ><div id="sfsi_holder" class="sfsi_holders" style="position: relative; float: left;width:100%;z-index:-1;"></div ><script>jQuery(".sfsi_widget").each(function( index ) {
+					if(jQuery(this).attr("data-position") == "widget")
+					{
+						var wdgt_hght = jQuery(this).children(".norm_row.sfsi_wDiv").height();
+						var title_hght = jQuery(this).parent(".widget.sfsi").children(".widget-title").height();
+						var totl_hght = parseInt( title_hght ) + parseInt( wdgt_hght );
+						jQuery(this).parent(".widget.sfsi").css("min-height", totl_hght+"px");
+					}
+				});</script>	      		<div style="clear: both;"></div>
+            </div>
+            </aside><aside id="text-10" class="side-widget widget_text">			<div class="textwidget"><div class="carinhas-side">
+
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/aureolos/" ><div id="opt1"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/caco/"><div id="opt2"></div>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/coalas/" ><div id="opt3"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/botinhas-de-algodao/" ><div id="opt4"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/bacons/" ><div id="opt5"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/a-segunda/" ><div id="opt6"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/mhdm/" ><div id="opt7"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/o-monstro/" ><div id="opt8"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/hq/" ><div id="opt9"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/mentirinhas/" ><div id="opt10"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/como-eu-vejo/" ><div id="opt11"></div></a>
+</div>
+<div class="cabeca">
+<a href="http://mentirinhas.com.br/c/horo/" ><div id="opt12"></div></a></div>
+
+
+</div>
+</div>
+		</aside><aside id="search-3" class="side-widget widget_search"><form role="search" method="get" id="searchform" action="http://mentirinhas.com.br/">
+    <div>
+    <div class="form-inline">
+    <div class="form-group">
+    <input type="text" class="form-control" value="" name="s" id="s" placeholder="Pesquisar">
+  </div>
+  <button type="submit" id="searchsubmit"  class="btn btn-default"><i class="fa fa-search"></i></button>
+    </div>
+
+</form></aside><aside id="text-6" class="side-widget widget_text"><h3>As melhores Webcomics</h3>			<div class="textwidget"><div class="cr3_sponsorwrapper"><div class="ones-column"><a href="http://www.willtirando.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/1will.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.willtirando.com.br/" target="_blank">Willtirando</a></h2></div><div class="ones-column"><a href="http://www.umsabadoqualquer.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/2ruas.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.umsabadoqualquer.com/" target="_blank">Um Sábado Qualquer</a></h2></div><div class="ones-column"><a href="http://vidadesuporte.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/3suporte.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://vidadesuporte.com.br/" target="_blank">Vida de Suporte</a></h2></div><div class="ones-column"><a href="http://www.quadrinhosacidos.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/4acidos.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.quadrinhosacidos.com.br/" target="_blank">Quadrinhos Ácidos</a></h2></div><div class="ones-column"><a href="http://www.giekim.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/5gikim.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.giekim.com/" target="_blank">Gi e Kim</a></h2></div><div class="ones-column"><a href="http://www.comoeurealmente.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/6nia.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.comoeurealmente.com/" target="_blank">Como eu realmente</a></h2></div><div class="ones-column"><a href="http://www.tirinhasdoze.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/7nia.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.tirinhasdoze.com/" target="_blank">Tirinhas do Zé</a></h2></div><div class="ones-column"><a href="http://www.oslevadosdabreca.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/8wes.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.oslevadosdabreca.com/" target="_blank">Depósito do Wes</a></h2></div><div class="ones-column"><a href="http://www.nabundanada.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/9nabunda.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.nabundanada.com/" target="_blank">Nabundanada</a></h2></div><div class="ones-column"><a href="https://vacilandia.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/10profeticos.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="https://vacilandia.com/" target="_blank">Proféticos</a></h2></div><div class="ones-column"><a href="http://digofreitas.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/11digo.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://digofreitas.com/" target="_blank">Diário de Ideias Gráficas</a></h2></div><div class="ones-column"><a href="http://www.sapobrothers.net/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/12sapo.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.sapobrothers.net/" target="_blank">Sapo Brothers</a></h2></div><div class="ones-column"><a href="http://cafedofeliz.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/13feliz.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://cafedofeliz.com/" target="_blank">Café do Feliz</a></h2></div><div class="ones-column"><a href="http://bear-pt.tumblr.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/14bear.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://bear-pt.tumblr.com/" target="_blank">Bear</a></h2></div><div class="ones-column"><a href="http://ultimaquimera.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/15quimera.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://ultimaquimera.com.br/" target="_blank">Última Quimera</a></h2></div><div class="ones-column"><a href="http://www.manjericcao.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/19manjeric.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.manjericcao.com.br/" target="_blank">Manjericcão</a></h2></div><div class="ones-column"><a href="http://www.meusnervos.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/16nervos.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.meusnervos.com.br/" target="_blank">Meus Nervos</a></h2></div><div class="ones-column"><a href="http://www.juventudeperigosa.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/17juventude.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.juventudeperigosa.com/" target="_blank">Juventude Perigosa</a></h2></div><div class="ones-column"><a href="http://www.lobolimao.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/18lobo.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.lobolimao.com.br/" target="_blank">Lobo Limão</a></h2></div><div class="ones-column"><a href="http://objetosinanimados.blogspot.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/20objetos.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://objetosinanimados.blogspot.com.br/" target="_blank">Objetos Inanimados</a></h2></div><div class="ones-column"><a href="http://punyparker.blogspot.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/21vitor.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://punyparker.blogspot.com.br/" target="_blank">Valente</a></h2></div><div class="ones-column"><a href="http://ryotiras.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/22ryot.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://ryotiras.com/" target="_blank">Ryotiras</a></h2></div><div class="ones-column"><a href="http://www.caixadoremedios.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/23remediost.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.caixadoremedios.com/" target="_blank">Caixa do remedios</a></h2></div><div class="ones-column"><a href="http://bichinhosdejardim.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/24bichinhos.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://bichinhosdejardim.com/" target="_blank">Bichinhos de Jardim</a></h2></div><div class="ones-column"><a href="http://blueeosgatos.com.br/site/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/25blue.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://blueeosgatos.com.br/site/" target="_blank">Blue e os Gatos</a></h2></div><div class="ones-column"><a href="http://meumonarcafavorito.blogspot.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/26monarca.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://meumonarcafavorito.blogspot.com.br/" target="_blank">Meu Monarca Favorito</a></h2></div><div class="ones-column"><a href="http://www.dancandosemcesar.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/27cesar.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.dancandosemcesar.com.br/" target="_blank">Dançando sem Cesar</a></h2></div><div class="ones-column"><a href="http://www.overdosehomeopatica.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/28over.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.overdosehomeopatica.com/" target="_blank">Overdose Homeopática</a></h2></div><div class="ones-column"><a href="http://petisco.org/terapia/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/32terapia_joanas.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://petisco.org/terapia/" target="_blank">Terapia</a></h2></div><div class="ones-column"><a href="http://joaosejoanas.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/31joao_joanas.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://joaosejoanas.com/" target="_blank">Joãos e Joanas</a></h2></div><div class="ones-column"><a href="http://eradaferrugem.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/29samuel.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://eradaferrugem.com.br/" target="_blank">Era da Ferrugem</a></h2></div><div class="ones-column"><a href="http://tirinhasbaboom.blogspot.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/30baboom.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://tirinhasbaboom.blogspot.com.br/" target="_blank">Baboom</a></h2></div></div></div>
+		</aside><aside id="text-5" class="side-widget widget_text"><h3>Outros Mentirosos</h3>			<div class="textwidget"><div class="cr3_sponsorwrapper"><div class="ones-column"><a href="http://www.naosalvo.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z1ns.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.naosalvo.com.br/" target="_blank">Não Salvo</a></h2></div><div class="ones-column"><a href="http://futirinhas.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z2futi.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://futirinhas.com/" target="_blank">Futirinhas</a></h2></div><div class="ones-column"><a href="http://www.osprofanos.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z3profanosi.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.osprofanos.com/" target="_blank">Os Profanos</a></h2></div><div class="ones-column"><a href="http://tenso.blog.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z4tenso.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://tenso.blog.br/" target="_blank">Tenso</a></h2></div><div class="ones-column"><a href="http://treta.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z5treta.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://treta.com.br/" target="_blank">Treta</a></h2></div><div class="ones-column"><a href="http://acidezfeminina.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z6acidez.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://acidezfeminina.com.br/" target="_blank">Acidez Feminina</a></h2></div><div class="ones-column"><a href="http://www.jacarebanguela.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z7jacarez.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.jacarebanguela.com.br/" target="_blank">Jacaré Banguela</a></h2></div><div class="ones-column"><a href="http://www.sedentario.org/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z8sedentario.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.sedentario.org/" target="_blank">Sedentário &#038; Hiperativo</a></h2></div><div class="ones-column"><a href="http://www.testosterona.blog.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z9testo.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.testosterona.blog.br/" target="_blank">Testosterona</a></h2></div><div class="ones-column"><a href="http://www.oversodoinverso.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z10overso.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.oversodoinverso.com.br/" target="_blank">O verso do inverso</a></h2></div><div class="ones-column"><a href="http://www.amigosdoforum.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z11luide.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.amigosdoforum.com.br/" target="_blank">Amigos do Fórum</a></h2></div><div class="ones-column"><a href="http://nerdpai.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z12nerdpaie.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://nerdpai.com/" target="_blank">Nerd Pai</a></h2></div><div class="ones-column"><a href="http://nerdpride.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z13nerdp.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://nerdpride.com.br/" target="_blank">Nerd Pride</a></h2></div><div class="ones-column"><a href="http://www.braian.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z16brain.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://www.braian.com.br/" target="_blank">Braian</a></h2></div><div class="ones-column"><a href="http://pensarenlouquece.com/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z15pensar.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://pensarenlouquece.com/" target="_blank">Pensar Enlouquece</a></h2></div><div class="ones-column"><a href="http://blog.bytequeeugosto.com.br/" target="_blank"><div class="cr3_sponsor_image"><img width="58" height="58" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/z14bqgp.jpg" class="attachment-full size-full wp-post-image" alt="" /></div></a><h2 class="cr3_sponsorname"><a href="http://blog.bytequeeugosto.com.br/" target="_blank">Byte que eu gosto</a></h2></div></div></div>
+		</aside>    </div>
+
+
+
+</div>
+
+<!-- end content container -->
+
+
+
+</div>
+
+<div class="padding-top-30"></div>
+<div style="background:#f7f7f7; padding: 10px;">
+<div class="container dmbs-container">
+<div class="row" style="text-align:center;">
+ <div id="google-ads-1"></div>
+ 
+<script type="text/javascript"> 
+ 
+    ad = document.getElementById('google-ads-1');
+ 
+    if (ad.getBoundingClientRect().width) {
+        adWidth = ad.getBoundingClientRect().width;
+    } else {
+        adWidth = ad.offsetWidth;  
+    }
+
+adWidth = window.innerWidth;
+console.log(adWidth);
+ 
+    google_ad_client = "ca-pub-2301178477602946";
+ 
+    google_ad_slot = "3668996685";
+  
+    if ( adWidth >= 1024 ){
+      google_ad_size = ["728", "90"];  
+    }else{
+      google_ad_size = ["300", "250"];
+}
+  
+console.log(google_ad_size);
+    document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + google_ad_size[0] + 'px;height:' 
+      + google_ad_size[1] + 'px" data-ad-client="' 
+      + google_ad_client + '" data-ad-slot="' 
+      + google_ad_slot + '"></ins>'
+    );
+  
+    (adsbygoogle = window.adsbygoogle || []).push({});
+ 
+</script>
+ 
+<script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
+</script>
+</div>
+</div>
+</div>
+<div class="section-club">
+
+<div class="container dmbs-container">
+
+<div class="row">
+
+<div class="col-lg-7 col-md-7 col-sm-7">
+
+<div class="padding-top-30"></div>
+
+<aside id="text-7" class="footer-widget widget_text">			<div class="textwidget"><h1>Clubinho do Coala</h1><h4 class="club">Olá, amigos! Pois é, resolvi ouvir o conselho de alguns amigos e leitores e criar uma conta no APOIA.se, que é um sistema parecido com o catarse, nas palavras deles um “financiamento coletivo e recorrente com foco no processo criativo” ou seja, um jeito de apoiar artistas e criadores de conteúdo nas mais diversas áreas. Mas queria algo que fosse mais que um apoio, onde os interessados tivessem vantagens, como um clube. Assim nasceu o Clubinho do Coala. Não vou me estender muito por aqui, se você gosta do meu trabalho e ficou curioso sobre o que raios é isso basta clicar aqui. Abraço de Coala</h4>
+<a href="https://apoia.se/clubinhodocoala" class="btn btn-warning btn-lg">Participe!</a></div>
+		</aside>
+<div class="padding-top-30"></div>
+
+</div>
+
+<div class="col-lg-5 col-md-5 col-sm-5">
+
+<aside id="text-9" class="anuncio widget_text">			<div class="textwidget">		<div class="wpsisac-slick-slider-2 wpsisac-slick-slider design-1">
+				  <div class="slick-image-slide" style="max-height:500px;">
+							<a href="http://mentirinhas.com.br/oba-lojinha-ou-quase/" >	<img width="650" height="464" src="http://mentirinhas.com.br/wp-content/uploads/2016/03/banner3_vacaviking.jpg" class="attachment-url size-url wp-post-image" alt="" srcset="http://mentirinhas.com.br/wp-content/uploads/2016/03/banner3_vacaviking.jpg 650w, http://mentirinhas.com.br/wp-content/uploads/2016/03/banner3_vacaviking-300x214.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" />		</a>													
+	</div>
+		  </div><!-- #post-## -->		
+
+		  
+<script type="text/javascript">
+
+		jQuery(document).ready(function(){
+		jQuery('.wpsisac-slick-slider-2').slick({
+
+			dots: false,
+			infinite: true,
+			arrows: false,
+			speed: 300,
+			autoplay: true,				
+			fade: false,
+			autoplaySpeed: 3000,
+
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			adaptiveHeight: false
+			
+
+			
+});
+	});
+
+	</script>				 
+</div>
+		</aside>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="section-news">
+
+<div class="container dmbs-container">
+
+<div class="col-lg-4"> <aside id="recent-comments-3" class="footer-widget widget_recent_comments"><h3>Comentários</h3><ul id="recentcomments"><li class="recentcomments"><span class="comment-author-link">Bruno</span> em <a href="http://mentirinhas.com.br/aqui/#comment-103021">Aqui</a></li><li class="recentcomments"><span class="comment-author-link"><a href='http://www.mentirinhas.com.br' rel='external nofollow' class='url'>Fábio Coala</a></span> em <a href="http://mentirinhas.com.br/como-eu-vejo-esta-foto-49/#comment-103004">Como eu vejo esta foto #49</a></li><li class="recentcomments"><span class="comment-author-link">victoria favero da mota</span> em <a href="http://mentirinhas.com.br/como-eu-vejo-esta-foto-49/#comment-103001">Como eu vejo esta foto #49</a></li><li class="recentcomments"><span class="comment-author-link">Deko</span> em <a href="http://mentirinhas.com.br/mentirinhas-1125/#comment-102998">Mentirinhas #1125</a></li><li class="recentcomments"><span class="comment-author-link">Sylvia Tamie</span> em <a href="http://mentirinhas.com.br/mentirinhas-1125/#comment-102996">Mentirinhas #1125</a></li></ul></aside></div>
+
+<div class="col-lg-4"> 		<aside id="recent-posts-2" class="footer-widget widget_recent_entries">		<h3>Tópicos recentes</h3>		<ul>
+					<li>
+				<a href="http://mentirinhas.com.br/aqui/">Aqui</a>
+						</li>
+					<li>
+				<a href="http://mentirinhas.com.br/mentirinhas-1126/">Mentirinhas #1126</a>
+						</li>
+					<li>
+				<a href="http://mentirinhas.com.br/mentirinhas-1125/">Mentirinhas #1125</a>
+						</li>
+					<li>
+				<a href="http://mentirinhas.com.br/mhdm-167/">MHDM #167</a>
+						</li>
+					<li>
+				<a href="http://mentirinhas.com.br/mentirinhas-1124/">Mentirinhas #1124</a>
+						</li>
+				</ul>
+		</aside>		</div>
+
+<div class="col-lg-4 text-center"> <aside id="ultimatefacebookpageplugin-2" class="footer-widget widget_ultimatefacebookpageplugin"><h3>Facebook</h3>
+    
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        
+    <div class="fb-page" 
+      data-href="https://www.facebook.com/mentirinhas/"
+      data-width="300" 
+      data-height="400"
+      data-small-header="true" 
+      data-adapt-container-width="" 
+      data-hide-cover="false" 
+      data-show-facepile="true" 
+      data-show-posts="false">
+      <div class="fb-xfbml-parse-ignore">
+      <blockquote cite="https://www.facebook.com/mentirinhas/">
+      <a href="https://www.facebook.com/mentirinhas/">Facebook</a>
+      </blockquote>
+      </div>
+</div>
+<div style='font-size: 9px; color: #808080; font-weight: normal; font-family: tahoma,verdana,arial,sans-serif; line-height: 1.28; text-align: right; direction: ltr;'><a href='http://www.crayfishstudios.com' target='_blank' style='color: #808080;' title='Click here'>Web Design Dallas</a></div>
+</aside></div>
+
+</div>
+
+</div>
+
+
+
+    <div class="dmbs-footer">
+
+ <div class="container dmbs-container">
+
+ <div class="col-lg-4 text-center">Desenvolvimento<br/><a href="http://animaframe.com.br" target="_blank"><img src="http://mentirinhas.com.br/wp-content/themes/mentirinhas-1/img/logo-animaframe.png" /></a></div>
+
+<div class="col-lg-4 text-center">Copyright © 2016. Mentirinhas.<br/>Todos os direitos reservados</div>
+
+<div class="col-lg-4 text-center"><a href="https://www.facebook.com/mentirinhas/" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+
+<a href="https://twitter.com/fabiocoala" target="_blank" ><i class="fa fa-twitter-square fa-3x"></i></a></div>
+
+</div>
+
+        
+    </div>
+
+
+
+
+
+<!-- end main container -->
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=247836115549229&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <!--facebook like and share js -->
+        <div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+		  	if (d.getElementById(id)) return;
+		  	js = d.createElement(s); js.id = id;
+		  	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  	fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<!--<div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1425108201100352&version=v2.0";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>-->
+ 	         <!--google share and  like and e js -->
+        <script type="text/javascript">
+            window.___gcfg = {
+              lang: 'en-US'
+            };
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+		
+		<!-- google share -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+			<!--pinit js -->
+		<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+			<!-- twitter JS End -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	     <script>
+	    jQuery( document ).scroll(function( $ )
+		{
+	    	var y = jQuery(this).scrollTop();
+	      	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+			{	 
+			   if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-100)
+			   {
+				  jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+"px",position:"absolute"});
+				  jQuery('.sfsi_outr_div').fadeIn(200);
+				  jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+			   }
+			   else{
+				   jQuery('.sfsi_outr_div').fadeOut();
+				   jQuery('.sfsi_FrntInner_chg').fadeOut();
+			   }
+		  }
+		  else
+		  {
+			   if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-3)
+			   {
+					jQuery('.sfsi_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+200+"px",position:"absolute"});
+					jQuery('.sfsi_outr_div').fadeIn(200);
+					jQuery('.sfsi_FrntInner_chg').fadeIn(200);
+		  	   }
+	 		   else
+			   {
+				 jQuery('.sfsi_outr_div').fadeOut();
+				 jQuery('.sfsi_FrntInner_chg').fadeOut();
+			   }
+	 	  } 
+		});
+     </script>
+     		<!--facebook like and share js -->                   
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+			<!--google share and  like and e js -->
+		<script type="text/javascript">
+			window.___gcfg = {
+			  lang: 'en_US'
+			};
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'https://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+		</script>
+	
+        <!-- google share -->
+        <script type="text/javascript">
+            (function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/platform.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })();
+        </script>
+        		<!-- twitter JS End -->
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+	     	<script>
+	    jQuery( document ).scroll(function( $ )
+		{
+	    	var y = jQuery(this).scrollTop();
+	      	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+			{	 
+	       		if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-100)
+				{
+				  jQuery('.sfsi_plus_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+"px",position:"absolute"});
+				  jQuery('.sfsi_plus_outr_div').fadeIn(200);
+				  jQuery('.sfsi_plus_FrntInner').fadeIn(200);
+	       		}
+	       		else
+				{
+				   jQuery('.sfsi_plus_outr_div').fadeOut();
+				   jQuery('.sfsi_plus_FrntInner').fadeOut();
+ 			    }
+	    	}
+	  		else
+			{
+	       		if(jQuery(window).scrollTop() + jQuery(window).height() >= jQuery(document).height()-3)
+				{
+			        jQuery('.sfsi_plus_outr_div').css({'z-index':'9996',opacity:1,top:jQuery(window).scrollTop()+200+"px",position:"absolute"});
+	        		jQuery('.sfsi_plus_outr_div').fadeIn(200);
+					jQuery('.sfsi_plus_FrntInner').fadeIn(200);
+	    		}
+	  			else
+				{
+				    jQuery('.sfsi_plus_outr_div').fadeOut();
+	      			jQuery('.sfsi_plus_FrntInner').fadeOut();
+	       		}
+	 		} 
+		});
+     </script>
+     <script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=47fe617263787450c8c7b4eec81f32d0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/mentirinhas.com.br\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Enviando ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-includes/js/jquery/ui/core.min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"http:\/\/mentirinhas.com.br\/wp-admin\/admin-ajax.php"};
+var ajax_object = {"ajax_url":"http:\/\/mentirinhas.com.br\/wp-admin\/admin-ajax.php","plugin_url":"http:\/\/mentirinhas.com.br\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://mentirinhas.com.br/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=47fe617263787450c8c7b4eec81f32d0'></script>
+<script type='text/javascript' src='http://mentirinhas

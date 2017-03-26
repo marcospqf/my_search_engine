@@ -1,0 +1,1278 @@
+|||
+http://clicklogger.rm.uol.com.br/?prd=32&grp=src:210;chn:0;creative:barrauol;thm:barrauol-pagseguro&msr=Cliques%20de%20Origem:1&oper=11&redir=https://pagseguro.uol.com.br/
+|
+
+
+
+				
+
+
+
+	
+	
+				
+	
+
+
+	
+						
+	<!DOCTYPE html>
+
+<!--
+	~ Copyright (c) - UOL Inc, Todos os direitos reservados
+	~
+	~ Este arquivo e uma propriedade confidencial do Universo Online Inc. Nenhuma
+	~ parte do mesmo pode ser copiada, reproduzida, impressa ou transmitida por
+	~ qualquer meio sem autorizacao expressa e por escrito de um representante
+	~ legal do Universo Online Inc.
+	~
+	~ All rights reserved
+	~
+	~ This file is a confidential property of Universo Online Inc. No part of this
+	~ file may be reproduced or copied in any form or by any means without written
+	~ permisson from an authorized person from Universo Online Inc.
+-->
+
+<html lang="pt-br">
+<head>
+
+		<meta charset="iso-8859-1" />
+	
+	<meta name="description" content="Venda pela internet com facilidade usando o PagSeguro: receba pagamentos com cartão de crédito, boleto bancário ou por e-mail. Comece a vender com PagSeguro já!" />
+			<meta name="keywords" content="" />
+		<meta name="google-site-verification" content="uPoEEmwsmGUXmhtQSbPK1DFcI9TNUZB19rqvpshC4vw" />
+	
+			<link rel="canonical" href="https://pagseguro.uol.com.br/" />
+	
+
+	<title>PagSeguro: Venda pela internet e receba pagamentos online facilmente</title>
+    <link rel="Shortcut Icon" href="https://stc.pagseguro.uol.com.br/pagseguro/i/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-57x57.149049984.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-72x72.149049984.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-114x114.149049984.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://stc.pagseguro.uol.com.br/pagseguro/i/apple-icon-144x144.149049984.png" />
+		<link href="https://plus.google.com/110196150821143075058" rel="publisher" />
+
+												<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/bundles/home2015.149049984.scss" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/pagseguro.sprites.brands.149049984.css" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/commons/pagseguro.tabbox.animated-skin.149049984.css" />
+					<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/pagestyles/ibanking/home/payment-flags.149049984.css" />
+										<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/publisher/online/css/home-vendedor.css" />
+					<link rel="stylesheet" type="text/css" href="" />
+			    	
+	
+
+	<!-- roimeter -->
+	 		<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/3rdparty/rm/clicklogger_namespace.149049984.js"></script>
+				<script type="text/javascript">
+												UOLRM.addGrouping('src_pagetp', '124');
+										UOLRM.check(32);
+		</script>
+			<!-- roimeter -->
+
+			
+</head>
+	<!-- BODY -->
+	
+	
+	<body class=" page_home s-home   default " >
+	<!-- END -->
+	<div id="pagseguro-wrapper">
+										<div class="ecommerce-nav-placeholder" style="background-color: #262626; height: 28px;">
+			<div id="append-ecommerce-nav"></div>
+		</div>
+																																																				
+<!-- viewport $viewport -->
+
+
+	<link rel="stylesheet" type="text/css" href="https://stc.pagseguro.uol.com.br/pagseguro/c/lib/ibanking/pswebsite-legacy-support.149049984.css" />
+<div id="pswebsite-legacy-support">
+		
+			<header id="menu" class="header" data-omniture-section="pswebsite header">
+	<div class="container">
+		<div class="header__menu">
+			<a class="menu-toggle" href="#ps">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<a href="#" class="menu-toggle--close">X</a>
+		</div>		<h1 class="header__logo  with-cart"><a href="/" class="omniture-click" data-omniture-action="Logo PagSeguro">PagSeguro</a></h1>
+			<a class="header__user" href="https://m.pagseguro.uol.com.br/acesso.jhtml">
+				<i class="psit-unlogged"></i>
+			</a>
+			<form id="login-ibanking" action="https://pagseguro.uol.com.br/login.jhtml" method="post" class="header__login" novalidate>
+				<input type="hidden" name="acsrfToken" value="R.SpEOIU2ZEAQNKIY8.m2bzweHbpsqORba0kOwHBMiI2-1490499763486-14400000-89">
+				<input type="hidden" name="skin" value="ps">
+				<input type="hidden" name="dest" value="REDIR|https://pagseguro.uol.com.br/hub.jhtml">
+				<div class="inputholder">
+					<input type="email" name="user" id="eml" placeholder="CPF/CNPJ ou E-mail" class="form-control">
+				</div>
+				<div class="inputholder input-group">
+					<input type="password" name="pass" id="pwd" placeholder="Senha" class="form-control">
+					<a data-omniture-action="Esqueci a senha" href="https://sac.uol.com.br/pagseguro/#/recuperarsenha" title="Esqueceu a senha ?" class="input-group-addon button--type-pwd omniture-click">esqueceu ?</a>
+				</div>
+				<div class="header__signin">
+					<button id="entrar" data-omniture-action="Entrar" type="submit" class="btn btn-sm btn-primary omniture-click">Entrar</button>
+				</div>
+				<div class="header__register">
+					<a href="https://pagseguro.uol.com.br/registration/registration.jhtml" class="btn btn-sm btn-default omniture-click" title="Cadastrar" data-omniture-action="Botao Cadastrar do topo">Crie sua conta</a>
+				</div>
+			</form>
+			<div class="header__cart">
+				<a href="https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/carrinho.html"><i class="psit-old_cart"></i></a>
+			</div>
+	</div>
+</header>	
+	<nav class="nav main-nav js-nav" data-omniture-section="pswebsite header"> 
+	<ul>
+			<li class=" active">
+				<a href="https://pagseguro.uol.com.br/vender" data-omniture-action="Vender" class="nav__item omniture-click  nav__item--pooler js-nav__item--pooler ">
+					Vender
+				</a>
+	<div class="nav__second-level main-nav__second-level main-nav__second-level--ForYourBusinessEndPoint">
+		<ul>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-money"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click " href="https://pagseguro.uol.com.br/venda-presencial/"  data-omniture-action="Venda Presencial">
+														Venda <strong>Presencial</strong>
+												</a>
+												<small>Soluções sem aluguel e sem burocracia - <a href="https://pagseguro.uol.com.br/venda-presencial/" class="omniture-click" data-omniture-action="Venda Presencial">saiba mais</a></small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Moderninha Pro" href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html">
+																			Moderninha Pro
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Moderninha WiFi" href="https://pagseguro.uol.com.br/venda-presencial/moderninha.html">
+																			Moderninha WiFi
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Minizinha" href="https://pagseguro.uol.com.br/venda-presencial/minizinha.html">
+																			Minizinha
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Mini" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-debito-e-credito-mini.html">
+																			Mini
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Leitor de crédito" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-credito.html">
+																			Leitor de crédito
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Leitores + Cartão Pré-pago" href="https://pagseguro.uol.com.br/venda-presencial/combo-leitor.html">
+																			Leitores + Cartão Pré-pago
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Voucher" href="https://pagseguro.uol.com.br/venda-presencial/voucher">
+																			Voucher
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-browser"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click " href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml"  data-omniture-action="Venda pela internet">
+														Venda <strong>pela internet</strong>
+												</a>
+												<small>Receba pagamentos online com eficiência e segurança - <a href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml" class="omniture-click" data-omniture-action="Venda pela internet">saiba mais</a></small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Checkout" href="https://pagseguro.uol.com.br/receba-pagamentos.jhtml">
+																			Checkout
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Envio fácil" href="https://pagseguro.uol.com.br/para_seu_negocio/envio-facil.jhtml">
+																			Envio fácil
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Pagamento recorrente" href="https://pagseguro.uol.com.br/para_seu_negocio/assinaturas.jhtml">
+																			Pagamento recorrente
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Recuperação de carrinho" href="https://pagseguro.uol.com.br/para-seu-negocio/recuperacao-de-carrinho.jhtml">
+																			Recuperação de carrinho
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Pag.ae" href="/para-seu-negocio/online/pagae">
+																			Pag.ae
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Split Payment" href="https://pagseguro.uol.com.br/para_seu_negocio/split_payment_como_funciona.jhtml">
+																			Split Payment
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Banners de divulgação" href="https://pagseguro.uol.com.br/para_seu_negocio/ferramentas_de_divulgacao.jhtml">
+																			Banners de divulgação
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Solicite Pagamentos por e&#8209;mail" href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml">
+																			Solicite Pagamentos por e&#8209;mail
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="Botões de pagamento" href="https://pagseguro.uol.com.br/desenvolvedor/botoes_de_pagamento.jhtml">
+																			Botões de pagamento
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+										<li class=" ">
+											<aside class="menu-icon-wrapper">
+												<i class="psit-devices"></i>
+											</aside>
+											<div class="menu-subitens-wrapper">
+												<a class="intro omniture-click  noPointer"  data-omniture-action="Aplicativos">
+														Venda <strong>Aplicativos</strong>
+												</a>
+												<small>Nossos produtos na palma da sua mão</small>
+												<ul class="link-list">
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="PagSeguro Vendas" href="https://pagseguro.uol.com.br/venda-presencial/pagseguro-vendas.html">
+																			PagSeguro Vendas
+																	</a>
+																</li>
+																<li class="link-list__item  ">
+																	<a class="omniture-click" data-omniture-action="PagSeguro Minha Conta" href="https://pagseguro.uol.com.br/aplicativos/minha-conta.jhtml">
+																			PagSeguro Minha Conta
+																	</a>
+																</li>
+												</ul>
+											</div>
+										</li>
+		</ul>
+	</div>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/comprar" data-omniture-action="Comprar" class="nav__item omniture-click  nav__item--pooler js-nav__item--pooler ">
+					Comprar
+				</a>
+	<div class="nav__second-level main-nav__second-level main-nav__second-level--ForYourLifeEndPoint">
+		<ul>
+									<li class=" ">
+										<aside class="menu-icon-wrapper">
+											<i class="psit-security"></i>
+										</aside>
+										<div class="menu-subitens-wrapper">
+											<a class="intro omniture-click " href="https://pagseguro.uol.com.br/comprar"  data-omniture-action="As melhores soluções para sua vida financeira">
+													Por que comprar com <strong>PagSeguro</strong>
+											</a>
+											<small>Seus dados financeiros sempre protegidos - <a href="https://pagseguro.uol.com.br/comprar" class="omniture-click" data-omniture-action="As melhores soluções para sua vida financeira">saiba mais</a></small>
+											<ul class="link-list">
+															<li class="link-list__item  ">
+																<a class="omniture-click" data-omniture-action="Carteira Digital" href="https://pagseguro.uol.com.br/para_voce/carteira_eletronica.jhtml">
+																		Carteira Digital
+																</a>
+															</li>
+															<li class="link-list__item  ">
+																<a class="omniture-click" data-omniture-action="Sua compra protegida" href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">
+																		Sua compra protegida
+																</a>
+															</li>
+											</ul>
+										</div>
+									</li>
+									<li class="nav-extra">
+										<div class="menu-subitens-wrapper">
+											<h3>Você precisa receber dinheiro?</h3>
+											<ul class="link-list">
+												<li class="link-list__item">
+													<a href="https://pagseguro.uol.com.br/venda-presencial/" class="omniture-click" data-omniture-action="Conheça nossas maquininhas (comprar)">Conheça nossas maquininhas</a>
+												</li>
+												<li class="link-list__item">
+													<a href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml" class="omniture-click" data-omniture-action="Solicite um pagamento por e-mail (comprar)">Solicite um pagamento por e&#8209;mail</a>
+												</li>
+											</ul>
+										</div>
+									</li>		</ul>
+	</div>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/pre-pago/" data-omniture-action="Cartão Pré-pago" class="nav__item omniture-click ">
+					Cartão Pré-pago
+				</a>
+			</li>
+			<li class=" ">
+				<a href="https://dev.pagseguro.uol.com.br/" data-omniture-action="Developers" class="nav__item omniture-click ">
+					Developers
+				</a>
+			</li>
+			<li class=" ">
+				<a href="https://pagseguro.uol.com.br/atendimento/perguntas_frequentes.jhtml" data-omniture-action="Ajuda" class="nav__item omniture-click ">
+					Ajuda
+				</a>
+			</li>
+	</ul>
+</nav>
+
+</div>
+<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/lib/ibanking/pswebsite-legacy-support.149049984.js" ></script>
+
+			
+		
+     
+        <var class="hide" id="pageId">home-moderninha-pro</var>
+    
+    
+		<!-- MODERNINHA PRO //-->
+		<section class="mp-section full embedded-brands">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price"><span class="symbol">R$ </span><strong>69</strong><span class="cents">,90*</span></p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 838,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+                                             <dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> Tarja</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-default">
+					<div class="buy-wrapper">
+						<h1><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/97/2016/09/20/mp-logo-380-1474407360260_380x43.png" alt="Logo Moderninha Pro" width="380" height="43"></h1>
+						<h2 class="subtitle">A mais completa<br> de todas<sup>1</sup></h2>
+						<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_pro;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=e3e0a8a43e19532e" class="pagseguro-button large">Peça já a sua</a>
+						<p>
+							*Parcelamento válido apenas para cartão de crédito.<br>
+							1 - Consulte <a href="https://pagseguro.uol.com.br/campanha/comparacao-pro.html" target="_blank">aqui</a> os benefícios e funcionalidades da Moderninha Pro<br>
+							2 - Observada a limitação do seu plano de recebimento, já escolhido.<br>
+							Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".</p>
+					</div>
+					<div class="prepaid-wrapper">
+						<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--moderninha-pro">
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+							</li>
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/84/2017/02/27/receive-in-one-day2-1488230592383_108x38.png" alt="Receba seu dinheiro em um dia">
+							</li>
+						</ul>
+						<div class="prepaid-info">
+							<div class="embedded-flag"></div>
+							<p class="txt-info">Com apenas 6 meses<br> de aluguel das outras</p>
+							<p class="txt-info">Você compra a Moderninha<br> Pro e se livra do aluguel</p>
+						</div>
+						<ul class="embedded-benefits">
+							<li class="txt-benefit-item"><span class="benefit-item-text">Conexão por wifi, Bluetooth e Chip</span></li>
+							<li class="txt-benefit-item"><span class="benefit-item-text">Plano de dados e chip inclusos</span></li>
+							<li class="txt-benefit-item"><span class="benefit-item-text">Frete grátis</span></li>
+						</ul>
+						<hr class="benefits-separator shadowline after-bottom-out">
+						<ul class="other-benefits">
+							<li>
+								<p class="pagseguro-app"><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/e3/2017/02/09/app-icone-1486665457686_35x35.png" alt="App PagSeguro Vendas" height="29">Grátis</p>
+								<p class="txt-info txt-free-prepaid txt-purple clearfix">Integrada com o app<br> PagSeguro Vendas</p>
+							</li>
+							<li>
+								<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro" width="46" height="30">
+								<p class="txt-info txt-free-prepaid txt-purple clearfix">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+				<a href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" class="link omniture-click" data-omniture-action="Saiba mais sobre a Moderninha Pro">Saiba mais sobre<br> a Moderninha Pro</a></li>
+			</div>
+		</section>
+
+		<!-- MODERNINHA WIFI //-->
+		<var class="hide" id="pageId">home-moderninha-wifi-b</var>
+		<section class="mw-section full embedded-brands">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price"><span class="symbol">R$ </span><strong>39</strong><span class="cents">,90*</span></p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 478,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> Tarja</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-default">
+					<div class="buy-wrapper">
+						<h1><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/d3/2016/06/08/moderninha-wifi-logo-1465419681407_421x63.png" alt="Logo Moderninha Wifi"></h1>
+						<h2>A campeã de<br> vendas de 2016</strong></h2>
+						<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_wifi;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=268b039a252b4d66"
+							class="pagseguro-button large">Peça já a sua</a>
+						<p>Preço promocional válido até o final do estoque</p>
+						<p>
+							*Parcelamento válido apenas para cartão de crédito.<br>
+							1 - Observada a limitação do seu plano de recebimento, já escolhido.<br>
+							Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".
+						</p>
+					</div>
+
+					<div class="prepaid-wrapper">
+						<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--moderninha-wifi">
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+							</li>
+							<li class="full-banner__seal-item">
+								<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/4d/2017/02/27/receive-in-one-day-1488225225165_108x38.png" alt="Receba seu dinheiro em um dia">
+							</li>
+						</ul>
+
+						<div class="prepaid-info">
+							<div class="embedded-flag"></div>
+							<p class="txt-info txt-orange">Com apenas 3 meses<br> de aluguel das outras</p>
+							<p class="txt-info txt-purple">Você compra a<br> moderninha Wifi e<br> se livra do aluguel</p>
+							<ul class="embedded-benefits">
+								<li class="txt-purple">PLANO DE DADOS E CHIP INCLUSOS</li>
+								<li class="txt-purple">Frete Grátis</li>
+							</ul>
+							<ul class="prepaid-availability">
+								<li class="prepaid-availability-item">
+									<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro" width="46" height="30">
+									<p class="txt-info txt-free-prepaid txt-purple clearfix" style="margin-top: 0;float: left;">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+
+				<a href="http://clicklogger.rm.uol.com.br/?prd=32&grp=cpg_int:saiba_mais_Moderninha_28032015&msr=Cliques%20Internos:1&oper=8&redir=https://pagseguro.uol.com.br/venda-presencial/moderninha.html?cmpid=home_vendedor_saiba_mais_Moderninha_28032015" class="link omniture-click" data-omniture-action="Saiba mais sobre a Moderninha Wifi">Saiba mais sobre<br> a Moderninha Wifi</a>
+			</div>
+		</section>
+		
+		<!-- D150//-->
+		<section class="d150-banner seal-5years">
+			<div class="wrapper">
+				<div class="price-banner">
+					<span class="txt-installment">Por 12x</span>
+					<p class="installment-price">
+						<span class="symbol">R$ </span>
+						<strong>9</strong><span class="cents">,90*</span>
+					</p>
+					<p class="txt-full-price">à vista por:</p>
+					<p class="full-price">R$ 118,80</p>
+				</div>
+				<div class="brands-wrapper">
+					<div class="brands-list">
+						<span class="target-pass">Via<br> Chip</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito e débito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-mastercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-visa"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-elo"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-voucher">
+						<dl>
+							<dt class="brand-title" data-text="Voucher"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-ticket"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-sodexo"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-vr"></i></dd>
+						</dl>
+					</div>
+					<div class="brands-list brands-credit">
+						<span class="target-pass">Via<br> App</span>
+						<dl>
+							<dt class="brand-title" data-text="Crédito"></dt>
+							<dd class="brand-item"><i class="ps-sprite-brands-amex"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hipercard"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-hiper"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-diners"></i></dd>
+							<dd class="brand-item"><i class="ps-sprite-brands-cabal"></i></dd>
+						</dl>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<div>
+						<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/36/2016/12/13/logo-minizinha-1481652898328_193x35.png" alt="Logo Minizinha" width="193px">
+					</div>
+					<h1>Não inventa, compre a<br> sua por 12 de R$ 9,90</h1>
+					<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:minizinha&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=7474a1966a66fa35" class="pagseguro-button large">Peça já a sua</a>
+					<p>
+						*Parcelamento válido apenas para cartão de crédito.<br>
+						1 - Observada a limitação do seu plano de recebimento, já escolhido.<br>Verifique os prazos aplicáveis para sua Conta PagSeguro, em "Meus Dados".
+					</p>
+				</div>
+				<div class="info-wrapper">
+					<div class="d150-cellphone-seal full-banner__seal-item">
+						<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/82/2017/02/27/precisa-de-celular-1488225690309_127x34.png" alt="Precisa de celular">
+					</div>
+					<ul class="full-banner__seals-wrapper full-banner__seals-wrapper--minizinha">
+						<li class="full-banner__seal-item">
+							<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/73/2017/02/27/no-rental-1488225429826_46x42.png" alt="Sem aluguel">
+						</li>
+						<li class="full-banner__seal-item">
+							<img class="full-banner__seal-image" src="https://stc.pagseguro.uol.com.br/publisher/online/images/4d/2017/02/27/receive-in-one-day-1488225225165_108x38.png" alt="Receba seu dinheiro em um dia">
+						</li>
+					</ul>
+
+					<div class="highlights-wrapper">
+						<ul class="highlights-benefits">
+							<li class="item-benefits">Para pessoa física e pessoa jurídica</li>
+							<!-- <li class="item-benefits">Sem mensalidade nem taxa de adesão</li> -->
+							<li class="item-benefits">Frete grátis</li>
+						</ul>
+						<footer>
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/99/2017/01/11/prepaid-card-seller-yellow-tiny-new-logo-mastercard-1484140968848_45x30.png" alt="Cartão Pré-Pago PagSeguro">
+							<p class="txt-free-prepaid clearfix">Cartão Pré-Pago<br> Grátis até 31/08/2017</p>
+						</footer>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ribbon">
+			<div class="wrapper">
+				<div class="ribbon-item info">
+					<i class="bg-phone-call"></i>
+					<h2>Comece a vender já!</h2>
+					<h3>Atendimento 24 horas, 7 dias por semana</h3>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>4003 6624</strong>
+					<span>capitais e regiões metropolitanas</span>
+				</div>
+				<div class="ribbon-item phone">
+					<strong>0800 882 1100</strong>
+					<span>demais localidades, exceto celular</span>
+				</div>
+				<a href="http://clicklogger.rm.uol.com.br/?prd=32&grp=cpg_int:saiba_mais_Minizinha&msr=Cliques%20Internos:1&oper=8&redir=https://pagseguro.uol.com.br/venda-presencial/minizinha.html?cmpid=home_vendedor_saiba_mais_Minizinha" class="link omniture-click" data-omniture-action="Saiba mais sobre a Minizinha">Saiba mais sobre<br> a Minizinha</a>
+			</div>
+		</section>
+		<section class="mpvideo-section video-section-double">
+			<div class="videos-container">
+				<h1 class="mpvideo-title">Conheça a <img src="https://stc.pagseguro.uol.com.br/publisher/online/images/38/2016/09/29/logo-minizinha-1475181220345_254x28.png" alt="Moderninha Pro" width="254" height="28"></h1>
+				<div class="mpvideo-wrapper">
+					<div class="mpvideo-item">
+						<a href="#" class="mpvideo-link" data-video-embed="https://www.youtube.com/embed/Ko_JGBmYSnA">
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/48/2017/02/13/thumb-right-no-seal327x217-1487019963376_327x217.png" width="327" height="217" alt="Comercial Moderninha Pro">
+						</a>
+					</div>
+					<a href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" alt="Moderninha Pro">
+						<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/50/2016/10/03/thumb-moderninha-1475534355402_135x280.png" width="135" height="280" alt="Leitor Moderninha Pro">
+					</a>
+					<div class="mpvideo-item">
+						<a href="#" class="mpvideo-link" data-video-embed="https://www.youtube.com/embed/DBqsGMt0074">
+							<img src="https://stc.pagseguro.uol.com.br/publisher/online/images/3a/2016/10/03/thumb-left-1475534145674_327x217.png" width="327" height="217" alt="Unboxing Moderninha Pro">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="video-buttom-container">
+				<a href="https://clicklogger.rm.uol.com.br/?oper=8&prd=32&msr=Cliques%20Internos:1&grp=thm_int:moderninha_pro;cpg_int:home-pagseguro&redir=https://pagseguro.uol.com.br/venda-presencial/checkout-direto/sales-store/index-home.html?er=e3e0a8a43e19532e" class="pagseguro-button large">Peça já a sua</a>
+			</div>
+		</section>
+
+		<!-- videos -->
+		<div style="display: none;">
+			<div id="video">
+				<iframe src="" allowfullscreen="" frameborder="0" height="360" width="640"></iframe>
+			</div>
+		</div>
+		<!-- /videos -->
+		<section class="prepaid-section">
+			<h2 class="title">Cartão Pré-Pago PagSeguro</h2>
+			<h3 class="subtitle">A forma mais rápida e fácil para utilizar o seu dinheiro para sua vida e seu negócio</h3>
+
+			<ul class="benefits shadowline after-bottom-out">
+				<li class="benefit-item">
+					<i class="ps-icon-check">Sem mensalidade<br> ou anuidade</i>
+				</li>
+				<li class="benefit-item">
+					<i class="ps-icon-check">Carregue o valor que quiser<br> e gaste como e onde quiser</i>
+				</li>
+				<li class="benefit-item">
+					<i class="ps-icon-check">Não precisa de<br> conta bancária</i>
+				</li>
+			</ul>
+
+			<ul class="machines-list">
+				<li class="machine-item"><a class="machine-link embedded-wifi" href="https://pagseguro.uol.com.br/venda-presencial/moderninha-pro.html" title="Moderninha Pro"></a></li>
+				<li class="machine-item"><a class="machine-link d180" href="https://pagseguro.uol.com.br/venda-presencial/moderninha.html" title="Moderninha Wifi"></a></li>
+				<li class="machine-item"><a class="machine-link embedded-pro" href="https://pagseguro.uol.com.br/venda-presencial/leitor-de-debito-e-credito-mini.html" title="MINI"></a></li>
+				<li class="machine-item"><a class="machine-link card-reader" href="https://pagseguro.uol.com.br/venda-presencial/minizinha.html" title="Minizinha"></a></li>
+			</ul>
+
+			<a class="pagseguro-button large" href="https://pagseguro.uol.com.br/pre-pago/">Saiba mais</a>
+
+		</section>
+
+
+
+		<script type="text/javascript">
+			(function View_PagseguroVideoModal() {
+
+				var _private = {
+					modalOpen: function(e)
+					{
+						e.preventDefault();
+						e.stopPropagation();
+
+						var el = this;
+						var newSrc = $(this).attr(
+								'data-video-embed') +
+							"?autoplay=1&rel=0";
+						$('#video iframe').attr('src', newSrc);
+
+						if ($.browser.msie && parseFloat($.browser
+								.version) < 8)
+						{
+							myH = '475';
+						}
+						else
+						{
+							myH = '400';
+						}
+
+						PagSeguro.Modal.open(
+						{
+							onOpen: function()
+							{
+								$('#colorbox').addClass(
+									'modalVideo');
+							},
+							onClosed: function()
+							{
+								$('#video iframe').attr(
+									'src', "");
+							},
+							inline: true,
+							href: '#video',
+							height: myH,
+							width: 676,
+							close: false
+						});
+					},
+					installEvents: function()
+					{
+						$('.mpvideo-item > a').on('click', _private.modalOpen);
+					}
+				};
+
+				function PagseguroVideoModal() {
+					this._init();
+				}
+
+				PagseguroVideoModal.prototype._init = function() {
+					var _this = this;
+
+					document.addEventListener('DOMContentLoaded',
+						function()
+						{
+							$.holdReady(true);
+							$.getScript(
+								'https://stc.pagseguro.uol.com.br/pagseguro/j/bundles/modal.sjs',
+								function() {
+									$.holdReady(false);
+								});
+
+							_private.installEvents.call(_this);
+						});
+				};
+
+				new PagseguroVideoModal();
+
+			})(); //dependencias
+		</script>
+
+		<section class="sells-solutions online-payments">
+			<div class="wrapper shadow-bottom">
+				<figure><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/ff/2016/09/09/pagamentos-online-1473431867061_458x275.png"></figure>
+				<aside>
+					<h2 class="title">Receba pagamentos online <br> com eficiência e segurança</h2>
+					<a class="pagseguro-button large" href="https://pagseguro.uol.com.br/registration/registration.jhtml">Crie sua conta grátis</a>
+				</aside>
+			</div>
+			<ul class="sells-solutions-list">
+				<li>
+					<i class="ps-icon-thin-check"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/venda_pela_internet.jhtml">Checkout <br>Transparente</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-mail"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/solicite-pagamentos.jhtml">Solicite Pagamentos <br>por e-mail</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-split"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/split_payment_como_funciona.jhtml">Split <br>Payment</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-refresh"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/assinaturas.jhtml">Pagamento <br>Recorrente</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-cart"></i>
+					<a href="https://pagseguro.uol.com.br/para-seu-negocio/recuperacao-de-carrinho.jhtml">Recuperação <br>de carrinho</a>
+				</li>
+				<li>
+					<i class="ps-icon-thin-arrow-send"></i>
+					<a href="https://pagseguro.uol.com.br/para_seu_negocio/envio-facil.jhtml">Envio <br>Fácil</a>
+				</li>
+			</ul>
+		</section>
+		<section class="sells-solutions free-trial">
+			<div class="wrapper shadow-top">
+				<figure><img src="https://stc.pagseguro.uol.com.br/publisher/online/images/e1/2016/02/17/banneruolhost-1455709073354_470x350.png"></figure>
+				<aside>
+					<h2 class="title">Você ainda não vende pela internet?</h2>
+					<h3 class="subtitle">Aproveite 1 mês grátis para criar uma Loja Virtual no UOL HOST e começar a vender online, em um sistema fácil de usar e já integrado ao PagSeguro.</h3>
+					<a class="pagseguro-button large" href="http://click.uol.com.br/?rf=PagSeguro_home&u=http://clicklogger.rm.uol.com.br/?prd=16&grp=src:13;creative:link_fixo_PagSeguro_home_LojaVirtual_1mes;thm:UOLHOST&msr=Cliques%20de%20Origem:1&oper=11&redir=http://www.uolhost.com.br/lp/loja-virtual-1-mes.html">Experimente grátis</a>
+				</aside>
+			</div>
+			<div class="shadow"></div>
+		</section>
+		
+	
+
+    
+
+
+<section class="payment-options">
+	<div class="wrapper">
+		<h2>Todos os meios de pagamento em um lugar só</h2>
+		<h3>Parcele suas vendas em até 18x, em vendas on-line ou presenciais</h3>
+		<div class="ps-tabbox animatedSkin">
+			<nav class="nav-tab">
+				<ol>
+					<li data-id="1" class="active">
+						<a href="#venda-presencial" class="active">Vendas presenciais</a>
+					</li>
+					<li data-id="2">
+						<a href="#venda-internet">Vendas pela internet</a>
+					</li>
+				</ol>
+			</nav>
+			<article id="venda-presencial" class="ps-tab active">
+				<div class="readers-wrapper">
+					<div class="reader-item">
+						<figure>
+							<img src="	https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/home2015/reader-moderninha-pro-wifi.149049984.png" width="94" height="124" alt="Moderninha Pro e Moderninha Wifi lado à lado">
+						</figure>
+						<div class="flags-group">
+							<strong><span>Moderninhas</span></strong>
+														<dl>
+								<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																	<dd title="mastercard">
+										<i class="ps-sprite-brands-mastercard"></i>
+										<span>mastercard</span>
+									</dd>
+																	<dd title="visa">
+										<i class="ps-sprite-brands-visa"></i>
+										<span>visa</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																									<dd title="amex">
+										<i class="ps-sprite-brands-amex"></i>
+										<span>amex</span>
+									</dd>
+																	<dd title="hipercard">
+										<i class="ps-sprite-brands-hipercard"></i>
+										<span>hipercard</span>
+									</dd>
+																	<dd title="hiper">
+										<i class="ps-sprite-brands-hiper"></i>
+										<span>hiper</span>
+									</dd>
+																	<dd title="diners">
+										<i class="ps-sprite-brands-diners"></i>
+										<span>diners</span>
+									</dd>
+																	<dd title="cabal">
+										<i class="ps-sprite-brands-cabal"></i>
+										<span>cabal</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Cartões de débito</dt>
+																	<dd title="maestro">
+										<i class="ps-sprite-brands-maestro"></i>
+										<span>maestro</span>
+									</dd>
+																	<dd title="visa-electron">
+										<i class="ps-sprite-brands-visa-electron"></i>
+										<span>visa-electron</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																	<dd title="banri-compras">
+										<i class="ps-sprite-brands-banri-compras"></i>
+										<span>banri-compras</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Voucher</dt>
+																	<dd title="ticket">
+										<i class="ps-sprite-brands-ticket"></i>
+										<span>ticket</span>
+									</dd>
+																	<dd title="sodexo">
+										<i class="ps-sprite-brands-sodexo"></i>
+										<span>sodexo</span>
+									</dd>
+																	<dd title="vr">
+										<i class="ps-sprite-brands-vr"></i>
+										<span>vr</span>
+									</dd>
+															</dl>
+						</div>
+					</div>
+					<div class="reader-item">
+						<figure>
+							<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/home2015/reader-mini-pro.149049984.png" alt="Leitor de débito e crédito MINI com celular de fundo">
+						</figure>
+						<div class="flags-group">
+							<strong><span>MINI</span></strong>
+							<dl>
+								<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																									<dd title="mastercard">
+										<i class="ps-sprite-brands-mastercard"></i>
+										<span>mastercard</span>
+									</dd>
+																	<dd title="visa">
+										<i class="ps-sprite-brands-visa"></i>
+										<span>visa</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																									<dd title="amex">
+										<i class="ps-sprite-brands-amex"></i>
+										<span>amex</span>
+									</dd>
+																	<dd title="hipercard">
+										<i class="ps-sprite-brands-hipercard"></i>
+										<span>hipercard</span>
+									</dd>
+																	<dd title="hiper">
+										<i class="ps-sprite-brands-hiper"></i>
+										<span>hiper</span>
+									</dd>
+																	<dd title="diners">
+										<i class="ps-sprite-brands-diners"></i>
+										<span>diners</span>
+									</dd>
+																	<dd title="cabal">
+										<i class="ps-sprite-brands-cabal"></i>
+										<span>cabal</span>
+									</dd>
+															</dl>
+							<dl>
+								<dt>Cartões de débito</dt>
+																	<dd title="maestro">
+										<i class="ps-sprite-brands-maestro"></i>
+										<span>maestro</span>
+									</dd>
+																	<dd title="visa-electron">
+										<i class="ps-sprite-brands-visa-electron"></i>
+										<span>visa-electron</span>
+									</dd>
+																	<dd title="elo">
+										<i class="ps-sprite-brands-elo"></i>
+										<span>elo</span>
+									</dd>
+																	<dd title="banri-compras">
+										<i class="ps-sprite-brands-banri-compras"></i>
+										<span>banri-compras</span>
+									</dd>
+															</dl>
+							 								<dl>
+									<dt>Voucher</dt>
+																			<dd title="ticket">
+											<i class="ps-sprite-brands-ticket"></i>
+											<span>ticket</span>
+										</dd>
+																			<dd title="sodexo">
+											<i class="ps-sprite-brands-sodexo"></i>
+											<span>sodexo</span>
+										</dd>
+																			<dd title="vr">
+											<i class="ps-sprite-brands-vr"></i>
+											<span>vr</span>
+										</dd>
+																	</dl>
+													</div>
+					</div>
+											<div class="reader-item">
+							<figure>
+								<img src="https://stc.pagseguro.uol.com.br/pagseguro/i/ibanking/venda-wifi/payment-readers/minizinha/minizinha_com_celular_home.149049984.png" alt="Minizinha com celular de fundo" width="142" height="141">
+							</figure>
+							<div class="flags-group">
+								<strong><span>Minizinha</span></strong>
+								<dl>
+									<dt>Cartões de crédito até <span class="parcelas">12 vezes</span></dt>
+																												<dd title="mastercard">
+											<i class="ps-sprite-brands-mastercard"></i>
+											<span>mastercard</span>
+										</dd>
+																			<dd title="visa">
+											<i class="ps-sprite-brands-visa"></i>
+											<span>visa</span>
+										</dd>
+																			<dd title="elo">
+											<i class="ps-sprite-brands-elo"></i>
+											<span>elo</span>
+										</dd>
+																										</dl>
+								<dl>
+									<dt>Cartões de débito</dt>
+																			<dd title="maestro">
+											<i class="ps-sprite-brands-maestro"></i>
+											<span>maestro</span>
+										</dd>
+																			<dd title="visa-electron">
+											<i class="ps-sprite-brands-visa-electron"></i>
+											<span>visa-electron</span>
+										</dd>
+																			<dd title="elo">
+											<i class="ps-sprite-brands-elo"></i>
+											<span>elo</span>
+										</dd>
+																			<dd title="banri-compras">
+											<i class="ps-sprite-brands-banri-compras"></i>
+											<span>banri-compras</span>
+										</dd>
+																	</dl>
+								<dl>
+									<dt>Voucher</dt>
+																			<dd title="ticket">
+											<i class="ps-sprite-brands-ticket"></i>
+											<span>ticket</span>
+										</dd>
+																			<dd title="sodexo">
+											<i class="ps-sprite-brands-sodexo"></i>
+											<span>sodexo</span>
+										</dd>
+																			<dd title="vr">
+											<i class="ps-sprite-brands-vr"></i>
+											<span>vr</span>
+										</dd>
+																	</dl>
+							</div>
+						</div>
+									</div>
+			</article>
+			<article id="venda-internet" class="ps-tab">
+				<div>
+					<div class="flags-group credit-card">
+						<dl>
+							<dt><span>Cartões de crédito</span></dt>
+															<dd title="MasterCard">
+									<i class="ps-sprite-brands-mastercard" data-installment="12"></i>
+									<span>MasterCard</span>
+								</dd>
+															<dd title="Visa">
+									<i class="ps-sprite-brands-visa" data-installment="12"></i>
+									<span>Visa</span>
+								</dd>
+															<dd title="Elo">
+									<i class="ps-sprite-brands-elo" data-installment="12"></i>
+									<span>Elo</span>
+								</dd>
+															<dd title="American Express">
+									<i class="ps-sprite-brands-amex" data-installment="12"></i>
+									<span>American Express</span>
+								</dd>
+															<dd title="Hipercard">
+									<i class="ps-sprite-brands-hipercard" data-installment="12"></i>
+									<span>Hipercard</span>
+								</dd>
+															<dd title="Diners">
+									<i class="ps-sprite-brands-diners" data-installment="12"></i>
+									<span>Diners</span>
+								</dd>
+															<dd title="Cabal">
+									<i class="ps-sprite-brands-cabal" data-installment="12"></i>
+									<span>Cabal</span>
+								</dd>
+															<dd title="GRANDCARD">
+									<i class="ps-sprite-brands-grandcard" data-installment="12"></i>
+									<span>GRANDCARD</span>
+								</dd>
+															<dd title="Sorocred">
+									<i class="ps-sprite-brands-sorocred" data-installment="12"></i>
+									<span>Sorocred</span>
+								</dd>
+															<dd title="VALECARD">
+									<i class="ps-sprite-brands-valecard" data-installment="4"></i>
+									<span>VALECARD</span>
+								</dd>
+															<dd title="BrasilCard">
+									<i class="ps-sprite-brands-brasilcard" data-installment="12"></i>
+									<span>BrasilCard</span>
+								</dd>
+															<dd title="Mais!">
+									<i class="ps-sprite-brands-mais" data-installment="10"></i>
+									<span>Mais!</span>
+								</dd>
+															<dd title="FORTBRASIL">
+									<i class="ps-sprite-brands-fortbrasil" data-installment="12"></i>
+									<span>FORTBRASIL</span>
+								</dd>
+															<dd title="Aura">
+									<i class="ps-sprite-brands-aura" data-installment="18"></i>
+									<span>Aura</span>
+								</dd>
+															<dd title="PersonalCard">
+									<i class="ps-sprite-brands-personalcard" data-installment="3"></i>
+									<span>PersonalCard</span>
+								</dd>
+															<dd title="Banese Card">
+									<i class="ps-sprite-brands-banesecard" data-installment="12"></i>
+									<span>Banese Card</span>
+								</dd>
+															<dd title="Up Policard">
+									<i class="ps-sprite-brands-upbrasil" data-installment="12"></i>
+									<span>Up Policard</span>
+								</dd>
+													</dl>
+					</div>
+					<div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Débito online</span></dt>
+																	<dd title="Banco Bradesco">
+										<i class="ps-sprite-brands-bradesco"></i>
+										<span>Banco Bradesco</span>
+									</dd>
+																	<dd title="Banco do Brasil">
+										<i class="ps-sprite-brands-bb"></i>
+										<span>Banco do Brasil</span>
+									</dd>
+																	<dd title="Banco Itaú">
+										<i class="ps-sprite-brands-itau"></i>
+										<span>Banco Itaú</span>
+									</dd>
+																	<dd title="Banco Banrisul">
+										<i class="ps-sprite-brands-banrisul"></i>
+										<span>Banco Banrisul</span>
+									</dd>
+															</dl>
+						</div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Depósito em conta</span></dt>
+																	<dd title="Banco do Brasil">
+										<i class="ps-sprite-brands-bb"></i>
+										<span>Banco do Brasil</span>
+									</dd>
+															</dl>
+						</div>
+						<div class="flags-group">
+							<dl>
+								<dt><span>Boleto</span></dt>
+								<dd title="Boleto">
+									<i class="ps-sprite-brands-boleto"></i>
+									<span>Boleto</span>
+								</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
+
+
+ 	<!-- home publicador content -->
+
+	<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name" : "PagSeguro",
+      "url": "https://pagseguro.uol.com.br/",
+      "logo": "https://stc.pagseguro.uol.com.br/pagseguro/i/logos/logo_pagseguro200x41.png"
+    }
+</script>
+					
+
+
+<footer id="main-footer" >
+	<div class="wrapper" data-omniture-section="footer 2015">
+		<nav class="links">
+			<dl class="solutions">
+				<dt>Soluções para</dt>
+				<dd><a class="omniture-click" data-omniture-action="Vendedores" href="/vender/">Vendedores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Compradores" href="/comprar/">Compradores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Desenvolvedores" href="/v2/guia-de-integracao/index.html">Desenvolvedores</a></dd>
+			</dl>
+			<dl class="contacts">
+				<dt>Contato</dt>
+				<dd><a class="omniture-click" data-omniture-action="Fale com o PagSeguro" href="/atendimento/ligue-para-o-pagseguro.jhtml">Fale com o PagSeguro</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Contato comercial" href="/atendimento/contato_comercial.jhtml">Contato comercial</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Envie um e-mail" href="/atendimento/novo_atendimento.jhtml">Envie um e-mail</a></dd>
+			</dl>
+			<dl class="doubts">
+				<dt>Ajuda</dt>
+				<dd><a class="omniture-click" data-omniture-action="Perguntas frequentes" href="/atendimento/perguntas_frequentes.jhtml">Perguntas frequentes</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Como funciona a disputa" href="https://pagseguro.uol.com.br/para_voce/como_funciona_a_disputa.jhtml">Como funciona a disputa</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Fórum de desenvolvedores" href="http://forum.pagseguro.uol.com.br" target="_blank">Fórum de desenvolvedores</a></dd>
+			</dl>
+			<dl class="security">
+				<dt>Segurança</dt>
+				<dd><a class="omniture-click" data-omniture-action="Segurança e privacidade" href="https://sac.uol.com.br/info/protecao_privacidade/normas_protecao_privacidade.jhtm">Segurança e privacidade</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Dicas de segurança" href="/dicas-de-seguranca-online.jhtml">Dicas de segurança</a></dd>
+			</dl>
+			<dl class="knowPS">
+				<dt>Conheça o PagSeguro</dt>
+				<dd><a class="omniture-click" data-omniture-action="Parceiros Integradores" href="/para_seu_negocio/parceiros_integradores.jhtml">Parceiros Integradores</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Regras de uso" href="/regras-de-uso.jhtml">Regras de uso</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Sobre o PagSeguro" href="/sobre_o_pagseguro.jhtml">Sobre o PagSeguro</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Taxas e tarifas" href="/taxas-e-tarifas.jhtml">Taxas e tarifas</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Contrato" href="/contrato_de_servicos.jhtml">Contrato</a></dd>
+				<dd><a class="omniture-click" data-omniture-action="Politica de troca" href="/venda-presencial/politica-de-troca.jhtml">Pol&iacute;tica de troca</a></dd>
+			</dl>
+		</nav>
+		<aside>
+			<dl class="social">
+				<dt>Acompanhe o PagSeguro</dt>
+				<dd><a class="omniture-click" href="http://www.facebook.com/pagseguro" target="_blank" title="PagSeguro no Facebook" data-omniture-action="facebook" >Curta nossa página</a></dd>
+				<dd><a class="omniture-click" href="http://blogpagseguro.com.br/" target="_blank" title="Blog do PagSeguro" data-omniture-action="Blog" >Blog do PagSeguro</a></dd>
+				<dd><a class="omniture-click" href="https://www.youtube.com/user/PagSeguro/videos" target="_blank" title="Vídeos do PagSeguro" data-omniture-action="youtube" >Vídeos do PagSeguro</a></dd>
+				<dd><a class="omniture-click" href="https://www.instagram.com/pagseguro/?hl=pt" target="_blank" title="Siga no Instagram" data-omniture-action="instagram" >Siga no Instagram</a></dd>
+				<dd><a class="omniture-click" href="https://www.linkedin.com/company/pagseguro-uol?trk=top_nav_home" target="_blank" title="Siga no LinkedIn" data-omniture-action="linkedin" >Siga no LinkedIn</a></dd>
+			</dl>
+			<dl class="selos-seguranca">
+				<dd><a class="omniture-click" href="/selo/pci/index.html" target="_blank" data-omniture-action="pci-dss" ><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/pci.149049984.png" title="Selo PCI DSS" alt="Selo PCI DSS" /></a></dd>
+				<dd><a class="omniture-click" href="http://www.uoldiveo.com.br/solucoes/servicos-gerenciados-de-seguranca.html?utm_source=parceiro&utm_medium=selo&utm_term=seguranca&utm_campaign=parceiromss" target="_blank" data-omniture-action="uol-diveo" ><img src="https://stc.pagseguro.uol.com.br/pagseguro/i/selo/diveo.149049984.png" title="Site protegido por UOLDIVEO" alt="Site protegido por UOLDIVEO" /></a></dd>
+			</dl>
+			<div class="securityPS">Todas as páginas do PagSeguro estão <br/>em ambiente de segurança</div>
+		</aside>
+	</div>
+	<div class="info-data-uol">
+		<div class="wrapper">
+			<div class="dataUOL">
+				<p>						
+	&copy; 1996-<time>2017</time> O melhor conteúdo. Todos os direitos reservados. <br>
+	PAGSEGURO INTERNET LTDA - CNPJ/MF  08.561.701/0001-01  - Av. Brigadeiro Faria Lima, 1.384, São Paulo - SP - CEP 01452-002
+</p>			</div>
+		</div>
+	</div>
+</footer>
+		</div> 
+		
+	<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/j/etc/jquery/jquery-1.8.2.min.149049984.js"></script>
+	
+	<!-- Remarketing -->
+
+	
+	<input type="hidden" id="remarketingOn" value="TURN,MSN,FACEBOOK,CONVERSION">
+
+	
+	
+
+	
+<input type="hidden" id="openTour" 

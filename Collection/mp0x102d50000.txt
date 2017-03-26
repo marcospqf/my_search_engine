@@ -1,0 +1,2014 @@
+|||
+http://cartaodevisita.com.br/
+|
+
+<!doctype html>
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<base href="/">
+		
+		<title>Cartão de Visita</title>
+		<meta name="description" content="Cartão de Visita">
+		<meta name="keywords" content="Cartão de Visita">
+		
+		<meta name="viewport" content="width=device-width">
+
+	
+		<link rel="stylesheet" href="/css/site.css?1.17">
+		<link rel="stylesheet" href="/css/form_modal.css?1.17">
+		
+		<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+		<script src="/js/libs/jquery-1.9.1.min.js"></script>
+		<script src="/js/libs/swfobject.js"></script>
+		<script src="/js/libs/util.js?123"></script>
+		<script src="/js/script.js?1.17"></script>
+		<script type="text/javascript">
+			var SITE_PATH = '/';
+			var SITE_PATH_ADM = '/adm/';
+
+			//*********************************************************
+			//R7
+			(function (url) {
+				var
+				isSSL = document.location.protocol === 'https:',
+				r7adUrl = (isSSL ? 'https:' : 'http:') + '//adv.r7.com/script?href=',
+				pageUrl = (typeof url === 'undefined' ? document.location.href : url);
+				document.write('<scr' + 'ipt src="' + r7adUrl + pageUrl + '"><\/scr' + 'ipt>');
+			}());
+			//R7
+		</script>
+
+
+
+
+		<style>
+			#r7header {
+				background-color: #0071bc;
+				display: block;
+				height: 60px;
+				text-align: center;
+				width: 100%;
+			}
+		</style>
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+	</head>
+	<body>
+		<a id="r7header" href="http://www.r7.com" target="_blank">
+			<amp-img src="https://scs.r7.com/amp/logo-r7-amp.png" width="200" height="60"></amp-img>
+		</a>
+		<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:false ,banner:false ,submenu:false}</script>
+		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Atualize seu browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">instale o Google Chrome Frame</a> para utilizar este site.</p><![endif]-->
+		<div class="content">
+			
+			<header class="full_width">
+	<div class="full_width top_logo_banner">
+		<div class="logo">
+			<a href="/"><img src="/img/logo.png" /></a>
+		</div>
+
+		<div class="banner">
+			<script>
+				r7ad.printGAds([728, 90], 'Superbanner');
+			</script>
+		</div>
+	</div>
+
+	<div class="full_width main_menu">
+		<ul>
+			<li class="" title="Coluna Cartão de Visita"><a href="/menu/1/coluna-cartao-de-visita">Coluna Cartão de Visita</a><ul class="">		<li title="Por Zacarias Pagnanelli"><a href="/menu/1/10/por-zacarias-pagnanelli">Por Zacarias Pagnanelli</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=aab3238922bcc25a6f606eb525ffdc56"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/14.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Informes"><a href="/menu/2/informes">Informes</a><ul class="">		<li title="Canal Jurídico"><a href="/menu/2/61/canal-juridico">Canal Jurídico</a></li>		<li title="Pista 60 Camarote 120"><a href="/menu/2/74/kids-e-teens">Kids e Teens</a></li></ul>	</li>	<li class="" title="Business"><a href="/menu/4/business">Business</a><ul class="">		<li title="Agronegócio"><a href="/menu/4/54/agronegocio">Agronegócio</a></li></ul>	</li>	<li class="" title="Autoridades"><a href="/menu/3/autoridades">Autoridades</a>	</li>	<li class="" title="Cultura"><a href="/menu/5/cultura">Cultura</a><ul class="col2">		<li title="Teatro"><a href="/menu/5/9/teatro">Teatro</a></li>		<li title="Música"><a href="/menu/5/8/musica">Música</a></li>		<li title="Cinema"><a href="/menu/5/12/cinema">Cinema</a></li>		<li title="Viagem"><a href="/menu/5/13/viagem">Viagem</a></li>		<li title="Educação"><a href="/menu/5/17/educacao">Educação</a></li>		<li title="Fotografia"><a href="/menu/5/14/fotografia">Fotografia</a></li>		<li title="Arquitetura"><a href="/menu/5/15/arquitetura">Arquitetura</a></li>		<li title="Decoração"><a href="/menu/5/16/decoracao">Decoração</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=9bf31c7ff062936a96d3c8bd1f8f2ff3"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/15.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Viver"><a href="/menu/6/viver">Viver</a><ul class="col2">		<li title="Saúde"><a href="/menu/6/18/saude">Saúde</a></li>		<li title="Moda"><a href="/menu/6/19/moda">Moda</a></li>		<li title="Beleza"><a href="/menu/6/20/beleza">Beleza</a></li>		<li title="Beber e Comer"><a href="/menu/6/21/beber-e-comer">Beber e Comer</a></li>		<li title="Esporte"><a href="/menu/6/22/esporte">Esporte</a></li>		<li title="Mundo Pet"><a href="/menu/6/39/mundo-pet">Mundo Pet</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=67c6a1e7ce56d3d6fa748ab6d9af3fd7"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/47.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Notícias"><a href="/menu/7/noticias">Notícias</a>	</li>	<li class="" title="Televisão"><a href="/menu/8/televisao">Televisão</a>	</li>	<li class="last" title="Motor"><a href="/menu/9/motor">Motor</a>	</li>		</ul>
+	</div>
+
+	<div class="full_width sec_menu">
+		<div class="search">
+			<form action="pesquisa/" onsubmit="return formSearch();" method="GET">
+				<input type="text" name="palavra-chave" id="palavra-chave" value=""/>
+				<input type="submit" value="" />
+			</form>
+		</div>
+
+		<div class="sec_menu_options">
+			<ul>
+				<li>Colunistas
+				<ul class="submenu col2">		<li><a href="/menu/1/10/por-zacarias-pagnanelli">Zacarias Pagnanelli</a></li>		<li><a href="/menu/11/40/programa-cartao-de-visita">Débora Santilli</a></li>		<li><a href="/menu/15/29/andrea-pagnanelli">Andrea Pagnanelli</a></li>		<li><a href="/menu/15/31/godi-junior">Godi Júnior</a></li>		<li><a href="/menu/15/35/rodolfo-bonventti">Rodolfo Bonventti</a></li>		<li><a href="/menu/15/37/ruvin-singal">Ruvin Singal</a></li>		<li><a href="/menu/15/46/lica-gimenes">Lica Gimenes</a></li>		<li><a href="/menu/15/52/tamara-almeida">Tamara Almeida</a></li>		<li><a href="/menu/15/60/cau-marques">Cau Marques</a></li>		<li><a href="/menu/15/68/fabiola-lajusticia">Fabíola Lajusticia</a></li>		<li><a href="/menu/15/73/patricia-fernandes">Patrícia Fernandes</a></li>		<li><a href="/menu/15/75/andre-garcia">André Garcia</a></li>		<li><a href="/menu/15/79/julia-contarelli">Júlia Contarelli</a></li>		<li><a href="/menu/15/80/fabiano-de-abreu">Fabiano de Abreu</a></li></ul>				</li>
+				<li>Blogueiros
+				<ul class="submenu col2">		<li><a href="/menu/16/42/roberto-kroll">Roberto Kroll</a></li>		<li><a href="/menu/16/48/talita-alves">Talita Alves</a></li>		<li><a href="/menu/16/59/mauro-e-tati">Mauro e Tati</a></li>		<li><a href="/menu/16/64/luh-isaga">Luh Isaga</a></li>		<li><a href="/menu/16/72/fabiano-de-abreu">Fabiano de Abreu</a></li>		<li><a href="/menu/16/77/rodrigo-pagliani">Rodrigo Pagliani</a></li>		<li><a href="/menu/16/78/blogueiro">Blogueiro</a></li></ul>				</li>
+				<li>Cartão na TV
+				<ul class="submenu ">		<li><a href="/menu/11/40/programa-cartao-de-visita">Programa Cartão de Visita</a></li>		<li><a href="/menu/11/76/economia-negocios">Economia/Negócios</a></li>		<li><a href="/menu/11/81/cartao-de-visita-online">Cartão de Visita OnLine</a></li></ul>				</li>
+				<a href="/menu/12/na-midia"><li>Na Mídia</li></a>
+				<li>
+					<a target="_blank" href="https://www.facebook.com/colunacartaodevisita"><img src="/img/ico_fb.png"/></a>
+					<a target="_blank" href="https://twitter.com/cartaovip"><img src="/img/ico_tt.png"/></a>
+					<!--<a target="_blank" href=""><img src="/img/ico_yt.png"/></a>
+					<a target="_blank" href=""><img src="/img/ico_instg.png"/></a>!-->
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="full_width">
+
+	</div>
+</header>
+			<div role="main" class="main full_width home">
+				
+<div class="slideshow full_width">
+	<ul>
+
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><img src="/upload/slide_img/11.jpg?1490496944" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/dark_green.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_1">Cartão de Visita</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_2">Fábio Bopp</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_3">Chefe do GER da Polícia Civil</p></a>
+			</div>
+		</li>
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17757/ao-vivo-programa-05" target=""><img src="/upload/slide_img/90.jpg?1490496944" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/red.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17757/ao-vivo-programa-05" target=""><p class="descricao_1">Rodrigo Pagliani e</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17757/ao-vivo-programa-05" target=""><p class="descricao_2">Godi Júnior</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17757/ao-vivo-programa-05" target=""><p class="descricao_3">ao vivo</p></a>
+			</div>
+		</li>
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><img src="/upload/slide_img/88.jpg?1490496944" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/dark_gray.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_1">Posse</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_2">Ministro do STF</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_3">Alexandre de Moraes</p></a>
+			</div>
+		</li>
+	
+	</ul>
+	<div class="controls">
+		<div class="prior"></div>
+		<div class="next"></div>
+	</div>
+</div>
+				<div class="main_content">
+					
+					<div class="column left_column">
+						
+<!-- 
+###############################################
+	Coluna Esquerda 
+-->
+<div class="column _1">
+	<div class="block first">
+		<div class="block_header">
+			<span class="title"><a href="/menu/2/informes">personalidades</a></span>
+			<span class="ver_todos"><a href="/menu/2/informes">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<div class="img"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce"><img src="/upload/conteudo_img/17649.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">Juliluly traz novidades para você!</a></h3>
+			<p class="description"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">Na Juliluly se tem motivos para comemorar a semana do consumidor.</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block second">
+		<div class="block_header">
+			<span class="title"><a href="/menu/5/cultura">cultura</a></span>
+			<span class="ver_todos"><a href="/menu/5/cultura">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro"><img src="/upload/conteudo_img/17824.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">29º EDIÇÃO DO PRÊMIO SHELL DE TEATRO</a></h3>
+			<p class="description"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">Antônio Fagundes foi homenageado</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17825/get-low-festa-reune-o-melhor-do-hip-hop-dos-anos-70-em-sp"><img src="/upload/conteudo_img/17825.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17825/get-low-festa-reune-o-melhor-do-hip-hop-dos-anos-70-em-sp">Get Low: festa reúne o melhor do Hip Hop dos anos 70 em SP</a></h3>
+			<p class="description"><a href="/conteudo/17825/get-low-festa-reune-o-melhor-do-hip-hop-dos-anos-70-em-sp">Dança e música para amantes do gênero</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17825/get-low-festa-reune-o-melhor-do-hip-hop-dos-anos-70-em-sp">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title"><a href="/menu/7/noticias">notícias</a></span>
+			<span class="ver_todos"><a href="/menu/7/noticias">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content dotted_bottom">
+			<h3 class="title"><a href="/conteudo/17806/excesso-de-peso-em-aeronave-atrasa-voo">Excesso de peso em aeronave atrasa voo</a></h3>
+			<p class="description"><a href="/conteudo/17806/excesso-de-peso-em-aeronave-atrasa-voo">Atraso foi de 2 horas no total</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+		<div class="block_content dotted_bottom">
+			<h3 class="title"><a href="/conteudo/17789/projeto-fenix-alcando-voo">Projeto Fênix - Alçando Voo</a></h3>
+			<p class="description"><a href="/conteudo/17789/projeto-fenix-alcando-voo">É apresentado pelo TJSP</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+		<div class="block_content">
+			<h3 class="title"><a href="/conteudo/17756/forum-discute-o-papel-da-midia-brasileira-para-garantir-a-credibilidade-da-informacao">Fórum discute o papel da Mídia Brasileira para garantir a credibilidade da informação</a></h3>
+			<p class="description"><a href="/conteudo/17756/forum-discute-o-papel-da-midia-brasileira-para-garantir-a-credibilidade-da-informacao">Voltado a profissionais de comunicação</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+	</div>
+
+	<div class="block fourth">
+		<div class="block_header">
+			<span class="title"><a href="/menu/4/business">business</a></span>
+			<span class="ver_todos"><a href="/menu/4/business">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17728/linha-de-credito-especial"><img src="/upload/conteudo_img/17728.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17728/linha-de-credito-especial">Linha de crédito especial</a></h3>
+			<p class="description"><a href="/conteudo/17728/linha-de-credito-especial">No setor de Duas Rodas</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17728/linha-de-credito-especial">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17725/economia-compartilhada"><img src="/upload/conteudo_img/17725.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17725/economia-compartilhada">Economia compartilhada</a></h3>
+			<p class="description"><a href="/conteudo/17725/economia-compartilhada">Através do sistema fraction ownership</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17725/economia-compartilhada">+ detalhes</a></span>
+		</div>
+	</div>
+
+</div>						<!-- 
+###############################################
+	Coluna Central
+-->
+<div class="column _2">
+	<div class="block first">
+		<div class="block_header">
+			<span class="title"><a href="/menu/8/televisao">televisão</a></span>
+			<span class="ver_todos"><a href="/menu/8/televisao">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17791/escola-do-amor"><img src="/upload/conteudo_img/17791.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17791/escola-do-amor">Escola do Amor</a></h3>
+			<p class="description"><a href="/conteudo/17791/escola-do-amor">Nervosismo x Arrogância</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17791/escola-do-amor">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17617/escola-do-amor"><img src="/upload/conteudo_img/17617.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17617/escola-do-amor">Escola do Amor</a></h3>
+			<p class="description"><a href="/conteudo/17617/escola-do-amor">No programa Escola do Amor desse sábado (18/03) vamos contar a história da Ivana e Emanuel, eles passaram pela prova mais difícil de um relacionando, lidar com o vício em cocaína do parceiro!</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17617/escola-do-amor">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block second">
+		<div class="block_header">
+			<span class="title"><a href="/menu/6/viver">viver</a></span>
+			<span class="ver_todos"><a href="/menu/6/viver">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<div class="img"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo"><img src="/upload/conteudo_img/17830.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">Sensory-All Med Spa promove uma tarde de beleza e bem estar em São Paulo</a></h3>
+			<p class="description"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">O Sensory-All Med Spa está com uma nova gama de serviços e durante todo o evento foram feitas demonstrações destes novos procedimentos pelas profissionais do Spa, com o objetivo de apresentar os tratamentos e os equipamentos adquiridos para melhor atendê</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block third">
+		<div class="block_content half">
+			<div class="img">
+			<div class="img publicidade home_center">	<a target="_new" href="/assinc/ad.php?id=d645920e395fedad7bbbed0eca3fe2e0"><img title="Bebidas e Afins" class="" src="/upload/publicidade_img/40.png" width="180" height="150" />	</a></div>			</div>
+
+			<div class="block_header">
+				<span class="title"><a href="/menu/9/motor">motor</a></span>
+				<span class="ver_todos"><a href="/menu/9/motor">+ VER TODOS</a></span>
+				<div class="underline_tick"></div>
+			</div>
+
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17790/campeonato-off-road">Campeonato OFF-ROAD</a></h3>
+				<p class="description"><a href="/conteudo/17790/campeonato-off-road">Polaris Cup 2017</a></p>
+				<p class="detail">23/03/2017 - 10:35:00</p>
+			</div>
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17770/bmw-motorrad-start-collection-e-confirmada-para-o-brasil">BMW Motorrad Start Collection é confirmada para o Brasil</a></h3>
+				<p class="description"><a href="/conteudo/17770/bmw-motorrad-start-collection-e-confirmada-para-o-brasil">Desenvolvida por especialistas brasileiros</a></p>
+				<p class="detail">22/03/2017 - 12:22:00</p>
+			</div>
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">XJ6N ABS 2018 CHEGA COM NOVAS CORES E GRAFISMO</a></h3>
+				<p class="description"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">Conheça as novidades</a></p>
+				<p class="detail">20/03/2017 - 11:15:00</p>
+			</div>
+			<div class="block_content">
+				<h3 class="title"><a href="/conteudo/17633/indian-motorcycle-inaugura-concession-ria-em-goi-nia">INDIAN MOTORCYCLE INAUGURA CONCESSIONÁRIA EM GOIÂNIA</a></h3>
+				<p class="description"><a href="/conteudo/17633/indian-motorcycle-inaugura-concession-ria-em-goi-nia">Seguindo o plano de expansão da marca no Brasil, a quinta concessionária da Indian chega ao centro oeste brasileiro.</a></p>
+				<p class="detail">14/03/2017 - 10:56:00</p>
+			</div>
+		</div>
+
+		<div class="block_content half right">
+			<div class="block_header">
+				<span class="title"><a href="">colunistas</a></span>
+				<div class="underline_tick"></div>
+			</div>
+
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/37/ruvin-singal"><img src="/upload/colunista_img/10.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/37/ruvin-singal">Ruvin Singal</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/79/julia-contarelli"><img src="/upload/colunista_img/20.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/79/julia-contarelli">Júlia Contarelli</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/75/andre-garcia"><img src="/upload/colunista_img/19.png" /></a></div>
+				<p class="detail"><a href="/menu/15/75/andre-garcia">André Garcia</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/29/andrea-pagnanelli"><img src="/upload/colunista_img/8.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/29/andrea-pagnanelli">Andrea Pagnanelli</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/31/godi-junior"><img src="/upload/colunista_img/2.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/31/godi-junior">Godi Júnior</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/73/patricia-fernandes"><img src="/upload/colunista_img/18.png" /></a></div>
+				<p class="detail"><a href="/menu/15/73/patricia-fernandes">Patrícia Fernandes</a></p>
+			</div>
+
+		</div>
+	</div>
+</div>						<!-- 
+###############################################
+REDES SOCIAIS
+-->
+<div class="block redessociais">
+	<div class="block_header">
+		<span class="title">na rede</span>
+		<div class="underline_tick"></div>
+	</div>
+
+	<div class="block_content half">
+		<!-- TIWTTER -->
+		<a class="twitter-timeline" href="https://twitter.com/cartaovip" data-widget-id="353271054053040128">Tweets de @cartaovip</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+
+	<div class="block_content half right">
+		<!-- FACEBOOK FACEPILE-->
+		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcolunacartaodevisita&amp;width=340&amp;height=320&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color=23808285&amp;header=false"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:340px; height:320px;" allowTransparency="true"></iframe>
+	</div>
+</div>					</div>
+
+				<!-- 
+	###############################################
+	Coluna Direita 1
+-->
+<div class="column _3">
+	<div class="block">
+	<div class="img publicidade top_right">	<a target="_new" href="/assinc/ad.php?id=f033ab37c30201f73f142449d037028d"><img title="barrio orlando" class="" src="/upload/publicidade_img/80.jpg" width="310" height="161" />	</a></div><div class="img publicidade top_right">	<a target="" href=""><div id="flash_512936627">	<h1>Instale o Flash</h1>	<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p></div><script type="text/javascript">swfobject.embedSWF("/upload/publicidade_img/6.swf", "flash_512936627", "300", "250", "9.0.0", "expressInstall.swf", false, { wmode:'opaque' });</script>	</a></div>	</div>
+
+	<div class="block video_destaque">
+		<div class="block_header">
+			<span class="title"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Programa Cartão de Visita</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<iframe  width="310" height="250" src="https://www.youtube.com/embed/_tlIaXw9mAQ" frameborder="0" scrolling="false"></iframe>
+		<p class="detail"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Fábio Bopp - Chefe do GER</a></p>
+	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">+ acessadas</span>
+			<div class="underline_tick"></div>
+		</div>
+
+	<div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17743/canto-do-alto-novo-espaco-de-eventos-na-zona-norte-carioca">20 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17743/canto-do-alto-novo-espaco-de-eventos-na-zona-norte-carioca">Canto do Alto: novo espaço de eventos na zona norte carioca</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17793/especializacao-em-implantodontia">23 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17793/especializacao-em-implantodontia">Especialização em implantodontia</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">24 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">O apresentador Cido Marques e a Mc Lary Figueiredo, agitam a loja Triton Eyewear em SP</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">20 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">XJ6N ABS 2018 CHEGA COM NOVAS CORES E GRAFISMO</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17724/a-irlanda-esta-entre-os-4-destinos-mais-procurados-pelos-intercambistas-brasileiros">19 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17724/a-irlanda-esta-entre-os-4-destinos-mais-procurados-pelos-intercambistas-brasileiros">A IRLANDA ESTA ENTRE OS 4 DESTINOS MAIS PROCURADOS PELOS INTERCAMBISTAS BRASILEIROS</a></h3></div>	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">destaque</span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content destaque">
+			<div class="block_header"><span class="aspas_destaque open"></span></div>
+			<h3 class="texto"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Não é uma tarefa fácil e não é justo ver diversas pessoas criticando a figura do policial.</a></h3>
+			<div class="block_header"><span class="aspas_destaque close"></span></div>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Fábio Bopp</a></p>
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Chefe do Grupo Especial de Reação da Polícia Civil</a></p>
+		</div>
+
+		<div class="block_content">
+			<!--<script type="text/javascript" src="//avessotv.com.br/tv/tv300.js"></script><noscript><a href="//www.avessotv.com.br" title="Avesso Bastidores">Avesso</a></noscript> -->
+		</div>
+
+		<div class="img publicidade top_right">	<a target="_new" href="/assinc/ad.php?id=3416a75f4cea9109507cacd8e2f2aefc"><img title="Anuncie" class="" src="/upload/publicidade_img/41.jpg" width="310" height="110" />	</a></div>	</div>
+
+</div>
+				</div>
+			</div>
+
+			<div class="full_width">
+	<div class="block">
+	<div class="img publicidade footer">	<a target="_new" href="/assinc/ad.php?id=a1d0c6e83f027327d8461063f4ac58a6"><img title="Anuncie aqui" class="" src="/upload/publicidade_img/42.jpg" width="730" height="90" />	</a></div>	</div>
+</div>
+
+<footer class="full_width">
+	<div class="sitemap">
+		<ul>
+		<li  style="width:11.8%"><a href="/quem-somos">Quem Somos     </a></li><li  style="width:11%"><a href="/nossa-equipe">Nossa Equipe  </a></li><li  style="width:7%"><a href="/anuncie">Anuncie  </a></li><li  style="width:11.8%"><a href="/acessibilidade">Acessibilidade </a></li><li  style="width:13.4%"><a href="/comunicar-erros">Comunicar Erros  </a></li><li  style="width:7%"><a href="/contato">Contato  </a></li><li  style="width:17.4%"><a href="/perguntas-frequentes">Perguntas Frequentes  </a></li><li class="last" style="width:19%"><a href="/politica-de-privacidade">Política de Privacidade</a></li>		</ul>
+	</div>
+
+	<div class="hor_line"></div>
+
+	<div class="copyright">
+		<p>Copyright © 2013 Cartão de Visita. Todos os direitos reservados. Desenvolvido por: Uzze Comunicação</p>
+		<p>Reprodução no todo ou em parte sob qualquer forma ou meio, sem expressa autorização por escrito do Cartão de Visita. é proibida. As marcas e imagens utilizadas no projeto são os direitos autorais de seus respectivos proprietários. Eles são usados apenas para fins de exibição.</p>
+	</div>
+</footer>
+<script id="r7-footer-portal" src="http://barra.r7.com/footer/footer-portal/footer-portal.js" charset="UTF-8">{showPane:false, bgC:'#e2e2e2', isPartner:true, partnerLabel:'ENTRETENIMENTO'}</script>
+<script>
+//*********************************************************
+//Google Analytics
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-41812889-1', 'cartaodevisita.com.br');
+	ga('send', 'pageview');
+</script>
+
+<!-- Begin comScore Tag -->
+<script>
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "14194541" });
+	(function() {
+	var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+	s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+	el.parentNode.insertBefore(s, el);
+	})();
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+
+<!-- HOTWORDS -->
+<script src='http://ads61136.hotwords.com/show.jsp?id=61136'></script>
+
+
+<style type="text/css">
+	table thead tr td, table tbody tr td, table tfoot tr td, table tr td, table, tfoot, thead, tr, th, td, p{
+		text-align: justify;
+		font-family: 'Droid Sans', sans-serif;
+	}
+</style>
+
+<amp-iframe
+	height="154"
+	layout="fixed-height"
+	allowfullscreen
+	frameborder="0"
+	sandbox="allow-scripts allow-top-navigation allow-popups"
+	src="https://scs.r7.com/amp/footer.html">
+</amp-iframe>		
+		</div>
+	</body>
+</html>
+|||
+http://recordtv.r7.com/
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head profile="http://gmpg.org/xfn/11">
+	<title>RecordTV - Site oficial da RecordTV</title>
+	
+	
+	<!-- GOOGLETAG SETUP -->
+	<script type="text/javascript">
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		var useSSL = "https:" == document.location.protocol;
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	 })();
+	</script>
+	<!-- /GOOGLETAG SETUP -->
+
+	<link rel="icon" href="http://recordtv.r7.com/wp-content/themes/recordtv/favicon.png?r=2" type="image/x-icon">
+	<link rel="shortcut icon" href="http://recordtv.r7.com/wp-content/themes/recordtv/favicon.png?r=2" type="image/x-icon">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="R7 - http://www.r7.com" />
+	<meta http-equiv="content-language" content="pt-br" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	
+	<!-- Inicio da tag TT de segmencatao -->
+	<script type="text/javascript" id="tailtarget">
+		var _ttprofiles = _ttprofiles || [];
+		_ttprofiles.profiles = [];
+		_ttprofiles.push(['_enableServices']);
+		document.write("<scr" + "ipt src='" + ("https:" == document.location.protocol ? "https:" : "http:") + "//sc.r7.com/tailtarget/profiles.js'></scr" + "ipt>");
+	</script>
+	<!-- Final da tag TT de segmentacao -->
+
+	<meta http-equiv="refresh" content="120" />	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store" />
+	<meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT" />
+		<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="stylesheet" type="text/css" media="all" href="http://recordtv.r7.com/wp-content/themes/recordtv/style.css" />
+	<link rel="pingback" href="http://recordtv.r7.com/xmlrpc.php" />
+	
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" media="all" href="http://recordtv.r7.com/wp-content/themes/recordtv/ie7.css" />
+	<![endif]-->
+	
+	
+	
+		<script type="text/javascript">
+			/* <![CDATA[ */
+	        var random = Math.floor(Math.random() * 1000000000);
+			
+	        var r7ad = "http://adv.r7.com/";
+	        // document.write('<scr'+'ipt type="text\/javascript" src="'+r7ad+"script/async?href="+location.href.replace(/ /g,"-").replace(/%20/g,"-")+"&amp;rd="+random+'" ><\/scr'+'ipt>');
+	        document.write('<scr'+'ipt type="text\/javascript" src="'+r7ad+"script?href="+location.href.replace(/ /g,"-").replace(/%20/g,"-")+"&amp;rd="+random+'" ><\/scr'+'ipt>');
+					/* ]]> */
+	    </script>
+
+		<!--script src="http://assets.r7.com/assets/schumi_core/adv/application-0a987c93511045cf1da987cf2c9c9727.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			try {
+				document.domain = 'r7.com';
+			} catch(e) {}
+			window.advdom = "adv.r7.com/";
+			window.advid  = "";
+			window.snippetsurl = "http://snippets.r7.com/snippet/5293b08110d73e0d53000001/";
+			r7adv.asyncLoad(window.advdom, window.advid);
+		</script-->
+
+	
+	<script type="text/javascript">
+		function toggleDiv(divid){d=document.getElementById(divid);d.style.height=(d.style.height=='90px')?'600px':'90px'}
+	    function toggleDiv2(divid){document.getElementById(divid).style.height='90px'}
+	</script>
+
+    <script type="text/javascript">
+    	window.siteurl = "http://recordtv.r7.com";
+	    var mfp2write = document.getElementsByTagName('script')[document.getElementsByTagName('script').length-2].src;
+    </script>
+    <script type="text/javascript">
+	    if (navigator.userAgent.toLowerCase().indexOf("windows nt 6.1") > -1) {
+		    var keyword = "w7";
+		    document.write('<script sr'+'c="'+mfp2write+'$k='+keyword+'"><\/script>');
+	    }
+    </script>
+    <script type="text/javascript" src="http://recordtv.r7.com/wp-content/themes/recordtv/js/jquery-1.9.1.min.js"></script>
+    
+	<link rel="alternate" type="application/rss+xml" title="Feed de Record TV &raquo;" href="http://recordtv.r7.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Record TV &raquo;  Feed de comentários" href="http://recordtv.r7.com/comments/feed/" />
+<link rel='stylesheet' id='css-r7-quiz-site-css'  href='http://recordtv.r7.com/wp-content/plugins/R7/quiz/style-site.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='NextGEN-css'  href='http://recordtv.r7.com/wp-content/themes/recordtv/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='imagebrowser-css'  href='http://recordtv.r7.com/wp-content/plugins/nextgen-gallery/css/image-browser.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='wp-email-css'  href='http://recordtv.r7.com/wp-content/plugins/wp-email/email-css.css?ver=2.50' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-email-modal-css'  href='http://recordtv.r7.com/wp-content/plugins/wp-email/css/email-modal.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='r7-social-css'  href='http://recordtv.r7.com/wp-content/plugins/R7/social/css/social.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://recordtv.r7.com/wp-content/plugins/contact-form-7-r7/styles.css?ver=2.4.4' type='text/css' media='all' />
+<link rel='stylesheet' id='sociable-front-css-css'  href='http://recordtv.r7.com/wp-content/plugins/sociable/sociable.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://recordtv.r7.com/wp-content/themes/recordtv/pagenavi-css.css?ver=2.50' type='text/css' media='all' />
+<script type='text/javascript' src='http://recordtv.r7.com/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.05'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/nextgen-gallery/js/jquery.min.js?ver=1.9.1'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/nextgen-gallery/js/image-browser.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/themes/recordtv/js/jquery.maskedinput.min.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/themes/recordtv/js/validateformvideo.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/themes/recordtv/libraries.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/themes/recordtv/r7scripts.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/R7/social/js/r7social_callbacks.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://assets.pinterest.com/js/pinit.js?ver=3.0.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://recordtv.r7.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://recordtv.r7.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Record TV' href='http://recordtv.r7.com/' />
+
+<!-- R7 Pagemap 
+<PageMap>
+ <DataObject type="web-page">
+    <Attribute name="title">Record TV exibe dois grandes sucessos do cinema neste sábado (25)</Attribute>
+    <Attribute name="author"></Attribute>
+    <Attribute name="description">Billy Madison - Um Herdeiro Bobalhão e VIPs garantem a emoção no final de semana
+
+</Attribute>
+    <Attribute name="publishedAt">2017-03-25T01:00:42Z</Attribute>
+    <Attribute name="updatedAt">2017-03-25T01:00:42Z</Attribute>
+    
+ <DataObject type="web-page">
+</PageMap>
+ / R7 Pagemap -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://r7.com/hhbv"/>
+<meta property="og:site_name" content="Record TV" />
+<meta property="og:title" content="Record TV" />
+<meta property="og:image" content="http://recordtv.r7.com/wp-content/plugins/R7/social/images/logo-recordtv-og.png"/>
+<link rel="image_src" href="http://recordtv.r7.com/files/2017/03/vips.jpg" />
+<!-- platinum seo pack 1.3.7 -->
+<meta name="robots" content="index,follow,noodp,noydir" />
+<meta name="description" content="Portal da RecordTV: veja a programação, vídeos, inscreva-se nos quadros da TV e conheça os programas transmitidos online." />
+<meta name="keywords" content="rede record, record, televisao, tv online, record tv, record r7, recordtv" />
+<link rel="canonical" href="http://recordtv.r7.com/" />
+<!-- /platinum one seo pack -->
+<script src="http://recordtv.r7.com/wp-content/plugins/r7-acessibilidade/js/mousetrap.min.js"></script>
+        <script type='text/javascript'>
+          var makeShortcut = function(keyNumber, locationHref, fn) {
+            var shortcuts = [
+                'alt+' + keyNumber,
+                'shift+alt+' + keyNumber,
+                'command+' + keyNumber,
+                'ctrl+' + keyNumber
+            ],
+            _fn = fn || function() {
+                window.location = locationHref;
+            };
+            Mousetrap.bind(shortcuts, function() {
+                _fn();
+                return false;
+            });
+          };
+          // página inicial
+          makeShortcut(1, 'http://r7.com');
+          // ir para conteúdo
+          makeShortcut(2, '#', function() {
+              scroll(0,0);
+          });
+          // mapa do site
+          makeShortcut(3, 'http://www.r7.com/institucional/mapa-do-site/index.html');
+          // foco no campo de busca
+          makeShortcut(4, 'http://busca.r7.com');
+          // informações de contato (página Fale com o R7)
+          makeShortcut(9, 'http://noticias.r7.com/murais/fale-com-o-r7-29062016');
+          // detalhes das teclas de atalho (página Acessibilidade)
+          makeShortcut(0, 'http://noticias.r7.com/acessibilidade/conheca-as-ferramentas-de-acessibilidade-disponiveis-no-r7com-19082016');
+        </script>
+        	<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">
+		{responsivo:true, accessibility:"on", banner: "on", submenu:"on"}
+	</script>
+		    <script type="text/javascript">
+		/* <![CDATA[ */
+						(function (url) {
+				var
+					isSSL = document.location.protocol === 'https:',
+					r7adUrl = (isSSL ? 'https:' : 'http:') + '//adv.r7.com/script?href=',
+					pageUrl = (typeof url === 'undefined' ? document.location.href : url);
+				document.write('<scr' + 'ipt src="' + r7adUrl + pageUrl + '"><\/scr' + 'ipt>');
+			}());
+			            function toggleDiv(divid){d=document.getElementById(divid);d.style.height=(d.style.height=='90px')?'600px':'90px'}
+            function toggleDiv2(divid){document.getElementById(divid).style.height='90px'}
+
+ 		/* ]]> */
+        </script>
+        
+
+    	
+
+<meta name='NextGEN' content='1.7.4' />
+		
+</head>
+<body class="home blog">
+	<div id="ads-sniffer" style="display:block; margin:0px auto 10px auto; width:1024px; position:relative; top:10px;">
+		<script type="text/javascript">
+			r7ad.printGAds([1024,60], 'banner_sniffer').fail(function() {
+				document.getElementById('ads-sniffer').style.display = 'none';
+				document.getElementById('sniffer-close-btn').style.display = 'none';
+			});
+		</script>
+	</div>
+	<script type='text/javascript'>
+		r7ad.printGAds([1000,1000], 'DHTML');
+	</script>
+<!-- publicidade - intervenção swf sobre a home -->
+
+<div id="all">
+
+	<div id="bgclique">
+	<div id="wrapper">
+		<div class="container_12" id="header-all">
+			<div class="grid_12" id="header">
+				<h1 id="site-title"><a href="http://recordtv.r7.com/" title="Record TV" rel="home">Record TV</a></h1>				<form id="searchform" method="get" action="http://recordtv.r7.com/?">
+	<fieldset>
+		<input type="text" name="s" class="search-query" size="15" value="" />
+		<input type="submit" value="Buscar" class="search-submit" />
+	</fieldset>
+</form>
+				<div id="adv-selo" class="publicidade selo">
+					<div class="r7-adv r7-adv-selo">
+						<span class="r7-txt-adv">Publicidade</span>
+						<div class="r7-holder-adv">
+							<script type="text/javascript">r7ad.printGAds([120, 60], 'Selo').fail(function() {document.getElementById('adv-selo').style.display = 'none';});</script>
+						</div>
+					</div>
+				</div>
+				<div class="menu-principal-container"><ul id="menu-principal" class="menu"><li id="menu-item-82383" class="menu-item menu-item-type-custom menu-item-82383 programas"><a href="#">Programas</a>
+<ul class="sub-menu">
+	<li id="menu-item-82384" class="menu-item menu-item-type-custom menu-item-82384 novelas"><a href="#">Novelas</a>
+	<ul class="sub-menu">
+		<li id="menu-item-100956" class="menu-item menu-item-type-custom menu-item-100956 a-escrava-isaura"><a href="http://entretenimento.r7.com/a-escrava-isaura">A Escrava Isaura</a></li>
+		<li id="menu-item-97034" class="menu-item menu-item-type-custom menu-item-97034 a-terra-prometida"><a href="http://entretenimento.r7.com/a-terra-prometida">A Terra Prometida</a></li>
+		<li id="menu-item-96330" class="menu-item menu-item-type-custom menu-item-96330 amor-e-intrigas"><a href="http://entretenimento.r7.com/amor-e-intrigas">Amor e Intrigas</a></li>
+		<li id="menu-item-102470" class="menu-item menu-item-type-custom menu-item-102470 o-rico-e-lazaro"><a href="http://entretenimento.r7.com/o-rico-e-lazaro">O Rico e Lázaro</a></li>
+		<li id="menu-item-102408" class="menu-item menu-item-type-custom menu-item-102408 ribeirao-do-tempo"><a href="http://entretenimento.r7.com/ribeirao-do-tempo">Ribeirão do Tempo</a></li>
+		<li id="menu-item-90367" class="menu-item menu-item-type-custom menu-item-90367 vidas-em-jogo"><a href="http://entretenimento.r7.com/vidas-em-jogo">Vidas em Jogo</a></li>
+	</ul>
+</li>
+	<li id="menu-item-82385" class="menu-item menu-item-type-custom menu-item-82385 jornalismo"><a href="#">Jornalismo</a>
+	<ul class="sub-menu">
+		<li id="menu-item-85938" class="menu-item menu-item-type-custom menu-item-85938 balanco-geral-manha"><a href="http://noticias.r7.com/balanco-geral-manha">Balanço Geral Manhã</a></li>
+		<li id="menu-item-82398" class="menu-item menu-item-type-custom menu-item-82398 balanco-geral-sp"><a href="http://noticias.r7.com/balanco-geral/">Balanço Geral SP</a></li>
+		<li id="menu-item-82399" class="menu-item menu-item-type-custom menu-item-82399 camera-record"><a href="http://noticias.r7.com/camera-record">Câmera Record</a></li>
+		<li id="menu-item-82400" class="menu-item menu-item-type-custom menu-item-82400 cidade-alerta"><a href="http://noticias.r7.com/cidade-alerta/">Cidade Alerta</a></li>
+		<li id="menu-item-82403" class="menu-item menu-item-type-custom menu-item-82403 domingo-espetacular"><a href="http://noticias.r7.com/domingo-espetacular">Domingo Espetacular</a></li>
+		<li id="menu-item-82405" class="menu-item menu-item-type-custom menu-item-82405 esporte-fantastico"><a href="http://esportes.r7.com/esporte-fantastico/">Esporte Fantástico</a></li>
+		<li id="menu-item-82407" class="menu-item menu-item-type-custom menu-item-82407 fala-brasil"><a href="http://noticias.r7.com/fala-brasil">Fala Brasil</a></li>
+		<li id="menu-item-82409" class="menu-item menu-item-type-custom menu-item-82409 jornal-da-record"><a href="http://noticias.r7.com/jornal-da-record">Jornal da Record</a></li>
+		<li id="menu-item-94377" class="menu-item menu-item-type-custom menu-item-94377 marcelo-rezende"><a href="http://www.r7.com/marcelo-rezende/">Marcelo Rezende</a></li>
+		<li id="menu-item-82424" class="menu-item menu-item-type-custom menu-item-82424 reporter-em-acao"><a href="http://noticias.r7.com/reporter-em-acao">Repórter em Ação</a></li>
+		<li id="menu-item-82414" class="menu-item menu-item-type-custom menu-item-82414 sp-no-ar"><a href="http://noticias.r7.com/sp-no-ar">SP no Ar</a></li>
+		<li id="menu-item-97154" class="menu-item menu-item-type-custom menu-item-97154 reporter-record-investigacao"><a href="http://noticias.r7.com/reporter-record-investigacao">Repórter Record Investigação</a></li>
+	</ul>
+</li>
+	<li id="menu-item-82394" class="menu-item menu-item-type-custom menu-item-82394 shows"><a href="#">Shows</a>
+	<ul class="sub-menu">
+		<li id="menu-item-82419" class="menu-item menu-item-type-custom menu-item-82419 domingo-show"><a href="http://entretenimento.r7.com/domingo-show">Domingo Show</a></li>
+		<li id="menu-item-82429" class="menu-item menu-item-type-custom menu-item-82429 gugu"><a href="http://entretenimento.r7.com/programa-do-gugu">Gugu</a></li>
+		<li id="menu-item-82421" class="menu-item menu-item-type-custom menu-item-82421 hora-do-faro"><a href="http://entretenimento.r7.com/hora-do-faro">Hora do Faro</a></li>
+		<li id="menu-item-82422" class="menu-item menu-item-type-custom menu-item-82422 legendarios"><a href="http://entretenimento.r7.com/legendarios">Legendários</a></li>
+		<li id="menu-item-82428" class="menu-item menu-item-type-custom menu-item-82428 programa-da-sabrina"><a href="http://entretenimento.r7.com/programa-da-sabrina/">Programa da Sabrina</a></li>
+		<li id="menu-item-94376" class="menu-item menu-item-type-custom menu-item-94376 programa-do-porchat"><a href="http://entretenimento.r7.com/programa-do-porchat">Programa do Porchat</a></li>
+		<li id="menu-item-82430" class="menu-item menu-item-type-custom menu-item-82430 roberto-justus"><a href="http://entretenimento.r7.com/roberto-justus-mais/">Roberto Justus +</a></li>
+		<li id="menu-item-87818" class="menu-item menu-item-type-custom menu-item-87818 xuxa-meneghel"><a href="http://entretenimento.r7.com/xuxa">Xuxa Meneghel</a></li>
+	</ul>
+</li>
+	<li id="menu-item-82395" class="menu-item menu-item-type-custom menu-item-82395 variedades"><a href="#">Variedades</a>
+	<ul class="sub-menu">
+		<li id="menu-item-82431" class="menu-item menu-item-type-custom menu-item-82431 hoje-em-dia"><a href="http://entretenimento.r7.com/hoje-em-dia/">Hoje em Dia</a></li>
+		<li id="menu-item-82434" class="menu-item menu-item-type-custom menu-item-82434 the-love-school-a-escola-do-amor"><a href="http://entretenimento.r7.com/love-school-escola-amor/">The Love School &#8211; A Escola do Amor</a></li>
+	</ul>
+</li>
+	<li id="menu-item-89574" class="menu-item menu-item-type-custom menu-item-89574 reality-show"><a href="#">Reality Show</a>
+	<ul class="sub-menu">
+		<li id="menu-item-101775" class="menu-item menu-item-type-custom menu-item-101775 power-couple-brasil"><a href="http://entretenimento.r7.com/power-couple-brasil-2">Power Couple Brasil</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-82386" class="menu-item menu-item-type-custom menu-item-82386 programacao"><a href="http://recordtv.r7.com/programacao/">Programação</a></li>
+<li id="menu-item-82387" class="menu-item menu-item-type-custom menu-item-82387 videos"><a href="http://recordtv.r7.com/videos/lista/">Vídeos</a></li>
+<li id="menu-item-82388" class="menu-item menu-item-type-custom menu-item-82388 emissoras-record"><a href="http://recordtv.r7.com/emissoras-record/">Emissoras Record</a></li>
+<li id="menu-item-82389" class="menu-item menu-item-type-custom menu-item-82389 comercial"><a href="http://comercial.recordtv.com.br/">Comercial</a></li>
+<li id="menu-item-82390" class="menu-item menu-item-type-custom menu-item-82390 mais"><a href="#">Mais</a>
+<ul class="sub-menu">
+	<li id="menu-item-82435" class="menu-item menu-item-type-custom menu-item-82435 celular"><a href="http://recordtv.r7.com/torpedo/">Celular</a></li>
+	<li id="menu-item-82436" class="menu-item menu-item-type-custom menu-item-82436 portal-de-voz"><a href="http://recordtv.r7.com/portal-de-voz/">Portal de Voz</a></li>
+	<li id="menu-item-82437" class="menu-item menu-item-type-custom menu-item-82437 noticias"><a href="http://recordtv.r7.com/noticias/">Notícias</a></li>
+	<li id="menu-item-82438" class="menu-item menu-item-type-custom menu-item-82438 institucional"><a href="http://recordtv.r7.com/institucional/">Institucional</a></li>
+	<li id="menu-item-82439" class="menu-item menu-item-type-custom menu-item-82439 fotos"><a href="http://recordtv.r7.com/fotos/">Fotos</a></li>
+	<li id="menu-item-82440" class="menu-item menu-item-type-custom menu-item-82440 enquetes"><a href="http://recordtv.r7.com//enquetes/">Enquetes</a></li>
+	<li id="menu-item-82441" class="menu-item menu-item-type-custom menu-item-82441 mural"><a href="http://recordtv.r7.com/mural/">Mural</a></li>
+	<li id="menu-item-82443" class="menu-item menu-item-type-custom menu-item-82443 quiz"><a href="http://recordtv.r7.com/quizzes/">Quiz</a></li>
+	<li id="menu-item-82445" class="menu-item menu-item-type-custom menu-item-82445 fale-conosco"><a href="http://recordtv.r7.com/cite/">Fale Conosco</a></li>
+	<li id="menu-item-99044" class="menu-item menu-item-type-custom menu-item-99044 pesquisa-de-sinal"><a href="http://recordtv.r7.com/emissoras-record/pesquisa-de-sinal/pesquisa/">Pesquisa de Sinal</a></li>
+</ul>
+</li>
+</ul></div>
+			</div>
+		</div>
+
+		<div id="masthead" style="display: block;">
+
+			<a  class="masthead-close" href="#">Fechar anúncio</a>
+			<div class="masthead-publicidade">
+				<script type="text/javascript">
+					r7ad.printGAds([970, 250],'masthead').fail(function() {
+						document.getElementById('masthead').style.display = 'none';
+					});
+				</script>
+			</div>
+
+		</div>
+
+		<div id="content">
+
+
+	<div class="container_12">
+
+						
+		<div class="grid_8">
+
+			<div class="slider-home sep">
+
+											
+				<ul id="slider-home-content">
+																											<li>
+						<div class="bloco">
+							<div class="img"><a target="_self" href="https://www.youtube.com/watch?v=zXokurSd6xE"><img width="620" height="245" src="http://recordtv.r7.com/files/2017/03/ww01.jpg" class="attachment-home-tv" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a></div>
+							<div class="bloco-info">
+								<h3><a target="_self" href="https://www.youtube.com/watch?v=zXokurSd6xE"><strong>Dancing Brasil</strong></a></h3>
+								<p><a target="_self" href="https://www.youtube.com/watch?v=zXokurSd6xE">O show vai começar na tela da Record TV!</a></p>
+							</div>
+						</div>
+					</li>
+										
+																						<li>
+						<div class="bloco">
+							<div class="img"><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/sabrina-sato-e-fabio-porchat-encaram-tarefas-divertidas-no-mercadao-de-madureira-no-rio-de-janeiro-25032017#!/foto/1"><img width="612" height="242" src="http://recordtv.r7.com/files/2017/03/Sabrina-e-Porchat.jpg" class="attachment-home-tv" alt="Sabrina e Porchat" title="Sabrina e Porchat" /></a></div>
+							<div class="bloco-info">
+								<h3><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/sabrina-sato-e-fabio-porchat-encaram-tarefas-divertidas-no-mercadao-de-madureira-no-rio-de-janeiro-25032017#!/foto/1"><strong>Imperdível </strong></a></h3>
+								<p><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/sabrina-sato-e-fabio-porchat-encaram-tarefas-divertidas-no-mercadao-de-madureira-no-rio-de-janeiro-25032017#!/foto/1">Sabrina e Porchat encaram tarefas divertidas no Mercadão de Madureira
+</a></p>
+							</div>
+						</div>
+					</li>
+										
+																						<li>
+						<div class="bloco">
+							<div class="img"><a target="_self" href="http://entretenimento.r7.com/domingo-show/domingo-show-revela-quem-e-o-filho-secreto-do-sertanejo-jose-rico-e-que-briga-pela-heranca-milionaria-do-pai-famoso-24032017"><img width="620" height="245" src="http://recordtv.r7.com/files/2017/03/tt04.jpg" class="attachment-home-tv" alt="Edu Moraes/Record TV" title="Edu Moraes/Record TV" /></a></div>
+							<div class="bloco-info">
+								<h3><a target="_self" href="http://entretenimento.r7.com/domingo-show/domingo-show-revela-quem-e-o-filho-secreto-do-sertanejo-jose-rico-e-que-briga-pela-heranca-milionaria-do-pai-famoso-24032017"><strong>Domingo Show</strong></a></h3>
+								<p><a target="_self" href="http://entretenimento.r7.com/domingo-show/domingo-show-revela-quem-e-o-filho-secreto-do-sertanejo-jose-rico-e-que-briga-pela-heranca-milionaria-do-pai-famoso-24032017">Conheça o filho secreto do sertanejo José Rico e que briga por herança milionária</a></p>
+							</div>
+						</div>
+					</li>
+										
+																						<li>
+						<div class="bloco">
+							<div class="img"><a target="_self" href="http://entretenimento.r7.com/hora-do-faro/fotos/hora-do-faro-conta-historia-do-jovem-que-impressiona-pelo-talento-com-moda-25032017#!/foto/1"><img width="620" height="245" src="http://recordtv.r7.com/files/2017/03/Hora-do-Faro.jpg" class="attachment-home-tv" alt="Hora do Faro" title="Hora do Faro" /></a></div>
+							<div class="bloco-info">
+								<h3><a target="_self" href="http://entretenimento.r7.com/hora-do-faro/fotos/hora-do-faro-conta-historia-do-jovem-que-impressiona-pelo-talento-com-moda-25032017#!/foto/1"><strong>Hora do Faro </strong></a></h3>
+								<p><a target="_self" href="http://entretenimento.r7.com/hora-do-faro/fotos/hora-do-faro-conta-historia-do-jovem-que-impressiona-pelo-talento-com-moda-25032017#!/foto/1">Rodrigo conta história do jovem que impressiona pelo talento com moda
+</a></p>
+							</div>
+						</div>
+					</li>
+										
+																						<li>
+						<div class="bloco">
+							<div class="img"><a target="_self" href="http://noticias.r7.com/domingo-espetacular/videos/domingo-espetacular-mostra-como-sair-de-grupos-nas-redes-sociais-de-forma-delicada-24032017"><img width="620" height="245" src="http://recordtv.r7.com/files/2017/03/Domingo-Espetacular.jpg" class="attachment-home-tv" alt="Domingo Espetacular" title="Domingo Espetacular" /></a></div>
+							<div class="bloco-info">
+								<h3><a target="_self" href="http://noticias.r7.com/domingo-espetacular/videos/domingo-espetacular-mostra-como-sair-de-grupos-nas-redes-sociais-de-forma-delicada-24032017"><strong>Domingo Espetacular</strong></a></h3>
+								<p><a target="_self" href="http://noticias.r7.com/domingo-espetacular/videos/domingo-espetacular-mostra-como-sair-de-grupos-nas-redes-sociais-de-forma-delicada-24032017">Saiba como sair de grupos nas redes sociais de forma delicada
+</a></p>
+							</div>
+						</div>
+					</li>
+										
+									</ul>
+
+				<div class="paginacao">
+					<a id="slider-home-paginacao-prev" class="prev" href="#">&lt;</a>
+					<div id="slider-home-paginacao"></div>
+					<a id="slider-home-paginacao-next" class="next" href="#">&gt;</a>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function() {
+					if (jQuery("#slider-home-content script").length > 0) {
+						jQuery("#slider-home-content script").remove();
+					}
+				});
+			</script>
+
+			<ul class="chamadas grid_8 alpha omega sep">
+									<li class="grid_2 alpha">
+				<a target="_self" href="http://recordtv.r7.com/2017/03/24/operadoras-ameacam-deixar-de-transmitir-record-tv-sbt-e-redetv/"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/tt-5.jpg" class="attachment-rodape-six" alt="Divulgação/Record TV" title="Divulgação/Record TV" /></a>
+				<p class="chapeu"><a target="_self" href="http://recordtv.r7.com/2017/03/24/operadoras-ameacam-deixar-de-transmitir-record-tv-sbt-e-redetv/">Atenção</a></p>
+				<h3><a target="_self" href="http://recordtv.r7.com/2017/03/24/operadoras-ameacam-deixar-de-transmitir-record-tv-sbt-e-redetv/">Record TV deixa de exibir programação em operadoras</a></h3>
+				<p class="sub"><a target="_self" href="http://recordtv.r7.com/2017/03/24/operadoras-ameacam-deixar-de-transmitir-record-tv-sbt-e-redetv/">Decisão entra em vigor na quarta-feira (29) em São Paulo; entenda</a></p>
+			</li>
+						<li class="grid_2 ">
+				<a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/atores-de-o-rico-e-lazaro-participam-do-novelive-no-facebook-e-contam-detalhes-dos-bastidores-e-das-gravacoes-24032017"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/atores-novela.jpg" class="attachment-rodape-six" alt="Reprodução" title="Reprodução" /></a>
+				<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/atores-de-o-rico-e-lazaro-participam-do-novelive-no-facebook-e-contam-detalhes-dos-bastidores-e-das-gravacoes-24032017">NoveLive</a></p>
+				<h3><a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/atores-de-o-rico-e-lazaro-participam-do-novelive-no-facebook-e-contam-detalhes-dos-bastidores-e-das-gravacoes-24032017">Júlia Maggessi, Matheus Costa e Letícia Pedro </a></h3>
+				<p class="sub"><a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/atores-de-o-rico-e-lazaro-participam-do-novelive-no-facebook-e-contam-detalhes-dos-bastidores-e-das-gravacoes-24032017">Atores contam detalhes dos bastidores e das gravações
+
+</a></p>
+			</li>
+						<li class="grid_2 ">
+				<a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/japa-invade-a-intimidade-de-ana-hickmann-e-alexandre-correa-e-andreia-sorvetao-e-conrado-24032017#!/foto/1"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/tt021.jpg" class="attachment-rodape-six" alt="Antonio Chahestian/Record TV" title="Antonio Chahestian/Record TV" /></a>
+				<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/japa-invade-a-intimidade-de-ana-hickmann-e-alexandre-correa-e-andreia-sorvetao-e-conrado-24032017#!/foto/1">Programa da Sabrina</a></p>
+				<h3><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/japa-invade-a-intimidade-de-ana-hickmann-e-alexandre-correa-e-andreia-sorvetao-e-conrado-24032017#!/foto/1">Japa invade a intmidade de casais para lá de famosos</a></h3>
+				<p class="sub"><a target="_self" href="http://entretenimento.r7.com/programa-da-sabrina/fotos/japa-invade-a-intimidade-de-ana-hickmann-e-alexandre-correa-e-andreia-sorvetao-e-conrado-24032017#!/foto/1">Ana Hickmann e Alexandre e Sorvetão e Conrado brincam</a></p>
+			</li>
+						<li class="grid_2 omega">
+				<a target="_self" href="http://recordtv.r7.com/2017/03/17/record-tv-e-r7-sao-finalistas-do-oscar-das-redes-sociais-pelo-3%C2%BA-ano-consecutivo/"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/Porchat-home3.jpg" class="attachment-rodape-six" alt="Divulgação/Record TV" title="Divulgação/Record TV" /></a>
+				<p class="chapeu"><a target="_self" href="http://recordtv.r7.com/2017/03/17/record-tv-e-r7-sao-finalistas-do-oscar-das-redes-sociais-pelo-3%C2%BA-ano-consecutivo/">Shorty Awards</a></p>
+				<h3><a target="_self" href="http://recordtv.r7.com/2017/03/17/record-tv-e-r7-sao-finalistas-do-oscar-das-redes-sociais-pelo-3%C2%BA-ano-consecutivo/">Record TV e R7 são finalistas do Oscar das redes sociais</a></h3>
+				<p class="sub"><a target="_self" href="http://recordtv.r7.com/2017/03/17/record-tv-e-r7-sao-finalistas-do-oscar-das-redes-sociais-pelo-3%C2%BA-ano-consecutivo/">Emissora e portal foram escolhidos por júri pelo terceiro ano seguido</a></p>
+			</li>
+						</ul>
+
+			<div class="novelas grid_8 alpha omega">
+								<div class="grid_3 alpha">
+					<h2>Novelas</h2>
+				</div>
+				<div class="grid_5 omega">
+					<p class="more">
+													<a target="_self" href="http://entretenimento.r7.com/a-escrava-isaura/fotos/dicionario-de-a-escrava-isaura-veja-as-tiradas-divertidas-dos-personagens-da-trama-12022017#!/foto/1">A Escrava Isaura </a>
+						
+													<a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/gabriel-felipe-fala-sobre-personagem-zac-em-o-rico-e-lazaro-foi-diferente-e-extraordinario-25032017">O Rico e Lázaro </a>
+						
+						
+											</p>
+				</div>
+				<div class="clear"></div>
+								<div class="grid_4 chamadas alpha">
+					<a target="_self" href="http://entretenimento.r7.com/a-escrava-isaura/fotos/dicionario-de-a-escrava-isaura-veja-as-tiradas-divertidas-dos-personagens-da-trama-12022017#!/foto/1"><img width="300" height="190" src="http://recordtv.r7.com/files/2017/03/Escrava-Isaura.jpg" class="attachment-novelas-home" alt="Reprodução" title="Reprodução" /></a>
+					<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/a-escrava-isaura/fotos/dicionario-de-a-escrava-isaura-veja-as-tiradas-divertidas-dos-personagens-da-trama-12022017#!/foto/1">A Escrava Isaura </a></p>
+					<h3><a target="_self" href="http://entretenimento.r7.com/a-escrava-isaura/fotos/dicionario-de-a-escrava-isaura-veja-as-tiradas-divertidas-dos-personagens-da-trama-12022017#!/foto/1">Dicionário: veja as tiradas divertidas dos personagens da trama
+</a></h3>
+				</div>
+								<div class="grid_4 chamadas omega">
+					<a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/gabriel-felipe-fala-sobre-personagem-zac-em-o-rico-e-lazaro-foi-diferente-e-extraordinario-25032017"><img width="300" height="190" src="http://recordtv.r7.com/files/2017/03/zac.jpg" class="attachment-novelas-home" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+					<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/gabriel-felipe-fala-sobre-personagem-zac-em-o-rico-e-lazaro-foi-diferente-e-extraordinario-25032017">O Rico e Lázaro </a></p>
+					<h3><a target="_self" href="http://entretenimento.r7.com/o-rico-e-lazaro/gabriel-felipe-fala-sobre-personagem-zac-em-o-rico-e-lazaro-foi-diferente-e-extraordinario-25032017">Gabriel Felipe fala sobre personagem Zac: &quot;Foi diferente e extraordinário&quot;
+</a></h3>
+				</div>
+							</div>
+
+		</div>
+
+				<div class="grid_4">
+			
+			<div class="video-destaque sep">
+				
+	
+		<h2>Domingo Espetacular </h2>
+
+		<a target="_self" href="http://noticias.r7.com/domingo-espetacular/videos/-apos-onda-de-massacres-voluntarios-encaram-missao-de-construir-igrejas-em-cadeias-no-brasil-19032017">
+			<img width="300" height="185" src="http://recordtv.r7.com/files/2017/03/de1.jpg" class="attachment-record-celular" alt="Divulgação/Record TV" title="Divulgação/Record TV" />		</a>
+
+		<h3 class="video-desc">
+			<a target="_self" href="http://noticias.r7.com/domingo-espetacular/videos/-apos-onda-de-massacres-voluntarios-encaram-missao-de-construir-igrejas-em-cadeias-no-brasil-19032017">
+				Após massacres, voluntários constroem igrejas em cadeias			</a>
+		</h3>
+
+	
+			</div>
+			
+			<div class="r7social">
+								<div id="r7_social_bar"><a href="http://www.facebook.com/campaign/landing.php?campaign_id=235286759835862&url=https://www.facebook.com/recordtvoficial/" target="_blank" title="Facebook"><span class="facebook_button"></span></a><a href="http://twitter.com/recordtvoficial" target="_blank" title="Twitter"><span class="twitter_button"></span></a><a href="http://instagram.com/recordtvoficial" target="_blank" title="Instagram"><span class="instagram_button"></span></a><a target="_blank" href="http://recordtv.r7.com/feed/" title="Feed RSS"><span class="feed_button"></span></a><div class='btface'><iframe src='http://www.facebook.com/plugins/like.php?href=http://recordtv.r7.com/&amp;send=false&amp;layout=standard&amp;width=92&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font=arial&amp;height=21&amp;locale=pt_BR' scrolling='no' frameborder='0' style='border:none;overflow:hidden;width:92px;height:21px;' allowTransparency='true'></iframe></div><div class="twitter-follow" style="width:58px;height:20px"><a href="https://twitter.com/recordtvoficial" class="twitter-follow-button" style="display:none;" data-show-count="false" data-lang="pt" data-show-screen-name="false">Siga @twitter</a></div><script>!function(d,s,id) {var js,fjs=d.getElementsByTagName(s)[0];if (!d.getElementById(id)) {js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script><div class="btgoogleplusone" margin:0px!important;"><g:plusone size='medium' annotation='none' callback='g1callback' ></g:plusone></div><script type="text/javascript" src="https://apis.google.com/js/plusone.js">{lang: 'pt-BR'}</script></div>			</div>
+			<div class="publicidade sep">
+				<span class="publi">Publicidade</span>
+				<script type="text/javascript">
+					if(typeof(r7ad.exists) != 'undefined' && r7ad.exists('Square_Island')) r7ad.print('Square_Island');
+				</script>
+			</div>
+
+			<div class="programacao-js">
+				<!--<script type="text/javascript" src="http://recordtv.r7.com/programacao-js/"></script>-->
+				<script type="text/javascript" src="http://recordtv.r7.com/wp-content/themes/recordtv/js/programacao-js.js"></script>
+			</div>
+			
+						
+		</div>
+
+		<div class="grid_12 top-sep">
+
+			<div class="videos grid_12 alpha omega sep">
+				<h2>Vídeos</h2>
+				<ul class="tabs" id="tabs-videos-home">
+					<li class="grid_2 alpha active" id="videos-home-tab-0"><a href="#">Mais vistos</a></li>
+					<li class="grid_2" id="videos-home-tab-1"><a href="#">Mais recentes</a></li>
+				</ul>
+				<ul id="videos-list" class="chamadas grid_12 alpha omega">
+							<li class="grid_2 videos-home-tab-0 alpha" style="display:block">
+			<a href="http://noticias.r7.com/balanco-geral/videos/-mulher-com-aparencia-de-crianca-e-presa-por-trafico-de-drogas-22032017">
+				<img src="http://vtb.r7.com/399568/2017/03/22/58d2b73d1d4206a0df0000ad/2930864f0f9d4369911beb793b3e01fc__ER7_RE_BG_APARENCIA_CRIANCA_2030kbps_2017_03_22_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://noticias.r7.com/balanco-geral/videos/-mulher-com-aparencia-de-crianca-e-presa-por-trafico-de-drogas-22032017">Mulher com aparência de criança é presa…</a>
+			</h3>
+			<p class="video-meta">04:49 | 22/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-0 " style="display:block">
+			<a href="http://noticias.r7.com/cidade-alerta/videos/-policia-descobre-que-crianca-de-7-anos-foi-assassinada-a-pedido-da-mae-22032017">
+				<img src="http://vtb.r7.com/399568/2017/03/22/58d305b9bc1f62c5c0025ae1/944e748f2b144529bfed7d4fe74e79ca__ER7_RE_CA_MAE_TRAFICANTE_2030kbps_2017_03_22_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://noticias.r7.com/cidade-alerta/videos/-policia-descobre-que-crianca-de-7-anos-foi-assassinada-a-pedido-da-mae-22032017">Polícia descobre que criança de 7 anos…</a>
+			</h3>
+			<p class="video-meta">13:28 | 22/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-0 " style="display:block">
+			<a href="http://noticias.r7.com/cidade-alerta/videos/-mae-salva-filha-de-12-anos-das-maos-de-pedofilo-24032017">
+				<img src="http://vtb.r7.com/399568/2017/03/24/58d5ace507361b563501e110/1a7d2ac13a59452f8449783f30c161ae__ER7_RE_CA_FOGE_CINQUENTAO_2030kbps_2017_03_24_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://noticias.r7.com/cidade-alerta/videos/-mae-salva-filha-de-12-anos-das-maos-de-pedofilo-24032017">Mãe salva filha de 12
+anos das mãos de…</a>
+			</h3>
+			<p class="video-meta">13:35 | 24/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-0 " style="display:block">
+			<a href="http://noticias.r7.com/cidade-alerta/videos/-mulher-mata-namorado-por-causa-de-pizza-23032017">
+				<img src="http://vtb.r7.com/399568/2017/03/23/58d45b8709486bcfdb05d3c8/3cf8f45cca434a29baef8c0466add71a__ER7_RE_CA_NAMORADA_ASSASSINA_2030kbps_2017_03_23_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://noticias.r7.com/cidade-alerta/videos/-mulher-mata-namorado-por-causa-de-pizza-23032017">
+
+Mulher mata namorado por causa de
+pizza</a>
+			</h3>
+			<p class="video-meta">03:29 | 23/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-0 " style="display:block">
+			<a href="http://noticias.r7.com/cidade-alerta/videos/-empresario-aparece-morto-apos-desconfiar-da-relacao-de-esposa-com-sobrinho-21032017">
+				<img src="http://vtb.r7.com/399568/2017/03/21/58d1b765c28077efde00dd9c/34a7237d45dc41efb0c37b46d9e251de__ER7_RE_CA_EMPRESARIO_MORTO_2030kbps_2017_03_21_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://noticias.r7.com/cidade-alerta/videos/-empresario-aparece-morto-apos-desconfiar-da-relacao-de-esposa-com-sobrinho-21032017">Empresário aparece morto após
+desconfiar…</a>
+			</h3>
+			<p class="video-meta">19:16 | 21/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-0 " style="display:block">
+			<a href="http://entretenimento.r7.com/hora-do-faro/videos/-gretchen-vai-as-lagrimas-ao-reencontrar-o-filho-que-nao-via-ha-5-anos-19032017">
+				<img src="http://vtb.r7.com/399568/2017/03/19/58cf0b38d8ea624de700b6e5/11ae7bc8542849af82f0b40a30474987__ER7_RE_HF_GRETCHEN_CHORA_2030kbps_2017_03_19_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/hora-do-faro/videos/-gretchen-vai-as-lagrimas-ao-reencontrar-o-filho-que-nao-via-ha-5-anos-19032017">Gretchen vai às lágrimas ao
+reencontrar…</a>
+			</h3>
+			<p class="video-meta">11:18 | 19/03/2017</p>
+		</li>
+									<li class="grid_2 videos-home-tab-1 alpha" style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/ana-hickmann-chora-no-palco-com-declaracao-de-amor-do-marido-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d724940d9a038a0301ea0e/4edbe724849f49978bb2f3cee9273353__ER7_RE_PS_DECLARACOES_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/ana-hickmann-chora-no-palco-com-declaracao-de-amor-do-marido-25032017">Ana Hickmann chora no palco com declaração…</a>
+			</h3>
+			<p class="video-meta">02:35 | 25/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-1 " style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/exclusivo-guilherme-e-santiago-lancam-clipe-de-casa-amarela-no-programa-da-sabrina-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d72106596f990d44000f30/f9e0039d79574862b0d511a34f894409__ER7_RE_PS_GUILHERME_SANTIAG_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/exclusivo-guilherme-e-santiago-lancam-clipe-de-casa-amarela-no-programa-da-sabrina-25032017">Exclusivo! Guilherme e Santiago lançam clipe…</a>
+			</h3>
+			<p class="video-meta">03:43 | 25/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-1 " style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/ana-hickamann-e-alexandre-encaram-game-de-casais-com-sorvetao-e-conrado-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d72363a4fd54b38200fd64/c412c51d76e8451b81852b6755454384__ER7_RE_PS_VOCE_ME_CONHECE_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/ana-hickamann-e-alexandre-encaram-game-de-casais-com-sorvetao-e-conrado-25032017">Ana Hickamann e Alexandre encaram game de…</a>
+			</h3>
+			<p class="video-meta">24:30 | 25/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-1 " style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/sorvetao-e-conrado-revelam-motivos-que-ja-os-fizeram-pensar-em-separacao-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d72103596f990d44000f22/9075d80e6fe0490c8b6c5e44412ad26d__ER7_RE_PS_ANDREIA_CONFESSA_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/sorvetao-e-conrado-revelam-motivos-que-ja-os-fizeram-pensar-em-separacao-25032017">Sorvetão e Conrado revelam motivos que já…</a>
+			</h3>
+			<p class="video-meta">04:28 | 25/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-1 " style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/capella-e-babi-quebram-tudo-em-laboratorio-feito-para-aliviar-a-raiva-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d7153d726db1a160000eee/318c32689e4647928477f9ab82796e1c__ER7_RE_PS_BREAK_LAB_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/capella-e-babi-quebram-tudo-em-laboratorio-feito-para-aliviar-a-raiva-25032017">Capella e Babi ‘quebram tudo’ em laboratório…</a>
+			</h3>
+			<p class="video-meta">18:47 | 25/03/2017</p>
+		</li>
+				<li class="grid_2 videos-home-tab-1 " style="display:none">
+			<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/sabrina-leva-criancas-com-cancer-para-soltar-tartaruguinhas-no-mar-25032017">
+				<img src="http://vtb.r7.com/399568/2017/03/25/58d71538726db1a160000ede/147b666a81f14ec38d536fff79bd9bbc__ER7_RE_PS_SABRINA_TARTARUGA_2030kbps_2017_03_25_thumb_thumb.jpg" style="width:140px;height:90px" />
+				<span class="play"></span>
+			</a>
+			<h3>
+				<a href="http://entretenimento.r7.com/programa-da-sabrina/videos/sabrina-leva-criancas-com-cancer-para-soltar-tartaruguinhas-no-mar-25032017">Sabrina leva crianças com câncer para soltar…</a>
+			</h3>
+			<p class="video-meta">14:07 | 25/03/2017</p>
+		</li>
+						</ul>
+				<p class="more"><a href="http://recordtv.r7.com/videos/lista">Todos os vídeos</a></p>
+
+			</div>
+
+			<script type="text/javascript">
+				jQuery('#videos-list li.videos-home-tab-0:last, #videos-list li.videos-home-tab-1:last, #videos-list li.videos-home-tab-2:last').css('margin-right', '0')
+			</script>
+
+			<div class="programas sep">
+				<h2>Programas</h2>
+				<div class="slider-programas">
+					<div class="paginacao">
+						<a id="slider-programas-paginacao-next" class="next" href="#">&gt;</a>
+						<div id="slider-programas-paginacao"></div>
+						<a id="slider-programas-paginacao-prev" class="prev" href="#">&lt;</a>
+					</div>
+					<ul id="slider-programas-content">
+												
+							
+																<li>
+									<a href="http://entretenimento.r7.com/o-rico-e-lazaro"><img width="187" height="250" src="http://recordtv.r7.com/files/2017/03/carrossel.jpg" class="attachment-slider-programas wp-post-image" alt="carrossel" title="carrossel" /></a>
+									<h3><a href="http://entretenimento.r7.com/o-rico-e-lazaro">O Rico e Lázaro</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/o-rico-e-lazaro">
+											<span>SEGUNDA A SEXTA</span>
+											20H40										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/o-rico-e-lazaro">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/ribeirao-do-tempo"><img width="185" height="250" src="http://recordtv.r7.com/files/2017/02/divulga.jpg" class="attachment-slider-programas wp-post-image" alt="divulga" title="divulga" /></a>
+									<h3><a href="http://entretenimento.r7.com/ribeirao-do-tempo">Ribeirão do Tempo</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/ribeirao-do-tempo">
+											<span>SEGUNDA A SEXTA</span>
+											15h										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/ribeirao-do-tempo">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/a-escrava-isaura"><img width="185" height="250" src="http://recordtv.r7.com/files/2017/01/isaura.jpg" class="attachment-slider-programas wp-post-image" alt="isaura" title="isaura" /></a>
+									<h3><a href="http://entretenimento.r7.com/a-escrava-isaura">A Escrava Isaura</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/a-escrava-isaura">
+											<span>SEGUNDA A SEXTA</span>
+											19h40										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/a-escrava-isaura">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/vidas-em-jogo"><img width="187" height="250" src="http://recordtv.r7.com/files/2017/01/programas02.jpg" class="attachment-slider-programas wp-post-image" alt="programas02" title="programas02" /></a>
+									<h3><a href="http://entretenimento.r7.com/vidas-em-jogo">Vidas em Jogo</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/vidas-em-jogo">
+											<span>SEGUNDA A SEXTA</span>
+											16H00										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/vidas-em-jogo">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/programa-do-porchat"><img width="187" height="250" src="http://recordtv.r7.com/files/2016/09/programa-do-porchat.jpg" class="attachment-slider-programas wp-post-image" alt="Edu Moraes / Rede Record" title="Edu Moraes / Rede Record" /></a>
+									<h3><a href="http://entretenimento.r7.com/programa-do-porchat">Programa do Porchat</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/programa-do-porchat">
+											<span>Segunda a quinta</span>
+											00H15										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/programa-do-porchat">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/programa-do-gugu"><img width="187" height="250" src="http://recordtv.r7.com/files/2016/02/guguhome1.jpg" class="attachment-slider-programas wp-post-image" alt="guguhome" title="guguhome" /></a>
+									<h3><a href="http://entretenimento.r7.com/programa-do-gugu">Gugu</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/programa-do-gugu">
+											<span>QUARTA</span>
+											22H30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/programa-do-gugu">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/xuxa"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/11/xu21.jpg" class="attachment-slider-programas wp-post-image" alt="Xuxa Meneghel" title="Xuxa Meneghel" /></a>
+									<h3><a href="http://entretenimento.r7.com/xuxa">Xuxa Meneghel</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/xuxa">
+											<span>Segunda</span>
+											22h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/xuxa">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/domingo-show"><img width="185" height="250" src="http://recordtv.r7.com/files/2017/02/GERALDO-LUIS_051_FOTO-EDU-MORAES.jpg" class="attachment-slider-programas wp-post-image" alt="GERALDO-LUIS_051_FOTO-EDU-MORAES" title="GERALDO-LUIS_051_FOTO-EDU-MORAES" /></a>
+									<h3><a href="http://entretenimento.r7.com/domingo-show">Domingo Show</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/domingo-show">
+											<span>DOMINGO</span>
+											11h										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/domingo-show">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/programa-da-sabrina"><img width="187" height="250" src="http://recordtv.r7.com/files/2016/04/programas03.jpg" class="attachment-slider-programas wp-post-image" alt="programas03" title="programas03" /></a>
+									<h3><a href="http://entretenimento.r7.com/programa-da-sabrina">Programa da Sabrina</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/programa-da-sabrina">
+											<span>Sábado</span>
+											20h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/programa-da-sabrina">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/balanco-geral-manha/"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/05/LUIZ-BACCI_105_FOTO-EDU-MORAES-187x250.jpg" class="attachment-slider-programas wp-post-image" alt="LUIZ BACCI_105_FOTO EDU MORAES" title="LUIZ BACCI_105_FOTO EDU MORAES" /></a>
+									<h3><a href="http://noticias.r7.com/balanco-geral-manha/">Balanço Geral Manhã</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/balanco-geral-manha/">
+											<span>Segunda a sexta</span>
+											06h00										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/balanco-geral-manha/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/hoje-em-dia/"><img width="187" height="250" src="http://recordtv.r7.com/files/2013/03/hoje.jpg" class="attachment-slider-programas wp-post-image" alt="Hoje em Dia" title="Hoje em Dia" /></a>
+									<h3><a href="http://entretenimento.r7.com/hoje-em-dia/">Hoje em Dia</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/hoje-em-dia/">
+											<span>Segunda a sexta</span>
+											10h00										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/hoje-em-dia">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/balanco-geral/"><img width="187" height="250" src="http://recordtv.r7.com/files/2013/03/bg.jpg" class="attachment-slider-programas wp-post-image" alt="Balanço Geral SP" title="Balanço Geral SP" /></a>
+									<h3><a href="http://noticias.r7.com/balanco-geral/">Balanço Geral SP</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/balanco-geral/">
+											<span>Segunda a sexta</span>
+											12h00										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/balanco-geral/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/love-school-escola-amor/"><img width="187" height="250" src="http://recordtv.r7.com/files/2014/02/love2.jpg" class="attachment-slider-programas wp-post-image" alt="love" title="love" /></a>
+									<h3><a href="http://entretenimento.r7.com/love-school-escola-amor/">The Love School</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/love-school-escola-amor/">
+											<span>Sábado</span>
+											12H00										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/love-school-escola-amor/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/legendarios"><img width="185" height="250" src="http://recordtv.r7.com/files/2013/06/leg3.jpg" class="attachment-slider-programas wp-post-image" alt="leg" title="leg" /></a>
+									<h3><a href="http://entretenimento.r7.com/legendarios">Legendários</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/legendarios">
+											<span>Sexta</span>
+											22h45										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/legendarios">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/roberto-justus-mais/"><img width="187" height="250" src="http://recordtv.r7.com/files/2012/12/roberto-justus-+_1801.jpg" class="attachment-slider-programas wp-post-image" alt="roberto-justus-+_180" title="roberto-justus-+_180" /></a>
+									<h3><a href="http://entretenimento.r7.com/roberto-justus-mais/">Roberto Justus +</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/roberto-justus-mais/">
+											<span>Domingo</span>
+											00h15										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/roberto-justus-mais/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://entretenimento.r7.com/hora-do-faro"><img width="185" height="250" src="http://recordtv.r7.com/files/2013/05/HF_PGM-137_DANIEL_002_FOTO-EDU-MORAES.jpg" class="attachment-slider-programas wp-post-image" alt="HF_PGM 137_DANIEL_002_FOTO EDU MORAES" title="HF_PGM 137_DANIEL_002_FOTO EDU MORAES" /></a>
+									<h3><a href="http://entretenimento.r7.com/hora-do-faro">Hora do Faro</a></h3>
+									<p>
+										<a href="http://entretenimento.r7.com/hora-do-faro">
+											<span>Domingo</span>
+											15h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://entretenimento.r7.com/hora-do-faro">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/domingo-espetacular"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/10/Domingo_Espetacular.jpg" class="attachment-slider-programas wp-post-image" alt="Domingo Espetacular" title="Domingo Espetacular" /></a>
+									<h3><a href="http://noticias.r7.com/domingo-espetacular">Domingo Espetacular</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/domingo-espetacular">
+											<span>Domingo</span>
+											19h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/domingo-espetacular">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/cidade-alerta/"><img width="187" height="250" src="http://recordtv.r7.com/files/2013/03/cidade1.jpg" class="attachment-slider-programas wp-post-image" alt="Cidade Alerta" title="Cidade Alerta" /></a>
+									<h3><a href="http://noticias.r7.com/cidade-alerta/">Cidade Alerta</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/cidade-alerta/">
+											<span>SEGUNDA A SÁBADO</span>
+											17h e 17h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/cidade-alerta/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://esportes.r7.com/esporte-fantastico"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/10/esportefantastico_materia.jpg" class="attachment-slider-programas wp-post-image" alt="Esporte Fantástico" title="Esporte Fantástico" /></a>
+									<h3><a href="http://esportes.r7.com/esporte-fantastico">Esporte Fantástico</a></h3>
+									<p>
+										<a href="http://esportes.r7.com/esporte-fantastico">
+											<span>Sábado</span>
+											10h15										</a>
+									</p>
+									<p class="more">
+																				<a href="http://esportes.r7.com/esporte-fantastico">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/reporter-record-investigacao"><img width="185" height="250" src="http://recordtv.r7.com/files/2017/03/ok.jpg" class="attachment-slider-programas wp-post-image" alt="ok" title="ok" /></a>
+									<h3><a href="http://noticias.r7.com/reporter-record-investigacao">Repórter Record Investigação</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/reporter-record-investigacao">
+											<span>Segunda</span>
+											22h45										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/reporter-record-investigacao">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/reporter-em-acao"><img width="187" height="250" src="http://recordtv.r7.com/files/2017/03/qq.jpg" class="attachment-slider-programas wp-post-image" alt="qq" title="qq" /></a>
+									<h3><a href="http://noticias.r7.com/reporter-em-acao">Repórter em Ação</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/reporter-em-acao">
+											<span>DOMINGO</span>
+											23H15										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/reporter-em-acao">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/camera-record"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/10/Camera_Record1.jpg" class="attachment-slider-programas wp-post-image" alt="Câmera Record" title="Câmera Record" /></a>
+									<h3><a href="http://noticias.r7.com/camera-record">Câmera Record</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/camera-record">
+											<span>Quinta</span>
+											22h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/camera-record">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/fala-brasil"><img width="187" height="250" src="http://recordtv.r7.com/files/2015/10/Fala-Brasil.jpg" class="attachment-slider-programas wp-post-image" alt="Fala Brasil" title="Fala Brasil" /></a>
+									<h3><a href="http://noticias.r7.com/fala-brasil">Fala Brasil</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/fala-brasil">
+											<span>Segunda a Sábado</span>
+											08h55 e 07h										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/fala-brasil">
+											Visite o site 										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/jornal-da-record"><img width="187" height="250" src="http://recordtv.r7.com/files/2012/05/Jornal_da_Record.jpg" class="attachment-slider-programas wp-post-image" alt="Jornal da Record" title="Jornal da Record" /></a>
+									<h3><a href="http://noticias.r7.com/jornal-da-record">Jornal da Record</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/jornal-da-record">
+											<span>Segunda a sábado </span>
+											21h45 e 19h45										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/jornal-da-record/videos/">
+											Visite o site										</a>
+																			</p>
+								</li>
+							
+																<li>
+									<a href="http://noticias.r7.com/sp-no-ar"><img width="187" height="250" src="http://recordtv.r7.com/files/2012/03/LUIZ-BACCI_105_FOTO-EDU-MORAESOK.jpg" class="attachment-slider-programas wp-post-image" alt="LUIZ BACCI_105_FOTO EDU MORAESOK" title="LUIZ BACCI_105_FOTO EDU MORAESOK" /></a>
+									<h3><a href="http://noticias.r7.com/sp-no-ar">SP no Ar</a></h3>
+									<p>
+										<a href="http://noticias.r7.com/sp-no-ar">
+											<span>Segunda a sexta</span>
+											07h30										</a>
+									</p>
+									<p class="more">
+																				<a href="http://noticias.r7.com/sp-no-ar">
+											Visite o site										</a>
+																			</p>
+								</li>
+																									</ul>
+				</div>
+			</div>
+
+			<div class="grid_12 alpha omega sep">
+				<div class="grid_4 alpha omega">
+										<h2>Programa do Porchat</h2>
+					<ul class="chamadas">
+										<li class="grid_2 alpha">
+						<a target="_blank" href="http://entretenimento.r7.com/programa-do-porchat/thammy-miranda-diz-que-sentia-necessidade-de-pedir-desculpas-a-gretchen-24032017"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/tammynotinha.jpg" class="attachment-rodape-six" alt="Edu Moraes/Record TV" title="Edu Moraes/Record TV" /></a>
+						<p class="chapeu"><a target="_blank" href="http://entretenimento.r7.com/programa-do-porchat/thammy-miranda-diz-que-sentia-necessidade-de-pedir-desculpas-a-gretchen-24032017">Mãe é mãe</a></p>
+						<h3><a target="_blank" href="http://entretenimento.r7.com/programa-do-porchat/thammy-miranda-diz-que-sentia-necessidade-de-pedir-desculpas-a-gretchen-24032017">Gênero</a></h3>
+						<p class="sub"><a target="_blank" href="http://entretenimento.r7.com/programa-do-porchat/thammy-miranda-diz-que-sentia-necessidade-de-pedir-desculpas-a-gretchen-24032017">Thammy revela que sentia necessidade se desculpar com Gretchen</a></p>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="https://www.youtube.com/watch?v=q_cpmFiy9Mk"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/porchat1-140x90.png" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=q_cpmFiy9Mk">Novo quadro</a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=q_cpmFiy9Mk">Van do Porchat</a></h3>
+						<p class="sub"><a target="_self" href="https://www.youtube.com/watch?v=q_cpmFiy9Mk">Apresentador oferece uma carona cheia de surpresas; assista!</a></p>
+					</li>
+										</ul>
+				</div>
+				<div class="grid_4 borders">
+										<h2 class="grid_4">Hoje em Dia</h2>
+					<ul class="chamadas">
+															<li class="grid_2 alpha">
+						<a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-robos-domesticos-fazem-parte-da-rotina-das-familias-modernas-24032017"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/robos-140x90.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-robos-domesticos-fazem-parte-da-rotina-das-familias-modernas-24032017">Tecnologia</a></p>
+						<h3><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-robos-domesticos-fazem-parte-da-rotina-das-familias-modernas-24032017">Supermáquinas</a></h3>
+						<p class="sub"><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-robos-domesticos-fazem-parte-da-rotina-das-familias-modernas-24032017">Robôs domésticos dividem a rotina com as famílias modernas; veja</a></p>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-menina-com-doenca-rara-da-uma-licao-de-vida-na-internet-24032017"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/meninadoençarara-140x90.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-menina-com-doenca-rara-da-uma-licao-de-vida-na-internet-24032017">Internet</a></p>
+						<h3><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-menina-com-doenca-rara-da-uma-licao-de-vida-na-internet-24032017">Lição de vida</a></h3>
+						<p class="sub"><a target="_self" href="http://entretenimento.r7.com/hoje-em-dia/videos/-menina-com-doenca-rara-da-uma-licao-de-vida-na-internet-24032017">Menina com doença rara cativou equipe médica e os internautas </a></p>
+					</li>
+										</ul>
+				</div>
+				<div class="grid_4 alpha omega series">
+										<h2>Fale com a Rede Record</h2>
+					<div class="chamadas">
+						<a target="" href="http://recordtv.r7.com/cite/"><img width="300" height="120" src="http://recordtv.r7.com/files/2016/11/cite-300x120.png" class="attachment-series-home" alt="cite-300x120" title="cite-300x120" /></a>
+						<p class="chapeu"><a target="_blank" href="http://recordtv.r7.com/cite/">Canal de Interatividade do Telespectador</a></p>
+						<h3><a target="_blank" href="http://recordtv.r7.com/cite/">Entre em contato com a Record por meio deste formulário, enviando sua opinião, sugestão, críticas ou comentários</a></h3>
+						<p class="more"><a href="http://recordtv.r7.com/institucional/">Conheça a Record</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="grid_12 alpha omega sep">
+				<div class="grid_4 alpha omega">
+										<h2>Cidade Alerta </h2>
+					<ul class="chamadas">
+										<li class="grid_2 alpha">
+						<a target="_self" href="https://www.youtube.com/watch?v=KGBgPpriXmI"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/CIDADE3.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=KGBgPpriXmI">Patrulha do Consumidor </a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=KGBgPpriXmI">Mulher exige documento do carro já pago</a></h3>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="https://www.youtube.com/watch?v=gZOP1p40kzI"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/CIDADE21.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=gZOP1p40kzI">Tragédia</a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=gZOP1p40kzI">Mulher é assassinada e deixa filhos pequenos</a></h3>
+					</li>
+										</ul>
+				</div>
+				<div class="grid_4 borders">
+										<h2 class="grid_4">Jornal da Record </h2>
+					<ul class="chamadas">
+										<li class="grid_2 alpha">
+						<a target="_self" href="https://www.youtube.com/watch?v=VwXaQ9GuNRw"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/jr25.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=VwXaQ9GuNRw">Novo sinal </a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=VwXaQ9GuNRw">Veja como aproveitar a imagem digital </a></h3>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="https://www.youtube.com/watch?v=MYM_1EnfBzc"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/JR5.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=MYM_1EnfBzc">Vagas </a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=MYM_1EnfBzc">Páscoa aquece vagas de empregos temporários no País</a></h3>
+					</li>
+										</ul>
+				</div>
+				<div class="grid_4 alpha omega">
+										<h2>O que você mais gosta de ver na tela da Record?</h2>
+					<div class="textwidget">
+						
+<form method="post" action="http://recordtv.r7.com/enquetes/o-que-voce-mais-gosta-de-ver-na-tela-da-record-2/?show_poll=1#r7-poll-76599" class="wp-polls-form" id="r7-poll-76599">
+    <input type="hidden" name="r7_poll_vote_id" value="76599" />
+    <ul class="opcoes">
+        		<li >
+                        <input type="radio" value="1" name="r7_poll_option" /> 
+            Novelas        </li>
+        		<li >
+                        <input type="radio" value="2" name="r7_poll_option" /> 
+            Reality shows        </li>
+        		<li >
+                        <input type="radio" value="3" name="r7_poll_option" /> 
+            Jornalismo        </li>
+        		<li >
+                        <input type="radio" value="4" name="r7_poll_option" /> 
+            Filmes        </li>
+        		<li >
+                        <input type="radio" value="5" name="r7_poll_option" /> 
+            Programas de auditório        </li>
+        		<li >
+                        <input type="radio" value="6" name="r7_poll_option" /> 
+            Séries        </li>
+        	</ul>
+    
+	
+     
+    
+
+    <input type="submit" name="submit_action" value="Votar" class="button votar_btn" />
+        <input type="submit" name="submit_action" value="Ver resultado" class="button resultados_btn" />
+        </form>
+<script type="text/javascript">
+	jQuery("#r7-poll-76599").submit(function(){
+		if(jQuery(this).attr("data-is_sub") != "yes"){
+			jQuery(this).attr("data-is_sub" , "yes");
+		}
+		else{
+			return false;
+		}
+	});
+</script>
+					</div>
+									</div>
+			</div>
+
+			<div class="grid_12 alpha omega sep">
+				<div class="grid_4 alpha omega">
+										<h2>Not&iacute;cias</h2>
+					<ul class="chamadas box_140_90">
+										<li class="grid_2 alpha">
+						<a target="_self" href="https://www.youtube.com/watch?v=W01-qG6HILI"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/auditor.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=W01-qG6HILI">Violência</a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=W01-qG6HILI">Auditor fiscal morre após ser baleado na cabeça 
+
+</a></h3>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="https://www.youtube.com/watch?v=Ps_IUoxxYwI"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/bandidos.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=Ps_IUoxxYwI">Justiça</a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=Ps_IUoxxYwI">Vítimas ajudam a polícia a prender bandidos; assista</a></h3>
+					</li>
+										<li class="grid_2 alpha">
+						<a target="_self" href="https://www.youtube.com/watch?v=KuVbRru3SXY"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/maconha.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="https://www.youtube.com/watch?v=KuVbRru3SXY">Maconha</a></p>
+						<h3><a target="_self" href="https://www.youtube.com/watch?v=KuVbRru3SXY">Plantação é descoberta em apartamento; veja</a></h3>
+					</li>
+										<li class="grid_2 omega">
+						<a target="_self" href="http://noticias.r7.com/sp-no-ar/videos/-quadrilha-e-presa-por-vender-sinal-de-tv-a-cabo-23032017"><img width="140" height="90" src="http://recordtv.r7.com/files/2017/03/tvacabo.jpg" class="attachment-rodape-six" alt="Reprodução/Record TV" title="Reprodução/Record TV" /></a>
+						<p class="chapeu"><a target="_self" href="http://noticias.r7.com/sp-no-ar/videos/-quadrilha-e-presa-por-vender-sinal-de-tv-a-cabo-23032017">Crime</a></p>
+						<h3><a target="_self" href="http://noticias.r7.com/sp-no-ar/videos/-quadrilha-e-presa-por-vender-sinal-de-tv-a-cabo-23032017">Quadrilha é presa por vender sinal de TV a cabo; assista</a></h3>
+					</li>
+										</ul>
+				</div>
+				<div class="grid_4 borders" id="twitter">
+					<h2 class="grid_4">Twitter</h2>
+<ul>
+			<li>
+		<a href="http://www.twitter.com/recordtvoficial" class="grid_1"><img src="http://pbs.twimg.com/profile_images/805250802625474560/dlbtPQWm_normal.jpg" /></a>
+		<a href="http://www.twitter.com/recordtvoficial/status/" class="grid_3">
+			<strong>@recordtvoficial:</strong>RT @SabrinaNaRecord: Claro que a Japa deu uma sambadinha! #ProgramaDaSabrina #QueremosContinuarComVc https://t.co/IexCJXgfva			<span>46 minutos atrás</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.twitter.com/recordtvoficial" class="grid_1"><img src="http://pbs.twimg.com/profile_images/805250802625474560/dlbtPQWm_normal.jpg" /></a>
+		<a href="http://www.twitter.com/recordtvoficial/status/" class="grid_3">
+			<strong>@recordtvoficial:</strong>Corte no sinal? Conheça seus direitos sobre TV por assinatura  https://t.co/8rVPuLapvE #QueremosContinuarComVC			<span>55 minutos atrás</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.twitter.com/recordtvoficial" class="grid_1"><img src="http://pbs.twimg.com/profile_images/805250802625474560/dlbtPQWm_normal.jpg" /></a>
+		<a href="http://www.twitter.com/recordtvoficial/status/" class="grid_3">
+			<strong>@recordtvoficial:</strong>RT @SabrinaNaRecord: E agora a Japa levou @FabioPorchat para uma loja de noivas! #ProgramaDaSabrina #QueremosContinuarComVc https://t.co/0T…			<span>58 minutos atrás</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.twitter.com/recordtvoficial" class="grid_1"><img src="http://pbs.twimg.com/profile_images/805250802625474560/dlbtPQWm_normal.jpg" /></a>
+		<a href="http://www.twitter.com/recordtvoficial/status/" class="grid_3">
+			<strong>@recordtvoficial:</strong>RT @SabrinaNaRecord: O que será que @FabioPorchat e a Japa vão comprar no mercadão? #ProgramaDaSabrina #QueremosContinuarComVc https://t.co…			<span>1 hora atrás</span>
+		</a>
+	</li>
+		</ul>
+				</div>
+				<div class="grid_4 alpha omega">
+					<h2>Facebook</h2>
+
+							<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Frecordtvoficial%2F&amp;header=true&amp;show_faces=true&amp;stream=true&amp;colorscheme=light&amp;height=400&amp;width=300&amp;locale=pt_BR" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:400px;" allowTransparency="true"></iframe>
+						</div>
+			</div>
+
+			<div class="grid_12 alpha omega bloco-rodape">
+								<h2>Por dentro da Record</h2>
+					<ul class="chamadas produtos">
+										<li class="grid_2 alpha">
+						<p class="chapeu blue"><a target="_blank" href="https://recordimprensa.ir7.com.br/">Sala de Imprensa</a></p>
+						<a target="_blank" href="https://recordimprensa.ir7.com.br/"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-SalaImprensa.png" class="attachment-rodape-six" alt="140x90-SalaImprensa" title="140x90-SalaImprensa" /></a>
+						<h3><a target="_blank" href="https://recordimprensa.ir7.com.br/">Divulgação</a></h3>
+						<p><a target="_blank" href="https://recordimprensa.ir7.com.br/">Na Sala de Imprensa da emissora você fica sabendo das novidades</a></p>
+					</li>
+										<li class="grid_2 ">
+						<p class="chapeu blue"><a target="_blank" href="http://recordtv.r7.com/comunicacao/tudo-record">RECORDTV</a></p>
+						<a target="_blank" href="http://recordtv.r7.com/comunicacao/tudo-record"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-TudoRecord.png" class="attachment-rodape-six" alt="140x90-TudoRecord" title="140x90-TudoRecord" /></a>
+						<h3><a target="_blank" href="http://recordtv.r7.com/comunicacao/tudo-record">Tudo Record</a></h3>
+						<p><a target="_blank" href="http://recordtv.r7.com/comunicacao/tudo-record">Fique por dentro do que acontece na RECORDTV</a></p>
+					</li>
+										<li class="grid_2 ">
+						<p class="chapeu blue"><a target="_blank" href="http://www.erecord.com.br/">Record Entretenimento</a></p>
+						<a target="_blank" href="http://www.erecord.com.br/"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-Entrete.png" class="attachment-rodape-six" alt="140x90-Entrete" title="140x90-Entrete" /></a>
+						<h3><a target="_blank" href="http://www.erecord.com.br/">Conheça!</a></h3>
+						<p><a target="_blank" href="http://www.erecord.com.br/">Cultura, licenciamento
+de marcas, cinema e muito mais para você</a></p>
+					</li>
+										<li class="grid_2 ">
+						<p class="chapeu blue"><a target="_blank" href="http://recordtv.r7.com/tv-digital/">TV Digital</a></p>
+						<a target="_blank" href="http://recordtv.r7.com/tv-digital/"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-TVDigital.png" class="attachment-rodape-six" alt="140x90-TVDigital" title="140x90-TVDigital" /></a>
+						<h3><a target="_blank" href="http://recordtv.r7.com/tv-digital/">Tecnologia</a></h3>
+						<p><a target="_blank" href="http://recordtv.r7.com/tv-digital/">Tire as suas dúvidas sobre os conceitos da TV Digital. Clique aqui!</a></p>
+					</li>
+										<li class="grid_2 ">
+						<p class="chapeu blue"><a target="_blank" href="http://recordtv.r7.com/emissoras-record/pesquisa-de-sinal/pesquisa/">Pesquisa de Sinal</a></p>
+						<a target="_blank" href="http://recordtv.r7.com/emissoras-record/pesquisa-de-sinal/pesquisa/"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-Pesquisa.png" class="attachment-rodape-six" alt="140x90-Pesquisa" title="140x90-Pesquisa" /></a>
+						<h3><a target="_blank" href="http://recordtv.r7.com/emissoras-record/pesquisa-de-sinal/pesquisa/">Qualidade</a></h3>
+						<p><a target="_blank" href="http://recordtv.r7.com/emissoras-record/pesquisa-de-sinal/pesquisa/">Como chega o sinal da RecordTV na sua casa? Conte para nós!</a></p>
+					</li>
+										<li class="grid_2 omega">
+						<p class="chapeu blue"><a target="_blank" href="http://recordtv.r7.com/cite/">CITE</a></p>
+						<a target="_blank" href="http://recordtv.r7.com/cite/"><img width="140" height="90" src="http://recordtv.r7.com/files/2016/11/140x90-CITE.png" class="attachment-rodape-six" alt="140x90-CITE" title="140x90-CITE" /></a>
+						<h3><a target="_blank" href="http://recordtv.r7.com/cite/">Fale com a Record</a></h3>
+						<p><a target="_blank" href="http://recordtv.r7.com/cite/">Central de Interatividade do Telespectador é o seu lugar na emissora</a></p>
+					</li>
+										</ul>
+
+			</div>
+
+		</div>
+	</div>
+
+		</div><!-- /main -->
+			</div><!-- /wrapper -->
+	<div class="disclameir">A RecordTV informa que não oferece vagas de emprego, prêmios ou participação nos programas por e-mail</div>
+</div><!-- /all -->
+</div><!-- /bgclique -->
+
+	<script type="text/javascript" src="http://recordtv.r7.com/wp-content/themes/recordtv/js/hidePub.js"></script>
+	<script type="text/javascript" src="http://recordtv.r7.com/wp-content/themes/recordtv/scripts/sqr-flash.js"></script>
+
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/r7-zcaptcha/js/r7-zcaptcha.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var emailL10n = {
+	ajax_url: "http://recordtv.r7.com/wp-content/plugins/wp-email/wp-email.php",
+	max_allowed: "5",
+	text_error: "The Following Error Occurs:",
+	text_name_invalid: "- Your Name is empty/invalid",
+	text_email_invalid: "- Your Email is empty/invalid",
+	text_friend_names_empty: "- Friend Name(s) is empty",
+	text_friend_name_invalid: "- Friend Name is empty/invalid: ",
+	text_max_friend_names_allowed: "- Maximum 5 Friend Names allowed",
+	text_friend_emails_empty: "- Friend Email(s) is empty",
+	text_friend_email_invalid: "- Friend Email is invalid: ",
+	text_max_friend_emails_allowed: "- Maximum 5 Friend Emails allowed",
+	text_friends_tally: "- Friend Name(s) count does not tally with Friend Email(s) count",
+	text_image_verify_empty: "- Image Verification is empty"
+};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/wp-email/email-js.js?ver=2.50'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/wp-email/js/email-modal.js?ver=1.0'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/themes/recordtv/js/r7-torpedo.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/contact-form-7-r7/jquery.form.js?ver=2.52'></script>
+<script type='text/javascript' src='http://recordtv.r7.com/wp-content/plugins/contact-form-7-r7/scripts.js?ver=2.4.4'></script>
+<style type="text/css">#rodape_rederecord, #rodape_rederecord a{color:#000!important}#rodape_rederecord{background-color:#ccc!important}</style><script type="text/javascript" src="https://scs.r7.com/footer-record/js/rodape.js"></script><noscript><a href="http://rederecord.r7.com/" title="Rádio e Televisão Record">Rádio e Televisão Record S/A</a></noscript>
+		<div id="footer_audience_scripts">
+
+		<!-- #start GoogleUniversal -->
+		<script src="https://scs.r7.com/scode/googleuniversal_tag.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			/* call function and request google universal */
+			gUniversalLoadAntigoCmsURL();
+		</script>
+		<!-- #end GoogleUniversal -->
+
+		    <!-- Piwik Image Tracker --><img src="http://siteswp.homol.log.ir7.com.br/siteswp.gif?page_cat_id=150" style="border:0px; display: none"><!-- End Piwik --></div>
+	
+        
+        <!-- TailTarget Tag Manager TT-9964-3/CT-23 -->
+        <script>
+        (function(i) {
+            var ts = document.createElement('script');
+            ts.type = 'text/javascript';
+            ts.async = true;
+            ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ts, s);
+        })('TT-9964-3/CT-23');
+        </script>
+        <!-- End TailTarget Tag Manager -->
+
+
+</body>
+</html>
+
+|||
+http://cartaodevisita.r7.com/perguntas-frequentes
+|
+
+<!doctype html>
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<base href="/">
+		
+		<title>Perguntas Frequentes - Cartão de Visita</title>
+		<meta name="description" content="Perguntas Frequentes">
+		<meta name="keywords" content="Perguntas Frequentes">
+		
+		<meta name="viewport" content="width=device-width">
+
+	<meta property="og:title" content="Perguntas Frequentes"/><meta property="og:url" content="http://cartaodevisita.r7.com/perguntas-frequentes"/><meta property="og:site_name" content="Cartão de Visita"/>
+		<link rel="stylesheet" href="/css/site.css?1.17">
+		<link rel="stylesheet" href="/css/form_modal.css?1.17">
+		
+		<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+		<script src="/js/libs/jquery-1.9.1.min.js"></script>
+		<script src="/js/libs/swfobject.js"></script>
+		<script src="/js/libs/util.js?123"></script>
+		<script src="/js/script.js?1.17"></script>
+		<script type="text/javascript">
+			var SITE_PATH = '/';
+			var SITE_PATH_ADM = '/adm/';
+
+			//*********************************************************
+			//R7
+			(function (url) {
+				var
+				isSSL = document.location.protocol === 'https:',
+				r7adUrl = (isSSL ? 'https:' : 'http:') + '//adv.r7.com/script?href=',
+				pageUrl = (typeof url === 'undefined' ? document.location.href : url);
+				document.write('<scr' + 'ipt src="' + r7adUrl + pageUrl + '"><\/scr' + 'ipt>');
+			}());
+			//R7
+		</script>
+
+
+
+
+		<style>
+			#r7header {
+				background-color: #0071bc;
+				display: block;
+				height: 60px;
+				text-align: center;
+				width: 100%;
+			}
+		</style>
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+	</head>
+	<body>
+		<a id="r7header" href="http://www.r7.com" target="_blank">
+			<amp-img src="https://scs.r7.com/amp/logo-r7-amp.png" width="200" height="60"></amp-img>
+		</a>
+		<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:false ,banner:false ,submenu:false}</script>
+		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Atualize seu browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">instale o Google Chrome Frame</a> para utilizar este site.</p><![endif]-->
+		<div class="content">
+		
+			<header class="full_width">
+	<div class="full_width top_logo_banner">
+		<div class="logo">
+			<a href="/"><img src="/img/logo.png" /></a>
+		</div>
+
+		<div class="banner">
+			<script>
+				r7ad.printGAds([728, 90], 'Superbanner');
+			</script>
+		</div>
+	</div>
+
+	<div class="full_width main_menu">
+		<ul>
+			<li class="" title="Coluna Cartão de Visita"><a href="/menu/1/coluna-cartao-de-visita">Coluna Cartão de Visita</a><ul class="">		<li title="Por Zacarias Pagnanelli"><a href="/menu/1/10/por-zacarias-pagnanelli">Por Zacarias Pagnanelli</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=aab3238922bcc25a6f606eb525ffdc56"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/14.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Informes"><a href="/menu/2/informes">Informes</a><ul class="">		<li title="Canal Jurídico"><a href="/menu/2/61/canal-juridico">Canal Jurídico</a></li>		<li title="Pista 60 Camarote 120"><a href="/menu/2/74/kids-e-teens">Kids e Teens</a></li></ul>	</li>	<li class="" title="Business"><a href="/menu/4/business">Business</a><ul class="">		<li title="Agronegócio"><a href="/menu/4/54/agronegocio">Agronegócio</a></li></ul>	</li>	<li class="" title="Autoridades"><a href="/menu/3/autoridades">Autoridades</a>	</li>	<li class="" title="Cultura"><a href="/menu/5/cultura">Cultura</a><ul class="col2">		<li title="Teatro"><a href="/menu/5/9/teatro">Teatro</a></li>		<li title="Música"><a href="/menu/5/8/musica">Música</a></li>		<li title="Cinema"><a href="/menu/5/12/cinema">Cinema</a></li>		<li title="Viagem"><a href="/menu/5/13/viagem">Viagem</a></li>		<li title="Educação"><a href="/menu/5/17/educacao">Educação</a></li>		<li title="Fotografia"><a href="/menu/5/14/fotografia">Fotografia</a></li>		<li title="Arquitetura"><a href="/menu/5/15/arquitetura">Arquitetura</a></li>		<li title="Decoração"><a href="/menu/5/16/decoracao">Decoração</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=9bf31c7ff062936a96d3c8bd1f8f2ff3"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/15.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Viver"><a href="/menu/6/viver">Viver</a><ul class="col2">		<li title="Saúde"><a href="/menu/6/18/saude">Saúde</a></li>		<li title="Moda"><a href="/menu/6/19/moda">Moda</a></li>		<li title="Beleza"><a href="/menu/6/20/beleza">Beleza</a></li>		<li title="Beber e Comer"><a href="/menu/6/21/beber-e-comer">Beber e Comer</a></li>		<li title="Esporte"><a href="/menu/6/22/esporte">Esporte</a></li>		<li title="Mundo Pet"><a href="/menu/6/39/mundo-pet">Mundo Pet</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=67c6a1e7ce56d3d6fa748ab6d9af3fd7"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/47.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Notícias"><a href="/menu/7/noticias">Notícias</a>	</li>	<li class="" title="Televisão"><a href="/menu/8/televisao">Televisão</a>	</li>	<li class="last" title="Motor"><a href="/menu/9/motor">Motor</a>	</li>		</ul>
+	</div>
+
+	<div class="full_width sec_menu">
+		<div class="search">
+			<form action="pesquisa/" onsubmit="return formSearch();" method="GET">
+				<input type="text" name="palavra-chave" id="palavra-chave" value=""/>
+				<input type="submit" value="" />
+			</form>
+		</div>
+
+		<div class="sec_menu_options">
+			<ul>
+				<li>Colunistas
+				<ul class="submenu col2">		<li><a href="/menu/1/10/por-zacarias-pagnanelli">Zacarias Pagnanelli</a></li>		<li><a href="/menu/11/40/programa-cartao-de-visita">Débora Santilli</a></li>		<li><a href="/menu/15/29/andrea-pagnanelli">Andrea Pagnanelli</a></li>		<li><a href="/menu/15/31/godi-junior">Godi Júnior</a></li>		<li><a href="/menu/15/35/rodolfo-bonventti">Rodolfo Bonventti</a></li>		<li><a href="/menu/15/37/ruvin-singal">Ruvin Singal</a></li>		<li><a href="/menu/15/46/lica-gimenes">Lica Gimenes</a></li>		<li><a href="/menu/15/52/tamara-almeida">Tamara Almeida</a></li>		<li><a href="/menu/15/60/cau-marques">Cau Marques</a></li>		<li><a href="/menu/15/68/fabiola-lajusticia">Fabíola Lajusticia</a></li>		<li><a href="/menu/15/73/patricia-fernandes">Patrícia Fernandes</a></li>		<li><a href="/menu/15/75/andre-garcia">André Garcia</a></li>		<li><a href="/menu/15/79/julia-contarelli">Júlia Contarelli</a></li>		<li><a href="/menu/15/80/fabiano-de-abreu">Fabiano de Abreu</a></li></ul>				</li>
+				<li>Blogueiros
+				<ul class="submenu col2">		<li><a href="/menu/16/42/roberto-kroll">Roberto Kroll</a></li>		<li><a href="/menu/16/48/talita-alves">Talita Alves</a></li>		<li><a href="/menu/16/59/mauro-e-tati">Mauro e Tati</a></li>		<li><a href="/menu/16/64/luh-isaga">Luh Isaga</a></li>		<li><a href="/menu/16/72/fabiano-de-abreu">Fabiano de Abreu</a></li>		<li><a href="/menu/16/77/rodrigo-pagliani">Rodrigo Pagliani</a></li>		<li><a href="/menu/16/78/blogueiro">Blogueiro</a></li></ul>				</li>
+				<li>Cartão na TV
+				<ul class="submenu ">		<li><a href="/menu/11/40/programa-cartao-de-visita">Programa Cartão de Visita</a></li>		<li><a href="/menu/11/76/economia-negocios">Economia/Negócios</a></li>		<li><a href="/menu/11/81/cartao-de-visita-online">Cartão de Visita OnLine</a></li></ul>				</li>
+				<a href="/menu/12/na-midia"><li>Na Mídia</li></a>
+				<li>
+					<a target="_blank" href="https://www.facebook.com/colunacartaodevisita"><img src="/img/ico_fb.png"/></a>
+					<a target="_blank" href="https://twitter.com/cartaovip"><img src="/img/ico_tt.png"/></a>
+					<!--<a target="_blank" href=""><img src="/img/ico_yt.png"/></a>
+					<a target="_blank" href=""><img src="/img/ico_instg.png"/></a>!-->
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="full_width">
+
+	</div>
+</header>
+			<div role="main" class="main full_width conteudo">
+				<div class="main_content">
+					
+					<div class="column left_column">
+											
+						<div class="block_header">
+							<div class="font_size">
+								<span class="ico_font_size minus" onclick="conteudoFontSize('-');"></span>
+								<span class="ico_font_size plus" onclick="conteudoFontSize('+');"></span>
+							</div>
+						</div>
+						<h1>Perguntas Frequentes</h1>
+						<div class="texto"><p><strong>Reunimos abaixo algumas perguntas frequentemente enviadas ao Cart&atilde;o de Visita. Se voc&ecirc; tiver mais alguma d&uacute;vida, envie um e-mail para </strong><a href="mailto:telehistoria@telehistoria.com.br"><strong>contato@cartaodevisita.com.br</strong></a><br />
+<br />
+1. O Cart&atilde;o de Visita cede ou comercializa v&iacute;deos?<br />
+<br />
+O Cart&atilde;o de&nbsp; Visita n&atilde;o cede, troca ou comercializa qualquer conte&uacute;do integrante de seu arquivo. As imagens e materiais arquivados s&atilde;o usados apenas para consultas e para produ&ccedil;&atilde;o de fotos que s&atilde;o inseridas no site. Para comprar v&iacute;deos dos programas, entre em contato com as emissoras e/ou produtoras.<br />
+<br />
+2. O Cart&atilde;o de Vsiita tem alguma liga&ccedil;&atilde;o com as emissoras ou pessoas citadas no site?<br />
+<br />
+O Cart&atilde;o de Vsiita n&atilde;o tem qualquer liga&ccedil;&atilde;o com as emissoras ou pessoas citadas no site. Todas as informa&ccedil;&otilde;es disponibilizadas s&atilde;o fruto de pesquisas em jornais, revistas, livros, trabalhos acad&ecirc;micos, depoimentos e entrevistas. A &uacute;nica parceria existente &eacute; de conte&uacute;do com o portal R7.<br />
+<br />
+3. Posso usar o conte&uacute;do do Cart&atilde;o de Visita ou colocar um link em meu site?<br />
+<br />
+O conte&uacute;do pr&oacute;prio do Cart&atilde;o de Visita (textos, fotos e pesquisas produzidas pela equipe) n&atilde;o pode ser utilizado comercialmente, salvo com autoriza&ccedil;&atilde;o da dire&ccedil;&atilde;o do site. Para pesquisas, trabalhos acad&ecirc;micos e reportagens, o conte&uacute;do pode ser utilizado livremente, desde que citada a fonte. Para conte&uacute;dos extra&iacute;dos de outras publica&ccedil;&otilde;es e sites, pe&ccedil;a autoriza&ccedil;&atilde;o aos detentores do material, cujas fontes s&atilde;o citadas por nosso portal. Sobre os links, voc&ecirc; pode colocar quantos quiser em seu site.<br />
+<br />
+4&nbsp;- Encontrei um erro no site, como posso comunicar?<br />
+<br />
+Colabora&ccedil;&otilde;es e corre&ccedil;&otilde;es s&atilde;o bem vindas para manter o conte&uacute;do do Cart&atilde;o de Visita sempre em dia. Entre em contato conosco atrav&eacute;s do e-mail <a href="mailto:contato@cartaovisita.com.br">contato@cartaovisita.com.br</a></p></div>
+
+										</div>
+
+					<!-- 
+	###############################################
+	Coluna Direita 1
+-->
+<div class="column _3">
+	<div class="block">
+	<div class="img publicidade top_right">	<a target="_new" href="/assinc/ad.php?id=f033ab37c30201f73f142449d037028d"><img title="barrio orlando" class="" src="/upload/publicidade_img/80.jpg" width="310" height="161" />	</a></div><div class="img publicidade top_right">	<a target="" href=""><div id="flash_381809060">	<h1>Instale o Flash</h1>	<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p></div><script type="text/javascript">swfobject.embedSWF("/upload/publicidade_img/6.swf", "flash_381809060", "300", "250", "9.0.0", "expressInstall.swf", false, { wmode:'opaque' });</script>	</a></div>	</div>
+
+	<div class="block video_destaque">
+		<div class="block_header">
+			<span class="title"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Programa Cartão de Visita</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<iframe  width="310" height="250" src="https://www.youtube.com/embed/_tlIaXw9mAQ" frameborder="0" scrolling="false"></iframe>
+		<p class="detail"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Fábio Bopp - Chefe do GER</a></p>
+	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">+ acessadas</span>
+			<div class="underline_tick"></div>
+		</div>
+
+	<div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17743/canto-do-alto-novo-espaco-de-eventos-na-zona-norte-carioca">20 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17743/canto-do-alto-novo-espaco-de-eventos-na-zona-norte-carioca">Canto do Alto: novo espaço de eventos na zona norte carioca</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17793/especializacao-em-implantodontia">23 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17793/especializacao-em-implantodontia">Especialização em implantodontia</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">24 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">O apresentador Cido Marques e a Mc Lary Figueiredo, agitam a loja Triton Eyewear em SP</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">20 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">XJ6N ABS 2018 CHEGA COM NOVAS CORES E GRAFISMO</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17724/a-irlanda-esta-entre-os-4-destinos-mais-procurados-pelos-intercambistas-brasileiros">19 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17724/a-irlanda-esta-entre-os-4-destinos-mais-procurados-pelos-intercambistas-brasileiros">A IRLANDA ESTA ENTRE OS 4 DESTINOS MAIS PROCURADOS PELOS INTERCAMBISTAS BRASILEIROS</a></h3></div>	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">destaque</span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content destaque">
+			<div class="block_header"><span class="aspas_destaque open"></span></div>
+			<h3 class="texto"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Não é uma tarefa fácil e não é justo ver diversas pessoas criticando a figura do policial.</a></h3>
+			<div class="block_header"><span class="aspas_destaque close"></span></div>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Fábio Bopp</a></p>
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Chefe do Grupo Especial de Reação da Polícia Civil</a></p>
+		</div>
+
+		<div class="block_content">
+			<!--<script type="text/javascript" src="//avessotv.com.br/tv/tv300.js"></script><noscript><a href="//www.avessotv.com.br" title="Avesso Bastidores">Avesso</a></noscript> -->
+		</div>
+
+		<div class="img publicidade top_right">	<a target="_new" href="/assinc/ad.php?id=3416a75f4cea9109507cacd8e2f2aefc"><img title="Anuncie" class="" src="/upload/publicidade_img/41.jpg" width="310" height="110" />	</a></div>	</div>
+
+</div>
+				</div>
+			</div>
+
+			<div class="full_width">
+	<div class="block">
+	<div class="img publicidade footer">	<a target="_new" href="/assinc/ad.php?id=a1d0c6e83f027327d8461063f4ac58a6"><img title="Anuncie aqui" class="" src="/upload/publicidade_img/42.jpg" width="730" height="90" />	</a></div>	</div>
+</div>
+
+<footer class="full_width">
+	<div class="sitemap">
+		<ul>
+		<li  style="width:11.8%"><a href="/quem-somos">Quem Somos     </a></li><li  style="width:11%"><a href="/nossa-equipe">Nossa Equipe  </a></li><li  style="width:7%"><a href

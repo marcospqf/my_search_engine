@@ -1,0 +1,815 @@
+|||
+http://assine.uol.com.br/landing-page-assine.html
+|
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<!-- includes/doctype/dolphinIncSub-doctypeHtml5.inc -->
+<!-- uol dolphin 3.6.17 - includes/dolphinInc-Main-RegisterShow.inc -->
+		
+
+			
+							
+	
+			
+					
+				
+		<head>
+		<title>UOL Assinaturas - Cadastro Pessoa F&#237;sica</title>
+		<!-- includes/meta/dolphinIncSub-meta.inc -->
+	<!-- Meta Tags -->
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta content="pt-br" http-equiv="Content-Language" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="Title" content="Cadastro UOL" />
+	<meta name="Description" content="Cadastro UOL" />
+	<meta name="Keywords" content="UOL" />
+	<meta name="organization name" content="UOL" />
+	<meta name="author" content="UOL" />
+	<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<link rel="shortcut icon" href="/info/src/img/favicon.ico" />
+	<!-- includes/dolphinIncSub-css.inc -->
+  <!-- CSS DEFAULT -->
+  <link rel="stylesheet" type="text/css" href="/info/src/css/dolphin/dolphin3/thickbox.min.css?3.6.17" />
+  <link rel="stylesheet" type="text/css" href="/info/src/css/dolphin/dolphin3/dolphinUOL3.min.css?3.6.17" />
+  <link rel="stylesheet" type="text/css" href="/info/src/css/carousel/dolphin3/styles.css?3.6.17" />
+  <link rel="stylesheet" type="text/css" href="/info/src/css/plugins/jquery.mCustomScrollbar/jquery.mCustomScrollbar.css?3.6.17" />
+  <link rel="stylesheet" type="text/css" href="/info/src/css/carousel/dolphin3/mCustomScrollbarStyles.css?3.6.17" />
+  <link rel="stylesheet" type="text/css" media="print" href="/info/src/css/dolphin/dolphin3/print.css?3.6.17" />
+  <!-- CSS PRINT -->
+  <link rel="stylesheet" type="text/css" href="/info/src/css/dolphin/dolphin3/printDocument.css?3.6.17" media="print" />
+
+    <link rel="stylesheet" href="/info/src/css/bank-debit-authorization-message/payment-method-component-1/bank-debit-authorization-message.css">
+	</head>
+		<body id="uolRegisterNew" class="uolRegisterWebChannel uolRegisterWebSingleOffer">
+			<!-- SKIN -> assine/uol/pf | FLOWTYPE -> uol -->
+		<div id="container">
+			<!-- includes/dolphinIncSub-header.inc -->
+<div id="header">
+					<div id="barra-estacao">
+			<h1>UOL</h1>
+			<h2>CADASTRO DE ASSINATURAS UOL</h2>
+												</div>
+</div>
+						<!-- includes/dolphinIncSub-flowList.inc -->
+					<div id="currentFlow" class="threeSteps">
+ 				<ul>
+						<li class="currentList">
+						Dados pessoais e pagamento
+					</li>
+					<li>
+						Confirma&#231;&#227;o da compra
+					</li>
+					<li>
+						Conclus&#227;o
+					</li>
+					</ul>
+			</div>
+			<div id="main">
+				<div id="register-offer" class="uol">
+					<form id="form-register-uol" method="post" class="formregister" action="indexb.html">
+						<div class="formDataContainer">
+							<div class="formLeftContent">
+										
+				
+									<fieldset class="namPersonNamRazaoData">
+									<legend>Seus dados cadastrais</legend>
+										
+									<!-- includes/dolphinIncSub-flowType.inc -->
+							<div id="flowTypeRadios" class="fieldset wrapRadios">
+								<input type="radio" class="inputRadioRegisterUol roi-person" id="choicePersonTypePF" name="personType" value="PF"  checked="checked" /> <label for="choicePersonTypePF" class="labelInFieldset">Pessoa f&#237;sica</label>
+								<input type="radio" class="inputRadioRegisterUol roi-person" id="choicePersonTypePJ" name="personType" value="PJ"  /> <label for="choicePersonTypePJ" class="labelInFieldset">Pessoa Jurídica</label>
+							</div>
+																		<!-- includes/dolphinIncSub-namPerson.inc -->
+							<div id="parent-namPerson" class="fieldparent textfield required">
+									<dl>
+										<dt>
+										<label for="namPerson">Nome completo:</label>
+									</dt>
+									<dd id="ddNamPerson">
+											<input type="text" id="namPerson" class="inputTextRegisterUol" name="namPerson" value="" maxlength="50" />
+										</dd>
+									<dd style="display: none;" class="invalid">
+										<p class="msg-mini error-mini">O nome que voc&#234; digitou apresenta algum problema.</p>
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Informe seu nome completo.</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+							</div>
+										</fieldset>
+								<fieldset class="cpfCnpjData">
+											<!-- includes/dolphinIncSub-personCpf.inc -->
+								<div class="fieldparent textfield required" id="group_cpf">
+									<dl>
+										<dt>
+											<label for="cpf">CPF:</label>
+										</dt>
+										<dd id="ddCPF">
+											<input type="text" id="cpf" class="inputTextRegisterUol registerUolIptTxt" value="" name="cpf" maxlength="14" /> 										</dd>
+										<dd style="display: none;" class="invalid">
+											<p class="msg-mini error-mini">O nome que voc&#234; digitou apresenta algum problema.</p>
+										</dd>
+										<dd style="display: none;" class="empty">
+											<p class="msg-mini alert-mini">Informe os n&#250;meros do seu CPF.</p>
+										</dd>
+										<dd class="newTip">
+											<p class="msg-mini newtip-mini"></p>
+										</dd>
+									</dl>
+										<hr class="hrDelimiter" />
+									<button id="btnValidCpf" type="button" class="buttonRegisterUol">Avan&#231;ar</button>
+									</div>
+										</fieldset>
+									<fieldset class="formRegister">
+																	<!-- includes/dolphinIncSub-registerDataConfirmation.inc -->
+										<!-- includes/dolphinIncSub-personType.inc -->
+																<!-- includes/dolphinIncSub-personBirth.inc -->
+							<div id="group_birth" class="fieldparent textfield inLineDiv required">
+								<dl>
+									<dt>
+										<label for="datBirth">Data de nascimento:</label>
+									</dt>
+									<dd>
+										<input id="datBirth" class="txnasc inputTextRegisterUol" type="text" name="datBirth" value="" />
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Informe a sua data de nascimento.</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+							</div>
+																<!-- includes/dolphinIncSub-personSex.inc -->
+							<div id="group_personSex" class="fieldparent radiofield wrapRadiosIn required">
+								<dl>
+									<dt><label>Sexo:</label></dt>
+									<dd>
+										<input id="personSex" class="inputRadioRegisterUol" type="radio" value="M" name="indSex"  /> <label for="personSex">Masculino</label>
+										<input id="indSexF" class="inputRadioRegisterUol" type="radio" value="F" name="indSex"  /> <label for="indSexF">Feminino</label>
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Verifique o sexo informado. Use "M" para masculino e "F" para feminino.</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+							</div>
+									</fieldset>
+								<fieldset class="formRegister">
+									<legend>Dados de contato</legend>
+									<!-- includes/dolphinIncSub-phones.inc -->
+															<!-- includes/dolphinIncSub-contactPfTel.inc -->
+							<div id="group_tel" class="fieldparent textfield inLineDivTop">
+								<dl>
+									<dt>
+										<label for="homePhoneDDD">Telefone residencial: <span class="grayEmphasys">(opcional)</span></label>
+									</dt>
+									<dd>
+										<input type="text" id="homePhoneDDD" class="inputTextRegisterUol phoneDDD" name="homePhoneDDD" maxlength="2" size="2" value="" /> <input type="text" id="homePhoneNumber" class="inputTextRegisterUol phoneNumber" name="homePhoneNumber" maxlength="9" value="" />
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Insira o DDD e o n&#250;mero do seu telefone residencial.</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+							</div>
+																<!-- includes/dolphinIncSub-contactPfTelCom.inc -->
+							<div class="fieldparent textfield inLineDivTop" id="group_tel_contact">
+								<dl>
+									<dt>
+										<label for="workPhoneDDD">Telefone de contato: <span class="grayEmphasys">(opcional)</span></label>
+									</dt>
+									<dd>
+										<input type="text" id="workPhoneDDD" class="inputTextRegisterUol phoneDDD" size="2" maxlength="2" name="workPhoneDDD" value="" /> <input type="text" id="workPhoneNumber" class="inputTextRegisterUol phoneNumber" maxlength="9" name="workPhoneNumber" value="" />
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Informe seu DDD e telefone contato</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+							</div>
+															<!-- includes/dolphinIncSub-contactCel.inc -->
+							<div id="group_cel" class="fieldparent textfield inLineDivNoBottom required">
+								<dl>
+									<dt>
+										<label for="celPhoneDDD">Telefone celular:</label>
+									</dt>
+									<dd>
+										<input type="text" id="celPhoneDDD" class="inputTextRegisterUol phoneDDD" name="celPhoneDDD" maxlength="2" size="2" value="" /> <input  type="text" id="celPhoneNumber" class="inputTextRegisterUol phoneNumber" name="celPhoneNumber" maxlength="9" value="" />
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">Insira o DDD e o n&#250;mero do seu celular.</p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini"></p>
+									</dd>
+								</dl>
+													<!-- includes/dolphinIncSub-cellPhoneTip.inc -->
+										<div class="cellphone_tip">
+						<p style="font-size: 14px;" >
+							<a href="#" onclick="javascript: tb_show('Nova regra para DDD 11','#TB_inline?height=380&width=800&inlineId=cel-modal-msg&modal=false'); return false;"><strong>Atenção!</strong> Nova regra para DDD 11</a>
+						</p>
+					</div>
+										<div id="cel-modal-msg" style="display: none;">
+						<div id="cel-modal-container">
+							<p>Informamos que, conforme a Resolu&#231;&#227;o n&#186; 553/10 da Anatel, a partir de 29/07/2012, todos os n&#250;meros de telefones celulares do Estado de S&#227;o Paulo (DDD 11) ser&#227;o acrescidos do d&#237;gito &quot;9&quot; (nove) antes do seu n&#250;mero de celular atual.</p>
+							<p><strong>Exemplo:</strong> Se seu n&#250;mero atual &#233; <strong>8543-XXXX</strong>, ent&#227;o, ficar&#225; <strong><em>9</em>8543-XXXX</strong>.</p>
+							<p>Para os telefones celulares da Nextel, com prefixos <strong>(11) 70xx</strong>, <strong>(11) 77xx</strong>, <strong>(11) 78xx</strong> e <strong>(11) 79xx</strong>, n&#227;o ser&#225; necess&#225;rio acrescentar o algarismo &quot;9&quot; (nove).<br /><br /></p>
+							<p>Desde já agradecemos.
+								<br /><br />
+								Equipe UOL</p>
+							<a href="#" id="modalOk">OK</a>
+						</div>
+					</div>
+							</div>
+																<!-- includes/dolphinIncSub-flgSMS.inc -->
+								<div id="group_flgSMS" class="fieldparent">
+								<dl>
+																			<dt>
+										<input type="checkbox" value="true" id="flgSMSConfirmed" name="flgSMSConfirmed" checked="checked" />
+										<label for="flgSMSConfirmed">Autorizo receber mensagens com ofertas de produtos e serviços do UOL no celular cadastrado.</label>
+									</dt>
+								</dl>
+							</div>
+
+										<!-- includes/dolphinIncSub-namUolLogin.inc -->
+							<div id="login-suggestions" class="fieldparent textfield required">
+								<p id="p-login-suggestions">
+									<span class="labelEmail">Sugest&#245;es de e-mail:</span>
+								</p>
+								<dl class="login-suggestions">
+									<dd class="other-email">
+										<input type="hidden" id="namLogin" name="namLogin" value="" />
+										<input type="radio" id="uol-opt-user" class="inputRadioRegisterUol" name="uol-options" value="" />
+										<label>
+											<span class="namLoginLabel">Outro e-mail:</span> <input type="text" id="namLoginVisible" name="namLoginVisible" class="iptTxtLoginSuggestRegUol loginSuggestion" value="" maxlength="32" autocomplete="off" /><span class="spanUolNamLogin uolEmail">@uol.com.br</span>
+										</label>
+									</dd>
+									<dd style="display: none;" class="empty">
+										<p class="msg-mini alert-mini">1 - Digite o endere&#231;o de e-mail que deseja entre 2 e 32 letras e/ou n&#250;meros.<br />2 - Os seguintes caracteres n&#227;o s&#227;o aceitos: ! # $ &amp; * + &#47; &#92; _ ) (.<br />3 - Pontos e h&#237;fens s&#227;o aceitos desde que n&#227;o iniciem ou finalizem o e-mail.<br /></p>
+									</dd>
+									<dd class="newTip">
+										<p class="msg-mini newtip-mini">1 - Digite o endere&#231;o de e-mail que deseja entre 2 e 32 letras e/ou n&#250;meros.<br />2 - Os seguintes caracteres n&#227;o s&#227;o aceitos: ! # $ &amp; * + &#47; &#92; _ ) (.<br />3 - Pontos e h&#237;fens s&#227;o aceitos desde que n&#227;o iniciem ou finalizem o e-mail.</p>
+									</dd>
+								</dl>
+							</div>
+								</fieldset>
+								<fieldset class="formRegister passwordFldArea">
+									<legend>Dados de acesso</legend>
+									<!-- includes/dolphinIncSub-desPassword.inc -->
+							<input type="hidden" id="newPassword" name="newPassword" value="true" />
+							<div id="group_password_assina" class="fieldparent textfield inLineDivTop required">
+								<dl>
+									<dt>
+										<label>Senha:</label>
+									</dt>
+									<dd>
+										<input id="desPassword" type="password" name="desPassword" value="" class="iptTxtDesPassRegUol" maxlength="32" />
+											<div class="pstrength">
+											<span class="score">Força de senha</span>
+											<div class="bar" style="background-position: 0px 0px;">&nbsp;</div>
+										</div>
+										</dd>
+									<dd class="empty" style="display: none;">
+										<p class="msg-mini alert-mini">A senha deve ter ao menos duas das seguintes op&#231;&#245;es: letras mai&#250;sculas, letras min&#250;sculas, n&#250;meros ou caracteres especiais.</p>
+									</dd>
+									<dd class="invalid" style="display: none;">
+										<p class="msg-mini error-mini">A senha deve ter ao menos duas das seguintes op&#231;&#245;es: letras mai&#250;sculas, letras min&#250;sculas, n&#250;meros ou caracteres especiais.</p>
+									</dd>
+										<dd id="desPasswordTipContainer" class="newTip">
+										<div class="arrowLeft"></div>
+										<div class="tipContainer">
+											<p id="desPasswordTip" class="msg-mini newtip-mini">A senha deve ter ao menos duas das seguintes op&#231;&#245;es: letras mai&#250;sculas, letras min&#250;sculas, n&#250;meros ou caracteres especiais.</p>
+										</div>
+									</dd>
+									<dd id="dessPasswordMessage" style="display: none;">
+										<p class="msg-mini alert-mini"></p>
+									</dd>
+									</dl>
+							</div>
+									<!-- includes/dolphinIncSub-desPasswordConfirmation.inc -->
+							<div id="group_confirmation_password" class="fieldparent textfield inLineDivTop required">
+								<dl>
+									<dt>
+										<label>Confirme a senha:</label>
+									</dt>
+									<dd>
+										<input id="desPasswordConfirmation" name="desPasswordConfirmation" type="password" class="inputTextRegisterUol" value="" maxlength="32" />
+									</dd>
+									<dd class="empty" style="display: none;">
+										<p class="msg-mini alert-mini">Confirme a senha inserida.</p>
+									</dd>
+									<dd class="invalid" style="display: none;">
+										<p class="msg-mini error-mini">Por favor, verifique as senhas digitadas, elas devem ser id&#234;nticas.</p>
+									</dd>
+									<dd class="newTip">
+										<div>
+											<p class="msg-mini newtip-mini">Confirme a senha inserida.</p>
+										</div>
+									</dd>
+								</dl>
+							</div>
+																										</fieldset>
+								<fieldset class="formRegister addressFldArea">
+									<legend>Endere&#231;o</legend>
+									<!-- includes/dolphinIncSub-postalArea.inc -->
+						<div id="group_cep" class="fieldparent textfield inLineDivTop required">
+							<input type="hidden" id="codIsoCountry" name="codIsoCountry" value="76" />
+							<dl>
+								<dt>
+									<label for="codPostalArea">Informe no campo abaixo o CEP:</label>
+								</dt>
+								<dd>
+									<input type="text" id="codPostalArea" class="inputTextRegisterUol registerUolIptTxt" name="codPostalArea" maxlength="8" value="" />
+																					<span>Não sabe o seu CEP? <a href="#group_cep" id="linkCep" class="linkCep">Pesquisar</a>.</span>
+								</dd>
+								<dd style="display: none;" class="empty">
+									<p class="msg-mini alert-mini">Informe os n&#250;meros do seu CEP.</p>
+								</dd>
+								<dd style="display: none;" class="invalid">
+									<p class="msg-mini error-mini">Verifique o CEP informado. Use 8 caracteres.</p>
+								</dd>
+								<dd class="newTip">
+									<p class="msg-mini newtip-mini"></p>
+								</dd>
+							</dl>
+						</div>
+						<div id="PostalCodeSearch" class="opt">
+						</div>
+						<div id="address"></div>
+								</fieldset>
+								<fieldset class="formRegister paymentFldArea">
+									<legend>Forma de pagamento</legend>
+																<!-- includes/dolphinIncSub-paymentMethod.inc -->
+									<div id="uolPaymentMethod">
+																																													<div id="group-choose" class="fieldparent required">
+									<dl>
+										<dd class="choose-payment">
+											<ul id="choose-payment-method" class="clearfix choosePaymentUol pm2">
+													<li class="paymethod1">
+													<input id="pagamento1" type="radio" class="inputRadioRegisterUol" name="paymentMethodType" value="2" />
+													<label for="pagamento1">Cart&#227;o de Cr&#233;dito</label>
+												</li>
+																		<li class="paymethod2">
+													<input id="pagamento2" type="radio" class="inputRadioRegisterUol" name="paymentMethodType" value="1" />
+													<label for="pagamento2">D&#233;bito autom&#225;tico em conta corrente</label>
+												</li>
+													</ul>
+										</dd>
+										<dd class="empty payment-msg" style="display: none;">
+											<p class="msg-mini alert-mini">Escolha uma forma de pagamento.</p>
+										</dd>
+									</dl>
+								</div>
+								<ul id="PaymentMethodType">
+										<li id="paymethod1" class="paymentmethod" style="display: none;">
+										<div class="fieldparent textfield required groupChoosePaymentSelector">
+											<dl class="paymentListImagesContainer">
+												<dt>
+													<label>Selecione o cart&#227;o de cr&#233;dito:</label>
+												</dt>
+												<dd>
+													<ul class="paymentListImages">
+																<li id="creditCard1" class="listCreditCard">
+															<label class="imgContainer" for="CC1">
+																<input id="CC1" type="radio" class="paymentListInputImage" name="creditCardType" value="1" alt="American Express" />
+															</label>
+														</li>
+																<li id="creditCard3" class="listCreditCard">
+															<label class="imgContainer" for="CC3">
+																<input id="CC3" type="radio" class="paymentListInputImage" name="creditCardType" value="3" alt="Diners" />
+															</label>
+														</li>
+																<li id="creditCard241" class="listCreditCard">
+															<label class="imgContainer" for="CC241">
+																<input id="CC241" type="radio" class="paymentListInputImage" name="creditCardType" value="241" alt="ELO" />
+															</label>
+														</li>
+																<li id="creditCard37" class="listCreditCard">
+															<label class="imgContainer" for="CC37">
+																<input id="CC37" type="radio" class="paymentListInputImage" name="creditCardType" value="37" alt="Hipercard" />
+															</label>
+														</li>
+																<li id="creditCard4" class="listCreditCard">
+															<label class="imgContainer" for="CC4">
+																<input id="CC4" type="radio" class="paymentListInputImage" name="creditCardType" value="4" alt="Mastercard" />
+															</label>
+														</li>
+																<li id="creditCard6" class="listCreditCard">
+															<label class="imgContainer" for="CC6">
+																<input id="CC6" type="radio" class="paymentListInputImage" name="creditCardType" value="6" alt="Visa" />
+															</label>
+														</li>
+															</ul>
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Informe a bandeira do seu cart&#227;o.</p>
+												</dd>
+											</dl>
+										</div>
+										<div id="group-numcard" class="fieldparent textfield required inLineDiv">
+											<dl>
+												<dt>
+													<label for="creditCardNumber">N&#186; do cart&#227;o:</label>
+												</dt>
+												<dd>
+													<input id="creditCardNumber" type="text" class="inputTextRegisterUol registerUolIptTxt" maxlength="16" name="creditCardNumber" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Insira os n&#250;meros do seu cart&#227;o.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+										<div id="group-valid" class="fieldparent textfield required inLineDiv">
+											<dl>
+												<dt>
+													<label for="creditCardValidationDate">Validade do cart&#227;o:</label>
+												</dt>
+												<dd>
+													<input id="creditCardValidationDate" type="text" class="inputTextRegisterUol registerUolIptTxt" name="creditCardValidationDate" size="5" maxlength="5" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Informe a validade do seu cart&#227;o. Formato mm/aa</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+												<div id="group-codseg" class="fieldparent textfield required codSeg inLineDiv">
+											<dl>
+												<dt>
+													<label for="creditCardCVV2">C&#243;digo de Seguran&#231;a:</label>
+												</dt>
+												<dd>
+													<input id="creditCardCVV2" type="text" class="inputTextRegisterUol crtCardCvv2" name="creditCardCVV2" size="5" maxlength="5" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Insira o c&#243;digo de seguran&#231;a. S&#227;o os tr&#234;s &#250;ltimos d&#237;gitos do verso do cart&#227;o do cliente.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+													</li>
+											<li id="paymethod2" class="paymentmethod" style="display: none;">
+																												
+										
+										<div class="fieldparent textfield required groupChoosePaymentSelector">
+											<dl class="paymentListImagesContainer">
+												<dt>
+													<label>Selecione o banco:</label>
+												</dt>
+												<dd>
+													<ul class="paymentListImages">
+																<li id="branch17" class="listBank">
+															<label class="imgContainer" for="B17">
+																<input id="B17" type="radio" class="paymentListInputImage" name="bankDebitType" value="17" data-bankname="Banrisul" alt="Banrisul" />
+															</label>
+														</li>
+																<li id="branch7" class="listBank">
+															<label class="imgContainer" for="B7">
+																<input id="B7" type="radio" class="paymentListInputImage" name="bankDebitType" value="7" data-bankname="Bradesco" alt="Bradesco" />
+															</label>
+														</li>
+																<li id="branch11" class="listBank">
+															<label class="imgContainer" for="B11">
+																<input id="B11" type="radio" class="paymentListInputImage" name="bankDebitType" value="11" data-bankname="Itaú" alt="Itaú" />
+															</label>
+														</li>
+																<li id="branch36" class="listBank">
+															<label class="imgContainer" for="B36">
+																<input id="B36" type="radio" class="paymentListInputImage" name="bankDebitType" value="36" data-bankname="Santander Banespa" alt="Santander Banespa" />
+															</label>
+														</li>
+															</ul>
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Informe qual &#233; o seu banco</p>
+												</dd>
+											</dl>
+										</div>
+
+																					<div id="bank-message" class="bank-debit-authorization-message"></div>	
+	
+										
+										<div id="group-agency" class="fieldparent textfield required inLineDivTop">
+											<dl>
+												<dt>
+													<label for="bankDebitBranch">Ag&#234;ncia:</label>
+												</dt>
+												<dd>
+													<input id="bankDebitBranch" type="text" class="inputTextRegisterUol bkDebitBranch" size="5" maxlength="5" name="bankDebitBranch" value="" /> <input id="bankDebitBranchDigit" type="text" class="inputTextRegisterUol bkDebitBranchDigit" size="2" maxlength="2" name="bankDebitBranchDigit" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Insira o n&#250;mero da ag&#234;ncia da conta corrente para d&#233;bito automatico.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+										<div id="group-account" class="fieldparent textfield required inLineDivTop">
+											<dl>
+												<dt>
+													<label for="bankDebitAccount">Conta corrente:</label>
+												</dt>
+												<dd>
+													<input id="bankDebitAccount" type="text" class="inputTextRegisterUol bkDebitAccount" size="5" maxlength="10" name="bankDebitAccount" value="" /> <input id="bankDebitAccountDigit" type="text" class="inputTextRegisterUol bkDebitAccountDigit" size="2" maxlength="2" name="bankDebitAccountDigit" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Insira o n&#250;mero da conta corrente para d&#233;bito automatico.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+										<div id="group-codop" class="fieldparent textfield required codOp inLineDiv">
+											<dl>
+												<dt>
+													<label for="bankDebitCodeOperation">C&#243;digo da opera&#231;&#227;o:</label>
+												</dt>
+												<dd>
+													<div class="selectBoxContainer">
+														<select id="bankDebitCodeOperation" name="bankDebitCodeOperation">
+															<option value="">Selecione um tipo</option>
+															<option value="001">001 - Conta Corrente - P.Física</option>
+															<option value="002">002 - Conta Simples  - P.Física</option>
+															<option value="003">003 - Conta Corrente - P.Jurídica</option>
+															<option value="013">013 - Poupança - P.Física</option>
+														</select>
+													</div>
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Selecione o tipo da sua conta.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+												<div id="group-cpftit" class="fieldparent textfield required inLineDiv">
+											<input type="hidden" name="bankDebitPersonType" value="F" />
+											<dl>
+												<dt>
+													<label for="bankDebitCpf">CPF do titular da conta corrente:</label>
+												</dt>
+												<dd>
+													<input id="bankDebitCpf" type="text" class="inputTextRegisterUol bkDebitAccount" size="15" maxlength="14" name="bankDebitCpf" value="" />
+												</dd>
+												<dd class="empty" style="display: none;">
+													<p class="msg-mini alert-mini">Insira o CPF do titular dessa conta corrente.</p>
+												</dd>
+												<dd class="newTip">
+													<p class="msg-mini newtip-mini"></p>
+												</dd>
+											</dl>
+										</div>
+															</li>
+
+		
+									</ul>
+							</div>
+								</fieldset>
+									<fieldset class="turingtest turingFldArea">
+									<legend>Verifica&#231;&#227;o antifraude:</legend>
+										<input type="hidden" name="turingkey" value="mcxgESlYCUeMNRO.QJvVFHIyqZaXGDkdo06KW2A9fpr3sjuwTPn7b1zh45iB8Lt-ZgoPNKJTa7U0aVmPZ9pWGKU1aA0hGK29MgETMKEnOv4PRgQuNKNbOKCPRVN=" />
+<!-- turingToken: mcxgESlYCUeMNRO.QJvVFHIyqZaXGDkdo06KW2A9fpr3sjuwTPn7b1zh45iB8Lt-ZgoPNKJTa7U0aVmPZ9pWGKU1aA0hGK29MgETMKEnOv4PRgQuNKNbOKCPRVN= -->
+<!-- turingCode: 5 -->
+<!-- includes/turing.inc -->
+<div class="fieldparent turingfield newheight required">
+	<dl>
+		<dt>
+			<label for="turingwordkey">Digite abaixo o que voc&#234; v&#234; na imagem*:</label>
+		</dt>
+		<dd>
+			<dl>
+				<dt id="turingImageContainer">
+					<img src="https://tts.uol.com.br/n/mcxgESlYCUeMNRO.QJvVFHIyqZaXGDkdo06KW2A9fpr3sjuwTPn7b1zh45iB8Lt-ZgoPNKJTa7U0aVmPZ9pWGKU1aA0hGK29MgETMKEnOv4PRgQuNKNbOKCPRVN=.jpg"  alt="imagem para verificação antifraude" />
+				</dt>
+				<dd id="turingDataContainer">
+					<p id="turingCode5" class="turing-input">
+						<input type="text" id="turingwordkey" name="turingwordkey" class="inputTextRegisterUol" />
+					</p>
+					<p class="refresh-turing">
+						<button type="button">
+							<img src="/info/src/img/dolphin/dolphin3/ico_reload_turing.gif" alt="" />
+						</button>
+						<span>N&#227;o consegue entender a imagem?<br />Clique para ver outra</span>
+					</p>
+					<p class="hear-turing">
+						<button type="button" name="https://tts.uol.com.br/n/mcxgESlYCUeMNRO.QJvVFHIyqZaXGDkdo06KW2A9fpr3sjuwTPn7b1zh45iB8Lt-ZgoPNKJTa7U0aVmPZ9pWGKU1aA0hGK29MgETMKEnOv4PRgQuNKNbOKCPRVN=.wav">
+							<img src="/info/src/img/dolphin/dolphin3/ico_ouvir_turing.gif" alt="ouvir" />
+						</button>
+						<span>Clique para ouvir o que est&#225; escrito</span>
+					</p>
+				</dd>
+			</dl>
+		</dd>
+		<dd class="empty" style="display: none;">
+			<p class="msg-mini alert-mini">S&#243; faltou informar o que estava na imagem!</p>
+		</dd>
+		<dd class="invalid" style="display: none;">
+			<p class="msg-mini error-mini">N&#227;o &#233; bem isso que est&#225; escrito. Tente de novo!</p>
+		</dd>
+		<dd class="newTip">
+			<p class="msg-mini newtip-mini"></p>
+		</dd>
+	</dl>
+</div>
+								</fieldset>
+								<div id="load_turing"></div>
+								</div>
+																	<!-- includes/dolphinIncSub-rightContent.inc -->
+							<div class="formRightContent">
+								<h4>Seu pedido</h4>
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr class="line1">
+										<th class="cell1">
+											Plano
+										</th>
+										<th class="cell2">
+											Valor
+										</th>
+									</tr>
+									<tr class="line2">
+										<td class="cell1">
+											<strong>UOL CONTEÚDO</strong>
+										</td>
+										<td class="cell2">
+											<strong>R$ 4,90 nos 6 primeiros meses e depois R$ 9,90 por mês</strong>
+										</td>
+									</tr>
+									<tr class="line3">
+										<td class="cell3" colspan="2">
+											<strong>Detalhes:</strong>
+											<br /><br />
+											2 e-mails @UOL com 11GB cada, Bate-papo com Câmera, Atendimento telefônico e online 24 horas, Conteúdo exclusivo UOL: acesso ilimitado a Folha de S.Paulo online e aos principais jornais do mundo e benefícios exclusivos do Clube UOL.  
+										</td>
+									</tr>
+								</table>
+							</div>
+							<input id="codOffer-12094" type="radio" value="12094" name="codOffer" checked="checked" style="visibility: hidden;" />
+								</div>
+						<!-- includes/dolphinIncSub-finish.inc -->
+		<div id="group_contrato" class="fieldparent required">
+				 			<dl class="contractWithoutCheckbox">               
+	                <dt>
+	                    <input type="hidden" name="flgContractAccepted" id="flgContractAccepted" value="true" />
+	                    <label for="flgContractAccepted">
+	                     Li e concordo com o <a href="#contrato">contrato</a> desta assinatura*	                    </label>
+	                </dt>
+	            </dl>
+							
+			<fieldset id="contrato">
+				<legend>Contrato:</legend>
+				<div class="fieldset">
+					<p id="printContract"><a id="print" href="#">Imprimir contrato</a></p>
+					<div id="txcontrato" class="txcontrato">
+												CONTRATO DE PROVIMENTO DE CONTEÚDO DE INTERNET E OUTRAS AVENÇAS  UNIVERSO ONLINE S.A., com sede na cidade de São Paulo, Estado de São Paulo, na Avenida Brigadeiro Faria Lima, nº 1384, 6º andar, CEP 01452-002, inscrito no CNPJ/MF sob o nº 01.109.184/0001-95, doravante denominado simplesmente "UOL", e a PESSOA FÍSICA e ou PESSOA JURÍDICA identificada no cadastro do banco de dados eletrônico do UOL, doravante denominado simplesmente "CONTRATANTE", celebram o presente contrato, que se regerá pelas cláusulas e condições abaixo, bem como pela observância da POLÍTICA DE SEGURANÇA E PRIVACIDADE DO UOL, acessível através do link "Segurança e Privacidade" constante na página principal do UOL:  DEFINIÇÕES: As palavras e termos adiantes indicados, estão constantes no presente Contrato e possuem as seguintes definições:  - ACESSO BANDA LARGA: trata-se de conexão à Internet baseada em tecnologias específicas e distintas, tais como ADSL, cabo, G3 dentre outras, permitindo, salvo pelo disposto na cláusula 4.8. abaixo, conexão à Internet 24 (vinte e quatro) horas por dia, 7 (sete) dias por semana, sem interrupções e sem cobrança de pulso telefônico, com velocidade superior ao Acesso Discado;  - ACESSO DISCADO: Entende-se por Acesso Discado o acesso à Internet através do serviço de telefonia fixa, que não permite a transmissão simultânea de telefonia e dados, ou seja, não possibilita a realização e/ou recebimento de chamadas telefônicas e o acesso a Internet simultaneamente.  É vedado ao CONTRATANTE realizar ligações do tipo "a cobrar" para conectar-se aos sistemas do UOL;  - ADSL (Asymmetric Digital Subscriber Line): tecnologia que permite acesso de alta velocidade à Internet, sobre um par de fios de cobre; Linha Digital Assimétrica. Referido tipo de acesso permite que o CONTRATANTE receba e faça ligações telefônicas enquanto está conectado à Internet, sendo que neste caso o pulso será cobrado normalmente pela operadora de telefonia;  - CABO: tecnologia que permite acesso de alta velocidade à Internet, sobre um mesmo cabo utilizado para a transmissão de sinais de TV por assinatura, de maneira totalmente independente de uma linha telefônica.  - 3G: tecnologia que permite acesso móvel à Internet, em alta velocidade, sobre uma linha de telefonia celular especialmente contratada para tanto, permitindo que o CONTRATANTE tenha acesso à Internet de modo contínuo e ininterrupto, por toda a área de cobertura da respectiva operadora de celular responsável pela linha contratada.  - ROAMING: conexão a Internet a partir de uma cidade, diferente daquela onde o CONTRATANTE está cadastrado no UOL;  - PLANO DE ASSINATURA: conjunto de conteúdos de Internet disponibilizados pelo UOL, cada qual com características específicas, descritas na página de assinaturas do UOL.  - CONTEÚDOS ADICIONAIS: conteúdos de Internet suplementares e compatíveis com o Plano de Assinatura contratado, disponibilizado pelo UOL e/ou por terceiros parceiros do UOL, regidos por condições próprias.  - CONEXÃO SIMULTÂNEA: entende-se por conexão simultânea a utilização de um mesmo login (nome) e password (senha) para a realização de mais de uma conexão à Internet, ao mesmo tempo, através de computadores distintos, independentemente da tecnologia utilizada.  I - DOS CONTEÚDOS E SUA UTILIZAÇÃO  1.1.  Durante o prazo deste contrato, o UOL disponibilizará ao CONTRATANTE, em conformidade com o Plano de Assinatura contratado:  (i) conteúdo EXCLUSIVO UOL restrito aos assinantes, em língua portuguesa nas estações do UOL atualmente existentes, além das áreas abertas do site;  (ii) conexão à Internet por meio de acesso Banda Larga ou Acesso Discado, baseado na tecnologia escolhida pelo CONTRATANTE (Acesso Discado, ADSL, cabo ou 3G), a qual permite conexão à Internet via telefonia fixa (acesso discado) ou em alta velocidade (acesso banda larga), conforme o plano escolhido pelo assinante e, caso este tenha optado por acesso banda larga, conforme o plano contratado diretamente da Operadora de Telecomunicações, nos termos da cláusula 1.2. abaixo; e  (iii) um endereço principal de correio eletrônico ("e-mail"), exclusivo para o CONTRATANTE, com possibilidade de criação e/ou aquisição de quantos e-mails adicionais o Plano de Assinatura escolhido pelo CONTRATANTE permitir, conforme detalhado na página de informações sobre o Plano de Assinatura anterior a esta, ressalvado, contudo, que tais e-mails adicionais estarão sujeitos às seguintes restrições: (a) os e-mails adicionais ao principal permitem a conexão à Internet por meio única e exclusivamente de Acesso Discado não simultaneamente com o e-mail principal, sendo que a hora de acesso do e-mail adicional será cobrada nos termos e valores da cláusula 2.1.1; e (b) a não utilização do(s) e-mail(s) adicional (is) por 3 (três) meses consecutivos ocasionará o seu automático cancelamento;  (iv)  realizar acesso em roaming nacional e/ou internacional;  (v)  utilizar o SAC (Serviço ao Assinante do UOL), disponível no endereço eletrônico https://sac.uol.com.br;  (vi)  mediante contratação específica, a seu exclusivo critério e de acordo com a compatibilidade do seu Plano de Assinatura, incluir outros conteúdos adicionais ou realizar um acréscimo aos conteúdos já existentes no seu Plano de Assinatura, conteúdos esses que poderão, conforme sua natureza, ser pagos ou gratuitos. Tais Conteúdos Adicionais são regidos por condições próprias, ficando certo, entretanto, que o cancelamento do Plano de Assinatura acarretará no cancelamento do fornecimento dos conteúdos adicionais porventura contratados.  1.1.1.  O espaço do e-mail mencionado no item iii da cláusula 1 acima fica limitado a capacidade de armazenamento conforme o Plano de Assinatura escolhido pelo CONTRATANTE no momento da contratação do Plano de Assinatura do UOL ou 50.000 (cinqüenta mil) mensagens por cada pasta disponível ou eventualmente criada pelo CONTRATANTE, o que ocorrer antes.  1.1.2. O UOL poderá, a seu critério e observado o disposto na cláusula 1.1.3. abaixo, conceder ao CONTRATANTE condição promocional para seus Planos de Assinatura, incluindo, mas não se limitando, a descontos nas mensalidades, bonificações de horas, períodos de testes, cujas regras para fruição estão disponíveis na página de Serviço ao Assinante (SAC) no site do UOL https://sac.uol.com.br/ e/ou na página de Assinatura de Banda Larga do UOL  http://assinebandalarga.uol.com.br, e que deverão ser observadas e respeitadas pelo CONTRATANTE a partir da contratação do Plano de Assinatura. O UOL reserva-se o direito de alterar e retirar, a qualquer momento, quaisquer condições promocionais disponibilizadas aos consumidores.  1.1.3. O CONTRATANTE declara-se integralmente ciente de que, caso já tenha usufruído de qualquer condição promocional para assinar o UOL, a qualquer tempo anteriormente à celebração deste Contrato, poderá, a critério do UOL, não ter direito a usufruir novamente de condições promocionais para a contratação dos conteúdos do UOL, sendo certo que, nesta hipótese, todas as disposições relativas a condições promocionais não se aplicarão ao CONTRATANTE.  1.2.  O CONTRATANTE expressamente declara e reconhece que o acesso à Internet especificado na cláusula 1.1 acima só é possível devido à parceria atualmente em vigor entre o UOL e a Operadora de Serviços de Telecomunicações concessionária para atuar na região geográfica onde reside o CONTRATANTE (o "Contrato Operadora").  1.2.1    O CONTRATANTE expressamente se declara ciente e reconhece que o provimento de acesso à Internet especificados na cláusula 1.1 acima é suportado por um serviço de transporte de dados de uma operadora de serviços de telecomunicações, com contratação, operação e estrutura societária totalmente independente e desassociada aos do UOL.  1.2.2    O UOL é um provedor de conteúdo de Internet, que agrega valor aos serviços de telecomunicação, não estando, em nenhuma hipótese, sujeito à regulação da Anatel. O CONTRATANTE se declara ciente que os serviços de atendimento ao consumidor (SAC # CALL CENTER) do UOL são distintos daqueles oferecidos pelas prestadoras de serviços de telecomunicações e as elas não se subordinam, com forma e número de atendimento próprios. Os demais termos e condições da prestação do serviço de Call Center estão disponíveis do site do UOL no endereço https://sac.uol.com.br/.  1.3.   O CONTRATANTE reconhece que para a utilização dos conteúdos ora disponibilizados, deverá realizar contratação e instalação dos serviços e/ou da tecnologia da Operadora de Serviços de Telecomunicações correspondente ao tipo de acesso à Internet escolhido pelo CONTRATANTE, e, quando for o caso, adquirir o(s) equipamento(s) necessário(s). Os custos relativos ao(s) serviço(s) prestado(s) pela Operadora de Serviço de Telecomunicações devem ser pagos pelo CONTRATANTE diretamente a esta.  1.4.   O CONTRATANTE desde já reconhece que para poder usufruir dos conteúdos objeto deste Contrato, que ora se contrata, deverá possuir ou adquirir, às suas próprias expensas, equipamento que permita a interface com a rede Ethernet (placa ou card), conforme mencionado nos itens (iii), (iv) e (v) da cláusula 1.5. abaixo, reconhecendo, ainda, que o UOL não tem qualquer obrigação de fornecimento da referida placa.  1.5. Caso tenha optado por um plano de acesso à Internet em Banda Larga, para o efetivo fornecimento Para a efetiva disponibilização dos conteúdos contratados e para que o CONTRATANTE possa usufruir dos mesmos, o CONTRATANTE deverá ter consultado a disponibilidade do acesso à Internet em Banda Larga através da tecnologia escolhida, prestado pela Operadora de Serviços de Telecomunicações em sua região no respectivo site desta Operadora, conforme relacionado na página do UOL, http://assinebandalarga.uol.com.br, e atender aos requisitos técnicos abaixo especificados, os quais se encontram melhor detalhados no site do UOL, cujo endereço nesta data é http://assinebandalarga.uol.com.br/:  (i) o local de instalação da placa mencionada no item (iv) abaixo deve estar compreendido na área de cobertura dos serviços de telecomunicação prestados pela Operadora responsável pela tecnologia escolhida pelo CONTRATANTE, conforme descrita no endereço de Internet acima mencionado; (ii) o CONTRATANTE deve ter previamente solicitado e efetivado, às suas expensas, a instalação dos serviços de telecomunicação necessários ao acesso à Internet em Banda Larga através da tecnologia escolhida pelo CONTRATANTE, diretamente à Operadora do Serviço de Telecomunicações concessionária para a prestação deste serviço na área geográfica da residência do CONTRATANTE; (iii) o computador pessoal do CONTRATANTE, sendo um PC, deverá ter a seguinte configuração mínima: - Pentium III - 64MB de memória RAM - Sistemas Operacionais: Windows 98 SE / Windows Millenium (ME) /Windows 2000 Server e Profissional / Windows XP - Drive de CD - Placa de rede Ethernet 10 BASE-T ou 10/100 (iv)  o computador pessoal do CONTRATANTE, sendo um computador fabricado pela Apple, deverá ter a seguinte configuração mínima: - Power Macintosh com processador PowerPC - 64MB de memória RAM - Placa de rede Ethernet 10 BASE-T ou 10/100 - Sistema operacional Mac OS 8 com Open Transport ou superior (v)   o computador pessoal do CONTRATANTE, sendo um notebook, deverá ter a configuração mínima do item iii ou item iv acima, e, possuir instalada uma placa de rede compatível com a tecnologia de acesso escolhida; (vi) em qualquer dos casos, o CONTRATANTE deverá adquirir, às suas expensas o equipamento terminal  que interligará o computador do CONTRATANTE com a rede da Operadora de Telecomunicações (Modem ou Placa de Rede), compatível com a tecnologia de acesso escolhida.  1.6.  As partes declaram-se cientes de que os equipamentos acima e qualquer outro equipamento ou serviço que sejam ou que venham a ser, a qualquer tempo, necessários para suportar o acesso à Internet do CONTRATANTE nos termos deste Contrato, deverão ser obtidos pelo CONTRATANTE, integralmente às suas expensas.  1.6.1.  No ato da contratação ou a qualquer momento, em caráter transitório, a critério do UOL e com a anuência do CONTRATANTE, o equipamento descrito no item (vi) da cláusula 1.5 acima, ou seja, o MODEM para acesso à Internet em Banda Larga, poderá ser cedido ao CONTRATANTE em regime de comodato, pelo UOL ao CONTRATANTE, obedecendo as disposições constantes do título V e suas cláusulas, do presente contrato.  1.7.   O CONTRATANTE declara-se ciente que ao efetivar o seu Plano de Assinatura ou a mudança de plano, todo e qualquer suporte via atendimento telefônico será realizado pelos telefones mencionados na página http://assinebandalarga.uol.com.br/ assumindo integralmente os custos provenientes de ligações locais e interurbanas.  1.8. Para fins de cadastramento de sua assinatura, o CONTRATANTE criará um nome ("login") e uma senha ("password") e informará ao UOL todos os dados necessários para seu cadastramento, comprometendo-se a fornecer informações verdadeiras, corretas, atuais e completas sobre si mesmo, no momento do seu cadastramento, responsabilizando-se civil e criminalmente por estas informações. Caso os dados informados pelo CONTRATANTE no momento do cadastramento estejam errados ou incompletos, impossibilitando a comprovação e identificação do CONTRATANTE, o UOL terá o direito de cancelar automaticamente a conta, ficando o UOL isento de qualquer responsabilidade ou ressarcimento ao CONTRATANTE.  1.8.1.  Os pais ou os representantes legais do menor de idade responderão pelos atos por ele praticados na utilização dos conteúdos objeto deste Contrato, dentre os quais eventuais danos causados a terceiros, práticas de atos vedados pela lei e pelas disposições deste Contrato.  1.9. O CONTRATANTE autoriza expressamente que o cadastramento mencionado nessa cláusula seja feito e mantido pelo UOL, bem como autoriza o UOL a fornecer as informações constantes de referido cadastro (i) a autoridades públicas competentes que as solicitarem formalmente, nos termos da constituição federal brasileira e demais legislações aplicáveis e (ii) a seus parceiros estratégicos, comerciais ou técnicos, com a finalidade de disponibilizar melhores conteúdos ao CONTRATANTE. Ademais, o CONTRATANTE declara expressamente e concorda que o UOL colete informações para realização de acompanhamento de tráfego, com intuito de identificar grupos de perfil de Usuários e para fins de orientação publicitária.  1.9.1. O CONTRATANTE deverá informar o UOL sempre que ocorrerem alterações nas informações fornecidas para o seu cadastramento no UOL, mediante contato telefônico com Serviço ao Assinante (SAC) ou acessando a página do Serviço ao Assinante no site do UOL https://sac.uol.com.br/  1.9.2. O CONTRATANTE expressamente aceita que o UOL envie aos seus assinantes mensagens de e-mail de caráter informativo, referentes a comunicações específicas inerentes aos conteúdos fornecidos pelo UOL.  1.9.3. O CONTRATANTE expressamente aceita que o UOL envie aos seus assinantes mensagens de natureza comercial, incluindo mas não se limitando a ofertas do Shopping UOL, ofertas dos parceiros do UOL, novidades no site, entre outras informações. Caso o CONTRATANTE não deseje mais receber referidas mensagens poderá solicitar o cancelamento acessando a página de Serviço ao Assinante no site do UOL https://sac.uol.com.br/ ou clicando no espaço disponível na mensagem enviada pelo UOL para realizar o cancelamento.  1.10.  Sem prejuízo do disposto na cláusula 1.8 acima, não serão aceitos e poderão ser cancelados, a qualquer tempo, os endereços de correio eletrônico (e-mail), dos quais constem qualquer referência, no todo ou em parte, ao Universo Online e/ou a expressão "UOL", independentemente desta última representar as iniciais ou qualquer combinação do nome do CONTRATANTE, ou ainda palavras, expressões ou conjuntos gráfico-denominativos que já tenham sido escolhidos anteriormente por outro assinante do UOL ou, de outra forma, que sejam injuriosos, malsoantes, coincidentes com marcas, nomes comerciais, rótulos de estabelecimentos, razões sociais de empresas, expressões publicitárias, nomes e pseudônimos de pessoas de relevância pública, famosos ou registrados por terceiros, cujo uso não esteja autorizado e, em geral, contrários à lei ou às exigências da moral e bons costumes geralmente aceitos, bem como expressões que possam induzir outras pessoas a erro, sendo certo que o CONTRATANTE responderá pelo uso indevido, tanto no âmbito civil quanto criminal, se for o caso.  1.11.  Para ter acesso a conexões simultâneas com o mesmo nome ("login") e a mesma senha ("password") o CONTRATANTE deverá optar necessariamente por um plano de assinatura que ofereça pagamento de horas adicionais de uso além das horas básicas do plano escolhido. Os demais planos, em hipótese alguma, darão direito a conexões simultâneas com o mesmo nome ("login") e a mesma senha ("password").  1.11.1. O login e senha do plano de acesso por Banda Larga dará ao CONTRATANTE, o direito de acessar a Internet via Acesso Discado, caso assim o deseje. Neste caso, entretanto, será cobrado do CONTRATANTE o valor previsto na página de cadastro referente ao respectivo plano escolhido pelo CONTRATANTE, a cada hora de conexão discada efetuada, observado os termos da cláusula 2.1.1. abaixo.  1.12.  O CONTRATANTE será responsável por quaisquer encargos decorrentes da utilização em seu nome e/ou sua senha ("password") dos conteúdos ora contratados, respondendo, ainda, pelos atos que terceiros praticarem em seu nome, por meio do uso de seu username e senha de acesso, devendo tomar todas as medidas necessárias para IMPEDIR a utilização de sua senha por QUAISQUER terceiros.  1.13.  O CONTRATANTE se compromete a comunicar ao UOL através dos telefones de Serviço ao Assinante (SAC) do UOL o extravio, perda, furto ou roubo das senhas de acesso imediatamente após o conhecimento do fato.  1.14.  Até o momento em que efetivamente comunicar ao UOL o CONTRATANTE será o único responsável pelos gastos e/ou prejuízos decorrentes da eventual utilização das senhas de acesso por terceiros, não sendo o UOL responsável por quaisquer danos decorrentes de tais fatos enquanto não for informado pelo CONTRATANTE sobre o extravio, perda ou roubo das senhas de acesso.  1.15.  O CONTRATANTE será responsável por manter as configurações da máquina para acesso aos conteúdos aqui contratados, sendo proibido alterar, de qualquer forma, endereços de máquinas, IP (Internet Protocol) de rede ou de correio eletrônico, na tentativa de responsabilizar terceiros ou ocultar a identidade ou autoria. Na hipótese de ocorrência dos casos aqui mencionados, o UOL poderá disponibilizar a qualquer tempo às autoridades competentes toda e qualquer informações sobre o CONTRATANTE, bem como cancelar a conta automaticamente, sem prévio aviso, respondendo o CONTRATANTE civil e penalmente pelos atos praticados.  1.16.  O CONTRATANTE será responsável pelo uso dos conteúdos providos pelo UOL e pela fiel observância de todas as leis, decretos e regulamentos nacionais, estaduais e municipais aplicáveis, e das Normas de Segurança e Privacidade publicadas e divulgadas pelo UOL em seu site.  1.17.  O CONTRATANTE reconhece e concorda que o UOL não endossa o conteúdo de quaisquer comunicações de usuários e do conteúdo divulgado por terceiros e de qualquer outro conteúdo de usuários do UOL e, conforme disposto acima, não é responsável por qualquer material ilegal, difamatório, que viole direitos de privacidade, ou que seja abusivo, ameaçador, obsceno, discriminatório, injurioso ou censurável de qualquer forma ou que infrinja ou possa infringir qualquer tipo de direito.  1.18.  O CONTRATANTE declara e concorda expressamente: a. ser maior de 18 anos, ou menor devidamente autorizado pelos pais ou responsáveis; b. que não utilizará os conteúdos do UOL com a finalidade de desrespeitar a lei, a moral, os bons costumes, as normas de direito autoral e/ou propriedade industrial, os direitos à honra, à vida privada, à imagem, à intimidade pessoal e familiar; c. compromete-se a observar os padrões éticos e morais vigentes na Internet e as leis nacionais e internacionais aplicáveis à espécie; d. não utilizar tais conteúdos para transmitir/divulgar material ilegal, difamatório, que viole a privacidade de terceiros, ou que seja abusivo, ameaçador, obsceno, prejudicial, vulgar, injurioso, ou de qualquer outra forma censurável; e. não enviar mensagens não-solicitadas, reconhecidas como "spam", "junk mail" ou correntes de correspondência ("chain letters"); f. não utilizar tais conteúdos para enviar/divulgar quaisquer tipos de vírus ou arquivos contendo quaisquer tipos de vírus ("Cavalos de Tróia") ou que possam causar danos ao seu destinatário ou a terceiros; g. cumprir todas as leis aplicáveis com relação à transmissão de dados a partir do Brasil ou do território onde o usuário resida; h. não obter ou tentar obter acesso não-autorizado a outros sistemas ou redes de computadores conectados aos conteúdos do UOL; i. ser o único responsável pelo conteúdo dos e-mails que vier a transmitir ou retransmitir bem como pelo conteúdo e informações que vier a disponibilizar no nos conteúdos do UOL; j. não interferir ou interromper os serviços ou os servidores ou redes conectados ao conteúdos; k. cumprir todos os procedimentos, políticas, normas e regulamentos aplicáveis aos conteúdos do UOL, divulgadas nas páginas de cada conteúdo; l. ter assinatura cancelada caso o UOL tome o conhecimento, por si ou por terceiros que o usuário violou qualquer termo do presente Contrato, por qualquer modo.   II - PREÇO E CONDIÇÕES DE PAGAMENTO  2.1.  Pelo disponibilização dos conteúdos constantes do Plano de Assinatura ora contratado, o CONTRATANTE pagará mensalmente os valores referentes a sua assinatura, conforme tabela de preços localizada no site do UOL, cujo endereço atualmente é  http://assinebandalarga.uol.com.br/.  2.1.1  Na eventualidade do CONTRATANTE ter optado por um plano de acesso em Banda Larga e realizar conexão discada, será responsável pelo pagamento da hora de conexão, conforme tabela vigente à época da utilização e constante do site do UOL, cujo endereço atualmente é  http://assinebandalarga.uol.com.br/, sendo certo que o período de conexão discada será calculado e cobrado à base de horas cheias, além do (s) pulso (s) telefônico (s) necessário (s) à conexão.  2.1.2.  Na constatação de que o CONTRATANTE realizou ligações do tipo "a cobrar", o valor dos pulsos telefônicos correspondentes serão cobrados do CONTRATANTE, reservando-se o UOL o direito de considerar o presente contrato rescindido de pleno direito.  2.1.3.  Quando não incluídos no Plano de Assinatura do CONTRATANTE, os conteúdos não gratuitos mencionados nos itens constantes da cláusula 1.1. acima, se contratados, deverão ser pagos pelo CONTRATANTE juntamente com o pagamento da mensalidade do seu Plano de Assinatura, com base na aferição e contagem de horas (sistema de bilhetagem do UOL) ou com base no critério de preços referente a tal produto.  2.1.4. O CONTRATANTE declara-se ciente de que todo e qualquer suporte via atendimento telefônico será realizado pelos telefones constantes da página de Serviço ao Assinante (SAC) no site do UOL, sem direito a utilização do sistema gratuito de telefonia, assumindo integralmente os custos de ligações locais e/ou interurbanas. No caso de o CONTRATANTE optar por planos que não incluam o direito ao suporte, o custo do suporte via atendimento telefônico será o informado ao CONTRATANTE no momento da solicitação de tal serviço. O serviço de suporte prestado via e-mail ou salas de bate-papo serão gratuitos para todos os planos.  2.2.  O pagamento das mensalidades deverá ser efetuado conforme opção feita pelo CONTRATANTE no ato do cadastramento nas modalidades (i)¿boleto bancário; (ii) cartão de crédito ou (iii) débito automático em conta corrente.¿Conforme¿a opção de forma de pagamento escolhida pelo CONTRATANTE este declara expressamente, desde já, concordar com que o UOL efetue débitos em seu cartão de crédito ou conta corrente, na periodicidade de pagamento mencionada na página de oferta relacionada ao serviço/produto objeto deste Contrato. ¿ 2.3.  Caso o CONTRATANTE opte pelas opções de pagamento via cartão de crédito ou débito em conta corrente, no caso de impossibilidade do débito das mensalidades na modalidade escolhida pelo CONTRATANTE, o UOL reserva-se o direito de emitir contra o CONTRATANTE um boleto para cobrança dos Planos de Assinatura contratados, incluindo no boleto a taxa referente a despesas de manuseio e envio do mesmo.  2.4.  Na hipótese do não pagamento das mensalidades na data prevista, o CONTRATANTE incorrerá em:  (i) juros de mora de 1% (um por cento) ao mês sobre o valor total do débito devidamente atualizado nos termos do item (ii) abaixo, calculados da data do vencimento até a data do efetivo pagamento; (ii) atualização monetária calculada da data do vencimento até a data do pagamento da obrigação, pela variação do IGP-M (Índice Geral de Preços de Mercado), apurada pela Fundação Getúlio Vargas, no mesmo período; caso tal índice seja extinto, será adotado o índice oficial que o substituir ou, na falta desse, outro índice que contemple a perda de poder aquisitivo da moeda brasileira; e (iii) multa moratória de 2% (dois por cento), calculada sobre o valor do débito, cobrada de uma única vez.  2.5.  Sem prejuízo do disposto na cláusula 2.4 acima, qualquer atraso no pagamento das mensalidades ou o descumprimento pelo CONTRATANTE de qualquer obrigação não financeira aqui contida, dará direito ao UOL de proceder à desativação dos conteúdos constantes do Plano de Assinatura do CONTRATANTE e/ou conteúdos adicionais contratados, conforme o caso, até o efetivo pagamento da obrigação financeira ou o efetivo cumprimento da obrigação não financeira.  2.6.  O UOL somente poderá efetuar reajuste nos preços de suas assinaturas em períodos iguais ou maiores do que 12 (doze) meses, ou no menor período estabelecido em lei, contados a partir da data do último reajuste realizado. As partes declaram-se cientes de que o último reajuste realizado nos valores das mensalidades das assinaturas do UOL ocorreu na data informada na página de ofertas dos conteúdos objeto deste contrato.  2.6.1. As partes acordam que o reajuste mencionado no item anterior será feito sempre com base na variação do IGP-M/FGV, no período compreendido entre o último reajuste realizado e a data pretendida para o reajuste.  2.7. Sempre que pretender efetuar reajuste das mensalidades dos seus Planos de Assinaturas, nos termos da cláusula 2.6 acima, o UOL informará por e-mail o CONTRATANTE com, no mínimo, 30 (trinta) dias de antecedência da data pretendida para o reajuste. Caso o CONTRATANTE não concorde com o reajuste informado pelo UOL, poderá rescindir o presente Contrato, no prazo acima, por telefone, nos termos das cláusulas 3.4 e 3.5 deste Contrato.  III - PRAZO  3.1.  O presente contrato é celebrado pelo prazo de 12 (doze) meses, a contar de sua celebração eletrônica, sendo automaticamente renovado por iguais e sucessivos períodos, desde que não haja manifestação em contrário por qualquer das partes com, pelo menos, 30 (trinta) dias de antecedência do término de cada período de 12 (doze) meses mencionado nesta cláusula.  3.2.  Sem prejuízo do disposto nas cláusulas 2.5, 3.1 e 4.14 deste instrumento, o presente contrato poderá ser imediatamente rescindido, por culpa da outra parte, em caso de violação, por referida parte, de qualquer obrigação aqui contida que não tenha sido sanada dentro do prazo de 5 (cinco) dias (ou prazo menor, quando expressamente previsto neste instrumento) a contar do recebimento da notificação (por e-mail) da parte inocente comunicando tal descumprimento.  3.3.  Independentemente do acima previsto e em virtude do disposto na cláusula 1.2 acima, o UOL terá o direito de, a qualquer tempo, imediatamente resilir o presente instrumento, sem ônus para qualquer uma das partes, caso o Contrato Operadora, por qualquer motivo que seja, perca sua vigência.  3.3.1. Além de quaisquer outras hipóteses previstas neste instrumento ou em qualquer regra de uso de conteúdos do UOL, o UOL poderá rescindir o presente Contrato, de pleno direito e independente de qualquer aviso ou notificação,caso venha a ter conhecimento ou considere, a seu exclusivo critério, que o CONTRATANTE esteja utilizando os conteúdos do UOL para a veiculação de fotografias e imagens associadas ou de qualquer forma relacionadas a pornografia infantil, ou ainda relacionadas a idéias preconceituosas quanto à origem, raça, etnia, sexo, orientação sexual, cor, idade, crença religiosa ou quaisquer outras formas de discriminação, sem que isso gere qualquer ônus, dever ou responsabilidade ao UOL, ou ainda, qualquer direito ao CONTRATANTE.  3.4.  Durante o período de vigência do presente contrato, o CONTRATANTE poderá utilizar, desde que respeitadas as obrigações constantes deste documento, os conteúdos do UOL mencionados neste Contrato, podendo o CONTRATANTE, a qualquer momento durante tal prazo, manifestar seu desinteresse nos conteúdos do UOL e solicitar seu cancelamento, por contato com o Serviço ao Assinante (SAC) do UOL, através dos telefones constantes na página http://www.sac.uol.com.br.  3.5.  As partes desde já expressamente acordam que tais comunicações referentes ao cancelamento dos conteúdos somente produzirão efeito no último dia do mês civil em que as mesmas forem recebidas pelo UOL. Assim, o CONTRATANTE, ao solicitar o cancelamento da assinatura, reconhece que terá direito de uso dos conteúdos do UOL até o fim do período já pago, ficando o UOL isento de ressarcimento do valor já pago referente única e exclusivamente aquele mês.  3.6. O CONTRATANTE declara estar ciente de que, com o término de sua assinatura, por qualquer razão, todos os conteúdos ligados a esta assinatura serão imediatamente cancelados, bem como todo e qualquer arquivo, conteúdo, informação ou dados armazenados pelo CONTRATANTE nestes conteúdos serão automaticamente apagados, sem que isso gere qualquer ônus para o UOL ou direito de indenização ao CONTRATANTE. O UOL não será responsável por quaisquer arquivos, documentos, e-mails, dados e quaisquer outros tipos de informações da referida conta que estejam armazenadas no UOL. O cancelamento implica, ainda, a impossibilidade de uso de todos os conteúdos relacionados a esta assinatura, incluindo mas sem se limitar, a acessar a conta de e-mail, receber, ler e enviar mensagens a partir da referida conta, ainda que anteriores à data do cancelamento.  3.7. Caso ocorra a rescisão do presente Contrato, por qualquer motivo, as partes comprometem-se a saldar e liquidar, imediatamente, eventuais débitos e pendências existentes, relativos a períodos já disponibilizados e ainda não pagos, se for o caso.  IV - CONDIÇÕES GERAIS  4.1.   O UOL não se responsabiliza pelas transações comerciais efetuadas on-line, as quais serão de inteira responsabilidade do CONTRATANTE e de quem colocar produtos. O UOL tampouco se responsabiliza por eventuais danos que venham a ocorrer nos equipamentos do CONTRATANTE provocados pelo mau uso de qualquer software, hardware ou conexões, incluindo aqueles cedidos ou fornecidos pelo UOL seja a que título for. O UOL não garante que o funcionamento do sistema de telefonia, TANTO COM RELAÇÃO À CONEXÃO, COMO COM RELAÇÃO À INTERNET E AO ACESSO BANDA LARGA E DISCADO, ESTEJA ISENTO DE FALHAS E/OU INTERRUPÇÕES. FICA CLARO AINDA QUE O SISTEMA BANDA LARGA E SISTEMA DISCADO PODERÃO FICAR TEMPORARIAMENTE FORA DO AR, EM ALGUMAS CIRCUNSTÂNCIAS EXCEPCIONAIS, TAL COMO MANUTENÇÃO DO SISTEMA.  4.2.   O CONTRATANTE OBRIGA-SE A ARCAR COM TODOS OS CUSTOS E DESPESAS NECESSÁRIOS PARA POSSIBILITAR A CONEXÃO PELO ACESSO BANDA LARGA OU ACESSO DISCADO, ATRAVÉS DA TECNOLOGIA QUE TENHA ESCOLHIDO, INCLUINDO, MAS NÃO SE LIMITANDO, AOS CUSTOS DE AQUISIÇÃO DOS EQUIPAMENTOS E SERVIÇOS DESCRITOS NA CLÁUSULA 1.5. ACIMA E/OU OUTROS EQUIPAMENTOS E/OU SERVIÇOS NECESSÁRIOS, SEM PREJUÍZO DA CONDIÇÃO DE FIDELIDADE CONSTANTE NO PRESENTE INSTRUMENTO.  4.3.  Em razão do presente Contrato, o CONTRATANTE poderá ter acesso, caso deseje, a diversos conteúdos disponibilizados pelo UOL. Para serem devidamente utilizados, os conteúdos podem demandar a necessidade do CONTRATANTE em fazer o uso de softwares de propriedade do UOL, através de "download" ou instalação, no equipamento do CONTRATANTE, de tais softwares, doravante "Softwares".  4.3.1. O CONTRATANTE declara-se ciente de que alguns dos conteúdos poderão não estar disponíveis para a sua utilização, dependendo do plano de assinatura pelo qual o CONTRATANTE tenha optado no momento da efetivação de sua assinatura. Por outro lado, o CONTRATANTE poderá ter a opção de adquirir, através da celebração de contratos específicos, conteúdos adicionais disponibilizados pelo UOL, que poderão, conforme sua natureza, ser pagos ou gratuitos. Em qualquer hipótese, o CONTRATANTE, em optando por adquirir tais conteúdos adicionais, estará sujeito aos termos e condições decorrentes do respectivo contrato específico.  4.3.2. Caso o CONTRATANTE opte por utilizar, aplicar-se-ão ao presente Contrato, as seguintes cláusulas 4.3.2.1 a 4.3.2.7.:  4.3.2.1. Para o uso, pelo CONTRATANTE, dos conteúdos disponibilizados pelo UOL, nos termos da cláusula 4.1 acima, o UOL, neste ato, concede ao CONTRATANTE uma licença de uso dos Softwares, por um prazo indeterminado, em âmbito mundial, nos termos deste Contrato. Apesar da presente licença ser concedida para uso em âmbito mundial, o CONTRATANTE declara-se ciente de que o uso dos Softwares estará sujeito ao disposto na legislação brasileira.  4.3.2.2. O CONTRATANTE declara e garante ao UOL estar ciente de que a propriedade, bem como todos os direitos sobre os Softwares são integral e exclusivamente do UOL, sendo certo que nada neste Contrato significará que o CONTRATANTE adquiriu qualquer direito sobre os Softwares que não os expressamente licenciados por este Contrato.  4.3.2.3. O CONTRATANTE declara-se ciente de que é expressamente vedado ao CONTRATANTE utilizar os Softwares para qualquer outro fim que não os expressamente previstos neste Contrato, em especial, mas sem se limitar, o uso para fins comerciais ou cessão, a qualquer título, a terceiros, a reprodução, alteração, distribuição, replicação dos Softwares ou, ainda, o uso de engenharias reversas sobre estes Softwares, sob pena de responder pelo uso indevido dos Softwares.  4.3.2.4. O UOL não será responsável pelo uso indevido ou inapropriado dos Softwares e/ou de quaisquer conteúdos disponibilizados pelo UOL, por parte do CONTRATANTE, bem como por quaisquer perdas e danos sofridos pelo CONTRATANTE ou por qualquer terceiro em decorrência deste uso indevido ou inapropriado, concordando o CONTRATANTE em manter o UOL livre e isento de qualquer ônus, dever ou responsabilidade decorrentes de demandas relacionadas ao disposto nesta cláusula.  4.3.2.5. O CONTRATANTE declara-se ciente de que os Softwares são disponibilizados da forma como são, não concedendo o UOL qualquer garantia de que qualquer dos Softwares será apropriado para um uso específico ou que funcionará sem interrupções ou que estará livre de defeitos ou erros menores que não afetem de modo relevante seu desempenho, ou que as aplicações contidas nos Softwares destinem-se a atender a todas as exigências do CONTRATANTE. As partes acordam que o UOL não será responsável por perdas e danos de qualquer natureza causados ao CONTRATANTE ou a qualquer terceiro, em decorrência de falhas e/ou defeitos de projeto, fabricação, construção, montagem, fórmulas ou manipulação dos Softwares, dos conteúdos, nos termos desta cláusula.  4.3.2.6. O CONTRATANTE será integralmente responsável por certificar-se de que a configuração de seu equipamento está em pleno acordo com as configurações mínimas exigidas para a instalação e uso dos Softwares, conforme detalhado nas páginas introdutórias de cada conteúdo disponibilizado pelo UOL, nos termos deste Contrato, estando o UOL livre e isento de qualquer responsabilidade decorrente da não observância, pelo CONTRATANTE, do disposto nesta cláusula.  4.3.2.7. O uso de qualquer dos Softwares, no todo ou em parte, em condições contrárias às dispostas no presente Contrato acarretará a possibilidade do UOL cancelar, não somente a licença de uso dos Softwares ora concedida, como também cancelar todos e quaisquer outros conteúdos que estejam sendo utilizados pelo CONTRATANTE nos termos deste Contrato, sem prejuízo da possibilidade do UOL rescindir, imediatamente, o presente Contrato.  4.3.3   Todos os materiais, software, marcas, tecnologias, nomes e programas veiculados pelo UOL (com exceção dos software expressamente identificados como de domínio público) são protegidos por direitos autorais, sendo de propriedade do UOL ou de Provedores Independentes. Qualquer violação a esses direitos pelo CONTRATANTE ou por terceiro utilizando-se de sua senha ("password") SERÁ DE RESPONSABILIDADE DO CONTRATANTE, implicando a adoção das medidas legais aplicáveis e na IMEDIATA rescisão do presente contrato.  4.4.   O UOL poderá alterar tanto em forma como em conteúdo, suspender ou cancelar, a seu exclusivo critério, a qualquer tempo, quaisquer das utilidades ou aplicação, disponibilizados por si ou por terceiros, independente de qualquer aviso ao CONTRATANTE, sem que isso implique qualquer infração ao presente contrato.  4.5.   O UOL reserva-se o direito de, a seu critério e a qualquer tempo, modificar, adicionar ou remover quaisquer cláusulas ou condições deste contrato, comunicando o CONTRATANTE por correio eletrônico ("e-mail"), via postal ou qualquer outro meio eletrônico, quando a alteração implicar em restrições das condições inicialmente pactuadas. Não havendo concordância do CONTRATANTE este poderá resilir o contrato, sem qualquer ônus, mediante comunicação por e-mail ou via postal, dentro do prazo de 15 (quinze) dias da data do envio do e-mail ou do recebimento da carta, conforme critério adotado.  4.6.   O CONTRATANTE será responsável pelo uso dos conteúdos providos pelo UOL e pela fiel observância de todas as leis, decretos e regulamentos nacionais, estaduais e municipais aplicáveis, e das Normas de Segurança e Privacidade publicadas e divulgadas pelo UOL em seu site.  4.7.  O CONTRATANTE expressamente declara e garante, para todos os fins de direito:  (i) possuir capacidade jurídica para celebrar este contrato e utilizar os  conteúdos objeto deste contrato; (ii) SER financeiramente responsável pela utilização dos conteúdos objeto deste contrato E TER CONDIÇÕES FINANCEIRAS DE ARCAR COM OS PAGAMENTOS, CUSTOS E DESPESAS DECORRENTES DESTE CONTRATO; (iii) reconhecer que o presente contrato se formaliza, conforme o caso, vinculando as partes, COM a aceitação verbal PELO CONTRATANTE, O QUE SE DÁ MEDIANTE LIGAÇÃO AO SERVIÇO AO ASSINANTE (SAC) DO UOL ou com o clique no botão DE ACORDO que aparecerá após a tela do presente contrato e (iv)  que leu e está ciente e de pleno acordo com todos os termos e condições deste contrato.  4.8. Tendo em vista a impossibilidade de funcionamento integral e ininterrupto de qualquer sistema de telecomunicação ou de informática, durante 365 dias por ano, 24 horas por dia, nesta situação de fragilidade também se incluindo, em razão de sua complexidade, a disponibilização dos conteúdos do presente Contrato, inclusive em razão da dependência de serviços de telecomunicações prestados por terceiros, o UOL não garante, de nenhuma forma, o fornecimento de conteúdos de forma ininterrupta e/ou isenta de erros.  4.9. O CONTRATANTE declara estar ciente de que: (i) com o término de sua assinatura dos serviços ora contratados, por qualquer razão, ou ainda (ii) com a permanência de sua assinatura na condição de inativa, por qualquer razão (inclusive, mas sem se limitar, por inadimplência, cancelamento voluntário ou ainda quebra das regras de uso, termos e condições do UOL para o uso de seus Serviços), todos os serviços e produtos ligados a esta assinatura serão imediatamente cancelados, bem como todo e qualquer arquivo, conteúdo, informação ou dados armazenados pelo CONTRATANTE nestes produtos e/ou serviços serão automaticamente apagados, sem que isso gere qualquer ônus para o UOL ou direito de indenização ao CONTRATANTE. O UOL não será responsável por quaisquer arquivos, documentos, e-mails, dados e quaisquer outros tipos de informações da referida conta que estejam armazenadas no UOL.  4.9.1. Ademais, em qualquer destes casos, o UOL poderá, a qualquer tempo, reutilizar e reaproveitar para novos assinantes, a seu critério, quaisquer logins que pertenciam ao CONTRATANTE, sem que isto gere qualquer direito ao CONTRATANTE ou qualquer ônus ao UOL. As situações mencionadas nesta cláusula implicam, ainda, na impossibilidade de uso de todos os serviços e/ou produtos relacionados a esta assinatura, incluindo, mas sem se limitar, a acessar a conta de e-mail provida pelo UOL e atrelada ao uso de qualquer outro serviço do UOL, receber, ler e enviar mensagens a partir da referida conta, ainda que anteriores à data do cancelamento.   V- DA OPÇÃO DE FIDELIDADE  5.1.   Extraordinariamente o UOL poderá a qualquer tempo e a seu exclusivo critério, a título de promoção transitória e por tempo limitado conceder descontos, franquias, benefícios, ofertas especiais, etc, condicionado ao compromisso de permanência mínima do CONTRATANTE na base de assinaturas do UOL, no Plano de Assinatura inicialmente contratado (FIDELIDADE), observado o disposto na cláusula 5.4.  5.2.   Os regulamentos das promoções e ofertas realizados exclusivamente pelo UOL, que poderão ser acessados através da página http://assinebandalarga.uol.com.br, estabelecerão os respectivos períodos de vigência, as regras para adesão e as carências vinculadas aos descontos e/ou vantagens concedidos.  5.3.   O período mínimo de Fidelidade fica pré-estabelecido em 12 (doze) meses corridos de permanência do CONTRATANTE na base de assinantes do UOL no Plano de Assinatura inicialmente contratado, sempre contado da data do início da fruição da Assinatura, independente de eventual pedido de suspensão temporária da Assinatura pelo CONTRATANTE.  5.4.   Uma vez efetivada a assinatura, pelo CONTRATANTE, de um plano sujeito à opção de fidelidade, a posterior alteração do Plano de Assinatura para um Plano de Assinatura de velocidade de conexão inferior ao que se encontrava efetivamente contratado por ocasião da fidelização, será entendida como desistência da opção de fidelidade, implicando na cobrança automática dos valores referentes aos benefícios efetivamente gozados, conforme regulamento e condições gerais da promoção e/ou ofertas do UOL.  5.5.   Após o término do período de fidelidade, a critério do UOL, a opção de fidelidade poderá ou não ser renovada, mediante novo acordo ou não, conforme o caso, nos mesmos ou em outros moldes da promoção e/ou oferta anterior, a qual estava o CONTRATANTE condicionado.  5.6.   A não renovação da opção de fidelidade por parte do UOL, não implica na obrigação de concessão por parte do UOL de qualquer benefício ao CONTRATANTE.  5.7.   Caso a opção de fidelidade esteja relacionada ao comodato ou outra forma de cessão gratuita do MODEM descrito no item 1.6.1 acima, referido comodato se dará nos termos da legislação específica e segundo as cláusulas do item V do presente contrato.  5.7.1  Sendo o UOL legítimo proprietário do MODEM, a cessão em regime de comodato do referido bem, obriga o CONTRATANTE a responsabilizar-se pelo bem, assumindo todas as obrigações na qualidade de fiel depositário, quais sejam, a guarda e integridade do MODEM, na forma dos artigos 579 a 585 do Código Civil Brasileiro, devendo restituí-lo ao final do prazo de fidelidade estabelecido na cláusula 5.3 acima.  5.7.2.  Fica vedado ao CONTRATANTE alterar qualquer característica original de instalação do MODEM, bem como qualquer espécie de reparo, manutenção ou abertura do aparelho para qualquer fim, sem a anuência por escrito do UOL, considerando-se tal ocorrência como falta grave ensejadora de imediata rescisão do presente contrato.  5.7.3.  Em caso de danificação do MODEM cedido em regime de comodato, durante o período de fidelização, ou seja, nos 12 (doze) primeiros meses de contrato, decorrente de problemas de fabricação, o UOL acionará o fornecedor dos equipamentos para que seja sanado o problema, com a troca ou conserto do modem, conforme o caso.  5.7.5.  Em caso de danificação do MODEM cedido em regime de comodato, durante o período de fidelização, ou seja, nos 12 (doze) primeiros meses de contrato, decorrente de má utilização e/ou manutenção indevida por parte do CONTRATANTE, este deverá arcar com os custos de reposição do MODEM danificado, no valor de tabela vigente à época do fato ou com os custos que se fizerem necessários para reparar a ação indevida do CONTRATANTE.  5.7.6. Após o período de fidelização, caso ocorra a necessidade de reposição ou reparo no MODEM, os custos serão única e exclusivamente arcados pelo CONTRATANTE.  5.7.7.  A qualidade, a garantia, especificações e instruções de utilização do MODEM são fornecidas pelo fabricante no ato da entrega do equipamento ao CONTRATANTE, não tendo o UOL qualquer responsabilidade sobre elas.  5.8.   O CONTRATANTE fica ciente de que a rescisão do presente contrato, de sua parte, antes do término do período de fidelização de 12 (doze) meses, é entendida como descumprimento da condição contratual de fidelidade exigida, ficando obrigado ao pagamento de multa não compensatória descrita na página de oferta/promoção no ato da contratação, corrigida monetariamente na época do pagamento. Referida multa será cobrada automaticamente mediante emissão de fatura contra o CONTRATANTE, além da devolução do MODEM ao UOL, no mesmo estado em que o recebeu quando da contratação, mediante visita do UOL previamente agendada com o CONTRATANTE.  5.9. Nas hipóteses de dano, perda, roubo, furto e/ou extravio do aludido equipamento, em qualquer dos casos, gerará a cobrança do valor do equipamento pelo UOL ao CONTRATANTE.  VI - DISPOSIÇÕES FINAIS  6.1.   Este contrato constitui o entendimento integral entre o CONTRATANTE e o UOL. O CONTRATANTE não poderá ceder a terceiros seus direitos decorrentes deste contrato sem a prévia anuência por escrito do UOL.  6.2.  As partes elegem o Foro Central da Comarca de São Paulo ou o Foro da Comarca de domicílio do CONTRATANTE, a critério do autor de eventual ação, como competente para dirimir quaisquer controvérsias oriundas do presente contrato, à exclusão de qualquer outro, por mais privilegiado que seja.
+					</div>
+				</div>
+			</fieldset>
+		</div>
+		<div id="finish">
+							<input type="hidden" id="skin" name="skin" value="assine/uol/pf" />
+									<input type="hidden" id="promo" name="promo" value="PROMCONTE" />
+													<input type="hidden" id="dest" name="dest" value="REDIR|http://www.uol.com.br/" />
+										<input type="hidden" name="skinGroup" id="skinGroup" value="assine" />
+										<input type="hidden" name="flowType" id="flowType" value="uol" />
+										<input type="hidden" id="inscriptionChannel" name="inscriptionChannel" value="3" />
+																			<input type="hidden" id="state" name="state" value="check_confirm" />
+			            
+							<input type="hidden" id="codRM" name="codRM" value="11" />
+										<input type="hidden" id="sToken" name="sToken" value="jNCSLRQXAX4OFjE1XLfYoVGWSk4bTutJ1J877ULKOckNLnmz" />
+												<!-- cadastro index -->
+			<input type="hidden" id="network" name="network" value="CNW" />
+			            							<input type="hidden" id="perTpe" name="perTpe" value="PF" />
+			            								<input type="hidden" id="codeSalesAgent" name="codeSalesAgent" value="web" />
+						<input type="hidden" id="fromRegisterConfirmation" name="fromRegisterConfirmation" value="false" />
+						<input type="hidden" id="codeSalesStore" name="codeSalesStore" value="300015590" />
+					<input type="hidden" id="acr" name="acr" value="334863496742064179306589361017931636698073936225258935486788994156442815398680577172903159768203159256471659653396246078713111538595399" />
+				<input type="hidden" id="idtDomain" name="idtDomain" value="1" />
+				<input type="hidden" id="notShowCarousel" name="notShowCarousel" value="false" />
+					<input type="hidden" id="ajaxCodOffer" name="ajaxCodOffer" value="12094" />
+							<input type="hidden" id="showSalesFormFields" name="showSalesFormFields" value="topContent" />
+				<input type="hidden" id="codOffer" name="codOffer" value="12094" />
+						<input type="submit" id="btSubmitForm" class="buttonRegisterUol" value="Avançar" />
+		</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	<!--includes/uolFooter.inc-->
+		<div id="uolRegisterNewFooter">
+			<div id="uolcopyright">
+				<div id="fullCopyright"></div>
+			</div>
+		</div>
+	<!-- includes/dolphinIncSub-javascript.inc -->
+  <!-- JAVASCRIPT DEFAULT -->
+  <script type="text/javascript">
+    var skinControl = {};
+  skinControl.dest = 'REDIR|http://www.uol.com.br/'
+  skinControl.access =        'assine/uol/pf'
+  skinControl.name =          'assine'
+  skinControl.product =       'UOL Assinaturas'
+  skinControl.date = '03/25/2017';
+  skinControl.cep =         'dolphin-uol'
+    skinControl.flowType =        'uol'
+  skinControl.loadAjaxPostalSearch = true
+  </script>
+  <script type="text/javascript" src="/jsuol/bk/cadastro/validation/validation.js?modules=telephone&3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/json2.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/plugins/jquery-1.9.1.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/jsuol/bk/cadastro/validation/desPassword.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/plugins/jquery-migrate-1.2.0.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/plugins/jquery.print.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/jquery.tools.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/thickbox.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/maskedinput/jquery.maskedinput.1.3.1.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/pstrength.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/importfields.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/jquery.simpleimagecheck.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/printDocument.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/dolphin/dolphin3/dolphinUOL3.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/shared/nonoDigito.js?3.6.17"></script>
+  <script type="text/javascript" src="https://simg.uol.com.br/g/uol/footer/main.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/plugins/dom-window/jquery.DOMWindow.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/plugins/custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js?3.6.17"></script>
+  <script type="text/javascript" src="/info/src/js/carousel/dolphin/scripts.js?3.6.17"></script>
+
+    <!-- tagManagerID -->
+    <script src="//tm.jsuol.com.br/uoltm.js?id=z428z6"></script>
+    <!-- tagManagerID -->
+
+    <script type="text/javascript" src="https://jsuol.com.br/bk/dataFiles/messages/bankMessages.js"></script>
+    <script src="/info/src/js/bank-debit-authorization-message/payment-method-component-1/bank-debit-authorization-message.js"></script>
+				<!-- ROI: 11 -->
+		<script type="text/javascript">
+		function rm(cod, unidMedida, gruposExtras, oper) {
+	function formataValor(a) { return unescape( a.replace(/\+/g,' ') ).replace(/\</g,'%3C').replace(/\>/g,'%3E') }
+
+	var sLocation	= document.location.search.toString();
+	sLocation		= sLocation.substring(sLocation.indexOf("?")+1);
+	var aParam		= sLocation.split('&');
+	var hasRtrk		= false;
+
+	var turingstring = "Turing:sem;";
+	if (typeof turingSet != "undefined") { turingstring = turingSet }
+	for (var i=0; i<aParam.length; i++) {
+		var aValue = aParam[i].split('=');
+		if (aValue.length > 1) {
+			if (aValue[0] == 'rtrk') {
+				var rtrk	= formataValor(aValue[1])
+				hasRtrk		= true;
+			}
+			if (aValue[0] == 'promo') {
+				var promo = formataValor(aValue[1])
+			}
+			if (aValue[0] == 'sg') {
+				var sg = formataValor(aValue[1])
+			}
+			if (aValue[0] == 'sa') {
+				var sa = formataValor(aValue[1])
+			}
+			if (aValue[0] == 'prdtrk') {
+				var prdtrk = formataValor(aValue[1])
+			}
+		}
+	}
+
+	var l		= 'https://clicklogger.rm.uol.com.br/?';
+	var laux	= ""
+
+	if (typeof sg != 'undefined') {
+		laux += 'Codigo da Loja:' + sg + ';';
+	}
+	if (typeof sa != 'undefined') {
+		laux += 'Codigo do Vendedor:' + sa + ';';
+	}
+	if (typeof rtrk != 'undefined') {
+		l+= 'grp='+ rtrk + ';';
+		l+= 'referer:' + document.referrer + ";"
+		l+= laux;
+		if (gruposExtras != "" && typeof gruposExtras != 'undefined') {
+			l+= ";" + gruposExtras;
+		}
+		if (unidMedida != "Cadastros Visualizados" && unidMedida != "Cadastros Iniciados") {
+			l += "&msr=" + unidMedida + ":1";
+		} else {

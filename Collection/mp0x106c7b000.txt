@@ -1,0 +1,831 @@
+|||
+http://twitter.com/share
+|
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+      class="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <meta name="twitter:widgets:csp" content="on">
+    <title>Post a Tweet on Twitter</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://abs.twimg.com/a/1490316554/css/tfw/intents_rosetta.bundle.css">
+
+    <style type="text/css">
+      html { display:none; }
+    </style>
+    <noscript>
+      <style type="text/css">
+        html { display: block; }
+      </style>
+    </noscript>
+  </head>
+  
+  
+  <body class=" tfw en logged-out ltr nofooter  noloki">
+
+    <div id="header" role="banner">
+      <div class="bar">
+        <h1 class="logo">
+          <a class="alternate-context" href="/home">Twitter</a>
+        </h1>
+
+        <div id="not-logged-in">
+          <a class="register alternate-context" href="https://twitter.com/signup?context=webintent">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="bd" role="main">
+      <h2 class="action-information">
+      What’s happening?
+</h2>
+
+<form
+  action="https://twitter.com/intent/sessions"
+  id="update-form"
+  method="post">
+  <div class="hd">
+      <input name="url" type="hidden" value="">
+
+      <input type="hidden" name="repost_after_login" value="/intent/tweet">
+    <input type="hidden" name="authenticity_token" value="143742e5b211203397276758b3d945a7351d4c00">
+
+    <label for="status" id="status-label">Tweet Text</label>
+  </div>
+
+
+  <div class="bd ">
+    <span class="field">
+      <textarea id="status" name="status" required autofocus
+        aria-required="true" aria-describedby="post-error char-count"
+        
+      ></textarea>
+    </span>
+  </div>
+
+  <div class="ft">
+     <fieldset class="sign-in">
+  <legend>Log in to Twitter</legend>
+  <div class="row user ">
+    <label for="username_or_email" tabindex="-1">
+      Phone, email or username
+    </label>
+    <input
+      type="text"
+      id="username_or_email"
+      name="session[username_or_email]"
+      required="required"
+      autocorrect="off"
+      autocapitalize="off"
+      aria-required="true"
+      class="text"
+      
+      
+    />
+  </div>
+  <div class="row password ">
+    <label for="password" tabindex="-1">Password</label>
+    <input
+      type="password"
+      class="password text"
+      id="password"
+      name="session[password]"
+      required="required"
+      aria-required="true"
+      value
+    >
+  </div>
+  <p>
+    <input type="checkbox" name="remember_me" id="remember" value="1">
+    <label for="remember">Remember me</label>
+    &middot;
+    <a
+      href="/account/begin_password_reset"
+      class="alternate-context"
+    >Forgot password?</a>
+  </p>
+</fieldset>
+
+    <fieldset class="submit">
+      <input
+        type="submit"
+        class="button selected submit"
+        
+        value="Log in and Tweet">
+    </fieldset>
+  </div>
+</form>
+
+    </div>
+
+        <div id="promo" >
+  <div class="inner">
+    <h2>
+      New to Twitter?
+      <a class="sign-up button alternate-context" href="https://twitter.com/signup?context=webintent" rel="noopener">Sign up</a>
+    </h2>
+    <p>
+      Get instant updates from your friends, industry experts, favorite celebrities, and what's happening around the world.
+    </p>
+    <p><a href="//support.twitter.com/groups/31-twitter-basics/topics/104-welcome-to-twitter-support/articles/215585-twitter-101-how-should-i-get-started-using-twitter" rel="noopener">What is Twitter? Learn more</a>.</p>
+  </div>
+</div>
+
+
+    <script type="text/javascript" charset="utf-8" nonce="48FK9/wy6EHRMiVP3ZPZrA==">
+      var twttr = twttr || {};
+      twttr.form_authenticity_token = '143742e5b211203397276758b3d945a7351d4c00';
+      if (self == top) {
+        document.documentElement.style.display = 'block';
+      }
+    </script>
+
+    <script src="https://abs.twimg.com/a/1490316554/tfw/loadrunner.js" type="text/javascript" data-path="https://abs.twimg.com/a/1490316554/tfw" data-main="tfw/intents/main"></script>
+
+    <script type="text/javascript" charset="utf-8" nonce="48FK9/wy6EHRMiVP3ZPZrA==">
+
+  var twttr = twttr || {};
+  twttr.tco = {
+    length: 23
+  };
+
+  using('tfw/intents/tweetbox', 'imports/jquery', function(Tweetbox, $) {
+    $('#status').each(function() {
+      new Tweetbox(this, 0, 0);
+    });
+  });
+
+</script>
+
+    <script type="text/javascript" nonce="48FK9/wy6EHRMiVP3ZPZrA==">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  try {
+    var pageTracker = _gat._getTracker("UA-30775-6");
+    pageTracker._setDomainName("twitter.com");
+    
+    pageTracker._setVar('Not Logged In');
+    pageTracker._setVar('lang: en');
+    pageTracker._initData();
+    pageTracker._trackPageview();
+  } catch(err) { }
+</script>
+
+  </body>
+</html>
+
+|||
+http://feeds.feedburner.com/Desabilitado
+|
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Desabilitado</title>
+	
+	<link>http://desabilitado.com.br</link>
+	<description>Sem habilitação para existir</description>
+	<lastBuildDate>Thu, 23 Mar 2017 22:19:04 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.9</generator>
+
+<image>
+	<url>http://desabilitado.com.br/wp-content/uploads/2015/07/cropped-iconedesabilitado-55ade92ev1_site_icon-32x32.png</url>
+	<title>Desabilitado</title>
+	<link>http://desabilitado.com.br</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+
+	<image>
+		<url>http://desabilitado.com.br/wp-content/uploads/2015/07/iconedesabilitado-55ade92ev1_site_icon-32x32.png</url>
+		<title>Desabilitado</title>
+		<link>http://desabilitado.com.br</link>
+		<width>32</width>
+		<height>32</height>
+	</image> 
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Desabilitado" /><feedburner:info uri="desabilitado" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly></feedburner:browserFriendly><item>
+		<title>O que acontece quando você instala dois cilindros de nitro numa cadeira giratória?</title>
+		<link>http://desabilitado.com.br/o-que-acontece-quando-voce-instala-dois-cilindros-de-nitro-numa-cadeira-giratoria/</link>
+		<comments>http://desabilitado.com.br/o-que-acontece-quando-voce-instala-dois-cilindros-de-nitro-numa-cadeira-giratoria/#comments</comments>
+		<pubDate>Thu, 23 Mar 2017 22:19:04 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Vídeos]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4799</guid>
+		<description><![CDATA[<p>Sabe aquele dia que você acorda e se pergunta na mesma hora &#8220;o que será que rola se eu instalar dois cilindros de nitro numa cadeira giratória?&#8221; Bem, acontece isso aqui: AUHAUHAHUAHUAHUAHUAUHAUHAHUAUH QUE IDEIA SENSACIONAL, POR FAVOR EU PRECISO DISSO NA MINHA VIDA</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/o-que-acontece-quando-voce-instala-dois-cilindros-de-nitro-numa-cadeira-giratoria/">O que acontece quando você instala dois cilindros de nitro numa cadeira giratória?</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/o-que-acontece-quando-voce-instala-dois-cilindros-de-nitro-numa-cadeira-giratoria/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Novo Honda CR-V 2017 bate com força e ganha prêmio de carro mais seguro dos EUA</title>
+		<link>http://desabilitado.com.br/novo-honda-cr-v-2017-bate-com-forca-e-ganha-premio-de-carro-mais-seguro-dos-eua/</link>
+		<comments>http://desabilitado.com.br/novo-honda-cr-v-2017-bate-com-forca-e-ganha-premio-de-carro-mais-seguro-dos-eua/#comments</comments>
+		<pubDate>Thu, 23 Mar 2017 21:16:43 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Mini]]></category>
+		<category><![CDATA[Novidades]]></category>
+		<category><![CDATA[CR-v 2017]]></category>
+		<category><![CDATA[Honda]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4794</guid>
+		<description><![CDATA[<p>Enquanto na Europa quem tá comandando o ranking de segurança no carro é a Volvo, nos Estados Unidos a Honda colocou à prova o seu novo Honda CR-V 2017, e o SUV japonês que também vem pro Brasil nos proximos meses terá seu espaço, sem dúvidas, ainda mais depois de mostrar o que consegue fazer. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/novo-honda-cr-v-2017-bate-com-forca-e-ganha-premio-de-carro-mais-seguro-dos-eua/">Novo Honda CR-V 2017 bate com força e ganha prêmio de carro mais seguro dos EUA</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/novo-honda-cr-v-2017-bate-com-forca-e-ganha-premio-de-carro-mais-seguro-dos-eua/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Toyota Corolla 2018 ganha novo visual pra deixar qualquer motorista do uber maluco</title>
+		<link>http://desabilitado.com.br/toyota-corolla-2018-ganha-novo-visual-pra-deixar-qualquer-motorista-do-uber-maluco/</link>
+		<comments>http://desabilitado.com.br/toyota-corolla-2018-ganha-novo-visual-pra-deixar-qualquer-motorista-do-uber-maluco/#comments</comments>
+		<pubDate>Wed, 22 Mar 2017 21:42:43 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Entusiastas]]></category>
+		<category><![CDATA[Mini]]></category>
+		<category><![CDATA[Novidades]]></category>
+		<category><![CDATA[Corolla 2018]]></category>
+		<category><![CDATA[Toyota]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4785</guid>
+		<description><![CDATA[<p>O Toyota Corolla 2018 já foi anunciado no Brasil e deve chegar com uma série de modificações no proximo ano, o modelo que é um dos maiores sucessos entre os motoristas do Uber, por ser além de tudo um dos melhores sedãns da categoria, promete agora vir com diferenciais que farão os caras enloquecerem&#8230;. Se [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/toyota-corolla-2018-ganha-novo-visual-pra-deixar-qualquer-motorista-do-uber-maluco/">Toyota Corolla 2018 ganha novo visual pra deixar qualquer motorista do uber maluco</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/toyota-corolla-2018-ganha-novo-visual-pra-deixar-qualquer-motorista-do-uber-maluco/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>O pesadelo de quem fica preso horas no trânsito acabou (ou só tá começando)</title>
+		<link>http://desabilitado.com.br/o-pesadelo-de-quem-fica-preso-horas-no-transito-acabou-ou-so-ta-comecando/</link>
+		<comments>http://desabilitado.com.br/o-pesadelo-de-quem-fica-preso-horas-no-transito-acabou-ou-so-ta-comecando/#comments</comments>
+		<pubDate>Tue, 21 Mar 2017 21:50:25 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Vídeos]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4781</guid>
+		<description><![CDATA[<p>Ficar preso no trânsito é o principal terror dos moradores das maiores cidades do mundo, em São Paulo por exemplo, o ideal quando sai de casa é que você leve no carro o seu travesseiro, uma TV e muita paciência, pois pode passar umas 3 horas enfrentando filas&#8230; Pensando nessas pessoas que tem o tempo [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/o-pesadelo-de-quem-fica-preso-horas-no-transito-acabou-ou-so-ta-comecando/">O pesadelo de quem fica preso horas no trânsito acabou (ou só tá começando)</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/o-pesadelo-de-quem-fica-preso-horas-no-transito-acabou-ou-so-ta-comecando/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Essa é a sua chance de comprar uma equipe inteira de Fórmula 1</title>
+		<link>http://desabilitado.com.br/essa-e-a-sua-chance-de-comprar-uma-equipe-inteira-de-formula-1/</link>
+		<comments>http://desabilitado.com.br/essa-e-a-sua-chance-de-comprar-uma-equipe-inteira-de-formula-1/#comments</comments>
+		<pubDate>Tue, 21 Mar 2017 18:02:44 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Automobilismo]]></category>
+		<category><![CDATA[Entusiastas]]></category>
+		<category><![CDATA[Fórmula 1]]></category>
+		<category><![CDATA[Manor Racing]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4773</guid>
+		<description><![CDATA[<p>Estamos sempre acostumados a ver as equipes que encabeçam as corridas de Fórmula 1 e esquecemos que o campeonato abrange muito mais times. No entanto, a maioria deles hoje faz força pra continuar na competição, não é qualquer um que tem milhões pra gastar sempre que um carro da PT&#8230; Agora sabendo que o nível [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/essa-e-a-sua-chance-de-comprar-uma-equipe-inteira-de-formula-1/">Essa é a sua chance de comprar uma equipe inteira de Fórmula 1</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/essa-e-a-sua-chance-de-comprar-uma-equipe-inteira-de-formula-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Você conhece o esporte chamado Curling? Pois russos estão jogando usando carros</title>
+		<link>http://desabilitado.com.br/voce-conhece-o-esporte-chamado-curling-pois-russos-estao-jogando-usando-carros/</link>
+		<comments>http://desabilitado.com.br/voce-conhece-o-esporte-chamado-curling-pois-russos-estao-jogando-usando-carros/#comments</comments>
+		<pubDate>Mon, 20 Mar 2017 21:18:28 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Entusiastas]]></category>
+		<category><![CDATA[Vídeos]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4767</guid>
+		<description><![CDATA[<p>O Curling é um jogo muito famoso em países frios e seria o equivalente a nossa bocha, por exemplo. Nele uma equipe é responsável por jogar um peso no gelo e fazer ele chegar exatamente ao centro de um alvo, acertando ou não o peso da equipe rival, no fim a equipe que estiver mais [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/voce-conhece-o-esporte-chamado-curling-pois-russos-estao-jogando-usando-carros/">Você conhece o esporte chamado Curling? Pois russos estão jogando usando carros</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/voce-conhece-o-esporte-chamado-curling-pois-russos-estao-jogando-usando-carros/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A Honda está trabalhando em uma moto especial para o próximo filme da Scarlett Johansson</title>
+		<link>http://desabilitado.com.br/a-honda-esta-trabalhando-em-uma-moto-especial-para-o-proximo-filme-da-scarlett-johansson/</link>
+		<comments>http://desabilitado.com.br/a-honda-esta-trabalhando-em-uma-moto-especial-para-o-proximo-filme-da-scarlett-johansson/#comments</comments>
+		<pubDate>Fri, 17 Mar 2017 22:18:10 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Entusiastas]]></category>
+		<category><![CDATA[Mini]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4763</guid>
+		<description><![CDATA[<p>O proximo filme da Scarlett Johansson já ganhou seu trailer e uma data de estréia, o &#8220;Ghost in the Shell&#8221; é uma adaptação de uma historia japonesa e conta os fatos que envolvem a personagem Major, interpretada pela Scarlett. Como o filme se passa em um ambiente de ficção futurista, os veículos precisam acompanhar essa [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/a-honda-esta-trabalhando-em-uma-moto-especial-para-o-proximo-filme-da-scarlett-johansson/">A Honda está trabalhando em uma moto especial para o próximo filme da Scarlett Johansson</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/a-honda-esta-trabalhando-em-uma-moto-especial-para-o-proximo-filme-da-scarlett-johansson/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Chama a loira e chama a morena, mas põe o cinto pra não dar problema</title>
+		<link>http://desabilitado.com.br/chama-a-loira-e-chama-a-morena-mas-poe-o-cinto-pra-nao-dar-problema/</link>
+		<comments>http://desabilitado.com.br/chama-a-loira-e-chama-a-morena-mas-poe-o-cinto-pra-nao-dar-problema/#comments</comments>
+		<pubDate>Thu, 16 Mar 2017 21:36:59 +0000</pubDate>
+		<dc:creator><![CDATA[igorseco]]></dc:creator>
+				<category><![CDATA[Mini]]></category>
+		<category><![CDATA[Vídeos]]></category>
+
+		<guid isPermaLink="false">http://desabilitado.com.br/?p=4756</guid>
+		<description><![CDATA[<p>É aquela velha brincadeira, você pode até sair com sua amiga de carro curtindo um funk nervoso, mas colocar o cinto de segurança é fundamental, eis o por que: AUHAUHAHUA parabéns moça, conseguiu fazer a musica ter um sentido e ainda conseguiu fazer tudo errado pra perder alguns dentes mordendo o volante na batida&#8230; Será [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://desabilitado.com.br/chama-a-loira-e-chama-a-morena-mas-poe-o-cinto-pra-nao-dar-problema/">Chama a loira e chama a morena, mas põe o cinto pra não dar problema</a> appeared first on <a rel="nofollow" href="http://desabilitado.com.br">Desabilitado</a>.</p>
+]]></description>
+		<wfw:commentRss>http://desabilitado.com.br/chama-a-loira-e-chama-a-morena-mas-poe-o-cinto-pra-nao-dar-problema/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+|||
+http://bit.ly/1kC66CV
+|
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<meta http-equiv="refresh" content="0; url=http://goo.gl/uNrUoU?gdriveurl" />
+</head>
+
+<body>
+</body>
+</html>
+
+|||
+http://status.twitter.com/
+|
+<!DOCTYPE html><html lang="en"><head><meta name="robots" content="noindex, nofollow"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Current system status. View active incidents or upcoming maintenances. Subscribe to receive status notifications."><meta name="author" content=""><meta http-equiv="refresh" content="600"><title>System Status Page</title><!-- Bootstrap--><link rel="stylesheet" href="//d241eq668x9log.cloudfront.net/public/statuspage/css/bootstrap.min.css"><!-- Fonts--><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><!-- Page Style--><link rel="stylesheet" href="//d241eq668x9log.cloudfront.net/public/statuspage/css/statuspage-default.min.css?v=3"><link rel="stylesheet" href="//d241eq668x9log.cloudfront.net/public/statuspage/css/statuspage-200.min.css?v=3"><noscript><style>#statusio_metrics {
+  display: none;
+}
+</style></noscript><noscript><style>#section_locations {
+  display: none;
+}
+
+</style></noscript><style>.brand img { 
+  display: block !important; 
+}
+.img { 
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+.navbar .brand {
+  font-size: 20px;
+  font-weight: 200;
+  color: #555555;
+  text-shadow: 0 1px 0 #ffffff;
+}
+.navbar .nav {
+  position: relative;
+  left: 0;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+}
+.navbar .nav > li {
+  float: left;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background: none;
+  color: #2C3E50;
+  background-color: #F2F3F4;
+}
+
+.top_bar .panel-body {
+  height: 52px;
+}
+
+.event_inner_text {
+  font-size: 14px;
+}
+
+.event_inner_title {
+  font-size: 16px;
+}
+</style><!-- Custom Style--><style>body {
+  color: #363434;
+  background-color: #ffffff;
+}
+a:link {
+  color: #363434;
+  text-decoration: none;
+}
+a:visited {
+  color: #363434;
+  text-decoration: none;
+}
+a:hover {
+  color: #363434;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:active {
+  color: #363434;
+  text-decoration: none;
+}
+hr { 
+  border-top: 1px solid #27AE60;
+}
+.top_bar {
+  background-color: #27AE60;
+}
+.text {
+  color: #363434;
+}
+.section_border_0 {
+  background-color: #ffffff;
+  border: 0px solid #ffffff;
+}
+.section_border_1 {
+  background-color: #ffffff;
+  border: 1px solid #27AE60;
+}
+.status_td {
+  color: #363434;
+  background-color: #ffffff;
+}
+.external_service {
+  color: #363434;
+}
+#statuspage_name {
+  color: #363434;
+}
+
+/* overrides */
+.no_top_border {
+  border-top-width: 0px;
+}
+</style><!-- Custom CSS--><style>body {
+                margin: 0px;
+                background-color: #fff;
+                font-family: 'Lucida Grande', Helvetica, sans-serif;
+            }            
+
+            a {
+                color: #99cc33;
+            }
+
+            h1 {
+                width: 600px;
+                padding: 0px 100px 20px 100px;
+                margin: 50px auto 40px auto;
+                border-bottom: solid 1px #ccc;
+                text-align: center;
+                font: Bold 55px 'Trebuchet MS', Helvetica, sans-serif;
+                letter-spacing: -2px;
+                line-height: 50px;
+                position: relative;
+            }
+            
+                h1 a {
+                    color: #444;
+                    text-decoration: none;
+                }
+                
+                h1 img {
+                    border-width: 0px;
+                    position: absolute;
+                    right: 0px;
+                    bottom: 10px;
+                    width: 43px;
+                    height: 23px;
+                }
+
+            div#content {
+                width: 420px;
+                margin: auto;
+                position: relative;
+            }
+
+                div#content div#description {
+                    position: absolute;
+                    right: -170px;
+                    width: 160px;
+                    text-align: right;
+                }
+
+            div#description {
+                font: Normal 17px Helvetica,sans-serif;
+                line-height: 20px;
+                color: #777;
+            }
+
+                div#description a {
+                    color: #777;
+                }
+            
+            div.post {
+                position: relative;
+                margin-bottom: 40px;
+                padding-right: 20px;
+            }
+
+                div.post div.date {
+                    position: absolute;
+                    left: -260px;
+                    text-align: right;
+                    width: 230px;                
+                    white-space: nowrap;
+                    font: Normal 34px Helvetica, sans-serif;
+                    letter-spacing: -2px;
+                    color: #ccc;
+                    text-transform: uppercase;
+                    line-height: 35px;
+                }
+                
+                    div.post div.date div.date_brick {
+                        float: right;
+                        height: 30px;
+                        width: 45px;
+                        background-color: #6498cc;
+                        color: #bbd5f1;
+                        font: Bold 12px Verdana, Sans-Serif;
+                        text-align: center;
+                        line-height: 12px;
+                        margin-left: 10px;
+                        padding-top: 5px;
+                        letter-spacing: 0px;
+                        overflow: hidden;
+                    }
+
+                div.post img.permalink {
+                    width: 14px;
+                    height: 13px;
+                    border-width: 0px;
+                    background-color: #000;
+                    display: none;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    z-index: 10;
+                }
+                
+                    div.post:hover img.permalink {
+                        display: inline;
+                    }
+
+                div.post h2 {
+                    font-size: 18px;
+                    font-weight: Bold;
+                    color: #6498cc;
+                    letter-spacing: -1px;
+                    margin: 0px 0px 5px 0px;
+                }
+
+                    div.post h2 a {
+                        color: #6498cc;
+                        text-decoration: none;
+                    }
+            
+                div.post div.caption {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #444;
+                    margin-top: 10px;
+                    padding: 0px 20px 0px 20px;
+                }
+
+                    div.post div.caption a {
+                        color: #444;
+                    }
+    
+            /* Regular Post */
+            
+                div.post div.regular {
+                    font-size: 12px;
+                    color: #444;
+                    line-height: 17px;
+                }
+
+                    div.post div.regular blockquote {
+                        font-style: italic;
+                        border-left: solid 2px #444;
+                        padding-left: 10px;
+                    }
+                        
+            /* Quote Post */
+            
+                div.post div.quote div.quote_text {
+                    font-family: Helvetica, sans-serif;
+                    font-weight: bold;
+                    color: #888;
+                    border-left: solid 5px #6498cc;
+                    padding-left: 10px;
+                }
+                
+                    div.post div.quote div.quote_text span.short {
+                        font-size: 36px;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.medium {
+                        font-size: 25px;
+                        line-height: 27px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.long {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                    div.post div.quote div.quote_text a {
+                        color: #888;
+                    }
+        
+                div.post div.quote div.source {
+                    font-size: 16px;
+                    font-weight: Bold;
+                    color: #555;
+                    margin-top: 5px;
+                }
+
+                    div.post div.quote div.source a {
+                        color: #555;
+                    }
+            
+            /* Link Post */
+            
+                div.post div.link a.link {
+                    font: Bold 20px Helvetica, sans-serif;
+                    letter-spacing: -1px;
+                    color: #c00;
+                }
+
+                    div.post div.link span.description {
+                        font-size: 13px;
+                        font-weight: normal;
+                        letter-spacing: -1px;
+                        color: #444;
+                    }
+            
+            /* Conversation Post */
+                        
+                div.post div.conversation ul {
+                    list-style-type: none;
+                    margin: 0px;
+                    padding: 0px 0px 0px 1px;
+                    border-left: solid 5px #bbb;
+                }
+            
+                    div.post div.conversation ul li {
+                        font-size: 12px;
+                        padding: 4px 10px 4px 8px;
+                        color: #444;
+                        margin-bottom: 1px;
+                    }
+            
+                        div.post div.conversation ul li span.label {
+                            font-weight: bold;
+                        }
+                        
+                            div.post div.conversation ul li span.user_1 {
+                                color: #c00;
+                            }
+                            
+                            div.post div.conversation ul li span.user_2 {
+                                color: #00c;
+                            }
+                            
+                            div.post div.conversation ul li span.user_3 {
+                                color: #0a0;
+                            }
+                        
+                        div.post div.conversation ul li.odd {
+                            background-color: #f4f4f4;
+                        }
+
+                        div.post div.conversation ul li.even {
+                            background-color: #e8e8e8;
+                        }
+            
+            /* Video Post */
+            
+                div.post div.video {
+                    width: 400px;
+                    margin: auto;
+                }
+
+            /* Footer */
+            
+                div#footer {
+                    margin: 40px 0px 30px 0px;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #444;
+                }
+            
+                    div#footer a {
+                        text-decoration: none;
+                        color: #444;
+                    }
+            
+                        div#footer a:hover {
+                            text-decoration: underline;
+                        }
+                    
+                    div#footer div#credit {
+                        font: Normal 13px Georgia, serif;
+                        font-size: 13px;
+                        margin-top: 15px;
+                    }</style><!-- IE10 viewport hack for Surface/desktop Windows 8 bug --><script src="//d241eq668x9log.cloudfront.net/public/statuspage/js/ie10-viewport-bug-workaround.min.js"></script><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --><!-- WARNING: Respond.js doesn't work if you view the page via file:// --><!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]--></head><body><!-- Scripts--><script src="//d241eq668x9log.cloudfront.net/public/statuspage/js/jquery.min.js"></script><script src="//d241eq668x9log.cloudfront.net/public/statuspage/js/bootstrap.min.js"></script><script src="//d241eq668x9log.cloudfront.net/public/statuspage/js/Autolinker.min.js"></script><div class="container"><!-- Header image--><div id="statusio_header" class="header"><div id="statusio_header_image" style="margin-bottom: 25px; text-align:center;" class="row"><div class="col-md-12"><a href="http://www.twitter.com"><img id="statuspage_header_image" src="//d3kqo8jvppazhl.cloudfront.net/ElcNuM5TbxTa.png" alt="Header Image"></a></div></div><div class="row"><div class="col-md-12 col-sm-12"></div></div></div><div id="statusio_status_bar" style="background:#0bbce3; border-bottom:0;" class="panel panel-default top_bar make_round"><div style="vertical-align: middle;" class="panel-body"><div class="row"><div class="col-md-8 col-sm-6 col-xs-12"><strong id="statusbar_text">All Systems Operational</strong></div><div class="col-md-4 col-sm-6 hidden-xs"><p id="updated_ago" class="pull-right white">Updated 5 months ago</p></div></div></div></div><div id="statusio_last_updated_bar_xs" style="background:#0bbce3; border-bottom:0;" class="panel panel-default top_bar make_round visible-xs-block"><div style="vertical-align: middle;" class="panel-body"><div class="row"><div class="col-xs-12"><p id="updated_ago" class="white">Updated 5 months ago</p></div></div></div></div><div id="statusio_components" class="page_section"><!-- single component--><div id="component_564314ae3309c22c3b00030a" style="border: 1px solid #27AE60;" class="component component_single status_td"><div class="row"><div class="col-md-8 col-sm-8 col-xs-8"><p class="component_name">Twitter<span data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter Main Website"> <i class="fa fa-info-circle"></i></span></p></div><div class="col-md-4 col-sm-4 col-xs-4"><p id="status_text-564314ae3309c22c3b00030a" style="color: #0bbce3;" class="pull-right component-status">Operational</p></div></div></div></div><!-- Metrics--><!-- Map--><!-- Footer--><div id="section_page_links" class="page_section"><div class="row"><div class="col-sm-9"><div id="bottom_menu"><strong><a href="/pages/564314ae3309c22c3b0002fa" class="pull-left margin-right-20">Status</a></strong><a href="/pages/history/564314ae3309c22c3b0002fa" class="pull-left margin-right-20">History</a></div></div><div class="col-sm-3"><div id="statusio_branding"><a href="#" class="pull-right">Powered by Status.io</a></div></div></div></div><!-- Subscriber modal--><div id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true" class="modal fade"><div class="modal-dialog"><div class="modal-content make_round modal-text"><div class="modal-body"><div class="row"><div class="col-md-10"><ul role="tablist" class="nav nav-pills"><li id="tab_menu_email"><a href="#tab_email" role="tab" data-toggle="tab">Email</a></li><li id="tab_menu_webhook"><a href="#tab_webhook" role="tab" data-toggle="tab">Webhook</a></li><li id="tab_menu_rss"><a href="#tab_rss" role="tab" data-toggle="tab">RSS</a></li></ul></div><div class="col-md-2"><button type="button" data-dismiss="modal" class="close"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button></div></div><div class="row margin-top-40"><div class="col-md-12"><div class="tab-content"> <div id="tab_email" class="tab-pane"><div class="row"><div class="col-sm-12"><h4 class="text-center">Subscribe to receive status updates by email</h4></div></div><br><div class="row margin-top-20"><div class="col-md-3"></div><div class="col-md-6"><input id="subscribe_email_address" type="text" placeholder="Email" name="subscribe_email_address" autofocus="autofocus" class="form-control make_round"><input type="hidden" placeholder="Email" name="email" class="form-control"></div></div><div class="row subscribe-modal-footer"><div class="col-md-6"><div id="result_subscribe_email" class="pull-left"></div></div><div class="col-md-6"><button type="button" data-dismiss="modal" class="btn btn-default make_round">Close</button><button id="subscribe_button_email" type="button" class="btn btn-default make_round">Subscribe</button></div></div></div><div id="tab_webhook" class="tab-pane"><div class="row"><div class="col-sm-12"><h4 class="text-center">Subscribe to receive status updates by webhook</h4></div></div><br><div class="row margin-top-20"><div class="col-md-2"></div><div class="col-md-8"><input id="subscribe_webhook_address" type="text" name="subscribe_webhook_address" placeholder="http://example.com/hook" class="form-control make_round"><p class="help-block">Each status update will POST a JSON payload to this URL</p></div></div><br><div class="row margin-top-20"><div class="col-md-2"></div><div class="col-md-8"><input id="subscribe_webhook_address_email" type="text" name="subscribe_webhook_address_email" placeholder="Email" class="form-control make_round"><p class="help-block">Email address for managing webhook</p></div></div><div class="row subscribe-modal-footer"><div class="col-md-6"><div id="result_subscribe_webhook" class="pull-left"></div></div><div class="col-md-6"><button type="button" data-dismiss="modal" class="btn btn-default make_round">Close</button><button id="subscribe_button_webhook" type="button" class="btn btn-default make_round">Subscribe</button></div></div></div><div id="tab_rss" class="tab-pane"><div class="row"><div class="col-sm-12"><h4 class="text-center">Subscribe to receive status updates via RSS</h4></div></div><br><div class="row margin-top-20"><div class="col-md-2"></div><div class="col-md-8 text-center"><a href="http://status.twitterstat.us/pages/564314ae3309c22c3b0002fa/rss" target="_blank" style="color:#000; font-size: 20px;">RSS Feed</a></div></div><div class="row subscribe-modal-footer"><div class="col-md-6"></div><div class="col-md-6"><button type="button" data-dismiss="modal" class="btn btn-default make_round">Close</button></div></div></div></div></div></div></div></div></div></div></div><!-- Subscriber scripts--><script>$(document).ready(function(){
+  $('#tab_email').addClass('active');
+  $('#tab_menu_email').addClass('active');
+});</script><script>$("#subscribe_button_email").click(function (event) {
+  event.preventDefault();
+  var address = $("#subscribe_email_address").val();
+  var email = $("#email").val();
+  $.ajax({
+    url: '/subscriber/add',
+    type: "POST",
+    data: ({
+      statuspage_id: "564314ae3309c22c3b0002fa",
+      method: "email",
+      address: address,
+      email: email
+    }),
+    success: function(data){
+      var message_text = data.status.message;
+      if (message_text == 'OK') {
+        message_text = 'Thanks for subscribing. Check your email for instructions.';
+      }
+      $("#result_subscribe_email").html("<span class=\"help-block\">"+message_text+"</span>");
+      $("#result_subscribe_email").show();
+      setTimeout(function(){
+        $("#result_subscribe_email").fadeOut("slow", function () {
+        $("#result_subscribe_email").hide();
+            });
+      }, 5000);
+    }
+  });
+})
+</script><script>$("#subscribe_button_sms").click(function (event) {
+  event.preventDefault();
+  var address = $("#subscribe_sms_country_code").val() + $("#subscribe_sms_number").val();
+  $.ajax({
+    url: '/subscriber/add',
+    type: "POST",
+    data: ({
+      statuspage_id: "564314ae3309c22c3b0002fa",
+      method: "sms",
+      address: address
+    }),
+    success: function(data){
+      var message_text = data.status.message;
+      if (message_text == 'OK') {
+        message_text = 'Check your phone for the confirmation text message';
+      }          
+      $("#result_subscribe_sms").html("<span class=\"help-block\">"+message_text+"</span>");
+      $("#result_subscribe_sms").show();
+      setTimeout(function(){
+        $("#result_subscribe_sms").fadeOut("slow", function () {
+        $("#result_subscribe_sms").hide();
+            });
+      }, 8000);
+    }
+  });
+})
+</script><script>$("#subscribe_button_webhook").click(function (event) {
+  event.preventDefault();
+  var address = $("#subscribe_webhook_address").val();
+  var address_email = $("#subscribe_webhook_address_email").val();
+  $.ajax({
+    url: '/subscriber/add',
+    type: "POST",
+    data: ({
+      statuspage_id: "564314ae3309c22c3b0002fa",
+      method: "webhook",
+      address: address,
+      address_email: address_email
+    }),
+    success: function(data){
+      var message_text = data.status.message;
+      if (message_text == 'OK') {
+        message_text = 'Thanks for subscribing. Check your email for instructions.';
+      }          
+      $("#result_subscribe_webhook").html("<span class=\"help-block\">"+message_text+"</span>");
+      $("#result_subscribe_webhook").show();
+      setTimeout(function(){
+        $("#result_subscribe_webhook").fadeOut("slow", function () {
+        $("#result_subscribe_webhook").hide();
+            });
+      }, 5000);
+    }
+  });
+})
+</script><script>$('#subscribeModal').on('shown.bs.modal', function() {
+  $(this).find('input:first').focus(

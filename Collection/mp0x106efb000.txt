@@ -1,0 +1,215 @@
+|||
+http://email.uol.com.br/
+|
+<!DOCTYPE html> <html lang="pt-BR" xmlns:og='http://ogp.me/ns#'> <head> <title>UOL Mail</title> <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/> <meta http-equiv="X-Frame-Options" content="deny"> <style type="text/css">body{font-family:'Open Sans',sans-serif}</style> <script type="text/javascript">if(top!=self){top.location.replace(document.location.href);}function urlParams(){var v=[],z;try{var u=window.location.href;u=(u.indexOf("#")!=-1?u.split("#")[0]:u);var h=u.slice(u.indexOf("?")+1).split("&");for(var i=0;i<h.length;i++){z=h[i].split("=");v.push(z[0]);v[z[0]]=z[1];}}catch(e){}return v;}var urlP=urlParams();var red=((urlP&&urlP.rf)||/\/email.uol.com.br\//.test(document.referrer));</script> </head> <body> <b>Acessando o <a href="/login">UOL Mail</a></b> <noscript> <META http-equiv="refresh" content="2;URL=/login"/> </noscript> <script type="text/javascript">var ck=document.cookie,landingProceed=false;var webmailUrl="http://mail.uol.com.br/checkin";var loginUrl="http://email.uol.com.br/login";var landingUrl="http://email.uol.com.br/bem-vindo";var url=loginUrl;if(!red&&/CAUBR01\=/ig.test(ck)&&!/CAUBR01\=eos/ig.test(ck)){url=webmailUrl;}else{if(red||/CAUBR01\=/ig.test(ck)){url=loginUrl;}else{if(landingProceed){url=landingUrl;}}}window.location.href=url;</script> </body> </html>
+|||
+http://acervo.folha.uol.com.br/?cmpid=menulate
+|
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<title>Acervo Folha</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Digital Pages"/>
+	<meta name="distribution" content="global"/>
+	<meta name="revisit-after" content="30 days"/>
+	<meta name="copyright" content="digitalpages.com.br"/>
+
+	<link href="http://f.i.uol.com.br/favicon.ico" rel="icon" type="image/x-icon" />
+	<link href="http://f.i.uol.com.br/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+	<link href="/assets/base.css" media="screen" rel="stylesheet" type="text/css" />
+	
+</head>
+
+<body class='home'>
+
+	<!--barra Uol-->
+		<script src="http://jsuol.com.br/barra/parceiro.js?parceiro=folha"></script>
+	<!--/barra Uol-->
+	<div id="header">
+		<h1><a href="/" title="Folha de S.Paulo">Folha de S.Paulo</a></h1>
+		<div id="splash" class="img2"></div>
+	</div>
+
+	<div id="toolbar">
+		<form accept-charset="UTF-8" action="/resultados/" id="search" method="get">
+			<div class="label"><img alt="Busca" src="/images/embed/toolbar/title_busca.gif?1304376064" /></div>
+			<div class="key"><input id="q" name="q" type="text" value="Digite aqui" /></div>
+			<div class="site"><select id="site" name="site"><option value="">Jornais</option>
+<option value="fsp">Folha de S.Paulo</option>
+<option value="fdm">Folha da Manhã</option>
+<option value="fdn">Folha da Noite</option></select></div>
+			<div class="interval"><select id="periodo" name="periodo"><option value="acervo">Desde 1921</option>
+<option value="dia">Hoje</option>
+<option value="mes">Últimos 30 dias</option>
+<option value="ano">Últimos 12 meses</option></select></div>
+			<div class="submit"><input type="image" src="/images/embed/toolbar/bt_ok.gif" alt="ok" /></div>
+			<div class="details"><a href="/busca_detalhada/" title="Busca detalhada">Busca detalhada</a></div>
+			<div class="border">&nbsp;</div>
+			<div class="folha"><a href="http://www.folha.uol.com.br/"><img src="/images/embed/logo-folha.png" alt="Folha.com" title="Folha" /></a></div>
+		</form>
+		<ul class="icons">
+		  
+			<li class="send">
+				<span class="send" title="Enviar">&nbsp;</span>
+				<div id="sub-menu-send">
+					<img src="/images/embed/submenu-top.png" class="arrow_top_submenu" alt=" " />
+					<ul>
+						<li><a href="/enviar_para_amigo/" title="Enviar por e-mail">Enviar por e-mail</a></li>
+						<li class="last-child">
+							<em>Compartilhar</em>
+							<p>
+								<a href="http://twitter.com/home?status=Folha%20p%C3%B5e%20na%20internet%2090%20anos%20de%20hist%C3%B3ria%20em%201%2C8%20milh%C3%A3o%20de%20p%C3%A1ginas%20http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-twitter.jpg" alt="" /></a>
+								<a href="http://www.facebook.com/share.php?u=http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-facebook.jpg" alt="" /></a>
+								<a href="http://promote.orkut.com/preview?nt=orkut.com&amp;tt=Folha%20p%C3%B5e%20na%20internet%2090%20anos%20de%20hist%C3%B3ria%20em%201%2C8%20milh%C3%A3o%20de%20p%C3%A1ginas&amp;du=http://acervo.folha.com.br" target="_blank"><img src="/images/embed/icon-orkut.jpg" alt="" /></a>
+							</p>
+						</li>
+					</ul>
+				</div>
+			</li>
+			<li class="print"><span class="toolTip print" title="Imprimir">&nbsp;</span></li>
+			<li class="visualizador"><span class="toolTip viewer" title="Visualizador">&nbsp;</span></li>
+			<li class="report"><span class="toolTip report" title="Comunicar erros">&nbsp;</span></li>
+			<li class="help">
+				<span title="Ajuda">&nbsp;</span>
+				<div id="sub-menu">
+					<img src="/images/embed/submenu-top.png" class="arrow_top_submenu" alt="" />
+					<ul>
+						<li><a href="http://www1.folha.uol.com.br/acervo/ajuda.html">Ajuda</a></li>
+						<li><a href="/acervo/">Sobre o acervo</a></li>
+						<li><a href="/fale-com-o-banco-de-dados/">Fale com o Banco de Dados Folha</a></li>
+					</ul>
+				</div>
+			</li>
+			<li class="full_screen"><span class="toolTip fullscreen" title="Tela cheia">&nbsp;</span></li>
+		</ul>
+	</div>
+
+	<div id="breadcrumb">
+		<img alt="Consulta" class="title1" id="title_breadcrumb" src="/images/embed/toolbar/breadcrumb.png?1304376064" />
+		<img alt="Edição" class="title2" id="title_section" src="/images/embed/toolbar/edition.gif?1304376064" />
+		<div class="select_box">
+			<select class="publication" id="publication" name="publication"><option value="" selected="selected">Jornais</option>
+<option value="fsp">Folha de S.Paulo</option>
+<option value="fdm">Folha da Manhã</option>
+<option value="fdn">Folha da Noite</option></select>
+			<select class="year" id="year" name="year"><option value="">Ano</option></select>
+			<select class="month" id="month" name="month"><option value="">Mês</option></select>
+			<select class="day" id="day" name="day"><option value="">Dia</option></select>
+			<select class="section" id="section" name="section"><option value="">Caderno</option></select>
+			<select class="page" id="page" name="page"><option value="">Página</option></select> <img src="/images/embed/link.png" class="link_actual"/>
+			<div id="link_box">
+				Link <input type="text" name="" value="" id="link_actual" /><span id="copy_show">&nbsp;</span>
+			</div>
+		</div>
+	</div>
+
+	<div id="content" class="actived">
+	<div id="container" style="width:942px!important">
+		<div class="yesterday">
+			<a href="/fsp/2017/03/23/" title="quinta-feira, 23 de março de 2017"><img alt="quinta-feira, 23 de Março de 2017" class="img_home" height="355" src="http://acervo2.folha.com.br/11/71/83/4/6048371/600/6048371.jpg" width="200" /></a>
+			<div class="see">
+				<img src="/images/embed/titulo_consulte.gif" title="Consulte">
+				<ul>
+					<li><a href="/jornais/" title="Desde 1921">Desde 1921</a></li>
+					<li><a href="/fsp/2017/" title="Todas as edições do ano">Todas as edições do ano</a></li>
+					<li><a href="/fsp/2017/03/" title="Todas as edições do mês">Todas as edições do mês</a></li>
+				</ul>
+				<p class="assinante">Somente para assinantes</p>
+				<a href="/fsp/2017/03/25/2/" title="Leia a edição de hoje"><img alt="LEIA A EDIÇÃO DE HOJE" class="bt" src="/images/embed/title_editions_today.gif?1335468482" /></a>
+				<a href="/fsp/2017/03/24/2/" title="Leia a edição de ontem"><img alt="LEIA A EDIÇÃO DE ONTEM" class="bt" src="/images/embed/title_editions_yesterday.png?1341007787" /></a>
+				<ul class="last_editions-ul">
+						<li class="li_0"><a href="/fsp/2017/03/23/" title="Quinta, 23.mar.2017">Quinta, 23.mar.2017</a></li>
+						<li class="li_1"><a href="/fsp/2017/03/22/" title="Quarta, 22.mar.2017">Quarta, 22.mar.2017</a></li>
+						<li class="li_2"><a href="/fsp/2017/03/21/" title="Terça, 21.mar.2017">Terça, 21.mar.2017</a></li>
+						<li class="li_3"><a href="/fsp/2017/03/20/" title="Segunda, 20.mar.2017">Segunda, 20.mar.2017</a></li>
+						<li class="li_4"><a href="/fsp/2017/03/19/" title="Domingo, 19.mar.2017">Domingo, 19.mar.2017</a></li>
+						<li class="li_5"><a href="/fsp/2017/03/18/" title="Sábado, 18.mar.2017">Sábado, 18.mar.2017</a></li>
+					<li><strong><a href="/fsp/" title="Edições anteriores">Edições anteriores</a></strong></li>
+				</ul>
+				<a href="http://assine.folha.com.br/folha/assinatura/" target="_blank"><img src="/images/embed/assine-a-folha.gif" class="assine-folha"/></a>
+			</div>
+			<p style="clear:both;padding:8px 13px;font-size:12px!important">O acervo será gratuito por um período de degustação</p>
+		</div>
+		<div class="newspapers">
+			<h3><img src="/images/embed/titulo_jornais.gif" alt="jornais"></h3>
+			<div>
+				<a href="/fsp" title="Folha de S.Paulo">
+					<img src="/images/embed/fsp.jpg" alt="" class="home_fsp"/>
+				</a>
+				<a href="/fdm" title="Folha da Manhã">
+					<img src="/images/embed/fdm.jpg" alt="" class="home_fdm"/>
+				</a>
+				<a href="/fdn" title="Folha da Noite">
+					<img src="/images/embed/fdn.jpg" alt="" class="home_fdn"/>
+				</a>
+			</div>
+		</div>
+		<div class="neutral">&nbsp;</div>
+		<div class="buy">
+			<h3><img src="/images/embed/bt_buy.gif" alt="compre" /></h3>
+			<div id="img1">
+				<img src="images/embed/thumbnail1.gif" alt="" style="float:left;"/>
+				<p>
+					Tenha uma cópia da primeira página da Folha do dia em que você nasceu, ou na data que escolher. <strong><a href="https://assinatura.folha.com.br//capas/" target="blank">Saiba como</a></strong>.
+				</p>
+			</div>
+			<div id="img2">
+				<img src="images/embed/thumbnail2.gif" alt="" style="float:left"/>
+				<p>
+					<strong><a href="http://livraria.folha.com.br/catalogo/1161627/primeira-pagina-7-edicao"  target="blank">Compre</a></strong> a coleção das melhores primeiras páginas da Folha, em livro que relata a história do Brasil pelo jornal.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<a href="#full" id="page_full_screen" title="Sair do modo tela cheia">Sair</a>
+
+	<div id="footer">
+		<a href="http://digitalpages.com.br/" target="blank"><img alt="Digital Pages" class="digital_pages" id="digital_pages" src="/images/embed/digital_pages.png?1304376064" /></a>
+		<span>&copy; Folha.com. Direitos reservados. Proibida a reprodução do conteúdo em qualquer meio de comunicação, eletrônico ou
+		impresso sem autorização da <a href="mailto:pesquisa@folhapress.com.br">Folhapress</a></span>
+	</div>
+
+	<script type="text/javascript" src="http://google-analytics.com/ga.js" ></script>
+
+	<script type="text/javascript">
+	var pageTracker 	= _gat._getTracker("UA-6263320-61");
+	pageTracker._trackPageview();
+
+	var DPPageTracker	= _gat._getTracker("UA-29230115-1");
+	DPPageTracker._trackPageview();
+	</script>
+
+	<div id="stats_folha">
+		<!--STATS-->
+		<script type="text/javascript">
+			document.write('<img src="http://stats.folha.com.br/stats?url=' + escape( location.href ) + '&amp;ref=' + escape( document.referrer || '' ) + '&amp;rand=' + Math.random() + '" width="1" height="1" alt="">');
+		</script>
+		<noscript><div><img src="http://stats.folha.com.br/stats" width="1" height="1" alt=""></div></noscript>
+		<!--/STATS-->
+		<!-- SiteCatalyst code version: H.19.3. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+		<script type="text/javascript" src="http://me.jsuol.com.br/omtr/acervofolha.js"></script>
+		<script type="text/javascript"><!--
+			/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+			var s_code=uol_sc.t();if(s_code)document.write(s_code)//-->
+		</script>
+		<!-- End SiteCatalyst code version: H.19.3. -->
+	</div>
+
+	<script src="/assets/base.js" type="text/javascript"></script>
+	<script src="/assets/priority.js" type="text/javascript"></script>
+		<div id='bookmarklet_dialog'><!-- Dialog bookmaklet --></div>
+		<script src="/assets/bookmarklet.js" type="text/javascript"></script>
+		<script src="http://www1.folha.uol.com.br/acervo/90_anos-acervo.js" type="text/javascript"></script>
+	<script type="text/javascript">
+//<![CDATA[
+
+		$("#container .neutral").html(folha_facts);
+		$.cookie("page_with_zoom", null, {path: "/"});
+
+//]]

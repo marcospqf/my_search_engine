@@ -1,0 +1,634 @@
+|||
+http://www.elsalario.com.ar/main/Salario/compara-tusalario
+|
+<!doctype html>
+<html lang="es-AR">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&amp;subset=latin,latin-ext,vietnamese" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="/++theme++wi.theme/css/main-3c66a2b2.css" media="screen">
+    <script src="/++theme++wi.theme/js/wi-theme-top-6beab848.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.1/jquery.smartmenus.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.1/addons/keyboard/jquery.smartmenus.keyboard.js"></script>
+
+<base href="http://www.elsalario.com.ar/main/Salario/compara-tusalario/"><title>Elsalario.com.ar - Comparador Salarial. Conoce el Salario Neto y Bruto de tus Colegas en Argentina</title><meta name="ROBOTS" content="INDEX, FOLLOW"><meta name="description" content="Elsalario.com.ar: compara tu salario, conoce el salario bruto y neto de otras personas con tu ocupación en Argentina."><link rel="canonical" href="http://www.elsalario.com.ar/main/Salario/compara-tusalario"><link rel="shortcut icon" type="image/x-icon" href="http://www.elsalario.com.ar/favicon_wageindicator.ico"><link rel="search" href="http://www.elsalario.com.ar/main/@@search" title="Buscar en este sitio"><script id="wageindicator-globals">
+var WageIndicatorGlobals = {
+    'subsite_id': 'Elsalario.com.ar',
+    'country_code': 'AR'
+}
+</script><script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['es'],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script><style data-extra-css="1">
+#cookie-bar { z-index: 999999999 !important; }
+</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-293192-4', 'auto');
+  ga('send', 'pageview');
+
+</script></head>
+
+
+<body dir="ltr" class="template-folder_listing portaltype-menufolder site-main section-Salario subsection-compara-tusalario icons-on userrole-anonymous elsalario-com-ar"><!-- INDEX DEFAULT --><div class="container-fluid">
+
+    
+        <div id="above-site-portlets" class="row">
+            
+        </div>
+    <header class="doc-header col-md-12">
+
+    <div class="header-title col-xs-12 col-md-offset-1">
+        <img alt="wageindicator logo" src="/++theme++wi.theme/images/wageindicator.png">
+        <span class="title"><a href="http://www.elsalario.com.ar">
+        <span class="subsite_title">Elsalario.com.ar</span>
+    </a></span>
+    </div>
+
+    <div class="subtitle col-xs-6 col-md-offset-1">
+        <a href="//wageindicator.org">You Share, We Compare</a>
+    </div>
+
+    <div class="header-partof col-xs-6 col-md-4">
+        <span>
+            <a href="//www.wageindicator.org"><span class="subsite_partof">Parte de WageIndicator fundación</span></a>
+        </span>
+    </div>
+
+</header>
+
+    <main class="col-xs-12">
+
+        <row class="row-fluid">
+            <section id="nav-pillar" class="col-md-offset-1 col-xs-12 col-md-7">
+                    <div class="smartmenu"><nav class="main-nav" role="navigation">
+
+    <input id="main-menu-state" type="checkbox">
+
+    <label class="main-menu-btn" for="main-menu-state">
+        <span class="main-menu-btn-icon"></span> Toggle main menu visibility
+    </label>
+
+    <ul id="main-menu" class="sm sm-simple row">
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.elsalario.com.ar/main/Salario">
+                            <span>Salario</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/Salario/entendetusalario">Entendé tu Salario</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/entendetusalario/turecibodesueldo">Tu recibo de sueldo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/entendetusalario/aguinaldo">Aguinaldo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/entendetusalario/Tujubilacion">Tu jubilación</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/entendetusalario/Paritarias">Paritarias</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/entendetusalario/bfque-hacer-frente-a-la-crisis">¿Qué hacer frente a la crisis?</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/compara-tusalario">Compara Tusalario</a>
+                                
+                            </li>
+                        
+                            
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/encuesta-salarial">Encuesta Salarial</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/encuesta-sobre-costo-de-vida">Encuesta sobre Costo de Vida</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/Salario/igualdad-salarial">Igualdad salarial</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/igualdad-salarial/brecha-salarial-de-genero-preguntas-frecuentes">Brecha Salarial de Género - Preguntas Frecuentes</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/igualdad-salarial/mapa-mundial-de-la-brecha-salarial-de-genero">Mapa Mundial de la Brecha Salarial de Género</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/igualdad-salarial/test-de-la-brecha-salarial-de-genero-para-empleadas-y-empleados">Test de la Brecha Salarial de Género para Empleadas y Empleados en Argentina</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/igualdad-salarial/test-de-brecha-salarial-de-genero-para-empresarios">Test de Brecha Salarial de Género para empresarios en Argentina</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/Salario/vip-salario">Salarios de los Vip's</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/presidentes-de-america-latina">Presidentes de América Latina</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/politicos-salario">Líderes Internacionales</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/salarios-oficiales">Salarios oficiales</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/familia-real">Família Real</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/ceo-salario">CEO´s</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/club-del-dolar">Club del dolar</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/banqueros">Banqueros</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/futbolistas-salario">Futbolistas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/Entrenadores-y-selecciones-nacionales">Futbol: Entrenadores y selecciones nacionales</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/deportistas-salario">Deportistas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/actores-salario">Actores </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/actrices">Actrices</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/juego-de-tronos-tripulacion">Juego de Tronos Tripulación</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/directores-de-cine-salario">Directores de cine </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/musicos-salario">Músicos </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/personalidades-de-tv-salario">Personalidades de TV </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/mujeres-famosas-salario">Mujeres Famosas </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/escritores">Escritores</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/vip-salario/modelos">Modelos</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/salario-minimo">Salario Mínimo</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida">Salarios en Contexto</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Argentina-Salario-Minimo-Vital">Argentina - Salario minimo vital</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Salarios-minimos-vitales-comparados-con-salarios-reales-y-salario-minimos">Argentina - Salarios mínimos vitales comparados con salarios reales y salario mínimos</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Salarios-Minimos-Vitales-comparados-con-salarios-minimos">Argentina - Salarios mínimos vitales comparados con salarios mínimos</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Linea%20de%20pobreza%20nacional">Argentina - Línea de pobreza nacional</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Linea%20de%20pobreza%20del%20Banco%20Mundial">Argentina - Línea de pobreza del Banco Mundial</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Costes-de-vivienda-comida-y-transporte">Argentina - Costes de vivienda, comida y transporte</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/Salario/mapa-mundial-de-salarios-necesarios-para-la-vida/Argentina-Precios-de-consumo-de-los-alimentos">Argentina - Precios de consumo de los alimentos</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente">
+                            <span>Leyes Laborales</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/compensacion">Compensación</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente/licencia-por-enfermedad">Licencia por Enfermedad</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/licencia-por-enfermedad/prestacion-por-lesiones-de-trabajo">Prestación por Lesiones de Trabajo</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente/maternidad-e-hijos">Maternidad y Trabajo</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/maternidad-e-hijos/lactancia">Lactancia</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/maternidad-e-hijos/proteccion">Protección</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/responsabilidades-familiares">Responsabilidades Familiares</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/salud-y-seguridad">Salud y Seguridad</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente/seguridad-en-el-trabajo">Seguridad Laboral</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/seguridad-en-el-trabajo/preaviso-y-compensacion-por-despido">Preaviso y Compensación por Despido</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente/seguridad-social">Seguridad Social</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/seguridad-social/salud-ocupacional">Salud ocupacional </a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/seguridad-social/seguro-de-desempleo">Seguro de Desempleo</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/derechos-sindicales">Sindicatos</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/salarios-y-empleo">Trabajo y Salarios</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="has-submenu" href="http://www.elsalario.com.ar/main/trabajo-decente/trato-justo">Trato Justo</a>
+                                <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/trato-justo/acoso-sexual">Acoso Sexual</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/trato-justo/menores-y-jovenes">Menores y Jóvenes</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/trato-justo/trabajo-forzoso">Trabajo Forzoso</a>
+                                
+                            </li>
+                        
+                    </ul>
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/trabajo-en-feriados-y-dias-de-descanso">Vacaciones</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/trabajo-decente/mapa-mundial-de-leyes-laborales">Mapa Mundial de Leyes Laborales</a>
+                                
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            
+        
+            <li class="col-md-4">
+                
+
+                    <div class="menu-header">
+                        <a class="has-submenu" href="http://www.elsalario.com.ar/main/carrera">
+                            <span>Carrera Laboral</span>
+                        </a>
+                    </div>
+                    <ul>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/carrera/argentina-funcion-y-salario">Ocupaciones y Tareas</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a class="" href="http://www.elsalario.com.ar/main/carrera/mujeres-como-solicitar-un-trabajo">Mujeres: ¿Cómo solicitar un trabajo?</a>
+                                
+                            </li>
+                        
+                    </ul>
+                
+            </li>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </ul>
+</nav></div>
+
+    <div class="pillars row">
+        
+
+        
+
+        
+    </div>
+
+    <div class="pillar-footers row">
+        <div id="pillar-1-footer" class="col-md-4">
+            
+        </div>
+        <div id="pillar-2-footer" class="col-md-4">
+            
+        </div>
+        <div id="pillar-3-footer" class="col-md-4">
+            
+        </div>
+    </div>
+
+            </section>
+            <section id="search-pillar" class="col-md-3 col-xs-12">
+                    <div class="pillar">
+        <div class="search pillar-header">
+            <div class="search-form">
+    <form action="google-search-result" class=" form-inline">
+  <input type="text" id="searchGadget" name="q">
+  <input type="submit" class="searchButton" value="Search">
+</form>
+  </div>
+        </div>
+    </div>
+
+            </section>
+        </row>
+
+        <row class="row-fluid">
+            <section id="content" class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div id="portal-breadcrumbs" class="breadcrumb">
+    <span id="breadcrumbs-home">
+        <a href="http://www.elsalario.com.ar/main">Inicio</a>
+        
+            
+                <i class="fa fa-angle-right"></i>
+            
+            
+        
+    </span>
+    <span dir="ltr" id="breadcrumbs-1">
+        
+            <a href="http://www.elsalario.com.ar/main/Salario">Salario</a>
+            
+                
+                    <i class="fa fa-angle-right"></i>
+                
+                
+            
+            
+        
+    </span>
+    <span dir="ltr" id="breadcrumbs-2">
+        
+            
+            
+            <span id="breadcrumbs-current">Compara Tusalario</span>
+        
+    </span>
+
+    
+
+    
+</div>
+
+    <div class="smallscreen-ctas row"></div>
+
+    <div class="teaser-ctas row">
+        
+    </div>
+
+    
+
+    <div class="articles row"><section class="col-xs-12 full_width_items">
+            <article class="   teaser_item full_width category-"><div class="article-content">
+                        <h2>
+                            
+                        </h2>
+                        
+                        
+<div class="scheck" data-locale="es_AR">...</div>
+<script src="https://scapp.wageindicator.org/js/webwidget.min.js"></script>
+
+                        
+                    </div></article>
+        </section>
+        <div class="color1 col col-md-4">
+            
+            
+            
+        
+        
+    </div>
+
+        <div class="color2 col col-md-4">
+            
+            
+        
+        
+    </div>
+
+        <div class="color3 col col-md-4">
+
+            
+
+            
+            
+        
+        
+    </div>
+    <div class="col-xs-12 news_items_block">
+        
+      </div></div>
+        <div class="addthis_toolbox ">
+        <a class="addthis_button_facebook" title="Facebook" href="#">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a class="addthis_button_twitter" title="Tweet" href="#">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="addthis_button_google_plusone_share">
+            <i class="fa fa-google-plus"></i>
+        </a>
+        <a class="addthis_button_linkedin" href="#" target="_blank" title="LinkedIn">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a class="addthis_button_email" target="_blank" title="Email" href="#">
+            <i class="fa fa-email">@</i>
+        </a>
+        <div class="atclear"></div>
+    </div>
+    <div class="row cite-wrappper">
+    <div class="col-xs-12" id="cite">
+    Citar esta página © WageIndicator 2017 -  Elsalario.com.ar - <a href="http://www.elsalario.com.ar/main/Salario/compara-tusalario">Compara Tusalario</a><a>
+<

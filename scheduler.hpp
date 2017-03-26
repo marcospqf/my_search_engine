@@ -40,9 +40,8 @@ class Scheduler
 			url(const string &s);
 			bool operator<(const url &a) const;
 		};
-
-		static priority_queue<url> inside_url;
-		static priority_queue<url> outside_url;
+		static set<url> inside_url;
+		static set<url> outside_url;
 		//just a simple polinomial hash!
 		static unordered_set<long long> visited;
 };

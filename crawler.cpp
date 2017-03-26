@@ -3,22 +3,30 @@ using namespace std;
 
 mutex Crawler::scheduler_mutex;
 mutex Crawler::crawlado;
+clock_t Crawler::tbegin;
 int Crawler::ncraw=0;
 string Crawler::foldername;
 
 Crawler::Crawler() 
 {
-	int x=rand()%3;
 	Crawler::scheduler_mutex.lock();
-	
+	int x=rand()%4;
 	if(x==0)
-	Scheduler::PushUrl("http://www.naosalvo.com.br/",false);
+	Scheduler::PushUrl("http://uol.com",false);
 	if(x==1)
-	Scheduler::PushUrl("www.uol.com",false);
-	if(x==2)
-	Scheduler::PushUrl("http://www.g1.com.br",false);
-	
+	Scheduler::PushUrl("http://g1.com.br",false);
+	if(x==2)	
+	Scheduler::PushUrl("http://r7.com.br",false);
+	if(x==3)	
+	Scheduler::PushUrl("http://folha.uol.com.br",false);
+
+
+
 	Crawler::scheduler_mutex.unlock();
+}
+
+void Crawler::SetTime(){
+	Crawler::tbegin=clock();
 }
 
 void Crawler::SetFolder(string s){
@@ -51,15 +59,15 @@ void Crawler::Crawl()
 	fw.OpenStream();
 	int cont=0;
 	while(true){
-		if(cont>50000) break;
+		if(cont>1000000) break;
 		scheduler_mutex.lock();
 		string nextUrl= Scheduler::TopUrl();
 		Crawler::scheduler_mutex.unlock();
 		if(nextUrl.size()==0) {
-			//cout<<"COCO"<<endl;
 			cont++;
 			continue;
 		}
+		
 		spider.Initialize(nextUrl.c_str());
 		spider.AddUnspidered(nextUrl.c_str());
 		
@@ -72,10 +80,7 @@ void Crawler::Crawl()
 			crawlado.lock();
 			ncraw++;
 			cout<<"numero de site ja coletados: "<<ncraw<<endl;
-			crawlado.unlock();
 			int sz=spider.get_NumOutboundLinks();
-			//cout<<"tamanho ";
-			//cout<<sz<<endl;
 			unordered_set<int> jafoi;
 			for(int x=0;x<sz;x++){
 					Crawler::scheduler_mutex.lock();
@@ -87,7 +92,7 @@ void Crawler::Crawl()
 			spider.ClearOutboundLinks();
 			sz=spider.get_NumUnspidered();
 			
-			while(jafoi.size()<min(sz,26)){
+			while(jafoi.size()<min(sz,35)){
 				int x=rand()%sz;
 				//cout<<"NO WHILE"<<endl;
 				if(!jafoi.count(x)){
@@ -115,7 +120,8 @@ void Crawler::Crawl()
 	   	spider.ClearFailedUrls();
 		}
 		else{
-	//		cout<<"PAU"<<endl;
+
+			cout<<"PAU"<<endl;
 		}
 	}
 	for(int i=0;i<1000;i++) cout<<"#";

@@ -1,0 +1,169 @@
+|||
+http://zipmail.uol.com.br/
+|
+<!DOCTYPE html> <html lang="pt-BR" xmlns:og='http://ogp.me/ns#'> <head> <title>Zipmail</title> <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/> <meta http-equiv="X-Frame-Options" content="deny"> <style type="text/css">body{font-family:'Open Sans',sans-serif}</style> <script type="text/javascript">if(top!=self){top.location.replace(document.location.href);}function urlParams(){var v=[],z;try{var u=window.location.href;u=(u.indexOf("#")!=-1?u.split("#")[0]:u);var h=u.slice(u.indexOf("?")+1).split("&");for(var i=0;i<h.length;i++){z=h[i].split("=");v.push(z[0]);v[z[0]]=z[1];}}catch(e){}return v;}var urlP=urlParams();var red=((urlP&&urlP.rf)||/\/zipmail.uol.com.br\//.test(document.referrer));</script> </head> <body> <b>Acessando o <a href="/login">Zipmail</a></b> <noscript> <META http-equiv="refresh" content="2;URL=/login"/> </noscript> <script type="text/javascript">var ck=document.cookie;var webmailUrl="http://afmail.uol.com.br/checkin";var loginUrl="http://zipmail.uol.com.br/login";var url=loginUrl;if(!red&&/CAUBR01\=/ig.test(ck)&&!/CAUBR01\=eos/ig.test(ck)){url=webmailUrl;}else{if(red||/CAUBR01\=/ig.test(ck)){url=loginUrl;}}window.location.href=url;</script> </body> </html>
+|||
+http://isabelmueller.com.br/astrologia_lua_fora_de_curso
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<meta http-equiv="expires" content="0" />
+	<meta name="description" content="Isabel Mueller trabalha com astrologia h&aacute; mais de 22 anos, atendendo a consultas de Mapa Astral, Tr&acirc;nsitos, Revolu&ccedil;&atilde;o Solar e Sinastria. Ministra cursos e palestras. Escreve para jornais, revistas e sites do Brasil e de outros pa&iacute;ses." />
+	<meta name="language" content="BR" />
+	<meta name="author" content="Rian Design" />
+	<meta name="copyright" content="&copy; 2017 Isabel Mueller" />
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="7 days" />
+	<meta name="reply-to" content="contato@riandesign.com.br" />
+	<meta name="rating" content="general" />
+	<meta name="keywords" content="astrologia, horoscopo, horoscopo do dia, livro astrologia, livro horoscopo, astrologa, astrologo, consulta astrologica" />
+	
+	<title>
+		Isabel Mueller | Astrologia | Lua fora de curso	</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+	<link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />    
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>    <![endif]-->
+    
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+        <link rel="stylesheet" type="text/css" href="/css/unsemantic-grid-responsive.css" />    <!--<![endif]-->
+    
+    <!--[if (lt IE 9) & (!IEMobile)]>
+		<link rel="stylesheet" type="text/css" href="/css/ie.css" /><link rel="stylesheet" type="text/css" href="/css/ie-estilos.css" />    <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" href="/css/generico.css" /><link rel="stylesheet" type="text/css" href="/css/estilos.css" /><script type="text/javascript" src="/js/jquery-1.11.0.min.js"></script><script type="text/javascript" src="/js/parallax.js"></script><script type="text/javascript" src="/js/magnific-popup/jquery.magnific-popup.js"></script><link rel="stylesheet" type="text/css" href="/js/magnific-popup/magnific-popup.css" />    
+    <script>
+	$(document).ready(function() {
+		
+		// Tradu do magnificPopup
+		$.extend(true, $.magnificPopup.defaults, {
+			tClose: 'Sair (Esc)',
+			tLoading: 'Carregando...',
+			gallery: {
+				tPrev: 'Anterior',
+				tNext: 'Pra',
+				tCounter: '%curr% de %total%'
+			},
+			image: {
+				tError: '<a href="%url%">A imagem</a> n&atilde;o p&ocirc;de ser carregada.'
+			},
+			ajax: {
+				tError: '<a href="%url%">O conte&uacute;do</a> n&atilde;o p&ocirc;de ser carregado.'
+			}
+		});		
+		
+	});
+	</script>
+</head>
+<body>
+
+
+<div class="topo bgParallax" data-speed="2">
+	<div class="grid-container">
+    	<div class="grid-100">
+        	<div class="logo">
+            	<a href="/" title="Ir para In&iacute;cio"><img src="/img/logo-isabel-mueller.png" alt="Isabel Mueller" /></a>            </div>
+        </div>
+    </div>
+    
+    <div class="menu openSans">
+        <div class="grid-container">
+            <div class="grid-100">
+            	<div style="position: relative;">
+                	
+                                        
+                    <ul>
+                        <li><a href="/">In&iacute;cio</a></li>
+                        <li><a href="/isabel_mueller">Isabel Mueller</a></li>
+                                                <li><a href="/astrologia">Astrologia</a></li>
+                        <li><a href="/videos">V&iacute;deos</a></li>
+                        <li><a href="/contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="menuMobile">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="">Menu</option>
+            <option value="/">
+                In&iacute;cio
+            </option>
+            <option value="/isabel_mueller">
+                Isabel Mueller
+            </option>
+                        <option value="/astrologia">
+                Astrologia
+            </option>
+            <option value="/videos">
+                V&iacute;deos
+            </option>
+            <option value="/contato">
+                Contato
+            </option>
+        </select>
+    </div>
+</div>
+
+
+<div class="contPg">
+	<div class="grid-container">
+		<div class="grid-100">
+	<div class="migalha">
+    	<a href="/">In&iacute;cio</a>        &gt;
+        <a href="/astrologia">Astrologia</a>        &gt;
+        Lua fora de curso
+    </div>
+    
+	<div class="titPg">
+    	Lua fora de curso
+    </div>
+</div>
+
+<div class="grid-100">
+	<div class="textoLongo">
+    	<p>
+	Na sabedoria astrol&oacute;gica, que reflete a liga&ccedil;&atilde;o existente entre o macro e o microcosmo, entre o universo e o ser humano, a Lua exerce fasc&iacute;nio, &eacute; tema de observa&ccedil;&atilde;o e de inspira&ccedil;&atilde;o. Lua dos poetas, dos amantes, sat&eacute;lite da Terra, que em suas fases simboliza o movimento cont&iacute;nuo da vida.</p>
+<p>
+	A rela&ccedil;&atilde;o da Lua com os fen&ocirc;menos terrestres desde muito &eacute; observada: mar&eacute;s, plantios, comportamento humano, etc.<br />
+	O movimento lunar &eacute; r&aacute;pido e vari&aacute;vel. A cada dois dias e meio, aproximadamente, a Lua muda de signo, percorrendo todo o zod&iacute;aco em um m&ecirc;s.</p>
+<p>
+	Um dos fen&ocirc;menos estudados pela astrologia chama-se &ldquo;Lua fora de curso&rdquo;, caracterizando o intervalo entre a sua passagem de um signo para outro, sem que fa&ccedil;a aspecto com nenhum planeta, permanecendo numa esp&eacute;cie de &ldquo;v&aacute;cuo&rdquo; (a Lua fora de curso tamb&eacute;m pode ser chamada de Lua vazia).</p>
+<p>
+	Estes momentos acontecem aproximadamente a cada 2 ou 3 dias, e t&ecirc;m dura&ccedil;&atilde;o vari&aacute;vel, dependendo do posicionamento lunar em rela&ccedil;&atilde;o ao Sol e aos planetas. &Agrave;s vezes, a Lua permanece apenas 5 minutos fora de curso. Em outras, pode permanecer durante todo um dia sem realizar aspecto com outro planeta.</p>
+<p>
+	Os per&iacute;odos em que a Lua est&aacute; fora de curso t&ecirc;m a reputa&ccedil;&atilde;o de serem desfavor&aacute;veis para o in&iacute;cio de novos empreendimentos, para a tomada de decis&otilde;es importantes, para a assinatura de contratos, para fazer neg&oacute;cios ou acordos, para cirurgias, viagens, pois os resultados tendem a ser diferentes do esperado. Nesses instantes &eacute; como se as pessoas estivessem &ldquo;desligadas&rdquo; da realidade, pouco objetivas, dificultando o discernimento e a lucidez. Deve-se evitar o in&iacute;cio de uma a&ccedil;&atilde;o importante. Este &eacute; um tempo prop&iacute;cio apenas para dar andamento ao que j&aacute; foi iniciado anteriormente, para relaxar, refletir, descansar. Bom para as coisas subjetivas, mas desfavor&aacute;vel para tudo o que for objetivo, concreto, pr&aacute;tico.</p>
+<p>
+	LUA FORA DE CURSO - MAR&Ccedil;O 2017</p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">01/Mar das 23h18 at&eacute; 04h43 de 02/Mar&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">03/Mar das 12h20 at&eacute; 07h05 de 04/Mar&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">06/Mar das 05h22 at&eacute; 09h54&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">08/Mar das 11h59 at&eacute; 13h45&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">10/Mar das 14h06 at&eacute; 19h07&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">12/Mar das 23h36 at&eacute; 02h28 de 13/Mar&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">15/Mar das 07h05 at&eacute; 12h11&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">17/Mar da 18h56 at&eacute; 00h00 &nbsp; de 18/Mar&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">20/Mar das 07h37 at&eacute; 12h31&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">22/Mar das 10h20 at&eacute; 23h28&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-indent: -36px; line-height: normal; font-family: Arial; color: rgb(29, 33, 41); -webkit-text-stroke-color: rgb(29, 33, 41); -webkit-text-stroke-width: initial;">
+	<span style="font-kerning: none">25/Mar das 02h56 at&eacute; 07h06&nbsp; &nbsp;</span></p>
+<p style="margin: 0px 0px 0px 36px; text-inde
