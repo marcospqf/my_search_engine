@@ -1,0 +1,1070 @@
+|||
+http://www.riotgames.com/print/articles/20150817/547/working-riot
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <base href='http://www.riotgames.com/articles/20150817/547/working-riot' />
+    <title>Working at Riot</title>
+    <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_TqoetcsZNPi8AjhLC5J6ChBZHeX-Qdd7HMFlrBvfNpQ.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"AgvdaMWYYM3Z_605PMY7hHHYyoTJtQg9ELKNweL4taY","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"field_group":{"div":"print"}});
+//--><!]]>
+</script>
+        <meta name='robots' content='noindex, nofollow' />
+    <link rel='shortcut icon' href='http://www.riotgames.com/sites/default/files/favicon_1.ico' type='image/x-icon' />
+    <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ISTD0p3yj0w2t2U8kfV9qaly7G8KSslundWbTVoB5xw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_7joQcU-8LL9JOcKhI8y7x__EAXviqeArqRj8DWuHg5A.css" media="all" />
+  </head>
+  <body>
+        <div class="print-logo"></div>
+    <div class="print-site_name">Published on <em class="placeholder">Riot Games</em> (<a href="http://www.riotgames.com">http://www.riotgames.com</a>)</div>
+    <p />
+    <div class="print-breadcrumb"><a href="/">Home</a> &gt; Riot with us</div>
+    <hr class="print-hr" />
+    <div class="print-content">
+
+
+<article about="/articles/20150817/547/working-riot" typeof="sioc:Item foaf:Document" class="node node-article node-published node-not-promoted node-not-sticky self-posted author- odd clearfix" id="node-article-547">
+        <header>
+    <h2 class="node-title">Working at Riot</h2>
+  </header>
+    <span property="dc:title" content="Working at Riot" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>	  
+    
+    <div class="post-date">Posted on 01-01-15</div>		
+		<div class="share-bar">
+			Print
+			<!-- PDF -->
+			<span class='st_email_custom st_ico' displayText='Email'></span>
+			<span class='st_twitter_custom st_ico' displayText='Tweet'></span>
+			<span class='st_facebook_custom st_ico' displayText='Facebook'></span>
+			<span class='st_linkedin_custom st_ico' displayText='LinkedIn'></span>
+			<span class='st_google_custom st_ico' displayText='Google'></span>
+			<script type="text/javascript">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+			<script type="text/javascript">
+				stLight.options({
+		        publisher: 'f65a6e51-8a93-4acd-a665-976809c16a17',
+		        onhover: false
+		    });</script>
+		</div>
+
+    
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-main-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/article_image/public/content/article/images/main/Riot%20Exterior_0.jpg?itok=f9TZaLZL" width="700" height="467" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p dir="ltr"><span id="docs-internal-guid-2a1b6b8d-eeac-1da0-299a-3c4b54b104ca">We work in a collaborative, fast-paced and learning-rich environment with a veteran development team anchored by accomplished leaders in engineering, design, art, publishing and more. We&#39;re always looking for talented and driven people to </span><a href="http://www.riotgames.com/careers">join us</a> <span class="print-footnote">[1]</span> as we strive to create player-focused games.</p>
+<p><span id="docs-internal-guid-2a1b6b8d-eeac-1da0-299a-3c4b54b104ca">Riot&#39;s a global company &ndash; in addition to the Los Angeles headquarters (located just minutes from the beach), we&#39;ve got outposts in Berlin, Dublin, Hong Kong, Istanbul, Mexico City, Moscow, New York, Paris, Santiago, Sao Paulo, Seoul, San Francisco Bay Area, Shanghai, Singapore, St. Louis, Sydney, Taipei, and Tokyo.&nbsp;</span></p>
+<h2>
+	RIOT CULTURE</h2>
+<p dir="ltr"><span id="docs-internal-guid-2a1b6b8d-eeac-9a34-142e-659aed3afa5c">Our goal is to become the most player-focused company in the world. With this mission in mind, we develop high-quality games and services enjoyed by </span><a href="http://www.riotgames.com/articles/20140711/1322/league-players-reach-new-heights-2014">tens of millions</a> <span class="print-footnote">[2]</span> of players around the world.</p>
+<p dir="ltr"><span id="docs-internal-guid-2a1b6b8d-eeac-9a34-142e-659aed3afa5c">We also take play seriously. For us, it&rsquo;s never &quot;just a game.&quot; We play lots of games, especially our own. Everyone&rsquo;s first day at Riot begins with a playtest. We try to make it a daily habit. </span><a href="http://i.imgur.com/qMTJwGK.gif">Although we&rsquo;re serious professionals</a> <span class="print-footnote">[3]</span>, we don&rsquo;t take ourselves too seriously. Whether it&rsquo;s memes in presentations or the PC Bangs built into the heart of new offices, we make time for play and fun.</p>
+<p dir="ltr"><span id="docs-internal-guid-2a1b6b8d-eeac-9a34-142e-659aed3afa5c">At our core, we&#39;re a group of passionate people who embrace new challenges, thrive in finding smart, out-of-the-box solutions, </span>and love <em>League of Legends</em> and this industry. If this sounds like a team you&#39;d like to be a part of, check out <a href="http://www.riotgames.com/careers">our job openings</a> <span class="print-footnote">[1]</span> across all of our offices.</p>
+<h2>
+	PERKS OF BEING A RIOTER</h2>
+<p>As we focus on creating the best player experiences, we also strive to create a place where Rioters will thrive.&nbsp;Here are a few of the benefits for Rioters in <a href="http://www.riotgames.com/articles/20110615/233/riot-games-santa-monica" target="_blank">L</a> <span class="print-footnote">[4]</span><a href="http://www.riotgames.com/articles/20150501/233/riot-games-los-angeles" target="_blank">os Angeles</a> <span class="print-footnote">[5]</span>:</p>
+<h3>
+	THE BASICS</h3>
+<ul>
+	<li>
+		Highly competitive salary</li>
+	<li>
+		Choice between four subsidized HMO and PPO medical insurance plans</li>
+	<li>
+		Subsidized vision insurance plan</li>
+	<li>
+		PPO dental insurance plan</li>
+	<li>
+		Benefits coverage for domestic partners</li>
+	<li>
+		Matching 401k</li>
+	<li>
+		Short term and long term disability insurance</li>
+	<li>
+		Life insurance (free basic life insurance, plus voluntary life insurance)</li>
+</ul>
+<h3>
+	PERKS BEYOND THE NORM</h3>
+<ul>
+	<li>
+		Open PTO (Paid Time Off)</li>
+	<li>
+		Flexible hours</li>
+	<li>
+		Rioter donation matching</li>
+	<li>
+		On-site, full service cafeteria offering fully subsidized meals and <a href="http://www.riotgames.com/sites/default/files/Bilgewater.jpg" target="_blank">coffee bar</a> <span class="print-footnote">[6]</span></li>
+	<li>
+		Office kitchens stocked with free cereal, fresh fruit, snacks, tea, and fresh ground coffee</li>
+	<li>
+		All-company &quot;Taste the Riot&quot; fairs and <a href="http://thunderdome.riotgames.com/" target="_blank">&quot;Thunderdome&quot; hackathons</a> <span class="print-footnote">[7]</span> (infused with adult beverages)</li>
+	<li>
+		Ongoing education and training through Riot U</li>
+	<li>
+		<a href="http://www.riotgames.com/sites/default/files/uploads/SantaMonica13.jpg">On-site PC Bang</a> <span class="print-footnote">[8]</span>&nbsp;and arcade</li>
+</ul>
+<ul>
+	<li>
+		<a href="http://www.riotgames.com/articles/20121029/531/funding-riots-play" target="_blank">Annual Riot Play Fund</a> <span class="print-footnote">[9]</span></li>
+	<li>
+		Optional daily <em>League of Legends </em>playtests</li>
+	<li>
+		<a href="http://www.riotgames.com/sites/default/files/Corner%20exterior.jpg" target="_blank">Top-of-the-line computers and peripherals</a> <span class="print-footnote">[10]</span></li>
+	<li>
+		<span id="docs-internal-guid-2a1b6b8d-eead-57de-e2b0-7c48d94e7c6e">Company events like early movie screenings, </span><a href="http://www.riotgames.com/articles/20141211/1639/new-friends-face-potluck-game-night">board game nights</a> <span class="print-footnote">[11]</span>, and office get-togethers (usually around food).</li>
+	<li>
+		Submit your champion ideas directly to the people who make &#39;em real</li>
+	<li>
+		Subsidized gym membership and massage therapy</li>
+	<li>
+		Riot Games and&nbsp;<em>League of Legends</em>&nbsp;apparel and promotional items</li>
+</ul>
+<p><em>It&#39;s Riot Games, Inc., policy to provide equal employment opportunity for all applicants and members of the Riot team. Riot doesn&#39;t unlawfully discriminate on the basis of race, color, religion, sex, sexual orientation, gender identity or expression, national origin, age, handicap, veteran status, marital status, or any other category protected by applicable federal and state law. Riot also makes reasonable accommodations for handicapped and disabled Rioters.</em></p>
+ </div></div></div>
+        
+    <div class="field-group-format group_tags field-group-div group-tags clearfix speed-none effect-none"><h3><span>Tags:</span></h3><div class="field field-name-field-topic field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.riotgames.com/topic/riot-manifesto-stories" typeof="Concept" property="prefLabel">Riot Manifesto Stories</a> <span class="print-footnote">[12]</span></div><div class="field-item odd"><a href="http://www.riotgames.com/topic/rioter-perks" typeof="Concept" property="prefLabel">Rioter Perks</a> <span class="print-footnote">[13]</span></div><div class="field-item even"><a href="http://www.riotgames.com/categories/category" typeof="Concept" property="prefLabel">Working @ Riot Games</a> <span class="print-footnote">[14]</span></div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://www.riotgames.com/tags/benefits" typeof="Concept" property="prefLabel">Benefits</a> <span class="print-footnote">[15]</span></div><div class="field-item odd"><a href="http://www.riotgames.com/tags/culture" typeof="Concept" property="prefLabel">Culture</a> <span class="print-footnote">[16]</span></div><div class="field-item even"><a href="http://www.riotgames.com/tags/focus-talent-team" typeof="Concept" property="prefLabel">Focus on talent &amp; team</a> <span class="print-footnote">[17]</span></div><div class="field-item odd"><a href="http://www.riotgames.com/tags/working-riot" typeof="Concept" property="prefLabel">Working at Riot</a> <span class="print-footnote">[18]</span></div><div class="field-item even"><a href="http://www.riotgames.com/tags/perks" typeof="Concept" property="prefLabel">perks</a> <span class="print-footnote">[19]</span></div></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+		<a href="http://www.riotgames.com/news" class="view-all">All Articles</a> <span class="print-footnote">[20]</span>
+      </div>
+</article>
+</div>
+    <div class="print-footer">
+</div>
+    <hr class="print-hr" />
+    <div class="print-source_url"><strong>Source URL:</strong> <a href="http://www.riotgames.com/articles/20150817/547/working-riot">http://www.riotgames.com/articles/20150817/547/working-riot</a></div>
+    <div class="print-links"><p><strong>Links:</strong><br />[1] http://www.riotgames.com/careers<br />
+[2] http://www.riotgames.com/articles/20140711/1322/league-players-reach-new-heights-2014<br />
+[3] http://i.imgur.com/qMTJwGK.gif<br />
+[4] http://www.riotgames.com/articles/20110615/233/riot-games-santa-monica<br />
+[5] http://www.riotgames.com/articles/20150501/233/riot-games-los-angeles<br />
+[6] http://www.riotgames.com/sites/default/files/Bilgewater.jpg<br />
+[7] http://thunderdome.riotgames.com/<br />
+[8] http://www.riotgames.com/sites/default/files/uploads/SantaMonica13.jpg<br />
+[9] http://www.riotgames.com/articles/20121029/531/funding-riots-play<br />
+[10] http://www.riotgames.com/sites/default/files/Corner%20exterior.jpg<br />
+[11] http://www.riotgames.com/articles/20141211/1639/new-friends-face-potluck-game-night<br />
+[12] http://www.riotgames.com/topic/riot-manifesto-stories<br />
+[13] http://www.riotgames.com/topic/rioter-perks<br />
+[14] http://www.riotgames.com/categories/category<br />
+[15] http://www.riotgames.com/tags/benefits<br />
+[16] http://www.riotgames.com/tags/culture<br />
+[17] http://www.riotgames.com/tags/focus-talent-team<br />
+[18] http://www.riotgames.com/tags/working-riot<br />
+[19] http://www.riotgames.com/tags/perks<br />
+[20] http://www.riotgames.com/news<br />
+</p></div>
+      <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a24d38a665","applicationID":"6988133","transactionName":"blFTY0BWV0ZWURYLW1cbcFRGXlZbGEIQC1pNa1JYXENLWlteBxBrUUBcWw==","queueTime":0,"applicationTime":161,"atts":"QhZQFQhMREg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+
+|||
+http://www.riotgames.com/riot-tours-updates
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:url" content="http://www.riotgames.com/riot-tours-updates" />
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:description" content="Fill out the form below to recieve news and updates about Riot Games tours.
+" />
+<meta property="og:title" content="Riot Tours Updates" />
+<meta name="description" content="Fill out the form below to recieve news and updates about Riot Games tours." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/riot-tours-updates" />
+<link rel="shortlink" href="http://www.riotgames.com/node/2138" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.riotgames.com/riot-tours-updates" />
+<meta property="og:title" content="Riot Tours Updates" />
+<meta property="og:description" content="Fill out the form below to recieve news and updates about Riot Games tours." />
+<meta property="og:updated_time" content="2016-09-21T13:47:52-07:00" />
+<meta property="article:published_time" content="2016-01-27T15:43:00-08:00" />
+<meta property="article:modified_time" content="2016-09-21T13:47:52-07:00" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Riot Tours Updates | Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_4gm3iuLjqj8BM0dyXpPYui-pnSEriniSIPyuMvybq-k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_eZ5wKTbagdpwHXnHJBk8YWXTgV2wkp0l9maQBGEdyZE.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"ceM7LcjNwKcYH_S7FhS6AglvkNEm3NVUsTCKg8NOf4k","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/webform\/css\/webform.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"sites\/all\/modules\/contrib\/mollom\/mollom.js":1,"sites\/all\/modules\/contrib\/webform\/js\/webform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-2138 node-type-webform i18n-en context-riot-tours-updates">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-12 region region-content region-content-webform" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            		<h1 class="title" id="page-title">Riot Tours Updates</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/riot-tours-updates" typeof="sioc:Item foaf:Document" class="node node-webform node-published node-not-promoted node-not-sticky author-jesse odd clearfix" id="node-webform-2138">
+        <span property="dc:title" content="Riot Tours Updates" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <span class="print-link"></span><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Fill out the form below to recieve news and updates about Riot Games tours.</p>
+ </div></div></div><form class="webform-client-form" enctype="multipart/form-data" action="/riot-tours-updates" method="post" id="webform-client-form-2138" accept-charset="UTF-8"><div><div class="form-item webform-component webform-component-textfield" id="webform-component-email-address">
+  <label for="edit-submitted-email-address">Email Address </label>
+ <input type="text" id="edit-submitted-email-address" name="submitted[email_address]" value="" size="60" maxlength="128" class="form-text" />
+ <div class="description">Please enter a valid email address.</div>
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-r6PxB0XNkZzo5wTe18wlnIngJrd35Z9ozqOpAv94tyU" />
+<input type="hidden" name="form_id" value="webform_client_form_2138" />
+<input class="mollom-content-id" type="hidden" name="mollom[contentId]" value="" />
+<input class="mollom-captcha-id" type="hidden" name="mollom[captchaId]" value="" />
+<div style="display: none;"><div class="form-item form-type-textfield form-item-mollom-homepage">
+ <input autocomplete="off" type="text" id="edit-mollom-homepage" name="mollom[homepage]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div><div class="description mollom-privacy">By submitting this form, you accept the <a href="https://mollom.com/web-service-privacy-policy" class="mollom-target" rel="nofollow">Mollom privacy policy</a>.</div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" /></div></div></form>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf"><a href="/articles/20150217/546/awards" target="_blank">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebook.com/RiotGames" class="ico-facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://us.linkedin.com/company/riot-games" class="ico-linkedin" target="_blank">Linked In</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RiotGamesInc" class="ico-youtube">YouTube</a></li>
+<li class="leaf"><a href="/news/feed" class="ico-rss">RSS</a></li>
+<li class="last leaf"><a href="http://www.glassdoor.com/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm" class="ico-glassdoor" target="_blank">Glassdoor</a></li>
+</ul>    </div>
+  </div>
+</section><div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><em>&copy;2015 Riot Games, Inc. All rights reserved. League of Legends and Riot Games are trademarks, service marks, or registered trademarks of Riot Games, Inc.</em></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a24d38a665","applicationID":"6988133","transactionName":"blFTY0BWV0ZWURYLW1cbcFRGXlZbGFwNBlFmRFBQV2hPXFJF","queueTime":0,"applicationTime":283,"atts":"QhZQFQhMREg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+|||
+http://www.riotgames.com/office-locations/los-angeles?page=5
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta about="/office-locations/los-angeles" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="Los Angeles" />
+<link rel="alternate" type="application/rss+xml" title="RSS - Los Angeles" href="http://www.riotgames.com/taxonomy/term/9/feed" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/office-locations/los-angeles" />
+<link rel="shortlink" href="http://www.riotgames.com/taxonomy/term/9" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.riotgames.com/office-locations/los-angeles" />
+<meta property="og:title" content="Los Angeles" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Los Angeles | Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_UzGUScc4CqpziiZouwwXeN8sAIKDbraWPyyQmLuSSdU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_d9gATwNwd2xCcDU9RDWS3OQpNzaFt0U6oFh0Dm_I-NM.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"ALoITnbYK_hJx_axPJFYxwad6-zCTl0gfqkT5h_ZzcI","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-9 i18n-en context-office-locations">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="term-listing-heading">
+<a href="/news" class="back-news-link">Back to News</a>
+
+<h1>Los Angeles</h1>
+
+		<div class="share-bar">
+			<a href="/taxonomy/term/9/feed" class="rss-link">RSS</a>			<span class='st_twitter_custom st_ico' displayText='Tweet'></span>
+			<span class='st_facebook_custom st_ico' displayText='Facebook'></span>
+			<span class='st_linkedin_custom st_ico' displayText='LinkedIn'></span>
+			<span class='st_google_custom st_ico' displayText='Google'></span>
+			<script type="text/javascript">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+			<script type="text/javascript">
+				stLight.options({
+		        publisher: 'f65a6e51-8a93-4acd-a665-976809c16a17',
+		        onhover: false
+		    });</script>
+		</div>
+
+<div class="ds-1col taxonomy-term vocabulary-office-locations view-mode-full clearfix ">
+
+
+
+  
+  &nbsp;</div></div><article about="/careers/esports-coordinator-0" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes odd clearfix" id="node-jobs-1336">
+        <header>
+    <h2 class="node-title"><a href="/careers/esports-coordinator-0" title="Esports Coordinator">Esports Coordinator</a></h2>
+  </header>
+    <span property="dc:title" content="Esports Coordinator" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience.<br /><br /></p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/esports-coordinator-0" rel="tag" title="Esports Coordinator">Read more<span class="element-invisible"> about Esports Coordinator</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/talent-operations-manager" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes even clearfix" id="node-jobs-1327">
+        <header>
+    <h2 class="node-title"><a href="/careers/talent-operations-manager" title="Talent Operations Manager">Talent Operations Manager</a></h2>
+  </header>
+    <span property="dc:title" content="Talent Operations Manager" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience.</p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/talent-operations-manager" rel="tag" title="Talent Operations Manager">Read more<span class="element-invisible"> about Talent Operations Manager</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/publishing-creative-recruiter" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes odd clearfix" id="node-jobs-1324">
+        <header>
+    <h2 class="node-title"><a href="/careers/publishing-creative-recruiter" title="Publishing Creative Recruiter">Publishing Creative Recruiter</a></h2>
+  </header>
+    <span property="dc:title" content="Publishing Creative Recruiter" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience.</p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/publishing-creative-recruiter" rel="tag" title="Publishing Creative Recruiter">Read more<span class="element-invisible"> about Publishing Creative Recruiter</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/technical-sourcer" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes even clearfix" id="node-jobs-1323">
+        <header>
+    <h2 class="node-title"><a href="/careers/technical-sourcer" title="Technical Sourcer">Technical Sourcer</a></h2>
+  </header>
+    <span property="dc:title" content="Technical Sourcer" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience. </p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/technical-sourcer" rel="tag" title="Technical Sourcer">Read more<span class="element-invisible"> about Technical Sourcer</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/senior-network-engineer-1" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes odd clearfix" id="node-jobs-1309">
+        <header>
+    <h2 class="node-title"><a href="/careers/senior-network-engineer-1" title="Senior Network Engineer">Senior Network Engineer</a></h2>
+  </header>
+    <span property="dc:title" content="Senior Network Engineer" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience. </p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/senior-network-engineer-1" rel="tag" title="Senior Network Engineer">Read more<span class="element-invisible"> about Senior Network Engineer</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/finance-analystassociate-product-finance" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky author-prakes even clearfix" id="node-jobs-1301">
+        <header>
+    <h2 class="node-title"><a href="/careers/finance-analystassociate-product-finance" title="Finance Analyst/Associate (Product Finance) ">Finance Analyst/Associate (Product Finance) </a></h2>
+  </header>
+    <span property="dc:title" content="Finance Analyst/Associate (Product Finance) " class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title League of Legends to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the League of Legends experience. </p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/finance-analystassociate-product-finance" rel="tag" title="Finance Analyst/Associate (Product Finance) ">Read more<span class="element-invisible"> about Finance Analyst/Associate (Product Finance) </span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/art-recruiter" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky self-posted author- odd clearfix" id="node-jobs-1300">
+        <header>
+    <h2 class="node-title"><a href="/careers/art-recruiter" title="Art Recruiter">Art Recruiter</a></h2>
+  </header>
+    <span property="dc:title" content="Art Recruiter" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience.<br /><br /></p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/art-recruiter" rel="tag" title="Art Recruiter">Read more<span class="element-invisible"> about Art Recruiter</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/organized-play-manager" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky self-posted author- even clearfix" id="node-jobs-1297">
+        <header>
+    <h2 class="node-title"><a href="/careers/organized-play-manager" title="Organized Play Manager">Organized Play Manager</a></h2>
+  </header>
+    <span property="dc:title" content="Organized Play Manager" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience. </p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/organized-play-manager" rel="tag" title="Organized Play Manager">Read more<span class="element-invisible"> about Organized Play Manager</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/brand-strategist" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky self-posted author- odd clearfix" id="node-jobs-1294">
+        <header>
+    <h2 class="node-title"><a href="/careers/brand-strategist" title="Brand Strategist">Brand Strategist</a></h2>
+  </header>
+    <span property="dc:title" content="Brand Strategist" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience. </p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/brand-strategist" rel="tag" title="Brand Strategist">Read more<span class="element-invisible"> about Brand Strategist</span></a></li></ul></nav>
+    
+      </div>
+</article><article about="/careers/writer-1" typeof="sioc:Item foaf:Document" class="node node-jobs node-teaser node-published node-not-promoted node-not-sticky self-posted author- even clearfix" id="node-jobs-1292">
+        <header>
+    <h2 class="node-title"><a href="/careers/writer-1" title="Writer">Writer</a></h2>
+  </header>
+    <span property="dc:title" content="Writer" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>Riot Games was established in 2006 by entrepreneurial gamers who believe that player-focused game development can result in great games. In 2009, Riot released its debut title <em>League of Legends</em> to critical and player acclaim. As the most played PC game in the world, over 67 million play every month. Players form the foundation of our community and it’s for them that we continue to evolve and improve the <em>League of Legends</em> experience.</p></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"><ul class="links inline"><li class="node-readmore first last"><a href="/careers/writer-1" rel="tag" title="Writer">Read more<span class="element-invisible"> about Writer</span></a></li></ul></nav>
+    
+      </div>
+</article><h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager clearfix"><li class="pager-first first"><a title="Go to first page" href="/office-locations/los-angeles">« first</a></li><li class="pager-previous"><a title="Go to previous page" href="/office-locations/los-angeles?page=4">‹ previous</a></li><li class="pager-ellipsis">…</li><li class="pager-item"><a title="Go to page 2" href="/office-locations/los-angeles?page=1">2</a></li><li class="pager-item"><a title="Go to page 3" href="/office-locations/los-angeles?page=2">3</a></li><li class="pager-item"><a title="Go to page 4" href="/office-locations/los-angeles?page=3">4</a></li><li class="pager-item"><a title="Go to page 5" href="/office-locations/los-angeles?page=4">5</a></li><li class="pager-current">6</li><li class="pager-item"><a title="Go to page 7" href="/office-locations/los-angeles?page=6">7</a></li><li class="pager-item"><a title="Go to page 8" href="/office-locations/los-angeles?page=7">8</a></li><li class="pager-item"><a title="Go to page 9" href="/office-locations/los-angeles?page=8">9</a></li><li class="pager-item"><a title="Go to page 10" href="/office-locations/los-angeles?page=9">10</a></li><li class="pager-ellipsis">…</li><li class="pager-next"><a title="Go to next page" href="/office-locations/los-angeles?page=6">next ›</a></li><li class="pager-last last"><a title="Go to last page" href="/office-locations/los-angeles?page=19">last »</a></li></ul></div>    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf"><a href="/articles/20150217/546/awards" target="_blank">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebook.com/RiotGames" class="ico-facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://us.linkedin.com/company/riot-games" class="ico-linkedin" target="_blank">Linked In</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RiotGamesInc" class="ico-youtube">YouTube</a></li>
+<li class="leaf"><a href="/news/feed" class="ico-rss">RSS</a></li>
+<li class="last leaf"><a href="http://www.glassdoor.com/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm" class="ico-glassdoor" target="_blank">Glassdoor</a></li>
+</ul>    </div>
+  </div>
+</section><div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><em>&copy;2015 Riot Games, Inc. All rights reserved. League of Legends and Riot Games are trademarks, service marks, or registered trademarks of Riot Games, Inc.</em></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a24d38a665","applicationID":"6988133","transactionName":"blFTY0BWV0ZWURYLW1cbcFRGXlZbGEYDGltXW1xObVNQRkdeAxtrTVVJWFxYVExoRgcQWWZEUFBX","queueTime":0,"applicationTime":285,"atts":"QhZQFQhMREg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+|||
+http://www.riotgames.com/articles/20130509/581/welcome-new-riotgamescom
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20160512/581/welcome-new-riotgamescom" />
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:image" content="http://www.riotgames.com/sites/default/files/styles/thumbnail/public/content/article/images/main/NewRG-Header1.png?itok=tTZleVlC" />
+<meta property="og:title" content="Welcome to the new RiotGames.com" />
+<meta property="og:description" content="We tried to make it better than the old RiotGames.com, which is kind of a tall order since the old site cost us several thousand dollars to make, had sweet animated GIFs, occasionally used ALL CAPS an" />
+<meta name="description" content="We tried to make it better t" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/articles/20160512/581/welcome-new-riotgamescom" />
+<link rel="shortlink" href="http://www.riotgames.com/node/581" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20160512/581/welcome-new-riotgamescom" />
+<meta property="og:title" content="Welcome to the new RiotGames.com" />
+<meta property="og:description" content="We tried to make it better t" />
+<meta property="og:updated_time" content="2016-05-12T22:03:31-07:00" />
+<meta property="article:published_time" content="2012-12-18T02:20:29-08:00" />
+<meta property="article:modified_time" content="2016-05-12T22:03:31-07:00" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Welcome to the new RiotGames.com | Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xyi-cMPRd-21cjT4ToZk1sXIcm9ocFNLEKOEX2GqPvA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_DLJf0KxKk43g8VseWqsBbd3G10QKp-op8N5QHDhcf2E.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"Pm7kfmrwU4sDxF-y1T3jpZk3WtbGJRvYQRR0n-qMXBM","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-581 node-type-article i18n-en context-articles">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-9 region region-content region-content-article" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            		<h1 class="title" id="page-title">Welcome to the new RiotGames.com</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      
+
+
+<article about="/articles/20160512/581/welcome-new-riotgamescom" typeof="sioc:Item foaf:Document" class="node node-article node-published node-not-promoted node-not-sticky author-jing odd clearfix" id="node-article-581">
+        <span property="dc:title" content="Welcome to the new RiotGames.com" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>	  
+    
+    <div class="post-date">Posted by <span class="author"><a href="/author/jing">Jing</a></span> on 12-18-12</div>		
+		<div class="share-bar">
+			<a class="print_ico" href="/print/articles/20160512/581/welcome-new-riotgamescom">Print</a>
+			<!-- <a class="pdf_ico" href="/printpdf/articles/20160512/581/welcome-new-riotgamescom">PDF</a> -->
+			<span class='st_email_custom st_ico' displayText='Email'></span>
+			<span class='st_twitter_custom st_ico' displayText='Tweet'></span>
+			<span class='st_facebook_custom st_ico' displayText='Facebook'></span>
+			<span class='st_linkedin_custom st_ico' displayText='LinkedIn'></span>
+			<span class='st_google_custom st_ico' displayText='Google'></span>
+			<script type="text/javascript">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+			<script type="text/javascript">
+				stLight.options({
+		        publisher: 'f65a6e51-8a93-4acd-a665-976809c16a17',
+		        onhover: false
+		    });</script>
+		</div>
+
+    
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-main-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/article_image/public/content/article/images/main/NewRG-Header1.png?itok=WCpujRQR" width="700" height="300" alt="New Riotgames.com " /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p>We tried to make it better than the old RiotGames.com, which is kind of a tall order since the old site cost us <em>several thousand dollars</em> to make, had sweet animated GIFs, occasionally used ALL CAPS and was generally a workhorse of a site that we used for three frickin&#39; years.</p>
+<p>It was time for a new site. This new site&#39;s designed to do a few things better:</p>
+<ul>
+	<li>
+		Introduce <a href="http://www.riotgames.com/about" target="_blank">the Riot Manifesto</a>, a description of why we do what we do</li>
+	<li>
+		Post brief explanations of stuff like <a href="/articles/20121116/245/honor-helps-sanitize-bad-behavior" target="_blank">Honor</a> for peeps who might not frequent the forums</li>
+	<li>
+		Leak the occasional email (<a href="/articles/20121004/567/corporate-veigar-reluctantly-spreads-holiday-cheer" target="_blank">true story</a>)</li>
+	<li>
+		Share a little taste of <a href="/articles/20070101/547/working-riot" target="_blank">what it&#39;s like to work at Riot</a></li>
+	<li>
+		Make it easy to search and sort through our <a href="/careers" target="_blank">megalisting of open roles</a></li>
+	<li>
+		Humblebrag about how tough it can be to find a trophy case that fits <a href="/articles/20091209/546/awards" target="_blank">all the nice things</a> some people say about Riot</li>
+	<li>
+		Use your full browser resolution &ndash; because screen real estate is a horrible thing to waste</li>
+</ul>
+<p>And now it&#39;s time to hear your thoughts. We know some stuff about this new site is janky right now. That&#39;s not by design, it&#39;s just the messy, wrinkly look that new sites have shortly after birth. We&#39;re trying to clean this baby up, but would appreciate any and all feedback. Spot a defect? Have an idea for what we could do to improve what you see here? Lob an email over to <a href="mailto:info@riotgames.com">info@riotgames.com</a> and we&#39;ll jump on it. &nbsp;</p>
+ </div></div></div>
+        
+    <span class="print-link"></span><div class="field-group-format group_tags field-group-div group-tags clearfix speed-none effect-none"><h3><span>Tags:</span></h3><div class="field field-name-field-topic field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/topic/riot-manifesto-stories" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Riot Manifesto Stories</a></div><div class="field-item odd"><a href="/categories/category" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Working @ Riot Games</a></div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/tags/new-riotgamescom" typeof="skos:Concept" property="rdfs:label skos:prefLabel">New RiotGames.com</a></div><div class="field-item odd"><a href="/tags/web-design" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Web design</a></div><div class="field-item even"><a href="/tags/culture" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Culture</a></div><div class="field-item odd"><a href="/tags/inside-riot" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Inside Riot</a></div><div class="field-item even"><a href="/tags/continuous-improvement" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Continuous improvement</a></div><div class="field-item odd"><a href="/tags/continuous-iteration" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Continuous iteration</a></div><div class="field-item even"><a href="/tags/focus-talent-team" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Focus on talent &amp; team</a></div><div class="field-item odd"><a href="/tags/challenge-convention" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Challenge convention</a></div><div class="field-item even"><a href="/tags/take-play-seriously" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Take play seriously</a></div><div class="field-item odd"><a href="/tags/player-experience-first" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Player experience first</a></div><div class="field-item even"><a href="/tags/stay-hungry-stay-humble" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Stay hungry stay humble</a></div></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+		<a href="/news" class="view-all">All Articles</a>
+      </div>
+</article>
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-views block-related-articles-block block-views-related-articles-block odd block-without-title" id="block-views-related-articles-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-related-articles view-id-related_articles view-display-id-block view-dom-id-26146cef3d22448166531bb6eb9dbefe">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150519/549/league-legends-season-two-championship" title="LOL Season Two Championship"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/WCEsports-1x1Tout.jpg?itok=AzhNv7Fk" width="400" height="400" alt="League of Legends Season Two World Championship crowd shot (with lasers!)" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/WCEsports-1x1Tout.jpg?itok=YVt1yyvX" width="400" height="400" alt="League of Legends Season Two World Championship crowd shot (with lasers!)" /></span><span class="teaser-meta"><span class="headline">LOL Season Two Championship</span></span></a></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150217/546/awards" title="Our awards"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/Awards1x1_0.jpg?itok=ZqnFZuKK" width="400" height="400" alt="Awards" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/Awards1x1_0.jpg?itok=-JrVc3H2" width="400" height="400" alt="Awards" /></span><span class="teaser-meta"><span class="headline">Our awards</span></span></a></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20130509/574/co-founders-named-top-10-persons-year" title="Top 10 "Persons of the Year""><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/Marc-Brandon_1x1.png?itok=Nt_chqCj" width="400" height="400" alt="Brandon and Marc named on GamesIndustry International&#039;s top 10 &quot;persons of the year&quot; 2012 list" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/Marc-Brandon_1x1.png?itok=0t8WAut8" width="400" height="400" alt="Brandon and Marc named on GamesIndustry International&#039;s top 10 &quot;persons of the year&quot; 2012 list" /></span><span class="teaser-meta"><span class="headline">Top 10 "Persons of the Year"</span></span></a></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150817/547/working-riot" title="Working at Riot"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/working_at_riot_thumb.jpg?itok=k777m2n0" width="400" height="400" alt="Working at Riot" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/working_at_riot_thumb.jpg?itok=-a6TFsHg" width="400" height="400" alt="Working at Riot" /></span><span class="teaser-meta"><span class="headline">Working at Riot</span></span></a></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf"><a href="/articles/20150217/546/awards" target="_blank">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebook.com/RiotGames" class="ico-facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://us.linkedin.com/company/riot-games" class="ico-linkedin" target="_blank">Linked In</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RiotGamesInc" class="ico-youtube">YouTube</a></li>
+<li class="leaf"><a href="/news/feed" class="ico-rss">RSS</a></li>
+<li class="last leaf"><a href="http://www.glassdoor.com/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm" class="ico-glassdoor" target="_blank">Glassdoor</a></li>
+</ul>    </div>
+  </div>
+</section><div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><em>&copy;2015 Riot Games, Inc. All rights reserved. League of Legends and Riot Games are trademarks, service marks, or registered trademarks of Riot Games, Inc.</em></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a24d38a665","applicationID":"6988133","transactionName":"blFTY0BWV0ZWURYLW1cbcFRGXlZbGFwNBlFmRFBQV2hPXFJF","queueTime":0,"applicationTime":337,"atts":"QhZQFQhMREg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

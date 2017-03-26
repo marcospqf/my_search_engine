@@ -4,15 +4,15 @@ using namespace std;
 set<Scheduler::url> Scheduler::inside_url;
 set<Scheduler::url> Scheduler::outside_url;
 unordered_set<long long> Scheduler::visited;
-const long long  B=33;
-const int MAX_HEAP=1e5;
+const long long  B=193;
+const int MAX_HEAP=5e4;
 Scheduler::Scheduler() {}
 
 bool Scheduler::url::operator<(const url &cur) const {
 	if(priority != cur.priority )
 		return priority < cur.priority;
 	
-	return name > cur.name;
+	return name < cur.name;
 }
 
 Scheduler::url::url(const string &s){
@@ -27,7 +27,7 @@ Scheduler::url::url(const string &s){
 }
 
 void Scheduler::PushUrl(const string &s, bool inside){
-	if(s.size()<10 or s.size()>80) return;	
+	if(s.size()<8 or s.size()>80) return;	
 	url cur(s);
 	long long hp=0;
 	if(inside){
@@ -85,6 +85,5 @@ string Scheduler::TopUrl(){
 			return s;
 		}
 	}
-	cout<<inside_url.size()<<" "<<outside_url.size()<<endl;
 	return "";
 }

@@ -13,7 +13,7 @@ class FileWriter {
 
 		FileWriter();
 		//set the name of file of a data
-		void SetFilename(string filename);
+		void SetFilename(string &filename);
 		
 		//Put the string on the format given:
 		//All | must be replaced by ' '

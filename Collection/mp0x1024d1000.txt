@@ -1,0 +1,446 @@
+|||
+http://pvp.net/
+|
+<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if IE]>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta http-equiv="application-name" content="League of Legends" />
+<meta http-equiv="msapplication-starturl" content="http://na.leagueoflegends.com/en" />
+<![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Most Recent News" href="http://na.leagueoflegends.com/en/rss.xml" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://cdn.leagueoflegends.com/lolkit/1.1.9/resources/images/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width" />
+  <meta name="google-site-verification" content="8G4hzWJBgeCGkNZXZHOkpUi5J2bHfj172tWvpxLbF8s" />
+  <title>League of Legends</title>
+    <script>(function(a,c,e,b,d,f){a[b]=a[b]||[];a[b].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});c.className+=" "+e;d.end=f=function(){c.className=c.className.replace(RegExp(" ?"+e),"")};(a[b]=a[b]||[]).hide=d;a.setTimeout(function(){f();d.end=null},2E3)})(window,document.documentElement,"optimize-loading","dataLayer",{"GTM-N98J":!0});</script>
+  <script defer async src="//www.googletagmanager.com/gtm.js?id=GTM-N98J"></script>
+  <style>.optimize-loading {opacity: 0 !important}</style>
+    <style type="text/css" media="all">
+@import url("http://na.leagueoflegends.com/modules/system/system.base.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/system/system.menus.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/system/system.messages.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/system/system.theme.css?omtk2t");
+</style>
+<link type="text/css" rel="stylesheet" href="http://cdn.leagueoflegends.com/lolkit/1.1.9/lol-kit.css" media="all" />
+
+<!--[if lt IE 8]>
+<link type="text/css" rel="stylesheet" href="http://cdn.leagueoflegends.com/lolkit/1.1.9/lol-kit-ie7.css" media="all" />
+<![endif]-->
+<style type="text/css" media="all">
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/date/date_api/date.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/field/theme/field.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/node/node.css?omtk2t");
+@import url("http://na.leagueoflegends.com/modules/user/user.css?omtk2t");
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/views/css/views.css?omtk2t");
+</style>
+<style type="text/css" media="all">
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/ctools/css/ctools.css?omtk2t");
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/riot/lol_content_log/lol_content_log.css?omtk2t");
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/panels/css/panels.css?omtk2t");
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/modules/custom/lol_legacy/css/target-reset.css?omtk2t");
+</style>
+<style type="text/css" media="all">
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/css/lolt.styles.css?omtk2t");
+@import url("http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/css/colorbox.css?omtk2t");
+</style>
+  <script type="text/javascript" src="http://cdn.leagueoflegends.com/lolkit/1.1.9/modernizr.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var newPlayerRedirectURL = 'http://play.na.leagueoflegends.com/en_US';
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/custom/lol_redirects/js/new-player-landing-redirect.js?omtk2t"></script>
+</head>
+<body class="html front not-logged-in no-sidebars page-home i18n-en riot-realm-na i18n-en-US" >
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N98J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="panel-pane pane-lolbar-navigation" >
+  
+      
+  
+  <div class="pane-content">
+    <a id="header-riotbar" href="/en"></a>  </div>
+
+  
+  </div>
+<div class="panel-pane pane-views-panes pane-frontpage-rotator-current-new" >
+  
+      
+  
+  <div class="pane-content">
+    
+
+
+  <div id="content-promo">
+    <!-- data-cycle-fx="promoContentSlides" -->
+    <div class="content-promo-rotator cycle-slideshow"
+      data-cycle-fx="promoFade"
+      data-cycle-timeout="10000"
+      data-cycle-slides=".content-promo-slide"
+      data-cycle-pause-on-hover=".promo-content"
+      data-cycle-pager=".content-promo-pager"
+      data-cycle-auto-height="1920:1080"
+      data-cycle-easing="easeInOutSine"
+      data-cycle-speed="1500"
+      data-cycle-pager-template="<span></span>"
+      >
+      <div class="content-promo-slide" id="promo-node-76186">
+    <div class="promo-background"  style="background-image:url(/sites/default/files/upload/backgrounds/webrotator_galio_coverframe1.jpg);">
+        <div class="swfobject" data-file="http://na.leagueoflegends.com/sites/default/files/upload/backgrounds/animated/webrotator_galio.swf" data-width="100%" data-height="1080" data-class="background-animation"><div class="param" name="bgcolor" value="#000000"></div><div class="param" name="quality" value="autohigh"></div><div class="param" name="wmode" value="transparent"></div><div class="param" name="base" value="/_flash/"></div><div class="param" name="allowScriptAccess" value="always"></div><div class="param" name="scale" value="noscale"></div></div>    </div>
+    <div class="generic-wrapper">
+        <div class="promo-content dark-background slide-without-media">
+            <div class="gs-container gs-overflow gs-static">
+                <div class="default-1-2">
+                                                            <h2>Galio Update Now Live</h2>
+                    <span property="dc:title" content="Galio Update Now Live" class="rdf-meta element-hidden"></span>                    
+                    <h4></h4>
+                    <div class="body-medium featured"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Little statues are cool. BIGASS GOLIATH STATUES ARE BETTER. Galio&#039;s update is now live.</div></div>
+                                        <div class="promo-links" promotitle="Galio Update Now Live" promoid="76175"><a href="http://na.leagueoflegends.com/en/news/champions-skins/champion-release/galio-update-now-live" class="btn-large btn-large-primary">Learn More</a> </div>
+                                    </div>
+                <div class="default-1-2">
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="content-promo-slide" id="promo-node-59072">
+    <div class="promo-background"  style="background-image:url(/sites/default/files/upload/backgrounds/bg-rotator-homepage-newtoleague-final.jpg);">
+            </div>
+    <div class="generic-wrapper">
+        <div class="promo-content dark-background slide-without-media">
+            <div class="gs-container gs-overflow gs-static">
+                <div class="default-1-2">
+                                                            <h2>New Player Guide!</h2>
+                    <span property="dc:title" content="New Player Guide!" class="rdf-meta element-hidden"></span>                    
+                    <h4></h4>
+                    <div class="body-medium featured"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">New to the game? Turrets giving you trouble? Should I hit this dragon?  We got you.</div></div>
+                                        <div class="promo-links" promotitle="New Player Guide!" promoid="59072"><a href="http://na.leagueoflegends.com/en/featured/new-player-guide" class="btn-large btn-large-primary">Learn More</a> </div>
+                                    </div>
+                <div class="default-1-2">
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    </div>
+        <div class="content-promo-state-container">
+      <div class="content-promo-pager"></div>
+    </div>
+        <div class="content-promo-nav"><div class="btn-previous"></div><div class="btn-next"></div></div>
+  </div>
+
+
+
+
+
+
+  </div>
+
+  
+  </div>
+<div class="section-wrapper section-wrapper-primary">
+  <div class="section-quickbg"></div>
+  <div class="section-wrapper-top"></div>
+  <div class="section-wrapper-content">
+    <div class="section-wrapper-content-wrapper">
+      <div class="panel-pane pane-views-panes pane-frontpage-cards-homepage-ordered-lists" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-frontpage-cards view-id-frontpage_cards view-display-id-homepage_ordered_lists view-dom-id-f70c6c9426a9740c908f9ff5ea2eea64">
+        
+  
+  
+      <div class="gs-container">
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-article node-76532">
+        <div class="content-border"><div class="content-border-content"><div class="medium-card clearfix" >
+  <div class="medium-card-media accent-after"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/esports/esports-editorial/2017-mid-season-invitational-tickets" title="2017 Mid-Season Invitational Tickets" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35674" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/msi-tickets-header_0.jpg?itok=wSB7KIQr" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div>
+  <div><div class="medium-card-content white-stone"><div class="medium-card-content-content"><h4><div class="field field-name-field-short-title field-type-text field-label-hidden"><a href="/en/news/esports/esports-editorial/2017-mid-season-invitational-tickets">MSI 2017 Tickets</a></div></h4><div class="field field-name-field-body-small field-type-text-long field-label-hidden">International players planning to attend MSI 2017 will be able to buy tickets starting on March 27. </div></div><div class="medium-card-content-meta"><hr class="subtle-divider" /><div class="gs-container" id="mini-panel-timeago_category">
+  <div class="default-1-2"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76532">1 day ago</span></div></div>
+  <div class="default-1-2"><div class="all-caps subtle"><div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><a href="/en/news/esports/esports-editorial">eSports Editorial</a></div></div></div>
+</div>
+</div></div></div>
+</div>
+</div></div></div>          </div>
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-article node-76187">
+        <div class="content-border"><div class="content-border-content"><div class="medium-card clearfix" >
+  <div class="medium-card-media accent-after"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/game-updates/patch/patch-76-notes" title="Patch 7.6 notes" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-31908" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/patchnotes_2017header.jpg?itok=KUdNaBhQ" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div>
+  <div><div class="medium-card-content white-stone"><div class="medium-card-content-content"><h4><div class="field field-name-field-short-title field-type-text field-label-hidden"><a href="/en/news/game-updates/patch/patch-76-notes">Patch 7.6 notes</a></div></h4><div class="field field-name-field-body-small field-type-text-long field-label-hidden">Galio’s update hits the Rift this patch and we check back in on some of our larger recent projects.</div></div><div class="medium-card-content-meta"><hr class="subtle-divider" /><div class="gs-container" id="mini-panel-timeago_category-1">
+  <div class="default-1-2"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76187">4 days ago</span></div></div>
+  <div class="default-1-2"><div class="all-caps subtle"><div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><a href="/en/news/game-updates/patch">Patch</a></div></div></div>
+</div>
+</div></div></div>
+</div>
+</div></div></div>          </div>
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-promo-card node-642 node-promoted">
+        <div class="panel-pane pane-entity-field pane-node-field-image" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="field field-name-field-image field-type-image field-label-hidden"><a href="https://signup.na.leagueoflegends.com/en/signup/download"><img typeof="foaf:Image" src="/sites/default/files/upload/promo-cards/promo-card-download-en.jpg" width="300" height="350" alt="" /></a></div>  </div>
+
+  
+  </div>
+</div>          </div>
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-article node-76376">
+        <div class="content-border"><div class="content-border-content"><div class="medium-card clearfix" >
+  <div class="medium-card-media accent-after"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/champions-skins/creative-spotlight/new-demacia-stories-and-bios" title="New: Demacia stories and bios" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35485" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/demacia-grandplaza-1920x1080.jpg?itok=c2HYCEMj" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div>
+  <div><div class="medium-card-content white-stone"><div class="medium-card-content-content"><h4><div class="field field-name-field-short-title field-type-text field-label-hidden"><a href="/en/news/champions-skins/creative-spotlight/new-demacia-stories-and-bios">New: Demacia stories and bios</a></div></h4><div class="field field-name-field-body-small field-type-text-long field-label-hidden">New champ bios and stories: Garen, Lux, Galio, Jarvan, Shyvana, Vayne, Quinn.</div></div><div class="medium-card-content-meta"><hr class="subtle-divider" /><div class="gs-container" id="mini-panel-timeago_category-2">
+  <div class="default-1-2"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76376">2 days ago</span></div></div>
+  <div class="default-1-2"><div class="all-caps subtle"><div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><a href="/en/news/champions-skins/creative-spotlight">Creative Spotlight</a></div></div></div>
+</div>
+</div></div></div>
+</div>
+</div></div></div>          </div>
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-article node-76164">
+        <div class="content-border"><div class="content-border-content"><div class="medium-card clearfix" >
+  <div class="medium-card-media accent-after"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/champions-skins/champion-spotlight/champion-spotlight-galio-colossus" title="Champion Spotlight: Galio - The Colossus" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35480" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/champion_spotlight_thumbnail_galio_en_text.jpg?itok=VB5VUpm-" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div>
+  <div><div class="medium-card-content white-stone"><div class="medium-card-content-content"><h4><div class="field field-name-field-short-title field-type-text field-label-hidden"><a href="/en/news/champions-skins/champion-spotlight/champion-spotlight-galio-colossus">Champion Spotlight: Galio - The Colossus</a></div></h4><div class="field field-name-field-body-small field-type-text-long field-label-hidden">Check out the spotlight of the upcoming Champion Rework of Galio The Colossus.</div></div><div class="medium-card-content-meta"><hr class="subtle-divider" /><div class="gs-container" id="mini-panel-timeago_category-3">
+  <div class="default-1-2"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76164">5 days ago</span></div></div>
+  <div class="default-1-2"><div class="all-caps subtle"><div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><a href="/en/news/champions-skins/champion-spotlight">Champion Spotlight</a></div></div></div>
+</div>
+</div></div></div>
+</div>
+</div></div></div>          </div>
+      <div class="default-1-3">
+              
+<div class="panelizer-view-mode node node-medium-card node-article node-76064">
+        <div class="content-border"><div class="content-border-content"><div class="medium-card clearfix" >
+  <div class="medium-card-media accent-after"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/community/community-spotlight/academy-adventures-season-2" title="Academy Adventures Season 2!" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35545" class="file file-image file-image-png">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/group_banner_15_1.png?itok=Aiyv17Zj" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div>
+  <div><div class="medium-card-content white-stone"><div class="medium-card-content-content"><h4><div class="field field-name-field-short-title field-type-text field-label-hidden"><a href="/en/news/community/community-spotlight/academy-adventures-season-2">Academy Adventures Season 2!</a></div></h4><div class="field field-name-field-body-small field-type-text-long field-label-hidden">The community comics collaboration is back for another heaping helping of Academy fun!</div></div><div class="medium-card-content-meta"><hr class="subtle-divider" /><div class="gs-container" id="mini-panel-timeago_category-4">
+  <div class="default-1-2"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76064">5 days ago</span></div></div>
+  <div class="default-1-2"><div class="all-caps subtle"><div class="field field-name-field-category field-type-taxonomy-term-reference field-label-hidden"><a href="/en/news/community/community-spotlight">Community Spotlight</a></div></div></div>
+</div>
+</div></div></div>
+</div>
+</div></div></div>          </div>
+  </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+    </div>
+  </div>
+  <div class="section-wrapper-bottom"></div>
+</div>
+<div class="section-wrapper">
+  <div class="section-quickbg"></div>
+  <div class="section-wrapper-top"></div>
+  <div class="section-wrapper-content">
+    <div class="section-wrapper-content-wrapper">
+      <div class="content-border pager-offset"><h2 class = "black-bar-header">Most Recent News</h2><div class="view view-news-recent view-id-news_recent view-display-id-teaser view-dom-id-1faa2b17c2c99afaba05212f1b53a6c0">
+        
+  
+  
+      
+<div class="panelizer-view-mode node node-teaser node-article node-76645">
+        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
+  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/esports/esports-editorial/na-lcs-week-9-wildturtle-vs-doublelift" title="NA LCS Week 9: Wildturtle vs Doublelift" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35752" class="file file-image file-image-png">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/screen_shot_2017-03-23_at_11.42.35_am.png?itok=DqKDd-_w" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div></div>
+  <div class="default-2-3"><h4><a href="/en/news/esports/esports-editorial/na-lcs-week-9-wildturtle-vs-doublelift">NA LCS Week 9: Wildturtle vs Doublelift</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Tune in Saturday at 12PM PDT for this ADC matchup. </div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76645">1 day ago</span></div></div><div class="clearfix"></div></div></div>
+</div>
+</div></div></div>
+<div class="panelizer-view-mode node node-teaser node-article node-76648">
+        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
+  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/store/sales/march-early-sales-32417-32717" title="March Early Sales: 3.24.17 - 3.27.17" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35676" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/saleannouncebanner_march.2017.modified.en_.jpg?itok=bum-HTy6" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div></div>
+  <div class="default-2-3"><h4><a href="/en/news/store/sales/march-early-sales-32417-32717">March Early Sales: 3.24.17 - 3.27.17</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Baker and Star Guardian are some of the skins on the March Early Sale list!</div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76648">1 day ago</span></div></div><div class="clearfix"></div></div></div>
+</div>
+</div></div></div>
+<div class="panelizer-view-mode node node-teaser node-article node-76533">
+        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
+  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/riot-games/editorial/how-revive-dragon" title="How to Revive a Dragon" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35698" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/asol-header.jpg?itok=avltKvfa" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div></div>
+  <div class="default-2-3"><h4><a href="/en/news/riot-games/editorial/how-revive-dragon">How to Revive a Dragon</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Worlds 2016 and bringing Aurelion Sol back from the dead.</div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76533">1 day ago</span></div></div><div class="clearfix"></div></div></div>
+</div>
+</div></div></div>
+<div class="panelizer-view-mode node node-teaser node-article node-76532">
+        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
+  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/esports/esports-editorial/2017-mid-season-invitational-tickets" title="2017 Mid-Season Invitational Tickets" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35674" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/msi-tickets-header_0.jpg?itok=wSB7KIQr" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div></div>
+  <div class="default-2-3"><h4><a href="/en/news/esports/esports-editorial/2017-mid-season-invitational-tickets">2017 Mid-Season Invitational Tickets</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">International players planning to attend the 2017 Mid-Season Invitational will be able to buy tickets starting on March 27 at 9:00 AM PT. </div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76532">1 day ago</span></div></div><div class="clearfix"></div></div></div>
+</div>
+</div></div></div>
+<div class="panelizer-view-mode node node-teaser node-article node-76381">
+        <div class="white-stone"><div class="white-stone-content"><div class="gs-container" >
+  <div class="default-1-3"><div class="simple-border"><div class="field field-name-field-article-media field-type-file field-label-hidden"><a href="/en/news/community/q/monthly-q-ghostcrawler-0" title="Monthly Q&amp;A with Ghostcrawler" class="lol-core-file-formatter"><div class="field field-name-field-article-media field-type-file field-label-hidden"><div id="file-35667" class="file file-image file-image-jpeg">
+  <img typeof="foaf:Image" src="/sites/default/files/styles/wide_small/public/upload/monthlyqa_1.jpg?itok=_hTnNL4P" width="320" height="180" alt="" title="" />
+</div>
+</div></a></div></div></div>
+  <div class="default-2-3"><h4><a href="/en/news/community/q/monthly-q-ghostcrawler-0">Monthly Q&amp;A with Ghostcrawler</a></h4><div class="teaser-content"><div class="field field-name-field-body-medium field-type-text-long field-label-hidden">Game Design Director Ghostcrawler answers your questions about League, live on Caffeine.</div></div><div class="horizontal-group"><div class="horizontal-group-item"><div class="all-caps subtle icon-container icon-posted"><span class="time-ago time-ago-node-76381">2 days ago</span></div></div><div class="clearfix"></div></div></div>
+</div>
+</div></div></div>  
+  
+  
+  
+      <div class="view-footer">
+      <a href="/en/news" class="header-links">View all news</a>    </div>
+  
+  
+</div></div>    </div>
+  </div>
+  <div class="section-wrapper-bottom"></div>
+</div>
+<div id="footer">
+  <div id="footer-content">
+    <ul id="footer-nav" class="simple-menu">
+              <li><a title="" class="" href="http://gameinfo.na.leagueoflegends.com/en/game-info/get-started/what-is-lol/">About League Of Legends</a></li>
+              <li><a title="" class="" href="http://na.leagueoflegends.com/en/page/league-legends-prepaid-game-cards/">Prepaid Cards</a></li>
+              <li><a title="" class="" href="http://leagueoflegends.na-surveyen2.sgizmo.com/s3/">Help Us Improve</a></li>
+              <li><a title="" class="" href="http://status.leagueoflegends.com/?en_US#na">Service Status</a></li>
+              <li><a title="" class="" href="https://support.riotgames.com/hc/en-us">Support</a></li>
+              <li><a title="" class="" href="http://www.lolesports.com/en_US">Esports Pro Site</a></li>
+          </ul>
+    <div class="gs-container vertical-gutter">
+      <div class="default-1-5">
+        <div id="riot-social">
+          <a class="riot-logo" href="http://www.riotgames.com/">Riot Games</a>
+          <ul class="social-links">
+                        <li>
+                                                        <a class="youtube" title="" href="http://www.youtube.com/user/riotgamesinc" >
+                YouTube.com
+              </a>
+            </li>
+                        <li>
+                                                        <a class="twitter" title="" href="http://twitter.com/leagueoflegends" >
+                Twitter.com
+              </a>
+            </li>
+                        <li>
+                                                        <a class="facebook" title="" href="http://www.facebook.com/leagueoflegends" >
+                Facebook.com
+              </a>
+            </li>
+                      </ul>
+        </div>
+      </div>
+      <div class="default-3-5">
+        <a class="btn-large btn-large-primary" tite="" href="http://signup.na.leagueoflegends.com/en" id="footer-play-for-free">Play Now</a>
+        <p>&copy; 2017 Riot Games, Inc. All rights reserved. Riot Games, League of Legends and PvP.net are trademarks, services marks, or registered trademarks of Riot Games, Inc.</p>
+        <ul id="footer-sub-nav" class="simple-menu">
+                    <li><a title="" class="" href="http://na.leagueoflegends.com/en/legal/privacy">
+                                       <span class="updated" style="color:red; font-size: 1.1em; font-weight:bold;">updated</span>&nbsp;
+                        Privacy Policy
+          </a></li>
+                    <li><a title="" class="" href="http://na.leagueoflegends.com/en/legal/termsofuse">
+                        Terms Of Use
+          </a></li>
+                  </ul>
+      </div>
+      <div class="default-1-5">
+        <div id="pvp-net-ad">
+          <a class="pvp-net" href="http://pvp.net" title="">PVP.net</a>
+          <ul class="pvpnet-links simple-menu">
+                          <li><a class="" title="" href="http://signup.na.leagueoflegends.com/en">Signup</a></li>
+                          <li><a class="" title="" href="https://support.riotgames.com/hc/en-us">Support</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+        <div class="ad-bar lol-sponsors gs-container gs-half-gutter vertical-gutter content-center default-1-col">   
+                <div>
+          <a class="esrb" href="http://www.esrb.org/ratings/ratings_guide.jsp">
+            <img src="https://lolstatic-a.akamaihd.net/global-elements/0.0.32/images/esrb.jpg" title="Esrb"/>
+          </a>
+        </div>
+            </div>
+      </div>
+</div>
+  <script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/misc/drupal.js?omtk2t"></script>
+<script type="text/javascript" src="https://lolstatic-a.akamaihd.net/riotbar/prod/latest/en_US.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+RiotBar.show({mobileResponsive: true, touchpoints: {activeTouchpoint: 'news'}});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/custom/lol_custom/js/ga_tracker.js?omtk2t"></script>
+<script type="text/javascript" src="http://cdn.leagueoflegends.com/lolkit/1.1.9/riot-all.js"></script>
+<script type="text/javascript" src="http://cdn.leagueoflegends.com/lolkit/1.1.9/riot-kit-all.js"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/dynamic_autocomplete_path/dynamic_autocomplete_path.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/custom/lol_custom/js/main_menu_analitycs.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/panels/js/panels.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/contrib/hap/js/timeago.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/modules/features/lol_promo_teaser/lol_promo_teaser.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/js/swfobject.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/js/jquery.content-promo.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/js/responsive-helpers.js?omtk2t"></script>
+<script type="text/javascript" src="http://na.leagueoflegends.com/profiles/lol2_profile/themes/custom/lolt/js/colorbox.js?omtk2t"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"lolt","theme_token":"Od9fFuVcAgFr9_BoJDlpgf37-jD_D7a6vb3qV0H1QDo","js":{"profiles\/lol2_profile\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/lolstatic-a.akamaihd.net\/riotbar\/prod\/latest\/en_US.js":1,"0":1,"profiles\/lol2_profile\/modules\/custom\/lol_custom\/js\/ga_tracker.js":1,"http:\/\/cdn.leagueoflegends.com\/lolkit\/1.1.9\/riot-all.js":1,"http:\/\/cdn.leagueoflegends.com\/lolkit\/1.1.9\/riot-kit-all.js":1,"profiles\/lol2_profile\/modules\/contrib\/dynamic_autocomplete_path\/dynamic_autocomplete_path.js":1,"profiles\/lol2_profile\/modules\/custom\/lol_custom\/js\/main_menu_analitycs.js":1,"profiles\/lol2_profile\/modules\/contrib\/panels\/js\/panels.js":1,"profiles\/lol2_profile\/modules\/contrib\/hap\/js\/timeago.js":1,"profiles\/lol2_profile\/modules\/features\/lol_promo_teaser\/lol_promo_teaser.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/swfobject.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/jquery.content-promo.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/responsive-helpers.js":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/js\/colorbox.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"http:\/\/cdn.leagueoflegends.com\/lolkit\/1.1.9\/lol-kit.css":1,"http:\/\/cdn.leagueoflegends.com\/lolkit\/1.1.9\/lol-kit-ie7.css":1,"profiles\/lol2_profile\/modules\/contrib\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"profiles\/lol2_profile\/modules\/contrib\/views\/css\/views.css":1,"profiles\/lol2_profile\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/lol2_profile\/modules\/riot\/lol_content_log\/lol_content_log.css":1,"profiles\/lol2_profile\/modules\/contrib\/panels\/css\/panels.css":1,"profiles\/lol2_profile\/modules\/custom\/lol_legacy\/css\/target-reset.css":1,"profiles\/lol2_profile\/themes\/contrib\/bthap\/stylesheets\/h5bp.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/lolt.styles.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/h5bp.css":1,"profiles\/lol2_profile\/themes\/custom\/lolt\/css\/colorbox.css":1}},"lol_custom":{"ga_event_tracker_category":"WPP","ga_event_tracker_account":"UA-5859958-1","ga_event_tracker_host":"leagueoflegends.com"},"hap_timeago":{"node-76532":"1490376197","node-76187":"1490119209","node-76376":"1490292056","node-76164":"1490032882","node-76064":"1490036401","node-76645":"1490391471","node-76648":"1490378630","node-76533":"1490378614","node-76381":"1490302860"}});
+//--><!]]>
+</script>
+  </b

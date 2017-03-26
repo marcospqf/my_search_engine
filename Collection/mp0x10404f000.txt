@@ -1,0 +1,354 @@
+|||
+http://www.riotgames.com/articles/20150217/546/awards
+|
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20150217/546/awards" />
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:image" content="http://www.riotgames.com/sites/default/files/styles/thumbnail/public/content/article/images/primary_thumb/Awards1x1_0.jpg?itok=0rbPEwlF" />
+<meta property="og:title" content="Awards" />
+<meta property="og:description" content="
+
+	
+		#51 Fortune&amp;amp;#39;s 100 Best Workplaces for Millenials - FORTUNE (2016)
+	
+		#14 Fortune&amp;amp;#39;s 50 Best Workplaces for Flexibility - FORTUNE (2016)
+	
+		#39 Fortune&amp;amp;#39;s 100 Best Companies to" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/articles/20150217/546/awards" />
+<link rel="shortlink" href="http://www.riotgames.com/node/546" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20150217/546/awards" />
+<meta property="og:title" content="Awards" />
+<meta property="og:updated_time" content="2016-07-06T15:49:33-07:00" />
+<meta property="article:published_time" content="2016-03-03T06:00:00-08:00" />
+<meta property="article:modified_time" content="2016-07-06T15:49:33-07:00" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Awards | Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xyi-cMPRd-21cjT4ToZk1sXIcm9ocFNLEKOEX2GqPvA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_DLJf0KxKk43g8VseWqsBbd3G10QKp-op8N5QHDhcf2E.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"9nOv4NVINxUeAQRazY8eB_jkF1dD58ZY9CvLuK3zrRQ","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"misc\/form.js":1,"misc\/collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]},"field_group":{"div":"full"}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-546 node-type-article i18n-en context-articles">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-9 region region-content region-content-article" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            		<h1 class="title" id="page-title">Awards</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      
+
+
+<article about="/articles/20150217/546/awards" typeof="sioc:Item foaf:Document" class="node node-article node-published node-not-promoted node-not-sticky self-posted author- odd clearfix" id="node-article-546">
+        <span property="dc:title" content="Awards" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>	  
+    
+    <div class="post-date">Posted on 03-03-16</div>		
+		<div class="share-bar">
+			<a class="print_ico" href="/print/articles/20150217/546/awards">Print</a>
+			<!-- <a class="pdf_ico" href="/printpdf/articles/20150217/546/awards">PDF</a> -->
+			<span class='st_email_custom st_ico' displayText='Email'></span>
+			<span class='st_twitter_custom st_ico' displayText='Tweet'></span>
+			<span class='st_facebook_custom st_ico' displayText='Facebook'></span>
+			<span class='st_linkedin_custom st_ico' displayText='LinkedIn'></span>
+			<span class='st_google_custom st_ico' displayText='Google'></span>
+			<script type="text/javascript">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+			<script type="text/javascript">
+				stLight.options({
+		        publisher: 'f65a6e51-8a93-4acd-a665-976809c16a17',
+		        onhover: false
+		    });</script>
+		</div>
+
+    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p><img alt="" src="/sites/default/files/uploads/RiotAwardsHeader.jpg" style="width: 700px; height: 100px;" /></p>
+<ul>
+	<li>
+		#51 Fortune&#39;s 100 Best Workplaces for Millenials - <a href="http://fortune.com/best-workplaces-millennials/">FORTUNE (2016)</a></li>
+	<li>
+		#14 Fortune&#39;s 50 Best Workplaces for Flexibility - <a href="http://fortune.com/best-workplaces-flexibility/" target="_blank">FORTUNE (2016)</a></li>
+	<li>
+		#39 Fortune&#39;s 100 Best Companies to Work For List -&nbsp;<a href="http://www.riotgames.com/articles/20160302/2150/riot%E2%80%99s-great-place-work-second-year-row" target="_blank">FORTUNE (2016)</a></li>
+	<li>
+		#18 Glassdoor&#39;s Best Places to Work - <a href="https://www.glassdoor.com/Best-Places-to-Work-LST_KQ0,19.htm" target="_blank">Glassdoor (2016)</a></li>
+	<li>
+		#19 Fortune&#39;s 50 Best Workplaces for Camaraderie - <a href="http://fortune.com/best-workplaces-camaraderie/" target="_blank">FORTUNE (2015)</a></li>
+	<li>
+		#21 Fortune&#39;s 100 Best Workplaces for Millennials - <a href="http://fortune.com/best-workplaces-millennials/" target="_blank">FORTUNE (2015)</a></li>
+	<li>
+		#13 Fortune&#39;s 100 Best Companies to Work For List - <a href="http://www.riotgames.com/articles/20150309/1656/riot-lands-13-fortune%E2%80%99s-100-best-companies-work-list" target="_blank">FORTUNE (2015)</a></li>
+	<li>
+		Pioneer Award (Co-founders Brandon Beck &amp; Marc Merrill) -&nbsp;<a href="http://www.gdconf.com/events/choiceawards.html" target="_blank">Game Developers Choice Awards (2014)</a></li>
+	<li>
+		#3 Best Medium-Sized Companies to Work For -&nbsp;<a href="http://money.cnn.com/gallery/news/companies/2013/09/19/best-small-medium-companies.fortune/29.html" target="_blank">FORTUNE (2013)</a></li>
+	<li>
+		#4 Top 25 Tech Companies to Work at in 2013, as Ranked by Their Own Staff --&nbsp;<a href="http://www.businessinsider.com/top-25-tech-companies-to-work-at-in-2013-2013-7#4-riot-games-is-the-place-to-be-if-you-want-to-work-in-the-gaming-industry-22" target="_blank">Business Insider (2013)</a></li>
+	<li>
+		Top 30 Developers of All Time -&nbsp;<a href="http://twvideo01.ubm-us.net/o1/gdmag/archives/GDM_JuneJuly_2013.pdf" target="_blank">Game Developer Magazine and Gamasutra (2013)</a></li>
+	<li>
+		Best Community Activation - Gaming Marketing Award (2013)</li>
+	<li>
+		Top 10 Developers -&nbsp;<a href="http://www.edge-online.com/features/edge-developer-awards-2013-the-top-50-studios-working-today/6/" target="_blank">Edge Developer Awards (2013)&nbsp;</a></li>
+	<li>
+		Top 10 Persons of the Year 2012 (Co-founders Brandon Beck &amp; Marc Merrill) -&nbsp;<a href="http://www.gamesindustry.biz/articles/2012-12-17-persons-of-the-year-2012-part-one?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=european-daily" target="_blank">GamesIndustry International (2012)</a></li>
+	<li>
+		30 Under 30 (Co-founder Brandon Beck) -&nbsp;<a href="http://www.forbes.com/pictures/mfl45ielh/brandon-beck-ceo-and-founder-riot-games-29/" target="_blank"><em>Forbes&nbsp;</em>(2011)</a></li>
+	<li>
+		Entrepreneurs of the Year (Co-founders Brandon Beck and Marc Merrill) -&nbsp;Ernst &amp; Young (2011)</li>
+	<li>
+		Top 30 Developers -<em>&nbsp;</em><em>Game Developer Magazine&nbsp;</em>(2010)</li>
+	<li>
+		The Game Developer 50 (VP of Design Tom Cadwell) -&nbsp;<a href="http://www.gamasutra.com/view/feature/134577/the_game_developer_50.php?page=2" target="_blank">Gamasutra.com (2010)</a></li>
+	<li>
+		The Digital 100: The World&#39;s Most Valuable Startups -&nbsp;<a href="http://www.businessinsider.com/digital-100#51-riot-games-51" target="_blank"><em>Business Insider&nbsp;</em>(2010)</a></li>
+</ul>
+<p>&nbsp;</p>
+<p><img alt="" src="/sites/default/files/uploads/LoLAwardHeader.jpg" style="width: 700px; height: 100px; " /></p>
+<ul>
+	<li>
+		Webby People&#39;s Voice Award, Events &amp; Live Webcasts - <a href="http://www.webbyawards.com/winners/2015/online-film-video/general-film-categories/events-live-webcasts/" target="_blank">Webby (2015)</a></li>
+	<li>
+		BAFTA Award, Persistent Game in 2015 - <a href="http://awards.bafta.org/award/2015/games" target="_blank">BAFTA (2015)</a></li>
+	<li>
+		Golden Reel Award, Game Cinematics (<em>A New Dawn</em>) - Motion Picture Sound Editors (2015)</li>
+	<li>
+		Audience Award, Best Community Relations &amp; Best Live Game -&nbsp;<a href="http://gdconlineawards.com/" target="_blank">GDC Online (2012)</a></li>
+	<li>
+		12 Best Free Entertainment Services and Apps of 2012 -&nbsp;<a href="http://www.pcworld.com/article/252607/the_12_best_free_entertainment_services_and_apps_of_2012.html" target="_blank"><em>PCWorld</em> (2012)</a></li>
+	<li>
+		100 Best PC Games of All Time -&nbsp;<a href="http://www.pcgamer.com/2011/02/16/the-100-best-pc-games-of-all-time/4/" target="_blank"><em>PC Gamer</em> (2012)</a></li>
+	<li>
+		Update of the Year -&nbsp;<a href="http://www.pcgamer.com/2012/02/08/pc-gamer-us-game-of-the-year-awards-2012/" target="_blank"><em>PC Gamer </em>(2012)</a></li>
+	<li>
+		Best Online Game - <em>Level Magazine</em> (2012)</li>
+	<li>
+		Game of the Year: MOBA -&nbsp;<em>GameSpy</em> (2011)</li>
+	<li>
+		Free Game of the Year -&nbsp;<a href="http://www.pcgamer.com/2011/12/29/league-of-legends-pc-gamer-uks-free-game-of-the-year/" target="_blank"><em>PC Gamer UK </em>(2011)</a></li>
+	<li>
+		15 Best PC Games - <em>GamePro</em> (2011)</li>
+	<li>
+		Free to Play Game of the Year -&nbsp;<a href="http://www.goldenjoystick.com/awards/about" target="_blank">Golden Joystick Awards (2011)</a></li>
+	<li>
+		Online Game of the Year -&nbsp;<a href="http://www.computerandvideogames.com/272489/gj10-online-game-of-the-year-is/" target="_blank">Golden Joystick Awards (2010)</a></li>
+	<li>
+		Audience Award, Best Online Technology, Best Online Visual Arts, Best Online Game Design &amp; Best New Online Game -&nbsp;<a href="http://www.gdconlineawards.com/archive/gdcoa_1st.html" target="_blank">GDC Online (2010)</a></li>
+	<li>
+		Readers&#39; Choice (Best Strategy Game) -&nbsp;<em>Best of IGN - PC</em> (2009)</li>
+	<li>
+		Readers&#39; Choice (Best Multiplayer Game) -&nbsp;<em>Best of IGN - PC</em> (2009)</li>
+	<li>
+		PC Gamer&#39;s Choice -&nbsp;<em>GameSpy </em>(2009)</li>
+</ul>
+ </div></div></div>
+        
+    <span class="print-link"></span><div class="field-group-format group_tags field-group-div group-tags clearfix speed-none effect-none"><h3><span>Tags:</span></h3><div class="field field-name-field-topic field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/topic/awards-accolades" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Awards &amp; Accolades</a></div><div class="field-item odd"><a href="/topic/riot-news" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Riot in the News</a></div><div class="field-item even"><a href="/categories/category" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Working @ Riot Games</a></div></div></div><div class="field field-name-field-tags field-type-taxonomy-term-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/tags/industry-awards" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Industry awards</a></div><div class="field-item odd"><a href="/tags/developer-awards" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Developer awards</a></div><div class="field-item even"><a href="/tags/gdco" typeof="skos:Concept" property="rdfs:label skos:prefLabel">GDCO</a></div><div class="field-item odd"><a href="/tags/gdc-online" typeof="skos:Concept" property="rdfs:label skos:prefLabel">GDC Online</a></div><div class="field-item even"><a href="/tags/gdco-2012" typeof="skos:Concept" property="rdfs:label skos:prefLabel">GDCO 2012</a></div><div class="field-item odd"><a href="/tags/gdco-2010" typeof="skos:Concept" property="rdfs:label skos:prefLabel">GDCO 2010</a></div><div class="field-item even"><a href="/tags/pc-gamer" typeof="skos:Concept" property="rdfs:label skos:prefLabel">PC gamer</a></div><div class="field-item odd"><a href="/tags/forbes" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Forbes</a></div><div class="field-item even"><a href="/tags/30-under-30" typeof="skos:Concept" property="rdfs:label skos:prefLabel">30 Under 30</a></div><div class="field-item odd"><a href="/tags/ernst-young" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Ernst &amp; Young</a></div><div class="field-item even"><a href="/tags/gamesindustry-international" typeof="skos:Concept" property="rdfs:label skos:prefLabel">GamesIndustry International</a></div><div class="field-item odd"><a href="/tags/pc-world" typeof="skos:Concept" property="rdfs:label skos:prefLabel">PC World</a></div><div class="field-item even"><a href="/tags/best-ign" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Best of IGN</a></div><div class="field-item odd"><a href="/tags/golden-joystick" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Golden Joystick</a></div><div class="field-item even"><a href="/tags/business-insider" typeof="skos:Concept" property="rdfs:label skos:prefLabel">Business Insider</a></div></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+		<a href="/news" class="view-all">All Articles</a>
+      </div>
+</article>
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-views block-related-articles-block block-views-related-articles-block odd block-without-title" id="block-views-related-articles-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-related-articles view-id-related_articles view-display-id-block view-dom-id-365daf0dad380db8e9f4657fa2ca9723">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20121011/270/league-legends-wins-best-live-game-2012-gdco-awards" title="LoL wins at GDCO 2012"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/GDCOnline2012-2_1x1_1.jpg?itok=Xt05VItO" width="400" height="400" alt="Rioters at GDCO" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/GDCOnline2012-2_1x1_1.jpg?itok=xL7TSvww" width="400" height="400" alt="Rioters at GDCO" /></span><span class="teaser-meta"><span class="headline">LoL wins at GDCO 2012</span></span></a></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150309/1656/riot-lands-13-fortune’s-100-best-companies-work-list" title="Riot is #13 on Best Companies to Work for List"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/GPTW_thumb2_1.jpg?itok=7EgwiBhH" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/GPTW_thumb2_1.jpg?itok=h3ub0w0i" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Riot is #13 on Best Companies to Work for List</span></span></a></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20110113/148/league-legends-scores-free-play-goty-pc-gamer" title="LoL Wins PC Gamer Free-to-Play Award"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/400x400_pcgamer_1.jpg?itok=eGb4kRkn" width="400" height="400" alt="PC Gamer" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/400x400_pcgamer_1.jpg?itok=udStXk6W" width="400" height="400" alt="PC Gamer" /></span><span class="teaser-meta"><span class="headline">LoL Wins PC Gamer Free-to-Play Award</span></span></a></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20120216/275/pc-gamer-chooses-league-legends-top-100-game" title="LoL chosen as top 100 game"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/400x400_pcgamer_0.jpg?itok=8nilBtZI" width="400" height="400" alt="LoL chosen as top 100 game" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/400x400_pcgamer_0.jpg?itok=pvJR_UPZ" width="400" height="400" alt="LoL chosen as top 100 game" /></span><span class="teaser-meta"><span class="headline">LoL chosen as top 100 game</span></span></a></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf active-trail"><a href="/articles/20150217/546/awards" target="_blank" class="active-trail active">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebo

@@ -3,7 +3,7 @@ using namespace std;
 
 FileWriter::FileWriter(){};
 
-void FileWriter::SetFilename(string filename)
+void FileWriter::SetFilename(string &filename)
 {
 	this->_filename = filename;
 }
@@ -21,16 +21,14 @@ void Filter(CkString &s){
 void FileWriter::print(CkString &ckurl, CkString &ckhtml)
 {
 	this->qnts++;
-	(*this->out) << "|||\n" << ckurl.getString() << "\n|\n";
+	(*this->out) << "|||" << ckurl.getString() << "|";
 	(*this->out) << ckhtml.getString();
 
-	if(this->qnts > 100)
+	if(this->qnts > 200)
 	{
-		(*this->out) << endl;
 		this->out->flush();
 		this->qnts=0;
 	}
-	else (*this->out) << "\n";
 }
 
 void FileWriter::CloseStream()

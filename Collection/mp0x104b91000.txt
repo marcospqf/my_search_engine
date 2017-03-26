@@ -1,0 +1,1447 @@
+|||
+http://status.leagueoflegends.com/?pt_BR
+|
+<!doctype html>
+<html>
+<head profile="//www.w3.org/1999/xhtml/vocab">
+  <title>League of Legends</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href ="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+  <link rel="SHORTCUT ICON" href="//cdn.leagueoflegends.com/lolkit/1.1.6/resources/images/favicon.ico"/>
+  <link rel="stylesheet" href="//cdn.leagueoflegends.com/lolkit/1.1.6/lol-kit.css"/>
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="//cdn.leagueoflegends.com/lolkit/1.1.6/lol-kit-ie7.css"/>
+  <![endif]-->
+
+  <link rel="stylesheet" href="/assets/frontend-304727386eae8dda9c22be6587c11522.css"/>
+   <style type="text/css">
+       .pane-lolbar-navigation {
+	       height: auto;
+		   padding: 15px 0px;
+	  }
+   </style>
+
+  <script src="//cdn.leagueoflegends.com/lolkit/1.1.6/modernizr.js"></script>
+</head>
+
+<body class="riotbar-present small-header-noplay">
+  <div class="backdrop"></div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>window.JSON || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min.js"><\/script>')</script>
+
+  <script>
+        window.riotBarConfig = {
+          touchpoints: {
+              activeTouchpoint: ""
+          },
+          locale: {
+		      enabled: window.location.host.indexOf('pbe') === -1,
+              landingUrlPattern : '?{{locale}}',
+              // Partially override locales to let kr be handled by the default pattern.
+              locales: {
+                  'na' : [
+                      'en_US'
+                  ],
+                  'euw' : [
+                      'en_GB',
+                      'de_DE',
+                      'es_ES',
+                      'fr_FR',
+                      'it_IT'
+                  ],
+                      'eune' : [
+                      'en_PL',
+                      'pl_PL',
+                      'el_GR',
+                      'ro_RO',
+                      'hu_HU',
+                      'cs_CZ'
+                  ],
+                  'lan' : [
+                      'es_MX'
+                  ],
+                  'las' : [
+                      'es_AR'
+                  ],
+                  'br' : [
+                      'pt_BR'
+                  ],
+                  'ru' : [
+                      'ru_RU'
+                  ],
+                  'tr' : [
+                      'tr_TR'
+                  ],
+                  'oce' : [
+                      'en_AU'
+                  ],
+                  'jp' : [
+                      'ja_JP'
+                  ],
+                  kr: [
+                      'ko_KR'
+                  ]
+              }
+          }
+      }
+  </script>
+
+  <script>
+      var item = location.search.substr(1);
+	  var langs = ['en_US', 'en_GB', 'de_DE', 'es_ES', 'fr_FR', 'it_IT', 'en_PL', 'pl_PL', 'el_GR', 'ro_RO', 'hu_HU', 'cs_CZ', 'es_MX', 'es_AR', 'pt_BR', 'ru_RU', 'tr_TR', 'en_AU', 'ja_JP', 'ko_KR'];
+	  var found = langs.indexOf(item);
+
+	  if (found > -1) {
+          document.write('<script src="//s.lolstatic.com/riotbar/prod/latest/' + item + '.js"><\/script>');
+	  } else {
+	      document.write('<script src="//s.lolstatic.com/riotbar/prod/latest/en_US.js"><\/script>');
+	  }
+  </script>
+
+  <div class="panel-pane pane-lolbar-navigation">
+     <div class="pane-content">
+	    <script>
+		    var region = Riot.Sandworm.getRegion();
+			var lang = Riot.Sandworm.getLang().substr(0, 2);
+
+			if (region !== 'pbe') {
+			    var href = window.location.protocol + '//' + region + '.' + 'leagueoflegends.com' + '/';
+                if (region !== 'kr') {
+                    href = href + lang + '/';
+                }
+		    } else if (region === 'pbe') {
+			    var href = window.location.protocol + '//' + 'community.pbe.leagueoflegends.com' + '/' + lang + '/';
+		    }
+
+	        document.write('<a id="header-riotbar" href="' + href + '"></a>');
+		</script>
+	 </div>
+  </div>
+  <div class="panel-pane pane-panels-mini pane-breadcrumb-title">
+      <div class="pane-content">
+	      <div id="breadcrumbs"></div>
+	   </div>
+  </div>
+  <div id="page-container"></div>
+  <div id="global-footer"></div>
+
+  <script src="/assets/require-37dc32c317495a98d513ba20e192b74e.js"></script>
+
+  <script>
+    (function() {
+      require.config(window.requireConfig={"paths":{"underscore":"lodash","frontend":"/assets/frontend-84ec7ccd24e9e66993fac6a2b418f39a","locales/cs_CZ":"/assets/locales/cs_CZ-dd25591032fa28c4d3cb627384870706","locales/de_DE":"/assets/locales/de_DE-4e39f2f45a46509229a81d30355ed266","locales/el_GR":"/assets/locales/el_GR-494c6dc16246b3cec90b7d21f0caaaf3","locales/en_AU":"/assets/locales/en_AU-3a5534d42805fc746b74f72575e40ed3","locales/en_GB":"/assets/locales/en_GB-ea27ad6cc84529885eb6507652d3d126","locales/en_PL":"/assets/locales/en_PL-cbe4209befa1014f1c0b3ae081e9eff0","locales/en_US":"/assets/locales/en_US-ab14e441e02f3d315ebd8995cecf0b9e","locales/es_AR":"/assets/locales/es_AR-65f375d9541bec107937767076fe394d","locales/es_ES":"/assets/locales/es_ES-21effd7bdcd7ec88499044d6161b916e","locales/es_MX":"/assets/locales/es_MX-42cd8d3f4fe948c9469a71a23b9143b2","locales/fr_FR":"/assets/locales/fr_FR-fbd66546b1a15f8235a1f42205fd3d0d","locales/hu_HU":"/assets/locales/hu_HU-413f740b0322b5a3f9875d0607f31034","locales/it_IT":"/assets/locales/it_IT-b4749880d2330d685c9afcbbf01f28aa","locales/ja_JP":"/assets/locales/ja_JP-5ce8d5bcc5425dc2ae6ab94194f4c492","locales/ko_KR":"/assets/locales/ko_KR-7146204114d9f578548a209ec862aac8","locales/pl_PL":"/assets/locales/pl_PL-19c7d12d7e05b258327c64d7968e9379","locales/pt_BR":"/assets/locales/pt_BR-1f7a058bbcbe54d73b33dd534734743f","locales/ro_RO":"/assets/locales/ro_RO-970c3c6f312115282f6bea1fdcac644f","locales/ru_RU":"/assets/locales/ru_RU-e70eada1978fdcd9bf245b66c30b0e60","locales/tr_TR":"/assets/locales/tr_TR-5dcf7848960a0f90870cf159a724b22e"},"baseUrl":"/assets"});
+      var locale, locales = [window.location.search.slice(1), Riot && Riot.Sandworm && Riot.Sandworm.getLang(), 'en_US'];
+      for(var i = 0; !(locale in requireConfig.paths) && i < locales.length; i++) locale = 'locales/' + locales[i];
+      define('boot!params', [locale], function(locale) { return { locale: locale, shards: [{"name":"North America","slug":"na","locales":["en_US"],"hostname":"prod.na1.lol.riotgames.com","region_tag":"na1"},{"name":"EU West","slug":"euw","locales":["en_GB","de_DE","es_ES","fr_FR","it_IT"],"hostname":"prod.euw1.lol.riotgames.com","region_tag":"eu"},{"name":"EU Nordic & East","slug":"eune","locales":["en_PL","pl_PL","el_GR","ro_RO","cs_CZ","hu_HU"],"hostname":"prod.eun1.lol.riotgames.com","region_tag":"eun1"},{"name":"Latin America North","slug":"lan","locales":["es_MX"],"hostname":"prod.la1.lol.riotgames.com","region_tag":"la1"},{"name":"Latin America South","slug":"las","locales":["es_AR"],"hostname":"prod.la2.lol.riotgames.com","region_tag":"la2"},{"name":"Brazil","slug":"br","locales":["pt_BR"],"hostname":"prod.br.lol.riotgames.com"},{"name":"Turkey","slug":"tr","locales":["tr_TR"],"hostname":"prod.tr.lol.riotgames.com"},{"name":"Russia","slug":"ru","locales":["ru_RU"],"hostname":"prod.ru.lol.riotgames.com"},{"name":"Oceania","slug":"oce","locales":["en_AU"],"hostname":"prod.oc1.lol.riotgames.com","region_tag":"oc1"},{"name":"Japan","slug":"jp","locales":["ja_JP"],"hostname":"prod.jp1.lol.riotgames.com","region_tag":"jp1"},{"name":"Korea","slug":"kr","locales":["ko_kr"],"hostname":"prod.kr.lol.riotgames.com","region_tag":"kr1"}], env: "development" }; });
+      require(['frontend']);
+    })();
+  </script>
+
+</body>
+</html>
+
+|||
+http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/
+|
+ 
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+        <title>Como fazer o esmalte durar mais | Finanças Femininas</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="/favicon.ico">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="32x32">
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-35820902-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <!-- End Google Analytics -->
+
+        <script type="text/javascript">
+            window.universal_variable = window.universal_variable || {};
+            window.universal_variable.dfp = {
+                "custom_params" : {
+                    "affiliate": "parfinancasfemininas",
+                    "subchan" : ""
+                }
+            };
+            window.uolads = window.uolads || [];
+            ;(function() {
+                var scr = document.createElement("script");
+                scr.async = true;
+                scr.src = "//tm.jsuol.com.br/uoltm.js?id=j7vnvt";
+                var el = document.getElementsByTagName("script")[0];
+                el.parentNode.insertBefore(scr, el);
+            })();
+        </script>
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '854503027973662');
+            fbq('track', 'PageView');
+        </script>
+        <noscript>
+            <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=854503027973662&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+
+        <script type="text/javascript">
+            var $mcGoal = {'settings':{'uuid':'4979bb2f1e50dd190b5c3a743','dc':'us6'}};
+            (function() {
+                var sp = document.createElement('script'); sp.type = 'text/javascript'; 
+                sp.async = true; sp.defer = true;
+                sp.src = ('https:' == document.location.protocol ? 
+                    'https://s3.amazonaws.com/downloads.mailchimp.com' : 
+                    'http://downloads.mailchimp.com') + '/js/goal.min.js';
+                var s = document.getElementsByTagName('script')[0]; 
+                s.parentNode.insertBefore(sp, s);
+            })(); 
+        </script>
+        
+        
+<!-- All in One SEO Pack 2.3.8 by Michael Torbert of Semper Fi Web Design[167,243] -->
+<meta name="description" itemprop="description" content="Cansada de ver as unhas descascando no dia seguinte à manicure? Conheça os truques simples para fazer o esmalte durar mais nas unhas das mãos e pés." />
+
+<meta name="keywords" itemprop="keywords" content="esmalte,esmalte durar mais,fazer as unhas,fazer as unhas em casa,manicure,pedicure,manicure durar mais,esmalte não descascar,esmalte descascar,beleza,beleza de farmácia,economize já" />
+<link rel='next' href='http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/2/' />
+
+<link rel="canonical" href="http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Finanças Femininas &raquo; Como fazer o esmalte durar mais" href="http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/feed/" />
+
+<link rel="canonical" href="http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/"/>
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Como fazer o esmalte durar mais">
+<meta property="og:site_name" content="Finanças Femininas">
+<meta property="og:type" content="article"><meta property="fb:app_id" content="1624352024499545"><meta property="og:description" content="Cansada de ver as unhas descascando no dia seguinte à manicure? Conheça os truques simples para fazer o esmalte durar mais nas unhas das mãos e pés."><meta name="description" content="Cansada de ver as unhas descascando no dia seguinte à manicure? Conheça os truques simples para fazer o esmalte durar mais nas unhas das mãos e pés."><meta property="og:url" content="http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/"><meta property="article:published_time" content="2016-11-29T11:30:24+00:00"/><meta property="og:image" content="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-01.jpg"/>
+<meta property="og:see_also" content="http://financasfemininas.uol.com.br/5-formas-de-usar-pasta-de-dente-para-cuidar-da-beleza/"/><meta property="og:see_also" content="http://financasfemininas.uol.com.br/5-ideias-divertidas-e-baratas-de-presentes-para-a-pascoa/"/><meta property="og:see_also" content="http://financasfemininas.uol.com.br/6-substitutos-para-os-ovos-de-pascoa-para-voce-economizar/"/><meta property="og:see_also" content="http://financasfemininas.uol.com.br/como-mobiliar-um-apartamento-com-r-1800/"/><meta property="og:see_also" content="http://financasfemininas.uol.com.br/como-eu-cortei-logo-o-consumismo-da-minha-vida/"/><meta property="og:see_also" content="http://financasfemininas.uol.com.br/5-motivos-para-nao-viajar-na-lua-de-mel/"/><meta property="article:tag" content="beleza"/><meta property="article:tag" content="beleza de farmácia"/><meta property="article:tag" content="manicure"/><meta name="keywords" content="beleza,beleza de farmácia,manicure" /><link rel='stylesheet' id='ff_vendor-css'  href='http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/css/vendor.min.css?ver=1490203263732' type='text/css' media='all' />
+<link rel='stylesheet' id='ff_style-css'  href='http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/css/style.min.css?ver=1490203263732' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C300italic%2C400%2C400%2C500%2C700%7CMaterial+Icons&#038;ver=4.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='http://financasfemininas.uol.com.br/site/wp-content/plugins/tablepress/css/default.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='http://financasfemininas.uol.com.br/wp-json/' />
+<link rel='prev' title='Como usar o seu 13º salário com sabedoria' href='http://financasfemininas.uol.com.br/como-usar-o-seu-13o-salario-com-sabedoria/' />
+<link rel='next' title='Dia de Doar: campanha incentiva a doação' href='http://financasfemininas.uol.com.br/dia-de-doar-campanha-incentiva-a-doacao/' />
+<link rel='shortlink' href='http://financasfemininas.uol.com.br/?p=23788' />
+<link rel="alternate" type="application/json+oembed" href="http://financasfemininas.uol.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://financasfemininas.uol.com.br/wp-json/oembed/1.0/embed?url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F&#038;format=xml" />
+<script type="text/javascript" async src="http://financasfemininas.uol.com.br/_tracker"></script>                    <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+        
+    </head>
+
+    <body class="single">
+
+            
+        <header id="header">
+            
+<div class="navbar">
+    <div class="container no-padding-mobile">
+        <div class="row">
+            <div class="col l1 s2 hide-on-search">
+                <div id="btn-menu" class="unselectable" data-target="menu-modal">
+                    <div class="absolute waves-effect col s12"></div>
+                    <i class="material-icons l-36 s-24">menu</i>
+                    <span>Menu</span>
+                    
+<nav id="menu-web" class="main-menu hide-on-small">
+    <ul class="main-menu-list">
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Blog 
+            <i class="material-icons l-36 arrow-icon">keyboard_arrow_right</i>
+
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/atualidades" class="menu-link" title="Atualidades">
+                        Atualidades
+                        <small>Notícias importantes explicadas</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/carreira" class="menu-link" title="Carreira">
+                        Carreira
+                        <small>Dê um gás na sua vida profissional</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/dividas" class="menu-link" title="Dívidas">
+                        Dívidas
+                        <small>Organize-se e saia do vermelho</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/economize" class="menu-link" title="Economize já">
+                        Economize já
+                        <small>Truques para não gastar à toa</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/investimento" class="menu-link" title="Investimentos">
+                        Investimentos
+                        <small>Para realizar os seus sonhos</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/meu-dinheiro" class="menu-link" title="Meu dinheiro">
+                        Meu dinheiro
+                        <small>Aprenda a se organizar</small>
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Para o dia a dia
+
+            <i class="material-icons l-36 arrow-icon">keyboard_arrow_right</i>
+
+            <ul class="submenu-list">
+                                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/cursos" class="menu-link" title="Cursos Online">
+                        Cursos Online 
+                        <small>Aprenda a cuidar do seu $</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/ebooks" class="menu-link" title="Ebooks">
+                        Ebooks
+                        <small>Livros para te ajudar</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/ferramentas" class="menu-link" title="Ferramentas">
+                        Ferramentas
+                        <small>Planilhas práticas para você</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/coaching/chave-das-financas" class="menu-link" title="Coaching">
+                        Coaching
+                        <small>Coaching financeiro em grupo online com Carol Sandler</small>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Para Empresas
+
+            <i class="material-icons l-36 arrow-icon">keyboard_arrow_right</i>
+
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/anuncie" class="menu-link" title="Anuncie no Finanças Femininas">
+                        Anuncie no Finanças Femininas
+                        <small>Sua marca no nosso site</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/conteudo-customizado" class="menu-link" title="Conteúdo Customizado">
+                        Conteúdo Customizado
+                        <small>Para seu site ou blog</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/consultoria-comunicacao" class="menu-link" title="Consultoria de Comunicação">
+                        Consultoria de Comunicação
+                        <small>Nossa expertise a seu favor</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/cursos-online-e-presenciais" class="menu-link" title="Cursos">
+                        Cursos
+                        <small>Para clientes e colaboradores</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/palestras" class="menu-link" title="Palestras e Webinars">
+                        Palestras e Webinars
+                        <small>Da Carolina Ruhman Sandler</small>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Quem Somos
+            
+            <i class="material-icons l-36 arrow-icon">keyboard_arrow_right</i>
+            
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/nossa-equipe" class="menu-link" title="Nossa Equipe">
+                        Nossa Equipe
+                        <small>Quem faz o site</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/colunistas" class="menu-link" title="Colunistas">
+                        Colunistas
+                        <small>Quem colabora conosco</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/fale-conosco" class="menu-link" title="Fale Conosco">
+                        Fale Conosco
+                        <small>Tem alguma dúvida ou sugestão?</small>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item newsletter no-hover">
+            Newsletter
+            <small>Receba nossas novidades</small>
+            
+    <form class="form-newsletter" action="" method="post" accept-charset="utf-8">
+        
+    	<div class="relative clearfix">
+            <i class="material-icons l-24 unselectable no-events left">person</i>
+            <div class="input-field">
+                <input type="text" name="nome_newsletter" minlength="3"  />
+                <label for="nome_newsletter" class="unselectable no-events">Nome</label>
+            </div>
+        </div>
+        <div class="relative clearfix">
+        	<i class="material-icons l-24 unselectable left">local_post_office</i>
+        	<div class="input-field">
+		        <input type="email" name="email_newsletter">
+		        <label for="email" class="unselectable">E-mail</label>
+		    </div>
+	    </div>
+        <input class="btn waves-effect" type="submit" value="quero receber" />
+    </form>
+        </li>
+    </ul>
+</nav>
+                    
+<nav id="menu-mobile" class="main-menu hide-on-large">
+    <ul class="main-menu-list">
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Blog 
+            <i class="material-icons l-36 arrow-icon down">keyboard_arrow_down</i>
+            <i class="material-icons l-36 arrow-icon up">keyboard_arrow_up</i>
+
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/atualidades" class="menu-link" title="Atualidades">
+                        Atualidades
+                        <small>Notícias importantes explicadas</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/carreira" class="menu-link" title="Carreira">
+                        Carreira
+                        <small>Dê um gás na sua vida profissional</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/dividas" class="menu-link" title="Dívidas">
+                        Dívidas
+                        <small>Organize-se e saia do vermelho</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/economize" class="menu-link" title="Economize já">
+                        Economize já
+                        <small>Truques para não gastar à toa</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/investimento" class="menu-link" title="Investimentos">
+                        Investimentos
+                        <small>Para realizar os seus sonhos</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/meu-dinheiro" class="menu-link" title="Meu dinheiro">
+                        Meu dinheiro
+                        <small>Aprenda a se organizar</small>
+                    </a>
+                </li>
+            </ul>
+
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Para o dia a dia
+
+            <i class="material-icons l-36 arrow-icon down">keyboard_arrow_down</i>
+            <i class="material-icons l-36 arrow-icon up">keyboard_arrow_up</i>
+
+            <ul class="submenu-list">
+                                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/cursos" class="menu-link" title="Cursos">
+                        Cursos
+                        <small>Aprenda a cuidar do seu $</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/ebooks" class="menu-link" title="Ebooks">
+                        Ebooks
+                        <small>Livros para te ajudar</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/ferramentas" class="menu-link" title="Ferramentas">
+                        Ferramentas
+                        <small>Planilhas práticas para você</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/coaching/chave-das-financas" class="menu-link" title="Coaching">
+                        Coaching
+                        <small>Coaching financeiro em grupo online com Carol Sandler</small>
+                    </a>
+                </li>
+                <!-- <li class="submenu-item waves-effect">
+                    <a href="#" class="menu-link" title="">
+                        Descontos
+                        <small>Lorem ipsum dolor sit amet</small>
+                    </a>
+                </li> -->
+            </ul>
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Para Empresas
+
+            <i class="material-icons l-36 arrow-icon down">keyboard_arrow_down</i>
+            <i class="material-icons l-36 arrow-icon up">keyboard_arrow_up</i>
+
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/anuncie" class="menu-link" title="Anuncie no Finanças Femininas">
+                        Anuncie no Finanças Femininas
+                        <small>Sua marca no nosso site</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/conteudo-customizado" class="menu-link" title="Consultoria de Comunicação">
+                        Consultoria de Comunicação
+                        <small>Nossa expertise a seu favor</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/cursos-online-e-presenciais" class="menu-link" title="Cursos">
+                        Cursos
+                        <small>Para clientes e colaboradores</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/palestras" class="menu-link" title="Palestras e Webnars">
+                        Palestras e Webnars
+                        <small>Da Carolina Ruhman Sandler</small>
+                    </a>
+                </li>
+                <!-- <li class="submenu-item waves-effect">
+                    <a href="#" class="menu-link" title="">
+                        Post patrocinado
+                        <small>Lorem ipsum dolor sit amet</small>
+                    </a>
+                </li> -->
+            </ul>
+        </li>
+        <li class="menu-item">
+            <div class="absolute waves-effect"></div>
+            Quem Somos
+            
+            <i class="material-icons l-36 arrow-icon down">keyboard_arrow_down</i>
+            <i class="material-icons l-36 arrow-icon up">keyboard_arrow_up</i>
+            
+            <ul class="submenu-list">
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/nossa-equipe" class="menu-link" title="Nossa Equipe">
+                        Nossa Equipe
+                        <small>Quem faz o site</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/colunistas" class="menu-link" title="Colunistas">
+                        Colunistas
+                        <small>Quem colabora conosco</small>
+                    </a>
+                </li>
+                <li class="submenu-item waves-effect">
+                    <a href="http://financasfemininas.uol.com.br/fale-conosco" class="menu-link" title="Fale Conosco">
+                        Fale Conosco
+                        <small>Tem alguma dúvida ou sugestão?</small>
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="menu-item newsletter no-hover">
+            Newsletter
+            <small>Receba nossas novidades</small>
+
+            <i class="material-icons l-24 unselectable left">local_post_office</i>
+            <div class="input-field">
+                
+    <form class="form-newsletter" action="" method="post" accept-charset="utf-8">
+        
+    	<div class="relative clearfix">
+            <i class="material-icons l-24 unselectable no-events left">person</i>
+            <div class="input-field">
+                <input type="text" name="nome_newsletter" minlength="3"  />
+                <label for="nome_newsletter" class="unselectable no-events">Nome</label>
+            </div>
+        </div>
+        <div class="relative clearfix">
+        	<i class="material-icons l-24 unselectable left">local_post_office</i>
+        	<div class="input-field">
+		        <input type="email" name="email_newsletter">
+		        <label for="email" class="unselectable">E-mail</label>
+		    </div>
+	    </div>
+        <input class="btn waves-effect" type="submit" value="quero receber" />
+    </form>
+            </div>
+        </li>
+    </ul>
+</nav>
+                </div>
+            </div>
+            <div id="logo-header" class="col l2 s8 hide-on-search">
+                <a href="http://financasfemininas.uol.com.br" title="Finanças Femininas" class="btn-home">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="349.159px" height="81.823px" viewBox="0 0 349.159 81.823" enable-background="new 0 0 349.159 81.823" xml:space="preserve">
+	<path fill="#FFFFFF" d="M67.138,10.744l-0.183,53.508L29.26,64.124l0.026-7.649l29.172,0.1l0.067-19.623l-28.935-0.1l0.026-7.649
+		l28.934,0.099l0.084-24.695l0.138,0c-5.619-3.078-12.064-4.838-18.921-4.861C17.919-0.33,0.075,17.391,0,39.326
+		c-0.042,12.352,5.56,23.405,14.377,30.721l0.185-54.287l37.693,0.128l-0.026,7.649l-29.169-0.1l-0.067,19.623l28.935,0.099
+		l-0.026,7.65l-28.936-0.099l-0.084,24.695h-0.064c5.089,2.396,10.767,3.753,16.763,3.773c21.935,0.075,39.779-17.646,39.854-39.582
+		C79.474,28.251,74.743,18.007,67.138,10.744z"/>
+	<g>
+		<path fill="#FFFFFF" d="M103.585,50.77l-0.039,11.257l14.202,0.049l-0.012,3.515l-14.202-0.048l-0.051,14.819l-3.896-0.013
+			l0.113-33.25l21.709,0.073l-0.012,3.658L103.585,50.77z"/>
+		<path fill="#FFFFFF" d="M149.812,76.862L149.8,80.52l-22.467-0.076l0.113-33.25l22.182,0.075l-0.013,3.658l-18.287-0.062
+			l-0.035,10.26l14.678,0.05l-0.012,3.468l-14.677-0.05l-0.042,12.207L149.812,76.862z"/>
+		<path fill="#FFFFFF" d="M188.059,47.399l-0.113,33.251l-3.848-0.014l0.051-14.963c0.018-5.13,0.277-11.731,0.23-11.731h-0.047
+			c-0.05,0-1.722,3.034-2.916,5.025l-7.789,13.463l-2.043-0.007l-7.696-13.516c-1.181-2-2.833-5.045-2.88-5.046h-0.048
+			c-0.047,0,0.168,6.604,0.15,11.733l-0.051,14.963l-3.848-0.014l0.113-33.25l3.657,0.013l8.217,14.088
+			c2.833,4.855,3.352,6.187,3.399,6.187h0.047c0.049,0.001,0.575-1.327,3.441-6.163l8.313-14.032L188.059,47.399z"/>
+		<path fill="#FFFFFF" d="M196.784,80.681l0.113-33.251l3.895,0.014l-0.113,33.25L196.784,80.681z"/>
+		<path fill="#FFFFFF" d="M236.893,47.566l-0.113,33.25l-3.658-0.013l-14.703-19.952c-2.839-3.953-4.918-7-4.965-7h-0.047
+			c-0.049,0,0.079,4.133,0.062,9.453l-0.06,17.432l-3.895-0.013l0.113-33.251l3.658,0.013l14.703,19.906
+			c2.507,3.381,4.918,6.856,4.965,6.856H233c0.049,0-0.077-4.465-0.062-9.215l0.06-17.48L236.893,47.566z"/>
+		<path fill="#FFFFFF" d="M245.62,80.847l0.113-33.25l3.895,0.013l-0.113,33.25L245.62,80.847z"/>
+		<path fill="#FFFFFF" d="M285.727,47.732l-0.113,33.25l-3.656-0.012l-14.706-19.953c-2.836-3.952-4.915-7-4.965-7h-0.046
+			c-0.047,0,0.081,4.133,0.062,9.453l-0.059,17.433l-3.896-0.014l0.114-33.25l3.656,0.013l14.705,19.906
+			c2.506,3.38,4.916,6.855,4.963,6.855l0.049,0.001c0.047,0-0.08-4.465-0.064-9.215l0.061-17.48L285.727,47.732z"/>
+		<path fill="#FFFFFF" d="M314.956,72.391l-16.672-0.057l-3.735,8.68l-4.179-0.015l14.553-33.201l3.562,0.013l14.326,33.299
+			l-4.18-0.014L314.956,72.391z M313.495,68.918l-5.229-12.368c-0.707-1.712-1.508-4.043-1.555-4.043h-0.047
+			c-0.049,0-0.863,2.324-1.582,4.032l-5.313,12.332L313.495,68.918z"/>
+		<path fill="#FFFFFF" d="M344.984,57.15c-0.699-4.04-4.157-6.475-8.29-6.489c-4.371-0.015-7.465,2.065-7.476,5.391
+			c-0.013,3.657,4.591,4.812,9.002,6.158c4.651,1.393,10.961,3.504,10.938,9.965c-0.019,5.605-4.876,9.673-12.192,9.648
+			c-7.125-0.024-11.622-4.22-12.648-9.828l3.756-0.985c0.461,3.85,3.633,7.28,9.047,7.299c4.941,0.017,7.942-2.586,7.954-6.053
+			c0.017-4.846-5.728-5.862-10.426-7.351c-3.795-1.2-9.395-2.93-9.375-8.678c0.018-5.177,4.924-9.009,11.574-8.985
+			c6.033,0.021,10.771,3.6,11.844,8.923L344.984,57.15z"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M104.818,3.552l-0.041,11.85l14.951,0.051l-0.013,3.7l-14.951-0.051l-0.053,15.601l-4.101-0.014
+			l0.12-35.001l22.85,0.078l-0.013,3.85L104.818,3.552z"/>
+		<path fill="#FFFFFF" d="M129.811,34.789l0.119-35.001l4.1,0.014l-0.119,35.001L129.811,34.789z"/>
+		<path fill="#FFFFFF" d="M172.032-0.069l-0.12,35.001l-3.85-0.013l-15.481-21.004c-2.986-4.161-5.174-7.368-5.225-7.368l-0.051,0
+			c-0.049,0,0.087,4.351,0.068,9.951l-0.062,18.352l-4.102-0.015l0.119-35.002l3.852,0.014L162.66,20.8
+			c2.638,3.559,5.177,7.218,5.226,7.218l0.051,0c0.049,0-0.084-4.701-0.067-9.701l0.063-18.401L172.032-0.069z"/>
+		<path fill="#FFFFFF" d="M202.793,25.888l-17.552-0.06l-3.931,9.137l-4.4-0.015L192.231,0l3.75,0.013l15.081,35.054l-4.4-0.015
+			L202.793,25.888z M201.254,22.232L195.75,9.212c-0.743-1.802-1.587-4.255-1.636-4.255h-0.051c-0.051,0-0.908,2.447-1.664,4.244
+			l-5.596,12.982L201.254,22.232z"/>
+		<path fill="#FFFFFF" d="M244.881,0.18l-0.12,35.001l-3.85-0.013l-15.479-21.004c-2.985-4.161-5.176-7.368-5.225-7.368l-0.051,0
+			c-0.049,0,0.085,4.351,0.066,9.951l-0.062,18.351l-4.1-0.014l0.118-35.002l3.85,0.013l15.482,20.954
+			c2.636,3.559,5.175,7.218,5.225,7.218l0.05,0c0.051,0-0.084-4.701-0.067-9.701l0.063-18.401L244.881,0.18z"/>
+		<path fill="#FFFFFF" d="M312.593,26.262l-17.553-0.06l-3.93,9.137l-4.4-0.015l15.318-34.95l3.752,0.013l15.08,35.054l-4.398-0.016
+			L312.593,26.262z M311.054,22.606l-5.506-13.02c-0.744-1.803-1.585-4.256-1.636-4.256h-0.049c-0.051,0-0.909,2.447-1.665,4.244
+			l-5.596,12.982L311.054,22.606z"/>
+		<path fill="#FFFFFF" d="M344.197,10.218c-0.735-4.252-4.377-6.815-8.727-6.83c-4.6-0.016-7.857,2.173-7.869,5.674
+			c-0.013,3.85,4.832,5.066,9.478,6.482c4.896,1.467,11.538,3.689,11.516,10.49c-0.021,5.899-5.135,10.183-12.836,10.157
+			c-7.5-0.026-12.234-4.442-13.316-10.347l3.955-1.037c0.486,4.052,3.823,7.664,9.524,7.684c5.199,0.018,8.358-2.722,8.372-6.372
+			c0.018-5.101-6.03-6.171-10.974-7.738c-3.996-1.263-9.891-3.084-9.87-9.134c0.02-5.45,5.183-9.483,12.183-9.459
+			c6.35,0.021,11.337,3.789,12.468,9.393L344.197,10.218z"/>
+		<path fill="#FFFFFF" d="M285.895,25.821l-4.047-1.114c-2.014,3.821-5.841,6.461-10.325,7.071l0.012-3.426l-3.611-0.012
+			l-0.012,3.488c-7.079-0.729-12.367-6.231-12.341-14.111c0.029-8.45,5.998-14.181,14-14.153c4.9,0.017,9.341,2.433,11.729,6.291
+			l4.153-1.036c-3.131-5.611-9.02-9.231-15.868-9.255c-10.051-0.034-18.179,7.589-18.215,18.139
+			c-0.033,9.997,7.219,17.403,16.528,18.183l-0.011,3.079l3.611,0.012l0.011-3.122C277.908,35.201,283.253,31.422,285.895,25.821z"/>
+	</g>
+</svg>                </a>
+            </div>
+            <div class="col offset-l3 l3 hide-on-small">
+                
+    <form class="form-search" action="http://financasfemininas.uol.com.br" method="GET" accept-charset="utf-8">
+        <input type="search" name="s" class="search" value="">
+        <button class="submit" type="submit">
+			<i class='material-icons l-24 s-36'>search</i>
+        </button>
+    </form>
+            </div>
+            <div class="col s9 offset-s1 form-mobile hide-on-large">
+                
+    <form class="form-search" action="http://financasfemininas.uol.com.br" method="GET" accept-charset="utf-8">
+        <input type="search" name="s" class="search" value="">
+        <button class="submit" type="submit">
+			<i class='material-icons l-24 s-36'>search</i>
+        </button>
+    </form>
+            </div>
+            <div class="col s2 hide-on-large">
+                <i id="btn-close-search" class="unselectable material-icons s-36">close</i>
+                <i id="btn-search" class='unselectable material-icons s-36'>search</i>
+            </div>
+            <div class="col text-center l1 hide-on-small">
+                <span class="vr"></span>
+            </div>
+            <div class="col l2 hide-on-small no-padding">
+                <nav class="social clearfix">
+                    <a href="https://www.facebook.com/FinancasFemininas/" rel="nofollow" target="_blank" title="Finanças Femininas no Facebook" class="social-link">
+                        <i class="icon l-24 icon-social-facebook"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/financasfemininas" rel="nofollow" target="_blank" title="Finanças Femininas do YouTube" class="social-link">
+                        <i class="icon l-24 icon-social-youtube-outline"></i>
+                    </a>
+                    <a href="https://www.instagram.com/financasfemininas/" rel="nofollow" target="_blank" title="Finanças Femininas no Instagram" class="social-link">
+                        <i class="icon l-24 icon-social-instagram-outline"></i>
+                    </a>
+                    <a href="https://soundcloud.com/financasfemininas/" rel="nofollow" target="_blank" title="Podcast do Finanças Femininas no SoundCloud" class="social-link">
+                        <i class="icon l-24 icon-social-soundcloud"></i>
+                    </a>
+                    <a href="https://plus.google.com/+Finan%C3%A7asFemininas" rel="nofollow" target="_blank" title="Finanças Femininas no Google+" class="social-link">
+                        <i class="icon l-24 icon-social-googleplus"></i>
+                    </a>
+                    <a href="http://financasfemininas.uol.com.br/feed/" rel="nofollow" target="_blank" title="Feed do Finanças Femininas" class="social-link">
+                        <i class="icon l-24 icon-social-rss"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fixed-header hide-on-small">
+    <div class="container">
+        <div class="row">
+            <div class="col l8">
+                <p class="cat">Beleza</p>
+                <h1 class="l-title">Como fazer o esmalte durar mais</h1>
+                <ul class="mod-social">
+	<li class="likes mod-metricas" data-pid="23788">
+		<a href="#" title="Curti esse conteúdo!" class="heart-link select-metrica" data-metrica="favorito">
+			<i class="icon icon-heart l-18 s-24"><span>3</span></i>
+		</a>
+	</li>
+
+	<li class="comments hide-on-small">
+		<a href="#mod-author" title="Comentários" class="comments-link">
+			<i class="icon material-icons l-24 s-30">chat <span class="disqus-comment-count" data-disqus-identifier="23788">0</span></i>
+		</a>
+	</li>
+
+	<li class="error">
+		<a href="#" title="Comunique um erro ou sugestão sobre a matéria" class="single-errors" data-target="single-errors">
+			<i class="icon material-icons l-24 s-30">announcement</i>
+		</a>
+	</li>
+
+	<li class="social">
+		<nav class="social-icons clearfix">
+
+			
+<a 
+	href="http://www.facebook.com/share.php?u=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F&title=Como fazer o esmalte durar mais" 
+	title="Compartilhe no Facebook: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-facebook"></i>
+</a>
+<a 
+	href="https://plus.google.com/share?url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Google Plus: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-googleplus"></i>
+</a>
+<a 
+	href="http://twitter.com/home?status=Como fazer o esmalte durar mais+http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Twitter: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-twitter"></i>
+</a>
+<a 
+	href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F&title=Como fazer o esmalte durar mais&source=http://financasfemininas.uol.com.br" 
+	title="Compartilhe no LinkedIn: Como fazer o esmalte durar mais" 
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-linkedin"></i>
+</a>
+<a 
+	href="whatsapp://send?text=Cansada+de+ver+as+unhas+descascando+no+dia+seguinte+%C3%A0+manicure%3F+Conhe%C3%A7a+os+truques+simples+para+fazer+o+esmalte+durar+mais+nas+unhas+das+m%C3%A3os+e+p%C3%A9s.%0A%0Ahttp%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Whatsapp: Como fazer o esmalte durar mais"
+	class="social-link hide-on-large">
+    	<i class="icon l-24 s-30 icon-social-whatsapp"></i>
+</a>
+<a 
+	href="#" 
+	title="Compartilhe por Email: Como fazer o esmalte durar mais"
+	class="social-link hide-on-small share-email not-popup" 
+	data-target="share-modal">
+    	<i class="l-24 s-30 material-icons">email</i>
+</a>
+
+		</nav>
+	</li>
+
+	<li class="print">
+		<a href="javascript:window.print()" title="Imprimir o artigo Como fazer o esmalte durar mais" class="print-link hide-on-small">
+			<i class="icon material-icons l-24 ">print</i>
+		</a>
+	</li>
+
+</ul>
+            </div>
+                        <div class="col l3 offset-l1 no-padding">
+                <p class="suggest">Para ler depois</p>
+                <a href="http://financasfemininas.uol.com.br/contas-digitais-saiba-o-que-sao-e-se-valem-a-pena" class="suggest-link" title="Contas digitais: saiba o que são e se valem a pena">
+                    <i class="material-icons l-36">keyboard_arrow_right</i>
+                    Contas digitais: saiba o que são e se valem a pena</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="cat-header cat-economize ">
+
+	<div class="container">
+		<div class="row">
+			<div class="col l12">
+				<nav class="breadcrumbs hide-on-small">
+					<a href="http://financasfemininas.uol.com.br" class="bread-link" title="Home">home</a>
+					<a class="bread-link" title="Blog">blog</a>
+					<a class="bread-link" title="Economize já" href="http://financasfemininas.uol.com.br/economize/">Economize já</a>
+				</nav>
+
+				<h1 class="xl-title xl-title-m hide-on-large ">Economize já</h1>
+
+			</div>
+		</div>
+	</div>
+
+	
+</div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <section class="col l8 s12">
+                    <article class="post-wrapper">
+                        <header>
+                            <h1 class="xl-title xl-title-m">Como fazer o esmalte durar mais</h1>
+                            <div class="about clearfix">
+                                <p class="date">29.11.2016</p> -
+                                                                    <p class="author">Por Mayte Carvalho</p>
+                                                                <ul class="mod-social">
+	<li class="likes mod-metricas" data-pid="23788">
+		<a href="#" title="Curti esse conteúdo!" class="heart-link select-metrica" data-metrica="favorito">
+			<i class="icon icon-heart l-18 s-24"><span>3</span></i>
+		</a>
+	</li>
+
+	<li class="comments hide-on-small">
+		<a href="#mod-author" title="Comentários" class="comments-link">
+			<i class="icon material-icons l-24 s-30">chat <span class="disqus-comment-count" data-disqus-identifier="23788">0</span></i>
+		</a>
+	</li>
+
+	<li class="error">
+		<a href="#" title="Comunique um erro ou sugestão sobre a matéria" class="single-errors" data-target="single-errors">
+			<i class="icon material-icons l-24 s-30">announcement</i>
+		</a>
+	</li>
+
+	<li class="social">
+		<nav class="social-icons clearfix">
+
+			
+<a 
+	href="http://www.facebook.com/share.php?u=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F&title=Como fazer o esmalte durar mais" 
+	title="Compartilhe no Facebook: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-facebook"></i>
+</a>
+<a 
+	href="https://plus.google.com/share?url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Google Plus: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-googleplus"></i>
+</a>
+<a 
+	href="http://twitter.com/home?status=Como fazer o esmalte durar mais+http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Twitter: Como fazer o esmalte durar mais"
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-twitter"></i>
+</a>
+<a 
+	href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F&title=Como fazer o esmalte durar mais&source=http://financasfemininas.uol.com.br" 
+	title="Compartilhe no LinkedIn: Como fazer o esmalte durar mais" 
+	class="social-link">
+    	<i class="icon l-24 s-30 icon-social-linkedin"></i>
+</a>
+<a 
+	href="whatsapp://send?text=Cansada+de+ver+as+unhas+descascando+no+dia+seguinte+%C3%A0+manicure%3F+Conhe%C3%A7a+os+truques+simples+para+fazer+o+esmalte+durar+mais+nas+unhas+das+m%C3%A3os+e+p%C3%A9s.%0A%0Ahttp%3A%2F%2Ffinancasfemininas.uol.com.br%2Fcomo-fazer-o-esmalte-durar-mais%2F" 
+	title="Compartilhe no Whatsapp: Como fazer o esmalte durar mais"
+	class="social-link hide-on-large">
+    	<i class="icon l-24 s-30 icon-social-whatsapp"></i>
+</a>
+<a 
+	href="#" 
+	title="Compartilhe por Email: Como fazer o esmalte durar mais"
+	class="social-link hide-on-small share-email not-popup" 
+	data-target="share-modal">
+    	<i class="l-24 s-30 material-icons">email</i>
+</a>
+
+		</nav>
+	</li>
+
+	<li class="print">
+		<a href="javascript:window.print()" title="Imprimir o artigo Como fazer o esmalte durar mais" class="print-link hide-on-small">
+			<i class="icon material-icons l-24 ">print</i>
+		</a>
+	</li>
+
+</ul>
+                            </div>
+                        </header>
+                        <div class="content post" data-pid="23788">
+                                                                                        <p><img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-destaque.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-01-780x640.jpg" alt="Como fazer o esmalte durar mais" width="100%" height="auto"></p>
+                                    
+
+                            <p>Quando a gente faz a unha, seja no salão ou em casa, a gente se sente mais bonita imediatamente: o efeito “Cinderela” de uma manicure ou pedicure bem feita aumenta a nossa auto-estima na hora!</p>
+<p>Contudo, ao descascar o esmalte ou quando ele começa a perder o brilho, sentimos um certo desgosto &#8211; e até escondemos as unhas em reuniões ou fotos – quem nunca?</p>
+<p><strong>Por que os esmaltes descascam?</strong></p>
+<p>Segundo o professor e farmacêutico Ricardo Garcia, ao serem aplicados nas unhas, os componentes do esmalte polimerizam e formam um filme. Com o passar dos dias, esse filme tende a ficar mais frágil e quebradiço, e portanto, começa a descascar.</p>
+<div class="hidden-wrapper">
+<p><img class="aligncenter size-full wp-image-23820 b-lazy" src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-02.jpg" alt="esmalte-durar-mais" width="1000" height="667" srcset="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-02.jpg 1000w, http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-02-300x200.jpg 300w, http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/esmalte-durar-mais-02-768x512.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p><strong>Como fazer o esmalte durar mais</strong></p>
+<ol>
+<li>Remova 100% dos resíduos da manicure ou pedicure anterior das suas unhas: caso a unha esteja com sua base descamando, o esmalte vai descascar mais fácil;</li>
+<li>Limpe bem as suas unhas: restos de cremes ou poeira podem atrapalhar a aderência do esmalte à unha;</li>
+<li>Passe camadas finas do esmalte em suas mãos: camadas grossas podem descascar com mais facilidade;</li>
+<li>Uma boa pedida antes de finalizar o processo de manicure é a aplicação de um óleo secante por cima do esmalte;</li>
+<li>Além do óleo secante, a aplicação de extra brilho de secagem rápida protege o esmalte por mais tempo. Além disso, durante a semana, você pode dar uma repassada , o que ajuda a retomar o aspecto de “novo”;</li>
+<li>Nada de tomar banho ou limpar a casa com água quente logo após fazer as unhas: evite o toque direto da ponta da sua unha com outras superfícies, principalmente com água abundante e quente.</li>
+</ol>
+<p>Estes pequenos segredinhos ajudarão você na aplicação do esmalte e até mesmo após a pintura das unhas. Agora, é só colocar em prática!</p>
+<p><em>*Maytê Carvalho é a responsável pelo blog <a href="http://www.belezadefarmacia.com.br/" target="_blank">Beleza de Farmácia</a> e entusiasta do poder transformador da beleza. </em></p>
+<p><em>Instagram: @belezadefarmacia</em><br />
+<em>Facebook: facebook.com/belezadefarmacia</em></p>
+<p><em>Gostou do nosso conteúdo? Clique <a href="http://materiais.financasfemininas.com.br/newsletter-lp" target="_blank">aqui</a> e assine a nossa newsletter! </em></p>
+<p>Fotos: Shutterstock</p></div>
+                        </div>
+
+                                                    <!-- <div class="container-rest"></div> -->
+                            <div class="single-more text-center">
+                                <a class="btn positive waves-effect">Ler Matéria Completa</a>
+                            </div>
+                                                <div class="mod mod-avaliacao mod-metricas mod-content" data-pid="23788">
+
+                            <h3>Este conteúdo foi útil para você?</h3>
+
+                            <div class="like select-metrica circle waves-effect waves-circle" data-metrica="util">
+                                <span class="icon icon-heart l-24 s-18"></span>
+                                sim
+                            </div>
+                            <div class="like select-metrica circle waves-effect waves-circle" data-metrica="nutil">
+                                <span class="icon l-24 s-18">X</span>
+                                não
+                            </div>
+
+                        </div>
+
+                                                    <div id="mod-author" class="mod-author clearfix">
+                                <img src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/09/beleza-de-farmacia-180x150.png" alt="Mayte Carvalho" class="avatar avatar-author-photo wp-user-avatar wp-user-avatar-author-photo alignnone photo" />
+                                <h3>Mayte Carvalho</h3>
+
+                                <p>Beleza de Farmácia</p>
+
+                            </div>
+                        
+                        <!-- DISQUS -->
+                        <div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+
+var disqus_config = function () {
+	this.page.url = "http://financasfemininas.uol.com.br/como-fazer-o-esmalte-durar-mais/"; // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "23788"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//finanasfemininas.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+                    </article>
+                </section>
+
+                <aside class="col offset-l1 l3 s12 sidebar">
+                   
+    <section class="mod mod-related">
+        <h1 class="l-title m-title-m">Para ler em seguida</h1>
+                        <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/5-formas-de-usar-pasta-de-dente-para-cuidar-da-beleza" class="post-link clearfix" title="5 formas de usar pasta de dente para cuidar da beleza">
+
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2017/03/pasta-de-dente-beleza-01-100x82.jpg" alt="Como fazer o esmalte durar mais">
+                
+                <div class="content right">
+                    <h1 class="m-title s-title-m">5 formas de usar pasta de dente para cuidar da beleza</h1>
+                    <p class="cat">Beleza</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/grandes-mentiras-sobre-beleza-que-voce-ja-ouviu-por-ai" class="post-link clearfix" title="Grandes mentiras sobre beleza que você já ouviu por ai">
+
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/12/mitos-beleza-01-min-100x82.jpg" alt="Como fazer o esmalte durar mais">
+                
+                <div class="content right">
+                    <h1 class="m-title s-title-m">Grandes mentiras sobre beleza que você já ouviu por ai</h1>
+                    <p class="cat">Beleza</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/maquiagem-o-barato-que-sai-caro" class="post-link clearfix" title="Maquiagem: o barato que sai caro">
+
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/10/maquiagem-1-100x82.jpg" alt="Como fazer o esmalte durar mais">
+                
+                <div class="content right">
+                    <h1 class="m-title s-title-m">Maquiagem: o barato que sai caro</h1>
+                    <p class="cat">Beleza</p>
+                </div>
+            </a>
+        </article>
+            </section>
+
+    <div class="mod adv hide-on-small">
+        <div id="banner-300x250-mobile" class="banner-area banner-adsense" data-target="mobile"></div>    </div>
+
+    <div class="hide-on-small">
+        
+<div class="mod-newsletter">
+    <h2>Newsletter</h2>
+    <p class="description">Cadastre seu e-mail e receba gratuitamente as atualizações sobre o mundo feminino.</p>
+    <div class="form-wrapper">
+        
+    <form class="form-newsletter" action="" method="post" accept-charset="utf-8">
+        
+    	<div class="relative clearfix">
+            <i class="material-icons l-24 unselectable no-events left">person</i>
+            <div class="input-field">
+                <input type="text" name="nome_newsletter" minlength="3"  />
+                <label for="nome_newsletter" class="unselectable no-events">Nome</label>
+            </div>
+        </div>
+        <div class="relative clearfix">
+        	<i class="material-icons l-24 unselectable left">local_post_office</i>
+        	<div class="input-field">
+		        <input type="email" name="email_newsletter">
+		        <label for="email" class="unselectable">E-mail</label>
+		    </div>
+	    </div>
+        <input class="btn waves-effect" type="submit" value="quero receber" />
+    </form>
+    </div>
+</div>
+    </div>
+
+    <div class="mod adv hide-on-small">
+        <div id="banner-300x600-area" class="banner-area" data-target="desktop"></div>    </div>
+
+    <div class="row hide-on-large">
+        <div class="col s12 text-center adv">
+            <div id="banner-300x250-mobile" class="banner-area banner-adsense" data-target="mobile"></div>        </div>
+    </div>
+
+    <section class="mod mod-related">
+        <h1 class="l-title m-title-m">Veja também</h1>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/calendario-2017/" class="post-link clearfix" title="Calendário 2017">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/12/CalendarioV2-min-100x82.png" alt="Calendário 2017">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">Calendário 2017</h1>
+                    <p class="cat">Ferramentas</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/pilulas-financeiras-sms/" class="post-link clearfix" title="Pílulas financeiras em SMS">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/11/economia_dinheiro-100x82.jpg" alt="Pílulas financeiras em SMS">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">Pílulas financeiras em SMS</h1>
+                    <p class="cat">Ferramentas</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/lista-de-desejos/" class="post-link clearfix" title="Lista de Desejos">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2016/10/shutterstock_78032677-min-100x82.jpg" alt="Lista de Desejos">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">Lista de Desejos</h1>
+                    <p class="cat">Ferramentas</p>
+                </div>
+            </a>
+        </article>
+            </section>
+
+    <div class="mod adv hide-on-small">
+		<div id="banner-300x600-area" class="banner-area" data-target="desktop"></div>    </div>
+
+     <section class="mod mod-related hide-on-small">
+        <h1 class="l-title m-title-m">Em destaque</h1>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/video-como-ler-o-holerite-e-descobrir-o-salario-liquido/" class="post-link clearfix" title="Vídeo: como ler o holerite e descobrir o salário líquido">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2017/03/ler-holerite-salario-liquido-salario-bruto-100x82.jpg" alt="Vídeo: como ler o holerite e descobrir o salário líquido">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">Vídeo: como ler o holerite e descobrir o salário líquido</h1>
+                    <p class="cat">Carreira</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/como-investir-pensando-na-aposentadoria-sem-depender-do-inss/" class="post-link clearfix" title="Como investir pensando na aposentadoria sem depender do INSS">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2017/03/investir-aposentadoria-inss-01-100x82.jpg" alt="Como investir pensando na aposentadoria sem depender do INSS">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">Como investir pensando na aposentadoria sem depender do INSS</h1>
+                    <p class="cat">Como começar?</p>
+                </div>
+            </a>
+        </article>
+                <article class="mod-post">
+            <a href="http://financasfemininas.uol.com.br/5-ideias-divertidas-e-baratas-de-presentes-para-a-pascoa/" class="post-link clearfix" title="5 ideias divertidas e baratas de presentes para a Páscoa">
+                                    <img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/lazy/post-280x230.png" class="b-lazy" data-src="http://financasfemininas.uol.com.br/site/wp-content/uploads/2017/03/lembrancinha-pascoa-barata-01-min-100x82.jpg" alt="5 ideias divertidas e baratas de presentes para a Páscoa">
+                                <div class="content right">
+                    <h1 class="m-title s-title-m">5 ideias divertidas e baratas de presentes para a Páscoa</h1>
+                    <p class="cat">Datas Comemorativas</p>
+                </div>
+            </a>
+        </article>
+            </section>
+
+</aside>
+            </div>
+        </div>
+    
+
+		<footer id="footer">
+
+			
+<div class="container mod-nav-footer">
+	<div class="row">
+		<nav class="col l2 hide-on-small">
+			<h1 class="s-title">Blog</h1>
+			<ul>
+				<li><a href="http://financasfemininas.uol.com.br/atualidades" title="Atualidades">Atualidades</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/carreira" title="Carreira">Carreira</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/dividas" title="Dívidas">Dívidas</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/economize" title="Economize Já">Economize Já</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/investimento" title="Investimentos">Investimentos</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/meu-dinheiro" title="Meu Dinheiro">Meu Dinheiro</a></li>
+			</ul>
+		</nav>
+		<nav class="col l2 hide-on-small">
+			<h1 class="s-title">Para o seu dia a dia</h1>
+			<ul>
+								<li><a href="http://financasfemininas.uol.com.br/cursos" title="Cursos">Cursos</a></li>
+								<li><a href="http://financasfemininas.uol.com.br/ebooks" title="Ebooks">Ebooks</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/ferramentas" title="Ferramentas">Ferramentas</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/coaching/chave-das-financas" title="Coaching">Coaching</a></li>
+			</ul>
+		</nav>
+		<nav class="col l2 hide-on-small">
+			<h1 class="s-title">Para empresas</h1>
+			<ul>
+				<li><a href="http://financasfemininas.uol.com.br/anuncie" title="Anuncie Aqui">Anuncie Aqui</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/conteudo-customizado" title="Conteúdo Customizado">Conteúdo Customizado</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/consultoria-comunicacao" title="Consultoria de Comunicação">Consultoria de Comunicação</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/cursos-online-e-presenciais" title="Cursos online e presenciais">Cursos online e presenciais</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/palestras" title="Palestras e Webinars">Palestras e Webinars</a></li>
+			</ul>
+		</nav>
+		<nav class="col l2 last hide-on-small">
+			<h1 class="s-title">Quem somos</h1>
+			<ul>
+				<li><a href="http://financasfemininas.uol.com.br/fale-conosco" title="Fale Conosco">Fale Conosco</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/colunistas" title="Colunistas">Colunistas</a></li>
+				<li><a href="http://financasfemininas.uol.com.br/nossa-equipe" title="Nossa Equipe">Nossa Equipe</a></li>
+			</ul>
+		</nav>
+		<div class="col l3 offset-l1 no-padding s12">
+			
+<div class="mod-newsletter">
+    <h2>Newsletter</h2>
+    <p class="description">Cadastre seu e-mail e receba gratuitamente as atualizações sobre o mundo feminino.</p>
+    <div class="form-wrapper">
+        
+    <form class="form-newsletter" action="" method="post" accept-charset="utf-8">
+        
+    	<div class="relative clearfix">
+            <i class="material-icons l-24 unselectable no-events left">person</i>
+            <div class="input-field">
+                <input type="text" name="nome_newsletter" minlength="3"  />
+                <label for="nome_newsletter" class="unselectable no-events">Nome</label>
+            </div>
+        </div>
+        <div class="relative clearfix">
+        	<i class="material-icons l-24 unselectable left">local_post_office</i>
+        	<div class="input-field">
+		        <input type="email" name="email_newsletter">
+		        <label for="email" class="unselectable">E-mail</label>
+		    </div>
+	    </div>
+        <input class="btn waves-effect" type="submit" value="quero receber" />
+    </form>
+    </div>
+</div>
+		</div>
+	</div>
+
+	<div class="row signature">
+		<div class="col l2 s12">
+			
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="349.159px" height="81.823px" viewBox="0 0 349.159 81.823" enable-background="new 0 0 349.159 81.823" xml:space="preserve">
+	<path fill="#FFFFFF" d="M67.138,10.744l-0.183,53.508L29.26,64.124l0.026-7.649l29.172,0.1l0.067-19.623l-28.935-0.1l0.026-7.649
+		l28.934,0.099l0.084-24.695l0.138,0c-5.619-3.078-12.064-4.838-18.921-4.861C17.919-0.33,0.075,17.391,0,39.326
+		c-0.042,12.352,5.56,23.405,14.377,30.721l0.185-54.287l37.693,0.128l-0.026,7.649l-29.169-0.1l-0.067,19.623l28.935,0.099
+		l-0.026,7.65l-28.936-0.099l-0.084,24.695h-0.064c5.089,2.396,10.767,3.753,16.763,3.773c21.935,0.075,39.779-17.646,39.854-39.582
+		C79.474,28.251,74.743,18.007,67.138,10.744z"/>
+	<g>
+		<path fill="#FFFFFF" d="M103.585,50.77l-0.039,11.257l14.202,0.049l-0.012,3.515l-14.202-0.048l-0.051,14.819l-3.896-0.013
+			l0.113-33.25l21.709,0.073l-0.012,3.658L103.585,50.77z"/>
+		<path fill="#FFFFFF" d="M149.812,76.862L149.8,80.52l-22.467-0.076l0.113-33.25l22.182,0.075l-0.013,3.658l-18.287-0.062
+			l-0.035,10.26l14.678,0.05l-0.012,3.468l-14.677-0.05l-0.042,12.207L149.812,76.862z"/>
+		<path fill="#FFFFFF" d="M188.059,47.399l-0.113,33.251l-3.848-0.014l0.051-14.963c0.018-5.13,0.277-11.731,0.23-11.731h-0.047
+			c-0.05,0-1.722,3.034-2.916,5.025l-7.789,13.463l-2.043-0.007l-7.696-13.516c-1.181-2-2.833-5.045-2.88-5.046h-0.048
+			c-0.047,0,0.168,6.604,0.15,11.733l-0.051,14.963l-3.848-0.014l0.113-33.25l3.657,0.013l8.217,14.088
+			c2.833,4.855,3.352,6.187,3.399,6.187h0.047c0.049,0.001,0.575-1.327,3.441-6.163l8.313-14.032L188.059,47.399z"/>
+		<path fill="#FFFFFF" d="M196.784,80.681l0.113-33.251l3.895,0.014l-0.113,33.25L196.784,80.681z"/>
+		<path fill="#FFFFFF" d="M236.893,47.566l-0.113,33.25l-3.658-0.013l-14.703-19.952c-2.839-3.953-4.918-7-4.965-7h-0.047
+			c-0.049,0,0.079,4.133,0.062,9.453l-0.06,17.432l-3.895-0.013l0.113-33.251l3.658,0.013l14.703,19.906
+			c2.507,3.381,4.918,6.856,4.965,6.856H233c0.049,0-0.077-4.465-0.062-9.215l0.06-17.48L236.893,47.566z"/>
+		<path fill="#FFFFFF" d="M245.62,80.847l0.113-33.25l3.895,0.013l-0.113,33.25L245.62,80.847z"/>
+		<path fill="#FFFFFF" d="M285.727,47.732l-0.113,33.25l-3.656-0.012l-14.706-19.953c-2.836-3.952-4.915-7-4.965-7h-0.046
+			c-0.047,0,0.081,4.133,0.062,9.453l-0.059,17.433l-3.896-0.014l0.114-33.25l3.656,0.013l14.705,19.906
+			c2.506,3.38,4.916,6.855,4.963,6.855l0.049,0.001c0.047,0-0.08-4.465-0.064-9.215l0.061-17.48L285.727,47.732z"/>
+		<path fill="#FFFFFF" d="M314.956,72.391l-16.672-0.057l-3.735,8.68l-4.179-0.015l14.553-33.201l3.562,0.013l14.326,33.299
+			l-4.18-0.014L314.956,72.391z M313.495,68.918l-5.229-12.368c-0.707-1.712-1.508-4.043-1.555-4.043h-0.047
+			c-0.049,0-0.863,2.324-1.582,4.032l-5.313,12.332L313.495,68.918z"/>
+		<path fill="#FFFFFF" d="M344.984,57.15c-0.699-4.04-4.157-6.475-8.29-6.489c-4.371-0.015-7.465,2.065-7.476,5.391
+			c-0.013,3.657,4.591,4.812,9.002,6.158c4.651,1.393,10.961,3.504,10.938,9.965c-0.019,5.605-4.876,9.673-12.192,9.648
+			c-7.125-0.024-11.622-4.22-12.648-9.828l3.756-0.985c0.461,3.85,3.633,7.28,9.047,7.299c4.941,0.017,7.942-2.586,7.954-6.053
+			c0.017-4.846-5.728-5.862-10.426-7.351c-3.795-1.2-9.395-2.93-9.375-8.678c0.018-5.177,4.924-9.009,11.574-8.985
+			c6.033,0.021,10.771,3.6,11.844,8.923L344.984,57.15z"/>
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M104.818,3.552l-0.041,11.85l14.951,0.051l-0.013,3.7l-14.951-0.051l-0.053,15.601l-4.101-0.014
+			l0.12-35.001l22.85,0.078l-0.013,3.85L104.818,3.552z"/>
+		<path fill="#FFFFFF" d="M129.811,34.789l0.119-35.001l4.1,0.014l-0.119,35.001L129.811,34.789z"/>
+		<path fill="#FFFFFF" d="M172.032-0.069l-0.12,35.001l-3.85-0.013l-15.481-21.004c-2.986-4.161-5.174-7.368-5.225-7.368l-0.051,0
+			c-0.049,0,0.087,4.351,0.068,9.951l-0.062,18.352l-4.102-0.015l0.119-35.002l3.852,0.014L162.66,20.8
+			c2.638,3.559,5.177,7.218,5.226,7.218l0.051,0c0.049,0-0.084-4.701-0.067-9.701l0.063-18.401L172.032-0.069z"/>
+		<path fill="#FFFFFF" d="M202.793,25.888l-17.552-0.06l-3.931,9.137l-4.4-0.015L192.231,0l3.75,0.013l15.081,35.054l-4.4-0.015
+			L202.793,25.888z M201.254,22.232L195.75,9.212c-0.743-1.802-1.587-4.255-1.636-4.255h-0.051c-0.051,0-0.908,2.447-1.664,4.244
+			l-5.596,12.982L201.254,22.232z"/>
+		<path fill="#FFFFFF" d="M244.881,0.18l-0.12,35.001l-3.85-0.013l-15.479-21.004c-2.985-4.161-5.176-7.368-5.225-7.368l-0.051,0
+			c-0.049,0,0.085,4.351,0.066,9.951l-0.062,18.351l-4.1-0.014l0.118-35.002l3.85,0.013l15.482,20.954
+			c2.636,3.559,5.175,7.218,5.225,7.218l0.05,0c0.051,0-0.084-4.701-0.067-9.701l0.063-18.401L244.881,0.18z"/>
+		<path fill="#FFFFFF" d="M312.593,26.262l-17.553-0.06l-3.93,9.137l-4.4-0.015l15.318-34.95l3.752,0.013l15.08,35.054l-4.398-0.016
+			L312.593,26.262z M311.054,22.606l-5.506-13.02c-0.744-1.803-1.585-4.256-1.636-4.256h-0.049c-0.051,0-0.909,2.447-1.665,4.244
+			l-5.596,12.982L311.054,22.606z"/>
+		<path fill="#FFFFFF" d="M344.197,10.218c-0.735-4.252-4.377-6.815-8.727-6.83c-4.6-0.016-7.857,2.173-7.869,5.674
+			c-0.013,3.85,4.832,5.066,9.478,6.482c4.896,1.467,11.538,3.689,11.516,10.49c-0.021,5.899-5.135,10.183-12.836,10.157
+			c-7.5-0.026-12.234-4.442-13.316-10.347l3.955-1.037c0.486,4.052,3.823,7.664,9.524,7.684c5.199,0.018,8.358-2.722,8.372-6.372
+			c0.018-5.101-6.03-6.171-10.974-7.738c-3.996-1.263-9.891-3.084-9.87-9.134c0.02-5.45,5.183-9.483,12.183-9.459
+			c6.35,0.021,11.337,3.789,12.468,9.393L344.197,10.218z"/>
+		<path fill="#FFFFFF" d="M285.895,25.821l-4.047-1.114c-2.014,3.821-5.841,6.461-10.325,7.071l0.012-3.426l-3.611-0.012
+			l-0.012,3.488c-7.079-0.729-12.367-6.231-12.341-14.111c0.029-8.45,5.998-14.181,14-14.153c4.9,0.017,9.341,2.433,11.729,6.291
+			l4.153-1.036c-3.131-5.611-9.02-9.231-15.868-9.255c-10.051-0.034-18.179,7.589-18.215,18.139
+			c-0.033,9.997,7.219,17.403,16.528,18.183l-0.011,3.079l3.611,0.012l0.011-3.122C277.908,35.201,283.253,31.422,285.895,25.821z"/>
+	</g>
+</svg>
+		</div>
+		<div class="col l9 s12">
+			<p>Finanças Femininas não recomenda produtos financeiros e não assessora suas leitoras na escolha de investimentos.</p>
+			<p>As decisões tomadas com base em matérias do Finanças Femininas são de responsabilidade exclusiva das leitoras.</p>
+			<p class="copy">2017 &copy; Todos os direitos Finanças Femininas.<a title="Powered by ELAV" target="_blank" class="elav-logo" href="http://www.elav.com.br/?source=financasfemininas"><img src="http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/images/elav-logo.png"></a></p>
+		</div>
+	</div>
+</div>
+
+		</footer>
+
+		<div id="menu-modal" class="modal"></div>
+
+		
+<section id="share-modal" class="modal fm-modal">
+		<article class="modal-content">
+
+			<h1 class="l-title">Compartilhe</h1>
+
+			<div class="form-wrapper">
+				<form class="form-share-email" action="" method="post" accept-charset="utf-8">
+
+					<h2 class="m-title">Email de quem vai receber o conteúdo</h2>
+
+					<div class="relative">
+						<div class="input-field">
+							<input type="text" name="email_dest" />
+							<label for="email_dest" class="unselectable no-events">Email<small>*</small></label>
+							<p><small>Exemplo: nome@exemplo.com. Para enviar para mais de uma pessoa, separe os endereços por vírgulas.</small></p>
+						</div>
+					</div>
+
+					<h2 class="m-title hr">Suas informações</h2>
+
+					<div class="relative">
+						<div class="input-field">
+							<input type="text" name="nome" minlength="3" />
+							<label for="nome" class="unselectable no-events" >Nome<small>*</small></label>
+						</div>
+					</div>
+
+					<div class="relative">
+						<div class="input-field">
+							<input type="email" name="email_remet" />
+							<label for="email_remet" class="unselectable no-events">Email<small>*</small></label>
+						</div>
+					</div>
+
+					<div class="relative row clearfix">
+						<div class="input-field col s12">
+							<textarea id="textarea1" class="materialize-textarea" name="comentarios"></textarea>
+							<label for="textarea1">Comentários</label>
+						</div>
+					</div>
+					<p><small>Os comentários serão incluídos na mensagem.</small></p>
+					<div class="relative row">
+						<div class="input-field">
+							<input class="g-recaptcha btn" type="submit" data-sitekey="6LeSQREUAAAAALflWSLtu4G46RGBMjt5RKdvMaOu" data-callback="ShareEmailCbFn" value="Enviar" />
+						</div>
+					</div>
+
+				</form>
+			</div>
+
+		</article>
+	</div>
+</section>
+		
+<section id="single-errors" class="modal fm-modal">
+		<article class="modal-content">
+
+			<h1 class="l-title l-title-m">Comunicar erros</h1>
+
+			<div class="form-wrapper">
+				<form class="form-single-errors" id="form-single-errors" method="post" accept-charset="utf-8">
+
+					<p><small>Para comunicar erros nos textos publicados por Finanças Femininas, preencha os dados abaixo e clique em Enviar. Campos marcados com asteriscos são obrigatórios.</small></p>
+
+					<h2 class="m-title m-title-m hr">Informações</h2>
+
+					<div class="relative">
+						<div class="input-field">
+							<select name="motivo">
+								<option value="" disabled selected>Motivo</option>
+								<option>Erro de gramática/ortografia</option>
+								<option>Erro na informação</option>
+								<option>Críticas</option>
+								<option>Elogios</option>
+								<option>Sugestão de pauta</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="relative">
+						<div class="input-field">
+							<input type="text" name="nome" minlength="3" />
+							<label for="nome" class="unselectable no-events" >Nome<small>*</small></label>
+						</div>
+					</div>
+
+					<div class="relative">
+						<div class="input-field">
+							<input type="email" name="email" />
+							<label for="email" class="unselectable no-events">Email<small>*</small></label>
+						</div>
+					</div>
+
+					<div class="relative row clearfix">
+						<div class="input-field col s12">
+							<textarea id="textarea1" class="materialize-textarea" name="comentarios"></textarea>
+							<label for="textarea1">Comentários<small>*</small></label>
+						</div>
+					</div>
+
+					<div class="relative row">
+						<div class="input-field">
+							<input class="btn" type="submit" value="Enviar" />
+						</div>
+					</div>
+
+				</form>
+			</div>
+
+
+		</article>
+	</div>
+</section>
+		
+<div class="flash-messages">
+    <div class="container no-padding-mobile">
+        <div class="row">
+            <div class="col l8 offset-l2 s12">
+            	<div class="message"><span></span><i class="material-icons l-24 unselectable fechar" title="Fechar">close</i></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+		<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js?ver=1'></script>
+<script type='text/javascript' defer="defer" src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js?ver=1'></script>
+<script type='text/javascript' async="async" src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js?ver=1'></script>
+<script type='text/javascript' async="async" src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js?ver=1'></script>
+<script type='text/javascript' defer="defer" src='http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/js/plugins.min.js?ver=1490203263732'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var elav_ajax = {"ajax_url":"http:\/\/financasfemininas.uol.com.br\/site\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' defer="defer" src='http://financasfemininas.uol.com.br/site/wp-content/themes/financas-femininas/js/main.min.js?ver=1490203263732'></script>
+<script type='text/javascript' async="async" src='http://financasfemininas.uol.com.br/site/wp-includes/js/wp-embed.min.js?ver=4.5.3'></script>
+
+		<script id="dsq-count-scr" src="//financasfemininasdev.disqus.com/count.js" async></script>
+		<script src="//tm.uol.com.br/h/par/parceiros.js"></script>
+		<script type="text
