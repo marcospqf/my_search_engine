@@ -1,0 +1,3485 @@
+|||http://g1.com/Support/|
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="site_section" content="Customer Services" />
+	<title>Pitney Bowes Software Technical Services | Pitney Bowes Software</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="/styles/global.css" />
+	<!--[if gt IE 5]>
+		<link rel="stylesheet" type="text/css" media="screen" href="/styles/ie6.css" />
+	<![endif]-->
+	<link rel="stylesheet" href="/styles/featured.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/styles/forms.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/styles/support.css" type="text/css" media="screen" />	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/Support/plugins/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/Support/Include/Javascript/global_notify.js"></script>
+	<style type="text/css">
+		#notification {padding:8px 35px 8px 14px;margin-bottom:18px;text-shadow:0 1px 0 rgba(255,255,255,.5);background-color:#9c0;border:1px solid #86b200;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+	    #notification {background-color: #EEDC94; background-repeat: repeat-x;}
+	</style>	
+</head>
+<body id="custSrvcs">
+	<div id="page">
+		<div id="innerWrap">
+			<script type="text/javascript">
+  // <![CDATA[ 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<scr"+"ipt src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-238030-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+ // ]]>
+</script>
+<img src="http://content.pbinsight.com/static/cssimages/global/logo.gif" width="180px" height="48px" class="printOnly" alt="Pitney Bowes Software" />		
+		<ul id="accessOptions">
+			<li><a href="#content">Skip to Content</a></li>
+			<li><a href="#mainSearch">Skip to Search</a></li>			
+			<li><a href="#topNav">Skip to Primary Navigation</a></li>				
+			<li><a href="#leftNav">Skip to Customer Services Navigation</a></li>							
+		</ul>
+		<hr />
+		<div id="header">
+			<h1 id="logo"><a href="/" title="Pitney Bowes Software Home Page" rel="home">Pitney Bowes Software</a></h1>
+			<ul id="mainLinks">
+				<li><a href="/Support/Contact/" class="envelope" title="Contact customer support">Contact Us</a></li>
+				<li><a href="/Support/login.asp" class="key" title="Log in to customer support site">Customer Login</a></li>				
+			</ul>
+			<form id="mainSearch" action="http://search.g1.com/search" method="get">
+				<fieldset>
+					<input name="sort" value="date:D:L:d1" type="hidden" />
+					<input name="output" value="xml_no_dtd" type="hidden" />
+					<input name="oe" value="UTF-8" type="hidden" />
+					<input name="ie" value="UTF-8" type="hidden" />
+					<input name="client" value="default_frontend" type="hidden" />
+					<input name="proxystylesheet" value="default_frontend" type="hidden" />
+					<input name="site" value="default_collection" type="hidden" />		
+					<label for="keywordSearch"><a href="http://search.g1.com" title="Search" class="magnify">Search</a><input type="text" id="keywordSearch" name="q" /></label>
+					<input type="submit" id="submitMainSearch" value="Go" />
+				</fieldset>
+			</form>
+			<div class="clearB clearer"></div>			
+		</div><!--End Header-->
+		<ul id="topNav"> 
+        	<li id="support" class="current"><a href="/support/">Support</a></li> 
+    	</ul> 
+		<div class="border"></div>
+		<hr />
+			<div id="leftNav">
+				<ul id="level1">
+					<li class="section_lead"><a href="/CustomerServices/">Customer Services</a></li>
+					<li id="section">
+						<!-- <a href="/CustomerServices/">Customer Services</a> -->
+						<ul id="level2">
+							<li id="current">Technical Services
+							
+								<ul id="level3">
+									<li><a class="unavailable" href="/Support/Products/">My Products</a></li>
+									<li><a href="http://www.g1.com/docs/LICASSIST.ZIP" class="newwin popup zip">License Assist Utility for US Geocoding - Centrus and MapMarker USA</a></li>
+									<li><a class="unavailable" href="/Support/Docs/">My Documentation</a></li>
+									<li><a class="unavailable dbtreeview" href="/Support/Products/dpvlacsnav.asp">DPV &amp; LACS<sup>Link</sup> False-Positive</a></li>
+									<li><a href="/Support/SRD/">Special Request Downloads</a></li>
+									<li><a class="offsite popup" href="http://www.pbsoftwareforum.com">Discussion Forums</a></li>
+									<li><a href="/Support/Contact/">Contact Support</a></li>
+									<li><a href="/Support/Platform/">Supported Platforms</a></li>
+									<li><a href="/Support/Help/">Support Help</a></li>
+									<li><a class="unavailable" href="/Support/FTP/">FTP Access</a></li>
+									<li><a class="unavailable" href="/Support/Forms/">Online Forms</a></li>
+									<li><a href="/Support/online-case-management.asp">Online Case Management</a></li>
+									<li><a class="unavailable" href="/Support/Glossary/">Glossary</a></li>
+									<li><a href="http://www.pbinsight.com/blog/" class="newwin popup" title="Link opens in new window">PBS Blog</a></li>
+									<li><a href="/Email/">List Services</a></li>									
+									<li><a class="unavailable" href="/Support/Contact/ContactInfoForm.asp?updovr=y">Update Contact Info</a></li>
+									
+								</ul>
+							
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- googleoff: index --><p id="salesRep"><a href="/About/Contact/ContactSales.asp">Contact a sales rep</a></p><!-- googleon: index -->
+			</div><!--End Left Navigation-->			
+			<hr />
+			<div id="main">
+				<div id="content">
+					<ul id="breadcrumbs">
+						<li class="level1"><a href="/" rel="home">Home</a></li>
+						<li><a href="/CustomerServices/">Customer Services</a></li>
+						<li>Technical Services</li>
+					</ul><!--End Breadcrumbs-->
+					<div id="featured">
+						<div class="specialFeature">
+							<h3>Useful Information</h3>
+								
+							<p><a href="/Support/UIDAdmin/SendID.asp" title="Have your UserID and Password sent to you via email">Do you need your User ID and password?</a></p>
+							
+							<h4>Technical Support Phone Menu</h4>
+							<p>Need to call Technical Support?</p>
+							<p>Use our <a href="/Support/getfile.asp?fn=PhoneMenu.pdf&amp;type=doc" class="pdf popup">Support Phone Menu</a> for reference.</p>
+						</div>
+						
+					</div>
+					
+					<h2 id="mainHeading">Pitney Bowes Software Technical Services</h2>
+					
+					
+								<div class="userMessage withRightFloat alert">
+								<p>You're not yet authenticated. Please authenticate yourself using the form below. Unavailable items are <span class="unavailable">greyed out</span>. </p><p><em>* Both fields are required.</em></p>
+								<form id="supportLogin" action="/Support/login.asp" method="post">
+									<fieldset id="authInfo" class="plain">
+										<label for="uid" class="required alert">* User ID: <input type="text" name="uid" id="uid" tabindex="1" class="required" /></label>
+										<label for="pwd" class="required alert">* Password: <input type="password" name="pwd" id="pwd" tabindex="2" class="required" /></label>
+								
+										<!--<label for="ovrByPass" class="clearL">Override Contact Information Check: <input type="checkbox" id="ovrByPass" name="ovrByPass" class="checkbox" checked="checked" tabindex="3" /></label>-->
+									
+									</fieldset>
+									<fieldset class="plain button">
+										<input type="submit" value="Login" id="submit" tabindex="4" />
+									</fieldset>
+								</form>							
+								</div>
+							
+
+					    <div class="clearer clearL""></div>
+						<dl id="mainMenu">
+							<dt><a class="unavailable" href="/Support/Products/">My Products</a></dt>
+							<dd>Detailed information including software components, databases, product updates, license files, related documentation and more.</dd>	
+								
+							<dt><a href="http://www.g1.com/docs/LICASSIST.ZIP" title="Open ZIP in New Window" class="newwin popup zip">License Assist Utility for US Geocoding - Centrus and MapMarker USA</a></dt>
+							<dd>This utility provides a file containing environmental information for use in generating a license file for Centrus products and MapMarker.</dd>
+							
+							<dt><a class="unavailable" href="/Support/Docs/">Documentation</a></dt>
+							<dd>Users manuals, release notes, installation instructions and more.</dd>
+	
+							<dt><a class="unavailable" href="/Support/Products/dpvlacsnav.asp">DPV &amp; LACS<sup>Link</sup> False-Positive (Seed Violation) Recovery</a></dt>
+							<dd>Use this page to locate the appropriate links to retrieve your replacement DPV&trade; and LACS<sup>Link</sup>&trade; license key files.</dd>	
+	
+							<dt><a href="/Support/SRD/">Special Request Downloads</a></dt>
+							<dd>This area is for our customers who have been given a special download code by a technical support representative.</dd>
+						
+							<dt><a class="offsite popup" href="http://www.pbsoftwareforum.com">Online Discussion Forums</a></dt>
+							<dd>We’ve updated our discussion forums. If you're looking for a place to talk with other Pitney Bowes Software customers, ask each other questions or share ideas &mdash; then this is the place to be. While Pitney Bowes Software does monitor these forums, they should not be used as a technical support option. If you are seeking technical support, please use our  <a href="/Support/online-case-management.asp" class="eservice unavailable">Online Case Management</a> feature.</dd>
+							
+							<dt><a class="unavailable" href="/Support/Contact/">Contact Information</a></dt>
+							<dd>Need to get in touch with someone in Technical Services? Use this page as a handy reference for contacting the various departments in Pitney Bowes Software&rsquo;s Technical Services division.  Most entries include an email address, phone number, and a fax number.</dd>
+							
+							<dt><a href="/Support/Platform/" title="Supported Platforms" >Supported Platforms</a></dt>
+							<dd>A listing of the supported platforms and operating systems our products support along with available delivery media.</dd>
+							
+							<dt><a class="unavailable" href="Help/">Support Site Help</a></dt>
+							<dd>Answers to your questions regarding this section of the web site.</dd>			
+							
+							<dt><a class="unavailable" href="/Support/FTP/"><abbr title="File Transfer Protocol">FTP</abbr> Access</a></dt>
+							<dd>Share files with Pitney Bowes Software using FTP. The FTP server is located at supportftp.g1.com for direct login with existing accounts.</dd>
+				
+							<dt><a class="unavailable" href="/Support/Forms/">Online Forms</a></dt>
+							<dd>Many of the forms that you need are conveniently located right here. Need additional hardcopy documentation? Perhaps you want to suggest a product enhancement request. Simply complete the form that meets your needs and we'll respond as soon as possible.</dd>
+				
+							<dt><a href="/Support/online-case-management.asp">Online Case Management</a></dt>
+							<dd>The new Online Case Management System provides similar functionality as the previous eService system but allows us more flexibility to provide a much richer online experience.</dd>
+							<dd> 
+								<div id="notification" class="userMessage">
+									<h3>If you are in Canada</h3>
+									<p>The enhanced online experience is now live! Select the appropriate Canadian "Sign in here" from <a href="http://www.pitneybowes.com/softwaresupport">www.pitneybowes.com/softwaresupport</a> to access the new enhanced online experience.</p>
+									<p>Previous users of our Online Case Management tool in Canada should use the above link to register for a new account. Your previous Online Case Management credentials are not valid in the new enhanced online experience.</p>
+									<h3>Everyone outside of Canada</h3>
+									<p>All other clients will continue to login to the OCMS below. Our evolution to the enhanced online experience is a global rollout that will occur throughout 2016, therefore, clients may not have all products available until all geographies are live.</p>
+									<p><a href="https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000KkyB&portalId=060800000006CN4">https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000KkyB&portalId=060800000006CN4</a></p>
+								</div>
+							</dd>
+														
+							<dt><a class="unavailable" href="/Support/Glossary/" title="Glossaries">Glossaries</a></dt>
+							<dd>Glossaries of terms and definitions related to our products.</dd>
+						
+							<dt><a href="http://www.pbinsight.com/blog/" title="Pitney Bowes Software Blog (New Window)" onclick="window.open(this.href,'newwin'); return false;" class="newwin">PBS Blog</a></dt>
+							<dd>An online resource for Pitney Bowes Software's leadership to share innovations, goals, and product/solution news and roadmaps, as well as exchange ideas with visitors. (<strong><a href="login.asp">Log in</a> first to unlock customer-only features!</strong>)</dd>
+				
+							<dt><a href="/Email/">List Services</a></dt>
+							<dd>Use our List Services system to manage your Pitney Bowes Software email newsletter and other email based communications.</dd>
+						
+							<dt><a class="unavailable" href="/Support/Contact/ContactInfoForm.asp?updovr=y">Update Contact Info</a></dt>
+							<dd>Use this link to request updates to your Contact profile. Your request will be processed by an associate and should appear on your Contact profile shortly.</dd>
+							
+						
+						</dl>		
+				
+					<div class="clearer clearB"></div>
+					<ul id="altPage">
+						<li><a href="/Help/TellAFriend.asp" class="envelope">Tell a Friend</a></li>
+					</ul>
+					<div class="clearer clearR"></div>
+				</div><!--End Content-->		
+			</div><!--End Main-->				
+			<div class="clearer clearL"></div>
+		</div><!--End Inner Wrap -->		
+	</div><!--End Page-->
+	<hr />	
+	<div id="footer">
+		<ul id="bottomNav">
+			<li><a href="/Support/Contact/">Contact Us</a></li>
+			<li class="lastItem"><a href="#page" accesskey="t">Back to Top</a></li>			
+		</ul>
+		<p id="copy">&copy; 2017 Pitney Bowes. All rights reserved. Additional <a href="/Help/Copyright.asp">trademark</a>, <a href="/Help/Copyright.asp">copyright</a> and <a href="/Help/Privacy.asp">privacy</a> information is available.</p>
+	</div><!--End Footer-->
+</body>
+</html>|||http://t.co/8xk1u9pmIt|<head><meta name="referrer" content="always"><noscript><META http-equiv="refresh" content="0;URL=http://www.redeglobo.com.br"></noscript><title>http://www.redeglobo.com.br</title></head><script>window.opener = null; location.replace("http:\/\/www.redeglobo.com.br")</script>|||https://aprenda.vagalume.com.br/|<!DOCTYPE html>
+
+<html ng-app=aprendaApp>
+<head>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<meta name=viewport content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<meta http-equiv=Default-Style content=web>
+<base href="/">
+<title data-ng-bind="pageTitle">VAGALUME Aprenda</title>
+<link rel=canonical href="http://aprenda.vagalume.com.br/">
+<meta name=description content="Aprenda ingl&ecirc;s e outros idiomas brincando com as letras de m&uacute;sicas no Vagalume" />
+<meta property="og:title" content="VAGALUME Aprenda" />
+<meta property="og:description" content="Aprenda ingl&ecirc;s e outros idiomas brincando com as letras de m&uacute;sicas no Vagalume" />
+<meta property="og:image" content="https://s1.vagalume.com/images/aprenda/aprenda-fb-share.png" />
+<meta property="og:url" content="https://aprenda.vagalume.com.br/">
+<meta property="og:type" content=website />
+<meta property="og:site_name" content=Vagalume />
+<meta property="fb:app_id" content=324474348807 />
+<link rel=stylesheet type="text/css" href="//www.vagalume.com.br/css/frameworks/bootstrap/3.3.2/bootstrap.min.css">
+<link rel=stylesheet type="text/css" href="/css/web/aprenda.css?vtag=_201703091215">
+<link rel=stylesheet type="text/css" href="//www.vagalume.com.br/css/header_default.css">		
+
+</head>
+<body data-ng-controller=BodyController ng-class="{'bgGray': bgGray}">
+<script src="//www.vagalume.com.br/js/r7bar.js"></script>
+<div class="header-aprenda" control-topbar data-ng-controller=HeadController style="display: none;">
+<nav id=topbar>
+<div class="middle-content" style="margin: 0px 20px;">
+<a class=back href="//www.vagalume.com.br" title="Voltar para o Vagalume"></a><a class=validAnc href="//aprenda.vagalume.com.br/"><img class=sLogo src="https://s1.vagalume.com/images/aprenda/desktop-logo.png" width=230 height=70 /></a><ul id=menu>
+<li ng-class="{'active': pageActive == 'rules'}"><a href="/regras/">Regras</a></li>
+</ul>
+<user-info></user-info>
+<label ng-class="{'opened': showUserMenu, 'notLogged': !loggerUser}" class=suggest data-suggest-type=mus data-suggest-buttonPlay=0 data-suggest-seeAll=0 data-suggest-limit=10>
+<input ng-focus="suggestFocus()" ng-blur="suggestBlur()" ng-class="{'focus': inputFocus}" type=text placeholder="Qual m&uacute;sica voc&ecirc; quer aprender?"/>
+<button type=submit>Buscar</button>
+</label>
+</div>
+</nav>
+</div>
+<div id=view ui-view><div id=home-header>
+<div class=center-content-block id=home-header-logo>
+<a class="return laquo" href="//www.vagalume.com.br"> Voltar para o Vagalume</a><br/>
+<img class=logo src="https://s1.vagalume.com/images/aprenda/desktoplogo-big.png">
+<h2><b class=aprenda>Aprenda</b> outro idioma brincando no <b>Vagalume</b></h2>
+</div>
+<div class=center-content-block id=home-suggest>
+<label class=suggest data-suggest-type=mus data-suggest-buttonPlay=0 data-suggest-seeAll=0 data-suggest-limit=10>
+<input placeholder="Qual m&uacute;sica voc&ecirc; quer jogar?" type=text/>
+<button></button>
+</label>
+<a class="btn-smartphone appstore hvr-shutter-in-horizontal" target=_blank href="https://itunes.apple.com/br/app/vagalume/id1006839790?ct=HomeAprendaWeb"></a>
+<a class="btn-smartphone googleplay" target=_blank href="https://play.google.com/store/apps/details?id=br.com.vagalume.aprenda&referrer=utm_source%3DHomeAprenda%26utm_medium%3DBanner%26utm_content%3DWeb%26utm_campaign%3DAprenda%26anid%3Dadmob"></a>
+</div>
+<ul id=home-lang>
+<a href="//aprenda.vagalume.com.br/portugues/"><li class="br hvr-bounce-out">Aprenda <b>Portugu&ecirc;s</b></li></a>
+<a href="//aprenda.vagalume.com.br/ingles/"><li class="en hvr-bounce-out">Aprenda <b>Ingl&ecirc;s</b></li></a>
+<a href="//aprenda.vagalume.com.br/espanhol/"><li class="es hvr-bounce-out">Aprenda <b>Espanhol</b></li></a>
+<a href="//aprenda.vagalume.com.br/alemao/"><li class="ge hvr-bounce-out">Aprenda <b>Alem&atilde;o</b></li></a>
+<a href="//aprenda.vagalume.com.br/frances/"><li class="fr hvr-bounce-out">Aprenda <b>Franc&ecirc;s</b></li></a>
+<li class=last><a class="btn random" data-ng-click="goRandom()">Jogar Aleat&oacute;rio</a></li>
+</ul>
+<br class=clear/>
+</div>
+<div id=home-rank class=center-content-block data-ng-class="{'visible':(hotspot.ready == 3)}">
+<div class=col id=home-top>
+<h1 data-text="Top M&uacute;sicas">Top M&uacute;sicas</h1>
+<div class=options>
+<label>
+<select id=songGroupList>
+<option value=all>Geral</option>
+<option value=lyrics>Letras</option>
+<option value=translations>Tradu&ccedil;&otilde;es</option>
+</select>
+</label>
+<label>
+<select id=monthYearOptions>
+<option value="day/20170328">Hoje</option>
+<option value="day/20170327">Ontem</option>
+<option value="week/201712">Semana</option>
+<option value="month/201703">Mar'17</option>
+<option value="month/201702">Fev'17</option>
+<option value="month/201701">Jan'17</option>
+<option value="month/201612">Dez'16</option>
+</select>
+</label>
+</div>
+<ol data-ng-show="!hotspot.topSongTemplate">
+<li data-index="0">
+<a href="https://www.vagalume.com.br/haikaiss/rap-lord.html">
+Rap Lord<b>Haikaiss</b>
+</a>
+</li>
+<li data-index="1">
+<a href="https://www.vagalume.com.br/ana-vilela/trem-bala.html">
+Trem Bala<b>Ana Vilela</b>
+</a>
+</li>
+<li data-index="2">
+<a href="https://www.vagalume.com.br/henrique-e-juliano/aquela-pessoa.html">
+Aquela Pessoa<b>Henrique e Juliano</b>
+</a>
+</li>
+<li data-index="3">
+<a href="https://www.vagalume.com.br/thiago-matheus/eu-nao-quero-casar.html">
+Eu Não Quero Casar<b>Thiago Matheus</b>
+</a>
+</li>
+<li data-index="4">
+<a href="https://www.vagalume.com.br/ney-alves/kakaka.html">
+Kakaka<b>Ney Alves</b>
+</a>
+</li>
+<li data-index="5">
+<a href="https://www.vagalume.com.br/henrique-e-juliano/vidinha-de-balada.html">
+Vidinha de Balada<b>Henrique e Juliano</b>
+</a>
+</li>
+<li data-index="6">
+<a href="https://www.vagalume.com.br/ed-sheeran/shape-of-you.html">
+Shape Of You<b>Ed Sheeran</b>
+</a>
+</li>
+<li data-index="7">
+<a href="https://www.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html">
+Shape Of You (tradução)<b>Ed Sheeran</b>
+</a>
+</li>
+<li data-index="8">
+<a href="https://www.vagalume.com.br/henrique-e-juliano/o-ceu-explica-tudo.html">
+O Céu Explica Tudo<b>Henrique e Juliano</b>
+</a>
+</li>
+<li data-index="9">
+<a href="https://www.vagalume.com.br/haikaiss-11/rap-lord.html">
+Rap Lord<b>Haikaiss'</b>
+</a>
+</li>
+</ol>
+<ol data-ng-show="hotspot.topSongTemplate" data-ng-include="hotspot.topSongTemplate"></ol>
+</div>
+<div class=col id=home-hot>
+<h1 data-text="&Uacute;ltimos Hot Spots">&Uacute;ltimos Hot Spots</h1>
+<ul data-ng-show="!hotspot.hotSongTemplate">
+<li>
+<div>
+<a href="/brooke-candy/living-out-loud-feat-sia.html">Living Out Loud (Feat. Sia)</a>
+<b>Brooke Candy ft. Sia</b>
+</div>
+<a href="/brooke-candy/living-out-loud-feat-sia.html">
+<img src="https://s2.vagalume.com/brooke-candy/images/119712.jpg"><br class=clear />
+<var class="btn-vgl"></var>
+</a>
+</li>
+<li>
+<div>
+<a href="/prince-royce/deja-vu-feat-shakira.html">Deja Vu (Feat. Shakira)</a>
+<b>Prince Royce ft. Shakira</b>
+</div>
+<a href="/prince-royce/deja-vu-feat-shakira.html">
+<img src="https://s2.vagalume.com/prince-royce/images/119694.jpg"><br class=clear />
+<var class="btn-vgl"></var>
+</a>
+</li>
+<li>
+<div>
+<a href="/all-time-low/last-young-renegade.html">Last Young Renegade</a>
+<b>All Time Low</b>
+</div>
+<a href="/all-time-low/last-young-renegade.html">
+<img src="https://s2.vagalume.com/all-time-low/images/119690.jpg"><br class=clear />
+<var class="btn-vgl"></var>
+</a>
+</li>
+<li>
+<div>
+<a href="/iggy-azalea/mo-bounce.html">MO Bounce</a>
+<b>Iggy Azalea</b>
+</div>
+<a href="/iggy-azalea/mo-bounce.html">
+<img src="https://s2.vagalume.com/iggy-azalea/images/119677.jpg"><br class=clear />
+<var class="btn-vgl"></var>
+</a>
+</li>
+<li>
+<div>
+<a href="/zayn/still-got-time-feat-partynextdoor.html">Still Got Time (Feat. Partynextdoor)</a>
+<b>ZAYN</b>
+</div>
+<a href="/zayn/still-got-time-feat-partynextdoor.html">
+<img src="https://s2.vagalume.com/zayn/images/117397.jpg"><br class=clear />
+<var class="btn-vgl"></var>
+</a>
+</li>
+</lu>
+<ul data-ng-show="hotspot.hotSongTemplate" data-ng-include="hotspot.hotSongTemplate"></lu>
+</div>
+<br class=clear>
+</div>
+<div id=home-mode>
+<ul>
+<li class=video>
+<b>V&Iacute;DEO</b>
+<p>Cante junto com a m&uacute;sica e preencha as lacunas com as palavras certas.</p>
+</li>
+<li class=text>
+<b>LETRA</b>
+<p>Aprenda ingl&ecirc;s (ou outro idioma) traduzindo os trechos das m&uacute;sicas.</p>
+</li>
+<li class=random>
+<b>ALEAT&Oacute;RIO</b>
+<p>N&atilde;o sabe por onde come&ccedil;ar? Clique no bot&atilde;o aleat&oacute;rio e n&oacute;s buscamos uma m&uacute;sica.</p>
+</li>
+</ul>
+<br class=clear>
+</div>
+<div id=home-footer>
+<button class="btn random" data-ng-click="goRandom()">Jogar Aleat&oacute;rio</button>
+<p class=signUp>N&atilde;o tenho perfil, <a class=register data-ng-click="openRegisterModal()"> cadastre-se.</a></p>
+</div>
+</div>
+</body>
+<script type="text/javascript" src="//www.youtube.com/iframe_api"></script>
+<script type="text/javascript" src="//connect.facebook.net/pt_BR/all.js"></script>
+<script type="text/javascript" src="//www.vagalume.com.br/js/aprenda-web_201703091215.bundle.js"></script>
+</html>
+|||https://www.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html|<!DOCTYPE html>
+<html class="page-letra" lang="pt" prefix="og: https://ogp.me/ns#">
+<head>
+<title>Shape Of You (tradução) - Ed Sheeran - VAGALUME</title>
+<link rel=dns-prefetch href="https://s1.vagalume.com"/><link rel=dns-prefetch href="https://s2.vagalume.com"/><link rel=dns-prefetch href="//suggest.vagalume.com.br"/>
+<link rel=dns-prefetch href="//app2.vagalume.com.br"/><meta http-equiv=content-type content="text/html; charset=UTF-8">
+<meta name=language content=pt-br>
+<link rel="alternate" media="only screen and (max-width: 640px)" href='//m.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html'><link rel="amphtml" href="https://m.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html.amp"><link rel=canonical href="https://www.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html">
+<meta name=description content="Ed Sheeran - Shape Of You (tradução) (música para ouvir e letra da música com legenda em português)! Girl, you know I want your love / Your love was handmade for somebody like me / Come on now, follow my lead / I may be crazy, don&#039;t mind me" />
+<meta name=pagetype content="letra">
+<meta property="og:title" content="Ed Sheeran - Shape Of You (tradução)">
+<meta property="og:type" content="vagalume:song">
+<meta property="og:image" content="https://www.vagalume.com.br/ed-sheeran/images/profile-big.jpg">
+<meta property="og:description" content="PLAY » Girl, you know I want your love / Your love was handmade for somebody like me / Come on now, follow my lead / I may be crazy, don&#039;t mind me">
+<meta property=og:site_name content=Vagalume>
+<meta property=fb:app_id content=324474348807>
+<link rel=alternate href="ios-app://528755787/ios.vagalume/www.vagalume.com.br/ed-sheeran/shape-of-you-traducao.html"/><link rel=alternate href="android-app://br.com.vagalume.android/vagalume/lyrics/ed-sheeran/shape-of-you-traducao/3ade68b8g9a06b0b3"/><link rel=search type=application/opensearchdescription+xml title=Vagalume href=/api/opensearch.xml>
+<link type=text/css rel=stylesheet href="/css/vgl2_201703091052.css"/>
+<link type=text/css rel=stylesheet href="/css/header_default_201703091052.css"/>
+<link type=text/css rel=stylesheet href="/css/artist_201703091052.css" />
+<!--[if lt IE 9]><script type=text/javascript src="/js/iefix.js"}"></script><![endif]-->
+<link rel="chrome-webstore-item" href="//chrome.google.com/webstore/detail/ipgcdnbeeiajinajlafjcdfhckglcopd">
+
+</head>
+<body class="general">
+<header>
+<div id=topo>
+<h1 class=logo><a href="/" id=logoTitle title=www.vagalume.com.br>Muito mais que s&oacute; letras de m&uacute;sicas</a></h1>
+<form method=get id=search action=/search.php>
+<label class="suggest" data-publish=1 data-suggest-placeholder="O que voc&ecirc; quer ouvir? Digite nome da m&uacute;sica, artista ou trecho">
+<input type=text name=q id=searchText maxlength=135 size=30 placeholder="O que voc&ecirc; quer ouvir?" autocomplete=off value="">
+<button type=submit>Buscar</button>
+</label>
+</form>
+<menu id=navbar>
+<li data-navbar=VagalumeMain><a href="/">Vagalume</a></li>
+<li data-navbar=Artists><a href="/browse/">A-Z</a></li>
+<li data-navbar=Songstyles><a href="/browse/style/">Estilos</a></li>
+<li data-navbar=Top100><a href="/top100/">Top 100</a></li>
+<li data-navbar=Playlists class=last><a href="/playlisteiros/">Playlists</a></li>
+<li data-navbar=Radio><a href="https://vagalume.fm/"><span class="vico newRadioMenu"></span>R&aacute;dio</a></li>
+<li data-navbar=Hotspots><a href="/browse/hotspots/">Hot Spots</a></li>
+<li data-navbar=News><a href="/news/">Not&iacute;cias</a></li>
+</menu>
+</div>
+
+</header>
+<div id=breadcrumb><a href="/" title="Letras de Músicas" itemprop=url itemscope itemtype="https://data-vocabulary.org/Breadcrumb"><span itemprop="title">Página Inicial</span></a><span itemscope itemtype="https://data-vocabulary.org/Breadcrumb" itemprop=child><a href="/browse/style/indie.html" itemprop=url ><span itemprop=title>Indie</span></a></span><span itemscope itemtype="https://data-vocabulary.org/Breadcrumb" itemprop=child><a href="/browse/e.html" itemprop=url  title="Veja outros artistas que começam com E"><span itemprop=title>E</span></a></span><span itemscope itemtype="https://data-vocabulary.org/Breadcrumb" itemprop=child><a href="/ed-sheeran/" itemprop=url  title="Veja mais sobre Ed Sheeran"><span itemprop=title>Ed Sheeran</span></a></span><span itemscope itemtype="https://data-vocabulary.org/Breadcrumb" itemprop=child><a href="/ed-sheeran/shape-of-you.html" itemprop=url  title="Versão original da letra"><span itemprop=title>Shape Of You</span></a></span><span>Tradução</span></div><div id=vagalume class="dyncletra" itemprop=byArtist itemscope itemtype=https://schema.org/MusicGroup>
+<span class=clean></span>
+<nav id=artistNav>
+<meta itemprop=url content="/ed-sheeran/">
+<h2 class=vArtV >
+<a href="/ed-sheeran/"><img class=photo itemprop=image width=190 height=224 src="https://s2.vagalume.com/ed-sheeran/images/ed-sheeran.jpg" alt="Ed Sheeran" />
+<em itemprop=name>Ed Sheeran</em>
+</a></h2>
+<menu id=artistMenu>
+<li class=fmlink><a href="https://vagalume.fm/" target="_blank">Rádio <b>Vagalume.FM</b></a></li>
+<li><a href="/ed-sheeran/">Letras</a></li><li><a href="/ed-sheeran/discografia/"><span>Discografia</span></a></li><li><a href="/ed-sheeran/fotos/">Fotos</a></li><li><a href="/ed-sheeran/biografia/">Biografia</a></li><li><a href="/ed-sheeran/popularidade/">Popularidade</a></li><li><a href="/ed-sheeran/relacionados/">Relacionados</a></li><li><a href="/ed-sheeran/news/">&Uacute;ltimas</a></li><li><a href="/ed-sheeran/agenda/">Agenda de Shows</a></li></menu>
+<div class=varbuttons>
+<var class="btn addData2">Enviar letras, fotos e mais</var>
+</div>
+<div id=followUs>
+<h6 data-text='Siga o Vagalume'>Siga o Vagalume</h6>
+<a class=relTwitter href="//twitter.com/sitevagalume" target=_blank title="Twitter">Twitter</a>
+<a class=relGoogle href="//google.com/+vagalume" target=_blank title="Google+">Google+</a>
+<a class=relYT href="//youtube.com/user/sitevagalume" target=_blank title="YouTube">YouTube</a>
+<a class=relTumblr href="//quotes.vagalume.com/" target=_blank title="Tumblr">Tumblr</a>
+<div id=likeBox></div>
+</div>
+</nav>
+<div id=header> 
+<h1 class="trad">
+Shape Of You</h1>
+<p>
+<a href="/ed-sheeran/">Ed Sheeran</a>
+</p>
+</p>
+</div>
+<div id=boxData class=close>
+<div id=artistAlbumData>
+<h6 data-text='Informa&ccedil;&otilde;es do &Aacute;lbum '>Informa&ccedil;&otilde;es do &Aacute;lbum <a href="/ed-sheeran/discografia/-10.html">÷</a></h6>
+<div class=left>
+<figure class=cover>
+<img width=235 height=235 data-src="https://s2.vagalume.com/ed-sheeran/discografia/-10-W235.jpg" alt="÷" />
+</figure>
+<a class=vBtn href="/ed-sheeran/discografia/-10.html#play">Ouvir &aacute;lbum completo</a>
+<a class=albumTitle href="/ed-sheeran/discografia/-10.html">
+÷</a>
+Ano de lan&ccedil;amento: <b>2017</b><b>Asylum Records UK</b></div>
+<div class=right>
+<ol data-disc=1>
+<li>
+<a href="/ed-sheeran/eraser.html">Eraser</a>
+</li>
+<li>
+<a href="/ed-sheeran/castle-on-the-hill.html">Castle On The Hill</a>
+</li>
+<li>
+<a href="/ed-sheeran/dive.html">Dive</a>
+</li>
+<li class=active>
+<span>Shape Of You</span>
+</li>
+<li>
+<a href="/ed-sheeran/perfect.html">Perfect</a>
+</li>
+<li>
+<a href="/ed-sheeran/galway-girl.html">Galway Girl</a>
+</li>
+<li>
+<a href="/ed-sheeran/happier.html">Happier</a>
+</li>
+<li>
+<a href="/ed-sheeran/new-man.html">New Man</a>
+</li>
+<li>
+<a href="/ed-sheeran/hearts-dont-break-around-here.html">Hearts Don&#039;t Break Around Here</a>
+</li>
+<li>
+<a href="/ed-sheeran/what-do-i-know.html">What do I Know</a>
+</li>
+<li>
+<a href="/ed-sheeran/how-would-you-feel-paean.html">How Would You Feel (Paean)</a>
+</li>
+<li>
+<a href="/ed-sheeran/supermarket-flowers.html">Supermarket Flowers</a>
+</li>
+<li>
+<a href="/ed-sheeran/nancy-mulligan.html">Nancy Mulligan</a>
+</li>
+</ol>
+<hr>
+</div>
+<i class=close>x</i>
+<hr>
+<a class=moreAlbuns href="/ed-sheeran/discografia">Ver discografia completa &#187;</a>
+</div>
+</div>
+<div id=content>
+<div itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+<meta itemprop=name content="Shape Of You (tradução)">
+<meta itemprop=url content=/ed-sheeran/shape-of-you.html />
+<meta itemprop=inAlbum content="÷">
+<div id=btnPlay>
+<var class="btn play" data-typeID=''>PLAY</var>
+<ul id=social-share>
+<li class="smallIcon fb-small" title="Compartilhar No Facebook" alt="Compartilhar no Facebook" onClick="share.facebook( {} )"></li>
+<li class="smallIcon twitter-small" title="Twittar Letra" alt="Compartilhar no Twitter" onClick="share.twitter( { width:600,height:400 } )"></li>
+<li class="smallIcon gplus-small" title="Compartilhar no Google+" alt="Compartilhar no Google Plus" onClick="share.gplus( { width:680,height:468} )"></li>
+</ul>
+</div>
+<ul id=lyrMenu class="nav-tabs ">
+<li class=lyric><a href="/ed-sheeran/shape-of-you.html" title="Veja a letra original" itemprop=url>Letra</a></li>
+<li class="translate active">Tradu&ccedil;&atilde;o</li>
+<li class=aprenda><a href="https://aprenda.vagalume.com.br/ed-sheeran/shape-of-you.html" target=_blank title="Aprenda&comma; Jogue Agora&excl;">Aprenda</a></li>
+<ul id=lyricOptions>
+<li class=vico data-action=print data-icon="&ouml;" title="Imprimir Letra">Imprimir</li>
+<li class=vico data-action=lyricfix data-icon="a" title="Editar/Corigir Letra">Editar</li>
+<li class=vico data-action=addMyPlaylist data-icon="&iuml;" title="Adicionar &agrave; Minha Playlist">Playlist</li>
+<li class=vico data-action=mail data-icon="~" title="Enviar por E-mail">Email</li>
+</ul>
+</ul>
+<hr>
+<div id=letra_traducao1 class=ad data-ad=letra_traducao_728x90_top data-adSize="[468,60]"></div>
+<div id=lyrTopUserMsg>
+Encontrou algum erro na letra ou tradu&ccedil;&atilde;o? Colabore com a gente clicando nas frases abaixo ou 
+<a href="/add/lyrics.php?artistID=3ade68b7g30dd1ea3&pointerID=3ade68b8g4a06b0b3">
+enviando uma corre&ccedil;&atilde;o completa &raquo;
+</a>
+</div>
+<div id=lyr_original class="left">
+<strong>
+Shape Of You</strong>
+<br />
+<div itemprop=description>
+The club isn't the best place to find a lover<br/>So the bar is where I go<br/>Me and my friends at the table doing shots<br/>Drinking faster and then we talk slow<br/>Come over and start up a conversation with just me<br/>And trust me I'll give it a chance now<br/>Take my hand, stop<br/>Put Van The Man on the jukebox<br/>And then we start to dance<br/>And now I'm singing like<br/><br/>Girl, you know I want your love<br/>Your love was handmade for somebody like me<br/>Come on now, follow my lead<br/>I may be crazy, don't mind me<br/>Say, boy, let's not talk too much<br/>Grab on my waist and put that body on me<br/>Come on now, follow my lead<br/>Come, come on now, follow my lead<br/><br/>I'm in love with the shape of you<br/>We push and pull like a magnet do<br/>Although my heart is falling too<br/>I'm in love with your body<br/>Last night you were in my room<br/>And now my bedsheets smell like you<br/>Every day discovering something brand new<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Every day discovering something brand new<br/>I'm in love with the shape of you<br/><br/>One week in we let the story begin<br/>We're going out on our first date<br/>You and me are thrifty<br/>So go all you can eat<br/>Fill up your bag and I fill up a plate<br/>We talk for hours and hours about the sweet and the sour<br/>And how your family is doing okay<br/>Leave and get in a taxi, then kiss in the backseat<br/>Tell the driver make the radio play<br/>And I'm singing like<br/><br/>Girl, you know I want your love<br/>Your love was handmade for somebody like me<br/>Come on now, follow my lead<br/>I may be crazy, don't mind me<br/>Say, boy, let's not talk too much<br/>Grab on my waist and put that body on me<br/>Come on now, follow my lead<br/>Come, come on now, follow my lead<br/><br/>I'm in love with the shape of you<br/>We push and pull like a magnet do<br/>Although my heart is falling too<br/>I'm in love with your body<br/>Last night you were in my room<br/>And now my bedsheets smell like you<br/>Every day discovering something brand new<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Oh-I-oh-I-oh-I-oh-I<br/>I'm in love with your body<br/>Every day discovering something brand new<br/>I'm in love with the shape of you<br/><br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/><br/>I'm in love with the shape of you<br/>We push and pull like a magnet do<br/>Although my heart is falling too<br/>I'm in love with your body<br/>Last night you were in my room<br/>And now my bedsheets smell like you<br/>Every day discovering something brand new<br/>I'm in love with your body<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>I'm in love with your body<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>I'm in love with your body<br/>Come on, be my baby, come on<br/>Come on, be my baby, come on<br/>I'm in love with your body<br/>Every day discovering something brand new<br/>I'm in love with the shape of you</div>
+</div>
+<div id=lyr_translation class="right hasFrankTranslate" data-frankSuggestCount='[1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,2,1,2,1,2,1,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,2,1,2,1,2,1,2,1,2,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,2,1,1,2,1,1,2,1,1,2,1,2]'>
+<strong>A Sua Forma</strong>
+<br />
+<div>A balada não é o melhor lugar para se achar um amor<br/>Então eu vou para o bar<br/>Eu e meus amigos na mesa tomando shots<br/>Bebendo cada vez mais rápido, então falamos devagar<br/>Venha aqui e comece uma conversa só comigo<br/>E confie em mim, eu vou dar uma chance agora<br/>Pegue a minha mão, pare<br/>Coloque Van Morrisson para tocar<br/>E aí nós começamos a dançar<br/>E agora estou cantando, tipo<br/><br/>Garota, você sabe que quero seu amor<br/>Seu amor foi feito na medida para alguém como eu<br/>Vamos lá, me siga<br/>Eu posso ser louco, não ligue<br/>Diga, garoto, não vamos falar muito<br/>Pegue a minha cintura e coloque seu corpo sobre o meu<br/>Vamos lá, me siga<br/>Vamos, vamos lá, me siga<br/><br/>Estou apaixonado pelo seu corpo<br/>Como ímãs, nossa atração nos faz ir e voltar<br/>Mesmo que meu coração esteja se apaixonando também<br/>Estou apaixonado pelo seu corpo<br/>Na noite passada você estava no meu quarto<br/>E agora meus lençóis têm o seu cheiro<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo<br/><br/>Uma semana depois, deixamos a história começar<br/>Estamos saindo no nosso primeiro encontro<br/>Você e eu somos mãos-de-vaca<br/>Então vamos num rodízio<br/>Você enche a sua bolsa, eu encho o meu prato<br/>Conversamos por horas e horas sobre os altos e baixos<br/>E como a sua família está indo bem<br/>Saímos e pegamos um táxi, nos beijamos no banco de trás<br/>Eu falo para o motorista deixar o rádio tocar<br/>E estou cantando tipo<br/><br/>Garota, você sabe que quero seu amor<br/>Seu amor foi feito na medida para alguém como eu<br/>Vamos lá, me siga<br/>Eu posso ser louco, não ligue<br/>Diga, garoto, não vamos falar muito<br/>Pegue a minha cintura e coloque seu corpo sobre o meu<br/>Vamos lá, me siga<br/>Vamos, vamos lá, me siga<br/><br/>Estou apaixonado pelo seu corpo<br/>Como ímãs, nossa atração nos faz ir e voltar<br/>Mesmo que meu coração esteja se apaixonando também<br/>Estou apaixonado pelo seu corpo<br/>Na noite passada você estava no meu quarto<br/>E agora meus lençóis têm o seu cheiro<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Ah eu, ah eu, ah eu, ah eu<br/>Estou apaixonado pelo seu corpo<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo<br/><br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/><br/>Estou apaixonado pelo seu corpo<br/>Como ímãs, nossa atração nos faz ir e voltar<br/>Mesmo que meu coração esteja se apaixonando também<br/>Estou apaixonado pelo seu corpo<br/>Na noite passada você estava no meu quarto<br/>E agora meus lençóis têm o seu cheiro<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Estou apaixonado pelo seu corpo<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Estou apaixonado pelo seu corpo<br/>Vamos lá, seja minha namorada, vamos lá<br/>Vamos lá, seja minha namorada, vamos lá<br/>Estou apaixonado pelo seu corpo<br/>Todos os dias descobrimos algo novo<br/>Estou apaixonado pelo seu corpo</div>
+</div><hr/>
+<hr>
+<div id=lyrFoot class=tl>
+<br>
+</div>
+<hr><div class="sharing center"></div>
+</div>
+</div>
+<div id=artistData>
+<ul>
+<li class=pos title="Ranking de letras: &#13Atualizado em 10/03/2017">
+5&ordm;<div><span>ranking</span></div>
+</li>
+<li class=album>
+<h3>
+<a href="/ed-sheeran/discografia/-10.html" title="Veja a p&aacute;gina do album">
+<div class=coverpos>
+<figure class=cover>
+<img width=37 height=37 src="https://s2.vagalume.com/ed-sheeran/discografia/-10-W37.jpg" alt="÷" />
+</figure>
+</div>
+÷</a>
+</h3>
+<div title="Mostrar faixas do &aacute;lbum"><span>&aacute;lbum</span></div>
+</li>
+		
+		
+</ul>
+</div>
+<div id=letra_traducao_728x90_middle class=ad></div>
+<div class="doubleColumn right">
+<div id=comments class="comments">
+<h6 data-text=Comente>Comente</h6>
+<form>
+<img src="https://s2.vagalume.com/images/my/no_photo_boy.jpg" alt="user" height=42 width=42>
+<textarea placeholder="Escreva uma mensagem ..."></textarea>
+<span class=counter><i class=countChar>300</i> caracteres restantes.</span>
+<var class="btn send">Enviar</var>
+</form>
+<hr>
+<ul>
+</ul>
+<div class="navDiv hide"><var class="prev btn">&lsaquo;</var><var class="next btn">&rsaquo;</var></div>
+</div>
+<div id=allArtSongs>
+<h6 data-text='Todas as letras de '>Todas as letras de <a href="/ed-sheeran/">Ed Sheeran</a></h6>
+<div class="searchBox song">
+<input type=text placeholder="Shape Of You (tradução)"/>
+<span></span>
+</div>
+</div>
+<div id=relPlaylists>
+<h6 data-text=Playlists>Playlists</h6>
+<ul>
+<li>
+<a href="/playlisteiros/apenas-musicas-que-foram-platina-nos-estados-unidos/">
+Apenas músicas que foram platina nos Estados Unidos.</a>
+</li>
+<li>
+<a href="/playlisteiros/capas-de-singles-nas-quais-o-rosto-do-artista-nao-aparece/">
+Capas de singles nas quais o rosto do artista não aparece</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<div id=relAds>
+<h6 data-text=Publicidade>Publicidade</h6>
+<div id="artista_letra_160x600_bottom" class=ad></div> 
+</div>
+<div id=ROS_728x90_lower></div>
+<div id=relNews>
+<h6 data-text=Not&iacute;cias>Not&iacute;cias</h6>
+<ul>
+<li>
+<a href="/news/2017/03/22/veja-os-destaques-da-musica-eletronica-no-lollapalooza-brasil-2017.html">
+<img data-src="https://s2.vagalume.com/dynimage/news31999w100h100.jpg" alt="Martin Garrix" title="Martin Garrix" height=110 width=110 />
+Veja os destaques da m&uacute;sica eletr&ocirc;nica no Lollapalooza Brasil 2017</a>
+The Chainsmokers, Flume, Martin Garrix, Oliver Heldens e Nervo est&atilde;o entre os principais nomes desta edi&ccedil;&atilde;o do festival<i>Hoje</i>
+</li>
+<li>
+<a href="/news/2017/03/22/light-my-body-up-david-guetta-e-nicki-minaj-lancarao-novo-single-nesta-semana.html">
+<img data-src="https://s2.vagalume.com/dynimage/news32002w100h100.jpg" alt="David Guetta" title="David Guetta" height=110 width=110 />
+&quot;Light My Body Up&quot;: David Guetta e Nicki Minaj lan&ccedil;ar&atilde;o novo single nesta semana</a>
+<i>Hoje</i>
+</li>
+<li>
+<a href="/news/2017/03/22/rupert-grint-finge-ser-ed-sheeran-em-quadro-de-comedia.html">
+<img data-src="https://s2.vagalume.com/dynimage/news32001w100h100.jpg" alt="Ed Sheeran" title="Ed Sheeran" height=110 width=110 />
+Rupert Grint finge ser Ed Sheeran em quadro de com&eacute;dia</a>
+Ator brinca que &quot;inventou o personagem&quot; ap&oacute;s o fim de &quot;Harry Potter&quot;<i>Hoje</i>
+</li>
+<li>
+<a href="/news/2017/03/22/depeche-mode-fara-show-unico-no-brasil-em-marco-de-2018-no-allianz-park.html">
+<img data-src="https://s2.vagalume.com/dynimage/news32000w100h100.jpg" alt="Depeche Mode" title="Depeche Mode" height=110 width=110 />
+Depeche Mode far&aacute; show &uacute;nico no Brasil em mar&ccedil;o de 2018 no Allianz Park</a>
+Banda se apresentar&aacute; no Allianz Park<i>Hoje</i>
+</li>
+<li>
+<a href="/news/2017/03/22/ouca-as-u-wave-dueto-de-zac-farro-e-hayley-williams-do-paramore.html">
+<img data-src="https://s2.vagalume.com/dynimage/news31998w100h100.jpg" alt="HalfNoise" title="HalfNoise" height=110 width=110 />
+Ou&ccedil;a o dueto de Zac Farro e Hayley Williams do Paramore, &quot;As U Wave&quot;</a>
+Can&ccedil;&atilde;o faz parte do EP &quot;The Velvet Face&quot;, do HalfNoise<i>Hoje</i>
+</li>
+</ul>
+<a class=moreNews href="/news/" title="Leia mais not&iacute;cias do mundo da m&uacute;sica">Mais not&iacute;cias &raquo;</a>
+</div>
+<div id=relHotspot>
+<h6 data-text='Hot Spot'>Hot Spot</h6>
+<ul>
+<li data-hotspot="8076!/halfnoise/images/119668.jpg!#A17558!#171A1C" class=hsShow>
+<a href="https://www.vagalume.com.br/halfnoise/as-u-wave-feat-hayley-williams.html?hotspot=1#play:DiRP0VmEZmc:3ade68b7g82b92ea3">
+<img data-src="https://s2.vagalume.com/halfnoise/images/119668.jpg" alt="HalfNoise ft. Hayley Williams" width="377" height="230" /><div><b>HalfNoise ft. Hayley Williams</b>Escute a m&uacute;sica &quot;As U Wave&quot;, com letra e tradu&ccedil;&atilde;o!</div>
+</a>
+</li>
+<li data-hotspot="8073!/pitbull/images/119662.jpg!#000000!#301B2B">
+<a href="https://www.vagalume.com.br/pitbull/cant-have-feat-steven-a-clark-ape-drums.html?hotspot=1#play:VZGwnMPWvoQ:3ade68b7g2fa92ea3">
+<div><b>Pitbull</b>Veja o lyric video de &quot;Can't Have&quot;, nova m&uacute;sica do rapper!</div>
+</a>
+</li>
+<li data-hotspot="8071!/mura-masa/images/119656.jpg!#C1EE11!#131113">
+<a href="https://www.vagalume.com.br/mura-masa/1-night-feat-charli-xcx.html?hotspot=1#play:v1UldBgl67M:3ade68b7g3fa92ea3">
+<div><b>Mura Masa ft. Charli XCX</b>Escute a nova m&uacute;sica, &quot;1 Night&quot;, com letra e tradu&ccedil;&atilde;o!</div>
+</a>
+</li>
+<li data-hotspot="8070!/zara-larsson/images/119651.jpg!#000000!#1B1415">
+<a href="https://www.vagalume.com.br/zara-larsson/only-you.html?hotspot=1#play:q38ipCttuig:3ade68b7gdea92ea3:BIG">
+<div><b>Zara Larsson</b>Veja o clipe ao vivo da m&uacute;sica, &quot;Only You&quot;, com legendas!</div>
+</a>
+</li>
+<li data-hotspot="8068!/vaga-lume/images/119645.jpg!#6B4286!#2E2C2E">
+<a href="https://www.vagalume.com.br/lollapalooza2017/?hotspot=1">
+<div><b>Lollapalooza 2017</b>Confira a nossa p&aacute;gina com tudo sobre a edi&ccedil;&atilde;o deste ano do Lolla: especiais, not&iacute;cias, detalhes de nossa cobertura ao vivo do evento e mais!</div>
+</a>
+</li>
+<li data-hotspot="8069!/machine-gun-kelly-mgk/images/119647.jpg!#DD4A40!#0E0E0E">
+<a href="https://www.vagalume.com.br/machine-gun-kelly-mgk/at-my-best-feat-hailee-steinfeld.html?hotspot=1#play:8DQAfm3opdg:3ade68b7g3ca92ea3">
+<div><b>Machine Gun Kelly ft. Hailee Steinfeld</b>Escute a parceria, &quot;At My Best&quot;, com letra e tradu&ccedil;&atilde;o!</div>
+</a>
+</li>
+<li data-hotspot="8067!/ed-sheeran/images/119054.jpg!#28292C!#141514">
+<a href="https://www.vagalume.com.br/ed-sheeran/galway-girl.html?hotspot=1#play:XjHr-6Zl5P8:3ade68b7g41a92ea3">
+<div><b>Ed Sheeran</b>Veja o lyric video de &quot;Galway Girl&quot;, m&uacute;sica do novo disco do cantor &quot;&divide;&quot; (Divide)!</div>
+</a>
+</li>
+<li data-hotspot="8064!/lukas-graham/images/119637.jpg!#121F30!#000000">
+<a href="https://www.vagalume.com.br/lukas-graham/drunk-in-the-morning.html?hotspot=1#play:-yvHqenLpUU:3ade68b7gd0a92ea3:BIG">
+<div><b>Lukas Graham</b>Veja o novo clipe da banda, &quot;Drunk In The Morning&quot;, com legendas!</div>
+</a>
+</li>
+<li data-hotspot="8059!/linkin-park/images/119623.jpg!#000000!#272529">
+<a href="https://www.vagalume.com.br/linkin-park/battle-symphony.html?hotspot=1#play:D7ab595h0AU:3ade68b7g80a92ea3">
+<div><b>Linkin Park</b>Veja o lyric video de &quot;Battle Symphony&quot;, nova m&uacute;sica da banda!</div>
+</a>
+</li>
+<li data-hotspot="8063!/clean-bandit/images/119625.jpg!#000000!#191117">
+<a href="https://www.vagalume.com.br/clean-bandit/symphony-feat-zara-larsson.html?hotspot=1#play:aatr_2MstrI:3ade68b7gb0a92ea3:BIG">
+<div><b>Clean Bandit ft. Zara Larsson</b>Veja o novo clipe, &quot;Symphony&quot;, com legendas!</div>
+</a>
+</li>
+</ul>
+</div>
+<div id=relTopLyrics>
+<h6 data-text='Top M&uacute;sicas do Vagalume'>Top M&uacute;sicas do Vagalume</h6>
+<ul>
+<li class=vArtV>
+<a href="/ana-vilela/trem-bala.html">
+<span class=rankPos>01&deg;</span>
+<img data-src="https://s2.vagalume.com/ana-vilela/images/profile-bigw120.jpg" alt="Ana Vilela" width=119 height=140 />
+<em>
+Trem Bala<span class=songArtistName>Ana Vilela</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/henrique-e-juliano/vidinha-de-balada.html">
+<span class=rankPos>02&deg;</span>
+<img data-src="https://s2.vagalume.com/henrique-e-juliano/images/profile-bigw120.jpg" alt="Henrique e Juliano" width=119 height=140 />
+<em>
+Vidinha de Balada<span class=songArtistName>Henrique e Juliano</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/ed-sheeran/shape-of-you.html">
+<span class=rankPos>03&deg;</span>
+<img data-src="https://s2.vagalume.com/ed-sheeran/images/profile-bigw120.jpg" alt="Ed Sheeran" width=119 height=140 />
+<em>
+Shape Of You<span class=songArtistName>Ed Sheeran</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/thiago-matheus/eu-nao-quero-casar.html">
+<span class=rankPos>04&deg;</span>
+<img data-src="https://s2.vagalume.com/thiago-matheus/images/profile-bigw120.jpg" alt="Thiago Matheus" width=119 height=140 />
+<em>
+Eu N&atilde;o Quero Casar<span class=songArtistName>Thiago Matheus</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/ney-alves/kakaka.html">
+<span class=rankPos>05&deg;</span>
+<img data-src="https://s2.vagalume.com/ney-alves/images/profile-bigw120.jpg" alt="Ney Alves" width=119 height=140 />
+<em>
+Kakaka<span class=songArtistName>Ney Alves</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/nego-do-borel/voce-partiu-meu-coracao-feat-anitta-wesley-safadao.html">
+<span class=rankPos>06&deg;</span>
+<img data-src="https://s2.vagalume.com/nego-do-borel/images/profile-bigw120.jpg" alt="Nego do Borel" width=119 height=140 />
+<em>
+Voce Partiu Meu Cora&ccedil;&atilde;o (Feat. Anitta &amp; Wesley Safad&atilde;o)<span class=songArtistName>Nego do Borel</span>
+</em>
+</a>
+</li>
+</ul>
+<a class=moreTops href="/top100/musicas/original/" title="Top 100">Top 100 &raquo;</a>
+</div>
+
+<div id=searchList>
+<ul data-label="A" class=navList>
+<li>
+<a href="/ed-sheeran/addicted.html">Addicted</a>
+</li>
+<li>
+<a href="/ed-sheeran/afire-love.html">Afire Love</a>
+</li>
+<li>
+<a href="/ed-sheeran/all-of-the-stars.html">All Of The Stars</a>
+</li>
+<li>
+<a href="/ed-sheeran/autumn-leaves.html">Autumn Leaves</a>
+</li>
+</ul>
+<ul data-label="B" class=navList>
+<li>
+<a href="/ed-sheeran/baby-one-more-time.html">Baby One More Time</a>
+</li>
+<li>
+<a href="/ed-sheeran/barcelona.html">Barcelona</a>
+</li>
+<li>
+<a href="/ed-sheeran/be-like-you.html">Be Like You</a>
+</li>
+<li>
+<a href="/ed-sheeran/be-my-husband-originally-by-nina-simone.html">Be My Husband (Originally by Nina Simone)</a>
+</li>
+<li>
+<a href="/ed-sheeran/beyond-the-pale.html">Beyond the Pale</a>
+</li>
+<li>
+<a href="/ed-sheeran/bibia-be-ye-ye.html">Bibia Be Ye Ye</a>
+</li>
+<li>
+<a href="/ed-sheeran/billy-ruskin.html">Billy Ruskin</a>
+</li>
+<li>
+<a href="/ed-sheeran/bloodstream.html">Bloodstream</a>
+</li>
+<li>
+<a href="/ed-sheeran/bloodstream-with-rudimental.html">Bloodstream (With Rudimental)</a>
+</li>
+<li>
+<a href="/ed-sheeran/bonus-track.html">Bonus Track</a>
+</li>
+</ul>
+<ul data-label="C" class=navList>
+<li>
+<a href="/ed-sheeran/candle-in-the-wind.html">Candle In The Wind</a>
+</li>
+<li>
+<a href="/ed-sheeran/castle-on-the-hill.html">Castle On The Hill</a>
+</li>
+<li>
+<a href="/ed-sheeran/castle-on-the-hill-radiology-remix.html">Castle On The Hill (Radiology Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/cold-coffee.html">Cold Coffee</a>
+</li>
+</ul>
+<ul data-label="D" class=navList>
+<li>
+<a href="/ed-sheeran/diary.html">Diary</a>
+</li>
+<li>
+<a href="/ed-sheeran/dirrty.html">Dirrty</a>
+</li>
+<li>
+<a href="/ed-sheeran/dive.html">Dive</a>
+</li>
+<li>
+<a href="/ed-sheeran/do-they-know-its-christmas.html">Do They Know It&#039;s Christmas?</a>
+</li>
+<li>
+<a href="/ed-sheeran/dont.html">Don&#039;t</a>
+</li>
+<li>
+<a href="/ed-sheeran/dont-feat-rick-ross.html">Don&#039;t (Feat. Rick Ross)</a>
+</li>
+<li>
+<a href="/ed-sheeran/dont-x-ambassadors-remix.html">Don&#039;t (X Ambassadors Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/drown-me-out-feat-ghetts.html">Drown Me Out (Feat. Ghetts)</a>
+</li>
+<li>
+<a href="/ed-sheeran/drunk.html">Drunk</a>
+</li>
+</ul>
+<ul data-label="E" class=navList>
+<li>
+<a href="/ed-sheeran/empire-state-of-mind-cover.html">Empire State Of Mind (Cover)</a>
+</li>
+<li>
+<a href="/ed-sheeran/english-rose.html">English Rose</a>
+</li>
+<li>
+<a href="/ed-sheeran/eraser.html">Eraser</a>
+</li>
+<li>
+<a href="/ed-sheeran/eraser-extended-f64-version.html">Eraser (Extended F64 Version)</a>
+</li>
+<li>
+<a href="/ed-sheeran/even-my-dad-does-sometimes.html">Even My Dad Does Sometimes</a>
+</li>
+<li>
+<a href="/ed-sheeran/everything-has-changed.html">Everything Has Changed</a>
+</li>
+<li>
+<a href="/ed-sheeran/everything-you-are.html">Everything You Are</a>
+</li>
+</ul>
+<ul data-label="F" class=navList>
+<li>
+<a href="/ed-sheeran/faces.html">Faces</a>
+</li>
+<li>
+<a href="/ed-sheeran/fall.html">Fall</a>
+</li>
+<li>
+<a href="/ed-sheeran/fall-down.html">Fall Down</a>
+</li>
+<li>
+<a href="/ed-sheeran/family-feat-p-money.html">Family (feat. P Money)</a>
+</li>
+<li>
+<a href="/ed-sheeran/feeling-good.html">Feeling Good</a>
+</li>
+<li>
+<a href="/ed-sheeran/fire-alarms.html">Fire Alarms</a>
+</li>
+<li>
+<a href="/ed-sheeran/firefly.html">Firefly</a>
+</li>
+<li>
+<a href="/ed-sheeran/friends.html">Friends</a>
+</li>
+</ul>
+<ul data-label="G" class=navList>
+<li>
+<a href="/ed-sheeran/galway-girl.html">Galway Girl</a>
+</li>
+<li>
+<a href="/ed-sheeran/give-me-love.html">Give Me Love</a>
+</li>
+<li>
+<a href="/ed-sheeran/give-me-love-new-machine-remixfeat-mic-righteous.html">Give Me Love (New Machine Remix)(Feat. Mic Righteous)</a>
+</li>
+<li>
+<a href="/ed-sheeran/gold-rush.html">Gold Rush</a>
+</li>
+<li>
+<a href="/ed-sheeran/goodbye-to-you-feat-dot-rotten.html">Goodbye To You (feat. Dot Rotten)</a>
+</li>
+<li>
+<a href="/ed-sheeran/grade-8.html">Grade 8</a>
+</li>
+<li>
+<a href="/ed-sheeran/grow-back.html">Grow Back</a>
+</li>
+</ul>
+<ul data-label="H" class=navList>
+<li>
+<a href="/ed-sheeran/hallelujah-feat-nina-nesbitt.html">Hallelujah (Feat. Nina Nesbitt)</a>
+</li>
+<li>
+<a href="/ed-sheeran/happier.html">Happier</a>
+</li>
+<li>
+<a href="/ed-sheeran/hearts-dont-break-around-here.html">Hearts Don&#039;t Break Around Here</a>
+</li>
+<li>
+<a href="/ed-sheeran/hold-on.html">Hold On</a>
+</li>
+<li>
+<a href="/ed-sheeran/homeless.html">Homeless</a>
+</li>
+<li>
+<a href="/ed-sheeran/how-would-you-feel-paean.html">How Would You Feel (Paean)</a>
+</li>
+</ul>
+<ul data-label="I" class=navList>
+<li>
+<a href="/ed-sheeran/i-cant-spell.html">I Can&#039;t Spell</a>
+</li>
+<li>
+<a href="/ed-sheeran/i-knew-you-were-a-trouble.html">I Knew You Were a Trouble</a>
+</li>
+<li>
+<a href="/ed-sheeran/i-love-you.html">I Love You</a>
+</li>
+<li>
+<a href="/ed-sheeran/i-never-fell.html">I Never Fell</a>
+</li>
+<li>
+<a href="/ed-sheeran/i-see-fire.html">I See Fire</a>
+</li>
+<li>
+<a href="/ed-sheeran/i-see-fire-kygo-remix.html">I See Fire (Kygo Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/take-you-home.html">I Will Take You Home</a>
+</li>
+<li>
+<a href="/ed-sheeran/im-a-mess.html">I&#039;m a Mess</a>
+</li>
+<li>
+<a href="/ed-sheeran/im-glad-i.html">I&#039;m Glad I</a>
+</li>
+<li>
+<a href="/ed-sheeran/in-memory.html">In Memory</a>
+</li>
+<li>
+<a href="/ed-sheeran/in-my-life.html">In My Life</a>
+</li>
+<li>
+<a href="/ed-sheeran/insomniacs-lullaby.html">Insomniac&#039;s Lullaby</a>
+</li>
+</ul>
+<ul data-label="K" class=navList>
+<li>
+<a href="/ed-sheeran/king-of-the-kings.html">King Of The Kings</a>
+</li>
+<li>
+<a href="/ed-sheeran/kiss-me.html">Kiss Me</a>
+</li>
+</ul>
+<ul data-label="L" class=navList>
+<li>
+<a href="/ed-sheeran/last-night.html">Last Night</a>
+</li>
+<li>
+<a href="/ed-sheeran/lately-feat-devlin.html">Lately (Feat. Devlin)</a>
+</li>
+<li>
+<a href="/ed-sheeran/lego-house.html">Lego House</a>
+</li>
+<li>
+<a href="/ed-sheeran/let-it-out.html">Let It Out</a>
+</li>
+<li>
+<a href="/ed-sheeran/little-bird.html">Little Bird</a>
+</li>
+<li>
+<a href="/ed-sheeran/little-lady-feat-mikill-pane.html">Little Lady (feat. Mikill Pane)</a>
+</li>
+<li>
+<a href="/ed-sheeran/london-bridge-performed-with-yelawolf.html">London Bridge (Performed with Yelawolf)</a>
+</li>
+</ul>
+<ul data-label="M" class=navList>
+<li>
+<a href="/ed-sheeran/make-it-rain.html">Make It Rain</a>
+</li>
+<li>
+<a href="/ed-sheeran/misery.html">Misery</a>
+</li>
+<li>
+<a href="/ed-sheeran/miss-you.html">Miss You</a>
+</li>
+<li>
+<a href="/ed-sheeran/moody-ballad-of-ed.html">Moody Ballad Of Ed</a>
+</li>
+<li>
+<a href="/ed-sheeran/move-on.html">Move On</a>
+</li>
+</ul>
+<ul data-label="N" class=navList>
+<li>
+<a href="/ed-sheeran/nancy-mulligan.html">Nancy Mulligan</a>
+</li>
+<li>
+<a href="/ed-sheeran/nandos-song-with-example.html">Nando&#039;s Song (With Example)</a>
+</li>
+<li>
+<a href="/ed-sheeran/new-man.html">New Man</a>
+</li>
+<li>
+<a href="/ed-sheeran/new-york.html">New York</a>
+</li>
+<li>
+<a href="/ed-sheeran/nightmares-feat-random-impulse-sway-wretch-32.html">Nightmares (feat. Random Impulse, Sway &amp; Wretch 32)</a>
+</li>
+<li>
+<a href="/ed-sheeran/nina.html">Nina</a>
+</li>
+<li>
+<a href="/ed-sheeran/no-diggity-thrift-shop-feat-passeger.html">No Diggity / Thrift Shop (Feat. Passeger)</a>
+</li>
+<li>
+<a href="/ed-sheeran/no-luck.html">No Luck</a>
+</li>
+</ul>
+<ul data-label="O" class=navList>
+<li>
+<a href="/ed-sheeran/one.html">One</a>
+</li>
+<li>
+<a href="/ed-sheeran/one-night.html">One Night</a>
+</li>
+<li>
+<a href="/ed-sheeran/open-your-ears.html">Open Your Ears</a>
+</li>
+</ul>
+<ul data-label="P" class=navList>
+<li>
+<a href="/ed-sheeran/pause-feat-alonestar.html">Pause feat. Alonestar</a>
+</li>
+<li>
+<a href="/ed-sheeran/perfect.html">Perfect</a>
+</li>
+<li>
+<a href="/ed-sheeran/photograph.html">Photograph</a>
+</li>
+<li>
+<a href="/ed-sheeran/photograph-felix-jaehn-remix.html">Photograph (Felix Jaehn Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/pony.html">Pony</a>
+</li>
+<li>
+<a href="/ed-sheeran/postcards.html">Postcards</a>
+</li>
+</ul>
+<ul data-label="Q" class=navList>
+<li>
+<a href="/ed-sheeran/quiet-ballad-of-ed.html">Quiet Ballad of Ed</a>
+</li>
+</ul>
+<ul data-label="R" class=navList>
+<li>
+<a href="/ed-sheeran/radio-feat-jme.html">Radio (feat. JME)</a>
+</li>
+<li>
+<a href="/ed-sheeran/runaway.html">Runaway</a>
+</li>
+<li>
+<a href="/ed-sheeran/runaway-everybody-backstreets-back-mash-up.html">Runaway (Everybody (Backstreet&#039;s Back) mash up)</a>
+</li>
+</ul>
+<ul data-label="S" class=navList>
+<li>
+<a href="/ed-sheeran/sara.html">Sara</a>
+</li>
+<li>
+<a href="/ed-sheeran/saturday.html">Saturday</a>
+</li>
+<li>
+<a href="/ed-sheeran/save-myself.html">Save Myself</a>
+</li>
+<li>
+<a href="/ed-sheeran/scars.html">Scars</a>
+</li>
+<li>
+<a href="/ed-sheeran/shape-of-you.html">Shape Of You</a>
+</li>
+<li>
+<a href="/ed-sheeran/shape-of-you-its-different-remix.html">Shape of You (It&#039;s different Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/shape-of-you-major-lazer-remix-feat-nyla-kranium.html">Shape Of You (Major Lazer Remix feat. N&#039;yla, Kranium)</a>
+</li>
+<li>
+<a href="/ed-sheeran/shape-of-you-notd-remix.html">Shape of You (NOTD Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/she.html">She</a>
+</li>
+<li>
+<a href="/ed-sheeran/shirtsleeves.html">Shirtsleeves</a>
+</li>
+<li>
+<a href="/ed-sheeran/sing.html">Sing</a>
+</li>
+<li>
+<a href="/ed-sheeran/skinny-love.html">Skinny Love</a>
+</li>
+<li>
+<a href="/ed-sheeran/small-bump.html">Small Bump</a>
+</li>
+<li>
+<a href="/ed-sheeran/smile.html">Smile</a>
+</li>
+<li>
+<a href="/ed-sheeran/so.html">So</a>
+</li>
+<li>
+<a href="/ed-sheeran/sofa.html">Sofa</a>
+</li>
+<li>
+<a href="/ed-sheeran/spark.html">Spark</a>
+</li>
+<li>
+<a href="/ed-sheeran/starving.html">Starving</a>
+</li>
+<li>
+<a href="/ed-sheeran/stay-with-me.html">Stay With Me</a>
+</li>
+<li>
+<a href="/ed-sheeran/stevensong.html">Stevensong</a>
+</li>
+<li>
+<a href="/ed-sheeran/sunburn.html">Sunburn</a>
+</li>
+<li>
+<a href="/ed-sheeran/supermarket-flowers.html">Supermarket Flowers</a>
+</li>
+<li>
+<a href="/ed-sheeran/sweet-mary-jane.html">Sweet Mary Jane</a>
+</li>
+</ul>
+<ul data-label="T" class=navList>
+<li>
+<a href="/ed-sheeran/take-it-back.html">Take It Back</a>
+</li>
+<li>
+<a href="/ed-sheeran/tenerife-sea.html">Tenerife Sea</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-a-team.html">The A Team</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-city.html">The City</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-man.html">The Man</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-parting-glass.html">The Parting Glass</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-sea.html">The Sea</a>
+</li>
+<li>
+<a href="/ed-sheeran/the-west-coast-of-clare.html">The West Coast Of Clare</a>
+</li>
+<li>
+<a href="/ed-sheeran/these-dreams.html">These Dreams</a>
+</li>
+<li>
+<a href="/ed-sheeran/thinking-out-loud.html">Thinking Out Loud</a>
+</li>
+<li>
+<a href="/ed-sheeran/thinking-out-loud-alex-adair-remix.html">Thinking Out Loud (Alex Adair Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/thinking-out-loud-feat-john-mayer-herbie-hancock-the-roots.html">Thinking Out Loud (Feat. John Mayer, Herbie Hancock &amp; The Roots)</a>
+</li>
+<li>
+<a href="/ed-sheeran/thinking-out-loud-xander-remix.html">Thinking Out Loud (XANDER Remix)</a>
+</li>
+<li>
+<a href="/ed-sheeran/this.html">This</a>
+</li>
+<li>
+<a href="/ed-sheeran/tone-performed-with-yelawolf.html">Tone (Performed With Yelawolf)</a>
+</li>
+<li>
+<a href="/ed-sheeran/touch.html">Touch</a>
+</li>
+<li>
+<a href="/ed-sheeran/touch-and-go.html">Touch and Go</a>
+</li>
+<li>
+<a href="/ed-sheeran/trap-queen.html">Trap Queen</a>
+</li>
+<li>
+<a href="/ed-sheeran/two-blokes-and-a-double-bass.html">Two Blokes and a Double Bass</a>
+</li>
+<li>
+<a href="/ed-sheeran/two-different-worlds.html">Two Different Worlds</a>
+</li>
+<li>
+<a href="/ed-sheeran/typical-average.html">Typical Average</a>
+</li>
+</ul>
+<ul data-label="U" class=navList>
+<li>
+<a href="/ed-sheeran/u-n-i.html">U.n.i</a>
+</li>
+<li>
+<a href="/ed-sheeran/undone.html">Undone</a>
+</li>
+</ul>
+<ul data-label="W" class=navList>
+<li>
+<a href="/ed-sheeran/wake-me-up.html">Wake Me Up</a>
+</li>
+<li>
+<a href="/ed-sheeran/way-home.html">Way Home</a>
+</li>
+<li>
+<a href="/ed-sheeran/wayfaring-stranger.html">Wayfaring Stranger</a>
+</li>
+<li>
+<a href="/ed-sheeran/we-are.html">We Are</a>
+</li>
+<li>
+<a href="/ed-sheeran/what-do-i-know.html">What do I Know</a>
+</li>
+<li>
+<a href="/ed-sheeran/where-we-land.html">Where We Land</a>
+</li>
+<li>
+<a href="/ed-sheeran/wild-mountain-thyme.html">Wild Mountain Thyme</a>
+</li>
+<li>
+<a href="/ed-sheeran/wonderwall-oasis-cover.html">Wonderwall (Oasis Cover)</a>
+</li>
+</ul>
+<ul data-label="Y" class=navList>
+<li>
+<a href="/ed-sheeran/yellow-pages.html">Yellow Pages</a>
+</li>
+<li>
+<a href="/ed-sheeran/you-feat-wiley.html">You (Feat. Wiley)</a>
+</li>
+<li>
+<a href="/ed-sheeran/you-break-me.html">You Break Me</a>
+</li>
+<li>
+<a href="/ed-sheeran/you-dont-know-feat-yelawolf.html">You Don&#039;t Know (feat. Yelawolf)</a>
+</li>
+<li>
+<a href="/ed-sheeran/you-need-me-i-dont-need-you.html">You Need Me, I Don&#039;t Need You</a>
+</li>
+<li>
+<a href="/ed-sheeran/you-need-to-cut-your-hair.html">You Need To Cut Your Hair</a>
+</li>
+</ul>
+</div>
+<hr>
+	
+</div>
+<footer id=rodape>
+<div id=footVglLink>
+<div>
+<span>www.vagalume.com.br</span>
+</div>
+</div>
+<div id=footVglSections>
+<div id=column1>
+<div id=allSites>
+<span>Todos os nossos sites</span>
+<ul>
+<li><a href="https://www.vagalume.com.br/playlisteiros/">Playlisteiros</a></li>
+<li><a href="https://drive.vagalume.com.br/">Drive</a></li>
+<li><a href="https://aprenda.vagalume.com.br/">Aprenda Inglês</a></li>
+<li><a href="https://traducao.vagalume.com.br/">Tradução</a></li>
+<li><a href="https://www.vagalume.com.br/copa2014/">Copa Vagalume 2014</a></li>
+<li><a href="https://www.vagalume.com.br/retrospectiva/2016/">Retrospectiva Vagalume 2016</a></li>
+<li><a href="https://vagalume.fm">Rádio Vagalume.FM</a></li>
+</ul>
+</div>
+</div>
+<div id=column2>
+<div id=onSmartphone>
+<span>Ouça música grátis no Vagalume.FM pelo seu celular</span>
+<ol>
+<li><a class=iconGplay target=_blank href="https://play.google.com/store/apps/details?id=br.com.vagalume.fm&referrer=utm_campaign%3DVagalume%26utm_source%3DVagalumeHomeFooter"></a></li>
+<li><a class=iconApple target=_blank href="https://itunes.apple.com/br/app/vagalume/id1154246231?ct=VagalumeHomeFooter"></a></li>
+</ol>
+</div>
+<br>
+<div id=onNetwork>
+<span>Nas Redes Sociais</span>
+<ol>
+<li><a class=iconFB href="//facebook.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconInstagram href="//instagram.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconTwitter href="//twitter.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconGoogle href="//google.com/+vagalume" target=_blank></a></li>
+<li><a class=iconYT href="//youtube.com/user/sitevagalume" target=_blank></a></li>
+<li><a class=iconTumblr href="//quotes.vagalume.com/" target=_blank></a></li>
+</ol>
+</div>			
+</div>
+<div id=column3>
+<div id=onPC>
+<span>No seu PC</span>
+<ol>
+<li><a class=iconChrome href="/plugin/chrome/"></a></li>
+<li><a class=iconItunes href="/plugin/itunes/"></a></li>
+<li><a class=iconMP href="/plugin/mediaplayer/"></a></li>
+<li><a class=iconWinamp href="/plugin/winamp/"></a></li>
+</ol>
+</div>
+<br>
+<div id=vagaPartner>
+<span>Parceiro Vagalume</span>
+<a class=iconPartner href="//entretenimento.r7.com/" target=_blank></a>
+</div>
+</div>
+</div>
+</footer>
+<div id=vgInfo><p>As informações deste site são postadas integralmente pelos usuários. É importante dizer que é possível que os dados estejam desatualizados ou incorretos, sendo assim, o Vagalume exime-se de qualquer responsabilidade sobre as informações publicadas.Caso haja interesse em remover ou alterar alguma informação, <a href="/contato/">entre em contato</a> conosco.</p><br><p>É permitida somente a visualização no site das letras de músicas encontradas aqui, vedada sua reprodução através de quaisquer outros meios (Lei 9610/98).Todas as letras de músicas são propriedade dos seus respectivos autores e divulgadas somente para fins educacionais.All lyrics are property and copyright of their owners. All lyrics are provided for educational purposes only.</p></div><script type="text/javascript" id=vData>
+window.vData = window.vData?window.vData:{};
+vData["bandaID"]		= '3ade68b7g30dd1ea3';
+vData["bandStatus"]     = 'approved';
+vData["banda"]			= 'Ed Sheeran';
+vData["banda_html"]		= 'Ed Sheeran';
+vData["banda_url"]		= 'ed-sheeran';
+vData["banda_langID"]		= '2';
+vData["page_vagalu_meID"]	= '1rdoh';
+vData["pointer"]		= 'Shape Of You (tradução)';
+vData["pointer_html"]		= 'Shape Of You (tradu&ccedil;&atilde;o)';
+vData["pointer_url"]		= 'shape-of-you-traducao';
+vData["pointerID"]		= '3ade68b8g9a06b0b3';
+vData["pointerID_orig"]		= '3ade68b8g4a06b0b3';
+vData["langID"]			= '1';
+vData["dync"]			= 'letra';
+vData["hasPhoto"]		= true;
+window._sf_startpt=(new Date()).getTime();
+</script>
+<script type="text/javascript" src="/js/loader_20160128.bundle.js"></script>
+<script type="text/javascript">
+$LAB
+.script('/js/jquery-1.11.1.js')
+.script('vgl2')
+.wait(function(){
+vagalume.setDHTML();
+$LAB.script('artist').wait(function(){$(function(){vagalume.artist.init();});});
+});
+</script>
+<div id=ads>
+<div id=superbanner></div>
+</div>
+</body>
+</html>
+|||http://entretenimento.r7.com/fotos|
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-br"> <!--<![endif]--><head>
+<link href="https://assets.r7.com/assets/schumi_core/application-ecf24a4a356ac835ee6c83ac36087d2f.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="https://assets.r7.com/assets/schumi_core/print-b60aca5c4328a74921b554a6fc56ac39.css" media="print" rel="stylesheet" type="text/css"/>
+<link href="https://assets.r7.com/assets/cms_box/boxes-7f960ac69e5af59142b6174a3a2fdc8a.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/assets/dynbox00-6b0b7128fa4df75d39bb5e7b8252b165.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/assets/dynbox01-9d0b7a8f4c001e5ccd103df8b41b8f0d.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/assets/dynbox02-323df97bcba0a615edbb38ba198408de.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/assets/dynbox03-78ee3ca0fbfba5d073f96b9dc2d0d65a.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/assets/dynbox04-75d547815acad0e1453f378f41274bda.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/schumi_core/stylesheets/23.9.101/fonts/open-sans.css" media="screen" rel="stylesheet" type="text/css"/><link href="https://assets.r7.com/schumi_core/stylesheets/23.9.101/skins/entretenimento.css" media="screen" rel="stylesheet" type="text/css"/><style type="text/css">#side_menu .entretenimento{border-color:#c9168e}#side_menu .entretenimento LI{border-color:#c9168e}#side_menu .entretenimento>A{text-decoration:none;background:#c9168e;border-bottom:0;color:#fff;font-weight:bold}#side_menu .entretenimento>UL A{color:#c9168e}#side_menu .entretenimento>A:hover{background:#c9168e;text-decoration:none}</style><link href="https://assets.r7.com/assets/extensions/schumi_listing/application/entretenimento/application-8c80d0fa29bbf5228998d4ac13757595.css" media="screen" rel="stylesheet" type="text/css"/><style type="text/css" media="all">.r7-main-nav .r7-nav-list li a{padding:0 10px!important}#heading{border:none}#main{width:1140px}</style><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/psajs" orig_index="0"></script>
+<script type="text/psajs" orig_index="1">window.jQuery||document.write('<script src="https://scs.r7.com/js/jquery/jquery-1.7.1.min.js"></sc'+'ript>');</script>
+<script src="https://assets.r7.com/assets/schumi_core/adv/application-f297099825730b03b6f2702dc2d03da9.js" pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="2"></script>
+<script id="tailtarget" type="text/psajs" orig_index="3">var _ttprofiles=_ttprofiles||[];_ttprofiles.profiles=[];_ttprofiles.push(['_setAccount','TT-9964-3']);_ttprofiles.push(['_enableServices']);document.write("<scr"+"ipt src='https://scs.r7.com/tailtarget/profiles.js'></scr"+"ipt>");</script>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="4">try{document.domain='r7.com';}catch(e){}
+window.r7url=document.location.href;window.advdom="adv.r7.com/";window.advid="";window.snippetsurl="https://snippets.r7.com/snippet/5293b08110d73e0d53000001/";r7adv.load(window.advdom,window.advid);</script>
+<script type="text/psajs" orig_index="5">var asiPqTag=false;ChamandoURLAudienceScience={'init':function(){ChamandoURLAudienceScience.urlRequisicaoDinamica();},'urlRequisicaoDinamica':function(){var cb=new Date().getTime();var asiPqTag=false;var urlModificada="https://pq-direct.revsci.net/pql?placementIdList=uqMDA5,frDqFT&cb="+cb;$.ajax({dataType:'script',chache:true,url:urlModificada,success:function(){}});}};</script>
+<script pagespeed_orig_type='text/javascript' type="text/psajs" orig_index="6">(function(){var useSSL='https:'==document.location.protocol;var src=(useSSL?'https:':'http:')+'//www.googletagservices.com/tag/js/gpt.js';document.write('<scr'+'ipt sr'+'c="'+src+'"></scr'+'ipt>');})();</script>
+<title></title>
+<meta property="og:image" content="https://assets.r7.com/assets/schumi_core/facebook/entrete-fa9f1e16ff745425705b0e8742fb590d.png"/>
+<meta property="og:description" content=""/>
+<meta name="twitter:site" content="@portalr7">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:image:src" content="https://assets.r7.com/assets/schumi_core/facebook/entrete-fa9f1e16ff745425705b0e8742fb590d.png"/>
+<meta name="apple-itunes-app" content="app-id=1032074695"/>
+<meta name="google-play-app" content="app-id=com.r7.r7"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<link rel="canonical" href="http://entretenimento.r7.com/fotos"/>
+<link href="https://assets.r7.com/assets/schumi_core/favicons/entretenimento-a3782d031af3437a1aca8dc11de1291b.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="7">var omnitureObject={"page_name":"entretenimento:fotos:home","site_section":"entretenimento","sub_section":"entretenimento:fotos","sub_section_2":"entretenimento:fotos:home","sub_section_3":"","content_type":'sub section 2:home',"url_pagina":document.location.href};_ttprofiles=(typeof _ttprofiles!=='undefined')?_ttprofiles:{};var dataLayer={"page_name":"entretenimento:fotos:home","site_section":"entretenimento","sub_section":"entretenimento:fotos","sub_section_2":"entretenimento:fotos:home","sub_section_3":"","content_type":'sub section 2:home',"tailt_age":(_ttprofiles.getAge)?_ttprofiles.getAge:'',"tailt_gender":(_ttprofiles.getGender)?_ttprofiles.getGender:'',"tailt_city":(_ttprofiles.getCity)?_ttprofiles.getCity:'',"tailt_state":(_ttprofiles.getState)?_ttprofiles.getState:'',"tailt_country":(_ttprofiles.getCountry)?_ttprofiles.getCountry:'',"tailt_profiles":(_ttprofiles.getProfiles)?_ttprofiles.getProfiles:'',"tailt_subjetcs":(_ttprofiles.getSubjects)?_ttprofiles.getSubjects:'',"minute":new Date().getMinutes(),"page_url":document.location.href};</script>
+<script type="text/psajs" orig_index="8">var _comscore=_comscore||[];_comscore.push({c1:"2",c2:"14194541",ns_site:"portal-r7",name:omnitureObject.page_name.replace(/:/g,"."),channel:omnitureObject.site_section.replace(/:/g,"."),content_source:"proprio"});(function(){var s=document.createElement("script"),el=document.getElementsByTagName("script")[0];s.async=true;s.src=(document.location.protocol=="https:"?"https://sb":"http://b")+".scorecardresearch.com/beacon.js";el.parentNode.insertBefore(s,el);})();</script>
+<noscript>
+<img src="https://sb.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1"/>
+</noscript>
+</head>
+<body class="entretenimento "><noscript><meta HTTP-EQUIV="refresh" content="0;url='http://entretenimento.r7.com/fotos?PageSpeed=noscript'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="http://entretenimento.r7.com/fotos?PageSpeed=noscript">here</a> if you are not redirected within a few seconds.</div></noscript>
+<script pagespeed_orig_type='text/javascript' type="text/psajs" orig_index="9">r7ad.printGAds([1000,1000],'DHTML');</script>
+<div id="ads-sniffer" style="overflow:hidden; margin:0 auto; width:1024px; position:relative; top:10px; display: none;">
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="10">function fechaAds(){ads=document.getElementById('ads-sniffer');ads.parentNode.removeChild(ads);}</script>
+<a id="closeBtn" style="z-index:1; cursor:pointer; position: absolute; right:0; top:0; width:61px; height:17px; background-image:url(https://img.r7.com/images/2017/01/05/957hd2p3f5_8gp35i3xl7_file)" onclick="fechaAds()">&#160;</a>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="11">r7ad.printGAds([1024,60],'Sniffer').success(function(){document.getElementById('ads-sniffer').style.display='block';});</script>
+</div>
+<div class="header-menu-horizontal-wrapper">
+<div class="header-menu-horizontal" id="header-menu-horizontal">
+<div class="header-menu-horizontal-ads">
+<div class="header-menu-horizontal-ads-content">
+<div id="header-menu-horizontal-ad-superbanner" class="ad superbanner">
+<div id="header-menu-horizontal-ad-sb" style="display: block; ">
+<script type="text/psajs" orig_index="12">r7ad.print('Superbanner');</script>
+</div>
+</div>
+<div id="header-menu-horizontal-service-header">
+<div class="ad selo-c" id="ad-selo-1">
+<div class="r7-holder-adv">
+<script type="text/psajs" orig_index="13">r7ad.printGAds([172,90],'Selo_topo_HP1').fail(function(){r7adv.fallbackSnippet(1);});</script>
+</div>
+</div>
+<div class="ad selo-c" id="ad-selo-2">
+<div class="r7-holder-adv">
+<script type="text/psajs" orig_index="14">r7ad.printGAds([172,90],'Selo_topo_HP2').fail(function(){r7adv.fallbackSnippet(2);});</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="header-menu-horizontal-nav">
+<div class="header-menu-horizontal-nav-content">
+<div class="header-menu-horizontal-nav-content-logo">
+<a id="r7-product-logo" href="http://www.r7.com/">
+<img alt="Revamp_entrete" src="https://assets.r7.com/assets/schumi_core/revamp_entrete-0c9a6b2473605a2598813134826bfd07.png" title="Ir para R7.com"/>
+</a>
+</div>
+<ul id="nav-items" class="header-menu-horizontal-nav-items">
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item header-menu-horizontal-nav-item-videos has-submenu">
+<a href="http://tv.r7.com" title="Ir para Vídeos" class="header-menu-horizontal-nav-link">
+R7 TV
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-1-column">
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://tv.r7.com/love-school-escola-amor" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Love School">
+Love School
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://tv.r7.com/envie-seu-video" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7VC">
+R7VC
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://videos.r7.com/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Videos">
+Vídeos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://tv.r7.com/universal" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Universal">
+Universal
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item-noticias has-submenu">
+<a href="http://noticias.r7.com" title="Ir para Notícias" class="header-menu-horizontal-nav-link">
+Notícias
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-3-column">
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/bahia" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Bahia">
+Bahia
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/brasil" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Brasil">
+Brasil
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/carreiras" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Carreiras">
+Carreiras
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/carros" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Carros">
+Carros
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/cidades" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Cidades">
+Cidades
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/distrito-federal" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Distrito Federal">
+Distrito Federal
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/economia" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Economia">
+Economia
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/educacao" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Educação">
+Educação
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/eleicoes-2016" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Eleições 2016">
+Eleições 2016
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/invisiveis" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Especial Invisíveis">
+Especial Invisíveis
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/hora-7" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Hora 7">
+Hora 7
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/internacional/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Internacional">
+Internacional
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/minas-gerais" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Minas Gerais">
+Minas Gerais
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://tempoagora.com.br" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Previsão do Tempo">
+Previsão do Tempo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/prisma" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Prisma">
+Prisma
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/rio-de-janeiro" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Rio de Janeiro">
+Rio de Janeiro
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/sao-paulo" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para São Paulo">
+São Paulo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/saude" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Saúde">
+Saúde
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/tecnologia-e-ciencia" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Tecnologia & Ciência">
+Tecnologia & Ciência
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/transito" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Trânsito">
+Trânsito
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://www.triangulo.r7.com" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Triângulo Mineiro">
+Triângulo Mineiro
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/duelos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Duelos">
+Duelos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/fotos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Fotos">
+Fotos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/murais" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Murais">
+Murais
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/noticias" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Notícias">
+Notícias
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/prisma/todos-os-blogs" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Blogs">
+<strong>Blogs</strong>
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/blogs/ricardo-kotscho" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Ricardo Kotscho">
+Ricardo Kotscho
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href=" http://noticias.r7.com/blogs/andre-forastieri" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para André Forastieri">
+André Forastieri
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/blogs/nirlando-beirao" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Nirlando Beirão">
+Nirlando Beirão
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/blogs/herodoto-barbeiro" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Heródoto Barbeiro">
+Heródoto Barbeiro
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item-entretenimento has-submenu">
+<a href="http://entretenimento.r7.com" title="Ir para Entretenimento" class="header-menu-horizontal-nav-link">
+Entretenimento
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-3-column">
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/a-escrava-isaura" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para A Escrava Isaura">
+A Escrava Isaura
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/bate-papo" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Bate-papo">
+Bate-papo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/bichos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Bichos">
+Bichos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://cartaodevisita.com.br" target="_blank" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Cartão de Visita">
+Cartão de Visita
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/casa-e-familia" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Casa e Família">
+Casa e Família
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/pop/cinema" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Cinema">
+Cinema
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://www.estrelando.com.br" target="_blank" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Estrelando">
+Estrelando
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/hoje-em-dia/omo-puro-cuidado" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Especial Omo">
+Especial Omo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/famosos-e-tv" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Famosos e TV">
+Famosos e TV
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/pop/frases-e-mensagens" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Frases e Mensagens">
+Frases e Mensagens
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/humor" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Humor">
+Humor
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/jogos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Jogos">
+Jogos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/pop/jovem" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Jovem">
+Jovem
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/moda-e-beleza" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Moda e Beleza">
+Moda e Beleza
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/pop/musica" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Música">
+Música
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/mulher" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Mulher">
+Mulher
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/pop" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Pop">
+Pop
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/premios" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Prêmios">
+Prêmios
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/reality-show" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Reality Show">
+Reality Show
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/mulher/receitas-e-dietas" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Receitas e Dietas">
+Receitas e Dietas
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://www.vagalume.com.br" target="_blank" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Vagalume">
+Vagalume
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/viagens" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Viagens">
+Viagens
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/duelos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Duelos">
+Duelos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/fotos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Fotos">
+Fotos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/murais" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Murais">
+Murais
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/noticias" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Notícias">
+Notícias
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/prisma/todos-os-blogs" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Blogs">
+<strong>Blogs</strong>
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/blogs/luiz-pimentel" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Luiz Pimentel">
+Luiz Pimentel
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/blogs/alvaro-leme" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Álvaro Leme">
+Álvaro Leme
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/blogs/odair-braz-jr" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Odair Braz Junior">
+Odair Braz Junior
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/blogs/blog-da-db" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Blog da DB">
+Blog da DB
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href=" http://entretenimento.r7.com/blogs/keila-jimenez" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Blog da Keila Jimenez">
+Keila Jimenez
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item-esportes has-submenu">
+<a href="http://esportes.r7.com" title="Ir para Esportes" class="header-menu-horizontal-nav-link">
+Esportes
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-2-column">
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/automobilismo/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Automobilismo">
+Automobilismo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/futebol/copa-do-mundo-2014" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Copa do Mundo 2014">
+Copa do Mundo 2014
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/futebol/copa-das-confederacoes-2013" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Copa das Confederações 2013">
+Copa das Confederações 2013
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/esportes-olimpicos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Esportes Olímpicos">
+Esportes Olímpicos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/futebol" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Futebol">
+Futebol
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/mais-esportes/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Lutas">
+Lutas
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/mais-esportes" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Mais Esportes">
+Mais Esportes
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://recordtv.r7.com/pan-toronto-2015" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Mais Pan de Toronto">
+Pan de Toronto
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/duelos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Duelos">
+Duelos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/fotos" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Fotos">
+Fotos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/murais" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Murais">
+Murais
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/noticias" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Notícias">
+Notícias
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/prisma/todos-os-blogs" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Blogs">
+<strong>Blogs</strong>
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/blogs/cosme-rimoli" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Cosme Rímoli">
+Cosme Rímoli
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/blogs/lucas-pereira/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Lucas Pereira">
+Lucas Pereira
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/blogs/silvio-lancellotti" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Silvio Lancellotti">
+Silvio Lancellotti
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item-rederecord has-submenu">
+<a href="http://recordtv.r7.com" title="Ir para Record TV" class="header-menu-horizontal-nav-link">
+Record TV
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-2-column">
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/a-escrava-isaura" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para A Escrava Isaura">
+A Escrava Isaura
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/a-terra-prometida" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para A Terra Prometida">
+A Terra Prometida
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/amor-e-intrigas" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Amor e Intrigas">
+Amor e Intrigas
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/balanco-geral/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Balanço Geral">
+Balanço Geral
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/camera-record" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Câmera Record">
+Câmera Record
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/cidade-alerta/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Cidade Alerta">
+Cidade Alerta
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/domingo-espetacular" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Domingo Espetacular">
+Domingo Espetacular
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/domingo-show" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Domingo Show">
+Domingo Show
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/hoje-em-dia/omo-puro-cuidado" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Especial Omo">
+Especial Omo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://esportes.r7.com/esporte-fantastico" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Esporte Fantástico">
+Esporte Fantástico
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/fala-brasil" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Fala Brasil">
+Fala Brasil
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/programa-do-gugu" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Gugu">Gugu
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/hora-do-faro" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Hora do Faro">
+Hora do Faro
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/hoje-em-dia/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Hoje em Dia">
+Hoje em Dia
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/jornal-da-record" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Jornal da Record">
+Jornal da Record
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/legendarios/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Legendários">
+Legendários
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/o-rico-e-lazaro" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para O Rico e Lázaro">
+O Rico e Lázaro
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/power-couple-brasil-2" class="header-menu-horizontal-sub-nav-item-link" title="Ir Power Couple Brasil">
+Power Couple Brasil
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://recordtv.r7.com/programacao/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Programação">
+Programação
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/programa-da-sabrina" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Programa da Sabrina">
+Programa da Sabrina
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/programa-do-porchat" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Programa do Porchat">
+Programa do Porchat
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/reporter-em-acao" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Repórter em Ação">
+Repórter em Ação
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/reporter-record-investigacao" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Repórter Record Investigação">
+Repórter Record Investigação
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/ribeirao-do-tempo" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Ribeirão do Tempo">
+Ribeirão do Tempo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/roberto-justus-mais/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Roberto Justus">
+Roberto Justus +
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/sp-no-ar" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para SP no Ar">
+SP no Ar
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/love-school-escola-amor/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para The Love School">
+The Love School
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://recordtv.r7.com/tv-digital/" class="header-menu-horizontal-sub-nav-item-link" title="Ir TV Digital">
+TV Digital
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/vidas-em-jogo" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Vidas em jogo">
+Vidas em jogo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://entretenimento.r7.com/xuxa/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Xuxa Meneghel">
+Xuxa Meneghel
+</a>
+</li>
+</ul>
+</div>
+</li>
+<li class="header-menu-horizontal-nav-item header-menu-horizontal-nav-item-servicos has-submenu">
+<a href="http://servicos.r7.com" title="Ir para Serviços" class="header-menu-horizontal-nav-link">
+Serviços
+</a>
+<div class="header-menu-horizontal-sub-nav-wrap header-menu-horizontal-sub-nav-wrap-last header-menu-horizontal-sub-nav-wrap-2-column">
+<ul class="header-menu-horizontal-sub-nav-items border-right">
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://email.r7.com/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para E-mail">
+E-mail
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://concursos.r7.com/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Concursos">
+R7 Concursos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://cursos.r7.com/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Cursos">
+R7 Cursos
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://noticias.r7.com/educacao/cursos-online" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Educação Online">
+R7 Educação Online
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://www.r7.com/movel/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Móvel">
+R7 Móvel
+</a>
+</li>
+</ul>
+<ul class="header-menu-horizontal-sub-nav-items">
+<li class="header-menu-horizontal-sub-nav-item">
+<a class="header-menu-horizontal-sub-nav-item-link" title="Ir para a página do R7 Play" href="http://www.r7.com/r7-play/" target="_blank">
+R7 Play
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://www.r7.com/movel/sms" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Torpedo">
+R7 Torpedo
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="http://trilhassonoras.r7.com/" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para R7 Trilhas Sonoras">
+R7 Trilhas Sonoras
+</a>
+</li>
+<li class="header-menu-horizontal-sub-nav-item">
+<a href="https://shoppingrecord.com.br" target="_blank" class="header-menu-horizontal-sub-nav-item-link" title="Ir Para Shopping Record">
+Shopping Record
+</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<ul class="header-menu-horizontal-social-items">
+<li class="header-menu-horizontal-social-item header-menu-horizontal-social-item-accessibility">
+<a href="http://noticias.r7.com/acessibilidade/conheca-as-ferramentas-de-acessibilidade-disponiveis-no-r7com-19082016" class="newtab" title="Ir para Acessibilidade">
+<span class="header-menu-horizontal-ico-accessibility"></span>
+<span class="header-menu-horizontal-social-name">Acessibilidade</span>
+</a>
+</li>
+<li class="header-menu-horizontal-social-item header-menu-horizontal-social-item-facebook open-item">
+<a href="https://www.facebook.com/portalr7" class="newtab" target="_facebook" title="Curta o R7 no Facebook">
+<i class="fa fa-facebook"></i>
+<span class="header-menu-horizontal-social-name">Facebook</span>
+</a>
+<div class="header-menu-horizontal-complement-items-content header-menu-horizontal-user-links target-item fb-follow">
+<i class="header-menu-horizontal-sprite-complement top-arrow"></i>
+<script type="text/psajs" orig_index="15">(function(){window.pagespeed=window.pagespeed||{};var b=window.pagespeed,c=function(){};c.prototype.a=function(){var a=document.getElementsByTagName("pagespeed_iframe");if(0<a.length){for(var a=a[0],f=document.createElement("iframe"),d=0,e=a.attributes,g=e.length;d<g;++d)f.setAttribute(e[d].name,e[d].value);a.parentNode.replaceChild(f,a)}};c.prototype.convertToIframe=c.prototype.a;b.b=function(){b.deferIframe=new c};b.deferIframeInit=b.b;})();
+pagespeed.deferIframeInit();</script><pagespeed_iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fportalr7&amp;send=false&amp;layout=button_count&amp;width=103&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;locale=pt_BR" scrolling="no" frameborder="0" style="border:none; overflow:hidden; max-width:126px; height:21px;" allowtransparency="true">
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="16">
+pagespeed.deferIframe.convertToIframe();</script></pagespeed_iframe>
+</div>
+</li>
+<li class="header-menu-horizontal-social-item header-menu-horizontal-social-item-twitter open-item">
+<a href="https://twitter.com/portalr7" class="newtab" target="_twitter" title="Siga o Portal R7 no Twitter">
+<i class="fa fa-twitter"></i>
+<span class="header-menu-horizontal-social-name">Twitter</span>
+</a>
+<div class="header-menu-horizontal-complement-items-content header-menu-horizontal-user-links target-item tw-follow">
+<i class="header-menu-horizontal-sprite-complement top-arrow"></i>
+<a href="https://twitter.com/portalr7" class="twitter-follow-button" data-show-screen-name="true" data-show-count="true" data-lang="pt">Seguir @portalr7</a>
+<script type="text/psajs" orig_index="17">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+</li>
+<li class="header-menu-horizontal-social-item header-menu-horizontal-social-item-network open-item">
+<div class="newtabwithoutlink">
+<i class="network-icon"></i>
+<span class="header-menu-horizontal-social-name">Espalhe</span>
+</div>
+<div class="header-menu-horizontal-complement-items-content header-menu-horizontal-user-links target-item network-follow">
+<i class="header-menu-horizontal-sprite-complement top-arrow"></i>
+<ul class="r7-social-media">
+<li class="r7-newicons r7-gplus" title="Acompanhe o R7 no Google +">
+<a rel="nofollow" href="https://plus.google.com/+PortalR7" target="_blank">Siga o R7 no Instagram</a>
+</li>
+<li class="r7-newicons r7-instagram" title="Siga o R7 no Instagram">
+<a rel="nofollow" href="https://instagram.com/portalr7" target="_blank">Siga o R7 no Instagram</a>
+</li>
+<li class="r7-newicons r7-youtube" title="Inscreva-se no canal do R7 no Youtube">
+<a rel="nofollow" href="https://youtube.com/r7" target="_blank">Inscreva-se no canal do R7 no Youtube</a>
+</li>
+<li class="r7-newicons r7-rss" title="Receba notícias do R7">
+<a rel="nofollow" href="http://www.r7.com/institucional/rss/rss.html" target="_blank">Receba notícias do R7</a>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<div class="header-menu-horizontal-send-video">
+<a href="http://tv.r7.com/envie-seu-video" title="Envie um vídeo para o R7">
+<i class="send-video-icon"></i>
+<span class="header-menu-horizontal-social-name">Envie seu vídeo</span>
+</a>
+</div>
+<div class="header-menu-horizontal-search">
+<a href="javascript:void(0)" class="open-search-bar">
+<i class="search-icon"></i>
+<span class="header-menu-horizontal-social-name">Buscar</span>
+</a>
+</div>
+<div class="header-menu-horizontal-search-bar">
+<form action="http://busca.r7.com" method="get" class="r7-top-video-main-form is-video" id="r7-top-video-search-form">
+<input type="text" class="r7-top-video-input maximum-radius-only-left pull-left large-input" placeholder="O que você está procurando?" id="r7-top-video-search" name="q"/>
+<input type="hidden" name="media" value />
+<button type="submit" class="maximum-radius-only-right pull-left text-uppercase r7-top-video-btn">ok</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="http://entretenimento.r7.com/_,Mjo.RoQ0ZVkcNA.js.pagespeed.jm.fGeWpp5rAG.js" type="text/psajs" orig_index="18"></script>
+<div class="body-holder">
+<div class="main-holder  is-blog-main  is-listing ">
+<div id="r7ad-bgLeft">
+<script type="text/psajs" orig_index="19">r7ad.printGAds([204,792],{pos:"bg",context:"left"}).success(function(){r7adv.has_bg=true;});</script>
+</div>
+<div id="r7ad-bgRight">
+<script type="text/psajs" orig_index="20">r7ad.printGAds([204,792],{pos:"bg",context:"right"}).success(function(){r7adv.has_bg=true;});</script>
+</div>
+<div class="pre-main-content">
+<div id="main" class="r7container-8  is-blog-main  is-listing  is-listing " data-browser-name="firefox">
+<div>
+</div>
+<div id="side_menu" class="r7cl-menu r7alpha">
+</div>
+<div id="content_scheme" class="r7container-7 content_scheme">
+<div id="heading" class="r7cl7 ref-entretenimento">
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="21">googletag.pubads().addEventListener('slotRenderEnded',function(event){if((event.slot.getTargeting('pos')=="bg")){if(!event.isEmpty){r7adv.has_bg=true;}}});$(function(){postscribe('#r7-skyscraper-sidebar','<script>if ((r7adv.has_bg != true) && r7adv.allowSkyscraper()){ r7ad.printGAds([120, 600],"skyscraper"); }<\/script>');});</script>
+<div class="r7-adv-skyscraper scrollable" id="r7-skyscraper-sidebar">
+</div>
+<div class="banner-customizado">
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="22">r7ad.printGAds([300,50],"BannerCustomizado")</script>
+</div>
+</div>
+<div class="row">
+<div id="gallery" class="r7cl5">
+<h2 class="r7list-title">Fotos</h2>
+<div class="nwl-wrapper">
+<h6 class="nwl-date">28/03/2017</h6>
+<ul class="nwl-news-of-day">
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">12h19</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017" title="Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017" title="Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união " target="_self" data-social-lead="Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/28/3mq4st5qw3_rw5pvdv0b_file?dimensions=140x95" title="Reprodução/Instagram" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017" title="Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união " class="nwl-link" target="_self">
+Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">12h04</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/filha-de-eminem-surpreende-fas-com-beleza-e-sensualidade-veja-fotos-da-gata-28032017" title="Filha de Eminem surpreende fãs com beleza e sensualidade. Veja fotos da gata" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/filha-de-eminem-surpreende-fas-com-beleza-e-sensualidade-veja-fotos-da-gata-28032017" title="Filha de Eminem surpreende fãs com beleza e sensualidade. Veja fotos da gata" target="_self" data-social-lead="Filha de Eminem surpreende fãs com beleza e sensualidade. Veja fotos da gata">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/28/89ih7fdi1t_2vqo6omgoj_file?dimensions=140x95" title="Reprodução/Instagram" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/filha-de-eminem-surpreende-fas-com-beleza-e-sensualidade-veja-fotos-da-gata-28032017" title="Filha de Eminem surpreende fãs com beleza e sensualidade. Veja fotos da gata" class="nwl-link" target="_self">
+Filha de Eminem surpreende fãs com beleza e sensualidade. Veja fotos da gata
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">11h02</span>
+<span href="http://entretenimento.r7.com/mulher/fotos/um-decote-e-um-decote-jessica-chastain-arrasa-em-tapete-vermelho-de-pre-estreia-em-los-angeles-28032017" title="Um decote é um decote! Jessica Chastain arrasa em tapete vermelho de pré-estreia em Los Angeles " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/mulher/fotos/um-decote-e-um-decote-jessica-chastain-arrasa-em-tapete-vermelho-de-pre-estreia-em-los-angeles-28032017" title="Um decote é um decote! Jessica Chastain arrasa em tapete vermelho de pré-estreia em Los Angeles " target="_self" data-social-lead="Um decote é um decote! Jessica Chastain arrasa em tapete vermelho de pré-estreia em Los Angeles ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/28/87jkwtm6nu_7sc0wk5keh_file?dimensions=140x95" title="Getty Images" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/mulher" title="Mulher" class="nwl-section bullet content_scheme">Mulher</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/mulher/fotos/um-decote-e-um-decote-jessica-chastain-arrasa-em-tapete-vermelho-de-pre-estreia-em-los-angeles-28032017" title="Um decote é um decote! Jessica Chastain arrasa em tapete vermelho de pré-estreia em Los Angeles " class="nwl-link" target="_self">
+Um decote é um decote! Jessica Chastain arrasa em tapete vermelho de pré-estreia em Los Angeles
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">10h12</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/olha-ela-ana-maria-braga-curte-noite-em-restaurante-na-zona-sul-carioca-28032017" title="Olha ela! Ana Maria Braga curte noite em restaurante na zona sul carioca" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/olha-ela-ana-maria-braga-curte-noite-em-restaurante-na-zona-sul-carioca-28032017" title="Olha ela! Ana Maria Braga curte noite em restaurante na zona sul carioca" target="_self" data-social-lead="Olha ela! Ana Maria Braga curte noite em restaurante na zona sul carioca">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/28/7wv3kpft2z_27e3yisur7_file.jpg?dimensions=140x95" title="AgNews" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/olha-ela-ana-maria-braga-curte-noite-em-restaurante-na-zona-sul-carioca-28032017" title="Olha ela! Ana Maria Braga curte noite em restaurante na zona sul carioca" class="nwl-link" target="_self">
+Olha ela! Ana Maria Braga curte noite em restaurante na zona sul carioca
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">00h15</span>
+<span href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-revela-cinco-noticias-absurdas-que-ja-publicaram-a-seu-respeito-28032017" title="Antonia Fontenelle revela cinco notícias absurdas que já publicaram a seu respeito" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-revela-cinco-noticias-absurdas-que-ja-publicaram-a-seu-respeito-28032017" title="Antonia Fontenelle revela cinco notícias absurdas que já publicaram a seu respeito" target="_self" data-social-lead="Antonia Fontenelle revela cinco notícias absurdas que já publicaram a seu respeito">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/lszarw5fp_79ud4ly2gy_file?dimensions=140x95" title="Edu Moraes/Record TV" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/programa-do-porchat" title="Programa do Porchat" class="nwl-section bullet content_scheme">Programa do Porchat</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-revela-cinco-noticias-absurdas-que-ja-publicaram-a-seu-respeito-28032017" title="Antonia Fontenelle revela cinco notícias absurdas que já publicaram a seu respeito" class="nwl-link" target="_self">
+Antonia Fontenelle revela cinco notícias absurdas que já publicaram a seu respeito
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">00h10</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/maya-e-kiara-filhas-gemeas-de-natalia-guimaraes-roubam-a-cena-com-looks-superestilosos-28032017" title="Maya e Kiara, filhas gêmeas de Natália Guimarães, roubam a cena com looks superestilosos" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/maya-e-kiara-filhas-gemeas-de-natalia-guimaraes-roubam-a-cena-com-looks-superestilosos-28032017" title="Maya e Kiara, filhas gêmeas de Natália Guimarães, roubam a cena com looks superestilosos" target="_self" data-social-lead="Maya e Kiara, filhas gêmeas de Natália Guimarães, roubam a cena com looks superestilosos">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/dcm3aq4tb_3d5bapogdw_file.jpg?dimensions=140x95" title="Reprodução/Instagram" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/maya-e-kiara-filhas-gemeas-de-natalia-guimaraes-roubam-a-cena-com-looks-superestilosos-28032017" title="Maya e Kiara, filhas gêmeas de Natália Guimarães, roubam a cena com looks superestilosos" class="nwl-link" target="_self">
+Maya e Kiara, filhas gêmeas de Natália Guimarães, roubam a cena com looks superestilosos
+</a>
+</p>
+</span>
+</li>
+</ul>
+</div>
+<div class="nwl-wrapper">
+<h6 class="nwl-date">27/03/2017</h6>
+<ul class="nwl-news-of-day">
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">21h59</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/romario-aparece-mais-magro-em-dia-de-praia-no-rio-27032017" title="Romário aparece mais magro em dia de praia no Rio" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/romario-aparece-mais-magro-em-dia-de-praia-no-rio-27032017" title="Romário aparece mais magro em dia de praia no Rio" target="_self" data-social-lead="Romário aparece mais magro em dia de praia no Rio">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/n0oi2zf7u_3bvoimfuhv_file.jpg?dimensions=140x95" title="AgNews" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/romario-aparece-mais-magro-em-dia-de-praia-no-rio-27032017" title="Romário aparece mais magro em dia de praia no Rio" class="nwl-link" target="_self">
+Romário aparece mais magro em dia de praia no Rio
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">21h01</span>
+<span href="http://entretenimento.r7.com/mulher/fotos/thais-bianca-muda-o-visual-e-fica-loirissima-estou-chamando-mais-atencao-27032017" title="Thais Bianca muda o visual e fica loiríssima: " estou chamando mais atenção"" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/mulher/fotos/thais-bianca-muda-o-visual-e-fica-loirissima-estou-chamando-mais-atencao-27032017" title="Thais Bianca muda o visual e fica loiríssima: " estou chamando mais atenção"" target="_self" data-social-lead="Thais Bianca muda o visual e fica loiríssima: &quot;Estou chamando mais atenção&quot;">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/5ih1vq42p2_4v1vx20wdn_file?dimensions=140x95" title="Bruno Kennedy/ Divulgação/ Agência Fio Condutor " width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/mulher" title="Mulher" class="nwl-section bullet content_scheme">Mulher</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/mulher/fotos/thais-bianca-muda-o-visual-e-fica-loirissima-estou-chamando-mais-atencao-27032017" title="Thais Bianca muda o visual e fica loiríssima: " estou chamando mais atenção"" class="nwl-link" target="_self">
+Thais Bianca muda o visual e fica loiríssima: "Estou chamando mais atenção"
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">20h05</span>
+<span href="http://entretenimento.r7.com/humor/fotos/vai-vendo-quem-melhorou-a-foto-foi-a-camiseta-ou-nao-28032017" title="Vai vendo: quem melhorou a foto foi a camiseta! Ou não!" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/humor/fotos/vai-vendo-quem-melhorou-a-foto-foi-a-camiseta-ou-nao-28032017" title="Vai vendo: quem melhorou a foto foi a camiseta! Ou não!" target="_self" data-social-lead="Vai vendo: quem melhorou a foto foi a camiseta! Ou não!">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2013/02/27/17_14_12_364_file?dimensions=140x95" title="Reprodução/AcidCow" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/humor" title="Humor" class="nwl-section bullet content_scheme">Humor</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/humor/fotos/vai-vendo-quem-melhorou-a-foto-foi-a-camiseta-ou-nao-28032017" title="Vai vendo: quem melhorou a foto foi a camiseta! Ou não!" class="nwl-link" target="_self">
+Vai vendo: quem melhorou a foto foi a camiseta! Ou não!
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">19h37</span>
+<span href="http://entretenimento.r7.com/pop/fotos/no-rio-de-janeiro-octavia-spencer-participa-de-coletiva-de-imprensa-sobre-a-cabana-27032017" title="No Rio de Janeiro, Octavia Spencer participa de coletiva de imprensa sobre A Cabana" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/pop/fotos/no-rio-de-janeiro-octavia-spencer-participa-de-coletiva-de-imprensa-sobre-a-cabana-27032017" title="No Rio de Janeiro, Octavia Spencer participa de coletiva de imprensa sobre A Cabana" target="_self" data-social-lead="No Rio de Janeiro, Octavia Spencer participa de coletiva de imprensa sobre A Cabana">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/1yf8u0oa2k_3jzlhfrb1u_file?dimensions=140x95" title="Anderson Borde/AgNews" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/pop" title="Pop" class="nwl-section bullet content_scheme">Pop</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/pop/fotos/no-rio-de-janeiro-octavia-spencer-participa-de-coletiva-de-imprensa-sobre-a-cabana-27032017" title="No Rio de Janeiro, Octavia Spencer participa de coletiva de imprensa sobre A Cabana" class="nwl-link" target="_self">
+No Rio de Janeiro, Octavia Spencer participa de coletiva de imprensa sobre A Cabana
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">18h15</span>
+<span href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-rasga-o-verbo-sobre-briga-judicial-por-heranca-e-fim-do-casamento-no-programa-do-porchat-27032017" title="Antonia Fontenelle rasga o verbo sobre briga judicial por herança e fim do casamento no Programa do Porchat " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-rasga-o-verbo-sobre-briga-judicial-por-heranca-e-fim-do-casamento-no-programa-do-porchat-27032017" title="Antonia Fontenelle rasga o verbo sobre briga judicial por herança e fim do casamento no Programa do Porchat " target="_self" data-social-lead="Antonia Fontenelle rasga o verbo sobre briga judicial por herança e fim do casamento no Programa do Porchat ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/6atx86hlwg_1895qes1hl_file?dimensions=140x95" title="Edu Moraes/Record TV" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/programa-do-porchat" title="Programa do Porchat" class="nwl-section bullet content_scheme">Programa do Porchat</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/programa-do-porchat/fotos/antonia-fontenelle-rasga-o-verbo-sobre-briga-judicial-por-heranca-e-fim-do-casamento-no-programa-do-porchat-27032017" title="Antonia Fontenelle rasga o verbo sobre briga judicial por herança e fim do casamento no Programa do Porchat " class="nwl-link" target="_self">
+Antonia Fontenelle rasga o verbo sobre briga judicial por herança e fim do casamento no Programa do Porchat
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">17h41</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/ex-atriz-mirim-gordinha-vira-mulherao-e-fala-de-emagrecimento-sempre-precisei-me-preocupar-com-o-peso-28032017" title="Ex-atriz mirim gordinha vira mulherão e fala de emagrecimento: " sempre precisei me preocupar com o peso"" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/ex-atriz-mirim-gordinha-vira-mulherao-e-fala-de-emagrecimento-sempre-precisei-me-preocupar-com-o-peso-28032017" title="Ex-atriz mirim gordinha vira mulherão e fala de emagrecimento: " sempre precisei me preocupar com o peso"" target="_self" data-social-lead="Ex-atriz mirim gordinha vira mulherão e fala de emagrecimento: &quot;Sempre precisei me preocupar com o peso&quot;">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/1w9qbw420x_20xiya42af_file.jpg?dimensions=140x95" title="Reprodução/Rede Globo/Instagram" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/ex-atriz-mirim-gordinha-vira-mulherao-e-fala-de-emagrecimento-sempre-precisei-me-preocupar-com-o-peso-28032017" title="Ex-atriz mirim gordinha vira mulherão e fala de emagrecimento: " sempre precisei me preocupar com o peso"" class="nwl-link" target="_self">
+Ex-atriz mirim gordinha vira mulherão e fala de emagrecimento: "Sempre precisei me preocupar com o peso"
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">16h55</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/xuxa-completa-54-anos-e-e-homenageada-por-famosos-27032017" title="Xuxa completa 54 anos e é homenageada por famosos " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/xuxa-completa-54-anos-e-e-homenageada-por-famosos-27032017" title="Xuxa completa 54 anos e é homenageada por famosos " target="_self" data-social-lead="Xuxa completa 54 anos e é homenageada por famosos ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/9bobxkwy17_8vgbx8qi2o_file?dimensions=140x95" title="Reprodução/Instagram" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/xuxa-completa-54-anos-e-e-homenageada-por-famosos-27032017" title="Xuxa completa 54 anos e é homenageada por famosos " class="nwl-link" target="_self">
+Xuxa completa 54 anos e é homenageada por famosos
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">15h53</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/andressa-urach-anda-de-patins-com-a-familia-em-parque-e-revela-nunca-fomos-tao-felizes-27032017" title="Andressa Urach anda de patins com a família em parque e revela: " nunca fomos tão felizes"" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/andressa-urach-anda-de-patins-com-a-familia-em-parque-e-revela-nunca-fomos-tao-felizes-27032017" title="Andressa Urach anda de patins com a família em parque e revela: " nunca fomos tão felizes"" target="_self" data-social-lead="Andressa Urach anda de patins com a família em parque e revela: &quot;Nunca fomos tão felizes&quot;">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/236mbnrntl_6m3fjd83pa_file?dimensions=140x95" title="Thais Aline/ Agência Fio Condutor" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/andressa-urach-anda-de-patins-com-a-familia-em-parque-e-revela-nunca-fomos-tao-felizes-27032017" title="Andressa Urach anda de patins com a família em parque e revela: " nunca fomos tão felizes"" class="nwl-link" target="_self">
+Andressa Urach anda de patins com a família em parque e revela: "Nunca fomos tão felizes"
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">13h56</span>
+<span href="http://entretenimento.r7.com/mulher/fotos/descubra-mitos-e-verdades-sobre-o-uso-de-cintas-modeladoras-que-tem-sabrina-sato-entre-as-adeptas-27032017" title="Descubra mitos e verdades sobre o uso de cintas modeladoras, que tem Sabrina Sato entre as adeptas" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/mulher/fotos/descubra-mitos-e-verdades-sobre-o-uso-de-cintas-modeladoras-que-tem-sabrina-sato-entre-as-adeptas-27032017" title="Descubra mitos e verdades sobre o uso de cintas modeladoras, que tem Sabrina Sato entre as adeptas" target="_self" data-social-lead="Descubra mitos e verdades sobre o uso de cintas modeladoras, que tem Sabrina Sato entre as adeptas">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/2jkjc0ta5f_7hzazpluam_file?dimensions=140x95" title="Reprodução/Instagram " width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/mulher" title="Mulher" class="nwl-section bullet content_scheme">Mulher</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/mulher/fotos/descubra-mitos-e-verdades-sobre-o-uso-de-cintas-modeladoras-que-tem-sabrina-sato-entre-as-adeptas-27032017" title="Descubra mitos e verdades sobre o uso de cintas modeladoras, que tem Sabrina Sato entre as adeptas" class="nwl-link" target="_self">
+Descubra mitos e verdades sobre o uso de cintas modeladoras, que tem Sabrina Sato entre as adeptas
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">09h40</span>
+<span href="http://entretenimento.r7.com/famosos-e-tv/fotos/selena-gomez-e-the-weeknd-embarcam-no-aeroporto-de-guarulhos-apos-show-no-lollapalooza-27032017" title="Selena Gomez e The Weeknd embarcam no aeroporto de Guarulhos após show no Lollapalooza " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/selena-gomez-e-the-weeknd-embarcam-no-aeroporto-de-guarulhos-apos-show-no-lollapalooza-27032017" title="Selena Gomez e The Weeknd embarcam no aeroporto de Guarulhos após show no Lollapalooza " target="_self" data-social-lead="Selena Gomez e The Weeknd embarcam no aeroporto de Guarulhos após show no Lollapalooza ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/5w9ll6n2mj_3yzcms6q45_file.jpg?dimensions=140x95" title="Raphael Castello " width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/famosos-e-tv" title="Famosos e TV" class="nwl-section bullet content_scheme">Famosos e TV</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/selena-gomez-e-the-weeknd-embarcam-no-aeroporto-de-guarulhos-apos-show-no-lollapalooza-27032017" title="Selena Gomez e The Weeknd embarcam no aeroporto de Guarulhos após show no Lollapalooza " class="nwl-link" target="_self">
+Selena Gomez e The Weeknd embarcam no aeroporto de Guarulhos após show no Lollapalooza
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">08h59</span>
+<span href="http://entretenimento.r7.com/pop/fotos/de-camarote-selena-gomez-assiste-ao-show-do-the-weeknd-no-lollapalooza-27032017" title="De camarote, Selena Gomez assiste ao show do The Weeknd no Lollapalooza" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/pop/fotos/de-camarote-selena-gomez-assiste-ao-show-do-the-weeknd-no-lollapalooza-27032017" title="De camarote, Selena Gomez assiste ao show do The Weeknd no Lollapalooza" target="_self" data-social-lead="De camarote, Selena Gomez assiste ao show do The Weeknd no Lollapalooza">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/27/5mln4csq5f_400l9qrwoo_file.jpg?dimensions=140x95" title="FranciscoCepedaAgNews" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/pop" title="Pop" class="nwl-section bullet content_scheme">Pop</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/pop/fotos/de-camarote-selena-gomez-assiste-ao-show-do-the-weeknd-no-lollapalooza-27032017" title="De camarote, Selena Gomez assiste ao show do The Weeknd no Lollapalooza" class="nwl-link" target="_self">
+De camarote, Selena Gomez assiste ao show do The Weeknd no Lollapalooza
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">01h00</span>
+<span href="http://entretenimento.r7.com/o-rico-e-lazaro/fotos/o-tempo-passa-veja-como-ficam-os-personagens-de-o-rico-e-lazaro-na-segunda-fase-da-novela-27032017" title="O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela " class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/o-rico-e-lazaro/fotos/o-tempo-passa-veja-como-ficam-os-personagens-de-o-rico-e-lazaro-na-segunda-fase-da-novela-27032017" title="O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela " target="_self" data-social-lead="O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela ">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/24/6xbfxpz9iy_123v6hilic_file.jpg?dimensions=140x95" title="O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela " width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/o-rico-e-lazaro" title="O Rico e Lázaro" class="nwl-section bullet content_scheme">O Rico e Lázaro</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/o-rico-e-lazaro/fotos/o-tempo-passa-veja-como-ficam-os-personagens-de-o-rico-e-lazaro-na-segunda-fase-da-novela-27032017" title="O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela " class="nwl-link" target="_self">
+O tempo passa: veja como ficam os personagens de O Rico e Lázaro na segunda fase da novela
+</a>
+</p>
+</span>
+</li>
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">00h06</span>
+<span href="http://entretenimento.r7.com/viagens/fotos/paris-barcelona-e-londres-sao-destinos-mais-procurados-para-primeira-viagem-internacional-27032017" title="Paris, Barcelona e Londres são destinos mais procurados para primeira viagem internacional" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/viagens/fotos/paris-barcelona-e-londres-sao-destinos-mais-procurados-para-primeira-viagem-internacional-27032017" title="Paris, Barcelona e Londres são destinos mais procurados para primeira viagem internacional" target="_self" data-social-lead="Paris, Barcelona e Londres são destinos mais procurados para primeira viagem internacional">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/23/1837oj5bmp_2qe1i402b_file?dimensions=140x95" title="Reprodução" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/viagens" title="Viagens" class="nwl-section bullet content_scheme">Viagens</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/viagens/fotos/paris-barcelona-e-londres-sao-destinos-mais-procurados-para-primeira-viagem-internacional-27032017" title="Paris, Barcelona e Londres são destinos mais procurados para primeira viagem internacional" class="nwl-link" target="_self">
+Paris, Barcelona e Londres são destinos mais procurados para primeira viagem internacional
+</a>
+</p>
+</span>
+</li>
+</ul>
+</div>
+<div class="nwl-wrapper">
+<h6 class="nwl-date">26/03/2017</h6>
+<ul class="nwl-news-of-day">
+<li class="nwl-has-img nwl-row">
+<span class="nwl-news-time">20h39</span>
+<span href="http://entretenimento.r7.com/pop/fotos/the-weeknd-mo-e-duran-duran-agitam-publico-com-shows-no-segundo-dia-de-lollapalooza-26032017" title="The Weeknd, MØ e Duran Duran agitam público com shows no segundo dia de Lollapalooza" class="nwl-wpr-cover box">
+<div class="r7-shareit-holder">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/pop/fotos/the-weeknd-mo-e-duran-duran-agitam-publico-com-shows-no-segundo-dia-de-lollapalooza-26032017" title="The Weeknd, MØ e Duran Duran agitam público com shows no segundo dia de Lollapalooza" target="_self" data-social-lead="The Weeknd, MØ e Duran Duran agitam público com shows no segundo dia de Lollapalooza">
+<img class="nwl-cover-reference" src="https://img.r7.com/images/2017/03/26/8cf1luxilt_69wx6lu7ac_file.jpg?dimensions=140x95" title="Iwi Onodera e Manuela Scarpa/Brazil News" width="140" height="95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+</span>
+<span class="nwl-info">
+<a href="http://entretenimento.r7.com/pop" title="Pop" class="nwl-section bullet content_scheme">Pop</a>
+<p class="nwl-news-title">
+<a href="http://entretenimento.r7.com/pop/fotos/the-weeknd-mo-e-duran-duran-agitam-publico-com-shows-no-segundo-dia-de-lollapalooza-26032017" title="The Weeknd, MØ e Duran Duran agitam público com shows no segundo dia de Lollapalooza" class="nwl-link" target="_self">
+The Weeknd, MØ e Duran Duran agitam público com shows no segundo dia de Lollapalooza
+</a>
+</p>
+</span>
+</li>
+</ul>
+</div>
+<div class="pagination"><span class="previous_page disabled">Anterior</span> <em class="current">1</em> <a rel="next" href="/fotos?mobile_cookie=true&amp;page=2">2</a> <a href="/fotos?mobile_cookie=true&amp;page=3">3</a> <a href="/fotos?mobile_cookie=true&amp;page=4">4</a> <a href="/fotos?mobile_cookie=true&amp;page=5">5</a> <a href="/fotos?mobile_cookie=true&amp;page=6">6</a> <a href="/fotos?mobile_cookie=true&amp;page=7">7</a> <a href="/fotos?mobile_cookie=true&amp;page=8">8</a> <a href="/fotos?mobile_cookie=true&amp;page=9">9</a> <span class="gap">...</span> <a href="/fotos?mobile_cookie=true&amp;page=2541">2541</a> <a href="/fotos?mobile_cookie=true&amp;page=2542">2542</a> <a class="next_page" rel="next" href="/fotos?mobile_cookie=true&amp;page=2">Próximo</a></div>
+<div class="r7ad-sponsored-links">
+<div class="r7ad-links-patrocinados">
+<script pagespeed_orig_type="text/javascript" language="javascript" charset="utf-8" type="text/psajs" orig_index="23">r7ad.printGAds([728,90],'Superbanner2');</script>
+</div>
+</div>
+<div class="box r7box-servicos-internal">
+<div class="box r7box-servicos-internal">
+<div class="r7box r7box-servicos" id="r7box_servicos_internal">
+</div>
+<script id="services_box_internal_template" type="text/x-handlebars-template">
+    <div class="r7box-title">
+      <h3 class="headline" data-headline="block_title" data-item="block_title">Serviços do R7</h3>
+    </div>
+
+    <div class="r7main-service">
+      <ul>
+      {{#each service}}
+        <li>
+          <a href="{{link}}" class="r7highlight">
+            <span class="r7headline">{{title}}</span>
+            <img src="{{imgsrc}}" title="{{strip_tags subtitle}}" />
+            <span class="r7lead">{{subtitle}}</span>
+          </a>
+        </li>
+        {{#row_break @index}}
+          <li class="r7line-separator"></li>
+        {{/row_break}}
+      {{/each}}
+      </ul>
+    </div>
+    <div class="r7secondary-service">
+      <ul>
+        {{#each secondary_service}}
+        <li>
+          <a href="{{link}}" class="r7highlight">
+            <img src="{{imgsrc}}" title="{{subtitle}}" />
+          </a>
+        </li>
+        {{/each}}
+      </ul>
+    </div>
+  </script>
+</div>
+</div>
+</div>
+<div class="column r7cl2 r7omega">
+<div>
+<div class="box publicidade">
+<div id="51afa34c490f8c255e000f02-island">
+<div>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="24">r7ad.printGAds([300,250],'Island');</script>
+</div>
+</div>
+</div>
+<div class="box chamada_com_foto">
+<script src="https://www.googletagservices.com/tag/js/gpt.js" type="text/psajs" orig_index="25"></script>
+<script type="text/psajs" orig_index="26">var gptAdSlots=[],unitAdPath=r7ad.hash;googletag=googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(function(){gptAdSlots[0]=googletag.defineSlot(unitAdPath,'fluid','nativead-ccf-slot').addService(googletag.pubads());googletag.pubads().setTargeting('pos','native');googletag.pubads().setTargeting('context','chamadacomfoto');googletag.pubads().enableSingleRequest();googletag.enableServices();});</script>
+<div id="nativead-ccf-slot">
+<script type="text/psajs" orig_index="27">googletag.cmd.push(function(){googletag.display('nativead-ccf-slot');});</script>
+</div>
+</div>
+<div class="box iframe_duas_colunas">
+<pagespeed_iframe src="http://www.r7.com/r7/media/comercial/tagsR7/new/br_r7_300x450_entretenimiento_homepage.html" width="300" height="450" frameborder="0" scrolling="no"><script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="28">
+pagespeed.deferIframe.convertToIframe();</script></pagespeed_iframe>
+</div>
+<div class="box ultimas_noticias">
+<ul class="last-news-header">
+<li class="active">
+<div>
+<h2>Últimas de Entretenimento</h2>
+</div>
+</li>
+<li>
+<div><h2>Últimas do R7</h2></div>
+</li>
+</ul>
+<div class="last-news-content">
+<div class="active">
+<ul class="all-content active">
+<li>
+<div class="r7box r7-shareit-holder news_info_container ">
+<div class="date-hat">14h35<br/><span>Nação da Música</span></div>
+<div class="r7box r7-shareit-holder r7-shareit-width news_left">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/pop/musica/nacao-da-musica/metallica-divulga-video-de-halo-on-fire-no-lollapalooza-brasil-28032017" title="Metallica divulga vídeo de “Halo On Fire” no Lollapalooza Brasil" target="_self" data-social-headline="" data-social-lead="Metallica divulga vídeo de “Halo On Fire” no Lollapalooza Brasil" data-shorten="http://entretenimento.r7.com/pop/musica/nacao-da-musica/metallica-divulga-video-de-halo-on-fire-no-lollapalooza-brasil-28032017">
+<img class="news_cover_image" src="https://img.r7.com/images/2017/03/28/3z5jfpgtbd_8zwwlj97zy_file?dimensions=139x95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://entretenimento.r7.com/pop/musica/nacao-da-musica/metallica-divulga-video-de-halo-on-fire-no-lollapalooza-brasil-28032017" title="Metallica divulga vídeo de “Halo On Fire” no Lollapalooza Brasil" target="_self" data-social-headline="" data-social-lead="Metallica divulga vídeo de “Halo On Fire” no Lollapalooza Brasil" data-shorten="http://entretenimento.r7.com/pop/musica/nacao-da-musica/metallica-divulga-video-de-halo-on-fire-no-lollapalooza-brasil-28032017">
+Metallica divulga vídeo de “Halo On Fire” no Lollapalooza Brasil
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container ">
+<div class="date-hat">14h32<br/><span>Cinepop</span></div>
+<div class="r7box r7-shareit-holder r7-shareit-width news_left">
+<div class="image-holder">
+<a href="http://cinepop.com.br/marvel-recicla-cena-de-vingadores-era-de-ultron-no-novo-trailer-de-homem-aranha-140931" title="Marvel recicla cena de ‘Vingadores – Era de Ultron’ no novo trailer de ‘Homem-Aranha’" target="_blank" data-social-headline="" data-social-lead="Marvel recicla cena de ‘Vingadores – Era de Ultron’ no novo trailer de ‘Homem-Aranha’" data-shorten="http://cinepop.com.br/marvel-recicla-cena-de-vingadores-era-de-ultron-no-novo-trailer-de-homem-aranha-140931">
+<img class="news_cover_image" src="http://img.r7.com/images/2017/03/28/x9ri3o9lysm_272szov6ik_file,qdimensions=139x95.pagespeed.ic.7Zj_ar_wau.jpg"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://cinepop.com.br/marvel-recicla-cena-de-vingadores-era-de-ultron-no-novo-trailer-de-homem-aranha-140931" title="Marvel recicla cena de ‘Vingadores – Era de Ultron’ no novo trailer de ‘Homem-Aranha’" target="_blank" data-social-headline="" data-social-lead="Marvel recicla cena de ‘Vingadores – Era de Ultron’ no novo trailer de ‘Homem-Aranha’" data-shorten="http://cinepop.com.br/marvel-recicla-cena-de-vingadores-era-de-ultron-no-novo-trailer-de-homem-aranha-140931">
+Marvel recicla cena de ‘Vingadores – Era de Ultron’ no novo trailer de ‘Homem-Aranha’
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container  ultimas-noticias-lead-full ">
+<div class="date-hat">14h32<br/><span>O Vício</span></div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://ovicio.com.br/diretor-de-homem-aranha-de-volta-ao-lar-confirma-detalhe-sobre-o-filme/" title="Diretor de “Homem-Aranha: De Volta ao Lar” confirma detalhe sobre o filme" target="_blank" data-social-headline="" data-social-lead="Diretor de “Homem-Aranha: De Volta ao Lar” confirma detalhe sobre o filme" data-shorten="http://ovicio.com.br/diretor-de-homem-aranha-de-volta-ao-lar-confirma-detalhe-sobre-o-filme/">
+Diretor de “Homem-Aranha: De Volta ao Lar” confirma detalhe sobre o filme
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container ">
+<div class="date-hat">14h30<br/><span>Entretenimento</span></div>
+<div class="r7box r7-shareit-holder r7-shareit-width news_left">
+<div class="image-holder">
+<a href="http://entretenimento.r7.com/pra-quem-pode-camarote-vip-e-opcao-para-shows-de-justin-bieber-e-elton-john-28032017" title="Pra quem pode! Camarote vip é opção para shows de Justin Bieber e Elton John" target="_self" data-social-headline="" data-social-lead="Pra quem pode! Camarote vip é opção para shows de Justin Bieber e Elton John" data-shorten="http://entretenimento.r7.com/pra-quem-pode-camarote-vip-e-opcao-para-shows-de-justin-bieber-e-elton-john-28032017">
+<img class="news_cover_image" src="https://img.r7.com/images/2017/03/28/3yhmgfw85l_8ov6t2jc1z_file.jpg?dimensions=139x95"/>
+</a>
+<div class="r7-shareit-bar no-text">
+<ul class="r7-shareit small">
+<li data-social-type="facebook" title="Compartilhe no Facebook" class="r7-icons r7-facebook shareit"></li>
+<li data-social-type="twitter" title="Compartilhe no Twitter" class="r7-icons r7-twitter shareit"></li>
+<li data-social-type="gPlus" title="Compartilhe no Google Plus" class="r7-icons r7-gPlus shareit"></li>
+<li data-social-type="pinterest" title="Compartilhe no Pinterest" class="r7-icons r7-pinterest shareit"></li>
+</ul>
+</div>
+</div>
+</div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://entretenimento.r7.com/pra-quem-pode-camarote-vip-e-opcao-para-shows-de-justin-bieber-e-elton-john-28032017" title="Pra quem pode! Camarote vip é opção para shows de Justin Bieber e Elton John" target="_self" data-social-headline="" data-social-lead="Pra quem pode! Camarote vip é opção para shows de Justin Bieber e Elton John" data-shorten="http://entretenimento.r7.com/pra-quem-pode-camarote-vip-e-opcao-para-shows-de-justin-bieber-e-elton-john-28032017">
+Pra quem pode! Camarote vip é opção para shows de Justin Bieber e Elton John
+</a>
+</p>
+</div>
+</li>
+</ul>
+<div class="last-news-footer news_clear_all">
+<span>&#9642;</span>
+<a href="http://entretenimento.r7.com/noticias" title="Todas as notícias de Entretenimento">Todas as notícias</a>
+</div>
+</div>
+<div>
+<ul class="r7-contet">
+<li>
+<div class="r7box r7-shareit-holder news_info_container  ultimas-noticias-lead-full ">
+<div class="date-hat">09h37<br/><span>Humor</span></div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://www.clickgratis.com.br/piadas/regionais/amigos---.html" title="Hora da Piada: Amigos" target="_self" data-social-headline="" data-social-lead="Hora da Piada: Amigos" data-shorten="http://www.clickgratis.com.br/piadas/regionais/amigos---.html">
+Hora da Piada: Amigos
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container  ultimas-noticias-lead-full ">
+<div class="date-hat">00h30<br/><span>Saúde</span></div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://noticias.r7.com/saude/vacinacao-contra-gripe-causa-correria-inedita-em-busca-de-salvacao-para-h1n1-14042016" title="Vacinação contra gripe causa correria inédita em busca de 'salvação' para H1N1" target="_self" data-social-headline="" data-social-lead="Vacinação contra gripe causa correria inédita em busca de 'salvação' para H1N1" data-shorten="http://noticias.r7.com/saude/vacinacao-contra-gripe-causa-correria-inedita-em-busca-de-salvacao-para-h1n1-14042016">
+Vacinação contra gripe causa correria inédita em busca de 'salvação' para H1N1
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container  ultimas-noticias-lead-full ">
+<div class="date-hat">00h24<br/><span>Brasil</span></div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://noticias.r7.com/brasil/votacao-de-impeachment-de-dilma-sera-diferente-de-processo-contra-ex-presidente-collor-14042016" title="Votação de impeachment de Dilma será diferente de processo contra ex-presidente Collor" target="_self" data-social-headline="" data-social-lead="Votação de impeachment de Dilma será diferente de processo contra ex-presidente Collor" data-shorten="http://noticias.r7.com/brasil/votacao-de-impeachment-de-dilma-sera-diferente-de-processo-contra-ex-presidente-collor-14042016">
+Votação de impeachment de Dilma será diferente de processo contra ex-presidente Collor
+</a>
+</p>
+</div>
+</li>
+<li>
+<div class="r7box r7-shareit-holder news_info_container  ultimas-noticias-lead-full ">
+<div class="date-hat">00h15<br/><span>Minas Gerais</span></div>
+<p class="link-holder paragraph-news">
+<a class="headline droppable bullet content-textfield" href="http://noticias.r7.com/minas-gerais/advogado-em-estado-grave-apos-ser-espancado-em-porta-de-boate-14042016" title="Advogado em estado grave após ser espancado em porta de boate" target="_self" data-social-headline="" data-social-lead="Advogado em estado grave após ser espancado em porta de boate" data-shorten="http://noticias.r7.com/minas-gerais/advogado-em-estado-grave-apos-ser-espancado-em-porta-de-boate-14042016">
+Advogado em estado grave após ser espancado em porta de boate
+</a>
+</p>
+</div>
+</li>
+</ul>
+<div class="last-news-footer">
+<span>&#9642;</span>
+<a href="http://www.r7.com/tudo-do-r7" title="Todas as notícias">Todas as notícias</a>
+</div>
+</div>
+</div>
+</div>
+<div class="box ultimos_videos">
+<div class="r7box">
+<div class="r7box-title">
+<h3 class="headline">Vídeos</h3>
+</div>
+<div class="r7box-latest-itens" id="r7box_ultimos_videos">
+<div class="content-loading">
+<span class="loading"></span>
+<span class="text">Carregando</span>
+</div>
+</div>
+</div>
+<script id="ultimosVideos-template" type="text/x-handlebars-template">
+  {{#if is_first}}
+    <div class="r7item-highlight">
+      <a class="r7item-image image" href="http://{{ cms_url }}" title="{{ alt }}">
+        <span class="ico-player"></span>
+        <img src="{{ thumb }}" />
+      </a>
+       <p class="r7lead"><a href="http://{{ cms_url }}" class="headline" alt="{{ alt }}">{{ title }}</a>
+      </a>
+    </div>
+    {{ else }}
+      <a class="r7item-image image thumb" href="http://{{ cms_url }}" title="{{ alt }}">
+        <img src="{{ thumb }}" alt="{{ title }}" />
+      </a>
+    {{/if}}
+</script>
+</div>
+<div class="box uma_galeria">
+<div class="r7box">
+<div class="r7box-title">
+<h3 class="headline">Fotos</h3>
+<span class="all-pictures"><span class="bullet">&#9642;</span> <a class="bullet" href="http://entretenimento.r7.com//fotos">Mais fotos</a></span>
+</div>
+<div class="r7box-latest-itens last-album">
+<div class="r7item-highlight">
+<a class="r7item-image image" href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017?foto=1#!/foto/1">
+<img src="https://img.r7.com/images/2017/03/28/3mq4st5qw3_rw5pvdv0b_file?dimensions=300x225" title="Paris e Prince Jackson, filhos de Michael, compartilharam no Instagram uma foto da tatuagem que fizeram em parceria.&amp;nbsp;Os dois filhos mais velhos do rei do pop mostraram o desenho, tatuado na parte posterior de sua perna deles, cada um com metade do símbolo de yin e yang, celebrando a complementação dos dois. Na legenda, Paris explicou o significado do desenho.&amp;nbsp;— De vez em quando sinto que eu e o meu irmão temos os mesmos pensamentos, ele apenas não tem filtro e expressa tudo. Somos totalmente opostos, yin e yang inseparáveis trabalhando juntos, buscando e causando equilíbrio um com o outros. Combinação total com o meu melhor amigo, Prince Jackson! - Foto: Reprodução/Instagram"/>
+</a>
+<p class="r7lead">
+<a href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017#!/foto/1" class="headline" alt="">Tattoo em parceria: Paris e Prince Jackson tatuam símbolo de yin e yang para celebrar união
+</a>
+</p>
+</div>
+<a class="r7item-image image thumb first-thumb" href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017?foto=2#!/foto/2">
+<img src="https://img.r7.com/images/2017/03/28/2z1bk0y4sl_buvdno3b6_file.jpg?dimensions=65x40" alt="A tatuagem em parceria com o irmão é só mais uma que Paris exibe no corpo. A jovem, q&lt;a href=&quot;http://entretenimento.r7.com/famosos-e-tv/clacrideias/paris-jackson-filha-de-michael-jackson-estreia-como-atriz-em-serie-da-fox-01022017&quot;&gt;ue se prepara para estrear como atriz,&lt;/a&gt; já falou que é apaixonada por desenhos no corpo e, vira e mexe, compartilha com os seguidores algumas das imagens&amp;nbsp;" title="A tatuagem em parceria com o irmão é só mais uma que Paris exibe no corpo. A jovem, que se prepara para estrear como atriz, já falou que é apaixonada por desenhos no corpo e, vira e mexe, compartilha com os seguidores algumas das imagens&amp;nbsp; - Foto: Reprodução/Instagram"/>
+</a>
+<a class="r7item-image image thumb " href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017?foto=3#!/foto/3">
+<img src="https://img.r7.com/images/2017/03/28/1sf5c7lyte_66l7m9zidc_file?dimensions=65x40" alt="Algumas das tatoos de Paris são em homenagem ao seu pai, como o logo do disco &lt;i&gt;Bad&amp;nbsp;&lt;/i&gt;que ela exibe em uma das mãos" title="Algumas das tatoos de Paris são em homenagem ao seu pai, como o logo do disco Bad&amp;nbsp;que ela exibe em uma das mãos - Foto: Reprodução/Instagram"/>
+</a>
+<a class="r7item-image image thumb " href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017?foto=4#!/foto/4">
+<img src="https://img.r7.com/images/2017/03/28/17ygd45910_c05pvt38a_file.jpg?dimensions=65x40" alt="Prince também possui algumas tatuagens e já mostrou suas sessões de tatoo e os resultados aos fãs&amp;nbsp;" title="Prince também possui algumas tatuagens e já mostrou suas sessões de tatoo e os resultados aos fãs&amp;nbsp; - Foto: Reprodução/Instagram"/>
+</a>
+<a class="r7item-image image thumb " href="http://entretenimento.r7.com/famosos-e-tv/fotos/tattoo-em-parceria-paris-e-prince-jackson-tatuam-simbolo-de-yin-e-yang-para-celebrar-uniao-28032017?foto=5#!/foto/5">
+<img src="https://img.r7.com/images/2017/03/28/7dtudkcrp6_3bkdaw6o19_file?dimensions=65x40" alt="Paris ama tatuagens e tem vários desenhos pelo corpo&amp;nbsp;" title="Paris ama tatuagens e tem vários desenhos pelo corpo&amp;nbsp; - Foto: Reprodução/Instagram"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="share_box">
+<a title="Fechar" class="fechar" href="javascript:void(0);" onclick="modal.remove();">X</a>
+<h5>Enviar por e-mail</h5>
+<form method="post" action="/r7/service/sendtofriend/sendToFriend.jsp" target="sendtofriend" onsubmit="validaCampos(this, event)">
+<fieldset>
+<div class="desc obs">(todos os campos marcados com * são obrigatórios)</div>
+<div style="display:none;" class="link"><label for="espalhelink">Link para esta página</label><input type="text" name="espalhelink" id="espalhelink"></div>
+<div id="espalhe_alerta" style="display: none;"></div>
+<div class="alerta">
+<span class="iconAlert"></span> Preencha os campos corretamente.
+</div>
+<div class="sucesso">
+<span class="iconOk"></span> Mensagem enviada com sucesso!
+</div>
+<div class="campo">
+<label for="seunome">*Seu nome</label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required text" id="seunome" name="seunome">
+</div>
+<div class="campo">
+<label for="seuemail">*Seu e-mail</label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required email" id="seuemail" name="seuemail">
+</div>
+<div class="campo">
+<label for="nomeamigo">*Nome do amigo</label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required text" id="nomeamigo" name="nomeamigo">
+</div>
+<div class="campo">
+<label for="emailamigo">*E-mail do amigo</label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required email" id="emailamigo" name="emailamigo">
+</div>
+<input id="newslink" type="hidden" name="newslink" value="http://entretenimento.r7.com/fotos">
+<input id="newstitle" type="hidden" name="newstitle" value=" - R7">
+<div class="campo right">
+<input title="Enviar" class="botao" type="submit" value="Enviar">
+</div>
+</fieldset>
+</form>
+<pagespeed_iframe style="display:none;" src="https://scs.r7.com/img/pix.gif" name="sendtofriend"><script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="29">
+pagespeed.deferIframe.convertToIframe();</script></pagespeed_iframe>
+</div>
+<div id="report_error_box" class="hidden">
+<a title="Fechar" class="fechar" href="javascript:void(0);" onclick="modal.remove()">X</a>
+<h5>Comunicar Erro</h5>
+<form action="/r7/service/contactus/addContactUsSimple.jsp" onsubmit="validaCampos(this, event)" target="postcontactus" method="post" name="form_contactus">
+<fieldset>
+<div class="desc">Preencha os campos abaixo para informar o R7 sobre os erros encontrados nas nossas reportagens.</div>
+<div id="msg-callback">
+<div id="successMessage" class="sucesso">
+<span class="iconOk"></span>
+Mensagem enviada com Sucesso!
+</div>
+<div id="errorMessage">
+<span class="iconAlert"></span>
+Erro ao enviar mensagem, tente novamente!
+</div>
+</div>
+<div class="campo">
+<label for="report_name">*Seu nome: </label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required text" id="report_name" name="nome"/>
+<span></span>
+</div>
+<div class="campo">
+<label for="report_email">*Seu e-mail: </label>
+<input type="text" onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="até 120 caracteres" value="até 120 caracteres" maxlength="120" class="required email" id="report_email" name="email" class="text"/>
+<span></span>
+</div>
+<div class="campo">
+<label for="report_message">*Comentários: </label>
+<textarea onblur="campoObrig(this)" onfocus="campoTextFoco(this)" title="digite aqui sua mensagem" rows="3" cols="5" id="report_message" name="mensagem" class="required text">digite aqui sua mensagem</textarea>
+<span></span>
+</div>
+<input type="hidden" value="http://entretenimento.r7.com/fotos" id="urlErro" name="link"/>
+<input type="hidden" value="true" name="customEmail"/>
+<input type="hidden" value="8A488A52236838B8012368418C850D04" name="serviceInstanceId" id="contactUs_serviceInstanceId"/>
+<input type="hidden" value="2C92948B23F743400123F83A89463582" name="assunto"/>
+<div class="campo">
+<a class="falecomr7" title="Fale com o R7" target="_blank" href="http://www.r7.com/institucional/fale-com-o-r7/fale-com-o-r7.html">Para resolver dúvidas ou tratar de outros assuntos, entre em contato usando o <span>Fale Com o R7</span></a>
+</div>
+<div class="campo right">
+<input title="Enviar" class="botao" id="bt_report_error" type="submit" value="Enviar"/>
+</div>
+</fieldset>
+</form>
+<pagespeed_iframe name="postcontactus" src="https://scs.r7.com/img/pix.gif" style="display: none;"><script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="30">
+pagespeed.deferIframe.convertToIframe();</script></pagespeed_iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script pagespeed_orig_type="text/javascript" src="https://scs.r7.com/js/ads.js" type="text/psajs" orig_index="31"></script>
+<div id="r7-footer-portal-holder">
+<div id="r7-footer-cols">
+<ul id="r7-sitemap">
+<li id="r7-sitemap-noticias" class="r7-cols">
+<h3><a href="http://noticias.r7.com/" title="Ir para a página de Notícias">Notícias</a></h3>
+<ul>
+<li><a title="Ir para Bahia" href="http://noticias.r7.com/bahia">Bahia</a></li>
+<li><a title="Ir para Brasil" href="http://noticias.r7.com/brasil/">Brasil</a></li>
+<li><a title="Ir para Carros" href="http://noticias.r7.com/carros/">Carros</a></li>
+<li><a title="Ir para Cidades" href="http://noticias.r7.com/cidades/">Cidades</a></li>
+<li><a title="Ir para Distrito Federal" href="http://noticias.r7.com/distrito-federal/">Distrito Federal</a></li>
+<li><a title="Ir para Economia" href="http://noticias.r7.com/economia/">Economia</a></li>
+<li><a title="Ir para Educação" href="http://noticias.r7.com/educacao/">Educação</a></li>
+<li><a title="Ir para Eleições 2016" href="http://noticias.r7.com/eleicoes-2016">Eleições 2016</a></li>
+<li><a title="Ir para Hora 7" href="http://noticias.r7.com/hora-7/">Hora 7</a></li>
+<li><a title="Ir para Internacional" href="http://noticias.r7.com/internacional/">Internacional</a></li>
+<li><a title="Ir para Minas Gerais" href="http://noticias.r7.com/minas-gerais/">Minas Gerais</a></li>
+<li><a title="Ir para Previsão do Tempo" href="http://tempoagora.com.br/" target="_blank">Previsão do Tempo</a></li>
+<li><a title="Ir para Prisma" href="http://noticias.r7.com/prisma">Prisma</a></li>
+<li><a title="Ir para Rio de Janeiro" href="http://noticias.r7.com/rio-de-janeiro/">Rio de Janeiro</a></li>
+<li><a title="Ir para São Paulo" href="http://noticias.r7.com/sao-paulo/">São Paulo</a></li>
+<li><a title="Ir para Saúde" href="http://noticias.r7.com/saude/">Saúde</a></li>
+<li><a title="Ir para Tecnologia e Ciência" href="http://noticias.r7.com/tecnologia-e-ciencia/">Tecnologia e Ciência</a></li>
+<li><a title="Ir para Trânsito" href="http://noticias.r7.com/transito/">Trânsito</a></li>
+<li><a title="Ir para Triângulo Mineiro" href="http://www.triangulo.r7.com/">Triângulo Mineiro</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-entretenimento" class="r7-cols">
+<h3><a href="http://entretenimento.r7.com/" title="Ir para a página de Entretenimento">Entretenimento</a></h3>
+<ul>
+<li><a href="http://entretenimento.r7.com/bate-papo/" title="Ir para Bate-papo">Bate-papo</a></li>
+<li><a href="http://entretenimento.r7.com/bichos/" title="Ir para Bichos">Bichos</a></li>
+<li><a href="http://entretenimento.r7.com/casa-e-familia" title="Ir para Casa e Família">Casa e Família</a></li>
+<li><a href="http://entretenimento.r7.com/cinema/" title="Ir para Cinema">Cinema</a></li>
+<li><a href="http://www.estrelando.com.br/" title="Ir para Estrelando">Estrelando</a></li>
+<li><a href="http://entretenimento.r7.com/hoje-em-dia/omo-puro-cuidado" title="Ir para Especial Omo">Especial Omo</a></li>
+<li><a href="http://entretenimento.r7.com/famosos-e-tv/" title="Ir para Famosos e TV">Famosos e TV</a></li>
+<li><a href="http://entretenimento.r7.com/pop/frases-e-mensagens" title="Ir para Frases e Mensagens">Frases e Mensagens</a></li>
+<li><a href="http://entretenimento.r7.com/humor/" title="Ir para Humor">Humor</a></li>
+<li><a href="http://entretenimento.r7.com/jogos/" title="Ir para Jogos">Jogos</a></li>
+<li><a href="http://entretenimento.r7.com/jovem/" title="Ir para Jovem">Jovem</a></li>
+<li><a href="http://entretenimento.r7.com/moda-e-beleza/" title="Ir para Moda e Beleza">Moda e Beleza</a></li>
+<li><a href="http://entretenimento.r7.com/mulher" title="Ir para Mulher">Mulher</a></li>
+<li><a href="http://entretenimento.r7.com/musica/" title="Ir para Música">Música</a></li>
+<li><a href="http://entretenimento.r7.com/pop" title="Ir para Pop">Pop</a></li>
+<li><a href="http://entretenimento.r7.com/premios/" title="Ir para Prêmios">Prêmios</a></li>
+<li><a href="http://entretenimento.r7.com/receitas-e-dietas/" title="Ir para Receitas e Dietas">Receitas e Dietas</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-esportes" class="r7-cols">
+<h3><a href="http://esportes.r7.com/" title="Ir para a página de Esportes">Esportes</a></h3>
+<ul>
+<li><a href="http://esportes.r7.com/automobilismo/" title="Ir para Automobilismo">Automobilismo</a></li>
+<li><a href="http://esportes.r7.com/esportes-olimpicos/" title="Ir para Esportes Olímpicos">Esportes Olímpicos</a></li>
+<li><a href="http://esportes.r7.com/futebol/" title="Ir para Futebol">Futebol</a></li>
+<li><a href="http://esportes.r7.com/mais-esportes/" title="Ir para Mais Esportes">Mais Esportes</a></li>
+<li id="r7-sitemap-videos">
+<h3><a href="http://videos.r7.com/" title="Ir para a página de Vídeos">Vídeos</a></h3>
+</li>
+<li id="r7-sitemap-tv">
+<h3>
+<a href="http://tv.r7.com/" class="r7-sitemap-tv-title" title="Ir para a página da R7 TV">R7 TV</a>
+</h3>
+<ul>
+<li><a title="Ir para Love School" href="http://tv.r7.com/love-school-escola-amor">Love School</a></li>
+<li><a title="Ir para R7 On Demand" href="http://videos.r7.com">R7 On Demand</a></li>
+<li><a title="Ir para Universal" href="http://tv.r7.com/universal">Universal</a></li>
+<li><a title="Ir para R7 VC" href="http://tv.r7.com/envie-seu-video">R7 VC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="r7-sitemap-especiais" class="r7-cols">
+<h3><strong>Serviços</strong></h3>
+<ul>
+<li><a title="Ir para E-mail" href="http://email.r7.com/">E-mail</a></li>
+<li><a title="Ir para R7 Concursos" href="http://concursos.r7.com/">R7 Concursos</a></li>
+<li><a title="Ir para R7 Cursos" href="http://cursos.r7.com/">R7 Cursos</a></li>
+<li><a title="Ir para R7 Educação Online " href="http://noticias.r7.com/educacao/cursos-online">R7 Educação Online </a></li>
+<li><a title="Ir para R7 Móvel" href="http://www.r7.com/movel/">R7 Móvel</a></li>
+<li><a title="Ir para a página do R7 Play" href="http://www.r7.com/r7-play/" target="_blank">R7 Play</a></li>
+<li><a title="Ir para R7 Torpedo" href="http://www.r7.com/movel/sms">R7 Torpedo</a></li>
+<li><a title="Ir para R7 Trilhas Sonoras" href="http://trilhassonoras.r7.com/">R7 Trilhas Sonoras</a></li>
+<li><a title="Ir para Shopping Record" href="https://shoppingrecord.com.br">Shopping Record</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-jornais" class="r7-cols">
+<h3><strong>Jornais</strong></h3>
+<ul class="r7-sitemap-videos">
+<li>
+<ul>
+<li><a target="_blank" title="Ir para A8 Sergipe" href="http://www.a8se.com" target="_blank">A8 Sergipe</a></li>
+<li><a href="http://www.folhavitoria.com.br/" title="Ir para Folha Vitória">Folha Vitória</a></li>
+<li><a target="_blank" href="http://www.correiodopovo.com.br/" title="Ir para Jornal Correio do Povo">Jornal Correio do Povo</a></li>
+<li><a target="_blank" href="http://www.tnh1.com.br/" title="Ir para TNH1">TNH1</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-radios">
+<h3><strong>Rádios</strong></h3>
+<ul>
+<li><a href="http://www.radioguaiba.com.br/" title="Ir para Rádio Guaíba">Rádio Guaíba</a></li>
+<li><a target="_blank" href="http://www.radiosociedadeam.com.br" title="Ir para Rádio Sociedade">Rádio Sociedade</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-gruporecord">
+<h3><strong>Grupo Record</strong></h3>
+<ul>
+<li><a href="http://www.bancorenner.com.br/" title="Ir para Banco Renner">Banco Renner</a></li>
+<li><a href="http://www.recordentretenimento.com.br/" title="Ir para Record Entretenimento">Record Entretenimento</a></li>
+<li><a href="http://recordtv.r7.com/mobile/" title="Ir para Record Mobile">Record Mobile</a></li>
+<li><a target="_blank" href="http://www.redefamilia.com.br/" title="Ir para Rede Família">Rede Família</a></li>
+<li><a href="http://www.ressoar.org.br/" title="Ir para Instituto Ressoar">Instituto Ressoar</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li id="r7-sitemap-record-internacional" class="r7-cols">
+<h3><a href="http://recordinternacional.r7.com/" title="Ir para Internacional" class="r7-sitemap-arca-internacional">Record Internacional</a></h3>
+<ul>
+<li><a href="http://www.recordtvnetwork.com" title="Ir para Record TV Network">Record TV Network</a></li>
+<li id="r7-sitemap-arca-universal">
+<h3><a href="http://www.universal.org" title="Ir para o site da Universal.org" class="r7-sitemap-arca-universal">Universal.org</a></h3>
+<ul>
+<li><a target="_blank" href="http://www.universal.org/tv/" title="Ir para TV Universal">TV Universal</a></li>
+<li><a target="_blank" href="http://www.redealeluia.com.br/" title="Ir para Rede Aleluia">Rede Aleluia</a></li>
+</ul>
+</li>
+<li id="r7-sitemap-rede-record">
+<h3><a href="http://recordtv.r7.com/" title="Ir para a página da Record">Record</a></h3>
+</li>
+<li id="r7-sitemap-record-news">
+<h3><a href="http://www.recordnewstv.com.br/" title="Ir para a página da Record News">Record News</a></h3>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id="r7-footer-copyright" class="r7section-footer">
+<div id="r7-footer-content">
+<a href="http://r7.com"><img src="https://barra.r7.com/footer/footer-portal/img/logo-r7.png" alt="Ir para o R7" title="Ir para o R7"></a>
+<ul class="r7-footer-content-links ">
+<li><a title="Anuncie no R7" href="http://anuncie.r7.com/">Anuncie no R7</a></li>
+<li><a title="Acessibilidade" href="http://www.r7.com/institucional/acessibilidade/">Acessibilidade</a></li>
+<li><a title="Comunicar erro" href="http://www.r7.com/institucional/comunicar-erro/">Comunicar erro</a></li>
+<li><a title="Fale com o R7" href="http://www.r7.com/institucional/fale-com-o-r7/">Fale com o R7</a></li>
+<li><a title="Mapa do Site" href="http://www.r7.com/institucional/mapa-do-site">Mapa do Site</a></li>
+<li><a title="Termos e Condições de Uso" href="http://www.r7.com/institucional/termos-e-condicoes-de-uso/index.html">Termos e Condições de Uso</a></li>
+<li><a title="Privacidade" href="http://www.r7.com/institucional/privacidade/">Privacidade</a></li>
+<li><a title="Faça do R7 a sua página inicial" href="http://www.r7.com/institucional/faca-do-r7-sua-pagina-inicial">Faça do R7 a sua página inicial</a></li>
+</ul>
+<span class="r7-footer-copyright-date">Todos os direitos reservados - 2009-2017 Rádio e Televisão</span>
+<div class="powered-exceda">
+<a href="http://www.exceda.com/" target="_blank" rel="nofollow">
+<img src="https://assets.r7.com/assets/schumi_core/logo-exceda-eab79776b19dffca728c7d86c599babc.png" alt="Powered by Exceda"/>
+</a>
+</div>
+</div>
+</div>
+</div>
+<script id="services-header-template" type="text/x-handlebars-template">
+      {{#foreach service}}
+        <div class="ad selo-c">
+          <div class="r7-holder-adv">
+            <a href="{{ link }}" target="{{ target }}" data-item="0">
+              <img src="{{imgurl}}" title="{{strip_tags title}}">
+            </a>
+          </div>
+        </div>
+      {{/foreach}}
+    </script>
+<script id="services-header-template-unique" type="text/template">
+      <div class="r7-holder-adv">
+        <a href="{{ link }}" target="{{ target }}">
+          <img src="{{ imgurl }}" title="{{ title }}">
+        </a>
+      </div>
+    </script>
+<script pagespeed_orig_type="text/javascript" src="https://www.google.com/jsapi" type="text/psajs" orig_index="32"></script>
+<script src="https://assets.r7.com/assets/schumi_core/base/application-6b9ca1378e46fedc251390bbf81cfe14.js" pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="33"></script>
+<script src="https://scs.r7.com/js/reactjs/0.12.2/react-with-addons.min.js" pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="34"></script>
+<script src="https://assets.r7.com/assets/cms_box/boxes-e6c89780d71ce361be4be29520c92092.js" pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="35"></script>
+<script src="https://assets.r7.com/assets/dynbox-d0f69a5d4ebeabd28f7303a6209a8345.js" pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="36"></script>
+<script type="text/psajs" orig_index="37">(function(){new R7.BoxUltimosVideos({url:'https://cms-media-api.r7.com/videos/recents?section[]=502510c61d420654b1000001&amp;page=1&amp;per_page=5',alonso:'https://img.r7.com'});}());</script>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="38">$(function(){(function(ServiceBox,Handlebars,Backbone,$,_){var service=null,hashid="r7servicebox_internal";window[hashid]=service=new ServiceBox.Service({url:'https://snippets.r7.com/snippet/54c15aa410d73e0f9f000004',callbackFunctionName:hashid});new ServiceBox.View({model:service,el:$("#r7box_servicos_internal"),firstInterval:"1-4",lastInterval:"7-9",servicesTemplateFunction:Handlebars.compile($("#services_box_internal_template").html(),{noEscape:true})});Handlebars.registerHelper("row_break",function(conditional,options){if(conditional===1){return options.fn(this);}})
+Handlebars.registerHelper("strip_tags",function(text){return text.replace(/(<([^>]+)>)/ig,"");});service.getServices();}(SchumiBackbone.ServiceBox,Handlebars,Backbone,jQuery,_));});</script>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="39">new R7TopVideo();</script>
+<script pagespeed_orig_type="text/javascript" src="http://entretenimento.r7.com/_,Mjo.05HRyjC2Jv.js.pagespeed.jm.rr4DSEDg2V.js" type="text/psajs" orig_index="40"></script>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="41">if(typeof window.R7HashAudience!='undefined'){window.R7HashPath='https://adv.r7.com/audience.js?s='+window.R7HashAudience;document.write('<scr'+'ipt type="text/javascript" src="'+window.R7HashPath+'"><\/scr'+'ipt>');}</script>
+<div id="sitecat"><img src="http://home.log.r7.com/home.gif" style="border:0px; display: none"></div>
+<div id="sitecat-beta"><img src="https://audiencia.r7.com/portal.gif" style="border:0px; display: none"></div>
+<script pagespeed_orig_type="text/javascript" language="JavaScript1.3" src="https://scs.r7.com/comscore/ct.js" type="text/psajs" orig_index="42"></script>
+<script pagespeed_orig_type='text/javascript' type="text/psajs" orig_index="43">var _ttconversion=_ttconversion||[];_ttconversion.push(['_channel','entretenimento']);</script>
+<script pagespeed_orig_type="text/javascript" type="text/psajs" orig_index="44">$(function(){cleanSearchField('r7-frm-search-keyword');});Logger.setLevel(0);</script>
+<script type="text/psajs" orig_index="45"></script>
+<script type="text/psajs" orig_index="46">(function(i){var ts=document.createElement('script');ts.type='text/javascript';ts.async=true;ts.src=('https:'==document.location.protocol?'https://':'http://')+'tags.t.tailtarget.com/t3m.js?i='+i;var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ts,s);})('TT-9964-3/CT-23');</script>
+</body>
+</html>
+<script type="text/javascript" src="/pagespeed_static/js_defer.pbrP1whUgE.js"></script>

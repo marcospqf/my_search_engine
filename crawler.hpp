@@ -32,6 +32,7 @@ class Crawler
 		//Set the initial time to measure how 
 		//fast we are crowling;
 
+    void PoeNaRoda(vector<string> &v);
 		// number of Url crawlead
 		static int ncraw;
 

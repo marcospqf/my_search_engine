@@ -1,0 +1,680 @@
+|||http://www.radioguaiba.com.br/|  
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<meta name="Application" content="Portal - Radio Guaiba" />
+	<meta name="author" content="Rádio Guaíba"/>
+	<meta name="copyright" content="Rádio Guaíba. Todos os direitos reservados."/>
+	<meta name="date" content="2008-07-17T12:00:00"/>
+	<meta name="robots" content="index,follow"/>
+	<meta name="title" content="">
+	<meta name="DC.title" content="">	
+	<meta property="og:title" content="" />
+		<meta property="og:description" content="A História não é feita apenas de fatos e personagens, mas também de relatos e versões de seus principais momentos, através das vozes de cidadãos comuns, especialistas e personalidades. Somam-se a eles os jornalistas e demais profissionais da Comunicação. Curiosos. Inquietos. Incansáveis na tarefa de transmitir novidades que despertem interesse e possuam relevância." />
+	<meta property="og:image" content="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/nova_logo_guaiba.jpg" />	
+	
+	<!-- Le styles -->
+    <link href="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/style.css" rel="stylesheet">
+		<style>
+			.tabcontent{margin:0px 0 0 5px; height:500px; padding:5px; overflow:auto; }
+			#fechar{
+			position:relative;
+			float:right;
+			width:20px;
+			height:20px;
+			background-color:#000000;
+			color:#FFFFFF;
+			text-align:center;
+		}	
+		</style>
+	<!-- Custom scrollbars CSS GIL responsivo -->
+	<link href="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/bootstrap/style.css" rel="stylesheet" />
+	<link href="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+	<script src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/js/malihu-custom-scrollbar-plugin-master/modernizr.custom.23604.js"></script>
+		
+	<!-- Custom scrollbars CSS -->
+	<link href="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" rel="stylesheet" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/minified/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+	<!-- custom scrollbars plugin -->
+	<script src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+		(function($){
+			
+			$(window).load(function(){
+				$(".tabcontent").mCustomScrollbar({
+					scrollButtons:{
+						enable:true
+					}
+				});
+			});
+			
+		})(jQuery);
+		 $(document).ready(function() { 
+		 	
+		 //		$("#sidebar").height($("#content").height());
+		
+		 });
+		function hidden(){document.body.style.overflow='hidden';}
+	</script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+
+        <link rel='stylesheet' id='responsive-slider-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/responsive-slider/css/responsive-slider.css?ver=0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-dark-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/dark/style.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-default-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/default/style.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-standard-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/standard/style.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cyclone-template-style-thumbnails-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/thumbnails/style.css?ver=2.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.radioguaiba.com.br/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/bootstrap/js/bootstrap.js?ver=3.8.19'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.radioguaiba.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.radioguaiba.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.19" />
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background: #003300;
+	border: 1px solid #ffffff;
+}
+</style>
+	<script>
+		function openWinFM()
+		{
+		window.open('http://www.radioguaiba.com.br/ao-vivo/','_blank','toolbar=yes, scrollbars=yes, resizable=yes, top=50, left=500, width=357, height=282');
+		}
+	</script>
+	
+	  <!--[if IE]>
+        <style>
+			.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container{width:1170px}
+		</style>
+		
+     <![endif]-->
+	 <!--Codigo Banner Guaiba -->
+	<script type="text/javascript">
+		var ADM_iq = '//ia.nspmotion.com';
+		try { ADM_iq = (document.location.protocol=='https:'?'https:':'http:')+ADM_iq } catch(e){}
+		document.write('<scr'+'ipt type="text/javascr'+'ipt" src="'+ADM_iq+'/delivery/?p=288350&sc=45535&r='+Math.round(Math.random()*99999)+'"></scr'+'ipt>');
+	</script>
+	 
+	 </head>
+  <body>
+
+<!-- Start Google Analytics code block -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89364106-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics code block -->
+
+<!-- TailTarget Tag Manager TT-11835-4/CT-738 -->
+<script>
+    (function(i) {
+    var ts = document.createElement('script');
+    ts.type = 'text/javascript';
+    ts.async = true;
+    ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ts, s);
+    })('TT-11835-4/CT-738');
+</script>
+<!-- End TailTarget Tag Manager -->
+
+  <div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=672616539440578";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- BANNER FLUTUANTE >
+	<noscript>
+	<DIV STYLE="position:absolute; display:block; left:203px; top:110px; z-index:9999999">
+		<div id='fechar'><a class='fechar' href='#' title='Fechar'>X</a></div>
+		<a href="http://www.detran.rs.gov.br/inicial">	
+			<OBJECT CLASSID="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+			CODEBASE="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" WIDTH="949" HEIGHT="600" ID="flash">
+				<PARAM NAME="movie" VALUE="http://techlise.dyndns.org:9011/guaiba/wp-content/themes/wpbootstrap/detran_interstitial.swf.swf" />
+				<PARAM NAME="quality" VALUE="hight" />
+				<PARAM NAME="wmode" VALUE="transparent" /> <!-- transparencia para IE >
+				<EMBED wmode="transparent" SRC="http://techlise.dyndns.org:9011/guaiba/wp-content/themes/wpbootstrap/detran_interstitial.swf" QUALITY="high" WIDTH="949" HEIGHT="600"
+				NAME="flash" TYPE="application/x-shockwave-flash"
+				PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer" />
+			</OBJECT>
+		</a>		
+	</DIV>	
+	</noscript>
+    <!-- FIM BANNER FLUTUANTE -->
+	
+   <div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="barra_r7">
+		    <img style="border:0px; display: none" src="http://parceiro.log.r7.com/parceiro.gif">
+		    <script type="text/javascript" src="http://barra.r7.com/bariso.js"></script>
+		</div>
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				</a>
+				<a href="http://www.radioguaiba.com.br/" id="home-link">HOME</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/institucional/">INSTITUCIONAL</a></li>
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/programacao/">PROGRAMAÇÃO</a></li>
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/equipe/">EQUIPE</a></li>
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/correspondente-guaiba/">CORRESPONDENTE GUAÍBA</a></li>
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/noticias/">NOT&Iacute;CIAS</a></li>
+						<li><a class="menu_align" href="http://www.radioguaiba.com.br/banco-de-audio/">BANCO DE ÁUDIO</a></li>
+						<li><a class="menu_align ouvir" href="javascript:openWinFM();"><strong>OUÇA AO VIVO</strong></a></li>
+						<div style="width: 100px; float: left">
+			            <li><form class="form-search" role="search" action="http://www.radioguaiba.com.br" method="get">
+							<input id=""  type="text" name="s" placeholder="Buscar"/>
+							<input type="hidden" name="post_type" value="noticias" /> <!-- // hidden 'products' value -->
+							<input class="search-home" type="submit" alt="Search" value="" />
+							</form>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>	
+	<div class="container espaco">
+			<div class="redesociais">
+				<div style="width: 100px; float: left; margin: 9px 5px 0 0px;">
+					<!--data-layout="button_count"-->
+					<div class="fb-like" data-href="https://www.facebook.com/radioguaibaoficial" data-send="false" data-layout="button_count" data-width="250" data-show-faces="true" data-font="arial"></div>
+				</div>
+				<div class="icone">
+				<a href="https://www.facebook.com/radioguaibaoficial" target="_blank"><img alt="Facebook" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/icone/facebook.png" data-retina="" class="retina-logo"></a>
+				</div>
+				<div class="icone">
+				<a href="https://twitter.com/RdGuaibaOficial" target="_blank"><img alt="Twitter" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/icone/twitter.png" data-retina="" class="retina-logo"></a>
+				</div>
+				
+				<div class="icone">
+				<a href="https://play.google.com/store/apps/details?id=com.wecast.radioguaiba" target="_blank"><img alt="Ouça no Android" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/icone/android.png" data-retina="" class="retina-logo"></a>
+				</div>
+				<div class="iconeA">
+				<a href="https://itunes.apple.com/br/app/radio-guaiba/id1039120842?mt=8" target="_blank"><img alt="Ouça no Iphone" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/icone/apple.png" data-retina="" class="retina-logo"></a>
+				</div>
+				
+			</div>
+		</div>
+
+  <div class="container fundo">
+    <div class="container header-wrap">
+	    <div class="row-fluid">
+			<div class="head_cinza">
+				<div class="span4 header-logo">
+					<a href="http://www.radioguaiba.com.br/"><img alt="" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/nova_logo_guaiba.png" data-retina="" class="retina-logo"></a>
+				</div>
+				<div class="span8 header-ad-box">
+					<!--div class="textwidget_publicidade">
+					<script src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=14786161&PluID=0&w=728&h=90&ord=[timestamp]&ucm=true"></script><noscript>
+					<a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=14786161&Page=&PluID=0&Pos=422648190" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=14786161&Page=&PluID=0&Pos=422648190" border=0 width=728 height=90></a>
+					</noscript>
+						<!--<img alt="" src="http://techlise.dyndns.org:9011/guaiba/wp-content/uploads/2014/04/banner_guaiba.png">-->
+						<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- Banner index -->
+							<!--<ins class="adsbygoogle"
+								 style="display:inline-block;width:728px;height:90px"
+								 data-ad-client="ca-pub-7778922851948962"
+								 data-ad-slot="9034170107"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script> -->
+						<!--Google Adsense -->
+                    <!--/div-->
+				</div>
+			</div>
+		</div>	
+    </div>
+    <div class="container page-wrapper row-fluid">
+		<!--<div class="row-fluid span12"> -->
+		   	
+		    <div class="row-fluid content-right span8" id="content">
+			    <div class="content-right-wrap">
+				    <div class="rigth">
+					
+					<!--//-->
+                            <div tabindex="0" class="cycloneslider cycloneslider-template-standard cycloneslider-width-responsive" id="cycloneslider-guaiba-1" style="max-width:960px" > <div class="cycloneslider-slides cycle-slideshow" data-cycle-allow-wrap="true" data-cycle-dynamic-height="off" data-cycle-auto-height="960:600" data-cycle-auto-height-easing="null" data-cycle-auto-height-speed="250" data-cycle-delay="0" data-cycle-easing="" data-cycle-fx="fade" data-cycle-hide-non-active="true" data-cycle-log="false" data-cycle-next="#cycloneslider-guaiba-1 .cycloneslider-next" data-cycle-pager="#cycloneslider-guaiba-1 .cycloneslider-pager" data-cycle-pause-on-hover="true" data-cycle-prev="#cycloneslider-guaiba-1 .cycloneslider-prev" data-cycle-slides="&gt; div" data-cycle-speed="1000" data-cycle-swipe="false" data-cycle-tile-count="7" data-cycle-tile-delay="100" data-cycle-tile-vertical="true" data-cycle-timeout="4000" > <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://www.radioguaiba.com.br/noticia/comtu-aprova-aumento-da-passagem-de-onibus-na-capital-para-r-405-prefeito-ainda-precisa-sancionar/"> <img src="http://www.radioguaiba.com.br/wp-content/uploads/2016/03/onibus-960x600.jpg" alt="" title="" /> </a> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">Comtu aprova aumento da passagem de ônibus na Capital para R$ 4,05; prefeito ainda precisa sancionar</div> <div class="cycloneslider-caption-description"></div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://www.radioguaiba.com.br/noticia/procurador-geral-nega-acao-contra-psol-e-cita-defesa-da-prefeitura-de-porto-alegre/"> <img src="http://www.radioguaiba.com.br/wp-content/uploads/2017/03/Bruno-Miragem-960x600.jpg" alt="" title="" /> </a> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">Procurador-geral nega ação contra PSol e cita defesa da prefeitura de Porto Alegre</div> <div class="cycloneslider-caption-description"></div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://www.radioguaiba.com.br/noticia/sartori-vai-a-brasilia-por-aprovacao-de-socorro-financeiro-aos-estados/"> <img src="http://www.radioguaiba.com.br/wp-content/uploads/2016/08/sartoritemer-960x600.jpg" alt="" title="" /> </a> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">Sartori vai a Brasília por aprovação de socorro financeiro aos estados</div> <div class="cycloneslider-caption-description"></div> </div> </div> <div class="cycloneslider-slide cycloneslider-slide-image" > <a class="cycloneslider-caption-more" href="http://www.radioguaiba.com.br/noticia/ministro-do-tse-indica-argumentos-para-cassar-temer-e-dilma-2/"> <img src="http://www.radioguaiba.com.br/wp-content/uploads/2016/07/2_dilma_temer_1203-960x600.jpg" alt="" title="" /> </a> <div class="cycloneslider-caption"> <div class="cycloneslider-caption-title">Ministro do TSE indica argumentos para cassar Temer e Dilma</div> <div class="cycloneslider-caption-description"></div> </div> </div> </div> <div class="cycloneslider-pager"></div> <a href="#" class="cycloneslider-prev"> <span class="arrow"></span> </a> <a href="#" class="cycloneslider-next"> <span class="arrow"></span> </a> </div>					
+						 
+							<div class="categoria">
+								<!--<h3>Notícias</h3>-->
+								<div class="tit_grd">
+									<h2><span class="tit_grd word-0">NOTÍCIAS</span><span class="tit_grd word-1"></span><span class="tit_grd word-2"></span></h2>
+								</div>
+								<div class="borda"><span class="rodape1"></span></div>
+							</div>
+								                                <div class="half-grid">
+								   <!----> 
+									<!--LOOP COM 2-->
+									<div class="art-img-text-down1">
+																				<div class="teaser_categoria">Polícia</div>
+										<img width="345" height="156" src="http://www.radioguaiba.com.br/wp-content/uploads/2017/02/Lava-Jato1-345x156.jpg" class="attachment-banner66 wp-post-image" alt="Lava Jato cumpre mandados hoje no RJ. Foto: Polícia Federal / Divulgação / CP" />										<div class="author-link"><!----></div>
+										<div class="post-title"><a href="http://www.radioguaiba.com.br/noticia/ex-diretor-da-petrobras-e-preso-em-nova-fase-da-operacao-lava-jato/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Ex-diretor da Petrobras é preso em nova fase da Operação Lava Jato">Ex-diretor da Petrobras é preso em nova fase da Operação Lava Jato</a></div>
+										 Investigação apura a atuação de operadores no mercado financeiro									</div>
+							   
+							   <!--LOOP COM 2/-->
+									<div class="art-smallimg-text ">
+									<!-- LOOP COM 4 --->
+										<div class="art-meta secundario">
+											<span class="author"> 
+												<!--28 março 2017-->
+												                                                <div class="teaser_categoria">Geral</div>
+												
+											    												
+												<div class="art-title">
+												<a href="http://www.radioguaiba.com.br/noticia/descontos-nas-contas-de-luz-no-rs-vao-variar-de-56-a-13/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Descontos nas contas de luz no RS vão variar de 5,6% a 13%">Descontos nas contas de luz no RS vão variar de 5,6% a 13%</a>
+												</div>
+											</span>
+										</div>
+										 <!-- LOOP COM 4 /---> 
+									</div>
+				                     <!--LOOP COM 2/-->
+									<div class="art-smallimg-text">
+									<!-- LOOP COM 4 --->
+										 <div class="art-meta">
+											<span class="author"> 
+												
+												
+												<div class="teaser_categoria">Geral</div>
+											</span>
+										</div>
+										<div class="art-post">
+											 <div class="art-desc">
+												<a href="http://www.radioguaiba.com.br/noticia/consertos-desabastecem-restinga-hipica-e-aberta-dos-morros-na-zona-sul-da-capital/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Consertos desabastecem Restinga, Hípica e Aberta dos Morros, na zona Sul da Capital">Consertos desabastecem Restinga, Hípica e Aberta dos Morros, na zona Sul da Capital</a>
+											 </div>
+										</div>
+								   
+										 <!-- LOOP COM 4 /---> 
+									</div>
+									<div class="art-smallimg-text">
+									<!-- LOOP COM 4 --->
+										<div class="art-meta">
+											<span class="author"> 
+												<!---->
+												
+												<div class="teaser_categoria">Política</div>
+											</span>
+										</div>
+										<div class="art-post">
+											 <div class="art-desc">
+												<a href="http://www.radioguaiba.com.br/noticia/sartori-vai-a-brasilia-por-aprovacao-de-socorro-financeiro-aos-estados/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Sartori vai a Brasília por aprovação de socorro financeiro aos estados">Sartori vai a Brasília por aprovação de socorro financeiro aos estados</a>
+												
+											 </div>
+										</div>
+								   
+										 <!-- LOOP COM 4 /---> 
+									</div>
+								</div>
+								<div class="half-grid_right">
+									<!---->
+									<!--LOOP COM 2-->
+									<div class="art-img-text-down1">
+										
+										<div class="teaser_categoria">Polícia</div>
+										<img width="271" height="156" src="http://www.radioguaiba.com.br/wp-content/uploads/2017/03/FOTOO5-271x156.jpg" class="attachment-banner66 wp-post-image" alt="Ação ocorreu na madrugada (Foto: Divulgação/Polícia Civil)" />										<div class="author-link"></div>
+										<div class="post-title"><a href="http://www.radioguaiba.com.br/noticia/gabinete-do-prefeito-de-cachoeirinha-e-arrombado-pela-segunda-vez-em-menos-de-um-mes/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Gabinete do prefeito de Cachoeirinha é arrombado pela segunda vez em um mês ">Gabinete do prefeito de Cachoeirinha é arrombado pela segunda vez em um mês </a></div>
+										 Esta é a segunda vez em menos de um mês que o gabinete é atacado									</div>
+									
+									 <!--LOOP COM 2/-->
+									<div class="art-smallimg-text">
+									    <!-- LOOP COM 4 --->
+										<div class="art-meta secundario">
+											<span class="author"> 
+												<!--28 março 2017-->
+																								<div class="teaser_categoria">Economia</div>
+												
+												<img width="66" height="66" src="http://www.radioguaiba.com.br/wp-content/uploads/2017/03/Luz1-66x66.jpg" class="attachment-bannerPeq wp-post-image" alt="Conta de luz cairá até 20% em abril. Foto: Fábio Rodrigues Pozzebom / Agência Brasil / CP" />												
+												<div class="art-title">
+												    <a href="http://www.radioguaiba.com.br/noticia/conta-de-luz-caira-ate-20-em-abril-por-cobranca-indevida-de-angra-3/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Conta de luz cairá até 20% em abril por cobrança indevida de Angra 3">Conta de luz cairá até 20% em abril por cobrança indevida de Angra 3</a>
+											    </div>
+											</span>
+										</div>
+									 <!-- LOOP COM 4 /---> 
+									</div>
+								    <!--LOOP COM 2/-->
+									<div class="art-smallimg-text">
+									    <!-- LOOP COM 4 --->
+										<div class="art-meta">
+											<span class="author"> 
+																								<div class="teaser_categoria">Economia</div>
+											</span>
+										</div>
+										<div class="art-post">
+											 <div class="art-desc">
+												<a href="http://www.radioguaiba.com.br/noticia/policia-troca-tiros-com-criminosos-e-impede-roubo-de-carga-em-canoas/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Polícia troca tiros com criminosos e impede roubo de carga em Canoas">Polícia troca tiros com criminosos e impede roubo de carga em Canoas</a>
+											 </div>
+										</div>
+								        <!-- LOOP COM 4 /---> 
+									</div>
+									<div class="art-smallimg-text">
+									<!-- LOOP COM 4 --->
+										 <div class="art-meta">
+											<span class="author"> 
+																								<div class="teaser_categoria">Geral</div>
+											</span>
+										</div>
+										<div class="art-post">
+											 <div class="art-desc">
+												<a href="http://www.radioguaiba.com.br/noticia/comtu-aprova-aumento-da-passagem-de-onibus-na-capital-para-r-405-prefeito-ainda-precisa-sancionar/" class="titulo-noticia" rel="bookmark" title="Link Permanente para Comtu aprova aumento da passagem de ônibus na Capital para R$ 4,05; prefeito ainda precisa sancionar">Comtu aprova aumento da passagem de ônibus na Capital para R$ 4,05; prefeito ainda precisa sancionar</a>
+											 </div>
+										</div>
+								        <!-- LOOP COM 4 /---> 
+									</div>
+									
+								</div>
+                                <div class="ultimas-rodape">
+                                    <a href="/noticia/">Veja mais notícias »</a>
+                                </div>								
+<!--								<div class="programs">-->
+<!--									<div class="categoria">   -->
+<!--										<h3>Programas</h3>-->
+<!--									</div>	-->
+<!--									-->
+<!--									-->
+<!--										<div class="half-grid">-->
+											<!--LOOP COM 2-->
+<!--												<div class="art-img-text-down">-->
+<!--													<div class="author-link"></div>-->
+<!--												<div class="post-title">-->
+<!--													<a href="" class="titulo-programa" rel="bookmark" title="Link Permanente para "><img class="prog" alt="" src="/images/img-som.png" ><span style="display:block;"></span></a>-->
+<!--													</div>-->
+<!--												</div>-->
+<!--										</div>-->
+<!--										-->
+<!--										 <p>Sorry, no posts matched your criteria.</p>-->
+<!--										-->
+<!--								</div>-->
+								<div id="rodape">
+								   <a class="home-link_img" href="http://www.radioguaiba.com.br/">
+									<img alt="" src="http://www.radioguaiba.com.br/wp-content/themes/wpbootstrap/images/nova_logo_guaiba.jpg" data-retina="" class="retina-logo">
+									</a> 
+					<ul class="bottom-navbar">
+					<li><a href="http://www.radioguaiba.com.br/programacao/">PROGRAMAÇÃO</a></li>
+					<li><a href="http://www.radioguaiba.com.br/equipe/">EQUIPE</a></li>
+					<li><a href="http://www.radioguaiba.com.br/noticias/">NOTÍCIAS</a></li>
+					<li><a href="javascript:openWinFM();">AO VIVO</a></li>
+					</ul> 
+								</div
+						
+				    </div>  
+                </div>                    
+			</div>
+		<!--</div>SPAN 12-->
+			 
+    </div> 
+		<div id="tablet">
+				<div class="row page-sidebar-left page-content-height span4">
+				     	<div class="span12 espaco_lado">
+	
+	   		
+	</div>
+ <div id="sidebar" class="widget-area" >
+    <div class="TabControl">
+		<div id="header">
+			<ul class="abas"> 
+			<li>
+				<span>Últimas notícias</span>
+				<div class="borda"><span class="rodape1"></span></div>
+			</li>	
+			</ul> 
+		</div> 
+		<div id="contentWidget"> 
+			<div class="conteudo">
+				<div id="content_1" class="tabcontent">
+				 				 				    <span class="widget-noticia">
+						<div class="widget-bloco-noticia">    
+							 <small>28/03/2017 14:31</small>
+							  <!-- Mostra o título como um link para o link permanente do post -->
+							 <h4><a href="http://www.radioguaiba.com.br/noticia/descontos-nas-contas-de-luz-no-rs-vao-variar-de-56-a-13/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para Descontos nas contas de luz no RS vão variar de 5,6% a 13%">Descontos nas contas de luz no RS vão variar de 5,6% a 13%</a></h4>
+							 
+</div>
+					</span> <!-- closes the first div box -->
+					
+					 				    <span class="widget-noticia">
+						<div class="widget-bloco-noticia">    
+							 <small>28/03/2017 14:23</small>
+							  <!-- Mostra o título como um link para o link permanente do post -->
+							 <h4><a href="http://www.radioguaiba.com.br/noticia/consertos-desabastecem-restinga-hipica-e-aberta-dos-morros-na-zona-sul-da-capital/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para Consertos desabastecem Restinga, Hípica e Aberta dos Morros, na zona Sul da Capital">Consertos desabastecem Restinga, Hípica e Aberta dos Morros, na zona Sul da Capital</a></h4>
+							 
+</div>
+					</span> <!-- closes the first div box -->
+					
+					 				    <span class="widget-noticia">
+						<div class="widget-bloco-noticia">    
+							 <small>28/03/2017 13:25</small>
+							  <!-- Mostra o título como um link para o link permanente do post -->
+							 <h4><a href="http://www.radioguaiba.com.br/noticia/sartori-vai-a-brasilia-por-aprovacao-de-socorro-financeiro-aos-estados/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para Sartori vai a Brasília por aprovação de socorro financeiro aos estados">Sartori vai a Brasília por aprovação de socorro financeiro aos estados</a></h4>
+							 
+</div>
+					</span> <!-- closes the first div box -->
+					
+					 				    <span class="widget-noticia">
+						<div class="widget-bloco-noticia">    
+							 <small>28/03/2017 12:50</small>
+							  <!-- Mostra o título como um link para o link permanente do post -->
+							 <h4><a href="http://www.radioguaiba.com.br/noticia/carne-fraca-hong-kong-suspende-embargo-a-carne-de-frigorificos-nao-investigados/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para Carne Fraca: Hong Kong suspende embargo à carne de frigoríficos não investigados">Carne Fraca: Hong Kong suspende embargo à carne de frigoríficos não investigados</a></h4>
+							 
+</div>
+					</span> <!-- closes the first div box -->
+					
+					 				    <span class="widget-noticia">
+						<div class="widget-bloco-noticia">    
+							 <small>28/03/2017 12:47</small>
+							  <!-- Mostra o título como um link para o link permanente do post -->
+							 <h4><a href="http://www.radioguaiba.com.br/noticia/policia-troca-tiros-com-criminosos-e-impede-roubo-de-carga-em-canoas/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para Polícia troca tiros com criminosos e impede roubo de carga em Canoas">Polícia troca tiros com criminosos e impede roubo de carga em Canoas</a></h4>
+							 
+</div>
+					</span> <!-- closes the first div box -->
+					
+					 						
+				</div>
+		    </div> 
+			<div class="conteudo">
+
+				<div id="content_1" class="tabcontent">
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>29/06/2014 08:20</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/servicos-consulares-no-caminho-do-gol-abrem-neste-domingo/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Serviços consulares no Caminho do Gol abrem neste domingo">Serviços consulares no Caminho do Gol abrem neste domingo</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>16/06/2014 17:11</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/abertas-as-inscricoes-para-a-segunda-edicao-da-cnh-social/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Abertas as inscrições para a segunda edição da CNH Social">Abertas as inscrições para a segunda edição da CNH Social</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>13/04/2015 14:13</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/deputado-van-hattem-pode-pagar-ate-r-1-milhao-em-indenizacao-por-atropelamento-com-morte/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Deputado Van Hattem pode pagar até R$ 1 milhão em indenização por atropelamento com morte">Deputado Van Hattem pode pagar até R$ 1 milhão em indenização por atropelamento com morte</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>11/06/2014 12:55</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/jogos-da-copa-em-dias-da-semana-alteram-horarios-de-expediente/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Copa em dias da semana muda horários de expediente na Capital">Copa em dias da semana muda horários de expediente na Capital</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>13/07/2014 19:33</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/tarifas-de-onibus-metropolitanos-sobe-pela-segunda-vez-em-tres-meses/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Tarifas de ônibus metropolitanos sobem pela segunda vez em três meses">Tarifas de ônibus metropolitanos sobem pela segunda vez em três meses</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>16/06/2014 23:17</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/bancos-fazem-expediente-antecipado-nesta-terca-e-abrem-normalmente-na-quarta/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Bancos fazem expediente antecipado nesta terça e abrem normalmente na quarta">Bancos fazem expediente antecipado nesta terça e abrem normalmente na quarta</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>22/01/2015 17:08</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/ufrgs-divulga-notas-de-corte-do-sisu-a-menos-de-oito-do-fim-das-inscricoes/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 UFRGS divulga notas de corte do SiSU a menos de oito do fim das inscrições">UFRGS divulga notas de corte do SiSU a menos de oito do fim das inscrições</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>27/06/2014 09:41</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/chuva-interdita-principal-acesso-do-norte-do-rs-a-santa-catarina/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Chuva interdita principal acesso do Norte do RS a Santa Catarina">Chuva interdita principal acesso do Norte do RS a Santa Catarina</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>29/06/2014 16:12</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/chuva-mantem-13-estradas-e-uma-ponte-interditadas-no-rs/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 Chuva mantém 13 estradas e uma ponte interditadas no RS">Chuva mantém 13 estradas e uma ponte interditadas no RS</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+												<span class="widget-noticia">
+							<div class="widget-bloco-noticia">    
+								 <small>13/05/2014 08:14</small>
+								  <!-- Mostra o título como um link para o link permanente do post -->
+								 <h4><a href="http://www.radioguaiba.com.br/noticia/comunicado-radio-guaiba-esta-fora-do-ar-nesta-terca-feira/" class="widget-titulo-noticia widget-sidebar" rel="bookmark" title="Link Permanente para
+								 COMUNICADO &#8211; Rádio Guaíba está fora do ar nesta terça-feira">COMUNICADO &#8211; Rádio Guaíba está fora do ar nesta terça-feira</a></h4>
+								 							</div>	 
+						</span> <!-- closes the first div box -->
+										</div>
+
+			</div>
+			<div class="conteudo">
+				<div id="content_1" class="tabcontent">
+									</div>
+			 </div> 
+		</div>
+
+    </div>
+	<div class="span12 espaco_lado">
+	
+	   <aside id="text-6" class="widget widget_text">			<div class="textwidget"><img src="http://www.radioguaiba.com.br/wp-content/uploads/2017/01/GUAIBA-_WHATSAPP.jpg"></div>
+		</aside><aside id="polls-widget-7" class="widget widget_polls-widget"><h3 class="widget-title">Polls</h3><div id="polls-138" class="wp-polls">
+	<form id="polls_form_138" class="wp-polls-form" action="/index.php" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_138_nonce" name="wp-polls-nonce" value="723a932938" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="138" /></p>
+		<p style="text-align: left;"><strong>Quem deve ser o companheiro de Victor Cuesta na zaga do Inter?</strong></p><br /><div id="polls-138-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-356" name="poll_138" value="356" /> <label for="poll-answer-356">Leo Ortiz</label></li>
+		<li><input type="radio" id="poll-answer-357" name="poll_138" value="357" /> <label for="poll-answer-357">Paulão</label></li>
+		<li><input type="radio" id="poll-answer-358" name="poll_138" value="358" /> <label for="poll-answer-358">Klaus</label></li>
+		<li><input type="radio" id="poll-answer-359" name="poll_138" value="359" /> <label for="poll-answer-359">Neris</label></li>
+		<li><input type="radio" id="poll-answer-360" name="poll_138" value="360" /> <label for="poll-answer-360">Hernando</label></li>
+		<br />
+</ul><p style="text-align: center;"><input type="button" name="vote" value="   Vote   " class="Buttons" onclick="poll_vote(138);" /></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(138); return false;" title="View Results Of This Poll">Resultado</a></p></div>
+	</form>
+</div>
+<div id="polls-138-loading" class="wp-polls-loading"><img src="http://www.radioguaiba.com.br/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+<!--<ul><li><a href="http://www.radioguaiba.com.br/pollsarchive">Polls Archive</a></li></ul>--></aside>	</div>
+		<script type="text/javascript"> 
+			 jQuery(document).ready(function(){ 
+			 jQuery("#contentWidget div:nth-child(1)").show(); 
+			 jQuery(".abas li:first div").addClass("selected");	
+			 jQuery(".aba").click(function(){ 
+			 jQuery(".aba").removeClass("selected"); 
+			 jQuery(this).addClass("selected"); 
+			  var indice = jQuery(this).parent().index(); 
+			   indice++; 
+			   jQuery("#contentWidget div.conteudo").hide(); 
+			   jQuery("#contentWidget div:nth-child("+indice+")").show(); 
+			 }); 
+			  jQuery(".aba").hover(function(){
+				  jQuery(this).addClass("ativa")},function(){
+				  jQuery(this).removeClass("ativa")} 
+				   );	 
+			 }); 
+		</script>                  
+</div>				</div> 
+		    </div>
+
+       <footer>
+	 <div class="span12">
+	<!--/* 	//<span class="corp_radio">//© Copyright 2013 -RádioGuaíba</span> */-->
+	
+		</div>
+	 </footer>
+	   </div> <!-- /container -->
+	   <script id="r7-footer-portal" src="http://barra.r7.com/footer/footer-portal/footer-portal.js" charset="UTF-8">{showPane:false, bgC:'#e2e2e2', isPartner:true, partnerLabel:'NOTÍCIAS'}</script> 
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var slider = {"effect":"slide","delay":"7000","duration":"600","start":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/responsive-slider/responsive-slider.js?ver=0.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/www.radioguaiba.com.br\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.carousel.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.swipe.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.tile.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/libs/cycle2/jquery.cycle2.video.min.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/dark/script.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/templates/thumbnails/script.js?ver=2.8.2'></script>
+<script type='text/javascript' src='http://www.radioguaiba.com.br/wp-content/plugins/cyclone-slider-2/js/client.js?ver=2.8.2'></script>
+	  
+    <script type="text/javascript">
+        if(document.title == ''){document.title = 'Rádio Guaíba'};
+</script>
+
+<!-- ANALYTICS -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75484727-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- ANALYTICS -->
+
+  </body>
+</html>

@@ -1,0 +1,1939 @@
+|||http://harbour.space/Faculty/Data-science/Sergey-Nikolenko|
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('html') -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--node--784.tpl.php
+   * html--node--%.tpl.php
+   * html--node.tpl.php
+   x html.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/html.tpl.php' -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+	<title>Sergey Nikolenko | Harbour.Space</title>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<link rel="canonical" href="http://harbour.space/Faculty/Data-science/Sergey-Nikolenko" />
+<link rel="shortlink" href="http://harbour.space/node/784" />
+<meta property="og:site_name" content="Harbour.Space" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://harbour.space/Faculty/Data-science/Sergey-Nikolenko" />
+<meta property="og:title" content="Sergey Nikolenko" />
+<meta property="og:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta property="og:image" content="http://harbour.space/sites/default/files/ogimage.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Harbour_Space" />
+<meta name="twitter:url" content="http://harbour.space/Faculty/Data-science/Sergey-Nikolenko" />
+<meta name="twitter:title" content="Sergey Nikolenko" />
+<meta name="twitter:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta name="twitter:image" content="http://harbour.space/sites/default/files/HS_Photo3_0_0.jpg" />
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="google" content="notranslate" />
+	<!-- CSS -->
+		
+	
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--page-top.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('page') -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--faculty-person.tpl.php
+   * page--node--784.tpl.php
+   * page--node--%.tpl.php
+   * page--node.tpl.php
+   x page.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/page.tpl.php' -->
+
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link href="/build/css/video-js.min.css" rel="stylesheet" />
+    <link href="/build/css/academicons.css" rel="stylesheet" />
+
+    <link href="/build/css/style.css?1490186887" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/build/images/favicon/192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/build/images/favicon/160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/build/images/favicon/96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/build/images/favicon/64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/build/images/favicon/32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/build/images/favicon/16.png" />
+    <link rel="apple-touch-icon" href="/build/images/favicon/57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/build/images/favicon/114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/build/images/favicon/72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/build/images/favicon/144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/build/images/favicon/60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/build/images/favicon/120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/build/images/favicon/76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/build/images/favicon/152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/build/images/favicon/180.png" />
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+    
+        fbq('init', '1007429205995768');
+        fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1007429205995768&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Video JS -->
+	<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+</head>
+
+<body class="l-ready">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M6GZL4"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6GZL4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37079975 = new Ya.Metrika({ id:37079975, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37079975" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<!-- Page -->
+<div class="page" id="root">
+
+    
+
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+  <div class="region region-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('block') -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--system--main.tpl.php
+   * block--system.tpl.php
+   * block--content.tpl.php
+   x block.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('node') -->
+<!-- FILE NAME SUGGESTIONS:
+   * node--784.tpl.php
+   x node--faculty-person.tpl.php
+   * node.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/node--faculty-person.tpl.php' -->
+<!-- Header -->
+<header class="header header_light">
+    <div class="header__content">
+        <a href="/" class="header__logo"><svg xmlns="http://www.w3.org/2000/svg" width="270" height="26" viewBox="0 0 270 26"><path fill="#FFF" d="M269.359 21.241v3.536h-15.158v-23.573h15.125v3.538h-11.084v6.533h9.5v3.366h-9.5v6.602l11.117-.002zm-28.902 4.04c-5.83 0-9.164-3.098-9.164-8.484v-7.609c0-5.387 3.334-8.487 9.164-8.487 2.492 0 4.547.674 6.197 2.056 1.65 1.378 2.492 3.4 2.492 6.094v.337h-4.041v-.337c0-1.449-.474-2.559-1.449-3.3-.977-.776-2.055-1.146-3.234-1.146-3.402 0-5.086 1.651-5.086 4.514v8.147c0 2.86 1.684 4.514 5.086 4.514 1.18 0 2.258-.371 3.234-1.112.977-.774 1.449-1.887 1.449-3.336v-.335h4.041v.335c0 2.696-.842 4.718-2.492 6.097-1.65 1.38-3.705 2.052-6.197 2.052zm-18.26-6.329h-8.893l-2.121 5.825h-3.74v-1.347l8.422-22.227h3.975l8.422 22.227v1.348h-3.975l-2.09-5.826zm-4.412-12.357l-3.268 8.991h6.469l-3.201-8.991zm-17.484 9.093h-6.164v9.09h-4.043v-23.574h10.207c4.143 0 6.635 2.799 6.635 7.242 0 4.446-2.493 7.242-6.635 7.242zm-.707-10.946h-5.457v7.409h5.457c1.854 0 3.234-1.314 3.234-3.705 0-2.389-1.381-3.704-3.234-3.704zm-22.84 6.297l.471.168c1.281.438 2.293.843 3.033 1.18.773.335 1.549.775 2.393 1.345 1.648 1.11 2.39 2.593 2.39 4.58 0 4.142-3.164 6.97-8.924 6.97-2.63 0-4.818-.706-6.57-2.087-1.717-1.413-2.594-3.436-2.594-6.062h4.043c0 1.112.303 1.989.875 2.696 1.213 1.381 2.729 1.752 4.479 1.752 2.83 0 4.414-1.28 4.414-3.065 0-.842-.371-1.48-1.111-1.92-.741-.471-2.09-1.078-4.043-1.816l-.305-.102-.539-.203c-2.559-.977-4.41-1.919-5.522-2.829-1.113-.943-1.649-2.29-1.649-4.073 0-2.055.741-3.738 2.258-4.985 1.514-1.246 3.604-1.886 6.229-1.886 5.287 0 8.758 2.526 8.758 7.948h-4.041c0-2.964-2.021-4.244-4.75-4.244-2.661 0-4.379 1.212-4.379 2.862 0 .91.336 1.617 1.043 2.054.705.44 2.053 1.009 4.041 1.717zm-30.959 4.68h-4.648v9.059h-4.043v-23.574h10.14c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.416 5.623-4.145 6.803l4.412 8.183v1.346h-3.973l-4.851-9.059zm4.445-7.205c0-2.527-1.246-3.772-3.738-3.772h-5.355v7.544h5.355c2.492 0 3.738-1.248 3.738-3.772zm-27.791 16.767c-2.729 0-4.916-.706-6.535-2.154-1.582-1.445-2.393-3.466-2.393-6.025v-15.896h4.044v16.096c0 2.458 1.751 4.278 4.884 4.278 3.133 0 4.885-1.82 4.885-4.278v-16.096h4.041v15.896c0 2.561-.808 4.58-2.424 6.025-1.584 1.448-3.773 2.154-6.502 2.154zm-23.242.001c-5.693 0-9.266-3.198-9.266-8.485v-7.61c0-5.287 3.572-8.486 9.266-8.486s9.262 3.199 9.262 8.486v7.61c0 5.287-3.569 8.485-9.262 8.485zm5.221-16.297c0-2.661-1.854-4.581-5.221-4.581-3.37 0-5.223 1.919-5.223 4.581v8.015c0 2.661 1.853 4.58 5.223 4.58 3.367 0 5.221-1.919 5.221-4.58v-8.015zm-25.266 15.792h-10.847v-23.573h9.939c4.209 0 6.736 2.157 6.736 6.333 0 2.391-.943 4.042-2.828 5.017 2.491.91 3.737 2.795 3.737 5.692 0 4.274-2.459 6.531-6.737 6.531zm-1.582-20.035h-5.222v6.566h5.222c2.222 0 3.334-1.11 3.334-3.3 0-2.19-1.112-3.266-3.334-3.266zm.908 9.935h-6.13v6.564h6.13c2.258 0 3.369-1.078 3.369-3.232 0-2.222-1.111-3.332-3.369-3.332zm-23.715 1.042h-4.648v9.059h-4.043v-23.574h10.139c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.415 5.623-4.144 6.803l4.414 8.183v1.346h-3.976l-4.85-9.059zm4.447-7.205c0-2.527-1.247-3.772-3.738-3.772h-5.356v7.544h5.356c2.491 0 3.738-1.248 3.738-3.772zm-22.907 10.438h-8.893l-2.122 5.825h-3.74v-1.347l8.422-22.226h3.975l8.421 22.228v1.346h-3.975l-2.088-5.826zm-4.413-12.357l-3.267 8.991h6.467l-3.2-8.991zm-18.09 8.148h-9.77v10.034h-4.04v-23.573h4.041v10.002h9.77v-10.002h4.041v23.573h-4.042v-10.034z"/><circle fill="#FFF" cx="161.555" cy="24.745" r="1.256"/></svg></a>
+        <nav class="header__nav">
+            <a href="/faculty" onclick="javascript:history.back(); return false;" class="header__close"></a>
+        </nav>
+    </div>
+</header>
+<menu class="menu">
+    <div class="menu__content">
+        <div class="menu__content__inner">
+            <!-- nav -->
+            <div class="menu__nav">
+                <span class="menu__nav__item">Programmes</span>
+                <span class="menu__nav__item menu__nav__item_active">More</span>
+            </div>
+            <!-- programs -->
+            <div class="menu__category menu__category_programs">
+                <ul class="menu__category__list menu__category__list_programs">
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/maths-as-a-second-language">Maths as a Second Language</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/computer-science">Computer Science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/data-science">Data science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/cyber-security">Cyber security</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/interaction-design">Interaction Design</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/high-tech-entrepreneurship">High-Tech Entrepreneurship</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/digital-marketing">Digital marketing</a></li>
+                                    </ul>
+            </div>
+            <!-- more -->
+            <div class="menu__category menu__category_more">
+                <ul class="menu__category__list menu__category__list_more">
+                    <li class="menu__item"><a class="menu__item__link" href="/admissions">Admissions</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faculty">Faculty</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/about">About</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/bcn">Living in BCN</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/careers">Careers</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/contacts">Contact</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faq">FAQ</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/blog">Blog</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/videos">Video</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/apply-1">Apply</a></li>
+                                    </ul>
+            </div>
+            <!-- / -->
+        </div>
+    </div>
+</menu>
+<!--/Header -->
+<section class="man">
+    <div class="man__content i-content">
+
+        <figure class="man__photo">
+            <div class="man__photo__visual">
+                <img class="man__photo__visual__image" src="/sites/default/files/1481909143.png" alt="Sergey Nikolenko" />
+            </div>
+        </figure>
+
+        <div class="man__data">
+                        <a class="man__faculty" href="/courses/data-science">Data science</a>
+
+            <h1 class="man__name title">
+                                <!-- <span class="man__name__first man__name__first_long">Ingo Beyer Von</span> -->
+                <span class="man__name__first">Sergey</span>
+                <span class="man__name__last">Nikolenko</span>
+            </h1>
+
+            <article class="man__summary">
+                <!-- <dl class="man__info man__info_type man__info_type_theorist"> -->
+                <dl class="man__info man__info_type man__info_type_practical">
+                    <dt class="man__info__title">Current position</dt>
+                    <dd class="man__info__value text">PhD, Researcher at Steklov Mathematical Institute and Senior Researcher at National Research University Higher School of Economics</dd>
+                </dl>
+                                <dl>
+                    <dt class="man__info__title">Skills</dt>
+                    <dd class="man__info__value text">Machine learning<br />Algorithms for networking<br />Bioinformatics<br />Mathematical Modeling<br />Python <br><br /><p> </p></dd>
+                </dl>
+                                                                <dl class="man__info">
+                    <dt class="man__info__title">Personal web</dt>
+                    <dd class="man__info__value text"><a href="http://logic.pdmi.ras.ru/~sergey/" target="_blank">http://logic.pdmi.ras.ru/~sergey/</a></dd>
+                </dl>
+                                                                <dl class="man__info">
+                    <dt class="man__info__title">Social</dt>
+                    <dd class="man__info__value man__social">
+                                                <a class="man__social__item man__social__item_in" target="_blank" href="https://ru.linkedin.com/in/sergey-nikolenko-30b08514"></a>                        <a class="man__social__item man__social__item_fb" target="_blank" href="https://www.facebook.com/sergey.i.nikolenko"></a>                                                                        <a class="man__social__item man__social__item_gs ai ai-google-scholar" target="_blank" href="https://scholar.google.com/citations?user=_lk95cEAAAAJ"></a>                    </dd>
+                </dl>
+                            </article>
+
+            <article class="man__details">
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">THE COURSES</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><ul>
+<li> Master's Machine Learning
+<li>Advanced Machine Learning
+<li>Counting + Elementary Probability
+</ul></p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">About</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p>Sergey Nikolenko is a computer scientist with wide experience in machine learning and data analysis, algorithms design and analysis, theoretical computer science, and algebra. He graduated from the St. Petersburg State University in 2005, majoring in algebra (Chevalley groups), and earned his Ph.D. at the Steklov Mathematical Institute at St. Petersburg in 2009 in theoretical computer science (circuit complexity and theoretical cryptography). </p>
+                                                    <p>Since then, Dr. Nikolenko has been interested in machine learning and probabilistic modeling, producing theoretical results and working on practical projects for the industry. </p>
+                                                    <p>He is currently employed at the  Steklov Mathematical Institute at St. Petersburg, Higher School of Economics at St. Petersburg, and Deloitte Analytics Institute. Dr. Nikolenko has more than 100 publications, including top computer science journals and conferences and several books.
+</p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Experience</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><b>Senior  Researcher </b><br>
+Laboratory for Internet Studies, National Research University Higher School of Economics<br>
+2013 – Present |  St. Petersburg, Russian Federation</p>
+                                                    <p><b>Researcher </b><br>
+Steklov Mathematical Institute<br>
+2008 – Present |  St. Petersburg, Russian Federation</p>
+                                                    <p><b>Adjunct Professor </b><br>
+Academic University<br>
+2008 – Present |  St. Petersburg, Russian Federation</p>
+                                                    <p><b> Senior Data Scientist</b><br>
+Deloitte Analytics Institute, Deloitte<br>
+2015 – 2016 | Moscow, Russian Federation</p>
+                                                    <p><b>Research Director </b><br>
+Surfingbird<br>
+2011 – 2014 |  Moscow, Russian Federation</p>
+                                                    <p><b>Senior Researcher </b><br>
+Algorithmic Biology Lab, Academic University<br>
+2011 – 2012 | St. Petersburg, Russian Federation</p>
+                                                    <p><b>Senior Researcher </b><br>
+Speech Technology Center<br>
+2008 – 2010 | St. Petersburg, Russian Federation</p>
+                                                    <p><b>Assistant Professor </b><br>
+SPSU IFMO<br>
+2006 – 2010 | St. Petersburg, Russian Federation</p>
+                                                    <p><b>Engineering intern </b><br>
+Google Inc<br>
+2006 – 2007 </p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Education </h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p>2009: Ph.D. from <b> Steklov Mathematical Institute </b> at St. Petersburg. <br>
+2005-2008: Ph.D. Student at the St.-Petersburg Department of <b> Steklov Mathematical
+Institute </b> at St.-Petersburg, Russia. <br>
+2000-2005: Master. <b>St.-Petersburg State University </b>, St.-Petersburg, Russia, Department of
+Mathematics and Mechanics <br>
+1999-2000: Pskov Polytechnical Institute, Pskov, Russia.
+
+</p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Books</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><ul>
+<li>A. L. Tulupyev, S. I. Nikolenko, A. V. Sirotkin. Bayesian Networks: A Probabilistic Logic
+Approach. St.-Petersburg, Nauka, 2006 (in Russian).
+<li>A. L. Tulupyev, S. I. Nikolenko, A. V. Sirotkin. Bayesian Belief Networks: Logical-Probabilistic
+Inference in Acyclic Directed Graphs. St.-Petersburg State University Publishing, 2009 (in
+Russian).
+<li>A. L. Tulupyev, S. I. Nikolenko. Learning Systems. Moscow, MCCME Press, 2009 (in Russian).
+<li>S. I. Nikolenko. Provably Secure Constructions in Cryptography. Lambert Academic Publishing,
+2011.
+<li>S.I. Nikolenko. Mechanism design theory. Moscow, INTUIT, 2009 (in Russian).
+</ul></p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">SELECTED Publications</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><ul>
+<li>K. Kogan, A. Lòpez-Ortiz, S.I. Nikolenko, A.V. Sirotkin. Online Scheduling FIFO Policies with
+Admission and Push-Out. Theory of Computing Systems, vol. 58, no. 2, 2016, pp. 322-344.
+<li>D. Ignatov, S.I. Nikolenko, T. Abaev, J. Poelmans. Online Recommender System for Radio Station
+Hosting Based on Information Fusion and Adaptive Tag-Aware Profiling. Expert Systems with
+Applications, vol. 55, pp. 546–558, 2016.
+<li>P. Chuprikov, S.I. Nikolenko, K. Kogan. On Demand Elastic Capacity Planning for Service Autoscaling.
+Proceedings of IEEE INFOCOM 2016.
+<li>K. Kogan, D. Menikkumbura, G. Petri, Y. Noh, S.I. Nikolenko, P. Eugster. BASEL (Buffering
+Architecture SpEcification Language). Proc. 12th ACM/IEEE Symposium on Architectures for
+Networking and Communications Systems (ANCS 2016), 2016.
+<li>S.I. Nikolenko, K. Kogan, G. Retvari, E.R. Berczi-Kovacs, A. Shalimov. How to Represent IPv6
+Forwarding Tables on IPv4 or MPLS Dataplanes. Proc. 2016 IEEE Conference on Computer
+Communications Workshop GI 2016: 9th IEEE Global Internet Symposium (IEEE GI 2016), 2016.
+<li>K. Kogan, S.I. Nikolenko, O. Rottenstreich, W. Culhane, P. Eugster. Exploiting Order
+Independence for Scalable and Expressive Packet Classification. IEEE Transactions on
+Networking, published online ahead of print, 2015.
+<li>S.I. Nikolenko, O. Koltsova, S. Koltsov. Topic Modelling for Qualitative Studies. Published online
+ahead of print, Journal of Information Science, 2015.
+<li>P. Eugster, K. Kogan, S.I. Nikolenko, A.V. Sirotkin. Heterogeneous
+Packet Processing in Shared Memory Buffers. Published online ahead of
+print, Journal of Parallel and Distributed Computing, 2017
+
+<li> S.I. Nikolenko. Topic Quality Metrics Based on Distributed Word
+Representations. Proc. 39th International ACM SIGIR Conference on
+Research and Development in Information Retrieval ( SIGIR 2016), 2016,
+pp. 1029–1032
+
+<li> A. Palmer, P. Phapale, I. Chernyavsky, R. Lavigne, D. Fay, A.
+Tarasov, V. Kovalev, J. Fuchser, S.I. Nikolenko, C. Pineau, M. Becker,
+T. Alexandrov. FDR-controlled metabolite annotation for
+high-resolution imaging mass spectrometry. Nature Methods, 2016
+
+<li> K. Kogan, A. Lòpez-Ortiz, S.I. Nikolenko, G. Scalosub, M. Segal.
+Large profits or fast gains: A dilemma in maximizing throughput with
+applications to network processors. Journal of Network and Computer
+Applications, vol. 74, 2016, pp. 31–43
+<li>K. Kogan, S.I. Nikolenko, O. Rottenstreich, W. Culhane, P. Eugster.
+Exploiting Order Independence for Scalable and Expressive Packet
+Classification. IEEE Transactions on Networking, vol. 24, no. 2, 2016,
+pp. 1251–1264
+</ul>
+
+
+</p>
+                                            </div>
+                </div>
+                                            </article>
+
+        </div>
+
+    </div>
+
+    
+</section>
+<!--/Man -->
+
+<!-- Discover -->
+<section class="discover section section_branded">
+    <div class="section__content i-content">
+        <div class="faq">
+            <a href="/faq" class="faq__link">FAQ</a>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter__title">Newsletter</div>
+            <div class="newsletter__text">Subscribe to&nbsp;our newsletter. No&nbsp;spam, we&nbsp;promise.</div>
+            <form class="newsletter__form" action="//panterastudio.us1.list-manage.com/subscribe/post?u=1083143896c97d4068e3f2ce8&amp;id=1285072bbb" method="post">
+                <input class="newsletter__form__field" name="EMAIL" type="text" placeholder="Type in your email and hit enter" />
+                <input type="hidden" name="b_1083143896c97d4068e3f2ce8_1285072bbb" tabindex="-1" value="">
+            </form>
+        </div>
+    </div>
+</section><!--/Discover -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content i-content">
+        <div class="footer__company">
+            <a class="footer__company__logo" href="/"></a>
+            <small class="footer__company__copyright">All rights reserved. 2015</small>
+        </div>
+        <nav class="footer__menu">
+            <a class="footer__menu__item" href="/about">About</a>
+            <a class="footer__menu__item" href="/bcn">Living in Bcn</a>
+            <a class="footer__menu__item" href="/careers">Careers</a>
+            <a class="footer__menu__item" href="/contacts">Contact</a>
+            <a class="footer__menu__item" href="/blog">Blog</a>
+            <a class="footer__menu__item" href="/faq">FAQ</a>
+        </nav>
+    </div>
+</footer>
+<!--/Footer -->
+
+<!-- Networks -->
+<footer class="networks">
+	<div class="networks__content i-content">
+		<span class="networks__title">Follow us:</span>
+		<a class="networks__item networks__item_facebook" target="_blank" href="https://www.facebook.com/Harbour.Space.University">
+			<span class="networks__item__name">Facebook</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_twitter" target="_blank" href="https://twitter.com/Harbour_Space">
+			<span class="networks__item__name">Twitter</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_linkedin" target="_blank" href="https://www.linkedin.com/company/harbour-space">
+			<span class="networks__item__name">LinkedIn</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_gplus" target="_blank" href="https://instagram.com/Harbour.Space/">
+			<span class="networks__item__name">Instagram</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_vk" target="_blank" href="https://vk.com/harbour.space">
+			<span class="networks__item__name">VK</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_quora" target="_blank" href="https://www.quora.com/profile/Harbour-Space">
+			<span class="networks__item__name">Quora</span>
+			<i class="networks__item__icon"></i>
+					</a>
+	</div>
+</footer><!-- /Networks -->
+
+<!-- Developer -->
+<footer class="developer">
+	<div class="developer__content i-content">
+		<a class="developer__chulakov" href="http://chulakov.com/" target="_blank">
+			<span class="developer__chulakov__name">Chulakov</span>
+			<span class="developer__chulakov__domain">com</span>
+		</a>
+		<div class="developer__description">
+			<span class="developer__description__part">Design, Development and Animation by <a class="developer__description__link" href="http://chulakov.com/" target="_blank">Oleg Chulakov Studio</a>.</span>
+			<span class="developer__description__part">Special thanks to <a class="developer__description__link" href="http://repponen.com/" target="_blank">Anton Repponen</a></span>
+		</div>
+	</div>
+</footer><!--/Developer -->
+
+<!-- END OUTPUT from 'sites/all/themes/hs/node--faculty-person.tpl.php' -->
+
+
+<!-- END OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+
+  </div>
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+    
+    <!-- User apply -->
+    <!-- Apply -->
+<section class="user user-apply" id="user-apply">
+    <div class="user__wrap" data-user-panel="apply">
+        <div class="user__wrap__inner">
+            <article class="user__content user__content_double i-content">
+                <div class="user__content__part user-apply__part user-apply__part_1">
+                    <div class="user__title title title_secondary">Request more information</div>
+                    <div class="user__text">About <nobr>Harbour.Space</nobr></div>
+                    <a href="#" class="user__action user__action_secondary action" data-open="#user-start">
+                        <span class="user__action__text action__text">Send me the info</span>
+                    </a>
+                </div>
+                <div class="user__content__part user-apply__part_2">
+                    <div class="user__title title title_secondary">Apply now</div>
+                    <a href="/apply-1" class="user__action action" data-open="#user-login" data-after-login="/apply-1">
+                        <span class="user__action__text action__text">yes, i’d like to apply</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <i class="user__close"></i>
+    </div>
+</section>    <!--/User apply -->
+
+    <!-- User start -->
+    <section class="user user-start" id="user-start">
+	<!-- Call -->
+	<div class="user__wrap" data-user-panel="start">
+		<div class="user__wrap__inner user-start__inner">
+			<i class="user__decor"></i>
+			<div class="user__content user-start__content i-content">
+				<div class="user__title user-start__title title title_secondary">Request free information about Harbour.Space</div>
+				<div class="user__text user-start__text text">1 minute to&nbsp;complete and fast response time</div>
+				<form class="user__form form" action="/hsajax/form/starthere" method="post" data-after-submit="/form/thankyou">
+					<div class="form__group">
+						<div class="form__complex">
+							<label class="form__label" for="first_name">Your name</label>
+							<div class="form__item form__complex__item">
+								<input class="field" id="first_name" name="name" type="text" placeholder="Name" required />
+							</div>
+							<div class="form__item form__complex__item">
+								<input class="field" id="last_name" name="surname" type="text" placeholder="Surname" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Date of birth</label>
+								<div class="form__date">
+									<input class="form__date__field form__date__field_day form__item__field field" name="day_birth" type="text" placeholder="DD" required />
+									<select class="form__date__field form__date__field_month select" name="month_birth" placeholder="Month" required>
+										<option value=""></option>
+																					<option value="1">January</option>
+																					<option value="2">February</option>
+																					<option value="3">March</option>
+																					<option value="4">April</option>
+																					<option value="5">May</option>
+																					<option value="6">June</option>
+																					<option value="7">July</option>
+																					<option value="8">August</option>
+																					<option value="9">September</option>
+																					<option value="10">October</option>
+																					<option value="11">November</option>
+																					<option value="12">December</option>
+																			</select>
+									<input class="form__date__field field form__date__field_year form__item__field field" name="year_birth" type="text" placeholder="YYYY" required />
+								</div>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Gender</label>
+								<div class="form__item__radio radio radio_secondary">
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="male" checked />
+										Male
+									</label>
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="female" />
+										Female
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Nationality</label>
+								<select class="form__item__field select" name="nationality" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">I live in</label>
+								<select class="form__item__field select" name="live-in" placeholder="Select Country" id="live-in" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="telephone">Phone</label>
+								<input class="field tel__input" id="telephone" name="telephone" type="tel" placeholder="Mobile" data-rule-phone="true" required/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="email">E-mail</label>
+								<input class="field" id="email" name="email" type="email" placeholder="hello@harbour.space" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="skype">Skype</label>
+								<input class="field" id="skype" name="skype" type="text" placeholder="Login" required=""/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Funding</label>
+								<select class="form__item__field select" name="funding" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="Self funding">Self funding</option>
+									<option value="Business or Government funding">Business or Government funding</option>
+									<option value="I need a scholarship">I need a scholarship</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Last Study Location</label>
+								<select class="form__item__field select" name="study-location" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Highest Education</label>
+								<select class="form__item__field select" name="education" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="High School">High School</option>
+									<option value="Bachelor">Bachelor</option>
+									<option value="Master">Master</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Programme of interest</label>
+								<select class="form__item__field select" name="interest" placeholder="Choose Programme">
+									<option value=""></option>
+									<optgroup label="Bachelor">
+										<option value="Bachelor of Computer Science">Bachelor of Computer Science</option>
+										<option value="Bachelor of Data Science">Bachelor of Data Science</option>
+										<option value="Bachelor of Digital Marketing">Bachelor of Digital Marketing</option>
+										<option value="Bachelor of High-Tech Entrepreneurship">Bachelor of High-Tech Entrepreneurship</option>
+										<option value="Bachelor of Interaction Design">Bachelor of Interaction Design</option>
+									</optgroup>
+									<optgroup label="Master">
+										<option value="Master High-Tech Entrepreneurship">Master High-Tech Entrepreneurship</option>
+										<option value="Master in Computer Science">Master in Computer Science</option>
+										<option value="Master in Digital Marketing">Master in Digital Marketing</option>
+										<option value="Master Interaction Design">Master Interaction Design</option>
+										<option value="Master of Data Science">Master of Data Science</option>
+									</optgroup>
+									<optgroup label="Foundation Year">
+										<option value="Maths as a second language">Maths as a second language</option>
+									</optgroup>
+									<optgroup label="MBA">
+										<option value="MBA Business Administration">MBA Business Administration</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Desired Start</label>
+								<select class="form__item__field select" name="desired" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="0 to 6 months">0 to 6 Months</option>
+									<option value="7 to 12 months">7 to 12 Months</option>
+									<option value="13 to 24 months">13 to 24 Months</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group form__group_divider">
+						<div class="form__item">
+							<label class="form__label" for="questions">Any questions?</label>
+							<select class="form__item__field select" id="questions" name="questions" placeholder="Request more info">
+								<option value=""></option>
+								<optgroup label="General Information">
+									<option value="Can you send me more information?">Can you send me more information?</option>
+								</optgroup>
+								<optgroup label="Programme Deadline">
+									<option value="When is the application deadline?">When is the application deadline?</option>
+								</optgroup>
+								<optgroup label="Fees & Prices">
+									<option value="How much does it cost?">How much does it cost?</option>
+									<option value="Can I pay in installments?">Can I pay in installments?</option>
+								</optgroup>
+								<optgroup label="Programme Type & Duration">
+									<option value="Is this available online?">Is this available online?</option>
+									<option value="What is the duration?">What is the duration?</option>
+								</optgroup>
+								<optgroup label="Study Place">
+									<option value="Where is the school located?">Where is the school located?</option>
+									<option value="Where is the campus located?">Where is the campus located?</option>
+									<option value="In whice state/province/region is the school?">In whice state/province/region is the school?</option>
+								</optgroup>
+								<optgroup label="Funding">
+									<option value="What other funding options do you have?">What other funding options do you have?</option>
+								</optgroup>
+								<optgroup label="How to Apply">
+									<option value="What documents are required?">What documents are required?</option>
+									<option value="What is the admission/enrolment process?">What is the admission/enrolment process?</option>
+								</optgroup>
+								<optgroup label="Other">
+									<option value="Other">Other</option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+					<button class="user__action action user-start__action" type="submit">
+						<span class="action__text user__action__text">YES, Send me the info now</span>
+					</button>
+					<p class="user__error form__error form__error_empty"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-visit__success user__wrap" data-user-panel="visit-start">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you!<br /> We call soon</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our&nbsp;email.</div>
+				<a href="/" class="user-visit__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+	<i class="user__close user-start__close"></i>
+</section>
+<!--/User curriculum -->    <!--/User start -->
+
+    <!-- User login -->
+    <section class="user user-login" id="user-login">
+	<!-- Login -->
+	<div class="user-login__login user__wrap" data-user-panel="login">
+		<div class="user__wrap__inner">
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Log in</div>
+					<form class="user__form form" action="/hsajax/user/login" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+							<span data-user-to="password" class="form__item__action">Forgot your password?</span>
+						</p>
+						<div class="user__actions">
+							<button class="user__actions__item user__action action" type="submit">
+								<span class="user__action__text action__text">Log in</span>
+							</button>
+														<a class="user__actions__item user__action user__action_facebook action" href="/user/simple-fb-connect?destination=apply-1">
+								<span class="user__action__text action__text"></span>
+							</a>
+						</div>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">New To <nobr>Harbour.Space?</nobr></div>
+					<button class="user__action user__action_secondary action" data-user-to="register">
+						<span class="user__action__text action__text">Sign Up</span>
+					</button>
+				</div>
+			</article>
+		</div>
+		<i class="user__close"></i>
+	</div>
+	<!-- Register -->
+	<div class="user-login__register user__wrap" data-user-panel="register">
+		<div class="user__wrap__inner">
+			<i class="user__close" style="opacity: 1;"></i>
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">I Already Have An&nbsp;Account</div>
+					<div class="user__actions">
+						<button class="user__actions__item user__action user__action_secondary action" data-user-to="login">
+							<span class="user__action__text action__text">Log in</span>
+						</button>
+												<a class="user__actions__item user__action user__action_secondary user__action_facebook action" href="#">
+							<span class="user__action__text action__text"></span>
+						</a>
+					</div>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Registration</div>
+					<div class="user__text">Create an&nbsp;account to&nbsp;get the&nbsp;access to&nbsp;the&nbsp;application process and&nbsp;more.</div>
+					<form class="user__form" action="/hsajax/user/register" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+						</p>
+						<button class="user__action action" type="submit">
+							<span class="user__action__text action__text">Sign Up</span>
+						</button>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</article>
+		</div>
+	</div>
+	<!-- Password -->
+	<div class="user-login__password user__wrap" data-user-panel="password">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_double user__content_double_one i-content">
+				<div class="user__content__part">
+					<i class="user__back" data-user-to="login"></i>
+					<div class="user__title title title_secondary">Password recovery</div>
+					<div class="user__text text">Enter your email and we&rsquo;ll get back to&nbsp;you right&nbsp;away.</div>
+					<form class="user-login__password__form user__form" action="/hsajax/user/reset" method="post">
+						<p class="user-login__password__form__item form__item">
+							<input name="email" type="email" class="user-login__password__form__field field field_large" placeholder="Email" required />
+							<button class="user-login__password__form__action user__action action" type="submit">
+								<span class="action__text user__action__text">Submit</span>
+							</button>
+						</p>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-login__success user__wrap" data-user-panel="register-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you.<br /> You're almost there.</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our email, you're all&nbsp;set.</div>
+								<a href="/apply-1" class="user-login__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Password success -->
+	<div class="user-login__success user__wrap" data-user-panel="password-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Success!</div>
+				<div class="user__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+				<a href="/#user-login" class="user-login__success__action user__action user__action_secondary action" data-user-to="login">
+					<span class="action__text user__action__text">Login</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+</section>
+    <!--/User login -->
+
+</div>
+<!--/Page -->
+
+<!-- JS -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="/build/js/script.js?1488191725"></script>
+<!--/JS -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67982187-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Google Code for HTE, CS test Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 941094980;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "s2qbCMPlomUQxPDfwAM";
+    var google_remarketing_only = false;
+    /* ]]> */
+</script>
+<script type="text/javascript"
+        src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt=""
+             src="//www.googleadservices.com/pagead/conversion/941094980/?label=s2qbCMPlomUQxPDfwAM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+</body>
+<!-- END OUTPUT from 'sites/all/themes/hs/page.tpl.php' -->
+
+
+	
+</html>
+
+<!-- END OUTPUT from 'sites/all/themes/hs/html.tpl.php' -->
+
+|||http://www.php.net/downloads|<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <title>PHP: Downloads</title>
+
+ <link rel="shortcut icon" href="http://php.net/favicon.ico">
+ <link rel="search" type="application/opensearchdescription+xml" href="http://php.net/phpnetimprovedsearch.src" title="Add PHP.net search">
+ <link rel="alternate" type="application/atom+xml" href="http://php.net/releases/feed.php" title="PHP Release feed">
+ <link rel="alternate" type="application/atom+xml" href="http://php.net/feed.atom" title="PHP: Hypertext Preprocessor">
+
+ <link rel="canonical" href="http://php.net/downloads.php">
+ <link rel="shorturl" href="http://php.net/downloads">
+ <link rel="alternate" href="http://php.net/downloads" hreflang="x-default">
+
+
+
+<link rel="stylesheet" type="text/css" href="http://php.net/cached.php?t=1421837618&amp;f=/fonts/Fira/fira.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://php.net/cached.php?t=1421837618&amp;f=/fonts/Font-Awesome/css/fontello.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://php.net/cached.php?t=1478800802&amp;f=/styles/theme-base.css" media="screen">
+<link rel="stylesheet" type="text/css" href="http://php.net/cached.php?t=1449787206&amp;f=/styles/theme-medium.css" media="screen">
+
+ <!--[if lte IE 7]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie7.css" media="screen">
+ <![endif]-->
+
+ <!--[if lte IE 8]>
+ <script type="text/javascript">
+  window.brokenIE = true;
+ </script>
+ <![endif]-->
+
+ <!--[if lte IE 9]>
+ <link rel="stylesheet" type="text/css" href="http://php.net/styles/workarounds.ie9.css" media="screen">
+ <![endif]-->
+
+ <!--[if IE]>
+ <script type="text/javascript" src="http://php.net/js/ext/html5.js"></script>
+ <![endif]-->
+
+ <base href="http://php.net/downloads.php">
+
+</head>
+<body class="downloads ">
+
+<nav id="head-nav" class="navbar navbar-fixed-top">
+  <div class="navbar-inner clearfix">
+    <a href="/" class="brand"><img src="/images/logos/php-logo.svg" width="48" height="24" alt="php"></a>
+    <div id="mainmenu-toggle-overlay"></div>
+    <input type="checkbox" id="mainmenu-toggle">
+    <ul class="nav">
+      <li class="active"><a href="/downloads">Downloads</a></li>
+      <li class=""><a href="/docs.php">Documentation</a></li>
+      <li class=""><a href="/get-involved" >Get Involved</a></li>
+      <li class=""><a href="/support">Help</a></li>
+    </ul>
+    <form class="navbar-search" id="topsearch" action="/search.php">
+      <input type="hidden" name="show" value="quickref">
+      <input type="search" name="pattern" class="search-query" placeholder="Search" accesskey="s">
+    </form>
+  </div>
+  <div id="flash-message"></div>
+</nav>
+<nav id="trick"><div><dl>
+<dt><a href='/manual/en/getting-started.php'>Getting Started</a></dt>
+	<dd><a href='/manual/en/introduction.php'>Introduction</a></dd>
+	<dd><a href='/manual/en/tutorial.php'>A simple tutorial</a></dd>
+<dt><a href='/manual/en/langref.php'>Language Reference</a></dt>
+	<dd><a href='/manual/en/language.basic-syntax.php'>Basic syntax</a></dd>
+	<dd><a href='/manual/en/language.types.php'>Types</a></dd>
+	<dd><a href='/manual/en/language.variables.php'>Variables</a></dd>
+	<dd><a href='/manual/en/language.constants.php'>Constants</a></dd>
+	<dd><a href='/manual/en/language.expressions.php'>Expressions</a></dd>
+	<dd><a href='/manual/en/language.operators.php'>Operators</a></dd>
+	<dd><a href='/manual/en/language.control-structures.php'>Control Structures</a></dd>
+	<dd><a href='/manual/en/language.functions.php'>Functions</a></dd>
+	<dd><a href='/manual/en/language.oop5.php'>Classes and Objects</a></dd>
+	<dd><a href='/manual/en/language.namespaces.php'>Namespaces</a></dd>
+	<dd><a href='/manual/en/language.errors.php'>Errors</a></dd>
+	<dd><a href='/manual/en/language.exceptions.php'>Exceptions</a></dd>
+	<dd><a href='/manual/en/language.generators.php'>Generators</a></dd>
+	<dd><a href='/manual/en/language.references.php'>References Explained</a></dd>
+	<dd><a href='/manual/en/reserved.variables.php'>Predefined Variables</a></dd>
+	<dd><a href='/manual/en/reserved.exceptions.php'>Predefined Exceptions</a></dd>
+	<dd><a href='/manual/en/reserved.interfaces.php'>Predefined Interfaces and Classes</a></dd>
+	<dd><a href='/manual/en/context.php'>Context options and parameters</a></dd>
+	<dd><a href='/manual/en/wrappers.php'>Supported Protocols and Wrappers</a></dd>
+</dl>
+<dl>
+<dt><a href='/manual/en/security.php'>Security</a></dt>
+	<dd><a href='/manual/en/security.intro.php'>Introduction</a></dd>
+	<dd><a href='/manual/en/security.general.php'>General considerations</a></dd>
+	<dd><a href='/manual/en/security.cgi-bin.php'>Installed as CGI binary</a></dd>
+	<dd><a href='/manual/en/security.apache.php'>Installed as an Apache module</a></dd>
+	<dd><a href='/manual/en/security.sessions.php'>Session Security</a></dd>
+	<dd><a href='/manual/en/security.filesystem.php'>Filesystem Security</a></dd>
+	<dd><a href='/manual/en/security.database.php'>Database Security</a></dd>
+	<dd><a href='/manual/en/security.errors.php'>Error Reporting</a></dd>
+	<dd><a href='/manual/en/security.globals.php'>Using Register Globals</a></dd>
+	<dd><a href='/manual/en/security.variables.php'>User Submitted Data</a></dd>
+	<dd><a href='/manual/en/security.magicquotes.php'>Magic Quotes</a></dd>
+	<dd><a href='/manual/en/security.hiding.php'>Hiding PHP</a></dd>
+	<dd><a href='/manual/en/security.current.php'>Keeping Current</a></dd>
+<dt><a href='/manual/en/features.php'>Features</a></dt>
+	<dd><a href='/manual/en/features.http-auth.php'>HTTP authentication with PHP</a></dd>
+	<dd><a href='/manual/en/features.cookies.php'>Cookies</a></dd>
+	<dd><a href='/manual/en/features.sessions.php'>Sessions</a></dd>
+	<dd><a href='/manual/en/features.xforms.php'>Dealing with XForms</a></dd>
+	<dd><a href='/manual/en/features.file-upload.php'>Handling file uploads</a></dd>
+	<dd><a href='/manual/en/features.remote-files.php'>Using remote files</a></dd>
+	<dd><a href='/manual/en/features.connection-handling.php'>Connection handling</a></dd>
+	<dd><a href='/manual/en/features.persistent-connections.php'>Persistent Database Connections</a></dd>
+	<dd><a href='/manual/en/features.safe-mode.php'>Safe Mode</a></dd>
+	<dd><a href='/manual/en/features.commandline.php'>Command line usage</a></dd>
+	<dd><a href='/manual/en/features.gc.php'>Garbage Collection</a></dd>
+	<dd><a href='/manual/en/features.dtrace.php'>DTrace Dynamic Tracing</a></dd>
+</dl>
+<dl>
+<dt><a href='/manual/en/funcref.php'>Function Reference</a></dt>
+	<dd><a href='/manual/en/refs.basic.php.php'>Affecting PHP's Behaviour</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.audio.php'>Audio Formats Manipulation</a></dd>
+	<dd><a href='/manual/en/refs.remote.auth.php'>Authentication Services</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.cmdline.php'>Command Line Specific Extensions</a></dd>
+	<dd><a href='/manual/en/refs.compression.php'>Compression and Archive Extensions</a></dd>
+	<dd><a href='/manual/en/refs.creditcard.php'>Credit Card Processing</a></dd>
+	<dd><a href='/manual/en/refs.crypto.php'>Cryptography Extensions</a></dd>
+	<dd><a href='/manual/en/refs.database.php'>Database Extensions</a></dd>
+	<dd><a href='/manual/en/refs.calendar.php'>Date and Time Related Extensions</a></dd>
+	<dd><a href='/manual/en/refs.fileprocess.file.php'>File System Related Extensions</a></dd>
+	<dd><a href='/manual/en/refs.international.php'>Human Language and Character Encoding Support</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.image.php'>Image Processing and Generation</a></dd>
+	<dd><a href='/manual/en/refs.remote.mail.php'>Mail Related Extensions</a></dd>
+	<dd><a href='/manual/en/refs.math.php'>Mathematical Extensions</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.nontext.php'>Non-Text MIME Output</a></dd>
+	<dd><a href='/manual/en/refs.fileprocess.process.php'>Process Control Extensions</a></dd>
+	<dd><a href='/manual/en/refs.basic.other.php'>Other Basic Extensions</a></dd>
+	<dd><a href='/manual/en/refs.remote.other.php'>Other Services</a></dd>
+	<dd><a href='/manual/en/refs.search.php'>Search Engine Extensions</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.server.php'>Server Specific Extensions</a></dd>
+	<dd><a href='/manual/en/refs.basic.session.php'>Session Extensions</a></dd>
+	<dd><a href='/manual/en/refs.basic.text.php'>Text Processing</a></dd>
+	<dd><a href='/manual/en/refs.basic.vartype.php'>Variable and Type Related Extensions</a></dd>
+	<dd><a href='/manual/en/refs.webservice.php'>Web Services</a></dd>
+	<dd><a href='/manual/en/refs.utilspec.windows.php'>Windows Only Extensions</a></dd>
+	<dd><a href='/manual/en/refs.xml.php'>XML Manipulation</a></dd>
+	<dd><a href='/manual/en/refs.ui.php'>GUI Extensions</a></dd>
+</dl>
+<dl>
+<dt>Keyboard Shortcuts</dt><dt>?</dt>
+<dd>This help</dd>
+<dt>j</dt>
+<dd>Next menu item</dd>
+<dt>k</dt>
+<dd>Previous menu item</dd>
+<dt>g p</dt>
+<dd>Previous man page</dd>
+<dt>g n</dt>
+<dd>Next man page</dd>
+<dt>G</dt>
+<dd>Scroll to bottom</dd>
+<dt>g g</dt>
+<dd>Scroll to top</dd>
+<dt>g h</dt>
+<dd>Goto homepage</dd>
+<dt>g s</dt>
+<dd>Goto search<br>(current page)</dd>
+<dt>/</dt>
+<dd>Focus search box</dd>
+</dl></div></nav>
+<div id="goto">
+    <div class="search">
+         <div class="text"></div>
+         <div class="results"><ul></ul></div>
+   </div>
+</div>
+
+
+
+
+
+<div id="layout" class="clearfix">
+  <section id="layout-content">
+<a id="v7"></a>
+    
+  <h3 id="v7.1.3" class="title">
+    <span class="release-state">Current Stable</span>
+    PHP 7.1.3    (<a href="/ChangeLog-7.php#7.1.3" class="changelog">Changelog</a>)
+  </h3>
+  <div class="content-box">
+
+    <ul>
+              <li>
+          <a href="/get/php-7.1.3.tar.bz2/from/a/mirror">php-7.1.3.tar.bz2</a> <a href="/get/php-7.1.3.tar.bz2.asc/from/a/mirror">(sig)</a> [15,341Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">1306085cf74ba682dbcbfb4dff67b650</span>
+          <span class="sha256">c145924d91b7a253eccc31f8d22f15b61589cd24d78105e56240c1bb6413b94f</span>
+                  </li>
+              <li>
+          <a href="/get/php-7.1.3.tar.gz/from/a/mirror">php-7.1.3.tar.gz</a> <a href="/get/php-7.1.3.tar.gz.asc/from/a/mirror">(sig)</a> [19,836Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">d3294c06b207ee23126210f8276032bb</span>
+          <span class="sha256">4bfadd0012b966eced448497272150ffeede13136a961aacb9e71553b8e929ec</span>
+                  </li>
+              <li>
+          <a href="/get/php-7.1.3.tar.xz/from/a/mirror">php-7.1.3.tar.xz</a> <a href="/get/php-7.1.3.tar.xz.asc/from/a/mirror">(sig)</a> [12,489Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">d604d688be17f4a05b99dbb7fb9581f4</span>
+          <span class="sha256">e4887c2634778e37fd962fbdf5c4a7d32cd708482fe07b448804625570cb0bb0</span>
+                  </li>
+            <li>
+        <a href="http://windows.php.net/download#php-7.1">
+          Windows downloads
+        </a>
+      </li>
+    </ul>
+
+    <a href="#gpg-7.1">GPG Keys for PHP 7.1</a>
+  </div>
+    
+  <h3 id="v7.0.17" class="title">
+    <span class="release-state">Old Stable</span>
+    PHP 7.0.17    (<a href="/ChangeLog-7.php#7.0.17" class="changelog">Changelog</a>)
+  </h3>
+  <div class="content-box">
+
+    <ul>
+              <li>
+          <a href="/get/php-7.0.17.tar.bz2/from/a/mirror">php-7.0.17.tar.bz2</a> <a href="/get/php-7.0.17.tar.bz2.asc/from/a/mirror">(sig)</a> [14,967Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">12ebc113a221959cebaf33ba22fd46c1</span>
+          <span class="sha256">aee503926b96d807692fac3e0fd64e3259788f5139819a983152679cb6e91d4b</span>
+                  </li>
+              <li>
+          <a href="/get/php-7.0.17.tar.gz/from/a/mirror">php-7.0.17.tar.gz</a> <a href="/get/php-7.0.17.tar.gz.asc/from/a/mirror">(sig)</a> [19,100Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">5fd4e26265b213610a4be7fdc88dcee4</span>
+          <span class="sha256">1f42ffe9895dad746baf4a0e8d81f2272f55fdef66cf298ac911d8791ceb1e80</span>
+                  </li>
+              <li>
+          <a href="/get/php-7.0.17.tar.xz/from/a/mirror">php-7.0.17.tar.xz</a> <a href="/get/php-7.0.17.tar.xz.asc/from/a/mirror">(sig)</a> [12,293Kb]          <span class="releasedate">16 Mar 2017</span>
+          <span class="md5sum">549df69a7a3c79d49fcafe2097579d9e</span>
+          <span class="sha256">471c16fcdd6a5e1a37199e97bcaeea6117626229785185be7532aaa7c6ee04be</span>
+                  </li>
+            <li>
+        <a href="http://windows.php.net/download#php-7.0">
+          Windows downloads
+        </a>
+      </li>
+    </ul>
+
+    <a href="#gpg-7.0">GPG Keys for PHP 7.0</a>
+  </div>
+<a id="v5"></a>
+    
+  <h3 id="v5.6.30" class="title">
+    <span class="release-state">Current Stable</span>
+    PHP 5.6.30    (<a href="/ChangeLog-5.php#5.6.30" class="changelog">Changelog</a>)
+  </h3>
+  <div class="content-box">
+
+    <ul>
+              <li>
+          <a href="/get/php-5.6.30.tar.bz2/from/a/mirror">php-5.6.30.tar.bz2</a> <a href="/get/php-5.6.30.tar.bz2.asc/from/a/mirror">(sig)</a> [14,660Kb]          <span class="releasedate">19 Jan 2017</span>
+          <span class="md5sum">67566191957b5fcac8567a5a9bbdced7</span>
+          <span class="sha256">a105c293fa1dbff118b5b0ca74029e6c461f8c78f49b337a2a98be9e32c27906</span>
+                  </li>
+              <li>
+          <a href="/get/php-5.6.30.tar.gz/from/a/mirror">php-5.6.30.tar.gz</a> <a href="/get/php-5.6.30.tar.gz.asc/from/a/mirror">(sig)</a> [18,823Kb]          <span class="releasedate">19 Jan 2017</span>
+          <span class="md5sum">8c7ef86c259abad33f213405a35a13c2</span>
+          <span class="sha256">8bc7d93e4c840df11e3d9855dcad15c1b7134e8acf0cf3b90b932baea2d0bde2</span>
+                  </li>
+              <li>
+          <a href="/get/php-5.6.30.tar.xz/from/a/mirror">php-5.6.30.tar.xz</a> <a href="/get/php-5.6.30.tar.xz.asc/from/a/mirror">(sig)</a> [12,158Kb]          <span class="releasedate">19 Jan 2017</span>
+          <span class="md5sum">68753955a8964ae49064c6424f81eb3e</span>
+          <span class="sha256">a363185c786432f75e3c7ff956b49c3369c3f6906a6b10459f8d1ddc22f70805</span>
+                  </li>
+            <li>
+        <a href="http://windows.php.net/download#php-5.6">
+          Windows downloads
+        </a>
+      </li>
+    </ul>
+
+    <a href="#gpg-5.6">GPG Keys for PHP 5.6</a>
+  </div>
+    
+  <h3 id="v5.5.38" class="title">
+    <span class="release-state">Old Stable</span>
+    PHP 5.5.38    (<a href="/ChangeLog-5.php#5.5.38" class="changelog">Changelog</a>)
+  </h3>
+  <div class="content-box">
+
+    <ul>
+              <li>
+          <a href="/get/php-5.5.38.tar.bz2/from/a/mirror">php-5.5.38.tar.bz2</a> <a href="/get/php-5.5.38.tar.bz2.asc/from/a/mirror">(sig)</a> [13,380Kb]          <span class="releasedate">21 Jul 2016</span>
+          <span class="md5sum">312244a0eecad602a1555ed2434e223f</span>
+          <span class="sha256">473c81ebb2e48ca468caee031762266651843d7227c18a824add9b07b9393e38</span>
+                  </li>
+              <li>
+          <a href="/get/php-5.5.38.tar.gz/from/a/mirror">php-5.5.38.tar.gz</a> <a href="/get/php-5.5.38.tar.gz.asc/from/a/mirror">(sig)</a> [17,369Kb]          <span class="releasedate">21 Jul 2016</span>
+          <span class="md5sum">c2545f7164f8f8b2187fb404f11ceb35</span>
+          <span class="sha256">4f458c9b504269615715a62f182b7c2f89bb8284f484befc221b56a1571b506e</span>
+                  </li>
+              <li>
+          <a href="/get/php-5.5.38.tar.xz/from/a/mirror">php-5.5.38.tar.xz</a> <a href="/get/php-5.5.38.tar.xz.asc/from/a/mirror">(sig)</a> [10,818Kb]          <span class="releasedate">21 Jul 2016</span>
+          <span class="md5sum">72302e26f153687e2ca922909f927443</span>
+          <span class="sha256">cb527c44b48343c8557fe2446464ff1d4695155a95601083e5d1f175df95580f</span>
+                  </li>
+            <li>
+        <a href="http://windows.php.net/download#php-5.5">
+          Windows downloads
+        </a>
+      </li>
+    </ul>
+
+    <a href="#gpg-5.5">GPG Keys for PHP 5.5</a>
+  </div>
+
+<hr>
+<h2>GPG Keys</h2>
+<p>
+The releases are tagged and signed in the <a href='git.php'>PHP Git Repository</a>.
+The following official GnuPG keys of the current PHP Release Manager can be used
+to verify the tags:
+</p>
+
+        <h3 id="gpg-7.1" class="content-header">PHP 7.1</h3>
+    <div class="content-box">
+      <pre>
+pub   4096R/7BD5DCD0 2016-05-07
+      Key fingerprint = A917 B1EC DA84 AEC2 B568 FED6 F50A BC80 7BD5 DCD0
+uid                  Davey Shafik &lt;davey@php.net&gt;
+
+pub   2048R/31CBD89E 2016-12-08
+      Key fingerprint = 5289 95BF EDFB A719 1D46  839E F9BA 0ADA 31CB D89E
+uid                  Joe Watkins &lt;krakjoe@php.net&gt;
+      </pre>
+    </div>
+          <h3 id="gpg-7.0" class="content-header">PHP 7.0</h3>
+    <div class="content-box">
+      <pre>
+pub   2048R/9C0D5763 2015-06-09 [expires: 2024-06-06]
+      Key fingerprint = 1A4E 8B72 77C4 2E53 DBA9  C7B9 BCAA 30EA 9C0D 5763
+uid                  Anatol Belski &lt;ab@php.net&gt;
+
+pub   2048R/33CFC8B3 2014-01-14 [expires: 2020-01-13]
+      Key fingerprint = 6E4F 6AB3 21FD C07F 2C33  2E3A C2BF 0BC4 33CF C8B3
+uid                  Ferenc Kovacs &lt;tyrael@php.net&gt;
+      </pre>
+    </div>
+          <h3 id="gpg-5.6" class="content-header">PHP 5.6</h3>
+    <div class="content-box">
+      <pre>
+pub   2048R/33CFC8B3 2014-01-14 [expires: 2020-01-13]
+      Key fingerprint = 6E4F 6AB3 21FD C07F 2C33  2E3A C2BF 0BC4 33CF C8B3
+uid                  Ferenc Kovacs &lt;tyrael@php.net&gt;
+
+pub   2048R/90D90EC1 2013-07-18 [expire : 2016-07-17]
+      Key fingerprint = 0BD7 8B5F 9750 0D45 0838  F95D FE85 7D9A 90D9 0EC1
+uid                  Julien Pauli &lt;jpauli@php.net&gt;
+      </pre>
+    </div>
+          <h3 id="gpg-5.5" class="content-header">PHP 5.5</h3>
+    <div class="content-box">
+      <pre>
+pub   2048R/90D90EC1 2013-07-18 [expire : 2016-07-17]
+      Key fingerprint = 0BD7 8B5F 9750 0D45 0838  F95D FE85 7D9A 90D9 0EC1
+uid                  Julien Pauli &lt;jpauli@php.net&gt;
+
+pub   4096R/7267B52D 2012-03-20 [expires: 2016-03-19]
+      Key fingerprint = 0B96 609E 270F 565C 1329  2B24 C13C 70B8 7267 B52D
+uid                  David Soria Parra &lt;dsp@php.net&gt;
+      </pre>
+    </div>
+  
+<p>
+  <a href="gpg-keys.php">
+    A full list of GPG keys used for current and older releases is also
+    available.
+  </a>
+</p>
+
+    </section><!-- layout-content -->
+    
+<aside class="tips">
+    <div class="inner">
+<div class="panel">
+  <a href="/supported-versions.php">Supported Versions</a>
+  <div class="body">
+    Check the <a href="/supported-versions.php">supported versions</a> page for
+    more information on the support lifetime of each version of PHP.
+  </div>
+</div>
+
+<p class="panel"><a href="download-docs.php">Documentation download</a></p>
+<p class="panel"><a href="download-logos.php">PHP logos</a></p>
+
+<p class="panel"><a href="/git.php">Development sources (git)</a></p>
+<p class="panel"><a href="/releases/">Old archives</a></p>
+</div>
+</aside>
+
+  </div><!-- layout -->
+         
+  <footer>
+    <div class="container footer-content">
+      <div class="row-fluid">
+      <ul class="footmenu">
+        <li><a href="/copyright.php">Copyright &copy; 2001-2017 The PHP Group</a></li>
+        <li><a href="/my.php">My PHP.net</a></li>
+        <li><a href="/contact.php">Contact</a></li>
+        <li><a href="/sites.php">Other PHP.net sites</a></li>
+        <li><a href="/mirrors.php">Mirror sites</a></li>
+        <li><a href="/privacy.php">Privacy policy</a></li>
+      </ul>
+      </div>
+    </div>
+  </footer>
+
+    
+ <!-- External and third party libraries. -->
+ <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1421837618&amp;f=/js/ext/modernizr.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1421837618&amp;f=/js/ext/hogan-2.0.0.min.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1421837618&amp;f=/js/ext/typeahead.min.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1421837618&amp;f=/js/ext/mousetrap.min.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1421837618&amp;f=/js/search.js"></script>
+<script type="text/javascript" src="http://php.net/cached.php?t=1478627406&amp;f=/js/common.js"></script>
+
+<a id="toTop" href="javascript:;"><span id="toTopHover"></span><img width="40" height="40" alt="To Top" src="/images/to-top@2x.png"></a>
+
+</body>
+</html>
+

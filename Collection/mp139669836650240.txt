@@ -1,0 +1,1834 @@
+|||http://codeforces.com/groups|
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="5cf8f98bb3a3102715c00580533d77a6"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+    </script>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="c4">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="http://st.codeforces.com/s/91331/images/codeforces-telegram-square.png" />
+    <link rel="image_src" href="http://st.codeforces.com/s/91331/images/codeforces-telegram-square.png" />
+    <meta property="og:title" content="Groups - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Groups - Codeforces</title>
+        <meta name="description" content="Codeforces. Programming competitions and contests, programming community" />
+        <meta name="keywords" content="programming algorithm contest competition informatics olympiads c++ java graphs vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="shortcut icon" type="image/png" href="http://st.codeforces.com/s/91331/favicon.png">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="http://st.codeforces.com/s/91331/css/community.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/moment.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/pushstream.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/facebox.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/a9abf01a7a98630889f8c8dc2bf1c7a1/en/codeforces-options.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/js/codeforces.js?v=20160131"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="http://st.codeforces.com/s/91331/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+    <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="http://st.codeforces.com/s/91331/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+
+</head>
+<body><span style='display:none;' class='csrf-token' data-csrf='5cf8f98bb3a3102715c00580533d77a6'>&nbsp;</span>
+
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile == "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '554666954583323',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 1000
+        });
+    }, 0);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+        // console.log("Got announcement from channel");
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "en");
+        }, Math.random() * 500);
+    }
+    if (Codeforces.getParticipantChannel()) {
+        Codeforces.subscribe(Codeforces.getParticipantChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getContestChannel()) {
+        Codeforces.subscribe(Codeforces.getContestChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getGlobalChannel()) {
+        Codeforces.subscribe(Codeforces.getGlobalChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    if (Codeforces.getUserChannel()) {
+        Codeforces.subscribe(Codeforces.getUserChannel(), function(json) {
+            showAnnouncements(json);
+        });
+    }
+
+    $(".clickable-title").click(function() {
+        Codeforces.alert($(this).attr("title"));
+    }).css("position", "relative").css("bottom", "3px");
+
+
+    Codeforces.reformatTimes();
+    Codeforces.initializePubSub();
+
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<div id="body">
+        
+
+<div class="side-bell" style="visibility: hidden; display: none; opacity: 0.7; width: 40px; position: fixed; right: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 1.5rem;">
+    <span class="icon-stack" style="width: 100%;">
+        <i class="icon-circle icon-stack-base"></i>
+        <i class="icon-bell-alt icon-light"></i>
+    </span>
+    <br/>
+    <span class="side-bell__count" style="position: relative; top: -10px;"></span>
+</div>
+
+
+<div id="header" style="position: relative;">
+    <div style="float:left;">
+            
+            <a href="/"><img src="http://st.codeforces.com/s/91331/images/codeforces-logo-with-telegram.png"/></a>
+    </div>
+    <div class="lang-chooser">
+        <div style="text-align: right;">
+            <a href="?locale=en"><img src="http://st.codeforces.com/s/91331/images/flags/24/gb.png" title="In English" alt="In English"/></a>
+            <a href="?locale=ru"><img src="http://st.codeforces.com/s/91331/images/flags/24/ru.png" title="-" alt="-"/></a>
+        </div>
+
+        <div>
+                    <a href="/enter?back=%2Fgroups">Enter</a>
+                     | 
+                    <a href="/register">Register</a>
+                    
+        </div>
+
+
+
+    </div>
+    <br style="clear: both;"/>
+</div>
+        
+
+    <div class="roundbox menu-box" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+            <div class="roundbox-lb">&nbsp;</div>
+            <div class="roundbox-rb">&nbsp;</div>
+    <div class="menu-list-container">
+    <ul class="menu-list main-menu-list">
+                <li class=""><a href="/">Home</a></li>
+                <li class=""><a href="/contests">Contests</a></li>
+                <li class=""><a href="/gyms">Gym</a></li>
+                <li class=""><a href="/problemset">Problemset</a></li>
+                <li class="current"><a href="/groups">Groups</a></li>
+                <li class=""><a href="/ratings">Rating</a></li>
+                <li class=""><a href="/api/help">API</a></li>
+                <li class=""><a href="/rcc2017">RCC <img class="icon" src="http://st.codeforces.com/images/icons/cup.png"/></a></li>
+                <li class=""><a href="/vkcup2017">VK Cup <img class="icon" src="http://st.codeforces.com/images/icons/cup.png"/></a></li>
+    </ul>
+        <form method="post" action="/search"><input type='hidden' name='csrf_token' value='5cf8f98bb3a3102715c00580533d77a6'/>
+            <input class="search" name="query" data-isPlaceholder="true" value=""/>
+        </form>
+    <br style="clear: both;"/>
+</div>
+
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("input.search").focus(function () {
+                if ($(this).attr("data-isPlaceholder") === "true") {
+                    $(this).val("");
+                    $(this).removeAttr("data-isPlaceholder");
+                }
+            });
+        });
+    </script>
+            <br style="height: 3em; clear: both;"/>
+
+        <div style="position: relative;">
+                        <div id="sidebar">
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Pay attention
+            <div class="top-links">
+            </div>
+        </div>
+<div style="padding: 0.5em;">
+        <div style="text-align:center;border-bottom: 1px solid rgb(185, 185, 185);margin:0 -0.5em 0.5em -0.5em;padding: 0 1em 0.5em 1em;">
+            <span class='contest-state-phase'>Before contest</span><br/><a href="/contests/788,789">Codeforces Round #407 (Div. 1)</a><br/><span class='countdown' home='http://st.codeforces.com/s/91331' noRedirection='true' textBeforeRedirect=''>22:31:30</span><br/><a href="/contestRegistration/788">Register now »</a><div class="smaller notice">*has extra registration<i class="icon-question-sign clickable-title" title="If you are late to register in 5 minutes before the start, you can register later during the extra registration. Extra registration opens 10 minutes after the contest starts and lasts 20 minutes."></i></div>
+        </div>
+        <div style="text-align:center;border-bottom: 1px solid rgb(185, 185, 185);margin:0 -0.5em 0.5em -0.5em;padding: 0 1em 0.5em 1em;">
+            <span class='contest-state-phase'>Before contest</span><br/><a href="/contests/788,789">Codeforces Round #407 (Div. 2)</a><br/><span class='countdown' home='http://st.codeforces.com/s/91331' noRedirection='true' textBeforeRedirect=''>22:31:30</span><br/><a href="/contestRegistration/789">Register now »</a><div class="smaller notice">*has extra registration<i class="icon-question-sign clickable-title" title="If you are late to register in 5 minutes before the start, you can register later during the extra registration. Extra registration opens 10 minutes after the contest starts and lasts 20 minutes."></i></div>
+        </div>
+        <div style="text-align:center;">
+            <div class="socials" style="text-align: left;">
+                <div style="margin-top: 0.85em;position: relative;">
+
+        <div id="fb-root"></div>
+        <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "http://connect.facebook.net/en_EN/all.js#appId=554666954583323&xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-like" data-href="http://codeforces.com/contests/788,789" data-send="false" data-width="256" data-show-faces="false" data-font="arial" data-ref='1070590013'></div>
+
+        </div>
+</div>
+
+        </div>
+</div>
+    </div>
+<div class="roundbox sidebox top-contributed" style="">
+<div class="roundbox-lt">&nbsp;</div>
+<div class="roundbox-rt">&nbsp;</div>
+<div class="caption titled">&rarr; Top rated
+<div class="top-links">
+</div>
+</div>
+<table class="rtable ">
+<tbody>
+<tr>
+<th class="left" style="width:2.25em;">#</th>
+<th class="">User</th>
+<th class="" style="width:5em;">Rating</th>
+</tr>
+<tr>
+<td class="left dark">1</td>
+<td class=" dark"><a href="/profile/tourist" title="Legendary grandmaster tourist" class="rated-user user-legendary"><span class="legendary-user-first-letter">t</span>ourist</a></td>
+<td class=" dark">3534</td>
+</tr>
+<tr>
+<td class="left ">2</td>
+<td class=""><a href="/profile/moejy0viiiiiv" title="Legendary grandmaster moejy0viiiiiv" class="rated-user user-legendary"><span class="legendary-user-first-letter">m</span>oejy0viiiiiv</a></td>
+<td class="">3272</td>
+</tr>
+<tr>
+<td class="left dark">3</td>
+<td class=" dark"><a href="/profile/ainta" title="Legendary grandmaster ainta" class="rated-user user-legendary"><span class="legendary-user-first-letter">a</span>inta</a></td>
+<td class=" dark">3174</td>
+</tr>
+<tr>
+<td class="left ">4</td>
+<td class=""><a href="/profile/Petr" title="Legendary grandmaster Petr" class="rated-user user-legendary"><span class="legendary-user-first-letter">P</span>etr</a></td>
+<td class="">3135</td>
+</tr>
+<tr>
+<td class="left dark">5</td>
+<td class=" dark"><a href="/profile/LHiC" title="Legendary grandmaster LHiC" class="rated-user user-legendary"><span class="legendary-user-first-letter">L</span>HiC</a></td>
+<td class=" dark">3100</td>
+</tr>
+<tr>
+<td class="left ">6</td>
+<td class=""><a href="/profile/Merkurev" title="Legendary grandmaster Merkurev" class="rated-user user-legendary"><span class="legendary-user-first-letter">M</span>erkurev</a></td>
+<td class="">3055</td>
+</tr>
+<tr>
+<td class="left dark">7</td>
+<td class=" dark"><a href="/profile/V--o_o--V" title="Legendary grandmaster V--o_o--V" class="rated-user user-legendary"><span class="legendary-user-first-letter">V</span>--o_o--V</a></td>
+<td class=" dark">3050</td>
+</tr>
+<tr>
+<td class="left ">8</td>
+<td class=""><a href="/profile/Zlobober" title="Legendary grandmaster Zlobober" class="rated-user user-legendary"><span class="legendary-user-first-letter">Z</span>lobober</a></td>
+<td class="">3026</td>
+</tr>
+<tr>
+<td class="left dark">8</td>
+<td class=" dark"><a href="/profile/mnbvmar" title="Legendary grandmaster mnbvmar" class="rated-user user-legendary"><span class="legendary-user-first-letter">m</span>nbvmar</a></td>
+<td class=" dark">3026</td>
+</tr>
+<tr>
+<td class="left bottom">10</td>
+<td class="bottom"><a href="/profile/-XraY-" title="Legendary grandmaster -XraY-" class="rated-user user-legendary"><span class="legendary-user-first-letter">-</span>XraY-</a></td>
+<td class="bottom">3018</td>
+</tr>
+</tbody>
+</table>
+<div class="bottom-links">
+<table style="width:100%;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<a href="/ratings/countries">Countries</a> |
+<a href="/ratings/cities">Cities</a> |
+<a href="/ratings/organizations">Organizations</a>
+</td>
+<td style="text-align:right;">
+<a href="/ratings">View all &rarr;</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+    <div class="roundbox sidebox top-contributed" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Top contributors
+            <div class="top-links">
+            </div>
+        </div>
+        <table class="rtable ">
+            <tbody>
+                <tr>
+                            <th class="left" style="width:2.25em;">#</th>
+                            <th class="">User</th>
+                            <th class="" style="width:5em;">Contrib.</th>
+                </tr>
+                    <tr>
+                                <td class="left  dark">1</td>
+                                <td class=" dark"><a href="/profile/Errichto" title="International Grandmaster Errichto" class="rated-user user-red">Errichto</a></td>
+                                <td class=" dark">175</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">2</td>
+                                <td class=""><a href="/profile/rng_58" title="International Grandmaster rng_58" class="rated-user user-red">rng_58</a></td>
+                                <td class="">170</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">3</td>
+                                <td class=" dark"><a href="/profile/Petr" title="Legendary grandmaster Petr" class="rated-user user-legendary"><span class="legendary-user-first-letter">P</span>etr</a></td>
+                                <td class=" dark">162</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">4</td>
+                                <td class=""><a href="/profile/Swistakk" title="Grandmaster Swistakk" class="rated-user user-red">Swistakk</a></td>
+                                <td class="">153</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">5</td>
+                                <td class=" dark"><a href="/profile/csacademy" title="Unrated, csacademy" class="rated-user user-black">csacademy</a></td>
+                                <td class=" dark">152</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">6</td>
+                                <td class=""><a href="/profile/GlebsHP" title="International Grandmaster GlebsHP" class="rated-user user-red">GlebsHP</a></td>
+                                <td class="">147</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">7</td>
+                                <td class=" dark"><a href="/profile/Zlobober" title="Legendary grandmaster Zlobober" class="rated-user user-legendary"><span class="legendary-user-first-letter">Z</span>lobober</a></td>
+                                <td class=" dark">146</td>
+                    </tr>
+                    <tr>
+                                <td class="left ">8</td>
+                                <td class=""><a href="/profile/zscoder" title="Grandmaster zscoder" class="rated-user user-red">zscoder</a></td>
+                                <td class="">143</td>
+                    </tr>
+                    <tr>
+                                <td class="left  dark">8</td>
+                                <td class=" dark"><a href="/profile/Um_nik" title="Legendary grandmaster Um_nik" class="rated-user user-legendary"><span class="legendary-user-first-letter">U</span>m_nik</a></td>
+                                <td class=" dark">143</td>
+                    </tr>
+                    <tr>
+                                <td class="left bottom">10</td>
+                                <td class="bottom"><a href="/profile/PrinceOfPersia" title="International master PrinceOfPersia" class="rated-user user-orange">PrinceOfPersia</a></td>
+                                <td class="bottom">135</td>
+                    </tr>
+            </tbody>
+        </table>
+            <div class="bottom-links">
+                <table style="width:100%;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left;">
+                            </td>
+                            <td style="text-align:right;">
+                                    <a href="/top-contributed">View all &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+        });
+    </script>
+
+
+
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Find user
+            <div class="top-links">
+            </div>
+        </div>
+        <form class="handleForm" method="post"><input type='hidden' name='csrf_token' value='5cf8f98bb3a3102715c00580533d77a6'/>
+            <div style="padding:1em;text-align:right;">
+                <label style="padding-right:1em;">Handle:
+                    <input style="width:12em;" type="text" class="handleBox"/>
+                </label>
+            </div>
+            <div style="padding: 0 1em 1em 1em;text-align:right;">
+                <input style="height:1.65em;padding:0 0.75em;" type="submit" value="Find"/>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+    $(".handleBox").autocomplete("/data/handles", {
+        delay: 200,
+        width: 200,
+        selectFirst: false,
+        matchContains: true,
+        minChars: 3
+    });
+    $(".handleForm").attr("autocomplete", "off").submit(function () {
+        var link = "/profile/userHandle".replace(
+            "userHandle", $(this).find(".handleBox").val()
+        );
+        window.location = link;
+        return false;
+    });
+        });
+    </script>
+
+
+
+
+    <div class="roundbox sidebox" style="">
+            <div class="roundbox-lt">&nbsp;</div>
+            <div class="roundbox-rt">&nbsp;</div>
+        <div class="caption titled">&rarr; Recent actions
+            <div class="top-links">
+            </div>
+        </div>
+        <div class="recent-actions">
+            <ul>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Mithrandir_14" title="Expert Mithrandir_14" class="rated-user user-blue">Mithrandir_14</a>        &rarr;
+        <a href="/blog/entry/51283">Using Map in Place of Adjacency List</a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="http://st.codeforces.com/s/91331/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/I_love_Maria_Ivanova" title="Candidate Master I_love_Maria_Ivanova" class="rated-user user-violet">I_love_Maria_Ivanova</a>        &rarr;
+        <a href="/blog/entry/51250">Codeforces Round #407</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/JafarBadour" title="Expert JafarBadour" class="rated-user user-blue">JafarBadour</a>        &rarr;
+        <a href="/blog/entry/51233">What are the greatest programming tips and tricks you have learned on your own by years of coding?</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Paradox1" title="Candidate Master Paradox1" class="rated-user user-violet">Paradox1</a>        &rarr;
+        <a href="/blog/entry/51282">Invitation to April Easy &#39;17 on HackerEarth</a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="http://st.codeforces.com/s/91331/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/BledDest" title="Candidate Master BledDest" class="rated-user user-violet">BledDest</a>        &rarr;
+        <a href="/blog/entry/51232">Educational Codeforces Round 18</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/BledDest" title="Candidate Master BledDest" class="rated-user user-violet">BledDest</a>        &rarr;
+        <a href="/blog/entry/51254">Educational Codeforces Round 18 - Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/flash_7" title="Candidate Master flash_7" class="rated-user user-violet">flash_7</a>        &rarr;
+        <a href="/blog/entry/51272">Burnside Lemma</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/HimachalLad" title="Unrated, HimachalLad" class="rated-user user-black">HimachalLad</a>        &rarr;
+        <a href="/blog/entry/51281">Not able to understand state of dp. Need Help!!</a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="http://st.codeforces.com/s/91331/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Errichto" title="International Grandmaster Errichto" class="rated-user user-red">Errichto</a>        &rarr;
+        <a href="/blog/entry/51275">Online Convex Hull — queries in C++ set</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Phong2k1" title="Expert Phong2k1" class="rated-user user-blue">Phong2k1</a>        &rarr;
+        <a href="/blog/entry/51280">Blah Blah Blah</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/I_love_Hoang_Yen" title="Grandmaster I_love_Hoang_Yen" class="rated-user user-red">I_love_Hoang_Yen</a>        &rarr;
+        <a href="/blog/entry/50459">Google Codejam APAC 2017 - Round A coming</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/PROGRAMMAR" title="Pupil PROGRAMMAR" class="rated-user user-green">PROGRAMMAR</a>        &rarr;
+        <a href="/blog/entry/51235">praying for help in java</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/gmiller" title="Unrated, gmiller" class="rated-user user-black">gmiller</a>        &rarr;
+        <a href="/blog/entry/51277">C Programming Tutorial for Beginners </a>
+&nbsp;&nbsp;<img alt="Text created or updated" title="Text created or updated" src="http://st.codeforces.com/s/91331/images/icons/x-update-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/PrinceOfPersia" title="International master PrinceOfPersia" class="rated-user user-orange">PrinceOfPersia</a>        &rarr;
+        <a href="/blog/entry/51163">Codeforces Round #406 Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Stalin." title="Specialist Stalin." class="rated-user user-cyan">Stalin.</a>        &rarr;
+        <a href="/blog/entry/51276">Rubbishforces 254D!!!</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/PurpleDreams" title="Expert PurpleDreams" class="rated-user user-blue">PurpleDreams</a>        &rarr;
+        <a href="/blog/entry/51271">Compete and Win Prizes : Techelon&#39;17 Presents NOVICE </a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Errichto" title="International Grandmaster Errichto" class="rated-user user-red">Errichto</a>        &rarr;
+        <a href="/blog/entry/51164">CodeChef March Lunchtime</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Optimus_primeV2" title="Pupil Optimus_primeV2" class="rated-user user-green">Optimus_primeV2</a>        &rarr;
+        <a href="/blog/entry/51274">Suggest some stack problem</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/HellKitsune" title="International Grandmaster HellKitsune" class="rated-user user-red">HellKitsune</a>        &rarr;
+        <a href="/blog/entry/50010">Educational Codeforces Round 17 Editorial</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/MedoN11" title="Specialist MedoN11" class="rated-user user-cyan">MedoN11</a>        &rarr;
+        <a href="/blog/entry/51273">MCMF Problems</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/dtalamas24" title="Candidate Master dtalamas24" class="rated-user user-violet">dtalamas24</a>        &rarr;
+        <a href="/blog/entry/51266">Reachability of a point</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Tanmoy_Datta" title="Expert Tanmoy_Datta" class="rated-user user-blue">Tanmoy_Datta</a>        &rarr;
+        <a href="/blog/entry/51267">How to get the area of intersection between Circle and Rectangle? </a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/gkcs" title="Specialist gkcs" class="rated-user user-cyan">gkcs</a>        &rarr;
+        <a href="/blog/entry/49437">Video series for competitive programming</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/HDMTaka" title="Specialist HDMTaka" class="rated-user user-cyan">HDMTaka</a>        &rarr;
+        <a href="/blog/entry/51269">Help use HIGHTAIL for automatic parsing and evaluation of testcases</a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+                        <li><div style="font-size:0.9em;padding:0.5em 0;">
+<a href="/profile/Ishtiaq11" title="Newbie Ishtiaq11" class="rated-user user-gray">Ishtiaq11</a>        &rarr;
+        <a href="/blog/entry/51258">Help- Finding missing numbers using XOR </a>
+&nbsp;&nbsp;<img alt="New comment(s)" title="New comment(s)" src="http://st.codeforces.com/s/91331/images/icons/comment-12x12.png" style="vertical-align:middle;"/>
+</div>
+</li>
+            </ul>
+        </div>
+            <div class="bottom-links">
+                <table style="width:100%;">
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left;">
+                            </td>
+                            <td style="text-align:right;">
+                                    <a href="/recent-actions">Detailed &rarr;</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+                        <div id="pageContent" class="content-with-sidebar">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                Available groups
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://st.codeforces.com/s/91331/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://st.codeforces.com/s/91331/images/icons/control-270.png"/>
+                        <input style="padding:0;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+    <tr>
+        <th style="text-align: left;">Group name</th>
+        <th style="width: 10em;">Creator</th>
+        <th style="width: 10em;">Creation time</th>
+    </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/mX2vExka7d" class="groupName">Basket of Charcoal</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Little Blacksmith from Beijing Institute of Technology
+                </div>
+            </td>
+            <td>
+<a href="/profile/Reskip" title="Candidate Master Reskip" class="rated-user user-violet">Reskip</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/26/2017 09:51</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/MGe30wCFPV" class="groupName">A2LTT</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Nhóm trao i, hc tp thut toán ca hc sinh chuyên Tin THPT chuyên Lý T Trng.
+                </div>
+            </td>
+            <td>
+<a href="/profile/Dien_May_Xanh" title="Candidate Master Dien_May_Xanh" class="rated-user user-violet">Dien_May_Xanh</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/24/2017 17:44</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/8CB8v5bHBZ" class="groupName">Universidad Nacional de Rosario - Training</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Training created for students of the university. Open to all :).
+                </div>
+            </td>
+            <td>
+<a href="/profile/karupayun" title="Master karupayun" class="rated-user user-orange">karupayun</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/17/2017 10:11</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/rPu8Bxv69J" class="groupName">CSE - ASU - 2017</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/PhenomeneCetteAnnee" title="Candidate Master PhenomeneCetteAnnee" class="rated-user user-violet">PhenomeneCetteAnnee</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/15/2017 11:39</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/ZU6sa8YPUm" class="groupName">SJTU 2017 Spring Training</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        SJTU 2017 Spring ACMICPC Training Team
+                </div>
+            </td>
+            <td>
+<a href="/profile/rowdark" title="International Grandmaster rowdark" class="rated-user user-red">rowdark</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/11/2017 01:21</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/JDrV1ZO5Na" class="groupName">jc</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        jc
+                </div>
+            </td>
+            <td>
+<a href="/profile/jcccccccccccccccccccccsb" title="International Grandmaster jcccccccccccccccccccccsb" class="rated-user user-red">jcccccccccccccccccccccsb</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/06/2017 09:22</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/qltBpG82iQ" class="groupName">IIUM ACM-ICPC</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/aka.Sohieb" title="Candidate Master aka.Sohieb" class="rated-user user-violet">aka.Sohieb</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/04/2017 07:32</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/PEBLUhAtbq" class="groupName">DCPC2017 Training</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Let's try our best :D
+                </div>
+            </td>
+            <td>
+<a href="/profile/Mhammad1" title="Newbie Mhammad1" class="rated-user user-gray">Mhammad1</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/02/2017 21:32</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Yzp1HzjMy3" class="groupName">DCPC2017 Advanced Training</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Let's do our best :D
+                </div>
+            </td>
+            <td>
+<a href="/profile/Mhammad1" title="Newbie Mhammad1" class="rated-user user-gray">Mhammad1</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Mar/02/2017 16:09</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/j0ad1UDQGT" class="groupName">Cybros (The LNMIIT Programming Club)</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Practice contest based on old codeforces problem will be held daily for practice.  Anyone can join the group but cheaters will be banned.
+                </div>
+            </td>
+            <td>
+<a href="/profile/killjee" title="Candidate Master killjee" class="rated-user user-violet">killjee</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/27/2017 21:06</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/vxP3awNX3J" class="groupName">Al-Baath University Camps 2017</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/sqr_hussain" title="Candidate Master sqr_hussain" class="rated-user user-violet">sqr_hussain</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/25/2017 01:26</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/0nT6vkKJ5M" class="groupName">XJOI 2017</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/frank_c1" title="Master frank_c1" class="rated-user user-orange">frank_c1</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/24/2017 05:57</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/osQQeXtrJA" class="groupName">Treino UFSCar</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/newcolas" title="Expert newcolas" class="rated-user user-blue">newcolas</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/21/2017 00:46</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/uK3jFfQeht" class="groupName">Just Because I Can </a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/SarvagyaAgarwal" title="Candidate Master SarvagyaAgarwal" class="rated-user user-violet">SarvagyaAgarwal</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/16/2017 16:17</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/AOjNaLNYEr" class="groupName">NNG training</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/iscsi" title="Expert iscsi" class="rated-user user-blue">iscsi</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/16/2017 10:48</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/0Zw2NMzghB" class="groupName">Test-byte it</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        dfgfdgdfg
+                </div>
+            </td>
+            <td>
+<a href="/profile/JafarBadour" title="Expert JafarBadour" class="rated-user user-blue">JafarBadour</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/12/2017 17:34</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/f4rh7dQGQ8" class="groupName">Road To Vseros</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Road to Vseros 2017
+                </div>
+            </td>
+            <td>
+<a href="/profile/ismagilov.code" title="Expert ismagilov.code" class="rated-user user-blue">ismagilov.code</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/09/2017 09:26</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/x5eCww1JNf" class="groupName">&#1050;&#1088;&#1091;&#1078;&#1086;&#1082; &#1074; &#1048;&#1058;&#1052;&#1054; 2016. &#1043;&#1088;&#1091;&#1087;&#1087;&#1072; D2.</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/pashka" title="International Grandmaster pashka" class="rated-user user-red">pashka</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/06/2017 16:10</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/aEQlN7QS4P" class="groupName">Competitive Programming(fb group)</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Competitive Programming Problems &amp; Solutions Here we shall solve the competitive problems and discuss their solutions
+                </div>
+            </td>
+            <td>
+<a href="/profile/stostap" title="Expert stostap" class="rated-user user-blue">stostap</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Feb/04/2017 03:34</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/jZ6pOtEeX9" class="groupName">ACM Egypt Competitive Programming Camp 1.0</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Ahmad_Elsagheer" title="International master Ahmad_Elsagheer" class="rated-user user-orange">Ahmad_Elsagheer</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/28/2017 14:45</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/D0Jsub2jiz" class="groupName">KekCheburek</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Algiz" title="Candidate Master Algiz" class="rated-user user-violet">Algiz</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/28/2017 08:44</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/iLce7FyVUc" class="groupName">Lyceum PTHS, special course</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Special course &quot;Solving programming problems&quot;, Lyceum PTHS, St. Petersburg
+                </div>
+            </td>
+            <td>
+<a href="/profile/darnley" title="Grandmaster darnley" class="rated-user user-red">darnley</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/25/2017 14:17</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/eqgxxTNwgd" class="groupName"> Brazilian ICPC Summer School</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Zlobober" title="Legendary grandmaster Zlobober" class="rated-user user-legendary"><span class="legendary-user-first-letter">Z</span>lobober</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/22/2017 23:55</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/DE717HedLL" class="groupName">Rutgers ICPC Team</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/slicedclementines" title="Expert slicedclementines" class="rated-user user-blue">slicedclementines</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/20/2017 03:57</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Nh9J11PK40" class="groupName">ACM Egypt Camp 1.0 Quals</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Ahmad_Elsagheer" title="International master Ahmad_Elsagheer" class="rated-user user-orange">Ahmad_Elsagheer</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/20/2017 00:26</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Tzc5qd7QDw" class="groupName">NCTU Camp</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/frankbozar" title="Candidate Master frankbozar" class="rated-user user-violet">frankbozar</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/17/2017 08:33</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/AnUQjm84Cj" class="groupName">Krapina 2017</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        krapina
+                </div>
+            </td>
+            <td>
+<a href="/profile/mislav" title="International master mislav" class="rated-user user-orange">mislav</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/07/2017 15:18</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/KUXCnhVi0c" class="groupName">ACM ShirazU</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Amir.bh" title="Candidate Master Amir.bh" class="rated-user user-violet">Amir.bh</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/05/2017 10:34</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/PlkTEkLLW7" class="groupName">YandexMinskTrains</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/kolesov93" title="Grandmaster kolesov93" class="rated-user user-red">kolesov93</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Jan/04/2017 16:26</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/mepmbV6eQU" class="groupName">KBO2-10-11</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/23/2016 14:22</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/gX0ILHzQfM" class="groupName">KBO2-8-9</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/23/2016 14:21</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/KEQabTmu0u" class="groupName">KBO2-7</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/23/2016 14:21</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/3fSEKF8LPg" class="groupName">Daryn Programming Camp December 2016</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Temirulan" title="Master Temirulan" class="rated-user user-orange">Temirulan</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/20/2016 06:24</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/vmvT4yNa3W" class="groupName">TRGI Group </a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/_samariddin_" title="Expert _samariddin_" class="rated-user user-blue">_samariddin_</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/20/2016 06:13</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/IHMEFik9d8" class="groupName">Pifagor</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/_Rama" title="Candidate Master _Rama" class="rated-user user-violet">_Rama</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/16/2016 13:10</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/XjiyMYRZIG" class="groupName">Piractise</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise Piractise
+                </div>
+            </td>
+            <td>
+<a href="/profile/abhi1agarwal" title="Candidate Master abhi1agarwal" class="rated-user user-violet">abhi1agarwal</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/08/2016 21:36</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/oLgsztGOo0" class="groupName">Hour of Code - Shoubra v3.0</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/MohamedZain" title="Candidate Master MohamedZain" class="rated-user user-violet">MohamedZain</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/07/2016 13:05</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/0uAOPs3iyD" class="groupName">&#1055;&#1077;&#1088;&#1089;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1082;&#1072;&#1095;&#1072;&#1083;&#1082;&#1072; &#1076;&#1083;&#1103; &#1044;&#1072;&#1085;&#1080;&#1103;&#1088;&#1072;</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Tima" title="Master Tima" class="rated-user user-orange">Tima</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Dec/06/2016 16:43</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/SgcvMCB7OK" class="groupName">PoliMi</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Codeforces group for students of Politecnico di Milano
+                </div>
+            </td>
+            <td>
+<a href="/profile/Swift" title="Expert Swift" class="rated-user user-blue">Swift</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Nov/29/2016 15:31</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/84WJTCSpwc" class="groupName">UPR</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Universidad de Pinar del Rio
+                </div>
+            </td>
+            <td>
+<a href="/profile/Kino" title="Expert Kino" class="rated-user user-blue">Kino</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Nov/01/2016 06:34</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Dbp4YXtyiZ" class="groupName">BIL CAMP 2016</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/31/2016 08:29</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/i7RSOF0KUW" class="groupName">CORE 9 Finals</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        DPS Dwarka CORE 9 Finals contest problems
+                </div>
+            </td>
+            <td>
+<a href="/profile/sidhant" title="Candidate Master sidhant" class="rated-user user-violet">sidhant</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/28/2016 17:29</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/To7MrDQMGt" class="groupName">DCPC Training 2017</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        contests everywhere :D
+                </div>
+            </td>
+            <td>
+<a href="/profile/Mhammad1" title="Newbie Mhammad1" class="rated-user user-gray">Mhammad1</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/21/2016 00:55</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/nfECLdmwZZ" class="groupName">BIT Mesra Coders</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/skull_crusher" title="Candidate Master skull_crusher" class="rated-user user-violet">skull_crusher</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/19/2016 22:26</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/soONUeaaKR" class="groupName">CECPC'17</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        Computer engineering, competitive programming club. Faculty of engineering, Cairo Uni.
+                </div>
+            </td>
+            <td>
+<a href="/profile/aka.Sohieb" title="Candidate Master aka.Sohieb" class="rated-user user-violet">aka.Sohieb</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/17/2016 20:38</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/48KpHZ1txC" class="groupName">KBO#1 Kazakhstan 10-11</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/15/2016 09:10</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/wSVEoHJXtd" class="groupName">KBO#1 Kazakhstan 7</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/14/2016 19:33</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Kgm5OQs4nn" class="groupName">KBO#1 Kazakhstan 8-9</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Shadow" title="Candidate Master Shadow" class="rated-user user-violet">Shadow</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/13/2016 08:39</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/Ml6OIZDhHT" class="groupName">IcanHasCheezuburger</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        
+                </div>
+            </td>
+            <td>
+<a href="/profile/Algiz" title="Candidate Master Algiz" class="rated-user user-violet">Algiz</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/11/2016 06:04</span>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                <div>
+    <a href="/group/MXiBGHoMyA" class="groupName">SDUT_HackerS</a>
+                </div>
+                <div class="small notice" style="margin-top: 0.8em;" title="Group description">
+                        CFer Of Shandong University of Technology
+                </div>
+            </td>
+            <td>
+<a href="/profile/LeiQ" title="Expert LeiQ" class="rated-user user-blue">LeiQ</a>            </td>
+            <td class="smaller">
+                <span class="format-time" data-locale="en">Oct/06/2016 11:22</span>
+            </td>
+        </tr>
+            </table>
+            </div>
+        </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+                // Create new ':containsIgnoreCase' selector for search
+                jQuery.expr[':'].containsIgnoreCase = function(a, i, m) {
+                    return jQuery(a).text().toUpperCase()
+                            .indexOf(m[3].toUpperCase()) >= 0;
+                };
+
+                if (window.updateDatatableFilter == undefined) {
+                    window.updateDatatableFilter = function(i) {
+                        var parent = $(i).parent().parent().parent().parent();
+                        $("tr.no-items", parent).remove();
+                        $("tr", parent).hide().removeClass('visible');
+                        var text = $(i).val();
+                        if (text) {
+                            $("tr" + ":containsIgnoreCase('" + text + "')", parent).show().addClass('visible');
+                        } else {
+                            parent.find(".rowCount").text("");
+                            $("tr", parent).show().addClass('visible');
+                        }
+
+                        var found = false;
+                        var visibleRowCount = 0;
+                        $("tr", parent).each(function () {
+                            if (!found) {
+                                if ($(this).find("th").size() > 0) {
+                                    $(this).show().addClass('visible');
+                                    found = true;
+                                }
+                            }
+                            if ($(this).hasClass('visible')) {
+                                visibleRowCount++;
+                            }
+                        });
+                        if (text) {
+                            parent.find(".rowCount").text("Matches: " + (visibleRowCount - (found ? 1 : 0)));
+                        }
+                        if (visibleRowCount == (found ? 1 : 0)) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo($(parent).find('table'));
+                        }
+                        $(parent).find("tr td").removeClass("dark");
+                        $(parent).find("tr.visible:odd td").addClass("dark");
+                    }
+
+                    $(".datatable .closed").click(function () {
+                        var parent = $(this).parent();
+                        $(this).hide();
+                        $(".filter", parent).fadeIn(function () {
+                            $("input", parent).val("").focus().css("border", "1px solid #aaa");
+                        });
+                    });
+
+                    $(".datatable .opened").click(function () {
+                        var parent = $(this).parent().parent();
+                        $(".filter", parent).fadeOut(function () {
+                            $(".closed", parent).show();
+                            $("input", parent).val("").each(function () {
+                                window.updateDatatableFilter(this);
+                            });
+                        });
+                    });
+
+                    $(".datatable .filter input").keyup(function(e) {
+                        window.updateDatatableFilter(this);
+                        e.preventDefault();
+                        e.stopPropagation();
+                    });
+
+                    $(".datatable table").each(function () {
+                        var found = false;
+                        $("tr", this).each(function () {
+                            if (!found && $(this).find("th").size() == 0) {
+                                found = true;
+                            }
+                        });
+                        if (!found) {
+                            $("<tr class='no-items visible'><td style=\"text-align:left;\"colspan=\"32\">No items<\/td><\/tr>").appendTo(this);
+                        }
+                    });
+
+                    // Applies styles to datatables.
+                    $(".datatable").each(function () {
+                        $(this).find("tr:first th").addClass("top");
+                        $(this).find("tr:last td").addClass("bottom");
+                        $(this).find("tr:odd td").addClass("dark");
+                        $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                        $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                    });
+
+                    $(".datatable table.tablesorter").each(function () {
+                        $(this).bind("sortEnd", function () {
+                            $(".datatable").each(function () {
+                                $(this).find("th, td")
+                                    .removeClass("top").removeClass("bottom")
+                                    .removeClass("left").removeClass("right")
+                                    .removeClass("dark");
+                                $(this).find("tr:first th").addClass("top");
+                                $(this).find("tr:last td").addClass("bottom");
+                                $(this).find("tr:odd td").addClass("dark");
+                                $(this).find("tr td:first-child, tr th:first-child").addClass("left");
+                                $(this).find("tr td:last-child, tr th:last-child").addClass("right");
+                            });
+                        });
+                    });
+                }
+        });
+    </script>
+
+<div class="pagination">
+    <ul>
+            <span class="inactive">&larr;</span>
+        <li>
+                <span class="page-index active" pageIndex="1"><a href="/groups/page/1">1</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="2"><a href="/groups/page/2">2</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="3"><a href="/groups/page/3">3</a></span>
+        </li>
+        <li>
+                <span class="page-index" pageIndex="4"><a href="/groups/page/4">4</a></span>
+        </li>
+            <li><a href="/groups/page/2" class="arrow">&rarr;</a></li>
+    </ul>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+function handlePaginationKeyboardEvent(right) {
+    var pageIndex = parseInt($(".pagination").find("span.active").attr("pageIndex"));
+    if (right) {
+        pageIndex++;
+    } else {
+        pageIndex--;
+    }
+    $(".pagination").find("span[pageIndex=" + pageIndex + "]").each(function () {
+        Codeforces.redirect($(this).find("a").attr("href"));
+    });
+}
+$(document).keydown(function (e) {
+     var code = (e.keyCode ? e.keyCode : e.which);
+     if (e.ctrlKey) {
+        if (code == 37 || code == 39) {
+            handlePaginationKeyboardEvent(code == 39);
+        }
+     }
+});
+        });
+    </script>
+                </div>
+        </div>
+            <br style="clear: both;"/>
+            <div id="footer">
+                <div><a href="http://codeforces.com/">Codeforces</a> (c) Copyright 2010-2017 Mike Mirzayanov</div>
+                <div>The only programming contests Web 2.0 platform</div>
+                    <div>Server time: <span class="format-timewithseconds" data-locale="en">Mar/28/2017 20:33:31</span> (c4).</div>
+                    Desktop version, switch to <a rel="nofollow" class="switchToMobile" href="?mobile=true">mobile version</a>.
+
+            </div>
+        <script type="text/javascript">
+            $(function() {
+                $(".switchToMobile").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "true"));
+                    return false;
+                });
+                $(".switchToDesktop").click(function() {
+                    Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", "false"));
+                    return false;
+                });
+            });
+        </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if ($(window).width() < 1600) {
+                $('.button-up').css('width', '30px').css('line-height', '30px').css('font-size', '20px');
+            }
+
+            if ($(window).width() >= 1200) {
+                $ (window).scroll (function () {
+                    if ($ (this).scrollTop () > 100) {
+                        $ ('.button-up').fadeIn();
+                    } else {
+                        $ ('.button-up').fadeOut();
+                    }
+                });
+
+                $('.button-up').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 500);
+                    return false;
+                });
+
+                $('.button-up').hover(function () {
+                    $(this).animate({
+                        'opacity':'1'
+                    }).css({'background-color':'#e7ebf0','color':'#6a86a4'});
+                }, function () {
+                    $(this).animate({
+                        'opacity':'0.7'
+                    }).css({'background':'none','color':'#d3dbe4'});;
+                });
+            }
+            Codeforces.focusOnError();
+        });
+    </script>
+
+        <div class="userListsFacebox" style="display:none;">
+            <div style="padding: 0.5em; width: 600px; max-height: 200px; overflow-y: auto">
+<div class="datatable"
+     
+     style="background-color: #E1E1E1; padding-bottom: 3px;">
+            <div class="lt">&nbsp;</div>
+            <div class="rt">&nbsp;</div>
+            <div class="lb">&nbsp;</div>
+            <div class="rb">&nbsp;</div>
+
+            <div style="padding: 4px 0 0 6px;font-size:1.4rem;position:relative;">
+                User lists
+
+                <div style="position:absolute;right:0.25em;top:0.35em;">
+                    <span style="padding:0;position:relative;bottom:2px;" class="rowCount"></span>
+
+                    <img class="closed" src="http://st.codeforces.com/s/91331/images/icons/control.png"/>
+
+                    <span class="filter" style="display:none;">
+                        <img class="opened" src="http://st.codeforces.com/s/91331/images/icons/control-270.png"/>
+                        <input style="padding:0;position:relative;bottom:2px;border:1px solid #aaa;height:17px;font-size:1.3rem;"/>
+                    </span>
+                </div>
+            </div>
+            <div style="background-color: white;margin:0.3em 3px 0 3px;position:relative;">
+            <div class="ilt">&nbsp;</div>
+            <div class="irt">&nbsp;</div>
+            <table class="">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+            </table>
+            </div>
+        </div>
+            </div>
+        </div>
+        <script type="application/javascript">
+            $(function() {
+                $(".userListMarker").click(function() {
+                    $.post("/data/lists", {action: "findTouched"}, function(json) {
+                        Codeforces.facebox(".userListsFacebox");
+                        var tbody = $("#facebox tbody");
+                        tbody.empty();
+                        for (var i in json) {
+                            tbody.append(
+                                    $("<tr></tr>").append(
+                                            $("<td></td>").attr("data-readKey", json[i].readKey).text(json[i].name)
+                                    )
+                            );
+                        }
+                        Codeforces.updateDatatables();
+                        tbody.find("td").css("cursor", "pointer").click(function() {
+                            document.location = Codeforces.updateUrlParameter(document.location.href, "list", $(this).attr("data-readKey"));
+                        });
+                    }, "json");
+                });
+            });
+        </script>
+</body>
+</html>

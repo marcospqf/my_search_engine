@@ -6,10 +6,12 @@
 #include <streambuf>
 #include <ostream>
 #include <fstream>
-#include<iostream>
+#include <iostream>
 #include <cstdio>
 #include <cstdlib>
-#include<unordered_set>
+#include <ctime>
+#include <unordered_set>
+#include <unordered_map>
 #include <queue>
 using namespace std;
 
@@ -21,7 +23,7 @@ class Scheduler
 
 		//push na priorityqueue, 
 		//inner=true, push insideurl, else outsideurl
-		static void PushUrl(const string &s, bool inside);
+		static void PushUrl(const string &s,const string &domain, bool inside);
 		
 		//remove the topmost Url, if the queue is empty, nothing happens
 		static void PopUrl(bool inside);
@@ -31,18 +33,23 @@ class Scheduler
 		
 		//return the next query to be processed, if the queue is empty, return ""
 		static string TopUrl();
-
+    
+    static bool thistime(double x);
 
 	private:
 		struct url {
-			string name;
+			string name,domain;
 			int priority;
-			url(const string &s);
+			url(const string &s, const string &d);
 			bool operator<(const url &a) const;
 		};
+
 		static set<url> inside_url;
 		static set<url> outside_url;
-		//just a simple polinomial hash!
-		static unordered_set<long long> visited;
+		
+    //just a simple polinomial hash!
+    static unordered_set<long long> visited;
+    //last time that occur a requisition on a domain x
+    static unordered_map<long long , double > last_time;
 };
 #endif

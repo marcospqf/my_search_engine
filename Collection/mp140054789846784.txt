@@ -1,0 +1,1046 @@
+|||http://www.pbsoftwareforum.com/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="description" content="Login" />
+	<meta name="keywords" content="PHP, MySQL, bulletin, board, free, open, source, smf, simple, machines, forum" />
+	<script language="JavaScript" type="text/javascript" src="http://www.pbsoftwareforum.com/Themes/default/script.js?fin11"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.pbsoftwareforum.com/Themes/pb_com";
+		var smf_images_url = "http://www.pbsoftwareforum.com/Themes/pb_com/images";
+		var smf_scripturl = "http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "ISO-8859-1";
+	// ]]></script>
+	<title>Login</title>
+<!-- Bad Behavior 2.2.1 run time: 0.000 ms -->
+<a href="http://www.pbsoftwareforum.com/pageantspinal.php"><img src="http://www.pbsoftwareforum.com/Themes/pb_com/images/blank.gif" alt="squarerigged" border="0" height="1" width="1" /></a><script type="text/javascript">
+<!--
+function bb2_addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			oldonload();
+			func();
+		}
+	}
+}
+
+bb2_addLoadEvent(function() {
+	for ( i=0; i < document.forms.length; i++ ) {
+		if (document.forms[i].method == 'post') {
+			var myElement = document.createElement('input');
+			myElement.setAttribute('type', 'hidden');
+			myElement.name = 'bb2_screener_';
+			myElement.value = '1490722858 150.164.11.34';
+			document.forms[i].appendChild(myElement);
+		}
+	}
+});
+// --></script>
+		
+	<link rel="stylesheet" type="text/css" href="http://www.pbsoftwareforum.com/Themes/pb_com/style.css?fin11" />
+	<link rel="stylesheet" type="text/css" href="http://www.pbsoftwareforum.com/Themes/default/print.css?fin11" media="print" />
+	<link rel="help" href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=help" target="_blank" />
+	<link rel="search" href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=search" />
+	<link rel="contents" href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="Pitney Bowes Software Forums - RSS" href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;type=rss;action=.xml" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var current_header = false;
+
+		function shrinkHeader(mode)
+		{
+			document.cookie = "upshrink=" + (mode ? 1 : 0);
+			document.getElementById("upshrink").src = smf_images_url + (mode ? "/upshrink2.gif" : "/upshrink.gif");
+
+			document.getElementById("upshrinkHeader").style.display = mode ? "none" : "";
+			document.getElementById("upshrinkHeader2").style.display = mode ? "none" : "";
+
+			current_header = mode;
+		}
+	// ]]></script>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			var current_header_ic = false;
+
+			function shrinkHeaderIC(mode)
+			{
+				document.cookie = "upshrinkIC=" + (mode ? 1 : 0);
+				document.getElementById("upshrink_ic").src = smf_images_url + (mode ? "/expand.gif" : "/collapse.gif");
+
+				document.getElementById("upshrinkHeaderIC").style.display = mode ? "none" : "";
+
+				current_header_ic = mode;
+			}
+		// ]]></script>
+</head>
+<body>
+	<div class="tborder" >
+		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td class="catbg" height="32">
+					<span style="font-family: Verdana, sans-serif; font-size: 140%; ">Pitney Bowes Software Forums</span>
+				</td>
+				<td align="right" class="catbg">
+					<img src="http://www.pbsoftwareforum.com/Themes/pb_com/images/PBS_sig_white.png" style="margin: 2px;" alt="" />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" >
+			<tr>
+				<td class="titlebg2" height="32" align="right">
+					<span class="smalltext">March 28, 2017, 01:40:58 PM</span>
+					<a href="#" onclick="shrinkHeader(!current_header); return false;"><img id="upshrink" src="http://www.pbsoftwareforum.com/Themes/pb_com/images/upshrink.gif" alt="*" title="Shrink or expand the header." align="bottom" style="margin: 0 1ex;" /></a>
+				</td>
+			</tr>
+			<tr id="upshrinkHeader">
+				<td valign="top" colspan="2">
+					<table width="100%" class="bordercolor" cellpadding="8" cellspacing="1" border="0" style="margin-top: 1px;">
+						<tr>
+							<td colspan="2" width="100%" valign="top" class="windowbg2"><span class="middletext">Welcome, <b>Guest</b>. Please <a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=login">login</a> or <a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=register">register</a>.				</span>
+								<script language="JavaScript" type="text/javascript" src="http://www.pbsoftwareforum.com/Themes/default/sha1.js"></script>
+
+								<form action="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=login2" method="post" accept-charset="ISO-8859-1" class="middletext" style="margin: 3px 1ex 1px 0;" onsubmit="hashLoginPassword(this, '0a3a7fade2c26044b7ce5ab1f893922e');">
+									<input type="text" name="user" size="10" /> <input type="password" name="passwrd" size="10" />
+									<select name="cookielength">
+										<option value="60">1 Hour</option>
+										<option value="1440">1 Day</option>
+										<option value="10080">1 Week</option>
+										<option value="43200">1 Month</option>
+										<option value="-1" selected="selected">Forever</option>
+									</select>
+									<input type="submit" value="Login" /><br />
+									<span class="middletext">Login with username, password and session length</span>
+									<input type="hidden" name="hash_passwrd" value="" />
+								</form>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<table id="upshrinkHeader2" width="100%" cellpadding="4" cellspacing="0" border="0">
+			<tr>
+				<td width="90%" class="titlebg2">
+					<span class="smalltext"><b>News</b>: We are now Pitney Bowes Software <a href="http://www.pbinsight.com" target="_blank">http://www.pbinsight.com</a></span>
+				</td>
+				<td class="titlebg2" align="right" nowrap="nowrap" valign="top">
+					<form action="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=search2" method="post" accept-charset="ISO-8859-1" style="margin: 0;">
+						<a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=search;advanced"><img src="http://www.pbsoftwareforum.com/Themes/pb_com/images/filter.gif" align="middle" style="margin: 0 1ex;" alt="" /></a>
+						<input type="text" name="search" value="" style="width: 190px;" />&nbsp;
+						<input type="submit" name="submit" value="Search" style="width: 11ex;" />
+						<input type="hidden" name="advanced" value="0" />
+					</form>
+				</td>
+			</tr>
+		</table>
+	</div>
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-left: 10px;">
+				<tr>
+					<td class="maintab_first">&nbsp;</td><td class="maintab_active_first">&nbsp;</td>
+				<td valign="top" class="maintab_active_back">
+					<a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;">Home</a>
+				</td><td class="maintab_active_last">&nbsp;</td>
+				<td valign="top" class="maintab_back">
+					<a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=help">Help</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=login">Login</a>
+				</td>
+				<td valign="top" class="maintab_back">
+					<a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=register">Register</a>
+				</td>
+				<td class="maintab_last">&nbsp;</td>
+			</tr>
+		</table>
+	<div id="bodyarea" style="padding: 1ex 0px 2ex 0px;">
+		<script language="JavaScript" type="text/javascript" src="http://www.pbsoftwareforum.com/Themes/default/sha1.js"></script>
+
+		<form action="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=login2" method="post" accept-charset="ISO-8859-1" name="frmLogin" id="frmLogin" onsubmit="hashLoginPassword(this, '0a3a7fade2c26044b7ce5ab1f893922e');">
+			<table border="0" cellspacing="0" cellpadding="3" class="tborder" align="center">
+				<tr class="catbg">
+					<td>Warning!</td>
+				</tr><tr>
+					<td class="windowbg" style="padding-top: 2ex; padding-bottom: 2ex;">
+						Only registered members are allowed to access this section.<br /><strong>Customers will need to register for a new account to use this system.</strong><br />
+						Please login below or <a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=register">register a new account</a> with Pitney Bowes Software Forums.
+					</td>
+				</tr><tr class="titlebg">
+					<td><img src="http://www.pbsoftwareforum.com/Themes/pb_com/images/icons/login_sm.gif" alt="" align="top" /> Login</td>
+				</tr><tr>
+					<td class="windowbg">
+						<table border="0" cellpadding="3" cellspacing="0" align="center">
+							<tr>
+								<td align="right"><b>Username:</b></td>
+								<td><input type="text" name="user" size="20" /></td>
+							</tr><tr>
+								<td align="right"><b>Password:</b></td>
+								<td><input type="password" name="passwrd" size="20" /></td>
+							</tr><tr>
+								<td align="right"><b>Minutes to stay logged in:</b></td>
+								<td><input type="text" name="cookielength" size="4" maxlength="4" value="60" /></td>
+							</tr><tr>
+								<td align="right"><b>Always stay logged in:</b></td>
+								<td><input type="checkbox" name="cookieneverexp" class="check" onclick="this.form.cookielength.disabled = this.checked;" /></td>
+							</tr><tr>
+								<td align="center" colspan="2"><input type="submit" value="Login" style="margin-top: 2ex;" /></td>
+							</tr><tr>
+								<td align="center" colspan="2" class="smalltext"><a href="http://www.pbsoftwareforum.com/index.php?PHPSESSID=2df50e2f4819500d013dedd93ab1c105&amp;action=reminder">Forgot your password?</a><br /><br /></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<input type="hidden" name="hash_passwrd" value="" />
+		</form>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			document.forms.frmLogin.user.focus();
+		// ]]></script>
+	</div>
+
+	<div id="footerarea" style="text-align: center; padding-bottom: 1ex;">
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			function smfFooterHighlight(element, value)
+			{
+				element.src = smf_images_url + "/" + (value ? "h_" : "") + element.id + ".gif";
+			}
+		// ]]></script>
+		<table cellspacing="0" cellpadding="3" border="0" align="center" width="100%">
+			<tr>
+				<td width="28%" valign="middle" align="right">
+					<a href="http://www.mysql.com/" target="_blank"><img id="powered-mysql" src="http://www.pbsoftwareforum.com/Themes/pb_com/images/powered-mysql.gif" alt="Powered by MySQL" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://www.php.net/" target="_blank"><img id="powered-php" src="http://www.pbsoftwareforum.com/Themes/pb_com/images/powered-php.gif" alt="Powered by PHP" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+				<td valign="middle" align="center" style="white-space: nowrap;">
+					
+		<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.simplemachines.org/" title="Simple Machines Forum" target="_blank">Powered by SMF 1.1.20</a> |
+<a href="http://www.simplemachines.org/about/copyright.php" title="Free Forum Software" target="_blank">SMF &copy; 2013, Simple Machines</a>
+		</span>
+				</td>
+				<td width="28%" valign="middle" align="left">
+					<a href="http://validator.w3.org/check/referer" target="_blank"><img id="valid-xhtml10" src="http://www.pbsoftwareforum.com/Themes/pb_com/images/valid-xhtml10.gif" alt="Valid XHTML 1.0!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img id="valid-css" src="http://www.pbsoftwareforum.com/Themes/pb_com/images/valid-css.gif" alt="Valid CSS!" width="54" height="20" style="margin: 5px 16px;" onmouseover="smfFooterHighlight(this, true);" onmouseout="smfFooterHighlight(this, false);" /></a>
+				</td>
+			</tr>
+		</table>
+		<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+			window.addEventListener("load", smf_codeFix, false);
+			function smf_codeFix()
+			{
+				var codeFix = document.getElementsByTagName ? document.getElementsByTagName("div") : document.all.tags("div");
+
+				for (var i = 0; i < codeFix.length; i++)
+				{
+					if (codeFix[i].className == "code" && (codeFix[i].scrollWidth > codeFix[i].clientWidth || codeFix[i].clientWidth == 0))
+						codeFix[i].style.overflow = "scroll";
+				}
+			}
+		// ]]></script>
+	</div>
+	<div id="ajax_in_progress" style="display: none;">Loading...</div>
+</body></html>|||http://www.bank-holidays.com/holidays.php?annee=2010&amp;id_pays=171|<!doctype html>
+<html lang="En" dir="LTR">
+<head>
+	<title> bank and public holidays of the world - 1970-2070</title>
+	<meta name="keywords" content="days, holidays, bank, public, calendar, banks, international, list " />
+	<meta name="ROBOTS" content="noindex, nofollow" />
+	<meta name="author" content ="web-translator.com" />
+	<link rev="made" href="mailto:edit@edit.fr" />
+	<meta name="description" content=" full calendar of public and bank holidays of the world (and banks closures), from 1970 until 2070  " />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--meta http-equiv="last-modified" content="Sat, 17 May 2014 16:49:42 GMT" /-->
+	
+	<meta http-equiv="Content-Type" content="text/html;" charset="iso-8859-1" />
+	
+	<link href="/new_interface/css/style2.css" type="text/css" rel="stylesheet" />
+	<link href="/new_interface/css/style.css" type="text/css" rel="stylesheet" />
+	<link href="/new_interface/css/google_style.css" type="text/css" rel="stylesheet" />
+	
+	<link href="/new_interface/css/bootstrap/bootstrap.css" rel="stylesheet">
+	<link href="/new_interface/css/new_bootstrap.css" rel="stylesheet">
+	
+	<link rel="shortcut icon" href="favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/new_interface/js/scripts_java.js"></script>
+	<script type="text/javascript">
+	<!--
+	function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+	function ouvre_desc_fete(id_fete,id_pays,sem_jour,annee,id_langue) {
+		fen = window.open('/pop_up_holidays.php?fete_id=' + id_fete + '&pays_id=' + id_pays + '&jour_sem=' + sem_jour + '&annee=' + annee + '&id_langue=' + 2,'Description','WIDTH=350,HEIGHT=460,scrollbars=yes,left=420,top=50,screenX=420,screenY=50');
+	}
+	function preloadLg() {
+		MM_preloadImages('/new_interface/arab.png', '/new_interface/bra_port.png', '/new_interface/china.png', '/new_interface/france.png', '/new_interface/germany.png', '/new_interface/indonesia.png', '/new_interface/italy.png', '/new_interface/japan.png', '/new_interface/korea.png', '/new_interface/poland.png', '/new_interface/russia.png', '/new_interface/spain.png', '/new_interface/sweden.png', '/new_interface/thai.png', '/new_interface/turk.png', '/new_interface/us_uk.png');
+	}
+	// -->
+	</script>
+
+	<script type="text/javascript">
+	<!--
+	function sheet_get_holiday()
+	{
+	  document.write("<textarea><iframe src=http://www.gts-translation.com/nationalholidays/gtstodaysholidays.asp scrolling=\"auto\" frameborder=\"0\" w  height=400></iframe></textarea>");
+	}
+	--></script>
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+					//ga('create', 'UA-44824910-2', 'auto');
+					ga('create', 'UA-44824910-1', 'auto');
+				ga('send', 'pageview');
+
+  
+  	$(document).ready(function() {
+		$('.scrollTo').click( function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 900; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+  
+  
+	/**
+	  * Fonction de suivi des clics sur des liens sortants dans Google Analytics
+	  * Cette fonction utilise une chaîne d'URL valide comme argument et se sert de cette chaîne d'URL
+	  * comme libellé d'événement. Configurer la méthode de transport sur 'beacon' permet d'envoyer le clic
+	  * au moyen de 'navigator.sendBeacon' dans les navigateurs compatibles.
+	  */
+	var trackOutboundLink = function(url) {
+	   ga('send', 'event', 'outbound', 'click', url, {
+		 'transport': 'beacon',
+		 'hitCallback': function(){document.location = url;}
+	   });
+	}
+
+	</script>
+
+	<script type="text/javascript">
+countries_list = {"Africa": {"Countries": ["Algeria", "Angola", "Ascension Island", "Benin", "Botswana", "Burkina Faso", "Burundi", "Cameroon", "Cape Verde", "Central African Rep", "Chad", "Comoros", "Congo (Brazzaville)", "Congo (Dem. Rep. of the)", "Côte d'Ivoire (Ivory Coast)", "Djibouti", "Egypt", "Equatorial Guinea", "Eritrea", "Ethiopia", "Gabon", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "Kenya", "Lesotho", "Liberia", "Libya", "Madagascar", "Malawi", "Mali", "Mauritania", "Mauritius", "Morocco", "Mozambique", "Namibia", "Niger", "Nigeria", "Puntland", "Rwanda", "SaoTomé and Principe", "Senegal", "Seychelles", "Sierra Leone", "Somalia", "Somaliland", "South Africa", "South Sudan", "Sudan", "Swaziland", "Tanzania (United Republic of)", "Togo", "Tunisia", "Uganda", "Western Sahara", "Zambia", "Zimbabwe"], "Algeria": [], "Angola": [], "Ascension Island": [], "Benin": [], "Botswana": [], "Burkina Faso": [], "Burundi": [], "Cameroon": [], "Cape Verde": [], "Central African Rep": [], "Chad": [], "Comoros": [], "Congo (Brazzaville)": [], "Congo (Dem. Rep. of the)": [], "Côte d'Ivoire (Ivory Coast)": [], "Djibouti": [], "Egypt": [], "Equatorial Guinea": [], "Eritrea": [], "Ethiopia": [], "Gabon": [], "Gambia": [], "Ghana": [], "Guinea": [], "Guinea-Bissau": [], "Kenya": [], "Lesotho": [], "Liberia": [], "Libya": [], "Madagascar": [], "Malawi": [], "Mali": [], "Mauritania": [], "Mauritius": [], "Morocco": [], "Mozambique": [], "Namibia": [], "Niger": [], "Nigeria": [], "Puntland": [], "Rwanda": [], "SaoTomé and Principe": [], "Senegal": [], "Seychelles": [], "Sierra Leone": [], "Somalia": ["Puntland"], "Somaliland": [], "South Africa": ["Western Cape", "Eastern Cape", "Northern Cape", "Kwazulu", "Natal", "Gauteng", "Mpumalanga", "North West", "Limpopo", "Free State", "Limpopo"], "South Sudan": [], "Sudan": [], "Swaziland": [], "Tanzania (United Republic of)": [], "Togo": [], "Tunisia": [], "Uganda": [], "Western Sahara": [], "Zambia": [], "Zimbabwe": []}, "Asia": {"Countries": ["Abkhazia", "Afghanistan", "Armenia", "Azerbaijan", "Bahrain", "Bangladesh", "Bhutan", "Brunei Darussalam", "Cambodia", "China", "Georgia", "Hong Kong", "India", "Indonesia", "Iran (Islamic Republic of)", "Iraq", "Israel", "Japan", "Jordan", "Kazakhstan", "Kuwait", "Kyrgyzstan", "Laos (People's Dem. Rep.)", "Lebanon", "Macau", "Malaysia", "Malaysia (Putrajaya)", "Malaysia (Putrajaya)", "Maldives", "Mongolia", "Myanmar", "Nepal", "North Korea (People's Rep.)", "Oman", "Pakistan", "Palestinian ( Authority )", "Philippines", "Qatar", "Saudi Arabia", "Singapore", "South Korea (Republic of)", "South Ossetia", "Sri Lanka", "Syrian Arab Republic", "Taiwan", "Tajikistan", "Thailand", "Timor-Leste (Democratic Republic of)", "Turkey", "Turkmenistan", "United Arab Emirates (UAE)", "Uzbekistan", "VietNam", "Yemen"], "Abkhazia": [], "Afghanistan": [], "Armenia": [], "Azerbaijan": [], "Bahrain": [], "Bangladesh": [], "Bhutan": ["Western", "Eastern", "Central", "Southern"], "Brunei Darussalam": [], "Cambodia": [], "China": ["Tibet"], "Georgia": [], "Hong Kong": [], "India": ["Andhra Pradesh", "Assam", "Bihar", "Chandigarh", "Goa", "Gujarat", "Kerala", "Madhya Pradesh", "Maharashtra", "Punjab", "Rajasthan", "Tamil Nadu", "Uttar Pradesh", "West Bengal", "Manipur", "Himachal Pradesh", "Delhi", "Haryana", "Karnataka", "Orissa", "Jammu & Kashmir", "Puducherry", "Nagaland", "Tripura", "Meghalaya", "Arunachal Pradesh", "Andaman & Nicobar Island", "Uttarakhand", "Jharkhand", "Chhattishgath", "Sikkim", "Mizoram", "Daman & Diu", "Dadra & Nagar Haveli", "Chhattishgath", "Telangana"], "Indonesia": ["Bali"], "Iran (Islamic Republic of)": [], "Iraq": ["Kurdistan"], "Israel": [], "Japan": [], "Jordan": [], "Kazakhstan": [], "Kuwait": [], "Kyrgyzstan": [], "Laos (People's Dem. Rep.)": [], "Lebanon": [], "Macau": [], "Malaysia": ["Kuala Lumpur", "Labuan", "Johor", "Kedah", "Kelantan", "Malacca", "N. Sembilan", "Pahang", "Perak", "Perlis", "Penang", "Sabah", "Sarawak", "Selangor", "Terengganu"], "Malaysia (Putrajaya)": [], "Malaysia (Putrajaya)": [], "Maldives": [], "Mongolia": [], "Myanmar": ["Chin", "Kachin", "Kayah", "Kayin", "Magwe", "Mandalay", "Sagaing", "Yangon", "Shan", "Rakhin "], "Nepal": [], "North Korea (People's Rep.)": [], "Oman": [], "Pakistan": [], "Palestinian ( Authority )": [], "Philippines": [], "Qatar": [], "Saudi Arabia": [], "Singapore": [], "South Korea (Republic of)": [], "South Ossetia": [], "Sri Lanka": [], "Syrian Arab Republic": [], "Taiwan": [], "Tajikistan": [], "Thailand": [], "Timor-Leste (Democratic Republic of)": [], "Turkey": [], "Turkmenistan": [], "United Arab Emirates (UAE)": [], "Uzbekistan": [], "VietNam": [], "Yemen": []}, "Central America": {"Countries": ["Anguilla", "Antigua & Barbuda", "Aruba", "Bahamas", "Barbados", "Belize", "Bermuda", "Bonaire", "Cayman", "Costa Rica", "Cuba", "Curaçao", "Dominica", "Dominican Republic", "El Salvador", "Grenada", "Guatemala", "Haiti", "Honduras", "Jamaica", "Montserrat", "Nicaragua", "Panama", "Saba", "Saint Eustatius (Netherl. Antilles)", "Saint Kitts & Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "St Maarten (Dutch)", "Trinidad and Tobago", "Turks & Caicos (Islands)", "Virgin Islands"], "Anguilla": [], "Antigua & Barbuda": [], "Aruba": [], "Bahamas": [], "Barbados": [], "Belize": [], "Bermuda": [], "Bonaire": [], "Cayman": [], "Costa Rica": [], "Cuba": [], "Curaçao": [], "Dominica": [], "Dominican Republic": [], "El Salvador": [], "Grenada": [], "Guatemala": [], "Haiti": [], "Honduras": [], "Jamaica": [], "Montserrat": [], "Nicaragua": [], "Panama": [], "Saba": [], "Saint Eustatius (Netherl. Antilles)": [], "Saint Kitts & Nevis": [], "Saint Lucia": [], "Saint Vincent and the Grenadines": [], "St Maarten (Dutch)": [], "Trinidad and Tobago": [], "Turks & Caicos (Islands)": [], "Virgin Islands": []}, "Europe": {"Countries": ["Aland Islands", "Albania", "Andorra", "Austria", "Belarus (Bielarus)", "Belgium", "Bosnia & Herzegovina (Federation)", "Bosnia (Rep. Srpska)", "Bulgaria", "Crimea", "Croatia (Hrvatska)", "Cyprus", "Czech Republic", "Denmark", "Estonia", "Faroe Islands", "Finland", "France", "Germany", "Gibraltar", "Greece", "Greenland - Kalaallit Nunaat", "Guernsey (Channel Islands)", "Gypsies, Rom", "Holy See", "Hungary", "Iceland", "Ireland", "Isle of Man", "Italy", "Jersey", "Kosovo", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia-former Yug. Rep.", "Malta", "Moldova (Republic of)", "Monaco", "Montenegro", "Netherlands", "Norway", "Poland", "Portugal", "Romania", "Russian Federation", "San Marino", "Sápmi (Lapland)", "Serbia", "Slovakia", "Slovenia", "Spain", "Svalbard", "Sweden", "Switzerland", "Transdniestria (Mold. Dniestr Rep.)", "Ukraine", "United Kingdom of G.B. & N. Ireland"], "Aland Islands": [], "Albania": [], "Andorra": [], "Austria": ["Burgenland", "Carinthia", "Lower Austria", "Salzburg", "Styria", "Tyrol", "Upper Austria", "Vienna", "Vorarlberg"], "Belarus (Bielarus)": [], "Belgium": [], "Bosnia & Herzegovina (Federation)": [], "Bosnia (Rep. Srpska)": [], "Bulgaria": [], "Crimea": [], "Croatia (Hrvatska)": [], "Cyprus": ["North"], "Czech Republic": [], "Denmark": [], "Estonia": [], "Faroe Islands": [], "Finland": [], "France": ["French Polynesia", "Saint Martin", "Mayotte", "Guiana", "Reunion", "Martinique", "Guadeloupe", "New Caledonia", "Alsace & Moselle", "A zone", "B zone", "C zone", "Wallis & Futuna", "Saint Pierre & Miquelon", "Corsica", "St Barthelemy"], "Germany": ["Baden-Württemberg", "Bavaria", "Saxony-Anhalt", "Hesse", "North Rhine-Westphalia", "Rhine- Land Palatinate", "Saarland ", "Brandenburg", "Mecklenburg-Vorpommern", "Saxony", "Thuringia ", "Schleswig-Holstein", "Lower Saxony", "Bremen", "Berlin", "Hamburg"], "Gibraltar": [], "Greece": [], "Greenland - Kalaallit Nunaat": [], "Guernsey (Channel Islands)": ["Alderney", "Sark"], "Gypsies, Rom": [], "Holy See": [], "Hungary": [], "Iceland": [], "Ireland": [], "Isle of Man": [], "Italy": ["Venice", "Abruzzo", "Apulia", "Basilicata", "Calabria", "Campania", "Emilia Romagna", "Friuli-Venezia Giulia", "Latium", "Liguria", "Lombardy", "The Marches", "Molise", "Piedmont", "Sardinia", "Trentino Alto Adige", "Sicily", "Tuscany", "Umbria", "Val d'Aosta"], "Jersey": [], "Kosovo": [], "Latvia": [], "Liechtenstein": [], "Lithuania": [], "Luxembourg": [], "Macedonia-former Yug. Rep.": [], "Malta": [], "Moldova (Republic of)": [], "Monaco": [], "Montenegro": [], "Netherlands": ["North Region", "Middle Region", "South Region"], "Norway": ["Svalbard"], "Poland": [], "Portugal": ["Azores", "Madeira"], "Romania": [], "Russian Federation": ["South Federal District", "North Ossetia", "Tatarstan", "Chechenia", "Daghestan", "Leningradskaya o.", "Birobijan", "Moskovskaia o.", "Siberian Federal District", "Irkutsk o.", "Kaliningrad", "Federal District of the North Caucasus", "Far Eastern Federal District", "Volga Federal District", "Ural Federal District", "Central Federal District", "North West Federal District"], "San Marino": [], "Sápmi (Lapland)": [], "Serbia": [], "Slovakia": [], "Slovenia": [], "Spain": ["Andalousia", "Castilla La Mancha", "Aragon", "Asturias", "Balearic Isles", "Canary Isles", "Castilla y León", "Cantabria", "Extremadura", "Galicia", "Céuta and Melilla", "Navarra", "Basque Country", "La Rioja", "Valenciana", "Catalonia", "Murcia", "Madrid"], "Svalbard": [], "Sweden": [], "Switzerland": ["Bern", "Zürich", "Aargau", "Appenzell Outer Rhodes", "Appenzell Inner Rhodes", "Basel", "Fribourg", "Geneva", "Glarus", "Graubünden", "Jura", "Neuchâtel", "Nidwalden", "Obwalden", "St. Gallen", "Schwyz", "Solothurn", "Thurgau", "Ticino", "Uri", "Valais", "Vaud", "Zug", "Luzern", "Schaffhouse", "Obwalden - Engelberg", "Basel-Land"], "Transdniestria (Mold. Dniestr Rep.)": [], "Ukraine": [], "United Kingdom of G.B. & N. Ireland": ["Scotland", "N. Ireland", "England", "Wales", "Cornwall"]}, "NorthAmerica": {"Countries": ["", "Canada", "Mexico", "United Nations", "United States of America"], "": [], "Canada": ["Nunavut", "British Columbia", "Alberta", "Saskatchewan", "Manitoba", "Ontario", "Quebec", "Newfoundland", "Labrador", "New Brunswick", "Nova Scotia", "Prince Edward Island", "Yukon", "Northwest Territories"], "Mexico": [], "United Nations": [], "United States of America": ["Puerto Rico", "Virgin Islands", "Samoa", "Colorado", "Georgia", "Alaska", "Arizona", "Arkansas", "California", "Connecticut", "Delaware", "District of Columbia", "Florida", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming", "Alabama", "Ohio"]}, "SouthAmerica": {"Countries": ["Argentina", "Bolivia", "Brazil", "Chile", "Colombia", "Ecuador", "Falkland Islands", "Guyana", "Paraguay", "Peru", "Saint Helena", "South Georgia", "Suriname", "Tristan da Cunha", "Uruguay", "Venezuela"], "Argentina": ["Buenos Aires", "Catamarca", "Cordoba", "Corrientes", "Chaco", "Chubut", "Entre Rios", "Formosa", "Buenos Aires City", "Jujuy", "La Pampa", "La Rioja", "Mendoza", "Misiones", "Neuquén", "Rio Negro", "Salta", "San Juan", "San Luis", "Santa Cruz", "Santa Fé", "Santiago del Estero", "San M. de Tucuman", "Tierra del Fuego"], "Bolivia": [], "Brazil": ["Rio", "DF", "Parà", "Bahia", "Cearà", "Amazonas", "Sao Paulo", "Rio G. do Sul", "Paraná", "Minas Gerais", "Rondônia", "Piauí", "Mato Grosso", "Sergipe", "Goiás", "Alagoas", "Santa Catarina", "Mato Grosso do Sul", "Paraíba", "Rio Grande do Norte", "Maranhão", "Acre", "Amapá", "Espírito Santo", "Roraima", "Tocantins", "Pernambuco"], "Chile": [], "Colombia": [], "Ecuador": [], "Falkland Islands": [], "Guyana": [], "Paraguay": [], "Peru": [], "Saint Helena": [], "South Georgia": [], "Suriname": [], "Tristan da Cunha": [], "Uruguay": [], "Venezuela": []}, "SouthPacific": {"Countries": ["Australia", "Christmas Island", "Cocos Islands (Keeling)", "Cook Islands", "Fiji", "Guam", "Kiribati", "Marshall Islands", "Micronesia (Federated States of)", "Nauru", "New Zealand (Aotearoa)", "Niue", "Norfolk Island", "Northern Mariana Islands", "Palau", "Papua New Guinea", "Pitcairn", "Samoa", "Solomon Islands", "Tokelau", "Tonga", "Tuvalu", "United States ( Northern Mariana Islands - Commonwealth of))", "Vanuatu"], "Australia": ["ACT", "New South Wales", "Queensland", "Victoria", "South Australia", "Western Australia", "Northern Territories", "Tasmania"], "Christmas Island": [], "Cocos Islands (Keeling)": [], "Cook Islands": [], "Fiji": [], "Guam": [], "Kiribati": [], "Marshall Islands": [], "Micronesia (Federated States of)": [], "Nauru": [], "New Zealand (Aotearoa)": [], "Niue": [], "Norfolk Island": [], "Northern Mariana Islands": [], "Palau": [], "Papua New Guinea": [], "Pitcairn": [], "Samoa": [], "Solomon Islands": [], "Tokelau": [], "Tonga": [], "Tuvalu": [], "United States ( Northern Mariana Islands - Commonwealth of))": [], "Vanuatu": []}}; 
+links_list = {"Africa": {"Countries": ["3", "6", "603", "23", "29", "33", "34", "36", "38", "141", "173", "43", "44", "45", "49", "54", "55", "75", "57", "61", "65", "66", "68", "73", "74", "93", "98", "101", "218", "107", "109", "111", "114", "81", "113", "120", "122", "123", "124", "810", "147", "152", "153", "154", "155", "159", "809", "1", "840", "160", "168", "172", "175", "178", "128", "600", "190", "191"], "3": [], "6": [], "603": [], "23": [], "29": [], "33": [], "34": [], "36": [], "38": [], "141": [], "173": [], "43": [], "44": [], "45": [], "49": [], "54": [], "55": [], "75": [], "57": [], "61": [], "65": [], "66": [], "68": [], "73": [], "74": [], "93": [], "98": [], "101": [], "218": [], "107": [], "109": [], "111": [], "114": [], "81": [], "113": [], "120": [], "122": [], "123": [], "124": [], "810": [], "147": [], "152": [], "153": [], "154": [], "155": [], "159": ["813"], "809": [], "1": ["430", "431", "432", "433", "434", "435", "436", "437", "438", "439", "861"], "840": [], "160": [], "168": [], "172": [], "175": [], "178": [], "128": [], "600": [], "190": [], "191": []}, "Asia": {"Countries": ["811", "193", "11", "16", "18", "22", "25", "31", "35", "40", "67", "79", "82", "83", "85", "84", "87", "90", "91", "92", "96", "94", "97", "100", "105", "108", "887", "888", "110", "119", "121", "207", "47", "127", "130", "211", "136", "140", "9", "156", "46", "812", "161", "169", "170", "171", "174", "279", "180", "179", "219", "129", "187", "188"], "811": [], "193": [], "11": [], "16": [], "18": [], "22": [], "25": ["533", "534", "535", "536"], "31": [], "35": [], "40": ["827"], "67": [], "79": [], "82": ["243", "244", "245", "246", "247", "248", "250", "251", "252", "253", "254", "255", "256", "257", "258", "259", "260", "261", "262", "282", "283", "284", "391", "392", "393", "394", "395", "396", "397", "398", "760", "793", "794", "795", "288", "877"], "83": ["836"], "85": [], "84": ["850"], "87": [], "90": [], "91": [], "92": [], "96": [], "94": [], "97": [], "100": [], "105": [], "108": ["578", "542", "543", "544", "545", "546", "547", "548", "549", "550", "551", "552", "553", "554", "555"], "887": [], "888": [], "110": [], "119": [], "121": ["579", "580", "581", "582", "583", "584", "585", "762", "763", "765"], "207": [], "47": [], "127": [], "130": [], "211": [], "136": [], "140": [], "9": [], "156": [], "46": [], "812": [], "161": [], "169": [], "170": [], "171": [], "174": [], "279": [], "180": [], "179": [], "219": [], "129": [], "187": [], "188": []}, "Central America": {"Countries": ["195", "7", "12", "17", "19", "21", "24", "270", "202", "48", "51", "52", "205", "142", "149", "70", "72", "77", "78", "89", "201", "266", "131", "592", "265", "162", "163", "164", "297", "177", "271", "198"], "195": [], "7": [], "12": [], "17": [], "19": [], "21": [], "24": [], "270": [], "202": [], "48": [], "51": [], "52": [], "205": [], "142": [], "149": [], "70": [], "72": [], "77": [], "78": [], "89": [], "201": [], "266": [], "131": [], "592": [], "265": [], "162": [], "163": [], "164": [], "297": [], "177": [], "271": [], "198": []}, "Europe": {"Countries": ["194", "2", "5", "15", "26", "20", "28", "221", "32", "875", "50", "41", "143", "53", "59", "213", "63", "64", "4", "214", "69", "71", "595", "272", "185", "80", "192", "86", "199", "88", "203", "808", "99", "102", "103", "104", "106", "112", "117", "118", "602", "134", "125", "137", "139", "144", "146", "151", "292", "189", "157", "158", "58", "586", "165", "166", "220", "182", "145"], "194": [], "2": [], "5": [], "15": ["413", "414", "415", "416", "417", "418", "419", "420", "421"], "26": [], "20": [], "28": [], "221": [], "32": [], "875": [], "50": [], "41": ["541"], "143": [], "53": [], "59": [], "213": [], "63": [], "64": ["138", "217", "264", "273", "286", "291", "290", "293", "296", "407", "408", "409", "410", "411", "412", "598"], "4": ["303", "304", "305", "306", "307", "308", "309", "310", "311", "312", "313", "405", "406", "573", "574", "575"], "214": [], "69": [], "71": [], "595": ["593", "594"], "272": [], "185": [], "80": [], "192": [], "86": [], "199": [], "88": ["298", "441", "442", "443", "444", "445", "446", "447", "448", "449", "451", "452", "453", "454", "455", "457", "458", "459", "460", "461"], "203": [], "808": [], "99": [], "102": [], "103": [], "104": [], "106": [], "112": [], "117": [], "118": [], "602": [], "134": ["462", "463", "464"], "125": ["587"], "137": [], "139": ["267", "268"], "144": [], "146": ["847", "505", "507", "512", "514", "529", "532", "572", "843", "796", "814", "848", "842", "849", "844", "846", "845"], "151": [], "292": [], "189": [], "157": [], "158": [], "58": ["222", "223", "224", "225", "226", "227", "229", "230", "233", "234", "236", "239", "240", "241", "242", "231", "238", "466"], "586": [], "165": [], "166": ["314", "315", "316", "317", "318", "319", "320", "321", "322", "323", "324", "325", "326", "327", "328", "329", "330", "331", "332", "333", "334", "335", "336", "337", "465", "504", "576"], "220": [], "182": [], "145": ["274", "275", "880", "285", "440"]}, "NorthAmerica": {"Countries": ["883", "37", "115", "884", "60"], "883": [], "37": ["269", "491", "492", "493", "494", "495", "496", "497", "498", "499", "500", "501", "502", "503"], "115": [], "884": [], "60": ["212", "278", "294", "340", "341", "342", "343", "344", "345", "346", "347", "348", "349", "350", "351", "352", "353", "354", "355", "356", "357", "358", "359", "360", "361", "362", "363", "364", "365", "366", "367", "368", "369", "370", "371", "372", "373", "375", "376", "377", "378", "380", "381", "382", "383", "384", "385", "386", "387", "388", "389", "390", "530", "531"]}, "SouthAmerica": {"Countries": ["10", "27", "30", "39", "42", "56", "276", "76", "133", "135", "216", "588", "167", "604", "183", "186"], "10": ["467", "468", "469", "470", "471", "472", "473", "474", "475", "476", "477", "478", "479", "480", "481", "482", "483", "484", "485", "486", "487", "488", "489", "490"], "27": [], "30": ["302", "562", "561", "560", "559", "558", "556", "563", "564", "590", "589", "591", "721", "722", "723", "724", "745", "746", "747", "748", "749", "856", "857", "858", "859", "860", "599"], "39": [], "42": [], "56": [], "276": [], "76": [], "133": [], "135": [], "216": [], "588": [], "167": [], "604": [], "183": [], "186": []}, "SouthPacific": {"Countries": ["13", "597", "596", "204", "62", "215", "95", "200", "116", "206", "126", "281", "208", "209", "210", "132", "280", "150", "148", "577", "176", "181", "882", "184"], "13": ["300", "422", "423", "424", "425", "427", "428", "429"], "597": [], "596": [], "204": [], "62": [], "215": [], "95": [], "200": [], "116": [], "206": [], "126": [], "281": [], "208": [], "209": [], "210": [], "132": [], "280": [], "150": [], "148": [], "577": [], "176": [], "181": [], "882": [], "184": []}}; 
+trading_list = ["Algiers_Stock_Exchange", "American_Stock_Exch.", "Amman_Stock_Exch.", "Arizona_Stock_Exch.", "Armenia_Nasdaq_Omx", "Athens_Stock_Exch.", "Australian_Stock_Exch.", "Bahrain_Stock_Exch.", "Baku_Stock_Exchange", "Banja_Luka_Stock_Exchange", "Barbados_Stock_Exchange", "Bayerische_Boerse", "Beirut_Stock_Exchange", "BELEX_(Serbia)", "BISX_(Bahamas)", "Bolsa_Boliviana_de_Valores", "Bolsa_de_Comercio_de_Santiago", "Bolsa_de_Madrid", "Bolsa_de_Valores_de_Asuncion_(BVPASA)", "Bolsa_de_Valores_de_Caracas", "Bolsa_de_Valores_de_Colombia", "Bolsa_de_Valores_de_El_Salvador", "Bolsa_de_Valores_de_la_República_Dominicana", "Bolsa_de_Valores_de_Lima", "Bolsa_de_Valores_de_Montevideo", "Bolsa_de_Valores_de_Panamá", "Bolsa_de_Valores_de_Quito", "Bolsa_Mexicana_de_Valores.", "Bolsa_Nat._de_Valores_de_Costa_Rica", "Bombay_Stock_Exch.", "Borsa_Italiana", "Boston_Stock_Exch.", "Botswana_Stock_Exchange", "Bourse_de_Casablanca", "Bourse_de_Luxembourg", "Bourse_de_Tunis", "Bourse_d\'Alger", "Bourse_Régionale_(Côte_d'Ivoire)", "BOVESPA_(Brazil)", "Bratislava_Stock_Exch.", "BSX_(Bermuda)", "Bucharest_Stock_Exch.", "Budapest_Stock_Exchange", "Bulgarian_Stock_Exch.", "Bursa_Efek_Jakarta.", "Bursa_Malaysia", "Cairo_Stock_Exch.", "Calcutta_Stock_Exchange", "Cambodia_Securities_Exchange", "Capo_Verde_(Bolsa_de_Val.)", "Casablanca_Stock_Exch.", "Cayman_Island_Stock_Exchange", "Chicago_Board_of_Trade", "Chicago_Board_of_Trade_-_Agriculture", "Chicago_Board_of_Trade_-_Equity", "Chicago_Board_of_Trade_-_Financial", "Chicago_Board_of_Trade_-_Metals", "Chicago_Board_of_Trade_-_Stock_Exch.", "Chicago_Board_of_Trade_-_Stock_Index.", "Chicago_Board_Options_Exch._-_Equity", "Chicago_Board_Options_Exch._-_Interest_Rates", "Chicago_Board_Options_Exch..", "Chicago_Mercantile_Exch._-_Commodities", "Chicago_Mercantile_Exch._-_Dairy", "Chicago_Mercantile_Exch._-_Equity", "Chicago_Mercantile_Exch._-_Foreign_Exch.", "Chicago_Mercantile_Exch._-_GSCI", "Chicago_Mercantile_Exch._-_Interest_Rates", "Chicago_Stock_Exchange", "Cincinnati_Stock_Exchange", "Colombo_Stock_Exch.", "COMEX", "Copenhaguen_Stock_Exch.", "Cyprus_Stock_Exchange", "Deutsche_Bôrse_(XETRA)", "Dhaka_Stock_Exchange_(DSE)", "Doha_Securities_Market", "Eurex", "EURONEXT", "Far_East_Oil_Prices_(FEOP)", "Fiji_SE_(SPSE)", "FRI_Corp", "Georgian_Stock_Exchange", "Ghana_Stock_Exchange", "GLOBEX", "GreTai_Securities_Market.", "Helsinki_Stock_Exch.", "Helsinki_Stock_Exch.", "Hong_Kong_Stock_Exch.", "Iboxx_Eur.", "Iboxx_US", "Iceland_Stock_Exch._(Kauphöll)", "IMAREX", "international", "Iraq_Stock_Exchange_(ISX)", "Irish_Stock_Exch.", "Istambul_Stock_Exch.", "Jamaica_Stock_Exchange", "JASDAQ", "Johannesburg_Stock_Exch.", "Kansas_City_Board_of_Trade", "Karachi_Stock_Exch.", "Kazakhstan_Stock_Exch.", "Korea_Stock_Exch.", "Korea_Stock_Exch._(Option)", "KOSDAQ", "Kuwait_Stock_Exch.", "Kyrgyz_Stock_Exchange", "Laos_Stock_Exchange", "LIFFE", "Ljubljana_Stock_Exch.", "London_Metal_Exchange", "London_Stock_Exch.", "Lusaka_Stock_Exchange", "Macedonian_Stock_Exchange", "Malawi_Stock_Exchange", "Malta_Stock_Exchange", "Malta_Stock_Exchange_(Borza_ta_Malta)", "MERVAL_(Argentina)", "Minneapolis_Grain_Exchange", "Moldova_Stock_Exchange", "Mongolian_Stock_Exchange", "Montenegro_Stock_Exch.", "Montréal_Exch.", "MTS_Amsterdam", "MTS_Austrian_Market", "MTS_Belgium", "MTS_Denmark", "MTS_Deutschland", "MTS_España", "MTS_Finland", "MTS_France", "MTS_Greek_Market", "MTS_Ireland", "MTS_Israel", "MTS_Italy", "MTS_Poland", "MTS_Portugal", "Muscat_Securities_Market", "Nagoya_Stock_Exch.", "Namibian_Stock_Exchange", "NASD_TRACE", "Nasdaq", "Nasdaq_Dubai", "NASDAQ_Stock_Market", "Nat.ional_Stock_Exch._of_Lithuania", "National_Stock_Exchange_of_India", "New_York_Board_of_Trade_-_Financial", "New_York_Board_of_Trade_-_New_York", "New_York_Federal_Reserve", "New_York_Stock_Exchange", "New_Zealand_Stock_Exch.", "Nigerian_Stock_Exchange", "NYMEX", "Osaka_Securities_Exch.", "Osaka_Stock_Exch.", "Oslo_Bors", "Palestine_Securities_Exchange", "Philadelphia_Exchange", "Philippines_Stock_Exch.", "Port_Moresby_Stock_Exh.", "Prague_Stock_Exchange", "Qatar_Exchange", "Riga_Stock_Exch.", "Russia_Trading_System", "SAFEX._(S._Africa)", "Sarajevo_Stock_Exch._(SASE)", "Saudi_Stock_Exchange", "Shanghai_Stock_Exch.", "Shanghai_Stock_Exch._Settl._(B_shares)", "Shenzhen_Stock_Exch.", "Singapore_Securities_Trading", "Stock_Exch._of_Mauritius", "Stock_Exch._of_Thailand", "Stockholm_Stock_Exch.", "Stuttgart_St._Exch.", "Swiss_Exchange", "Taiwan_Stock_Exch.", "Tallinn_Stock_Exch.", "TARGET_Calendar", "Tehran_Stock_Exchange", "Tel_Aviv_Stock_Exch.", "Tirana_Stock_Exchange", "Tokyo_Comm._Exch._(TOCOM)", "Tokyo_Financial_Exchange", "Tokyo_Stock_Exch.", "Toronto_Stock_Exch.", "Trinidad_&_Tobago_Stock_Exchange", "U.S._Federal_Reserve_banks", "Uganda_Securities_Exchange", "Ukraine_PFTS_(Kiev)", "Uzbekistan_Stock_Exchange", "Vietnam_Stock_Exchange", "Vilnius_Stock_Exchange", "Vir-X", "Warsaw_Stock_Exchange", "Wiener_Börse_(CECE_Ext._Fut.)", "Wiener_Börse_(CECE_Fut.)", "Wiener_Börse_(CTXEUR)", "Wiener_Börse_(HTXEUR)", "Wiener_Börse_(Kassamarkt)", "Wiener_Börse_(NTX)", "Wiener_Börse_(PTXEUR)", "Wiener_Börse_(RDX)", "Wiener_Börse_(RTX)", "Wiener_Börse.", "Winnipeg_Commodity_Exch.", "Zagreb_Stock_Exchange", "Zimbabwe_Stock_Exch."]; 
+trading_links_list = ["867", "611", "740", "612", "821", "701", "675", "712", "862", "829", "828", "868", "761", "758", "788", "729", "797", "782", "817", "784", "732", "876", "878", "772", "785", "737", "805", "649", "754", "643", "705", "613", "838", "791", "750", "792", "826", "735", "730", "753", "728", "720", "768", "731", "713", "672", "733", "818", "865", "835", "869", "822", "607", "614", "615", "616", "617", "618", "620", "621", "622", "619", "623", "624", "625", "626", "627", "628", "629", "630", "718", "631", "679", "790", "780", "815", "757", "700", "696", "739", "830", "610", "834", "866", "632", "644", "645", "678", "702", "646", "647", "734", "769", "855", "841", "703", "715", "806", "666", "707", "633", "714", "736", "710", "711", "709", "755", "870", "854", "819", "717", "781", "741", "820", "800", "833", "799", "824", "726", "634", "839", "823", "832", "697", "654", "655", "656", "657", "652", "651", "658", "650", "659", "660", "663", "653", "661", "662", "787", "670", "807", "609", "608", "885", "635", "743", "801", "636", "637", "837", "639", "693", "871", "638", "664", "665", "706", "872", "641", "676", "831", "767", "864", "742", "775", "708", "825", "803", "690", "691", "692", "671", "752", "716", "677", "642", "770", "694", "744", "557", "783", "704", "873", "667", "668", "669", "698", "798", "771", "863", "802", "874", "804", "816", "605", "786", "689", "685", "682", "683", "681", "688", "684", "687", "686", "680", "699", "789", "738"]; 
+</script>
+</head>
+<body>
+
+<div id="whole_page">
+
+	<header id="header_site">
+			<!-- Phrase de félicitations fête nationnale -->
+		<!--div id="jour_fete_national">
+				<Allemagne (Berlin), Australie (Queensland), Bengladesh, aujourd'hui est votre journée nationale! edit vous félicite à cette occasion>
+		</div-->	
+		
+	<div class="container">
+		<div class="header_first_line row">
+			<div class="col-lg-12">
+				<div id="header_logo_and_search" class="col-lg-4">
+					<div class="row">
+						<div id="header_logo" class="col-lg-12">
+							<a href="/index.php"><img src="/new_interface/logo2-2.png" alt="Home" title="Home" /></a>
+						</div>
+												<div id="searchengine"  class="col-lg-12">
+							<script>
+							  (function() {
+								var cx = "009361132010024845473:rugcvf1r1vo";
+								var gcse = document.createElement('script');
+								gcse.type = 'text/javascript';
+								gcse.async = true;
+								gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+									'//www.google.com/cse/cse.js?cx=' + cx;
+								var s = document.getElementsByTagName('script')[0];
+								s.parentNode.insertBefore(gcse, s);
+							  })();
+							</script>
+							<gcse:search></gcse:search>
+						</div>
+					</div>
+				</div>
+				<div id="flag_and_description" class="col-lg-7 pull-right">
+					<div class="row">
+						<div id="flag_langues" name="flag_langues" class="col-lg-12">
+							<a href="http://www.jours-feries.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag1.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.bank-holidays.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag2.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.feriados.net/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag3.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.dias-festivos.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag4.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.feiertage-weltweit.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag5.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.ferie-nazionali.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag6.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.ayam-alotal.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag7.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.prazdniki.net/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag8.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.hari-libur.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag9.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.saijitsu.net/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag10.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.shijie-jiari.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag11.gif" width="32" height="22" border="0" class="pull-right"></a>
+							<a href="http://www.tatil-gunleri.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag12.gif" width="32" height="22" border="0" class="pull-right"></a>		
+							<a href="http://www.konghyuil.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag13.gif" width="32" height="22" border="0" class="pull-right"></a>	
+							<a href="http://www.helgdagar.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag14.gif" width="32" height="22" border="0" class="pull-right"></a>	
+							<a href="http://www.dni-swiateczne.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag15.gif" width="32" height="22" border="0" class="pull-right"></a>	
+							<a href="http://www.wanyud-rachagan.com/holidays.php?annee=2010&amp;amp;id_pays=171"><img src="/new_interface/flag16.gif" width="32" height="22" border="0" class="pull-right"></a>	
+						</div>
+				
+						<div id="celebration_text" name="celebration_text" class="col-lg-12 pull-right">
+							1970 - 2070: bank-holidays.com brings together a century's data (either archived or projected).  With our Corporate alerts service, stay in tune! 
+ A global site for local information 						</div>
+						<div id="social_networks" name="social_networks" class="col-lg-12 pull-right" style="text-align: right;
+    padding-top: 4%;">
+							<a href="https://www.facebook.com/bank-holidays" target="_blank"><img src="/new_interface/facebook.png" alt="Facebook" /></a>
+							
+															<a href="https://youtu.be/JurCW2rRMpg" target="_blank"><img src="/new_interface/youtube.png" alt="Facebook" /></a>
+													</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+		<div id="header_second_line" class="row">
+			<div id="site_title"class="col-lg-12 text-center">
+				The business world's No-Go Days!			</div>
+		</div>
+	</div>
+	</header>
+
+<script language="JavaScript1.2">
+var regionsDashes = "-----------------------" ;
+var CountriesDashes = "-----------------------" ;
+var DefaultLink = "/dest/index.html" ;
+Countries = new Object() ;
+Links = new Object() ;
+regions = new Object() ;
+</script>
+
+<script language="javacsript" type="text/javascript" src="./map/map.js"></script>
+<script type="text/javascript">
+function getTradingIndex()
+{
+  var index = 0;
+  
+  while (index < document.Recherche.id_continent.options.length)
+  {
+    if (document.Recherche.id_continent.options[index].value == 8)
+      return index;
+    index = index + 1;
+  }
+  return 8;
+}
+
+function init_select()
+{
+	document.Recherche.annee.style.display="none";
+	document.Recherche.id_continent.selectedIndex = 0;
+	document.Recherche.id_continent.style.display = "none";
+	document.Recherche.bankholidays.value="0";
+	document.Recherche.cultural.value="0";
+	document.Recherche.download.value="0";
+	document.Recherche.international.value="0";
+	document.Recherche.publicholiday.value="0";
+	document.Recherche.schoolholiday.value="0";
+	document.Recherche.tradeshows.value="0";
+	document.Recherche.specialevent.value="0";
+	document.Recherche.sportevents.value="0";
+
+	hide_div("div_pays1");
+	hide_element("trading_select_div");
+	hide_element("option1");
+	hide_element("option4");
+	hide_element("option5");
+	hide_element("option6");
+}
+
+function handle_display(display_type)
+{
+  switch(display_type)
+  {
+  case "religion":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option4").style.display="";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    break;
+
+  case "select":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option5").style.display="";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+	break;
+
+  case "public":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.publicholiday.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+
+  case "bankholidays":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.bankholidays.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+	
+  case "tradingcalendar":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+	document.Recherche.id_continent.selectedIndex = getTradingIndex();
+    document.Recherche.tradingcalendar.value="1";
+	show_div("trading_select_div");
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+	hide_div("div_pays1");	
+	break;
+
+  case "schoolholiday":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.schoolholiday.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+	hide_div("trading_select_div");
+    fillcountry();
+    break;
+
+  case "cultural":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.cultural.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+
+  case "download":
+	init_select();
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.annee.style.display="none";
+    document.Recherche.download.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+	fillcountry();
+    break;
+
+  case "cardsflowers":
+	init_select();
+	document.Recherche.annee.style.display="";
+	document.getElementById("option1").style.display=""; document.Recherche.id_continent.style.display = "";
+	document.Recherche.cardsflowers.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+	fillcountry();
+	break;
+
+  case "selectday":
+	init_select();
+    document.getElementById("option6").style.display="";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    break;
+
+  case "tradeshows":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.tradeshows.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+
+  case "sportevents":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.sportevents.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+	
+  case "international":
+	init_select();
+	fillcountry();
+	break;
+
+  case "specialevent":
+	init_select();
+    document.Recherche.annee.style.display="";
+    document.getElementById("option1").style.display="";
+    document.Recherche.id_continent.style.display = "";
+    document.Recherche.specialevent.value="1";
+	document.getElementById("menu_deroulant_pays_div").style.display="";
+    fillcountry();
+    break;
+
+  default:
+    break;
+  }
+}
+
+</script>
+	<div class="jf_nav" class="navbar navbar-static-top bs-docs-nav" >
+		<div class="container-collapse">
+				
+			<nav id="menu_nav" class="navbar">
+				<ul class="navbar-nav list-inline">
+					<li onclick='handle_display("public")' class="nav_li" title="Official public holidays">PUBLIC HOLIDAYS</li>
+					
+					<li onclick='handle_display("bankholidays")' class="nav_li" title="Days when banks are closed">BANKS</li>
+					
+					<li onclick='handle_display("tradingcalendar")' class="nav_li" title="Stock exchanges, Boards of trade">TRADING</li>
+					
+					<li onclick='handle_display("schoolholiday")' class="nav_li" title="Selected schools or education departments calendars">SCHOOLS</li>
+					
+					<li onclick="javascript: window.location='/national-day/national_day.htm';" class="nav_li" title="Official yearly national celebrations">NATIONAL DAYS</li>
+					
+					<li onclick='handle_display("religion")' class="nav_li" title="List of religious celebrations">RELIGIONS</li>
+					
+					<li onclick="javascript: window.location='/elections/elec_2017.htm';" class="nav_li" title="ONLY EVENTS THAT MAY AFFECT BUSINESS OR TRAVEL">ELECTIONS</li>
+					
+					<!--li onclick="javascript: window.location='/zodiac/holidays__399.htm';" class="nav_li" title=""></li-->
+					
+					<li onclick='handle_display("cultural")' class="nav_li" title="Carnivals, Mother's Day, festivals, world events, daylight saving time... sorted out by country">CULTURE</li>
+					
+					<li onclick='handle_display("specialevent")' class="nav_li" title="daylight saving times, special events, strikes,  coups d'état, storms, earthquakes, ...">SPECIAL EVENTS</li>
+					
+					<li onclick="javascript: window.location='/international/holidays_2017_855.htm';" class="nav_li" title="International">INTERNATIONAL</li>
+					
+					<li onclick='handle_display("selectday")' class="nav_li" title="View holidays celebrated worldwide on a specific day">SELECT A DAY</li>
+					
+					<li onclick='handle_display("tradeshows")' class="nav_li" title="International trade shows, trade fairs, sorted by country">TRADESHOWS</li>
+					
+					<li onclick='handle_display("sportevents")' class="nav_li" title="Major sports events in the world, sorted by country">SPORTS</li>
+					
+					<li onclick='handle_display("select")' class="nav_li" title="Find a holiday according to your destination">CONTINENT/MONTH</li>
+					
+					<li onclick='handle_display("cardsflowers")' class="nav_li" title="celebrations">CARDS/FLOWERS</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+
+<div class="menu_deroulant_pays_center_div" style="text-align:center;">
+<div id="menu_deroulant_pays_div" class="menu_deroulant_pays_div container-collapse" style="display: none;">
+
+<div style="display: none; overflow: hidden;" id="option1">
+<form name="Recherche" action="/holidays.htm" method="post" onsubmit="checkForm()" class="txt_pt3b">
+<input name="schoolholiday" id="schoolholiday" type="hidden" vale="0"/>
+<input name="tradingcalendar" id="tradingcalendar" type="hidden" vale="0"/>
+<input name="tradingcalendartest" id="tradingcalendartest" type="hidden" vale="0"/>
+<input name="cultural" id="cultural" type="hidden" vale="0"/>
+<input name="bankholidays" type="hidden" vale="0"/>
+<input name="publicholiday" type="hidden" vale="0"/>
+<input name="download" type="hidden" vale="0"/>
+<input name="tradeshows" type="hidden" vale="0"/>
+<input name="sportevents" type="hidden" vale="0"/>
+<input name="cardsflowers" type="hidden" vale="0"/>
+<input name="international" type="hidden" vale="0"/>
+<input name="is_a_religion" type="hidden" vale="0"/>
+<input name="specialevent" id="specialevent" type="hidden" vale="0"/>
+<input type="hidden" name="id_langue" value="2"/>
+<input type="hidden" id="countryLabelDefault" value="Countries"/>
+
+<select name="id_continent" onchange="fillcountry()" class="txt_pt3b" style="width: 140px;">
+<option>Continents</option>
+	<option value="1">Africa</option>
+	<option value="4">Asia</option>
+	<option value="7">Central America</option>
+	<option value="5">Europe</option>
+	<option value="2">NorthAmerica</option>
+	<option value="3">SouthAmerica</option>
+	<option value="6">SouthPacific</option>
+</select>
+
+<div id = "trading_select_div">
+<select name="id_trading" onchange="check_finalcountry_2()" class="txt_pt3b" >
+<option>Trading</option>
+<option value="867">Algiers Stock Exchange</option><option value="611">American Stock Exch.</option><option value="740">Amman Stock Exch.</option><option value="612">Arizona Stock Exch.</option><option value="821">Armenia Nasdaq Omx</option><option value="701">Athens Stock Exch.</option><option value="675">Australian Stock Exch.</option><option value="712">Bahrain Stock Exch.</option><option value="862">Baku Stock Exchange</option><option value="829">Banja Luka Stock Exchange</option><option value="828">Barbados Stock Exchange</option><option value="868">Bayerische Boerse</option><option value="761">Beirut Stock Exchange</option><option value="758">BELEX (Serbia)</option><option value="788">BISX (Bahamas)</option><option value="729">Bolsa Boliviana de Valores</option><option value="797">Bolsa de Comercio de Santiago</option><option value="782">Bolsa de Madrid</option><option value="817">Bolsa de Valores de Asuncion (BVPASA)</option><option value="784">Bolsa de Valores de Caracas</option><option value="732">Bolsa de Valores de Colombia</option><option value="876">Bolsa de Valores de El Salvador</option><option value="878">Bolsa de Valores de la República Dominicana</option><option value="772">Bolsa de Valores de Lima</option><option value="785">Bolsa de Valores de Montevideo</option><option value="737">Bolsa de Valores de Panamá</option><option value="805">Bolsa de Valores de Quito</option><option value="649">Bolsa Mexicana de Valores.</option><option value="754">Bolsa Nat. de Valores de Costa Rica</option><option value="643">Bombay Stock Exch.</option><option value="705">Borsa Italiana</option><option value="613">Boston Stock Exch.</option><option value="838">Botswana Stock Exchange</option><option value="791">Bourse de Casablanca</option><option value="750">Bourse de Luxembourg</option><option value="792">Bourse de Tunis</option><option value="826">Bourse d\'Alger</option><option value="735">Bourse Régionale (Côte d'Ivoire)</option><option value="730">BOVESPA (Brazil)</option><option value="753">Bratislava Stock Exch.</option><option value="728">BSX (Bermuda)</option><option value="720">Bucharest Stock Exch.</option><option value="768">Budapest Stock Exchange</option><option value="731">Bulgarian Stock Exch.</option><option value="713">Bursa Efek Jakarta.</option><option value="672">Bursa Malaysia</option><option value="733">Cairo Stock Exch.</option><option value="818">Calcutta Stock Exchange</option><option value="865">Cambodia Securities Exchange</option><option value="835">Capo Verde (Bolsa de Val.)</option><option value="869">Casablanca Stock Exch.</option><option value="822">Cayman Island Stock Exchange</option><option value="607">Chicago Board of Trade</option><option value="614">Chicago Board of Trade - Agriculture</option><option value="615">Chicago Board of Trade - Equity</option><option value="616">Chicago Board of Trade - Financial</option><option value="617">Chicago Board of Trade - Metals</option><option value="618">Chicago Board of Trade - Stock Exch.</option><option value="620">Chicago Board of Trade - Stock Index.</option><option value="621">Chicago Board Options Exch. - Equity</option><option value="622">Chicago Board Options Exch. - Interest Rates</option><option value="619">Chicago Board Options Exch..</option><option value="623">Chicago Mercantile Exch. - Commodities</option><option value="624">Chicago Mercantile Exch. - Dairy</option><option value="625">Chicago Mercantile Exch. - Equity</option><option value="626">Chicago Mercantile Exch. - Foreign Exch.</option><option value="627">Chicago Mercantile Exch. - GSCI</option><option value="628">Chicago Mercantile Exch. - Interest Rates</option><option value="629">Chicago Stock Exchange</option><option value="630">Cincinnati Stock Exchange</option><option value="718">Colombo Stock Exch.</option><option value="631">COMEX</option><option value="679">Copenhaguen Stock Exch.</option><option value="790">Cyprus Stock Exchange</option><option value="780">Deutsche Bôrse (XETRA)</option><option value="815">Dhaka Stock Exchange (DSE)</option><option value="757">Doha Securities Market</option><option value="700">Eurex</option><option value="696">EURONEXT</option><option value="739">Far East Oil Prices (FEOP)</option><option value="830">Fiji SE (SPSE)</option><option value="610">FRI Corp</option><option value="834">Georgian Stock Exchange</option><option value="866">Ghana Stock Exchange</option><option value="632">GLOBEX</option><option value="644">GreTai Securities Market.</option><option value="645">Helsinki Stock Exch.</option><option value="678">Helsinki Stock Exch.</option><option value="702">Hong Kong Stock Exch.</option><option value="646">Iboxx Eur.</option><option value="647">Iboxx US</option><option value="734">Iceland Stock Exch. (Kauphöll)</option><option value="769">IMAREX</option><option value="855">international</option><option value="841">Iraq Stock Exchange (ISX)</option><option value="703">Irish Stock Exch.</option><option value="715">Istambul Stock Exch.</option><option value="806">Jamaica Stock Exchange</option><option value="666">JASDAQ</option><option value="707">Johannesburg Stock Exch.</option><option value="633">Kansas City Board of Trade</option><option value="714">Karachi Stock Exch.</option><option value="736">Kazakhstan Stock Exch.</option><option value="710">Korea Stock Exch.</option><option value="711">Korea Stock Exch. (Option)</option><option value="709">KOSDAQ</option><option value="755">Kuwait Stock Exch.</option><option value="870">Kyrgyz Stock Exchange</option><option value="854">Laos Stock Exchange</option><option value="819">LIFFE</option><option value="717">Ljubljana Stock Exch.</option><option value="781">London Metal Exchange</option><option value="741">London Stock Exch.</option><option value="820">Lusaka Stock Exchange</option><option value="800">Macedonian Stock Exchange</option><option value="833">Malawi Stock Exchange</option><option value="799">Malta Stock Exchange</option><option value="824">Malta Stock Exchange (Borza ta Malta)</option><option value="726">MERVAL (Argentina)</option><option value="634">Minneapolis Grain Exchange</option><option value="839">Moldova Stock Exchange</option><option value="823">Mongolian Stock Exchange</option><option value="832">Montenegro Stock Exch.</option><option value="697">Montréal Exch.</option><option value="654">MTS Amsterdam</option><option value="655">MTS Austrian Market</option><option value="656">MTS Belgium</option><option value="657">MTS Denmark</option><option value="652">MTS Deutschland</option><option value="651">MTS España</option><option value="658">MTS Finland</option><option value="650">MTS France</option><option value="659">MTS Greek Market</option><option value="660">MTS Ireland</option><option value="663">MTS Israel</option><option value="653">MTS Italy</option><option value="661">MTS Poland</option><option value="662">MTS Portugal</option><option value="787">Muscat Securities Market</option><option value="670">Nagoya Stock Exch.</option><option value="807">Namibian Stock Exchange</option><option value="609">NASD TRACE</option><option value="608">Nasdaq</option><option value="885">Nasdaq Dubai</option><option value="635">NASDAQ Stock Market</option><option value="743">Nat.ional Stock Exch. of Lithuania</option><option value="801">National Stock Exchange of India</option><option value="636">New York Board of Trade - Financial</option><option value="637">New York Board of Trade - New York</option><option value="837">New York Federal Reserve</option><option value="639">New York Stock Exchange</option><option value="693">New Zealand Stock Exch.</option><option value="871">Nigerian Stock Exchange</option><option value="638">NYMEX</option><option value="664">Osaka Securities Exch.</option><option value="665">Osaka Stock Exch.</option><option value="706">Oslo Bors</option><option value="872">Palestine Securities Exchange</option><option value="641">Philadelphia Exchange</option><option value="676">Philippines Stock Exch.</option><option value="831">Port Moresby Stock Exh.</option><option value="767">Prague Stock Exchange</option><option value="864">Qatar Exchange</option><option value="742">Riga Stock Exch.</option><option value="775">Russia Trading System</option><option value="708">SAFEX. (S. Africa)</option><option value="825">Sarajevo Stock Exch. (SASE)</option><option value="803">Saudi Stock Exchange</option><option value="690">Shanghai Stock Exch.</option><option value="691">Shanghai Stock Exch. Settl. (B shares)</option><option value="692">Shenzhen Stock Exch.</option><option value="671">Singapore Securities Trading</option><option value="752">Stock Exch. of Mauritius</option><option value="716">Stock Exch. of Thailand</option><option value="677">Stockholm Stock Exch.</option><option value="642">Stuttgart St. Exch.</option><option value="770">Swiss Exchange</option><option value="694">Taiwan Stock Exch.</option><option value="744">Tallinn Stock Exch.</option><option value="557">TARGET Calendar</option><option value="783">Tehran Stock Exchange</option><option value="704">Tel Aviv Stock Exch.</option><option value="873">Tirana Stock Exchange</option><option value="667">Tokyo Comm. Exch. (TOCOM)</option><option value="668">Tokyo Financial Exchange</option><option value="669">Tokyo Stock Exch.</option><option value="698">Toronto Stock Exch.</option><option value="798">Trinidad & Tobago Stock Exchange</option><option value="771">U.S. Federal Reserve banks</option><option value="863">Uganda Securities Exchange</option><option value="802">Ukraine PFTS (Kiev)</option><option value="874">Uzbekistan Stock Exchange</option><option value="804">Vietnam Stock Exchange</option><option value="816">Vilnius Stock Exchange</option><option value="605">Vir-X</option><option value="786">Warsaw Stock Exchange</option><option value="689">Wiener Börse (CECE Ext. Fut.)</option><option value="685">Wiener Börse (CECE Fut.)</option><option value="682">Wiener Börse (CTXEUR)</option><option value="683">Wiener Börse (HTXEUR)</option><option value="681">Wiener Börse (Kassamarkt)</option><option value="688">Wiener Börse (NTX)</option><option value="684">Wiener Börse (PTXEUR)</option><option value="687">Wiener Börse (RDX)</option><option value="686">Wiener Börse (RTX)</option><option value="680">Wiener Börse.</option><option value="699">Winnipeg Commodity Exch.</option><option value="789">Zagreb Stock Exchange</option><option value="738">Zimbabwe Stock Exch.</option></select>
+</div>
+
+<script type="text/javascript">
+function open_download_window(id)
+{
+  window.open('http://www.bank-holidays.com'+"/map/download.php?id_pays="+id, "Download", "resizable=no, width=180, height=180");
+}
+
+var encodeHtmlEntity = function(str) {
+  var buf = [];
+  for (var i=str.length-1;i>=0;i--) {
+    buf.unshift(['&#', str[i].charCodeAt(), ';'].join(''));
+  }
+  return buf.join('');
+};
+
+var encodeHtmlEntityToSpecialCharacter = function(str) {
+  var buf = [];
+  for (var i=str.length-1;i>=0;i--) {
+	  if ((str[i] >= "A" && str[i] <= "Z") || (str[i] >= "a" && str[i] <= "z"))
+		  buf.unshift(str[i]);
+	  else
+		buf.unshift(['&#', str[i].charCodeAt(), ';'].join(''));
+  }
+  return buf.join('');
+};
+
+var decodeHtmlEntity = function(str) {
+  return str.replace(/&#(\d+);/g, function(match, dec) {
+    return String.fromCharCode(dec);
+  });
+};
+
+function	check_finalcountry_1()
+{
+	var c_box_1 = document.Recherche.id_pays_1;
+	c_val_1 = document.Recherche.id_pays_1.options[document.Recherche.id_pays_1.selectedIndex].value;
+	c_txt_1 = document.Recherche.id_pays_1.options[document.Recherche.id_pays_1.selectedIndex].text;
+	
+	selected_continent_text = document.Recherche.id_continent.options[document.Recherche.id_continent.selectedIndex].text; 
+		
+	var c_box_2 = document.Recherche.id_pays_2;
+	var c_div = document.getElementById('id_pays_div');
+
+	if (countries_list[selected_continent_text][c_txt_1] == 0)
+	{
+		c_div.style.display = 'none';
+		document.Recherche.id_pays.value = c_val_1;
+		checkcountry();
+	}
+	else
+	{
+		c_box_2.options.length = 0;
+		c_box_2.options[0] = new Option('States & provinces', '');
+		c_box_2.options[1] = new Option(c_txt_1, c_val_1);
+		j = 2;
+		
+				
+		for (i = 0; i < countries_list[selected_continent_text][c_txt_1].length; i++, j++)
+			c_box_2.options[j] = new Option(countries_list[selected_continent_text][c_txt_1][i], links_list[selected_continent_text][c_val_1][i]);
+		c_div.style.display = '';
+	}
+}
+
+function	check_finalcountry_2()
+{
+	if (element_is_visible("trading_select_div"))
+		var c_box_2 = document.Recherche.id_trading;
+	else
+		var c_box_2 = document.Recherche.id_pays_2;
+	var c_val_2 = c_box_2.options[c_box_2.selectedIndex].value;
+	var c_txt_2 = c_box_2.options[c_box_2.selectedIndex].text;
+
+	if (c_val_2 != '')
+	{
+		document.Recherche.id_pays.value = c_val_2;
+		checkcountry();
+	}
+}
+
+</script>
+
+<div id="div_pays1" style="display: inline;">
+<select name="id_pays_1" onchange="check_finalcountry_1()" class="txt_pt3b"></select>
+</div>
+<select name="annee" class="txt_pt3b">
+<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017" selected="selected">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option><option value="2041">2041</option><option value="2042">2042</option><option value="2043">2043</option><option value="2044">2044</option><option value="2045">2045</option><option value="2046">2046</option><option value="2047">2047</option><option value="2048">2048</option><option value="2049">2049</option><option value="2050">2050</option><option value="2051">2051</option><option value="2052">2052</option><option value="2053">2053</option><option value="2054">2054</option><option value="2055">2055</option><option value="2056">2056</option><option value="2057">2057</option><option value="2058">2058</option><option value="2059">2059</option><option value="2060">2060</option><option value="2061">2061</option><option value="2062">2062</option><option value="2063">2063</option><option value="2064">2064</option><option value="2065">2065</option><option value="2066">2066</option><option value="2067">2067</option><option value="2068">2068</option><option value="2069">2069</option><option value="2070">2070</option></select>
+<select id="id_pays_div" name="id_pays_2" onchange="check_finalcountry_2()" class="txt_pt3b" style="display: none; width: 190px;">
+<option value=""></option></select>
+<input name="id_pays" type="hidden" value="">
+
+
+
+
+
+</form>
+</div>
+
+		
+	<div style="display: none;" id="option4">
+	<form name="Recherche2" action="/religions/holidays.htm" method="POST" onsubmit="checkForm3()" class="txt_pt3b">
+	
+	<select name="religion" onchange="checkcountry2()" class="txt_pt3b">
+	<option value="" selected="selected">Religion</option>
+			<option value="14">Baha'i</option>
+			<option value="18">Buddhism (Mahayana)</option>
+			<option value="19">Buddhism (Theravada)</option>
+			<option value="17">Buddhism (Vajrayana)</option>
+			<option value="2">Catholic</option>
+			<option value="12">Catholic (Coptic)</option>
+			<option value="9">Catholic (Maronite)</option>
+			<option value="10">Catholic or protestant</option>
+			<option value="27">Coptic</option>
+			<option value="31">Culture</option>
+			<option value="11">Farsi</option>
+			<option value="24">financial institutions</option>
+			<option value="8">Hinduism</option>
+			<option value="32">international</option>
+			<option value="33">international ne pas utiliser</option>
+			<option value="21">Jainism</option>
+			<option value="4">Jewish</option>
+			<option value="20">Mormon</option>
+			<option value="22">Muslim (Mouridism)</option>
+			<option value="5">Muslim, Sufi</option>
+			<option value="6">Orthodox</option>
+			<option value="7">Protestant</option>
+			<option value="15">Rastafarian</option>
+			<option value="23">Shinto</option>
+			<option value="25">Sikhism</option>
+			<option value="26">Sikhism</option>
+			<option value="29">Tradeshows</option>
+			<option value="16">Zoroastrian</option>
+		</select>
+	
+	<select name="annee" class="txt_pt3b">
+	<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017" selected="selected">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option><option value="2041">2041</option><option value="2042">2042</option><option value="2043">2043</option><option value="2044">2044</option><option value="2045">2045</option><option value="2046">2046</option><option value="2047">2047</option><option value="2048">2048</option><option value="2049">2049</option><option value="2050">2050</option><option value="2051">2051</option><option value="2052">2052</option><option value="2053">2053</option><option value="2054">2054</option><option value="2055">2055</option><option value="2056">2056</option><option value="2057">2057</option><option value="2058">2058</option><option value="2059">2059</option><option value="2060">2060</option><option value="2061">2061</option><option value="2062">2062</option><option value="2063">2063</option><option value="2064">2064</option><option value="2065">2065</option><option value="2066">2066</option><option value="2067">2067</option><option value="2068">2068</option><option value="2069">2069</option><option value="2070">2070</option>	</select>
+	<input type="hidden" name="id_langue" value="2">
+
+	<input type="hidden" name="annee" value="2017">
+	</form>
+	</div>
+	
+	
+	<div style="display: none;" id="option5">
+	<form name="Recherche3" action="/continent/continent.htm" method="post" onsubmit="checkForm3()" class="txt_pt3b">
+	All Bank Holidays of a given month 
+	<input type="hidden" name="continent_name" id="continent_name" value="0" />
+	<select name="continent" id="continent" onchange="document.getElementById('continent_name').value=document.getElementById('continent').options[document.getElementById('continent').selectedIndex].text.replace(/\s+/g, '');document.Recherche3.submit();	bOut = true; return bOut;" class="txt_pt3b">
+	<option>Continents</option>
+	<option value="1">Africa</option><option value="4">Asia</option><option value="7">Central America</option><option value="5">Europe</option><option value="2">NorthAmerica</option><option value="3">SouthAmerica</option><option value="6">SouthPacific</option><option value="8">Trading Calendars</option>	</select>
+	<select name="mois" class="txt_pt3b">
+			<option value="1">January</option>
+			<option value="2">February</option>
+			<option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+	<select name="annee" class="txt_pt3b">
+	<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017" selected="selected">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option><option value="2041">2041</option><option value="2042">2042</option><option value="2043">2043</option><option value="2044">2044</option><option value="2045">2045</option><option value="2046">2046</option><option value="2047">2047</option><option value="2048">2048</option><option value="2049">2049</option><option value="2050">2050</option><option value="2051">2051</option><option value="2052">2052</option><option value="2053">2053</option><option value="2054">2054</option><option value="2055">2055</option><option value="2056">2056</option><option value="2057">2057</option><option value="2058">2058</option><option value="2059">2059</option><option value="2060">2060</option><option value="2061">2061</option><option value="2062">2062</option><option value="2063">2063</option><option value="2064">2064</option><option value="2065">2065</option><option value="2066">2066</option><option value="2067">2067</option><option value="2068">2068</option><option value="2069">2069</option><option value="2070">2070</option>	</select>
+	<input type="hidden" name="id_langue" value="2">
+	</form>
+	</div>
+	
+		<div style="display: none;" id="option6">
+	<script type="text/javascript">
+	function MyChangeMonth()
+	{
+	  month = document.RechercheSelect.monthselect.selectedIndex;
+
+	  if (month == 2)
+	  {
+		dlength=28;
+	  }
+	  else if ((month == 4) || (month == 6) || (month == 9) || (month == 11))
+	  {
+		dlength=30;
+	  }
+	  else
+	  {
+		dlength=31;
+	  }
+
+	  for (i=1; i<=dlength;i++)
+	  {
+		document.RechercheSelect.dayselect.options[i] = new Option (i, i);
+	  }
+	  document.RechercheSelect.dayselect.options.length = dlength + 1;
+	}
+
+	function MySubmitSelect()
+	{
+	  document.RechercheSelect.monthselected.value = document.RechercheSelect.monthselect.selectedIndex;	                                                 
+	  document.RechercheSelect.dayselected.value = document.RechercheSelect.dayselect.selectedIndex;
+	  //ajout de l'année
+	  document.RechercheSelect.yearselected.value = document.RechercheSelect.yearselect.value;
+	  
+	  if (document.RechercheSelect.monthselected.value == 0 ||
+			document.RechercheSelect.yearselected.value == 0 ||
+			document.RechercheSelect.yearselected.value == 0 ||
+				document.RechercheSelect.dayselected.value == 0)
+		return;
+	  document.RechercheSelect.submit();
+	}
+
+	</script>
+	<form name="RechercheSelect" action="/select-a-day/selectday.htm" method="post" class="txt_pt3b">
+	Holidays of a given day 	
+	<!-- Mettre l'année dans les choix possible -->
+	<select name="yearselect" id="yearselect" class="txt_pt3b">
+	<option value="0">Year</option>
+	<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017" selected="selected">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option><option value="2031">2031</option><option value="2032">2032</option><option value="2033">2033</option><option value="2034">2034</option><option value="2035">2035</option><option value="2036">2036</option><option value="2037">2037</option><option value="2038">2038</option><option value="2039">2039</option><option value="2040">2040</option><option value="2041">2041</option><option value="2042">2042</option><option value="2043">2043</option><option value="2044">2044</option><option value="2045">2045</option><option value="2046">2046</option><option value="2047">2047</option><option value="2048">2048</option><option value="2049">2049</option><option value="2050">2050</option><option value="2051">2051</option><option value="2052">2052</option><option value="2053">2053</option><option value="2054">2054</option><option value="2055">2055</option><option value="2056">2056</option><option value="2057">2057</option><option value="2058">2058</option><option value="2059">2059</option><option value="2060">2060</option><option value="2061">2061</option><option value="2062">2062</option><option value="2063">2063</option><option value="2064">2064</option><option value="2065">2065</option><option value="2066">2066</option><option value="2067">2067</option><option value="2068">2068</option><option value="2069">2069</option><option value="2070">2070</option>	</select>
+	
+
+	<select name="monthselect" id="monthselect" onchange='MyChangeMonth()' class="txt_pt3b">
+	<option value="0">Month</option>
+			<option value="1">January</option>
+			<option value="2">February</option>
+			<option value="3">March</option>
+			<option value="4">April</option>
+			<option value="5">May</option>
+			<option value="6">June</option>
+			<option value="7">July</option>
+			<option value="8">August</option>
+			<option value="9">September</option>
+			<option value="10">October</option>
+			<option value="11">November</option>
+			<option value="12">December</option>
+		</select>
+
+	<select name="dayselect" onchange='MySubmitSelect()' class="txt_pt3b">
+	<option value="0">Day</option>
+	</select>
+
+	<!-- Mettre l'année dans les choix possible -->
+	<input name="yearselected" id="yearselected" type="hidden" value="0"/>
+	
+	<input name="monthselected" id="monthselected" type="hidden" value="0"/>
+	<input name="dayselected" id="dayselected" type="hidden" value="0"/>
+	<input name="selectday" id="selectday" type="hidden" value="1"/>
+	</form>
+	</div>
+	
+</div>
+</div>
+</div><div class="" name="meta_title_1">
+	<h1 class="h1_meta_title_1"> bank and public holidays of the world - 1970-2070</h1>
+</div>
+<div class="link_pre_next_year_month">
+	<div class="link_pre_year"><a href="/holidays_2009_0.htm"><img src="/img/2/pre_year.gif" border="0"></a></div>
+	<div class="link_next_year"><a href="/holidays_2011_0.htm"><img src="/img/2/next_year.gif" border="0" /></a>
+	</div>
+	<div class="link_pre_month">
+	<a href="/holidays_2009_0.htm"><img src="/img/2/pre_month.gif" border="0"></a></div>
+	<div class="link_next_month"><a href="/holidays_2011_0.htm"><img src="/img/2/next_month.gif" border="0"></a></div>
+</div>
+
+<div id="background_table1" class="background_table">
+
+<table height=40 border=0 cellpadding=0 cellspacing=0 class="table table-striped table-hover table-responsive jf_table_fete">
+<!-- debut fêtes -->
+<!-- query = SELECT fete_langue.info AS fete_info, fete_langue.remarque1 AS fete_remarque1, fete_langue.remarque2 AS fete_remarque2, fete.religion_id as religion_id, date_fete.jour AS fete_jour, date_fete.annee AS fete_annee, fete_langue.nom AS fete_nom, mois.nom AS mois_nom, mois.id AS mois_id, pays.id as id_pays, pays.nom AS nom_pays, fete.id as id_fete, fete.fete_national as fete_nat FROM fete 
+	INNER JOIN fete_langue
+	ON fete.id=fete_langue.fete_id AND fete_langue.langue_id=2 AND fete.religion_id <> 32 
+	INNER JOIN pays
+	ON pays.langue_id = 2 
+	INNER JOIN pays_fete
+	ON pays.id = pays_fete.pays_id AND fete.id = pays_fete.fete_id AND pays_fete.pays_id=0 
+			INNER JOIN date_fete
+			ON  (
+		(date_fete.annee = 2017 AND date_fete.mois_id = 3) OR 
+		(date_fete.annee = 2017 AND date_fete.mois_id = 4) OR
+		(date_fete.annee = 0 AND date_fete.mois_id = 3) OR 
+		(date_fete.annee = 0 AND date_fete.mois_id = 4))  AND fete.id = date_fete.fete_id 
+	INNER JOIN mois
+	ON date_fete.mois_id = mois.id AND mois.langue_id=2   GROUP BY fete.id, date_fete.annee, mois.id, date_fete.jour, pays.id ORDER BY mois.id, date_fete.jour -->
+<tr>
+	<td width=6 height=40 bgcolor="#A7BDD4">&nbsp;</td>
+	<td height=40 bgcolor="#A7BDD4" align="center" class="txt_pt3b" background="" colspan="4">More countries? More years?<br /><br />
+		<font color="red"><a href="purchase.php" style="color:red;">click here</a> for extended access: a single calendar year for 5 countries; 5 calendar years for one country; or a combination. Rates: 10 euros (or local currency equivalent) for one 30-minute session (view-only access).</font><br /><br /><br><br>
+		<font color="red">access a single calendar year for 125 countries or several calendar years (125 entries altogether). Rates: 250 euros (or local currency equivalent) for multiple 30-minute sessions</font><br />
+		<a href="purchase2.php">Create an account</a>.<br />Already registered? <a href="login.php">click here</a>.<br /><br />
+		<font color="red">Corporate:<br> Receive your data in Excel format, with customized presentation, and including update alerts by e-mail for only 10 euros/country/calendar year.</font> 
+		<a href="mailto:edit@edit.fr">Contact us by email</a><br /><br />
+		<a href="/index.htm">Back to free service.</a><br /><br />
+	</td>
+	<td width=6 height=40 bgcolor="#A7BDD4">&nbsp;</td>
+</tr>
+		 <!--/table--></table>
+
+</div>
+
+<!-- fin fêtes -->
+<!-- debut vacances -->
+<!-- fin financiers -->
+<!-- debut élections -->
+<!-- fin financiers -->
+<!-- debut élections -->
+	</div>
+<!-- Début de Zone du Bas de Page -->
+<!--/td></tr></table></td-->
+
+
+
+
+<div class="footer_start">
+	<a href="/country/listing_1.htm" target="_self"><strong><em>Access directly 750 countries and regions here! (alphabetical)</em></strong></a>
+
+	<span class="txt_pt3">Change, error or omission in your country?  		<a href="mailto:edit@edit.fr">Inform us HERE (<span style="font-weight:normal;">if published, you will get 50 euros worth of corporate service</span>)</a><br><a href="/devis/devis.php3?id_langue=2" target="_self"><span style="color: rgb(60, 105, 78);"><b>IF YOU NEED TRANSLATION</b></span>, click here</a>
+	</span>
+</div>
+
+<div id="footer_content">
+	
+	<!--<span class="txt_pt3"><br><br><b
+	-->
+	<div id="smartphone_app">
+	<div id="smartphone_iphone_app">
+<a href="https://itunes.apple.com/app/id652814118" onclick="ga('send','event','itunes', 'https://itunes.apple.com/app/id652814118');" target="_blank"><img alt="Get it on iTunes"src="/img/application/iPhone/Available_on_the_App_Store_Badge_US-UK_135x40.png"alt="iPhone application" title="iPhone application" style="border-style: none; border-width: 1px; border-color: rgb(0, 0, 0);" /></a>	</div>
+
+
+	<div id="smartphone_android_app">
+	<a href="https://play.google.com/store/apps/details?id=com.schedjoules.holidays.bankholidays" onclick="ga('send','event','googleplay', 'https://play.google.com/store/apps/details?id=com.schedjoules.holidays.bankholidays');" target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"" /></a>	</div>
+	</div>
+
+
+	<div id="payment">
+		Past & future years (paid service)		<br />
+			<a href="/pl.php">
+				<img src="/new_interface/paypal_new.png" style="width: 50px;" class="img_payment" /><!--img src="/new_interface/MasterCard_new.png" style="width: 50px;" class="img_payment"><img src="/new_interface/Visa_new.png" style="width: 50px;" class="img_payment"><img src="/new_interface/MasterPass_new.png" style="width: 50px;" class="img_payment"><img src="/new_interface/v-me_new.png" style="width: 50px;" class="img_payment"-->
+			</a>
+				
+	</div>
+	<br />
+	<hr class="footer_hr"/>
+	<div id="footer_text" class="txt_pt3">
+	  <a href="/clients.htm" target="_blank">Clients</a> / <a href="/press_release.htm" target="_blank">Press Release</a> / <a href="/specialthanks.htm" target="_blank">Acknowledgements</a> 
+				/ <a href="/disclaimer.htm" target="_blank">Disclaimer</a> <br />
+	Copyright 1997-2017</b><a href="http://web-translator.com" target="_blank"> Edit - Easy Does I.T. - 50 rue Miromesnil - 75008 Paris (France) </a><br>
+
+	Translation, multilanguage integration: call EDIT when you can't afford to be wrong +331 42 68 18 14 - <a href="mailto:edit@edit.fr?subject=Translation">edit@edit.fr</a><br><br></span>
+	</div>
+</div>
+												<!-- Fin de Zone du Bas de Page -->
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<!-- fin texte -->
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='"+gaJsHost+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if (typeof(_gat) == 'object')
+{ 
+var pageTracker = _gat._getTracker("UA-7125802-1");
+pageTracker._trackPageview();
+}
+</script>
+</body>
+</html>

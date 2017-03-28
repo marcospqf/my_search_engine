@@ -1,0 +1,748 @@
+|||http://uol.com|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="pt-br" xml:lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>UOL - Encurtador</title>
+	<meta http-equiv="refresh" content="0;url=http://www.uol.com.br" />
+</head>
+<body>
+</body>
+</html>|||http://forum.techtudo.com.br/tags/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Lista de tags - Techtudo-Forum</title>
+
+    <meta name="description" content="Pergunte, responda e vote nas melhores colaborações! Acesse o fórum de tecnologia do TechTudo e tire dúvidas sobre informática, celulares, jogos e outros.">
+    <meta name="keywords" content="dicas, techtudo, forum, perguntas e respostas, tecnologia">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <meta property="fb:app_id" content="289255557788943">
+    <meta property="og:image" content="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/logo-opengraph.png">
+
+    
+<link rel="canonical" href="http://forum.techtudo.com.br/tags/" />
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    
+
+    <link rel="shortcut icon" href="/m/default/media/images/favicon.ico" />
+
+    <link href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/style/style.css" rel="stylesheet" type="text/css" />
+
+    
+      <link href="/cstyle.css" rel="stylesheet" type="text/css" />
+    
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+
+    <link rel="stylesheet" href="http://barra.globo.com/nova/css/barra-globocom.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/css/240f741db5fd.css" type="text/css" />
+
+    
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        google.load("jquery", "1.4.2");
+        google.load("jqueryui", "1", {autoload:true});
+    </script>
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var i18nLang = 'pt_BR';
+        var scriptUrl = '/'
+        var osqaSkin = 'techtudo';
+
+        var messages = {
+            username: '',
+            confirm: "Tem certeza?",
+            yes: "Sim",
+            no: "Não",
+            message: "Mensagem",
+            cancel: "Cancelar",
+            close: "Fechar",
+            ok: "Ok",
+            matching_tags_url: "/tags_relacionadas/",
+            word: "word",
+            words: "palavras",
+            character: "character",
+            characters: "caracteres"
+        }
+
+        var glb = this.glb || {};
+        glb.barra = {
+            exibeAssineJa: true,
+            exibeCentral: true,
+            iframe: false,
+            itemCustomizado: {
+                cor: "#666666",
+                texto: "tecnologia",
+                url: "http://www.techtudo.com.br/"
+            }
+        };
+        (function() {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.charset = "utf-8";
+            s.src = "http://barra.globo.com/nova/js/barra-globocom.min.js";
+            var ss = document.getElementsByTagName("script")[0];
+            ss.parentNode.insertBefore(s, ss);
+        })();
+    /* ]] */
+    </script>
+
+    <script type="text/javascript" src="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/js/603f54a337ce.js"></script>
+
+    
+      <style type="text/css">
+          body { margin-top:2.4em; }
+      </style>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              var element = $('#validate_email_alert');
+              element.click(function(){notify.close(true);})
+              notify.show();
+          });
+      </script>
+    
+
+    
+
+    
+       <script type="text/javascript">
+       /*<![CDATA[*/
+        $().ready(function(){
+            $("#ipSearchTag").focus();
+
+            var orderby = "";
+            if(orderby != "used" && orderby != "name")
+                orderby = "used";
+            $("#sort_" + orderby).attr('className',"on");
+            $("#type-tag").attr('checked',true);
+
+            Hilite.exact = false;
+            Hilite.elementid = "searchtags";
+            Hilite.debug_referrer = location.href;
+        });
+        /*]]>*/
+        </script>
+
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Techtudo-Forum Search" />
+
+    
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <!-- TEALIUM -->
+<script type="text/javascript">
+
+    var utag_data = {"ad_site_page": "techtudo/forum/home", "vertical": "", "site_template_ideal": "Desktop", "video_zoneid": "", "colaborador": "", "site_template_servido": "", "plataforma": "Forum", "hierarquia": "", "data_publicacao": "", "page_name": "Home", "structure_tree": "[\"techtudo\", \"forum\", \"home\"]", "downloadable": "", "data_atualizacao": ""};
+
+</script>
+
+
+    <script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.tiqcdn.com/utag/globo/editoraglobo/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script>
+
+    
+  </head>
+
+  <body>
+    <div id="cabecalho" class="show-for-small-only"><div id="header-produto"><div class="opec-area opec-mobile opec-x60 grid-12">
+    <div class="opec-internal">
+        
+        <div id="banner_mobile_topo" class="tag-manager-publicidade-container"></div>
+    </div>
+</div></div></div>
+
+    <div id="content">
+      <div><div id="banner_floating" class="tag-manager-publicidade-container"></div></div>
+      <div class="notify" style="display:none">
+        
+          
+            
+              <p class="darkred">Primeira vez aqui? Confira o <a href="/faq/">FAQ</a>!</p>
+            
+          
+        
+        <a id="close-notify" onclick="notify.close(true)">&times;</a>
+      </div>
+
+        
+
+        <!-- template header.html -->
+
+
+<div id="header-techtudo">
+  <div class="row">
+    <a href="http://techtudo.com.br" class="brand" title="ir para o TechTudo">Techtudo</a>
+
+    <div class="logo-area">
+      <h1 class="logo">
+        <a href="/" title="voltar para a página principal">Fórum</a>
+      </h1>
+    </div>
+
+    <div id="top">
+       <a href="https://login.globo.com/login/4146?url=http%3A%2F%2Fforum.techtudo.com.br%2Fconta%2Fcadun%2Fpronto%2F" >login</a>  <a href="/sobre/" >sobre</a>  <a href="/faq/" >faq</a> 
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="roof" class="small-12 column">
+    <div class="row navbar">
+      <ul id="nav">
+        <li><a id="nav_questions" href="/perguntas/" >perguntas</a></li><li><a id="nav_tags" class="on" href="/tags/" >tags</a></li><li><a id="nav_users" href="/usuarios/" >usuários</a></li><li><a id="nav_badges" href="/trofeus/" >troféus</a></li><li><a id="nav_unanswered" href="/perguntas/nao_respondidas/" >não respondidas</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="searchBar">
+  <div class="row">
+    <div class="row">
+      <form action="/buscar/" method="get" class="medium-8 small-12 column">
+        <input type="text" class="searchInput" value="" name="q" id="keywords" />
+        <button type="submit" name="Submit" class="searchBtn">buscar</button>
+        <div class="options" style="display:none;">
+            <input id="type-nav_questions" type="radio" value="question" name="t" checked="checked" /><label for="type-question">perguntas</label>
+            <input id="type-nav_tags" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-nav_users" type="radio" value="user" name="t" /><label for="type-user">usuários</label>
+        </div>
+      </form>
+      <script>
+          function selecionaTipoConteudoParaBuscaTextual() {
+              //zera o que estiver marcado
+              $("#searchBar .options input[type=radio]").removeAttr("checked");
+              var inputRadioId = "#type-" + $("#nav").find(".on").attr("id")
+
+              if($(inputRadioId).length > 0){
+                $(inputRadioId).attr("checked", true);
+              } else {
+                  //default perguntas
+                $("#type-nav_questions").attr("checked", true);
+              }
+          }
+          $(document).ready(function() {
+            selecionaTipoConteudoParaBuscaTextual();
+          });
+      </script>
+      <div class="askBtn-wrapper medium-4 column">
+        <a id="nav_ask" href="/perguntas/pergunte/" class="askBtn">faça uma pergunta</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end template header.html -->
+
+
+      <div class="osqa-content row">
+        
+        <div id="wrapper" class="small-12 column">
+          <div id="room">
+            <div id="head">
+              
+              
+            </div>
+
+            <div id="CAFull">
+              
+<div id="tags">
+    <!-- Tabs -->
+    <div class="tabBar lista-tags">
+        <div class="headNormal primary-title primary-title-list-tags-page">Lista de tags</div>
+        
+<div class="tabsA"><a id="nome" href="/tags/?ordenacao=nome" title="ordenadas alfabeticamente">por nome</a><a id="usadas" href="/tags/?ordenacao=usadas" class="on" title="tags ordenadas por frequência de utilização">por popularidade</a></div>
+
+
+    </div>
+    <div id="searchtags">
+        
+
+        
+
+        
+            <ul class="tagsList tags">
+                
+                   <li>
+                       <a class="tag-link-smartphone" href="/tags/smartphone/" title="veja as perguntas tagueadas'smartphone'usando tags" rel="tag">smartphone</a>&nbsp;
+                       <span class="tag-number">&#215; 4,542</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-android" href="/tags/android/" title="veja as perguntas tagueadas'android'usando tags" rel="tag">android</a>&nbsp;
+                       <span class="tag-number">&#215; 4,026</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-pc" href="/tags/pc/" title="veja as perguntas tagueadas'pc'usando tags" rel="tag">pc</a>&nbsp;
+                       <span class="tag-number">&#215; 3,984</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-celular" href="/tags/celular/" title="veja as perguntas tagueadas'celular'usando tags" rel="tag">celular</a>&nbsp;
+                       <span class="tag-number">&#215; 3,978</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-jogos" href="/tags/jogos/" title="veja as perguntas tagueadas'jogos'usando tags" rel="tag">jogos</a>&nbsp;
+                       <span class="tag-number">&#215; 3,760</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-ios" href="/tags/ios/" title="veja as perguntas tagueadas'ios'usando tags" rel="tag">ios</a>&nbsp;
+                       <span class="tag-number">&#215; 3,302</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-aplicativos" href="/tags/aplicativos/" title="veja as perguntas tagueadas'aplicativos'usando tags" rel="tag">aplicativos</a>&nbsp;
+                       <span class="tag-number">&#215; 3,083</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-samsung" href="/tags/samsung/" title="veja as perguntas tagueadas'samsung'usando tags" rel="tag">samsung</a>&nbsp;
+                       <span class="tag-number">&#215; 3,053</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-notebook" href="/tags/notebook/" title="veja as perguntas tagueadas'notebook'usando tags" rel="tag">notebook</a>&nbsp;
+                       <span class="tag-number">&#215; 2,900</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-sem" href="/tags/sem/" title="veja as perguntas tagueadas'sem'usando tags" rel="tag">sem</a>&nbsp;
+                       <span class="tag-number">&#215; 2,481</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-internet" href="/tags/internet/" title="veja as perguntas tagueadas'internet'usando tags" rel="tag">internet</a>&nbsp;
+                       <span class="tag-number">&#215; 2,472</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-jailbreak" href="/tags/jailbreak/" title="veja as perguntas tagueadas'jailbreak'usando tags" rel="tag">jailbreak</a>&nbsp;
+                       <span class="tag-number">&#215; 2,410</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-problema" href="/tags/problema/" title="veja as perguntas tagueadas'problema'usando tags" rel="tag">problema</a>&nbsp;
+                       <span class="tag-number">&#215; 2,313</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-computador" href="/tags/computador/" title="veja as perguntas tagueadas'computador'usando tags" rel="tag">computador</a>&nbsp;
+                       <span class="tag-number">&#215; 2,053</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-iphone" href="/tags/iphone/" title="veja as perguntas tagueadas'iphone'usando tags" rel="tag">iphone</a>&nbsp;
+                       <span class="tag-number">&#215; 2,052</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-compra" href="/tags/compra/" title="veja as perguntas tagueadas'compra'usando tags" rel="tag">compra</a>&nbsp;
+                       <span class="tag-number">&#215; 1,802</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-apple" href="/tags/apple/" title="veja as perguntas tagueadas'apple'usando tags" rel="tag">apple</a>&nbsp;
+                       <span class="tag-number">&#215; 1,762</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-wifi" href="/tags/wifi/" title="veja as perguntas tagueadas'wifi'usando tags" rel="tag">wifi</a>&nbsp;
+                       <span class="tag-number">&#215; 1,758</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-duvida" href="/tags/duvida/" title="veja as perguntas tagueadas'duvida'usando tags" rel="tag">duvida</a>&nbsp;
+                       <span class="tag-number">&#215; 1,754</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-ajuda" href="/tags/ajuda/" title="veja as perguntas tagueadas'ajuda'usando tags" rel="tag">ajuda</a>&nbsp;
+                       <span class="tag-number">&#215; 1,752</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-games" href="/tags/games/" title="veja as perguntas tagueadas'games'usando tags" rel="tag">games</a>&nbsp;
+                       <span class="tag-number">&#215; 1,733</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-windows" href="/tags/windows/" title="veja as perguntas tagueadas'windows'usando tags" rel="tag">windows</a>&nbsp;
+                       <span class="tag-number">&#215; 1,707</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-placadevideo" href="/tags/placadevideo/" title="veja as perguntas tagueadas'placadevideo'usando tags" rel="tag">placadevideo</a>&nbsp;
+                       <span class="tag-number">&#215; 1,522</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-motorola" href="/tags/motorola/" title="veja as perguntas tagueadas'motorola'usando tags" rel="tag">motorola</a>&nbsp;
+                       <span class="tag-number">&#215; 1,514</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-galaxy" href="/tags/galaxy/" title="veja as perguntas tagueadas'galaxy'usando tags" rel="tag">galaxy</a>&nbsp;
+                       <span class="tag-number">&#215; 1,482</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-erro" href="/tags/erro/" title="veja as perguntas tagueadas'erro'usando tags" rel="tag">erro</a>&nbsp;
+                       <span class="tag-number">&#215; 1,333</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-opinião" href="/tags/opini%C3%A3o/" title="veja as perguntas tagueadas'opinião'usando tags" rel="tag">opinião</a>&nbsp;
+                       <span class="tag-number">&#215; 1,261</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-tutorial" href="/tags/tutorial/" title="veja as perguntas tagueadas'tutorial'usando tags" rel="tag">tutorial</a>&nbsp;
+                       <span class="tag-number">&#215; 1,157</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-tablet" href="/tags/tablet/" title="veja as perguntas tagueadas'tablet'usando tags" rel="tag">tablet</a>&nbsp;
+                       <span class="tag-number">&#215; 1,152</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-sony" href="/tags/sony/" title="veja as perguntas tagueadas'sony'usando tags" rel="tag">sony</a>&nbsp;
+                       <span class="tag-number">&#215; 1,147</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-configuração" href="/tags/configura%C3%A7%C3%A3o/" title="veja as perguntas tagueadas'configuração'usando tags" rel="tag">configuração</a>&nbsp;
+                       <span class="tag-number">&#215; 1,144</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-pcgamers" href="/tags/pcgamers/" title="veja as perguntas tagueadas'pcgamers'usando tags" rel="tag">pcgamers</a>&nbsp;
+                       <span class="tag-number">&#215; 1,117</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-roteador" href="/tags/roteador/" title="veja as perguntas tagueadas'roteador'usando tags" rel="tag">roteador</a>&nbsp;
+                       <span class="tag-number">&#215; 1,107</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-lg" href="/tags/lg/" title="veja as perguntas tagueadas'lg'usando tags" rel="tag">lg</a>&nbsp;
+                       <span class="tag-number">&#215; 1,087</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-whatsapp" href="/tags/whatsapp/" title="veja as perguntas tagueadas'whatsapp'usando tags" rel="tag">whatsapp</a>&nbsp;
+                       <span class="tag-number">&#215; 1,051</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-de" href="/tags/de/" title="veja as perguntas tagueadas'de'usando tags" rel="tag">de</a>&nbsp;
+                       <span class="tag-number">&#215; 979</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-ps3" href="/tags/ps3/" title="veja as perguntas tagueadas'ps3'usando tags" rel="tag">ps3</a>&nbsp;
+                       <span class="tag-number">&#215; 955</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-atualização" href="/tags/atualiza%C3%A7%C3%A3o/" title="veja as perguntas tagueadas'atualização'usando tags" rel="tag">atualização</a>&nbsp;
+                       <span class="tag-number">&#215; 941</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-facebook" href="/tags/facebook/" title="veja as perguntas tagueadas'facebook'usando tags" rel="tag">facebook</a>&nbsp;
+                       <span class="tag-number">&#215; 907</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-processador" href="/tags/processador/" title="veja as perguntas tagueadas'processador'usando tags" rel="tag">processador</a>&nbsp;
+                       <span class="tag-number">&#215; 907</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-tv" href="/tags/tv/" title="veja as perguntas tagueadas'tv'usando tags" rel="tag">tv</a>&nbsp;
+                       <span class="tag-number">&#215; 880</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-conexão" href="/tags/conex%C3%A3o/" title="veja as perguntas tagueadas'conexão'usando tags" rel="tag">conexão</a>&nbsp;
+                       <span class="tag-number">&#215; 843</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-motog" href="/tags/motog/" title="veja as perguntas tagueadas'motog'usando tags" rel="tag">motog</a>&nbsp;
+                       <span class="tag-number">&#215; 789</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-xbox360" href="/tags/xbox360/" title="veja as perguntas tagueadas'xbox360'usando tags" rel="tag">xbox360</a>&nbsp;
+                       <span class="tag-number">&#215; 784</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-comprar" href="/tags/comprar/" title="veja as perguntas tagueadas'comprar'usando tags" rel="tag">comprar</a>&nbsp;
+                       <span class="tag-number">&#215; 766</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-comparativo" href="/tags/comparativo/" title="veja as perguntas tagueadas'comparativo'usando tags" rel="tag">comparativo</a>&nbsp;
+                       <span class="tag-number">&#215; 744</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-hardware" href="/tags/hardware/" title="veja as perguntas tagueadas'hardware'usando tags" rel="tag">hardware</a>&nbsp;
+                       <span class="tag-number">&#215; 738</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-ps4" href="/tags/ps4/" title="veja as perguntas tagueadas'ps4'usando tags" rel="tag">ps4</a>&nbsp;
+                       <span class="tag-number">&#215; 721</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-hd" href="/tags/hd/" title="veja as perguntas tagueadas'hd'usando tags" rel="tag">hd</a>&nbsp;
+                       <span class="tag-number">&#215; 715</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-app" href="/tags/app/" title="veja as perguntas tagueadas'app'usando tags" rel="tag">app</a>&nbsp;
+                       <span class="tag-number">&#215; 712</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-windows7" href="/tags/windows7/" title="veja as perguntas tagueadas'windows7'usando tags" rel="tag">windows7</a>&nbsp;
+                       <span class="tag-number">&#215; 711</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-rede" href="/tags/rede/" title="veja as perguntas tagueadas'rede'usando tags" rel="tag">rede</a>&nbsp;
+                       <span class="tag-number">&#215; 684</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-bateria" href="/tags/bateria/" title="veja as perguntas tagueadas'bateria'usando tags" rel="tag">bateria</a>&nbsp;
+                       <span class="tag-number">&#215; 678</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-placa" href="/tags/placa/" title="veja as perguntas tagueadas'placa'usando tags" rel="tag">placa</a>&nbsp;
+                       <span class="tag-number">&#215; 674</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-preço" href="/tags/pre%C3%A7o/" title="veja as perguntas tagueadas'preço'usando tags" rel="tag">preço</a>&nbsp;
+                       <span class="tag-number">&#215; 657</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-instagram" href="/tags/instagram/" title="veja as perguntas tagueadas'instagram'usando tags" rel="tag">instagram</a>&nbsp;
+                       <span class="tag-number">&#215; 652</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-video" href="/tags/video/" title="veja as perguntas tagueadas'video'usando tags" rel="tag">video</a>&nbsp;
+                       <span class="tag-number">&#215; 650</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-nokia" href="/tags/nokia/" title="veja as perguntas tagueadas'nokia'usando tags" rel="tag">nokia</a>&nbsp;
+                       <span class="tag-number">&#215; 635</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-google" href="/tags/google/" title="veja as perguntas tagueadas'google'usando tags" rel="tag">google</a>&nbsp;
+                       <span class="tag-number">&#215; 624</span>
+                       <br/>
+                   </li>
+                
+                   <li>
+                       <a class="tag-link-asus" href="/tags/asus/" title="veja as perguntas tagueadas'asus'usando tags" rel="tag">asus</a>&nbsp;
+                       <span class="tag-number">&#215; 620</span>
+                       <br/>
+                   </li>
+                
+            </ul>
+        
+    </div>
+    <div class="tags-pager">
+        <div class="small-12 column pager">
+<ul class="snippet snippet-paginacao"><span class="paginacao-anterior indisponivel"><span class="botao">Anterior</span></span><li class="paginacao-atual">1</li><li class="paginacao-2 paginacao-proxima-x"><a class="texto" href="/tags/?ordenacao=usadas&pagina=2" title="Página 2">2</a></li><li class="paginacao-3 paginacao-proxima-x"><a class="texto" href="/tags/?ordenacao=usadas&pagina=3" title="Página 3">3</a></li><li class="paginacao-4 paginacao-proxima-x"><a class="texto" href="/tags/?ordenacao=usadas&pagina=4" title="Página 4">4</a></li><li class="paginacao-5 paginacao-proxima-x"><a class="texto" href="/tags/?ordenacao=usadas&pagina=5" title="Página 5">5</a></li><li class="ellipses">...</li><li class="paginacao-185 paginacao-proxima-x"><a class="texto" href="/tags/?ordenacao=usadas&pagina=185" title="Página 185">185</a></li><span class="paginacao-proxima"><a title="Próxima Página" href="/tags/?ordenacao=usadas&pagina=2" class="botao">Próxima</a></span></ul>
+</div>
+    </div>
+</div>
+
+            </div>
+
+            <div id="tail">
+              
+              
+            </div>
+          </div>
+          <div class="spacer3"></div>
+        </div>
+        
+      </div> <!-- .osqa-content -->
+
+      
+        <div class="row">
+  <div id="vitrine" class="small-12 column show-for-medium-up" style="margin-bottom: 40px;">
+      <script type="text/javascript">
+          globo_color_text = "FC8800";
+          globo_shop_slot  = "techtudo/home";
+          globo_shop_width = "100%";
+      </script>
+      <script src="http://vitrines.globo.com/vitrine/show_shop.js" type="text/javascript"></script>
+  </div>
+</div>
+
+        <footer id="glb-rodape">
+          <div class="row show-for-small-only">
+    <div class="small-12 column publicidade-container">
+        <div class="ad-x61 publicidade publicidade-banner_mobile_fim">
+            
+            <div id="banner_mobile_fim" class="tag-manager-publicidade-container"></div>
+        </div>
+    </div>
+</div>
+
+          <div class="footer product-color" data-ga-area="footer">
+    <div class="row">
+        <div class="small-12 columns container" data-ga-marker="links">
+            <ul class="first-line">
+                <li><a class="logo" href="//www.globo.com/" title="globo.com"><strong>globo.com</strong></a></li>
+                <li><a href="//g1.globo.com/">g1</a></li>
+                <li><a href="//globoesporte.globo.com/">globoesporte</a></li>
+                <li><a href="//gshow.globo.com/">gshow</a></li>
+                <li><a href="//famosos.globo.com//">famosos & etc</a></li>
+                <li><a href="//globotv.globo.com/">vídeos</a></li>
+                <li class="pushed"><a href="//www.globo.com/todos-os-sites.html">todos os sites</a></li>
+            </ul>
+            <span class="copyright">© Copyright 2000-2017 Globo Comunicação e Participações S.A.</span>
+            <ul class="footer-menu">
+                <li><a href="//www.globo.com/privacidade.html">política de privacidade</a></li>
+                <li><a href="//meuperfil.globo.com">central globo.com</a></li>
+                <li><a href="//assine.globo.com/">assine a globo.com</a></li>
+                <li class="last"><a href="//anuncie.globo.com/mediakit/globocom.html">anuncie conosco</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        </footer>
+      
+
+      
+      
+
+    </div> <!-- #content -->
+
+    
+    <script async>
+      new ShareBar({
+        networks: ['facebook', 'twitter', 'whatsapp', 'google']
+      });
+    </script>
+  </body>
+</html>
+<!-- end template base_content.html -->

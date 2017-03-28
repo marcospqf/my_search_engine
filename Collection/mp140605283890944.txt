@@ -1,0 +1,498 @@
+|||http://forum.techtudo.com.br/faq/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>FAQ - Techtudo-Forum</title>
+
+    <meta name="description" content="Pergunte, responda e vote nas melhores colaborações! Acesse o fórum de tecnologia do TechTudo e tire dúvidas sobre informática, celulares, jogos e outros.">
+    <meta name="keywords" content="dicas, techtudo, forum, perguntas e respostas, tecnologia">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <meta property="fb:app_id" content="289255557788943">
+    <meta property="og:image" content="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/logo-opengraph.png">
+
+    
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    
+
+    <link rel="shortcut icon" href="/m/default/media/images/favicon.ico" />
+
+    <link href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/style/style.css" rel="stylesheet" type="text/css" />
+
+    
+      <link href="/cstyle.css" rel="stylesheet" type="text/css" />
+    
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+
+    <link rel="stylesheet" href="http://barra.globo.com/nova/css/barra-globocom.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/css/240f741db5fd.css" type="text/css" />
+
+    
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        google.load("jquery", "1.4.2");
+        google.load("jqueryui", "1", {autoload:true});
+    </script>
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var i18nLang = 'pt_BR';
+        var scriptUrl = '/'
+        var osqaSkin = 'techtudo';
+
+        var messages = {
+            username: '',
+            confirm: "Tem certeza?",
+            yes: "Sim",
+            no: "Não",
+            message: "Mensagem",
+            cancel: "Cancelar",
+            close: "Fechar",
+            ok: "Ok",
+            matching_tags_url: "/tags_relacionadas/",
+            word: "word",
+            words: "palavras",
+            character: "character",
+            characters: "caracteres"
+        }
+
+        var glb = this.glb || {};
+        glb.barra = {
+            exibeAssineJa: true,
+            exibeCentral: true,
+            iframe: false,
+            itemCustomizado: {
+                cor: "#666666",
+                texto: "tecnologia",
+                url: "http://www.techtudo.com.br/"
+            }
+        };
+        (function() {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.charset = "utf-8";
+            s.src = "http://barra.globo.com/nova/js/barra-globocom.min.js";
+            var ss = document.getElementsByTagName("script")[0];
+            ss.parentNode.insertBefore(s, ss);
+        })();
+    /* ]] */
+    </script>
+
+    <script type="text/javascript" src="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/js/603f54a337ce.js"></script>
+
+    
+      <style type="text/css">
+          body { margin-top:2.4em; }
+      </style>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              var element = $('#validate_email_alert');
+              element.click(function(){notify.close(true);})
+              notify.show();
+          });
+      </script>
+    
+
+    
+
+    
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Techtudo-Forum Search" />
+
+    
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <!-- TEALIUM -->
+<script type="text/javascript">
+
+    var utag_data = {"ad_site_page": "techtudo/forum/home", "vertical": "", "site_template_ideal": "Desktop", "video_zoneid": "", "colaborador": "", "site_template_servido": "", "plataforma": "Forum", "hierarquia": "", "data_publicacao": "", "page_name": "Home", "structure_tree": "[\"techtudo\", \"forum\", \"home\"]", "downloadable": "", "data_atualizacao": ""};
+
+</script>
+
+
+    <script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.tiqcdn.com/utag/globo/editoraglobo/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script>
+
+    
+  </head>
+
+  <body>
+    <div id="cabecalho" class="show-for-small-only"><div id="header-produto"><div class="opec-area opec-mobile opec-x60 grid-12">
+    <div class="opec-internal">
+        
+        <div id="banner_mobile_topo" class="tag-manager-publicidade-container"></div>
+    </div>
+</div></div></div>
+
+    <div id="content">
+      <div><div id="banner_floating" class="tag-manager-publicidade-container"></div></div>
+      <div class="notify" style="display:none">
+        
+          
+            
+              <p class="darkred">Primeira vez aqui? Confira o <a href="/faq/">FAQ</a>!</p>
+            
+          
+        
+        <a id="close-notify" onclick="notify.close(true)">&times;</a>
+      </div>
+
+        
+
+        <!-- template header.html -->
+
+
+<div id="header-techtudo">
+  <div class="row">
+    <a href="http://techtudo.com.br" class="brand" title="ir para o TechTudo">Techtudo</a>
+
+    <div class="logo-area">
+      <h1 class="logo">
+        <a href="/" title="voltar para a página principal">Fórum</a>
+      </h1>
+    </div>
+
+    <div id="top">
+       <a href="https://login.globo.com/login/4146?url=http%3A%2F%2Fforum.techtudo.com.br%2Fconta%2Fcadun%2Fpronto%2F" >login</a>  <a href="/sobre/" >sobre</a>  <a href="/faq/" >faq</a> 
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="roof" class="small-12 column">
+    <div class="row navbar">
+      <ul id="nav">
+        <li><a id="nav_questions" href="/perguntas/" >perguntas</a></li><li><a id="nav_tags" href="/tags/" >tags</a></li><li><a id="nav_users" href="/usuarios/" >usuários</a></li><li><a id="nav_badges" href="/trofeus/" >troféus</a></li><li><a id="nav_unanswered" href="/perguntas/nao_respondidas/" >não respondidas</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="searchBar">
+  <div class="row">
+    <div class="row">
+      <form action="/buscar/" method="get" class="medium-8 small-12 column">
+        <input type="text" class="searchInput" value="" name="q" id="keywords" />
+        <button type="submit" name="Submit" class="searchBtn">buscar</button>
+        <div class="options" style="display:none;">
+            <input id="type-nav_questions" type="radio" value="question" name="t" checked="checked" /><label for="type-question">perguntas</label>
+            <input id="type-nav_tags" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-nav_users" type="radio" value="user" name="t" /><label for="type-user">usuários</label>
+        </div>
+      </form>
+      <script>
+          function selecionaTipoConteudoParaBuscaTextual() {
+              //zera o que estiver marcado
+              $("#searchBar .options input[type=radio]").removeAttr("checked");
+              var inputRadioId = "#type-" + $("#nav").find(".on").attr("id")
+
+              if($(inputRadioId).length > 0){
+                $(inputRadioId).attr("checked", true);
+              } else {
+                  //default perguntas
+                $("#type-nav_questions").attr("checked", true);
+              }
+          }
+          $(document).ready(function() {
+            selecionaTipoConteudoParaBuscaTextual();
+          });
+      </script>
+      <div class="askBtn-wrapper medium-4 column">
+        <a id="nav_ask" href="/perguntas/pergunte/" class="askBtn">faça uma pergunta</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end template header.html -->
+
+
+      <div class="osqa-content row">
+        
+        <div id="wrapper" class="small-12 column">
+          <div id="room">
+            <div id="head">
+              
+              
+            </div>
+
+            <div id="CAFull">
+              
+<div class="headNormal primary-title">FAQ</div>
+<div class="content">
+<h1>Questões sobre login e registro</h1>
+<h3>Devo me registrar para utilizar este fórum?</h3>
+<p>Para visualizar as perguntas e respostas, não é necessário o registro. Porém, somente com conta registrada e e-mail validade será possível realizar perguntas, respostas, comentários e votações. O registro lhe dá acesso a funções adicionais e possivelmente permissões que não estão disponíveis a visitantes. Alguns exemplos são o uso e definição de imagens avatares, participação em grupos de usuários, recebimento de medalhas, participações em promoções do fórum etc. São necessários apenas alguns segundos para se fazer o registro, portanto é recomendável que o faça.</p>
+<h3>Esqueci a minha senha, o que devo fazer?</h3>
+<p>Tente efetuar seu cadastro pelo site da Globo.com. Clique em <strong>Esqueci a Senha</strong>, abaixo do botão <strong>Acessar</strong>. A seguir, forneça o e-mail cadastrado e escreva a imagem do <strong>CAPTCHA</strong>, conforme a vir. Clique em <strong>Prosseguir</strong> e espere as instruções enviadas pelo email. </p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Preferências e configuração de usuários</h1>
+<h3>Como posso editar o meu perfil?</h3>
+<p>Depois de efetuado o registro, toda a sua configuração é guardada no banco de dados. Para alterar qualquer dado, clique em <strong>Nome do Usuário</strong> (localizado no topo direito de qualquer página). A seguir, procure o menu <strong>Ferramentas do Usuário</strong> e clique em <strong>Editar Perfil</strong>. </p>
+<h3>Como posso usar uma imagem de avatar?</h3>
+<p>Sua imagem de usuário ou avatar é a mesma utilizada no Gravatar, um sistema de avatar reconhecido mundialmente disponibilizado por associação a vários endereços. </p>
+<p>Se você ainda não possui uma conta no <strong>Gravatar</strong>, crie uma clicando <a href="http://pt.gravatar.com/">neste link</a>. Para que a sua imagem possa aparecer no fórum, o endereço utilizado pelo Gravatar e o endereço de cadastro do fórum devem ser os mesmos.</p>
+<p>Caso você já possua uma conta no Gravatar, basta clicar no seu <strong>Nome de Usuário</strong>, na barra de ferramentas superior, <strong>Ferramentas do Usuário</strong> e <strong>Editar Perfil</strong>. Clique no botão <strong>Gravatar</strong>, abaixo da imagem que aparece no seu perfil. </p>
+<p>Quando entrar na página do Gravatar, clique em <strong>Obtenha o seu Gravatar hoje</strong> se já estiver logado, ou realize o login. Você verá a página <strong>Gerir Gravatars</strong>. </p>
+<p>Certifique-se de que o e-mail em destaque na tela seja o mesmo utilizado para o cadastro do fórum. Exemplo: Digamos que o e-mail cadastrado no fórum tenha sido "xxxx@gmail.com" mas que sua conta do Gravatar esteja cadastrada com o e-mail "yyyy@gmail.com". Você deverá, então, clicar em <strong>add a new e-mail</strong>, digitar o mesmo e-mail do fórum (xxxx@gmail.com) e clicar em <strong>adicionar</strong>. Você receberá um e-mail de confirmação com um código. Clique no link enviado pelo e-mail para habilitar o novo endereço no Gravatar. </p>
+<p>Quando ambos os emails de cadastro do fórum e do Gravatar estiverem iguais, basta escolher uma das imagens que estiver no final da tela ou clicar em <strong>add a new image</strong> para enviar uma do computador. Clique na imagem que será utilizada e pronto. Cerca de 5 ou 10 minutos depois, já será possível ver o seu Gravatar no fórum do TechTudo. </p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Sistema de Reputação</h1>
+<h3>Como funciona a minha Reputação?</h3>
+<p>Sua reputação reflete diretamente o nível de confiança que a comunidade do Fórum TechTudo tem em você. De uma forma geral, o usuário normal não pode alterar diretamente a sua própria Reputação. Sua Reputação alta ou baixa indica o número de pontos/votos que você obteve como usuário. De uma forma geral o usuário normal não pode alterar diretamente a sua própria Reputação. Não abuse dos fóruns colocando mensagens desnecessárias apenas para aumentar a reputação, pois o moderador ou administrador poderão tomar atitudes, caso haja abuso, interferindo assim na imagem que você quer conquistar no fórum.</p>
+<h3>Quantos votos tenho por dia?</h3>
+<p>Você tem apenas 25 votos por dia para usar com as respostas do fórum. Use-os com sabedoria. </p>
+<h3>Quais ações dão pontos de Reputação?</h3>
+<ul>
+<li>Registrar uma conta no fórum: 1 ponto.</li>
+<li>Validar o e-mail: 10 pontos</li>
+<li>Receber um voto positivo em um dos posts publicados: 5 pontos. </li>
+<li>Ter uma resposta aceita no fórum: 15 pontos.</li>
+<li>Escolher uma resposta como "a melhor" para as perguntas que você mesmo fez: 25 pontos.</li>
+</ul>
+<h3>Quais ações tiram pontos de Reputação?</h3>
+<ul>
+<li>Receber um voto negativo em um dos posts publicados: 3 pontos. </li>
+<li>Votar negativo em uma resposta: 1 ponto. (necessário para controlar maus usuários).</li>
+<li>Receber aviso em algum dos posts publicados: 10 ponto. </li>
+<li>Ter post ocultado pela moderação: 30 pontos. </li>
+<li>Ter o post deletado pela moderação: 100 pontos. </li>
+</ul>
+<h3>Como faço para ganhar votos positivos?</h3>
+<ul>
+<li>Escreva posts coerentes e pertinentes para a comunidade. Ou seja, informações que façam a diferença para quem vá ler. </li>
+<li>Tire dúvidas, compartilhe o que você sabe e ensine os mais leigos. Quanto mais importantes forem suas respostas e ensinamentos, mais votos você ganha, maior a sua reputação. </li>
+<li>Não seja preconceituoso quando for publicar alguma informação. Leve em consideração que opiniões diferentes enriquecem a discussão e agregam mais conhecimento para todos. </li>
+<li>De modo algum ofenda um usuário, um grupo, uma empresa, um conceito ou crença. Além de ter seu post moderado e até deletado, você pode ficar mal visto aos olhos da comunidade e perder a confiança de outros usuários. </li>
+</ul>
+<h3>Qual o mínimo de Reputação necessário para executar ações especiais?</h3>
+<ul>
+<li>Para dar um voto positivo: 15 pontos. </li>
+<li>Para reportar uma pergunta como inapropriada: 250 pontos. </li>
+<li>Para fechar a própria pergunta: 1000 pontos.</li>
+<li>Para reabrir a própria pergunta: 2000 pontos.</li>
+<li>para editar tags em qualquer pergunta: 5000 pontos.</li>
+<li>Para editar posts de qualquer usuário: 5000 pontos.</li>
+<li>Para fechar posts de qualquer usuário: 5000 pontos.</li>
+<li>Para deletar comentários de qualquer usuário: 5000 pontos.</li>
+<li>Para transformar respostas em comentários: 5000 pontos.</li>
+<li>Para transformar comentários em respostas: 5000 pontos.</li>
+<li>Para transformar respostas em perguntas: 5000 pontos.</li>
+<li>Para visualizar perguntas que foram reportadas: 25 pontos.</li>
+</ul>
+<h1 />
+<h1 />
+<h1 />
+<h1>Questões sobre postagens</h1>
+<h3>Como posso fazer uma pergunta no fórum?</h3>
+<p>Clique no botão Fazer uma pergunta, no canto direito da tela. Preencha os campos Título, Mensagem e Tags. Clique em Perguntar. </p>
+<p>Títulos e respostas devem conter no mínimo 10 caracteres. Cada pergunta deve conter no mínimo 1 tag e no máximo 15 tags. </p>
+<h3>Como posso editar ou remover uma mensagem?</h3>
+<p>A menos que seja um administrador ou moderador de fórum você não pode editar ou remover mensagens. Se achar que sua pergunta deve ser removida, envie um e-mail para a equipe em <a href="mailto:forum.techtudo@corp.globo.com">forum.techtudo@corp.globo.com</a>.</p>
+<h3>Qual o tamanho máximo para o envio de arquivos?</h3>
+<p>São permitidos apenas envios de arquivos com no máximo 2,5mb. </p>
+<h3>Por que meu post foi reportado?</h3>
+<p>Seu post pode ter sido reportado pelas seguintes razões:</p>
+<ul>
+<li>Spam</li>
+<li>Propaganda</li>
+<li>Linguagem ofensiva ou inapropriada</li>
+<li>Conteúdo que viola termos de uso.</li>
+<li>Violação de Copyright</li>
+<li>Falta de cordialidade com os membros do fórum.</li>
+</ul>
+<h3>Como posso reportar perguntas inapropriadas para o moderador?</h3>
+<p>Se você já tiver pelo menos 30 pontos de Reputação, pode reportar perguntas ofensivas que agridam as regras de uso da comunidade. </p>
+<h3>Por que minha pergunta foi fechada?</h3>
+<p>Sua pergunta pode ter sido fechada pela moderação pelas seguintes razões:</p>
+<ul>
+<li>Pergunta duplicada</li>
+<li>Pergunta fora do escopo ou irrelevante</li>
+<li>Conteúdo ofensivo</li>
+<li>Spam ou propaganda gratuita</li>
+</ul>
+<h3>Por que preciso inserir tags?</h3>
+<p>As tags ou palavras-chave vão facilitar a indexação da sua pergunta no banco de dados e ajudar outros usuários a encontrá-la mais rapidamente. Use tags relevantes que sirvam para resumir o assunto do qual você está tratando. </p>
+<p>Por exemplo: se estiver fazendo uma pergunta sobre instalação de Windows 8, você poderá usar as tags windows, sistema operacional, software, pc e suporte. Quanto mais tags, mais fácil de encontrar a sua pergunta. </p>
+<h3>Por que as tags que eu inseri foram alteradas?</h3>
+<p>Uma das funções dos moderadores é organizar as tags criadas pelos usuários. É possível que você veja tags deletadas, criadas ou modificadas. Essas mudanças são feitas para a melhor organização do material acumulado na comunidade. </p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Formatando perguntas e respostas</h1>
+<h3>O que é o Markdown?</h3>
+<p>Markdown é uma linguagem de formatação utilizado para publicação dos posts do fórum. Encontre os códigos permitidos no fórum na página de Markdown do <a href="http://forum.techtudo.com.br/ajuda_markdown/">Fórum do TechTudo</a>. </p>
+<h3>Posso usar HTML?</h3>
+<p>Não. Nesta comunidade não é possível postar utilizando HTML.</p>
+<h3>Posso inserir imagens?</h3>
+<p>As imagens podem ser inseridas em suas mensagens. Clique no botão Imagem, na caixa de diálogo “Faça uma Pergunta”. A seguir, é possível escolher entre enviar uma imagem do seu computador ou indicar o link atual onde a imagem é exibida. </p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Níveis de usuários e grupos</h1>
+<h3>O que são grupos de usuários?</h3>
+<p>Grupos de usuários são uma forma dos administradores dos fóruns agruparem usuários. Cada usuário pode pertencer a grupos diferentes e a cada grupo são dados direitos de acesso individuais. Isto torna mais fácil para os administradores destinar vários usuários como moderadores.</p>
+<p>É possível identificar os diferentes tipos de usuário pela quantidade de losangos ao lado do nome. Moderadores têm um losango ao lado do nome e administradores têm dois losangos.<br />
+</p>
+<h3>Como posso subir de posição no fórum do TechTudo?</h3>
+<p>Queremos muito que você se torne um Moderador e um Super Usuário. Pra isso, basta ajudar os usuários, participar ativamente ajudando a organizar e a manter a qualidade do site e respeitar a todos! Quanto mais pontos você ganhar, mais perto você chega da "promoção". =D</p>
+<h3>O que são os Moderadores?</h3>
+<p>Moderadores são usuários cujo trabalho é supervisionar diariamente o funcionamento das perguntas no fórum. Geralmente fiscalizam perguntas que possam ir para além do assunto em discussão ou uso de material abusivo ou ofensivo. Eles têm o poder de:</p>
+<ul>
+<li>Criar, editar, fechar ou remover perguntas.</li>
+<li>Editar, deletar ou criar tags.</li>
+</ul>
+<h3>Qual o dever dos Moderadores?</h3>
+<p>Os moderadores são os maiores responsáveis por toda a organização do site. São eles que editam, modelam, modificam, fecham, abrem e melhoram cada pergunta e resposta do fórum. Eles são responsáveis por tornar fácil com que todos os usuários possam encontrar as informações que precisarem. </p>
+<h3>Como me torno um Moderador?</h3>
+<p>Moderadores são usuários que chegaram a 5.000 pontos de reputação no total ou ter contribuído com mais de 400 respostas.</p>
+<p>OBS: Todos que atingirem estes números serão primeiramente avaliados pela administração do fórum.</p>
+<h3>O que são os Super Usuários?</h3>
+<p>Super Usuários são pessoas com o nível máximo de controle sobre todos os aspectos do fórum. Podem controlar toda a operação dos fóruns, incluindo:</p>
+<ul>
+<li>Criar, editar, fechar ou remover perguntas.</li>
+<li>Determinar permissões.</li>
+<li>Suspender usuários.</li>
+<li>Nomear outros Super Usuários ou Moderadores. </li>
+<li>Dar ou tomar pontos de Reputação. </li>
+<li>Editar, deletar ou criar tags.</li>
+</ul>
+<h3>Qual o dever dos Super Usuários?</h3>
+<p>Super Usuários devem ajudar a organizar as perguntas e manter a qualidade do fórum junto com os moderadores, mas principalmente são eles que vão escolher os Moderadores, recompensar as melhores participações com pontos de reputação ou suspender aqueles que não estiverem respeitando o fórum.</p>
+<h3>Como me torno um Super Usuário?</h3>
+<p>Super Usuários são moderadores que ganharam o nível máximo de confiança da equipe e, por isso, possuem total acesso ao fórum. </p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Pesquisando no Fórum</h1>
+<h3>Como posso pesquisar no fórum?</h3>
+<p>Entrando com um termo de pesquisa na caixa de texto de pesquisa localizado na página principal da comunidade. É possível buscar por “Perguntas”, “Tags” e “Usuários”.</p>
+<h1 />
+<h1 />
+<h1 />
+<h1>Seguindo Perguntas por Email e por RSS</h1>
+<h3>Como posso seguir uma pergunta?</h3>
+<p>Para acompanhar todas as respostas e comentários dados a uma pergunta em particular, clique na pergunta desejada e marque <strong>Inscreva-me</strong>. Também é possível ajustar essa configuração em seu <strong>Perfil de Usuário</strong>. Caso, mude de idéia, basta clicar em desinscreva-me e a ação será desfeita. </p>
+<h3>Como eu acompanho uma pergunta pelo feed RSS?</h3>
+<p>Para acompanhar uma pergunta específica por RSS, basta procurar o Box <strong>Siga esta pergunta</strong>. Procure a opção <strong>Por RSS</strong> e escolha o feed <strong>Respostas ou Respostas e Comentários</strong>. Note que somente visualizará respostas e comentários referentes à pergunta que você estiver acessando no momento. </p>
+<h3>Quem devo contatar sobre questões abusivas e/ou legais relacionadas com este fórum?</h3>
+<p>Envie um e-mail para a equipe de administração do fórum em <a href="mailto:forum.techtudo@corp.globo.com">forum.techtudo@corp.globo.com</a>. </p>
+</div>
+
+            </div>
+
+            <div id="tail">
+              
+              
+            </div>
+          </div>
+          <div class="spacer3"></div>
+        </div>
+        
+      </div> <!-- .osqa-content -->
+
+      
+        <div class="row">
+  <div id="vitrine" class="small-12 column show-for-medium-up" style="margin-bottom: 40px;">
+      <script type="text/javascript">
+          globo_color_text = "FC8800";
+          globo_shop_slot  = "techtudo/home";
+          globo_shop_width = "100%";
+      </script>
+      <script src="http://vitrines.globo.com/vitrine/show_shop.js" type="text/javascript"></script>
+  </div>
+</div>
+
+        <footer id="glb-rodape">
+          <div class="row show-for-small-only">
+    <div class="small-12 column publicidade-container">
+        <div class="ad-x61 publicidade publicidade-banner_mobile_fim">
+            
+            <div id="banner_mobile_fim" class="tag-manager-publicidade-container"></div>
+        </div>
+    </div>
+</div>
+
+          <div class="footer product-color" data-ga-area="footer">
+    <div class="row">
+        <div class="small-12 columns container" data-ga-marker="links">
+            <ul class="first-line">
+                <li><a class="logo" href="//www.globo.com/" title="globo.com"><strong>globo.com</strong></a></li>
+                <li><a href="//g1.globo.com/">g1</a></li>
+                <li><a href="//globoesporte.globo.com/">globoesporte</a></li>
+                <li><a href="//gshow.globo.com/">gshow</a></li>
+                <li><a href="//famosos.globo.com//">famosos & etc</a></li>
+                <li><a href="//globotv.globo.com/">vídeos</a></li>
+                <li class="pushed"><a href="//www.globo.com/todos-os-sites.html">todos os sites</a></li>
+            </ul>
+            <span class="copyright">© Copyright 2000-2017 Globo Comunicação e Participações S.A.</span>
+            <ul class="footer-menu">
+                <li><a href="//www.globo.com/privacidade.html">política de privacidade</a></li>
+                <li><a href="//meuperfil.globo.com">central globo.com</a></li>
+                <li><a href="//assine.globo.com/">assine a globo.com</a></li>
+                <li class="last"><a href="//anuncie.globo.com/mediakit/globocom.html">anuncie conosco</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        </footer>
+      
+
+      
+      
+
+    </div> <!-- #content -->
+
+    
+    <script async>
+      new ShareBar({
+        networks: ['facebook', 'twitter', 'whatsapp', 'google']
+      });
+    </script>
+  </body>
+</html>
+<!-- end template base_content.html -->

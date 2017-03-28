@@ -1,0 +1,38 @@
+|||http://globosatplay.globo.com/sportv/|<!doctype html>
+<html lang="" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='http://s.glbimg.com/po/fo/globo-fontface.css' rel='stylesheet' type='text/css'>
+  <link href='http://s3.glbimg.com/v1/AUTH_3eda5bcf51474b9b9937d4976912e962/apocalypse/styles-b602c27e7eccd34f9f34.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <!--
+  1.12.6
+                                           ___
+                                          /\_ \
+     __     _____     ___     ___     __  \//\ \    __  __  _____     ____     __
+   /'__`\  /\ '__`\  / __`\  /'___\ /'__`\  \ \ \  /\ \/\ \/\ '__`\  /',__\  /'__`\
+  /\ \L\.\_\ \ \L\ \/\ \L\ \/\ \__//\ \L\.\_ \_\ \_\ \ \_\ \ \ \L\ \/\__, `\/\  __/
+  \ \__/.\_\\ \ ,__/\ \____/\ \____\ \__/.\_\/\____\\/`____ \ \ ,__/\/\____/\ \____\
+   \/__/\/_/ \ \ \/  \/___/  \/____/\/__/\/_/\/____/ `/___/> \ \ \/  \/___/  \/____/
+              \ \_\                                     /\___/\ \_\
+               \/_/                                     \/__/  \/_/
+  -->
+  <style>
+    html, body, #app {
+      height: 100%;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #FFF;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+  <div id="app"></div>
+  <script src="http://s.videos.globo.com/p2/j/api.min.js"></script>
+  <script src="http://s3.glbimg.com/v1/AUTH_3eda5bcf51474b9b9937d4976912e962/apocalypse/app-b602c27e7eccd34f9f34.js"></script>
+</body>
+</html>

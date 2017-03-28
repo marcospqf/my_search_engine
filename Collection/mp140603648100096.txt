@@ -1,0 +1,265 @@
+|||http://g1.com/Support/Contact/|	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="site_section" content="Customer Services" />
+	<title>Pitney Bowes Software Technical Services Contact Information | Customer Services | Pitney Bowes Software</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="/styles/global.css" />
+	<!--[if gt IE 5]>
+		<link rel="stylesheet" type="text/css" media="screen" href="/styles/ie6.css" />
+	<![endif]-->
+	<link rel="stylesheet" href="/styles/support.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="/include/javascript/mootools-release-1.11-everything.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		window.addEvent('load', function(){
+			
+			$$('#leftNav a.popup', '#main a.popup').addEvent('click', function(e){
+				e = new Event(e).stop();
+				var offsitelink = this.href;window.open(offsitelink,'popup');return false;
+			}),
+			$$('#main a.hugeWin').addEvent('click', function(e){
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=995,height=585,resizable=yes,alwaysRaised');return false;
+			}),
+			$$('#main a.bigWin').addEvent('click', function(e){
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=780,height=540,resizable=yes,alwaysRaised');return false;
+			}),
+			$$('#main a.mediumWin').addEvent('click', function(e){
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=600,height=440,resizable=yes,alwaysRaised');return false;
+			}),
+			$$('#main a.skinnyWin').addEvent('click', function(e) {
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=565,height=610,resizable=yes,alwaysRaised');return false;
+			}),
+
+			$$('#main a.thumbWin').addEvent('click', function(e) {
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=200,height=150,resizable=yes,alwaysRaised');return false;
+			}),
+			$$('#main a.smallWin').addEvent('click', function(e) {
+				e = new Event(e).stop();
+				var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=400,height=320,resizable=yes,alwaysRaised');return false;
+			}),
+			
+			$$('ul#altPage a.print').addEvent('click', function(e) {
+				e = new Event(e).stop();
+				bV = parseInt(navigator.appVersion);if (bV >= 4) window.print();return false;
+			});			
+			
+
+			//$S('a.eservice').action ({onclick: function(){ePortalPop('/Support/FTP/ldap.asp?acct_type=SIEBEL');return false;}});
+		});
+		//function ePortalPop(urlloc){var ePortalWin = window.open(urlloc,"ePortal","toolbar=no,menubar=no,status=yes,scrollbars=yes,resizable=yes");ePortalWin.focus()};
+		//]]>
+	</script>
+</head>
+<body id="custSrvcs">
+	<div id="page">
+		<div id="innerWrap">
+			<script type="text/javascript">
+  // <![CDATA[ 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<scr"+"ipt src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-238030-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+ // ]]>
+</script>
+<img src="http://content.pbinsight.com/static/cssimages/global/logo.gif" width="180px" height="48px" class="printOnly" alt="Pitney Bowes Software" />		
+		<ul id="accessOptions">
+			<li><a href="#content">Skip to Content</a></li>
+			<li><a href="#mainSearch">Skip to Search</a></li>			
+			<li><a href="#topNav">Skip to Primary Navigation</a></li>				
+			<li><a href="#leftNav">Skip to Customer Services Navigation</a></li>							
+		</ul>
+		<hr />
+		<div id="header">
+			<h1 id="logo"><a href="/" title="Pitney Bowes Software Home Page" rel="home">Pitney Bowes Software</a></h1>
+			<ul id="mainLinks">
+				<li><a href="/Support/Contact/" class="envelope" title="Contact customer support">Contact Us</a></li>
+				<li><a href="/Support/login.asp" class="key" title="Log in to customer support site">Customer Login</a></li>				
+			</ul>
+			<form id="mainSearch" action="http://search.g1.com/search" method="get">
+				<fieldset>
+					<input name="sort" value="date:D:L:d1" type="hidden" />
+					<input name="output" value="xml_no_dtd" type="hidden" />
+					<input name="oe" value="UTF-8" type="hidden" />
+					<input name="ie" value="UTF-8" type="hidden" />
+					<input name="client" value="default_frontend" type="hidden" />
+					<input name="proxystylesheet" value="default_frontend" type="hidden" />
+					<input name="site" value="default_collection" type="hidden" />		
+					<label for="keywordSearch"><a href="http://search.g1.com" title="Search" class="magnify">Search</a><input type="text" id="keywordSearch" name="q" /></label>
+					<input type="submit" id="submitMainSearch" value="Go" />
+				</fieldset>
+			</form>
+			<div class="clearB clearer"></div>			
+		</div><!--End Header-->
+		<ul id="topNav"> 
+        	<li id="support" class="current"><a href="/support/">Support</a></li> 
+    	</ul> 
+		<div class="border"></div>
+		<hr />
+			<div id="leftNav">
+				<ul id="level1">
+					<li id="section"><a href="/CustomerServices/">Customer Services</a>
+						<ul id="level2">
+							<li id="parent"><a href="/Support/">Technical Services</a>
+								<ul id="level3">
+									<li><a class="unavailable" href="/Support/Products/">My Products</a></li>
+									<li><a href="http://www.g1.com/docs/LICASSIST.ZIP" class="newwin popup zip">License Assist Utility for US Geocoding - Centrus and MapMarker USA</a></li>
+									<li><a class="unavailable" href="/Support/Docs/">My Documentation</a></li>
+									<li><a class="unavailable dbtreeview" href="/Support/Products/dpvlacsnav.asp">DPV &amp; LACS<sup>Link</sup> False-Positive</a></li>
+									<li><a href="/Support/SRD/">Special Request Downloads</a></li>
+									<li><a class="offsite popup" href="http://www.pbsoftwareforum.com">Discussion Forums</a></li>
+									<li id="current">Contact Support</li>
+									<li><a href="/Support/Platform/">Supported Platforms</a></li>
+									<li><a href="/Support/Help/">Support Help</a></li>
+									<li><a class="unavailable" href="/Support/FTP/">FTP Access</a></li>
+									<li><a class="unavailable" href="/Support/Forms/">Online Forms</a></li>
+									<li><a href="/Support/online-case-management.asp">Online Case Management</a></li>
+									<li><a class="unavailable" href="/Support/Glossary/">Glossary</a></li>
+									<li><a href="http://www.pbinsight.com/blog/" class="newwin popup" title="Link opens in new window">G1 Blog</a></li>
+									<li><a href="/Email/">List Services</a></li>
+									<li><a class="unavailable" href="/Support/Contact/ContactInfoForm.asp?updovr=y">Update Contact Info</a></li>
+									
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- googleoff: index --><p id="salesRep"><a href="/About/Contact/ContactSales.asp">Contact a sales rep</a></p><!-- googleon: index -->
+			</div><!--End Left Navigation-->			
+			<hr />
+			<div id="main">
+				<div id="content">
+					<ul id="breadcrumbs">
+						<li class="level1"><a href="/" rel="home">Home</a></li>
+						<li><a href="/CustomerServices/">Customer Services</a></li>
+						<li><a href="/Support/">Technical Services</a></li>
+						<li>Contact Information</li>
+					</ul><!--End Breadcrumbs-->
+					
+					<h2 id="mainHeading">Pitney Bowes Software Technical Services Contact Information</h2>
+
+					<h3>Technical Support</h3>
+					<p>The goal of our Technical Support department is to assist our customers with the use of our software by answering questions and resolving problems specifically related to the software.  Some of the reasons that customers contact us include getting answers to questions about:</p>
+						<ul>
+							<li>Product-related issues,</li>
+							<li>Help with accessing our Pitney Bowes Software Technical Support Web Site</li>
+						</ul>
+					<p>If you have questions about these, or any other technical support–related issue for which you think we may be able to help, please contact us <a href="http://www.pitneybowes.com/us/contact-dcs.html">here</a>.</p>
+			
+					<h3>Product Distribution Services (PDS)</h3>
+					<p>PDS has multiple roles within Pitney Bowes Software, including managing product shipments via media and Internet delivery and coordinating the product Beta Test Program.  Customers have contacted us to get answers to questions about:</p>
+						<ul>
+							<li>Lost or missing product shipments</li>
+							<li>Participating in our Beta Test Program</li>
+						</ul>
+					<p>If you have questions about these, or any other product distribution services&ndash;related issue for which you think we may be able to help, please contact us using any of these methods:</p>
+						<p><strong>Email</strong> &mdash; <a href="mailto:pds@g1.com">pds@g1.com</a><br />
+						<strong>Phone</strong> &mdash; <strong>US:</strong> 800&ndash;367&ndash;6950, <strong>Outside US:</strong> +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;918&ndash;0722</p>
+			
+					<h3>Sales</h3>
+					<p>Do you have a question about a new product that you&rsquo;re interested in?  Not sure who your Sales Executive is?  Use these methods to contact our sales department to get answers to all of your sales-related questions:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:pbbi.sales@pb.com">Pbbi.sales@pb.com</a> <br />
+						<strong>Phone</strong> &mdash; 800&ndash;327&ndash;8627 <br />
+						<strong>Fax</strong> &mdash; 518&ndash;285&ndash;6070</p>
+
+					<h3>Pitney Bowes Software University</h3>
+					<p>Pitney Bowes Software University is standing by to help you with all your product education needs.  Here are just a few of the reasons why customers contact us:</p>
+						<ul>
+							<li>Registering for classes,</li>
+							<li>Information about Public Seminars and On-Site Seminars, and</li>
+							<li>Advanced and Generic Industry Courses.</li>
+						</ul>
+					<p>If you have questions about these or any other education&ndash;related matters, please use one of the contact methods below to get in touch with us:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:education@g1.com">education@g1.com</a> <br />
+						<strong>Phone</strong> &mdash; US: 800&ndash;859&ndash;4133, Outside US: +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;918&ndash;0735</p>
+			
+					<h3>Documentation</h3>
+					<p>Our Documentation department is constantly working to bring you the most comprehensive and up&ndash;to&ndash;date product documentation possible.  Contact us to get answers to your questions about:</p>
+						<ul>	
+							<li>Pitney Bowes Software Publications,</li>
+							<li>Online Documentation,</li>
+							<li>Participating in Documentation Review/Evaluation, and</li>
+							<li>Purchasing Documentation.</li>
+						</ul>
+					<p>If you have questions about these or any other documentation&ndash;related matters, please contact us using one of the methods below:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:documentation@g1.com">documentation@g1.com</a><br />
+						<strong>Phone</strong> &mdash; US: 800&ndash;859&ndash;4133, Outside US: +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;918&ndash;0735</p>
+			
+					<h3>Customer Information Management</h3>
+					<p>At Pitney Bowes Software, we know that effective communication with our customers is key to providing you with an exceptional customer experience.  Much of the information we provide is specifically tailored for our customers based on the products they own.  Some reasons that customers have contacted us include getting answers to questions about:</p>
+						<ul>
+							<li>Problems accessing your List Services account on our Technical Support Web Site, and</li>
+							<li>Any (non product&mdash;specific) problems related to your experience on our Technical Support Web Site.</li>
+						</ul>
+						<p>If you have questions about these, or any other Customer Information Management-related issue for which you think we may be able to help, please contact our Client Service team <a href="http://www.pitneybowes.com/us/contact-dcs.html">here</a>.</p>
+			
+					<h3>Professional Services</h3>
+					<p>Pitney Bowes Software&rsquo;s Professional Services department provides post&ndash;sales support for customers who wish to further enhance their Pitney Bowes Software products.</p>
+			
+					<p>If you have questions about these, or any other Professional Services&ndash;related issue for which you think we may be able to help, please contact us using any of these methods:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:professional_services@g1.com">professional_services@g1.com</a><br />
+						<strong>Phone</strong> &mdash; US: 800&ndash;859&ndash;4133, Outside US: +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;683&ndash;6717</p>
+			
+					<h3>PreSales Support</h3>
+					<p>The PreSales Support team is standing ready to provide help with Pitney Bowes Software&rsquo;s prospects, current customers, account representatives and all other internal departments within Group1. Contact our PreSales Support department if you have questions about:</p>
+						<ul>
+							<li>Product needs assessments,</li> 
+							<li>Pitney Bowes Software product skills,</li> 
+							<li>Platform and 3rd&ndash;party application knowledge, and </li>
+							<li>Solution architecture design recommendation.</li>
+						</ul>
+					<p>If you have questions about these, or any other issue for which you think PreSales Support may be able to help, please contact us using any of these methods:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:presales@g1.com">presales@g1.com</a> <br />
+						<strong>Phone</strong> &mdash; US: 800&ndash;859&ndash;4133, Outside US: +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;918&ndash;0464</p>
+			
+					<h3>Maintenance/Renewals</h3>
+					<p>Our dedicated staff works hard to assist you with your product maintenance and product renewals&ndash;related questions.  Customers have contacted us to ask questions about:</p>
+						<ul>
+							<li>Specific billing&ndash;related questions</li>
+							<li>Renewing their product maintenance agreements</li>
+						</ul>
+					<p>If you have questions about these, or any other issue for which you think the Maintenance/Renewals staff may be able to help, please contact us using any of these methods:</p>
+			
+						<p><strong>Email</strong> &mdash; <a href="mailto:pbbi.renewals@pb.com">pbbi.renewals@pb.com</a> <br />
+						<strong>Phone</strong> &mdash; <strong>US:</strong> 800&ndash;367&ndash;6950, <strong>Outside US:</strong> +1 518&ndash;285&ndash;7283<br />
+						<strong>Fax</strong> &mdash; 301&ndash;683&ndash;6500</p>
+					
+					<div class="clearer clearB"></div>
+					<ul id="altPage">
+						<li><a href="/Help/TellAFriend.asp" class="envelope">Tell a Friend</a></li>
+					</ul>
+					<div class="clearer clearR"></div>
+				</div><!--End Content-->		
+			</div><!--End Main-->				
+			<div class="clearer clearL"></div>
+		</div><!--End Inner Wrap -->		
+	</div><!--End Page-->
+	<hr />	
+	<div id="footer">
+		<ul id="bottomNav">
+			<li><a href="/Support/Contact/">Contact Us</a></li>
+			<li class="lastItem"><a href="#page" accesskey="t">Back to Top</a></li>			
+		</ul>
+		<p id="copy">&copy; 2017 Pitney Bowes. All rights reserved. Additional <a href="/Help/Copyright.asp">trademark</a>, <a href="/Help/Copyright.asp">copyright</a> and <a href="/Help/Privacy.asp">privacy</a> information is available.</p>
+	</div><!--End Footer-->
+</body>
+</html>

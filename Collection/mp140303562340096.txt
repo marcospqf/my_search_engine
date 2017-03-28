@@ -1,0 +1,1590 @@
+|||http://www.vagalume.com.br/|<!DOCTYPE html>
+<html class="page-home" lang="pt" prefix="og: https://ogp.me/ns#">
+<head>
+<title>VAGALUME - Letras de Músicas e muitas músicas para ouvir!</title>
+<link rel=dns-prefetch href="https://s1.vagalume.com"/><link rel=dns-prefetch href="https://s2.vagalume.com"/><link rel=dns-prefetch href="//suggest.vagalume.com.br"/>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<meta name=language content=pt-br>
+<link rel="alternate" media="only screen and (max-width: 640px)" href='//m.vagalume.com.br/'><link rel=canonical href="https://www.vagalume.com.br/">
+<meta name=description content="O site sobre música mais completo do Brasil! Milhões de letras de músicas, traduções de letras e cifras. Player para ouvir músicas, rádio online e crie suas playlists" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://www.vagalume.com.br/","potentialAction":{"@type":"SearchAction","target":"https://www.vagalume.com.br/search.php?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<meta property="og:title" content="VAGALUME - Letras de Músicas e muitas músicas para ouvir!">
+<meta property="og:description" content="O maior site de música do Brasil. Mais de 2 milhões de músicas cadastradas para ver a letra e ouvir!">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://s1.vagalume.com/images/vagalume-fb-share.png">
+<meta property=og:site_name content=Vagalume>
+<meta property=fb:app_id content=324474348807>
+<link rel=search type=application/opensearchdescription+xml title=Vagalume href=/api/opensearch.xml>
+<link type=text/css rel=stylesheet href="/css/vgl2_201703211503.css"/>
+<link type=text/css rel=stylesheet href="/css/header_default_201703211503.css"/>
+<link type=text/css rel=stylesheet href="/css/home_201703211503.css" />
+<!--[if lt IE 9]><script type=text/javascript src="/js/iefix.js"}"></script><![endif]-->
+<link rel="chrome-webstore-item" href="//chrome.google.com/webstore/detail/ipgcdnbeeiajinajlafjcdfhckglcopd">
+
+</head>
+<body class="general">
+<header>
+<div id=topo>
+<h1 class=logo><a href="/" id=logoTitle title=www.vagalume.com.br>Muito mais que s&oacute; letras de m&uacute;sicas</a></h1>
+<form method=get id=search action=/search.php>
+<label class="suggest" data-publish=1 data-suggest-placeholder="O que voc&ecirc; quer ouvir? Digite nome da m&uacute;sica, artista ou trecho">
+<input type=text name=q id=searchText maxlength=135 size=30 placeholder="O que voc&ecirc; quer ouvir?" autocomplete=off value="">
+<button type=submit>Buscar</button>
+</label>
+</form>
+<menu id=navbar>
+<li data-navbar=VagalumeMain><a href="/">Vagalume</a></li>
+<li data-navbar=Artists><a href="/browse/">A-Z</a></li>
+<li data-navbar=Songstyles><a href="/browse/style/">Estilos</a></li>
+<li data-navbar=Top100><a href="/top100/">Top 100</a></li>
+<li data-navbar=Playlists class=last><a href="/playlisteiros/">Playlists</a></li>
+<li data-navbar=Radio><a href="https://vagalume.fm/"><span class="vico newRadioMenu"></span>R&aacute;dio</a></li>
+<li data-navbar=Hotspots><a href="/browse/hotspots/">Hot Spots</a></li>
+<li data-navbar=News><a href="/news/">Not&iacute;cias</a></li>
+</menu>
+</div>
+
+</header>
+<div id=vagalume>
+<div id=hotspot>
+<div id=hotImg>
+<ul id=hotAnimated>
+<li class='hShow hotVisible hFade'>
+<a href="https://www.vagalume.com.br/prince-royce/deja-vu-feat-shakira.html?hotspot=1#play:XEvKn-QgAY0:3ade68b7g3cb92ea3:BIG" data-hotID="8082">
+<img src="https://s2.vagalume.com/prince-royce/images/119694.jpg" alt="Prince Royce ft. Shakira" width=570 height=315>
+</a>
+</li>
+<li class='hNext hotVisible'>
+<a href="https://www.vagalume.com.br/all-time-low/last-young-renegade.html?hotspot=1#play:zdXNNw4947U:3ade68b7g8ab92ea3:BIG" data-hotID="8081" data-hot='https://s2.vagalume.com/all-time-low/images/119690.jpg' data-alt='All Time Low'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/lollapalooza2017/?hotspot=1" data-hotID="8068" data-hot='https://s2.vagalume.com/vaga-lume/images/119645.jpg' data-alt='AO VIVO: Lollapalooza Brasil 2017'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/iggy-azalea/mo-bounce.html?hotspot=1#play:YQ2xtWgBlzk:3ade68b7g4ab92ea3:BIG" data-hotID="8080" data-hot='https://s2.vagalume.com/iggy-azalea/images/119677.jpg' data-alt='Iggy Azalea'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/zayn/still-got-time-feat-partynextdoor.html?hotspot=1#play:K4ZeDuKF4m8:3ade68b7gd9b92ea3" data-hotID="8079" data-hot='https://s2.vagalume.com/zayn/images/117397.jpg' data-alt='ZAYN'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/nicki-minaj/regret-in-your-tears.html?hotspot=1#play:7Bbuxtq-zk0:3ade68b7gb9b92ea3" data-hotID="8078" data-hot='https://s2.vagalume.com/nicki-minaj/images/117755.jpg' data-alt='Nicki Minaj'></a>
+</li>
+<li>
+<a href="https://vagalume.fm/lollapalooza-2017/?hotspot=1" data-hotID="8074" data-hot='https://s2.vagalume.com/vaga-lume/images/119667.jpg' data-alt='Lollapalooza Brasil no Vagalume.FM!'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/amy-lee/speak-to-me.html?hotspot=1#play:lB8ZsjMhy5M:3ade68b7g65b92ea3:BIG" data-hotID="8077" data-hot='https://s2.vagalume.com/amy-lee/images/119672.jpg' data-alt='Amy Lee'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/halfnoise/as-u-wave-feat-hayley-williams.html?hotspot=1#play:DiRP0VmEZmc:3ade68b7g82b92ea3" data-hotID="8076" data-hot='https://s2.vagalume.com/halfnoise/images/119668.jpg' data-alt='HalfNoise ft. Hayley Williams'></a>
+</li>
+<li class='hPrev hotVisible'>
+<a href="https://www.vagalume.com.br/pitbull/cant-have-feat-steven-a-clark-ape-drums.html?hotspot=1#play:VZGwnMPWvoQ:3ade68b7g2fa92ea3" data-hotID="8073" data-hot='https://s2.vagalume.com/pitbull/images/119662.jpg' data-alt='Pitbull'></a>
+</li>
+</ul>
+</div>
+<div id=hotDesc style='background-color:#191925'>
+<h6 data-text='Hot'>Hot	Spot</h6>
+<ul>
+<li class='hShow' data-hotColors='#191925!#000000!#8E6F6C'>
+<a href="https://www.vagalume.com.br/prince-royce/deja-vu-feat-shakira.html?hotspot=1#play:XEvKn-QgAY0:3ade68b7g3cb92ea3:BIG" data-hotID="8082">
+<h4 class=hotH4>Prince Royce ft. Shakira</h4>
+<p class=hotP>Veja o clipe da m&uacute;sica &quot;Deja Vu&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#141015!#000000!#133D55'>
+<a href="https://www.vagalume.com.br/all-time-low/last-young-renegade.html?hotspot=1#play:zdXNNw4947U:3ade68b7g8ab92ea3:BIG" data-hotID="8081">
+<h4 class=hotH4>All Time Low</h4>
+<p class=hotP>Veja o novo clipe da banda, &quot;Last Young Renegade&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#2E2C2E!#6B4286!#D3FF00'>
+<a href="https://www.vagalume.com.br/lollapalooza2017/?hotspot=1" data-hotID="8068">
+<h4 class=hotH4>AO VIVO: Lollapalooza Brasil 2017</h4>
+<p class=hotP>Confira aqui nossa cobertura da edi&ccedil;&atilde;o deste ano do Lolla: o que est&aacute; rolando em cada palco, v&iacute;deos, fotos, mat&eacute;rias e muito mais!</p>
+</a>
+</li>
+<li data-hotColors='#0D0A0A!#0B0F3D!#3A2E87'>
+<a href="https://www.vagalume.com.br/iggy-azalea/mo-bounce.html?hotspot=1#play:YQ2xtWgBlzk:3ade68b7g4ab92ea3:BIG" data-hotID="8080">
+<h4 class=hotH4>Iggy Azalea</h4>
+<p class=hotP>Veja o novo clipe da rapper, &quot;MO Bounce&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#070507!#000000!#004040'>
+<a href="https://www.vagalume.com.br/zayn/still-got-time-feat-partynextdoor.html?hotspot=1#play:K4ZeDuKF4m8:3ade68b7gd9b92ea3" data-hotID="8079">
+<h4 class=hotH4>ZAYN</h4>
+<p class=hotP>Veja o lyric video de &quot;Still Got Time (feat. PARTYNEXDOOR)&quot;, novo single do cantor!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#000102!#000000!#D2B093'>
+<a href="https://www.vagalume.com.br/nicki-minaj/regret-in-your-tears.html?hotspot=1#play:7Bbuxtq-zk0:3ade68b7gb9b92ea3" data-hotID="8078">
+<h4 class=hotH4>Nicki Minaj</h4>
+<p class=hotP>Veja o lyric video de &quot;Regret In Your Tears&quot;, nova m&uacute;sica da rapper!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#2E2C2E!#89E346!#904BC0'>
+<a href="https://vagalume.fm/lollapalooza-2017/?hotspot=1" data-hotID="8074">
+<h4 class=hotH4>Lollapalooza Brasil no Vagalume.FM!</h4>
+<p class=hotP>Escute a nossa esta&ccedil;&atilde;o com os principais artistas desta edi&ccedil;&atilde;o do Lollapalooza Brasil, como The Weeknd, Metallica, The Chainsmokers e mais!</p>
+</a>
+</li>
+<li data-hotColors='#161C25!#000000!#3C7387'>
+<a href="https://www.vagalume.com.br/amy-lee/speak-to-me.html?hotspot=1#play:lB8ZsjMhy5M:3ade68b7g65b92ea3:BIG" data-hotID="8077">
+<h4 class=hotH4>Amy Lee</h4>
+<p class=hotP>Veja o novo clipe da cantora, &quot;Speak To Me&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#171A1C!#A17558!#A17457'>
+<a href="https://www.vagalume.com.br/halfnoise/as-u-wave-feat-hayley-williams.html?hotspot=1#play:DiRP0VmEZmc:3ade68b7g82b92ea3" data-hotID="8076">
+<h4 class=hotH4>HalfNoise ft. Hayley Williams</h4>
+<p class=hotP>Escute a m&uacute;sica &quot;As U Wave&quot;, com letra e tradu&ccedil;&atilde;o!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#301B2B!#000000!#000000'>
+<a href="https://www.vagalume.com.br/pitbull/cant-have-feat-steven-a-clark-ape-drums.html?hotspot=1#play:VZGwnMPWvoQ:3ade68b7g2fa92ea3" data-hotID="8073">
+<h4 class=hotH4>Pitbull</h4>
+<p class=hotP>Veja o lyric video de &quot;Can't Have&quot;, nova m&uacute;sica do rapper!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+</ul>
+<span class=hotPrev></span>
+<span class=hotNext></span>
+</div>
+<div id=shapeAnimated><div id=shToRotate style='border-right-color:#8E6F6C'></div></div>
+<div id=hShape1 style='background-color:#8E6F6C'></div>
+<div id=hShape2 style='background-color:#000000'></div>
+<svg id=hShape3>
+<defs>
+<polygon id="r1" points="50,60 240,0 240,315 50,260" />
+<linearGradient id = "g1" x1 = "0%" y1 = "0%" x2 = "120%" y2 = "0%">
+<stop stop-color = "black" offset = "0%"/>
+<stop id=sh3Color stop-color = "#191925" offset = "100%"/>
+</linearGradient>
+</defs>
+<use x = "325" y = "25" xlink:href = "#r1" fill = "url(#g1)"/>
+</svg>
+</div>
+<div id=home_leaderboard1 class=ad data-ad=home_leaderboard data-adSize="[[1000, 90], [970, 250]]"></div>
+<div class="vNews vNews3 vTrack" data-vtrack=Noticias>
+<h6 data-text=Not&iacute;cias>Not&iacute;cias</h6>
+<a class=moreNews href=/news/>Todas as Not&iacute;cias &raquo;</a>
+<div class="block area2x2">
+<div class="OUTBRAIN" data-widget-id="SF_1" data-ob-template="Vagalume"></div>
+<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+</div>
+<a href="/news/2017/03/26/imagens-da-semana43.html" class="block area2x1 l3" style="background:url(https://s2.vagalume.com/dynimage/news32023w394h153.jpg) no-repeat top center;">
+<p><span>Selena Gomez visitando escola para projeto social e mais nas Imagens da Semana</span>
+</p>
+</a>
+<a href="/news/2017/03/26/veja-lista-com-alguns-shows-que-valem-a-atencao-nesse-segundo-dia-de-lollapalooza.html" class="block area2x1 c3" style="background:url(https://s2.vagalume.com/dynimage/news32003w394h153.jpg) no-repeat top center;">
+<p><span>Veja lista com alguns shows imperdíveis desse segundo dia de Lollapalooza</span>
+</p>
+</a>
+<a href="/news/2017/03/25/ed-sheeran-tem-o-hot-spot-mais-clicado-da-semana6.html" class="block area2x1 c3 l2" style="background:url(https://s2.vagalume.com/dynimage/news32030w394h153.jpg) no-repeat top center;">
+<p><span>Ed Sheeran tem o Hot Spot mais clicado da semana!</span>
+</p>
+</a>
+<a href="/news/2017/03/25/confora-cinco-shows-imperdiveis-nesse-primeiro-dia-de-lollapalooza.html" class="block area2x1 c3 l3" style="background:url(https://s2.vagalume.com/dynimage/news31988w394h153.jpg) no-repeat top center;">
+<p><span>Confira alguns shows imperdíveis nesse primeiro dia de Lollapalooza</span>
+</p>
+</a>
+<a href="/news/2017/03/24/pela-terceira-semana-ed-sheeran-esta-no-topo-das-paradas-de-albuns-e-singles-do-reino-unido.html" class="block area1x1 c5" style="background:url(https://s2.vagalume.com/dynimage/news32027w192h153.jpg) no-repeat top center;">
+<p class=sizeLess><span>Pela terceira semana, Ed Sheeran está no topo das paradas de álbuns e singles do Reino Unido</span>
+</p>
+</a>
+<a href="/news/2017/03/24/jeremih-chris-brown-e-big-sean-gravam-clipe-de-i-think-of-you.html" class="block area1x1 c5 l2" style="background:url(https://s2.vagalume.com/dynimage/news32021w192h153.jpg) no-repeat top center;">
+<p><span>Jeremih, Chris Brown e Big Sean gravam clipe de &quot;I Think Of You&quot;</span>
+</p>
+</a>
+<a href="/news/2017/03/24/ouca-a-parceria-de-zayn-com-o-partynextdoor.html" class="block area1x1 c5 l3" style="background:url(https://s2.vagalume.com/dynimage/news32016w192h153.jpg) no-repeat top center;">
+<p><span>ZAYN lança &quot;Still Got Time&quot; em parceria com o PartyNextDoor. Ouça!</span>
+</p>
+</a>
+<hr/>
+</div>
+<div id=pls class=vTrack>
+<h6 data-text="Playlist de hoje">Playlist de hoje</h6>
+<a class=playlist href="/playlisteiros/apenas-musicas-com-a-palavra-the-no-titulo/" title="Apenas músicas com a palavra &#039;&#039;the&#039;&#039; no título!">
+Apenas músicas com a palavra &#039;&#039;the&#039;&#039; no título!</a>
+<var class="vBtn play" data-url="/playlisteiros/apenas-musicas-com-a-palavra-the-no-titulo/#play">PLAY</var>
+<ul>
+<li>
+<a href="/britney-spears/till-the-world-ends.html">Till The World Ends / <b>Britney Spears</b></a>
+</li>
+<li>
+<a href="/coldplay/the-scientist.html">The Scientist / <b>Coldplay</b></a>
+</li>
+<li>
+<a href="/bonnie-tyler/total-eclipse-of-the-heart-perfeita.html">Total Eclipse Of The Heart / <b>Bonnie Tyler</b></a>
+</li>
+<li>
+<a href="/sia/the-greatest.html">The Greatest / <b>Sia</b></a>
+</li>
+<li>
+<a href="/rihanna/love-on-the-brain.html">Love On The Brain / <b>Rihanna</b></a>
+</li>
+<li>
+<a href="/ed-sheeran/castle-on-the-hill.html">Castle On The Hill / <b>Ed Sheeran</b></a>
+</li>
+<li>
+<a href="/katy-perry/chained-to-the-rhythm-feat-skip-marley.html">Chained To The Rhythm (Feat. Skip Marley) / <b>Katy Perry</b></a>
+</li>
+<li>
+<a href="/mariah-carey/the-roof.html">The Roof / <b>Mariah Carey</b></a>
+</li>
+<li>
+<a href="/paramore/the-only-exception.html">The Only Exception / <b>Paramore</b></a>
+</li>
+<li>
+<a href="/lily-allen/the-fear.html">The Fear / <b>Lily Allen</b></a>
+</li>
+</ul>
+<a href="/playlisteiros/apenas-musicas-com-a-palavra-the-no-titulo/">+ 308 m&uacute;sicas sugeridas (at&eacute; agora)</a>
+<a class="blue" href="/playlisteiros/apenas-musicas-com-a-palavra-the-no-titulo/">vem sugerir tamb&eacute;m!</a>
+</div>
+<div id=quote class=vTrack data-vtrack-mark="30 Seconds To Mars / City Of Angels / A minha vida inteira
+Eu nunca estive presente (#130)">
+<h6 data-text=Quote>Quote</h6>
+ <a href="/30-seconds-to-mars/city-of-angels.html" id=quoteImg data-link="1evb3" data-img="https://s2.vagalume.com/dynimage/spotquote130.jpg" data-id="quote130"></a>
+<div id=quoteText>
+<span>A minha vida inteira
+Eu nunca estive presente</span>
+</div>
+<div id=quoteArt>
+<a href="/30-seconds-to-mars/city-of-angels.html">
+City Of Angels<span>30 Seconds To Mars</span>
+</a>
+<var id=share></var>
+<var class="vBtn play" data-url="/30-seconds-to-mars/city-of-angels.html#play">PLAY</var>
+</div>
+</div>
+<div id=spotVideo class=vTrack>
+<h6 data-text='Clipes em destaque'>Clipes em destaque</h6>
+<div id=label_video>
+<label id=month class=vSel>
+<select class=vForm>
+<option value="01">Janeiro</option>
+ <option value="02">Fevereiro</option>
+ <option value="03">Março</option>
+ <option value="04">Abril</option>
+ <option value="05">Maio</option>
+ <option value="06">Junho</option>
+ <option value="07">Julho</option>
+ <option value="08">Agosto</option>
+ <option value="09">Setembro</option>
+ <option value="10">Outubro</option>
+ <option value="11">Novembro</option>
+ <option value="12">Dezembro</option>
+ </select>
+</label>
+<label id=year class=vSel>
+<select class=vForm>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+</select>
+</label>
+</div>
+<div id=artVideo>
+<div id=vTeaser class=vPlayerStd itemprop=video itemtype="https://schema.org/VideoObject">
+<img itemprop=thumbnail alt=Play src="https://i1.ytimg.com/vi/fRNkQH4DVg8/hqdefault.jpg"/>
+<div class=vidCtrl>
+<ul>
+<li class="prev disable"></li>
+<li class=play></li>
+<li class=next></li>
+</ul>
+</div>
+</div>
+</div>
+<div id=moreSpotVideo class=shadowSpotDown>
+<ul>
+<li  id=vh_li201703 data-month="MAR / 2017" class="firstDay selected">
+<a class=mus href="/the-chainsmokers/paris.html" data-date="24/03/2017" data-playitem="[&quot;fRNkQH4DVg8&quot;,&quot;Paris&quot;,&quot;3ade68b8gb096b0b3&quot;,&quot;The Chainsmokers&quot;,&quot;3ade68b7g14e62ea3&quot;]" data-img="https://s2.vagalume.com/the-chainsmokers/images/profile.jpg">Paris</a>
+The Chainsmokers</li>
+<li >
+<a class=mus href="/the-pretty-reckless/oh-my-god.html" data-date="23/03/2017" data-playitem="[&quot;ldaYUkyDxx0&quot;,&quot;Oh My God&quot;,&quot;3ade68b8g497da0b3&quot;,&quot;The Pretty Reckless&quot;,&quot;3ade68b7gf9431ea3&quot;]" data-img="https://s2.vagalume.com/the-pretty-reckless/images/profile.jpg">Oh My God</a>
+The Pretty Reckless</li>
+<li >
+<a class=mus href="/kings-of-leon/reverend.html" data-date="22/03/2017" data-playitem="[&quot;ldaMJG_sb18&quot;,&quot;Reverend&quot;,&quot;3ade68b8gd6ffa0b3&quot;,&quot;Kings Of Leon&quot;,&quot;3ade68b6g564aeda3&quot;]" data-img="https://s2.vagalume.com/kings-of-leon/images/profile.jpg">Reverend</a>
+Kings Of Leon</li>
+<li >
+<a class=mus href="/you-me-at-six/give.html" data-date="21/03/2017" data-playitem="[&quot;r6EakBG9DuI&quot;,&quot;Give&quot;,&quot;3ade68b8gb3c3b0b3&quot;,&quot;You Me At Six&quot;,&quot;3ade68b7g1b030ea3&quot;]" data-img="https://s2.vagalume.com/you-me-at-six/images/profile.jpg">Give</a>
+You Me At Six</li>
+<li >
+<a class=mus href="/lady-gaga/john-wayne.html" data-date="20/03/2017" data-playitem="[&quot;o9iQ8lIfyEs&quot;,&quot;John Wayne&quot;,&quot;3ade68b8ga7a0b0b3&quot;,&quot;Lady Gaga&quot;,&quot;3ade68b7g7d2c0ea3&quot;]" data-img="https://s2.vagalume.com/lady-gaga/images/profile.jpg">John Wayne</a>
+Lady Gaga</li>
+<li >
+<a class=mus href="/twenty-one-pilots/heavydirtysoul.html" data-date="17/03/2017" data-playitem="[&quot;r_9Kf0D5BTs&quot;,&quot;Heavydirtysoul&quot;,&quot;3ade68b8g4f2d70b3&quot;,&quot;Twenty One Pilots&quot;,&quot;3ade68b7g2e7f1ea3&quot;]" data-img="https://s2.vagalume.com/twenty-one-pilots/images/profile.jpg">Heavydirtysoul</a>
+Twenty One Pilots</li>
+<li >
+<a class=mus href="/zara-larsson/so-good-feat-ty-dolla-sign.html" data-date="16/03/2017" data-playitem="[&quot;XTWDTBkj6xU&quot;,&quot;So Good (Feat. Ty Dolla $ign)&quot;,&quot;3ade68b8gc837b0b3&quot;,&quot;Zara Larsson&quot;,&quot;3ade68b7gc3152ea3&quot;]" data-img="https://s2.vagalume.com/zara-larsson/images/profile.jpg">So Good (Feat. Ty Dolla $ign)</a>
+Zara Larsson</li>
+<li >
+<a class=mus href="/mariah-carey/i-dont-feat-yg.html" data-date="15/03/2017" data-playitem="[&quot;oiQ68AW0LMY&quot;,&quot;I Don&#039;t (Feat. YG)&quot;,&quot;3ade68b8gdcf7b0b3&quot;,&quot;Mariah Carey&quot;,&quot;3ade68b4g9fb6eda3&quot;]" data-img="https://s2.vagalume.com/mariah-carey/images/profile.jpg">I Don&#039;t (Feat. YG)</a>
+Mariah Carey</li>
+<li >
+<a class=mus href="/james-blunt/love-me-better.html" data-date="14/03/2017" data-playitem="[&quot;RFHHEac83B8&quot;,&quot;Love Me Better&quot;,&quot;3ade68b8g0ce7b0b3&quot;,&quot;James Blunt&quot;,&quot;3ade68b6g601feda3&quot;]" data-img="https://s2.vagalume.com/james-blunt/images/profile.jpg">Love Me Better</a>
+James Blunt</li>
+<li >
+<a class=mus href="/inna/gimme-gimme.html" data-date="13/03/2017" data-playitem="[&quot;Jr4TMIU9oQ4&quot;,&quot;Gimme Gimme&quot;,&quot;3ade68b8g9fc7b0b3&quot;,&quot;Inna&quot;,&quot;3ade68b7g2fd21ea3&quot;]" data-img="https://s2.vagalume.com/inna/images/profile.jpg">Gimme Gimme</a>
+Inna</li>
+<li >
+<a class=mus href="/robin-schulz/shed-a-light-ft-david-guetta-cheat-codes.html" data-date="10/03/2017" data-playitem="[&quot;vdI0JLVhdYc&quot;,&quot;Shed a Light (Ft. David Guetta &amp; Cheat Codes)&quot;,&quot;3ade68b8gc7d3b0b3&quot;,&quot;Robin Schulz&quot;,&quot;3ade68b7g0a592ea3&quot;]" data-img="https://s2.vagalume.com/robin-schulz/images/profile.jpg">Shed a Light (Ft. David Guetta &amp; Cheat Codes)</a>
+Robin Schulz</li>
+<li >
+<a class=mus href="/ed-sheeran/shape-of-you.html" data-date="09/03/2017" data-playitem="[&quot;JGwWNGJdvx8&quot;,&quot;Shape Of You&quot;,&quot;3ade68b8g4a06b0b3&quot;,&quot;Ed Sheeran&quot;,&quot;3ade68b7g30dd1ea3&quot;]" data-img="https://s2.vagalume.com/ed-sheeran/images/profile.jpg">Shape Of You</a>
+Ed Sheeran</li>
+<li >
+<a class=mus href="/dan-croll/away-from-today.html" data-date="08/03/2017" data-playitem="[&quot;Foeoyb9AIS0&quot;,&quot;Away From Today&quot;,&quot;3ade68b8g0577b0b3&quot;,&quot;Dan Croll&quot;,&quot;3ade68b7g0c872ea3&quot;]" data-img="https://s2.vagalume.com/dan-croll/images/profile.jpg">Away From Today</a>
+Dan Croll</li>
+<li >
+<a class=mus href="/taylor-swift/i-dont-wanna-live-forever.html" data-date="07/03/2017" data-playitem="[&quot;7F37r50VUTQ&quot;,&quot;I Don&#039;t Wanna Live Forever&quot;,&quot;3ade68b8g8594b0b3&quot;,&quot;Taylor Swift&quot;,&quot;3ade68b6gaefbfda3&quot;]" data-img="https://s2.vagalume.com/taylor-swift/images/profile.jpg">I Don&#039;t Wanna Live Forever</a>
+Taylor Swift</li>
+<li >
+<a class=mus href="/martin-garrix/scared-to-be-lonely-feat-dua-lipa.html" data-date="06/03/2017" data-playitem="[&quot;e2vBLd5Egnk&quot;,&quot;Scared To Be Lonely (Feat. Dua Lipa)&quot;,&quot;3ade68b8g5767b0b3&quot;,&quot;Martin Garrix&quot;,&quot;3ade68b7gb5462ea3&quot;]" data-img="https://s2.vagalume.com/martin-garrix/images/profile.jpg">Scared To Be Lonely (Feat. Dua Lipa)</a>
+Martin Garrix</li>
+<li >
+<a class=mus href="/lily-allen/going-to-a-town.html" data-date="03/03/2017" data-playitem="[&quot;5NeqyLBHkCQ&quot;,&quot;Going To a Town&quot;,&quot;3ade68b8gc657b0b3&quot;,&quot;Lily Allen&quot;,&quot;3ade68b6g5e76fda3&quot;]" data-img="https://s2.vagalume.com/lily-allen/images/profile.jpg">Going To a Town</a>
+Lily Allen</li>
+<li >
+<a class=mus href="/ed-sheeran/castle-on-the-hill.html" data-date="02/03/2017" data-playitem="[&quot;K0ibBPhiaG0&quot;,&quot;Castle On The Hill&quot;,&quot;3ade68b8gda06b0b3&quot;,&quot;Ed Sheeran&quot;,&quot;3ade68b7g30dd1ea3&quot;]" data-img="https://s2.vagalume.com/ed-sheeran/images/profile.jpg">Castle On The Hill</a>
+Ed Sheeran</li>
+<li >
+<a class=mus href="/little-mix/touch.html" data-date="01/03/2017" data-playitem="[&quot;gBAfejjUQoA&quot;,&quot;Touch&quot;,&quot;3ade68b8g2a63b0b3&quot;,&quot;Little Mix&quot;,&quot;3ade68b7g9f402ea3&quot;]" data-img="https://s2.vagalume.com/little-mix/images/profile.jpg">Touch</a>
+Little Mix</li>
+</ul>
+</div>
+<div class=spotVideo>
+<var class="up vBtn disable"></var><var class="down vBtn"></var>
+</div>
+</div>
+<div id="main_vagalumefm">
+<h6 data-text="R&aacute;dio Vagalume.FM">R&aacute;dio Vagalume.FM</h6>
+<a href="https://vagalume.fm/" target="_blank">Todas as esta&ccedil;&otilde;es &raquo;</a>
+<ul>
+<li>
+<a href="https://vagalume.fm/vagalume-vibe/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/vagalume-vibe.png" alt="Vagalume Vibe">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/pop/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/pop.png" alt="Pop">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/sertanejo/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/sertanejo.png" alt="Sertanejo">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock.png" alt="Rock">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/mpb/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/mpb.png" alt="MPB">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/summer/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/summer.png" alt="Summer">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/gospel/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/gospel.png" alt="Gospel">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/reggae/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/reggae.png" alt="Raggae">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/punk-pop/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/punk-pop.png" alt="Punk Pop">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/acustico/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/acustico.png" alt="Ac&uacute;stico">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/eletronica/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/eletronica.png" alt="Eletr&ocirc;nica">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rb/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rb.png" alt="R&amp;B">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock-de-bowie-ao-seculo-21/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock-de-bowie-ao-seculo-21.png" alt="Rock - De Bowie ao s&eacute;culo 21">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock-das-raizes-ao-progressivo/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock-das-raizes-ao-progressivo.png" alt="Rock - Das Ra&iacute;zes ao Progressivo ">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/light/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/light.png" alt="Light">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/flashback/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/flashback.png" alt="Flashback">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/dance-music/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/dance-music.png" alt="Dance Music">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/trilhas-e-etc/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/trilhas-e-etc.png" alt="Temas de S&eacute;ries e Desenhos">
+</a>
+</li>
+</ul>
+</div>
+<div id=tops>
+<div id=topartists class=vTrack>
+<h6 data-text='Top Artistas'>Top Artistas</h6>
+<div id=label_filter_art>
+<label class="vSel lblgroup art">
+<select class=vForm data-type=art>
+<option value=internacional>Internacional</option>
+<option value=all>Geral</option>
+<option value=nacional>Nacional</option>
+</select>
+</label>
+<label class="vSel lbltime art">
+<select class=vForm data-type=art>
+<option data-type="day" value="20170326">Hoje</option>
+<option data-type="day" value="20170325">Ontem</option>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topart>
+<li class=vArtV>
+<a href="/ed-sheeran/" data-img="https://s2.vagalume.com/ed-sheeran/images/profile-widew314.jpg" width=314>
+<span class=rankPos>01&deg;</span>
+<em>
+<span>Ed Sheeran</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/melanie-martinez/" data-img="https://s2.vagalume.com/melanie-martinez/images/profile-big.jpg" width=152>
+<span class=rankPos>02&deg;</span>
+<em>
+<span>Melanie Martinez</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/coldplay/" data-img="https://s2.vagalume.com/coldplay/images/profile-big.jpg" width=152>
+<span class=rankPos>03&deg;</span>
+<em>
+<span>Coldplay</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/the-chainsmokers/" data-img="https://s2.vagalume.com/the-chainsmokers/images/profile-big.jpg" width=152>
+<span class=rankPos>04&deg;</span>
+<em>
+<span>The Chainsmokers</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/justin-bieber/" data-img="https://s2.vagalume.com/justin-bieber/images/profile-big.jpg" width=152>
+<span class=rankPos>05&deg;</span>
+<em>
+<span>Justin Bieber</span>
+</em>
+</a>
+</li>
+</ul>
+<div class="pagination art">
+<var class="vBtn up disable" data-type=art></var><var class="vBtn down " data-type=art></var>
+<a href="/top100/artistas/" class=linkTop100> Top 100 artistas &raquo;</a>
+</div>
+</div>
+<div id=topmusics class=vTrack>
+<h6 data-text='Top M&uacute;sicas'>Top M&uacute;sicas</h6>
+<div id=label_filter_msc>
+<label class="vSel lblgroup mus">
+<select class=vForm data-type=mus>
+<option value=lyrics>Geral</option>
+<option value=all>Letras</option>
+<option value=translations>Tradu&ccedil;&otilde;es</option>
+<option value=chords>Cifras</option>
+</select>
+</label>
+<label class="vSel lbltime mus">
+<select class=vForm data-type=mus>
+<option data-type="day" value="20170326">Hoje</option>
+<option data-type="day" value="20170325">Ontem</option>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topmus>
+<li>
+<b>01</b>
+<a href="/ana-vilela/trem-bala.html">Trem Bala<i>Ana Vilela</i></a>
+</li>
+<li>
+<b>02</b>
+<a href="/henrique-e-juliano/vidinha-de-balada.html">Vidinha de Balada<i>Henrique e Juliano</i></a>
+</li>
+<li>
+<b>03</b>
+<a href="/ed-sheeran/shape-of-you.html">Shape Of You<i>Ed Sheeran</i></a>
+</li>
+<li>
+<b>04</b>
+<a href="/thiago-matheus/eu-nao-quero-casar.html">Eu Não Quero Casar<i>Thiago Matheus</i></a>
+</li>
+<li>
+<b>05</b>
+<a href="/ed-sheeran/shape-of-you-traducao.html">Shape Of You (tradução)<i>Ed Sheeran</i></a>
+</li>
+<li>
+<b>06</b>
+<a href="/ney-alves/kakaka.html">Kakaka<i>Ney Alves</i></a>
+</li>
+<li>
+<b>07</b>
+<a href="/nego-do-borel/voce-partiu-meu-coracao-feat-anitta-wesley-safadao.html">Voce Partiu Meu Coração (Feat. Anitta & Wesley Safadão)<i>Nego do Borel</i></a>
+</li>
+<li>
+<b>08</b>
+<a href="/matheus-e-kauan/te-assumi-pro-brasil.html">Te Assumi Pro Brasil<i>Matheus e Kauan</i></a>
+</li>
+<li>
+<b>09</b>
+<a href="/haikaiss/rap-lord.html">Rap Lord<i>Haikaiss</i></a>
+</li>
+<li>
+<b>10</b>
+<a href="/marilia-mendonca/de-quem-e-a-culpa.html">De Quem É a Culpa?<i>Marília Mendonça</i></a>
+</li>
+<span class=notFound>Dados ainda n&atilde;o dispon&iacute;veis para o<br/>periodo que voc&ecirc; escolheu!<br/><br/>Se o problema persistir, por favor<br/><a href="/contato/" rel="nofollow">avise</a> a equipe do Vagalume!</span>
+</ul>
+<div class="pagination mus">
+<var class="vBtn up disable" data-type=mus></var><var class="vBtn down" data-type=mus></var>
+<a href="/top100/musicas/" class=linkTop100> Top 100 m&uacute;sicas &raquo;</a>
+</div>
+</div>
+<div id=topalbuns class=vTrack>
+<h6 data-text="Top &Aacute;lbuns">Top &Aacute;lbuns</h6>
+<div id=label_filter_alb>
+<label class="vSel lblgroup alb">
+<select class=vForm data-type=alb>
+<option value=internacional>Internacional</option>
+<option value=all>Geral</option>
+<option value=nacional>Nacional</option>
+</select>
+</label>
+<label class="vSel lbltime alb">
+<select class=vForm data-type=alb>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topalb>
+<li class=vArtAlb>
+<a href="/ed-sheeran/discografia/-10.html" data-date="2017" data-img="https://s2.vagalume.com/ed-sheeran/discografia/-10-W100.jpg">
+<span class=rankPos>01&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>÷</span>
+<i>Ed Sheeran</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/melanie-martinez/discografia/cry-baby.html" data-date="2015" data-img="https://s2.vagalume.com/melanie-martinez/discografia/cry-baby-W100.jpg">
+<span class=rankPos>02&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Cry Baby</span>
+<i>Melanie Martinez</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/ed-sheeran/discografia/x-letras-11.html" data-date="2014" data-img="https://s2.vagalume.com/ed-sheeran/discografia/x-letras-11-W100.jpg">
+<span class=rankPos>03&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>x</span>
+<i>Ed Sheeran</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/shawn-mendes/discografia/illuminate.html" data-date="2016" data-img="https://s2.vagalume.com/shawn-mendes/discografia/illuminate-W100.jpg">
+<span class=rankPos>04&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Illuminate</span>
+<i>Shawn Mendes</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/justin-bieber/discografia/purpose.html" data-date="2015" data-img="https://s2.vagalume.com/justin-bieber/discografia/purpose-W100.jpg">
+<span class=rankPos>05&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Purpose</span>
+<i>Justin Bieber</i>
+</a>
+</li>
+</ul>
+<div class="pagination alb">
+<var class="up vBtn disable" data-type=alb></var><var class="down vBtn" data-type=alb></var>
+<a href="/top100/albuns/" class=linkTop100> Top 100 &aacute;lbuns &raquo;</a>
+</div>
+</div>
+</div></div>
+<footer id=rodape>
+<div id=footVglLink>
+<div>
+<span>www.vagalume.com.br</span>
+</div>
+</div>
+<div id=footVglSections>
+<div id=column1>
+<div id=allSites>
+<span>Todos os nossos sites</span>
+<ul>
+<li><a href="https://www.vagalume.com.br/playlisteiros/">Playlisteiros</a></li>
+<li><a href="https://drive.vagalume.com.br/">Drive</a></li>
+<li><a href="https://aprenda.vagalume.com.br/">Aprenda Inglês</a></li>
+<li><a href="https://traducao.vagalume.com.br/">Tradução</a></li>
+<li><a href="https://www.vagalume.com.br/copa2014/">Copa Vagalume 2014</a></li>
+<li><a href="https://www.vagalume.com.br/retrospectiva/2016/">Retrospectiva Vagalume 2016</a></li>
+<li><a href="https://vagalume.fm">Rádio Vagalume.FM</a></li>
+</ul>
+</div>
+</div>
+<div id=column2>
+<div id=onSmartphone>
+<span>Ouça música grátis no Vagalume.FM pelo seu celular</span>
+<ol>
+<li><a class=iconGplay target=_blank href="https://play.google.com/store/apps/details?id=br.com.vagalume.fm&referrer=utm_campaign%3DVagalume%26utm_source%3DVagalumeHomeFooter"></a></li>
+<li><a class=iconApple target=_blank href="https://itunes.apple.com/br/app/vagalume/id1154246231?ct=VagalumeHomeFooter"></a></li>
+</ol>
+</div>
+<br>
+<div id=onNetwork>
+<span>Nas Redes Sociais</span>
+<ol>
+<li><a class=iconFB href="//facebook.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconInstagram href="//instagram.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconTwitter href="//twitter.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconGoogle href="//google.com/+vagalume" target=_blank></a></li>
+<li><a class=iconYT href="//youtube.com/user/sitevagalume" target=_blank></a></li>
+<li><a class=iconTumblr href="//quotes.vagalume.com/" target=_blank></a></li>
+</ol>
+</div>			
+</div>
+<div id=column3>
+<div id=onPC>
+<span>No seu PC</span>
+<ol>
+<li><a class=iconChrome href="/plugin/chrome/"></a></li>
+<li><a class=iconItunes href="/plugin/itunes/"></a></li>
+<li><a class=iconMP href="/plugin/mediaplayer/"></a></li>
+<li><a class=iconWinamp href="/plugin/winamp/"></a></li>
+</ol>
+</div>
+<br>
+<div id=vagaPartner>
+<span>Parceiro Vagalume</span>
+<a class=iconPartner href="//entretenimento.r7.com/" target=_blank></a>
+</div>
+</div>
+</div>
+</footer>
+<div id=vgInfo><p>As informações deste site são postadas integralmente pelos usuários. É importante dizer que é possível que os dados estejam desatualizados ou incorretos, sendo assim, o Vagalume exime-se de qualquer responsabilidade sobre as informações publicadas.Caso haja interesse em remover ou alterar alguma informação, <a href="/contato/">entre em contato</a> conosco.</p><br><p>É permitida somente a visualização no site das letras de músicas encontradas aqui, vedada sua reprodução através de quaisquer outros meios (Lei 9610/98).Todas as letras de músicas são propriedade dos seus respectivos autores e divulgadas somente para fins educacionais.All lyrics are property and copyright of their owners. All lyrics are provided for educational purposes only.</p></div><script type="text/javascript" id=vData>
+window.vData = window.vData?window.vData:{};
+window._sf_startpt=(new Date()).getTime();
+</script>
+<script type="text/javascript" src="/js/loader_20160128.bundle.js"></script>
+<script type="text/javascript">
+$LAB
+.script('/js/jquery-1.11.1.js')
+.script('vgl2')
+.wait(function(){
+vagalume.setDHTML();
+$LAB.script('home').wait(function(){$(function(){vagalume.home.init();;});});
+});
+</script>
+<div id=ads>
+<div id=superbanner></div>
+</div>
+</body>
+</html>
+|||http://bit.ly/belacozinhayt|
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml" lang="pt-BR" xml:lang="pt-BR">
+    <head>
+        
+        <script type="text/javascript">var _sf_startpt=(new Date()).getTime();</script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Bela Cozinha - GNT</title>
+        
+        <meta name="description" content="Depois de cinco temporadas recheadas de pratos saborosos e saudáveis, Bela Gil vai mostrar que gastronomia não é só receita. E que para o alimento ser saudável, além de fazer bem para nossa saúde, ele deve ser cultivado de maneira limpa, sem prejudicar o meio ambiente, e justa para produtores e consumidores. Com uma cozinha itinerante, Bela viaja em busca dos ingredientes mais tradicionais da nossa culinária.
+
+O objetivo é mostrar o circuito do produto da semente na terra ao prato da sua casa, incentivar o consumo de produtos locais e ensinar receitas ainda mais saborosas. A cada parada, Bela interage com personagens locais como agricultores, produtores, feirantes, cozinheiros, chefs e outras figuras interessantes com muitas histórias para contar. Além disso, ela analisa do ponto de vista nutricional o ingrediente-chave de cada episódio nas suas diferentes formas de consumo. E tudo acaba, é claro, na cozinha.
+
+Direção: Pedro Waddigton e Isabel Nascimento Silva."/>
+        <meta name="keywords" content=""/>
+        <meta property="og:site_name" content="GNT"/>
+        <meta property="og:type" content=""/>
+        <meta property="og:title" content="Bela Cozinha - GNT"/>
+        <meta property="og:image" content="http://g.glbimg.com/og/gs/gsat5/f/thumbs/programa/2014/11/28/Bela-Cozinha-Thumb-385.jpg"/>
+        <meta property="og:description" content="Depois de cinco temporadas recheadas de pratos saborosos e saudáveis, Bela Gil vai mostrar que gastronomia não é só receita. E que para o alimento ser saudável, além de fazer bem para nossa saúde, ele deve ser cultivado de maneira limpa, sem prejudicar o meio ambiente, e justa para produtores e consumidores. Com uma cozinha itinerante, Bela viaja em busca dos ingredientes mais tradicionais da nossa culinária.
+
+O objetivo é mostrar o circuito do produto da semente na terra ao prato da sua casa, incentivar o consumo de produtos locais e ensinar receitas ainda mais saborosas. A cada parada, Bela interage com personagens locais como agricultores, produtores, feirantes, cozinheiros, chefs e outras figuras interessantes com muitas histórias para contar. Além disso, ela analisa do ponto de vista nutricional o ingrediente-chave de cada episódio nas suas diferentes formas de consumo. E tudo acaba, é claro, na cozinha.
+
+Direção: Pedro Waddigton e Isabel Nascimento Silva."/>
+        
+        <meta property="og:url" content="http://gnt.globo.com/programas/bela-cozinha/"/>
+        <link rel="canonical" href="http://gnt.globo.com/programas/bela-cozinha/"/>
+        
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content="Bela Cozinha - GNT"/>
+        <meta name="twitter:site" content="@canalgnt"/>
+        <meta name="twitter:image:src" content="http://g.glbimg.com/og/gs/gsat5/f/thumbs/programa/2014/11/28/Bela-Cozinha-Thumb-385.jpg"/>
+        <meta name="twitter:description" content="Depois de cinco temporadas recheadas de pratos saborosos e saudáveis, Bela Gil vai mostrar que gastronomia não é só receita. E que para o alimento ser saudável, além de fazer bem para nossa saúde, ele deve ser cultivado de maneira limpa, sem prejudicar o meio ambiente, e justa para produtores e consumidores. Com uma cozinha itinerante, Bela viaja em busca dos ingredientes mais tradicionais da nossa culinária.
+
+O objetivo é mostrar o circuito do produto da semente na terra ao prato da sua casa, incentivar o consumo de produtos locais e ensinar receitas ainda mais saborosas. A cada parada, Bela interage com personagens locais como agricultores, produtores, feirantes, cozinheiros, chefs e outras figuras interessantes com muitas histórias para contar. Além disso, ela analisa do ponto de vista nutricional o ingrediente-chave de cada episódio nas suas diferentes formas de consumo. E tudo acaba, é claro, na cozinha.
+
+Direção: Pedro Waddigton e Isabel Nascimento Silva."/>
+        <meta name="twitter:widgets:csp" content="on"/>
+        
+        
+        
+        <link rel="icon" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/favicon/favicon.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/favicon/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/favicon/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/favicon/favicon-76.png">
+        <link rel="apple-touch-icon" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/favicon/favicon-57.png">
+        <link rel="stylesheet" type="text/css" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/styles/gnt/produto.css">
+
+        <script type="text/javascript" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/scripts/comum/libs/jquery.js"></script>
+		
+		
+	        
+		        
+	    	    
+			
+		        
+	    	    
+					<meta name="apple-itunes-app" content="app-id=668151960"/>
+<meta name="google-play-app" content="app-id=br.tv.horizonte.receitas.vod.android"/>
+<link rel="stylesheet" href="http://g.glbimg.com/og/gs/gsat5/static_files/common/css/jquery.smartbanner.css" type="text/css" media="screen">
+<script type="text/javascript" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/scripts/comum/libs/jquery.smartbanner.js"></script>
+<script type="text/javascript">
+$(function() { $.smartbanner({
+	title: 'Receitas GNT',
+	author: ' ',
+	price: 'Grátis',
+	inGooglePlay: 'Na Play Store',
+	icon: 'http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/receita-app-icon.png',
+	button: 'Abrir',
+	layer: true}); 
+	  });
+
+</script>
+	        	
+			
+		
+        
+          
+    
+    <link rel="stylesheet" type="text/css" href="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/styles/gnt/home-programa.css">
+
+        
+        <script type="text/javascript">
+            var STATIC_URL = "http://g.glbimg.com/og/gs/gsat5/static_files/";
+            var MEDIA_URL = "http://g.glbimg.com/og/gs/gsat5/f/";
+            var CLIENT_URL = "http://g.glbimg.com/og/gs/gsat5/static_files/";
+            var ENV = "prod";
+            var CANAL_SLUG = "gnt";
+            var CANAL_NOME = "GNT";
+            var PAGE_UUID = "b12798ad-14b5-445d-8c62-b8c813e0a718";
+            
+            var conteudo_adulto = false;
+
+            
+              var OAS_formats = "x30,Right1,Position2,Top,Position1,Top1,Middle,Middle1,Frame1";
+              var OAS_sitepage_prefixo = "oggsatgnt";
+            
+
+            var utag_data = {
+                estrutura: ["gnt", "programas", "bela-cozinha"],
+                pilar: false,
+                formatos: OAS_formats
+            };
+            
+            var pilarNome = '';
+
+            var URL_COOKIE_POOL = 'http://relacionadosites.appspot.com/access/';
+
+        </script>
+        
+    </head>
+    
+    <body class="" data-menu="bela-cozinha">
+    
+        <div id="fb-root"></div>
+        
+    
+
+<div class="glb-grid-12">
+	
+<header class="widget-menu"><div class="container"><div class="up"></div><div class="navegacao"><div class="botao"><div class="icone"><span class="barra b1"></span><span class="barra b2"></span><span class="barra b3"></span></div><div class="texto">menu</div></div><nav class="menu"><div class="menu-busca"><div class="icone svg-inject" data-src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/icone-lupa.svg"></div><input type="text" placeholder="BUSCAR" class="campo"></div><div data-id="bela-cozinha" data-nivel="1" class="submenu prog"><div class="grupo"><ul class="lista"><li class="item desktop"><a href="http://gnt.globo.com/programas/bela-cozinha" class="link">HOME DO PROGRAMA</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/bela-cozinha/ultimas-receitas.html">receitas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/bela-cozinha/episodios.html">episódios</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/bela-cozinha/ultimas.html?#tipo=video">vídeos</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/bela-cozinha/ultimas.html?#tipo=materia&amp;pag=1">matérias</a></li><li class="item"><a class="link" href="http://gnt.globo.com/fale-conosco.html">fale conosco</a></li><li class="item play"><a href="http://globosatplay.globo.com/gnt/bela-cozinha/" class="link"><div class="texto">veja no </div><div class="imagem svg-inject" data-src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/play.svg"></div></a></li></ul><ul class="lista destacado desktop programa"><li class="item"><a href="/" class="link">Home do GNT</a></li><li class="item"><a href="/programacao.html" class="link">Programação</a></li><li class="item agrupador agrupador-especiais"><a href="/especiais/" class="link">Especiais</a></li></ul></div></div><div data-nivel="2" data-id="especiais" class="submenu"><div class="grupo"><ul class="lista lista-especial"><li class="item voltar"><a class="link">VOLTAR</a></li></ul></div></div><div data-id="temas" data-nivel="2" class="submenu"><div class="grupo"><ul class="lista lista-pilar"><li class="item voltar"><a class="link">VOLTAR</a></li></ul></div></div></nav></div><div class="produto"><div class="centro"><a href="http://gnt.globo.com" itemscope itemtype="http://schema.org/Organization" class="logo"><meta itemprop="name" content="GNT"><meta itemprop="url" content="http://gnt.globo.com"><meta itemprop="logo" content="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/logo/gnt.png"><div class="imagem svg-inject"  data-src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/logo/gnt.svg"></div></a><a href="http://gnt.globo.com/programas/bela-cozinha" class="info"><div class="nome ">Bela Cozinha</div></a></div></div><div class="busca"><div class="icone svg-inject" data-src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/icone-lupa.svg"></div><input type="text" placeholder="BUSCAR" class="campo"></div></div></header><div id="push-down"></div>
+
+
+</div>
+
+
+        
+        <div id="ad-background"></div>
+        <div id="area-background" class="area-banner-x30">
+          <main class="main" >
+              
+    
+
+
+<div class="area-destaque-programa">
+  <div class="widget-destaque-modular">
+	<div class="elemento-destaque-modular tipo-inteiro centralizar">
+		
+			<a class="item" href="http://gnt.globo.com/programas/bela-gil/videos/5679381.htm" title="">
+	<div class="recipiente">
+		<div class="figura">
+			<img alt=""  src="http://s2.glbimg.com/VNSDd9JQo3x0P6Osu8floNbIdvY=/940x420/top/g.glbimg.com/og/gs/gsat5/f/destaques/video/2017/02/24/5679381.jpg" class="imagem">
+			<img alt=""  src="http://s2.glbimg.com/VNSDd9JQo3x0P6Osu8floNbIdvY=/940x420/top/g.glbimg.com/og/gs/gsat5/f/destaques/video/2017/02/24/5679381.jpg" class="imagem-responsiva">
+			
+			<span class="botao"></span>
+			
+		</div>
+		<span class="agrupador">
+			
+			<span class="chapeu">
+				Vida Mais Bela
+			</span>
+			
+			<br>
+			
+			<span class="texto" limite="100">
+				
+				Reality com Bela Gil e família estreia dia 07 de março, às 20h
+				
+			</span>
+			
+		</span>
+	</div>
+</a>
+ 
+		
+	</div>
+</div>
+
+</div>
+
+<div class="area-conteudo-home-programa">
+  <div class="widget-publicidade horizontal-pub"><span>publicidade</span>
+  <div id="horizontal-pub" class="banner">
+  </div>
+</div>
+
+  <div class="agrupador-widgets">
+    <div class="widget-destaque-simples">
+	<h3 class="titulo">Todas as receitas</h3>
+	<div class="elemento-destaque">
+		<a class="link" href="http://gnt.globo.com/programas/bela-cozinha/ultimas-receitas.html">
+			<span class="figura">
+				
+				<img alt=""  class="imagem" src="http://s2.glbimg.com/Xf4PTDa9Kpz42CYRfLzPsSNUgtg=/300x187/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/12/16/raizes.jpg"/>
+				
+			</span>
+			<span class="texto">Confira todas as receitas leves, saudáveis e bem brasileiras preparadas no programa</span>
+		</a>
+	</div>
+</div>
+<div class="widget-destaque-simples">
+	<h3 class="titulo">Novo livro</h3>
+	<div class="elemento-destaque">
+		<a class="link" href="http://gnt.globo.com/programas/bela-cozinha/materias/um-dia-vem-uma-louca-e-sugere-churrasco-de-melancia-achavam-que-eu-queria-aparecer-comenta-bela-gil.htm">
+			<span class="figura">
+				
+				<img alt="Livro Bela Gil - Ingredientes do Brasil" title="Foto: André Bittencourt " class="imagem" src="http://s2.glbimg.com/_HRWiomj1gDVF2uPBDJg3jgZl1o=/300x187/g.glbimg.com/og/gs/gsat5/f/original/2016/12/22/livro-belagil.jpg"/>
+				
+			</span>
+			<span class="texto">Bela fala sobre o terceiro livro, focado em ingredientes veganos e gluten free</span>
+		</a>
+	</div>
+</div>
+<div class="widget-destaque-simples">
+	<h3 class="titulo">Assista no GNT Play</h3>
+	<div class="elemento-destaque">
+		<a class="link" href="http://globosatplay.globo.com/gnt/bela-cozinha/">
+			<span class="figura">
+				
+				<img alt="Bela Cozinha - VOD" title="Foto: Divulgação" class="imagem" src="http://s2.glbimg.com/KZE8FpkYC-IssHj-mglSV4OAOPY=/300x187/g.glbimg.com/og/gs/gsat5/f/original/2015/06/17/bela-cozinha-vod.jpg"/>
+				
+			</span>
+			<span class="texto">Perdeu algum episódio? Então acesse o serviço da sua oporadora ou o GNT Play e confira!</span>
+		</a>
+	</div>
+</div>
+
+  </div>
+
+  <div class="agrupador-widgets">
+    
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+        <img src="http://s2.glbimg.com/3CMvfuaS3y9HZhMjMxxihvbm3i4=/60x60/g.glbimg.com/og/gs/gsat5/f/thumbs/agrupador/2015/04/17/sobremesas.jpg" class="icone">
+      
+      
+        Doces e sobremesas
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/programas/bela-cozinha/videos/5335415.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/sEVFtb6OClHixdMaxWvXEceoFaQ=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/destaques/video/2016/09/27/5335415.jpg" data-src-retina="http://s2.glbimg.com/beLoUlyf60sd2WWnyh3m_ZbqV2w=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/destaques/video/2016/09/27/5335415.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/programas/bela-cozinha/videos/5335415.htm" class="link">Receita de petit gâteau vegano com calda da Bela</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/programas/bela-cozinha/videos/5516490.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/Z5yNdulLdIPVp7k43i1M9fDBN14=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/destaques/video/2016/12/17/5516490.jpg" data-src-retina="http://s2.glbimg.com/PAdloVkuRFNE2yEapJTYbrjiCwA=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/destaques/video/2016/12/17/5516490.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/programas/bela-cozinha/videos/5516490.htm" class="link">Rabanada de pão integral com leite de coco e rapadura</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/sorvete-de-morango-sem-lactose-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/FOti7la-464rWxnbGWihwNrBaBE=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/11/07/sorvete-morango.jpg" data-src-retina="http://s2.glbimg.com/a7mgap0K0AX_DA6MSRIEvki81NY=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/11/07/sorvete-morango.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/sorvete-de-morango-sem-lactose-da-bela-gil.htm" class="link">Sorvete caseiro de morango sem lactose</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/bolo-de-aipim-com-coco-sem-gluten-e-sem-lactose.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/hj8SLe8zDFKND0Iv-cRBKyZJEFY=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/17/bolodecoco_bela.jpg" data-src-retina="http://s2.glbimg.com/it-BXGWkqMcdi4ybgNy4S4cwHVU=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/17/bolodecoco_bela.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/bolo-de-aipim-com-coco-sem-gluten-e-sem-lactose.htm" class="link">Bolo de aipim com coco queimadinho e sem glúten</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+      
+        
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/torta-de-chocolate-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/yBTWmMgDTO2I70WguIEiU1blhoQ=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2015/10/14/Torta_de_chocolate.jpg" data-src-retina="http://s2.glbimg.com/pNz_2aWINtqrpvBDizC8hSqzkL8=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2015/10/14/Torta_de_chocolate.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/torta-de-chocolate-da-bela-gil.htm" class="link">Torta de chocolate com morangos</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/parfait-de-coco-com-morango-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/oUxy3fBm8HwbDEYqgCFYHlUbbZw=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2015/08/21/Parfait_de_coco_com_morango.jpg" data-src-retina="http://s2.glbimg.com/BGOxcNlgi2J4QH58OR9wBuVGIXg=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2015/08/21/Parfait_de_coco_com_morango.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/parfait-de-coco-com-morango-receita-da-bela-gil.htm" class="link">Parfait de coco com morango cremosinho</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/torta-de-pera-com-massa-de-aveia-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/_UzivuHb3t6xd-8DyxcBBiGmsdE=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/11/13/bela-cozinha-24-receita-1-385.jpg" data-src-retina="http://s2.glbimg.com/nc1Xbuu54cUOgRs3f1iKzksp8i8=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/11/13/bela-cozinha-24-receita-1-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/torta-de-pera-com-massa-de-aveia-receita-da-bela-gil.htm" class="link">Torta leve de pera com massa de aveia</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/bolo-de-cenoura-com-calda-de-chocolate-bela-gil-ensina.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/Npg6eT9Q9H3UsGeOxW9aultRBPU=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/07/30/bela-cozinha-10-bolo-385.jpg" data-src-retina="http://s2.glbimg.com/_XVdRGQ2TieKjMxxa6x3lWlRdEI=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/07/30/bela-cozinha-10-bolo-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/bolo-de-cenoura-com-calda-de-chocolate-bela-gil-ensina.htm" class="link">Bolo de cenoura com calda de chocolate</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+        <img src="http://s2.glbimg.com/X-6o-ZI8ogqs6ubFfYNOLpR1xMc=/60x60/g.glbimg.com/og/gs/gsat5/f/thumbs/agrupador/2015/04/17/massas.jpg" class="icone">
+      
+      
+        Massas
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/pad-thai-da-bela-gil-veja-como-fazer-macarrao-de-arroz-tailandes.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/-vUE2IqYZnhLJOsSKr7F1WyU-_M=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/04/bela-cozinha-20-ou-7-macarrao-tailandes-1920.jpg" data-src-retina="http://s2.glbimg.com/2LoVDnMKa8xvR3pYQFYXNf6y_Wc=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/04/bela-cozinha-20-ou-7-macarrao-tailandes-1920.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/pad-thai-da-bela-gil-veja-como-fazer-macarrao-de-arroz-tailandes.htm" class="link">Pad thai da Bela Gil: veja como fazer macarrão de arroz tailandês</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-sem-gluten-com-molho-de-tahine-e-legumes.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/rOvz8z6m78LeV6JMoxX1H4eAne0=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/09/27/massa-trigosarraceno.jpg" data-src-retina="http://s2.glbimg.com/STgYzF9Kck5KaZDM6kkKxbV0jE0=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/09/27/massa-trigosarraceno.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-sem-gluten-com-molho-de-tahine-e-legumes.htm" class="link">Macarrão sem glúten com molho de tahine e legumes</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/nhoque-de-batata-baroa-com-molho-de-tomate-caseiro.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/yKExCR5DEIVDC_At37j82Zh0A4c=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/18/nhoque-molho.jpg" data-src-retina="http://s2.glbimg.com/3GZTPHlMruwKvmYf6foGWsU8DJo=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2016/10/18/nhoque-molho.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/nhoque-de-batata-baroa-com-molho-de-tomate-caseiro.htm" class="link">Nhoque de batata-baroa com molho de tomate caseiro</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/ravioli-de-aipim-com-recheio-de-tofu-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/S2c0gl8Y17g7lX5W45rh2lkpPVQ=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_RAVIOLI_385.jpg" data-src-retina="http://s2.glbimg.com/AV7G-HSex141hFkR3U3U337r7Ko=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_RAVIOLI_385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/ravioli-de-aipim-com-recheio-de-tofu-receita-da-bela-gil.htm" class="link">Ravioli de aipim com recheio de tofu</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+      
+        
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-de-abobrinha-e-cenoura-com-cogumelo-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/OyLhwVjQY5rLOm06XTxFYCNhR4E=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_ESPAGUETE_385.jpg" data-src-retina="http://s2.glbimg.com/NZ6WZZFzfifatkpOxxypuhpYOBQ=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_ESPAGUETE_385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-de-abobrinha-e-cenoura-com-cogumelo-receita-da-bela-gil.htm" class="link">Macarrão de abobrinha e cenoura com cogumelo</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/nhoque-de-inhame-ao-pesto-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/8l3TbZZ_A12qUO2PSKBMTo-5oTk=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_INHOQUE_385.jpg" data-src-retina="http://s2.glbimg.com/TW05Ywl_u6QhJicpJdGhI1D7ZpE=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/10/31/BELA_COZINHA_EP8_INHOQUE_385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/nhoque-de-inhame-ao-pesto-receita-da-bela-gil.htm" class="link">Nhoque de inhame ao molho pesto</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-integral-com-brocolis-e-tofu-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/H4LIAvtg4oApJ6s7qd6QGNTrqto=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/11/09/BELA-EP_VEGETAIS_MACARRAO-385.jpg" data-src-retina="http://s2.glbimg.com/KFf0wuepWBYp_JIb4footW8FAlU=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/11/09/BELA-EP_VEGETAIS_MACARRAO-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-integral-com-brocolis-e-tofu-receita-da-bela-gil.htm" class="link">Macarrão integral com brócolis fica ainda mais nutritiva</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-integral-caseiro-com-molho-de-beterraba-receita-de-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/kblAA-6Jbh2JZQLrofdaelgNLys=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/04/30/BELA_GIL_FRESCOR_187_8257138320916457277.jpg" data-src-retina="http://s2.glbimg.com/ZeSE010rk80IxCjHDhv-r9etNhE=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/04/30/BELA_GIL_FRESCOR_187_8257138320916457277.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/macarrao-integral-caseiro-com-molho-de-beterraba-receita-de-bela-gil.htm" class="link">Macarrão integral caseiro com molho de beterraba</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+        <img src="http://s2.glbimg.com/C3OvJg8SB_r0vdYqZf_EH_v2XP8=/60x60/g.glbimg.com/og/gs/gsat5/f/thumbs/agrupador/2015/04/17/sopas.jpg" class="icone">
+      
+      
+        Sopas e caldos
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/creme-de-couve-flor-com-alho-poro-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/OTejgzuvSZFYBJuc75IBAUeJjoA=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/27/bela-cozinha-sopas-couve-385.jpg" data-src-retina="http://s2.glbimg.com/WvUc4ZomZlNjazesvk5xGlJNS_M=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/27/bela-cozinha-sopas-couve-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/creme-de-couve-flor-com-alho-poro-receita-da-bela-gil.htm" class="link">Couve-flor com alho-poró</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/canja-de-galinha-caipira-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/TnMMlN549qw5_DMelQf0LCVvEj0=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/13/bela-cozinha-11-canja2-385.jpg" data-src-retina="http://s2.glbimg.com/z8fJAzxe7WWOCtfr0td2AeT8vGI=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/13/bela-cozinha-11-canja2-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/canja-de-galinha-caipira-receita-da-bela-gil.htm" class="link">Canja de galinha caipira</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/creme-de-milho-verde-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/enNLp_rEc3C9yJVJtCxIB5-kaeQ=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/27/bela-cozinha-sopas-milho-385.jpg" data-src-retina="http://s2.glbimg.com/QauN9DG6ZoGnFxPHUU6N1-_Eg2g=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/05/27/bela-cozinha-sopas-milho-385.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/creme-de-milho-verde-receita-da-bela-gil.htm" class="link">Creme de milho verde</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/caldo-de-legumes-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/0S4UbLMPVLplyMShNm_-f5Q_WBA=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/12/16/bela-cozinha-caldo-legumes-1920.jpg" data-src-retina="http://s2.glbimg.com/oBjGvUZ1hhnxFg0E-OB61FZxrew=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/thumbs/materia/2014/12/16/bela-cozinha-caldo-legumes-1920.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/caldo-de-legumes-receita-da-bela-gil.htm" class="link">Caldo de legumes</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+      
+        Para o café da manhã
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/tapioca-de-manga-com-coco-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/Y6US-gUdHsEDiksBn1hUHDQk8xo=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/09/29/bela-cozinha-tapioca-620.jpg" data-src-retina="http://s2.glbimg.com/pAH18iZew_HQb7R8ZqNAxA7T54g=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/09/29/bela-cozinha-tapioca-620.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/tapioca-de-manga-com-coco-receita-da-bela-gil.htm" class="link">Tapioca de manga com coco</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/leite-de-amendoas-receita-de-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/XIZiK689ANh4iFUXKp-aUFsD-EE=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/07/bela-cozinha-leite-1600.jpg" data-src-retina="http://s2.glbimg.com/mNyHGNEbzMzg2z7YVOo3domJnpg=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/07/bela-cozinha-leite-1600.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/leite-de-amendoas-receita-de-bela-gil.htm" class="link">Leite de amêndoas</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/pao-integral-receita-de-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/wXR8oTSQNbjuoyfIxi-qXg6O3yQ=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/07/bela-cozinha-pao-1600.jpg" data-src-retina="http://s2.glbimg.com/l8JdQCd7AbW3O5fl-Ko-d37F10k=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/07/bela-cozinha-pao-1600.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/pao-integral-receita-de-bela-gil.htm" class="link">Pão integral caseiro</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/ghee-a-manteiga-caseira-sem-lactose-receita-de-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/5WF2UFuLYpRPYQEPBOIb2PWfZZY=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/05/07/bela-cozinha-ghee-620.jpg" data-src-retina="http://s2.glbimg.com/PlB2JRajzYcKv8HSIIvwTlkPZ44=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/05/07/bela-cozinha-ghee-620.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/ghee-a-manteiga-caseira-sem-lactose-receita-de-bela-gil.htm" class="link">Manteiga sem lactose</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="widget-carousel-horizontal">
+  <div data-pagina="0" class="container">
+    <h2 class="titulo">
+      
+      
+        Feijoada vegana completa
+      
+    </h2>
+    <p class="botoes-container">
+      <button type="button" class="botao botao-anterior">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-esquerda.svg" class="seta-fina-esquerda">
+      </button>
+      <button type="button" class="botao botao-proximo">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/seta-fina-direita.svg" class="seta-fina-direita">
+      </button>
+    </p>
+    <div class="carousel-container">
+      <div class="carousel-limite-esquerdo"></div>
+      <div class="carousel-limite-direito"></div>
+      <div class="lista">
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/couve-refogada-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/MNrDpEEhOsVfl8hBgHF7yXKVaSo=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-couve.jpg" data-src-retina="http://s2.glbimg.com/Hc60CNPU_GMQPJjZuTaTUcWgniA=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-couve.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/couve-refogada-receita-da-bela-gil.htm" class="link">Couve refogada</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/farofa-vegana-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/YrTgGOvi3ihAGiKm17gyurxJDEg=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-farofa-1600.jpg" data-src-retina="http://s2.glbimg.com/7-wF1kusQ-cvo8epNWfDAsDEggI=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-farofa-1600.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/farofa-vegana-receita-da-bela-gil.htm" class="link">Farofa vegana</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/feijao-com-tofu-defumado-abobora-e-quiabo-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/3GmXMEl9jYKoGfMyrrl13sUCuv4=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-feijao-1600.jpg" data-src-retina="http://s2.glbimg.com/kE_qzCJIFjMmbQCT8tp_LldLRsA=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-feijao-1600.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/feijao-com-tofu-defumado-abobora-e-quiabo-receita-da-bela-gil.htm" class="link">Feijão com tofu defumado</a>
+          </div>
+        
+          <div class="item">
+            <a href="http://gnt.globo.com/receitas/receitas/arroz-integral-receita-da-bela-gil.htm" class="link-imagem">
+              <img data-src="http://s2.glbimg.com/wOt61XthrJaCTIYf0oZquiQzFbU=/220x140/filters:quality(80)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-arroz-1600.jpg" data-src-retina="http://s2.glbimg.com/yDy3cdpHy5Dir5EWOVayho_FWwA=/440x280/filters:quality(60)/g.glbimg.com/og/gs/gsat5/f/original/2014/07/14/bela-cozinha-08-arroz-1600.jpg" class="imagem" src="http://s2.glbimg.com/JoYtC1jhvlT2eOsYjbYOOjst4Ak=/fit-in/220x140/g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/comum/image-placeholder.png">
+                
+                <span class="botao"></span>
+              
+            </a>
+            <a href="http://gnt.globo.com/receitas/receitas/arroz-integral-receita-da-bela-gil.htm" class="link">Arroz integral</a>
+          </div>
+        
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  <div class="agrupador-widgets">
+    <div class="area-boxes">
+      <div class="glb-grid-12"><div class="widget-sobre grande">
+	<h3 class="titulo">
+		
+			<a class="link" href="http://gnt.globo.com/programas/bela-cozinha/sobre.html" title="Sobre o programa">Sobre o programa</a>
+		
+	</h3>
+	<div class="texto">Depois de cinco temporadas recheadas de pratos saborosos e saudáveis, Bela Gil vai mostrar que gastronomia não é só receita. E que para o alimento ser saudável, além de fazer bem para nossa saúde, ele deve ser cultivado de maneira limpa, sem prejudicar o meio ambiente, e justa para...</div>
+</div>
+
+<div class="glb-grid-4">
+	<div class="widget-publicidade position2"><span>publicidade</span>
+  <div id="homepilar" class="banner">
+  </div>
+</div>
+
+</div>
+
+</div><div class="glb-grid-12">
+    </div>
+  </div>
+
+  <div class="area-top"><div class="widget-tops"></div></div>
+
+  <div class="area-redes-sociais">
+    
+  </div>
+</div>
+
+
+          </main>
+        </div>
+
+        
+
+        
+    
+<footer>
+  <div class="widget-por-ai"><div class="container"><ul class="lista"><li class="item item-logo"><div class="agrupador"><div class="imagem"></div></div></li><li class="item"><a class="link link-facebook" href="http://www.facebook.com/canalgnt" title="facebook"><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-facebook-circulo.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-facebook-circulo.svg"><span class="descricao">facebook</span></a></li><li class="item"><a class="link link-twitter" href="http://twitter.com/canalgnt" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-twitter-circulo.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-twitter-circulo.svg"><span class="descricao">twitter</span></a></li><li class="item"><a class="link link-instagram" href="http://instagram.com/canalgnt" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-instagram.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-instagram.svg"><span class="descricao">instagram</span></a></li><li class="item"><a class="link link-pinterest" href="http://pinterest.com/achadosdognt" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-pinterest-circulo.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-pinterest-circulo.svg"><span class="descricao">pinterest</span></a></li><li class="item"><a class="link link-youtube" href="http://www.youtube.com/canalgnt" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-youtube-vertical.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-youtube-vertical.svg"><span class="descricao">youtube</span></a></li><li class="item"><a class="link link-google" href="https://plus.google.com/+CanalGNT/" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-google-circulo.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-google-circulo.svg"><span class="descricao">google+</span></a></li><li class="item"><a class="link link-play" href="http://globosatplay.globo.com/gnt/" title=""><img class="imagem svg-inject" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-gnt-play.svg" data-fallback="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-color-gnt-play.svg"><span class="descricao">gnt play</span></a></li></ul></div></div>
+
+  <div class="widget-rodape"><div class="container"><div class="grupo"><div class="lista"><div class="titulo">sobre o canal</div><ul class="itens"><li class="item"><a class="link" href="/" title="Home">Home</a></li><li class="item"><a class="link" href="http://canaisglobosat.globo.com/como-assinar/" title="Como assinar">Como assinar</a></li><li class="item"><a class="link" href="http://gnt.globo.com/fale-conosco.html" title="Fale conosco">Fale conosco</a></li><li class="item"><a class="link" href="http://gnt.globo.com/participe.html" title="Participe dos programas">Participe dos programas</a></li><li class="item"><a class="link" href="http://extranet.aws.globosat.com.br/actionpack/" title="Imprensa">Imprensa</a></li><li class="item"><a class="link" href="http://canaisglobosat.globo.com/principios-editoriais/" title="Princípios editoriais">Princípios editoriais</a></li><li class="item"><a class="link" href="http://grupoglobo.globo.com/" title="Grupo Globo">Grupo Globo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/projetos-multitelas/" title="Projetos Multitelas">Projetos Multitelas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/estudos.html" title="Estudos GNT">Estudos GNT</a></li></ul></div><div class="lista"><div class="titulo">serviços</div><ul class="itens"><li class="item"><a class="link" href="http://globosatcomercial.globo.com/" title="Como anunciar">Como anunciar</a></li><li class="item"><a class="link" href="http://gnt.globo.com/ancine.html" title="Programação: exigência ANCINE">Programação: exigência ANCINE</a></li><li class="item"><a class="link" href="http://globosat.globo.com/trabalheconosco/" title="Trabalhe conosco">Trabalhe conosco</a></li><li class="item"><a class="link" href="http://www.globosat.com.br/produtoras" title="Área das Produtoras">Área das Produtoras</a></li></ul></div></div><div class="grupo"><div class="lista"><div class="titulo">Programas</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/programas/?utm_source=rodape&amp;utm_medium=gnt&amp;utm_campaign=paginaprogramas" title=" TODOS OS PROGRAMAS"> TODOS OS PROGRAMAS</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/materias/jornada-picante-de-shane-delia-estreia-em-marco-no-gnt.htm" title="A Jornada Picante de Shane Delia">A Jornada Picante de Shane Delia</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/a-cozinha-caseira-de-annabel/" title="A cozinha caseira de Annabel">A cozinha caseira de Annabel</a></li><li class="item"><a class="link" href="http://gnt.globo.com/receitas/infograficos/receitas-do-programa-a-culinaria-mediterranea-de-yotam-ottolenghi.htm" title="A culinária mediterrânea de Yotam Ottolenghi">A culinária mediterrânea de Yotam Ottolenghi</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/admiravel-movel-novo/" title="Admirável Móvel Novo">Admirável Móvel Novo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/alem-da-conta/" title="Além da conta">Além da conta</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/materias/serie-documental-andre-midani-do-vinil-ao-download-estreia-em-marco-com-participacao-de-nomes-como-caetano-veloso-e-gil.htm" title="André Midani - Do vinil ao download">André Midani - Do vinil ao download</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/materias/aprendizes-de-chef-gnt-estreia-competicao-gastronomica-entre-jovens-aspirantes-chef.htm" title="Aprendizes de Chef">Aprendizes de Chef</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/bela-cozinha" title="Bela Cozinha">Bela Cozinha</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/beleza-de-noiva/" title="Beleza de Noiva">Beleza de Noiva</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/boas-vindas" title="Boas Vindas">Boas Vindas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/calada-noite/" title="Calada Noite">Calada Noite</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/casa-brasileira/" title="Casa Brasileira">Casa Brasileira</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/casando-no-paraiso/" title="Casando no Paraíso">Casando no Paraíso</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/ceia-secreta/" title="Ceia Secreta">Ceia Secreta</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/chama-micaela/" title="Chama a Micaela!">Chama a Micaela!</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/chegadas-e-partidas" title="Chegadas e Partidas">Chegadas e Partidas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/comidaorg/" title="Comida.Org">Comida.Org</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/cozinha-pratica" title="Cozinha Prática com Rita Lobo">Cozinha Prática com Rita Lobo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/cozinheiros-em-acao/" title="Cozinheiros em Ação">Cozinheiros em Ação</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/decora" title="Decora">Decora</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/desafio-da-beleza/" title="Desafio da Beleza">Desafio da Beleza</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/diario-de-uma-vegana/" title="Diário de uma Vegana">Diário de uma Vegana</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/diario-do-olivier/" title="Diário do Olivier">Diário do Olivier</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/familia-e-familia/" title="Família é Família">Família é Família</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/fazendo-a-festa/" title="Fazendo a Festa">Fazendo a Festa</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/food-truck-a-batalha/index.html" title="Food Truck - A Batalha">Food Truck - A Batalha</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/gnt-fashion" title="GNT Fashion">GNT Fashion</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/gntdoc" title="GNT.Doc">GNT.Doc</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/gordon-ramsay/index.html" title="Gordon Ramsay">Gordon Ramsay</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/historias-de-adocao/" title="Histórias de Adoção">Histórias de Adoção</a></li></ul></div></div><div class="grupo"><div class="lista"><div class="titulo alternado">Programas</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/programas/jamie-oliver/index.html" title="Jamie Oliver">Jamie Oliver</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/lorraine-pascale/" title="Lorraine Pascale">Lorraine Pascale</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/la-fora/" title="Lá fora">Lá fora</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/mais-cor-por-favor/" title="Mais Cor, Por Favor">Mais Cor, Por Favor</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/marilia-gabriela-entrevista/index.html" title="Marília Gabriela Entrevista">Marília Gabriela Entrevista</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/morar/" title="Morar">Morar</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/medicos/index.html" title="Médicos">Médicos</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/nigella" title="Nigella">Nigella</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/oficina-da-thalita/" title="Oficina da Thalita">Oficina da Thalita</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/olho-magico-reforma-de-vizinhos/index.html" title="Olho Mágico - Reforma de Vizinhos">Olho Mágico - Reforma de Vizinhos</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/papo-de-segunda/index.html" title="Papo de Segunda">Papo de Segunda</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/paul-hollywood/index.html" title="Paul Hollywood">Paul Hollywood</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/pedro-pelo-mundo/" title="Pedro Pelo Mundo">Pedro Pelo Mundo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/projeto-detox/index.html" title="Projeto Detox">Projeto Detox</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/que-marravilha" title="Que Marravilha!">Que Marravilha!</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/que-seja-doce/" title="Que Seja Doce">Que Seja Doce</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/rachel-khoo/index.html" title="Rachel Khoo">Rachel Khoo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/rainha-da-cocada/index.html" title="Rainha da Cocada">Rainha da Cocada</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/receitas-da-carolina/" title="Receitas da Carolina">Receitas da Carolina</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/receitas-de-chuck/" title="Receitas de Chuck">Receitas de Chuck</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/reforma-sem-custos/" title="Reforma Sem Custos">Reforma Sem Custos</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/sos-salvem-o-salao/" title="S.O.S. Salvem o Salão">S.O.S. Salvem o Salão</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/saia-justa" title="Saia Justa">Saia Justa</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/santa-ajuda" title="Santa Ajuda">Santa Ajuda</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/se-arrume-comigo/index.html" title="Se Arrume Comigo">Se Arrume Comigo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/segredos-do-torquatto/index.html" title="Segredos do Torquatto">Segredos do Torquatto</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/socorro-meu-filho-come-mal" title="Socorro! Meu Filho Come Mal">Socorro! Meu Filho Come Mal</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/superbonita" title="Superbonita">Superbonita</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/tempero-de-familia" title="Tempero de Família">Tempero de Família</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/the-taste-brasil/" title="The Taste Brasil">The Taste Brasil</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/jimmyfallon" title="The Tonight Show com Jimmy Fallon">The Tonight Show com Jimmy Fallon</a></li><li class="item"><a class="link" href="http://gnt.globo.com/assunto/um-armario-mil-looks.html#pag=1" title="Um Armário, Mil Looks">Um Armário, Mil Looks</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/vigiando-a-vovo/" title="Vigiando a Vovó">Vigiando a Vovó</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/papinhas-e-comidinhas/" title="Papinhas e Comidinhas">Papinhas e Comidinhas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/the-ellen-degeneres-show/index.html" title="The Ellen DeGeneres Show">The Ellen DeGeneres Show</a></li></ul></div></div><div class="grupo"><div class="lista"><div class="titulo">Séries</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/series/3-teresas/index.html" title="3 Teresas">3 Teresas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/materias/em-vida-de-erica-mulher-tem-chance-de-consertar-erros-do-passado-voltando-no-tempo.htm" title="A Vida de Érica">A Vida de Érica</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/amor-verissimo/" title="Amor Verissimo">Amor Verissimo</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/animal/index.html" title="Animal">Animal</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/as-canalhas/" title="As Canalhas">As Canalhas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/compulsao/" title="Compulsão (série documental)">Compulsão (série documental)</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/downton-abbey/index.html" title="Downton Abbey">Downton Abbey</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/lili-a-ex/" title="Lili, a Ex">Lili, a Ex</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/os-homens-sao-de-marte-e-e-pra-la-que-eu-vou/" title="Os homens são de Marte e é pra lá que eu vou">Os homens são de Marte e é pra lá que eu vou</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/questao-de-familia/" title="Questão de Família">Questão de Família</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/sessao-de-terapia/" title="Sessão de Terapia">Sessão de Terapia</a></li><li class="item"><a class="link" href="http://gnt.globo.com/programas/muitos-anos-de-vida/index.html" title="Muitos Anos de Vida (série documental)">Muitos Anos de Vida (série documental)</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/amores-livres/index.html" title="Amores Livres">Amores Livres</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/odeio-segundas/" title="Odeio Segundas">Odeio Segundas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/romance-policial-espinosa/index.html" title="Romance Policial - Espinosa">Romance Policial - Espinosa</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/tempero-secreto/index.html" title="Tempero Secreto">Tempero Secreto</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/videos/4477390.htm" title="Terceiro Sinal (série documental)">Terceiro Sinal (série documental)</a></li><li class="item"><a class="link" href="http://gnt.globo.com/series/vizinhos/index.html" title="Vizinhos">Vizinhos</a></li></ul></div><div class="lista"><div class="titulo">Especiais</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/especiais/spfw" title="SPFW">SPFW</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/eles-por-elas/index.html" title="Eles por Elas">Eles por Elas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/fashion-rio" title="Fashion Rio">Fashion Rio</a></li><li class="item"><a class="link" href="http://gnt.globo.com/jogos.html" title="Jogos">Jogos</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/momento-maternidade/" title="Momento Maternidade">Momento Maternidade</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/momentos-para-dividir/" title="Momentos para dividir">Momentos para dividir</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/teia/" title="Teia">Teia</a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/verao-gnt/index.html" title="Verão GNT">Verão GNT</a></li></ul></div></div><div class="grupo"><div class="lista"><div class="titulo">Temas</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/casa-e-decoracao/" title="Casa">Casa</a></li><li class="item"><a class="link" href="http://gnt.globo.com/moda-e-beleza" title="Moda e Beleza">Moda e Beleza</a></li><li class="item"><a class="link" href="http://gnt.globo.com/receitas/" title="Receitas">Receitas</a></li></ul></div><div class="lista"><div class="titulo">Categorias</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/assunto/antes-e-depois.html" title="Antes e Depois">Antes e Depois</a></li><li class="item"><a class="link" href="http://gnt.globo.com/receitas/doces-e-sobremesas.html" title="Doces e sobremesas">Doces e sobremesas</a></li><li class="item"><a class="link" href="http://gnt.globo.com/moda/votacao-de-looks.html" title="Looks">Looks</a></li><li class="item"><a class="link" href="http://gnt.globo.com/beleza/maquiagem.html" title="Maquiagem">Maquiagem</a></li><li class="item"><a class="link" href="http://gnt.globo.com/assunto/organizacao.html?p=casa-e-decoracao#pag=1" title="Organização">Organização</a></li><li class="item"><a class="link" href="http://gnt.globo.com/receitas/risotos.html" title="Risotos">Risotos</a></li></ul></div></div><div class="grupo"><div class="lista"><div class="titulo">on demand:</div><ul class="itens"><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/infograficos/gnt-quando-e-onde-quiser-veja-como-assistir-ao-conteudo-do-canal-nas-plataformas-demand.htm" title="Casa GNT"><img src="http://g.glbimg.com/og/gs/gsat5/static_files/common/img/icons/casagnt.png" class="imagem" alt="Casa GNT"></a></li><li class="item"><a class="link" href="http://gnt.globo.com/especiais/mais-da-tv/infograficos/gnt-quando-e-onde-quiser-veja-como-assistir-ao-conteudo-do-canal-nas-plataformas-demand.htm" title="Moda e Beleza GNT "><img src="http://g.glbimg.com/og/gs/gsat5/static_files/common/img/icons/modaebelezagnt.png" class="imagem" alt="Moda e Beleza GNT "></a></li><li class="item"><a class="link" href="http://gnt.globo.com/receitas/infograficos/conheca-o-novo-aplicativo-receitas-gnt.htm" title="Receitas GNT"><img src="http://g.glbimg.com/og/gs/gsat5/static_files/common/img/icons/receitasgnt.png" class="imagem" alt="Receitas GNT"></a></li><li class="item"><a class="link" href="http://globosatplay.globo.com/gnt/" title="GNT Play"><img src="http://g.glbimg.com/og/gs/gsat5/static_files/common/img/icons/gntplay.png" class="imagem" alt="GNT Play"></a></li></ul></div><div class="lista"><div class="titulo">Outros Sites</div><ul class="itens"><li class="item"><select class="acao"><option value="">escolha</option><option value="http://canalbrasil.globo.com/">Canal Brasil</option><option value="http://canaloff.globo.com/">Canal Off</option><option value="http://canalviva.globo.com/">Canal Viva</option><option value="http://combate.globo.com/">Combate</option><option value="http://www.futura.org.br/">Canal Futura</option><option value="http://canaisglobosat.globo.com/">Globosat</option><option value="http://globonews.globo.com/">Globo News</option><option value="http://mundogloob.globo.com/">Gloob</option><option value="http://multishow.globo.com/">Multishow</option><option value="http://multishowhd.globo.com/">Canal Bis</option><option value="http://globosatplay.globo.com/">Globosat Play</option><option value="http://philos.tv/">Philos TV</option><option value="http://sociopremiere.globo.com/">Premiere FC</option><option value="http://pfci.globo.com/">Premiere FC Internacional</option><option value="http://sportv.globo.com/">SporTV</option><option value="http://telecine.globo.com/">Telecine</option><option value="http://uc.globo.com/">Universal Channel</option></select></li></ul></div></div></div>
+
+  <address class="endereco">
+  <div class="endereco-container">
+    <div class="logo-globosat">
+      <a href="http://canaisglobosat.globo.com/" title="Globosat" target="_blank" class="href">
+        <img src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/images/gnt/icons/logo-globosat.svg" class="imagem">
+      </a>
+    </div>
+    <div class="text">
+      <span>Globosat Programadora Ltda. Todos os direitos reservados. All rights reserved ®</span>
+    </div>
+  </div>
+</address>
+
+</footer>
+<!-- Remarketing Sessão de Terapia e Animal --><!-- Google Code for Remarketing Tag --><!--
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--><script type="text/javascript">
+/* <![CDATA[ */
+	var google_conversion_id = 990528931;
+	var google_custom_params = window.google_tag_params;
+	var google_remarketing_only = true;
+	/* ]]> */
+
+
+</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/990528931/?value=0&amp;guid=ON&amp;script=0"/></div></noscript><!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T68NBQ" 
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T68NBQ');</script><!-- End Google Tag Manager -->
+
+
+
+        
+        
+
+        <div id="flutuante" class="widget-publicidade frame1"></div>
+
+        <script type="text/javascript" src="http://s.videos.globo.com/p3/stable/player.min.js"></script>
+        <script type="text/javascript" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/scripts/gnt/produto.js"></script>
+        
+    
+    <script type="text/javascript" src="http://g.glbimg.com/og/gs/gsat5/static_files/responsivo/assets/scripts/gnt/home-programa.js"></script>
+
+
+        <script type="text/javascript">
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId: "115123305230120",
+                    channelUrl: "http://gnt.globo.com",
+                    status: true,
+                    cookie: true,
+                    xfbml: true
+                });
+            };
+            (function(d){
+                var js, id = "facebook-jssdk", ref = d.getElementsByTagName("script")[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement("script"); js.id = id; js.async = true;
+                js.src = "//connect.facebook.net/pt_BR/all.js";
+                ref.parentNode.insertBefore(js, ref);
+            }(document));
+        </script>
+    </body>
+</html>

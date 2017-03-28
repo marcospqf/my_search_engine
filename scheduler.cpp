@@ -3,9 +3,13 @@ using namespace std;
 
 set<Scheduler::url> Scheduler::inside_url;
 set<Scheduler::url> Scheduler::outside_url;
+
 unordered_set<long long> Scheduler::visited;
+unordered_map<long long, double> Scheduler::last_time;
 const long long  B=193;
 const int MAX_HEAP=5e4;
+double step=5.0;
+
 Scheduler::Scheduler() {}
 
 bool Scheduler::url::operator<(const url &cur) const {
@@ -15,26 +19,26 @@ bool Scheduler::url::operator<(const url &cur) const {
 	return name < cur.name;
 }
 
-Scheduler::url::url(const string &s){
+Scheduler::url::url(const string &s, const string &d){
 	name=s;
+  domain=d;
 	priority=0;
-	bool last=true;
-	for(char c: s) {
-		if(c!='/') last=false;
-		else if(last) priority+=2;
-		else priority++,last=true;
-	}
+	for(char c: s) 
+		if(c=='/' or c=='.') priority++;
+  priority+=rand()%100;
 }
 
-void Scheduler::PushUrl(const string &s, bool inside){
-	if(s.size()<8 or s.size()>80) return;	
-	url cur(s);
+void Scheduler::PushUrl(const string &s,const string &domain, bool inside){
+	if(s.size()>80) return;
+
+  url cur(s,domain);
 	long long hp=0;
-	if(inside){
+	
+  if(inside){
 		if(inside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) {
-			visited.insert(hp),
+			visited.insert(hp);
 			Scheduler::inside_url.insert(cur);
 		}
 	}
@@ -42,7 +46,8 @@ void Scheduler::PushUrl(const string &s, bool inside){
 		if(outside_url.size()>MAX_HEAP) return;
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) {
-			visited.insert(hp),
+			visited.insert(hp);
+      
 			Scheduler::outside_url.insert(cur);
 		}
 	}
@@ -62,6 +67,9 @@ bool Scheduler::IsEmpty(bool inside){
 	return outside_url.empty();
 }
 
+bool Scheduler::thistime(double x){
+  return ( (clock()-x)/ CLOCKS_PER_SEC > step);
+}
 
 string Scheduler::TopUrl(){
 	cout<<inside_url.size()+outside_url.size()<<endl;
@@ -76,16 +84,38 @@ string Scheduler::TopUrl(){
 	}
 	if(q){
 		if(!inside_url.empty()) {
-			string s=(*inside_url.begin()).name;
+			
+      url s=(*inside_url.begin());
 			inside_url.erase(inside_url.begin());
-			return s;
+      string rosklin=s.domain;
+      long long hp=0;
+      for(char c: rosklin) hp=hp*B+c;
+      if(!last_time.count(hp) or thistime(last_time[hp])){
+        last_time[hp]=clock();
+			  return s.name;
+      }
+      else{
+        s.priority++;
+        inside_url.insert(s);
+      }
 		}
 	}
 	else{
 		if(!outside_url.empty()) {
-			string s=(*outside_url.begin()).name;
+			url s=(*outside_url.begin());
 			outside_url.erase(outside_url.begin());
-			return s;
+      string rosklin=s.domain;
+      long long hp=0;
+      for(char c: rosklin) hp=hp*B+c;
+      if(!last_time.count(hp) or thistime(last_time[hp]) ){
+        last_time[hp]=clock();
+			  return s.name;
+      }
+      else{
+  //      cout<<s.name<<endl;
+        s.priority++;
+        outside_url.insert(s);
+      }
 		}
 	}
 	return "";

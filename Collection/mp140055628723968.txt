@@ -1,0 +1,638 @@
+|||http://g1.com/Help/TellAFriend.asp|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="site_section" content="Site Help" />
+	<META NAME="GOOGLEBOT" CONTENT="NOINDEX, NOARCHIVE">
+	<title>Tell a Friend | Pitney Bowes Group 1 Software</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="/styles/global.css" />
+	<!--[if gt IE 5]>
+		<link rel="stylesheet" type="text/css" media="screen" href="/styles/ie6.css" />
+	<![endif]-->
+	<link rel="stylesheet" href="/styles/forms.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+	           <script type="text/javascript">
+					google.load("jquery", "1.2.6")
+				</script>
+	<!--<script type="text/javascript" src="/include/javascript/jquery-1.2.6.min.js"></script>-->
+	<script type="text/javascript" src="/include/javascript/jquery.validate.pack.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		$(document).ready(function(){
+			
+			$('#leftNav a.popup,#main a.popup').click(function(){var offsitelink = this.href;window.open(offsitelink,'popup');return false;}),
+			$('#main a.hugeWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=995,height=585,resizable=yes,alwaysRaised');return false;}),
+			$('#main a.bigWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=780,height=540,resizable=yes,alwaysRaised');return false;}),
+			$('#main a.mediumWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=600,height=440,resizable=yes,alwaysRaised');return false;}),
+			$('#main a.skinnyWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=565,height=610,resizable=yes,alwaysRaised');return false;}),
+			$('#main a.thumbWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=200,height=150,resizable=yes,alwaysRaised');return false;}),
+			$('#main a.smallWin').click(function(){var windowURL = this.href;window.open(windowURL,'sizedWin','toolbar=no,location=no,menubar=no,status=no,scrollbars=yes,width=400,height=320,resizable=yes,alwaysRaised');return false;}),
+			
+			$('ul#altPage a.print').click(function(){bV = parseInt(navigator.appVersion);if (bV >= 4) window.print();return false;});
+			$('#sendtofriend').validate({   					//JQuery Validation Plugin
+				/*rules: {
+					pageURL: {									// URL format
+					   url: true
+					},
+					desc: {										// Description check
+						required: true
+					}
+				},
+				messages: {
+					name: {
+						required: jQuery.format("Please specify your name.")
+					},
+					pageURL: {
+						required: jQuery.format("Invalid URL format.")
+					},
+					desc: {
+						required: jQuery.format("You need to enter a message.")
+					}
+				},*/
+				errorClass: 'errMsg',							// Set error class to current css style errMsg
+				errorPlacement: function(error, element) {
+					if ( element.is(":radio") || element.is(":checkbox") ) {
+						error.appendTo(element.parent().parent("fieldset")),
+						element.parent().parent().addClass('errFld');					// Set class for field containing the error
+					}
+					else {
+						error.appendTo(element.parent("label")),	// Display of error message within label element
+						element.addClass('errFld');					// Set class for field containing the error
+					}
+				}
+			});
+			$('#sendtofriend input, textarea').blur(function() {		//  Remove class from field if entry
+				// $(this) performs the operation on the current jQuery object 
+				if( $(this).valid() ) {
+					// this removes the error class from the field
+					$(this).removeClass('errFld');
+				}
+				else {
+					if( $(this).hasClass("required") && !$(this).valid() ) 
+						$(this).addClass('errFld'); 
+				}
+			});
+		});	 
+	//]]>
+	</script>
+</head>
+<body id="custSrvcs">
+	<div id="page">
+		<div id="innerWrap">
+			<script type="text/javascript">
+  // <![CDATA[ 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<scr"+"ipt src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-238030-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+ // ]]>
+</script>
+<img src="http://content.pbinsight.com/static/cssimages/global/logo.gif" width="180px" height="48px" class="printOnly" alt="Pitney Bowes Software" />		
+		<ul id="accessOptions">
+			<li><a href="#content">Skip to Content</a></li>
+			<li><a href="#mainSearch">Skip to Search</a></li>			
+			<li><a href="#topNav">Skip to Primary Navigation</a></li>				
+			<li><a href="#leftNav">Skip to Site Help Navigation</a></li>							
+		</ul>
+		<hr />
+		<div id="header">
+			<h1 id="logo"><a href="/" title="Pitney Bowes Software Home Page" rel="home">Pitney Bowes Software</a></h1>
+			<ul id="mainLinks">
+				<li><a href="/Support/Contact/" class="envelope" title="Contact customer support">Contact Us</a></li>
+				<li><a href="/Support/login.asp" class="key" title="Log in to customer support site">Customer Login</a></li>				
+			</ul>
+			<form id="mainSearch" action="http://search.g1.com/search" method="get">
+				<fieldset>
+					<input name="sort" value="date:D:L:d1" type="hidden" />
+					<input name="output" value="xml_no_dtd" type="hidden" />
+					<input name="oe" value="UTF-8" type="hidden" />
+					<input name="ie" value="UTF-8" type="hidden" />
+					<input name="client" value="default_frontend" type="hidden" />
+					<input name="proxystylesheet" value="default_frontend" type="hidden" />
+					<input name="site" value="default_collection" type="hidden" />		
+					<label for="keywordSearch"><a href="http://search.g1.com" title="Search" class="magnify">Search</a><input type="text" id="keywordSearch" name="q" /></label>
+					<input type="submit" id="submitMainSearch" value="Go" />
+				</fieldset>
+			</form>
+			<div class="clearB clearer"></div>			
+		</div><!--End Header-->
+		<ul id="topNav"> 
+        	<li id="support" class="current"><a href="/support/">Support</a></li> 
+    	</ul> 
+		<div class="border"></div>
+		<hr />
+			<div id="leftNav">
+				<ul id="level1">
+					<li id="section"><a href="/Support/">Support</a>
+						<ul id="level2">
+							<li id="parent"><a href="/Help/">Site Help</a>
+								<ul id="level3">
+									<li id="current">Tell a Friend</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--End Left Navigation-->			
+			<hr />
+			<div id="main">
+				<div id="content">
+					<ul id="breadcrumbs">
+						<li class="level1"><a href="/">Home</a></li>
+						<li><a href="/Support/">Support</a></li>
+						<li><a href="/Help/">Site Help</a></li>
+						<li>Tell a Friend</li>
+					</ul><!--End Breadcrumbs-->
+					
+					<h2 id="mainHeading">Tell a Friend</h2>
+					
+					<p>Fill out the short form below to send a link to the page you were just viewing to a friend or colleague. You can even send it to yourself as an alternative to bookmarking.</p>
+					<p>Don't worry, we won't store either email address, nor will we sign you up for any newsletters or other email lists.</p>
+					<p class="alert">Your browser is not sending the correct referer information. You'll need to copy the page URL into the form below instead.</p>
+					<p><em>Changed your mind?</em> No problem, just go back to the <a href="">page you were just on</a>.</p>
+ 
+					<form id="sendtofriend" name="sendtofriend" action="TellAFriend_Send.asp" method="post">
+						<fieldset id="contactinformation"> 
+							<legend>Contact Information</legend>
+							<label for="toEmail" class="alert">* Your Friend's Email: <input type="text" name="toEmail" id="toEmail" tabindex="1" class="required email" /></label>
+							<label for="name" class="clearL alert">* Your Name: <input type="text" name="name" id="name" tabindex="2" class="required" /></label>
+							<label for="email" class="alert">* Your Email: <input type="text" name="email" id="email" tabindex="3" class="required email" /></label>
+							
+							<label for="pageURL" class="alert">* Page URL: <input type="text" name="pageURL" id="pageURL" tabindex="4" class="required large" /></label>
+							
+							<label for="desc" class="alert">* Your Message:
+								<textarea cols="65" rows="6" name="desc" id="desc" tabindex="5" class="required"></textarea>
+							</label>
+						</fieldset>
+						<fieldset class="plain button"><input type="submit" value="Send" id="submit" tabindex="6" /></fieldset>
+					</form>
+					
+					
+					<div class="clearer clearB"></div>
+					<ul id="altPage">
+						<li><a href="/Help/TellAFriend.asp" class="envelope">Tell a Friend</a></li>
+					</ul>
+					<div class="clearer clearR"></div>
+				</div><!--End Content-->		
+			</div><!--End Main-->				
+			<div class="clearer clearL"></div>
+		</div><!--End Inner Wrap -->		
+	</div><!--End Page-->
+	<hr />	
+	<div id="footer">
+		<ul id="bottomNav">
+			<li><a href="/Support/Contact/">Contact Us</a></li>
+			<li class="lastItem"><a href="#page" accesskey="t">Back to Top</a></li>			
+		</ul>
+		<p id="copy">&copy; 2017 Pitney Bowes. All rights reserved. Additional <a href="/Help/Copyright.asp">trademark</a>, <a href="/Help/Copyright.asp">copyright</a> and <a href="/Help/Privacy.asp">privacy</a> information is available.</p>
+	</div><!--End Footer-->
+</body>
+</html>|||http://www.dainiak.com/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a,d;window.performance&&(d=(a=window.performance.timing)&&a.responseStart);var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",d),
+b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/acd669/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/home","deleted":false,"title":"Home","dir":"ltr"}];
+  var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/acd669/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"enableAnalytics":true,"pageSharingId":"jotspot_page","enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"Alex Dainiak / \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u0430\u0439\u043d\u044f\u043a","adsensePublisherId":null,"features":{"validateClientGvizDataSourceUrls":true,"contactStoreMigrationPollForGapi":true,"gapiLoaderUtil":true,"moreMobileStyleImprovements":true,"accumulativeBubblePanelCreation":true,"oAuthForChartsApi":true,"batchFileCabinetOperations":true,"fileCabinetScreenReaderFix":true,"picasaAlbumInsert":false,"pageDrafts":false,"mobileOrientationFix":true,"plusBadge":false,"pdfEmbedSupport":false,"jsClickFix":true},"isPublic":true,"isConsumer":false,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"onepickBaseUrl":"https://docs.google.com","domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/a/dainiak.com/www/home\u0026service\u003djotspot","analyticsAccountId":"UA-28098440-1","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/acd669/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/acd669/system/js/codemirror.js","http://www.gstatic.com/sites/p/acd669/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/acd669/system/js/trog_edit__en.js","http://www.gstatic.com/sites/p/acd669/system/app/css/trogedit.css","/_/rsrc/1489651108000/system/app/css/editor.css","http://www.gstatic.com/sites/p/acd669/system/app/css/codeeditor.css","/_/rsrc/1489651108000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"dainiak.com","baseUri":"","name":"www","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Home","locale":"en","wuid":"wuid:gx:172b681fefcc3c8a","revision":12,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Alex Dainiak /  " />
+<meta itemprop="name" content="Alex Dainiak /  " />
+<meta property="og:title" content="Alex Dainiak /  " />
+<meta name="description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<meta itemprop="description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<meta id="meta-tag-description" property="og:description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<style type="text/css">
+      
+      /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/WxrXJa0C3KdtC7lMafG4dRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/OpXUqTo0UgQQhGj_SFdLWBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/1hZf02POANh32k2VkgEoUBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/cDKhRaXnQTOVbaoxwdOr9xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/K23cxWVTrIFD6DJsEVi07RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/vSzulfKSK0LLjjfeaxcREhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCzUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC0bcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC2o_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC76up8jxqWt8HVA3mDhkV_0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/acd669/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1489651108000/system/app/css/overlay.css?cb=simple12a200goog-ws-left-noheadnonethemedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1489651108000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Alex Dainiak /  </title>
+<meta itemprop="image" content="http://www.dainiak.com/home/dainiak.jpg" />
+<meta property="og:image" content="http://www.dainiak.com/home/dainiak.jpg" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:200px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first "><div class="current-bg" jotId="wuid:gx:172b681fefcc3c8a" dir="ltr" style="padding-left: 19px;">Home</div></li><li class="topLevel parent " wuid="gx:4ebfa1fcc0fc4f46"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/teaching" jotId="wuid:gx:4ebfa1fcc0fc4f46" class="sites-navigation-link topLevel">Teaching</a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:5880b94c3bb38b18"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/teaching/courses" jotId="wuid:gx:5880b94c3bb38b18" class="sites-navigation-link">Courses</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/teaching/courses/current" jotId="wuid:gx:4927852b0fc0c776" class="sites-navigation-link">Current courses</a></div></li><li class="parent closed " wuid="gx:71582ab7528ce42b"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/teaching/courses/past" jotId="wuid:gx:71582ab7528ce42b" class="sites-navigation-link">Past courses</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/teaching/courses/past/2009-2013" jotId="wuid:gx:393ff2223a897e30" class="sites-navigation-link">2009—2013</a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/teaching/courses/past/2013-2014" jotId="wuid:gx:5521a4cff2e104b5" class="sites-navigation-link">2013—2014</a></div></li></ul></li></ul></li></ul></li><li class="topLevel parent " wuid="gx:5a30fd404414b61f"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/ru" jotId="wuid:gx:5a30fd404414b61f" class="sites-navigation-link topLevel">   </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ru/personal" jotId="wuid:gx:147e8e3dd92d7a92" class="sites-navigation-link"></a></div></li><li class="parent closed " wuid="gx:13a293c6110de49f"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/research" jotId="wuid:gx:13a293c6110de49f" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/research/publications" jotId="wuid:gx:1ac622ed1b966a50" class="sites-navigation-link"></a></div></li></ul></li><li class="parent closed " wuid="gx:23637e19ed554ea0"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/teaching" jotId="wuid:gx:23637e19ed554ea0" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:4d08ee3ffc4684"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/tools" jotId="wuid:gx:4d08ee3ffc4684" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/miktex" jotId="wuid:gx:86864de7fbac634" class="sites-navigation-link"> MiKTeX</a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/gentest" jotId="wuid:gx:5fbfbc62cf0a5591" class="sites-navigation-link">    </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/python" jotId="wuid:gx:6c626024232e42c4" class="sites-navigation-link">  Python</a></div></li></ul></li><li class="parent closed " wuid="gx:7ba085c818eebe5"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/courses" jotId="wuid:gx:7ba085c818eebe5" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:cd1044c68b64a99"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/teaching/courses/past" jotId="wuid:gx:cd1044c68b64a99" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:8bd26dd4ba2384b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2009-2010" jotId="wuid:gx:8bd26dd4ba2384b" class="sites-navigation-link">2009—2010</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2009-2010/extrcomb_s2010" jotId="wuid:gx:5f1f0a49885b8959" class="sites-navigation-link">    (,  2010)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2009-2010/combinatorics_s2010" jotId="wuid:gx:1f31300cfa71a166" class="sites-navigation-link">   ( ,  2010)</a></div></li></ul></li><li class="parent closed " wuid="gx:373c711daa46740b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2010-2011" jotId="wuid:gx:373c711daa46740b" class="sites-navigation-link">2010—2011</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/optimization_f2010" jotId="wuid:gx:651ce9e65dc2d7ac" class="sites-navigation-link">    ( ,  2010)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/optimization_s2011" jotId="wuid:gx:1aa270a08f2515fc" class="sites-navigation-link">  ( ,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/computation_s2011" jotId="wuid:gx:62e815c0d157258a" class="sites-navigation-link">  (,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/graphtheory_f2010" jotId="wuid:gx:67325b2748a3f850" class="sites-navigation-link">   (,  2010)</a></div></li></ul></li><li class="parent closed " wuid="gx:624ad577c88b1d4b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2011-2012" jotId="wuid:gx:624ad577c88b1d4b" class="sites-navigation-link">2011—2012</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/discretestructures_f2011s2012" jotId="wuid:gx:43a596b391e255be" class="sites-navigation-link">  (, 2011—2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/vlsi_f2011" jotId="wuid:gx:312004de8f4b1d8" class="sites-navigation-link">     ( ,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/graphtheory_s2012" jotId="wuid:gx:18723b45af4b982a" class="sites-navigation-link">   ( ,  2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/graphtheory_f2011" jotId="wuid:gx:1efb7322e6e79f52" class="sites-navigation-link">   (,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/codingtheory_s2012" jotId="wuid:gx:46f47e79bf4a430b" class="sites-navigation-link">   (,  2012)</a></div></li></ul></li><li class="parent closed " wuid="gx:5b1b6e1ec1c536ab"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2012-2013" jotId="wuid:gx:5b1b6e1ec1c536ab" class="sites-navigation-link">2012—2013</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/discopt_s2013" jotId="wuid:gx:63b9e5a2238d4500" class="sites-navigation-link">  (,  2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/discretestructures_f2012s2013" jotId="wuid:gx:218bf14c28c0cbe4" class="sites-navigation-link">  (, 2012—2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/codingtheory_f2012" jotId="wuid:gx:31a7418c79ffe2e9" class="sites-navigation-link">  (,  2012)</a></div></li></ul></li><li class="parent closed " wuid="gx:3be96afadda0e17c"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2013-2014" jotId="wuid:gx:3be96afadda0e17c" class="sites-navigation-link">2013—2014</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/graphdrawing_s2014" jotId="wuid:gx:3164f507f6f2cbf" class="sites-navigation-link">  (St. Petersburg CS Club,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/discopt_s2014" jotId="wuid:gx:4921b027254b0b1" class="sites-navigation-link">  (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/discretestructures_f2013s2014" jotId="wuid:gx:30cc8b2bfb1f27af" class="sites-navigation-link">  (, 2013—2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/graphtheory_f2013" jotId="wuid:gx:81d7bfc68b9ddc7" class="sites-navigation-link">   (,  2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/codingtheory_f2013" jotId="wuid:gx:24e69cf659ea5701" class="sites-navigation-link">  (,  2013)</a></div></li></ul></li><li class="parent closed " wuid="gx:23eda098a5642d6c"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2014-2015" jotId="wuid:gx:23eda098a5642d6c" class="sites-navigation-link">2014—2015</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/algalg_f2014" jotId="wuid:gx:7f08e303cc83af0f" class="sites-navigation-link">   (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/discopt_f2014" jotId="wuid:gx:7911079b4b38ed1d" class="sites-navigation-link">  (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/discretestructures_f2014s2015" jotId="wuid:gx:20453b956662f080" class="sites-navigation-link">  (, 2014—2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/codingtheory_s2015" jotId="wuid:gx:317810d4d4e5cb6c" class="sites-navigation-link">  (,  2015)</a></div></li></ul></li><li class="parent closed " wuid="gx:2c07d908f4a43091"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2015-2016" jotId="wuid:gx:2c07d908f4a43091" class="sites-navigation-link">2015—2016</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/algalg_f2015" jotId="wuid:gx:7f16926237c6df87" class="sites-navigation-link">   (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/dataviz_f2015" jotId="wuid:gx:6edaa4d1d5d311f4" class="sites-navigation-link">  (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/discopt_s2016" jotId="wuid:gx:3890e9494fe77508" class="sites-navigation-link">  (,  2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/discopt_f2015" jotId="wuid:gx:707354c70397bd68" class="sites-navigation-link">  (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/ds_2015-2016" jotId="wuid:gx:2cd1694751a0480e" class="sites-navigation-link">  (, 2015—2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/codingtheory_s2016" jotId="wuid:gx:b41f9521a1bbd70" class="sites-navigation-link">  (,  2016)</a></div></li></ul></li><li class="parent closed " wuid="gx:faf018e98889c3"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2016-2017" jotId="wuid:gx:faf018e98889c3" class="sites-navigation-link">2016—2017</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2016-2017/algalg_f2016" jotId="wuid:gx:3abf3b7ee02258d9" class="sites-navigation-link">   (,  2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2016-2017/visual_f2016-1" jotId="wuid:gx:28190bfc224f19f8" class="sites-navigation-link">  (,  2016)</a></div></li></ul></li></ul></li><li class="parent closed " wuid="gx:62cd55356bb1a2c8"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/teaching/courses/current" jotId="wuid:gx:62cd55356bb1a2c8" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/teaching/courses/current/discopt_s2017" jotId="wuid:gx:6314906312189dc8" class="sites-navigation-link">  (,  2017)</a></div></li><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/teaching/courses/current/ds_2016-2017" jotId="wuid:gx:5439421fd2f7ce8e" class="sites-navigation-link">  (, 2016—2017)</a></div></li></ul></li></ul></li><li class="parent closed " wuid="gx:2ae6abe800bc8432"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/misc" jotId="wuid:gx:2ae6abe800bc8432" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/criteria" jotId="wuid:gx:2809807794a0e029" class="sites-navigation-link">«  »   </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/tips" jotId="wuid:gx:5da8114445fe82df" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/email" jotId="wuid:gx:3f4c1a1f1448f260" class="sites-navigation-link">   </a></div></li></ul></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/teaching/slides" jotId="wuid:gx:2e6813881a01222" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/teaching/books" jotId="wuid:gx:4df3f4d70d6a0ec4" class="sites-navigation-link"> </a></div></li></ul></li><li class="parent closed " wuid="gx:2b2de7d23469c42a"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/software" jotId="wuid:gx:2b2de7d23469c42a" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:f7e146315862f09"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/software/old" jotId="wuid:gx:f7e146315862f09" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/software/old/winopto" jotId="wuid:gx:3b0129cc1f41ac2b" class="sites-navigation-link"> </a></div></li><li class="parent closed " wuid="gx:5a207c2146efd353"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/software/old/dos" jotId="wuid:gx:5a207c2146efd353" class="sites-navigation-link">  DOS</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/software/old/dos/em3" jotId="wuid:gx:253bad8152d17bd5" class="sites-navigation-link"> -3</a></div></li></ul></li></ul></li></ul></li><li class="parent closed " wuid="gx:5970bb2d4c0a90c8"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/links" jotId="wuid:gx:5970bb2d4c0a90c8" class="sites-navigation-link">    </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/freebooks" jotId="wuid:gx:2383946b9d9eaadd" class="sites-navigation-link">     </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/contests" jotId="wuid:gx:2c22f520d1b07044" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/news" jotId="wuid:gx:2b7b42cd0dec60c5" class="sites-navigation-link">   </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/edu" jotId="wuid:gx:3da28982e2636c99" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/software" jotId="wuid:gx:385af5e08c4b1884" class="sites-navigation-link">   </a></div></li></ul></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ru/feedback" jotId="wuid:gx:16613e76f8f3799f" class="sites-navigation-link">  </a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:2d401a5e98993677" class="sites-navigation-link topLevel">Sitemap</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="float:right"><img src="http://www.dainiak.com/home/dainiak.jpg" style="width:300px" /></div>
+<div style="float:left">
+<ul>
+<li><a href="http://www.dainiak.com">Main site</a></li>
+<li><a href="http://plus.google.com/104595776339098149327/about" rel="author">My profile</a></li>
+</ul>
+</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-attachments">
+<div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:0px;"><span aria-label="Attachments" title="Attachments"><div class="sites-translucent sites-symbol" aria-hidden="true"></div></span></div><div id="sites-attachments-update-div" class="sites-attachments-inner-div" style="display:none;"><span class="sites-attachments-update-icon"><img src="http://www.gstatic.com/sites/p/acd669/system/app/images/spinner.gif" /></span><div class="sites-attachments-update-text">Updating...</div></div></div><div class="sites-attachments-separator"></div>
+<div id="attachment-wuid:gx:74e898aa3825e0ed"><div class="sites-attachments-row"><div class="sites-attachments-icon sites-attachments-icon-accessible" style="left:5px"><div class="sites-translucent sites-symbol" aria-label="Image" title="Image"></div></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="/home/dainiak.jpg?attredirects=0" target="_blank" rel="noopener noreferrer">dainiak.jpg</a> <div class="sites-translucent">(70k)</div></div><div class="sites-attachments-author">Alex Dainiak, <div class="sites-translucent">Mar 21, 2012, 2:16 AM</div></div></div><div class="sites-attachments-version sites-attachments-version-accessible"><a href="/system/app/pages/admin/revisions?wuid=wuid:gx:74e898aa3825e0ed">v.2</a></div><div id="attachment-download-wuid:gx:74e898aa3825e0ed" class="sites-attachments-icon sites-attachments-icon-accessible" style="right:0px"><a href="/home/dainiak.jpg?attredirects=0&amp;d=1" aria-label="Download dainiak.jpg" title="Download" role="button"><span class="sites-symbol" aria-hidden="true"></span></a></div></div><div class="sites-attachments-separator"></div></div>
+<div style="height: 10px"></div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="http://sites.google.com/a/dainiak.com/www/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/acd669/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">if (webspace.editorResources['text']) {webspace.editorResources['text'].unshift('\/system\/app\/css\/overlay.css?cb\x3dsimple12a200goog-ws-left-noheadnonethemedefaultstandard');webspace.editorResources['text'].unshift('\/_\/rsrc\/1489651108000\/system\/app\/themes\/simple\/standard-css-simple-ltr-ltr.css');}</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+      
+          sites.core.Analytics.createTracker();
+          sites.core.Analytics.trackPageview();
+        
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "", true);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://www.dainiak.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      loadTimer["name"] = "load," + webspace.page.type + ",user_page";
+                      window.jstiming.report(loadTimer, {}, 'http://csi.gstatic.com/csi');
+                    }
+                  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+        JOT_insertAnalyticsCode(false,
+            false);
+      </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    var maestroRunner = new gsites.pages.view.SitesMaestroRunner(
+        webspace, "en");
+    maestroRunner.initListeners();
+    maestroRunner.installEditRender();
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+  //<![CDATA[
+    // Decorate any fastUI buttons on the page with a class of 'goog-button'.
+    if (webspace.user.hasWriteAccess) {
+      JOT_decorateButtons();
+    }
+
+    // Fires delayed events.
+    (function() {
+      JOT_fullyLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+  //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+<script type="text/javascript">
+          JOT_setupPostRenderingManager();
+        </script>
+<script type="text/javascript">
+          JOT_postEvent('renderPlus', null, 'sites-chrome-main');
+        </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script type="text/javascript">
+          window.jstiming.load.tick('render');
+          JOT_postEvent('usercontentrendered', this);
+        </script>
+</body>
+</html>

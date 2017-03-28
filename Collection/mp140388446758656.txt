@@ -1,0 +1,795 @@
+|||http://russiancodecup.ru/|<!DOCTYPE HTML>
+    
+    
+    
+    
+    
+    <!--[if lte IE 8 ]> <html class="oldie ie8"> <![endif]-->
+    <!--[if lt IE 10]> <html class="oldie"> <![endif]-->
+    <!--[if (gte IE 10)|!(IE)]><!--><html><!--<![endif]-->
+    <head>
+        
+            <title>Russian Code Cup</title>
+        
+
+        <link type='text/css' rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|PT+Sans:400,700&subset=latin,cyrillic-ext,latin-ext,cyrillic'>
+
+        <script type="text/javascript">var crosslogin_mode = "it";</script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/jquery.1.11.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/underscore-min.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/prog.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/iscroll-probe.js?ver=1.19.6"></script>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Russian Code Cup - is the Russian largest annual Open Competition for the strongest programmers. The total prize fund is 750 thousand Rubles. The preliminary stages of the Olympiad are held online (March 28th, April 25th, May 31st and June 14th), and the finals - in Moscow (September 19th). In 2015, the competition will be held for the fifth time. Over 3000 people participated in the first Russian Code Cup. The first round of the spring Russian Code Cup will be held on March 28. To participate, please register online at http://russiancodecup.ru"/>
+        <meta name="title" content="Russian Code Cup - Mail.Ru Group" /><!--  ,    -->
+        <meta property="og:title" content="Russian Code Cup - Mail.Ru Group" /><!--  -->
+        <meta property="og:image" content="https://russiancodecup.ru/static/rcc_app/img/logo.png" /><!--  -->
+        <meta property="og:description" content="Russian Code Cup - is the Russian largest annual Open Competition for the strongest programmers. The total prize fund is 750 thousand Rubles. The preliminary stages of the Olympiad are held online (March 28th, April 25th, May 31st and June 14th), and the finals - in Moscow (September 19th). In 2015, the competition will be held for the fifth time. Over 3000 people participated in the first Russian Code Cup. The first round of the spring Russian Code Cup will be held on March 28. To participate, please register online at http://russiancodecup.ru"/><!--  -->
+
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/bitrix/core.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/bitrix/styles.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/bootstrap.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/bootstrap.select.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/highlight.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/style.css?ver=1.19.6">
+        <link type="text/css" rel="stylesheet" href="/static/rcc_app/css/bootstrap.datepicker.css?ver=1.19.6">
+
+        <link rel="image_src" href="/static/rcc_app/img/RCC_logo_blue.jpg?ver=1.19.6">
+        <link rel="shortcut icon" href="/static/rcc_app/img/favicon.ico">
+    </head>
+
+    <body onload="myScroll.refresh();">
+        <div id="wrapper">
+            <div id="scroller">
+                <header id="header">
+                    <div class="container">
+
+                        <div class="headerBox" id="logo">
+                            <a href="/en/">
+                                <img src="/static/rcc_app/img/logo.png" width="283" height="101" alt="Russian Code Cup">
+                            </a>
+                        </div>
+
+                        <div class="headerBox" id="mainMenu">
+                            
+                                <ul class="horizontalList">
+                                    <li id="current_champ_menu"></li>
+                                    
+                                        
+                                        
+                                        <li>
+                                            
+                                                <a href="/en/about/">About RCC</a>
+                                            
+                                        </li>
+                                        
+                                    
+                                        
+                                        
+                                        <li>
+                                            
+                                                <a href="/en/results/">Trophy room</a>
+                                            
+                                        </li>
+                                        
+                                    
+                                        </ul><ul class="horizontalList" >
+                                        
+                                        <li>
+                                            
+                                                <a href="/en/tasks/">Tasks archive </a>
+                                            
+                                        </li>
+                                        
+                                    
+                                        
+                                        
+                                        <li>
+                                            
+                                                <a href="/en/rules/">Rules</a>
+                                            
+                                        </li>
+                                        
+                                    
+                                        
+                                        
+                                        <li>
+                                            
+                                                <a href="/en/press/">News</a>
+                                            
+                                        </li>
+                                        
+                                    
+                                        
+                                        
+                                    
+                                </ul>
+                            
+                        </div>
+
+                        <div class="headerBox" id="loginBlock">
+                            
+                                <div class="signInWrapper">
+                                    <button class="btn btn-default showPopup popupPositionTR" data-tcID="pcLogin" style="visibility: hidden">Logi</button>
+                                </div>
+                            
+                        </div>
+
+                        <div class="headerBox" style="padding-left:20px">
+                            <a href="#" class="lang-switch" data-url="/en/" data-lang="en" style="margin-right: 10px; text-decoration: none">
+                                <img src="/static/rcc_app/img/icons/gb.png" title="In English" alt="In English">
+                            </a>
+                            <a href="#" class="lang-switch" data-url="/ru/" data-lang="ru">
+                                <img src="/static/rcc_app/img/icons/ru.png" title="-" alt="-">
+                            </a>
+                        </div>
+                    </div>
+                </header>
+
+                
+
+    
+        
+
+
+
+<div class="blueBlock promoBlock">
+    <div class="container">
+        <p class="rrRow">
+            <a href="/en/championship/round/57/" class="roundResults">
+                RCC 2017: tasks and results of the warm-up round
+            </a>
+        </p>
+        
+            <div class="startDate" style="margin-bottom:32px">
+                <div class="datetime" data-counter="">
+                    <span id="timer"></span>
+                </div>
+            </div>
+            <h1 class="hType1" style="margin-bottom:64px">left till the beginning of the first qualification round</h1>
+        
+
+        <script>
+             var expected_date = new Date(1491148803 * 1000);
+             var remainingTime;
+        </script>
+        <script type="text/template" id="on-timer-tml">
+            <div class="orangeBlock popupInfo">
+                <h4 class="fontUM27">The round has started</h4>
+                <a href="/en/championship/" class="btn btn-default">See tasks</a>
+                <div class="close"></div>
+            </div>
+        </script>
+        <script type="text/javascript">
+            function onTimer() {
+                var html = $('#on-timer-tml').html();
+                $('body').append(html);
+            }
+        </script>
+
+        <p class="lbBox">
+            <span class="cell show_if_not_authenticated"></span>
+            <span class="cell show_if_not_authenticated">
+                
+                    <a href="#" class="btn btn-default btn-big showPopup popupPositionT" data-tcID="pcLogin">Register</a>
+                
+            </span>
+            <span class="cell"></span>
+            <!--<span class="cell"><a href="#" class="dotted showPopup colorGay" data-tcid="pcSubs"><span class="bb">Subscribe to news</span></a></span>-->
+        </p>
+    </div>
+</div>
+
+
+    
+
+<div class="blackBlock scheduleBlock">
+    <div class="container">
+        
+            <dl>
+                <dt>Qualification rounds</dt>
+                <dd class="typeTable">
+                    
+                    <span class="typeTR">
+                        <strong>2 April</strong>
+                        <span class="time">
+                            
+                                from 19:00&nbsp;to 21:00 (MSC)
+                            
+                        </span>
+                    </span>
+                    
+                    <span class="typeTR">
+                        <strong>16 April</strong>
+                        <span class="time">
+                            
+                                from 12:00&nbsp;to 14:00 (MSC)
+                            
+                        </span>
+                    </span>
+                    
+                    <span class="typeTR">
+                        <strong>29 April</strong>
+                        <span class="time">
+                            
+                                from 14:00&nbsp;to 16:00 (MSC)
+                            
+                        </span>
+                    </span>
+                    
+                </dd>
+            </dl>
+        
+        
+        <dl>
+            <dt>Elimination round</dt>
+            <dd>
+                
+                    <span class="typeTR">
+                        <strong>14 May</strong>
+                        <span class="time">
+                            
+                                from 13:00&nbsp;to 15:00 (MSC)
+                            
+                        </span>
+                    </span>
+                
+            </dd>
+        </dl>
+        
+        
+        <dl>
+            <dt>Final</dt>
+            <dd>
+                
+                    <span class="typeTR">
+                        <strong>10 September</strong>
+                        <span class="time">
+                            
+                                from 13:00&nbsp;to 16:00 (MSC)
+                            
+                        </span>
+                    </span>
+                
+            </dd>
+        </dl>
+        
+    </div>
+</div>
+
+        <script>useTransform = false;</script>
+    
+        
+
+
+                <div id="content">
+                    
+                        
+
+<div class="container">
+  <h2 class="hType2 hVoid">Russian Code Cup</h2>
+  <p class="braces"><span>The Russian Code Cup is the largest Russian competitive programming contest held under the aegis of Mail.Ru Group. It is a “race track” for the quickest minds, where you can test your skills competing against the strongest rivals and make a name for yourself in the IT world!</span></p>
+</div>
+
+<div class="greyBlock">
+    <div class="container containerComment">
+        <div class="cols twoCols">
+            <div class="colLW">
+                <a href="https://it.mail.ru/files/27_5n.jpg" style="display: none"></a>
+                <div class="colL">
+                    <dl class="dlType1"><dl class="dlType1">
+<dt class="">More than 12000 programmers</dt>
+<dd>The best programmers from across Russia, but also from the&nbsp;USA, Germany and other European countries.</dd>
+
+<dt class="addArrow">Advanced tasks</dt>
+<dd>The complexity of tasks and task-solving speed is increasing year to year.<br>
+Maximum concentration is required in order to show a good result.</dd>
+
+<dt>Deserved reward</dt>
+<dd>Ten winners will receive money prizes, the finalists - some gifts. </dd></dl>
+                </div>
+            </div>
+            <div class="colR">
+                <div class="commentStyle mt9">
+                    Two troublemakers Petya and Vasya are unbelievably bored in class. To have at least some kind of fun they have decided to test the teacher&#39;s patience. The level of the teacher&#39;s annoyance by the boys is expressed as a whole number “X”. Petya and Vasya are taking turns in playing small and bigger pranks. Petya does it first. After a little prank, the teacher&#39;s annoyance level increases onefold; after a big one – it doubles.
+                    <br>
+                    <a href="/en/tasks/"More task examples></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="hType3 hSystem">Hosted by</h2>
+    <div class="braces">
+        <div class="cols twoCols">
+<div class="colLW">
+<div class="colL">
+<div class="logoBox bigLB" id="bx_3017195560_113"><img alt="mail.ru" src="/media/uploads/photos/mrg.png" style="height:325px; width:350px" /></div>
+
+<div class="logoBox bigLB" id="bx_3017195560_114"><img alt="" src="/media/uploads/photos/itmologo.jpg" style="height: 1240px; width: 1754px;" /></div>
+</div>
+</div>
+
+<div class="colR">
+<p>Mail.Ru Group is working on the development of Russian education in the IT&nbsp;field. The company organizes a series of competitions for young subject-matter specialists. The first of these competitions is&nbsp;the&nbsp;Russian Code Cup.</p>
+
+<p>The tasks and technical part for the Russian Code Cup is provided by the experts from the National Research University of IT, Mechanics and Optics (ITMO&nbsp;University) headed by&nbsp;Andrey Stankevich.</p>
+</div>
+</div>
+
+    </div>
+
+    <h2 class="hType3 hIf">Reach the finals</h2>
+    <p class="braces">
+        It all begins with three qualification rounds. To proceed to the elimination round one has to make it to Top 200 of any of the three qualification rounds. It is possible to participate in all three qualification rounds.
+    </p>
+</div>
+
+<div class="blueBlock schemeBlock">
+    <div class="container containerComment">
+        <div class="imgFullWidh">
+
+            <img src="/media/uploads/photos/cache/rccscheme_width_1115.png" width="1115" height="318">
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="hType3 hThen">Get awarded</h2>
+    <div class="braces">
+        <p>All qualified participants will receive a certificate stating that they belong to the 600 fastest programmers in Russia and CIS.</p>
+
+<p>Top 200 contestants of the elimination round will receive T-shirts.</p>
+
+<p>The top 25 programmers get awards and the best three win the top prizes: checks for large amounts of money.</p>
+        <pre><code class="hljs cs">const char* prizes(int level, int place = 0)
+{
+    switch(level){
+        case 0:                               // All qualified participants will receive
+            return "certificate";             // a Russian Code Cup participant certificate.
+        case 1:                               // 200 best elimination round participants
+            return "t-shirt";                 // will receive t-shirts.
+        case 2:
+            if(place == 1)                    // The winners of the championship
+                return "150,000 rub";         // will receive money prizes.
+            else if(place == 2)
+                return "100,000 rub";
+            else if(place == 3)
+                return "65,000 rub";
+            else if(place <= 10)
+                return "30,000 rub";
+            else if(place <= 25)
+                return "15,000 rub";
+    }
+    return "";
+}</code></pre>
+    </div>
+</div>
+
+<div class="winnersBlock greyBlock">
+    <div class="container containerComment">
+            <img style="width: 100%; height: auto" class="imgHover" src="/media/uploads/photos/cache/300x200_width_1115.png" width="1115" height="795">
+        
+    </div>
+</div>
+
+
+<div class="container">
+    <h2 class="hType3 hElse">Other Mail.Ru Group contests</h2>
+    <div class="braces">
+        <div class="otherEventsBlock">
+            <ul class="horizontalList"><li><span class="imgBox bgGrey"><img src="/media/uploads/photos/cache/raic.png_other_champs.jpeg" width="340" height="160"></span><h3><a target="_blank" href="http://russianaicup.ru/">Russian AI Cup</a></h3><span class="text">Open artificial intelligence
+ programming championship  </span></li><li><span class="imgBox bgBlack"><img src="/media/uploads/photos/cache/lb_rdesc_other_champs.png" width="340" height="160"></span><h3><a target="_blank" href="https://russiandesigncup.ru/">Russian Design Cup</a></h3><span class="text">Open competition for both experienced and beginning interface designers and developers.
+</span></li><li><span class="imgBox bgBlue"><img src="/media/uploads/photos/cache/Screenshot_16_other_champs.jpg" width="340" height="160"></span><h3><a target="_blank" href="http://mlbootcamp.ru/">ML Boot Camp</a></h3><span class="text">Machine learning and data analysis contests.</span></li></ul>
+        </div>
+    </div>
+</div>
+
+
+
+                    
+                </div>
+
+                
+                    
+
+
+
+
+<footer id="footer" class="blackBlock">
+    <div class="container">
+        <pre id="footerCode" style="top:0"><code>int main() {
+    cout << "Hello World" << endl;
+    return 0;
+}_</code>
+    </pre>
+        <p class="alignR">
+            <a href="#" class="feedback showFeedBackPopup" data-userID="feedback">Feedback</a>
+            &copy;&nbsp;2017 Russian Code Cup
+        </p>
+        <p style="display:none" class="alignR">
+            Design: <a href="http://nimax.ru">Nimax</a> <br> Created by: <a href="http://park.mail.ru">Technopark Lab</a>
+        </p>
+        <p class="alignR">
+            Product version: 1.19.6
+        </p>
+        <p class="alignR">
+            <a href="#" class="lang-switch" data-url="/en/" data-lang="en" style="margin-right: 10px; text-decoration: none">
+                <img src="/static/rcc_app/img/icons/gb.png" title="In English" alt="In English">
+            </a>
+            <a href="#" class="lang-switch" data-url="/ru/" data-lang="ru">
+                <img src="/static/rcc_app/img/icons/ru.png" title="-" alt="-">
+            </a>
+        </p>
+    </div>
+    <a href="javascript:myScroll.scrollTo(0, 0, 600)" class="btn btnUp">^</a>
+</footer>
+
+                
+            </div>
+        </div>
+
+        
+
+        <div id="lineNumbering"><div id="lineNumbers"></div></div>
+
+        <script>
+            window.LANG = 'en';
+            function chooseLang (rusLiteral, engLiteral) {
+                if (window.LANG === 'en') { return engLiteral; } else { return rusLiteral; }
+            }
+        </script>
+        
+
+<script>
+    window.serverUrls = {
+        login: "/en/ajax/login",
+        it_login: "/it/login/?locale=en",
+        news: "/en/ajax/press/archive/0/",
+        ajax_register: "/en/ajax/registration",
+
+        personal_profile: "/en/personal/profile/",
+        personal_profile_edit: "/en/personal/profile/edit/",
+        personal_login_page: "/en/personal/login/",
+        ajax_user_full_info: "/en/ajax/user/full/hash_here/",
+
+        restore_pwd: "/en/personal/",
+        current_championship: "/en/championship/",
+        results_championship: "/en/results/championship/0/",
+        results_table_championship: "/en/results/championship/round/0/",
+        championship_round: "/en/championship/round/0/",
+        champ_reg_info: "/en/ajax/champ_reg_info/",
+        ajax_dont_show: "/en/ajax/dont_show/",
+        ajax_reg_on_champ: "/en/ajax/reg_on_champ",
+
+        ajax_news: "/en/ajax/press/news/0/",
+
+        ajax_profile_edit: "/en/ajax/edit",
+        ajax_restore_pwd: "/en/ajax/restore_pwd",
+        ajax_server_time: "/en/ajax/server_time/",
+        ajax_user_result: "/en/ajax/user_result/0/user/hash_here/",
+        ajax_feedback_form: "/en/ajax/feedback/send/",
+        ajax_user_info: "/en/ajax/user/0",
+        ajax_users_result_data: "/en/ajax/result/0/",
+
+        index: "/en/",
+        result_table: "/en/results/championship/round/",
+        tasks: "/en/tasks/",
+        tasks_round: "/en/tasks/round/0/",
+        round_filter: "/en/ajax/rounds_filter/",
+
+        solution_round_history: "/en/history/round/0/",
+        download: "/en/download/0/",
+        upload: "/en/upload/",
+        save_my_lang: "/en/save_my_lang/"
+    };
+</script>
+
+        <script type="text/javascript" src="/static/rcc_app/js/libs/bootstrap.min.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/highlight.pack.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/bootstrap.select.min.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/jquery.jsp.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/jquery.mouseweel.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/jquery.cookie.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/jquery.mwheelIntent.js?ver=1.19.6"></script>
+
+        <script type="text/javascript" src="/static/rcc_app/js/script.js?ver=1.19.6"></script>
+
+        
+
+<script type="text/template" id="successPasswd-tml">
+    <p class="messageok">
+        The password has been successfully changed
+    </p>
+</script>
+<script type="text/template" id="invalidPasswd-tml">
+    Invalid <a href="#field-older-password" class="dotted"><span class="bb">password</span></a>
+</script>
+<script type="text/template" id="invalidCaptha-tml">
+    Invalid input from <a href="#field-captcha" class="dotted"><span class="bb">picture</span></a>
+</script>
+<script type="text/template" id="userExists-tml">
+    User with such <a href="#field-email" class="dotted"><span class="bb">email</span></a> already exists
+</script>
+<script type="text/template" id="invalidBirthday-tml">
+    Invalid format of <a href="#field-email" class="dotted"><span class="bb">birthday</span></a>
+</script>
+<script type="text/template" id="lengthExceeded-tml">
+    Allowed length of <a href="#field-<%= fieldName %>" class="dotted"><span class="bb">field</span></a> is exceeded
+</script>
+<script type="text/template" id="formatEmail-tml">
+    <a href="#field-email" class="dotted">
+        <span class="bb">email</span>
+    </a>
+</script>
+<script type="text/template" id="formatBirthday-tml">
+    <a href="#field-birthday" class="dotted">
+        <span class="bb">birthday</span>
+    </a>
+</script>
+<script type="text/template" id="pwdAtLeast-tml">
+    Length of <a href="#field-password" class="dotted"><span class="bb">password</span></a> should be no more than 8 characters
+</script>
+<script type="text/template" id="unmatchedPwds-tml">
+    <a href="#field-confirm-password" class="dotted"><span class="bb">Password confirmation</span></a> does not match the password
+</script>
+<script type="text/template" id="needConfirm-tml">
+    Please, set <a href="#field-confirm-password" class="dotted"><span class="bb">password confirmation</span></a>
+</script>
+<script type="text/template" id="needOlder-tml">
+    For password changing, please, set <a href="#field-older-password" class="dotted"><span class="bb">old password</span></a>
+</script>
+<script type="text/template" id="needBoth-tml">
+    Not set <a href="#field-password" class="dotted"><span class="bb">new password</span></a> and <a href="#field-confirm-password" class="dotted"><span class="bb">password confirmation</span></a>
+</script>
+        <script type="text/javascript" src="/static/rcc_app/js/ajaxes.js?ver=1.19.6"></script>
+
+        <script type="text/javascript" src="/static/rcc_app/js/libs/bootstrap.datepicker.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/FileAPI.min.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/libs/modernizr_2.7.1.js?ver=1.19.6"></script>
+
+        
+
+<script>
+basePopupMessages = {
+    firstQualRound: "Begins <strong><%= nextName %></strong>! The dates of the qualification rounds are finally known. The first of them will take place <strong><%= startDate %></strong> Moscow time. Go for the win!",
+    startOfRound: "Started <strong><%= chName %>! <%= nextName %></strong> will be held on <strong><%= startDate %></strong> Moscow time. Go for the win!",
+    goodLuck: "We are delighted that you have decided to participate in the <strong><%= chName %>! <%= nextName %></strong> start <strong><%= startDate %></strong> Moscow time, Good luck!",
+    lastAttempt: "Last try! <strong><%= nextName %></strong>, pass <strong><%= startDate %></strong> Moscow time.",
+    qualNotPassed: "You do not qualify by the results of the previous round. Next try - <strong><%= nextName %></strong> will take place <strong><%= startDate %></strong> Moscow time.",
+    qualPassed: "Congratulations, you are qualified! Elimination round will take place <strong><%= startDate %></strong> Moscow time.",
+    elimPassed: "Congratulations, you passed the elimination round! The final will be harder, more interesting and will be held <strong><%= startDate %></strong> Moscow time.",
+    badNews: "Bad news: you do not qualify. Good news: the next RCC will start next year. Prepare and follow the news on our site.",
+    notInFinal: "Sorry, you have not made it to the finals. But the fact that you have reached the elimination round means that you never give up easily! Try again next year and in the meantime follow the news on our site.",
+    finalInFuture: "Congratulations, you passed the elimination round! The final round will be harder, more interesting and will be at 18th september. We will inform you the exact time.",
+    firstRank: "Congratulations on winning the RCC! We know it wasn't easy. Defend your title next year!",
+    secondRank: "You finished second in <%= chName %>! The only thing cooler is to be a champion! Fight for it next year!",
+    thirdRank: "You've come third in the <%= chName %>! We congratulate you and invite you to fight for the champion title next year!",
+    noRank: "You have not won a prize, but you are one of the strongest programmers of the country! Congratulations and feel free to try again next year.",
+    firstRegistration: "Began <strong><%= chName %></strong> Sign up to participate in <strong><%= nextName %></strong>, which will be <strong><%= startDate %></strong>, as well as the <strong>qualifying rounds</strong>."
+};
+warmUpPopupMessages = {
+    startOfWarmUp: "We are delighted that you have decided to participate in the <strong><%= nextName %></strong>, which starts <strong><%= startDate %></strong> Moscow time. The results of this round will not affect your position in this championship. Good luck!",
+    soonStart: "<strong><%= nextName %></strong> is about to begin. It will take place <strong><%= startDate %></strong> Moscow time. The results of this round will not affect your position in this championship. Good luck!"
+};
+</script>
+        
+
+<script type="text/template" id="signInWrapper-name-tml">
+    <a href="/en/personal/profile/" class="btn btn-default user"><%- name %></a>
+    <a class="logout" href="/en/logout/">
+        <span class="bb">Log out</span>
+    </a>
+</script>
+<script type="text/template" id="signInWrapper-out-tml">
+    <button class="btn btn-default showPopup popupPositionTR" data-tcID="pcLogin" data-redirect="true">
+        Log in
+    </button>
+</script>
+<script type="text/template" id="roundSelect-tml">
+    <a class="downloadLink" href="<%= link %>">Download tests</a>
+</script>
+<script type="text/template" id="regSuggestion-tml">
+    <div class="orangeBlock popupInfo" id="notReqRound">
+        <h4 class="fontUM27">
+            You are not registered for the round
+        </h4>
+        <p>You can do it in your
+            <a href="/en/personal/profile/">profile</a>
+        </p>
+        <a href="#" class="btn btn-default">Do not show again</a>
+        <div class="close"></div>
+    </div>
+</script>
+        <script type="text/javascript" src="/static/rcc_app/js/ajax_content.js?vver=1.19.6"></script>
+
+        <script type="text/javascript" src="/static/rcc_app/js/script_reg.js?ver=1.19.6"></script>
+        <script type="text/javascript" src="/static/rcc_app/js/result.js?ver=1.19.6"></script>
+
+
+        <div class="popupContent" id="pcLogin" >
+            <div class="formBlock">
+                <div >
+                    <h3 style="display: inline-block">Log in</h3>
+                    
+                        <a id="cross-button"  class="btn-it dotted" href="/it/login/?locale=en"><span class="bb">It.Mail.ru</span></a>
+                    
+                </div>
+                <form id="login-form">
+                
+                    <p><input type="text" placeholder="E-mail" class="span3" name="login_email"></p>
+                    <p><input type="password" placeholder="Password" class="span3" name="password"></p>
+                    <p class="snmRow">
+                    <a href="#" class="dotted togglePasswordRecovery">
+                        <span class="bb">Forgot password?</span>
+                    </a>
+                    </p>
+                    <span id="errors-placeholder"></span>
+
+                    <p class="butRow">
+                        <button class="btn btn-default prog-login">Log in</button>
+                        <a  class="btn btn-default" href="/en/registration/">Registration</a>
+                    </p>
+                
+                </form>
+            </div>
+            <div class="formBlock hidden">
+                <h3>Forgot password?</h3>
+                <form id="recover-form" method="post">
+                    <p class="snmRow">Enter your email address, used for registration</p>
+                    <p><input type="text" placeholder="E-mail" class="span3" name="restore-email"></p>
+                    <span id="errors-placeholder-restor-pass"></span>
+                    <p class="butRow">
+                        <button id="recover-submit-button" class="btn btn-default btnRecovery">Send</button>
+                        <a href="#" class="dotted togglePasswordRecovery"><span class="bb">Cancel</span></a>
+                    </p>
+                </form>
+            </div>
+            <div class="resultSubmit">
+                <p>The instruction for password recovery<br>has been sent to your email</p>
+            </div>
+        </div>
+    </body>
+
+    
+    
+
+<div class="blind" style="display: none;">
+    <div class="popup" style="opacity: 1;">
+        <div id="feedback" class="popupContent userPC">
+            <div class="formBlock">
+                <h3>Feedback</h3>
+                <p class="prog-ok-message" style="display: none">Your message has been successfully sent</p>
+                <form id="feedback-form">
+                    <p>
+                        <span class="labelBox"><label>Your name:</label></span>
+                        <input class="span3" id="id_name" maxlength="256" name="name" type="text" />
+                    </p>
+                    <p>
+                        <span class="labelBox"><label>Email:</label></span>
+                        <input class="span3" id="id_email" maxlength="256" name="email" type="email" />
+                    </p>
+                    <p>
+                        <span class="labelBox"><label>Subject:</label></span>
+                        <input class="span3" id="id_subject" maxlength="256" name="subject" type="text" />
+                    </p>
+                    <p>
+                        <span class="labelBox"><label>Message:</label></span>
+                        <textarea class="span3" cols="40" id="id_message" name="message" rows="2">
+</textarea>
+                    </p>
+                    <p>
+                        <span class="labelBox"><label>Please, enter characters from picture</label></span>
+                        <img src="" width="150" height="48" alt="captcha" class="captcha">
+                        <input id="id_captcha_0" name="captcha_0" type="hidden">
+                        <input autocomplete="off" id="id_captcha_1" name="captcha_1" type="text">
+                    </p>
+                    <p class="butRow">
+                        <label class="formError error" style="float: left;"></label>
+                        <label class="labelBox">&nbsp;</label>
+                        <button class="btn btn-default">Send</button>
+                    </p>
+                </form>
+            </div>
+            <script>
+                function reloadCaptcha(captcha) {
+                    $('[name="captcha_0"]').val(captcha['new_key']);
+                    $('[name="captcha_1"]').val('');
+                    $('.captcha').attr('src', captcha['new_image']);
+                }
+
+                var feedbackForm = $('#feedback-form');
+                $('.showFeedBackPopup').on('click', function(){
+                    $('.blind').show();
+
+                    feedbackForm.show();
+                    $('#feedback .prog-ok-message').hide();
+
+                    $.get("/ajax/get_captcha/", function( response ) {
+                        var data = $.parseJSON(response);
+                        reloadCaptcha(data);
+                    });
+                    $('.close').click(function(){
+                        $('.blind').hide();
+                    });
+                });
+
+                feedbackForm.on('submit', function(e){
+                    e.preventDefault();
+                    var data = {};
+                    feedbackForm.find('.formError').html('');
+
+                    $.post(serverUrls['ajax_feedback_form'], {
+                        csrfmiddlewaretoken: $.cookie('csrftoken'),
+                        name: $('[name="name"]').val(),
+                        email: $('[name="email"]').val(),
+                        subject: $('[name="subject"]').val(),
+                        message: $('[name="message"]').val(),
+                        captcha_0: $('[name="captcha_0"]').val(),
+                        captcha_1: $('[name="captcha_1"]').val()
+                    }, function(response) {
+
+                        data = $.parseJSON(response);
+                        reloadCaptcha(data);
+
+                        if (data.status == '200') {
+                            $('#feedback .prog-ok-message').show();
+                            feedbackForm.hide();
+                            feedbackForm.find('input, textarea').each(function () {
+                                $(this).val('');
+                            });
+                        }
+                        else if (data.status == '403') {
+                            feedbackForm.find('.formError').html(data.errors[0]);
+                        }
+                        else if (data.status == '500') {
+                            $('#feedback-form .error').removeClass('error');
+                            for(var key in data.errors) {
+                                $('#feedback-form [name=' + data.errors[key] + ']').addClass('error');
+                                if (data.errors[key] == 'captcha')
+                                    $("#feedback-form input[name=captcha_1]").addClass('error');
+                            }
+                        }
+                    });
+                });
+            </script>
+            <div class="close"></div>
+        </div>
+    </div>
+</div>
+
+
+
+    <!-- Rating@Mail.ru counter -->
+    <script type="text/javascript">//<![CDATA[
+    var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+    try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+    try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+    try{(new Image()).src='http://d9.c4.b1.a2.top.mail.ru/counter?id=2181412;js='+js+a+';rand='+Math.random();}catch(e){}//]]></script>
+    <noscript><p><a href="http://top.mail.ru/jump?from=2181412"><img src="http://d9.c4.b1.a2.top.mail.ru/counter?js=na;id=2181412"
+    style="border:0;" height="1" width="1" alt="Top@Mail.ru" /></a></p></noscript>
+    <!-- //Rating@Mail.ru counter -->
+    <!--Google analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      var user_id = $.cookie('UserSocial');
+      if(user_id == undefined) {
+        ga('create', 'UA-60413792-1', 'auto');
+      } else {
+        ga('create', 'UA-60413792-1', { 'userId': user_id });
+      }
+      ga('send', 'pageview');
+    </script>
+    <!--Google analytics-->
+
+    <img id="reg-button-pixel" src="" style="width:0;height:0;position:absolute;" alt=""/>
+</html>

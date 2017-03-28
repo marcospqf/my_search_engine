@@ -1,0 +1,229 @@
+|||http://g1.com/Support/|
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="site_section" content="Customer Services" />
+	<title>Pitney Bowes Software Technical Services | Pitney Bowes Software</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="/styles/global.css" />
+	<!--[if gt IE 5]>
+		<link rel="stylesheet" type="text/css" media="screen" href="/styles/ie6.css" />
+	<![endif]-->
+	<link rel="stylesheet" href="/styles/featured.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/styles/forms.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/styles/support.css" type="text/css" media="screen" />	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/Support/plugins/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/Support/Include/Javascript/global_notify.js"></script>
+	<style type="text/css">
+		#notification {padding:8px 35px 8px 14px;margin-bottom:18px;text-shadow:0 1px 0 rgba(255,255,255,.5);background-color:#9c0;border:1px solid #86b200;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
+	    #notification {background-color: #EEDC94; background-repeat: repeat-x;}
+	</style>	
+</head>
+<body id="custSrvcs">
+	<div id="page">
+		<div id="innerWrap">
+			<script type="text/javascript">
+  // <![CDATA[ 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<scr"+"ipt src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-238030-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+ // ]]>
+</script>
+<img src="http://content.pbinsight.com/static/cssimages/global/logo.gif" width="180px" height="48px" class="printOnly" alt="Pitney Bowes Software" />		
+		<ul id="accessOptions">
+			<li><a href="#content">Skip to Content</a></li>
+			<li><a href="#mainSearch">Skip to Search</a></li>			
+			<li><a href="#topNav">Skip to Primary Navigation</a></li>				
+			<li><a href="#leftNav">Skip to Customer Services Navigation</a></li>							
+		</ul>
+		<hr />
+		<div id="header">
+			<h1 id="logo"><a href="/" title="Pitney Bowes Software Home Page" rel="home">Pitney Bowes Software</a></h1>
+			<ul id="mainLinks">
+				<li><a href="/Support/Contact/" class="envelope" title="Contact customer support">Contact Us</a></li>
+				<li><a href="/Support/login.asp" class="key" title="Log in to customer support site">Customer Login</a></li>				
+			</ul>
+			<form id="mainSearch" action="http://search.g1.com/search" method="get">
+				<fieldset>
+					<input name="sort" value="date:D:L:d1" type="hidden" />
+					<input name="output" value="xml_no_dtd" type="hidden" />
+					<input name="oe" value="UTF-8" type="hidden" />
+					<input name="ie" value="UTF-8" type="hidden" />
+					<input name="client" value="default_frontend" type="hidden" />
+					<input name="proxystylesheet" value="default_frontend" type="hidden" />
+					<input name="site" value="default_collection" type="hidden" />		
+					<label for="keywordSearch"><a href="http://search.g1.com" title="Search" class="magnify">Search</a><input type="text" id="keywordSearch" name="q" /></label>
+					<input type="submit" id="submitMainSearch" value="Go" />
+				</fieldset>
+			</form>
+			<div class="clearB clearer"></div>			
+		</div><!--End Header-->
+		<ul id="topNav"> 
+        	<li id="support" class="current"><a href="/support/">Support</a></li> 
+    	</ul> 
+		<div class="border"></div>
+		<hr />
+			<div id="leftNav">
+				<ul id="level1">
+					<li class="section_lead"><a href="/CustomerServices/">Customer Services</a></li>
+					<li id="section">
+						<!-- <a href="/CustomerServices/">Customer Services</a> -->
+						<ul id="level2">
+							<li id="current">Technical Services
+							
+								<ul id="level3">
+									<li><a class="unavailable" href="/Support/Products/">My Products</a></li>
+									<li><a href="http://www.g1.com/docs/LICASSIST.ZIP" class="newwin popup zip">License Assist Utility for US Geocoding - Centrus and MapMarker USA</a></li>
+									<li><a class="unavailable" href="/Support/Docs/">My Documentation</a></li>
+									<li><a class="unavailable dbtreeview" href="/Support/Products/dpvlacsnav.asp">DPV &amp; LACS<sup>Link</sup> False-Positive</a></li>
+									<li><a href="/Support/SRD/">Special Request Downloads</a></li>
+									<li><a class="offsite popup" href="http://www.pbsoftwareforum.com">Discussion Forums</a></li>
+									<li><a href="/Support/Contact/">Contact Support</a></li>
+									<li><a href="/Support/Platform/">Supported Platforms</a></li>
+									<li><a href="/Support/Help/">Support Help</a></li>
+									<li><a class="unavailable" href="/Support/FTP/">FTP Access</a></li>
+									<li><a class="unavailable" href="/Support/Forms/">Online Forms</a></li>
+									<li><a href="/Support/online-case-management.asp">Online Case Management</a></li>
+									<li><a class="unavailable" href="/Support/Glossary/">Glossary</a></li>
+									<li><a href="http://www.pbinsight.com/blog/" class="newwin popup" title="Link opens in new window">PBS Blog</a></li>
+									<li><a href="/Email/">List Services</a></li>									
+									<li><a class="unavailable" href="/Support/Contact/ContactInfoForm.asp?updovr=y">Update Contact Info</a></li>
+									
+								</ul>
+							
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<!-- googleoff: index --><p id="salesRep"><a href="/About/Contact/ContactSales.asp">Contact a sales rep</a></p><!-- googleon: index -->
+			</div><!--End Left Navigation-->			
+			<hr />
+			<div id="main">
+				<div id="content">
+					<ul id="breadcrumbs">
+						<li class="level1"><a href="/" rel="home">Home</a></li>
+						<li><a href="/CustomerServices/">Customer Services</a></li>
+						<li>Technical Services</li>
+					</ul><!--End Breadcrumbs-->
+					<div id="featured">
+						<div class="specialFeature">
+							<h3>Useful Information</h3>
+								
+							<p><a href="/Support/UIDAdmin/SendID.asp" title="Have your UserID and Password sent to you via email">Do you need your User ID and password?</a></p>
+							
+							<h4>Technical Support Phone Menu</h4>
+							<p>Need to call Technical Support?</p>
+							<p>Use our <a href="/Support/getfile.asp?fn=PhoneMenu.pdf&amp;type=doc" class="pdf popup">Support Phone Menu</a> for reference.</p>
+						</div>
+						
+					</div>
+					
+					<h2 id="mainHeading">Pitney Bowes Software Technical Services</h2>
+					
+					
+								<div class="userMessage withRightFloat alert">
+								<p>You're not yet authenticated. Please authenticate yourself using the form below. Unavailable items are <span class="unavailable">greyed out</span>. </p><p><em>* Both fields are required.</em></p>
+								<form id="supportLogin" action="/Support/login.asp" method="post">
+									<fieldset id="authInfo" class="plain">
+										<label for="uid" class="required alert">* User ID: <input type="text" name="uid" id="uid" tabindex="1" class="required" /></label>
+										<label for="pwd" class="required alert">* Password: <input type="password" name="pwd" id="pwd" tabindex="2" class="required" /></label>
+								
+										<!--<label for="ovrByPass" class="clearL">Override Contact Information Check: <input type="checkbox" id="ovrByPass" name="ovrByPass" class="checkbox" checked="checked" tabindex="3" /></label>-->
+									
+									</fieldset>
+									<fieldset class="plain button">
+										<input type="submit" value="Login" id="submit" tabindex="4" />
+									</fieldset>
+								</form>							
+								</div>
+							
+
+					    <div class="clearer clearL""></div>
+						<dl id="mainMenu">
+							<dt><a class="unavailable" href="/Support/Products/">My Products</a></dt>
+							<dd>Detailed information including software components, databases, product updates, license files, related documentation and more.</dd>	
+								
+							<dt><a href="http://www.g1.com/docs/LICASSIST.ZIP" title="Open ZIP in New Window" class="newwin popup zip">License Assist Utility for US Geocoding - Centrus and MapMarker USA</a></dt>
+							<dd>This utility provides a file containing environmental information for use in generating a license file for Centrus products and MapMarker.</dd>
+							
+							<dt><a class="unavailable" href="/Support/Docs/">Documentation</a></dt>
+							<dd>Users manuals, release notes, installation instructions and more.</dd>
+	
+							<dt><a class="unavailable" href="/Support/Products/dpvlacsnav.asp">DPV &amp; LACS<sup>Link</sup> False-Positive (Seed Violation) Recovery</a></dt>
+							<dd>Use this page to locate the appropriate links to retrieve your replacement DPV&trade; and LACS<sup>Link</sup>&trade; license key files.</dd>	
+	
+							<dt><a href="/Support/SRD/">Special Request Downloads</a></dt>
+							<dd>This area is for our customers who have been given a special download code by a technical support representative.</dd>
+						
+							<dt><a class="offsite popup" href="http://www.pbsoftwareforum.com">Online Discussion Forums</a></dt>
+							<dd>We’ve updated our discussion forums. If you're looking for a place to talk with other Pitney Bowes Software customers, ask each other questions or share ideas &mdash; then this is the place to be. While Pitney Bowes Software does monitor these forums, they should not be used as a technical support option. If you are seeking technical support, please use our  <a href="/Support/online-case-management.asp" class="eservice unavailable">Online Case Management</a> feature.</dd>
+							
+							<dt><a class="unavailable" href="/Support/Contact/">Contact Information</a></dt>
+							<dd>Need to get in touch with someone in Technical Services? Use this page as a handy reference for contacting the various departments in Pitney Bowes Software&rsquo;s Technical Services division.  Most entries include an email address, phone number, and a fax number.</dd>
+							
+							<dt><a href="/Support/Platform/" title="Supported Platforms" >Supported Platforms</a></dt>
+							<dd>A listing of the supported platforms and operating systems our products support along with available delivery media.</dd>
+							
+							<dt><a class="unavailable" href="Help/">Support Site Help</a></dt>
+							<dd>Answers to your questions regarding this section of the web site.</dd>			
+							
+							<dt><a class="unavailable" href="/Support/FTP/"><abbr title="File Transfer Protocol">FTP</abbr> Access</a></dt>
+							<dd>Share files with Pitney Bowes Software using FTP. The FTP server is located at supportftp.g1.com for direct login with existing accounts.</dd>
+				
+							<dt><a class="unavailable" href="/Support/Forms/">Online Forms</a></dt>
+							<dd>Many of the forms that you need are conveniently located right here. Need additional hardcopy documentation? Perhaps you want to suggest a product enhancement request. Simply complete the form that meets your needs and we'll respond as soon as possible.</dd>
+				
+							<dt><a href="/Support/online-case-management.asp">Online Case Management</a></dt>
+							<dd>The new Online Case Management System provides similar functionality as the previous eService system but allows us more flexibility to provide a much richer online experience.</dd>
+							<dd> 
+								<div id="notification" class="userMessage">
+									<h3>If you are in Canada</h3>
+									<p>The enhanced online experience is now live! Select the appropriate Canadian "Sign in here" from <a href="http://www.pitneybowes.com/softwaresupport">www.pitneybowes.com/softwaresupport</a> to access the new enhanced online experience.</p>
+									<p>Previous users of our Online Case Management tool in Canada should use the above link to register for a new account. Your previous Online Case Management credentials are not valid in the new enhanced online experience.</p>
+									<h3>Everyone outside of Canada</h3>
+									<p>All other clients will continue to login to the OCMS below. Our evolution to the enhanced online experience is a global rollout that will occur throughout 2016, therefore, clients may not have all products available until all geographies are live.</p>
+									<p><a href="https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000KkyB&portalId=060800000006CN4">https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000KkyB&portalId=060800000006CN4</a></p>
+								</div>
+							</dd>
+														
+							<dt><a class="unavailable" href="/Support/Glossary/" title="Glossaries">Glossaries</a></dt>
+							<dd>Glossaries of terms and definitions related to our products.</dd>
+						
+							<dt><a href="http://www.pbinsight.com/blog/" title="Pitney Bowes Software Blog (New Window)" onclick="window.open(this.href,'newwin'); return false;" class="newwin">PBS Blog</a></dt>
+							<dd>An online resource for Pitney Bowes Software's leadership to share innovations, goals, and product/solution news and roadmaps, as well as exchange ideas with visitors. (<strong><a href="login.asp">Log in</a> first to unlock customer-only features!</strong>)</dd>
+				
+							<dt><a href="/Email/">List Services</a></dt>
+							<dd>Use our List Services system to manage your Pitney Bowes Software email newsletter and other email based communications.</dd>
+						
+							<dt><a class="unavailable" href="/Support/Contact/ContactInfoForm.asp?updovr=y">Update Contact Info</a></dt>
+							<dd>Use this link to request updates to your Contact profile. Your request will be processed by an associate and should appear on your Contact profile shortly.</dd>
+							
+						
+						</dl>		
+				
+					<div class="clearer clearB"></div>
+					<ul id="altPage">
+						<li><a href="/Help/TellAFriend.asp" class="envelope">Tell a Friend</a></li>
+					</ul>
+					<div class="clearer clearR"></div>
+				</div><!--End Content-->		
+			</div><!--End Main-->				
+			<div class="clearer clearL"></div>
+		</div><!--End Inner Wrap -->		
+	</div><!--End Page-->
+	<hr />	
+	<div id="footer">
+		<ul id="bottomNav">
+			<li><a href="/Support/Contact/">Contact Us</a></li>
+			<li class="lastItem"><a href="#page" accesskey="t">Back to Top</a></li>			
+		</ul>
+		<p id="copy">&copy; 2017 Pitney Bowes. All rights reserved. Additional <a href="/Help/Copyright.asp">trademark</a>, <a href="/Help/Copyright.asp">copyright</a> and <a href="/Help/Privacy.asp">privacy</a> information is available.</p>
+	</div><!--End Footer-->
+</body>
+</html>
