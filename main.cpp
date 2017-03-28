@@ -15,8 +15,8 @@ int main()
 {
 	srand(time(NULL));
 	Crawler c;
-	c.SetFolder("./Collection/");
+	c.SetFolder("Collection/");
 	cout<<"Starting to crawl"<<endl;
-	c.Start(80);
+	c.Start(10);
 	cout<<"ACABOU JOVEM!"<<endl;
 }

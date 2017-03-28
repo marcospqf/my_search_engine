@@ -1,0 +1,1548 @@
+|||http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Qual a sua rede social favorita? - Techtudo-Forum</title>
+
+    <meta name="description" content="Hoje existem dezenas de redes sociais gratuitas por todo o canto. Algumas são bem conhecidas, como o Facebook, Twitter, Instagram, Whatsapp. Outras ainda estão em estágio inicial, como Bliive.
+Independente disso, praticamente qualquer usuário conectado participa de ao menos uma rede social. Qual a s">
+    <meta name="keywords" content="redessociais,instragram,twitter,facebook,whatsapp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <meta property="fb:app_id" content="289255557788943">
+    <meta property="og:image" content="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/logo-opengraph.png">
+
+    
+        <link rel="canonical" href="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/perguntas/98538/qual-a-sua-rede-social-favorita?type=rss">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    
+
+    <link rel="shortcut icon" href="/m/default/media/images/favicon.ico" />
+
+    <link href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/style/style.css" rel="stylesheet" type="text/css" />
+
+    
+      <link href="/cstyle.css" rel="stylesheet" type="text/css" />
+    
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+
+    <link rel="stylesheet" href="http://barra.globo.com/nova/css/barra-globocom.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/css/240f741db5fd.css" type="text/css" />
+
+    
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        google.load("jquery", "1.4.2");
+        google.load("jqueryui", "1", {autoload:true});
+    </script>
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var i18nLang = 'pt_BR';
+        var scriptUrl = '/'
+        var osqaSkin = 'techtudo';
+
+        var messages = {
+            username: '',
+            confirm: "Tem certeza?",
+            yes: "Sim",
+            no: "Não",
+            message: "Mensagem",
+            cancel: "Cancelar",
+            close: "Fechar",
+            ok: "Ok",
+            matching_tags_url: "/tags_relacionadas/",
+            word: "word",
+            words: "palavras",
+            character: "character",
+            characters: "caracteres"
+        }
+
+        var glb = this.glb || {};
+        glb.barra = {
+            exibeAssineJa: true,
+            exibeCentral: true,
+            iframe: false,
+            itemCustomizado: {
+                cor: "#666666",
+                texto: "tecnologia",
+                url: "http://www.techtudo.com.br/"
+            }
+        };
+        (function() {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.charset = "utf-8";
+            s.src = "http://barra.globo.com/nova/js/barra-globocom.min.js";
+            var ss = document.getElementsByTagName("script")[0];
+            ss.parentNode.insertBefore(s, ss);
+        })();
+    /* ]] */
+    </script>
+
+    <script type="text/javascript" src="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/js/603f54a337ce.js"></script>
+
+    
+      <style type="text/css">
+          body { margin-top:2.4em; }
+      </style>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              var element = $('#validate_email_alert');
+              element.click(function(){notify.close(true);})
+              notify.show();
+          });
+      </script>
+    
+
+    
+
+    
+
+        
+        <script type="text/javascript" src="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/js/f5370c66df10.js"></script>
+        <link rel="stylesheet" href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/css/a23702bda3a5.css" type="text/css" />
+        
+
+
+        <script type="text/javascript">
+        $(function() {
+            $("#nav_questions").attr('className', 'on');
+
+            
+
+            $('#editor').TextAreaResizer();
+
+            //toggle preview of editor
+            var display = true;
+            var hidetxt = "[esconder preview]";
+            var showtxt = "[mostrar preview]";
+            $('#pre-collapse').text(hidetxt).bind('click', function() {
+                txt = display ? showtxt : hidetxt;
+                display = !display;
+                $('#previewer').toggle();
+                $('#pre-collapse').text(txt);
+            });
+        });
+
+        function submitClicked(e, f) {
+            if(!(browserTester('chrome') || browserTester('safari'))) {
+                $("input.submit")[0].disabled=true;
+            }
+            window.removeEventListener('beforeunload', beforeUnload, true);
+            if (f) {
+                f.submit();
+            }
+        }
+
+        function beforeUnload(e) {
+
+            if($("textarea#editor")[0].value != "") {
+                return yourWorkWillBeLost(e);
+            }
+
+            var commentBoxes = $("textarea.commentBox");
+            for(var index = 0; index < commentBoxes.length; index++) {
+                if(commentBoxes[index].value != "") {
+                    return yourWorkWillBeLost(e);
+                }
+            }
+        }
+        window.addEventListener('beforeunload', beforeUnload, true);
+        </script>
+        <noscript>
+            <style>
+                .comment.not_top_scorer {
+                    display: block;
+                }
+                .comment-form-container {
+                    display: block;
+                }
+                .div.comment-tools {
+                    display: none;
+                }
+            </style>
+        </noscript>
+
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Techtudo-Forum Search" />
+
+    
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <!-- TEALIUM -->
+<script type="text/javascript">
+
+    var utag_data = {"ad_site_page": "techtudo/forum/pergunta", "vertical": "", "site_template_ideal": "Desktop", "video_zoneid": "", "colaborador": "", "site_template_servido": "", "plataforma": "Forum", "hierarquia": "", "data_publicacao": "Até 4 anos", "page_name": "Perguntas e Respostas", "structure_tree": "[\"techtudo\", \"forum\", \"pergunta\"]", "downloadable": "", "data_atualizacao": "Até 1 semana"};
+
+</script>
+
+
+    <script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.tiqcdn.com/utag/globo/editoraglobo/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script>
+
+    
+  </head>
+
+  <body>
+    <div id="cabecalho" class="show-for-small-only"><div id="header-produto"><div class="opec-area opec-mobile opec-x60 grid-12">
+    <div class="opec-internal">
+        
+        <div id="banner_mobile_topo" class="tag-manager-publicidade-container"></div>
+    </div>
+</div></div></div>
+
+    <div id="content">
+      <div><div id="banner_floating" class="tag-manager-publicidade-container"></div></div>
+      <div class="notify" style="display:none">
+        
+          
+            
+              <p class="darkred">Primeira vez aqui? Confira o <a href="/faq/">FAQ</a>!</p>
+            
+          
+        
+        <a id="close-notify" onclick="notify.close(true)">&times;</a>
+      </div>
+
+        
+
+        <!-- template header.html -->
+
+
+<div id="header-techtudo">
+  <div class="row">
+    <a href="http://techtudo.com.br" class="brand" title="ir para o TechTudo">Techtudo</a>
+
+    <div class="logo-area">
+      <h1 class="logo">
+        <a href="/" title="voltar para a página principal">Fórum</a>
+      </h1>
+    </div>
+
+    <div id="top">
+       <a href="https://login.globo.com/login/4146?url=http%3A%2F%2Fforum.techtudo.com.br%2Fconta%2Fcadun%2Fpronto%2F" >login</a>  <a href="/sobre/" >sobre</a>  <a href="/faq/" >faq</a> 
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="roof" class="small-12 column">
+    <div class="row navbar">
+      <ul id="nav">
+        <li><a id="nav_questions" class="on" href="/perguntas/" >perguntas</a></li><li><a id="nav_tags" href="/tags/" >tags</a></li><li><a id="nav_users" href="/usuarios/" >usuários</a></li><li><a id="nav_badges" href="/trofeus/" >troféus</a></li><li><a id="nav_unanswered" href="/perguntas/nao_respondidas/" >não respondidas</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="searchBar">
+  <div class="row">
+    <div class="row">
+      <form action="/buscar/" method="get" class="medium-8 small-12 column">
+        <input type="text" class="searchInput" value="" name="q" id="keywords" />
+        <button type="submit" name="Submit" class="searchBtn">buscar</button>
+        <div class="options" style="display:none;">
+            <input id="type-nav_questions" type="radio" value="question" name="t" checked="checked" /><label for="type-question">perguntas</label>
+            <input id="type-nav_tags" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-nav_users" type="radio" value="user" name="t" /><label for="type-user">usuários</label>
+        </div>
+      </form>
+      <script>
+          function selecionaTipoConteudoParaBuscaTextual() {
+              //zera o que estiver marcado
+              $("#searchBar .options input[type=radio]").removeAttr("checked");
+              var inputRadioId = "#type-" + $("#nav").find(".on").attr("id")
+
+              if($(inputRadioId).length > 0){
+                $(inputRadioId).attr("checked", true);
+              } else {
+                  //default perguntas
+                $("#type-nav_questions").attr("checked", true);
+              }
+          }
+          $(document).ready(function() {
+            selecionaTipoConteudoParaBuscaTextual();
+          });
+      </script>
+      <div class="askBtn-wrapper medium-4 column">
+        <a id="nav_ask" href="/perguntas/pergunte/" class="askBtn">faça uma pergunta</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end template header.html -->
+
+
+      <div class="osqa-content row">
+        
+    
+
+    <div id="wrapper" class="small-12 column">
+        
+
+        <div id="room">
+            <div class="row">
+                <div id="head" class="medium-8 small-12 column">
+                    
+<div class="head-content-width">
+
+    <h1 id="main-bar" class="headNormal question-headline primary-title">
+        <a href="/perguntas/98538/qual-a-sua-rede-social-favorita">Qual a sua rede social favorita?</a>
+    </h1>
+    <div
+  class="share-bar"
+  data-theme="natural"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita"></div>
+
+</div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="CALeft" class="medium-8 small-12 column">
+                    
+<div id="main-body" class="question-body">
+    <div id="askform">
+        <table style="width:100%;" id="question-table" >
+            <tr>
+                <td style="width:30px;vertical-align:top">
+                    <div class="vote-buttons">
+                        
+
+<a id="post-98538-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/98538/up/" rel="nofollow"> </a>
+<div id="post-98538-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    5
+</div>
+<a id="post-98538-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/98538/down/" rel="nofollow"> </a>
+                        
+
+<a id="favorite-mark" title="marcar/desmarcar esta pergunta como favorita (clique novamente para cancelar)"
+    class="ajax-command favorite-mark "
+    href="/marcar_favorito/98538/" rel="nofollow"> </a>
+<div id="favorite-count" class="favorite-count">
+   
+</div>
+
+                    </div>
+                </td>
+                <td>
+                    <div id="item-right" class="question-item-right">
+                        <div class="question-body">
+                            <p>Hoje existem dezenas de redes sociais gratuitas por todo o canto. Algumas são bem conhecidas, como o <a href="http://www.techtudo.com.br/tudo-sobre/facebook.html" rel="nofollow">Facebook</a>, <a href="http://www.techtudo.com.br/tudo-sobre/twitter.html" rel="nofollow">Twitter</a>, <a href="http://www.techtudo.com.br/tudo-sobre/instagram.html" rel="nofollow">Instagram</a>, <a href="http://www.techtudo.com.br/tudo-sobre/whatsapp-messenger.html" rel="nofollow">Whatsapp</a>. Outras ainda estão em estágio inicial, como Bliive.</p>
+<p>Independente disso, praticamente qualquer usuário conectado participa de ao menos uma rede social. Qual a sua favorita?</p>
+                        </div>
+                        <div id="question-tags" class="tags-container tags">
+                            
+                                <a href="/tags/redessociais/" class="post-tag tag-link-redessociais"
+                                    title="veja as perguntas tagueadas 'redessociais'" rel="tag">redessociais</a>
+                            
+                                <a href="/tags/instragram/" class="post-tag tag-link-instragram"
+                                    title="veja as perguntas tagueadas 'instragram'" rel="tag">instragram</a>
+                            
+                                <a href="/tags/twitter/" class="post-tag tag-link-twitter"
+                                    title="veja as perguntas tagueadas 'twitter'" rel="tag">twitter</a>
+                            
+                                <a href="/tags/facebook/" class="post-tag tag-link-facebook"
+                                    title="veja as perguntas tagueadas 'facebook'" rel="tag">facebook</a>
+                            
+                                <a href="/tags/whatsapp/" class="post-tag tag-link-whatsapp"
+                                    title="veja as perguntas tagueadas 'whatsapp'" rel="tag">whatsapp</a>
+                            
+                        </div>
+                        <div id="question-controls" class="post-controls">
+                            
+
+                            
+
+                        </div>
+                        <div class="post-update-info-container">
+                                
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        perguntou
+        <strong>Dec 13 '13 às 09:01</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/5c0221eeb9b025c3c48af78f14c0bc19?s=32&amp;d=wavatar&amp;r=g" alt="emanuel_s's gravatar image" />
+    <p><a href="/usuarios/11324/emanuel_s/">emanuel_s</a><br/>
+    <span title="39 troféus"><span class="badge1">39</span></span><span title="40 troféus"><span class="badge2">40</span></span><span title="45 troféus"><span class="badge3">45</span></span><span class="score" title="136 pontos de reputação">136</span></p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p class="post-update-edited-info">
+            <a href="/revisoes/98538/">
+                editou
+                <strong>Aug 18 '16 às 16:28</strong>
+            </a>
+        </p>
+        
+            <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/56139ad86ddfdec23571a4335721d51d?s=32&amp;d=wavatar&amp;r=g" alt="TainahTavares's gravatar image" />
+            <p class="post-update-info-user-edited"><a href="/usuarios/40856/tainahtavares/">TainahTavares </a><br/>
+            <span title="1 troféus"><span class="badge1">1</span></span><span title="3 troféus"><span class="badge2">3</span></span><span title="12 troféus"><span class="badge3">12</span></span><span class="score" title="719 pontos de reputação">719</span></p>
+        
+    </div>
+
+
+                        </div>
+                        
+
+
+<div class="comments-container" id="comments-container-98538">
+    
+</div>
+<div id="comment-tools-98538" class="comment-tools">
+    
+    
+</div>
+<div id="comment-98538-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+
+        
+
+        
+        <div class="show-for-small-only">
+    <div class="snippet-plantao-item snippet-plantao-item-ad-x62 ">
+        <div class='publicidade ad-x62' id="ad-x62">
+            
+            <div id="banner_mobile_meio" class="tag-manager-publicidade-container"></div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="answers">
+            <div class="tabBar">
+                <a name="sort-top"></a>
+                <div class="headAnswers primary-title">
+                    66 Respostas:
+                </div>
+                
+<div class="tabsA"><a id="maisantigas" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=mais antigas" title="respostas mais antigas serão mostradas primeiro">Mais antigas</a><a id="novas" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=novas" title="respostas mais novas serão mostradas primeiro">Mais novas</a><a id="votos" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos" class="on" title="respostas mais votadas serão mostradas primeiro">Mais populares</a></div>
+
+
+            </div>
+
+
+            
+                <a name="184992"></a>
+                <div id="answer-container-184992" class="answer accepted-answer">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-184992-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/184992/up/" rel="nofollow"> </a>
+<div id="post-184992-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    2
+</div>
+<a id="post-184992-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/184992/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+      <a class="accept-answer on"
+        title="raissadelphim escolheu esta resposta como a resposta correta"
+        href="/aceitar_resposta/184992/" rel="nofollow"> 
+      </a>
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Encontrei uma lista com várias redes sociais diferentes, se você quer fugir da "mesmice" vale dar uma olhada, vai que encontra algo legal?</p>
+<p><a href="http://www.techtudo.com.br/kits/redes-sociais-inusitadas.html" rel="nofollow">http://www.techtudo.com.br/kits/redes-sociais-inusitadas.html</a></p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/184992/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Mar 31 '15 às 18:34</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/24105918eda73c02c22869dabd0911c6?s=32&amp;d=wavatar&amp;r=g" alt="raissadelphim's gravatar image" />
+    <p><a href="/usuarios/40717/raissadelphim/">raissadelphim </a><br/>
+    <span title="3 troféus"><span class="badge1">3</span></span><span title="7 troféus"><span class="badge2">7</span></span><span title="15 troféus"><span class="badge3">15</span></span><span class="score" title="685 pontos de reputação">685</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#184992"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-184992">
+    
+</div>
+<div id="comment-tools-184992" class="comment-tools">
+    
+    
+</div>
+<div id="comment-184992-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="98562"></a>
+                <div id="answer-container-98562" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-98562-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/98562/up/" rel="nofollow"> </a>
+<div id="post-98562-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    2
+</div>
+<a id="post-98562-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/98562/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Badoo, lá é muito fácil de se conhecer e pegar mulher;</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/98562/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Dec 13 '13 às 10:32</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/579ea91cc4a2845b2d0d12840ecf010d?s=32&amp;d=wavatar&amp;r=g" alt="romulosp's gravatar image" />
+    <p><a href="/usuarios/13325/romulosp/">romulosp</a><br/>
+    <span title="11 troféus"><span class="badge1">11</span></span><span title="12 troféus"><span class="badge2">12</span></span><span title="14 troféus"><span class="badge3">14</span></span><span class="score" title="669 pontos de reputação">669</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#98562"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-98562">
+    
+</div>
+<div id="comment-tools-98562" class="comment-tools">
+    
+    
+</div>
+<div id="comment-98562-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="102206"></a>
+                <div id="answer-container-102206" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-102206-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/102206/up/" rel="nofollow"> </a>
+<div id="post-102206-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    2
+</div>
+<a id="post-102206-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/102206/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Acho instagram imbatível, mas não sei se conta exatamente como rede social</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/102206/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Dec 30 '13 às 10:26</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/f666105a4c2508d07a604eae03a4abdf?s=32&amp;d=wavatar&amp;r=g" alt="laura's gravatar image" />
+    <p><a href="/usuarios/21335/laura/">laura</a><br/>
+    <span title="3 troféus"><span class="badge3">3</span></span><span class="score" title="16 pontos de reputação">16</span></p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p class="post-update-edited-info">
+            <a href="/revisoes/102206/">
+                editou
+                <strong>Dec 30 '13 às 10:27</strong>
+            </a>
+        </p>
+        
+    </div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#102206"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-102206">
+    
+</div>
+<div id="comment-tools-102206" class="comment-tools">
+    
+    
+</div>
+<div id="comment-102206-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="116084"></a>
+                <div id="answer-container-116084" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-116084-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/116084/up/" rel="nofollow"> </a>
+<div id="post-116084-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    2
+</div>
+<a id="post-116084-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/116084/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>a minha preferida é o gpguia...</p>
+<p>mas gosto do tumblr e devianart</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/116084/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Mar 01 '14 às 16:19</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/32321d0dbf2de4dd75c58c08e31f6c7f?s=32&amp;d=wavatar&amp;r=g" alt="toleranciazero's gravatar image" />
+    <p><a href="/usuarios/23451/toleranciazero/">toleranciazero</a><br/>
+    <span title="71 troféus"><span class="badge1">71</span></span><span title="77 troféus"><span class="badge2">77</span></span><span title="89 troféus"><span class="badge3">89</span></span><span class="score" title="9573 pontos de reputação"><span class="number-of-reputation ">9.6k</span></span></p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p class="post-update-edited-info">
+            <a href="/revisoes/116084/">
+                editou
+                <strong>Mar 01 '14 às 16:19</strong>
+            </a>
+        </p>
+        
+    </div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#116084"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-116084">
+    
+</div>
+<div id="comment-tools-116084" class="comment-tools">
+    
+    
+</div>
+<div id="comment-116084-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="186724"></a>
+                <div id="answer-container-186724" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-186724-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/186724/up/" rel="nofollow"> </a>
+<div id="post-186724-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    2
+</div>
+<a id="post-186724-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/186724/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Eu tô curtindo muito a tal da <a href="http://www.socyalize.com" rel="nofollow">http://www.socyalize.com</a> que te conecta com o conteúdo, não a pessoa diretamente. É um esquema diferente, pra mim muito mais da hora que o facebook!</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/186724/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Apr 16 '15 às 23:30</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/a34b8a3cf64892aeff19a98f6b252d0f?s=32&amp;d=wavatar&amp;r=g" alt="fernandonni's gravatar image" />
+    <p><a href="/usuarios/42031/fernandonni/">fernandonni</a><br/>
+    <span title="2 troféus"><span class="badge3">2</span></span><span class="score" title="11 pontos de reputação">11</span></p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p class="post-update-edited-info">
+            <a href="/revisoes/186724/">
+                editou
+                <strong>Apr 16 '15 às 23:34</strong>
+            </a>
+        </p>
+        
+    </div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#186724"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-186724">
+    
+</div>
+<div id="comment-tools-186724" class="comment-tools">
+    
+    
+</div>
+<div id="comment-186724-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="99236"></a>
+                <div id="answer-container-99236" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-99236-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/99236/up/" rel="nofollow"> </a>
+<div id="post-99236-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    1
+</div>
+<a id="post-99236-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/99236/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Oi, Emanuel!</p>
+<p>Você já conhece o Adote Um Cara?
+É uma rede social que chegou ao Brasil faz pouco tempo, mas tem chamado bastante a atenção dos jovens. Eu testei e não vou negar, já me diverti bastante rs :)</p>
+<p><a href="http://www.adoteumcara.com.br/" rel="nofollow"></a><a href="http://www.adoteumcara.com.br/" rel="nofollow"></a><a href="http://www.adoteumcara.com.br/" rel="nofollow">http://www.adoteumcara.com.br/</a></p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/99236/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Dec 16 '13 às 13:42</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/346862f8e0ad2d94bab1887b72630380?s=32&amp;d=wavatar&amp;r=g" alt="babi's gravatar image" />
+    <p><a href="/usuarios/20513/babi/">babi</a><br/>
+    <span title="1 troféus"><span class="badge1">1</span></span><span title="1 troféus"><span class="badge2">1</span></span><span title="3 troféus"><span class="badge3">3</span></span><span class="score" title="11 pontos de reputação">11</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#99236"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-99236">
+    
+</div>
+<div id="comment-tools-99236" class="comment-tools">
+    
+    
+</div>
+<div id="comment-99236-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="102208"></a>
+                <div id="answer-container-102208" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-102208-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/102208/up/" rel="nofollow"> </a>
+<div id="post-102208-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    1
+</div>
+<a id="post-102208-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/102208/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>esse adote um cara é bem legal tb!</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/102208/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Dec 30 '13 às 10:27</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/f666105a4c2508d07a604eae03a4abdf?s=32&amp;d=wavatar&amp;r=g" alt="laura's gravatar image" />
+    <p><a href="/usuarios/21335/laura/">laura</a><br/>
+    <span title="3 troféus"><span class="badge3">3</span></span><span class="score" title="16 pontos de reputação">16</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#102208"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-102208">
+    
+</div>
+<div id="comment-tools-102208" class="comment-tools">
+    
+    
+</div>
+<div id="comment-102208-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="110499"></a>
+                <div id="answer-container-110499" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-110499-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/110499/up/" rel="nofollow"> </a>
+<div id="post-110499-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    1
+</div>
+<a id="post-110499-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/110499/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>O Twitter com certeza é a melhor rede social do mundo na minha opinião.</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/110499/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Feb 04 '14 às 21:21</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/036ff3beea76f60dc877b9481b88f6bd?s=32&amp;d=wavatar&amp;r=g" alt="christiano_rocha's gravatar image" />
+    <p><a href="/usuarios/23303/christiano_rocha/">christiano_rocha</a><br/>
+    <span title="3 troféus"><span class="badge1">3</span></span><span title="3 troféus"><span class="badge2">3</span></span><span title="5 troféus"><span class="badge3">5</span></span><span class="score" title="56 pontos de reputação">56</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#110499"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-110499">
+    
+</div>
+<div id="comment-tools-110499" class="comment-tools">
+    
+    
+</div>
+<div id="comment-110499-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="116074"></a>
+                <div id="answer-container-116074" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-116074-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/116074/up/" rel="nofollow"> </a>
+<div id="post-116074-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    1
+</div>
+<a id="post-116074-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/116074/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Facebook, porque uso o tempo todo e posso compartilhar o q eu penso para um número maior de pessoas.</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/116074/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Mar 01 '14 às 15:22</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/dba51abf577b2cd923f8b4052dc79978?s=32&amp;d=wavatar&amp;r=g" alt="lnasc2213's gravatar image" />
+    <p><a href="/usuarios/23591/lnasc2213/">lnasc2213</a><br/>
+    <span title="1 troféus"><span class="badge1">1</span></span><span title="1 troféus"><span class="badge2">1</span></span><span title="1 troféus"><span class="badge3">1</span></span><span class="score" title="26 pontos de reputação">26</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#116074"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-116074">
+    
+</div>
+<div id="comment-tools-116074" class="comment-tools">
+    
+    
+</div>
+<div id="comment-116074-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+                <a name="116078"></a>
+                <div id="answer-container-116078" class="answer ">
+                    <table style="width:100%;">
+                        <tr>
+                            <td style="width:30px;vertical-align:top">
+                                <div class="vote-buttons">
+                                    
+
+<a id="post-116078-upvote" title="Eu gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote up "
+     href="/vote/116078/up/" rel="nofollow"> </a>
+<div id="post-116078-score" class="post-score explicit-numbers"
+    title="atual número de votos">
+    1
+</div>
+<a id="post-116078-downvote" title="Eu não gostei deste post (clique novamente para cancelar)"
+    class="ajax-command post-vote down"
+     href="/vote/116078/down/" rel="nofollow"> </a>
+                                    
+
+
+    
+
+
+
+                                </div>
+                            </td>
+                            <td>
+                                <div class="item-right answer-item-right">
+                                    <div class="answer-body">
+                                        <p>Orkut , o melhor de todos ,e de todos os tempos. O face ussa as mesmas ferramentas ,mas deixa a desejar na criaçao de topicos e comunidades .</p>
+                                    </div>
+                                    <div class="answer-controls post-controls">
+                                        
+<span class="action-link"><a rel="nofollow" title="link permanente da resposta" class="ajax-command withprompt " href="/link_resposta/116078/">link permanente</a></span>
+                                        
+
+                                    </div>
+                                    <div class="post-update-info-container">
+                                        
+<div class='post-update-info post-update-info-user'>
+    <p class="relativetime">
+        respondeu
+        <strong>Mar 01 '14 às 16:07</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="http://www.gravatar.com/avatar/71d06f7e3cc858ffb82553d3d0f2ae34?s=32&amp;d=wavatar&amp;r=g" alt="ottofjg's gravatar image" />
+    <p><a href="/usuarios/21536/ottofjg/">ottofjg</a><br/>
+    <span title="1 troféus"><span class="badge3">1</span></span><span class="score" title="6 pontos de reputação">6</span></p>
+</div>
+
+
+
+                                        
+                                          <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual a sua rede social favorita?"
+  data-url="http://forum.techtudo.com.br/perguntas/98538/qual-a-sua-rede-social-favorita#116078"></div>
+
+                                        
+                                    </div>
+                                    
+
+
+<div class="comments-container" id="comments-container-116078">
+    
+</div>
+<div id="comment-tools-116078" class="comment-tools">
+    
+    
+</div>
+<div id="comment-116078-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            
+            <div class="paginator-container-left">
+                
+<ul class="snippet snippet-paginacao"><span class="paginacao-anterior indisponivel"><span class="botao">Anterior</span></span><li class="paginacao-atual">1</li><li class="paginacao-2 paginacao-proxima-x"><a class="texto" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=2" title="Página 2">2</a></li><li class="paginacao-3 paginacao-proxima-x"><a class="texto" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=3" title="Página 3">3</a></li><li class="paginacao-4 paginacao-proxima-x"><a class="texto" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=4" title="Página 4">4</a></li><li class="paginacao-5 paginacao-proxima-x"><a class="texto" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=5" title="Página 5">5</a></li><li class="ellipses">...</li><li class="paginacao-7 paginacao-proxima-x"><a class="texto" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=7" title="Página 7">7</a></li><span class="paginacao-proxima"><a title="Próxima Página" href="/perguntas/98538/qual-a-sua-rede-social-favorita?ordenacao=votos&pagina=2" class="botao">Próxima</a></span></ul>
+
+            </div>
+        </div>
+        
+
+        <div class="clear"></div>
+
+        <div class="publicidade banner_megabox_fim publicidade-banner_megabox_fim wrapper-widget" style="margin-bottom: 10px;">
+            <div id="banner_megabox_fim" class="tag-manager-publicidade-container"></div>
+        </div>
+
+        <form id="fmanswer" action="/perguntas/98538/responder/" method="post"><div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='491eb93161ee9215c2aa991db5783635' /></div>
+            
+                <div style="padding:10px 0 0 0;">
+                    <div class="headAnswer primary-title">
+                        
+                            Sua resposta
+                        
+                    </div>
+                </div>
+
+                <div id="description">
+                    <div id="wmd-button-bar" class="wmd-panel"></div>
+
+                    <textarea rows="10" cols="40" name="text" id="editor"></textarea>
+
+                    <div class="preview-toggle">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <span id="pre-collapse"
+                                        title="Mudar para o preview em tempo real do editor de Markdown">
+                                            mudar para preview
+                                    </span>
+                                </td>
+                                <td style="text-align: right;" id="editor-metrics"></td>
+                                
+                                <td style="text-align:right;">
+                                    <input type="checkbox" name="wiki" id="id_wiki" />
+                                    <span style="font-weight:normal;cursor:help"
+                                        title="se você escolher a opção wiki da comunidade, a pergunta e a resposta não geram pontos e o nome do autor não será mostrado">
+                                            <label for="id_wiki">wiki da comunidade</label>
+                                    </span>
+                                </td>
+                                
+                            </tr>
+
+                        </table>
+                    </div>
+                    
+                    <div id="previewer" class="wmd-preview"></div>
+                </div>
+
+	            
+
+                <p><span class="form-error"></span></p>
+                <input type="button" value="responder" class="submit post-button post-button-answer base-button" onclick="submitClicked(event, this.form)"/>
+            
+        </form>
+    </div>
+</div>
+
+                </div>
+
+                <div id="CARight" class="medium-4 show-for-medium-up column">
+                    
+<div class="publicidade banner_rm1 publicidade-banner_rm1 wrapper-widget" style="margin-bottom: 10px;">
+    <div id="banner_rm1" class="tag-manager-publicidade-container"></div>
+</div>
+
+<div class="boxC" id="subscription_box">
+    <h3 class="subtitle primary-title">Siga esta pergunta</h3><strong>Por Email:</strong><p>Uma vez que você entrar você poderá se inscrever para todas as atualizações aqui</p><strong>Por RSS:</strong><div class="subscription-status-feed"><p><a class="feed-icon-xsmall" style="background-image:url('http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/feed-icon-xsmall.png');"
+          href="/perguntas/98538/qual-a-sua-rede-social-favorita?type=rss" title="inscreva-se para as perguntas"></a>
+      Respostas
+  </p><p><a class="feed-icon-xsmall" style="background-image:url('http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/feed-icon-xsmall.png');"
+          href="/perguntas/98538/qual-a-sua-rede-social-favorita?type=rss&comments=yes" title="inscreva-se para comentários e respostas"></a>
+      Respostas e Comentários
+  </p></div>
+
+</div>
+
+
+<div class="boxC" id="editor_side_bar">
+    <p class="subtitle darkred primary-title">Markdown Básico</p>
+    <ul class="list-item">
+        <li>
+            *italico* ou __italico__
+        </li>
+        <li>
+			**negrito** or __negrito__
+        </li>
+        <li>
+            <b>link</b>:[texto](http://url.com/ "Qual é a sua dúvida?")
+
+        </li>
+
+        <li>
+            <b>imagem</b>?![alt texto](/path/img.jpg "Qual é a sua dúvida?")
+
+        </li>
+        <li>
+			lista numerada:
+            1.  Foo
+            2.  Bar
+        </li>
+        <li>
+			para adicionar uma quebra de linha basta adicionar dois espaços onde você gostaria que a nova linha estivesse.
+        </li>
+        <li>
+			tags HTML básicas também são suportadas
+        </li>
+    </ul>
+    <p class='info-box-follow-up-links'>
+        <a href="/ajuda_markdown/" target="_blank">aprenda mais sobre Markdown </a>
+    </p>
+</div>
+
+
+
+<div class="boxC">
+    <h3 class="primary-title">Tags</h3>
+    <p class="tags">
+        
+        	<a href="/tags/whatsapp/"
+            class="tag-link-whatsapp"
+			title="veja as perguntas tagueadas'whatsapp'usando tags"
+			rel="tag">whatsapp</a> <span class="tag-number">&#215;1,050</span><br/>
+        
+        	<a href="/tags/facebook/"
+            class="tag-link-facebook"
+			title="veja as perguntas tagueadas'facebook'usando tags"
+			rel="tag">facebook</a> <span class="tag-number">&#215;906</span><br/>
+        
+        	<a href="/tags/redessociais/"
+            class="tag-link-redessociais"
+			title="veja as perguntas tagueadas'redessociais'usando tags"
+			rel="tag">redessociais</a> <span class="tag-number">&#215;153</span><br/>
+        
+        	<a href="/tags/twitter/"
+            class="tag-link-twitter"
+			title="veja as perguntas tagueadas'twitter'usando tags"
+			rel="tag">twitter</a> <span class="tag-number">&#215;101</span><br/>
+        
+        	<a href="/tags/instragram/"
+            class="tag-link-instragram"
+			title="veja as perguntas tagueadas'instragram'usando tags"
+			rel="tag">instragram</a> <span class="tag-number">&#215;3</span><br/>
+        
+    </p>
+    <p>
+        pergunta feita: <strong title="13 de Dezembro de 2013 às 09:01">Dec 13 '13 às 09:01</strong>
+    </p>
+    <p>
+     	pergunta lida: <strong>33,143 vezes</strong>
+    </p>
+    <p>
+        última alteração: <strong title="27 de Março de 2017 às 15:21">4 horas atrás</strong>
+    </p>
+</div>
+
+
+<div class="boxC">
+    <h3 class="subtitle primary-title">Perguntas relacionadas</h3>
+    <div class="questions-related">
+
+        
+        <p>
+            <a href="/perguntas/229150/o-que-sao-redes-sociais">O que são redes sociais?</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/164001/voces-poderiam-responder-um-questionario-sobre-ciclo-de-adocao-de-novas-redes-sociais">Vocês poderiam responder um questionário sobre Ciclo de adoção de novas Redes Sociais ?</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/91561/quais-os-problemas-das-redes-sociais-de-hoje">Quais os problemas das redes sociais de hoje?</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/154533/meu-aplicativo">Meu Aplicativo</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/123965/o-que-acharam-do-novo-layout-do-twitter">O que acharam do novo layout do Twitter?</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/258070/a-tectudo-poderia-fala-sobre-a-rede-social-orkutus">[fechado] A tectudo poderia fala sobre a rede social orkutus</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/14503/como-tirar-propagandas-indesejaveis-das-redes-sociais">Como tirar propagandas indesejáveis das redes sociais?</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/258071/o-que-voces-acham-da-rede-social-orkutus">[fechado] o que voces acham da rede social orkutus????</a>
+        </p>
+        
+        <p>
+            <a href="/perguntas/42697/como-resolver-o-problema-de-acesso-ao-facebook">Como resolver o problema de acesso ao facebook  ?</a>
+        </p>
+      

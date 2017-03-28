@@ -36,9 +36,6 @@ class Crawler
 		static int ncraw;
 
 	private:
-
-		// Name of the folder that will keep the pages crawled
-		static string folderName;
 		
 		//lock of tread when we access the queue		
 		static mutex scheduler_mutex;
@@ -48,6 +45,7 @@ class Crawler
 		
 		int nthreads;
 		
+		// Name of the folder that will keep the pages crawled
 		static string foldername;
 		
 		void Crawl();

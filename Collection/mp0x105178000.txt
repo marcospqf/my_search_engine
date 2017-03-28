@@ -1,0 +1,620 @@
+|||http://www.gagamilano.com/it|<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>GaGà Milano</title>
+<meta content="GaGà Milano" name="description" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"transactionName":"d1sMRUJdXFxWFkxQRFtaFlReVh9SUhcGGV9aUAdJ","applicationID":"5806873","errorBeacon":"bam.nr-data.net","beacon":"bam.nr-data.net","applicationTime":106,"agent":"","queueTime":0,"licenseKey":"599ecf0230"}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+
+<link href="/stylesheets/custom/bootstrap.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/custom/base.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/custom/product.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/cart.css?1473343817" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/fancybox.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/royalslider.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/rs-default.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/swiper.css?1472641468" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/homepage.css?1473343817" media="screen" rel="stylesheet" type="text/css" />
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+<meta name="p:domain_verify" content="37d4eea510463a98d5bd84946490dfc6"/>
+</head>
+<body>
+
+
+<style type="text/css">
+  /*<![CDATA[*/
+    #cookie_disclaimer{
+      background-color: #222; 
+      color: #fff;
+      width: 100%;
+      z-index: 10000;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+  /*]]>*/
+</style>
+<div id="cookie_disclaimer">
+<div class="container">
+<div class="row">
+<div class="col-xs-12 text-center" style="padding:5px 0px;">
+<a data-cookies="data-cookies" href="#" title="Chiudi l'Informativa sui Cookies">
+<div class="glyphicon glyphicon-remove-circle" style="font-size:20px; color:#3399cc;"></div>
+</a>
+<div class="clear"></div>
+Utilizziamo i cookie per migliorare ed entusiasmare la vostra navigazione. Utilizzando il sito accetti l'uso dei cookie.
+<u>
+<a href="/it/page/7186-uso-dei-cookies" style="color:#999;font-size:11px;" target="blank">
+Maggiori Informazioni
+</a>
+</u>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+
+<div class="menu-overlay"></div>
+<header class="site-header">
+<nav class="navbar navbar-white"><div class="container v-align text-right">
+<div class="navbar-header">
+<a class="navbar-brand" href="/it">
+<img alt="Logo" src="/site_images/logo.png?1473343817" />
+</a>
+</div>
+<div class="height-setter"></div>
+<div id="main-menu-white"><ul class="navbar navbar-nav visible-xs v-align">
+<li>
+<a href="/it">it
+</a></li>
+<li>
+<a href="/en">en
+</a></li>
+<li>
+<a href="/zh-cn">zh-cn
+</a></li>
+</ul><ul class="navbar navbar-nav visible-xs v-align">
+<li>
+<a href="/it/carrello"><i class="fa fa-shopping-cart"></i>
+<div class="margin-0-5 visible-xs-inline-block">Vai al carrello</div>
+</a></li>
+<li>
+<a href="/it/profilo/login"><i class="fa fa-user"></i>
+<div class="margin-0-5 visible-xs-inline-block">Menu utente</div>
+</a></li>
+</ul><ul class="nav navbar-nav nav-menu">
+<li>
+<a href="/it/page/5619-mondo-gag">Mondo GaGà
+</a></li>
+<li>
+<a href="/it/page/5953-manufacture">Manufacture
+</a></li>
+<li>
+<a href="/it/category/23544-orologi">Collezione
+</a></li>
+<li>
+<a href="/it/category/23558-accessori">Accessori
+</a></li>
+<li>
+<a href="/it/news">News
+</a></li>
+<li>
+<a href="/it/shops">Rivenditori
+</a></li>
+<li>
+<a href="/it/videos">Video
+</a></li>
+<li>
+<a href="/it/page/5954-contatti">Contatti
+</a></li>
+</ul>
+</div>
+<ul class="secondary-menu v-align hidden-xs">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">it
+<i class="fa fa-angle-down"></i>
+</a><ul class="dropdown-menu lang-menu text-left">
+<li>
+<a href="http://www.gagamilano.com/it">it
+</a></li>
+<li>
+<a href="http://www.gagamilano.com/en">en
+</a></li>
+<li>
+<a href="http://www.gagamilano.hk/zh-cn">zh-cn
+</a></li>
+</ul>
+</li>
+<li class="divider" role="separation"></li>
+<li>
+<a href="/it/carrello"><i class="fa fa-shopping-cart"></i>
+<div class="margin-0-5 visible-xs-inline-block">Vai al carrello</div>
+</a></li>
+<li>
+<a href="/it/profilo/login"><i class="fa fa-user"></i>
+<div class="margin-0-5 visible-xs-inline-block">Menu utente</div>
+</a></li>
+</ul>
+<div class="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div></nav>
+</header>
+<div id="homepage_slider_wrapper">
+<div class="rsHomepage">
+<div class="rsContent white">
+<a href="http://www.gagamilano.com/it/category/23544-orologi"><img alt="711540_gaga_banner_ney" class="rsImg" src="http://store.lipsiasoft.com/uploads/711540_GAGA_BANNER_NEY.jpg" />
+</a><div class="banner-content">
+<div class="container h-100">
+<div class="col-sm-6 col-xs-12 h-100">
+<div class="table-100">
+<div class="table-cell">
+<h2><p>NEYMAR JR. </p></h2>
+<div class="line"></div>
+<p>Baselworld 2017</p>
+<a href="http://www.gagamilano.com/it/category/23544-orologi" class="banner-link">DISCOVER THE COLLECTION
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="home-section intro-boxes">
+<div class="container-fluid">
+<div class="row relative">
+<div class="col-xs-12 col-md-6 full-box box mini-slider no-pad">
+<div class="slider">
+<div class="rsContent">
+<a href="http://www.gagamilano.com/it/category/23544-orologi#thin-46mm">
+<img alt="661027_589720_i-nostri-orologi_copia" class="rsImg" src="http://store.lipsiasoft.com/uploads/661027_589720_I-nostri-orologi_copia.jpg" />
+<div class="background"></div>
+<div class="table-100">
+<div class="table-cell text-center">
+<div class="title">
+THIN 46MM
+</div>
+<div class="divider-line"></div>
+<div class="desc">orologi che portano al polso il lato sorprendente del tempo</div>
+</div>
+</div>
+</a>
+</div>
+<div class="rsContent">
+<a href="http://www.gagamilano.com/it/product/153383-manuale-48mm-acciaio-diamanti">
+<img alt="665675_manuale-48-diamonds" class="rsImg" src="http://store.lipsiasoft.com/uploads/665675_manuale-48-diamonds.jpg" />
+<div class="background"></div>
+<div class="table-100">
+<div class="table-cell text-center">
+<div class="title">
+MANUALE 48MM DIAMONDS
+</div>
+<div class="divider-line"></div>
+<div class="desc">una scelta di stile che incontra il sapore antico del passato</div>
+</div>
+</div>
+</a>
+</div>
+<div class="rsContent">
+<a href="http://www.gagamilano.com/it/product/176792-manuale-40mm-stones">
+<img alt="678206_attachment-1" class="rsImg" src="http://store.lipsiasoft.com/uploads/678206_Attachment-1.jpeg" />
+<div class="background"></div>
+<div class="table-100">
+<div class="table-cell text-center">
+<div class="title">
+MANUALE 40MM
+</div>
+<div class="divider-line"></div>
+<div class="desc">Un regalo esclusivo per un’occasione speciale</div>
+</div>
+</div>
+</a>
+</div>
+<div class="rsContent">
+<a href="http://www.gagamilano.com/it/product/160851-lady-sport-40mm">
+<img alt="677441_adv" class="rsImg" src="http://store.lipsiasoft.com/uploads/677441_ADV.jpg" />
+<div class="background"></div>
+<div class="table-100">
+<div class="table-cell text-center">
+<div class="title">
+LADY SPORT
+</div>
+<div class="divider-line"></div>
+<div class="desc">Un'esplosione di colori per il nuovo Lady Sport</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="col-xs-12 col-md-6 pull-right no-pad">
+<div class="box col-xs-12 half-box no-pad">
+<div class="col-xs-6 no-pad">
+<div class="background">
+<a href="http://www.gagamilano.com/it/category/23544-orologi">
+<img alt="677442_silver_gagà" src="http://store.lipsiasoft.com/uploads/677442_silver_gagà.jpg" />
+</a>
+</div>
+</div>
+<div class="text-sub-box triangle-left">
+<h4 class="title">NOSTRI OROLOGI</h4>
+<div class="desc">
+Ricerca accurata di nuovi materiali a soluzioni tecnologiche sempre all’avanguardia
+</div>
+<div class="link">
+<a href="http://www.gagamilano.com/it/category/23544-orologi"><div class="pull-left">
+SCOPRI LA COLLEZIONE
+</div>
+<div class="pull-right">
+<i class="fa fa-angle-right"></i>
+</div>
+<div class="clearfix"></div>
+</a></div>
+</div>
+<div class="clearfix"></div>
+</div>
+<div class="box col-xs-12 half-box no-pad">
+<div class="col-xs-6 no-pad pull-right">
+<div class="background">
+<a href="http://www.gagamilano.com/it/product/153545-quirky-tourbillon">
+<img alt="677443_quirky_tourbillon" src="http://store.lipsiasoft.com/uploads/677443_quirky_tourbillon.jpg" />
+</a>
+</div>
+</div>
+<div class="left text-sub-box triangle-right">
+<h4 class="title">SPECIAL EDITION</h4>
+<div class="desc">
+La sintesi tra design e tecnica trova così espressione nel nuovo Quirky Tourbillon
+</div>
+<div class="link">
+<a href="http://www.gagamilano.com/it/product/153545-quirky-tourbillon"><div class="pull-left">
+Scopri altro
+</div>
+<div class="pull-right">
+<i class="fa fa-angle-right"></i>
+</div>
+<div class="clearfix"></div>
+</a></div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+</div>
+</div>
+<a href="http://www.gagamilano.com/it/category/23544-orologi" class="btn btn-block btn-important">Scopri la collezione
+</a></div>
+
+<div class="home-section home-video" id="video-11059">
+<video autoplay="autoplay" class="embed-responsive-item" loop="loop" muted="muted">
+<source src="http://store.lipsiasoft.com/uploads/711621_15_secondi_COLORATO.mp4" type="video/mp4">}</source>
+<source src="http://store.lipsiasoft.com/uploads/711622_15_secondi_COLORATO.webm" type="video/webm">}</source>
+</video>
+</div>
+
+<div class="home-section parallax-banner">
+<div class="background" style='background-image: url("http://store.lipsiasoft.com/uploads/668610_collez.jpg");'>
+<div class="texts">
+<div class="table-100 text-center">
+<div class="table-cell">
+<h1>Collezione</h1>
+<h4>scopri tutta la nostra collezione</h4>
+<a href="http://www.gagamilano.com/it/category/23544-orologi">
+<div class="banner-link">
+SCOPRI LA COLLEZIONE
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="home-section accessories">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12 no-pad bg-box">
+<img alt="676870_acc_4" src="http://store.lipsiasoft.com/uploads/676870_Acc_4.jpg" />
+</div>
+<div class="col-xs-12 col-md-6 text-box">
+<h3 class="title">accessori</h3>
+GaGà Milano è alla ricerca costante di nuove sfide ed ispirazioni, con la produzione di un’intera linea di accessori, dagli occhiali da sole alla pelletteria, alla gioielleria, in perfetto stile GaGà Milano, e caratterizzati dall’uso di materiali di altissima qualità.
+<br/>
+<br/>
+<div style="font-size: 18px; text-align:center;"><a href="http://www.gagamilano.com/it/category/23558-accessori#occhiali">Occhiali</a>   /   <a href="http://www.gagamilano.com/it/category/23558-accessori#portafogli">Portafogli</a>    /   <a href="http://www.gagamilano.com/it/category/23558-accessori#mini-bag">Mini Bag</a> <br/><a href="http://www.gagamilano.com/it/category/23558-accessori#skull-bracelet">Braccialetti</a>    /   <a href="http://www.gagamilano.com/it/category/23558-accessori#charms">Charms</a> / <a href="http://www.gagamilano.com/it/category/23558-accessori#profumo">Profumo</a>    /   <a href="http://www.gagamilano.com/it/category/23558-accessori#iphone-cover">Iphone Cover</a> <br/><a href="http://www.gagamilano.com/it/category/23558-accessori#borse">Borse</a>    /   <a href="http://www.gagamilano.com/it/category/23558-accessori#wall-clock">Wall Clock</a>    /   <a href="http://www.gagamilano.com/it/category/23558-accessori#cinturini">Cinturini</a> </div>
+<div class="abs-link">
+<a href="http://www.gagamilano.com/it/category/23558-accessori" class="btn btn-round">SCOPRI TUTTI
+</a></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="home-section instagram-feed">
+<div class="container-fluid title"><div class="v-align">
+<div class="icon pad-15">
+<i class="fa fa-instagram"></i>
+</div>
+<div class="pad-15">
+Instagram
+</div>
+</div></div>
+<div class="swiper-container" id="instagram-swiper">
+<div class="swiper-wrapper"></div>
+</div>
+</div>
+
+<div class="home-section single-banner">
+<div class="background" style='background-image: url("http://store.lipsiasoft.com/uploads/668608_manufacture_.jpg")'>
+<img alt="668608_manufacture_" src="http://store.lipsiasoft.com/uploads/668608_manufacture_.jpg" />
+<div class="texts">
+<div class="table-100 text-center">
+<div class="table-cell">
+<h1>Manufacture</h1>
+<h4>...il mondo Gagà Milano...</h4>
+<a href="http://www.gagamilano.com/it/page/5953-manufacture">
+<div class="banner-link">
+Mondo Gagà
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="home-section box-news">
+<div class="container-fluid">
+<div class="row">
+<a class="fancy-youtube" href="https://www.youtube.com/watch?v=SKqBD9Dl95s">
+<div class="background" style='background-image: url("http://store.lipsiasoft.com/uploads/711265_banner_video.jpg");'></div>
+<div class="col-xs-12 col-md-6"></div>
+</a>
+<div class="col-xs-12 col-md-6 box no-pad">
+<div class="no-pad text-box triangle-right">
+<div class="title">
+NEWS / EVENTS
+</div>
+<div class="desc">
+<b>DA APPASSIONATO A TESTIMONIAL:  NEYMAR PER GaGà MILANO</b>
+<br />
+Con un contratto fino al 2020, firmato all’inizio dell’anno, il fuoriclasse brasiliano, attaccant...
+</div>
+<div class="link">
+<a href="/it/news/11024-da-appassionato-a-testimonial-neymar-per-gag-milano"><div class="pull-left">
+Continua a leggere
+</div>
+<div class="pull-right">
+<i class="fa fa-angle-right"></i>
+</div>
+<div class="clearfix"></div>
+</a></div>
+</div>
+<div class="col-xs-12 col-sm-6"></div>
+<div class="col-xs-12 col-sm-6 no-pad">
+<img alt="1000x1000_711261_h85a5421" src="/uploads/thumbs/1000x1000_711261_h85a5421.jpeg" />
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer id="footer">
+<div class="container footer-newsletter">
+<form action="/it/newsletter" method="post">
+<div class="row text-center"><div class="col-xs-12 v-align"><div class="custom-label">
+<label for="contact_Iscriviti alla newsletter">Iscriviti alla newsletter</label>
+</div><div class="input-append"><input class="x-form-text" id="contact_name" name="contact[name]" placeholder="Nome" size="30" style="width: auto;" type="text" />
+<input class="x-form-text" id="contact_email" name="contact[email]" placeholder="Inserisci il tuo indirizzo email" size="30" style="width: auto;" type="text" />
+<button type="submit">
+<i class="fa fa-angle-right"></i>
+</button></div></div></div>
+</form>
+</div>
+<div class="container-fluid socials">
+<div class="row">
+<div class="col-xs-12 text-center">
+<a href="https://www.facebook.com/GaGaMilanoWorld" target="_blank"><i class="fa fa-facebook"></i>
+</a><a href="https://twitter.com/GaGaMilanoWorld" target="_blank"><i class="fa fa-twitter"></i>
+</a><a href="http://www.youtube.com/user/GAGAMILANOwatches" target="_blank"><i class="fa fa-youtube"></i>
+</a><a href="http://pinterest.com/gagamilano/" target="_blank"><i class="fa fa-pinterest"></i>
+</a><a href="http://instagram.com/gagamilanoworld" target="_blank"><i class="fa fa-instagram"></i>
+</a></div>
+</div>
+</div>
+<div class="container links text-center"><div class="row inline-block text-left"><div class="col-md-2d4 col-sm-6 col-xs-12 hidden-sm hidden-xs links-col text-left v-top">
+<div class="col-name">Mondo Gagà</div>
+<a href="/it/page/5619-mondo-gag">Mondo GaGà
+</a><a href="/it/page/5953-manufacture">Manufacture
+</a><a href="/it/category/23544-orologi">Collezione
+</a><a href="/it/category/23558-accessori">Accessori
+</a><a href="/it/news">News
+</a><a href="/it/shops">Rivenditori
+</a><a href="/it/videos">Video
+</a><a href="/it/page/5954-contatti">Contatti
+</a>
+</div><div class="col-md-2d4 col-sm-6 col-xs-12 hidden-sm hidden-xs links-col text-left v-top">
+<div class="col-name">Orologi</div>
+<a href="/it/category/23544-orologi#manuale-48mm">Manuale 48MM
+</a><a href="/it/category/23544-orologi#manuale-40mm">Manuale 40MM
+</a><a href="/it/category/23544-orologi#mysterieuse-48mm">Mysterieuse 48MM
+</a><a href="/it/category/23544-orologi#bionic-skull">Bionic Skull
+</a><a href="/it/category/23544-orologi#carbon-48mm">Carbon 48MM
+</a><a href="/it/category/23544-orologi#crystal-48mm">Crystal 48MM
+</a><a href="/it/category/23544-orologi#thin-chrono-46mm">Thin Chrono 46MM
+</a><a href="/it/category/23544-orologi#thin-46mm">Thin 46MM
+</a><a href="/it/category/23544-orologi#slim-46mm">Slim 46MM
+</a><a href="/it/category/23544-orologi#flat-42mm">Flat 42MM
+</a><a href="/it/category/23544-orologi#manuale-35mm-stones">Manuale 35MM Stones
+</a><a href="/it/category/23544-orologi#manuale-35mm">Manuale 35MM
+</a><a href="/it/category/23544-orologi#chrono-sport-45mm">Chrono Sport 45MM
+</a><a href="/it/category/23544-orologi#lady-sport-40mm">Lady Sport 40MM
+</a><a href="/it/category/23544-orologi#silver">Silver 
+</a><a href="/it/category/23544-orologi#diving-48mm">Diving 48MM
+</a><a href="/it/category/23544-orologi#chrono-48mm">Chrono 48MM
+</a><a href="/it/category/23544-orologi#napoleone-baby">Napoleone Baby
+</a><a href="/it/category/23544-orologi#napoleone-lady">Napoleone Lady
+</a><a href="/it/category/23544-orologi#napoleone">Napoleone
+</a><a href="/it/category/23544-orologi#quirky-tourbillon">Quirky Tourbillon
+</a>
+</div><div class="col-md-2d4 col-sm-6 col-xs-12 hidden-sm hidden-xs links-col text-left v-top">
+<div class="col-name">Accessori</div>
+<a href="/it/category/23558-accessori#skull-bracelet">Skull Bracelet
+</a><a href="/it/category/23558-accessori#beads-bracelet">Beads Bracelet
+</a><a href="/it/category/23558-accessori#borse">Borse
+</a><a href="/it/category/23558-accessori#portafogli">Portafogli
+</a><a href="/it/category/23558-accessori#mini-bag">Mini Bag
+</a><a href="/it/category/23558-accessori#cinturini">Cinturini
+</a><a href="/it/category/23558-accessori#occhiali">Occhiali
+</a><a href="/it/category/23558-accessori#profumo">Profumo
+</a><a href="/it/category/23558-accessori#iphone-cover">Iphone Cover
+</a><a href="/it/category/23558-accessori#wall-clock">Wall Clock
+</a><a href="/it/category/23558-accessori#charms">Charms
+</a><a href="/it/category/23558-accessori#time-to-love">Time To Love
+</a>
+</div><div class="col-xs-12 col-sm-6 col-md-2d4 text-left links-col v-top">
+<div class="col-name">Assistenza clienti</div>
+<a href="/it/page/7186-uso-dei-cookies">Uso dei cookies
+</a><a href="/it/page/7187-condizioni-di-vendita">Condizioni di vendita
+</a><a href="/it/page/7150-diritto-di-recesso">Diritto di Recesso
+</a><a href="/it/page/7151-privacy-policy">PRIVACY POLICY
+</a></div><div class="col-xs-12 col-sm-6 col-md-2d4 text-left links-col v-top">
+<div class="col-name">cataloghi</div>
+<a href="/it/catalogue/6056-collezione-2016">COLLEZIONE 2016
+</a><a href="/it/catalogue/10124-luxury-collection-2016">LUXURY COLLECTION 2016
+</a><a href="/it/catalogue/10129-new-collection-2016">NEW COLLECTION 2016
+</a><a href="/it/catalogue/6059-quirky-tourbillon">QUIRKY TOURBILLON
+</a><a href="/it/catalogue/6057-vintage-collection">VINTAGE COLLECTION
+</a><a href="/it/catalogue/10149-skull-bracelet">SKULL BRACELET
+</a><a href="/it/catalogue/6058-accessori">ACCESSORI
+</a><a href="/it/catalogue/10125-press-2016-baselworld">PRESS 2016 BASELWORLD
+</a><a href="/it/catalogue/9196-press-2015-baselworld">PRESS 2015 BASELWORLD
+</a><a href="/it/catalogue/6060-press-2014-baselworld">PRESS 2014 BASELWORLD
+</a></div></div></div>
+<div class="container bottom-notes">
+<div class="row">
+<div class="col-xs-12 col-sm-4 text-right pull-right">
+Creato da <a href='http://www.lipsiagroup.com' target='_blank'>LipsiaGROUP</a> s.r.l. unipersonale
+</div>
+<div class="col-xs-12 col-sm-8 text-left pull-left">
+<p>© GAGÀ MILANO SRL - C.SO VENEZIA, 8 - 20121 MILANO (MI) - P.IVA 04816810966 </p>
+<a href="#pop_dati-societari" class="footer-popup">Dati Societari
+</a><div class="hidden" id="pop_dati-societari">
+<p><h1>DATI SOCIETARI:</h1>
+<br /><h3>GAGÀ MILANO SRL</h3></p>
+
+<p>SEDE LEGALE: C.SO VENEZIA 8, 20121 MILANO (MI) - SEDE AMMINISTRATIVA: VIA MILANO, 83 26013 CREMA (CR) 
+<br />CAPITALE SOCIALE: € 10.000,00 INTERAMENTE VERSATO 
+<br />CODICE FISCALE, PARTITA IVA E N° ISCRIZIONE AL REGISTRO DELLE IMPRESE: 04816810966 
+<br />R.E.A.: 167400</p>
+</div>
+<a href="#pop_note-legali" class="footer-popup">Note Legali
+</a><div class="hidden" id="pop_note-legali">
+<p><h1>NOTE LEGALI</h1>
+<br /><h5>Informazioni sui contenuti di questo sito web:</h5></p>
+
+<p>I contenuti di questo sito web non hanno carattere di periodicità e non rappresentano "prodotto editoriale" ex L.62/2001.
+<br />Le informazioni contenute in questo sito sono fornite a titolo puramente indicativo.</p>
+
+<p><h5>Limitazioni di responsabilità:</h5></p>
+
+<p>Le informazioni di questo sito web potrebbero essere non aggiornate o non complete o parziali, si declina ogni responsabilità per qualunque utilizzo del presente sito web.
+<br />Si declina da ogni responsabilità per qualunque tipo di utilizzo fatto da terzi del presente sito web e contenuti associati.
+<br />Questo sito non assume alcuna responsabilità per eventuali errori od omissioni di qualsiasi natura comunque inerenti al materiale pubblicato sul sito o su siti ad esso collegati; conseguentemente non rispondiamo di eventuali danni o pregiudizi derivanti dalla consultazione del sito.
+<br />Si declina da ogni responsabilità per qualunque tipo di utilizzo fatto dagli utenti di questo sito web.</p>
+
+<p><h1>COPYRIGHT</h1>
+<br />Tutti i diritti relativi ai testi e alle foto pubblicati nel sito www.gagamilano.com sono dei rispettivi autori.</p>
+
+<p>La riproduzione totale o parziale dei documenti pubblicati effettuata da parte di terzi con qualsiasi mezzo e su qualsiasi supporto idoneo alla riproduzione e trasmissione non è consentita senza il consenso scritto.</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="/javascripts/jquery-1.11.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/imagesloaded.min.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/bootstrap.min.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/transit.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/jquery.fancybox.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/utilities.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/base.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/index.js?1473343817" type="text/javascript"></script>
+<script src="/javascripts/jquery.royalslider.min.js?1473343817" type="text/javascript"></script>
+
+<script type="text/javascript">
+  //<![CDATA[
+    $(function($){
+      options = {
+        autoScaleSlider: false,
+        slidesSpacing: 0,
+        imageScaleMode: 'fill',
+        navigateByClick: false,
+        controlNavigation: "bullets",
+        sliderDrag: true,
+        sliderTouch: true,
+        keyboardNavEnabled: true,
+        addActiveClass: true,
+        autoPlay: {
+          enabled: true, stopAtAction: false, pauseOnHover: false, delay: 5000
+        }
+      };
+      $("#homepage_slider_wrapper .rsHomepage").royalSlider(options);
+      var homeSlider = $("#homepage_slider_wrapper .rsHomepage").data("royalSlider");
+      homeSlider.ev.on('rsBeforeMove', function(event, type, userAction) {
+        if (type === "next"){
+          var nextSlide = homeSlider.slidesJQ[homeSlider.currSlideId]
+        } else if (type === 0){
+          var nextSlide = homeSlider.slidesJQ[0];
+        } else {
+          var nextSlide = type;
+        }
+      });
+    })
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    $(function($){
+      var options = {
+        keyboardNavEnabled: false, 
+        // autoScaleSlider: true,
+        slidesSpacing: 0,
+        imageScaleMode: 'fill',
+        navigateByClick: false,
+        controlNavigation: "bullets",
+        sliderDrag: true,
+        sliderTouch: true,
+        arrowsNav: true,
+        addActiveClass: true,
+        autoPlay: {
+          enabled: false
+        }
+      };
+      $(".mini-slider .slider").royalSlider(options);
+    })
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    // force slider resize
+    $(".intro-boxes img").imagesLoaded(function(){
+      $(window).trigger("resize");
+    })
+  //]]>
+</script>
+<script type="text/javascript">
+  //<![CDATA[
+    $(function(){
+      
+      function setVideoHeight(){
+        var $videoCont = $("#video-11059");
+        v

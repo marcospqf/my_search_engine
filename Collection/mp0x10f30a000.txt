@@ -1,0 +1,1904 @@
+|||http://www.riotgames.com/|<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/" />
+<link rel="shortlink" href="http://www.riotgames.com/" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.riotgames.com/" />
+<meta property="og:title" content="Riot Games" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KTlAHjduDIVNxKQKtGu-3bTZ5emaFX8bj9YyEcR6iz8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_d9gATwNwd2xCcDU9RDWS3OQpNzaFt0U6oFh0Dm_I-NM.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"ZbJkGLn4gNcH94pxlZ9aSnY8xAEg4weDRw3NdkrnGC8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html front not-logged-in page-home i18n-en">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home active">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div><div class="block block-views block-home-rotator-block block-views-home-rotator-block even block-without-title" id="block-views-home-rotator-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="flexslider">
+	<ul class="slides">
+			<li><a class="slide-link" href=""><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/home-rotator-slides/public/content/home-rotator/images/main/WeAreRioters_Carousel_3.jpg?itok=um4EmiTb" width="1920" height="700" alt="We Are Rioters" /></a><div class="ds-1col node node-home-rotator-slides view-mode-homepage_marquee_teaser clearfix ">
+
+	<div class="meta">
+		<div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>We Are Rioters</h2></div></div></div>	</div>
+
+
+</div>
+</li>
+	<li><a class="slide-link" href="articles/20121029/531/funding-riots-play"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/home-rotator-slides/public/content/home-rotator/images/main/wearegamers.png?itok=r6F60zeu" width="1920" height="700" alt="" /></a><div class="ds-1col node node-home-rotator-slides view-mode-homepage_marquee_teaser clearfix ">
+
+	<div class="meta">
+		<div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>We are Gamers</h2></div></div></div><div class="field field-name-field-cta-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/articles/20121029/531/funding-riots-play" class="cta-link">Rioters Take Play Seriously</a></div></div></div>	</div>
+
+
+</div>
+</li>
+	<li><a class="slide-link" href=""><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/home-rotator-slides/public/content/home-rotator/images/main/rotator_banner.jpg?itok=_KrDAIS9" width="1920" height="700" alt="" /></a><div class="ds-1col node node-home-rotator-slides view-mode-homepage_marquee_teaser clearfix ">
+
+	<div class="meta">
+		<div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>We are eSports</h2></div></div></div>	</div>
+
+
+</div>
+</li>
+	<li><a class="slide-link" href="articles/20070101/547/working-riot"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/home-rotator-slides/public/content/home-rotator/images/main/Annie%20and%20Tibbers%20statue.png?itok=BkS1ksXv" width="1920" height="700" alt="" /></a><div class="ds-1col node node-home-rotator-slides view-mode-homepage_marquee_teaser clearfix ">
+
+	<div class="meta">
+		<div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>Come Join Us</h2></div></div></div><div class="field field-name-field-cta-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/articles/20070101/547/working-riot" class="cta-link">Work at Riot</a></div></div></div>	</div>
+
+
+</div>
+</li>
+
+	</ul>
+</div>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="panel-display panel-1col clearfix" >
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-views pane-news" >
+  
+      
+  
+  <div class="pane-content">
+    <div class="view view-news view-id-news view-display-id-block_1 news-grid view-dom-id-b24981570ff3ef7f7b4bc4a8baa1e621">
+            <div class="view-header">
+      <div class="view view-news-marquee view-id-news_marquee view-display-id-block news-marquee view-dom-id-96dd079d611ed54677d38fb12fe0c206">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="ds-1col node node-article view-mode-primary_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170221/2388/assuring-quality-today’s-complex-world" title="Assuring Quality in Today’s Complex World"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/primary-thumb-grey/public/content/article/images/primary_thumb/EcosystemTeam_004_0.jpg?itok=CRqlYXXv" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/primary-thumb/public/content/article/images/primary_thumb/EcosystemTeam_004_0.jpg?itok=21lv3Fpr" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Assuring Quality in Today’s Complex World</span></span></a></div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="ds-1col node node-editorial-template-1 view-mode-landscape_teaser clearfix ">
+	<a class="news-teaser" href="/riot-rumble-middleman-page" title="Riot Rumble"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/landscape-thumb-grey/public/content/story/landscape_thumb/riot-rumble-landscape.jpg?itok=W_wcVqIS" width="400" height="200" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/landscape-thumb/public/content/story/landscape_thumb/riot-rumble-landscape.jpg?itok=lfJ5XzRg" width="400" height="200" alt="" /></span><span class="teaser-meta"><span class="headline">Riot Rumble</span></span></a></div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div class="ds-1col node node-article view-mode-skyscraper_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150217/546/awards" title="Our awards"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb-grey/public/content/article/images/skyscraper_thumb/Awards-Skyscraper.jpg?itok=PWuK4twM" width="200" height="400" alt="Awards" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb/public/content/article/images/skyscraper_thumb/Awards-Skyscraper.jpg?itok=VjbSuZYH" width="200" height="400" alt="Awards" /></span><span class="teaser-meta"><span class="headline">Our awards</span></span></a></div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div class="ds-1col node node-article view-mode-landscape_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20150817/1697/our-engineering-tech-blog-blasts" title="Our Engineering Tech Blog Blasts Off"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/landscape-thumb-grey/public/content/article/images/landscape_thumb/techblog_landscape_0.png?itok=aLz5s6Nl" width="400" height="200" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/landscape-thumb/public/content/article/images/landscape_thumb/techblog_landscape_0.png?itok=jQn5m09d" width="400" height="200" alt="" /></span><span class="teaser-meta"><span class="headline">Our Engineering Tech Blog Blasts Off</span></span></a></div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div class="ds-1col node node-editorial-template-1 view-mode-skyscraper_teaser clearfix ">
+	<a class="news-teaser" href="/internship-program" title="Riot Internship Program"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb-grey/public/content/story/skyscraper_thumb/INTERN-6200x400.jpg?itok=pqrCuuYe" width="200" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb/public/content/story/skyscraper_thumb/INTERN-6200x400.jpg?itok=LzQK-KOK" width="200" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Riot Internship Program</span></span></a></div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <div class="ds-1col node node-editorial-template-1 view-mode-skyscraper_teaser clearfix ">
+	<a class="news-teaser" href="/will-draw-rp-history-player-support-tradition" title="Will Draw for RP"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb-grey/public/content/story/skyscraper_thumb/RITO265skyscraper.jpg?itok=xbOymYiw" width="200" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/skyscraper-thumb/public/content/story/skyscraper_thumb/RITO265skyscraper.jpg?itok=cse-4sKU" width="200" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Will Draw for RP</span></span></a></div>  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+    
+ <div class="ds-1col node node-editorial-template-1 view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/riot-tours-middleman-page" title="Riot Tours"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/story/primary_thumb/riot-tours-teaser-primary_1.jpg?itok=umQSKceB" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/story/primary_thumb/riot-tours-teaser-primary_1.jpg?itok=aha90TIh" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Riot Tours</span></span></a></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+ <div class="ds-1col node node-article new-tag-item view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170315/2390/designing-experiences-beyond-game" title="Designing Experiences Beyond the Game"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/demacia-silvermere_newsriver.jpg?itok=tb8y7tAE" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/demacia-silvermere_newsriver.jpg?itok=oyDXNuyv" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Designing Experiences Beyond the Game</span></span></a></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+ <div class="ds-1col node node-article new-tag-item view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170310/2389/forging-your-path-forward-experience-design" title="Forging Your Path in Experience Design"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/1-Kpk7sexpb_BHvDWtAsv2QQ%20%282%29.jpg?itok=BbqQRRPU" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/1-Kpk7sexpb_BHvDWtAsv2QQ%20%282%29.jpg?itok=OJXnteqB" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Forging Your Path in Experience Design</span></span></a></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170213/2385/vacation-cause-barcelona-all-stars-vip-experience-winners" title="Vacation for a Cause"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/1476208918812.png?itok=-OHeL55c" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/1476208918812.png?itok=Zz_H7BkN" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Vacation for a Cause</span></span></a></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170207/2384/setting-stage-msi-worlds" title="Setting the stage for MSI & Worlds"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/2017_CompetitiveEventUpdate_header_1920x1080%20%281%29%20%281%29%20%281%29.jpg?itok=zhb2Pzrw" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/2017_CompetitiveEventUpdate_header_1920x1080%20%281%29%20%281%29%20%281%29.jpg?itok=z7Vbyufn" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Setting the stage for MSI & Worlds</span></span></a></div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+    
+ <div class="ds-1col node node-editorial-template-1 view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/leagues-business-model" title="On League's Business Model"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/story/primary_thumb/square.jpg?itok=i58MGM0s" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/story/primary_thumb/square.jpg?itok=MWSYYBMR" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">On League's Business Model</span></span></a></div>
+  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news">
+    See More News  </a>
+</div>
+  
+  
+  
+</div>  </div>
+
+  
+  </div>
+</div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>      </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf"><a href="/articles/20150217/546/awards" target="_blank">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebook.com/RiotGames" class="ico-facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://us.linkedin.com/company/riot-games" class="ico-linkedin" target="_blank">Linked In</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RiotGamesInc" class="ico-youtube">YouTube</a></li>
+<li class="leaf"><a href="/news/feed" class="ico-rss">RSS</a></li>
+<li class="last leaf"><a href="http://www.glassdoor.com/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm" class="ico-glassdoor" target="_blank">Glassdoor</a></li>
+</ul>    </div>
+  </div>
+</section><div class="block block-block block-1 block-block-1 odd block-without-title" id="block-block-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+       <p><em>&copy;2015 Riot Games, Inc. All rights reserved. League of Legends and Riot Games are trademarks, service marks, or registered trademarks of Riot Games, Inc.</em></p>
+     </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a24d38a665","applicationID":"6988133","transactionName":"blFTY0BWV0ZWURYLW1cbZEVbGBZcWVYHGhpJXEE=","queueTime":0,"applicationTime":17,"atts":"QhZQFQhMREg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>|||https://support.riotgames.com/hc/pt-br/articles/234574128|<!DOCTYPE html>
+<html dir="ltr" lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <!-- v11650 -->
+  <title>Problemas Conhecidos do Cliente Atualizado &ndash; Riot Games - Suporte ao Jogador</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="BJSu2DzBTfAlZkFE9O79IsYreHgz+7nUgVluMo8M5Gk6O+6wwS0Sj5BrxIlsvJcfGpW8pT00jeItW+4GoAO7RA==" />
+  <meta name="description" content="Antes de começarmos: se você tiver qualquer problema durante o beta aberto, o primeiro passo é sempre reiniciar o cliente. Isso deve..." /><meta property="og:image" content="http://p6.zdassets.com/hc/settings_assets/43400/200033224/4KneYk8bS6X0lIIgP5JxHw-logo.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Riot Games - Suporte ao Jogador" />
+<meta property="og:title" content="Problemas Conhecidos do Cliente Atualizado" />
+<meta property="og:description" content="Antes de começarmos: se você tiver qualquer problema durante o beta aberto, o primeiro passo é sempre reiniciar o cliente. Isso deve resolver a maioria dos problemas. E lembre-se, se você acabar te..." />
+<meta property="og:url" content="http://support.riotgames.com/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado" />
+<link rel="canonical" href="https://support.riotgames.com/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado" />
+<link rel="alternate" hreflang="pt" href="https://support.riotgames.com/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p6.zdassets.com/hc/assets/application-a1a646ba0294d8b1a3d5.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p6.zdassets.com/hc/themes/43400/200714610/style-cbaedacc85bbf9b6cbace45108d7ebfa.css?brand_id=416614&amp;locale=pt-br" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//p6.zdassets.com/hc/settings_assets/43400/200033224/83SWtR99t0fqxsmvCcLtdQ-footer-riotfist.png" />
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p6.zdassets.com/hc/assets/jquery.js"></script>
+  
+  
+  
+
+  <meta name="google-site-verification" content="hNyCMmeJtcYlfWfvWc7oSUy02Z6t3DwzrA5cuVDIxpc" />
+<meta name="google-site-verification" content="qUaShgAGu1xh1Xz9wm4w4nkldG4A8qhFQfscyK-xfpY" />
+<script src="https://assets.zendesk.com/assets/apps/conditional_fields/latest/helpcenter.js"></script>
+<script>var cfaRules = [{"fieldType":"tagger","field":22617744,"value":"ticketfield_game_crash_other","select":[22814224],"formId":34190,"requireds":[22814224]},{"fieldType":"tagger","field":22617764,"value":"ticketfield_mac_other","select":[22814214],"formId":34190,"requireds":[22814214]},{"fieldType":"tagger","field":22617764,"value":"ticketfield_windows_other","select":[22814214],"formId":34190,"requireds":[22814214]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_client","select":[22617424,22617434,22779590,22779600,22779610],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_connection_issues","select":[22617434,22617424,22779610],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_crash_bug_splat","select":[22617744,22617454,22617434,22779590],"formId":34190,"requireds":[22617744]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_fps","select":[22617454,22617434,22779590],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_game_stuck","select":[22779600,22617454,22617434],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_lag","select":[22617424,22779610],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_other","select":[22778660,22617454,22617434,22779590,22779610],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22617864,"value":"ticketfield_tech_patcher_patching_issues","select":[22617414,22617434,22617424],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":22779880,"value":"ticketfield_merch_account_compromise","select":[22617554],"formId":38204,"requireds":[]},{"fieldType":"tagger","field":22779880,"value":"ticketfield_merch_forgot_username_password","select":[22617554],"formId":38204,"requireds":[]},{"fieldType":"tagger","field":22779940,"value":"ticketfield_merch_payment_method_credit_card","select":[22779900],"formId":38204,"requireds":[]},{"fieldType":"tagger","field":22779940,"value":"ticketfield_merch_payment_method_paypal","select":[22617564],"formId":38204,"requireds":[]},{"fieldType":"tagger","field":22780020,"value":"ticketfield_fraud_payment_method_credit_card","select":[24230006,24191923,22617494],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22780020,"value":"ticketfield_fraud_payment_method_other","select":[22779720],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22780020,"value":"ticketfield_fraud_payment_method_paypal","select":[22617564],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22780020,"value":"ticketfield_fraud_payment_method_sms_mobile","select":[22617584,22779640,22844860],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22792504,"value":"chargeback_incomm","select":[22617614,22617604],"formId":77686,"requireds":[]},{"fieldType":"tagger","field":22792504,"value":"chargeback_paypal","select":[22956550],"formId":77686,"requireds":[]},{"fieldType":"tagger","field":22792504,"value":"chargeback_paysafecard","select":[22779790],"formId":77686,"requireds":[]},{"fieldType":"tagger","field":22792514,"value":"webform_ar_first5champions__yes","select":[24365986,24365996,24366006,24366016],"formId":72416,"requireds":[]},{"fieldType":"tagger","field":22844790,"value":"ticketfield_merch_account","select":[22616394,22779880,22779750,22778390],"formId":38204,"requireds":[]},{"fieldType":"tagger","field":22844790,"value":"ticketfield_merch_billing_order","select":[22617694,22779940,22779740,22779650,22844730,22617644],"formId":38204,"requireds":[22779740]},{"fieldType":"tagger","field":22844790,"value":"ticketfield_merch_return","select":[22617834,22779740,22779650,22844730,22617634],"formId":38204,"requireds":[22779740]},{"fieldType":"tagger","field":22844790,"value":"ticketfield_merch_shipping","select":[22779990,22779740,22844730,22617634,22779650],"formId":38204,"requireds":[22779740]},{"fieldType":"tagger","field":22844800,"value":"ticketfield_unauthorized_charges_friend_family","select":[22780020,22617644,22617474,22616584],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22844800,"value":"ticketfield_unauthorized_charges_league_account","select":[20570302,20289408,22617644,22617474,22616584,387600,22780020],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22844800,"value":"ticketfield_unauthorized_charges_no_account","select":[22617644,22616584,22780020,22617474],"formId":34200,"requireds":[]},{"fieldType":"tagger","field":22974930,"value":"ticketfield_isp_na_other","select":[22976700],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":24323163,"value":"webform_ar_storeinfo__yes","select":[24323263,24323293,24365966,22792514],"formId":72416,"requireds":[]},{"fieldType":"tagger","field":24323293,"value":"webform_ar_receivedgifts__yes","select":[24323323,24323333],"formId":72416,"requireds":[]},{"fieldType":"tagger","field":24365886,"value":"webform_ar_singupinfo__yes","select":[22778390,22792534,22918430,46198348,24462883],"formId":72416,"requireds":[]},{"fieldType":"tagger","field":24430783,"value":"ticketfield_update_order_shipping_address","select":[22779890,24435623,24435643,24446283,24478206,24478386,24478406],"formId":92586,"requireds":[22779890,24435643,24446283,24478206,24478386,24478406]},{"fieldType":"tagger","field":387600,"value":"europe_nordic_east","select":[48909348],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":387600,"value":"europe_west","select":[48906788],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":387600,"value":"north_america","select":[22974120,22974930],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":387600,"value":"north_america","select":[24237913],"formId":4584,"requireds":[]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_boacompra_bank_transfer","select":[42311908,42317628,42381567],"formId":4584,"requireds":[42311908,42317628,42381567]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_boacompra_credit_card","select":[42318388,42318348,42318368,42388067,42311908,42317628,42381567],"formId":4584,"requireds":[42311908,42317628,42318348,42318368,42318388,42381567,42388067]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_boacompra_ewallet","select":[42311908,42317628,42381567],"formId":4584,"requireds":[42311908,42317628,42381567]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_payon_credit_card","select":[42318388,42318348,42318368,42388067,42311908,42317628,42381567],"formId":4584,"requireds":[42311908,42317628,42318348,42318368,42318388,42381567,42388067]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_riotpin_blackhawk_eprepag","select":[42318408,42318708],"formId":4584,"requireds":[]},{"fieldType":"tagger","field":42224328,"value":"ticketfield_sms_mobile","select":[42318728,42388207,42388187,42311908,42317628,42381567],"formId":4584,"requireds":[42311908,42317628,42318728,42381567,42388187,42388207]},{"fieldType":"tagger","field":48906788,"value":"ticketfield_isp_euw_other","select":[48722627],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":48909348,"value":"ticketfield_isp_eune_other","select":[48722587],"formId":34190,"requireds":[]},{"fieldType":"tagger","field":58792748,"value":"ticketfield_suspension_form_chargeback","select":[22792504],"formId":484167,"requireds":[22792504]},{"fieldType":"tagger","field":60754788,"value":"ticketfield_rp_purchase_form_credit_card","select":[24191923,24230006,22617494],"formId":587168,"requireds":[]},{"fieldType":"tagger","field":60754788,"value":"ticketfield_rp_purchase_form_other","select":[22779720],"formId":587168,"requireds":[]},{"fieldType":"tagger","field":60754788,"value":"ticketfield_rp_purchase_form_paypal","select":[22617564],"formId":587168,"requireds":[]},{"fieldType":"tagger","field":60754788,"value":"ticketfield_rp_purchase_form_sms_mobile","select":[22779640,22844860,22617584],"formId":587168,"requireds":[]}];</script>
+
+<!--qcore import -->
+<script src="https://lolstatic-a.akamaihd.net/quantum-core/site-player-support/0.0.1/components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+<link rel="import" href="https://lolstatic-a.akamaihd.net/quantum-core/site-player-support/0.0.1/ps-component-bundle.min.html">
+
+<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+
+  <script type="text/javascript" src="//p6.zdassets.com/hc/themes/43400/200714610/script-cbaedacc85bbf9b6cbace45108d7ebfa.js?brand_id=416614&amp;locale=pt-br"></script>
+</head>
+<body class="">
+  
+  
+
+
+  
+
+
+  <!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NVHDJ7"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NVHDJ7');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Qualaroo for riotgames.com -->
+<!-- Paste this code right after the <body> tag on every page of your site. -->
+<script type="text/javascript">
+  var _kiq = _kiq || [];
+  (function(){
+  setTimeout(function(){
+  var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+  s.async = true; s.src = '//s3.amazonaws.com/ki.js/51398/dFu.js'; f.parentNode.insertBefore(s, f);
+  }, 1);
+  })();
+</script>
+<!-- end Qualaroo for riotgames.com -->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--div to darken background - ends in the footer-->
+<div id="darkenessssss">
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!--header bar-->
+  <div class="header-inner">
+
+    <div id="header-nav">
+      <!-- Riot Games Logo -->
+      <div id="left-col">
+        <a id="header-nav-main-link" href="http://www.riotgames.com">
+          <q-logo-fist-light></q-logo-fist-light>
+          Riot Games
+        </a>
+      </div>
+      <!-- Language selector - Zendesk required -->
+      <div id="right-col">
+        <div class="dropdown language-selector" aria-haspopup="true">
+          <a class="dropdown-toggle sub-link">Português do Brasil</a>
+          <span class="dropdown-menu dropdown-menu-end dropdown-menu-caret" role="menu">
+            
+            <a href="/hc/change_language/cs?return_to=%2Fhc%2Fcs" dir="ltr" rel="nofollow" role="menuitem">eština</a>
+            
+            <a href="/hc/change_language/de?return_to=%2Fhc%2Fde" dir="ltr" rel="nofollow" role="menuitem">Deutsch</a>
+            
+            <a href="/hc/change_language/el?return_to=%2Fhc%2Fel" dir="ltr" rel="nofollow" role="menuitem"></a>
+            
+            <a href="/hc/change_language/en-us?return_to=%2Fhc%2Fen-us" dir="ltr" rel="nofollow" role="menuitem">English (US)</a>
+            
+            <a href="/hc/change_language/es?return_to=%2Fhc%2Fes" dir="ltr" rel="nofollow" role="menuitem">Español</a>
+            
+            <a href="/hc/change_language/es-419?return_to=%2Fhc%2Fes-419" dir="ltr" rel="nofollow" role="menuitem">Español (Latinoamérica)</a>
+            
+            <a href="/hc/change_language/fr?return_to=%2Fhc%2Ffr" dir="ltr" rel="nofollow" role="menuitem">Français</a>
+            
+            <a href="/hc/change_language/hu?return_to=%2Fhc%2Fhu" dir="ltr" rel="nofollow" role="menuitem">Magyar</a>
+            
+            <a href="/hc/change_language/it?return_to=%2Fhc%2Fit" dir="ltr" rel="nofollow" role="menuitem">Italiano</a>
+            
+            <a href="/hc/change_language/ja?return_to=%2Fhc%2Fja" dir="ltr" rel="nofollow" role="menuitem"></a>
+            
+            <a href="/hc/change_language/pl?return_to=%2Fhc%2Fpl" dir="ltr" rel="nofollow" role="menuitem">Polski</a>
+            
+            <a href="/hc/change_language/ro?return_to=%2Fhc%2Fro" dir="ltr" rel="nofollow" role="menuitem">Român</a>
+            
+            <a href="/hc/change_language/ru?return_to=%2Fhc%2Fru" dir="ltr" rel="nofollow" role="menuitem"></a>
+            
+            <a href="/hc/change_language/tr?return_to=%2Fhc%2Ftr" dir="ltr" rel="nofollow" role="menuitem">Türkçe</a>
+            
+          </span>
+        </div>
+        <!--Sign In button/Logged in user - Zendesk required-->
+          <a class="login" data-auth-action="signin" role="button" href="/hc/pt-br/signin?return_to=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128&amp;locale=19">Entrar</a>
+
+      </div>
+      <!-- Main Navigation Links -->
+      <div id="mid-col">
+        <a id="header-nav-home-link" href="https://support.riotgames.com/">Suporte</a>
+        <span class="vertical-divider"></span>
+        <a class="sub-link" href="/hc/requests">Meus Tickets</a>
+        <a class="sub-link" href="/hc/requests/new">Envie um Ticket</a>
+        <a class="sub-link" href="https://status.leagueoflegends.com/#br" >status do servidor</a>
+      </div>
+    </div>
+  </div>
+
+  <main role="main">
+    <div id="main-body">
+  <nav class="sub-nav sub-nav-far clearfix">
+    <ol class="breadcrumbs">
+  
+    <li title="Riot Games - Suporte ao Jogador">
+      
+        <a href="/hc/pt-br">Riot Games - Suporte ao Jogador</a>
+      
+    </li>
+  
+    <li title="Problemas Técnicos">
+      
+        <a href="/hc/pt-br/categories/200137704-Problemas-T%C3%A9cnicos">Problemas Técnicos</a>
+      
+    </li>
+  
+    <li title="Estou com problemas no cliente">
+      
+        <a href="/hc/pt-br/sections/201860146-Estou-com-problemas-no-cliente">Estou com problemas no cliente</a>
+      
+    </li>
+  
+</ol>
+
+    <form role="search" class="search-small" data-search="" action="/hc/pt-br/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Pesquisa" aria-label="Pesquisa" /></form>
+  </nav>
+
+  <div class="clearfix">
+
+    <div class="articleblock clearfix">
+
+      <header class="article-header clearfix">
+        <span class="article-title"> Problemas Conhecidos do Cliente Atualizado</span>
+        <div class="article-metadata">
+          <div class="article-avatar"><img src="https://support.riotgames.com/system/photos/0002/2379/4026/Morgana.png" alt="Avatar"/></div>
+          <div class="article-author">
+            Fishbones
+            </div>
+          <div class="article-updated"><time datetime="2017-03-10T12:07:06Z" title="2017-03-10T12:07:06Z" data-datetime="calendar">10 de março de 2017 12:07</time></div>
+        </div>
+        <a class="article-subscribe" rel="nofollow" role="button" data-auth-action="signin" aria-selected="false" href="/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado/subscription">Seguir</a>
+      </header>
+
+      <div class="article-body">
+        <p>Antes de começarmos: se você tiver qualquer problema durante o beta aberto, o primeiro passo é sempre reiniciar o cliente. Isso deve resolver a maioria dos problemas. E lembre-se, se você acabar tendo muitos problemas, sinta-se livre para voltar a usar o cliente legado.</p>
+<div class="article-tablenav">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td class="table-header" width="33%">
+<h2><a href="#h1">Atualizando</a></h2>
+</td>
+<td class="table-header" width="33%">
+<h2><a href="#h2">Conteúdo faltando no cliente</a></h2>
+</td>
+<td class="table-header" width="33%">
+<h2><a href="#h2">Desempenho</a></h2>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li><a href="#h1q1">Como faço para voltar a usar o cliente legado?</a></li>
+<li><a href="#h1q2">Como envio relatórios do cliente atualizado durante o beta aberto?</a></li>
+<li><a href="#h1q3">Reinstalei o cliente atualizado mas continuo tendo erros de BugSplat</a></li>
+<li><a href="#h1q4">Meu cliente estava atualizando, chegou a 99% e depois a porcentagem caiu</a></li>
+<li><a href="#h1q5">Minha atualização está travada em 87%</a></li>
+<li><a href="#h1q6">Não consigo encontrar uma opção para aderir ao Beta no Atualizador</a></li>
+<li><a href="#h1q7">Uso o Windows XP e, ao atualizar meu cliente, vejo uma janela acusando o erro “RunDLL”</a></li>
+<li><a href="#h1q8">A novidade de Denise</a></li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li><a href="#h2q1">Minha Honra não aparece no meu perfil e na tela de Seleção de Campeões</a></li>
+<li><a href="#h2q2">O cliente atualizado não é reconhecido quando faço streams</a></li>
+<li><a href="#h2q3">Não consigo selecionar os modos de jogo PvP ou Co-op vs. IA</a></li>
+<li><a href="#h2q4">Não consigo selecionar a dificuldade Intermediário ao jogar Co-op vs. IA em Twisted Treeline</a></li>
+<li><a href="#h2q5">O bônus de XP/IP que comprei não está aparecendo na minha conta</a></li>
+<li><a href="#h2q6">Tentei alterar o idioma do cliente e agora não paro de receber um “Erro não específico”</a></li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li><a href="#h3q1">Eu fecho o cliente do League mas o Leagueclient.exe continua sendo executado e leva um tempo até ser encerrado. Se eu tento abrir o jogo novamente, a mensagem “Há outra instância em execução” aparece</a></li>
+<li><a href="#h3q2">Meu computador não é tão potente, o cliente atualizado fica superlento!</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Meu problema não está nessa lista!</h2>
+<p>Se você encontrar um problema que não está listado aqui, use o botão de Bugs, localizado na parte inferior da sua lista de amigos. Esses relatórios são enviados para a equipe responsável pelo cliente atualizado e nos ajudam a monitorar e eliminar bugs mais rapidamente. Agradecemos a sua ajuda!</p>
+<p><a name="h1q1"></a></p>
+<h2>Como faço para voltar a usar o cliente legado?</h2>
+<p>Basta localizar o texto laranja “Iniciar o cliente legado”, localizado na parte inferior direita da tela de início de sessão.</p>
+<p><a name="h1q2"></a></p>
+<h2>Como envio relatórios do cliente atualizado durante o beta aberto?</h2>
+<p>Enquanto estamos ajudando você a resolver alguns problemas do cliente atualizado ou buscando melhorar o futuro do cliente, há momentos em que seus relatórios podem ser muito úteis para nós, pois vão nos contar o que está acontecendo.</p>
+<p>A informação é sempre muito útil, mas tenha em mente que o cliente atualizado ainda está em fase beta, então mesmo enviando relatórios, pode ser que ainda não tenhamos uma maneira de resolver o seu problema.</p>
+<blockquote>Usuários de Mac: Clique <a href="https://support.riotgames.com/hc/en-us/articles/201752674#mq11">aqui</a> para saber como obter os relatórios.</blockquote>
+<ul>
+<ul>
+<li>Como encontro meus relatórios?</li>
+</ul>
+</ul>
+<p>Acesse sua pasta do League of Legends (costuma estar localizada em C:\Riot Games\League of Legends\) e abra a pasta “Logs”. Nessa pasta você encontrará outras pastas, com arquivos dentro.</p>
+<ul>
+<ul>
+<li>Beleza, agora eu já sei onde estão os relatórios. O que eu faço com eles?</li>
+</ul>
+</ul>
+<p>Você vai escolher um programa de compressão de arquivos (como WinZip, 7Zip, etc) e compactar todas essas pastas em um único arquivo .zip. Quando os arquivos estiverem compactados, você vai <a href="https://support.riotgames.com/hc/en-us/requests/new">criar um ticket</a> alegando problemas técnicos e anexar esse arquivo lá. No corpo do ticket, não esqueça de especificar que esse é um problema relacionado ao cliente atualizado.</p>
+<p><img src="/hc/en-us/article_attachments/217283507/TechTicket.png" alt="" width="1000" /></p>
+<blockquote><strong>Obs.:</strong> Para enviar um ticket, é necessário entrar com a sua conta!</blockquote>
+<p><a name="h1q3"></a></p>
+<h2>Reinstalei o cliente atualizado mas continuo tendo erros de BugSplat.</h2>
+<p>Se você desinstalar ou reinstalar o cliente atualizado, pode notar erros de BugSplat mais frequentes. O cliente atualizado compartilha arquivos com o cliente legado, então, ao desinstalar um, você afeta o outro.</p>
+<p>Para evitar erros de BugSplat, desinstale todos os arquivos de League of Legends do seu computador e faça uma instalação limpa.</p>
+<p><a name="h1q4"></a></p>
+<h2>Meu cliente estava atualizando, chegou a 99% e depois a porcentagem caiu</h2>
+<p>Isso é apenas um erro visual. Deixe a atualização continuar e logo o 100% chega!</p>
+<p><a name="h1q5"></a></p>
+<h2>Minha atualização está travada em 87%</h2>
+<p>Isso é um erro visual (você provavelmente já ficou com a atualização travada em 33%), o jogo continuará sendo atualizado normalmente. Não interrompa o processo, a atualização será concluída.</p>
+<p><a name="h1q6"></a></p>
+<h2>Uso o Windows XP e, ao atualizar meu cliente, vejo uma janela acusando o erro “RunDLL”.</h2>
+<p>Usuários do Windows XP receberão uma mensagem de erro durante o processo de atualização do cliente. Isso não impede o processo de ser concluído com sucesso. Se você usa o XP e recebeu essa mensagem, basta fechá-la e curtir o cliente atualizado. É importante ter em mente que, ao usar o cliente atualizado no Windows XP, é esperado que você veja essa mensagem 3 vezes.</p>
+<p><a name="h1q7"></a></p>
+<h2>Não consigo encontrar uma opção para aderir ao Beta no Atualizador.</h2>
+<p>É possível que isso aconteça porque você tem um ícone do Atualizador antigo fixado na sua barra de tarefas. Para resolver isso, basta remover o atalho do League of Legends da sua barra de tarefas, acessar <strong>C:\Riot Games\League of Legends</strong> e clicar em <strong>lol.launcher</strong>. Isso vai atualizar o seu Atualizador e fazer com que você veja o pop-up (ou artigo) quando a atualização terminar. O pop-up do Atualizador é como o mostrado na primeira imagem. Já o artigo, você confere na segunda.</p>
+<p><img src="/hc/en-us/article_attachments/115001988108/Client-Popup.jpg" /> <img src="/hc/en-us/article_attachments/115001965187/Client-Article.jpg" /></p>
+<p><a name="h1q8"></a></p>
+<h2>Recebi o seguinte erro: “LCU encontrou um problema. Reinstale o cliente alfa de League para tentar novamente”.</h2>
+<p>Para resolver isso, siga os passos abaixo:</p>
+<ul>
+<li>Acesse C:\Riot Games\League of Legends\ e exclua o arquivo LeagueClient.exe</li>
+<li>Execute o arquivo lol.launcher.exe</li>
+<li>Abra as configurações e clique em Reparo Completo</li>
+</ul>
+<p><a name="h2q1"></a></p>
+<h2>Minha Honra não aparece no meu perfil e na tela de Seleção de Campeões</h2>
+<p>Sabemos de um problema que pode impedir as insígnias de honra de aparecerem no seu perfil e durante a Seleção de Campeões. Ainda estamos contabilizando os pontos de Honra, mas sua insígnia deve ser exibida na tela de carregamento e tela de fim de partida.</p>
+<p><a name="h2q2"></a></p>
+<h2>O cliente atualizado não é reconhecido quando faço streams</h2>
+<p>O cliente atualizado é renderizado de maneira diferente do cliente legado na maioria das placas de vídeo, então, dependendo das suas configurações, pode ser que ele não seja exibido no seu software de transmissão. Se o seu software possui configurações com base em Captura de Jogo, mude para Captura de Janela ou Captura de Área de Trabalho, dependendo do que funciona melhor para você. Não deixe de verificar se você está usando a versão correta do software de transmissão (32 ou 64-bit), já que problemas de compatibilidade também podem impedir que o cliente seja capturado corretamente.</p>
+<p>Se você preferir não alterar suas configurações, a partida será capturada corretamente quando começar. Esse problema só afeta o cliente atualizado.</p>
+<p><a name="h2q3"></a></p>
+<p>Não consigo selecionar os modos de jogo PvP ou Co-op vs. IA</p>
+<p>Basta reiniciar o seu cliente.</p>
+<p><a name="h2q4"></a></p>
+<h2>Não consigo selecionar a dificuldade Intermediário ao jogar Co-op vs. IA em Twisted Treeline</h2>
+<p>Estamos cientes desse problema e planejamos resolvê-lo o quanto antes!</p>
+<p><a name="h2q5"></a></p>
+<h2>O bônus de XP/IP que comprei não está aparecendo na minha conta</h2>
+<p>Isso é apenas um bug visual. Basta reiniciar seu cliente e ele será exibido normalmente!</p>
+<p><a name="h2q6"></a></p>
+<h2>Alterar arquivos de configuração para jogar em outro idioma que não seja suportado pela sua região irá criar um “erro não específico” que não vai parar de ocorrer.</h2>
+<p>Se você modificou manualmente os arquivos de configuração para jogar em um idioma não suportado pela sua região, você receberá um "erro não específico" quando optar por usar o cliente beta e tentar fazer o download do cliente atualizado. Para consertar isso, acesse a pasta onde o League está instalado e percorra o seguinte caminho: /RADS/system/locale.cfg. Feito isso, determine "locale" para o código local de um dos idiomas que a sua região suporta (para o Brasil, pt_br).</p>
+<p><a name="h3q1"></a></p>
+<h2>Eu fecho o cliente do League mas o Leagueclient.exe continua sendo executado e leva um tempo até ser encerrado. Se eu tento abrir o jogo novamente, a mensagem “Há outra instância em execução” aparece.</h2>
+<p>Estamos cientes do problema que impede o LeagueClient.exe de ser encerrado corretamente quando você sai do jogo. Caso isso aconteça com você, pressione CTRL+ALT+DELETE para acessar o Gerenciador de Tarefas e feche manualmente o processo do LeagueClient.exe.</p>
+<p><a name="h3q2"></a></p>
+<h2>Meu computador não é tão potente, o cliente atualizado fica superlento!</h2>
+<p>Nossa principal prioridade é melhorar o desempenho. Identificamos desempenhos bem ruins em máquinas menos potentes que tentam rodar o cliente atualizado. Continuaremos melhorando o cliente para garantir que jogadores que utilizam o cliente legado sem problemas possam usar o cliente atualizado da mesma maneira.</p>
+<p>Existem algumas coisas que você pode fazer para melhorar o desempenho, no entanto:</p>
+<ul>
+<li>Certifique-se de que você está usando drivers atualizados para a sua placa de vídeo</li>
+<li>Ative o modo "Configuração Baixa". Você pode ativá-lo através das configurações do cliente, clicando na engrenagem localizada no canto superior direito da sua tela</li>
+</ul>
+      </div>
+
+      <div class="article-attachments">
+        <ul class="attachments">
+          
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="article-footer clearfix">
+    
+    <div class="article-vote">
+      <span class="article-vote-question">Esse artigo foi útil?</span>
+      <div class="article-vote-controls">
+        <a role="button" rel="nofollow" class="article-vote-up" title="Sim" aria-selected="false" data-auth-action="signin" href="/hc/pt-br/signin?return_to=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado"></a>
+        <a role="button" rel="nofollow" class="article-vote-down" title="Não" aria-selected="false" data-auth-action="signin" href="/hc/pt-br/signin?return_to=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado"></a>
+      </div>
+      <small class="article-vote-count">
+        <span class="article-vote-label">Usuários que acharam isso útil: 84 de 147</span>
+      </small>
+    </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Problemas+Conhecidos+do+Cliente+Atualizado&u=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=pt&text=Problemas+Conhecidos+do+Cliente+Atualizado&url=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=Riot+Games+Player+Support&title=Problemas+Conhecidos+do+Cliente+Atualizado&url=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=pt-br&url=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </div>
+
+  <div id="footer-relatedarticles">
+
+
+    <div class="related-articles-left">
+      
+  <section class="related-articles">
+    <h3>Artigos relacionados</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208396983-Socorro-n%C3%A3o-consigo-logar-">Socorro, não consigo logar!</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/230272048-Cliente-Atualizado-FAQ">Cliente Atualizado - FAQ</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/234720907-Problemas-de-Atualiza%C3%A7%C3%A3o-no-Cliente-Atualizado">Problemas de Atualização no Cliente Atualizado</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208397663-O-que-s%C3%A3o-relat%C3%B3rios-de-rede-sistema-e-do-LoL-">O que são relatórios de rede, sistema e do LoL?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208046166-Problemas-na-atualiza%C3%A7%C3%A3o-do-LoL">Problemas na atualização do LoL</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+    </div>
+
+
+    <div class="related-articles-submit">
+      <table cellpadding="0" cellspacing="0" style="height:100%; max-height: 240px;" align="center"><tr><td>
+        <span class="submit-request-btn"><a href="/hc/requests/new">Envie um Ticket</a></span>
+        </td></tr></table>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+<div id="article" style="display: none;">
+  <form id="article-search" role="search" data-search action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+    <input name="utf8" type="hidden" value="">
+
+    <z-waypoint-search>
+      <ol class="breadcrumbs">
+  
+    <li title="Riot Games - Suporte ao Jogador">
+      
+        <a href="/hc/pt-br">Riot Games - Suporte ao Jogador</a>
+      
+    </li>
+  
+    <li title="Problemas Técnicos">
+      
+        <a href="/hc/pt-br/categories/200137704-Problemas-T%C3%A9cnicos">Problemas Técnicos</a>
+      
+    </li>
+  
+    <li title="Estou com problemas no cliente">
+      
+        <a href="/hc/pt-br/sections/201860146-Estou-com-problemas-no-cliente">Estou com problemas no cliente</a>
+      
+    </li>
+  
+</ol>
+
+      <q-search id="z-waypoint-search-q-search" name="query" icon="search" collapses show-reset no-dropdown></q-search>
+    </z-waypoint-search>
+  </form>
+
+  <div id="body">
+    <q-grid fluid>
+      <q-col md-size="8">
+        <q-article>
+          <h1 id="article-title" slot="header">
+             Problemas Conhecidos do Cliente Atualizado
+          </h1>
+          <div slot="info">
+            <q-content-block-avatar-1>
+              <q-avatar slot="media" src="https://support.riotgames.com/system/photos/0002/2379/4026/Morgana.png" shape="circle" size="xs"></q-avatar>
+              <h6 slot="headline">
+                
+                Fishbones
+                
+              </h6>
+              <q-meta slot="meta">Posted on <time datetime="2017-03-10T12:07:06Z" title="2017-03-10T12:07:06Z" data-datetime="calendar">10 de março de 2017 12:07</time></q-meta>
+            </q-content-block-avatar-1>
+
+            
+            <z-article-vote>
+              <a role="button" rel="nofollow" class="article-vote-up" title="Sim" aria-selected="false" data-auth-action="signin" href="/hc/pt-br/signin?return_to=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado"></a>
+              <a role="button" rel="nofollow" class="article-vote-down" title="Não" aria-selected="false" data-auth-action="signin" href="/hc/pt-br/signin?return_to=https%3A%2F%2Fsupport.riotgames.com%2Fhc%2Fpt-br%2Farticles%2F234574128-Problemas-Conhecidos-do-Cliente-Atualizado"></a>
+              <h6>Esse artigo foi útil?</h6>
+              <q-meta><span class="article-vote-label">Usuários que acharam isso útil: 84 de 147</span></q-meta>
+            </z-article-vote>
+            
+          </div>
+          <div slot="body">
+            <p>Antes de começarmos: se você tiver qualquer problema durante o beta aberto, o primeiro passo é sempre reiniciar o cliente. Isso deve resolver a maioria dos problemas. E lembre-se, se você acabar tendo muitos problemas, sinta-se livre para voltar a usar o cliente legado.</p>
+<div class="article-tablenav">
+<table border="0" width="100%">
+<tbody>
+<tr>
+<td class="table-header" width="33%">
+<h2><a href="#h1">Atualizando</a></h2>
+</td>
+<td class="table-header" width="33%">
+<h2><a href="#h2">Conteúdo faltando no cliente</a></h2>
+</td>
+<td class="table-header" width="33%">
+<h2><a href="#h2">Desempenho</a></h2>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<ul>
+<li><a href="#h1q1">Como faço para voltar a usar o cliente legado?</a></li>
+<li><a href="#h1q2">Como envio relatórios do cliente atualizado durante o beta aberto?</a></li>
+<li><a href="#h1q3">Reinstalei o cliente atualizado mas continuo tendo erros de BugSplat</a></li>
+<li><a href="#h1q4">Meu cliente estava atualizando, chegou a 99% e depois a porcentagem caiu</a></li>
+<li><a href="#h1q5">Minha atualização está travada em 87%</a></li>
+<li><a href="#h1q6">Não consigo encontrar uma opção para aderir ao Beta no Atualizador</a></li>
+<li><a href="#h1q7">Uso o Windows XP e, ao atualizar meu cliente, vejo uma janela acusando o erro “RunDLL”</a></li>
+<li><a href="#h1q8">A novidade de Denise</a></li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li><a href="#h2q1">Minha Honra não aparece no meu perfil e na tela de Seleção de Campeões</a></li>
+<li><a href="#h2q2">O cliente atualizado não é reconhecido quando faço streams</a></li>
+<li><a href="#h2q3">Não consigo selecionar os modos de jogo PvP ou Co-op vs. IA</a></li>
+<li><a href="#h2q4">Não consigo selecionar a dificuldade Intermediário ao jogar Co-op vs. IA em Twisted Treeline</a></li>
+<li><a href="#h2q5">O bônus de XP/IP que comprei não está aparecendo na minha conta</a></li>
+<li><a href="#h2q6">Tentei alterar o idioma do cliente e agora não paro de receber um “Erro não específico”</a></li>
+</ul>
+</td>
+<td valign="top">
+<ul>
+<li><a href="#h3q1">Eu fecho o cliente do League mas o Leagueclient.exe continua sendo executado e leva um tempo até ser encerrado. Se eu tento abrir o jogo novamente, a mensagem “Há outra instância em execução” aparece</a></li>
+<li><a href="#h3q2">Meu computador não é tão potente, o cliente atualizado fica superlento!</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2>Meu problema não está nessa lista!</h2>
+<p>Se você encontrar um problema que não está listado aqui, use o botão de Bugs, localizado na parte inferior da sua lista de amigos. Esses relatórios são enviados para a equipe responsável pelo cliente atualizado e nos ajudam a monitorar e eliminar bugs mais rapidamente. Agradecemos a sua ajuda!</p>
+<p><a name="h1q1"></a></p>
+<h2>Como faço para voltar a usar o cliente legado?</h2>
+<p>Basta localizar o texto laranja “Iniciar o cliente legado”, localizado na parte inferior direita da tela de início de sessão.</p>
+<p><a name="h1q2"></a></p>
+<h2>Como envio relatórios do cliente atualizado durante o beta aberto?</h2>
+<p>Enquanto estamos ajudando você a resolver alguns problemas do cliente atualizado ou buscando melhorar o futuro do cliente, há momentos em que seus relatórios podem ser muito úteis para nós, pois vão nos contar o que está acontecendo.</p>
+<p>A informação é sempre muito útil, mas tenha em mente que o cliente atualizado ainda está em fase beta, então mesmo enviando relatórios, pode ser que ainda não tenhamos uma maneira de resolver o seu problema.</p>
+<blockquote>Usuários de Mac: Clique <a href="https://support.riotgames.com/hc/en-us/articles/201752674#mq11">aqui</a> para saber como obter os relatórios.</blockquote>
+<ul>
+<ul>
+<li>Como encontro meus relatórios?</li>
+</ul>
+</ul>
+<p>Acesse sua pasta do League of Legends (costuma estar localizada em C:\Riot Games\League of Legends\) e abra a pasta “Logs”. Nessa pasta você encontrará outras pastas, com arquivos dentro.</p>
+<ul>
+<ul>
+<li>Beleza, agora eu já sei onde estão os relatórios. O que eu faço com eles?</li>
+</ul>
+</ul>
+<p>Você vai escolher um programa de compressão de arquivos (como WinZip, 7Zip, etc) e compactar todas essas pastas em um único arquivo .zip. Quando os arquivos estiverem compactados, você vai <a href="https://support.riotgames.com/hc/en-us/requests/new">criar um ticket</a> alegando problemas técnicos e anexar esse arquivo lá. No corpo do ticket, não esqueça de especificar que esse é um problema relacionado ao cliente atualizado.</p>
+<p><img src="/hc/en-us/article_attachments/217283507/TechTicket.png" alt="" width="1000" /></p>
+<blockquote><strong>Obs.:</strong> Para enviar um ticket, é necessário entrar com a sua conta!</blockquote>
+<p><a name="h1q3"></a></p>
+<h2>Reinstalei o cliente atualizado mas continuo tendo erros de BugSplat.</h2>
+<p>Se você desinstalar ou reinstalar o cliente atualizado, pode notar erros de BugSplat mais frequentes. O cliente atualizado compartilha arquivos com o cliente legado, então, ao desinstalar um, você afeta o outro.</p>
+<p>Para evitar erros de BugSplat, desinstale todos os arquivos de League of Legends do seu computador e faça uma instalação limpa.</p>
+<p><a name="h1q4"></a></p>
+<h2>Meu cliente estava atualizando, chegou a 99% e depois a porcentagem caiu</h2>
+<p>Isso é apenas um erro visual. Deixe a atualização continuar e logo o 100% chega!</p>
+<p><a name="h1q5"></a></p>
+<h2>Minha atualização está travada em 87%</h2>
+<p>Isso é um erro visual (você provavelmente já ficou com a atualização travada em 33%), o jogo continuará sendo atualizado normalmente. Não interrompa o processo, a atualização será concluída.</p>
+<p><a name="h1q6"></a></p>
+<h2>Uso o Windows XP e, ao atualizar meu cliente, vejo uma janela acusando o erro “RunDLL”.</h2>
+<p>Usuários do Windows XP receberão uma mensagem de erro durante o processo de atualização do cliente. Isso não impede o processo de ser concluído com sucesso. Se você usa o XP e recebeu essa mensagem, basta fechá-la e curtir o cliente atualizado. É importante ter em mente que, ao usar o cliente atualizado no Windows XP, é esperado que você veja essa mensagem 3 vezes.</p>
+<p><a name="h1q7"></a></p>
+<h2>Não consigo encontrar uma opção para aderir ao Beta no Atualizador.</h2>
+<p>É possível que isso aconteça porque você tem um ícone do Atualizador antigo fixado na sua barra de tarefas. Para resolver isso, basta remover o atalho do League of Legends da sua barra de tarefas, acessar <strong>C:\Riot Games\League of Legends</strong> e clicar em <strong>lol.launcher</strong>. Isso vai atualizar o seu Atualizador e fazer com que você veja o pop-up (ou artigo) quando a atualização terminar. O pop-up do Atualizador é como o mostrado na primeira imagem. Já o artigo, você confere na segunda.</p>
+<p><img src="/hc/en-us/article_attachments/115001988108/Client-Popup.jpg" /> <img src="/hc/en-us/article_attachments/115001965187/Client-Article.jpg" /></p>
+<p><a name="h1q8"></a></p>
+<h2>Recebi o seguinte erro: “LCU encontrou um problema. Reinstale o cliente alfa de League para tentar novamente”.</h2>
+<p>Para resolver isso, siga os passos abaixo:</p>
+<ul>
+<li>Acesse C:\Riot Games\League of Legends\ e exclua o arquivo LeagueClient.exe</li>
+<li>Execute o arquivo lol.launcher.exe</li>
+<li>Abra as configurações e clique em Reparo Completo</li>
+</ul>
+<p><a name="h2q1"></a></p>
+<h2>Minha Honra não aparece no meu perfil e na tela de Seleção de Campeões</h2>
+<p>Sabemos de um problema que pode impedir as insígnias de honra de aparecerem no seu perfil e durante a Seleção de Campeões. Ainda estamos contabilizando os pontos de Honra, mas sua insígnia deve ser exibida na tela de carregamento e tela de fim de partida.</p>
+<p><a name="h2q2"></a></p>
+<h2>O cliente atualizado não é reconhecido quando faço streams</h2>
+<p>O cliente atualizado é renderizado de maneira diferente do cliente legado na maioria das placas de vídeo, então, dependendo das suas configurações, pode ser que ele não seja exibido no seu software de transmissão. Se o seu software possui configurações com base em Captura de Jogo, mude para Captura de Janela ou Captura de Área de Trabalho, dependendo do que funciona melhor para você. Não deixe de verificar se você está usando a versão correta do software de transmissão (32 ou 64-bit), já que problemas de compatibilidade também podem impedir que o cliente seja capturado corretamente.</p>
+<p>Se você preferir não alterar suas configurações, a partida será capturada corretamente quando começar. Esse problema só afeta o cliente atualizado.</p>
+<p><a name="h2q3"></a></p>
+<p>Não consigo selecionar os modos de jogo PvP ou Co-op vs. IA</p>
+<p>Basta reiniciar o seu cliente.</p>
+<p><a name="h2q4"></a></p>
+<h2>Não consigo selecionar a dificuldade Intermediário ao jogar Co-op vs. IA em Twisted Treeline</h2>
+<p>Estamos cientes desse problema e planejamos resolvê-lo o quanto antes!</p>
+<p><a name="h2q5"></a></p>
+<h2>O bônus de XP/IP que comprei não está aparecendo na minha conta</h2>
+<p>Isso é apenas um bug visual. Basta reiniciar seu cliente e ele será exibido normalmente!</p>
+<p><a name="h2q6"></a></p>
+<h2>Alterar arquivos de configuração para jogar em outro idioma que não seja suportado pela sua região irá criar um “erro não específico” que não vai parar de ocorrer.</h2>
+<p>Se você modificou manualmente os arquivos de configuração para jogar em um idioma não suportado pela sua região, você receberá um "erro não específico" quando optar por usar o cliente beta e tentar fazer o download do cliente atualizado. Para consertar isso, acesse a pasta onde o League está instalado e percorra o seguinte caminho: /RADS/system/locale.cfg. Feito isso, determine "locale" para o código local de um dos idiomas que a sua região suporta (para o Brasil, pt_br).</p>
+<p><a name="h3q1"></a></p>
+<h2>Eu fecho o cliente do League mas o Leagueclient.exe continua sendo executado e leva um tempo até ser encerrado. Se eu tento abrir o jogo novamente, a mensagem “Há outra instância em execução” aparece.</h2>
+<p>Estamos cientes do problema que impede o LeagueClient.exe de ser encerrado corretamente quando você sai do jogo. Caso isso aconteça com você, pressione CTRL+ALT+DELETE para acessar o Gerenciador de Tarefas e feche manualmente o processo do LeagueClient.exe.</p>
+<p><a name="h3q2"></a></p>
+<h2>Meu computador não é tão potente, o cliente atualizado fica superlento!</h2>
+<p>Nossa principal prioridade é melhorar o desempenho. Identificamos desempenhos bem ruins em máquinas menos potentes que tentam rodar o cliente atualizado. Continuaremos melhorando o cliente para garantir que jogadores que utilizam o cliente legado sem problemas possam usar o cliente atualizado da mesma maneira.</p>
+<p>Existem algumas coisas que você pode fazer para melhorar o desempenho, no entanto:</p>
+<ul>
+<li>Certifique-se de que você está usando drivers atualizados para a sua placa de vídeo</li>
+<li>Ative o modo "Configuração Baixa". Você pode ativá-lo através das configurações do cliente, clicando na engrenagem localizada no canto superior direito da sua tela</li>
+</ul>
+
+            <div class="article-attachments">
+              <ul class="attachments">
+                
+              </ul>
+            </div>
+          </div>
+        </q-article>
+      </q-col>
+      <q-col md-size="4">
+        <div id="related">
+
+          <z-related-list style="display: block;">
+            
+  <section class="related-articles">
+    <h3>Artigos relacionados</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208396983-Socorro-n%C3%A3o-consigo-logar-">Socorro, não consigo logar!</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/230272048-Cliente-Atualizado-FAQ">Cliente Atualizado - FAQ</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/234720907-Problemas-de-Atualiza%C3%A7%C3%A3o-no-Cliente-Atualizado">Problemas de Atualização no Cliente Atualizado</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208397663-O-que-s%C3%A3o-relat%C3%B3rios-de-rede-sistema-e-do-LoL-">O que são relatórios de rede, sistema e do LoL?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/pt-br/articles/208046166-Problemas-na-atualiza%C3%A7%C3%A3o-do-LoL">Problemas na atualização do LoL</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+          </z-related-list>
+        </div>
+      </q-col>
+    </q-grid>
+  </div>
+
+  <z-footer id="article-footer">
+    <div slot="column">
+      Referência
+<hr>
+      
+<a href="http://br.leagueoflegends.com/pt/legal/eula">EULA</a>
+        
+<br><a href="http://br.leagueoflegends.com/pt/legal/privacy">Política de Privacidade</a>
+        
+<br><a href="http://br.leagueoflegends.com/pt/legal/termsofuse">Termos de Uso</a>
+        
+<br><a href="http://na.leagueoflegends.com/legal/tribunal">Tribunal</a>
+    </div>
+    <div slot="column">
+      Siga-nos
+<hr>
+<img src="//p2.zdassets.com/hc/theme_assets/43400/200033224/footer-twitter.png"> <a href="https://twitter.com/LoLegendsBR">Twitter</a><br>
+<img src="//p2.zdassets.com/hc/theme_assets/43400/200033224/footer-facebook.png"> <a href="https://www.facebook.com/LeagueofLegendsBrasil">Facebook</a>
+    </div>
+    <div slot="column">
+      Jogos
+<hr>
+<a href="http://br.leagueoflegends.com/">League of Legends</a>
+    </div>
+    <div slot="copyright">
+      © 2017 <a href="http://www.riotgames.com/">Riot Games</a> Inc. Todos os direitos reservados. League of Legends e Riot Games Inc. são marcas registradas de Riot Games, Inc.
+    </div>
+  </z-footer>
+</div>
+
+<div id="uploadLogsTranslation" translation="ENVIANDO RELATÓRIOS"></div>
+<script>
+// Run when greek bat is downloaded
+  $('ul.attachments a').on('click', function(){if($(this).text() == 'Riot Log Tool.bat'){ga('send', 'event', 'log collector', 'download', 'greek', 1);}});
+
+</script>
+
+<script type="text/javascript" src="https://lolstatic-a.akamaihd.net/player-support/support.riotgames.com/js/chartlist.min.js"></script>
+
+<script type="text/javascript">
+var theContentsArray;
+
+function readredlogs(evt) {
+    var f = evt.target.files[0];
+    console.log(f);
+    if (f) {
+        var r = new FileReader();
+        r.onload = function(e) {
+			$('.kbIssueDetected p').show();
+			$('.kbIssueDetected span').show();
+			$('.kbIssueDetected p').show();
+			$('.kbAllClear').hide();
+			$('.kbFirewall').hide();
+			
+            var contents = e.target.result;
+            if (contents.indexOf('Processing GameMode Mutator') == -1) {
+                alert("This doesn't seem to be a r3dlog; please try again!");
+                return;
+            }
+            theContentsArray = contents.split('\n');
+
+            var i = 0,
+                j = 0;
+            //Determine where in the log the hardware information starts
+            //This may not always be the same & may change with r3dlog iteration, hence the stupid loop
+            var win = 1,
+                mac = 0;
+            var os = -1;
+            while (theContentsArray[i]) {
+                if (theContentsArray[i].indexOf('HARDWARE INFORMATION') != -1) {
+                    os = win;
+                    break;
+                } else if (theContentsArray[i].indexOf('MacOSX') != -1) {
+                    os = mac;
+                    break;
+                }
+                i++;
+            }
+            //You either crashed if the r3dlog said you did or if it ended unexpectedly.
+            //First, we'll check for if the crash occurred, and then we'll check to ensure the r3dlog ended properly.
+            //If the log logged a crash or didn't complete, we'll mark for crash troubleshooting.
+            //While we're parsing, may as well grab FPS information as well.
+            var crashed = false,
+                endGameProcessingFound = false,
+                fpsUhOh = false,
+                firewallIssues = false;
+            var fpsAvg = -1.0,
+                fpsMin = -1.0,
+                fpsMax = -1.0;
+            for (j = 0; j < theContentsArray.length; j++) {
+                if (theContentsArray[j].toLowerCase().indexOf('crash occurred') != -1) { //Log mentions a crash occurred; log a crash
+                    crashed = true;
+                    break;
+                }
+                if (theContentsArray[j].toLowerCase().indexOf('exiting winmain') != -1) //If we don't find this message at all in the loop, a crash occurred
+                    endGameProcessingFound = true;
+
+                if (theContentsArray[j].toLowerCase().indexOf('fps average =') != -1)
+                    fpsAvg = Math.round(parseFloat(theContentsArray[j].split('=')[1].trim()));
+                if (theContentsArray[j].toLowerCase().indexOf('fps average minimum') != -1)
+                    fpsMin = Math.round(parseFloat(theContentsArray[j].split('=')[1].trim()));
+                if (theContentsArray[j].toLowerCase().indexOf('fps average maximum') != -1)
+                    fpsMax = Math.round(parseFloat(theContentsArray[j].split('=')[1].trim()));
+				if (theContentsArray[j+1]&&theContentsArray[j+2])
+				{
+					if(theContentsArray[j].toLowerCase().indexOf('start processing app update')!=-1 &&
+					   theContentsArray[j+1].toLowerCase().indexOf('end processing app update')!=-1 &&
+					   theContentsArray[j+2].toLowerCase().indexOf('sleeping')!=-1){
+						   firewallIssues=true;
+					   }
+				}
+            }
+            if (!endGameProcessingFound) crashed = true;
+            if (fpsAvg < 60) fpsUhOh = true;
+            if (fpsMin < 45) fpsUhOh = true;
+            //Parse and pull hardware information from the log. This is a bit different on Mac.
+            var operatingSystem = "",
+                gpuName = "",
+                gpuMemory = "",
+                gpuMemoryInt = 0.0,
+                gpuDriver = "Unknown",
+                cpuName = "",
+                availableRam = "",
+                availableRamInt = 0.0,
+                osUpToDate = true;
+            if (os == win) {
+                operatingSystem = theContentsArray[i + 1].split(':')[1].trim();
+                gpuName = theContentsArray[i + 2].split(':')[1].trim();
+                gpuMemoryInt = Math.round((parseInt(theContentsArray[i + 3].split(':')[1].trim()) / 10000000)) / 100;
+                gpuMemory = gpuMemoryInt + " GB";
+                gpuDriver = theContentsArray[i + 4].split(':')[1].trim();
+                cpuName = theContentsArray[i + 6].split(':')[1].trim();
+                availableRamInt = Math.round((parseInt(theContentsArray[i + 10].split(':')[1].trim()) / 10000000)) / 100;
+                availableRam = availableRamInt + " GB";
+				switch (operatingSystem[0]){
+					//Windows XP
+					case 'X':
+						if(operatingSystem.toLowerCase().indexOf('service pack 3')==-1)
+							osUpToDate = false;
+						break;
+					//Dat Vista boi a5e25bb64cfa1528778fc3631e0e502e
+					case 'V':
+						if(operatingSystem.toLowerCase().indexOf('service pack 2')==-1)
+							osUpToDate = false;
+						break;
+					//Windows 7
+					case '7': 
+						if(operatingSystem.toLowerCase().indexOf('service pack 1')==-1)
+							osUpToDate = false;
+						console.log(operatingSystem.toLowerCase());
+						break;
+					//Windows 10
+					case '1':
+						//Impossible to tell W10 right now as no service packs or build numbers. Will direct people to windows update just in case.
+						osUpToDate = true;
+						break;
+						
+				}
+                operatingSystem = "Windows " + operatingSystem;
+				if (osUpToDate) {
+                    $('.kbOSBad').hide();
+                } else {
+                    $('.kbUpdateOSGood').hide();
+                }
+                $('.kbMacOutOfDate').hide();
+                $('.kbMacUser').hide();
+                $('.kbMacCommon').hide();
+                $('.kbMac').hide();
+                $('.kbMacUser').hide();
+            } else if (os == mac) {
+                operatingSystem = theContentsArray[i].split(':')[1].trim();
+                cpuName = theContentsArray[i + 3].split(':')[1].trim();
+                gpuName = theContentsArray[i + 8].split(':')[1].trim();
+                gpuMemoryInt = Math.round(parseInt(theContentsArray[i + 11].split(':')[1].trim().substr(0, theContentsArray[i + 11].split(':')[1].trim().length - 2)) / 10) / 100;
+                gpuMemory = gpuMemoryInt + " GB";
+                availableRamInt = Math.round((parseInt(theContentsArray[i + 26].split(':')[1].trim()) / 10000000)) / 100;
+                availableRam = availableRamInt + " GB";
+                //Find the location of "Version" to pull the number that follows
+                var versionLocation = operatingSystem.indexOf('Version') + 8;
+                if (versionLocation == -1) {
+                    //Unable to determine of OS is up to date because couldn't pull version
+                }
+                operatingSystemVersion = operatingSystem.substr(versionLocation, operatingSystem.length - versionLocation);
+
+                osUpToDate = "10.11.6" == operatingSystemVersion; //Updated Sep 1
+                if (osUpToDate) {
+                    $('.kbOSBad').hide();
+                } else {
+                    $('.kbUpdateOSGood').hide();
+                }
+                $('.kbWinOutOfDate').hide();
+                $('.kbWinUser').hide();
+                $('.kbWindowsCommon').hide();
+                $('.kbWindowsUser').hide();
+            }
+            $('.kbOS').html(operatingSystem);
+            $('.kbVC').html(gpuName);
+            $('.kbVCMem').html(gpuMemory);
+            $('.kbVCDr').html(gpuDriver);
+            $('.kbCPU').html(cpuName);
+            $('.kbRAM').html(availableRam);
+            //Minspec for RAM is 1 GB.
+            var ramGood = availableRamInt >= 1.0;
+            //Recommended GPU ram is 512MB (.5gb)
+            var gpuRamRecommended = gpuMemoryInt >= 0.5;
+            //Check for the latest driver based on video card name
+            var driverGood = false;
+            var driverArray = gpuDriver.split('.');
+            var driverInt = parseInt(driverArray[driverArray.length - 1]);
+            if (gpuName.toLowerCase().indexOf('nvidia') != -1) //nvidia card
+            {
+                driverGood = driverInt >= 7270; //updated sep 3
+                $('.kbIntelDownload').hide();
+                $('.kbAmdDownload').hide();
+            } else if (gpuName.toLowerCase().indexOf('intel') != -1) {
+                driverGood = driverInt >= 4268; //updated august 26
+                $('.kbAmdDownload').hide();
+                $('.kbNvidiaDownload').hide();
+            } else if (gpuName.toLowerCase().indexOf('amd') != -1 || gpuName.toLowerCase().indexOf('ati') != -1) {
+                driverGood = driverInt >= 1474; //updated august 26
+                $('.kbIntelDownload').hide();
+                $('.kbNvidiaDownload').hide();
+            } else {
+                $('.kbAmdDownload').parent().hide();
+                $('.kbLatestDriversGood').hide();
+                $('.kbLatestDriversBad').hide();
+            }
+			if (driverGood){
+				$('.kbLatestDriversUnknown').hide();
+				$('.kbLatestDriversBad').hide();
+			}
+            else if (gpuDriver == "Unknown") {
+                $('.kbLatestDriversGood').hide();
+                $('.kbLatestDriversBad').hide();
+            }
+			else if (!driverGood){
+				$('.kbLatestDriversUnknown').hide();
+				$('.kbLatestDriversGood').hide();
+			}
+            //Check if the CPU is fast enough, so long as we have that information
+            var cpuGood = true; //true by default because we don't want to give warnings when we're not sure or can't parse the CPU speed
+            if (cpuName.toLowerCase().indexOf('ghz') != -1) {
+                //GHZ info is available to compare against
+                var cpuSpeed = parseFloat(cpuName.substr(cpuName.toLowerCase().indexOf('ghz') - 4, 4));
+                if (cpuSpeed) {
+                    cpuGood = cpuSpeed >= 2.0;
+                    $('.kbCantCheckCpuSpeed').hide();
+                } else {
+                    $('.kbCantCheckCpuSpeed').show();
+                }
+            } else {
+                $('.kbCantCheckCpuSpeed').show();
+            }
+			if (crashed || fpsUhOh)
+			{
+				if (gpuRamRecommended) {
+                    $('.kbHardwareBelowRecSpec').hide();
+                }
+                if (ramGood && cpuGood) {
+                    $('.kbHardwareBad').hide();
+                } else if (ramGood) {
+                    $('.kbHardwareGood').hide();
+                    $('.kbBelowRamMin').hide();
+                    $('.kbRamAndCPU').hide();
+                } else if (cpuGood) {
+                    $('.kbHardwareGood').hide();
+                    $('.kbCpuBelowMin').hide();
+                    $('.kbRamAndCPU').hide();
+                } else {
+                    $('.kbHardwareGood').hide();
+                }
+			}
+            if (crashed) {
+                $('.kbIssueDetected').show();
+                $('.kbFPS').hide();
+				$('.kbFpsIntro').hide();
+				$('.kbFPSGeneral').hide();
+				
+            } else if (fpsUhOh) {
+                $('.kbIssueDetected').show();
+                $('.kbCrashing').hide();
+                $('.kbCrashingIntro').hide();
+                $('.kbFpsAvg').html(fpsAvg);
+                $('.kbFpsMin').html(fpsMin);
+				$('.kbCrashGeneral').hide();
+            }
+			if (firewallIssues) {
+				$('.kbFirewall').show();
+			}
+			if (!crashed && !fpsUhOh && !firewallIssues) {
+				$('.kbAllClear').show();
+			}
+			$('html, body').animate({scrollTop: $('h2.hardwareInfoHeader').first().offset().top}, 2000);
+        }
+        r.readAsText(f);
+    } else
+        alert("Failed to open file");
+
+}
+function readSingleFile(evt) {
+  var contentsArray;
+	$('#majorissues').hide();
+	$('#somepingissues').hide();
+	$('#somepacketlossissues').hide();
+	$('#noissues').hide();
+	$('#basicsolutions').hide();
+    var packetLossArray = new Array();
+	var packetSentArray = new Array();
+    var pingArray = new Array();
+	var packetLossPctArray = new Array();
+	var variance = 0;
+    var f = evt.target.files[0];
+    if (f) {
+        var r = new FileReader();
+        r.onload = function(e) {
+            var contents = e.target.result;
+			if (contents.indexOf('X.X.X.X')==-1)
+			{
+				alert ("This doesn't seem to be a netlog; please try again!");
+				return;
+			}
+            contents = contents.substring(contents.indexOf('X.X.X.X') + 8);
+			var date = new Date();
+            contents = contents.substring(0, contents.indexOf('Memory Allocation')-21);
+            contentsArray = contents.split('\n');
+            contentsArray.pop();
+            var i = 1, lastLoss=0, lastPct=0,lastPing=0;
+			var notLogLine = false;
+			var breakNow = false;
+            for (i = 1; i < contentsArray.length; i++) {
+				if (notLogLine) i--;
+				notLogLine = false;
+                var myLogLine = contentsArray[i].split(',');
+				while (myLogLine.length < 9){
+					i++;
+					notLogLine = true;
+					if (contentsArray[i])
+						myLogLine = contentsArray[i].split(',');
+					else{
+						breakNow=true;
+						break;
+					}
+				}
+				if (breakNow)break;
+				
+				var losss= (myLogLine[6] / myLogLine[7])*100
+				if (losss==lastPct || myLogLine[6] == lastLoss){
+					packetLossPctArray.push(0);
+					packetLossArray.push(0); 
+					packetSentArray.push(myLogLine[7]);
+				}
+				else{
+					packetLossPctArray.push(losss);
+					packetLossArray.push(myLogLine[6]); 
+					packetSentArray.push(myLogLine[7]);
+				}
+				lastPct=losss;
+				lastLoss = myLogLine[6];
+                pingArray.push(myLogLine[8]);
+				if(lastPing!=0)
+					variance += Math.abs(myLogLine[8] - lastPing);
+				
+				lastPing = myLogLine[8];
+            }
+            var labelArray = new Array();
+            for (i = 1; i < pingArray.length; i++)
+                labelArray.push(i);
+			var avgPing=0, i=0, sumPing=0,highYAxis=0;
+			for(i=0;i<pingArray.length;i++)
+				sumPing+=parseInt(pingArray[i]);
+			avgPing = Math.floor(sumPing/pingArray.length);
+			var bestPing = Math.min.apply(null,pingArray);
+			var worstPing = Math.max.apply(null,pingArray);
+			var pingIssues = false;
+			if (variance > 100) pingIssues = true;
+
+			if (worstPing-bestPing>=35 || avgPing > 100)
+				pingIssues = true;
+			if (worstPing <= 100)
+				highYAxis = 100;
+			else highYAxis = worstPing+20;
+			var lossPct = 0;
+			for (i=0;i<packetLossPctArray.length;i++)
+			{
+				if(packetLossPctArray[i])
+				lossPct+=packetLossPctArray[i];
+			}
+			lossPct = lossPct / packetLossPctArray.length;
+			var worstLoss = Math.max.apply(null,packetLossPctArray);
+			var bestLoss = Math.min.apply(null,packetLossPctArray);
+			var packetsLostPct = lossPct.toFixed(2)+'%';
+			var packetIssues = false;
+			if (lossPct > 3 ||
+			    worstLoss > 10 ||
+				worstLoss - bestLoss >=4)
+				packetIssues = true;
+			$('.avgping').text(avgPing);
+			$('.bestping').text(bestPing);
+			$('.worstping').text(worstPing);
+			$('.percentpacketloss').text(packetsLostPct);
+            var dataLine = {
+                labels: labelArray,
+                series: [
+                    pingArray
+                ]
+            };
+            var optionsLine = {
+                low: 0,
+				high: highYAxis,
+                showPoint: false,
+                lineSmooth: false,
+                axisY: {
+                    showGrid: true,
+                    labelInterpolationFnc: function(value) {
+                        return value + 'ms';
+                    }
+                },
+                axisX: {
+                    showGrid: false,
+                    showLabel: false
+                }
+            };
+			var optionsBar = {
+                low: 0,
+                showPoint: false,
+                lineSmooth: false,
+                axisY: {
+                    showGrid: true,
+					showLabel: true,
+                    labelInterpolationFnc: function(value) {
+                        return value + '%';
+                    }
+                },
+                axisX: {
+                    showGrid: false,
+                    showLabel: false
+                }
+            };
+			var dataBar={
+				labels: labelArray,
+				series: [
+					packetLossPctArray
+				]
+			};
+			if(packetIssues && pingIssues){
+				$('#majorissues').show();
+				new Chartist.Line('#majorissues .pingovertime', dataLine, optionsLine);
+				new Chartist.Bar('#majorissues .packetlossovertime', dataBar, optionsBar);
+			}
+			else if (packetIssues){
+				$('#somepacketlossissues').show();
+				new Chartist.Line('#somepacketlossissues .pingovertime', dataLine, optionsLine);
+				new Chartist.Bar('#somepacketlossissues .packetlossovertime', dataBar, optionsBar);
+			}
+			else if (pingIssues){
+				$('#somepingissues').show();
+				new Chartist.Line('#somepingissues .pingovertime', dataLine, optionsLine);
+				new Chartist.Bar('#somepingissues .packetlossovertime', dataBar, optionsBar);
+			}
+			else{
+				$('#noissues').show();
+				new Chartist.Line('#noissues .pingovertime', dataLine, optionsLine);
+				new Chartist.Bar('#noissues .packetlossovertime', dataBar, optionsBar);
+			}
+			$('.pingovertime').css('background', 'white');
+			$('.packetlossovertime').css('background', 'white');
+			$('.pingovertime').css('height', '190');
+			$('.packetlossovertime').css('height', '190');
+			$('.pingovertime').css('margin-top', '10px');
+			$('.packetlossovertime').css('margin-top', '10px');
+  $('html, body').animate({scrollTop: $('hr').first().offset().top}, 2000);
+        }
+        r.readAsText(f);
+    } else { 
+        alert("Failed to load file");
+    }
+}
+$(function() {
+    if (window.location.href.indexOf('209765743') != -1 || window.location.href.indexOf('209941433')!=-1) {
+		$('<style>.file_upload:before{content:"'+$('#uploadLogsTranslation').attr('translation')+'"}</style>').appendTo('head');
+		
+	$('#majorissues').hide();
+	$('#somepingissues').hide();
+	$('#somepacketlossissues').hide();
+	$('#noissues').hide();
+	$('#basicsolutions').hide();
+        $('#upload').prepend('<div class="custom_file_upload"><input type="text" class="file" name="file_info"><div class="file_upload"><input type="file" id="file_upload" name="file_upload"></div></div>');
+        document.getElementById('file_upload').addEventListener('change', readSingleFile, false);
+		$('a[href="#basicsolutions"]').click(function(){$('#basicsolutions').show();});
+    }
+  if(window.location.href.indexOf('226121307') !=-1 || window.location.href.indexOf('227600828')!=-1){
+  	
+	$('.kbIssueDetected').hide();
+    $('.kbFirewall').hide();
+	$('.kbAllClear').hide();
+		$('<style>.file_upload:before{content:"'+$('#uploadLogsTranslation').attr('translation')+'"}</style>').appendTo('head');
+    $('#upload').prepend('<div class="custom_file_upload"><input type="text" class="file" name="file_info"><div class="file_upload"><input type="file" id="file_upload" name="file_upload"></div></div>');
+    document.getElementById('file_upload').addEventListener('change', readredlogs, false);
+  }
+});  
+</script>
+  </main>
+
+  <div class="footer">
+  <div class="footer-inner">
+    <div class="footer-left">
+
+    <table style="margin-top: -20px;"><tr>
+    
+    <td>
+    
+    Referência
+<hr>
+      
+<a href="http://br.leagueoflegends.com/pt/legal/eula">EULA</a>
+        
+<br><a href="http://br.leagueoflegends.com/pt/legal/privacy">Política de Privacidade</a>
+        
+<br><a href="http://br.leagueoflegends.com/pt/legal/termsofuse">Termos de Uso</a>
+        
+<br><a href="http://na.leagueoflegends.com/legal/tribunal">Tribunal</a>
+      
+    </td><td>
+    
+    Siga-nos
+<hr>
+<img src="//p2.zdassets.com/hc/theme_assets/43400/200033224/footer-twitter.png"> <a href="https://twitter.com/LoLegendsBR">Twitter</a><br>
+<img src="//p2.zdassets.com/hc/theme_assets/43400/200033224/footer-facebook.png"> <a href="https://www.facebook.com/LeagueofLegendsBrasil">Facebook</a>
+    
+    </td><td>
+      
+    Jogos
+<hr>
+<a href="http://br.leagueoflegends.com/">League of Legends</a>
+      
+    </td></tr></table>
+    
+    
+    </div>
+
+
+    <div class="footer-right">
+      <img src="//p2.zdassets.com/hc/theme_assets/43400/200033224/footer-riotfist.png" align="left" style="width: 60px; padding-right: 15px;">
+      © 2017 <a href="http://www.riotgames.com/">Riot Games</a> Inc. Todos os direitos reservados. League of Legends e Riot Games Inc. são marcas registradas de Riot Games, Inc.
+    </div>
+
+
+  </div>
+</div>
+
+<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+  @import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);
+</style>
+<script type="text/javascript">
+  if (typeof(Zenbox) !== "undefined") {
+    Zenbox.init({
+      dropboxID:   "20185280",
+      url:         "https://support.riotgames.com",
+      tabID:       "support",
+      tabColor:    "black",
+      tabPosition: "Right",
+      hide_tab:    true,
+    });
+  }
+</script>
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z"/>
+  </svg>
+
+  <a href="https://www.zendesk.com.br/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=Riot%20Games%20Player%20Support" target="_blank" >Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  <script type="text/javascript" src="//p6.zdassets.com/hc/pt-br/locales-ab756db2cdcb062888edfc75edbec720d8690f2c.js"></script>
+  <script src="https://riotgames.zendesk.com/auth/v2/host.js" data-brand-id="416614" data-return-to="https://support.riotgames.com/hc/pt-br/articles/234574128" data-theme="hc" data-locale="19" data-auth-origin="416614,true,true"></script>
+  <script type="text/javascript" src="https://p6.zdassets.com/assets/zendesk_pci_hc.v4.js"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"riotgames","environment":"production","name":"Riot Games Player Support"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//p6.zdassets.com/hc/assets/","current_session":{"locale":"pt-br","csrf_token":"K3b4N25PsxTQnsmIVgPX30JAPIPcim/RdR9rNFmWxeYV2bhfk6Psa2WTTEXOUb3inv74XtJFW+fZHesAdpmayw==","shared_csrf_token":null},"settings":{"zopim_enabled":true,"spam_filter_enabled":true},"current_record_id":"234574128","current_record_url":"/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado","current_record_title":"Problemas Conhecidos do Cliente Atualizado","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://riotgames.zendesk.com","current_path":"/hc/pt-br/articles/234574128-Problemas-Conhecidos-do-Cliente-Atualizado","authentication_domain":"https://riotgames.zendesk.com","show_autocomplete_breadcrumbs":true,"heap_analytics_id":null,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_anonymous_kb_voting":false,"has_advanced_upsell":false,"has_multi_language_help_center":true,"has_user_segments":false,"mobile_request":false,"mobile_site_enabled":false,"show_at_mentions":false,"has_copied_content":true,"embeddables_config":{"embeddables_web_widget":false,"embeddables_automatic_answers":false,"embeddables_connect_ipms":false},"plans_url":"https://support.riotgames.com/hc/admin/plan?locale=pt-br","manage_content_url":"https://support.riotgames.com/hc/pt-br","arrange_content_url":"https://support.riotgames.com/hc/admin/arrange_contents?locale=pt-br","general_settings_url":"https://support.riotgames.com/hc/admin/general_settings?locale=pt-br","user_groups_url":"https://support.riotgames.com/hc/admin/user_segments?locale=pt-br","has_community_enabled":false,"appearance_url":"https://support.riotgames.com/hc/admin/appearance?locale=pt-br","has_multiselect_field":false};
+</script>
+
+  <script src="//p6.zdassets.com/hc/assets/hc_enduser-65a926e22cc9b2ec9693.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://support.riotgames.com/hc/tracking/events?locale=pt-br";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKcHQtYnIGOgZFVDoPYXJ0aWNsZV9pZGkEMFH7DQ==--c98cb7649dedb0f8b9ac30f67a650bb47fc67786");
+})();
+
+  </script>
+</body>
+</html>|||http://www.riotgames.com/articles/20140409/1228/rioters-connect-players-pax-east|<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN">
+<html lang="en" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20140409/1228/rioters-connect-players-pax-east" />
+<link rel="shortcut icon" href="http://www.riotgames.com/sites/default/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<meta property="og:image" content="http://www.riotgames.com/sites/default/files/styles/thumbnail/public/content/article/images/main/Pax_main.png?itok=dVPrhVDY" />
+<meta property="og:title" content="Rioters Connect with Players at PAX East" />
+<meta property="og:description" content="Like a Lovecraftian leviathan rising from Boston harbor, PAX East -- Penny Arcade&amp;amp;rsquo;s gaming and geek culture convention, running from April 11 - 13 -- is nearly upon us. We&amp;amp;rsquo;re holding down " />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://www.riotgames.com/articles/20140409/1228/rioters-connect-players-pax-east" />
+<link rel="shortlink" href="http://www.riotgames.com/node/1228" />
+<meta property="og:site_name" content="Riot Games" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.riotgames.com/articles/20140409/1228/rioters-connect-players-pax-east" />
+<meta property="og:title" content="Rioters Connect with Players at PAX East" />
+<meta property="og:updated_time" content="2014-04-09T20:45:20-07:00" />
+<meta property="article:published_time" content="2014-04-09T18:35:00-07:00" />
+<meta property="article:modified_time" content="2014-04-09T20:45:20-07:00" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/draven_darious.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/mordikai.jpg.jpg" />
+  <meta property="og:image" content="http://riotgames.com/sites/all/themes/riot/media/images/SantaMonica_Lobby.jpg" />
+  <title>Rioters Connect with Players at PAX East | Riot Games</title>
+  <link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_s-F32NK5TbmDdA7Cub7KpvIzDbDXe3bOTVnic9kVlp0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_xyi-cMPRd-21cjT4ToZk1sXIcm9ocFNLEKOEX2GqPvA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_aRML137CWJ_ZrRnq86nqkUDENFLV-238gSJnKbbPBgA.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZjZPip0WiOwSDgf8hkkOpMMS3Rz1Gzpzf2yTYQKAVig.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:regular&amp;subset=latin" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_ZCfTgxbXRM9G7eLHnl1K6YS7bcohpHyd6_6lruY89ZM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.riotgames.com/sites/default/files/css/css_KCNZ7YudgplVMn0e5YXrEptF8K7nkEFZt5Yrs5EjYM0.css" media="all" />
+  <script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_BAhqE0nsQns6shJD8cBPNaX58HANh3tzWfxSlYIKGGs.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_LdOYxPJImGiWYo5saI2j-lAv0Xk8lAIFGSRuyyvnDaE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-5859958-17"]);//ENHANCED LINK ATTRIBUTION
+  var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);//TRACK APPLY LINKS ON CAREER PAGES
+  jQuery(function($) {
+    $(document).ready(function(){
+      $('.apply-link').click(function() {
+        _gaq.push(['_trackEvent', 'Careers', 'Apply', document.title.replace(' | Riot Games', '')]);
+      });
+    });
+  });(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_W9dNLccfc6Y-FQBE8V_CQMRF0xfT14OlgK4b-kykimw.js"></script>
+<script type="text/javascript" src="http://www.riotgames.com/sites/default/files/js/js_lsDaqLIcWA1Gk0r8ghdWqZlLsdI_6NdNoXBxzfzNcWk.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"riot","theme_token":"hzV0z5yQwvLE7ttgEqS9-wMUTU2-PWDaOGqrG4crJZ8","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/date_repeat_entity\/date_repeat_entity.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/field_group\/field_group.css":1,"sites\/all\/themes\/riot\/css\/royalslider.css":1,"sites\/all\/themes\/riot\/css\/royalslider-skin.css":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.min.css":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.css":1,"sites\/all\/themes\/riot\/css\/asset-kit.css":1,"sites\/all\/themes\/riot\/css\/tours.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-alpha.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-menu.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-visuals.css":1,"sites\/default\/files\/fontyourface\/font.css":1,"http:\/\/fonts.googleapis.com\/css?family=Oswald:regular\u0026subset=latin":1,"sites\/all\/themes\/riot\/css\/alpha-reset.css":1,"sites\/all\/themes\/riot\/css\/global.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1},"js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/panels\/js\/panels.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/modules\/custom\/riot-careers\/js\/js.cookie-2.0.3.min.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/riot\/js\/plugins\/pixelmatrix-uniform\/jquery.uniform.js":1,"sites\/all\/themes\/riot\/js\/plugins\/flexslider\/jquery.flexslider.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/themes\/riot\/js\/plugins\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/sparkbox\/jquery.sparkbox-select.js":1,"sites\/all\/themes\/riot\/js\/plugins\/columnizer\/jquery.columnizer.js":1,"sites\/all\/themes\/riot\/js\/plugins\/superbox\/js\/jquery.superbox.js":1,"sites\/all\/themes\/riot\/js\/plugins\/royal-slider\/jquery.royalslider.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/fancybox\/jquery.fancybox.pack.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/select2.full.min.js":1,"sites\/all\/themes\/riot\/js\/plugins\/select2\/load.js":1,"sites\/all\/themes\/riot\/js\/riot.js":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip","trackCrossDomains":["riotgames.com","www.riotgames.com"]}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-1228 node-type-article i18n-en context-articles">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KWJH"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KWJH');</script>
+  <!-- End Google Tag Manager -->
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-12 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <div class="block block-system block-menu block-main-menu block-system-main-menu odd block-without-title" id="block-system-main-menu">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <button class="mobile-menu-toggle collapsed"><div class="burger"></div></button><ul class="menu"><li class="first leaf"><a href="/riot-manifesto">About</a></li>
+<li class="leaf"><a href="/careers">Careers</a></li>
+<li class="leaf"><a href="/" class="home">Home</a></li>
+<li class="leaf"><a href="/our-games">Games</a></li>
+<li class="last leaf"><a href="/news">News</a></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div></header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-12">    
+    
+      
+    
+    <div class="grid-9 region region-content region-content-article" id="region-content">
+  <div class="region-inner region-content-inner">
+    <a id="main-content"></a>
+            		<h1 class="title" id="page-title">Rioters Connect with Players at PAX East</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      
+
+
+<article about="/articles/20140409/1228/rioters-connect-players-pax-east" typeof="sioc:Item foaf:Document" class="node node-article node-published node-not-promoted node-not-sticky author-sdowney odd clearfix" id="node-article-1228">
+        <span property="dc:title" content="Rioters Connect with Players at PAX East" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>	  
+    
+    <div class="post-date">Posted on 04-09-14</div>		
+		<div class="share-bar">
+			<a class="print_ico" href="/print/articles/20140409/1228/rioters-connect-players-pax-east">Print</a>
+			<!-- <a class="pdf_ico" href="/printpdf/articles/20140409/1228/rioters-connect-players-pax-east">PDF</a> -->
+			<span class='st_email_custom st_ico' displayText='Email'></span>
+			<span class='st_twitter_custom st_ico' displayText='Tweet'></span>
+			<span class='st_facebook_custom st_ico' displayText='Facebook'></span>
+			<span class='st_linkedin_custom st_ico' displayText='LinkedIn'></span>
+			<span class='st_google_custom st_ico' displayText='Google'></span>
+			<script type="text/javascript">var switchTo5x=true;</script>
+			<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+			<script type="text/javascript">
+				stLight.options({
+		        publisher: 'f65a6e51-8a93-4acd-a665-976809c16a17',
+		        onhover: false
+		    });</script>
+		</div>
+
+    
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-main-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/article_image/public/content/article/images/main/Pax_main.png?itok=I2d4ceBD" width="700" height="300" alt="" /></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> <p dir="ltr"><span id="docs-internal-guid-026749fd-499b-3551-1e1e-e209c42ccee4">Like a Lovecraftian leviathan rising from Boston harbor, PAX East -- Penny Arcade&rsquo;s gaming and geek culture convention, running from April 11 - 13 -- is nearly upon us. We&rsquo;re holding down trusty booth #424 over at the Boston Convention and Exhibition Center, so swing by and join us for more community events than Cthulhu has tentacles on his gross face.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-026749fd-499b-3551-1e1e-e209c42ccee4">These community events include no-holds-barred </span><em>League</em> matches between players and Rioters, live art demos, cosplay showcases, design Q&amp;A sessions, an in-depth presentation on the making of the<a href="http://www.youtube.com/watch?v=0nlJuwO0GDs" target="_blank"> &ldquo;Get Jinxed&rdquo;</a> music video, and some very special <em>League</em> community guest appearances.</p>
+<p dir="ltr"><span id="docs-internal-guid-026749fd-499b-3551-1e1e-e209c42ccee4">We&rsquo;re also hosting panels all con long where we hope to connect with players and start conversations about how we approach game design, the </span><em>League</em> community, and our champion relaunch process. To get a full look at Riot&rsquo;s PAX East panels, cast your gaze below:</p>
+<ul dir="ltr">
+	<li>
+		<span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c"><a href="http://east.paxsite.com/schedule/panel/connecting-and-supporting-the-league-of-legends-community" target="_blank">Connecting and Supporting the<em> League of Legends </em>Community</a></span> &ndash; Friday, April 11 from 2:30 pm &ndash; 3:30 pm, Dragonfly Theater</li>
+</ul>
+<p class="rteindent1"><span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c">At Riot Games, no day goes by that we&#39;re not blown away by actions and interactions of the </span><em>League of Legends </em>community. From collegiate clubs to cosplayers, from streamers to artists, from fan sites to tournament organizers, the community&#39;s taken the stage to expand and redefine the <em>League of Legends</em> experience for everyone. In this panel, we&rsquo;ll discuss how we challenge the conventions of traditional PR and Community disciplines to build a different kind of relationship with players.</p>
+<ul dir="ltr">
+	<li>
+		<span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c"><a href="http://east.paxsite.com/schedule/panel/the-art-of-relaunching-champions-in-league-of-legends" target="_blank">The Art of Relaunching Champions in <em>League of Legends</em></a></span> &ndash; Saturday, April 12 from 2:30 pm &ndash; 3:30 pm, Dragonfly Theater</li>
+</ul>
+<p class="rteindent1" dir="ltr"><span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c">With each new champion, Riot Games continuously strives to level up its quality bar. But what about older champions? Enter Riot&rsquo;s Champion Relaunch team. Dedicated to quality and consistency, the team reforges classic <em>League of Legends</em> champions with new designs. Join the Relaunch team as we discuss the philosophy and technical approach behind the delicate task of reimagining older champions.</span></p>
+<ul dir="ltr">
+	<li>
+		<span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c"><a href="http://east.paxsite.com/schedule/panel/inside-look-at-game-design-for-league-of-legends" target="_blank">Inside Look at Game Design for <em>League of Legends</em></a></span> &ndash; Sunday, April 13 from 2:30 pm &ndash; 3:30 pm, Dragonfly Theater</li>
+</ul>
+<p class="rteindent1" dir="ltr"><span id="docs-internal-guid-026749fd-493a-ddd3-788d-b19d0df9198c">Creating and maintaining competitive gameplay in <em>League of Legends</em> requires consistent attention to things like champion design, healthy gameplay, and building effective design communication with players. Join designers from Riot Games as we discuss how to create an engaging and satisfying gameplay experience in <em>League of Legends</em>.</span></p>
+<p>&nbsp;</p>
+ </div></div></div>
+        
+    <span class="print-link"></span>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+		<a href="/news" class="view-all">All Articles</a>
+      </div>
+</article>
+    </div>
+  </div>
+</div>      </div>
+</div><aside class="grid-3 region region-sidebar-first" id="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <div class="block block-views block-related-articles-block block-views-related-articles-block odd block-without-title" id="block-views-related-articles-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-related-articles view-id-related_articles view-display-id-block view-dom-id-22a35bee1124e6129124c71c3d759895">
+        
+  
+  
+      <div class="view-empty">
+      <div class="view view-featured-news-blocks view-id-featured_news_blocks view-display-id-block news-grid view-dom-id-1f667ea66eae98d67184c69e6ec8fb2e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    
+ <div class="ds-1col node node-article new-tag-item view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170315/2390/designing-experiences-beyond-game" title="Designing Experiences Beyond the Game"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/demacia-silvermere_newsriver.jpg?itok=tb8y7tAE" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/demacia-silvermere_newsriver.jpg?itok=oyDXNuyv" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Designing Experiences Beyond the Game</span></span></a></div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    
+ <div class="ds-1col node node-article new-tag-item view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170310/2389/forging-your-path-forward-experience-design" title="Forging Your Path in Experience Design"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/1-Kpk7sexpb_BHvDWtAsv2QQ%20%282%29.jpg?itok=BbqQRRPU" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/1-Kpk7sexpb_BHvDWtAsv2QQ%20%282%29.jpg?itok=OJXnteqB" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Forging Your Path in Experience Design</span></span></a></div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170213/2385/vacation-cause-barcelona-all-stars-vip-experience-winners" title="Vacation for a Cause"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/1476208918812.png?itok=-OHeL55c" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/1476208918812.png?itok=Zz_H7BkN" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Vacation for a Cause</span></span></a></div>
+  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+    
+ <div class="ds-1col node node-article view-mode-featured_teaser clearfix ">
+	<a class="news-teaser" href="/articles/20170207/2384/setting-stage-msi-worlds" title="Setting the stage for MSI & Worlds"><span class="glass"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails-grey/public/content/article/images/primary_thumb/2017_CompetitiveEventUpdate_header_1920x1080%20%281%29%20%281%29%20%281%29.jpg?itok=zhb2Pzrw" width="400" height="400" alt="" /></span><span class="base"><img typeof="foaf:Image" src="http://www.riotgames.com/sites/default/files/styles/news_thumbnails/public/content/article/images/primary_thumb/2017_CompetitiveEventUpdate_header_1920x1080%20%281%29%20%281%29%20%281%29.jpg?itok=z7Vbyufn" width="400" height="400" alt="" /></span><span class="teaser-meta"><span class="headline">Setting the stage for MSI & Worlds</span></span></a></div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+  <div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <section class="block block-menu block-menu-footer-menu-1 block-menu-menu-footer-menu-1 odd" id="block-menu-menu-footer-menu-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Company</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/riot-manifesto" target="_blank">Manifesto</a></li>
+<li class="leaf"><a href="/news" target="_blank">News</a></li>
+<li class="leaf"><a href="/legal-jibber-jabber" target="_blank">Legal jibber jabber</a></li>
+<li class="leaf"><a href="/riot-games-security" title="Security" target="_blank">Security</a></li>
+<li class="leaf"><a href="/contact" target="_blank">Contact infos</a></li>
+<li class="last leaf"><a href="/articles/20150217/546/awards" target="_blank">Awards</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-2 block-menu-menu-footer-menu-2 even" id="block-menu-menu-footer-menu-2">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Careers</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="/articles/20150817/547/working-riot" target="_blank">Riot with us</a></li>
+<li class="leaf"><a href="/careers">Search open jobs</a></li>
+<li class="last leaf"><a href="/university-programs">Internship infos</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-footer-menu-3 block-menu-menu-footer-menu-3 odd" id="block-menu-menu-footer-menu-3">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Games</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first last leaf"><a href="/our-games">League of Legends</a></li>
+</ul>    </div>
+  </div>
+</section>  </div>
+</div><div class="grid-12 region region-footer-second" id="region-footer-second">
+  <div class="region-inner region-footer-second-inner">
+    <section class="block block-menu block-menu-international-landing-menu block-menu-menu-international-landing-menu odd" id="block-menu-menu-international-landing-menu">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Read About Riot Games In:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://www.riotgames.com/riot-manifesto">English</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/pt-br/o-manifesto-riot" target="_blank">Brazilian Portuguese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/es/manifiesto-de-riot" target="_blank">Spanish</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hans/riot%E5%AE%A3%E8%A8%80" target="_blank">Simplified Chinese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ko/riot-manifesto" target="_blank">Korean</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ja/%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%83%E3%83%88%E5%AE%A3%E8%A8%80">Japanese</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/ru/-riot-games">Russian</a></li>
+<li class="leaf"><a href="http://www.riotgames.com/zh-hant/riot%E5%AE%A3%E8%A8%80" target="_blank">Traditional Chinese</a></li>
+<li class="last leaf"><a href="http://www.riotgames.com/tr/riot-manifestosu" target="_blank">Turkish</a></li>
+</ul>    </div>
+  </div>
+</section><section class="block block-menu block-menu-follow-us block-menu-menu-follow-us even" id="block-menu-menu-follow-us">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Follow Us:</h2>
+            
+    <div class="content clearfix">
+      <ul class="menu"><li class="first leaf"><a href="http://twitter.com/riotgames" class="ico-twitter" target="_blank">Twitter</a></li>
+<li class="leaf"><a href="http://www.facebook.com/RiotGames" class="ico-facebook" target="_blank">Facebook</a></li>
+<li class="leaf"><a href="http://us.linkedin.com/company/riot-games" class="ico-linkedin" target="_blank">Linked In</a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RiotGamesInc" class="ico-youtube">YouTube</a></li>
+<li class="leaf"><a href="/news/feed" class="ico-rss">RSS</a></li>
+<li class="last leaf"><a href="http://www.glassdoor.com/Overview/Working-at-Riot-Games-EI_IE247538.11,21.htm" class="ico-glassdoor" target="_blank">Glassdoor</a></li>
+</ul>    </div>
+  </div>
+</section><div class="block block-block block-1 block-block-1 odd block-without-

@@ -1,0 +1,1545 @@
+|||http://www.classitb.com.br/salvador-ba/|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link rel="stylesheet" type="text/css" href="http://static.classificadosbahia.com/classitb/css/010cdb1150bb73144c8e863dc7c33ca0.css" /><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script><script type="text/javascript" src="http://static.classificadosbahia.com/js/2685ab70485e0247c9b98022dc892c37.js"></script>    
+    
+    
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    
+
+	
+			
+		<script type="text/javascript">$(document).ready(function(){$("#txtCidadeImoveis").autocomplete("/cities.ashx",{mustMatch:true,extraParams:{state:function(){return $("#ddlEstadoImoveis").val();}}});$("#txtCidadeVeiculos").autocomplete("/cities.ashx",{mustMatch:true,extraParams:{state:function(){return $("#ddlEstadoVeiculos").val();}}});$("#txtCidadeDiversos").autocomplete("/cities.ashx",{mustMatch:true,extraParams:{state:function(){return $("#ddlEstadoDiversos").val();}}});$("#txtCidadeServicos").autocomplete("/cities.ashx",{mustMatch:true,extraParams:{state:function(){return $("#ddlEstadoServicos").val();}}});$("#txtCidadeEmpregos").autocomplete("/cities.ashx",{mustMatch:true,extraParams:{state:function(){return $("#ddlEstadoEmpregos").val();}}});$("#txtCargo").autocomplete("/cargos.ashx",{mustMatch:true});$("#txtTelefone").mask("(99) 9999-9999",{placeholder:" "});$(window).unload(function(){$("#btnImovel")[0].disabled=false;$("#btnVeiculo")[0].disabled=false;$("#btnDiversos")[0].disabled=false;$("#btnServicos")[0].disabled=false;$("#btnEmpregos")[0].disabled=false;});});function GoToLocation(url){document.location.replace("/"+url+"/");}function buscarImoveis(){if(!Page_ClientValidate("imoveis")){return false;}if(!validarBuscaImoveis($("#ddlOperacao :selected").text(),$("#ddlGrupoTipoImovel :selected"),$("#txtPrecoMinimoImoveis").val(),$("#txtPrecoMaximoImoveis").val(),"")){return false;}$("#tksm_HiddenField").remove();$("#__EVENTTARGET").remove();$("#__EVENTARGUMENT").remove();$("#__VIEWSTATE").remove();var url=GetUrlAmigavelImoveis($("#ddlOperacao :selected").text(),$("#ddlGrupoTipoImovel :selected"),$("#txtCidadeImoveis").val(),$("#ddlEstadoImoveis").val(),$("#txtPrecoMinimoImoveis").val(),$("#txtPrecoMaximoImoveis").val(),"","","","");desabilitarBotao($("#btnImovel")[0],30000);ShowHideObjects($("#loadImgImovel"),30000);document.forms[0].action=url;document.forms[0].submit();return false;}function buscarVeiculos(){if(!Page_ClientValidate("veiculo")){return false;}if(!validarBuscaVeiculo($("#tipo_veiculo :selected").text(),$("#txtPrecoMinimoVeiculos").val(),$("#txtPrecoMaximoVeiculos").val(),"false","","")){return false;}$("#tksm_HiddenField").remove();$("#__EVENTTARGET").remove();$("#__EVENTARGUMENT").remove();$("#__VIEWSTATE").remove();var url=GetUrlAmigavelVeiculo($("#tipo_veiculo :selected").text(),$("#txtCidadeVeiculos").val(),$("#ddlEstadoVeiculos").val(),$("#txtPrecoMinimoVeiculos").val(),$("#txtPrecoMaximoVeiculos").val(),"","","","","","");desabilitarBotao($("#btnVeiculo")[0],30000);ShowHideObjects($("#loadImgVeiculo"),30000);document.forms[0].action=url;document.forms[0].submit();return false;}function buscarDiversos(){if(!Page_ClientValidate("diversos")){return false;}$("#tksm_HiddenField").remove();$("#__EVENTTARGET").remove();$("#__EVENTARGUMENT").remove();$("#__VIEWSTATE").remove();var url=GetUrlAmigavelDiversos("lista","10","maior-relevancia",$("#txtCidadeDiversos").val(),$("#ddlEstadoDiversos").val(),"",$("#txtBusca").val());desabilitarBotao($("#btnDiversos")[0],30000);ShowHideObjects($("#loadImgDiversos"),30000);document.forms[0].action=url;document.forms[0].submit();return false;}function buscarServicos(){if(!Page_ClientValidate("servicos")){return false;}$("#tksm_HiddenField").remove();$("#__EVENTTARGET").remove();$("#__EVENTARGUMENT").remove();$("#__VIEWSTATE").remove();var url=GetUrlAmigavelServicos("lista","10","maior-relevancia",$("#txtCidadeServicos").val(),$("#ddlEstadoServicos").val(),$("#txtBuscaServicos").val());desabilitarBotao($("#btnServicos")[0],30000);ShowHideObjects($("#loadImgServicos"),30000);document.forms[0].action=url;document.forms[0].submit();return false;}function buscarEmpregos(){if(!Page_ClientValidate("empregos")){return false;}$("#tksm_HiddenField").remove();$("#__EVENTTARGET").remove();$("#__EVENTARGUMENT").remove();$("#__VIEWSTATE").remove();var url=GetUrlAmigavelEmpregos($("#txtCidadeEmpregos").val(),$("#ddlEstadoEmpregos").val(),"lista","10","ordem-padrao",$("#ddlAreaVaga").val(),document.getElementById("txtCargo").value,$("#ddlTipoContratacao").val());desabilitarBotao($("#btnEmpregos")[0],30000);ShowHideObjects($("#loadImgEmpregos"),30000);document.forms[0].action=url;document.forms[0].submit();return false;}function trocarFormaBusca(tipo){document.getElementById("rfvArea").enabled=false;document.getElementById("rfvCargo").enabled=false;document.getElementById("rfvTipoContratacao").enabled=false;if(tipo=="area"){document.getElementById("rfvArea").enabled=true;document.getElementById("txtCargo").value="";document.getElementById("ddlTipoContratacao").selectedIndex=0;}else{if(tipo=="cargo"){document.getElementById("rfvCargo").enabled=true;document.getElementById("ddlAreaVaga").selectedIndex=0;document.getElementById("ddlTipoContratacao").selectedIndex=0;}else{if(tipo=="tipocontratacao"){document.getElementById("rfvTipoContratacao").enabled=true;document.getElementById("txtCargo").value="";document.getElementById("ddlAreaVaga").selectedIndex=0;}}}}</script>
+
+		
+
+<title>
+	ClassiTB - Classificados grátis - Salvador / BA
+</title><meta name="description" content="ClassiTB - Classificados grátis Salvador / BA. O melhor classificados grátis de imóveis, veículos, empregos, serviços e produtos diversos em Salvador / BA" /></head>
+<body>
+<form method="post" action="./" onsubmit="javascript:return WebForm_OnSubmit();" id="ctl01">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTY0MTEyNTc0ZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WCQUTY3RsMDAkbHN0YXR1cyRjdGwwMQUTY3RsMDAkbHN0YXR1cyRjdGwwMwUmY3RsMDAkYm9keUNvbnRlbnQkcmJQb3JUaXBvQ29udHJhdGFjYW8FG2N0bDAwJGJvZHlDb250ZW50JHJiUG9yQXJlYQUbY3RsMDAkYm9keUNvbnRlbnQkcmJQb3JBcmVhBRxjdGwwMCRib2R5Q29udGVudCRyYlBvckNhcmdvBRxjdGwwMCRib2R5Q29udGVudCRyYlBvckNhcmdvBTJjdGwwMCRib2R5Q29udGVudCRvcGluaWFvJGNieEF1dG9yaXphY2FvQ29tZW50YXJpbwUpY3RsMDAkYm9keUNvbnRlbnQkb3BpbmlhbyRDYXB0Y2hhQ29udHJvbDEFKWN0bDAwJGJvZHlDb250ZW50JG9waW5pYW8kQ2FwdGNoYUNvbnRyb2wxDwUkZTczYTc0NDQtZjFlZi00NjNhLTk5NmQtYjU3MDRkMGU4ZjNiZHADDrLUdNil4tQLPUheJcx04a7eRnqmz+4/WGypO6/m" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['ctl01'];
+if (!theForm) {
+    theForm = document.ctl01;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=hNt2gF-jj-1xFAgC_32CB3pHb-LZWUj8D5wNnLpeSdNvQiG-Lzf9_IMWN1y2Iuj02lYR-IoM_r2raNJFUQ9IEYOCqsmp_55GQ59ArDb9BJk1&amp;t=636041038380000000" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=rgPW3Z7iNBshcuzJQKwq4AmuS4UM79cIuevpTc8Jhj3AC8A3zNxsz9DRUUUHaXm2qC3qgUGFIJUNce67PZIeubUOQ7VkwdbcFyDlN5BDZ9s1&amp;t=636041038380000000" type="text/javascript"></script>
+<script src="/WebResource.axd?d=d5o931y94n62Rqcyv0sgY8ujTRfezByU5t1Rf6Hmw9d8tOlPVkMg9cAVxymXdD1fBLkjSQXS4L3NbhwUjFRZG29nvqjvQq5g9w9zhqP1jbe0ciou3k9x7nMSsvsBb3wo736LrVYvelg9F_Evj2D0_onMRGadAaJfTf6vq-fpAvI1&amp;t=635325955760075940" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E8F24639" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+
+<div class="topo">
+    <div class="container" style="padding:10px;">
+    <div class="logoHead">
+        <a id="hyplnkCapa" href="/salvador-ba/">
+            <img alt="ClassiTB - O Classificados gratuito da Bahia!" src="http://static.classificadosbahia.com/classitb/img/logo-classitb.jpg" />
+        </a>
+        <div id="share">
+	    <a href="http://del.icio.us/post?url=http://www.classitb.com.br"><img src="http://static.classificadosbahia.com/img/delicious.gif" height="16" width="16" alt="delicious" title="delicious" /></a>
+	    &nbsp;&nbsp;
+	    <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?u=http://www.classitb.com.br"><img src="http://static.classificadosbahia.com/img/yahoo_bookmarks.gif" height="16" width="16" alt="yahoo my web" title="yahoo my web" /></a>
+	    &nbsp;&nbsp;
+	    <a href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http://www.classitb.com.br"><img src="http://static.classificadosbahia.com/img/google_bookmarks.gif" height="16" width="16" alt="google bookmarks" title="google bookmarks" /></a>
+	    &nbsp;&nbsp;
+	    <a href="https://favorites.live.com/quickadd.aspx?marklet=1&amp;mkt=en-us&amp;url=http://www.classitb.com.br"><img src="http://static.classificadosbahia.com/img/live_bookmarks.gif" height="16" width="16" alt="windows live bookmarks" title="windows live bookmarks" /></a>
+	    &nbsp;&nbsp;
+	    <a href="http://www.stumbleupon.com/submit?url=http://www.classitb.com.br"><img src="http://static.classificadosbahia.com/img/stumbleupon.gif" height="16" width="16" alt="stumbleupon" title="stumbleupon" /></a>
+        </div>
+    </div>
+
+		    <div id="publicidadeHead">
+            <p class="bigtitlewhite">O Melhor Classificados da Bahia!</p>
+            </div>
+    
+<div class="clear"></div>
+</div>
+</div>
+<div class="topoImpressao">
+	<div class="container">
+        <h2 style="margin:0px;"><span id="Label1">ClassiTB - Classificados grátis</span></h2>
+	</div>
+</div>
+
+<div class="guia bgGuia">
+        <div class="container">
+            <span id="privacidade" style="float: right;"><a href="javascript:;" onclick="setModalProperty();" >Privacidade</a></span>
+            <span class="msgGuia">
+                
+                        Usuário anônimo
+                    
+            </span>
+            | 
+            <span class="msgGuia">
+                <a id="lstatus" class="LinkSemBg" href="javascript:__doPostBack(&#39;ctl00$lstatus$ctl02&#39;,&#39;&#39;)">Efetuar login</a>
+            </span>
+            | 
+            <span class="msgGuia">
+                <a id="linkSelectedAds" class="LinkComBg" href="/meus-anuncios/selecionados/">Nenhum anúncio selecionado</a>
+            </span>
+        </div>
+</div>
+
+<div class="container">
+    
+
+	
+
+		<div id="divInfo"></div>
+		
+			<div class="container">
+				<span>Localidade: 
+				<select name="ctl00$bodyContent$ddlLocalidade" id="ddlLocalidade" onchange="GoToLocation(this.options[this.selectedIndex].value);">
+	<option value="abadia-ba">Abadia (Janda&#237;ra)</option>
+	<option value="abadia-jandaira-ba">Abadia - Jandaira</option>
+	<option value="abare-ba">Abar&#233;</option>
+	<option value="abelhas-ba">Abelhas (Vit&#243;ria da Conquista)</option>
+	<option value="abrantes-ba">Abrantes (Cama&#231;ari)</option>
+	<option value="alagoas-itaberaba-ba">Alagoas - Itaberaba</option>
+	<option value="alagoinhas-ba">Alagoinhas</option>
+	<option value="aldeia-governador-mangabeira-ba">Aldeia - Governador Mangabeira</option>
+	<option value="amargosa-ba">Amargosa</option>
+	<option value="anage-ba">Anag&#233;</option>
+	<option value="aparecida-ba">Aparecida</option>
+	<option value="aracatu-ba">Aracatu</option>
+	<option value="aramari-ba">Aramari</option>
+	<option value="areias-ba">Areias (Cama&#231;ari)</option>
+	<option value="arembepe-ba">Arembepe (Cama&#231;ari)</option>
+	<option value="arraial-dajuda-ba">Arraial D&#39;Ajuda (Porto Seguro)</option>
+	<option value="baiacu-ba">Baiacu</option>
+	<option value="baianopolis-ba">Baian&#243;polis</option>
+	<option value="bairro-das-flores-ruy-barbosa-ba">Bairro das Flores - Ruy Barbosa</option>
+	<option value="baixio-esplanada-ba">Baixio - Esplanada</option>
+	<option value="barra-da-estiva-ba">Barra da Estiva</option>
+	<option value="barra-do-jacuipe-ba">Barra do Jacu&#237;pe (Cama&#231;ari)</option>
+	<option value="barra-do-pojuca-ba">Barra do Pojuca (Cama&#231;ari)</option>
+	<option value="barreiras-ba">Barreiras</option>
+	<option value="belo-alto-ba">Belo Alto</option>
+	<option value="biritinga-ba">Biritinga</option>
+	<option value="bom-jesus-da-lapa-ba">Bom Jesus da Lapa</option>
+	<option value="botupora-ba">Botupor&#227;</option>
+	<option value="brumado-ba">Brumado</option>
+	<option value="buritirama-ba">Buritirama</option>
+	<option value="cabaceiras-serra-preta-ba">Cabaceiras - Serra Preta</option>
+	<option value="cacha-pregos-ba">Cacha Pregos (Vera Cruz)</option>
+	<option value="cachoeira-ba">Cachoeira</option>
+	<option value="cacule-ba">Cacul&#233;</option>
+	<option value="camacari-ba">Cama&#231;ari</option>
+	<option value="candeias-ba">Candeias</option>
+	<option value="capinao-ba">Capinao</option>
+	<option value="caruaru-conceicao-do-coite-ba">Caruaru - Concei&#231;&#227;o do Coit&#233;</option>
+	<option value="castro-alves-ba">Castro Alves</option>
+	<option value="catu-ba">Catu</option>
+	<option value="catu-de-abrantes-ba">Catu de Abrantes (Cama&#231;ari)</option>
+	<option value="coaraci-ba">Coaraci</option>
+	<option value="conde-ba">Conde</option>
+	<option value="crisopolis-ba">Cris&#243;polis</option>
+	<option value="cruz-das-almas-ba">Cruz das Almas</option>
+	<option value="dario-meira-ba">D&#225;rio Meira</option>
+	<option value="dias-davila-ba">Dias D&#39;&#193;vila</option>
+	<option value="embira-ba">Embira</option>
+	<option value="encruzilhada-ba">Encruzilhada</option>
+	<option value="entre-rios-ba">Entre Rios</option>
+	<option value="esplanada-ba">Esplanada</option>
+	<option value="feira-de-santana-ba">Feira de Santana</option>
+	<option value="ferradas-ba">Ferradas (Itabuna)</option>
+	<option value="formosa-barro-alto-ba">Formosa - Barro Alto</option>
+	<option value="gameleira-da-lapa-ba">Gameleira da Lapa (S&#237;tio do Mato)</option>
+	<option value="guanambi-ba">Guanambi</option>
+	<option value="guarajuba-ba">Guarajuba (Cama&#231;ari)</option>
+	<option value="guarani-prado-ba">Guarani - Prado</option>
+	<option value="ibiacu-ba">Ibia&#231;u (Mara&#250;)</option>
+	<option value="ilheus-ba">Ilh&#233;us</option>
+	<option value="ipiau-ba">Ipia&#250;</option>
+	<option value="ipira-ba">Ipir&#225;</option>
+	<option value="irara-ba">Irar&#225;</option>
+	<option value="irece-ba">Irec&#234;</option>
+	<option value="itaberaba-ba">Itaberaba</option>
+	<option value="itabuna-ba">Itabuna</option>
+	<option value="itacare-ba">Itacar&#233;</option>
+	<option value="itacimirim-ba">Itacimirim (Cama&#231;ari)</option>
+	<option value="itamaraju-ba">Itamaraju</option>
+	<option value="itanhem-ba">Itanh&#233;m</option>
+	<option value="itaparica-ba">Itaparica</option>
+	<option value="itapetinga-ba">Itapetinga</option>
+	<option value="jacare-sao-goncalo-dos-campos-ba">Jacar&#233; - S&#227;o Gon&#231;alo dos Campos</option>
+	<option value="jacobina-ba">Jacobina</option>
+	<option value="juazeiro-ba">Juazeiro</option>
+	<option value="lages-itaguacu-da-bahia-ba">Lages - Itagua&#231;u da Bahia</option>
+	<option value="lapao-ba">Lap&#227;o</option>
+	<option value="lauro-de-freitas-ba">Lauro de Freitas</option>
+	<option value="livramento-de-nossa-senhora-ba">Livramento de Nossa Senhora</option>
+	<option value="macaubas-ba">Maca&#250;bas</option>
+	<option value="maetinga-ba">Maetinga</option>
+	<option value="mangue-seco-ba">Mangue Seco (Janda&#237;ra)</option>
+	<option value="marau-ba">Mara&#250;</option>
+	<option value="mata-de-sao-joao-ba">Mata de S&#227;o Jo&#227;o</option>
+	<option value="miguel-calmon-ba">Miguel Calmon</option>
+	<option value="minas-do-mimoso-ba">Minas do Mimoso (Sento S&#233;)</option>
+	<option value="mundo-novo-ba">Mundo Novo</option>
+	<option value="narandiba-ba">Narandiba (Alagoinhas)</option>
+	<option value="nova-vicosa-ba">Nova Vi&#231;osa</option>
+	<option value="parafuso-ba">Parafuso (Cama&#231;ari)</option>
+	<option value="paratinga-ba">Paratinga</option>
+	<option value="paulo-afonso-ba">Paulo Afonso</option>
+	<option value="piata-ba">Piat&#227;</option>
+	<option value="pindobacu-ba">Pindoba&#231;u</option>
+	<option value="pocoes-ba">Po&#231;&#245;es</option>
+	<option value="pojuca-ba">Pojuca</option>
+	<option value="polo-petroquimico-de-camacari-ba">Polo Petroqu&#237;mico de Cama&#231;ari (Cama&#231;ari)</option>
+	<option value="porto-de-sauipe-ba">Porto de Sau&#237;pe</option>
+	<option value="porto-seguro-ba">Porto Seguro</option>
+	<option value="rancho-alegre-caravelas-ba">Rancho Alegre - Caravelas</option>
+	<option value="remanso-ba">Remanso</option>
+	<option value="ribeira-do-pombal-ba">Ribeira do Pombal</option>
+	<option value="rio-de-contas-ba">Rio de Contas</option>
+	<option value="salamim-ba">Salamim</option>
+	<option value="saldanha-ba">Saldanha (Pil&#227;o Arcado)</option>
+	<option value="salinas-da-margarida-ba">Salinas da Margarida</option>
+	<option selected="selected" value="salvador-ba">Salvador</option>
+	<option value="santa-barbara-ba">Santa B&#225;rbara</option>
+	<option value="santa-clara-ba">Santa Clara</option>
+	<option value="santa-cruz-cabralia-ba">Santa Cruz Cabr&#225;lia</option>
+	<option value="santo-antonio-de-jesus-ba">Santo Ant&#244;nio de Jesus</option>
+	<option value="santo-estevao-ba">Santo Estev&#227;o</option>
+	<option value="sao-domingos-souto-soares-ba">S&#227;o Domingos - Souto Soares</option>
+	<option value="sao-felix-ba">S&#227;o F&#233;lix</option>
+	<option value="sao-goncalo-dos-campos-ba">S&#227;o Gon&#231;alo dos Campos</option>
+	<option value="sao-paulo-ba">S&#227;o Paulo</option>
+	<option value="sao-sebastiao-do-passe-ba">S&#227;o Sebasti&#227;o do Passe</option>
+	<option value="satiro-dias-ba">S&#225;tiro Dias</option>
+	<option value="seabra-ba">Seabra</option>
+	<option value="senhor-do-bonfim-ba">Senhor do Bonfim</option>
+	<option value="sento-se-ba">Sento S&#233;</option>
+	<option value="serra-do-ramalho-ba">Serra do Ramalho</option>
+	<option value="serrinha-ba">Serrinha</option>
+	<option value="simoes-filho-ba">Sim&#245;es Filho</option>
+	<option value="taboleiro-do-castro-ba">Taboleiro do Castro (Varzedo)</option>
+	<option value="tabua-varzea-nova-ba">T&#225;bua - V&#225;rzea Nova</option>
+	<option value="tagua-ba">Tagu&#225; (Cotegipe)</option>
+	<option value="tanhacu-ba">Tanha&#231;u</option>
+	<option value="tanquinho-ba">Tanquinho</option>
+	<option value="teixeira-de-freitas-ba">Teixeira de Freitas</option>
+	<option value="ubaitaba-ba">Ubaitaba</option>
+	<option value="ubata-ba">Ubat&#227;</option>
+	<option value="valenca-ba">Valen&#231;a</option>
+	<option value="vera-cruz-ba">Vera Cruz</option>
+	<option value="vitoria-da-conquista-ba">Vit&#243;ria da Conquista</option>
+	<option value="xique-xique-ba">Xique-Xique</option>
+
+</select> </span>
+			</div>	
+
+		<div id="container" class="container">
+			<br />
+			<div id="tab-container" class="tablayout">
+				<ul id="tab-container-nav" class="tablayout">
+					<li><a id="tab-nav-imoveis" href="#infoImoveis">Imóveis</a></li>
+					<li><a id="tab-nav-veiculos" href="#infoVeiculos">Veículos</a></li>
+					<li><a id="tab-nav-empregos" href="#infoEmpregos">Empregos</a></li>
+					<li><a id="tab-nav-servicos" href="#infoServicos">Serviços</a></li>
+					<li><a id="tab-nav-diversos" href="#infoDiversos">Diversos</a></li>
+					<li><a id="tab-nav-opiniao" href="#infoOpiniao">Sua Opinião!</a></li>
+				</ul>
+				<div id="tabs-content-container" class="tabs-content-container">
+
+
+					<div id="infoImoveis" class="tab">
+					<div class="titleBusca"><h2 class="imoveis"><a class="imoveis" href="/busca-imoveis/">Busca de Imóveis</a></h2></div>
+						<div class="titleAnunciar"><h2><a class="imoveis" href="/cadastrados/anunciar-imovel/">Anunciar Imóvel</a></h2></div>
+						<div class="clear"></div>
+						<div class="">
+							<div class="buscaColuna1">
+								<p>Estado:
+									<select name="ctl00$bodyContent$ddlEstadoImoveis" id="ddlEstadoImoveis" onblur="$(&#39;#txtCidadeImoveis&#39;).flushCache();" onchange="$(&#39;#txtCidadeImoveis&#39;).val(&#39;&#39;);" style="width:229px;">
+	<option selected="selected" value="BA-3471168">Bahia</option>
+
+</select>
+								</p>
+								<p>Operação:
+									<select name="ctl00$bodyContent$ddlOperacao" id="ddlOperacao" tabindex="2" style="width:213px;">
+	<option value="aluguel">Aluguel</option>
+	<option value="temporada">Temporada</option>
+	<option value="venda">Venda</option>
+
+</select>
+								</p>
+								<p>Preço mínimo (R$):
+									<input name="ctl00$bodyContent$txtPrecoMinimoImoveis" type="text" maxlength="11" id="txtPrecoMinimoImoveis" tabindex="4" onkeypress="if(keyEnter(event)){buscarImoveis();}" style="width:158px;" />
+									<span id="ctvPrecoMinimoImoveis" style="visibility:hidden;">*</span>
+								</p>						
+							</div>
+							<div class="buscaColuna2">
+								<p>Cidade:
+									<input name="ctl00$bodyContent$txtCidadeImoveis" type="text" value="Salvador" maxlength="40" id="txtCidadeImoveis" tabindex="1" onblur="$(&#39;#txtCidadeImoveis&#39;).flushCache();" style="width:223px;" />
+									<span id="rfvCidadeImoveis" style="visibility:hidden;">*</span>
+								</p>
+								<p>Tipo de Imóvel:
+									<select name="ctl00$bodyContent$ddlGrupoTipoImovel" id="ddlGrupoTipoImovel" tabindex="3" style="width:183px;">
+	<option value="1|1|1|imoveis-residenciais">Im&#243;veis residenciais</option>
+	<option value="1|1|1|apartamentos"> - Apartamentos</option>
+	<option value="1|1|1|apart-hoteis"> - Apart-hot&#233;is</option>
+	<option value="1|1|1|casas"> - Casas</option>
+	<option value="1|1|1|flats"> - Flats</option>
+	<option value="1|1|1|lofts"> - Lofts</option>
+	<option value="1|1|1|villages"> - Villages</option>
+	<option value="0|1|0|imoveis-comerciais">Im&#243;veis comerciais</option>
+	<option value="0|1|0|galpoes"> - Galp&#245;es</option>
+	<option value="0|1|0|lojas"> - Lojas</option>
+	<option value="0|1|0|pontos-comerciais"> - Pontos comerciais</option>
+	<option value="0|1|0|predios"> - Pr&#233;dios</option>
+	<option value="0|1|0|salas-comerciais"> - Salas comerciais</option>
+	<option value="1|1|0|chacaras-fazendas-sitios">Ch&#225;caras, fazendas e s&#237;tios</option>
+	<option value="1|0|0|quartos-vagas">Quartos e vagas</option>
+	<option value="0|1|0|terrenos">Terrenos</option>
+
+</select>
+									<span id="rfvTipoImovel" style="visibility:hidden;">*</span>
+								</p>
+								<p>Preço máximo (R$):
+									<input name="ctl00$bodyContent$txtPrecoMaximoImoveis" type="text" maxlength="11" size="8" id="txtPrecoMaximoImoveis" tabindex="5" onkeypress="if(keyEnter(event)){buscarImoveis();}" style="width:155px;" />
+									<span id="ctvPrecoMaximoImoveis" style="visibility:hidden;">*</span>
+								</p>
+							</div>
+							<div style="clear: both">
+							</div>
+							
+							<input type="button" name="ctl00$bodyContent$btnImovel" value="Pesquisar" onclick="buscarImoveis(); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$btnImovel&quot;, &quot;&quot;, true, &quot;imoveis&quot;, &quot;&quot;, false, true))" id="btnImovel" class="btn" />
+							&nbsp;&nbsp;<span><img id="loadImgImovel" src="http://static.classificadosbahia.com/img/indicator.gif" alt="" style="display:none;"/></span>
+						</div>
+						<br /><hr />
+						<div class="aluguel">
+							<h2 class="imoveis">Aluguel</h2>
+							<div class="imoveisResidenciais">
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/imoveis-residenciais/aluguel/">Imóveis Residenciais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apartamentos/aluguel/">Apartamentos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apart-hoteis/aluguel/">Apart-hotéis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/casas/aluguel/">Casas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/flats/aluguel/">Flats</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/lofts/aluguel/">Lofts</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/villages/aluguel/">Villages</a></h4> 
+								<br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/quartos-vagas/aluguel/">Quartos e Vagas</a></h3>
+								<br />                       
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/chacaras-fazendas-sitios/aluguel/">Chácaras, Fazendas e Sítios</a></h3>
+							</div>
+							<div class="imoveisComerciais">
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/imoveis-comerciais/aluguel/">Imóveis Comerciais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/galpoes/aluguel/">Galpões</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/lojas/aluguel/">Lojas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/pontos-comerciais/aluguel/">Pontos Comerciais</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/predios/aluguel/">Prédios</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/salas-comerciais/aluguel/">Salas Comerciais</a></h4>
+								<br /><br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/terrenos/aluguel/">Terrenos</a></h3>
+							</div>
+						</div>
+						<div class="venda">
+							<h2 class="imoveis">Venda</h2>
+							<div class="imoveisResidenciais">
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/imoveis-residenciais/venda/">Imóveis Residenciais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apartamentos/venda/">Apartamentos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apart-hoteis/venda/">Apart-hotéis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/casas/venda/">Casas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/flats/venda/">Flats</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/lofts/venda/">Lofts</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/villages/venda/">Villages</a></h4>
+								<br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/chacaras-fazendas-sitios/venda/">Chácaras, Fazendas e Sítios</a></h3>
+							</div>
+							<div class="imoveisComerciais">
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/imoveis-comerciais/venda/">Imóveis Comerciais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/galpoes/venda/">Galpões</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/lojas/venda/">Lojas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/pontos-comerciais/venda/">Pontos Comerciais</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/predios/venda/">Prédios</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/salas-comerciais/venda/">Salas Comerciais</a></h4>
+								<br /><br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/terrenos/venda/">Terrenos</a></h3>
+							</div>
+						</div>
+						<div class="temporada">
+							<h2 class="imoveis">Temporada</h2>
+							<div>
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/imoveis-residenciais/temporada/">Imóveis Residenciais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apartamentos/temporada/">Apartamentos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/apart-hoteis/temporada/">Apart-hotéis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/casas/temporada/">Casas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/flats/temporada/">Flats</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/lofts/temporada/">Lofts</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/villages/temporada/">Villages</a></h4>
+								<br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/quartos-vagas/temporada/">Quartos e Vagas</a></h3>
+								<br />
+								<h3><a class="imoveis" href="/salvador-ba/lista/10/ordem-padrao/chacaras-fazendas-sitios/temporada/">Chácaras, Fazendas e Sítios</a></h3>
+							</div>
+						</div>
+						<div style="clear: both;">
+						</div>
+						<br />
+						
+						
+						
+						
+					</div>
+					<div id="infoVeiculos" class="tab">
+						<div class="titleBusca"><h2 class="veiculos"><a class="veiculos" href="/busca-veiculos/">Busca de Veículos</a></h2></div>
+						<div class="titleAnunciar"><h2><a class="veiculos" href="/cadastrados/anunciar-veiculo/">Anunciar Veículo</a></h2></div>
+						<div class="clear"></div>
+						
+						<div class="">
+							
+							<div class="buscaColuna1">
+								<p>Estado:
+									<select name="ctl00$bodyContent$ddlEstadoVeiculos" id="ddlEstadoVeiculos" onblur="$(&#39;#txtCidadeVeiculos&#39;).flushCache();" onchange="$(&#39;#txtCidadeVeiculos&#39;).val(&#39;&#39;);" style="width:229px;">
+	<option selected="selected" value="BA-3471168">Bahia</option>
+
+</select>
+								</p>
+								<p>Tipo:
+									<select name="ctl00$bodyContent$tipo_veiculo" id="tipo_veiculo" tabindex="2" onkeyup="this.onchange()" onchange="setTipoVeiculoComRequerCidade(this.options[this.selectedIndex].value, new Array(), new Array(), new Array(document.getElementById(&#39;rfvCidadeVeiculos&#39;)));" style="width:243px;">
+	<option value="1">Aeronaves</option>
+	<option value="2">Caminh&#245;es</option>
+	<option selected="selected" value="3">Carros</option>
+	<option value="4">Embarca&#231;&#245;es</option>
+	<option value="5">Motos</option>
+	<option value="6">T&#225;xis</option>
+	<option value="7">Utilit&#225;rios</option>
+	<option value="8">Outros ve&#237;culos</option>
+
+</select>
+									<span id="rfvTipoVeiculo" style="visibility:hidden;">*</span>
+								</p>
+								<p>Preço mínimo (R$):
+									<input name="ctl00$bodyContent$txtPrecoMinimoVeiculos" type="text" maxlength="9" size="8" id="txtPrecoMinimoVeiculos" tabindex="3" onkeypress="if(keyEnter(event)){buscarVeiculos();}" style="width:158px;" />
+									<span id="ctvPrecoMinimoVeiculos" style="visibility:hidden;">*</span>
+								</p>
+								
+							</div>
+							<div class="buscaColuna2">
+								<p>Cidade:
+									<input name="ctl00$bodyContent$txtCidadeVeiculos" type="text" value="Salvador" id="txtCidadeVeiculos" tabindex="1" style="width:223px;" />
+									<span id="rfvCidadeVeiculos" style="visibility:hidden;">*</span>
+								</p>
+								<p>&nbsp; </p>
+								
+								<p>Preço máximo (R$):
+									<input name="ctl00$bodyContent$txtPrecoMaximoVeiculos" type="text" maxlength="9" size="8" id="txtPrecoMaximoVeiculos" tabindex="4" onkeypress="if(keyEnter(event)){buscarVeiculos();}" style="width:155px;" />
+									<span id="ctvPrecoMaximoVeiculos" style="visibility:hidden;">*</span>
+								</p>
+								
+							</div>
+							<div style="clear: both">
+							</div>
+							
+							<input type="button" name="ctl00$bodyContent$btnVeiculo" value="Pesquisar" onclick="buscarVeiculos(); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$btnVeiculo&quot;, &quot;&quot;, true, &quot;veiculo&quot;, &quot;&quot;, false, true))" id="btnVeiculo" class="btn" />
+							&nbsp;&nbsp;<span><img id="loadImgVeiculo" src="http://static.classificadosbahia.com/img/indicator.gif" alt="" style="display:none;"/></span>
+						</div>
+						<br /><hr />
+						<div class="carros">
+							<h2><a class="veiculos" href="/salvador-ba/lista/10/ordem-padrao/carros/">Carros</a></h2>
+							<div class="porAno">
+								<h3><a class="veiculos" >Por Ano</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2014/" title="Carros ano 2014">2014</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2013/" title="Carros ano 2013">2013</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2012/" title="Carros ano 2012">2012</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2011/" title="Carros ano 2011">2011</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2010/" title="Carros ano 2010">2010</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2009/" title="Carros ano 2009">2009</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2008/" title="Carros ano 2008">2008</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/ano-2007/" title="Carros ano 2007">2007</a></h4>
+							</div>
+							<div class="porPreco">
+								<h3><a class="veiculos">Por Preço</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$0-R$10000/" title="Carros até R$10.000,00">Até R$10.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$10000-R$15000/" title="Carros entre R$10.000,00 e R$15.000,00">
+								Entre R$10.000,00 e R$15.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$15000-R$20000/" title="Carros entre R$15.000,00 e R$20.000,00">
+								Entre R$15.000,00 e R$20.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$20000-R$25000/" title="Carros entre R$20.000,00 e R$25.000,00">
+								Entre R$20.000,00 e R$25.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$25000-R$35000/" title="Carros entre R$20.000,00 e R$25.000,00">
+								Entre R$25.000,00 e R$35.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$35000-R$50000/" title="Carros entre R$20.000,00 e R$25.000,00">
+								Entre R$35.000,00 e R$50.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$50000-R$100000/" title="Carros entre R$50.000,00 e R$100.000,00">
+								Entre R$50.000,00 e R$100.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/R$100000-R$200000/" title="Carros entre R$100.000,00 e R$200.000,00">
+								Entre R$100.000,00 e R$200.000,00</a></h4>
+							</div>
+							
+						</div>
+						<div class="motos">
+							<h2><a class="veiculos" href="/salvador-ba/lista/10/ordem-padrao/motos/">Motos</a></h2>
+							<div class="porAno">
+								<h3><a class="veiculos" >Por Ano</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2014/" title="Motos ano 2014">2014</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2013/" title="Motos ano 2013">2013</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2012/" title="Motos ano 2012">2012</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2011/" title="Motos ano 2011">2011</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2010/" title="Motos ano 2010">2010</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2009/" title="Motos ano 2009">2009</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2008/" title="Motos ano 2008">2008</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/ano-2007/" title="Motos ano 2007">2007</a></h4>
+							</div>
+							<div class="porPreco">
+								<h3><a class="veiculos" >Por Preço</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$0-R$2500/" title="Motos até R$2.500,00">Até R$2.500,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$2500-R$3000/"  title="Motos entre R$2.500,00 e R$3.000,00">
+								Entre R$2.500,00 e R$3.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$3000-R$3500/"  title="Motos entre R$3.000,00 e R$3.500,00">
+								Entre R$3.000,00 e R$3.500,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$3500-R$4000/"  title="Motos entre R$3.500,00 e R$4.000,00">
+								Entre R$3.500,00 e R$4.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$4000-R$4500/"  title="Motos entre R$4.000,00 e R$4.500,00">
+								Entre R$4.000,00 e R$4.500,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$4500-R$5000/"  title="Motos entre R$4.500,00 e R$5.000,00">
+								Entre R$4.500,00 e R$5.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$5000-R$8000/"  title="Motos entre R$5.000,00 e R$8.000,00">
+								Entre R$5.000,00 e R$8.000,00</a></h4>
+								<h4>
+								<a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/R$8000-R$20000/"  title="Motos entre R$8.000,00 e R$20.000,00">
+								Entre R$8.000,00 e R$20.000,00</a></h4>
+							</div>
+							
+						</div>
+						<div class="outrosVeiculos">
+							<h2 class="veiculos">Veículos</h2>
+							<div>
+								<h3><a class="veiculos" >Tipos de Veículos</a></h3>
+								<h4><a class="corCinza" href="/lista/10/ordem-padrao/aeronaves/" title="Aeronaves">Aeronaves</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/caminhoes/" title="Caminhões">Caminhões</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/carros/" title="Carros">Carros</a></h4>
+								<h4><a class="corCinza" href="/lista/10/ordem-padrao/embarcacoes/" title="Embarcações">Embarcações</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/motos/" title="Motos">Motos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/taxis/" title="Táxis">Táxis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/utilitarios/" title="Utilitários">Utilitários</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/outros-veiculos/" title="Peças e Acessórios">Outros veículos</a></h4>
+							</div>
+						</div>
+						<div style="clear: both;">
+						</div>
+						<br />
+						
+					</div>
+					<div id="infoEmpregos" class="tab">
+					<div class="titleBusca"><h2><a class="empregos" href="/busca-empregos/">Busca de Empregos</a></h2></div>
+					<div class="titleAnunciar"><h2><a class="empregos" href="/cadastrados/anunciar-emprego/">Anunciar Emprego</a></h2></div>
+					<div class="clear"></div>
+					<div class="">
+						<div class="buscaColuna1">
+						<p>Estado:
+							<select name="ctl00$bodyContent$ddlEstadoEmpregos" id="ddlEstadoEmpregos" onblur="$(&#39;#txtCidadeEmpregos&#39;).flushCache();" onchange="$(&#39;#txtCidadeEmpregos&#39;).val(&#39;&#39;);" style="width:229px;">
+	<option selected="selected" value="BA-3471168">Bahia</option>
+
+</select>
+						</p>
+						</div>
+						<div class="buscaColuna1">
+							<p>Cidade:
+							<input name="ctl00$bodyContent$txtCidadeEmpregos" type="text" value="Salvador" id="txtCidadeEmpregos" tabindex="1" style="width:223px;" />
+							<span id="rfvCidadeEmpregos" style="visibility:hidden;">*</span>           					
+							</p>
+						</div>
+
+						<div class="clear"></div>
+						Métodos de busca:<br />
+						<div class="coluna">
+							<span style="display:inline-block;width:180px;"><input id="rbPorTipoContratacao" type="radio" name="ctl00$bodyContent$busca" value="rbPorTipoContratacao" checked="checked" onclick="trocarFormaBusca(&#39;tipocontratacao&#39;);" /><label for="rbPorTipoContratacao">Por tipo de contratação: </label></span>
+							<select name="ctl00$bodyContent$ddlTipoContratacao" id="ddlTipoContratacao" onkeypress="if(keyEnter(event)){buscarEmpregos();}" onclick="document.getElementById(&#39;rbPorTipoContratacao&#39;).checked = true;trocarFormaBusca(&#39;tipocontratacao&#39;)">
+	<option value=""></option>
+	<option value="autonomo">Aut&#244;nomo</option>
+	<option value="clt">Efetivo - CLT</option>
+	<option value="estagio">Est&#225;gio</option>
+	<option value="freelancer">Freelancer</option>
+	<option value="portador-deficiencia">Portador de Defici&#234;ncia</option>
+	<option value="prestacao-servico">Presta&#231;&#227;o de Servi&#231;o (PJ)</option>
+	<option value="temporario">Tempor&#225;rio</option>
+	<option value="trainee">Trainee</option>
+
+</select>
+							<span id="rfvTipoContratacao" style="visibility:hidden;">&nbsp;</span>			
+							<br />
+							<span style="display:inline-block;width:180px;"><input id="rbPorArea" type="radio" name="ctl00$bodyContent$busca" value="rbPorArea" onclick="trocarFormaBusca(&#39;area&#39;);" /><label for="rbPorArea">Por área da vaga: </label></span>
+							<select name="ctl00$bodyContent$ddlAreaVaga" id="ddlAreaVaga" onkeypress="if(keyEnter(event)){buscarEmpregos();}" onclick="document.getElementById(&#39;rbPorArea&#39;).checked = true;trocarFormaBusca(&#39;area&#39;)">
+	<option value=""></option>
+	<option value="area-administrativa">Administrativa</option>
+	<option value="area-arquitetura">Arquitetura</option>
+	<option value="area-cultural-artes-musica-teatro">Cultural / Artes / M&#250;sica / Teatro</option>
+	<option value="area-artes-graficas">Artes Gr&#225;ficas</option>
+	<option value="area-assistencias-tecnicas">Assist&#234;ncias T&#233;cnicas</option>
+	<option value="area-atendimento">Atendimento</option>
+	<option value="area-auditoria">Auditoria</option>
+	<option value="area-bancaria-mercado-financeiro">Banc&#225;ria / Mercado Financeiro</option>
+	<option value="area-beleza-estetica">Beleza / Est&#233;tica</option>
+	<option value="area-biblioteconomia">Biblioteconomia</option>
+	<option value="area-ciencias-agrarias-agribusiness">Ci&#234;ncias Agr&#225;rias / Agribusiness</option>
+	<option value="area-comercial-vendas">Comercial / Vendas</option>
+	<option value="area-comunicacao-publicidade">Comunica&#231;&#227;o / Publicidade</option>
+	<option value="area-comercio-exterior">Com&#233;rcio Exterior</option>
+	<option value="area-construcao-civil">Constru&#231;&#227;o Civil</option>
+	<option value="area-controle-e-sistema-de-qualidade">Controle e Sistema de Qualidade</option>
+	<option value="area-educacao-ensino">Educa&#231;&#227;o / Ensino</option>
+	<option value="area-engenharias">Engenharias</option>
+	<option value="area-esportes">Esportes</option>
+	<option value="area-financeira">Financeira</option>
+	<option value="area-grafica">Gr&#225;fica</option>
+	<option value="area-hotelaria">Hotelaria</option>
+	<option value="area-idiomas">Idiomas</option>
+	<option value="area-industrial">Industrial</option>
+	<option value="area-informatica-internet-ti">Inform&#225;tica / Internet / T.I.</option>
+	<option value="area-jornalismo">Jornalismo</option>
+	<option value="area-juridica">Jur&#237;dica</option>
+	<option value="area-logistica">Log&#237;stica</option>
+	<option value="area-marketing">Marketing</option>
+	<option value="area-meio-ambiente-biologia">Meio Ambiente / Biologia</option>
+	<option value="area-moda">Moda</option>
+	<option value="area-ongs-terceiro-setor">ONGs / Terceiro Setor</option>
+	<option value="area-quimica">Qu&#237;mica</option>
+	<option value="area-recursos-humanos">Recursos Humanos</option>
+	<option value="area-restaurantes">Restaurantes</option>
+	<option value="area-saude">Sa&#250;de</option>
+	<option value="area-segurança">Seguran&#231;a</option>
+	<option value="area-seguros">Seguros</option>
+	<option value="area-servico-social">Servi&#231;o Social</option>
+	<option value="area-suprimentos-compras">Suprimentos / Compras</option>
+	<option value="area-telecomunicacoes">Telecomunica&#231;&#245;es</option>
+	<option value="area-telemarketing-call-center">Telemarketing / Call Center</option>
+	<option value="area-textil">T&#234;xtil</option>
+	<option value="area-transportes">Transportes</option>
+	<option value="area-turismo">Turismo</option>
+
+</select>
+							<span id="rfvArea" style="visibility:hidden;">&nbsp;</span>
+						<br />
+							<span style="display:inline-block;width:180px;"><input id="rbPorCargo" type="radio" name="ctl00$bodyContent$busca" value="rbPorCargo" onclick="trocarFormaBusca(&#39;cargo&#39;);" /><label for="rbPorCargo">Por cargo: </label></span>
+							<input name="ctl00$bodyContent$txtCargo" type="text" id="txtCargo" onclick="document.getElementById(&#39;rbPorCargo&#39;).checked = true;trocarFormaBusca(&#39;cargo&#39;)" onkeypress="if(keyEnter(event)){buscarEmpregos();}" style="width:300px;" />
+							<span id="rfvCargo" style="visibility:hidden;">&nbsp;</span>
+						</div>
+						
+						<div class="clear"></div>
+						<input type="button" name="ctl00$bodyContent$btnEmpregos" value="Pesquisar" onclick="buscarEmpregos(); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$btnEmpregos&quot;, &quot;&quot;, true, &quot;empregos&quot;, &quot;&quot;, false, true))" id="btnEmpregos" class="btn" />
+						&nbsp;&nbsp;<span><img src="http://static.classificadosbahia.com/img/indicator.gif" id="loadImgEmpregos" alt="" style="display:none;"/></span>
+					</div>
+					<hr />
+
+					<div class="coluna" style="width:22%;">
+						<h3><a class="empregos" >Por área da vaga</a></h3>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-administrativa/">Administrativa</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-arquitetura/">Arquitetura</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-cultural-artes-musica-teatro/">Cultural / Artes / Música / Teatro</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-artes-graficas/">Artes Gráficas</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-assistencias-tecnicas/">Assistências Técnicas</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-atendimento/">Atendimento</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-auditoria/">Auditoria</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-bancaria-mercado-financeiro/">Bancária / Mercado Financeiro</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-beleza-estetica/">Beleza / Estética</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-biblioteconomia/">Biblioteconomia</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-ciencias-agrarias-agribusiness/">Ciências Agrárias / Agribusiness</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-comercial-vendas/">Comercial / Vendas</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-comunicacao-publicidade/">Comunicação / Publicidade</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-comercio-exterior/">Comércio Exterior</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-construcao-civil/">Construção Civil</a></h4>
+					</div>
+
+					<div class="coluna" style="width:22%;">
+						<h3>&nbsp;</h3>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-controle-e-sistema-de-qualidade/">Controle e Sistema de Qualidade</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-educacao-ensino/">Educação / Ensino</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-engenharias/">Engenharias</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-esportes/">Esportes</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-financeira/">Financeira</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-grafica/">Gráfica</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-hotelaria/">Hotelaria</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-idiomas/">Idiomas</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-industrial/">Industrial</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-informatica-internet-ti/">Informática / Internet / T.I.</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-jornalismo/">Jornalismo</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-juridica/">Jurídica</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-logistica/">Logística</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-marketing/">Marketing</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-meio-ambiente-biologia/">Meio Ambiente / Biologia</a></h4>
+					</div>
+
+					<div class="coluna" style="width:22%;">
+						<h3>&nbsp;</h3>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-moda/">Moda</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-ongs-terceiro-setor/">ONGs / Terceiro Setor</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-quimica/">Química</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-recursos-humanos/">Recursos Humanos</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-restaurantes/">Restaurantes</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-saude/">Saúde</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-segurança/">Segurança</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-seguros/">Seguros</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-servico-social/">Serviço Social</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-suprimentos-compras/">Suprimentos / Compras</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-telecomunicacoes/">Telecomunicações</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-telemarketing-call-center/">Telemarketing / Call Center</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-textil/">Têxtil</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-transportes/">Transportes</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/area-turismo/">Turismo</a></h4>
+					</div>
+
+					<div class="coluna" style="width:22%;">
+						<h3><a class="empregos" >Por tipo de contratação</a></h3>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/autonomo/">Autônomo</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/clt/">Efetivo - CLT</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/estagio/">Estágio</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/freelancer/">Freelancer</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/portador-deficiencia/">Portador de Deficiência</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/prestacao-servico/">Prestação de serviço (PJ)</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/temporario/">Temporário</a></h4>
+						<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/empregos/trainee/">Trainee</a></h4>
+					</div>
+
+					<div class="clear"></div>
+					</div>
+					<div id="infoServicos" class="tab">
+					<div class="titleBusca"><h2><a href="/busca-servicos/" class="servicos">Busca de Serviços</a></h2></div>
+						<div class="titleAnunciar"><h2><a class="servicos" href="/cadastrados/anunciar-servico/">Anunciar Serviço</a></h2></div>
+						<div class="clear"></div>
+						<div class="">
+							<div style="float:left">
+								<p>Estado:
+								<select name="ctl00$bodyContent$ddlEstadoServicos" id="ddlEstadoServicos" onblur="$(&#39;#txtCidadeServicos&#39;).flushCache();" onchange="$(&#39;#txtCidadeServicos&#39;).val(&#39;&#39;);" style="width:229px;">
+	<option selected="selected" value="BA-3471168">Bahia</option>
+
+</select>
+								</p>
+							</div>
+							<div style="float:left">
+								<p>&nbsp;&nbsp;&nbsp;Cidade:
+								<input name="ctl00$bodyContent$txtCidadeServicos" type="text" value="Salvador" id="txtCidadeServicos" tabindex="1" style="width:223px;" />
+								<span id="rfvCidadeServicos" style="visibility:hidden;">*</span>
+								</p>
+							</div>
+							<div style="clear: both">
+							</div>
+							<p>Palavra-chave: 
+								<input name="ctl00$bodyContent$txtBuscaServicos" type="text" maxlength="50" id="txtBuscaServicos" tabindex="2" onkeypress="if(keyEnter(event)){buscarServicos();}" style="width:470px;" />
+								<span id="rfvBuscaServicos" style="visibility:hidden;">*</span>
+								<span id="ctvBuscaServicos" style="visibility:hidden;">*</span>
+							</p>
+							
+							<input type="button" name="ctl00$bodyContent$btnServicos" value="Pesquisar" onclick="buscarServicos(); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$btnServicos&quot;, &quot;&quot;, true, &quot;servicos&quot;, &quot;&quot;, false, true))" id="btnServicos" class="btn" />
+							&nbsp;&nbsp;<span><img id="loadImgServicos" src="http://static.classificadosbahia.com/img/indicator.gif" alt="" style="display:none;"/></span>
+						</div>
+						<br /><hr />
+						<div class="coluna_2">
+							
+							<div class="coluna_2">
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/academias/" class="servicos" >Academias</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/academias_aulas-e-cursos-esportivos/">Aulas e Cursos Esportivos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/academias_equipamentos-esportivos/">Equipamentos Esportivos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/academias_personal-trainners/">Personal Trainners</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/agencias-de-turismo/" class="servicos" >Agências de Turismo</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/agencias-de-turismo_pacotes-turisticos/">Pacotes Turísticos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/agencias-de-turismo_parques-e-passeios/">Parques e Passeios</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/agencias-de-turismo_passagens/">Passagens</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/agencias-de-turismo_pousadas-e-hoteis/">Pousadas e Hotéis</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/animais/" class="servicos" >Animais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/animais_adestramentos/">Adestramentos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/animais_pet-shops/">Pet Shops</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/animais_veterinarios/">Veterinários</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/casa-e-decoracao/">Casa e Decoração</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/casa-e-decoracao_moveis-planejados/">Móveis Planejados</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/casa-e-decoracao_servicos-em-pisos/">Serviços em Pisos</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/construcao-reforma-manutencao/" class="servicos" >Construção, Reforma e Manutenção</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/construcao-reforma-manutencao_encanadores/">Encanador</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/construcao-reforma-manutencao_eletricistas/">Eletricista</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/construcao-reforma-manutencao_pedreiros/">Pedreiro</a></h4>
+							</div>
+							<div class="coluna_2">
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/delivery/" class="servicos" >Delivery</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/delivery_delivery-alimentacao/">Alimentação</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/delivery_delivery-lanches/">Lanches</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/delivery_delivery-pizza/">Pizza</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/delivery_delivery-remedios/">Remédios</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao/" class="servicos" >Educação</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_aulas-particulares/">Aulas Particulares</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_bercarios-e-creches/">Berçário e Creche</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_escolas/">Escolas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_escolas-de-idiomas/">Escolas de Idiomas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_escolas-de-musica/">Escolas de Música</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_escolas-profissionalizantes/">Escolas Profissionalizantes</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/educacao_faculdades-e-universidades/">Faculdades e Universidades</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/estetica-e-beleza/" class="servicos" >Estética e Beleza</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/estetica-e-beleza_clinicas-de-estetica-e-beleza/">Clínicas de Estética e Beleza</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/estetica-e-beleza_cursos-em-beleza/">Cursos em Beleza</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/estetica-e-beleza_salao-de-beleza/">Salão de Beleza</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/funerarios/" class="servicos" >Funerários</a></h3>
+								
+							</div>
+						</div>
+						<div class="coluna_2">
+						
+							<div class="coluna_2">
+								
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/graficas-e-impressao/" class="servicos" >Gráficas e Impressão</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/graficas-e-impressao_convites/">Convites</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/graficas-e-impressao_faixas-lonas-e-afins/">Faixas, Lonas e afins</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/graficas-e-impressao_impressao-de-fotos/">Impressão de Fotos</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet/" class="servicos" >Internet</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet_servicos-comunicacao/">Comunicação</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet_criacao-de-sites/">Criação de Sites</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet_hospedagem-de-sites/">Hospedagem de Sites</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet_marketing-online/">Marketing Online</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/internet_provedores/">Provedores</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais/" class="servicos" >Outros Profissionais</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_advogados/">Advogados</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_artes-plasticas/">Artes Plásticas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_comunicacao-e-locucao/">Comunicação e Locução</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_consultorias/">Consultoria</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_contabilidade/">Contabilidade</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_detetives/">Detetive</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_fotografos/">Fotógrafo</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/outros-profissionais_traducao/">Tradução</a></h4>
+								
+								
+							</div>
+							
+							<div class="coluna_2">
+								
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/saude/" class="servicos" >Saúde</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/saude_dentistas/">Dentistas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/saude_enfermeiros/">Enfermeiros</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/saude_planos-de-saude/">Planos de Saúde</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao/" class="servicos" >Suporte Técnico e Manutenção</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_ar-condicionado-e-refrigeracao/">Ar Condicionado e Refrigeração</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_audio-video-e-camera/">Áudio, Vídeo e Câmera</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_celulares-e-telefonia/">Celulares e Telefonia</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_eletrodomesticos/">Eletrodomésticos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_servicos-informatica/">Informática</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_joias-e-relogios/">Jóias e Relógios</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/suporte-tecnico-manutencao_video-games/">Vídeo-Game</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/veiculos-e-transportes/" class="servicos" >Veículos e Transportes</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/veiculos-e-transportes_gnv/">GNV</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/veiculos-e-transportes_locadora-veicular/">Locadora veicular</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/veiculos-e-transportes_servico-de-taxi/">Serviço de Táxi</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/vestuario/" class="servicos" >Vestuário</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/vestuario_brechos/">Brechós</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/guia-servicos/vestuario_lojas/">Lojas</a></h4>
+							</div>
+						</div>
+						<div style="clear: both;">
+						</div>
+						<br /><br />
+						<p>Caso não encontre a categoria desejada, <a href="/sugestao-nova-categoria/servico/" class="linkUnderline" onclick="return hs.htmlExpand(this, sugestaoCategoria )">sugira uma</a></p>
+						
+						<br />
+						
+					</div>
+					<div id="infoDiversos" class="tab">
+						<div class="titleBusca"><h2><a href="/busca/" class="diversos">Busca de Diversos</a></h2></div>
+						<div class="titleAnunciar"><h2><a class="diversos" href="/cadastrados/anunciar-diversos/">Anunciar Diversos</a></h2></div>
+						<div class="clear"></div>
+						<div class="">
+							
+							
+							<div style="float:left">
+								<p>Estado:
+								<select name="ctl00$bodyContent$ddlEstadoDiversos" id="ddlEstadoDiversos" onblur="$(&#39;#txtCidadeDiversos&#39;).flushCache();" onchange="$(&#39;#txtCidadeDiversos&#39;).val(&#39;&#39;);" style="width:229px;">
+	<option selected="selected" value="BA-3471168">Bahia</option>
+
+</select>
+								</p>
+							</div>
+							<div style="float:left">
+								<p>&nbsp;&nbsp;&nbsp;Cidade:
+								<input name="ctl00$bodyContent$txtCidadeDiversos" type="text" value="Salvador" id="txtCidadeDiversos" tabindex="1" style="width:223px;" />
+								<span id="rfvCidadeDiversos" style="visibility:hidden;">*</span>
+								</p>
+							</div>
+							<div style="clear: both">
+							</div>
+							<p>Palavra-chave:
+								<input name="ctl00$bodyContent$txtBusca" type="text" maxlength="50" id="txtBusca" tabindex="2" onkeypress="if(keyEnter(event)){buscarDiversos();}" style="width:470px;" />
+								<span id="rfvBusca" style="visibility:hidden;">*</span>
+
+								<span id="ctvBuscaDiversos" style="visibility:hidden;">*</span>
+							</p>
+							
+							<input type="button" name="ctl00$bodyContent$btnDiversos" value="Pesquisar" onclick="buscarDiversos(); return false;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$btnDiversos&quot;, &quot;&quot;, true, &quot;diversos&quot;, &quot;&quot;, false, true))" id="btnDiversos" class="btn" />
+							&nbsp;&nbsp;<span><img id="loadImgDiversos" src="http://static.classificadosbahia.com/img/indicator.gif" alt="" style="display:none;"/></span>
+						</div>
+						<br /><hr />
+		
+						<div class="coluna_2">
+							
+							<div class="coluna_2">
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/eletronicos/" class="diversos" >Eletrônicos</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_acessorios-audio-video/">Acessórios para Áudio e Vídeo</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_audio-para-casa/">Áudio para Casa</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_audio-profissional-djs/">Áudio Profissional e DJs</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_calculadoras/">Calculadoras</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_cameras-e-filmadoras/">Câmeras e Filmadoras</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_dvd-players-e-gravadores/">DVD Players e Gravadores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_filmadoras/">Filmadoras</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_games/">Games</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_gps/">GPS</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_home-theaters/">Home Theaters</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_pecas-e-componentes-eletricos/">Peças e Componentes Elétricos </a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_pilhas-baterias-carregadores/">Pilhas, Baterias e Carregadores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_players-portateis/">Players Portáteis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_projetores-e-telas/">Projetores e Telas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_projetores-e-telas/">Projetores e Telas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_som-e-video-para-carro/">Som e Vídeo para Carro</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_televisores/">Televisores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletronicos_tv-a-cabo-e-via-satelite/">TV a Cabo e Via Satélite</a></h4>
+							</div>
+							<div class="coluna_2">
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/informatica/" class="diversos" >Informática</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_alimentacao-para-pcs/">Alimentação para PCs</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_apple/">Apple</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_cabos/">Cabos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_cartuchos-toners-e-tintas/">Cartuchos, Toners e Tintas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_computadores-pcs/">Computadores PCs</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_discos-rigidos-e-removiveis/">Discos Rígidos e Removíveis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_gravadores-de-dvd-cd-blu-ray/">Gravadores de DVD, CD, Blu-Ray</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_impressoras-e-copiadoras/">Impressoras e Copiadoras</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_memorias-ram/">Memórias RAM</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_midias-virgens/">Mídias Virgens</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_monitores/">Monitores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_notebooks-e-laptops/">Notebooks e Laptops</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_palms-e-handhelds/">Palms e Handhelds</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_pecas-acessorios-para-notebook/">Peças Acessórios para Notebook</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_pen-drives/">Pen Drives</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_perifericos-e-acessorios-de-pc/">Periféricos e Acessórios de PC</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_placas-de-video-e-captura/">Placas de Vídeo e Captura</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_placas-mae/">Placas-Mãe</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_processadores/">Processadores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_projetores/">Projetores</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/informatica_redes-e-wi-fi/">Redes e Wi-Fi</a></h4>
+							</div>
+						</div>
+						<div class="coluna_2">
+						
+							<div class="coluna_2">					    
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa/" class="diversos" >Artigos para casa</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa_cama-mesa-banho/">Cama, Mesa e Banho</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa_casa-jardim/">Casa e Jardim</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa_cozinha/">Cozinha</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa_moveis-e-decoracao/">Móveis e Decoração</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-casa_utilidades-domesticas/">Utilidades Domésticas</a></h4>
+								
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas/" class="diversos" >Calçados, Roupas e Bolsas</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas_bolsas/">Bolsas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas_carteiras/">Carteiras</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas_malas/">Malas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas_mochilas/">Mochilas</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/calcados-roupas-bolsas_moda-e-acessorios/">Moda e acessórios</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/cds-dvds-musicais-filmes/" class="diversos" >CDs e DVDs musicais e de filmes</a></h3>
+								
+								
+							</div>
+							
+							<div class="coluna_2">
+								
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/celulares-telefonia/" class="diversos" >Celulares e Telefonia</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/celulares-telefonia_acessorios-para-celulares/">Acessórios para Celulares</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/celulares-telefonia_celulares/">Celulares</a></h4><br />
+								<h3><a href="/salvador-ba/lista/10/ordem-padrao/livros-revistas/" class="diversos" >Livros e Revistas</a></h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/livros-revistas_administracao-e-negocios/">Administração e Negócios</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/livros-revistas_culinaria-e-gastronomia/">Culinária e Gastronomia</a></h4><br />
+								<h3 class="diversos" >Outros</h3>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/antiguidades/">Antiguidades</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/artigos-para-bebes/">Artigos para Bebês</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/brinquedos/">Brinquedos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/eletrodomesticos-eletroportateis/">Eletrodomésticos e eletroportáteis</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/instrumentos-opticos/">Instrumentos Ópticos</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/esporte-fitness-lazer/">Esporte, fitness e lazer</a></h4>
+								<h4><a class="corCinza" href="/salvador-ba/lista/10/ordem-padrao/instrumentos-musicais/">Instrumentos musicais</a></h4>
+								
+							</div>
+						</div>
+						<div style="clear: both;">
+						</div>
+						<br /><br />
+						<p>Caso não encontre a categoria desejada, <a href="/sugestao-nova-categoria/diversos/" class="linkUnderline" onclick="return hs.htmlExpand(this, sugestaoCategoria )">sugira uma</a></p>
+						
+						<br />
+						
+					</div>
+
+
+					<div id="infoOpiniao" class="tab">
+						
+<div style="margin-left:100px;">
+
+<p>Sugira, critique, denuncie, comente, INTERAJA!<br />
+Sua opinião é fundamental para mantermos e aprimorarmos os classificados gratuitos.</p>
+
+<div>
+    <label >Assunto do contato: </label> <br />
+    <select name="ctl00$bodyContent$opiniao$ddlObjetivo" id="ddlObjetivo">
+	<option value=""></option>
+	<option value="Comentários gerais">Coment&#225;rios gerais</option>
+	<option value="Denúncia">Den&#250;ncia</option>
+	<option value="Dúvida">D&#250;vida</option>
+	<option value="Notificação de erro">Notifica&#231;&#227;o de erro</option>
+	<option value="Sugestão">Sugest&#227;o</option>
+
+</select>
+    <span id="rfvAssuntoContato" style="visibility:hidden;">*</span>
+</div>
+
+<div ><label for="txtNome">Nome:</label><br /><input name="ctl00$bodyContent$opiniao$txtNome" type="text" maxlength="100" id="txtNome" style="width:350px;" /></div>
+<div>
+    <label for="txtEmail">Email:</label><br /><input name="ctl00$bodyContent$opiniao$txtEmail" type="text" maxlength="64" id="txtEmail" style="width:350px;" />
+     <span id="rxvEmail" style="visibility:hidden;">*</span>
+</div>
+<div ><label for="txtTelefone">Telefone:</label><br /><input name="ctl00$bodyContent$opiniao$txtTelefone" type="text" maxlength="14" size="14" id="txtTelefone" /></div>
+<div>
+<label>Mensagem:</label>
+<br />
+<textarea name="ctl00$bodyContent$opiniao$txtMensagem" rows="2" cols="20" id="txtMensagem" style="height:115px;width:350px;"></textarea>
+<span id="rfvMsg" style="visibility:hidden;">*</span>
+
+<br />
+
+    <input id="cbxAutorizacaoComentario" type="checkbox" name="ctl00$bodyContent$opiniao$cbxAutorizacaoComentario" checked="checked" /><label for="cbxAutorizacaoComentario">Autorizo a publicação dos meus comentários na Rede de Classificados da Bahia</label>
+
+</div>
+<div>
+      <div id="CaptchaControl1">
+	<div><div style="margin:5px;"><img src="/CaptchaImage.ashx?guid=e73a7444-f1ef-463a-996d-b5704d0e8f3b" border="0" width="180" height="50"/></div><div style="margin:5px;">Digite o código mostrado acima:<br/><input name="ctl00$bodyContent$opiniao$CaptchaControl1$CaptchaInput" type="text" maxlength="5" id="CaptchaInput" size="5" /></div></div>
+</div>
+</div>
+
+<div id="summary" style="display:none;">
+
+</div>
+<div>
+&nbsp;<input type="button" name="ctl00$bodyContent$opiniao$btnEnviar" value="Enviar" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$bodyContent$opiniao$btnEnviar&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" id="btnEnviar" class="btn" />
+</div>
+</div>
+<script type="text/javascript">$(document).ready(function(){$("#txtMensagem").charLimit({limit:3000,speed:"slow",descending:true});});</script>
+					</div>
+				</div>
+				<script type="text/javascript">var tabber1=new Yetii({id:"tab-container",persist:true});</script>
+			</div>
+		</div>
+		<div id="vsum1" style="display:none;">
+
+</div>
+		<div id="vsum2" style="display:none;">
+
+</div>
+		<div id="vsum3" style="display:none;">
+
+</div>
+		<div id="vsum4" style="display:none;">
+
+</div>
+		<div id="vsum5" style="display:none;">
+
+</div>
+
+		
+
+
+</div>
+<div class="clear"></div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("summary"), document.getElementById("vsum1"), document.getElementById("vsum2"), document.getElementById("vsum3"), document.getElementById("vsum4"), document.getElementById("vsum5"));
+var Page_Validators =  new Array(document.getElementById("ctvPrecoMinimoImoveis"), document.getElementById("rfvCidadeImoveis"), document.getElementById("rfvTipoImovel"), document.getElementById("ctvPrecoMaximoImoveis"), document.getElementById("rfvTipoVeiculo"), document.getElementById("ctvPrecoMinimoVeiculos"), document.getElementById("rfvCidadeVeiculos"), document.getElementById("ctvPrecoMaximoVeiculos"), document.getElementById("rfvCidadeEmpregos"), document.getElementById("rfvTipoContratacao"), document.getElementById("rfvArea"), document.getElementById("rfvCargo"), document.getElementById("rfvCidadeServicos"), document.getElementById("rfvBuscaServicos"), document.getElementById("ctvBuscaServicos"), document.getElementById("rfvCidadeDiversos"), document.getElementById("rfvBusca"), document.getElementById("ctvBuscaDiversos"), document.getElementById("rfvAssuntoContato"), document.getElementById("rxvEmail"), document.getElementById("rfvMsg"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ctvPrecoMinimoImoveis = document.all ? document.all["ctvPrecoMinimoImoveis"] : document.getElementById("ctvPrecoMinimoImoveis");
+ctvPrecoMinimoImoveis.controltovalidate = "txtPrecoMinimoImoveis";
+ctvPrecoMinimoImoveis.focusOnError = "t";
+ctvPrecoMinimoImoveis.errormessage = "O preço mínimo informado não é válido";
+ctvPrecoMinimoImoveis.validationGroup = "imoveis";
+ctvPrecoMinimoImoveis.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvPrecoMinimoImoveis.clientvalidationfunction = "CheckCurrency_pt";
+ctvPrecoMinimoImoveis.type = "Currency";
+var rfvCidadeImoveis = document.all ? document.all["rfvCidadeImoveis"] : document.getElementById("rfvCidadeImoveis");
+rfvCidadeImoveis.controltovalidate = "txtCidadeImoveis";
+rfvCidadeImoveis.focusOnError = "t";
+rfvCidadeImoveis.errormessage = "Informe a cidade";
+rfvCidadeImoveis.validationGroup = "imoveis";
+rfvCidadeImoveis.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCidadeImoveis.initialvalue = "";
+var rfvTipoImovel = document.all ? document.all["rfvTipoImovel"] : document.getElementById("rfvTipoImovel");
+rfvTipoImovel.controltovalidate = "ddlGrupoTipoImovel";
+rfvTipoImovel.focusOnError = "t";
+rfvTipoImovel.errormessage = "Informe o tipo de Imovel";
+rfvTipoImovel.validationGroup = "imoveis";
+rfvTipoImovel.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvTipoImovel.initialvalue = "0";
+var ctvPrecoMaximoImoveis = document.all ? document.all["ctvPrecoMaximoImoveis"] : document.getElementById("ctvPrecoMaximoImoveis");
+ctvPrecoMaximoImoveis.controltovalidate = "txtPrecoMaximoImoveis";
+ctvPrecoMaximoImoveis.focusOnError = "t";
+ctvPrecoMaximoImoveis.errormessage = "O preço máximo informado não é válido";
+ctvPrecoMaximoImoveis.validationGroup = "imoveis";
+ctvPrecoMaximoImoveis.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvPrecoMaximoImoveis.clientvalidationfunction = "CheckCurrency_pt";
+ctvPrecoMaximoImoveis.type = "Currency";
+var rfvTipoVeiculo = document.all ? document.all["rfvTipoVeiculo"] : document.getElementById("rfvTipoVeiculo");
+rfvTipoVeiculo.controltovalidate = "tipo_veiculo";
+rfvTipoVeiculo.focusOnError = "t";
+rfvTipoVeiculo.errormessage = "Informe o tipo de veículo pesquisado";
+rfvTipoVeiculo.validationGroup = "veiculo";
+rfvTipoVeiculo.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvTipoVeiculo.initialvalue = "";
+var ctvPrecoMinimoVeiculos = document.all ? document.all["ctvPrecoMinimoVeiculos"] : document.getElementById("ctvPrecoMinimoVeiculos");
+ctvPrecoMinimoVeiculos.controltovalidate = "txtPrecoMinimoVeiculos";
+ctvPrecoMinimoVeiculos.focusOnError = "t";
+ctvPrecoMinimoVeiculos.errormessage = "O preço mínimo informado não é válido";
+ctvPrecoMinimoVeiculos.validationGroup = "veiculo";
+ctvPrecoMinimoVeiculos.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvPrecoMinimoVeiculos.clientvalidationfunction = "CheckCurrency_pt";
+ctvPrecoMinimoVeiculos.type = "Currency";
+var rfvCidadeVeiculos = document.all ? document.all["rfvCidadeVeiculos"] : document.getElementById("rfvCidadeVeiculos");
+rfvCidadeVeiculos.controltovalidate = "txtCidadeVeiculos";
+rfvCidadeVeiculos.focusOnError = "t";
+rfvCidadeVeiculos.errormessage = "Informe a cidade";
+rfvCidadeVeiculos.validationGroup = "veiculo";
+rfvCidadeVeiculos.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCidadeVeiculos.initialvalue = "";
+var ctvPrecoMaximoVeiculos = document.all ? document.all["ctvPrecoMaximoVeiculos"] : document.getElementById("ctvPrecoMaximoVeiculos");
+ctvPrecoMaximoVeiculos.controltovalidate = "txtPrecoMaximoVeiculos";
+ctvPrecoMaximoVeiculos.focusOnError = "t";
+ctvPrecoMaximoVeiculos.errormessage = "O preço máximo informado não é válido";
+ctvPrecoMaximoVeiculos.validationGroup = "veiculo";
+ctvPrecoMaximoVeiculos.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvPrecoMaximoVeiculos.clientvalidationfunction = "CheckCurrency_pt";
+ctvPrecoMaximoVeiculos.type = "Currency";
+var rfvCidadeEmpregos = document.all ? document.all["rfvCidadeEmpregos"] : document.getElementById("rfvCidadeEmpregos");
+rfvCidadeEmpregos.controltovalidate = "txtCidadeEmpregos";
+rfvCidadeEmpregos.focusOnError = "t";
+rfvCidadeEmpregos.errormessage = "Informe a cidade";
+rfvCidadeEmpregos.validationGroup = "empregos";
+rfvCidadeEmpregos.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCidadeEmpregos.initialvalue = "";
+var rfvTipoContratacao = document.all ? document.all["rfvTipoContratacao"] : document.getElementById("rfvTipoContratacao");
+rfvTipoContratacao.controltovalidate = "ddlTipoContratacao";
+rfvTipoContratacao.focusOnError = "t";
+rfvTipoContratacao.errormessage = "Selecione um tipo de contratação";
+rfvTipoContratacao.validationGroup = "empregos";
+rfvTipoContratacao.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvTipoContratacao.initialvalue = "";
+var rfvArea = document.all ? document.all["rfvArea"] : document.getElementById("rfvArea");
+rfvArea.controltovalidate = "ddlAreaVaga";
+rfvArea.focusOnError = "t";
+rfvArea.errormessage = "Selecione uma área";
+rfvArea.enabled = "False";
+rfvArea.validationGroup = "empregos";
+rfvArea.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvArea.initialvalue = "";
+var rfvCargo = document.all ? document.all["rfvCargo"] : document.getElementById("rfvCargo");
+rfvCargo.controltovalidate = "txtCargo";
+rfvCargo.focusOnError = "t";
+rfvCargo.errormessage = "Informe um cargo";
+rfvCargo.enabled = "False";
+rfvCargo.validationGroup = "empregos";
+rfvCargo.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCargo.initialvalue = "";
+var rfvCidadeServicos = document.all ? document.all["rfvCidadeServicos"] : document.getElementById("rfvCidadeServicos");
+rfvCidadeServicos.controltovalidate = "txtCidadeServicos";
+rfvCidadeServicos.focusOnError = "t";
+rfvCidadeServicos.errormessage = "Informe a cidade";
+rfvCidadeServicos.validationGroup = "servicos";
+rfvCidadeServicos.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCidadeServicos.initialvalue = "";
+var rfvBuscaServicos = document.all ? document.all["rfvBuscaServicos"] : document.getElementById("rfvBuscaServicos");
+rfvBuscaServicos.controltovalidate = "txtBuscaServicos";
+rfvBuscaServicos.focusOnError = "t";
+rfvBuscaServicos.errormessage = "o campo Palavra-chave deve ser preenchido";
+rfvBuscaServicos.validationGroup = "servicos";
+rfvBuscaServicos.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvBuscaServicos.initialvalue = "";
+var ctvBuscaServicos = document.all ? document.all["ctvBuscaServicos"] : document.getElementById("ctvBuscaServicos");
+ctvBuscaServicos.controltovalidate = "txtBuscaServicos";
+ctvBuscaServicos.focusOnError = "t";
+ctvBuscaServicos.errormessage = "Preencha ao menos 3 caracteres para realizar a busca.";
+ctvBuscaServicos.validationGroup = "servicos";
+ctvBuscaServicos.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvBuscaServicos.clientvalidationfunction = "CheckCaracteresParaBusca";
+var rfvCidadeDiversos = document.all ? document.all["rfvCidadeDiversos"] : document.getElementById("rfvCidadeDiversos");
+rfvCidadeDiversos.controltovalidate = "txtCidadeDiversos";
+rfvCidadeDiversos.focusOnError = "t";
+rfvCidadeDiversos.errormessage = "Informe a cidade";
+rfvCidadeDiversos.validationGroup = "diversos";
+rfvCidadeDiversos.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvCidadeDiversos.initialvalue = "";
+var rfvBusca = document.all ? document.all["rfvBusca"] : document.getElementById("rfvBusca");
+rfvBusca.controltovalidate = "txtBusca";
+rfvBusca.focusOnError = "t";
+rfvBusca.errormessage = "o campo Palavra-chave deve ser preenchido";
+rfvBusca.validationGroup = "diversos";
+rfvBusca.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvBusca.initialvalue = "";
+var ctvBuscaDiversos = document.all ? document.all["ctvBuscaDiversos"] : document.getElementById("ctvBuscaDiversos");
+ctvBuscaDiversos.controltovalidate = "txtBusca";
+ctvBuscaDiversos.focusOnError = "t";
+ctvBuscaDiversos.errormessage = "Preencha ao menos 3 caracteres para realizar a busca.";
+ctvBuscaDiversos.validationGroup = "diversos";
+ctvBuscaDiversos.evaluationfunction = "CustomValidatorEvaluateIsValid";
+ctvBuscaDiversos.clientvalidationfunction = "CheckCaracteresParaBusca";
+var rfvAssuntoContato = document.all ? document.all["rfvAssuntoContato"] : document.getElementById("rfvAssuntoContato");
+rfvAssuntoContato.controltovalidate = "ddlObjetivo";
+rfvAssuntoContato.focusOnError = "t";
+rfvAssuntoContato.errormessage = "Informe o assunto do seu contato.";
+rfvAssuntoContato.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvAssuntoContato.initialvalue = "";
+var rxvEmail = document.all ? document.all["rxvEmail"] : document.getElementById("rxvEmail");
+rxvEmail.controltovalidate = "txtEmail";
+rxvEmail.focusOnError = "t";
+rxvEmail.errormessage = "O Email informado está inválido";
+rxvEmail.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+rxvEmail.validationexpression = "^\\w+(?:[-+.%]\\w+)*@(?:[a-zA-Z0-9-]+\\.)+\\w+$";
+var rfvMsg = document.all ? document.all["rfvMsg"] : document.getElementById("rfvMsg");
+rfvMsg.controltovalidate = "txtMensagem";
+rfvMsg.errormessage = "Por favor preencha o campo Mensagem.";
+rfvMsg.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvMsg.initialvalue = "";
+var summary = document.all ? document.all["summary"] : document.getElementById("summary");
+summary.showmessagebox = "True";
+summary.showsummary = "False";
+var vsum1 = document.all ? document.all["vsum1"] : document.getElementById("vsum1");
+vsum1.showmessagebox = "True";
+vsum1.showsummary = "False";
+vsum1.validationGroup = "imoveis";
+var vsum2 = document.all ? document.all["vsum2"] : document.getElementById("vsum2");
+vsum2.showmessagebox = "True";
+vsum2.showsummary = "False";
+vsum2.validationGroup = "veiculo";
+var vsum3 = document.all ? document.all["vsum3"] : document.getElementById("vsum3");
+vsum3.showmessagebox = "True";
+vsum3.showsummary = "False";
+vsum3.validationGroup = "diversos";
+var vsum4 = document.all ? document.all["vsum4"] : document.getElementById("vsum4");
+vsum4.showmessagebox = "True";
+vsum4.showsummary = "False";
+vsum4.validationGroup = "servicos";
+var vsum5 = document.all ? document.all["vsum5"] : document.getElementById("vsum5");
+vsum5.showmessagebox = "True";
+vsum5.showsummary = "False";
+vsum5.validationGroup = "empregos";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        EnableDataTypeValidation();//]]>
+</script>
+</form>
+<br />
+<div class="rodape">
+	<div class="container" style="color:#FFF">
+    ClassiTB - Classificados grátis
+     - Integrado à <a href="javascript:;" style="color:#FFF">Rede de Classificados da Bahia</a>
+	 - Desenvolvimento: <a href="http://www.sysm.com.br" target="_blank" style="color:#FFF">SYSM</a>
+	</div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-280173-8', 'classitb.com.br');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+|||http://www.sysm.com.br|
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /><meta name="author" content="SYSM" /><meta name="copyright" content="copyright@2009 www.sysm.com.br" /><meta name="description" content="Site da SYSM, empresa especializada no desenvolvimento de aplicações web na plataforma Microsoft ASP.Net e em consultoria na área de tecnologia da informação" /><meta name="keywords" content="desenvolvimento, asp.net, aspnet, integração, sistemas, web, webservices, consultoria, tecnologia da informação, ti" /><meta name="robots" content="all" /><title>
+	SYSM - Empresa especializada no desenvolvimento de aplicações web na plataforma Microsoft ASP.Net e em consultoria na área de tecnologia da informação
+</title><link rel="stylesheet" type="text/css" href="style.css" media="all" /><link rel="stylesheet" type="text/css" href="dyncss.aspx" media="all" />
+<script type="text/javascript" src="js/prototype.lite.js"></script>
+<script type="text/javascript" src="js/moo.fx.js"></script>
+<script type="text/javascript" src="js/moo.fx.pack.js"></script>
+<script type="text/javascript">
+<!--
+
+function validaContato(){
+
+ return true;
+
+ /* to be translated... */
+
+ d = document.getElementById('formcontatos');
+ var rx = new RegExp("^[\\w-_\.]*[\\w-_\.]\@[\\w]\.+[\\w]+[\\w]$");
+ var matches;
+
+ if (d.nome.value.length == 0){
+   alert("Por favor informe seu nome.");
+   d.nome.focus();
+   return false;
+ }
+ 
+ if (d.email.value.length == 0){
+   alert("Por favor informe seu e-mail.");
+   d.email.focus();
+   return false;
+ }
+ 
+ if ( ! rx.test(d.email.value) )
+ {
+   alert("O e-mail informado é inválido.");
+   d.email.focus();
+   return false;
+ }
+
+ if (d.mensagem.value.length == 0){
+   alert("Por favor, informe a mensagem.");
+   d.mensagem.focus();
+   return false;
+ }
+ 
+ return true;
+
+}
+
+function OpenWnd(url, w, h)
+{
+	var posx, posy;
+	posx = (screen.width/2)-(w/2);
+	posy = (screen.height/2)-(h/2);
+	window.open (url, url.replace('.', ''), "screenX=" + posx + ",screenY=" + posy + ",top=" + posy + ",left=" + posx + ",menubar=0,toolbar=0,location=0,directories=0,status=0,scrollbars=0,resizable=0,width=" + w + ",height=" + h)
+}
+
+//feel free to copy and paste *this script* as much as you want.
+function inicio(){		
+	stretchers = document.getElementsByClassName('stretcher'); //div that stretches
+	toggles = document.getElementsByClassName('display'); //h3s where I click on
+	//accordion effect
+	myAccordion = new fx.Accordion(
+		toggles, stretchers, {opacity: true, duration: 400}
+	);
+//hash functions
+	found = false;
+	/*
+	toggles.each(function(lnk, i){
+		if (window.location.href.indexOf("#"+lnk.id) != -1) {
+			if (lnk.id == stretchers[i].id) {
+				myAccordion.showThisHideOpen(stretchers[i]);
+				found = true;
+			}
+		}
+	*** Customizacao....
+	*/
+	stretchers.each(function(div, i){
+		if (window.location.href.indexOf('#'+div.id) != -1) {
+			myAccordion.showThisHideOpen(stretchers[i]);
+			found = true;
+		}
+	});
+	if (!found) myAccordion.showThisHideOpen(stretchers[0]);
+}
+
+// -->
+</script>
+<meta http-equiv="content-language" content="pt-BR" /><meta name="language" content="pt-BR" /></head>
+<body class="default">
+<div id="container">
+  <div id="header">
+    <h1><span>System Mining</span></h1>
+	<div>
+	<a href="javascript:;" class="display" onfocus="this.blur();">A empresa</a>
+	<a href="javascript:;" class="display" onfocus="this.blur();">Projetos</a>
+	<a href="javascript:;" class="display" onfocus="this.blur();">Serviços</a>
+	<a href="http://pt.smcontent.net">SMContent</a>
+	<a href="javascript:;" class="display" onfocus="this.blur();">Contatos</a>
+	<a href="javascript:;" class="display" style="visibility: hidden; display: none; ">Contatos</a>
+	</div>
+  </div>
+  <div id="content">
+    <div id="empresa" class="stretcher">
+	<span><img src="img/tit_aempresa.gif" style="border-width:0px;" /></span><img src="img/px_cinza.gif" width="450" height="1" alt="" />
+	
+   	<p>A <b>SYSM</b> &eacute; uma empresa especializada no desenvolvimento e integra&ccedil;&atilde;o de sistemas na plataforma Microsoft. Para o desenvolvimento de aplica&ccedil;&otilde;es web a empresa utiliza <i>ASP.Net</i>, e utiliza <i>webservices</i> para integra&ccedil;&atilde;o de sistemas. Para o ambiente windows s&atilde;o utilizadas as linguagens <i>C#</i>, <i>Vb.Net</i> e <i>Visual Basic 6</i>.</p>
+      <p>Com uma equipe altamente qualificada, a <b>SYSM</b> procura ir al&eacute;m da satisfa&ccedil;&atilde;o da necessidade prim&aacute;ria do cliente, sempre propondo solu&ccedil;&otilde;es integradoras, que eliminem processos desnecess&aacute;rios ou duplicados nos diferentes ambientes e dom&iacute;nios da aplica&ccedil;&atilde;o.</p>
+      <p>Com um forte foco na plataforma web, a empresa desenvolveu sua pr&oacute;pria ferramenta para <i>gerenciamento de conte&uacute;do</i> e <i>e-mail marketing</i>, o <b>SMContent</b>, que vem sendo utilizado com muito sucesso por ag&ecirc;ncias de cria&ccedil;&atilde;o web. <br />
+        <br />
+      &bull; Saiba mais sobre o <a href="http://pt.smcontent.net">SMContent</a><br />   
+      &bull; Veja os &uacute;ltimos <a href="#projetos" onclick="myAccordion.showThisHideOpen(stretchers[1]);">projetos</a> desenvolvidos pela SYSM</p>
+   
+	</div>
+    <div class="stretcher" id="projetos">
+	<span><img src="img/tit_projetos.gif" style="border-width:0px;" /></span><img src="img/px_cinza.gif" width="450" height="1" alt="" />
+	
+      <p><b>PAT - Profiling Analysis Tool</b></p>
+      <p><i>Cliente:</i> Criativa Humana - S&atilde;o Paulo / SP <br />
+        <i>Projeto:</i> Disponibiliza&ccedil;&atilde;o de servi&ccedil;os de an&aacute;lise de perfil na web;<br />
+		<span class="spacespan">Integra&ccedil;&atilde;o com software existente na plataforma windows <br /></span>
+        <i>Tecnologias:</i> ASP.Net, Web Services, Microsoft Sql Server<br />
+		<a href="javascript:;" onclick="$('saibapat').h.toggle();">Saiba mais</a> <b>+</b>
+      </p>
+	  <div style="overflow: hidden; height: 0px; " id="saibapat" class="saibamais">
+     	 <p>A Criativa Humana &eacute; uma empresa de consultoria em recursos humanos que desenvolveu um servi&ccedil;o de an&aacute;lise de perfil e investiu mais de um ano no desenvolvimento de uma aplica&ccedil;&atilde;o windows (feita por outra empresa) para o processamento de perfis e gera&ccedil;&atilde;o de relat&oacute;rios. O problema surgiu quando foi necess&aacute;rio distribuir a aplica&ccedil;&atilde;o para os clientes. Distribuir execut&aacute;veis para clientes em diversos pontos do pa&iacute;s mostrou-se completamente invi&aacute;vel em fun&ccedil;&atilde;o da alta frequ&ecirc;ncia de atualiza&ccedil;&otilde;es disponibilizadas para a aplica&ccedil;&atilde;o. Nesse momento, atrav&eacute;s da indica&ccedil;&atilde;o de um parceiro, a Criativa Humana procurou a SYSM.</p>
+      	<p>A solu&ccedil;&atilde;o era clara: o ambiente web. Mas era invi&aacute;vel reescrever toda a aplica&ccedil;&atilde;o para funcionar na web. Os clientes da Criativa n&atilde;o podiam esperar os v&aacute;rios meses necess&aacute;rios para uma migra&ccedil;&atilde;o completa. A solu&ccedil;&atilde;o proposta foi disponibilizar os formul&aacute;rios de entrada de dados na web, e integrar as bases de dados dos diferentes ambientes por meio de web services, utilizando autentica&ccedil;&atilde;o e encripta&ccedil;&atilde;o para garantir a privacidade dos dados. Em cerca de 30 dias a solu&ccedil;&atilde;o proposta estava implantada e em funcionamento. </p>
+   	  </div>
+	  <br />
+ <script type="text/javascript">
+$("saibapat").style.height = $("saibapat").offsetHeight + "px"; //i'm automatically setting the height to avoid a flicker 
+$("saibapat").h = new fx.Height("saibapat");
+</script>
+ <p><b> Portal da Comiss&atilde;o Interna para Preven&ccedil;&atilde;o de Acidentes [Intranet] </b></p>
+ <p><i>Cliente:</i> Refinaria Landulpho Alves (Petrobras) - S&atilde;o Francisco do Conde / BA <br />
+   <i>Projeto:</i> Desenvolvimento de Portal para suporte &agrave;s atividades da CIPA RLAM<br />
+   <i>Tecnologias:</i> ASP, Microsoft Sql Server<br />
+   <a href="javascript:;" onclick="$('saibacipa').h.toggle();">Saiba mais</a> <b>+</b>
+   </p>
+   <div style="overflow: hidden; height: 0px; " id="saibacipa" class="saibamais">
+     	 <p>O Portal da CIPA (Comiss&atilde;o Interna para Preven&ccedil;&atilde;o de Acidentes) foi um projeto elaborado a partir das necessidades e sugest&otilde;es de funcion&aacute;rios da CIPA da RLAM (Refinaria Landulpho Alves). O objetivo principal era criar uma ferramenta que organizasse as informa&ccedil;&otilde;es geradas pela CIPA e desse visibilidade &agrave;s campanhas e servi&ccedil;os da mesma, de uma forma interativa e f&aacute;cil para o usu&aacute;rio. O resultado final foi extremamente positivo, inclusive com repercuss&atilde;o em outras unidades da Petrobras que analisam a viabilidade de implanta&ccedil;&atilde;o nas mesmas. </p>
+      	 <p>Abaixo segue a lista de alguns recursos disponibilizados</p>
+      	 <p>&bull; Hist&oacute;rico das gest&otilde;es <br />
+      	   &bull; Lista de membros e suplentes <br />
+      	   &bull; Lista de subcomiss&otilde;e <br />
+      	   &bull; Acompanhamento do andamento dos trabalhos <br />
+      	   &bull; Servi&ccedil;o de notifica&ccedil;&atilde;o de expira&ccedil;&atilde;o de prazos <br />
+      	   &bull; Atas e calend&aacute;rio de reuni&otilde;es <br />
+      	   &bull; Controle de frequ&ecirc;ncia em reuni&otilde;es <br />
+      	   &bull; Normas de trabalho <br />
+      	   &bull; Formul&aacute;rios de inspe&ccedil;&otilde;es e a&ccedil;&otilde;es corretivas <br />
+      	   &bull; Mapas de risco <br />
+      	   &bull; Estat&iacute;sticas e indicadores <br />
+      	   &bull; Quadro de dias sem acidentes <br />
+      	   &bull; Not&iacute;cias <br />
+      	   &bull; Cobertura de eventos <br />
+      	   &bull; Formul&aacute;rios e documentos da CIPA <br />
+      	   &bull; Mensagens motivacionais <br />
+      	   &bull; Manual da CIPA <br />
+      	   &bull; Contatos direcionados <br />
+      	   &bull; Links interessantes <br />
+      	   &bull; Newsletter CIPA </p>
+		   <!--
+         <p><i>Layout home:</i> <a href="http://www.sysm.com.br/cases/petrobras/" target="_blank">http://www.sysm.com.br/cases/petrobras/</a></p>
+         <p><i>Funcionando:</i> <a href="http://www.sysm.com.br/cases/petrobras/online/" target="_blank">http://www.sysm.com.br/cases/petrobras/online/</a></p>
+		 -->
+   </div>
+	  <br />
+ <script type="text/javascript">
+$("saibacipa").style.height = $("saibacipa").offsetHeight + "px"; //i'm automatically setting the height to avoid a flicker 
+$("saibacipa").h = new fx.Height("saibacipa");
+</script>
+<!-- <p><b>SEAGRI-BA</b></p>
+ <p><i>Cliente:</i> Secretaria da Agricultura do Estado da Bahia - Salvador / BA<br />
+   <i>Projeto:</i> Infra-estrutura para atualiza&ccedil;&atilde;o din&acirc;mica de conte&uacute;do<br />
+   <i>Tecnologias:</i> ASP, Microsoft Sql Server</p>
+	  <br />
+ <p><b>Sistema Soul RH </b></p>
+    <p><i>Cliente:</i> Soul RH - Salvador / BA<br />
+      <i>Projeto:</i> Gerenciamento de candidatos e vagas de emprego e est&aacute;gio<br />
+      <i>Tecnologias:</i> ASP</p>
+	  <br />  -->
+   
+    </div>
+    <div class="stretcher" id="servicos">
+	<span><img src="img/tit_servicos.gif" style="border-width:0px;" /></span><img src="img/px_cinza.gif" width="450" height="1" alt="" />
+	
+      <p><i>Desenvolvimento</i> e <i>integra&ccedil;&atilde;o</i> de sistemas na plataforma Microsoft<br />
+        <i>Consultoria</i>   em seguran&ccedil;a de aplica&ccedil;&otilde;es web.<br />
+      <i>Outsourcing</i> - Terceiriza&ccedil;&atilde;o de   servi&ccedil;os de tecnologia </p>
+   
+    </div>
+    <div class="stretcher" id="contatos">
+	<span><img src="img/tit_contatos.gif" style="border-width:0px;" /></span><img src="img/px_cinza.gif" width="450" height="1" alt="" />
+      <form id="formcontatos" action="FormProcessorContatos.aspx" method="post" onsubmit="return validaContato()">
+        
+
+   
+	  <p class="formline">
+        Para mais informações entre em contato pelo formulário abaixo:
+      </p>
+	  <p class="formline">
+        <label>nome:</label>
+        <input name="nome" type="text" id="nome" maxlength="64" size="29" />
+      </p>
+	  <p class="formline">
+        <label>e-mail:</label>
+        <input name="email" type="text" id="email" maxlength="64" size="29" />
+      </p>
+	  <p class="formline">
+        <label>empresa:</label>
+        <input name="empresa_" type="text" id="empresa_" maxlength="32" size="29" />
+      </p>
+	  <p class="formline">
+        <label>telefone:</label>
+        <input name="telefone" type="text" id="telefone" maxlength="32" size="29" />
+      </p>
+	  <p>
+ 	    <label>mensagem:</label>
+	    <textarea name="mensagem" rows="5" cols="28" id="mensagem"></textarea>
+      </p>
+	  <p class="formline">
+  	    <label>&nbsp;</label>
+		<input name="ctl20" type="reset" value="Limpar" />
+		<input name="ctl21" type="submit" value="Enviar" />
+      </p>
+	  </form>
+    </div>
+    <div class="stretcher" id="sucesso">
+	<span><img src="img/tit_contatos.gif" style="border-width:0px;" /></span><img src="img/px

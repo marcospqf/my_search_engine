@@ -1,0 +1,2185 @@
+|||http://neymarstore.com/loja|<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="ISO-8859-1" />
+	<title>Neymar Store | Home</title>
+	<!-- Google Chrome Frame for IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="/loja/theme/images/caminho-pro-icone.png" />
+	<!-- Viewport Tag -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+
+
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<!-- OpenGraph MetaTags -->
+	<!--meta property="og:type" content="article" / -->
+	<meta property="og:site_name" content="Neymar Store" />
+	<meta property="og:title" content="Neymar Store | Home" />
+	<meta property="og:url" content="http://neymarstore.com/loja/home/" /><!--  -->
+	<meta property="og:image" content="http://neymarstore.com/loja/theme/images/logo-loja-fb.png" />
+
+	
+
+
+	<link rel="author" href="http://print-one.com.br/" />
+	<link rel="publisher" href="http://print-one.com.br/" />
+
+	<link rel="icon" href="/loja/theme/images/icone.png" />
+	<link rel="apple-touch-icon" href="/loja/theme/images/icone.png" />
+
+
+	<!-- Reset Elements -->
+	<link rel="stylesheet" id="css-reset" href="/loja/css/reset.css" type="text/css" media="all" />
+	<!-- Core Css -->
+	<link rel="stylesheet" id="css-structure" href="/loja/css/responsive.css" type="text/css" media="all" />
+	<!-- Custom styles -->
+	<link rel="stylesheet" id="css-theme" href="/loja/theme/css/theme.css" type="text/css" media="all" />
+	<!-- Colorbox styles -->
+	<link rel="stylesheet" id="css-colorbox" href="/loja/css/colorbox.css" type="text/css" media="all" />
+
+	<link rel="stylesheet" id="Link1" href="/loja/js/owl-carousel/owl.carousel.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="Link2" href="/loja/js/owl-carousel/owl.theme.css" type="text/css" media="all" />
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script type="text/javascript" language="javascript" src="/loja/js/html5shiv.js"></script>
+        
+	<![endif]-->
+    
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery-plugins.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/scripts.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/ajax.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/loja/js/scriptie.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/theme/js/includeTheme.js.asp"></script><script language="javascript">$(document).ready(function () { if (parseInt($("DIV#menu-subloja.ContentAjax").length) == 1) { $.ajax({ type: "GET", url: "/loja/inc/menu-top_ajax.asp?txtGetTpM=subloja", success: function (txtHTML) { $("DIV#menu-subloja").html(txtHTML); $("#menu-top .menu-header > li").addClass("hover"); }, error: function (objError) { $("DIV#menu-subloja").html(""); } }); } if (parseInt($("DIV#menu-top.ContentAjax").length) == 1) { $.ajax({ type: "GET", url: "/loja/inc/menu-top_ajax.asp?txtGetTpM=top", success: function (txtHTML) { $("DIV#menu-top").html(txtHTML); }, error: function (objError) { $("DIV#menu-top").html(""); } }); } }); </script>
+
+	<!-- Slider -->
+	<link rel="stylesheet" id="css-slider" href="/loja/css/idangerous.swiper.css" type="text/css" media="all" />
+	<script type="text/javascript" language="javascript" src="/loja/js/idangerous.swiper-2.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/custom.js.asp"></script>
+	<script type="text/javascript" language="javascript" src="/loja/theme/js/custom.js"></script><script language="javascript">$(document).ready(function () { }); </script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69845482-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body class="page-home">
+	<style></style>
+<div id="upper-header" class="wrapper">
+	<div class="row wrapper">
+		<div class="col-10">
+			<div class="user-actions clearfix">
+				<a href="/loja/login/" class="item">Faça o Login</a><a href="/loja/cadastro/" class="item">Cadastre-se</a>
+			</div>
+		</div>
+		<div class="col-10">
+			
+		</div>
+		<div class="col-8">
+			<div class="user-actions clearfix phone-store">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div id="header" class="wrapper">
+	<div class="row">
+		<div class="col-10 col-logo">
+			<div class="inner-col-logo">
+				<div class="logo-image">
+                
+                	<h1>
+                <a href="/loja/home/" title="Loja - Principal" tabindex="1">
+						<img src="/loja/theme/images/logo-loja.png" class="logo logo-image" alt="Loja - Principal" title="Loja - Principal" />
+					</a>
+					
+                	</h1>
+                
+				</div>
+			</div>
+		</div>
+		<div class="col-4 rowspan row-header-items"><div class="row first">
+					<div class="col-3">
+						
+						<div class="empty"></div>
+					</div>
+					<div class="col-11">
+						<div class="inner-chat">
+							
+						</div>
+					</div>
+				</div><div class="row last"><div class="col-3 col-search-box">
+					<form name="frmBusca" id="frmBusca" action="/loja/busca/" method="get" class="one-input featured-form form-search">
+						<input type="text" name="buscaPor" id="buscaPor" class="clean input-text input-busca" value="" data-placeholder="O que procura?" />
+						<button type="submit" class="input-submit solid-button">
+                            <i class="icon-white icon-search"></i>
+                            <span>BUSCAR</span>
+                        </button>
+					</form>	
+				</div>
+				<div class="col-11 col-cart"><a href="/loja/carrinho-compras/" class="cart" title="Meu Carrinho">
+						<strong class="willhide">Meu Carrinho</strong>
+						<div id="innerInfoCarrinhoTopo"><span class='willhide'>(vazio)</span></div>
+                        
+					</a>
+					<a href="/loja/login/" class="my-account" title="Login"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div id="menu-top" class="wrapper">
+		<div class="row">
+			<div class="col-1 col-menu-header">
+				<div class="wrapper-menu">
+					<ul class="menu-header clearfix"><li><a href="/loja/home/">Home</a></li><li><a href="/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html" class=''>#Personalize o seu</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/4IPFQLNJ/Almofadas.html" class=''>Almofadas</a></li><li><a href="/loja/produtos-subcategorias/8CNPQLNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/0NQIQLNJ/Camisetas.html" class=''>Camisetas</a></li><li><a href="/loja/produtos-subcategorias/8RRLQLNJ/Canecas.html" class=''>Canecas</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/4NPKPKNJ/Adesivos.html" class=''>Adesivos</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/4NPKPKNJ/Adesivos-de-Parede.html" class=''>Adesivos de Parede</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0RMHQKNJ/Camisetas.html" class=''>Camisetas</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/0LRGRKNJ/Estampas.html" class=''>Estampas</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/4PNKQKNJ/Especiais.html" class=''>Especiais</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8DNMMLNJ/Barca-e-Brasil.html" class=''>Barça e Brasil</a></li><li><a href="/loja/produtos-subcategorias/8FOQRKNJ/Blessed.html" class=''>Blessed</a></li><li><a href="/loja/produtos-subcategorias/4NPFRLNJ/Blessed-Tattoo.html" class=''>Blessed Tattoo</a></li><li><a href="/loja/produtos-subcategorias/8KNPRLNJ/Campeao-Liga.html" class=''>Campeão Liga</a></li><li><a href="/loja/produtos-subcategorias/0GNNRKNJ/Mae-Show-de-Bola.html" class=''>Mãe Show de Bola</a></li><li><a href="/loja/produtos-subcategorias/0GQCMLNJ/Ole.html" class=''>Olé</a></li><li><a href="/loja/produtos-subcategorias/8FPDSKNJ/Ousadia-e-Alegria.html" class=''>Ousadia e Alegria</a></li><li><a href="/loja/produtos-subcategorias/4GRFMLNJ/Primeiro-Gol.html" class=''>Primeiro Gol</a></li><li><a href="/loja/produtos-subcategorias/0DMJMLNJ/Tudo-Passa.html" class=''>Tudo Passa</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html" class=''>Neymar Jr - Camisa 10</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/0PPOMMNJ/Almofada.html" class=''>Almofada</a></li><li><a href="/loja/produtos-subcategorias/8HOLMMNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/8QMIMMNJ/Camiseta.html" class=''>Camiseta</a></li><li><a href="/loja/produtos-subcategorias/0ROCSLNJ/Caneca.html" class=''>Caneca</a></li><li><a href="/loja/produtos-subcategorias/0OREMMNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li><li><a href="/loja/produtos-subcategorias/4HQFSLNJ/Squeeze.html" class=''>Squeeze</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/8IRQPKNJ/Papelaria.html" class=''>Papelaria</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8IRQPKNJ/Bloco-de-Anotacoes.html" class=''>Bloco de Anotações</a></li><li><a href="/loja/produtos-subcategorias/8CMEQKNJ/Cadernos.html" class=''>Cadernos</a></li><li><a href="/loja/produtos-subcategorias/4PNKQKNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0OONQKNJ/Presentes.html" class=''>Presentes</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8EOPMLNJ/Adesivos-de-Parede.html" class=''>Adesivos de Parede</a></li><li><a href="/loja/produtos-subcategorias/0GPCNLNJ/Almofadas.html" class=''>Almofadas</a></li><li><a href="/loja/produtos-subcategorias/0DRIRLNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/4HQFNLNJ/Bloco-de-Anotacoes.html" class=''>Bloco de Anotações</a></li><li><a href="/loja/produtos-subcategorias/8GMMNLNJ/Canecas.html" class=''>Canecas</a></li><li><a href="/loja/produtos-subcategorias/0FOCPLNJ/Kits.html" class=''>Kits</a></li><li><a href="/loja/produtos-subcategorias/0LOCOLNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li><li><a href="/loja/produtos-subcategorias/4NPFOLNJ/Porta-Copos.html" class=''>Porta Copos</a></li><li><a href="/loja/produtos-subcategorias/8RMPOLNJ/Squeeze.html" class=''>Squeeze</a></li></td></tr></tbody></table></ul></li></ul>
+				</div>
+			</div>
+		</div>
+	</div><div id="slider" class="wrapper">
+	<div class="row">
+		<div class="col-4">
+			<div class="device slider-home">
+				<a class="arrow-left" href="#"></a>
+				<a class="arrow-right" href="#"></a>
+				<div class="swiper-container">
+					<div class="swiper-wrapper"><div class="swiper-slide"><a href="http://neymarstore.com/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html" target="_blank" title="Web to print"><img src="/imgsBanners/Home/IMG_PEQ_19_1.jpg" alt="" title=""></a></div><div class="swiper-slide"><a href="http://lojaneymaroficial.provisorio.ws/loja/produtos-subcategorias/0LRGRKNJ/Estampas.html" target="_blank" title="Camisetas"><img src="/imgsBanners/Home/IMG_PEQ_22_1.jpg" alt="" title=""></a></div></div>
+				</div>
+				<div class="pagination"></div>
+			</div>
+		</div><div class="col-10"><div class="col-1"><a href="http://lojaneymaroficial.provisorio.ws/loja/produtos-subcategorias/4NPKPKNJ/Adesivos-de-Parede.html" target="_blank" title="Adesivos decorativos"><img src="/imgsBanners/Home/IMG_PEQ_3_1.jpg" alt="Adesivos decorativos" title="Adesivos decorativos"></a></div><div class="col-1"><img src="/imgsBanners/Home/IMG_PEQ_16_1.jpg" alt="Tudo Passa" title="Tudo Passa"></div>
+
+			</div> </div>
+	<div class="row boxes-row"><div class="col-9">
+					<div class="box-inner first"><a href="http://lojaneymaroficial.provisorio.ws/loja/produtos-subcategorias/8CMEQKNJ/Cadernos.html" target="_top" title="Promoção Cadernos"><img src="/imgsBanners/Home/IMG_PEQ_14_1.jpg" class="fit" alt="box_1" title="Promoção Cadernos" /></a></div>
+				</div><div class="col-9">
+					<div class="box-inner middle"><a href="http://lojaneymaroficial.provisorio.ws/loja/cadastro/" target="_top" title="Cadastre-se"><img src="/imgsBanners/Home/IMG_PEQ_15_1.jpg" class="fit" alt="box_2" title="Cadastre-se" /></a></div>
+				</div><div class="col-9">
+					<div class="box-inner last"><img src="/imgsBanners/Home/IMG_PEQ_17_1.jpg" class="fit" alt="box_3" title="Frete" /></div>
+				</div></div>
+</div><div id="main" class="wrapper">
+		<div class="row"><div class="col-1 col-products">
+			<div class="products inner-rows">
+				<h2 class="normal ">Categorias em Destaque</h2>
+				<div class="wrapper clearfix"><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html"><img src="/imgsCategorias/Cat_9/IMG_9.jpg" alt="#Personalize o seu" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html">
+								#Personalize o seu</a></h3>
+						    <div class="min-description">Produtos personalizados com suas fotos!</div>
+						    <a href="/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/4NPKPKNJ/Adesivos.html"><img src="/imgsCategorias/Cat_1/IMG_1.jpg" alt="Adesivos" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/4NPKPKNJ/Adesivos.html">
+								Adesivos</a></h3>
+						    <div class="min-description">Adesivos de Parede Personalizado para seu quarto ou sala!
+</div>
+						    <a href="/loja/produtos-categorias/4NPKPKNJ/Adesivos.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/0RMHQKNJ/Camisetas.html"><img src="/imgsCategorias/Cat_5/IMG_5.jpg" alt="Camisetas" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/0RMHQKNJ/Camisetas.html">
+								Camisetas</a></h3>
+						    <div class="min-description">Linha de Camisetas Neymar Jr. Seu craque no peito !</div>
+						    <a href="/loja/produtos-categorias/0RMHQKNJ/Camisetas.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/4PNKQKNJ/Especiais.html"><img src="/imgsCategorias/Cat_6/IMG_6.jpg" alt="Especiais" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/4PNKQKNJ/Especiais.html">
+								Especiais</a></h3>
+						    <div class="min-description">Conheça nossa Linha Especial de Camisetas, Almofadas, Canecas, Squeezes...</div>
+						    <a href="/loja/produtos-categorias/4PNKQKNJ/Especiais.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html"><img src="/imgsCategorias/Cat_10/IMG_10.jpg" alt="Neymar Jr - Camisa 10" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html">
+								Neymar Jr - Camisa 10</a></h3>
+						    <div class="min-description">Neymar Jr - Camisa 10</div>
+						    <a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/8IRQPKNJ/Papelaria.html"><img src="/imgsCategorias/Cat_3/IMG_3.jpg" alt="Papelaria" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/8IRQPKNJ/Papelaria.html">
+								Papelaria</a></h3>
+						    <div class="min-description">Cadernos, Bloco de Anotações e muito mais!</div>
+						    <a href="/loja/produtos-categorias/8IRQPKNJ/Papelaria.html" class="button">SAIBA MAIS</a>
+					
+						</div><div class="product category">
+					
+								<div class="figure">
+									<div class="inner"><div class="image">
+                            			<a href="/loja/produtos-categorias/0OONQKNJ/Presentes.html"><img src="/imgsCategorias/Cat_7/IMG_7.jpg" alt="Presentes" />
+								  </a>
+									</div></div>
+								</div>
+								<h3 class="title">
+								<a href="/loja/produtos-categorias/0OONQKNJ/Presentes.html">
+								Presentes</a></h3>
+						    <div class="min-description"></div>
+						    <a href="/loja/produtos-categorias/0OONQKNJ/Presentes.html" class="button">SAIBA MAIS</a>
+					
+						</div>
+				</div>
+			</div>
+		</div>
+	<div class="col-1">
+		<div class="products inner-rows">
+        	<h2 class="normal ">Produtos em Destaque</h2>
+		
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0ESMNONJ/Squeeze-Neymar-Blessed.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_115/Thumb_115_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0ESMNONJ/Squeeze-Neymar-Blessed.html" title="Clique para ver os detalhes">Squeeze Neymar Blessed</a></h3> 
+                            <span class="min-description"></span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>54,90</span><span class="number"><small>Por R$</small> 48,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0ESMNONJ/Squeeze-Neymar-Blessed.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0JQDOONJ/Almofada-Neymar-Ousadia-e-Alegria-2015.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_117/Thumb_117_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0JQDOONJ/Almofada-Neymar-Ousadia-e-Alegria-2015.html" title="Clique para ver os detalhes">Almofada Neymar Ousadia e Alegria 2015</a></h3> 
+                            <span class="min-description">Lindas almofadas decorativas.</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>37,90</span><span class="number"><small>Por R$</small> 29,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0JQDOONJ/Almofada-Neymar-Ousadia-e-Alegria-2015.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0MMHOQOJ/Almofada-Blessed-Tatoo.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_587/Thumb_587_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0MMHOQOJ/Almofada-Blessed-Tatoo.html" title="Clique para ver os detalhes">Almofada Blessed Tatoo</a></h3> 
+                            <span class="min-description">Almofada 35 x 35 cm</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>37,90</span><span class="number"><small>Por R$</small> 29,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0MMHOQOJ/Almofada-Blessed-Tatoo.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0CQJNROJ/Mouse-Pad-Barcelona.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_607/Thumb_607_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0CQJNROJ/Mouse-Pad-Barcelona.html" title="Clique para ver os detalhes">Mouse Pad Barcelona</a></h3> 
+                            <span class="min-description">Mouse Pad Barcelona</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>15,90</span><span class="number"><small>Por R$</small> 14,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0CQJNROJ/Mouse-Pad-Barcelona.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/8NMIPROJ/Caneca-Moicano.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_614/Thumb_614_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/8NMIPROJ/Caneca-Moicano.html" title="Clique para ver os detalhes">Caneca Moicano</a></h3> 
+                            <span class="min-description">Coleção CANECAS NEYMAR SHOP !
+
+
+Caneca Moicano</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>29,90</span><span class="number"><small>Por R$</small> 24,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/8NMIPROJ/Caneca-Moicano.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0COCRROJ/Baby-Look-Campeao-Liga.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_620/Thumb_620_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0COCRROJ/Baby-Look-Campeao-Liga.html" title="Clique para ver os detalhes">Baby Look Campeão Liga</a></h3> 
+                            <span class="min-description">Baby Look Campeão Liga</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>32,90</span><span class="number"><small>Por R$</small> 27,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0COCRROJ/Baby-Look-Campeao-Liga.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/8ERDSROJ/Mouse-Pad-Campeao-Liga.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_624/Thumb_624_1_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/8ERDSROJ/Mouse-Pad-Campeao-Liga.html" title="Clique para ver os detalhes">Mouse Pad Campeão Liga</a></h3> 
+                            <span class="min-description">Mouse Pad Campeão Liga
+</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>15,90</span><span class="number"><small>Por R$</small> 14,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/8ERDSROJ/Mouse-Pad-Campeao-Liga.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+                        <div class="product">
+                        	<div class="figure">
+                                <div class="inner">
+                                    <div class="image">
+                                        <a href="/loja/produtos-detalhes/0RMKNCPJ/Caneca-Neymar-Jr---Camisa-10.html" title="Clique para ver os detalhes">
+                                        <img src="/imgsProdutos/Produto_630/Thumb_630_2_1.jpg" alt="" title="">
+								
+                                    </div>
+                                </div>
+							</div>
+                            <h3><a href="/loja/produtos-detalhes/0RMKNCPJ/Caneca-Neymar-Jr---Camisa-10.html" title="Clique para ver os detalhes">Caneca Neymar Jr - Camisa 10</a></h3> 
+                            <span class="min-description">Caneca Neymar Jr - Camisa 10</span>    
+                            <div class="dt-table">
+						<div class="sub clearfix">
+								
+									<div class="price"><span class="stroke">De <small>R$ </small>29,90</span><span class="number"><small>Por R$</small> 24,90</span>
+										<span class="unit">1 Unit.</span>
+									</div><a href="/loja/produtos-detalhes/0RMKNCPJ/Caneca-Neymar-Jr---Camisa-10.html" class="button">COMPRAR</a></div>   
+                            </div>
+						</div>
+		</div>
+	</div>
+
+		</div>
+	</div>
+	<div id="footer" class="wrapper">
+	<div class="row newsletter">
+		<script type="text/javascript">
+			function fcnSalvaNewsLetter() {
+				if (($.trim($("form#frmNewsLetter input:text#news_txt_email").val()) == "") || ($.trim($("form#frmNewsLetter input:text#news_txt_email").val()) == $.trim($("form#frmNewsLetter input:text#news_txt_email").attr("placeholder")))) {
+					$("form#frmNewsLetter input:text#news_txt_email").focus();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("Digite seu e-mail.");
+					$.colorbox({ html:'<div class="message error">Digite seu e-mail.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+				if (fcnValidaEmail($.trim($("form#frmNewsLetter input:text#news_txt_email").val())) != true) {
+					$("form#frmNewsLetter input:text#news_txt_email").focus();
+					$("form#frmNewsLetter input:text#news_txt_email").select();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("E-mail inválido, digite um e-mail válido.");
+					$.colorbox({ html:'<div class="message error">E-mail inválido, digite um e-mail válido.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+				if (($.trim($("form#frmNewsLetter input:text#news_txt_nome").val()) == "") || ($.trim($("form#frmNewsLetter input:text#news_txt_nome").val()) == $.trim($("form#frmNewsLetter input:text#news_txt_nome").attr("placeholder")))) {
+					$("form#frmNewsLetter input:text#news_txt_nome").focus();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("Digite seu nome.");
+					$.colorbox({ html:'<div class="message error">Digite seu nome.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+
+				
+				$("form#frmNewsLetter input:text#news_txt_email").attr("readonly", true);
+				$("form#frmNewsLetter input:text#news_txt_nome").attr("readonly", true);
+				$("form#frmNewsLetter button:submit#news_bot_receber").attr("disabled", true);
+
+				
+				var objAjax = new getAjax();
+				objAjax.setJavaScript("1");
+				objAjax.setHost("/loja/nav/newsletter_cadastro.asp?nome=" + escape($.trim($("form#frmNewsLetter input:text#news_txt_nome").val())) + "&email=" + escape($.trim($("form#frmNewsLetter input:text#news_txt_email").val())));
+				objAjax.sendAjax();
+
+				return false;
+			}
+		</script>
+		<form id="frmNewsLetter" name="frmNewsLetter" method="get" action="?" onSubmit="javascript:try { return fcnSalvaNewsLetter() } catch(err){ alert('Erro ao validar formulario de newsletter\n\n' + err.message); return false };">
+			<div class="col-7">
+				<div class="text-news">
+					<p><label for="news_txt_email"><strong>NEWSLETTER</strong> <span>CADASTRE-SE E RECEBA NOVIDADES, OFERTAS EXCLUSIVAS E MUITO MAIS</span></label></p>
+				</div>
+			</div>
+			<div class="col-7">
+				<fieldset class="one-input featured-form">
+					<input type="text" name="news_txt_email" id="news_txt_email" style="width: 38%;" maxlength="140" placeholder="Email" class="clean" />
+                    <input type="text" name="news_txt_nome" id="news_txt_nome" style="width: 38%;" maxlength="240" placeholder="Nome" class="clean" />
+					<button type="submit" id="news_bot_receber" class="input-submit solid-button">
+						<i class="icon-white icon-envelope"></i>
+						<span>RECEBER</span>
+                    </button>
+				</fieldset>
+			</div>
+		</form>			
+	</div>
+	<div class="row">
+		<div class="col-1">
+		<div class="col-11 col-faq">
+			<h2>Dúvidas Comuns</h2>
+			<div class="questions links-list"><a href="/loja/faq-detalhes/4GMKRKNJ/Ainda-nao-recebi-minha-compra.html" class="question" title="Ainda não recebi minha compra">Ainda não recebi minha compra</a><a href="/loja/faq-detalhes/4NPKPKNJ/Como-Comprar.html" class="question" title="Como Comprar">Como Comprar</a><a href="/loja/faq-detalhes/8IRQPKNJ/Formas-de-Pagamento.html" class="question" title="Formas de Pagamento">Formas de Pagamento</a><a href="/loja/faq-detalhes/0LRGRKNJ/Prazo-de-Entrega.html" class="question" title="Prazo de Entrega">Prazo de Entrega</a><a href="/loja/faq-detalhes/8LQDRKNJ/Servico-de-Entrega.html" class="question" title="Serviço de Entrega">Serviço de Entrega</a><a href="/loja/faq-detalhes/0GNNRKNJ/Troca-de-Produto--Produto-Danificado.html" class="question" title="Troca de Produto / Produto Danificado">Troca de Produto / Produto Danificado</a></div>
+		</div>
+		<div class="col-11 col-links">
+			<h2>Institucional</h2>
+			<div class="links-list">
+				<a href="/loja/home/" title="Home">Home</a>
+				<a href="/loja/contato/" title="Contato">Contato</a>
+
+			</div>
+		</div>
+		<div class="col-11 col-pay-methods">
+			<h2>Formas de Pagamento</h2>
+			<div class="pay-methods clearfix"><div class='clear'>Outras Formas</div><div class="paym-big"><img src="/imgsGlobais/formasPgto/ico_pagseguro.png" alt="PagSeguro" title="PagSeguro"></div>
+            
+            </div>
+		</div>
+		<div class="col-11 col-items">
+			<div class="items">
+				<div class="item first social-item"><h2>Redes Sociais</h2><a href="https://www.facebook.com/lojaoficialnjr" class="social-icon" title="Facebook" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/30_facebook.png" alt="Facebook"></a><a href="https://twitter.com/lojaneymar" class="social-icon" title="Twitter" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/31_twitter.png" alt="Twitter"></a><a href="https://www.youtube.com/user/LojaNeymar" class="social-icon" title="YouTube" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/22_youtube.png" alt="YouTube"></a></div>
+				<div class="item contact-item">
+					<h2>Contato</h2>
+					<ul class="contact">
+						
+						<li><a href="mailto:atendimento@neymarstore.com" class="email-link">atendimento@neymarstore.com</a></li>
+					</ul>
+				</div>
+				<div class="item secure">
+                    <div id="innerTrustSign" style="display: inline-block;"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div id="sub-footer" class="wrapper">
+	<div class="row">
+		<div class="col-11 col-copyright">
+			<div class="copyrights">
+				Neymar Store &copy; 2017 - Todos os direitos reservados
+			</div>
+		</div>
+		<div class="col-7 col-address">
+			<address>
+				
+			</address>
+		</div>
+		<div class="col-11 col-powered">
+			<div class="powered">
+				<a href="http://print-one.com.br" title="Conheça a Print-One"><img src="/loja/images/icons/logo_printone.png" alt="Loja protegida" title="Conheça a Print-One"/></a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="up-arrow"></div><iframe name="frameOcorrencias" id="frameOcorrencias" frameborder="0" framespacing="0" style="display:none" width="768" height="1" scrolling="no" src="about:blank"></iframe>
+</body>
+
+</html>|||http://neymarstore.com/loja/produtos-subcategorias/8QMIMMNJ/Camiseta.html|<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="ISO-8859-1" />
+	<title>Camiseta Neymar Jr - Camisa 10</title>
+	<!-- Google Chrome Frame for IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="/loja/theme/images/caminho-pro-icone.png" />
+	<!-- Viewport Tag -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+
+<meta name="description" content="Camiseta Neymar Jr - Camisa 10" />
+<meta property="og:description" content="Camiseta Neymar Jr - Camisa 10" /><meta name="keywords" content="camisetapersonalizada, camisetapersonalizadaneymar, camisetas" />
+	<meta name="robots" content="index,follow" />
+	<meta name="googlebot" content="index,follow" />
+	<!-- OpenGraph MetaTags -->
+	<!--meta property="og:type" content="article" / -->
+	<meta property="og:site_name" content="Neymar Store" />
+	<meta property="og:title" content="Camiseta Neymar Jr - Camisa 10" />
+	<meta property="og:url" content="http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" /><!--  -->
+	<meta property="og:image" content="http://neymarstore.com/imgsProdutos/Produto_629/Thumb_629_2_1.jpg" />
+
+	<link rel="canonical" href="http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" />
+
+
+	<link rel="author" href="http://print-one.com.br/" />
+	<link rel="publisher" href="http://print-one.com.br/" />
+
+	<link rel="icon" href="/loja/theme/images/icone.png" />
+	<link rel="apple-touch-icon" href="/loja/theme/images/icone.png" />
+
+
+	<!-- Reset Elements -->
+	<link rel="stylesheet" id="css-reset" href="/loja/css/reset.css" type="text/css" media="all" />
+	<!-- Core Css -->
+	<link rel="stylesheet" id="css-structure" href="/loja/css/responsive.css" type="text/css" media="all" />
+	<!-- Custom styles -->
+	<link rel="stylesheet" id="css-theme" href="/loja/theme/css/theme.css" type="text/css" media="all" />
+	<!-- Colorbox styles -->
+	<link rel="stylesheet" id="css-colorbox" href="/loja/css/colorbox.css" type="text/css" media="all" />
+
+	<link rel="stylesheet" id="Link1" href="/loja/js/owl-carousel/owl.carousel.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="Link2" href="/loja/js/owl-carousel/owl.theme.css" type="text/css" media="all" />
+	
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script type="text/javascript" language="javascript" src="/loja/js/html5shiv.js"></script>
+        
+	<![endif]-->
+    
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery-plugins.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/scripts.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/ajax.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/js/owl-carousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/loja/js/scriptie.js"></script>
+	<script type="text/javascript" language="javascript" src="/loja/theme/js/includeTheme.js.asp"></script><script language="javascript">$(document).ready(function () { if (parseInt($("DIV#menu-subloja.ContentAjax").length) == 1) { $.ajax({ type: "GET", url: "/loja/inc/menu-top_ajax.asp?txtGetTpM=subloja", success: function (txtHTML) { $("DIV#menu-subloja").html(txtHTML); $("#menu-top .menu-header > li").addClass("hover"); }, error: function (objError) { $("DIV#menu-subloja").html(""); } }); } if (parseInt($("DIV#menu-top.ContentAjax").length) == 1) { $.ajax({ type: "GET", url: "/loja/inc/menu-top_ajax.asp?txtGetTpM=top&idCategoria=0LRGRKNJ&idSubCategoria=8QMIMMNJ", success: function (txtHTML) { $("DIV#menu-top").html(txtHTML); }, error: function (objError) { $("DIV#menu-top").html(""); } }); } }); </script><script type="text/javascript" language="javascript" src="/loja/js/jquery.sticky-kit.min.js"></script>
+<script type="text/javascript" language="javascript" src="/loja/js/jquery.numeric.min.js"></script>
+<script type="text/javascript" language="javascript" src="/loja/js/jquery.validationEngine.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="/loja/js/jquery.validationEngine-pt_BR.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="/loja/js/jquery.form.js"></script>
+<script type="text/javascript" language="javascript">
+		var numTimer = null;
+		$(function () {
+			$('.alert-box .alert-close').click(function(e) {
+				e.preventDefault();
+				$('.alert-files').hide();
+			});
+			$(document).keyup(function(e) {
+				 if (e.keyCode == 27 && $('.alert-box').is(':visible')) { // escape key maps to keycode `27`
+					$('.alert-files').hide();
+				}
+			});
+			$("A.lnkTermosUso").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+			fcnCarregaOpcoes();
+			fcnCarregaQuantidades();
+			fcnCarregaServicosExtras();
+			fcnCarregaGabaritos();
+			fcnCarregaFretes("1");
+			fcnResumo();
+			$(".open-colorbox").colorbox({  rel:'open-colorbox'  , width:500  , height:500  , photo:true  , maxWidth :'95%'   , maxHeight :'95%'   });
+			
+
+			fcnReorganizaContagemEtapas();
+		});
+		function fcnSalvarFormularioSessao(dados){
+			//console.log(dados);
+			//Tem que disparar um ajax para salvar esses dados(usa o ajax do jquery mesmo)
+			//Muda para a aba calculo de preços
+			$('.tab-product li[target="#calcule-box"]').click();
+		}
+		function fcnCarregaOpcoes() {
+			$("DIV#innerOpcoes input:checkbox.adicionais").unbind("click");
+			if($("DIV#innerOpcoes input:checkbox.adicionais").length>0){
+				$("DIV#innerOpcoes input:checkbox.adicionais").click(function () {
+					var txtNomeItem = $(this).attr("name");
+					var txtIdItem = $(this).attr("id");
+					if($(this).hasClass("soUm")){
+						$("DIV#innerOpcoes input:checkbox.adicionais.soUm").each(function () {
+							if (txtNomeItem == $(this).attr("name")) {
+								if (txtIdItem != $(this).attr("id") && this.checked == true) this.checked = false;
+							}
+						});
+					}
+					
+						fcnAtualizaPreco();
+						fcnCalculaResumo();
+					
+				});
+			}
+		}
+
+		
+		function fcnCarregaQuantidades() {
+			$("DIV#innerQuantidades DIV#add-qty").click(function (e) {
+				$("DIV#innerQuantidades INPUT#new-qty").val("");
+				if ($(e.target).prop('tagName') != "I" && $(e.target).prop('tagName') != "A") {
+					if (!$(this).hasClass('show-input')) {
+						$(this).addClass('show-input')
+					}
+				}
+				$("DIV#innerQuantidades INPUT#new-qty").focus();
+			});
+			$("DIV#innerQuantidades INPUT#new-qty").numeric({ decimal: false, negative: false });
+			$("DIV#innerQuantidades INPUT#new-qty").keypress(function (e) {
+				if (e.which == 13) {
+					$("DIV#innerQuantidades A#button-add-new-qty").click();
+					return false;
+				}
+			}).blur(function(){
+				if($(this).val()=="") $("DIV#innerQuantidades DIV#add-qty").removeClass('show-input');
+			});
+			$("DIV#innerQuantidades A#button-add-new-qty").click(function (e) {
+				if (!isNaN($("DIV#innerQuantidades INPUT#new-qty").val())) {
+					e.preventDefault();
+							
+					var numQtd = 0, numQtdCopia = 0;
+
+					numQtd = $("DIV#innerQuantidades INPUT#new-qty").val();
+					if (isNaN(numQtd)) numQtd = 0;
+
+					
+
+					if($("DIV#innerQuantidades INPUT#txt_qtd_" + numQtd).length>0){
+						$("DIV#innerQuantidades INPUT.itensQTD").each(function(){
+							$(this).checked = false;
+							$(this).prop("checked", false);
+						});
+						$("DIV#innerQuantidades INPUT#txt_qtd_" + numQtd).checked = true;
+						$("DIV#innerQuantidades INPUT#txt_qtd_" + numQtd).prop("checked", true);
+						$("DIV#innerQuantidades DIV#add-qty").removeClass('show-input');
+						fcnSimulaFrete();
+						fcnCalculaResumo();
+						fcnCalculaCopias();
+						return false;
+					}
+
+					//if (numQtd > 0 || ($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1 && $("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1)) {
+					if (numQtd > 0){
+						$clone = $("DIV#innerQuantidades DIV#innerListaQTDs DIV#add-qty").prev(".dt-table-cell").clone();
+						$clone.attr("id", "innerPreco_" + numQtd);
+						$clone.find('input').attr("id", "txt_qtd_" + numQtd);
+						$clone.find('input').val(numQtd);
+						$clone.find('.qty').text(numQtd + ' ' + $("DIV#innerQuantidades DIV#innerListaQTDs").attr("txtUnidadeMedida"));
+						$clone.find('.price').text("-");
+						$clone.find('.price-unity').text("-");
+						$clone.addClass('dp-fluid').addClass('loading').addClass('novaCaixa');
+						$("DIV#innerQuantidades DIV#innerListaQTDs DIV#add-qty").before($clone);
+
+						$("DIV#innerQuantidades DIV#add-qty").removeClass('show-input');
+
+						fcnConsultaPrecoByQTD(numQtd, numQtdCopia, "1");
+					}else{
+						//alert("A quantidade informada não é válida");
+						$.colorbox({ html: '<div class="message error">A quantidade informada não é válida.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+					}
+				}
+			});
+			if($("DIV#innerFrete input:text#txt_simulaFrete_cep").val()!="" && $("DIV#innerQuantidades INPUT.itensQTD:checked").length==1 && $("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").length==0 && $("DIV#innerFrete DIV#loading-cep").css("display")=="none"){
+				fcnSimulaFrete();
+			}
+		}
+		
+
+		function fcnCarregaServicosExtras() {
+			$("DIV.classServicosExtras DIV#add-qty-extra").click(function (e) {
+				var txtIdExtra = $(this).parents("DIV.classServicosExtras").find("INPUT:hidden#txtIdExtra").val();
+				if(typeof(txtIdExtra)=="undefined") txtIdExtra="";
+				if(txtIdExtra!=""){
+					$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#new-qty-extra").val("");
+					if ($(e.target).prop('tagName') != "I" && $(e.target).prop('tagName') != "A") {
+						if (!$(this).hasClass('show-input')) {
+							$(this).addClass('show-input')
+						}
+					}
+					$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#new-qty-extra").focus();
+				}
+			});
+
+			$("DIV.classServicosExtras INPUT#new-qty-extra").numeric({ decimal: false, negative: false });
+			$("DIV.classServicosExtras INPUT#new-qty-extra").keypress(function (e) {
+				var txtIdExtra = $(this).parents("DIV.classServicosExtras").find("INPUT:hidden#txtIdExtra").val();
+				if(typeof(txtIdExtra)=="undefined") txtIdExtra="";
+				if(txtIdExtra!=""){
+					if (e.which == 13) {
+						$("DIV#innerServicosExtras_" + txtIdExtra + " A#button-add-new-qty-extra").click();
+						return false;
+					}
+				}
+			}).blur(function(){
+				var txtIdExtra = $(this).parents("DIV.classServicosExtras").find("INPUT:hidden#txtIdExtra").val();
+				if(typeof(txtIdExtra)=="undefined") txtIdExtra="";
+				if(txtIdExtra!="") if($(this).val()=="") $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#add-qty-extra").removeClass('show-input');
+			});
+
+			$("DIV.classServicosExtras A#button-add-new-qty-extra").click(function (e) {
+				var txtIdExtra = $(this).parents("DIV.classServicosExtras").find("INPUT:hidden#txtIdExtra").val();
+				if(typeof(txtIdExtra)=="undefined") txtIdExtra="";
+				if(txtIdExtra!=""){
+					if (!isNaN($("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#new-qty-extra").val())) {
+						e.preventDefault();
+							
+						var numQtd = 0, numQtdCopia = 0;
+
+						numQtd = $("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#new-qty-extra").val();
+						if (isNaN(numQtd)) numQtd = 0;
+
+						if($("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#txt_qtd_extras_" + numQtd).length>0){
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT.itensQTD").each(function(){
+								$(this).checked = false;
+								$(this).prop("checked", false);
+							});
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#txt_qtd_extras_" + numQtd).checked = true;
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#txt_qtd_extras_" + numQtd).prop("checked", true);
+							$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#add-qty-extra").removeClass('show-input');
+							fcnSimulaFrete();
+							fcnCalculaResumo();
+							return false;
+						}
+
+						if (numQtd > 0){
+							$clone = $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerListaQTDs DIV#add-qty-extra").prev(".dt-table-cell").clone();
+							$clone.attr("id", "innerPreco_" + numQtd);
+							$clone.attr("numtotal", "0");
+							$clone.find('input').attr("id", "txt_qtd_extras_" + numQtd);
+							$clone.find('input').val(numQtd);
+							$clone.find('.qty').text(numQtd + ' ' + $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerListaQTDs").attr("txtUnidadeMedida"));
+							$clone.find('.price').text("-");
+							$clone.find('.price-unity').text("-");
+							$clone.addClass('dp-fluid').addClass('loading').addClass('novaCaixa');
+							$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerListaQTDs DIV#add-qty-extra").before($clone);
+
+							$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#add-qty-extra").removeClass('show-input');
+
+							fcnConsultaPrecoServicoExtra(txtIdExtra, numQtd, numQtdCopia, "1");   //txtIdExtra, numQtd, numQtdCopia, bitExibeMSG
+						}else{
+							//alert("A quantidade informada não é válida");
+							$.colorbox({ html: '<div class="message error">A quantidade informada não é válida.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+						}
+					}
+				}
+			});
+		}
+
+		function fcnCarregaGabaritos() {
+		}
+
+		
+
+		function fcnCarregaFretes(bitExibeLoader) {
+			if ((typeof (bitExibeLoader) != "string") || bitExibeLoader == "undefined" || bitExibeLoader == null) bitExibeLoader = "";
+
+			var txtURL = "/loja/nav/produtos_detalhes_v3_frete.asp?idProduto=8NQFNCPJ&idPC=0QOHPKNJ";
+
+			$.ajax({
+				type: "GET",
+				url: txtURL,
+				beforeSend: function () {
+					if (bitExibeLoader == "1") $("DIV#innerFrete").html("<P align='center'><br /><br /><IMG src='/loja/images/loader-2.gif' width='51' height='40' title='Carregando, por favor aguarde.' alt='Carregando, por favor aguarde.' /></P>");
+				},
+				success: function (txtHTML) {
+					$("DIV#innerFrete").html(txtHTML);
+				},
+				complete: function (objHTTP, txtStatus) {
+					fcnReorganizaContagemEtapas();
+					$("DIV#innerFrete TABLE#innerTabelaFrete THEAD").hide();
+					$("DIV#innerFrete DIV#loading-cep").hide();
+					$("DIV#innerFrete TABLE#table-cep table tbody tr").removeClass('checked');
+					$("DIV#innerFrete TABLE#table-cep table tbody tr input:checked").parents('tr').addClass('checked');
+					$("DIV#innerFrete TABLE#table-cep table tbody tr").click(function (e) {
+						$("DIV#innerFrete TABLE#table-cep table tbody tr").removeClass('checked');
+						$(this).addClass('checked')
+						$(this).find('input').prop('checked', 'checked');
+					});
+					$("DIV#innerFrete #submit_cep").click(function (e) {
+						fcnSimulaFrete();
+						return false;
+					});
+
+					if($("DIV#innerFrete input:text#txt_simulaFrete_cep").length==1){
+						$("DIV#innerFrete input:text#txt_simulaFrete_cep").setMask("99999-999");
+
+						if($("DIV#innerFrete input:text#txt_simulaFrete_cep").val()!="" && $("DIV#innerQuantidades INPUT.itensQTD:checked").length==1 && $("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").length==0 && $("DIV#innerFrete DIV#loading-cep").css("display")=="none"){
+							fcnSimulaFrete();
+						}
+					}
+
+					if($("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").length>0) $("DIV#innerFrete TABLE#innerTabelaFrete THEAD").show();
+				}
+			});
+		}
+
+		function fcnResumo() {
+			
+			fcnReorganizaContagemEtapas();
+		}
+
+		
+
+		function fcnReorganizaContagemEtapas() {
+			var numContador = 1;
+
+			if($("DIV#innerOpcoes H2.title B").length==1){
+				$("DIV#innerOpcoes H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerMedida H2.title B").length==1){
+				$("DIV#innerMedida H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerQuantidades H2.title B").length==1){
+				$("DIV#innerQuantidades H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerQTDCopias H2.title B").length==1){
+				$("DIV#innerQTDCopias H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerGabaritos H2.title B").length==1){
+				$("DIV#innerGabaritos H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerFrete H2.title B").length==1){
+				$("DIV#innerFrete H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV.classServicosExtras").length==1){
+				$("DIV.classServicosExtras").each(function(){
+					if($(this).find("H2.title B").length==1){
+						$(this).find("H2.title B").html(numContador);
+						numContador++;
+					}
+				});
+			}
+			if($("DIV#innerServicos H2.title B").length==1){
+				$("DIV#innerServicos H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerResumo H2.title B").length==1){
+				$("DIV#innerResumo H2.title B").html(numContador);
+				numContador++;
+			}
+			if($("DIV#innerEnvieArquivo H2.title B").length==1){
+				$("DIV#innerEnvieArquivo H2.title B").html(numContador);
+				numContador++;
+			}
+
+			fcnCalculaResumo();
+		}
+
+		function fcnConsultaPrecoByQTD(numQtd, numQtdCopia, bitExibeMSG){
+			var txtAdicionais = "";
+
+			if($("DIV#innerQuantidades").length>0) $("DIV#innerQuantidades").addClass("loading");
+
+			$("DIV#innerOpcoes input:checkbox.adicionais").each(function () {
+				if (this.checked == true) txtAdicionais += ((txtAdicionais != "") ? (",") : ("")) + $(this).attr("value");
+			});
+
+			var txtURL = "/loja/nav/produtos_detalhes_preco.asp?idProduto=8NQFNCPJ&v=3";
+			txtURL += "&numQtd=" + numQtd;
+			txtURL += "&numCopias=" + numQtdCopia;
+			if($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1) txtURL += "&numM2Altura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val();
+			if($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1) txtURL += "&numM2Largura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val();
+			txtURL += "&txtAdicionais=" + escape(txtAdicionais);
+			txtURL += "&noCache=" + escape(Date.now());
+
+			$.ajax({
+				type: "GET",
+				url: txtURL,
+				beforeSend: function () {
+					if($("DIV#innerQuantidades DIV#innerListaQTDs P#innerErro").length>0) $("DIV#innerQuantidades DIV#innerListaQTDs P#innerErro").remove();
+					if($("DIV#innerQuantidades").length>0) $("DIV#innerQuantidades DIV#innerPreco_" + numQtd).addClass('dp-fluid').addClass('loading');
+					if($("P#innerM2Erro").length>0) $("P#innerM2Erro").html("");
+				},
+				success: function (objJson) {
+					objJson = $.parseJSON(objJson)
+					//console.log(objJson);
+
+					if(objJson.bitErro=="0" && isNaN(objJson.numValorTotal)){
+						objJson.bitErro="99";
+						objJson.txtErro="Não foi possível encontrar valores para esta quantidade informada.";
+					}
+
+					if(objJson.bitErro!="0"){
+						if(objJson.txtErro!=""){
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">' + objJson.txtErro + '</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+							if(objJson.bitErro=="10") if($("P#innerM2Erro").length>0) $("P#innerM2Erro").html(objJson.txtErro);
+						}else{
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">A quantidade informada não é válida.</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+						}
+						if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0) $("DIV#innerQuantidades DIV#innerListaQTDs DIV#innerPreco_" + objJson.numQtd).remove();
+						if($("DIV#innerQuantidades DIV#innerListaQTDs DIV").length<=0) $("DIV#innerQuantidades DIV#innerListaQTDs").append("<P id='innerErro' style='color:#ff0000;'>" + objJson.txtErro + "</P>");
+					}else{
+						if($("DIV#innerQuantidades").length>0){
+							if(!isNaN(objJson.numValorTotal)){
+								$("DIV#innerQuantidades DIV#innerListaQTDs DIV#innerPreco_" + objJson.numQtd).attr("numtotal", objJson.numValorTotal);
+								$("DIV#innerQuantidades DIV#innerPreco_" + objJson.numQtd).find('.price').text("R$ " + formatNumber(objJson.numValorTotal, 2, ",", "."));
+							}
+							if(!isNaN(objJson.numValorUnit)) $("DIV#innerQuantidades DIV#innerPreco_" + objJson.numQtd).find('.price-unity').text("R$ " + formatNumber(objJson.numValorUnit, 2, ",", ".") + '/' + objJson.txtUnidadeMedida);
+							$("DIV#innerQuantidades DIV#innerPreco_" + objJson.numQtd).removeClass('dp-fluid').removeClass('loading');
+						}
+						if($("DIV#innerQuantidades DIV.novaCaixa").length>0){ // Processa somente se for "outra quantidade"
+							$("DIV#innerQuantidades INPUT.itensQTD").each(function(){
+								$(this).checked = false;
+								$(this).prop("checked", false);
+							});
+							$("DIV#innerQuantidades INPUT#txt_qtd_" + objJson.numQtd).checked = true;
+							$("DIV#innerQuantidades INPUT#txt_qtd_" + objJson.numQtd).prop("checked", true);
+						}
+						
+						if($("DIV#innerMedida INPUT#numtotal").length>0){
+							$("DIV#innerMedida INPUT#numtotal").val(objJson.numValorTotal);
+						}
+					}
+					if(!isNaN(objJson.numM2)){
+						if($("DIV#innerMedida").length>0) $("DIV#innerMedida SPAN#innerTotalM2").html(formatNumber(objJson.numM2, 2, ",", "."));
+					}
+				},
+				complete: function (objHTTP, txtStatus) {
+					numTimer = null;
+					fcnSimulaFrete();
+					fcnCalculaResumo();
+					fcnCalculaCopias();
+					if($("DIV#innerQuantidades").length>0) $("DIV#innerQuantidades").removeClass("loading");
+				}
+			});
+		}
+
+		function fcnConsultaPrecoCopia(bitExibeMSG, numQtdCopia){
+			var txtAdicionais = "";
+
+			if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").addClass("loading");
+
+			$("DIV#innerOpcoes input:checkbox.adicionais").each(function () {
+				if (this.checked == true) txtAdicionais += ((txtAdicionais != "") ? (",") : ("")) + $(this).attr("value");
+			});
+
+			var txtURL = "/loja/js/getPrecosCopias.asp?idProduto=8NQFNCPJ";
+			if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0){
+				$("DIV#innerQuantidades DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+					txtURL += "&numQtd=" + $(this).val();
+					return;
+				});
+			}
+			txtURL += "&numCopias=" + numQtdCopia;
+			if($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1) txtURL += "&numM2Altura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val();
+			if($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1) txtURL += "&numM2Largura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val();
+			txtURL += "&txtAdicionais=" + escape(txtAdicionais);
+			txtURL += "&noCache=" + escape(Date.now());
+
+			$.ajax({
+				type: "GET",
+				url: txtURL,
+				beforeSend: function () {
+					$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + numQtdCopia).addClass('dp-fluid').addClass('loading');
+				},
+				success: function (objJson) {
+					objJson = $.parseJSON(objJson)
+
+					if(objJson.bitErro=="0"){
+						if(objJson.objCopias.length>0){
+							for(var numItem=0; numItem<objJson.objCopias.length; numItem++){
+								if(!isNaN(objJson.objCopias[numItem].numValorTotal)){
+									$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias).attr("numtotal", objJson.objCopias[numItem].numValorTotal);
+									$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias + " INPUT#txt_qtd_copia_" + objJson.objCopias[numItem].numCopias).attr("numperc", objJson.objCopias[numItem].numPercentDesc);
+									$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias).find('.qty').text(objJson.objCopias[numItem].numCopias + ' cópia' + ((objJson.objCopias[numItem].numCopias>1)?("s"):("")));
+									$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias).find('.price').text("R$ " + formatNumber(objJson.objCopias[numItem].numValorTotal, 2, ",", "."));
+								}
+								if(!isNaN(objJson.objCopias[numItem].numValorUnit)) $("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias).find('.price-unity').text("R$ " + formatNumber(objJson.objCopias[numItem].numValorUnit, 2, ",", ".") + '/' + 'cópia' + ((objJson.objCopias[numItem].numCopias>1)?("s"):("")));
+								$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.objCopias[numItem].numCopias).removeClass('dp-fluid').removeClass('loading');
+							}
+
+							if($("DIV#innerQTDCopias DIV.novaCaixa").length>0){ // Processa somente se for "outra quantidade"
+								$("DIV#innerQTDCopias INPUT.itensQTD").each(function(){
+									$(this).checked = false;
+									$(this).prop("checked", false);
+								});
+								$("DIV#innerQTDCopias INPUT#txt_qtd_copia_" + objJson.numCopias).checked = true;
+								$("DIV#innerQTDCopias INPUT#txt_qtd_copia_" + objJson.numCopias).prop("checked", true);
+							}
+						}else{
+							objJson.bitErro="99";
+							objJson.txtErro="Não foi possível encontrar valores para esta quantidade informada.";
+						}
+					}
+
+					if(objJson.bitErro!="0"){
+						if(objJson.txtErro!=""){
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">' + objJson.txtErro + '</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+						}else{
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">A quantidade informada não é válida.</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+						}
+						$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + objJson.numCopias).remove();
+					}
+				},
+				complete: function (objHTTP, txtStatus) {
+					fcnSimulaFrete();
+					fcnCalculaResumo();
+					if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").removeClass("loading");
+				}
+			});
+		}
+
+		function fcnConsultaPrecoServicoExtra(txtIdExtra, numQtd, numQtdCopia, bitExibeMSG){
+			if($("DIV#innerServicosExtras_" + txtIdExtra).length>0) $("DIV#innerServicosExtras_" + txtIdExtra).addClass("loading");
+
+			var txtURL = "/loja/nav/produtos_detalhes_preco.asp?idProduto=" + txtIdExtra + "&v=3";
+			txtURL += "&numQtd=" + numQtd;
+			txtURL += "&noCache=" + escape(Date.now());
+
+			$.ajax({
+				type: "GET",
+				url: txtURL,
+				beforeSend: function () {
+					if($("DIV#innerServicosExtras_" + txtIdExtra).length>0) $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerPreco_" + numQtd).addClass('dp-fluid').addClass('loading');
+				},
+				success: function (objJson) {
+					objJson = $.parseJSON(objJson)
+					//console.log(objJson);
+
+					if(objJson.bitErro=="0" && isNaN(objJson.numValorTotal)){
+						objJson.bitErro="99";
+						objJson.txtErro="Não foi possível encontrar valores para esta quantidade informada.";
+					}
+
+					if(objJson.bitErro!="0"){
+						if(objJson.txtErro!=""){
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">' + objJson.txtErro + '</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+						}else{
+							if(bitExibeMSG=="1") $.colorbox({ html: '<div class="message error">A quantidade informada não é válida.</div>', fixed: true, opacity: 0.3, width: 300, height: 200 });
+						}
+						if($("DIV#innerServicosExtras_" + txtIdExtra).length>0) $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerPreco_" + objJson.numQtd).remove();
+					}else{
+						if($("DIV#innerServicosExtras_" + txtIdExtra).length>0){
+							if(!isNaN(objJson.numValorTotal)){
+								$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerListaQTDs DIV#innerPreco_" + objJson.numQtd).attr("numtotal", objJson.numValorTotal);
+								$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerPreco_" + objJson.numQtd).find('.price').text("R$ " + formatNumber(objJson.numValorTotal, 2, ",", "."));
+							}
+							if(!isNaN(objJson.numValorUnit)) $("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerPreco_" + objJson.numQtd).find('.price-unity').text("R$ " + formatNumber(objJson.numValorUnit, 2, ",", ".") + '/' + objJson.txtUnidadeMedida);
+							$("DIV#innerServicosExtras_" + txtIdExtra + " DIV#innerPreco_" + objJson.numQtd).removeClass('dp-fluid').removeClass('loading');
+						}
+						if($("DIV#innerServicosExtras_" + txtIdExtra + " DIV.novaCaixa").length>0){ // Processa somente se for "outra quantidade"
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT.itensQTD").each(function(){
+								$(this).checked = false;
+								$(this).prop("checked", false);
+							});
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#txt_qtd_extras_" + objJson.numQtd).checked = true;
+							$("DIV#innerServicosExtras_" + txtIdExtra + " INPUT#txt_qtd_extras_" + objJson.numQtd).prop("checked", true);
+						}
+					}
+				},
+				complete: function (objHTTP, txtStatus) {
+					numTimer = null;
+					fcnSimulaFrete();
+					fcnCalculaResumo();
+					if($("DIV#innerServicosExtras_" + txtIdExtra).length>0) $("DIV#innerServicosExtras_" + txtIdExtra).removeClass("loading");
+				}
+			});
+		}
+
+		function fcnAtualizaPreco(){
+			if($("DIV#innerQuantidades").length>0) $("DIV#innerQuantidades").addClass("loading");
+			if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").addClass("loading");
+
+			$("DIV#innerQuantidades DIV.dp-fluid DIV.list").each(function () {
+				$(this).addClass("dp-fluid").addClass("loading");
+			});
+			$("DIV#innerQTDCopias DIV.list").addClass('dp-fluid').addClass('loading');
+
+			if (numTimer == null) {
+				
+			} else {
+				window.clearTimeout(numTimer);
+				numTimer = null;
+			}
+			numTimer = window.setTimeout(function(){ fcnAtualizaPrecoAjax(); }, 3000);
+		}
+		function fcnAtualizaPrecoAjax(){
+			if($("DIV#innerQuantidades").length>0){
+				$("DIV#innerQuantidades DIV.dp-fluid DIV.list INPUT.itensQTD").each(function () {
+					fcnConsultaPrecoByQTD($(this).val(), 0, "0");
+				});
+			}
+			if($("DIV#innerMedida INPUT#numtotal").length>0) fcnConsultaPrecoByQTD(0, 0, "0");
+			numTimer = null;
+		}
+		function fcnAtualizaPrecoM2(){
+			if($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1 && $("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1){
+				if(!isNaN($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val()) && !isNaN($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val())){
+					$("DIV#innerQTDCopias DIV.list").addClass('dp-fluid').addClass('loading');
+					if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").addClass("loading");
+
+					numM2 = parseFloat($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val()) * parseFloat($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val());
+					
+						numM2 = parseFloat(numM2) / 10000;
+					
+					$("DIV#innerMedida SPAN#innerTotalM2").html(formatNumber(numM2, 2, ",", "."));
+
+					fcnCalculaResumo();
+
+					if (numTimer == null) {
+				
+					} else {
+						window.clearTimeout(numTimer);
+						numTimer = null;
+					}
+					numTimer = window.setTimeout(function(){ fcnConsultaPrecoByQTD(0, 0, 0); }, 3000);
+				}
+			}
+		}
+
+		function fcnSimulaFrete(){
+			if (numTimer != null) return false;
+			if($("DIV#innerFrete input:text#txt_simulaFrete_cep").length==1){
+				if($("DIV#innerFrete input:text#txt_simulaFrete_cep").val()!="00000-000" && $("DIV#innerFrete input:text#txt_simulaFrete_cep").val()!="_____-___" && $("DIV#innerFrete input:text#txt_simulaFrete_cep").val()!=""){
+					var numQtd = 0, numQtdCopia = 0, numM2=0;
+					
+					if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0){
+						$("DIV#innerQuantidades DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+							numQtd = $(this).val();
+						});
+						if (isNaN(numQtd)) numQtd = 0;
+						if(numQtd<=0){
+							$("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+							$("body, html").animate({ scrollTop: $("DIV#innerQuantidades DIV#innerListaQTDs").offset().top - 100 }, 700);
+							window.setTimeout(function(){ $("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+							$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+						}
+					}
+
+					if($("DIV#innerQTDCopias DIV#innerListaQTDs").length>0){
+						$("DIV#innerQTDCopias DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+							numQtdCopia = $(this).val();
+						});
+						if (isNaN(numQtdCopia)) numQtdCopia = 0;
+						if(numQtdCopia<=0){
+							$("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+							$("body, html").animate({ scrollTop: $("DIV#innerQTDCopias DIV#innerListaQTDs").offset().top - 100 }, 700);
+							window.setTimeout(function(){ $("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+							$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+						}
+					}
+
+					if ((numQtd>0) || (numQtdCopia>0)) {
+						$("DIV#innerFrete DIV#loading-cep").show();
+
+						var txtTipoFrete = "";
+						$("DIV#innerFrete input:radio.jsTipoFrete").each(function () {
+							if (this.checked == true){
+								txtTipoFrete = $(this).val();
+								return false;
+							}
+						});
+
+						var txtAdicionais = "";
+						$("DIV#innerOpcoes input:checkbox.adicionais").each(function () {
+							if (this.checked == true) txtAdicionais += ((txtAdicionais != "") ? (",") : ("")) + $(this).attr("value");
+						});
+
+						$("DIV#innerFrete TABLE#innerTabelaFrete THEAD").hide();
+						$("DIV#innerFrete TABLE#innerTabelaFrete TBODY").hide();
+
+						var txtURL = "/loja/nav/produtos_detalhes_frete.asp?idProduto=8NQFNCPJ&v=3";
+						txtURL += "&idProdutoChave=0QOHPKNJ";
+						txtURL += "&numQtd=" + numQtd;
+						txtURL += "&numCopias=" + numQtdCopia;
+						if($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1) txtURL += "&numM2Altura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val();
+						if($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1) txtURL += "&numM2Largura=" + $("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val();
+						txtURL += "&txtCEP=" + escape($("DIV#innerFrete input:text#txt_simulaFrete_cep").val());
+						txtURL += "&txtTipo=" + escape(txtTipoFrete);
+						txtURL += "&txtAdicionais=" + escape(txtAdicionais);
+						txtURL += "&noCache=" + escape(Date.now());
+
+						$.ajax({
+							type: "GET",
+							url: txtURL,
+							beforeSend: function () {
+								$("DIV#innerFrete TABLE#innerTabelaFrete TBODY").html("");
+								$("DIV#innerFrete DIV#loading-cep").show();
+							},
+							success: function (objJson) {
+								objJson = $.parseJSON(objJson);
+								//console.log(objJson);
+								var txtTR="", numLoop=0;
+								$("DIV#innerFrete TABLE#innerTabelaFrete TBODY").html("");
+								while(numLoop<objJson.length){
+									txtTR="";
+									txtTR+="<tr class=\"" + ((objJson[numLoop].bitChecked=="1")?(" checked"):("")) + "\" numvalor=\"" + objJson[numLoop].numValor + "\" numfretegratis=\"" + objJson[numLoop].bitMostraLabelFreteGratis + "\" id=\"trFrete_" + objJson[numLoop].numIDFrete + "\">";
+									txtTR+="<td class=\"optJS\">";
+									txtTR+="<input type=\"radio\" numvalor=\"" + objJson[numLoop].numValor + "\" value=\"" + objJson[numLoop].numIDFrete + "\" name=\"chkTipoEnvio\" id=\"chkTipoEnvio_" + objJson[numLoop].numIDFrete + "\" class=\"jsTipoFrete\"" + ((objJson[numLoop].bitChecked=="1")?(" checked"):("")) + ">";
+									txtTR+="<i class=\"flaticon flaticon-circle33\"></i><i class=\"flaticon flaticon-dot\"></i>";
+									txtTR+="</td>";
+									txtTR+="<td class=\"tituloJS\">" + objJson[numLoop].txtFrete + "</td>";
+									txtTR+="<td class=\"prazoJS\">"
+									txtTR+=((objJson[numLoop].numDiasPrazo!="" && objJson[numLoop].numDiasPrazo!="0")?(objJson[numLoop].numDiasPrazo + ((objJson[numLoop].numDiasPrazo=="1")?(" dia útil"):(" dias úteis")) ):(""))
+									txtTR+=((objJson[numLoop].numDiasProducao!="" && objJson[numLoop].numDiasProducao!="0")?("<br /> + " + objJson[numLoop].numDiasProducao + ((objJson[numLoop].numDiasProducao=="1")?(" dia útil para produção"):(" dias úteis para produção")) ):(""))
+									txtTR+="</td>";
+									txtTR+="<td class=\"formatted-price valorJS\">" + ((objJson[numLoop].bitMostraLabelFreteGratis=="1")?("Grátis"):("R$&nbsp;&nbsp;" + formatNumber(objJson[numLoop].numValor, 2, ",", "."))) + "</td>";
+									txtTR+="</tr>";
+
+									$("DIV#innerFrete TABLE#innerTabelaFrete TBODY").append(txtTR);
+									numLoop++;
+								}
+							},
+							complete: function (objHTTP, txtStatus) {
+								if($("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").length>0){
+									$("DIV#innerFrete TABLE#innerTabelaFrete THEAD").show();
+									$("DIV#innerFrete TABLE#innerTabelaFrete TBODY").show();
+									$("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").unbind("click");
+									$("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").click(function (e) {
+										$("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR").removeClass("checked");
+										$(this).addClass("checked")
+										$(this).find("input:radio").prop("checked", "checked");
+										fcnCalculaResumo();
+									});
+								}
+								$("DIV#innerFrete DIV#loading-cep").hide();
+								fcnResumo();
+							}
+						});
+					}else{
+						$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+					}
+				}
+			}
+		}
+
+		function fcnCalculaCopias() {
+			var numTotalVL = 0, numTotalCalculo = 0;
+			$("DIV#innerQTDCopias DIV.list").addClass('dp-fluid').addClass('loading');
+			if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").addClass("loading");
+
+			if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0){
+				$("DIV#innerQuantidades DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+					numTotalVL = parseFloat($("DIV#innerQuantidades DIV#innerListaQTDs DIV#innerPreco_" + $(this).val()).attr("numtotal"));
+					return;
+				});
+			}
+			if($("DIV#innerMedida INPUT#numtotal").length>0){
+				numTotalVL = parseFloat($("DIV#innerMedida INPUT#numtotal").val());
+			}
+			$("DIV#innerQTDCopias DIV#innerListaQTDs div.list INPUT.itensQTD").each(function () {
+				numTotalCalculo = parseFloat(numTotalVL) * parseFloat($(this).val());
+				numTotalCalculo = parseFloat(numTotalCalculo) * (1.0-(parseFloat($(this).attr("numPerc")) / 100.0));
+				$(this).parent("DIV.option-group-item").find("SPAN.price").html("R$ " + formatNumber(numTotalCalculo, 2, ",", "."));
+				$("DIV#innerQTDCopias DIV#innerListaQTDs DIV#innerPreco_" + $(this).val()).attr("numTotal", formatNumber(numTotalCalculo, 4, ".", ""));
+				
+				numTotalCalculo = parseFloat(numTotalCalculo) / parseFloat($(this).val());
+				$(this).parent("DIV.option-group-item").find("SPAN.price-unity").html("R$ " + formatNumber(numTotalCalculo, 2, ",", ".") + "/" + $("DIV#innerQTDCopias DIV#innerListaQTDs").attr("txtUnidadeMedida"));
+			});
+
+			fcnCalculaResumo();
+			$("DIV#innerQTDCopias DIV.list").removeClass('dp-fluid').removeClass('loading');
+			if($("DIV#innerQTDCopias").length>0) $("DIV#innerQTDCopias").removeClass("loading");
+		}
+
+		function fcnCalculaResumo(){
+			var numPrecoItem=0, numTotalResumo=0, txtResumo="", objHTML;
+
+			$objHTML = $("<TBODY></TBODY>");
+			$("DIV#innerOpcoes input:checkbox.adicionais:checked").each(function () {
+				if($objHTML.find("TR." + $(this).attr("name")).length==0){
+					txtResumo="<tr class=\"" + $(this).attr("name") + "\"><th>" + $("DIV#innerOpcoes DIV#innerAdicional_" + $(this).attr("name")).text() + ":</th><td></td></tr>";
+					$objHTML.append($(txtResumo));
+				}
+				if($objHTML.find("TR." + $(this).attr("name") + " TD").html()!="") $objHTML.find("TR." + $(this).attr("name") + " TD").append($("<br/>"));
+				$objHTML.find("TR." + $(this).attr("name") + " TD").append($(this).parent("DIV.option-group-item").find("DIV.option-group-label").text());
+			});
+			$("DIV#innerResumo TABLE#tblOpcoes TBODY").replaceWith($objHTML);
+
+			txtResumo = "";
+			
+				$("DIV#innerQuantidades DIV.dp-fluid DIV.list INPUT.itensQTD:checked").each(function () {
+					txtResumo = $(this).val();
+				});
+				if(txtResumo==""){
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtd").hide();
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtd TD").text("");
+				}else{
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtd TD").text(txtResumo + " " + $("DIV#innerQuantidades DIV#innerListaQTDs").attr("txtUnidadeMedida"));
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtd").show();
+
+					
+						numPrecoItem = parseFloat(numPrecoItem) + parseFloat($("DIV#innerQuantidades DIV#innerListaQTDs DIV#innerPreco_" + txtResumo).attr("numtotal"));
+						numTotalResumo=parseFloat(numTotalResumo) + parseFloat($("DIV#innerQuantidades DIV#innerListaQTDs DIV#innerPreco_" + txtResumo).attr("numtotal"));
+					
+				}
+			
+
+			txtResumo = "";
+			
+
+			if($("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtdCopia TD").text()=="" && $("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resQtdCopia TD").text()==""){
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resPreco").hide();
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resPreco TD").text("");
+			}else{
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resPreco TD").text("R$ " + formatNumber(numPrecoItem, 2, ",", ".") );
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resPreco").show();
+			}
+
+			//Extras
+			$("DIV.classServicosExtras").each(function () {
+				var numValor=0; var txtItem=""; var idItem=$(this).find("INPUT#txtIdExtra").val();
+				txtItem=$(this).find("DIV.panel-head H2").html();
+				numValor = parseFloat($(this).find("INPUT.itensQTD:checked").attr("numTotal"));
+				if(isNaN(numValor))numValor=0;
+
+				numTotalResumo+=numValor;
+				if(numValor==0){
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.extra_" + idItem).remove();
+				}else{
+					if($("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.extra_" + idItem).length==0) $("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resPreco").after("<tr class='extra_" + idItem + "'><th>" + txtItem + ":</th><td>R$ " + formatNumber(numValor, 2, ",", ".") + "</td></tr>");
+				}
+			});
+
+			txtResumo = "";
+			$("DIV#innerFrete TABLE#innerTabelaFrete TBODY INPUT.jsTipoFrete:checked").each(function () {
+				txtResumo = $(this).val();
+			});
+			if(txtResumo==""){
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resFrete").hide();
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resFrete TD").text("");
+			}else{
+				if($("DIV#innerFrete TABLE#innerTabelaFrete TBODY TR#trFrete_" + txtResumo).attr("numfretegratis")=="1"){
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resFrete TD").text("Grátis");
+				}else{
+					$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resFrete TD").text("R$ " + formatNumber($("DIV#innerFrete TABLE#innerTabelaFrete TBODY INPUT#chkTipoEnvio_" + txtResumo).attr("numvalor"), 2, ",", ".") );
+				}
+				$("DIV#innerResumo TABLE#tblOpcoes TFOOT TR.resFrete").show();
+				numTotalResumo=parseFloat(numTotalResumo) + parseFloat($("DIV#innerFrete TABLE#innerTabelaFrete TBODY INPUT#chkTipoEnvio_" + txtResumo).attr("numvalor"));
+			}
+
+			$("DIV#innerResumo TABLE#tblOpcoes TFOOT td.resTotal .big-price").text("R$ " + formatNumber(numTotalResumo, 2, ",", ".") );
+
+			fcnAlturaPagina();
+		}
+
+		
+
+		function fcnAdicionaCarrinho(){
+			var txtNomeItem = "", bitSelecionado = true, numQtd = 1, numQtdCopia = 1, txtAdicionais = "", txtTipoFrete = "", txtExtras = "";
+
+			// Verifica se tem algo em processamento - INICIO
+			bitSelecionado = false;
+			if($("DIV#innerQuantidades").length>0) if($("DIV#innerQuantidades").hasClass("loading")) bitSelecionado = 1;
+			if($("DIV#innerQTDCopias").length>0) if($("DIV#innerQTDCopias").hasClass("loading")) bitSelecionado = 2;
+			if($("DIV#innerEnvieArquivo").length>0) if($("DIV#innerEnvieArquivo").hasClass("loading")) bitSelecionado = 3;
+			if (bitSelecionado != false) {
+				if(bitSelecionado==1) $.colorbox({ html: '<div class="message error">Aguarde até que possamos finalizar o calculo do preço para finalizar sua compra.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+				if(bitSelecionado==2) $.colorbox({ html: '<div class="message error">Aguarde até que possamos finalizar o calculo do preço para finalizar sua compra.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+				if(bitSelecionado==3) $.colorbox({ html: '<div class="message error">Aguarde até que sua transferência seja realizada para adicionar outro arquivo ou finalizar sua compra.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+				return false;
+			}
+			// Verifica se tem algo em processamento - TERMINO
+
+			// Opcionais - inicio
+			txtNomeItem = "";
+			bitSelecionado = true;
+			$("DIV#innerOpcoes input:checkbox.obrigatorio").each(function () {
+				if (txtNomeItem != $(this).attr("name")) {
+					if (bitSelecionado == false) return;
+					txtNomeItem = $(this).attr("name");
+					bitSelecionado = false;
+				}
+				if(bitSelecionado == false && this.checked == true) bitSelecionado = true;
+			});
+			if (bitSelecionado == false) {
+				$.colorbox({ html: '<div class="message error">Você precisa selecionar pelo menos um(a) ' + $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).html() + '.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+				$("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).parent(".dt-table-cell").find("DIV.option-group-item").addClass("error");
+				$("body, html").animate({ scrollTop: $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).offset().top - 100 }, 700);
+				window.setTimeout(function(){ $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).parent(".dt-table-cell").find("DIV.option-group-item").removeClass("error"); }, 5000);
+				return false;
+			}
+			txtAdicionais = "";
+			$("DIV#innerOpcoes input:checkbox.adicionais:checked").each(function () {
+				if (this.checked == true) txtAdicionais += ((txtAdicionais != "") ? (",") : ("")) + $(this).attr("value");
+			});
+			// Opcionais - termino
+
+			
+
+			// Quantidades - inicio
+			bitSelecionado = false;
+			numQtd = 0;
+			if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0){
+				$("DIV#innerQuantidades DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+					bitSelecionado = true;
+					numQtd = $(this).val();
+					return;
+				});
+				if (bitSelecionado == false) {
+					$("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+					$("body, html").animate({ scrollTop: $("DIV#innerQuantidades DIV#innerListaQTDs").offset().top - 100 }, 700);
+					window.setTimeout(function(){ $("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+					$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+				}
+			}
+			// Quantidades - termino
+
+			// Copias - inicio
+			bitSelecionado = false;
+			numQtdCopia = 0;
+			if($("DIV#innerQTDCopias DIV#innerListaQTDs").length>0){
+				$("DIV#innerQTDCopias DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+					bitSelecionado = true;
+					numQtdCopia = $(this).val();
+					return;
+				});
+				if (bitSelecionado == false) {
+					$("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+					$("body, html").animate({ scrollTop: $("DIV#innerQTDCopias DIV#innerListaQTDs").offset().top - 100 }, 700);
+					window.setTimeout(function(){ $("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+					$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+				}
+			}
+			// Copias - termino
+
+			// Extras - inicio
+			txtExtras = "";
+			$("DIV.classServicosExtras").each(function () {
+				var numValor=0; var idItem=$(this).find("INPUT#txtIdExtra").val();
+				numValor = parseFloat($(this).find("INPUT.itensQTD:checked").attr("numTotal"));
+				if(isNaN(numValor))numValor=0;
+				
+				txtExtras += ((txtExtras != "") ? (",") : ("")) + idItem + "-" + ((numValor>0)?("S"):("N"));
+			});
+			// Extras - termino
+
+			// Upload de arquivos - inicio
+			if($("DIV#innerEnvieArquivo .input-file input[type=file]").length>0){
+				if($("DIV#innerEnvieArquivo TABLE#innerArquivosEnviados TBODY TR").length<=0 && $("DIV#innerEnvieArquivo TABLE#innerArquivosEnviados").attr("bitContinuar")!="1"){
+					$("DIV#innerEnvieArquivo .input-file").removeClass("success-file").addClass("error-file");
+					$("body, html").animate({ scrollTop: $("DIV#innerEnvieArquivo TABLE#innerArquivosEnviados").offset().top - 100 }, 700);
+					window.setTimeout(function(){ $("DIV#innerEnvieArquivo .input-file").removeClass("error-file").addClass("success-file"); }, 5000);
+					$.colorbox({ html: '<div class="message error">Você não adicionou nenhum arquivo.</div><div class="tac">Deseja avançar assim mesmo?</div><div class="tac" style="margin-top:5px"><A href="#" class="button success" onClick="javascript:$(\'DIV#innerEnvieArquivo TABLE#innerArquivosEnviados\').attr(\'bitContinuar\', \'1\'); $(document).bind(\'cbox_closed\', function(){ $(document).unbind(\'cbox_closed\'); fcnAdicionaCarrinho(); }); $.colorbox.close(); return false;">Sim</A>&nbsp;&nbsp;&nbsp;<A class="button danger" href="#" onClick="javascript:$.colorbox.close(); return false;">Não</A></div>', fixed: true, opacity: 0.3, width: 400, height: 180 });
+					return false;
+				}
+			}
+			$("DIV#innerEnvieArquivo TABLE#innerArquivosEnviados").removeAttr("bitContinuar");
+			// Upload de arquivos - termino
+
+			//$.colorbox({ html: "<h3>Salvando, aguarde alguns instantes...</h3><br /><br /><P align='center'><img src='/loja/images/loader-2.gif' width='51' height='40' alt='Salvando...' title='Salvando...' /></P>", scrolling:false, overlayClose:false, escKey:false, arrowKey:false, closeButton:false, opacity:0.3, width:400, height:180 });
+			
+			// tipo de frete selecionado - inicio
+			txtTipoFrete = "";
+			$("DIV#innerFrete TABLE#innerTabelaFrete TBODY INPUT.jsTipoFrete:checked").each(function () {
+				txtTipoFrete = $(this).val();
+				return;
+			});
+			// tipo de frete selecionado - termino
+
+			
+			if($("FORM#frmDetalhesProduto input[type=checkbox]#termos").length>0){
+				if($("FORM#frmDetalhesProduto input[type=checkbox]#termos:checked").length!=1){
+					$.colorbox({ html: '<div class="message error">Para confirmar seu pedido é necessário que aceite os Termos de Uso.</div>', fixed: true, opacity: 0.3, width: 400, height: 180 });
+					return false;
+				}
+			}
+			
+
+			var objDadosEnviar = {
+				hidEtapa:"1",
+				idP:$("FORM#frmDetalhesProduto INPUT#idP").val(),
+				idPC:$("FORM#frmDetalhesProduto INPUT#idPC").val(),
+				txt_qtd: numQtd,
+				txt_qtd_copia: numQtdCopia,
+				txtAdicionais:txtAdicionais,
+				txtExtras:txtExtras,
+				txt_m2_altura_cm: (($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1)?($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val()):("")),
+				txt_m2_largura_cm: (($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1)?($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val()):("")),
+				txt_simulaFrete_cep: (($("FORM#frmDetalhesProduto input:text#txt_simulaFrete_cep").length==1)?($("FORM#frmDetalhesProduto input:text#txt_simulaFrete_cep").val()):("")),
+				txt_observacao: (($("FORM#frmDetalhesProduto textarea#txt_observacao").length==1)?(($("FORM#frmDetalhesProduto textarea#txt_observacao").val())):("")),
+				
+				id_personalizacao: '',
+				
+				opt_simulaFrete_tipo: txtTipoFrete
+			};
+
+			if(typeof(objDadosEnviar)=="object"){
+				$.ajax({
+					type: "POST",
+					url: "/loja/nav/produtos_detalhes_v3_salva.asp",
+					data: objDadosEnviar,
+					beforeSend: function () {
+						$.colorbox.close();
+					},
+					success: function (objData) {
+						var objJSON = $.parseJSON(objData);
+						//console.log(objJSON);
+					},
+					complete: function (objHTTP, txtStatus) {
+						if(txtStatus=="success"){
+							var objJSON = $.parseJSON(objHTTP.responseText);
+							if(typeof(objJSON.txtErro)!="undefined"){
+								if(typeof(objJSON.numErro)!="undefined"){
+									if(objJSON.numErro=="80" && objJSON.txtErro!=""){
+										$.colorbox({ html: "<div style='padding:20px;'><IMG src='/loja/images/icons/alerta_1.png' width='60' height='60' style='float:left; margin-right:30px;' />" + objJSON.txtErro + "</div>", fixed: true, opacity: 0.3, width: 450, height: 250 });
+									}
+								}else{
+									if(objJSON.txtErro!=""){
+										alert("Houve um problema ao salvar as informações.\n" + objJSON.txtErro);
+									}
+								}
+							}
+							fcnAtualizaInnerCarrinho("/loja/inc/menu_top_carrinho_ajax.asp");
+							if(typeof(objJSON.reloadURL)!="undefined"){
+								window.location.href=objJSON.reloadURL;
+							}
+						}
+					}
+				});
+			}
+
+			return false;
+		}
+
+		function fcnAlturaPagina(){
+			// if(!$('html').hasClass('mobile')){
+			// $(".options-box.resumo").css({'min-height':$(".calcule-box").innerHeight() - 20});
+			// $(".options-box.resumo .content-fixed").stick_in_parent({recalc_every: 1});
+			// }
+			//$(document.body).trigger('sticky_kit:recalc')
+		}
+
+</script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" language="javascript" src="/loja/js/optionBox.js"></script>
+	<![endif]-->
+	<style>
+		#cboxTitle{bottom: auto;top: 0;}
+	</style>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-69845482-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="pagina-produto">
+	<style></style>
+<div id="upper-header" class="wrapper">
+	<div class="row wrapper">
+		<div class="col-10">
+			<div class="user-actions clearfix">
+				<a href="/loja/login/" class="item">Faça o Login</a><a href="/loja/cadastro/" class="item">Cadastre-se</a>
+			</div>
+		</div>
+		<div class="col-10">
+			
+		</div>
+		<div class="col-8">
+			<div class="user-actions clearfix phone-store">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div id="header" class="wrapper">
+	<div class="row">
+		<div class="col-10 col-logo">
+			<div class="inner-col-logo">
+				<div class="logo-image">
+                
+					<span>
+                <a href="/loja/home/" title="Loja - Principal" tabindex="1">
+						<img src="/loja/theme/images/logo-loja.png" class="logo logo-image" alt="Loja - Principal" title="Loja - Principal" />
+					</a>
+					
+                    </span>
+                
+				</div>
+			</div>
+		</div>
+		<div class="col-4 rowspan row-header-items"><div class="row first">
+					<div class="col-3">
+						
+						<div class="empty"></div>
+					</div>
+					<div class="col-11">
+						<div class="inner-chat">
+							
+						</div>
+					</div>
+				</div><div class="row last"><div class="col-3 col-search-box">
+					<form name="frmBusca" id="frmBusca" action="/loja/busca/" method="get" class="one-input featured-form form-search">
+						<input type="text" name="buscaPor" id="buscaPor" class="clean input-text input-busca" value="" data-placeholder="O que procura?" />
+						<button type="submit" class="input-submit solid-button">
+                            <i class="icon-white icon-search"></i>
+                            <span>BUSCAR</span>
+                        </button>
+					</form>	
+				</div>
+				<div class="col-11 col-cart"><a href="/loja/carrinho-compras/" class="cart" title="Meu Carrinho">
+						<strong class="willhide">Meu Carrinho</strong>
+						<div id="innerInfoCarrinhoTopo"><span class='willhide'>(vazio)</span></div>
+                        
+					</a>
+					<a href="/loja/login/" class="my-account" title="Login"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div id="menu-top" class="wrapper">
+		<div class="row">
+			<div class="col-1 col-menu-header">
+				<div class="wrapper-menu">
+					<ul class="menu-header clearfix"><li><a href="/loja/home/">Home</a></li><li><a href="/loja/produtos-categorias/8LQDRKNJ/Personalize-o-seu.html" class=''>#Personalize o seu</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/4IPFQLNJ/Almofadas.html" class=''>Almofadas</a></li><li><a href="/loja/produtos-subcategorias/8CNPQLNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/0NQIQLNJ/Camisetas.html" class=''>Camisetas</a></li><li><a href="/loja/produtos-subcategorias/8RRLQLNJ/Canecas.html" class=''>Canecas</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/4NPKPKNJ/Adesivos.html" class=''>Adesivos</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/4NPKPKNJ/Adesivos-de-Parede.html" class=''>Adesivos de Parede</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0RMHQKNJ/Camisetas.html" class=''>Camisetas</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/0LRGRKNJ/Estampas.html" class=''>Estampas</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/4PNKQKNJ/Especiais.html" class=''>Especiais</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8DNMMLNJ/Barca-e-Brasil.html" class=''>Barça e Brasil</a></li><li><a href="/loja/produtos-subcategorias/8FOQRKNJ/Blessed.html" class=''>Blessed</a></li><li><a href="/loja/produtos-subcategorias/4NPFRLNJ/Blessed-Tattoo.html" class=''>Blessed Tattoo</a></li><li><a href="/loja/produtos-subcategorias/8KNPRLNJ/Campeao-Liga.html" class=''>Campeão Liga</a></li><li><a href="/loja/produtos-subcategorias/0GNNRKNJ/Mae-Show-de-Bola.html" class=''>Mãe Show de Bola</a></li><li><a href="/loja/produtos-subcategorias/0GQCMLNJ/Ole.html" class=''>Olé</a></li><li><a href="/loja/produtos-subcategorias/8FPDSKNJ/Ousadia-e-Alegria.html" class=''>Ousadia e Alegria</a></li><li><a href="/loja/produtos-subcategorias/4GRFMLNJ/Primeiro-Gol.html" class=''>Primeiro Gol</a></li><li><a href="/loja/produtos-subcategorias/0DMJMLNJ/Tudo-Passa.html" class=''>Tudo Passa</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html" class='active'>Neymar Jr - Camisa 10</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/0PPOMMNJ/Almofada.html" class=''>Almofada</a></li><li><a href="/loja/produtos-subcategorias/8HOLMMNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/8QMIMMNJ/Camiseta.html" class='active'>Camiseta</a></li><li><a href="/loja/produtos-subcategorias/0ROCSLNJ/Caneca.html" class=''>Caneca</a></li><li><a href="/loja/produtos-subcategorias/0OREMMNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li><li><a href="/loja/produtos-subcategorias/4HQFSLNJ/Squeeze.html" class=''>Squeeze</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/8IRQPKNJ/Papelaria.html" class=''>Papelaria</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8IRQPKNJ/Bloco-de-Anotacoes.html" class=''>Bloco de Anotações</a></li><li><a href="/loja/produtos-subcategorias/8CMEQKNJ/Cadernos.html" class=''>Cadernos</a></li><li><a href="/loja/produtos-subcategorias/4PNKQKNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li></td></tr></tbody></table></ul></li><li><a href="/loja/produtos-categorias/0OONQKNJ/Presentes.html" class=''>Presentes</a><ul><table><tbody><tr><td valign='top'><li><a href="/loja/produtos-subcategorias/8EOPMLNJ/Adesivos-de-Parede.html" class=''>Adesivos de Parede</a></li><li><a href="/loja/produtos-subcategorias/0GPCNLNJ/Almofadas.html" class=''>Almofadas</a></li><li><a href="/loja/produtos-subcategorias/0DRIRLNJ/Baby-Look.html" class=''>Baby Look</a></li><li><a href="/loja/produtos-subcategorias/4HQFNLNJ/Bloco-de-Anotacoes.html" class=''>Bloco de Anotações</a></li><li><a href="/loja/produtos-subcategorias/8GMMNLNJ/Canecas.html" class=''>Canecas</a></li><li><a href="/loja/produtos-subcategorias/0FOCPLNJ/Kits.html" class=''>Kits</a></li><li><a href="/loja/produtos-subcategorias/0LOCOLNJ/Mouse-Pad.html" class=''>Mouse Pad</a></li><li><a href="/loja/produtos-subcategorias/4NPFOLNJ/Porta-Copos.html" class=''>Porta Copos</a></li><li><a href="/loja/produtos-subcategorias/8RMPOLNJ/Squeeze.html" class=''>Squeeze</a></li></td></tr></tbody></table></ul></li></ul>
+				</div>
+			</div>
+		</div>
+	</div><div id="breadcrumbs" class="wrapper" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<div class="row breadcrumbs-row">
+				<div class="col-2">
+					<div class="links"><a href="/loja/home/" itemprop="url"><span itemprop="title">HOME</span></a><span>&nbsp;&gt;&nbsp;</span><a href="/loja/produtos-categorias/0LRGRKNJ/Neymar-Jr---Camisa-10.html" itemprop="url"><span itemprop="title">NEYMAR JR - CAMISA 10</span></a><span>&nbsp;&gt;&nbsp;</span><a href="/loja/produtos-subcategorias/8QMIMMNJ/Camiseta.html" itemprop="url"><span itemprop="title">CAMISETA</span></a><span>&nbsp;&gt;&nbsp;</span><a href="/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" itemprop="url"><span itemprop="title">CAMISETA NEYMAR JR - CAMISA 10</span></a></div>
+				</div>
+				<div class="col-12">
+					<div class="empty"></div>
+					
+				</div>
+			</div>
+		</div>
+	<div id="main" class="wrapper">
+		<div class="row">
+			<form id="frmDetalhesProduto" name="frmDetalhesProduto" method="post" action="#" onSubmit="javascript:try { return fcnAdicionaCarrinho() } catch(err){ alert('Erro ao validar formulario\n\n' + err.message); return false };">
+		    <input type="hidden" name="hidTipo" id="hidTipo" value="TRADICIONAL" />
+		    <input type="hidden" name="idP" id="idP" value="8NQFNCPJ" />
+		    <input type="hidden" name="idPC" id="idPC" value="0QOHPKNJ" />
+		    <input type="hidden" name="txtErro" id="txtErro" value="" />
+			<div class="col-8">
+				
+				<div id="produto-thumbs">
+				
+					<div id="image-big">
+						<a href="/imgsProdutos/Produto_629/IMG_629_2_1.jpg" rel="group-thumb" alt="Camiseta Neymar Jr - Camisa 10" title="Camiseta Neymar Jr - Camisa 10"><!-- Endereço da Imagem Grande -->
+							<img src="/imgsProdutos/Produto_629/IMG_629_2_1.jpg" alt="Camiseta Neymar Jr - Camisa 10" title="Camiseta Neymar Jr - Camisa 10"><!-- Endereço da Imagem Grande -->
+							<i class="flaticon flaticon-zoom27"></i>
+						</a>
+					</div>
+				
+
+					<div id="image-slider">
+							<div class="image-item" style="background-image: url('/imgsProdutos/Produto_629/IMG_629_2_1.jpg')" data-href="/imgsProdutos/Produto_629/IMG_629_2_1.jpg" alt="Camiseta Neymar Jr - Camisa 10" title="Camiseta Neymar Jr - Camisa 10">
+								<a href="/imgsProdutos/Produto_629/IMG_629_2_1.jpg" alt="Camiseta Neymar Jr - Camisa 10" title="Camiseta Neymar Jr - Camisa 10"></a>
+							</div>
+							</div>
+				</div>
+<div id="produto-descricao" class="panel calcule-box">
+	<div class="options-box">
+	<div class="panel-head title">
+		<h2>Descrição do Produto</h2>
+	</div>
+	<div class="panel-body">
+		<div>
+			<div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif; color: rgb(0, 0, 0); font-size: medium; background-color: rgb(255, 255, 255);"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif !important; display: inline !important;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; font-family: 'PT Sans Narrow', Helvetica, Arial, sans-serif !important;"><br></span></span></div><div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;">Camiseta Neymar Jr - Camisa 10</div><div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><br></div><div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;"><b>Características:</b></span></div><div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><br style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;">- 100 % Poliester - Sublimática;</span><br style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;">- Alta Durabilidade de Impressão;</span><br style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;">- Excelente Resolução;</span><br style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><br><div style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin-bottom: 0px; box-sizing: border-box;"><b><font color="#ff0000">Prazo de entrega: 10 dias úteis + prazo dos Correios</font></b></span></span><div><br></div></span></div><br style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box;"><span style="margin: 0px; padding: 0px; outline: none; list-style-type: none; box-sizing: border-box; display: inline !important;"><span style="margin-bottom: 0px; box-sizing: border-box;"><b>Observação: Imagens meramente ilustrativas.</b></span></span></div>
+		</div>
+		<br><br>
+		
+		<div class="box-share">
+			<span>Compartilhar</span>
+			<ul class="box-share-icons row">
+				<li><a id="facebook-share" href="https://www.facebook.com/sharer/sharer.php?u=http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html"><img src="/loja//images/social-icons/facebook.jpg" data-mobile-iframe="true" alt=""></a></li>
+				<li><a id="whatsapp-share" href="whatsapp://send?text=http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" data-action="share/whatsapp/share"><img src="/loja//images/social-icons/whatsapp.jpg" alt=""></a></li>
+				<li><a id="google-share" href="https://plus.google.com/share?url=http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html"><img src="/loja//images/social-icons/google-plus.jpg" alt=""></a></li>
+				<li><a target="_blank" href="mailto:?subject=Olá, encontrei esse produto e achei que você gostaria de dar uma olhada.&body=Copie e cole o link: http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html"><img src="/loja//images/social-icons/email.jpg" alt=""></a></li>
+			</ul>
+		</div>
+
+		<!-- <div class="fb-share-button" data-href="http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html&amp;src=sdkpreparse">Compartilhar</a></div>
+		<a class="whatsapp-share" href="whatsapp://send?text=http://neymarstore.com/loja/produtos-detalhes/8NQFNCPJ/Camiseta-Neymar-Jr---Camisa-10.html" data-action="share/whatsapp/share">Compartilhar</a> -->
+	</div>
+	</div>
+</div>
+			</div>
+			<div class="col-6">
+				<div class="row ml">
+					<div id="produto-descricao-reduzida" class="panel col-1">
+	<div class="row">
+		<div class="col-7">
+			<div class="min-descricao">
+				<h1 class="subtitle">Camiseta Neymar Jr - Camisa 10</h1>
+				Camiseta Neymar Jr - Camisa 10
+			</div>
+			<div class="notification info">
+				* o valor pode variar de acordo com as opções selecionadas abaixo
+			</div>
+		</div>
+		<div class="col-7 min-preco">
+			<div class="big-preco">
+				<span>* a partir de:</span>
+				R$ 27,90
+			</div>
+			<div class="preco-pagamento">
+				
+			</div>
+		</div>
+	</div>
+</div><div id="innerOpcoes" class="panel col-1 calcule-box"><div class="options-box"><div class="panel-head title"><h2>Selecione as Opções</h2></div>
+			<div class="panel-body">
+			<div class="outer-table"><div class="dt-table"><div class="dt-table-cell"><div id="innerAdicional_opc_4GRFMLNJ" class="option-group-title">Tamanho</div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_4PNKQKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_4PNKQKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">EXG</div></div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_8CMEQKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_8CMEQKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">G</div></div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_0RMHQKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_0RMHQKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">GG</div></div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_8IRQPKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_8IRQPKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">M</div></div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_0LQNPKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_0LQNPKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">P</div></div><div class="option-group-item"><input type="checkbox" name="opc_4GRFMLNJ" id="opc_4GRFMLNJ_4NPKPKNJ" class="adicionais soUm obrigatorio" value="4GRFMLNJ_4NPKPKNJ"><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label">PP</div></div></div></div></div></div></div></div><div id="innerQuantidades" class="panel col-1 calcule-box"> <div class="options-box"><div class="panel-head title"><h2>Selecione a Quantidade Desejada</h2></div> <div class="panel-body"><div id="innerListaQTDs" class="dp-fluid" txtUnidadeMedida="Unit."><div class="dt-table-cell list" id="innerPreco_1" numTotal="27.90"><div class="option-group-item"><input type="radio" class="itensQTD" name="txt_qtd" id="txt_qtd_1" value="1" onclick="javascript:fcnCalculaCopias(); fcnCalculaResumo(); if(numTimer==null) numTimer=window.setTimeout(function(){numTimer=null; fcnSimulaFrete();}, 1000);" checked><div class="option-group-radio"><i class="flaticon flaticon-circle33"></i><i class="flaticon flaticon-dot"></i></div><div class="option-group-label"><span class="qty">1 Unit.</span><span class="price">R$ 27,90</span><span class="loading"></span></div></div></div><div class="dt-table-cell add-qty hide" id="add-qty"><div class="option-group-item"><div class="option-group-label"><span class="qty">&nbsp;</span><span class="price">Outra Quantidade</span><span class="price hide"><div class="dt-table" style="table-layout:auto"><div style="display: table-cell;"><input type="text" value="" id="new-qty" class="new-qty" maxlength="7" style="width: 100%;"></div><div style="display: table-cell;vertical-align: middle;"><a href="" id="button-add-new-qty" class="button-add-new-qty"><i class="flaticon flaticon-check31"></i></a></div></div></span><span class="price-unity">&nbsp;</span></div></div></div></div></div></div></div>
+					<div id="innerFrete" class="col-1"></div>
+					
+<!-- INICIO BOX RESUMO -->
+<div id="produto-resumo" class="panel col-1 calcule-box">
+    <div class="panel-body options-box resumo">
+    <!-- INICIO RESUMO E THUMB -->
+    <div id="innerResumo">
+        <table id="tblOpcoes">
+            <tfoot>
+                <tr>
+                    <td>
+                        <h3>Opções escolhidas</h3>
+                        <table>
+                            <tbody>
+                            </tbody>
+                            <tfoot>
+                                
+                                <tr class="resQtd">
+                                    <th>Quantidade:</th>
+                                    <td></td>
+                                </tr>
+                                
+                                <tr class="resPreco">
+                                    <th>Preço:</th>
+                                    <td></td>
+                                </tr>
+                                <tr class="resFrete">
+                                    <th>Frete:</th>
+                                    <td></td>
+                                </tr>
+                                
+                            </tfoot>
+                        </table>
+                    </td>
+                    <td class="resTotal total">
+                        <span>Valor Total</span>
+                        <span class="big-price"></span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <!-- FIM RESUMO E THUMB -->
+
+     <!-- INICIO - ENVIA ORÇAMENTO DO PRODUTO -->
+	
+		<p class="tac termos">
+			<script type="text/javascript">
+				function fcnEnviaInfoProduto() {
+					if (($.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_email").val()) == "") || ($.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_email").val()) == $.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_email").attr("placeholder")))) {
+						$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").focus();
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").css("border", "1px solid #FF0000");
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+						//alert("Digite seu e-mail.");
+						$.colorbox({ html:'<div class="message error">Digite seu e-mail.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+						return false;
+					}
+					if (fcnValidaEmail($.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_email").val())) != true) {
+						$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").focus();
+						$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").select();
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").css("border", "1px solid #FF0000");
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+						//alert("E-mail inválido, digite um e-mail válido.");
+						$.colorbox({ html:'<div class="message error">E-mail inválido, digite um e-mail válido.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+						return false;
+					}
+					if (($.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").val()) == "") || ($.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").val()) == $.trim($("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").attr("placeholder")))) {
+						$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").focus();
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").css("border", "1px solid #FF0000");
+						//$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+						//alert("Digite seu nome.");
+						$.colorbox({ html:'<div class="message error">Digite seu nome.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+						return false;
+					}
+
+					var txtNomeItem = "", bitSelecionado = true, numQtd = 1, numQtdCopia = 1, txtAdicionais = "", txtTipoFrete = "", txtExtras = "";
+
+					// Verifica se tem algo em processamento - INICIO
+					bitSelecionado = false;
+					if($("DIV#innerQuantidades").length>0) if($("DIV#innerQuantidades").hasClass("loading")) bitSelecionado = 1;
+					if($("DIV#innerQTDCopias").length>0) if($("DIV#innerQTDCopias").hasClass("loading")) bitSelecionado = 2;
+					if (bitSelecionado != false) {
+						if(bitSelecionado==1) $.colorbox({ html: '<div class="message error">Aguarde até que possamos finalizar o calculo do preço.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+						if(bitSelecionado==2) $.colorbox({ html: '<div class="message error">Aguarde até que possamos finalizar o calculo do preço.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+						return false;
+					}
+					// Verifica se tem algo em processamento - TERMINO
+
+					// Opcionais - inicio
+					txtNomeItem = "";
+					bitSelecionado = true;
+					$("DIV#innerOpcoes input:checkbox.obrigatorio").each(function () {
+						if (txtNomeItem != $(this).attr("name")) {
+							if (bitSelecionado == false) return;
+							txtNomeItem = $(this).attr("name");
+							bitSelecionado = false;
+						}
+						if(bitSelecionado == false && this.checked == true) bitSelecionado = true;
+					});
+					if (bitSelecionado == false) {
+						$.colorbox({ html: '<div class="message error">Você precisa selecionar pelo menos um(a) ' + $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).html() + '.</div>', fixed: true, opacity: 0.3, width: 350, height: 180 });
+						$("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).parent(".dt-table-cell").find("DIV.option-group-item").addClass("error");
+						$("body, html").animate({ scrollTop: $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).offset().top - 100 }, 700);
+						window.setTimeout(function(){ $("DIV#innerOpcoes #innerAdicional_" + txtNomeItem).parent(".dt-table-cell").find("DIV.option-group-item").removeClass("error"); }, 5000);
+						return false;
+					}
+					txtAdicionais = "";
+					$("DIV#innerOpcoes input:checkbox.adicionais:checked").each(function () {
+						if (this.checked == true) txtAdicionais += ((txtAdicionais != "") ? (",") : ("")) + $(this).attr("value");
+					});
+					// Opcionais - termino
+
+					// Quantidades - inicio
+					bitSelecionado = false;
+					numQtd = 0;
+					if($("DIV#innerQuantidades DIV#innerListaQTDs").length>0){
+						$("DIV#innerQuantidades DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+							bitSelecionado = true;
+							numQtd = $(this).val();
+							return;
+						});
+						if (bitSelecionado == false) {
+							$("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+							$("body, html").animate({ scrollTop: $("DIV#innerQuantidades DIV#innerListaQTDs").offset().top - 100 }, 700);
+							window.setTimeout(function(){ $("DIV#innerQuantidades DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+							$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+						}
+					}
+					// Quantidades - termino
+
+					// Copias - inicio
+					bitSelecionado = false;
+					numQtdCopia = 0;
+					if($("DIV#innerQTDCopias DIV#innerListaQTDs").length>0){
+						$("DIV#innerQTDCopias DIV#innerListaQTDs div.list INPUT.itensQTD:checked").each(function () {
+							bitSelecionado = true;
+							numQtdCopia = $(this).val();
+							return;
+						});
+						if (bitSelecionado == false) {
+							$("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").addClass("error");
+							$("body, html").animate({ scrollTop: $("DIV#innerQTDCopias DIV#innerListaQTDs").offset().top - 100 }, 700);
+							window.setTimeout(function(){ $("DIV#innerQTDCopias DIV#innerListaQTDs DIV.list DIV.option-group-item").removeClass("error"); }, 5000);
+							$.colorbox({ html: '<div class="message error">Selecione uma quantidade.</div>', fixed: true, opacity: 0.3, width: 250, height: 150 });
+						}
+					}
+					// Copias - termino
+
+					// Extras - inicio
+					txtExtras = "";
+					$("DIV.classServicosExtras").each(function () {
+						var numValor=0; var idItem=$(this).find("INPUT#txtIdExtra").val();
+						numValor = parseFloat($(this).find("INPUT.itensQTD:checked").attr("numTotal"));
+						if(isNaN(numValor))numValor=0;
+				
+						txtExtras += ((txtExtras != "") ? (",") : ("")) + idItem + "-" + ((numValor>0)?("S"):("N"));
+					});
+					// Extras - termino
+
+					// tipo de frete selecionado - inicio
+					txtTipoFrete = "";
+					$("DIV#innerFrete TABLE#innerTabelaFrete TBODY INPUT.jsTipoFrete:checked").each(function () {
+						txtTipoFrete = $(this).val();
+						return;
+					});
+					// tipo de frete selecionado - termino
+
+					var objDados = {
+						txtEmail: $("FORM#frmDetalhesProduto input:text#prInfo_txt_email").val(),
+						txtNome: $("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").val(),
+						idP:$("FORM#frmDetalhesProduto INPUT#idP").val(),
+						idPC: $("FORM#frmDetalhesProduto INPUT#idPC").val(),
+						txt_qtd: numQtd,
+						txt_qtd_copia: numQtdCopia,
+						txtAdicionais:txtAdicionais,
+						txtExtras:txtExtras,
+						txt_m2_altura_cm: (($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").length==1)?($("FORM#frmDetalhesProduto input:text#txt_m2_altura_cm").val()):("")),
+						txt_m2_largura_cm: (($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").length==1)?($("FORM#frmDetalhesProduto input:text#txt_m2_largura_cm").val()):("")),
+						txt_simulaFrete_cep: (($("FORM#frmDetalhesProduto input:text#txt_simulaFrete_cep").length==1)?($("FORM#frmDetalhesProduto input:text#txt_simulaFrete_cep").val()):("")),
+						opt_simulaFrete_tipo: txtTipoFrete
+					};
+					$.ajax({
+						url: "/loja/nav/produtos_detalhes_v3_EnvioInfoProduto.asp",
+						contentType: "application/x-www-form-urlencoded; charset=iso-8859-1",
+						async: false,
+						type: "POST",
+						data: objDados,
+						dataType: 'text',
+						beforeSend: function () {
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").attr("readonly", true);
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").attr("readonly", true);
+							$("FORM#frmDetalhesProduto button:submit#prInfo_bot_receber").attr("disabled", true);
+						},
+						success: function (objJsonRetorno) {
+							$.colorbox({ html: "<div style='padding:20px;'><IMG src='/loja/images/icons/checkround.png' width='60' height='60' style='float:left; margin-right:30px;' />Orçamento enviado com sucesso para <br /><b>" + $("FORM#frmDetalhesProduto input:text#prInfo_txt_email").val() + "</b>.</div>", fixed: true, opacity: 0.3, width: 450, height: 150 });
+						},
+						error: function (html) {
+							console.log("ERRO"); console.log(html);
+							alert("Um erro interno ocorreu. Por favor tente novamente. Caso o problema continue, informe ao administrador.");
+						},
+						complete: function (txtHTMLRetorno) {
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").attr("readonly", false);
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").attr("readonly", false);
+							$("FORM#frmDetalhesProduto button:submit#prInfo_bot_receber").attr("disabled", false);
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_email").removeAttr("readonly");
+							$("FORM#frmDetalhesProduto input:text#prInfo_txt_nome").removeAttr("readonly");
+							$("FORM#frmDetalhesProduto button:submit#prInfo_bot_receber").removeAttr("readonly");
+						}
+					});
+
+					return false;
+				}
+			</script>
+		</p>
+			<div class="row email-orcamento">
+				<div class="col-1">
+					<h3><label for="prInfo_txt_email">Gostaria de receber esse orçamento em meu e-mail</label></h3>
+					<fieldset>
+					<input type="text" name="prInfo_txt_email" id="prInfo_txt_email" maxlength="140" placeholder="Email" />
+					<input type="text" name="prInfo_txt_nome" id="prInfo_txt_nome" maxlength="240" placeholder="Nome" />
+					<button type="button" id="prInfo_bot_receber" onclick="javascript:fcnEnviaInfoProduto();">
+						<i class="icon-white icon-envelope"></i>
+						<span>ENVIAR</span>
+					</button>
+					</fieldset>
+				</div>
+			</div>
+	
+	<!-- FIM - ENVIA ORÇAMENTO DO PRODUTO -->
+
+    
+    
+        <p class="tac termos">
+            <input type="checkbox" name="termos" id="termos">
+            <label for="termos">Li e Aceitos os <b><a class="lnkTermosUso" href="/loja/nav/produtos_detalhes_termosUso.asp?idProduto=8NQFNCPJ">Termos de Uso do site</a></b></label>
+        </p>
+        <button type="submit" class="confirm">
+            <span>Clique aqui para <b>Confirmar</b></span>
+            <i class="flaticon flaticon-chevron18"></i>
+        </button>
+    
+    </div>
+</div>
+				</div>
+			</div>
+			</form>
+		</div>
+		
+
+	</div>
+    
+	<div id="footer" class="wrapper">
+	<div class="row newsletter">
+		<script type="text/javascript">
+			function fcnSalvaNewsLetter() {
+				if (($.trim($("form#frmNewsLetter input:text#news_txt_email").val()) == "") || ($.trim($("form#frmNewsLetter input:text#news_txt_email").val()) == $.trim($("form#frmNewsLetter input:text#news_txt_email").attr("placeholder")))) {
+					$("form#frmNewsLetter input:text#news_txt_email").focus();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("Digite seu e-mail.");
+					$.colorbox({ html:'<div class="message error">Digite seu e-mail.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+				if (fcnValidaEmail($.trim($("form#frmNewsLetter input:text#news_txt_email").val())) != true) {
+					$("form#frmNewsLetter input:text#news_txt_email").focus();
+					$("form#frmNewsLetter input:text#news_txt_email").select();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("E-mail inválido, digite um e-mail válido.");
+					$.colorbox({ html:'<div class="message error">E-mail inválido, digite um e-mail válido.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+				if (($.trim($("form#frmNewsLetter input:text#news_txt_nome").val()) == "") || ($.trim($("form#frmNewsLetter input:text#news_txt_nome").val()) == $.trim($("form#frmNewsLetter input:text#news_txt_nome").attr("placeholder")))) {
+					$("form#frmNewsLetter input:text#news_txt_nome").focus();
+					//$("form#frmNewsLetter input:text#news_txt_email").css("border", "1px solid #FF0000");
+					//$("form#frmNewsLetter input:text#news_txt_email").blur(function () { $(this).css("border", ""); $(this).blur(function () { }); });
+					//alert("Digite seu nome.");
+					$.colorbox({ html:'<div class="message error">Digite seu nome.</div>', fixed:true, opacity:0.3, width:200, height:130 });
+					return false;
+				}
+
+				
+				$("form#frmNewsLetter input:text#news_txt_email").attr("readonly", true);
+				$("form#frmNewsLetter input:text#news_txt_nome").attr("readonly", true);
+				$("form#frmNewsLetter button:submit#news_bot_receber").attr("disabled", true);
+
+				
+				var objAjax = new getAjax();
+				objAjax.setJavaScript("1");
+				objAjax.setHost("/loja/nav/newsletter_cadastro.asp?nome=" + escape($.trim($("form#frmNewsLetter input:text#news_txt_nome").val())) + "&email=" + escape($.trim($("form#frmNewsLetter input:text#news_txt_email").val())));
+				objAjax.sendAjax();
+
+				return false;
+			}
+		</script>
+		<form id="frmNewsLetter" name="frmNewsLetter" method="get" action="?" onSubmit="javascript:try { return fcnSalvaNewsLetter() } catch(err){ alert('Erro ao validar formulario de newsletter\n\n' + err.message); return false };">
+			<div class="col-7">
+				<div class="text-news">
+					<p><label for="news_txt_email"><strong>NEWSLETTER</strong> <span>CADASTRE-SE E RECEBA NOVIDADES, OFERTAS EXCLUSIVAS E MUITO MAIS</span></label></p>
+				</div>
+			</div>
+			<div class="col-7">
+				<fieldset class="one-input featured-form">
+					<input type="text" name="news_txt_email" id="news_txt_email" style="width: 38%;" maxlength="140" placeholder="Email" class="clean" />
+                    <input type="text" name="news_txt_nome" id="news_txt_nome" style="width: 38%;" maxlength="240" placeholder="Nome" class="clean" />
+					<button type="submit" id="news_bot_receber" class="input-submit solid-button">
+						<i class="icon-white icon-envelope"></i>
+						<span>RECEBER</span>
+                    </button>
+				</fieldset>
+			</div>
+		</form>			
+	</div>
+	<div class="row">
+		<div class="col-1">
+		<div class="col-11 col-faq">
+			<h2>Dúvidas Comuns</h2>
+			<div class="questions links-list"><a href="/loja/faq-detalhes/4GMKRKNJ/Ainda-nao-recebi-minha-compra.html" class="question" title="Ainda não recebi minha compra">Ainda não recebi minha compra</a><a href="/loja/faq-detalhes/4NPKPKNJ/Como-Comprar.html" class="question" title="Como Comprar">Como Comprar</a><a href="/loja/faq-detalhes/8IRQPKNJ/Formas-de-Pagamento.html" class="question" title="Formas de Pagamento">Formas de Pagamento</a><a href="/loja/faq-detalhes/0LRGRKNJ/Prazo-de-Entrega.html" class="question" title="Prazo de Entrega">Prazo de Entrega</a><a href="/loja/faq-detalhes/8LQDRKNJ/Servico-de-Entrega.html" class="question" title="Serviço de Entrega">Serviço de Entrega</a><a href="/loja/faq-detalhes/0GNNRKNJ/Troca-de-Produto--Produto-Danificado.html" class="question" title="Troca de Produto / Produto Danificado">Troca de Produto / Produto Danificado</a></div>
+		</div>
+		<div class="col-11 col-links">
+			<h2>Institucional</h2>
+			<div class="links-list">
+				<a href="/loja/home/" title="Home">Home</a>
+				<a href="/loja/contato/" title="Contato">Contato</a>
+
+			</div>
+		</div>
+		<div class="col-11 col-pay-methods">
+			<h2>Formas de Pagamento</h2>
+			<div class="pay-methods clearfix"><div class='clear'>Outras Formas</div><div class="paym-big"><img src="/imgsGlobais/formasPgto/ico_pagseguro.png" alt="PagSeguro" title="PagSeguro"></div>
+            
+            </div>
+		</div>
+		<div class="col-11 col-items">
+			<div class="items">
+				<div class="item first social-item"><h2>Redes Sociais</h2><a href="https://www.facebook.com/lojaoficialnjr" class="social-icon" title="Facebook" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/30_facebook.png" alt="Facebook"></a><a href="https://twitter.com/lojaneymar" class="social-icon" title="Twitter" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/31_twitter.png" alt="Twitter"></a><a href="https://www.youtube.com/user/LojaNeymar" class="social-icon" title="YouTube" target="_blank" rel="publisher"><img src="/loja/images/glyphicons_social/22_youtube.png" alt="YouTube"></a></div>
+				<div class="item contact-item">
+					<h2>Contato</h2>
+					<ul class="contact">
+						
+						<li><a href="mailto:atendimento@neymarstore.com" class="email-link">atendimento@neymarstore.com</a></li>
+					</ul>
+				</div>
+				<div class="item secure">
+                    <div id="innerTrustSign" style="display: inline-block;"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+<div id="sub-footer" class="wrapper">
+	<div class="row">
+		<div class="col-11 col-copyright">
+			<div class="copyrights">
+				Neymar Store &copy; 2017 - Todos os direitos reservados
+			</div>
+		</div>
+		<div class="col-7 col-address">
+			<address>
+				
+			</address>
+		</div>
+		<div class="col-11 col-powered">
+			<div class="powered">
+				<a href="http://print-one.com.br" title="Conheça a Print-One"><img src="/loja/images/icons/logo_printone.png" alt="Loja protegida" title="Conheça a Print-One"/></a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="up-arrow"></div><iframe name="frameOcorrencias" id="frameOcorrencias" frameborder="0" framespacing="0" style="display:none" width="768" height="1" scrolling="no" src="about:blank"></iframe>
+<div id="alert-filesize" class="alert-files">
+	<div class="alert-box">
+    	<div class="alert-box-header clearfix">
+        	<img src="/loja//images/file-alert.png" width="64" height="64">
+            <h3><b>Seu arquivo excedeu o tamanho máximo de 200MB por envio.</b></h3>
+        </div>
+        <div class="alert-box-body">
+        	<p>Você pode separá-lo em arquivos menores e reenviá-los.</p>
+        </div>
+        <div class="alert-box-footer">
+        	<a href="#" class="alert-close button"><b>OK</b></a>
+        </div>
+    </div>	
+</div>
+<div id="fb-root"></div>
+<!-- <script>
+(function(d, s, id) {
+  var js, fjs = d.getEleme

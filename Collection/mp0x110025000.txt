@@ -1,0 +1,431 @@
+|||http://www.grupoglobo.globo.com/|<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grupo Globo</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/home.css" rel="stylesheet" media="screen">
+        <link href="css/modal.css" rel="stylesheet" media="screen">
+        <link href="css/main.css" rel="stylesheet" media="screen">
+        <link rel="icon" href="img/favicon.ico" />
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <!-- Script Vídeo Globo.com -->
+        <script src="http://s.videos.globo.com/p2/j/api.min.js" type="text/javascript"></script>
+        
+        <!--[if gte IE 9]>
+          <style type="text/css">
+            .gradient {
+               filter: none;
+            }
+          </style>
+        <![endif]-->
+        <script type="text/javascript">
+            $(document).ready(function(){
+                // Scripts Cronologia //
+                    $('.iosSlider').iosSlider({
+                        scrollbar: false,
+                        snapToChildren: true,
+                        desktopmouseoverDrag: true,
+                        responsiveSlideWidth: true,
+                        infiniteSlider: false,
+                        startAtSlide: '1',
+                        navNextSelector: $(".next", this),
+                        navPrevSelector: $(".prev", this)
+                    });
+                // Scripts Cronologia //
+                
+                // Scripts Banner Home //
+                    $('#iosSliderHome').iosSlider({
+                        autoSlide: true,
+                        autoSlideTimer: 3000,
+                        scrollbar: false,
+                        snapToChildren: true,
+                        desktopmouseoverDrag: true,
+                        responsiveSlideWidth: true,
+                        infiniteSlider: true,
+                        startAtSlide: '1'
+                    });
+                // Scripts Banner Home //                
+                
+            });
+        </script>
+    </head>
+    <body class="portugues home">
+        <header class="full_width">
+  <div class="grid_940 transiton_all_responsive">
+    <div class="links_idiomas idiomas_header flt_right">
+        <a href="/ingles/index.php" class="flt_left transiton_all_responsive">English | </a> 
+        <a href="/espanhol/index.php" class="flt_right transiton_all_responsive">Español</a>
+    </div>
+    <a href="/index.php" class="logo flt_left transiton_all_responsive">Grupo Globo</a>
+    <a class="link_menu txt_link_bg_padrao flt_right">Menu</a>
+    <a class="close_menu flt_right txt_link_bg_padrao">Fechar</a>
+  </div>
+</header>
+<div class="full_width bg_azul_padrao menu">
+    <div class="grid_940 transiton_all_responsive pd_left pd_right">
+        <nav class="flt_left mg_top mg_bottom transiton_all_responsive nav_first_column">
+            <ul>
+                <li class="mg_bottom transiton_all_responsive">
+                    <span class="number_list">01</span>
+                    <a class="transiton_all_responsive" href="/estrutura_corporativa.php">Estrutura Corporativa</a>
+                </li>
+                <li class="mg_bottom transiton_all_responsive">
+                    <span class="number_list">02</span>
+                    <a class="call_modal estrutura_link transiton_all_responsive">
+                      <span class="menu_estrutura_corporativa transiton_all_responsive">Empresas do Grupo Globo</span>
+                    </a>
+                </li>
+                <li class="mg_bottom no_margin transiton_all_responsive">
+                    <span class="number_list">03</span>
+                    <a class="transiton_all_responsive" href="/responsabilidade-social.php">Responsabilidade Social</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="flt_left mg_left pd_left mg_top mg_bottom transiton_all_responsive nav_sec_column">
+            <ul>
+                <li class="mg_bottom transiton_all_responsive">
+                    <span class="number_list">04</span>
+                    <a class="transiton_all_responsive" href="/noticias.php">Notícias</a>
+                </li>
+                <li class="mg_bottom no_margin transiton_all_responsive">
+                    <span class="number_list">05</span>
+                    <a class="transiton_all_responsive" href="/comunicacao-corporativa.php">Comunicação Corporativa</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div><!-- menu END -->        <main>
+            <section class="full_width mg_bottom big_banner transiton_all_responsive">
+                <div class="grid_940 transiton_all_responsive">
+                    <h2 class="transiton_all_responsive">
+                        Somos um grupo de mídia<br>
+                        que cria, produz e distribui<br>
+                        conteúdos de qualidade que<br>
+                        informam, educam e divertem<br>
+                    </h2>
+                </div>
+                <div id="iosSliderHome" class="content fix">
+                    <ul class="slider">
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_1.jpg" title="Imagem Sistema Globo de Rádio">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_2.jpg" title="Imagem Globosat">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_3.jpg" title="Imagem TV Globo">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_4.jpg" title="Imagem Infoglobo">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_5.jpg" title="Imagem Som Livre">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_6.jpg" title="Imagem Rádio Globo">
+                            </figure>
+                        </li>
+                        <li class="flt_left">
+                            <figure>
+                                <img src="img/banners/home/slide_home_7.jpg" title="Imagem Globo.com">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </section><!-- big_banner END -->
+            <article class="grid_940 pd_bottom transiton_all_responsive">
+                <p class="flt_left txt_maior_home mg_bottom transiton_all_responsive">
+                   
+                   
+                    O Grupo Globo é um conjunto de empresas que tem como missão <br>informar, entreter e contribuir para a educação do país através de <br> conteúdos de qualidade.  <br><br>
+                    Queremos cada vez mais ser o ambiente onde todos se encontram.<br> E encontram informação, diversão e cultura, instrumentos essenciais <br>para uma sociedade que almeja a felicidade de todos e de cada um. 
+                </p>
+                <p class="flt_right txt_special_home mg_bottom transiton_all_responsive">
+                    Um grupo 100% brasileiro. O Brasil<br> é a sua origem,<br> maior inspiração e<br> responsabilidade.
+                </p>
+                
+                <section id="home_areas_atuacao">
+                    <h2>Áreas de atuação <br>do Grupo Globo</h2>
+                    <p class="flt_left transiton_all_responsive">
+                       O Grupo Globo tem posicionamento relevante em todos os segmentos em que atua.<br><br>
+                        A TV Globo tem sua programação distribuída em quase todo o território nacional, por meio de 5 emissoras próprias, em parceria com empresas afiliadas, e em mais de 100 países, por meio da Globo Internacional. Reconhecida pelo alto padrão de qualidade, marca que imprimiu desde a sua fundação em 1965, a TV Globo tem uma trajetória que se confunde com a história da televisão no Brasil, sempre pautada pelo pioneirismo e inovação.<br><br>
+                        A Globo Filmes participa da coprodução de filmes brasileiros, lançando títulos que lideram a audiência do cinema brasileiro.<br><br>
+                       A Globosat é uma programadora de canais de TV por assinatura. Conta com portfólio diversificado de canais, incluindo mais de 30 canais pagos com 24 horas de programação. Destaque para os canais SporTV, GloboNews, Multishow, GNT, VIVA e Gloob.  
+                    </p>
+                    <p class="flt_right transiton_all_responsive">
+                        O grupo atua nos segmentos de jornais e revistas, impressos e digitais, através da Infoglobo e da Editora Globo. A Infoglobo reúne os jornais diários O Globo, fundado em 1925, Extra e Expresso, além de participação no jornal Valor Econômico. A Editora Globo possui em seu portfólio 16 revistas, além de editar livros clássicos e contemporâneos. <br><br>
+                        A Som Livre atua na área musical, produzindo e comercializando conteúdo de artistas brasileiros através de vendas físicas (CDs, DVDs e outros), digitais e eventos.<br><br>
+                        No meio rádio, a atuação se dá através do Sistema Globo de Rádio, com emissoras próprias e afiliadas, nos segmentos de notícias (CBN) e talk (Rádio Globo).<br><br>
+                        O ZAP é um portal de classificados online de atuação nacional.<br><br>
+                        Todas as empresas do Grupo têm atuação no ambiente digital e são responsáveis pela extensão de suas marcas e produtos, interatividade e maior interação com sua audiência. A Globo.com atua no provimento de serviços e plataformas tecnológicas relacionadas à internet para as empresas do Grupo.
+                    </p>
+                </section>
+                
+                <section id="home_area_noticias">
+                    <h2>Notícias</h2>
+                    <a class="link_ver_mais_noticias" href="/noticias.php">ver todas</a>
+                    
+                    <div class="flt_left">                       
+                        <div>
+                            <img src="../img/noticias/grupo_globo_taxa_emissao/thumb_grupo_globo_taxa_emissao.png" />
+                        </div>
+                        <div>
+                            <p>23 de março de 2017</p>
+                            <p><a href="/noticias/grupo_globo_paga_menor_taxa_em_emissao_entre_empresas_brasileiras_no_ano.php">Grupo Globo paga menor taxa em emissão entre empresas brasileiras no ano</a></p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="flt_right" >
+                         <div>
+                            <img src="../img/noticias/museu_amanha_premio_mipim/thumb_home_museu_amanha_premio_mipim.png" />
+                        </div>
+                        <div>
+                            <p>17 de março de 2017</p>
+                            <p><a href="/noticias/museu_amanha_vence_premio_internacional_mipim.php">Museu do Amanhã vence prêmio internacional MIPIM, na categoria construção verde mais inovadora</a></p>
+                        </div>
+                    </div>
+                </section>
+                
+                
+                <aside class="box_video grid_940 area_essencia">
+                    <div class="flt_left area_essencia_tit">
+                        <h2>Essência&nbsp;<br>Globo</h2>
+                        <a class="bt_trans_bg_white" href=" http://www.essenciaglobo.com.br/" target="_blank">Acesse o site</a>
+                    </div>  
+                    <!--[if IE 9]>
+                        <p  style="float:right;font-size:.8em;text-align:center;line-height:1.4em;color:#c6261e;width:640px;">Infelizmente esse vídeo não pode ser carregado nessa versão do navegador Internet Explorer.</p>
+                    <![endif]-->
+                   
+                    <div id="player-wrapper" class="flt_right area_video">
+
+                    </div>
+                                          
+                </aside><!-- box_video END -->
+                
+            </article>
+            <section class="full_width bg_azul_claro fx_azul_full">
+                <div class="grid_940 transiton_all_responsive area_visao_principios">
+                    <aside class="flt_left but_modal_about mg_left pd_left boxes_buts transiton_all_responsive">
+                      <h4>visão, missão <br>e princípios</h4>
+                      <a href="pdf/essencia_globo.pdf" target="_blank">
+                        <span class="transiton_all_responsive">conheça mais</span>
+                      </a>
+                    </aside>
+                    <aside class="flt_right but_editorial mg_right pd_right boxes_buts transiton_all_responsive">
+                      <h4>princípios editoriais</h4>
+                      <a href="http://grupoglobo.globo.com/principios_editoriais.php">
+                        <span class="transiton_all_responsive">conheça mais</span>
+                      </a>
+                    </aside>
+                </div>
+            </section>
+            
+            <aside class="cronologia grid_940 mg_top mg_bottom">
+                <h2>Conheça os principais momentos do grupo globo</h2>
+                <h5 class="obs mg_top">Para mais informações acesse o site que traz a<a href="http://historiagrupoglobo.globo.com/" class="txt_link_bg_padrao" target="_blank"> História do Grupo Globo</a></h5>
+            </aside>
+            <aside class="cronologia full_width mg_top">
+                <div class="iosSlider content fix next_active">
+                    <ul class="slider">
+                        <li class="fix">
+                        	<a class="call_modal marco_1">
+            								<span class="card card_fechado">
+            									<img src="img/timeline/boxcard/boxCard_1_aNoite.jpg" title="História do jornal A Noite"/>
+            								</span>
+            								<span class="bg_opacity"></span>
+            								<div class="card_interior">
+            									<div>
+            										<p class="card_ano">1911</p>
+            										<p class="card_empresa">A Noite</p>
+            									</div>
+            								</div>
+                        	</a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_2">
+                                <span class="card card_fechado">
+                                    <img src="img/timeline/boxcard/boxCard_2_oGlobo.jpg" title="História do jornal O Globo"/>
+                                </span>
+                                <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                    <div>
+                                        <p class="card_ano">1925</p>
+                                        <p class="card_empresa">O Globo</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_3">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_3_radioGlobo.jpg" title="História da Rádio Globo"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1944</p>
+                                      <p class="card_empresa">Rádio Globo</p>
+                                  </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_4">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_4_editoraGlobo.jpg" title="História da Editora Globo"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1952</p>
+                                      <p class="card_empresa">Editora Globo</p>
+                                  </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_5">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_5_tvGlobo.jpg" title="História da TV Globo"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1965</p>
+                                      <p class="card_empresa">TV Globo</p>
+                                  </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_6">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_6_somLivre.jpg" title="História da Som Livre"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1969</p>
+                                      <p class="card_empresa">Som Livre</p>
+                                  </div>
+                              </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_7">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_7_fundacaoRobertoMarinho.jpg" title="História da Fundação Roberto Marinho"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1977</p>
+                                      <p class="card_empresa" >Fundação Roberto<br> Marinho</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_8">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_8_globosat.jpg" title="História da Globosat"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">1991</p>
+                                      <p class="card_empresa">Globosat</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="fix">
+                            <a class="call_modal marco_9">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_9_globocom.jpg" title="História da Globo.com"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">2000</p>
+                                      <p class="card_empresa">Globo.com</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </li>
+                         <li class="fix">
+                            <a class="call_modal marco_10">
+                                <span class="card card_fechado">
+                                   <img src="img/timeline/boxcard/boxCard_10_zap.png" title="História da ZAP imóveis"/>
+                               </span>
+                               <span class="bg_opacity"></span>
+                                <div class="card_interior">
+                                   <div>
+                                      <p class="card_ano">2007</p>
+                                      <p class="card_empresa">ZAP</p>
+                                  </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div ></div>
+                <div ></div>
+                <a class="prev setas rpl"></a>
+                <a class="next setas rpl"></a>
+            </aside><!-- cronologia_END -->
+        </main>
+        <footer class="full_width bg_azul_padrao">
+    <div class="grid_940">
+        <p class="flt_left">&copy;2015 Grupo Globo</p>
+	    <div class="links_idiomas idiomas_footer flt_right">
+	        <a href="/ingles/index.php" class="flt_left transiton_all_responsive">English | </a> 
+	        <a href="/espanhol/index.php" class="flt_right transiton_all_responsive">Español</a>
+	    </div>
+    </div>
+</footer>        <div class="global_modal full_width">
+    <a class="close_modal txt_link_bg_padrao">X</a>
+    <div class="bg_modal full_width"></div>
+    <div class="modal_content estrutura_css_hack">
+
+    </div><!-- modal_content END -->
+</div><!-- global_modal END -->
+            
+           
+        
+        <script type="text/javascript" src="js/jquery.iosslider.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+      
+            
+            <!-- Script Vídeo Globo.com -->
+             <script type="text/javascript">
+              // Verifica se o navegador é IE9, por causa do matchMedia
+              if (document.all && !window.atob) {
+                     var element = document.getElementById('player-wrapper');
+                 new WM.Player( { videosIDs:4783052, width: 640,height: 360, usePlayer3: true} ).attachTo(element);
+              } else if(matchMedia) {
+                    var mq = window.matchMedia("(min-width: 768px)");
+                    mq.addListener(WidthChange);
+                    WidthChange(mq);
+              }
+
+                // media query change
+                function WidthChange(mq) {
+
+                    if (mq.matches) {
+                         var element = document.getElementById('player-wrapper');
+                                 new WM.Player( { videosIDs:4783052, width: 640,height: 360, usePlayer3: true} )

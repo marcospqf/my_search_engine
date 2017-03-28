@@ -1,0 +1,912 @@
+|||http://pt.global.nba.com/schedule/|<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js ie8" xmlns:ng="http://angularjs.org" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html xmlns:ng="http://angularjs.org" lang="en"> <!--<![endif]-->
+  <head>
+          <!-- Font face import -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <link href="/styles/custom/fontface.css" rel="stylesheet">
+    <title></title>
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,500,700,700italic&subset=cyrillic-ext,latin" rel="stylesheet" type="text/css">
+<link href="/styles/libs.min.css" rel="stylesheet">
+<link href="/styles/custom.min.css" rel="stylesheet">
+	 
+
+	<!--SSI /frags/licensee_scripts_header.html -->
+	<!-- Start Licensee Header Scripts Fragment -->
+<!-- Start Licensee Header Scripts Fragment -->
+
+
+  <script src="//assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-d9b6b2f2eab6ba46c5f79c51e4200a58ea37938f.js"></script>
+
+
+<script src="/frags/meta.js"></script>
+
+<!-- SSI fork for esi or beo -->
+
+<!--BEGIN content for url: http://sportv.globo.com/servico/sportv/nba/css.html--><link rel="stylesheet" href="http://s.glbimg.com/es/ge/static/live/CACHE/css/2cf71f62cec2.css" type="text/css" /><link rel="stylesheet" href="http://s.glbimg.com/es/ge/static/live/CACHE/css/a6bfcb73c334.css" type="text/css" media="screen" /><link rel="stylesheet" href="http://s.glbimg.com/es/ge/static/live/CACHE/css/f568f6f30f18.css" type="text/css" media="screen" /><link rel="stylesheet" href="http://s.glbimg.com/es/ge/static/live/CACHE/css/1aca4d649779.css" type="text/css" /><link rel="stylesheet" href="http://s.glbimg.com/es/ge/static/live/ge_tag_manager/css/publicidade.css"><link rel="stylesheet" href="http://s.glbimg.com/gl/ba/css/barra-globocom.min.css" type="text/css" media="screen">
+<!--END content for url: http://sportv.globo.com/servico/sportv/nba/css.html-->
+
+
+
+<!-- END SSI fork for esi or beo -->
+
+
+
+<script>
+   var navigationOptions = {
+     language : 'pt',
+     otherLocation: "http://www.nba.com/gr/reflectIntl.html?gr=portugueseuw&page=www&dur=ses",
+     usLocation : "http://www.nba.com/gr/reflectIntl.html?gr=portugueseuw&page=www&&dur=1w",
+     optionText : "NBA.portuguese",
+     editionCookie: "pt_hp"
+   }
+</script>
+
+<!-- End Licensee Header Scripts Fragment -->
+
+	
+    <!--[if IE]>
+      <link href="/styles/libs/font-awesome-ie7.min.css" rel="stylesheet">
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/scripts/libs/es5-shim.min.js"></script>
+      <script src="/scripts/libs/es5-sham.min.js"></script>
+      <script>
+        document.createElement('sib-bar-chart');
+        document.createElement('sib-bar');
+        document.createElement('sib-fallback-src');
+        document.createElement('sib-hotzone-chart');
+        document.createElement('sib-img-player');
+        document.createElement('sib-img-team');
+        document.createElement('sib-playoff-scoreboard-slider');
+        document.createElement('sib-scoreboard-date');
+        document.createElement('sib-scoreboard-slider');
+        document.createElement('sib-social-icons');
+        document.createElement('sib-calendar');
+        document.createElement('sib-scores-calendar');
+        document.createElement('sib-team-twitter');
+        document.createElement('sib-playoff-bracket');
+        document.createElement('ng-pluralize');
+      </script>
+      <style>
+        .sib-table-container select {
+          background-image: none !important;
+        }
+        #player-index-search-label {
+          display: inline !important;
+        }
+      </style>
+    <![endif]-->
+    <style>
+      [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide {  display: none !important; }
+    </style>  </head>
+
+  <body data-ng-app="sib" id="ng:app" class="ng-app:sib sib3" >
+  
+    <div data-ng-show="loading && !errors.length" class="preloader">
+        <img src="/media/img/loader.gif" /><br />
+    </div>
+    
+    <div id="app-container" class="ng-hide nba-app-container"  data-ng-hide="loading">
+
+      <div class="global-nav-container nba-global-nav-container" data-ng-show="showNav">
+        <!--SSI /frags/licensee_global_navigation.html -->
+        <!-- Start licensee_global_navigation -->
+
+<!-- SSI fork for esi or beo -->
+
+
+<!--BEGIN content for url: http://sportv.globo.com/servico/sportv/nba/header.html--><script src="http://s3.glbimg.com/cdn/libs/jquery/2.1.4/jquery.min.js"></script><!-- TEALIUM --><script type="text/javascript">
+
+    var utag_data = {"ad_site_page": "globosat.sportv/nba", "video_zoneid": "", "extras": "", "page_name": "index", "structure_tree": "[\"sportv\", \"nba\"]"};
+
+</script><script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.globo.com/utag/globo/globosat/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script><script type="text/javascript">
+var OAS_sitepage = OAS_sitepage || "globosat.sportv/nba";
+var SETTINGS = SETTINGS || {};
+SETTINGS.adUnit = "globosat.sportv/nba";
+SETTINGS.adCustomData = "tvg_pgStr=globoesporte/sportv/nba&amp;tvg_pgName=index&amp;tvg_pgTipo=Home&amp;tvg_cma=globoesporte,sportv,nba";
+SETTINGS.zoneId = "";
+</script><script type="text/javascript">
+        var _gaq = _gaq || [];
+        var glb = window.glb || {};
+        glb.barra = {
+            exibeAssineJa: true,
+            exibeCentral: true,
+            iframe: false
+        };
+        glb.cdnConfig = glb.cdnConfig || {};
+        glb.cdnConfig.defaultHost = "globoesporte.globo.com";
+        glb.cdnConfig.openSubmenuId = 'menu-1-sportv';
+    </script>
+
+        <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.utils.js"></script>
+        <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.events.js"></script>
+        <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.htmlnode.js"></script>
+        <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.scrollspy.js"></script>
+        <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.hub.js"></script>
+        <script>
+            window.RESPONSIVE_SETTINGS = window.RESPONSIVE_SETTINGS || {};
+            RESPONSIVE_SETTINGS.autoChangeImages = true;
+            RESPONSIVE_SETTINGS.screenWidths = [['desktop', 1065], ['tablet', 768], ['smart_horizontal', 360], ['smart', 0]];
+            RESPONSIVE_SETTINGS.thumborUrl = "http://thumbor.globoi.com";
+        </script>
+    <script src="http://s.glbimg.com/es/ge/static/live/libby/responsive_hub/js/libby.responsive.connector.js"></script>
+
+
+<script>
+    (function (window, document) {
+      var regexApp = function () {
+        return /MobApp_Android|MobApp_iOS|MobApp_WP/;
+      };
+
+      var getUserAgent = function () {
+        if (window.getUserAgent) {
+          return window.getUserAgent();
+        }
+        return window.navigator.userAgent;
+      };
+
+      var extractAppFromUserAgent = function () {
+        var appUserAgent, appVars, index, ua, userAgentParts;
+        ua = getUserAgent();
+        userAgentParts = ua.split(' ');
+        for (index in userAgentParts) {
+          appUserAgent = userAgentParts[index];
+          if (regexApp().test(appUserAgent)) {
+            appVars = appUserAgent.split('/');
+            return {
+              name: appVars[0].replace('_', ' '),
+              version: appVars[1],
+              frameworkVersion: appVars[2]
+            };
+          }
+        }
+        return null;
+      };
+
+      var addGlbOnAppClass = function () {
+        var frameworkVersion, nativeAppInfo;
+        nativeAppInfo = extractAppFromUserAgent();
+        if (nativeAppInfo !== null) {
+          if (nativeAppInfo.frameworkVersion) {
+            frameworkVersion = parseInt(nativeAppInfo.frameworkVersion, 10);
+            if (frameworkVersion >= 1) {
+              document.documentElement.className += ' glb-on-app';
+            }
+          }
+        }
+      };
+
+      addGlbOnAppClass(); // Garante que o header irá sumir rápido
+    })(window, document);
+  </script><header id="header-produto" class='header-navegacao header-editoria header-navegacao-ge' data-analytics="T"><div id="glbbarrawidget"></div><div class="floating-bar"><div class="header-bar"><div class="grid-12 clearfix area-principal row"><div class="column"><div class="menu-area to-left" data-analytics="S"><div class="menu-button"><div class="burger"><b></b><b></b><b></b></div><span class="menu-label">MENU</span></div><a href="http://sportv.globo.com" class="logo-produto icon-produto"><span class="logo-produto-container">sportv</span></a><span class="menu-produto"></span></div><div class='logo-area item-editoria tamanho-titulo-normal '><a href="http://sportv.globo.com/site/nba/" class="logo">nba</a></div><div class=" to-right"><div class="search-area"><form id="frmBuscaScroll" action="#"><input id="search-input-floating" type="text" name="q" placeholder="BUSCAR" class="search"/><label for="search-input-floating" class="glass-container"><div class="glass"><div class="iglass css3pie"></div></div></label></form></div></div></div></div></div></div><div class="cube-container"><div class="cube"><div class="face front"><div class="grid-12 clearfix area-principal row"><div class="column"><div class="menu-area to-left" data-analytics="S"><div class="menu-button"><div class="burger"><b></b><b></b><b></b></div><span class="menu-label">MENU</span></div><a href="http://sportv.globo.com" class="logo-produto icon-produto"><span class="logo-produto-container">sportv</span></a><span class="menu-produto"></span></div><div class='logo-area item-editoria tamanho-titulo-normal '><h1><a href="http://sportv.globo.com/site/nba/" class="logo">nba</a></h1></div><div class=" to-right"><div class="search-area"><form id="frmBuscaScroll" action="#"><input id="search-input-top" type="text" name="q" placeholder="BUSCAR" class="search"/><label for="search-input-top" class="glass-container"><div class="glass"><div class="iglass css3pie"></div></div></label></form></div><div id="busca-padrao"></div><div class="banner"><div class="opec-area opec-right"><div class="opec-internal"><script>typeof OAS_AD != "undefined" && OAS_AD("Right")</script><div id="banner_insert" class="tag-manager-publicidade-container"></div></div></div></div></div></div></div></div></div></div><div id="opec-mobile-topo" class="opec-area opec-mobile opec-mobile-topo opec-x60"><div class="opec-internal"><div id="banner_mobile_topo" class="tag-manager-publicidade-container"></div><script>typeof OAS_MOBILE != "undefined" && OAS_MOBILE("x60")</script></div></div></header><script>
+      window.RESPONSIVE_SETTINGS = window.RESPONSIVE_SETTINGS || {};
+      RESPONSIVE_SETTINGS.autoChangeImages = true;
+      RESPONSIVE_SETTINGS.screenWidths = [['desktop', 1065], ['tablet', 768], ['smart_horizontal', 360], ['smart', 0]];
+      RESPONSIVE_SETTINGS.thumborUrl = "";
+    </script><script>
+    (function (window, document) {
+      try {
+        new CustomEvent("test");
+      } catch (e) {
+        var CustomEvent = function (event, params) {
+          var evt;
+          params = params || {
+                bubbles: false,
+                cancelable: false,
+                detail: undefined
+              };
+
+          evt = document.createEvent("CustomEvent");
+          evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail);
+          return evt;
+        };
+
+        CustomEvent.prototype = window.Event.prototype;
+        window.CustomEvent = CustomEvent; // expose definition to window
+      }
+
+      glb = window.glb || {};
+      glb.headerReady = true;
+      document.dispatchEvent(new CustomEvent('glb.headerDom.ready'));
+    })(window, document);
+  </script><style type="text/css">.regua-navegacao,.regua-navegacao-tab,.has-regua .barra-globocom{display:none}.regua-svg-container{height:0;width:0;position:absolute;left:-999999px}</style><div id="regua-svg-container" class="regua-svg-container"><!-- default:svg --><svg xmlns="http://www.w3.org/2000/svg"><symbol id="eixo-icone-busca" viewBox="0 0 24 24"><path d="M21.67 20.27l-5.72-5.73A7.356 7.356 0 0 0 17.5 10c0-4.14-3.36-7.5-7.5-7.5-4.15 0-7.5 3.36-7.5 7.5 0 4.14 3.35 7.5 7.5 7.5 1.7 0 3.27-.57 4.53-1.54l5.73 5.73c.42.41 1.07.43 1.46.04.39-.39.37-1.04-.05-1.46zM10 15.5c-3.04 0-5.5-2.46-5.5-5.5S6.96 4.5 10 4.5c3.03 0 5.5 2.46 5.5 5.5s-2.47 5.5-5.5 5.5z"/></symbol><symbol id="eixo-icone-feed"><path d="M4 3.15v4H0v11c0 1.66 1.34 3 3 3h19c1.1 0 2-.9 2-2v-16H4zm0 15.09c0 .5-.45.91-1 .91s-1-.41-1-.91V9.15h2v9.09zm18 .91H6v-14h16v14z"/><path d="M17 14.15c0 .55-.45 1-1 1h-6c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1zm2-4c0 .55-.45 1-1 1h-8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1z"/><path d="M17 14.15c0 .55-.45 1-1 1h-6c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1zm2-4c0 .55-.45 1-1 1h-8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1z"/><path d="M19 10.15c0 .55-.45 1-1 1h-8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1zm-2 4c0 .55-.45 1-1 1h-6c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1z"/></symbol><symbol id="eixo-icone-menu"><path d="M22 6.15a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h18a1 1 0 0 1 1 1zm0 6a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h18a1 1 0 0 1 1 1zm0 6a1 1 0 0 1-1 1H3a1 1 0 1 1 0-2h18a1 1 0 0 1 1 1z"/></symbol><symbol id="eixo-icone-usuario"><path d="M12 1.15c-3.6 0-6.5 2.9-6.5 6.5 0 3.61 2.9 6.5 6.5 6.5s6.5-2.89 6.5-6.5c0-3.6-2.9-6.5-6.5-6.5zm0 11.07a4.5 4.5 0 1 1 0 0zm10.893 9.93c-.733 0-1.074-.454-1.074-.858 0-1.88-3.6-3.14-9.82-3.14s-9.818 1.135-9.818 3.14c0 .405-.41.86-1.09.86C.357 22.15 0 21.662 0 21.26c0-3.15 4.598-5.108 12-5.108s12 1.958 12 5.108c0 .404-.398.89-1.107.89z"/></symbol></svg><!-- endinject --></div><nav id="regua-navegacao" class="regua-navegacao"></nav><script>(function(){window.glb=window.glb||{},glb.cdnComponents=glb.cdnComponents||[],glb.cdnComponents.push("regua"),glb.reguaReady=!0,document.documentElement.className+=" has-regua"}).call(this);</script>
+<style type="text/css">#menu-container{display:none}</style><nav id="menu-container" class="regua-navegacao-tab menu-container menu-no-animation"><div id="menu-rounder" class="menu-rounder"><div id="menu-cascade" class="menu-cascade" data-menu-index="0"><ul class="menu-root menu-level menu-level-0"><li class="menu-item " id="menu-1-home"><a href="http://sportv.globo.com/site/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">home<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-1-programacao"><a href="http://sportv.globo.com/site/programacao/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">programação<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-1-na-tv"><a href="http://sportv.globo.com/programacao/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">na TV<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">na TV</span></a><li class="menu-item is-father " id="menu-2-programas"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Programas<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Programas</span></a><li class="menu-item " id="menu-3-bem-amigos"><a href="http://sportv.globo.com/site/programas/bem-amigos/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Bem, Amigos!<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-e-gol"><a href="http://sportv.globo.com/site/programas/e-gol/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">É Gol!!!<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-giro-da-rodada"><a href="http://sportv.globo.com/site/programas/giro-da-rodada/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Giro da Rodada<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-giro-sportv"><a href="http://sportv.globo.com/site/programas/giro-sportv/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Giro SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-planeta-sportv"><a href="http://sportv.globo.com/site/programas/planeta-sportv/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Planeta SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-redacao-sportv"><a href="http://sportv.globo.com/site/programas/redacao-sportv/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Redação SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-selecao-sportv"><a href="http://sportv.globo.com/site/programas/selecao-sportv/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Seleção SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-sensei-combate"><a href="http://sportv.globo.com/sensei" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Sensei Combate<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-sportv-news"><a href="http://sportv.globo.com/site/programas/sportv-news/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">SporTV News<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-ta-na-area"><a href="http://sportv.globo.com/site/programas/ta-na-area/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Tá na Área<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-troca-de-passes"><a href="http://sportv.globo.com/site/programas/troca-de-passes/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Troca de Passes<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-premiere"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Premiere<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Premiere</span></a><li class="menu-item " id="menu-3-camarote"><a href="http://sportv.globo.com/videos/camarote-premiere-fc/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Camarote<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-clube-tv"><a href="http://sportv.globo.com/videos/clube-tv" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Clube TV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-combate"><a href="http://sportv.globo.com/site/combate/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Combate<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Combate</span></a><li class="menu-item " id="menu-3-passando-a-guarda"><a href="http://sportv.globo.com/videos/passando-a-guarda/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Passando a Guarda<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-2-blogs"><a href="http://sportv.globo.com/site/blogs/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blogs<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-passaporte-sportv"><a href="http://sportv.globo.com/site/Passaporte-SporTV/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Passaporte SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-1-assista-agora"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Assista agora<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Assista agora</span></a><li class="menu-item " id="menu-2-sportv"><a href="http://globosatplay.globo.com/sportv/ao-vivo/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">SporTV<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-sportv-2"><a href="http://globosatplay.globo.com/sportv-2/ao-vivo/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">SporTV 2<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-sportv-3"><a href="http://globosatplay.globo.com/sportv-3/ao-vivo/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">SporTV 3<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father menu-item-submenu-broken" id="menu-1-competicoes"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">competições<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1 menu-submenu-broken menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">competições</span></a><li class="menu-item " id="menu-2-circuito-brasileiro-de-volei-de-praia"><a href="http://sportv.globo.com/site/eventos/circuito-brasileiro-de-volei-de-praia/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Circuito Brasileiro de Vôlei de Praia<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-circuito-mundial-de-volei-de-praia"><a href="http://sportv.globo.com/site/eventos/circuito-mundial-de-volei-de-praia/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Circuito Mundial de Vôlei de Praia<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-combate"><a href="http://sportv.globo.com/site/eventos/combate" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Combate<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-copa-davis"><a href="http://sportv.globo.com/site/eventos/copa-davis/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa Davis<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-copa-america"><a href="http://sportv.globo.com/site/programas/copa-america/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa América<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-copa-do-mundo-de-ginastica"><a href="http://sportv.globo.com/site/eventos/copa-do-mundo-de-ginastica/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa do Mundo de Ginástica<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-corrida-aerea"><a href="http://sportv.globo.com/site/eventos/corrida-aerea/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Corrida Aérea<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-futebol-7"><a href="http://sportv.globo.com/site/eventos/Futebol-7/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Futebol 7<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-liga-de-basquete-feminino"><a href="http://sportv.globo.com/site/eventos/liga-de-basquete-feminino/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Liga de Basquete Feminino<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-liga-nacional-de-futsal"><a href="http://sportv.globo.com/site/eventos/liga-nacional-de-futsal/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Liga Nacional de Futsal<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul><ul class="menu-level menu-submenu menu-submenu-level1 menu-submenu-broken menu-submenu-column-2"><li class="menu-item " id="menu-2-masters-1000"><a href="http://sportv.globo.com/site/eventos/masters-1000" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Masters 1000<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-mundial-de-motovelocidade"><a href="http://sportv.globo.com/site/eventos/mundial-de-motovelocidade" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Mundial de Motovelocidade<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-showbol"><a href="http://sportv.globo.com/site/eventos/showbol" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Showbol<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-torneio-dos-campeoes-da-atp"><a href="http://sportv.globo.com/site/eventos/torneio-dos-campeoes-da-atp/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Torneio dos Campeões da ATP<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-torneios-de-futevolei"><a href="http://sportv.globo.com/site/eventos/torneios-de-futevolei/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Torneios de Futevôlei<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-torneios-de-futsal"><a href="http://sportv.globo.com/site/eventos/Torneios-de-Futsal/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Torneios de Futsal<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-trofeu-maria-lenk"><a href="http://sportv.globo.com/site/eventos/trofeu-maria-lenk/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Troféu Maria Lenk<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-us-open"><a href="http://sportv.globo.com/site/eventos/US-Open/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">US Open<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-wimbledon"><a href="http://sportv.globo.com/site/eventos/Wimbledon/index.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Wimbledon<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-1-futebol"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">futebol<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">futebol</span></a><li class="menu-item is-father menu-item-submenu-broken" id="menu-2-serie-a"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Série A<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2 menu-submenu-broken menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Série A</span></a><li class="menu-item " id="menu-3-atletico-go"><a href="http://sportv.globo.com/videos/atletico-go" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Atlético-GO<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-atletico-mg"><a href="http://sportv.globo.com/videos/atletico-mg" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Atlético-MG<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-atletico-pr"><a href="http://sportv.globo.com/videos/atletico-pr" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Atlético-PR<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-avai"><a href="http://sportv.globo.com/videos/avai" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Avaí<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-bahia"><a href="http://sportv.globo.com/videos/bahia" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Bahia<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-botafogo"><a href="http://sportv.globo.com/videos/botafogo" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Botafogo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-chapecoense"><a href="http://sportv.globo.com/videos/chapecoense" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Chapecoense<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-corinthians"><a href="http://sportv.globo.com/videos/corinthians" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Corinthians<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-coritiba"><a href="http://sportv.globo.com/videos/coritiba" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Coritiba<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-cruzeiro"><a href="http://sportv.globo.com/videos/cruzeiro" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Cruzeiro<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul><ul class="menu-level menu-submenu menu-submenu-level2 menu-submenu-broken menu-submenu-column-2"><li class="menu-item " id="menu-3-flamengo"><a href="http://sportv.globo.com/videos/flamengo" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Flamengo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-fluminense"><a href="http://sportv.globo.com/videos/fluminense" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Fluminense<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-gremio"><a href="http://sportv.globo.com/videos/gremio" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Grêmio<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-palmeiras"><a href="http://sportv.globo.com/videos/palmeiras" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Palmeiras<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-ponte-preta"><a href="http://sportv.globo.com/videos/ponte-preta" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Ponte Preta<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-santos"><a href="http://sportv.globo.com/videos/santos" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Santos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-sao-paulo"><a href="http://sportv.globo.com/videos/sao-paulo" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">São Paulo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-sport"><a href="http://sportv.globo.com/videos/sport" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Sport<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-vasco"><a href="http://sportv.globo.com/videos/vasco" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vasco<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-vitoria"><a href="http://sportv.globo.com/videos/vitoria" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vitória<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father menu-item-submenu-broken" id="menu-2-serie-b"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Série B<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2 menu-submenu-broken menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Série B</span></a><li class="menu-item " id="menu-3-abc"><a href="http://sportv.globo.com/videos/abc" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">ABC<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-america-mg"><a href="http://sportv.globo.com/videos/america-mg/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">América-MG<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-boa-esporte"><a href="http://sportv.globo.com/videos/boa-esporte" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Boa Esporte<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-brasil-de-pelotas"><a href="http://sportv.globo.com/videos/brasil-de-pelotas/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Brasil de Pelotas<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-ceara"><a href="http://sportv.globo.com/videos/ceara" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Ceará<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-crb"><a href="http://sportv.globo.com/videos/crb/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">CRB<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-criciuma"><a href="http://sportv.globo.com/videos/criciuma" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Criciúma<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-figueirense"><a href="http://sportv.globo.com/videos/figueirense" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Figueirense<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-goias"><a href="http://sportv.globo.com/videos/goias" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Goiás<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-guarani"><a href="http://sportv.globo.com/videos/guarani" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Guarani<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul><ul class="menu-level menu-submenu menu-submenu-level2 menu-submenu-broken menu-submenu-column-2"><li class="menu-item " id="menu-3-internacional"><a href="http://sportv.globo.com/videos/internacional" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Internacional<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-juventude"><a href="http://sportv.globo.com/videos/juventude/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Juventude<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-londrina"><a href="http://sportv.globo.com/videos/londrina/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Londrina<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-luverdense"><a href="http://sportv.globo.com/videos/luverdense" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Luverdense<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-nautico"><a href="http://sportv.globo.com/videos/nautico" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Náutico<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-oeste"><a href="http://sportv.globo.com/videos/oeste" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Oeste<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-parana"><a href="http://sportv.globo.com/videos/parana" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Paraná<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-paysandu"><a href="http://sportv.globo.com/videos/paysandu/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Paysandu<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-santa-cruz"><a href="http://sportv.globo.com/videos/santa-cruz" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Santa Cruz<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-vila-nova"><a href="http://sportv.globo.com/videos/vila-nova/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vila Nova<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-nacional"><a href="http://sportv.globo.com/videos/futebol-nacional" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Nacional<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Nacional</span></a><li class="menu-item " id="menu-3-brasileirao-serie-a"><a href="http://sportv.globo.com/site/futebol/campeonato-brasileiro-2016/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Brasileirão Série A<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-brasileirao-serie-b"><a href="http://sportv.globo.com/videos/brasileirao-serie-b" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Brasileirão Série B<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-brasileirao-serie-c"><a href="http://sportv.globo.com/videos/brasileirao-serie-c" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Brasileirão Série C<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-copa-do-brasil"><a href="http://sportv.globo.com/videos/copa-do-brasil" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa do Brasil<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-carioca-2017"><a href="http://sportv.globo.com/site/futebol/carioca-2017/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Carioca 2017<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-paulistao-2017"><a href="http://sportv.globo.com/site/futebol/campeonato-paulista-2017/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Paulistão 2017<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-estaduais"><a href="http://sportv.globo.com/videos/estaduais" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Estaduais<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-selecao-brasileira"><a href="http://sportv.globo.com/videos/selecao-brasileira/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Seleção brasileira<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-internacional"><a href="http://sportv.globo.com/videos/futebol-internacional" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Internacional<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Internacional</span></a><li class="menu-item " id="menu-3-copa-america"><a href="http://sportv.globo.com/videos/copa-america/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa América<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-copa-sul-americana"><a href="http://sportv.globo.com/videos/copa-sul-americana" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa Sul-Americana<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-futebol-frances"><a href="http://sportv.globo.com/videos/futebol-frances" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Futebol Francês<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-mundial-de-clubes"><a href="http://sportv.globo.com/videos/mundial-de-clubes" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Mundial de Clubes<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-taca-libertadores"><a href="http://sportv.globo.com/videos/libertadores" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Taça Libertadores<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-futebol"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">+ Futebol<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">+ Futebol</span></a><li class="menu-item " id="menu-3-amistosos"><a href="http://sportv.globo.com/videos/amistosos" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Amistosos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-futebol-feminino"><a href="http://sportv.globo.com/videos/futebol-feminino" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Futebol Feminino<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-futebol-de-areia"><a href="http://sportv.globo.com/videos/futebol-de-areia" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Futebol de Areia<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li></ul></li><li class="menu-item " id="menu-1-brasileirao"><a href="http://sportv.globo.com/site/futebol/campeonato-brasileiro-2016/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Brasileirão<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-1-blogs"><a href="http://sportv.globo.com/site/blogs/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blogs<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Blogs</span></a><li class="menu-item " id="menu-2-blog-alambrado"><a href="http://sportv.globo.com/site/blogs/especial-blog/alambrado/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog Alambrado<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-all-star"><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-all-star/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog All-Star<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-coach"><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-coach/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do Coach<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-daniel-fucs"><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-daniel-fucs/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do Daniel Fucs<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-fabio-seixas"><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-fabio-seixas/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do Fábio Seixas<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-ledio-carmona"><a href="http://sportv.globo.com/site/blogs/especial-blog/jogos-que-eu-vi/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do Lédio Carmona<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-pc-vasconcellos"><a href="http://sportv.globo.com/site/blogs/especial-blog/pc-vasconcellos/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do PC Vasconcellos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-blog-do-renatinho"><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-renatinho/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Blog do Renatinho<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-cest-le-foot"><a href="http://sportv.globo.com/site/blogs/especial-blog/cest-le-foot/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">C&#39;est Le Foot<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-entre-as-canetas"><a href="http://sportv.globo.com/site/blogs/especial-blog/entre-as-canetas/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Entre as Canetas<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-lance-livre"><a href="http://sportv.globo.com/site/blogs/especial-blog/lance-livre/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Lance Livre<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-mundomoto"><a href="sportv.globo.com/site/blogs/especial-blog/mundo-moto/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Mundomoto<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-por-dentro-do-jogo"><a href="http://sportv.globo.com/site/blogs/especial-blog/por-dentro-do-jogo/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Por dentro do jogo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-ponta-de-lanca"><a href="http://sportv.globo.com/site/blogs/especial-blog/ponta-de-lanca/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Ponta de Lança<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-ultimmato"><a href="http://sportv.globo.com/site/combate/blogs/especial-blog/ultimmato/1.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">UltiMMAto<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-1-esportes"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">+ Esportes<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">+ Esportes</span></a><li class="menu-item " id="menu-2-atletismo"><a href="http://sportv.globo.com/videos/atletismo" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Atletismo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-2-basquete"><a href="http://sportv.globo.com/videos/basquete" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Basquete<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Basquete</span></a><li class="menu-item is-father " id="menu-3-nba"><a href="http://sportv.globo.com/site/nba/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">NBA<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level3  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">NBA</span></a><li class="menu-item " id="menu-4-placar"><a href="http://pt.global.nba.com/scores/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">placar<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-4-agenda"><a href="http://pt.global.nba.com/schedule/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">agenda<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-4-classificacao"><a href="http://pt.global.nba.com/standings/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">classificação<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-4-videos"><a href="http://sportv.globo.com/videos/nba/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vídeos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-4-estatisticas"><a href="http://pt.global.nba.com/statistics/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">estatísticas<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level4  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">estatísticas</span></a><li class="menu-item " id="menu-5-individual"><a href="http://pt.global.nba.com/statistics/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">individual<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-5-times"><a href="http://pt.global.nba.com/statistics/teamstats/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">times<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-5-lideres-da-temporada"><a href="http://pt.global.nba.com/statistics/leagueleaders/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">líderes da temporada<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-4-times"><a href="http://pt.global.nba.com/teamindex/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">times<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-4-jogadores"><a href="http://pt.global.nba.com/playerindex/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">jogadores<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-3-nbacom"><a href="http://www.nba.com" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">NBA.com<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item is-father " id="menu-2-esportes-a-motor"><a href="http://sportv.globo.com/videos/esportes-a-motor" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Esportes a Motor<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Esportes a Motor</span></a><li class="menu-item " id="menu-3-stock-car"><a href="http://sportv.globo.com/videos/stock-car" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Stock Car<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-2-esportes-aquaticos"><a href="http://sportv.globo.com/videos/esportes-aquaticos" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Esportes Aquáticos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-esportes-de-inverno"><a href="http://sportv.globo.com/videos/esportes-de-inverno" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Esportes de Inverno<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-esportes-radicais"><a href="http://sportv.globo.com/videos/esportes-radicais" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Esportes Radicais<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-futsal"><a href="http://sportv.globo.com/videos/futsal/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Futsal<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-ginastica"><a href="http://sportv.globo.com/videos/ginastica" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Ginástica<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-lutas"><a href="http://sportv.globo.com/videos/lutas" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Lutas<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-remo"><a href="http://sportv.globo.com/videos/remo/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Remo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-rugbi"><a href="http://sportv.globo.com/videos/rugbi/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Rúgbi<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-surfe"><a href="http://sportv.globo.com/videos/surfe" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Surfe<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-tenis"><a href="http://sportv.globo.com/videos/tenis" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Tênis<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-2-volei"><a href="http://sportv.globo.com/videos/volei" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vôlei<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">Vôlei</span></a><li class="menu-item " id="menu-3-superliga"><a href="http://sportv.globo.com/videos/superliga" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Superliga<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-2-volei-de-praia"><a href="http://sportv.globo.com/videos/volei-de-praia" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vôlei de Praia<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-1-copa-2018"><a href="http://sportv.globo.com/site/programas/copa-2018/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Copa 2018<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-1-nba"><a href="http://sportv.globo.com/site/nba/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">NBA<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">NBA</span></a><li class="menu-item " id="menu-2-placar"><a href="http://pt.global.nba.com/scores/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">placar<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-agenda"><a href="http://pt.global.nba.com/schedule/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">agenda<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-classificacao"><a href="http://pt.global.nba.com/standings/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">classificação<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-videos"><a href="http://sportv.globo.com/videos/nba/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Vídeos<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-2-estatisticas"><a href="http://pt.global.nba.com/statistics/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">estatísticas<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level2  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">estatísticas</span></a><li class="menu-item " id="menu-3-individual"><a href="http://pt.global.nba.com/statistics/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">individual<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-times"><a href="http://pt.global.nba.com/statistics/teamstats/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">times<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-3-lideres-da-temporada"><a href="http://pt.global.nba.com/statistics/leagueleaders/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">líderes da temporada<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-2-times"><a href="http://pt.global.nba.com/teamindex/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">times<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-jogadores"><a href="http://pt.global.nba.com/playerindex/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">jogadores<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-1-games"><a href="http://sportv.globo.com/site/games/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Games<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item menu-item-separator " id="menu-1-combate"><a href="http://sportv.globo.com/site/combate/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">Combate<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-1-ge"><a href="http://globoesporte.globo.com/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">ge<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></div><div id="menu-addon" class="menu-addon"></div></div></nav><div id="menu-content-overlay"></div><script>glb = window.glb || {}; glb.fnEnvName = "prod" || "ADMIN" || "prod";</script><script type=text/javascript id=fn-cdn-init>!function e(n,t,o){function r(s,a){if(!t[s]){if(!n[s]){var c="function"==typeof require&&require;if(!a&&c)return c(s,!0);if(i)return i(s,!0);var l=new Error("Cannot find module '"+s+"'");throw l.code="MODULE_NOT_FOUND",l}var u=t[s]={exports:{}};n[s][0].call(u.exports,function(e){var t=n[s][1][e];return r(t?t:e)},u,u.exports,e,n,t,o)}return t[s].exports}for(var i="function"==typeof require&&require,s=0;s<o.length;s++)r(o[s]);return r}({1:[function(e,n,t){var o;o={components:["common","app"],typeFiles:["css","js","sprites","json"],fnExpires:{prod:60,staging:60,qa:1,local:1},fnCdnBaseUrls:{prod:"//s3.glbimg.com/cdn/fn/",staging:"//s3.glbimg.com/cdn_staging/fn/",qa:"//s3.glbimg.qa.globoi.com/cdn/fn/",local:"static/"},fnConfigFiles:{prod:"config/latest/config-fn.min.json",staging:"config/latest/config-fn.min.json",qa:"config/latest/config-fn.min.json",local:"config/config-fn.local.json"},fnInternalHosts:[{pattern:"globocom(.admin|.be)?(.qa|.dev)?.globoi.com",host:"www.globo.com"},{pattern:"g1(.admin|.be)?(.qa|.dev)?.globoi.com",host:"g1.globo.com"},{pattern:"techtudo(-v2)?(.admin|.be)?(.qa|.qa01|.dev)?.globoi.com",host:"www.techtudo.com.br"},{pattern:"gshow(.admin|.be)?(.qa|.dev)?.globoi.com",host:"gshow.globo.com"},{pattern:"globoesporte(.admin|.be)?(.qa|.dev)?.globoi.com",host:"globoesporte.globo.com"},{pattern:"famosos(.admin|.be)?(.qa|.dev)?.globoi.com",host:"famosos.globo.com"}],fnDevice:"mobile",debug:!1,fnEnv:"prod",defaultHost:"famosos.globo.com"},null!=glb.cdnConfig&&(o=window.extendObjs(o,glb.cdnConfig)),"undefined"!=typeof n&&n.exports&&(n.exports=o)},{}],2:[function(e,n,t){var o,r,i,s;s=function(){return/MobApp_Android|MobApp_iOS|MobApp_WP/},i=function(){return window.getUserAgent?window.getUserAgent():window.navigator.userAgent},r=function(){var e,n,t,o,r;o=i(),r=o.split(" ");for(t in r)if(e=r[t],s().test(e))return n=e.split("/"),{name:n[0].replace("_"," "),version:n[1],frameworkVersion:n[2]};return null},o=function(){var e,n,t,o;if(window.glb=window.glb||{},!glb.extractAppFromUserAgent){glb.extractAppFromUserAgent=r,glb.nativeAppInfo=r(),glb.nativeAppType=null;try{localStorage.removeItem("glbOnApp")}catch(n){e=n}if(null!==window.glb.nativeAppInfo)if(window.glb.nativeAppInfo.frameworkVersion){if(o=parseInt(window.glb.nativeAppInfo.frameworkVersion,10),o>=1){manageElementClasses.hasClass(document.documentElement,"glb-on-app")||(document.documentElement.className+=" glb-on-app");try{localStorage.setItem("glbOnApp",glb.nativeAppInfo.frameworkVersion)}catch(t){e=t}glb.nativeAppType="master-app"}}else manageElementClasses.hasClass(document.documentElement,"glb-on-app-comnio")||(document.documentElement.className+=" glb-on-app-comnio"),glb.nativeAppType="comnio-app"}},"undefined"!=typeof n&&n.exports&&(n.exports=o)},{}],3:[function(e,n,t){var o,r,i,s,a,c;window.glb=window.glb||{},c=e("../../globo-cdn-src/scripts/tiny-basket.coffee"),o=e("../../globo-cdn-src/scripts/common/__custom-event.coffee"),i=window.isArray,a=window.stringStartsWith,glb.extendArrays=function(e,n){return i(e)&&i(n)?(Array.prototype.push.apply(e,n),e):void 0},glb.addGlbOnAppClass=e("../../globo-cdn-src/scripts/app/__master-app-addclass.coffee"),glb.addHasReguaClass=e("../../globo-cdn-src/scripts/regua/__regua-navegacao-addclass.coffee"),glb.cdnConfig=e("../../globo-cdn-src/scripts/__cdn-configs.coffee"),glb.createProductColorCss=function(e){return c.injectStylesheet("text/css",".menu-navegacao-color { color: "+e+"; }","fn-menu-color-default")},glb.getCurrentInternalHost=function(e){var n,t,o,r,i,s;for(s=glb.cdnConfig.fnInternalHosts,n=0,r=s.length;r>n;n++)if(t=s[n],o=new RegExp(t.pattern),i=t.host,o.test(e))return i;return e},glb.getCurrentProduct=function(e){var n,t,o;return null!=glb.fnProduct?glb.fnProduct:(n=e.configFnJson,o=null!=glb.host?glb.host:window.location.host,t=e.defaultHost,"prod"!==glb.fnEnv&&(o=glb.getCurrentInternalHost(o)),null!=n.products[o]?n.products[o]:n.products[t])},glb.getCurrentBuscaDomain=function(e){return null!=glb.fnBuscaUrl?glb.fnBuscaUrl:"famosos.globo.com"===e.fnHost?"ego.globo.com":e.fnHost},glb.getProductsLists=function(e){var n,t,o,r,i,s,a,c;for(t=[],s=[],o=[],t=function(){var t,o;t=e.products,o=[];for(n in t)c=t[n],o.push({home:c.home,name:c.name,order:c.menuOrder});return o}(),t.sort(function(e,n){return e.order-n.order}),r=0,i=t.length;i>r;r++)a=t[r],s.push(a.name),o.push(a.home);return{names:s,homes:o}},glb.getCurrentEnv=function(){var e,n,t;return null!=glb.fnEnv?glb.fnEnv:(n=null!=glb.host?glb.host:window.location.host,t=-1!==n.indexOf("local.globo.com")||-1!==n.indexOf("localhost")||-1!==n.indexOf(".qa.globoi.com")||-1!==n.indexOf(".qa01.globoi.com")||-1!==n.indexOf(".dev.globoi.com"),e="prod",t?e="qa":null!=glb.fnEnvName&&glb.fnEnvName?e=glb.fnEnvName.toLowerCase():-1!==n.indexOf("local.cdn.globo")&&(e="local"),e)},window.fnSpriteSvgSuccess=function(e){var n;n=document.querySelector("#regua-svg-container"),n||(n=document.createElement("div"),n.id="regua-svg-container",n.className="regua-svg-container",n.style.height=0,n.style.width=0,n.style.position="absolute",n.style.left="-999999px",document.body.insertBefore(n,document.body.childNodes[0])),n.innerHTML=e},r=function(e,n,t){var o,r,i;for(r=0,i=e.length;i>r;r++)o=e[r],a(o.url,"//")||(o.url=n+o.url),o.expire=t,o.sourceMap&&(o.sourceMap=n+o.sourceMap)},s=function(e,n){var t,o,i,s,a,l,u,d,p,g,f,w,m,h,b,v,y,C,x,A,E,T,S,R;for(a=n.debug,o=n.components,S=n.typeFiles,d=n.fnDevice,p=n.fnEnv,g=n.fnExpires[p],u=n.fnCdnBaseUrls[p],n.configFnJson=e,n.fnProduct=glb.getCurrentProduct(n),n.fnHost=n.fnProduct.home.replace(/(\/)+/g,""),n.fnBuscaUrl=glb.getCurrentBuscaDomain(n),null!=(null!=(A=n.fnProduct)?A.color:void 0)&&glb.createProductColorCss(n.fnProduct.color),f=glb.getProductsLists(n.configFnJson),n.fnProductsNames=f.names,n.fnProductsHomes=f.homes,l={},R={},w=0,v=S.length;v>w;w++)T=S[w],l[T]=[];for(m=0,y=o.length;y>m;m++)if(t=o[m],E=R[t]||"app"===t&&!glb.nativeAppType||"regua"===t&&!glb.hasRegua,!E&&(R[t]=!0,s=e[t],s&&s[d]))for(i=s[d],h=0,C=S.length;C>h;h++)T=S[h],i&&i[T]&&glb.extendArrays(l[T],i[T]);for(b=0,x=S.length;x>b;b++)T=S[b],l[T]&&(r(l[T],u,g),c.require(l[T],a))},glb.fnCdnStarted=!1,glb.initFnCdn=function(e){var n,t,o,i,a,l,u,d;if(!glb.fnCdnStarted)return glb.fnCdnStarted=!0,null!=glb.cdnComponents&&(e.components=glb.extendArrays(e.components,glb.cdnComponents)),glb.addGlbOnAppClass(),glb.addHasReguaClass(),e.fnDevice=glb.isMobile?"mobile":"desktop",d="undefined"!=typeof XDomainRequest,n=e.debug=glb.fnDebug||d||-1!==window.location.hash.indexOf("debug-fn-cdn-on"),i=e.fnEnv=glb.getCurrentEnv(),a=e.fnExpire=e.fnExpires[i],t=e.fnCdnBaseUrl=e.fnCdnBaseUrls[i],o=e.fnConfigFile=e.fnConfigFiles[i],u=function(n){return s(n,e)},l=[{url:o,key:"fn-config",success:u}],r(l,t,a),c.require(l,n)}},{"../../globo-cdn-src/scripts/__cdn-configs.coffee":1,"../../globo-cdn-src/scripts/app/__master-app-addclass.coffee":2,"../../globo-cdn-src/scripts/common/__custom-event.coffee":4,"../../globo-cdn-src/scripts/regua/__regua-navegacao-addclass.coffee":6,"../../globo-cdn-src/scripts/tiny-basket.coffee":8}],4:[function(e,n,t){var o,r,i;try{new CustomEvent("test")}catch(i){r=i,o=function(e,n){var t;return t=void 0,n=n||{bubbles:!1,cancelable:!1,detail:void 0},t=document.createEvent("CustomEvent"),t.initCustomEvent(e,n.bubbles,n.cancelable,n.detail),t},o.prototype=window.Event.prototype,window.CustomEvent=o}"undefined"!=typeof n&&n.exports&&(n.exports=window.CustomEvent)},{}],5:[function(e,n,t){var o,r,i;r=function(e,n){var t;return null==e||null==n?!1:(t=new RegExp("(?:^|\\s)"+n+"(?!\\S)"),!!e.className.match(t))},o=function(e,n){r(e,n)||(e.className+=" "+n)},i=function(e,n){var t;r(e,n)&&(t=new RegExp("(?:^|\\s)"+n+"(?!\\S)","g"),e.className=e.className.replace(t,""))},window.manageElementClasses={hasClass:r,addClass:o,removeClass:i},"undefined"!=typeof n&&n.exports&&(n.exports=window.manageElementClasses)},{}],6:[function(e,n,t){var o,r,i,s;window.glb=window.glb||{},i=e("../../../globo-cdn-src/scripts/common/__manage-element-classes"),o=i.addClass,s=i.removeClass,glb.reguaShouldStart=e("../../../globo-cdn-src/scripts/regua/__regua-shouldstart"),r=function(){var e;e=glb.reguaShouldStart(),null==glb.hasRegua&&(glb.hasRegua=e),glb.hasRegua?(o(document.documentElement,"has-regua"),o(document.documentElement,"svg-support"),s(document.documentElement,"has-not-regua")):(s(document.documentElement,"has-regua"),s(document.documentElement,"svg-support"),o(document.documentElement,"has-not-regua"))},"undefined"!=typeof n&&n.exports&&(n.exports=r)},{"../../../globo-cdn-src/scripts/common/__manage-element-classes":5,"../../../globo-cdn-src/scripts/regua/__regua-shouldstart":7}],7:[function(e,n,t){var o,r,i,s,a,c,l,u;window.viewportSize={},window.viewportSize.getHeight=function(){return l("Height")},window.viewportSize.getWidth=function(){return l("Width")},l=function(e){var n,t,o,r,i,s;return s=void 0,i=e.toLowerCase(),o=window.document,r=o.documentElement,void 0===window["inner"+e]?s=r["client"+e]:window["inner"+e]!==r["client"+e]?(n=o.createElement("body"),n.id="vpw-test-b",n.style.cssText="overflow:scroll",t=o.createElement("div"),t.id="vpw-test-d",t.style.cssText="position:absolute;top:-1000px",t.innerHTML="<style>@media("+i+":"+r["client"+e]+"px){body#vpw-test-b div#vpw-test-d{"+i+":7px!important}}</style>",n.appendChild(t),r.insertBefore(n,o.head),s=7===t["offset"+e]?r["client"+e]:window["inner"+e],r.removeChild(n)):s=window["inner"+e],s},window.myInnerWidth=viewportSize.getWidth(),window.myInnerHeight=viewportSize.getHeight(),r=function(){return window.myInnerWidth||window.innerWidth},o=function(){return window.myInnerHeight||window.innerHeight},i=function(){var e;return null!=window.isAndroidBrowser?window.isAndroidBrowser:(e=navigator.userAgent,window.isAndroidBrowser=e.indexOf("Mozilla/5.0")>-1&&e.indexOf("Android ")>-1&&e.indexOf("AppleWebKit")>-1&&-1===e.indexOf("Chrome"),window.isAndroidBrowser)},c=function(){var e;return null!=window.isWindowsPhoneBrowser?window.isWindowsPhoneBrowser:(e=navigator.userAgent,window.isWindowsPhoneBrowser=e.match(/Windows Phone/i)||e.match(/iemobile/i)||e.match(/WPDesktop/i),window.isWindowsPhoneBrowser)},s=function(){return null!=window.isPortrait?window.isPortrait:(window.isPortrait=r()<=o(),window.isPortrait)},a=function(){return null!=window.isTouchable?window.isTouchable:(window.isTouchable="ontouchstart"in window||navigator.msMaxTouchPoints||window.DocumentTouch&&document instanceof window.DocumentTouch,window.isTouchable)},u=function(){var e;return window.REGUAMAXWIDTHPORTRAIT=window.REGUAMAXWIDTHPORTRAIT||640,window.REGUAMAXWIDTHLANDSCAPE=window.REGUAMAXWIDTHLANDSCAPE||767,window.isPortrait=s(),window.isTouchable=a(),window.isAndroidBrowser=i(),window.isWindowsPhoneBrowser=c(),e=r(),glb.isMobile=window.isPortrait&&e<=window.REGUAMAXWIDTHPORTRAIT||!window.isPortrait&&e<=window.REGUAMAXWIDTHLANDSCAPE,glb.isMobile&&glb.reguaReady&&!window.isAndroidBrowser&&!window.isWindowsPhoneBrowser&&(!glb.nativeAppType||"comnio-app"!==glb.nativeAppType)&&document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")&&(null==window.glb.nativeAppInfo||window.glb.nativeAppInfo.frameworkVersion)},"undefined"!=typeof n&&n.exports&&(n.exports=u)},{}],8:[function(e,n,t){var o,r,i,s,a,c,l,u,d,p,g,f,w,m,h,b,v,y,C,x=function(e,n){return function(){return e.apply(n,arguments)}};C=window.stringStartsWith=function(e,n){return e.slice(0,n.length)===n},m=window.isArray=function(e){return e&&e.constructor===Array},d=window.extendObjs=function(e,n){var t,o;o={};for(t in e)o[t]=e[t];for(t in n)o[t]=n[t];return o},f=document.head||document.getElementsByTagName("head")[0],h=null;try{h=window.localStorageInterface||window.localStorage}catch(u){l=u,console.log("localstorage error",l),h=null}g=function(){var e,n;if(n="modernizr",!h||!h.setItem)return!1;try{return h.setItem(n,n),h.removeItem(n),!0}catch(e){return l=e,console.log("localstorage error",l),!1}},p=g(),window.localStorageCache=y={save:function(e,n,t){var o,r,i;if(!p)return!1;r=60*t*1e3,i={value:n,timestamp:(new Date).getTime()+r};try{h.setItem(e,JSON.stringify(i))}catch(o){return l=o,console.log("localstorage error",l),!1}return n},load:function(e){var n,t;if(!p)return!1;try{t=JSON.parse(h.getItem(e))}catch(n){return l=n,console.log("localstorage error",l),!1}return t?(new Date).getTime()<t.timestamp&&t.value:!1}},w=function(e,n){var t;t=document.createElement("style"),t.setAttribute("type","text/css"),t.id=e,f.appendChild(t),n(null,t)},v=function(e,n,t){var o;try{return e.styleSheet?e.styleSheet.cssText=n:"textContent"in e?e.textContent=n:e.appendChild(document.createTextNode(n)),t(null)}catch(o){l=o,t(l)}},b=function(e){"STYLE"===e.tagName&&e.parentNode&&e.parentNode.removeChild(e)},c=function(e,n,t,o){w(n,function(n,r){n?o(n):(t&&(e.css+="\n/*# sourceMappingURL="+t+" */"),v(r,e.css||"",function(e){e?(b(r),o(e)):o(null,r)}))})},i=function(e,n,t,o){o=o||function(){},c({css:e},n,t,o)},a=function(e){var n;return n=document.createElement("script"),n.async=!0,null!=e&&(n.id=e),n},s=function(e,n){var t,o;return o=new XMLHttpRequest,t=-1===n.indexOf(location.host)||!C(n,"/"),!t||"withCredentials"in o?o.open(e,n,!0):"undefined"!=typeof XDomainRequest?(o=new XDomainRequest,o.open(e.toLowerCase(),n)):o=null,o},o=function(){function e(){this.post=x(this.post,this),this.get=x(this.get,this),this.getJsonp=x(this.getJsonp,this),this.jsonpId=0}return e.prototype.complete=function(e,n,t,o,r,i){var s;e&&!o&&(s=e,r&&(s=JSON.stringify(e)),y.save(t,s,n)),i(e)},e.prototype.getCache=function(e,n,t){var o;return!n&&(o=y.load(e))?(t&&(o=JSON.parse(o.toString())),o):null},e.prototype.request=function(e,n,t){var o,r,i,a,c,l,u,d,p,g,f,w,m,h,b,v,y;return d=null!=t.expire&&t.expire>=0?t.expire:60,a=t.success||function(){},c=t.error||function(){},i=t.key||n,v=t.type,h=t.skipCache,b=t.timeout||null,p=null,y=t.xhrConfigsCallback,l=t.data,u=null!=t.dataType?t.dataType:v,null==v&&(v=n.split("."),v=v[v.length-1]),g="json"===v,w="json"===u,(o=this.getCache(i,h,g))?void a(o):(m=s(e,n))?(y&&"function"==typeof y&&y(m),f="undefined"!=typeof XDomainRequest&&m instanceof XDomainRequest,m.onload||(m.onload=function(e){return function(){var n;return p&&clearTimeout(p),n=f||m.status>=200&&m.status<400,n?(o=m.responseText,g&&(o=JSON.parse(o)),e.complete(o,d,i,h,g,a)):(console.error("AjaxCache Request Error",m.status,m.responseText),c(m.status,m))}}(this)),m.onerror||(m.onerror=function(){return console.error("AjaxCache Request Error",m.status,m.responseText),c(m.status,m)}),"GET"!==e&&l?(w&&(l=JSON.stringify(l)),f?setTimeout(function(){return m.send(l)},0):m.send(l)):f?setTimeout(function(){return m.send()},0):m.send(),b&&(r=function(){return null!=m.abort?m.abort():void 0},p=setTimeout(r,b)),m):(console.error("AjaxCache Request Error","This browser does not support this operation"),c("500",m),m)},e.prototype.getJsonp=function(e,n){var t,o,r,i,s,c,l,u;return i=null!=n.expire&&n.expire>=0?n.expire:60,r=n.success||function(){},o=n.key||e,u=n.skipCache,c=!0,s="ajaxCacheJsonp"+this.jsonpId++,(t=this.getCache(o,u,c))?void r(t):(window[s]=function(e){return function(n){return e.complete(n,i,o,u,c,r)}}(this),e+=-1===e.indexOf("?")?"?callback="+s:"&callback="+s,l=a(s),l.src=e,void f.appendChild(l))},e.prototype.get=function(e,n){return this.request("GET",e,n)},e.prototype.post=function(e,n){return this.request("POST",e,n)},e}(),window.ajaxCache=new o,r=function(){function e(){}return e.prototype.insertJsOnScriptTag=function(e,n,t){var o;return t&&(n+="\n//# sourceMappingURL="+t),o=document.createTextNode(n),e.appendChild(o)},e.prototype.injectScriptTag=function(e,n,t,o){var r;r=a(t),r.src=n,f.appendChild(r)},e.prototype.injectScript=function(e,n,t,o){var r;r=a(t),this.insertJsOnScriptTag(r,n,o),f.appendChild(r)},e.prototype.injectLinkTag=function(e,n,t,o){var r;r=document.createElement("link"),r.id=t,r.type="text/css",r.rel="stylesheet",r.href=n,f.appendChild(r)},e.prototype.injectStylesheet=function(e,n,t,o){i(n,t,o,null)},e.prototype.defaultHandler=function(e,n,t,o){window["tinyBasketResult"+e]=window["tinyBasketResult"+e]||{},window["tinyBasketResult"+e][t.toString()]=n},e.prototype.getHandler=function(e,n){return"js"===e?n?this.injectScriptTag:this.injectScript:"css"===e?n?this.injectLinkTag:this.injectStylesheet:this.defaultHandler},e.prototype.skipCacheRequestManager=function(e,n){return n.success(e)},e.prototype.getRequestManager=function(e,n){return!n||"js"!==e&&"css"!==e?"jsonp"===e?ajaxCache.getJsonp:ajaxCache.get:this.skipCacheRequestManager},e.prototype.require=function(e,n){var t,o,r,i,s,a,c,l,u,p,g,f,w;if(o=this,e)for(m(e)||(e=[e]),i=0,a=e.length;a>i;i++)l=e[i],w=l.url,f=l.type,u=l.skipCache||n,null==f&&(f=w.split("."),f=f[f.length-1]),r=this.getHandler(f,u),c=this.getRequestManager(f,u),g=l.success||function(){},p=l.sourceMap||"",s=l.id||l.key||"ajax-cache-id-"+Math.round(1e5*Math.random()),"string"==typeof g&&(g=window[g]&&"function"==typeof window[g]?window[g]:function(){}),t=function(e,n,t,r,i){return function(s){n.call(o,e,s,r,i),t(s)}},c(w,d(l,{success:t(f,r,g,s,p)}))},e}(),window.tinyBasket=new r,"undefined"!=typeof n&&n.exports&&(n.exports=window.tinyBasket)},{}]},{},[3]);</script><script>(function(){var n;window.glb=window.glb||{},glb.cdnComponents=glb.cdnComponents||[],glb.cdnComponents.push("menu"),glb.menuReady=!0,n=null!==window.noAutoLoadFN&&window.noAutoLoadFN,n||(glb.fnTimeoutMs=glb.fnTimeoutMs||2e3,null!==glb.fnTimeout&&clearTimeout(glb.fnTimeout),glb.menuReady&&glb.headerReady&&glb.reguaReady?glb.initFnCdn(glb.cdnConfig):glb.fnTimeout=setTimeout(function(){return glb.initFnCdn(glb.cdnConfig)},glb.fnTimeoutMs))}).call(this);</script>
+
+
+<!--END content for url: http://sportv.globo.com/servico/sportv/nba/header.html-->
+
+
+
+<!-- END SSI fork for esi or beo -->
+
+<!-- End licensee_global_navigation -->
+       <!--SSI /frags/licensee_content_top_banner.html -->
+       <!-- Start Licensee Content Top Banner Fragment -->
+
+
+<!-- SSI fork for esi or beo -->
+
+
+<!--BEGIN content for url: http://sportv.globo.com/servico/sportv/nba/ad_banner.html-->
+<div class="publicidade publicidade-banner_super"><div id="banner_super" class="tag-manager-publicidade-container"></div></div>
+<!--END content for url: http://sportv.globo.com/servico/sportv/nba/ad_banner.html-->
+
+
+
+<!-- END SSI fork for esi or beo -->
+
+
+
+<!-- End Licensee Content Top Banner Fragment -->           
+      </div>
+      
+      <div class='nba-container-wrapper' >
+      
+        <div class='main-nav-container' data-ng-show="showNav" data-ng-class="{'container': !fullWidthNav}">            
+          <!--SSI /frags/licensee_content_site_navigation.html -->
+          <!-- Start Licensee Content Site Navigation Fragment -->
+
+
+
+<!-- End Licensee Content Site Navigation Fragment -->    
+        
+          <!--SSI /frags/licensee_stats_site_navigation.html -->
+                 
+        </div>         
+
+        <div class="container" id="main-container">
+            
+          <div class="row container-row">
+          
+            <div class="col-xl-2 visible-xl text-right content-aside content-aside-left" data-ng-hide="mobileAppViewMode">
+  						<!--SSI /frags/licensee_ad_left.html -->
+  						<!-- Start licensee_ad_left -->
+
+<!--add some content to preserve layout-->
+&nbsp;
+
+<!-- End licensee_add_left -->                
+            </div>  <!-- /page-wrapper -->
+  
+            <div class="col-xl-8 col-lg-12 content-container">
+            
+              <div class='content-container-top' data-ng-show="showNav">                         
+                <!--SSI /frags/licensee_content_top_promos.html -->
+                <!-- Start Licensee Content Top Promos Fragment -->
+<!-- End Licensee Content Top Promos Fragment -->                  
+              </div>
+  
+              <div class='content'>
+                <!-- Start content -->
+                  <div class='league-schedule-section'  data-ng-controller="SchedulePageCtrl">
+  <sib-page-header data-sib-title="_page.schedule"></sib-page-header>
+  <div class="row">
+    <div class="col-12" style="float: none;">
+      <div class="sib-custom sib-custom-schedule-header" data-ng-controller="ScheduleHeaderCtrl" data-ng-cloak>
+  <div class="row header-wrap">
+    <div class="col-lg-6 col-sm-6 col-12 content-left">
+      <div class="quicklinks" >
+        <i class="icon-caret-left" data-ng-class="scheduleType" data-ng-click="changeMonth('prev')" ></i>
+          <span data-ng-show="scheduleType == 'day'">{{activeDate | date:'mediumDate'}}</span>  
+          <span data-ng-show="scheduleType == 'days'">{{startDate | date:'mediumDate'}} - {{endDate | date:'mediumDate'}}</span>
+          <span data-ng-show="scheduleType == 'month'">{{activeDate | date:'monthYear'}}</span> 
+        <i class="icon-caret-right" data-ng-class="scheduleType"  data-ng-click="changeMonth('next')"></i>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-6 col-12 content-right">
+      <a href="javascript:void(0)" class="calendar-button" data-ng-class="{toggled: contentDrop=='calendar'}" data-ng-click="clickcalendar()"><span data-ng-i18next="schedule.calendar"></span><i class="icon-calendar" data-ng-hide="contentDrop=='calendar'"></i><i class="icon-remove" data-ng-show="contentDrop=='calendar'"></i></a>
+      <a href="javascript:void(0)" class="select-team-button" data-ng-class="{toggled: contentDrop=='teams'}" data-ng-click="clickteam()"><span data-ng-i18next="schedule.selectTeam"></span><i class="icon-list-alt" data-ng-hide="contentDrop=='teams'"></i><i class="icon-remove" data-ng-show="contentDrop=='teams'"></i></a>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-12">
+      <div class="calendar-drop" data-ng-show="contentDrop=='calendar'">
+        <div data-ng-controller="CalendarCtrl" data-ng-cloak>
+  <a href="javascript:void(0)" class="prev-month" data-ng-click="clickLeft()"><i class="icon-caret-left"></i></a>
+  <a href="javascript:void(0)" class="next-month" data-ng-click="clickRight()"><i class="icon-caret-right"></i></a>
+  <sib-calendar month-index="offsets[0]" cal-position="'left'" active-date="activeDate"></sib-calendar>
+  <sib-calendar month-index="offsets[1]" cal-position="'center'" active-date="activeDate"></sib-calendar>
+  <sib-calendar month-index="offsets[2]" cal-position="'right'" active-date="activeDate"></sib-calendar>
+</div>      </div>
+      <div class="team-drop" data-ng-show="contentDrop=='teams'">
+        <div class="row" data-ng-controller="TeamListCtrl">
+  <div class="col-12 conferenceholder" data-ng-repeat="(conferenceKey, conference) in conferences">
+    <div class="row conference">
+      <div class="col-12 conference-title">
+        <h4>{{'allTeams.' + conferenceKey.toLowerCase()|i18next}} {{'allTeams.conferenceTitle'|i18next}}</h4>
+      </div>
+      <div class="row" data-ng-repeat="(key, division) in conference.divisions">
+        <div class="team" data-ng-repeat="team in division">
+            <a data-ng-href="/teams/schedule/#!/{{ team.code }}">
+              <sib-img-team team-abbr="team.abbr | earlyTeamChange:'imgAbbr'"></sib-img-team> <!--  this is only when the schedule is released, need to make the earlyTeamChange smarter -->
+            </a>
+            <a class="hidden-sm" data-ng-href="/teams/schedule/#!/{{ team.code }}">
+              <!-- this is only when the schedule is released, need to make the earlyTeamChange smarter -->
+              <span data-ng-bind-html="team.displayAbbr | earlyTeamChange:'abbr'"></span>              
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>      </div>
+    </div>
+  </div>
+</div>    </div>
+    <div class="col-12">       
+      <!-- Team Schedule Module Start -->
+<div class="sib-table-container sib-table-league-schedule" data-ng-cloak>
+  <div data-ng-show="moduleLoading" class="preloader">
+    <img src="/media/img/loader.gif" /><br/>
+  </div>
+  <div id="sib-team-schedule" data-ng-show ="!moduleLoading" bindonce data-ng-repeat="group in splits">
+    <table class="sib-zebra-stripes" id="sib-league-schedule">
+      <thead class="not-sortable">
+        <tr class="headers">
+          <th class="not-sortable col-time" data-ng-show="!paginate || currentpage==1"  data-ng-i18next="schedulePage.time"></th>
+          <th class="col-matchup" data-ng-show="!paginate || currentpage==1" data-ng-i18next="schedulePage.matchup"></th>
+          <th class="col-score" data-ng-show="!paginate || currentpage==1" data-ng-i18next="schedulePage.score"></th>
+          <th class="col-location" data-ng-show="!paginate" data-ng-i18next="schedulePage.location"></th>
+          <th class="col-broadcaster" data-ng-show="group.status == 'Incomplete' && (!paginate || currentpage==2)" data-ng-i18next="schedulePage.broadcast"></th>
+          <th class="col-location" data-ng-show="paginate && currentpage==2" data-ng-i18next="schedulePage.location"></th>
+          <th class="col-links" data-ng-show="!paginate || currentpage==1" data-ng-i18next="schedulePage.links"></th>
+        </tr>
+      </thead>
+      <tbody data-ng-repeat="date in group.dates">
+        <tr class="caption">
+          <td colspan="100%">
+            <h6>{{ date.games[0].profile.utcMillis | date:'monthDay' }}</h6>
+          </td>
+        </tr>
+        <tr  data-ng-repeat="game in date.games">
+          <td class="col-time" data-ng-show="!paginate || currentpage==1">
+            <span bo-show="game.boxscore.statusDesc == 'CNCL' || game.boxscore.statusDesc == 'PPD' || game.boxscore.statusDesc == 'TBD' || game.boxscore.statusDesc == '\u5ef6\u671f' ">{{ game.boxscore.statusDesc  }}</span>
+            <span bo-hide="game.boxscore.statusDesc == 'CNCL' || game.boxscore.statusDesc == 'PPD' || game.boxscore.statusDesc == 'TBD' || game.boxscore.statusDesc == '\u5ef6\u671f' ">{{ game.profile.utcMillis | date:'shortTime' }}</span>             
+          </td>
+          <td class="col-matchup" data-ng-show="!paginate || currentpage==1"><a sib-team-urls team="game.awayTeam.profile" bo-href="'/teams/#!/' + game.awayTeam.profile.code" bo-text="game.awayTeam.profile.displayAbbr"></a> @ <a sib-team-urls team="game.homeTeam.profile" bo-href="'/teams/#!/' + game.homeTeam.profile.code " bo-text="game.homeTeam.profile.displayAbbr"></a></td>
+          <td data-ng-show="!paginate || currentpage==1">
+            <span bo-show="game.boxscore.status > 1"><span bo-class="{'red': game.boxscore.awayScore > game.boxscore.homeScore }" bo-text=" game.boxscore.awayScore"></span> - <span bo-class="{'red': game.boxscore.awayScore < game.boxscore.homeScore }" bo-text=" game.boxscore.homeScore"></span></span>
+            <span bo-show="game.boxscore.status == 1">-</span>
+          </td>
+          <td data-ng-show="!paginate" bo-text="game.profile.arenaName"></td>
+          <td  data-ng-show="group.status == 'Incomplete' && (!paginate || currentpage==2)">
+            <sib-broadcaster-urls broadcasters="game.broadcasters" />
+            <span class="broadcaster">
+			  <span class="live"><span data-ng-repeat="url in game.urls | filter: { type : 'Live' }" bo-text="url.displayText"></span></span>
+			</span> 
+          </td>
+          <td data-ng-show="paginate && currentpage==2" bo-text="game.profile.arenaName"></td>
+          <td class="links" data-ng-show="!paginate || currentpage==1">
+            <sib-game-urls game="game"></sib-game-urls>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="table-footer">
+      <div class="pagination" data-ng-show="paginate==true">
+          <a href="javascript:void(0)" data-ng-click="currentpage=1" data-ng-class="{active: currentpage==1}"></a>
+          <a href="javascript:void(0)" data-ng-click="currentpage=2" data-ng-class="{active: currentpage==2}"></a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Team Schedule Module End -->    </div>
+  </div>
+  
+</div>
+                <!-- End content -->
+              </div>
+              
+              <div class='footer-container' data-ng-show="showFooter">    
+                                    
+                <!--SSI /frags/licensee_content_footer.html -->
+                <!-- Start Licensee Content Footer Fragment -->
+
+<!-- SSI fork for esi or beo -->
+
+<!--BEGIN content for url: http://sportv.globo.com/servico/sportv/footer/html.html--><footer id="glb-rodape">
+    
+
+
+    
+	
+
+
+
+    
+    
+    
+        
+            <div id="glb-diretorio">
+    <span class="glb-borda"></span>
+    <div class="glb-conteudo">
+        <div class="glb-bloco row">
+
+            <div class="glb-grid-2 large-2 column">
+                <ul>
+    
+
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong>SporTV</strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://sportv.globo.com/" >Home</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/ancine/" >Programação: exigência ANCINE</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs" >Blogs</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/vc" >VC no SporTV</a></li>
+                            
+                                
+                                <li><a href="http://www.facebook.com/sportv" >Facebook SporTV</a></li>
+                            
+                                
+                                <li><a href="http://www.twitter.com/sportv" >Twitter SporTV</a></li>
+                            
+
+
+                        
+
+    
+
+        
+                </ul>
+            </div>
+
+            <div class="glb-grid-2 large-2 column">
+                
+                <ul class="divisoria">
+                
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong>Programas</strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://sportv.globo.com/bem-amigos" >Bem, Amigos!</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/combate" >Combate</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/e-gol" >É Gol!!!</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/Extra-ordinarios/" >Extra Ordinários</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/giro-da-rodada/" >Giro da Rodada</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/giro-sportv/" >Giro SporTV</a></li>
+                            
+                                
+                                <li><a href="  http://sportv.globo.com/site/programas/planeta-sportv/index.html" >Planeta SporTV</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/redacao" >Redação SporTV</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/selecao-sportv/" >Seleção SporTV</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/sensei" >Sensei Combate</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/news" >SporTV News</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/ta-na-area" >Tá na Área</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/troca-de-passes" >Troca de Passes</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/camarote-premiere-fc/" >Camarote</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/programa-do-socio-premiere-fc/" >Programa do Sócio</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/passando-a-guarda/" >Passando a Guarda</a></li>
+                            
+
+
+                        
+
+    
+
+        
+                </ul>
+            </div>
+
+            <div class="glb-grid-2 large-2 column">
+                
+                <ul class="divisoria">
+                
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong><a href="http://sportv.globo.com/videos/futebol">Futebol</a></strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/amistosos" >Amistosos Internacionais</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/futebol/campeonato-brasileiro-2016/;" >Brasileirão Série A</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/brasileirao-serie-b" >Brasileirão Série B</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/copa-do-brasil" >Copa do Brasil</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/copa-sul-americana" >Copa Sul-Americana</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/futebol-feminino" >Feminino</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/futebol-de-areia/" >Futebol de Areia</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/futebol-frances" >Futebol Francês</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/mundial-de-clubes" >Mundial de Clubes</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/selecao-brasileira" >Seleção Brasileira</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/libertadores" >Taça Libertadores</a></li>
+                            
+
+
+                        
+
+    
+
+        
+                </ul>
+            </div>
+
+            <div class="glb-grid-2 large-2 column">
+                
+                <ul class="divisoria">
+                
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong>+Esportes</strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/atletismo" >Atletismo</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/basquete" >Basquete</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/esportes-a-motor" >Esportes a Motor</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/esportes-aquaticos" >Esportes Aquáticos</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/esportes-de-inverno/" >Esportes de Inverno</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/esportes-radicais" >Esportes Radicais</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/futsal" >Futsal</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/ginastica" >Ginástica</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/lutas" >Lutas</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/rio-2016/index.html" >Rio 2016</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/rugbi/" >Rúgbi</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/eventos/showbol" >Showbol</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/surfe/" >Surfe</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/tenis" >Tênis</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/volei" >Vôlei</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/volei-de-praia/" >Vôlei de Praia</a></li>
+                            
+
+
+                        
+
+    
+
+        
+                </ul>
+            </div>
+
+            <div class="glb-grid-2 large-2 column">
+                
+                <ul class="divisoria">
+                
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong><a href="http://sportv.globo.com/site/blogs">Blogs</a></strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/alambrado/1.html" >Blog Alambrado</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-all-star/1.html" >Blog All-Star</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-coach/1.html" >Blog do Coach</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-daniel-fucs/1.html" >Blog do Daniel Fucs</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-fabio-seixas/1.html" >Blog do Fábio Seixas</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/jogos-que-eu-vi/1.html" >Blog do Lédio Carmona</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/pc-vasconcellos/1.html" >Blog do PC Vasconcellos</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/blog-do-renatinho/1.html" >Blog do Renatinho</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/cest-le-foot/1.html" >C&#39;est Le Foot</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/platb/canal-campeao/" >É Campeão</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/entre-as-canetas/1.html" >Entre as Canetas</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/lance-livre/1.html" >Lance Livre</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/mundo-moto/1.html" >Mundomoto</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/por-dentro-do-jogo/1.html" >Por dentro do jogo</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/blogs/especial-blog/ponta-de-lanca/1.html" >Ponta de Lança</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/combate/blogs/especial-blog/ultimmato/1.html" >UltiMMAto</a></li>
+                            
+
+
+                        
+
+    
+
+        
+                </ul>
+            </div>
+
+            <div class="glb-grid-2 large-2 column">
+                
+                <ul class="divisoria">
+                
+        
+
+                    <li class="diretorio-indice">
+                        
+                            <strong>Institucional</strong>
+                        
+                    </li>
+
+
+                        
+
+
+                            
+                                
+                                <li><a href="http://www.grupoglobo.globo.com/" >Grupo Globo</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/videos/campanhas" >Campanhas</a></li>
+                            
+                                
+                                <li><a href="http://globosatcomercial.globo.com/" >Como Anunciar</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/como-assistir.html" >Como Assistir</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/institucional.html" >Mundo do SporTV</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/noticia/2011/05/politica-de-privacidade.html" >Política de Privacidade</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/noticia/2011/05/sobre-o-sportv.html" >Sobre o SporTV</a></li>
+                            
+                                
+                                <li><a href="http://sportv.globo.com/site/programas/rio-2016/noticia/2016/02/globosat-realiza-processo-seletivo-para-os-jogos-olimpicos-do-rio.html" >Trabalhe Conosco</a></li>
+                            
+
+
+                        
+
+    
+                </ul>
+            </div>
+
+         </div>
+    </div>
+</div>
+
+        
+    
+
+
+
+
+
+
+
+
+    <div class="footer product-color" data-ga-area="footer">
+    <div class="row">
+        <div class="column columns container" data-ga-marker="links">
+            <ul class="first-line">
+                <li><a class="logo" href="//www.globo.com/" title="globo.com"><strong>globo.com</strong></a></li>
+                <li><a href="//g1.globo.com/">g1</a></li>
+                <li><a href="//globoesporte.globo.com/">globoesporte</a></li>
+                <li><a href="//gshow.globo.com/">gshow</a></li>
+                <li><a href="//famosos.globo.com//">famosos & etc</a></li>
+                <li><a href="//globotv.globo.com/">vídeos</a></li>
+                <li class="pushed"><a href="//www.globo.com/todos-os-sites.html">todos os sites</a></li>
+            </ul>
+            <span class="copyright">© Copyright 2000-2017 Globo Comunicação e Participações S.A.</span>
+            <ul class="footer-menu">
+                <li><a href="//www.globo.com/privacidade.html">política de privacidade</a></li>
+                <li><a href="//meuperfil.globo.com">central globo.com</a></li>
+                <li><a href="//assine.globo.com/">assine a globo.com</a></li>
+                <li class="last"><a href="//anuncie.globo.com/mediakit/globocom.html">anuncie conosco</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</footer><!--END content for url: http://sportv.globo.com/servico/sportv/footer/html.html-->
+
+
+
+<!-- END SSI fork for esi or beo -->
+
+<!-- End Licensee Content Footer Fragment -->     
+                 
+                <!--SSI /templates/fragments/footer/template.html -->
+                <!-- <div class='row stats-site-footer'>
+  <div class="col-12 footer">
+    <div class='footer-nav hidden-all-sites show-mi'>
+      <div class='col-6 explore' >
+        <h4 class='col-12' data-ng-i18next="navbar.explore"></h4>
+        <div class='col-sm-4'>
+          <a href="/scores/" >
+            <span data-ng-i18next="navbar.scores"></span>/<span data-ng-i18next="navbar.schedule"></span>
+          </a>
+        </div>        
+        <div class='col-sm-4'><a href="/standings/" data-ng-i18next="navbar.standings"></a></div>
+        <div class='col-sm-4'><a href="/schedule/broadcaster/" data-ng-i18next="navbar.broadcasterSchedule"></a></div>
+        <div class='col-sm-4'><a href="/statistics/" data-ng-i18next="navbar.stats"></a></div>
+        <div class='col-sm-4'><a href="/teamindex/" data-ng-i18next="navbar.teams"></a></div>
+        <div class='col-sm-4'><a href="/playerindex/" data-ng-i18next="navbar.players"></a></div>
+        <div class='col-sm-4'><a href="/statistics/teamstats/" data-ng-i18next="navbar.fullTeamStats"></a></div>
+        <div class='col-sm-4'><a href="/statistics/leagueleaders/" data-ng-i18next="navbar.leagueLeaders"></a></div>
+        <div class='col-sm-4 hidden-all-sites show-mi'><a href="/news/" data-ng-i18next="navbar.news"></a></div>
+ 
+        <div class='col-sm-4 hidden-all-sites show-mi'><a href="/photos.html#!" data-ng-i18next="navbar.photos"></a></div>                              
+      
+      </div>
+      <div class='col-6 more'>
+        <h4 class='col-12' data-ng-i18next="navbar.more"></h4>
+        <div class='col-sm-4'><a href="http://watch.nba.com/nba/video" data-ng-i18next="navbar.video"></a></div>
+        <div class='col-sm-4'><a href="http://watch.nba.com/nba/video" data-ng-i18next="navbar.vault"></a></div>
+        <div class='col-sm-4'><a href="http://watch.nba.com/channel/nbatvlive" data-ng-i18next="navbar.nbaTv"></a></div>
+        <div class='col-sm-4'><a href="http://watch.nba.com/packages" data-ng-i18next="navbar.leaguePass"></a></div>
+        <div class='col-sm-4'><a href="http://watch.nba.com/packages" data-ng-i18next="navbar.platforms"></a></div>
+        <div class='col-sm-4'><a href="http://watch.nba.com/packages" data-ng-i18next="navbar.packages"></a></div>
+        <div class='col-sm-4'><a href="http://support.watch.nba.com" data-ng-i18next="navbar.support"></a></div>
+        <div class='col-sm-4 hidden-all-sites show-mi'><a href="/key-dates/">Key Dates</a></div>
+        <div class='col-sm-4 hidden-all-sites show-mi'><a href="/nba-apps/">NBA Apps</a></div>
+        <div class='col-sm-4 hidden-all-sites show-mi'><a href="http://www.nba.com/global/storelinkhandler.html"  data-ng-i18next="_page.store"></a></div>        
+      </div>
+    </div> 
+    <p class='copyright clear-fix' data-ng-i18next="[html]footer"></p>
+  </div>
+</div>
+
+ -->
+ 
+ <footer class= "row">
+    <div id= "footer" class= "large-12 columns">
+        <p class="show-all-sites hidden-mi copyright clear-fix" data-ng-i18next="[html]footer"></p>    
+        <div class="hidden-all-sites show-mi">
+            <s

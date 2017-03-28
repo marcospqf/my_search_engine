@@ -11,7 +11,7 @@ Scheduler::Scheduler() {}
 bool Scheduler::url::operator<(const url &cur) const {
 	if(priority != cur.priority )
 		return priority < cur.priority;
-	
+	if(name.size() != cur.name.size()) return name.size()< cur.name.size();	
 	return name < cur.name;
 }
 
@@ -64,7 +64,10 @@ bool Scheduler::IsEmpty(bool inside){
 
 
 string Scheduler::TopUrl(){
-	int q=rand()&1;
+	cout<<inside_url.size()+outside_url.size()<<endl;
+	int q=rand();
+	if(q%5==0) q=1;
+	else q=0;
 	if(q){
 		if(inside_url.empty()) q=!q;
 	}

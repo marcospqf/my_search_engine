@@ -1,0 +1,549 @@
+|||http://universe.leagueoflegends.com/pt_BR/story/galio-color-story/|<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="google-site-verification" content="-B5JjZpFsnhF1Pe52Kr2ydQQVNV9DTe6qr-Isauuthc" />
+
+    <!--[if !(IE 9)]><! -->
+    <!-- New relic sometimes prevents ie9 from loading -->
+    <script type="text/javascript">
+      window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{h?h-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,h=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(d){"stack"in d&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(h+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&h>0&&(h-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){j++,S=y.hash,this[u]=Date.now()}function o(){j--,y.hash!==S&&i(0,!0);var t=Date.now();this[l]=~~this[l]+t-this[u],this[h]=t}function i(t,e){x.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=Date.now()})}var c="-start",s="-end",f="-body",u="fn"+c,h="fn"+s,d="cb"+c,p="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location;if(w[v]){var g=t(9),b=t(10),x=t(8),E=t(6),T=t(12),O=t(7),R=t(13),P=t("ee"),D=P.get("tracer");t(14),t("loader").features.spa=!0;var S,N=w[v],j=0;P.on(u,r),P.on(d,r),P.on(h,o),P.on(p,o),P.buffer([u,h,"xhr-done","xhr-resolved"]),E.buffer([u]),T.buffer(["setTimeout"+s,"clearTimeout"+c,u]),R.buffer([u,"new-xhr","send-xhr"+c]),O.buffer([m+c,m+"-done",m+f+c,m+f+s]),x.buffer(["newURL"]),g.buffer([u]),b.buffer(["propagate",d,p,"executor-err","resolve"+c]),D.buffer([u,"no-"+u]),a(R,"send-xhr"+c),a(P,"xhr-resolved"),a(P,"xhr-done"),a(O,m+c),a(O,m+"-done"),x.on("pushState-end",i),x.on("replaceState-end",i),N("hashchange",i,!0),N("load",i,!0),N("popstate",function(){i(0,j>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",h="bstResource",d="resource",p="-start",l="-end",m="fn"+p,v="fn"+l,w="bstTimer",y="pushState";t("loader").features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=Date.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,Date.now()])}),a.on(m,function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),this.bstType])}),c.on(m,function(){this.bstStart=Date.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=Date.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(h,[window.performance.getEntriesByType(d)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(h,[window.performance.getEntriesByType(d)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,h],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(21)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",h="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(h+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,h=a.Response,d=a.fetch,p="prototype";u&&h&&d&&(i(f,function(t,e){r(u[p],e,s),r(h[p],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(21)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(21)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(21),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(21)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(21)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",h="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+h),a.inPlace(window,[s],s+h),a.inPlace(window,[f,"clearImmediate"],f+h),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){h.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),h.inPlace(t,v,"fn-",c)}function i(t){w.push(t),l&&(g=-g,b.data=g)}function a(){for(var t=0;t<w.length;t++)r([],w[t]);w.length&&(w=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),h=t(21)(u),d=NREUM.o,p=d.XHR,l=d.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],w=[];e.exports=u;var y=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,y),y.prototype=p.prototype,h.inPlace(y.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var g=1,b=document.createTextNode(g);new l(a).observe(b,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<h;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],h=u.length,d=t("id"),p=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<h;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],h="api-",d=h+"ixn-";a(u,function(t,e){f[e]=o(h+e,!0,"api")}),f.addPageAction=o(h+"addPageAction",!0),f.setCurrentRouteName=o(h+"routeName",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(d+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(d+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[/s](d+.d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){d([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(h){throw u(e+"err",[r,a,h],c),h}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,h(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o)}catch(a){d([a,n,r,o])}s=i}}function h(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o){if(!d.aborted){t&&t(n,r,o);for(var i=e(o),a=l(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var f=u[y[n]];return f&&f.push([g,n,r,i]),i}}function p(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return h[t]=h[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},g={on:p,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(d.aborted=!0,u=d.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},h={},d=e.exports=o();d.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=g.info=NREUM.info,e=h.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(w,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()],null,"api");var n=h.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===h.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(19),f=t("ee"),u=window,h=u.document,d="addEventListener",p="attachEvent",l=u.XMLHttpRequest,m=l&&l.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:l,REQ:u.Request,EV:u.Event,PR:u.Promise,MO:u.MutationObserver},t(16);var v=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1016.min.js"},y=l&&m&&m[d]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:v,features:{},xhrWrappable:y};h[d]?(h[d]("DOMContentLoaded",i,!1),u[d]("load",r,!1)):(h[p]("onreadystatechange",o),u[p]("onload",r)),c("mark",["firstbyte",a()],null,"api");var b=0},{}]},{},["loader",2,14,5,3,4]);
+;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"bb7a456742",applicationID:"34741842",sa:1}
+    </script>
+    <!--<![endif]-->
+
+    <title>Um Herói Desperta - Universo de League of Legends</title>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Um Herói Desperta - Universo de League of Legends" />
+    <meta property="og:description" content="A guerra se aproximava, e Galio nada podia fazer, exceto observar os soldados demacianos se preparando." />
+    <!-- Atleast 1200x630 -->
+    <meta property="og:image" content="http://universe-meeps.leagueoflegends.com/v1/assets/images/demacia-sketches/galio-demacia-sketch.jpg" />
+    <meta property="og:image:height" content="1748" />
+    <meta property="og:image:width" content="2518" />
+
+    <!-- Seo tags for google to better understand how to redirect languages. -->
+    <link rel="alternate" hreflang="x-default" href="http://universe.leagueoflegends.com/" />
+    
+    <link rel="alternate" hreflang="cs-CZ" href="http://universe.leagueoflegends.com/cs_CZ/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="de-DE" href="http://universe.leagueoflegends.com/de_DE/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="el-GR" href="http://universe.leagueoflegends.com/el_GR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-PL" href="http://universe.leagueoflegends.com/en_PL/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-GB" href="http://universe.leagueoflegends.com/en_GB/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-US" href="http://universe.leagueoflegends.com/en_US/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-AU" href="http://universe.leagueoflegends.com/en_AU/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-PH" href="http://universe.leagueoflegends.com/en_PH/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="en-SG" href="http://universe.leagueoflegends.com/en_SG/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="es-AR" href="http://universe.leagueoflegends.com/es_AR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="es-ES" href="http://universe.leagueoflegends.com/es_ES/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="es-MX" href="http://universe.leagueoflegends.com/es_MX/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="fr-FR" href="http://universe.leagueoflegends.com/fr_FR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="hu-HU" href="http://universe.leagueoflegends.com/hu_HU/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="id-ID" href="http://universe.leagueoflegends.com/id_ID/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="it-IT" href="http://universe.leagueoflegends.com/it_IT/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="ja-JP" href="http://universe.leagueoflegends.com/ja_JP/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="ko-KR" href="http://universe.leagueoflegends.com/ko_KR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="ms-MY" href="http://universe.leagueoflegends.com/ms_MY/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="pl-PL" href="http://universe.leagueoflegends.com/pl_PL/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="pt-BR" href="http://universe.leagueoflegends.com/pt_BR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="ro-RO" href="http://universe.leagueoflegends.com/ro_RO/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="ru-RU" href="http://universe.leagueoflegends.com/ru_RU/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="th-TH" href="http://universe.leagueoflegends.com/th_TH/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="tr-TR" href="http://universe.leagueoflegends.com/tr_TR/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="vn-VN" href="http://universe.leagueoflegends.com/vn_VN/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="zh-TW" href="http://universe.leagueoflegends.com/zh_TW/story/galio-color-story/" />
+    
+    <link rel="alternate" hreflang="zh-CN" href="http://universe.leagueoflegends.com/zh_CN/story/galio-color-story/" />
+    
+
+
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="/icons/favicon-230x230.png">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+
+    
+  
+    <link rel="stylesheet" href="/css/global.13a913911ceaf40bff0c.css" />
+  
+    <link rel="stylesheet" href="/css/main.13a913911ceaf40bff0c.css" />
+  
+    
+
+    
+    <!-- Riot Tags for Head -->
+
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@leagueoflegends" />
+    <meta name="twitter:creator" content="@leagueoflegends" />
+
+    <!-- Hotjar Tracking Code for http://universe.leagueoflegends.com -->
+    <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:450269,hjsv:5};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-N98J');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Google Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://universe.leagueoflegends.com/pt_BR/story/galio-color-story/","@type":"CreativeWork","name":"Um Herói Desperta"}}]}
+    </script>
+
+    
+
+
+    
+  </head>
+  <body>
+    
+    <!-- Riot Tags for Body -->
+    <!-- Qualaroo for leagueoflegends.com -->
+    <!-- Paste this code right after the <body> tag on every page of your site. -->
+    <script type="text/javascript">
+      var _kiq = _kiq || [];
+      (function(){
+        setTimeout(function(){
+          var d = document,
+              f = d.getElementsByTagName('script')[0],
+              s = d.createElement('script');
+
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//s3.amazonaws.com/ki.js/51398/aVk.js';
+          f.parentNode.insertBefore(s, f);
+        }, 1);
+      })();
+    </script>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N98J" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+
+    <div id="App"></div>
+    <div id="Preloader"></div>
+    <script>
+    (function() {
+        var method;
+        var noop = function () {};
+        var methods = [
+            'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+            'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+            'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+            'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+
+        while (length--) {
+            method = methods[length];
+
+            // Only stub undefined methods.
+            if (!console[method]) {
+                console[method] = noop;
+            }
+        }
+    }());
+    </script>
+    
+  
+    <script type="text/javascript" src="/js/main.13a913911ceaf40bff0c.js"></script>
+  
+  
+    
+
+    
+  </body>
+</html>
+|||http://saude.ig.com.br/|<!DOCTYPE html><html dir="ltr" lang="pt-BR">
+  <head>    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Saúde: bem-estar, dicas de alimentação, dieta e exercícios - iG</title>
+    <meta name="description" content="Saiba como cuidar ter um corpo saudável, com dicas de dietas eficazes, alimentação saudável, guia de plantas medicinais, primeiros socorros e mais." />
+    <meta name="google-site-verification" content="veSJywtQNLJIVeQ6j0WQojlh2xJZpsiiosc1FDp8HJU" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="http://saude.ig.com.br/" />
+    <!-- Site -->
+    <meta name="iG-site-id" content="4ec502a5738db9157d000062" />
+    <meta name="contact" content="editorultimosegundo@ig.com" />
+    <meta name="iG-site-nome" content="Saúde" />
+    <meta name="iG-site-dominio" content="saude.ig.com.br" />
+    <meta name="iG-shopping" content="http://i1.statig.com.br/igshopping/json/ig_saude_1.json" />
+    <meta name="iG-shopping-titulos-abas" />
+    <meta name="iG-shopping-jsons-abas" />
+    <meta name="iG-OAS-site" content="saude.ig.com.br" />
+    <meta name="iG-cor-linha" content="340673" />
+    <meta name="iG-cor-texto" content="555555" />
+    <meta name="iG-twitter" content="http://twitter.com/#!/igsaude" />
+    <meta name="iG-busca-google" content="IGSAUDE" />
+    <meta name="pubs-web-spectator" content="x07:813,Top2:863" />
+    <!-- Seção -->
+    <meta name="iG-secao-id" content="4f4e7f6a23507c1f2400068f" />
+    <meta name="iG-secao-nome" content="Home" />
+    <meta name="iG-secao-nome-normalizado" content="home" />
+    <meta name="iG-OAS-vars-secao" content="/homepage" />
+    <meta name="iG-OAS-vars-tags" content="Right,Top2,x07,x15,x30,x31,x33,Middle2,Middle3" />
+    <meta name="iG-OAS-query" />
+    <!-- Facebook -->
+    <meta property="og:title" content="Saúde: bem-estar, dicas de alimentação, dieta e exercícios - iG" />
+    <meta property="og:description" content="Saiba como cuidar ter um corpo saudável, com dicas de dietas eficazes, alimentação saudável, guia de plantas medicinais, primeiros socorros e mais." />
+    <meta property="og:site_name" content="Saúde" />
+    <meta property="og:url" content="http://saude.ig.com.br/" />
+    <meta property="og:type" />
+    <meta property="og:image" />
+    <meta property="fb:admins" content="100000152996983" />
+    <meta property="fb:pages" content="206389422705018" />
+    <link type="text/css" rel="stylesheet" href="//statig0.akamaized.net/sass-canais/canaisiGv01/css/ig-canais.css?v0.0.1" /><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5J8MN6');</script><!-- End Google Tag Manager -->
+</head>
+  <body class="saude" id="desktop">
+    <!-- Google Tag Manager --><noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5J8MN6"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager -->
+    <script type="text/javascript">window.mobileAndTabletcheck = function() {var check = false;(function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))check = true})(navigator.userAgent||navigator.vendor||window.opera);return check;}</script>
+    <script type="text/javascript">if(window.mobileAndTabletcheck()){document.getElementById("desktop").setAttribute('id', 'mobile');}</script>
+    <header class="header" id="header">
+      <div class="wrap-content" id="wrap-content">
+        <div class="box-header">
+          <style>@charset "UTF-8";#header .aux-nav .aux-nav-button,.busca .botao-buscar:hover,.subMenu-box{cursor:pointer}@font-face{font-family:igIcons;src:url(//i0.statig.com.br/sass-canais/canaisiGv01/fontes/ig-icons-new/igIcons.eot?sn6t23);src:url(//i0.statig.com.br/sass-canais/canaisiGv01/fontes/ig-icons-new/igIcons.eot?sn6t23#iefix) format("embedded-opentype"),url(//i0.statig.com.br/sass-canais/canaisiGv01/fontes/ig-icons-new/igIcons.ttf?sn6t23) format("truetype"),url(//i0.statig.com.br/sass-canais/canaisiGv01/fontes/ig-icons-new/igIcons.woff?sn6t23) format("woff"),url(//i0.statig.com.br/sass-canais/canaisiGv01/fontes/ig-icons-new/igIcons.svg?sn6t23#igIcons) format("svg");font-weight:400;font-style:normal}[class*=" icn-"],[class^=icn-]{font-family:igIcons!important;speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icn-snap:before{content:""}.icn-arrow-down:before{content:""}.icn-rss:before{content:""}.icn-facebook:before{content:""}.icn-instagram:before{content:""}.icn-twitter:before{content:""}.icn-search:before{content:""}.icn-mail:before{content:""}.icn-share:before{content:""}.icn-google-plus:before{content:""}#topo{padding:15px 0}#header,#header *{-webkit-backface-visibility:hidden}#header .content:after,#header:after,.container:after,.wrap-content:after{content:"";display:table;clear:both}#header{width:100%;position:relative;z-index:999}#header .ig-ad{position:relative;z-index:1}#header .last{float:none}#header .wrap-content{width:100%;border-top:1px solid #d8d8d8;border-bottom:1px solid #d8d8d8;background:#EDEDED;position:relative;z-index:999999999}#header .box-header{position:relative;height:60px;max-width:1170px;margin-left:auto;margin-right:auto}#header .box-header:before{height:0;content:"";width:100%;position:absolute;bottom:45%;left:0;background-color:#d8d8d8;z-index:-1}#header .logo{float:left;min-width:50px;margin-top:10px;max-width:110px;vertical-align:middle;margin-right:1.6129%}#header .logo img{max-width:100%}#header .logo a{display:block}#header .aux-nav{display:block;float:right;margin-top:20px;position:relative;z-index:100}#header .aux-nav .ig-share-button:active,#header .aux-nav .ig-share-button:hover{color:#3a3e48}#header .aux-nav .aux-nav-box{padding:30px;border:1px solid #dddce1;background-color:#FFF;position:absolute;top:30px;right:-96px;white-space:nowrap;border-top:3px solid #626367;max-width:337px;display:none}#header .aux-nav .aux-nav-box.social-media-box{right:-140px!important}#header .aux-nav>li{display:inline-block;color:#3d98de;font-size:23px;margin-left:15px;position:relative}#header .aux-nav>li:first-child{margin-left:0}#header .aux-nav>li.active .aux-nav-box{display:block}#header .aux-nav>li.active:before{width:0;height:0;border-style:solid;border-width:0 5px 5px;border-color:transparent transparent #626367;content:"";position:absolute;bottom:-2px;right:5px}#header .aux-nav a,#header .aux-nav a:hover{color:#3d98de}#header .aux-nav .social-media-box{font-size:16px}#header .aux-nav .social-media-box:before{right:128px}#header .aux-nav .social-media-box a{color:#b3b3b3;padding-left:20px}#header .aux-nav .social-media-box em{font-weight:700;font-size:23px}#header .aux-nav .social-media-box span:hover{color:#626367}#header .aux-nav .login-box .login-box-title{color:#1585db;font-size:22px;margin-bottom:25px;text-align:center}#header .aux-nav .login-box:before{right:75px}#header .aux-nav .login-box strong{font-weight:700}#header .aux-nav .search-box .busca{width:240px}#header .aux-nav .search-box .botao-buscar{font-size:13px}#header .aux-nav .aux-nav-button:focus,#header .aux-nav .aux-nav-button:hover{color:#435e77}#header .logo{width:3.8%;margin:.4% 2.0323% 0}.busca{position:relative;width:19.6774%}.busca input{height:34px;width:100%;border:1px solid #dddce1;padding-left:10px;padding-right:10px;font-size:12px}.busca input::-webkit-input-placeholder{color:#adadad;font-size:12px;font-weight:400;ffont-family:Lato,Arial,BlinkMacSystemFont,Helvetica,sans-serif!important}.busca input:-moz-placeholder{color:#adadad;font-size:12px;font-weight:400;font-family:Lato,Arial,BlinkMacSystemFont,Helvetica,sans-serif!important}.busca input::-moz-placeholder{color:#adadad;font-size:12px;font-weight:400;font-family:Lato,Arial,BlinkMacSystemFont,Helvetica,sans-serif!important}.busca input:-ms-input-placeholder{color:#adadad;font-size:12px;font-weight:400;font-family:Lato,Arial,BlinkMacSystemFont,Helvetica,sans-serif!important}.busca .botao-buscar{background:#1585db;color:#FFF;text-transform:uppercase;font-size:18px;height:34px;width:34px;display:inline-block;position:absolute;right:0;top:0}.busca .botao-buscar:hover{background:#626367;border:#fff;font-weight:900;transition:.5s}.busca cite{font-size:9px;color:#ababab;line-height:30px;font-style:normal}.mobile-menu{display:none}#searchOn{position:relative;background:#fff;border:1px solid #ddd;border-bottom-left-radius:2px;border-bottom-right-radius:2px}#searchOn a{display:block;width:100%;padding:8px 15px;text-decoration:none;border-bottom:1px solid #ddd;font-size:13px}#searchOn a strong{font-weight:700}#searchOn a:hover strong{text-decoration:none!important;font-weight:700}#searchOn a.nobd-b{border-bottom:0!important}#searchOn a.ongoogle{border-bottom:0}#searchOn a.active,#searchOn a:hover{background:#F8F8F8;cursor:pointer;text-decoration:none}input,input::-webkit-input-placeholder{font-size:12px!important;font-family:Lato,Arial,BlinkMacSystemFont,Helvetica,sans-serif!important}@media (max-width:1176px){.icn-arrow-down-mobile{float:right;border-left:1px solid #CCC;position:relative;position:absolute;right:0;top:0;padding-left:18px;line-height:50px;width:50px;height:50px}}@media (min-width:1176px){.entretenimento-drop ul.drop-itens li a:before{width:150px!important}.entretenimento-drop:hover .drop-itens{width:990px;left:1px}.entretenimento ul.iGh__submenu .menu-drop,.entretenimento ul.iGh__submenu .menu-drop .iGh__submenu-link:before{width:150px!important}.entretenimento ul.iGh__submenu.iGh__submenu--opened{width:350px;right:27%}.servicos-menu .submenu-servicos{border:2px solid transparent;max-width:123px;float:left;width:100%;height:80px;background:#e2e2e2;margin:6px 0 34px 2%;padding:30px 0;position:relative}.servicos-menu .submenu-servicos:hover{border:2px solid #2c85c7;opacity:.8;transition:all .5s ease}.servicos-menu .submenu-servicos .subMenu__produtos{z-index:60;font-weight:700;display:block;color:#3a3e48;position:relative;font-size:13px;top:-25px;padding-bottom:10px;border-bottom:3px solid #2c85c7}.servicos-menu .submenu-servicos .subMenu__produtos:before{color:#2c85c7;font-size:22px;font-weight:inherit;height:75px;padding-top:27px;margin-top:-5px;position:relative;width:auto;box-sizing:border-box;border-bottom:0 solid transparent;background:#e2e2e2}.servicos-menu .submenu-servicos .subMenu__Servicos--igmail:before{content:"iG Mail"}.servicos-menu .submenu-servicos .subMenu__Servicos--igcupons:before{content:"iG Cupons"}.servicos-menu .submenu-servicos.line{padding:18px 0}.servicos-menu .submenu-servicos.line .subMenu__produtos{top:-12px}.ultimosegundo-menu .submenu-ultimosegundo{border:2px solid transparent;max-width:123px;float:left;width:100%;height:80px;background:#e2e2e2;margin:6px 0 34px 2%;padding:30px 0;position:relative}.tvig-menu .submenu-tvCidadeSP,.tvig-menu .submenu-tvig{max-width:130px;background:#e2e2e2;position:relative;float:left}.ultimosegundo-menu .submenu-ultimosegundo:hover{border:2px solid #2d74ab;opacity:.8;transition:all .5s ease}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__legenda{z-index:60;font-weight:700;display:block;color:#3a3e48;position:relative;font-size:13px;top:-24px;padding-bottom:10px;border-bottom:3px solid #2c85c7}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__legenda:before{color:#2c85c7;font-size:22px;font-weight:inherit;height:75px;padding-top:27px;margin-top:-5px;position:relative;width:auto;box-sizing:border-box;border-bottom:0 solid transparent;background:#e2e2e2}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--politica:before{content:"Política";padding-top:25px}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--brasil:before{content:"Brasil";padding-top:25px}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--mundo:before{content:"Mundo";padding-top:25px}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--mundoInsolito:before{content:"Mundo Insólito";padding-top:14px}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--educacao:before{content:"Educação";padding-top:25px}.ultimosegundo-menu .submenu-ultimosegundo .subMenu__UltimoSegundo--saude:before{content:"Saúde";padding-top:25px}.ultimosegundo-menu .submenu-ultimosegundo.line{padding:18px 0}.ultimosegundo-menu .submenu-ultimosegundo.line .subMenu__legenda{top:-12px}.tvig-menu .submenu-tvig{border:2px solid transparent;width:100%;height:80px;margin:-4px 0 0 17px!important;padding:30px 0}.tvig-menu .submenu-tvig:hover{border:2px solid #46474f;opacity:.8;transition:all .5s ease}.tvig-menu .submenu-tvig .subMenu__legenda{font-weight:700;display:block;color:#3a3e48;font-size:13px;top:-13px!important;padding-bottom:10px;border-bottom:3px solid #46474f}.tvig-menu .submenu-tvCidadeSP.line .subMenu__legenda,.tvig-menu .submenu-tvig.line .subMenu__legenda{top:-12px}.tvig-menu .submenu-tvig .subMenu__legenda:before{color:#46474f;font-size:22px;font-weight:inherit;height:75px;padding-top:27px;margin-top:-5px;position:relative;width:auto;box-sizing:border-box;border-bottom:0 solid transparent;background:#e2e2e2}.tvig-menu .submenu-tvig .subMenu__tviG--tvIG:before{content:"TV iG";padding-top:25px}.tvig-menu .submenu-tvig.line{padding:18px 0}.tvig-menu .submenu-tvCidadeSP{border:2px solid transparent;width:100%;height:80px;margin:-4px 0 0 17px!important;padding:30px 0}.tvig-menu .submenu-tvCidadeSP:hover{border:2px solid #2c85c7;opacity:.8;transition:all .5s ease}.tvig-menu .submenu-tvCidadeSP .subMenuTvCidadeSP__legenda{font-weight:700;display:block;color:#3a3e48;font-size:13px;top:-13px!important;padding-bottom:10px;border-bottom:3px solid #2c85c7}.tvig-menu .submenu-tvCidadeSP .subMenuTvCidadeSP__legenda:before{color:#2c85c7;font-size:22px;font-weight:inherit;height:75px;padding-top:27px;margin-top:-5px;position:relative;width:auto;box-sizing:border-box;border-bottom:0 solid transparent;background:#e2e2e2}.tvig-menu .submenu-tvCidadeSP .subMenuTvCidadeSP__tviG--tvCidadeSP:before{content:"TV Cidade SP";padding-top:15px}.menu-item ul.drop-itens li a:before,.subMenuJornais:before,.ul:after{content:""}.tvig-menu .submenu-tvCidadeSP.line{padding:18px 0}.jornais .iGh__submenu--opened{width:100%;background-color:#FAFAFA;margin:0;padding:0;text-align:center}.jornais .jor__submenu-item.diariosp{margin:25px 1%!important}.jornais li a{border-bottom:0!important}.subMenuJornais{z-index:60;font-weight:700;display:block;color:#3a3e48;font-size:13px;line-height:40px}.subMenuJornais:before{opacity:.8;transition:all .5s ease;background-repeat:no-repeat;background-image:url(//statig0.akamaized.net/sass-canais/ig/images/home/spritejornaisv2.png)!important;display:block;position:relative;z-index:5;margin-bottom:10px!important}.subMenuJornais:hover:before{opacity:.5!important}.subMenuJornais.sprite-diariosp:before{width:138px!important;height:27px!important;background-position:-5px -5px}.subMenuJornais.sprite-jornaldebrasilia:before{width:92px!important;height:38px!important;background-position:-5px -37px}.subMenuJornais.sprite-leiaja:before{width:95px!important;height:34px!important;background-position:-5px -85px}.subMenuJornais.sprite-meiahora:before{width:105px!important;height:28px!important;background-position:-5px -127px}.subMenuJornais.sprite-odia:before{width:88px!important;height:28px!important;background-position:-153px -5px}.subMenuJornais.sprite-otempo:before{width:107px!important;height:24px!important;background-position:-110px -70px}.subMenuJornais.sprite-tribuna:before{width:105px!important;height:25px!important;background-position:-120px -98px}.icn-arrow-down{font-size:18px!important;line-height:5px}.menu-item.jornais ul.iGh__submenu{width:116%;z-index:14;margin:-10px 0 0 -53px}.jorLinks:before{display:none!important}li.menu-item:hover a.comportamento,li.menu-item:hover a.entretenimento,li.menu-item:hover a.servicos,li.menu-item:hover a.tv-ig,li.menu-item:hover a.ultimosegundo{border-bottom:transparent;background-color:#fafafa;z-index:15;position:relative}.jornais:hover,li.menu-item.drop-menu:hover{background:#fafafa;cursor:pointer;border:1px solid #d8d8d8}.drop-menu:hover .iGh__submenu,.jornais:hover .iGh__submenu{height:auto;visibility:visible;opacity:1;transform:translateY(0);display:block}li.menu-item.drop-menu.jornais:hover a.jornal{color:#3E649A;border-bottom:transparent;background-color:#fafafa;z-index:15;position:relative}.jornais{color:#002e5f}.jornais li{margin:20px 1%;display:inline-block;cursor:pointer}.iGh__submenu{z-index:50;opacity:0;height:0;visibility:hidden;position:absolute;left:0;right:0;margin:-5px auto 0;width:930px;border:1px solid #d8d8d8;border-radius:1px;background:#fafafa;transform:translateY(-100%);display:none}.drop-menu:hover .drop-itens,.jornais:hover .drop-itens{height:auto;visibility:visible;opacity:1;z-index:14;transform:translateY(0);display:block}#main-menu-wrapper{display:inline-block;vertical-align:middle;position:relative;text-align:center;top:11px}.ul{display:table;width:100%;padding:0}.ul:after{display:inline-block;width:100%;height:0}.menu-item{-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s;float:left;border:1px solid transparent}.menu-item.active a.jornal{border-bottom:transparent;background-color:#fafafa;z-index:15;position:relative;color:#3E649A}.menu-item a{display:block;text-transform:uppercase;color:#3a3e48;font-size:13px;padding:10px 6px 20px;border-bottom:3px solid;cursor:pointer}.menu-item .ultimosegundo{border-color:#2d74ab}.menu-item .ultimosegundo:hover{color:#2d74ab}.menu-item .economia{border-color:#d15600}.menu-item .economia:hover{color:#d15600}.menu-item .esporte{border-color:#547700}.menu-item .esporte:hover{color:#547700}.menu-item .entretenimento,.menu-item .gente{border-color:#810800}.menu-item .entretenimento:hover,.menu-item .gente:hover{color:#810800}.menu-item a.subMenuJornais{margin-bottom:-13px}.menu-item .comportamento{border-color:#f8178f}.menu-item .comportamento:hover{color:#f8178f}.menu-item .comportamento .icn-arrow-down{font-size:8px;margin-left:3px}.menu-item .ig-vigilante{border-color:#34b69f}.menu-item .ig-vigilante:hover{color:#34b69f}.menu-item .carros{border-color:#9d0a00}.menu-item .carros:hover{color:#9d0a00}.menu-item .tv-ig{border-color:#747474}.menu-item .tv-ig:hover{color:#747474}.menu-item .servicos{border-color:#0f6bc9}.menu-item .servicos:hover{color:#0f6bc9}.menu-item.active{border:1px solid #d8d8d8;border-bottom:0;background:#fafafa;cursor:pointer}.menu-item.active a.comportamento{color:#f8178f;border-bottom:transparent;background-color:#fafafa;z-index:15;position:relative}.menu-item ul.drop-itens{opacity:0;height:0;visibility:hidden;position:absolute;padding:25px 1%;left:0;right:0;margin:-5px auto 0;border:1px solid #d8d8d8;border-radius:1px;background:#fafafa;transform:translateY(-100%);width:108%;display:none}.menu-item ul.drop-itens.opened{height:auto;visibility:visible;z-index:14;opacity:1;transform:translateY(0)}.menu-item ul.drop-itens-serv{height:150px!important;padding-left:64px;width:910px;left:77px}.menu-item ul.drop-itens-ultimosegundo{height:150px!important;width:810px;left:-181px;padding-left:22px}.menu-item ul.drop-itens-tv-ig{height:150px!important;width:360px;left:600px;padding-left:22px}.menu-item ul.drop-itens img{width:100%;height:100px;background:#d0d0d0}.menu-item ul.drop-itens li{display:inline-block;margin:0 .3%}.menu-item ul.drop-itens li.serv__submenu-item{margin:0 2.5%}.menu-item ul.drop-itens li.jor__submenu-item{margin:0 3%}.menu-item ul.drop-itens li:first-child{margin-left:0}.menu-item ul.drop-itens li a{border-bottom:3px solid}.menu-item ul.drop-itens li a:before{opacity:.8;transition:all .5s ease;background-image:url(//i0.statig.com.br/sass-canais/ig/images/home/sprite-menuV8.png);background-repeat:no-repeat;display:block;position:relative;z-index:5;width:122px;height:91px;margin-bottom:10px;border:2px solid transparent}.menu-item ul.drop-itens li .igay,.menu-item ul.drop-itens li .igay:hover:before{border-color:#ff2536}.menu-item ul.drop-itens li .igay:before{background-position:-185px -227px}.menu-item ul.drop-itens li .delas,.menu-item ul.drop-itens li .delas:hover:before{border-color:#b175aa}.menu-item ul.drop-itens li .delas:before{background-position:-21px -121px}.menu-item ul.drop-itens li .deles,.menu-item ul.drop-itens li .deles:hover:before{border-color:#488288}.menu-item ul.drop-itens li .deles:before{background-position:-189px -121px}.menu-item ul.drop-itens li .turismo,.menu-item ul.drop-itens li .turismo:hover:before{border-color:#495892}.menu-item ul.drop-itens li .turismo:before{background-position:-522px -119px}.menu-item ul.drop-itens li .luxo,.menu-item ul.drop-itens li .luxo:hover:before{border-color:#363c3f}.menu-item ul.drop-itens li .luxo:before{background-position:-355px -232px}.menu-item ul.drop-itens li .covermodel,.menu-item ul.drop-itens li .covermodel:hover:before{border-color:#fef332}.menu-item ul.drop-itens li .covermodel:before{background-position:-177px -14px}.menu-item ul.drop-itens li .canaldopet,.menu-item ul.drop-itens li .canaldopet:hover:before{border-color:#4eb7a5}.menu-item ul.drop-itens li .canaldopet:before{background-position:-23px -13px}.menu-item ul.drop-itens li .receitanamesa,.menu-item ul.drop-itens li .receitanamesa:hover:before{border-color:#e5e0cf}.menu-item ul.drop-itens li .receitanamesa:before{background-position:-189px -336px}.menu-item ul.drop-itens li .igames,.menu-item ul.drop-itens li .igames:hover:before{border-color:#f9b21a}.menu-item ul.drop-itens li .igames:before{background-position:-15px -226px}.menu-item ul.drop-itens li .gente,.menu-item ul.drop-itens li .gente:hover:before{border-color:#4d0015}.menu-item ul.drop-itens li .gente:before{background-position:-341px -119px}.menu-item ul.drop-itens li .ovanguardista,.menu-item ul.drop-itens li .ovanguardista:hover:before{border-color:#323733}.menu-item ul.drop-itens li .ovanguardista:before{background-position:-5px -334px}.menu-item ul.drop-itens li .nossoamanha:before,.menu-item ul.drop-itens li .profashional:before{background-position:-355px -228px}.menu-item ul.drop-itens li .nossoamanha,.menu-item ul.drop-itens li .nossoamanha:hover:before{border-color:#842bb9}.menu-item ul.drop-itens li .profashional,.menu-item ul.drop-itens li .profashional:hover:before{border-color:#f82c51}.menu-item ul.drop-itens li .deboismo,.menu-item ul.drop-itens li .deboismo:hover:before{border-color:#50c0cb}.menu-item ul.drop-itens li .deboismo:before{background-position:-356px -12px}.menu-item ul.drop-itens li .sralguem,.menu-item ul.drop-itens li .sralguem:hover:before{border-color:#75b6d8}.menu-item ul.drop-itens li .sralguem:before{background-position:-508px -10px}.menu-item ul.drop-itens li .revista-lounge,.menu-item ul.drop-itens li .revista-lounge:hover:before{border-color:#f25021}.menu-item ul.drop-itens li .revista-lounge:before{background-position:-503px -225px}.menu-item ul.drop-itens li .sprite{border:2px solid transparent}.menu-item ul.drop-itens li:hover:before{opacity:1}.menu-item ul.drop-itens a{border:0;padding:0 0 10px;text-transform:none;position:relative;font-weight:700}.menu-item.has-drop.active>ul.menu-drop{height:auto;display:block;z-index:10;opacity:1;transition:all .3s ease;transform:translateY(0);visibility:visible}ul.menu-drop{opacity:0;height:0;visibility:hidden;position:absolute;padding:25px 25px 0;left:0;right:0;margin:-5px auto 0;width:930px;border:1px solid #d8d8d8;border-radius:1px;background:#fafafa;transform:translateY(-20%)}ul.menu-drop img{width:100%;height:100px;background:#d0d0d0}ul.menu-drop li{display:inline-block;margin-right:23px;width:155px;border-bottom:3px solid}ul.menu-drop li:last-child{margin-right:0s}ul.menu-drop li .igay,ul.menu-drop li .igay:hover .sprite{border-color:#ff2536}ul.menu-drop li .delas,ul.menu-drop li .delas:hover .sprite{border-color:#b175aa}ul.menu-drop li .deles,ul.menu-drop li .deles:hover .sprite{border-color:#488288}ul.menu-drop li .turismo,ul.menu-drop li .turismo:hover .sprite{border-color:#495892}ul.menu-drop li .luxo,ul.menu-drop li .luxo:hover .sprite{border-color:#363c3f}ul.menu-drop li .covermodel:hover{color:#fff200}ul.menu-drop li .covermodel:before{background:#fff200}ul.menu-drop li .nossoamanha:hover{color:#842bb9}ul.menu-drop li .nossoamanha:before{background:#842bb9}ul.menu-drop li .profashional:hover{color:#f82c51}ul.menu-drop li .profashional:before{background:#f82c51}ul.menu-drop li .sprite{opacity:.8;transition:all .5s ease;border:2px solid transparent}ul.menu-drop li:hover .sprite{opacity:1}ul.menu-drop a{border:0;padding:0;text-transform:none;position:relative}ul.menu-drop p{padding:10px 0;text-align:center;font-weight:700;color:#626367;position:relative;z-index:5}}@media (max-width:1175px){.entretenimento ul.iGh__submenu .menu-drop{width:100%!important}.entretenimento ul.iGh__submenu .menu-drop .iGh__submenu-link:before{width:7px!important}.entretenimento ul.iGh__submenu.iGh__submenu--opened{width:350px;right:27%}.subMenuJornais.sprite-leiaja,.subMenuJornais.sprite-odiario,.subMenuJornais.sprite-otempo,.subMenuJornais.sprite-tribuna{display:none!important}.header #main-menu-wrapper{position:absolute;top:60px;right:0;width:60%;max-width:320px;border-top:3px solid #626367;-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%);z-index:1000000;background-color:#FFF;transition:.6s ease}.header #main-menu-wrapper.opened{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}.header #main-menu-wrapper ul li.menu-item{position:relative;border-bottom:1px solid #c0bfbf}.header #main-menu-wrapper ul li.menu-item.jornais ul.drop-itens a:before{background:#3A3E48}.header #main-menu-wrapper ul li.menu-item ul.drop-itens{display:none;background:#ededed}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a{border-bottom:1px solid #c0bfbf;border-left:0;padding-left:0;margin-left:35px}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a:before{content:"";width:7px;height:7px;margin-right:10px;display:inline-block;vertical-align:middle}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.subMenu__produtos:hover{color:#2c85c7}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.subMenu__produtos:before{background:#2c85c7}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.igay:hover{color:#ff2536}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.igay:before{background:#ff2536}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.delas:hover{color:#b175aa}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.delas:before{background:#b175aa}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.deles:hover{color:#488288}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.deles:before{background:#488288}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.turismo:hover{color:#495892}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.turismo:before{background:#495892}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.luxo:hover{color:#363c3f}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.luxo:before{background:#363c3f}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.covermodel:hover{color:#fef332}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.covermodel:before{background:#fef332}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.canaldopet:hover{color:#4eb7a5}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.canaldopet:before{background:#4eb7a5}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.receitanamesa:hover{color:#e5e0cf}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.receitanamesa:before{background:#e5e0cf}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.igames:hover{color:#f9b21a}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.igames:before{background:#f9b21a}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.gente:hover{color:#4d0015}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.gente:before{background:#4d0015}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.ovanguardista:hover{color:#323733}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.ovanguardista:before{background:#323733}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.deboismo:hover{color:#50c0cb}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.deboismo:before{background:#50c0cb}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.sralguem:hover{color:#75b6d8}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.sralguem:before{background:#75b6d8}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.ultimo-segundo:hover{color:#2d74ab}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.ultimo-segundo:before{background:#2d74ab}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.revista-lounge:hover{color:#f25021}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.revista-lounge:before{background:#f25021}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.nossoamanha:hover{color:#842bb9}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.nossoamanha:before{background:#842bb9}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.profashional:hover{color:#f82c51}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.profashional:before{background:#f82c51}.header #main-menu-wrapper ul li.menu-item ul.drop-itens a.last{border-bottom:0}.header #main-menu-wrapper ul li.menu-item ul.drop-itens.opened{display:block;border-top:1px solid #3a3e48}.header #main-menu-wrapper ul li.menu-item span.drop-ico.opened{border-left:1px solid #3a3e48}.header #main-menu-wrapper ul li.menu-item span.drop-ico.opened:after{border-top:0;border-bottom:9px solid #626367}.header #main-menu-wrapper ul li.menu-item.active{border-top:1px solid #3a3e48;background:#ededed}.header #main-menu-wrapper ul a{display:block;padding:20px 0 20px 35px;color:#3a3e48;text-transform:uppercase;text-decoration:none;border-left:4px solid;position:relative;overflow:hidden}.header #main-menu-wrapper ul a.ultimo-segundo{border-left-color:#2d74ab}.header #main-menu-wrapper ul a.economia{border-left-color:#ffb000}.header #main-menu-wrapper ul a.esporte{border-left-color:#547700}.header #main-menu-wrapper ul a.entretenimento,.header #main-menu-wrapper ul a.gente{border-left-color:#810800}.header #main-menu-wrapper ul a.comportamento{border-left-color:#f8178f}.header #main-menu-wrapper ul a.ig-vigilante{border-left-color:#34b69f}.header #main-menu-wrapper ul a.carros{border-left-color:#9d0a00}.header #main-menu-wrapper ul a.tv-ig{border-left-color:#747474}.header #main-menu-wrapper ul a.servicos{border-left-color:#0f6bc9}.header #main-menu-wrapper .icn-arrow-down{float:right;border-left:1px solid #CCC;position:relative;position:absolute;right:0;top:0;padding-left:18px;line-height:50px;width:50px;height:50px}.header .mobile-menu{display:block;margin:20px 20px 0;color:#1585db;padding:3px 9px;font-size:14px;text-decoration:none;border-radius:3px;border:2px solid #1585db;float:right;width:56px;text-align:center}}</style><header class="header" id="header"><div class="wrap-content" id="wrap-content"><div class="box-header"><div class="logo"><a href="https://www.ig.com.br" title="Portal IG"><img src="//i0.statig.com.br/sass-canais/ig/images/home/logo-parceiro.png?v1.0" alt="Portal IG"></a></div><nav id="main-menu-wrapper"><ul><li class="menu-item drop-menu ultimosegundo-menu ultimo-segundo" id="ultimosegundo"><a href="http://ultimosegundo.ig.com.br" class="ultimo-segundo ultimosegundo drop-trigger-ultimosegundo">Último Segundo <span class="icn-arrow-down"></span></a> <span class="icn-arrow-down-mobile" id="iG_ultimosegundo_c"></span><ul class="drop-itens drop-itens-ultimosegundo" id="iG_ultimosegundo"><li class="submenu-ultimosegundo line"><a href="http://ultimosegundo.ig.com.br/politica/" title="Política" class="subMenu__UltimoSegundo--politica subMenu__legenda ultimo-segundo">Política</a></li><li class="submenu-ultimosegundo line"><a href="http://ultimosegundo.ig.com.br/brasil/" title="Brasil" class="subMenu__UltimoSegundo--brasil subMenu__legenda ultimo-segundo">Brasil</a></li><li class="submenu-ultimosegundo"><a href="http://ultimosegundo.ig.com.br/mundo/" title="Mundo" class="subMenu__UltimoSegundo--mundo subMenu__legenda ultimo-segundo">Mundo</a></li><li class="submenu-ultimosegundo"><a href="http://ultimosegundo.ig.com.br/mundo/mundo-insolito" title="Mundo Insólito" class="subMenu__UltimoSegundo--mundoInsolito subMenu__legenda ultimo-segundo">Mundo Insólito</a></li><li class="submenu-ultimosegundo"><a href="http://ultimosegundo.ig.com.br/educacao/" title="Educação" class="subMenu__UltimoSegundo--educacao subMenu__legenda ultimo-segundo">Educação</a></li><li class="submenu-ultimosegundo"><a href="http://saude.ig.com.br/" title="Saúde" class="subMenu__UltimoSegundo--saude subMenu__legenda ultimo-segundo">Saúde</a></li></ul></li><li class="menu-item"><a href="http://economia.ig.com.br/" class="economia">Economia</a></li><li class="menu-item"><a href="http://esporte.ig.com.br/" class="esporte">Esporte</a></li><li class="menu-item drop-menu entretenimento-drop" id="entretenimento"><a id="iG_entretenimento_c" class="entretenimento drop-trigger">Entretenimento <span class="icn-arrow-down"></span></a><ul class="drop-itens" id="iG_entretenimento"><li class="menu-drop"><a href="http://gente.ig.com.br/" class="gente">Gente</a></li><li class="menu-drop"><a href="http://covermodel.ig.com.br/" class="covermodel">Cover Model</a></li><li class="menu-drop"><a href="http://igames.ig.com.br/" class="igames">iGames</a></li><li class="menu-drop"><a href="http://ovanguardista.ig.com.br/" class="ovanguardista">O Vanguardista</a></li><li class="menu-drop"><a href="http://senhoralguem.ig.com.br/" class="sralguem">Senhor Alguém</a></li><li class="menu-drop"><a href="http://www.revistalounge.com.br/" class="revista-lounge last">Revista Lounge</a></li></ul></li><li class="menu-item drop-menu comportamento-drop" id="subcomportamento"><a id="iG_comportamento_c" class="comportamento drop-trigger">comportamento <span class="icn-arrow-down"></span></a><ul class="drop-itens" id="iG_subcomportamento"><li class="menu-drop"><a href="http://delas.ig.com.br/" class="delas">Delas</a></li><li class="menu-drop"><a href="http://deles.ig.com.br/" class="deles">Deles</a></li><li class="menu-drop"><a href="http://canaldopet.ig.com.br/" class="canaldopet">Canal do Pet</a></li><li class="menu-drop"><a href="http://receitanamesa.ig.com.br/" class="receitanamesa">Receita na Mesa</a></li><li class="menu-drop"><a href="http://turismo.ig.com.br/" class="turismo">Turismo</a></li><li class="menu-drop"><a href="http://igay.ig.com.br/" class="igay">iGay</a></li><li class="menu-drop"><a href="http://profashional.ig.com.br/" class="profashional">Moda</a></li><li class="menu-drop"><a href="http://odeboismo.ig.com.br/" class="deboismo last">O Deboísmo</a></li></ul></li><li class="menu-item"><a href="//ultimosegundo.ig.com.br/igvigilante/" class="ig-vigilante">iG Vigilante</a></li><li class="menu-item"><a href="http://carros.ig.com.br" class="carros">Carros</a></li><li class="menu-item drop-menu drop-itens-tv-ig tvig-menu tv-ig" id="tvig"><a href="http://tvig.ig.com.br/" class="tv-ig drop-trigger-tvig">TV iG <span class="icn-arrow-down"></span></a> <span class="icn-arrow-down-mobile" id="iG_tvig_c"></span><ul class="drop-itens drop-itens-tv-ig" id="iG_tvig"><li class="submenu-tvig line"><a href="http://tvig.ig.com.br/" title="TV iG" class="subMenu__tviG--tvIG subMenu__legenda">TV iG</a></li><li class="submenu-tvCidadeSP line"><a href="http://www.tvcidadesp.com.br/" target="_blank" title="TV Cidade SP" class="subMenuTvCidadeSP__tviG--tvCidadeSP subMenuTvCidadeSP__legenda">TV Cidade SP</a></li></ul></li><li class="menu-item drop-menu servicos-menu servicos" id="servicos"><a id="iG_servicos_c" class="servicos drop-trigger-servicos">Serviços <span class="icn-arrow-down"></span></a><ul class="drop-itens drop-itens-serv" id="iG_servicos"><li class="submenu-servicos serv__submenu-item"><a href="https://emailpremium.ig.com.br/" target="_blank" title="iG Mail" class="subMenu__Servicos--igmail subMenu__produtos">iG Mail</a></li><li class="submenu-servicos serv__submenu-item"><a title="iG Cupons" href="https://www.ig.com.br/cupons" target="_blank" class="subMenu__Servicos--igcupons subMenu__produtos">iG Cupons</a></li><li class="submenu-servicos serv__submenu-item"><a title="Cupom Casas Bahia" href="https://www.ig.com.br/cupons/cupom-desconto-casas-bahia" target="_blank" class="subMenu__Servicos--igcupons subMenu__produtos">Cupom Casas Bahia</a></li><li class="submenu-servicos serv__submenu-item"><a title="Cupom Extra" href="https://www.ig.com.br/cupons/cupom-de-desconto-extra" target="_blank" class="subMenu__Servicos--igcupons subMenu__produtos">Cupom Extra</a></li><li class="submenu-servicos serv__submenu-item"><a title="Cupom Saraiva" href="https://www.ig.com.br/cupons/cupom-desconto-saraiva" target="_blank" class="subMenu__Servicos--igcupons subMenu__produtos">Cupom Saraiva</a></li></ul></li><li class="menu-item drop-menu jornais" id="jornais"><a id="iG_jornais_c" class="jornal drop-trigger">Jornais <span class="icn-arrow-down"></span></a><ul class="drop-itens" id="iG_jornais"><li class="jor__submenu-item"><a title="Rio de Janeiro" href="http://odia.ig.com.br/" class="subMenuJornais sprite-odia" target="_blank">Rio de Janeiro</a></li><li class="jor__submenu-item"><a title="Rio de Janeiro" href="http://meiahora.ig.com.br/" class="subMenuJornais sprite-meiahora" target="_blank">Rio de Janeiro</a></li><li class="jor__submenu-item"><a title="iG Minas" href="http://www.otempo.com.br/" class="subMenuJornais sprite-otempo" target="_blank"></a> <a href="http://minasgerais.ig.com.br/" title="iG Minas" class="subMenuJornais jorLinks">iG Minas</a></li><li class="jor__submenu-item"><a title="iG Bahia" href="http://www.tribunadabahia.com.br/" class="subMenuJornais sprite-tribuna" target="_blank"></a> <a href="http://bahia.ig.com.br/" title="iG Bahia" class="subMenuJornais jorLinks">iG Bahia</a></li></ul></li></ul></nav><a href="#" class="mobile-menu" id="iG_mobile_menu_c">menu</a><ul class="aux-nav"><li><button type="button" title="Compartilhe" id="iG_social_c" class="ig-share-button aux-nav-button"><span class="icn-share"></span></button><div class="aux-nav-box social-media-box" id="iG_social"><strong>O <em>iG </em>nas redes </strong><a href="https://www.facebook.com/ig" target="_blank" title="Siga no Facebook"><span class="icn-facebook"></span> </a><a href="https://twitter.com/iG" target="_blank" title="Siga no Twitter"><span class="icn-twitter"></span> </a><a href="https://www.snapchat.com/add/portalig" target="_blank" title="Siga no Snapchat"><span class="icn-snap"></span> </a><a href="https://www.instagram.com/portal_ig/" target="_blank" title="Siga no Instagram"><span class="icn-instagram"></span></a></div></li><li><a href="//www.ig.com.br/?action=login" class="icn-mail"></a></li></ul></div></div></header><script type="text/javascript">/*! barra 2017-03-27 05:03 */function setActive(a){document.getElementById("main-menu-wrapper").removeAttribute("class");var b=document.getElementById(a);"iG_social"==a||document.getElementById("iG_social").parentElement.setAttribute("class",""),"active"==b.parentElement.getAttribute("class")?b.parentElement.setAttribute("class",""):b.parentElement.setAttribute("class","active")}function toogle(a,b){if(document.getElementById("iG_social").parentElement.setAttribute("class",""),null!=a&&null!=b){var c=document.getElementById(a),d=c.getAttribute("class");null==d?c.setAttribute("class",b):d.replace(/[\n\t]/g," ").indexOf(b)==-1?c.setAttribute("class",c.getAttribute("class")+" "+b):(y=d.split(b),""==y[0]?c.removeAttribute("class"):c.setAttribute("class",y[0]))}"jornais"==a?toogle("iG_jornais","opened"):"subcomportamento"==a&&toogle("iG_subcomportamento","opened"),"entretenimento"==a?toogle("iG_entretenimento","opened"):"servicos"==a&&toogle("iG_servicos","opened"),"ultimosegundo"==a?toogle("iG_ultimosegundo","opened"):"igtvig"==a&&toogle("iG_tvig","opened")}document.getElementById("iG_social_c").onclick=function(){setActive("iG_social")},document.getElementById("iG_mobile_menu_c").onclick=function(){toogle("main-menu-wrapper","opened")},document.getElementById("iG_comportamento_c").onclick=function(){toogle("subcomportamento","active")},document.getElementById("iG_jornais_c").onclick=function(){toogle("jornais","active")},document.getElementById("iG_servicos_c").onclick=function(){toogle("servicos","active")},document.getElementById("iG_ultimosegundo_c").onclick=function(){toogle("ultimosegundo","active")},document.getElementById("iG_tvig_c").onclick=function(){toogle("tvig","active")},document.getElementById("iG_entretenimento_c").onclick=function(){toogle("entretenimento","active")};</script>
+        </div>
+      </div>
+      <div class="ig-ad">
+        <div class="publicidade superbanner">  <div id="ad_leaderboard"></div></div>
+      </div>
+    </header>
+    <header class="main-header">
+      <div class="ig-container">
+        <a href="" class="trigger-menu"></a>
+        <h1 class="logo-canais">
+          <a href="http://saude.ig.com.br" title="Saúde">
+            <img src="//statig0.akamaized.net/sass-canais/canaisiGv01/saude/images/saude.png?340673" alt="Saúde" />
+          </a>
+        </h1>
+        <div id="oferecimento"><div id="ad_microbanner"></div></div><div id="busca"><form lang="atmors" action="http://busca.ig.com.br/buscar" method="get" name="search" id="buscaGoogle" enctype="application/x-www-form-urlencoded" accept-charset="UTF-8"><fieldset id="searchContainer"><input type="text" alt="Buscar" title="Buscar" value="" name="q" id="buscar" autocomplete="off" /><input type="hidden" name="o" id="ib_o" value="IGSAUDE" /><input type="hidden" name="c" id="ib_c" value="all" /><input type="hidden" name="t" id="ib_t" value="all" /><input type="hidden" name="d" id="ib_d" value="all" /><input type="hidden" name="p" id="ib_p" value="1" /><input type="hidden" checked="checked" name="s" id="searchScope" value="saude_content" /><button type="submit" class="botao-buscar" alt="Buscar" title="Buscar" value="Buscar"><span class="icn-search"></span></button></fieldset><div id="searchOn" style="display: none;"><a rel="saude_content" class="onus">Buscar "<strong></strong>" no <span id="buscaNoCanal">Saúde</span></a><a rel="ig_content" class="onig">Buscar "<strong></strong>" no iG</a></div><div id="searchOnBottom" style="display: none;">&nbsp;</div></form></div>
+      </div>
+      <div id='menu-N' >  <nav class="subHome-nav">    <ul><li class="subHome-nav__item">  <a title="Programas de Dieta" href="http://saude.ig.com.br/alimentacao/dieta/" target="_self" class="subHome-nav__link  programas-de-dieta">    <span class="subMenu-button"></span>
+Programas de Dieta</a>
+  <div class="subMenu-box"></div>
+</li>
+<li class="subHome-nav__item">  <a title="Programa de Exercícios" href="http://saude.ig.com.br/bemestar/exercicios/" target="_self" class="subHome-nav__link  programa-de-exercicios">    <span class="subMenu-button"></span>
+Programa de Exercícios</a>
+  <div class="subMenu-box"></div>
+</li>
+<li class="subHome-nav__item sub ">  <a title="Colunas" href="http://saude.ig.com.br/colunas/" target="_self" class="subHome-nav__link  colunas">    <span class="subMenu-button"></span>
+Colunas</a>
+  <div class="subMenu-box"><div class="subMenu-button"><span class="icn-arrow-down"></span></div><div class="subHome-nav__submenu"><ul><li class="subHome-nav__item--submenu"><a href="http://saude.ig.com.br/colunas/ligia-kogos-dermatologia/" target="_self">Ligia Kogos - Dermatologia</a></li><li class="subHome-nav__item--submenu"><a href="http://saude.ig.com.br/colunas/bruno-puglisi-odontologia/" target="_self">Bruno Puglisi - Odontologia</a></li></ul></div></div>
+</li>
+<li class="subHome-nav__item sub ">  <a title="Mais Sites" href="http://indice.ig.com.br/" target="_self" class="subHome-nav__link  mais-sites">    <span class="subMenu-button"></span>
+Mais Sites</a>
+  <div class="subMenu-box"><div class="subMenu-button"><span class="icn-arrow-down"></span></div><div class="subHome-nav__submenu"><ul><li class="subHome-nav__item--submenu"><a href="http://saudebucal.ig.com.br/" target="_self">Saúde Bucal Colgate</a></li><li class="subHome-nav__item--submenu"><a href="https://www.ativo.com/" target="_self">Ativo</a></li><li class="subHome-nav__item--submenu"><a href="http://dicascidade.com.br/" target="_self">Dicas Cidade</a></li><li class="subHome-nav__item--submenu"><a href="http://universojatoba.com.br/categoria/bem-estar/nutricao/" target="_self">Dicas Nutricionais / Jatoba</a></li></ul></div></div>
+</li>
+</ul>
+</nav>
+</div>
+    </header>
+    <!-- /header -->
+    <!-- Main Content -->
+    <main>
+      <div class="ig-container">
+        <!-- left-content -->
+        <div class="col-sm-12">
+          <!-- area editavel -->
+          <div id="tv"></div>
+        </div>
+        <div class="main-content">
+          <div class="row">
+            <section id="conteudo">
+              <div id="9B80B5BD-1567-4B24-8978-8B0A27454CB0" class="faixa">
+                <div class="slider-wrapper" id="7EFC2510-5E40-4DE4-BBFE-F0D7D6833C06">                  <div class="main-slider">                    <div id="bx-pager">
+                      <a class="link" title="Acaba estoque de vacinas contra febre amarela em Casimiro de Abreu, no Rio " data-slide-index="0">                        <div class="arrow">                          <img src="https://i0.statig.com.br/bancodeimagens/2p/a4/vs/2pa4vs1dzzuxl37gjwlkoai2f.jpg" alt="Acaba estoque de vacinas contra febre amarela em Casimiro de Abreu, no Rio " />
+                          <span class="slider-number">1</span>
+</div>
+</a>
+                      <a class="link" title="Ácidos usados por frigoríficos na Operação Carne Fraca causam câncer?" data-slide-index="1">                        <div class="arrow">                          <img src="https://i0.statig.com.br/bancodeimagens/bk/x4/il/bkx4ilp1vs026u7r8wwojfj3t.jpg" alt="Ácidos usados por frigoríficos na Operação Carne Fraca causam câncer?" />
+                          <span class="slider-number">2</span>
+</div>
+</a>
+                      <a class="link" title="Campanha de vacinação contra gripe será em abril; confira os detalhes" data-slide-index="2">                        <div class="arrow">                          <img src="https://i0.statig.com.br/bancodeimagens/dh/x0/j4/dhx0j41w0roxrkkohfwoaco45.jpg" alt="Campanha de vacinação contra gripe será em abril; confira os detalhes" />
+                          <span class="slider-number">3</span>
+</div>
+</a>
+</div>
+                    <div class="slider">                      <ul class="bxslider">
+                        <li class="slider-item">                          <a class="img-link inner-shadow" href="http://saude.ig.com.br/2017-03-24/febre-amarela-vacinas-esgotadas.html" title="Acaba estoque de vacinas contra febre amarela em Casimiro de Abreu, no Rio " target="_self">                            <img src="https://i0.statig.com.br/bancodeimagens/36/m5/m2/36m5m2hutfp1qdfte9730g5jk.jpg" alt="Acaba estoque de vacinas contra febre amarela em Casimiro de Abreu, no Rio " />
+                            <h2 class="slider-title">Acaba estoque de vacinas contra febre amarela em Casimiro de Abreu, no Rio </h2>
+</a>
+                          <span class="iconeTipo"></span>
+</li>
+                        <li class="slider-item">                          <a class="img-link inner-shadow" href="http://saude.ig.com.br/2017-03-21/carne-fraca.html" title="Ácidos usados por frigoríficos na Operação Carne Fraca causam câncer?" target="_self">                            <img src="https://i0.statig.com.br/bancodeimagens/an/2x/fv/an2xfvapw8kbm65qr4vuim1fh.jpg" alt="Ácidos usados por frigoríficos na Operação Carne Fraca causam câncer?" />
+                            <h2 class="slider-title">Ácidos usados por frigoríficos na Operação Carne Fraca causam câncer?</h2>
+</a>
+                          <span class="iconeTipo"></span>
+</li>
+                        <li class="slider-item">                          <a class="img-link inner-shadow" href="http://saude.ig.com.br/2017-03-24/campanha-vacinacao-contra-gripe-2017.html" title="Campanha de vacinação contra gripe será em abril; confira os detalhes" target="_self">                            <img src="https://i0.statig.com.br/bancodeimagens/ep/ud/jw/epudjwvi70pzrlrr0np9xqafm.jpg" alt="Campanha de vacinação contra gripe será em abril; confira os detalhes" />
+                            <h2 class="slider-title">Campanha de vacinação contra gripe será em abril; confira os detalhes</h2>
+</a>
+                          <span class="iconeTipo"></span>
+</li>
+</ul>
+</div>
+</div>
+                  <div class="publicidade advertising-box pub_300x250"></div>
+</div>
+                <div class="col-sm-6" id="071161C4-90EA-4393-9A1D-EDBB479AA1F1">
+                  <div class="ig-component h-component">                    <a href="http://saude.ig.com.br/2017-03-23/dois-recem-nascidos-morrem-em-hospital-de-goiania.html" title="Dois recém-nascidos morrem infectados em hospital de Goiânia" target="_self">                      <div class="img-link inner-shadow">                        <img width="360" height="225" class="ig-component-image" src="https://i0.statig.com.br/bancodeimagens/ah/ry/v7/ahryv79fbefl9gxqwnkx3t6yt.jpg" alt="Dois recém-nascidos morrem infectados em hospital de Goiânia" />
+</div>
+                      <div class="ig-component-content">                        <strong class="ig-component-hat--bg">superbactéria</strong>
+                        <h2 class="ig-component-title">Dois recém-nascidos morrem infectados em hospital de Goiânia</h2>
+</div>
+</a>
+                    <span class="iconeTipo"></span>
+</div>
+</div>
+                <div class="col-sm-6" id="1E602934-15D3-44F0-AA79-1051A01812C7">
+                  <div class="ig-component h-component">                    <a href="http://saude.ig.com.br/2017-03-23/mulher-faz-cirurgia-e-sua-vagina-morde-seu-parceiro.html" title="Após cirurgia, mulher faz sexo e sua vagina &quot;morde&quot; o parceiro  " target="_self">                      <div class="img-link inner-shadow">                        <img width="360" height="225" class="ig-component-image" src="https://i0.statig.com.br/bancodeimagens/ak/rw/g6/akrwg69o3e9woxbo99ihr05m9.jpg" alt="Após cirurgia, mulher faz sexo e sua vagina &quot;morde&quot; o parceiro  " />
+</div>
+                      <div class="ig-component-content">                        <strong class="ig-component-hat--bg">"Era como se tivesse dentes"</strong>
+                        <h2 class="ig-component-title">Após cirurgia, mulher faz sexo e sua vagina "morde" o parceiro  </h2>
+</div>
+</a>
+                    <span class="iconeTipo"></span>
+</div>
+</div>
+              </div>
+              <div id="E1F5776E-FA5C-4A98-AEBD-8FC7FC664607" class="faixa">
+                <div id="A6788D32-812E-49CF-8F05-84574251D373">                  <div class="espaco-beleza" id="ad_publied_3c" style="display: none;">                    <div class="nh-nav">                      <h2 class="category-title">                        <a href="" target="_blank"></a>
+                        <a href="" target="_blank">                          <img src="" id="seloLoja" class="selos active" />
+</a>
+</h2>
+                      <div class="ad-box">                        <img src="" />
+</div>
+</div>
+                    <div class="box-beleza">                      <ul>                        <li>                          <a href="#">                            <label class="label-beleza"></label>
+                            <img src="" alt="" />
+                            <p></p>
+</a>
+</li>
+                        <li>                          <a href="#">                            <label class="label-beleza"></label>
+                            <img src="" alt="" />
+                            <p></p>
+</a>
+</li>
+                        <li>                          <a href="#">                            <label class="label-beleza"></label>
+                            <img src="" alt="" />
+                            <p></p>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+                <div class="HTE04906 gd6 fl" id="60175AF9-17E2-442A-9291-B6A4331C55F6">                  <div>
+                    <style>
+#A6788D32-812E-49CF-8F05-84574251D373{
+padding: 0 15px;
+margin-bottom: 30px;
+}
+</style>
+                  </div>
+</div>
+              </div>
+              <div id="4B1618CB-2C5C-441B-967D-43FA5FC79D5D" class="faixa">
+                <div class='HTE04906 gd6 fl HTE04703-taboola_saude naoPublicado' title='Compartilhamento não publicado' id='7974CC8C-57EF-456C-93B9-99064B755966' >  <div><div class="igTb-component" tb-placement="Mobile Below Section Front Thumbnails" tb-template-mobile="thumbnails-b" tb-template-desktop="thumbnails-c"></div>
+
+<style>
+
+.SF_2.ob-strip-layout .ob-widget-header {
+    color: #254750!important;
+}
+
+.SF_2.ob-strip-layout .ob-widget-header:after {
+    background-color: #254750!important;
+}
+.SF_2.ob-widget .ob-widget-items-container {
+     border-top-color: #254750!important;
+     border: 1px solid #cccccc!important;
+}
+</style>
+
+<div class="OUTBRAIN" style="padding: 0 15px; margin-bottom: 30px;" data-src="saude.ig.com.br" data-widget-id="SF_2" data-ob-template="igcom"></div>
+
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script> </div>
+</div>
+              </div>
+              <div id="788E809D-1D2E-495B-AC96-D392ABD40DB6" class="faixa">
+                <div class="col-sm-12 " id="0DE10DB5-83A6-4C34-A378-93264785081A">                  <div class="ig-component component-latest-news ultimasNoticias">                    <div class="LIASOLR ">                      <div class="theId" id="emphome">                        <a class="anchor" name="solrator_emphome"></a>
+                        <input type="hidden" name="id" value="emphome" />
+                        <input type="hidden" name="tipo" value="ultimasNoticias" />
+                        <input type="hidden" name="dominio" value="saude.ig.com.br" />
+                        <input type="hidden" name="secoes" />
+                        <input type="hidden" name="secoesEH" />
+                        <input type="hidden" name="termos" />
+                        <input type="hidden" name="canal" value="saude" />
+                        <input type="hidden" name="limit" value="3" />
+                        <input type="hidden" name="limitOlho" value="147" />
+                        <input type="hidden" name="hasPagination" />
+                        <input type="hidden" name="tipoConteudo" />
+                        <textarea name="template" style="display: none;"></textarea>
+                        <textarea name="beforeRender" style="display: none;"></textarea>
+                        <textarea name="beforeRenderItem" style="display: none;"></textarea>
+                        <textarea name="afterRender" style="display: none;"></textarea>
+                        <textarea name="afterRenderItem" style="display: none;"></textarea>
+                        <textarea name="callback" style="display: none;"></textarea>
+                        <div class="nh-nav">                          <h2 class="category-title">Últimas Notícias</h2>
+</div>
+                        <ul class="component-latest-news--list container"></ul>
+                        <div class="clear"></div>
+                        <ul class="pagination"></ul>
+                        <div class="clear">                          <a target="_blank" class="linkGeral" href="/noticias">&gt; Todas as notícias</a>
+</div>
+</div>
+</div>
+</div>
+                  <script type="text/javascript"></script>
+                </div>
+              </div>
+              <div id="CE93A3AB-D4A5-4721-9738-7F6324318C52" class="faixa">
+                <div class="col-sm-12" id="6A25FA62-3BF7-4284-A99C-ED2CED502F3C">                  <div class="shoppingInternas comp-box" id="ad_ig_shopping" style="display: none;">                    <div class="shoppingInternasHeader">                      <div class="nh-nav">                        <h2 class="category-title">                          <a href="" target="_blank">iG Shopping</a>
+                          <a href="" target="_blank" class="selo">                            <img src="" id="seloLoja" class="selos active" />
+</a>
+</h2>
+</div>
+</div>
+                    <div class="hiddenUl">                      <ul id="produtosLoja" class="ulProd active">                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+                        <li class="produtos">                          <a href="" target="_blank">                            <img src="" alt="" class="" />
+                            <div class="texto">                              <p class="de">                                <h1></h1>
+</p>
+                              <p class="preco"></p>
+                              <p class="parcelas"></p>
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="secondary-content">
+          <div id="barra-lateral"><div id="6E6408A2-678B-46E9-B3BD-55196191BE47" class="faixa"><div class="col-sm-6 col-md-12" id="DB1A56CA-9E6E-4A6D-82E0-8EE18F5086A8">  <div class="publicidade pub_300x250">    <div id="ad_mrec1"></div>
+</div>
+</div><div class="col-sm-6 col-md-12" id="C448618C-1D92-40E9-982F-7F63D8D26CCC">  <div class="ig-component component-facebook">    <div class="fb-page" data-small-header="false" data-adapt-container-width="true" data-width="370" data-hide-cover="false" data-show-facepile="true" data-href="https://www.facebook.com/ig/">      <div class="fb-xfbml-parse-ignore">        <blockquote cite="https://www.facebook.com/ig/">          <a href="https://www.facebook.com/ig/">IG</a>
+</blockquote>
+</div>
+</div>
+</div>
+</div><div class="col-sm-6 col-md-12" id="140D9550-CDAE-40F7-B636-16CCEDF911AF">  <div class="publicidade pub_300x250">    <div id="ad_mrec2"></div>
+</div>
+</div></div></div>
+        </div>
+      </div>
+      <script>window.jQuery || document.write('<script src="http://js.statig.com.br/egomes/jquery-1.9.1.min.js">\x3C/script>')</script><script type="text/javascript" src="http://statjs.akamaized.net/sass-canais/canaisiGv01/ig-canais.min.js?v2.2534534"></script>
+      <footer class="iGfooter">  <div class="ig-container">    <div class="col-sm-2">      <a href="http://www.ig.com.br" class="iGfooter__logo"><img src="//statig0.akamaized.net/sass-canais/ig/images/home/logo.png"></a>        </div>    <div class="col-sm-10 col-md-6">      <nav role="navigation" class="iGfooter__nav">        <h3><a href="http://indice.ig.com.br/" title="Sobre o iG" class="iGfooter__tittle">Sobre o iG</a></h3>        <ol class="iGfooter__links">          <li><a href="http://centraldoanunciante.ig.com.br/" title="Central do Anunciante iG: saiba como anunciar no iG" class="iGfooter__link">Anuncie</a></li>          <li><a href="http://faleconosco.ig.com.br/" title="Fale Conosco" class="iGfooter__link">Fale conosco</a></li>          <li><a href="http://denuncia.ig.com.br/" title="Denúncia" class="iGfooter__link">Denúncia  </a></li>          <li><a href="http://images.ig.com.br/politica_privacidade/index.html" title="Conheça a Política de Privacidade" class="iGfooter__link">Política de Privacidade</a></li>        </ol>        <h3><a href="http://produtos.ig.com.br/" title="Serviços" class="iGfooter__tittle">Serviços</a></h3>        <ol class="iGfooter__links">          <li><a href="https://www.ig.com.br/cupons/" target="_blank" title="iG Cupons" class="iGfooter__link">iG Cupons</a></li>          <li><a href="https://emailpremium.ig.com.br/" target="_blank" title="iG Mail Premium" class="iGfooter__link">iG Mail</a></li>        </ol>      </nav>    </div>    <div class="col-sm-12 col-md-4">      <div class="iGfooter__social">        <h3 class="iGfooter__tittle">Siga o iG</h3>        <div class="iGfooter__medias">          <a href="https://www.facebook.com/ig" target="_blank" title="Siga no Facebook"><span class="icn-facebook"></span></a>          <a href="https://twitter.com/iG" target="_blank" title="Twitter"><span class="icn-twitter"></span></a>          <a href="https://www.snapchat.com/add/portalig" target="_blank" title="Siga no Snapchat"><span class="icn-snap"></span></a>          <a href="https://www.instagram.com/portal_ig/" target="_blank" title="Siga no Instagram"><span class="icn-instagram"></span></a>          <a href="http://www.ig.com.br/rss/" target="_blank" title="Siga no RSS"><span class="icn-rss"></span></a>          <p class="copyright">© Copyright 2000-2017, iG Publicidade e Conteúdo: iG e iBest</p>        </div>      </div>    </div>      </div></footer>
+    </main>
+    <!-- /Main Content -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+  </body>
+</htm

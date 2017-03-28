@@ -1,0 +1,1455 @@
+|||http://www.santacasaba.org.br/|<!DOCTYPE HTML>
+<html lang="pt-br" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"default"}'>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="http://www.santacasaba.org.br/" />
+  <meta name="keywords" content="hospitais, cemitério, cerimonial, casamento" />
+  <meta name="description" content="Uma Irmandade a serviço do bem que reúne um complexo de ações executadas nas áreas da saúde, ação social e cultural." />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Santa Casa da Bahia</title>
+  <link href="/" rel="canonical" />
+  <link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/scmb/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/mod_rssocial/css/rssocial.css" type="text/css" />
+  <link rel="stylesheet" href="/media/mod_rssocial/css/rssocial-anim.css" type="text/css" />
+  <link rel="stylesheet" href="/media/mod_rssocial/css/rssocial-font.css" type="text/css" />
+  <style type="text/css">
+.rssocial-sharing-facebook-container-left{ width: 124px; height: 20px; }#rssocial-254 .rssocial-icons li { font-size: 24px; }#rssocial-254 .rssocial-caption a { font-size: 14px; }#rssocial-254 .rssocial-icons-bg .rssocial-link { color: rgb(255, 255, 255); }#rssocial-254 .rssocial-icons-bg .rssocial-link { background-color: rgba(153, 204, 102, 0.75); }#rssocial-254 .rssocial-icons-bg .rssocial-link:hover { background-color: rgba(153, 204, 102, 0.5); }#rssocial-254 .rssocial-icons .rssocial-caption a { color: rgb(255, 255, 255); }#rssocial-254 .rssocial-icons .rssocial-caption { background-color: rgba(0, 0, 0, 0.75); }#rssocial-254 .rssocial-icons .rssocial-caption:hover { background-color: rgba(0, 0, 0, 0.5); }
+  </style>
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/mod_rssocial/js/rssocial.js" type="text/javascript"></script>
+  <script src="https://platform.tumblr.com/v1/share.js" type="text/javascript"></script>
+  <script src="/media/mod_rssocial/js/jquery-migrate.js" type="text/javascript"></script>
+  <script src="/media/mod_rssocial/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/uikit-43cf0635.js" type="text/javascript"></script>
+  <script src="/media/widgetkit/wk-scripts-dbb2d5f3.js" type="text/javascript"></script>
+  <script type="text/javascript">
+RSSocial.captionEqualWidth();RSSocial.showOnClick('floating', 'right', '254', 'icons', '1', '0', '2');RSSocial.setListWidth('254', '0');RSSocial.floatingResize('254', 'floating', 'right');RSSocial.moveToBody('254');
+  </script>
+
+<link rel="apple-touch-icon-precomposed" href="/templates/scmb/apple_touch_icon.png">
+<link rel="stylesheet" href="/templates/scmb/css/theme.css">
+<link rel="stylesheet" href="/templates/scmb/css/custom.css">
+<script src="/templates/scmb/warp/vendor/uikit/js/uikit.js"></script>
+<script src="/templates/scmb/warp/vendor/uikit/js/components/autocomplete.js"></script>
+<script src="/templates/scmb/warp/vendor/uikit/js/components/search.js"></script>
+<script src="/templates/scmb/warp/js/social.js"></script>
+<script src="/templates/scmb/js/theme.js"></script>
+
+
+      
+<script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery.ajax({
+                url: 'http://scm.insix.com.br/Valor/GetValores',
+                method: 'GET',
+            }).done(function (data) {
+                var checked = 'checked="checked"'
+                for (i = 0; i < data.length; i++) {
+                    var radioBtn = jQuery('<input type="radio" name="val_doacao_doa" ' + checked + ' value="' + data[i].val_valor_val + '" /> <span>' + data[i].val_valor_val + '</span>');
+                    radioBtn.appendTo('#radioGroup');
+                    checked = "";
+                }
+ 
+                jQuery('[name="val_doacao_doa"]').on('change', function () {
+                    if (jQuery('[name="val_doacao_doa"]:checked').val() == '-1') {
+                        jQuery('#asteriskValDoacaoOutros').removeAttr('style');
+                    } else {
+                        jQuery('#asteriskValDoacaoOutros').css({ "display": "none" });
+                    }
+                });
+            })
+        });
+ 
+        // Form validation code will come here.
+        function validate() {
+            var valorokay = true;
+            var nomeokay = true;
+            var radioDoacao = document.getElementById("val_doacao_doa");
+            if (radioDoacao.checked == true && document.formDoacao.val_doacao_outros_doa.value == "") {
+                jQuery('#asteriskValDoacaoOutros').removeAttr('style');
+                //alert("Por favor, Preencha o valor para a doação");
+                document.formDoacao.val_doacao_outros_doa.focus();
+                valorokay = false;
+            }
+            var res = document.formDoacao.des_nome_doacao_doa.value.split(" ");
+            if (res.length < 2) {
+                document.formDoacao.des_nome_doacao_doa.focus();
+                alert("Por favor, Preencha o nome completo");
+                nomeokay = false;
+            }
+            if (nomeokay & valorokay) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+ 
+    </script>
+    
+</head>
+
+<body class="tm-isblog">
+        
+                <nav class="tm-navbar">
+            <div class="uk-container uk-container-center">
+                <div class="tm-navbar-center">
+
+                                        <div class="uk-text-center tm-nav-logo uk-visible-large">
+                        <a class="tm-logo uk-visible-large" href="http://www.santacasaba.org.br">
+	<div><img src="/images/global/santa_casa.png" alt="santa casa" /></div></a>
+                    </div>
+                    
+                                        <div class="tm-nav uk-visible-large">
+                        <div class="tm-nav-wrapper"><ul class="uk-navbar-nav uk-hidden-small"><li class="uk-active"><a href="/">Home</a></li><li><a href="/a-instituicao">A Instituição</a></li><li><a href="/provedores">Provedores</a></li><li class="uk-parent" data-uk-dropdown="{}" aria-haspopup="true" aria-expanded="false"><a href="#">
+	Atividades</a>
+<div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1" style="min-width: 300px; max-width: 300px; width:300px;"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-1"><ul class="uk-nav uk-nav-navbar"><li><a href="/atividades/saude">Saúde</a></li><li><a href="/atividades/doacoes">Ações Sociais</a></li><li><a href="/atividades/acoes-socioculturais">Ações Culturais</a></li><li><a href="/atividades/outras-atividades">Outras Atividades</a></li></ul></div></div></div></li><li><a href="/noticias">Notícias</a></li><li><a href="/contato">Contato</a></li></ul></div>
+                    </div>
+                    
+                                            <a href="#offcanvas" class="uk-navbar-toggle uk-hidden-large uk-navbar-flip" data-uk-offcanvas></a>
+                    
+                                            <div class="uk-navbar-content uk-hidden-large"><a class="tm-logo-small" href="http://www.santacasaba.org.br">
+	<img src="/images/global/santa_casa.png" alt="santa casa" width="65" height="65" /></a></div>
+                    
+                </div>
+            </div>
+
+            
+        </nav>
+        
+        <div class="tm-wrapper">
+
+                        <div id="tm-fullscreen-a" class="tm-fullscreen-a">
+                
+<div data-uk-slideshow="{duration: 3500,autoplay: true ,pauseOnHover: false}">
+
+    <div class="uk-slidenav-position">
+
+        <ul class="uk-slideshow">
+        
+            <li style="min-height: 150px;">
+
+                
+                    <img src="/images/global/home/imagens_topo/topo1.jpg" alt="Topo HOME" width="1900" height="649">
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 150px;">
+
+                
+                    <img src="/images/global/home/imagens_topo/topo2.jpg" alt="Topo2" width="1900" height="649">
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 150px;">
+
+                
+                    <img src="/images/global/home/imagens_topo/topo3.jpg" alt="Topo3" width="1900" height="649">
+                    
+                    
+                
+            </li>
+
+        
+            <li style="min-height: 150px;">
+
+                
+                    <img src="/images/global/home/imagens_topo/topo4.jpg" alt="Topo4" width="1900" height="649">
+                    
+                    
+                
+            </li>
+
+                </ul>
+
+                <a href="#" class="uk-slidenav  uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous"></a>
+        <a href="#" class="uk-slidenav  uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next"></a>
+        
+        
+    </div>
+
+    
+</div>
+            </div>
+            
+                        <div id="tm-top-a" class="tm-block">
+                <div>
+                    <div class="uk-container uk-container-center">
+                        <section class="tm-top-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel uk-panel-space">
+	<div><a href="/doacoes"><img onmouseover="this.src='/images/global/doe_agora2.png';" onmouseout="this.src='/images/global/doe_agora1.png';" src="/images/global/doe_agora1.png" alt="doe santacasa1" /></a></div></div><div class="uk-panel uk-panel-box">
+
+<div class="uk-grid-width-1-1 uk-grid uk-grid-match uk-text-left " data-uk-grid-match="{target:'> div > .uk-panel', row:true}" data-uk-grid-margin >
+
+
+    <div>
+        <div class="uk-panel uk-panel-hover">
+
+            
+            
+            
+                        <div class="uk-grid uk-flex-middle" data-uk-grid-margin>
+                <div class="uk-width-medium-1-2 uk-float-right uk-flex-order-last-medium">
+                    <img src="/images/global/conheca_santa_casa.jpg" alt="Conheca" width="601" height="427">                </div>
+                <div class="uk-width-medium-1-2">
+                    <div class="uk-panel">
+            
+            
+            
+            
+                        <div class="uk-margin"><h1>Santa Casa de Misericórdia da Bahia: Uma Irmandade a Serviço do Bem</h1>
+A história da Santa Casa da Bahia se confunde com a própria história da nossa cidade. Fundadas no mesmo ano, ambas pelo governador-geral Tomé de Sousa, a Santa Casa veio junto com os portugueses e os mesmos ideais da Santa Casa de Lisboa. Ao longo dos séculos, a Santa Casa viveu de perto a história dos baianos, acolhendo enfermos, apoiando famílias carentes, abrindo espaço para celebrações sociais, investindo em novas tecnologias ligadas à saúde, e na capacitação de profissionais.</div>
+            
+            
+                        <p><a class="uk-button" href="/index.php/component/content/featured?Itemid=140">Conheça a Santa Casa</a></p>
+            
+                                </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+</div>
+</div></div></section>
+                    </div>
+                </div>
+            </div>
+            
+            
+                        <div id="tm-top-b" class="tm-block tm-block-secondary tm-secondary">
+                <div>
+                    <div class="uk-container uk-container-center">
+                        <section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><div class="uk-width-1-1">
+	<div class="uk-panel uk-panel-box titulo_centralizado"><h3 class="uk-panel-title">Atividades</h3>
+
+<div class="uk-grid-width-1-1 uk-grid-width-small-1-1 uk-grid-width-medium-1-2 uk-grid-width-large-1-2 uk-grid-width-xlarge-1-2 uk-grid uk-grid-match uk-text-center " data-uk-grid-match="{target:'> div > .uk-panel', row:true}" data-uk-grid-margin >
+
+
+    <div>
+        <div class="uk-panel uk-panel-space">
+
+            
+            
+                        <div class="uk-text-center uk-margin uk-margin-top-remove"><img src="/images/global/institucional/saude.png" class=" uk-overlay-fade" alt="Saúde" width="353" height="253"></div>
+            
+            
+                        <h3 class="uk-h2 uk-margin-top-remove">
+
+                                    <a class="uk-link-reset" href="/atividades/saude">Saúde</a>
+                
+                
+            </h3>
+            
+            
+            
+                        <div class="uk-margin">Fundado em 1549, como Hospital da Caridade, o Hospital Santa Izabel, hoje instalado no bairro de Nazaré, caracteriza-se pela eficiência do atendimento nas mais diversas especialidades, serviços médicos de alta complexidade e apoio diagnóstico e terapêutico, resultado do investimento permanente na modernização de equipamentos e instalações, além da constante capacitação dos seus profissionais.</div>
+            
+            
+                        <p><a class="uk-button" href="/atividades/saude">Saiba mais</a></p>
+            
+            
+        </div>
+    </div>
+
+
+    <div>
+        <div class="uk-panel uk-panel-space">
+
+            
+            
+                        <div class="uk-text-center uk-margin uk-margin-top-remove"><img src="/images/global/institucional/social.png" class=" uk-overlay-fade" alt="Ações Sociais" width="353" height="253"></div>
+            
+            
+                        <h3 class="uk-h2 uk-margin-top-remove">
+
+                                    <a class="uk-link-reset" href="/atividades/doacoes">Ações Sociais</a>
+                
+                
+            </h3>
+            
+            
+            
+                        <div class="uk-margin">Nas ações sociais, a Santa Casa atende comunidades carentes, atuando na saúde, educação, formação profissional e exercício da cidadania. Um conjunto de serviços realizados com muito profissionalismo e dedicação, e que fazem a diferença na vida de muitas pessoas. Faça a diferença você também, e contribua com as Obras Sociais da Santa Casa: conheça os nossos projetos e realize sua doação.</div>
+            
+            
+                        <p><a class="uk-button" href="/atividades/doacoes">Saiba mais</a></p>
+            
+            
+        </div>
+    </div>
+
+
+    <div>
+        <div class="uk-panel uk-panel-space">
+
+            
+            
+                        <div class="uk-text-center uk-margin uk-margin-top-remove"><img src="/images/global/institucional/culturais.png" class=" uk-overlay-fade" alt="Ações Culturais" width="353" height="253"></div>
+            
+            
+                        <h3 class="uk-h2 uk-margin-top-remove">
+
+                                    <a class="uk-link-reset" href="/atividades/acoes-socioculturais">Ações Culturais</a>
+                
+                
+            </h3>
+            
+            
+            
+                        <div class="uk-margin">O legado histórico que pertence à Santa Casa mobiliza fortemente o turismo e contribui para a memória dos baianos. Estão inseridos neste contexto o Centro de Memória Jorge Calmon, o Museu da Misericórdia e a Igreja da Misericórdia.</div>
+            
+            
+                        <p><a class="uk-button" href="/atividades/acoes-socioculturais">Saiba mais</a></p>
+            
+            
+        </div>
+    </div>
+
+
+    <div>
+        <div class="uk-panel uk-panel-space">
+
+            
+            
+                        <div class="uk-text-center uk-margin uk-margin-top-remove"><img src="/images/global/institucional/outras_atividades.png" class=" uk-overlay-fade" alt="Outras Atividades" width="353" height="253"></div>
+            
+            
+                        <h3 class="uk-h2 uk-margin-top-remove">
+
+                                    <a class="uk-link-reset" href="/atividades/outras-atividades">Outras Atividades</a>
+                
+                
+            </h3>
+            
+            
+            
+                        <div class="uk-margin">Um dos mais sofisticados e requisitados espaços de eventos de Salvador, o Cerimonial Rainha Leonor desempenha um papel fundamental, visto que toda a renda dos eventos realizados é revertida para as obras sociais da Santa Casa.</div>
+            
+            
+                        <p><a class="uk-button" href="/atividades/outras-atividades">Saiba mais</a></p>
+            
+            
+        </div>
+    </div>
+
+
+</div>
+</div></div></section>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+                        <div id="tm-fullscreen-d" class="tm-fullscreen-d">
+                
+    <div id="wk-825" class="uk-flex uk-flex-center uk-flex-middle uk-overflow-hidden uk-contrast uk-text-contrast uk-text-center " style="height: 600px; background-image: url('/images/global/historia_santa_casas.jpg');" data-uk-parallax="{bg: -100}">
+        <div class="uk-width-9-10 uk-width-small-4-5 uk-width-medium-2-3 uk-width-large-1-2 uk-panel">
+
+                        <h3 class="uk-heading-large uk-margin-top-remove uk-text-contrast uk-margin-top-remove" data-uk-parallax="{target: '#wk-825', viewport: 0.5,velocity: 0.5}">
+
+                                    <a class="uk-link-reset" href="/historia">A história das Santas Casas de Misericórdia e seus ideais de caridade e filantropia</a>
+                
+            </h3>
+            
+                        <div data-uk-parallax="{target: '#wk-825', viewport: 0.5,velocity: 0.5}">
+
+                
+                                <p class="uk-margin-bottom-remove"><a class="uk-button" href="/historia">Leia mais</a></p>
+                
+            </div>
+            
+        </div>
+    </div>
+
+            </div>
+            
+                        <div id="tm-bottom-b" class="tm-block">
+                <div>
+                    <div class="uk-container uk-container-center">
+                        <section class="tm-bottom-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin>
+<div class="uk-width-1-1 uk-width-medium-2-3"><div class="uk-panel uk-panel-space"><h3 class="uk-panel-title">Notícias</h3>
+<div  data-uk-scrollspy="{target:'> div > [data-uk-scrollspy-cls]', delay:300}">
+
+
+    
+    <div class="uk-grid uk-text-left " data-uk-grid-match data-uk-margin="{cls:'uk-margin-top'}">
+
+                <div class="uk-width-medium-1-3 uk-text-center uk-invisible"  data-uk-scrollspy-cls="uk-animation-slide-left uk-invisible">
+            <div class="uk-overlay uk-overlay-hover "><img src="/images/DSC_1598.JPG" class=" uk-overlay-spin" alt="Novos Irmãos tomam posse na Santa Casa da Bahia"><a class="uk-position-cover" href="/noticias/item/novos-irmaos-tomam-posse-na-santa-casa-da-bahia"></a></div>        </div>
+        
+                <div class="uk-width-medium-2-3 uk-invisible"  data-uk-scrollspy-cls="uk-animation-slide-right uk-invisible">
+            <div class="uk-panel uk-panel-space uk-width-1-1">
+
+                
+                                <h3 class="uk-h3">
+
+                                            <a class="uk-link-reset" href="/noticias/item/novos-irmaos-tomam-posse-na-santa-casa-da-bahia">Novos Irmãos tomam posse na Santa Casa da Bahia</a>
+                    
+                    
+                </h3>
+                
+                
+                
+                                <p><a class="uk-button" href="/noticias/item/novos-irmaos-tomam-posse-na-santa-casa-da-bahia">Leia mais</a></p>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <hr class="uk-grid-divider ">
+
+    
+    <div class="uk-grid uk-text-left " data-uk-grid-match data-uk-margin="{cls:'uk-margin-top'}">
+
+                <div class="uk-width-medium-1-3 uk-text-center uk-invisible"  data-uk-scrollspy-cls="uk-animation-slide-left uk-invisible">
+            <div class="uk-overlay uk-overlay-hover "><img src="/images/DSC_1392.JPG" class=" uk-overlay-spin" alt="Santa Casa recebe donativos de arrecadação do Shopping Barra"><a class="uk-position-cover" href="/noticias/item/santa-casa-recebe"></a></div>        </div>
+        
+                <div class="uk-width-medium-2-3 uk-invisible"  data-uk-scrollspy-cls="uk-animation-slide-right uk-invisible">
+            <div class="uk-panel uk-panel-space uk-width-1-1">
+
+                
+                                <h3 class="uk-h3">
+
+                                            <a class="uk-link-reset" href="/noticias/item/santa-casa-recebe">Santa Casa recebe donativos de arrecadação do Shopping Barra</a>
+                    
+                    
+                </h3>
+                
+                
+                
+                                <p><a class="uk-button" href="/noticias/item/santa-casa-recebe">Leia mais</a></p>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    
+
+</div>
+</div></div>
+
+<div class="uk-width-1-1 uk-width-medium-1-3"><div class="uk-panel uk-panel-space"><h3 class="uk-panel-title">Provedores</h3>
+<div data-uk-slideset="{animation: 'slide-horizontal',duration: 400,autoplay: true ,default: 1}">
+
+    
+    <div class="uk-slidenav-position uk-margin">
+
+        <ul class="uk-slideset uk-grid uk-grid-match uk-flex-center uk-grid-width-1-1">
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/30.jpg" class=" uk-overlay-fade" alt="Roberto Sá Menezes"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Roberto Sá Menezes                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/27.jpg" class=" uk-overlay-fade" alt="Álvaro Conde Lemos Filho"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Álvaro Conde Lemos Filho                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/06_antonio_pereira_da_silva_moacyr_1935_1938.jpg" class=" uk-overlay-fade" alt="Antônio Pereira da Silva Moacyr"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Antônio Pereira da Silva Moacyr                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/04_arthur_newton_de_lemos_1925_1932_1934.jpg" class=" uk-overlay-fade" alt="Arthur Newton de Lemos"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Arthur Newton de Lemos                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/07_clovis_moreira_spinola_1939_1940.jpg" class=" uk-overlay-fade" alt="Clóvis Moreira Spínola"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Clóvis Moreira Spínola                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/26.jpg" class=" uk-overlay-fade" alt="Eduardo Meirelles Valente"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Eduardo Meirelles Valente                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/13.jpg" class=" uk-overlay-fade" alt="Erwin Morgenroth"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Erwin Morgenroth                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/11.jpg" class=" uk-overlay-fade" alt="Flaviano Marques de Souza"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Flaviano Marques de Souza                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/24.jpg" class=" uk-overlay-fade" alt="Francisco Cabral de Andrade"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Francisco Cabral de Andrade                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+        
+            <li>
+
+                <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-text-center">
+
+                    
+                    
+                                        <div class="uk-text-center uk-panel-teaser"><img src="/images/conteudo/provedores/05_francisco_eloy_paraiso_jorge_1933_1934.jpg" class=" uk-overlay-fade" alt="Francisco Eloy Paraíso Jorge"></div>
+                    
+                                        <h3 class="uk-h3 uk-margin-top-remove">
+
+                                                    Francisco Eloy Paraíso Jorge                        
+                        
+                    </h3>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+            </li>
+
+                </ul>
+
+                <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous uk-hidden-touch" data-uk-slideset-item="previous"></a>
+        <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next uk-hidden-touch" data-uk-slideset-item="next"></a>
+        
+    </div>
+
+    
+    
+    
+</div>
+</div></div>
+</section>
+                    </div>
+                </div>
+            </div>
+            
+                        <div class="tm-totop-scroller-fixed uk-text-center uk-hidden-small"><a data-uk-smooth-scroll href="#"></a></div>
+            
+                        <footer class="tm-footer">
+
+                <div class="uk-container uk-container-center">
+                    <div class="uk-clearfix">
+
+
+                                         <div class="uk-align-medium-left"><div class="uk-panel">
+<script type="widgetkit/map" data-id="wk-map58d993e087f43" data-class=" uk-img-preserve" data-style="width:auto;height:300px;">
+    {"width":"auto","height":"300","maptypeid":"roadmap","maptypecontrol":true,"mapctrl":true,"zoom":"18","marker":"1","markercluster":false,"popup_max_width":300,"zoomwheel":false,"draggable":true,"directions":false,"disabledefaultui":false,"styler_invert_lightness":false,"styler_hue":"#576B74","styler_saturation":"-80","styler_lightness":"-40","styler_gamma":0,"media":true,"image_width":"auto","image_height":"auto","media_align":"top","media_width":"1-2","media_breakpoint":"medium","media_border":"none","media_overlay":"icon","overlay_animation":"fade","media_animation":"scale","title":true,"content":true,"social_buttons":true,"title_size":"h3","text_align":"left","link":true,"link_style":"button","link_text":"Read more","link_target":false,"class":"","markers":[{"lat":-12.9802549,"lng":-38.5086254,"title":"Localiza\u00e7\u00e3o","content":"\n<div class=\"uk-text-left\">\n\n    \n    \n        <h3 class=\"uk-h3 uk-margin-top-remove\">Localiza\u00e7\u00e3o<\/h3>\n    \n    \n        <div class=\"uk-margin\">ENDERE\u00c7O: Avenida Joana Ang\u00e9lica, 79<\/br>\nNazar\u00e9 - Salvador\/BA<\/br>\nCEP: 40050-001-Brasil<\/div>\n    \n    \n    \n    \n<\/div>"}]}</script>
+</div>
+<div class="uk-panel uk-hidden-medium uk-hidden-small"><div id="rssocial-254" class="rssocial-container rssocial-icons rssocial-floating-right rssocial-fixed rssocial-icons-bottom-spacing ">
+		
+	<ul id="rssocial-ul-254" class="rssocial-icons rssocial-icons-right rssocial-icons-bg">
+		<li>
+		<a id="rssocial-facebook-icon" class="rssocial-link push" target="_blank" href="https://www.facebook.com/SantaCasaDaBahia">
+			<span class="rssocial-icon rssocial-icon-facebook"></span>
+		</a>
+			</li>
+	<li>
+		<a id="rssocial-instagram-icon" class="rssocial-link push" target="_blank" href="https://www.instagram.com/SantaCasaDaBahia">
+			<span class="rssocial-icon rssocial-icon-instagram"></span>
+		</a>
+			
+	</li>
+	</ul>
+		<ul id="rssocial-slide-button" class="rssocial-icons rssocial-icons-bg rssocial-icons-bg-button-right visible-phone" href="javascript:void(0);">
+		<li>
+			<a class="rssocial-link" href="javascript:void(0);"><span class="rssocial-icon rssocial-icon-more"><strong>+</strong></span></a>
+		</li>
+	</ul>
+	</div>
+<div class="rssocial-clear"></div>
+</div>
+<div class="uk-panel">
+	<div id="footer_tel"><strong>ENDEREÇO:</strong> Avenida Joana Angélica, 79, Nazaré - Salvador - BA, 40050-001, Brasil<br /><strong>Santa Casa da Bahia</strong>: Central: 71 2203-9666 | <strong>Hospital Santa Izabel</strong>: Geral: 71 2203-8444 | <strong>Hospital Santa Izabel</strong>: Marcação de Consulta:  71 2203-8100"</div></div>                        </div>
+                        
+                                                
+                          <a href="http://www.triunit.com.br" target="_blank"><img src="http://www.triunit.com.br/marca_triunit/triunit_branca.png" alt="Triunit Agência Criativa" /></a>
+                                                <a class="tm-totop-scroller uk-text-center" data-uk-smooth-scroll href="#"></a>
+                                                
+
+                                   
+
+                    </div>
+                </div>
+
+            </footer>
+            
+        </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60963310-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        <div id="offcanvas" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip"><ul class="uk-nav uk-nav-offcanvas"><li class="uk-active"><a href="/">Home</a></li><li><a href="/a-instituicao">A Instituição</a></li><li><a href="/provedores">Provedores</a></li><li class="uk-parent"><a href="#">
+	Atividades</a>
+<ul class="uk-nav-sub"><li><a href="/atividades/saude">Saúde</a></li><li><a href="/atividades/doacoes">Ações Sociais</a></li><li><a href="/atividades/acoes-socioculturais">Ações Culturais</a></li><li><a href="/atividades/outras-atividades">Outras Atividades</a></li></ul></li><li><a href="/noticias">Notícias</a></li><li><a href="/contato">Contato</a></li></ul></div>
+    </div>
+    
+    
+</body>
+</html>|||http://www.triunit.com.br|<!DOCTYPE html>
+<html lang="pt-br" dir="ltr" vocab="http://schema.org/">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/images/global/favicon.png">
+        <link rel="apple-touch-icon-precomposed" href="/images/global/apple-touch-icon.png">
+        	<base href="http://www.triunit.com.br/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="criar sites, agência digital, agencia digital salvador, criação de site, agencia de site, gráfico" />
+	<meta name="rights" content="Alex Carvalho" />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="Desenvolvemos o site e criamos a marca da sua empresa. Tel: +55 71 3012-8332." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Triunit Design - Agência Digital Salvador</title>
+	<link href="/templates/yootheme/cache/styles-2d741af5.css?v=1.4.3" rel="stylesheet" type="text/css" id="styles-css" />
+	<link href="//fonts.googleapis.com/css?family=Open+Sans%7CPalanquin+Dark" rel="stylesheet" type="text/css" id="google-fonts-css" />
+	<link href="/media/widgetkit/wk-styles-713f6ee7.css" rel="stylesheet" type="text/css" id="wk-styles-css" />
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://www.google-analytics.com/analytics.js" type="text/javascript" defer="defer"></script>
+	<script src="/templates/yootheme/cache/scripts-805a42de.js?v=1.4.3" type="text/javascript"></script>
+	<script src="/media/widgetkit/uikit2-18b2292e.js" type="text/javascript"></script>
+	<script src="/media/widgetkit/wk-scripts-096dd4f4.js" type="text/javascript"></script>
+	<script type="text/javascript">
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)}; ga.l=+new Date; ga('create','UA-2187755-7','auto'); ga('send','pageview');
+	</script>
+
+    </head>
+    <body class="">
+
+        
+            <div class="tm-header-mobile uk-hidden@m">
+            <nav class="uk-navbar-container" uk-navbar>
+        <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" href="#tm-mobile" uk-toggle>
+            <div uk-navbar-toggle-icon></div>
+                    </a>
+    </div>
+        <div class="uk-navbar-center">
+        <a class="uk-navbar-item uk-logo" href="http://www.triunit.com.br">
+            <img src="/images/global/logo_triunit/tri_mobile.svg" alt="Triunit Agência Digital" class="uk-responsive-height">        </a>
+    </div>
+</nav>
+        <div id="tm-mobile" uk-offcanvas mode="slide" overlay>
+        <div class="uk-offcanvas-bar">
+            <div class="uk-child-width-1-1" uk-grid>
+            <div><div class="uk-panel" id="module-0">
+    <ul class="uk-nav uk-nav-default">
+	<li class="uk-active"><a href="/">Home</a></li>
+	<li><a href="/servicos">Serviços</a></li>
+	<li class="uk-parent"><a href="/portfolio">Portfólio</a>
+	<ul class="uk-nav-sub">
+		<li><a href="/portfolio/websites">Websites</a></li>
+		<li><a href="/portfolio/impressos">Impressos</a></li>
+		<li><a href="/portfolio/marcas">Marcas</a></li>
+		<li><a href="/portfolio/redes-sociais">Redes Sociais</a></li></ul></li>
+	<li><a href="/clientes">Clientes</a></li>
+	<li><a href="/orcamento">Orçamento</a></li>
+	<li><a href="/contato">Contato</a></li></ul>
+</div>
+</div>
+    </div>
+
+        </div>
+    </div>
+            </div>
+
+            
+            <div class="tm-header uk-visible@m" uk-header>
+    <div class="uk-navbar-container" uk-sticky media="768" show-on-up animation="uk-animation-slide-top" cls-active="uk-active uk-navbar-sticky">
+        <div class="uk-container uk-container-expand">
+            <nav class="uk-navbar" uk-navbar="{&quot;align&quot;:&quot;left&quot;}">
+                        <div class="uk-navbar-left">
+                <a href="http://www.triunit.com.br" class="uk-logo uk-navbar-item">
+    <img src="/images/global/logo_triunit/tri7.svg" alt="Triunit Agência Digital" class="uk-responsive-height"><img src="/images/global/logo_triunit_agencia_branco170L.png" alt="Triunit Agência Digital" class="uk-responsive-height uk-logo-inverse"></a>
+            </div>
+                        <div class="uk-navbar-right">
+                <a class="uk-navbar-toggle" href="#" uk-toggle="target: !.uk-navbar-container + [uk-offcanvas], [uk-modal]">
+                                        <span class="uk-margin-small-right">Menu</span>
+                                        <div uk-navbar-toggle-icon></div>
+                </a>
+            </div>
+            </nav>
+        </div>
+    </div>
+        <div class="uk-modal-full" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-full" type="button" uk-close></button>
+            <div class="uk-flex uk-flex-center uk-flex-middle uk-text-center" uk-height-viewport>
+                <div>
+                    <ul class="uk-nav uk-nav-primary uk-nav-center">
+	<li class="uk-active"><a href="/">Home</a></li>
+	<li><a href="/servicos">Serviços</a></li>
+	<li class="uk-parent"><a href="/portfolio">Portfólio</a>
+	<ul class="uk-nav-sub">
+		<li><a href="/portfolio/websites">Websites</a></li>
+		<li><a href="/portfolio/impressos">Impressos</a></li>
+		<li><a href="/portfolio/marcas">Marcas</a></li>
+		<li><a href="/portfolio/redes-sociais">Redes Sociais</a></li></ul></li>
+	<li><a href="/clientes">Clientes</a></li>
+	<li><a href="/orcamento">Orçamento</a></li>
+	<li><a href="/contato">Contato</a></li></ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+            
+            
+            
+
+            <div class="uk-section-secondary uk-section-overlap uk-section uk-padding-remove-vertical uk-flex uk-flex-middle" tm-header-transparent="dark" uk-height-viewport="offset-top: true">
+                <div class="uk-width-1-1">
+                <div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <div class="uk-panel">
+<div data-wk-slideshow="{animation: 'scroll',duration: 700,slices: 8,autoplay: true ,autoplayInterval: 5000,pauseOnHover: false,kenburns: '10s', kenburnsanimations: 'uk-animation-bottom-center'}">
+    <div class="wk-slidenav-position">
+        <ul class="wk-slideshow wk-slideshow-fullscreen wk-overlay-active">
+            <li style="min-height: 300px;">
+                    <img src="/images/banners/responsivo_triunit.jpg" alt="Webdesign">
+                                        <div class="wk-overlay-panel wk-flex wk-flex-center wk-flex-middle wk-text-center wk-overlay-fade">
+                                                <div>
+                                                <div class=" wk-margin"><div class="bannertopo"><span>Websites responsivos,</span> fáceis de gerenciar</div>
+<a href="#servicos_desce"><img src="/images/global/seta_baixo.png" alt="Role a página" /></a>
+</div>
+                                                </div>
+                    </div>
+            </li>
+            <li style="min-height: 300px;">
+                    <img src="/images/banners/design_triunit.jpg" alt="Design Gráfico">
+                                        <div class="wk-overlay-panel wk-flex wk-flex-center wk-flex-middle wk-text-center wk-overlay-fade">
+                                                <div>
+                                                <div class=" wk-margin"><div class="bannertopo"><span>Design Gráfico</span> do cartão ao outdoor</div>
+<a href="#servicos_desce"><img src="/images/global/seta_baixo.png" alt="Role a página" /></a></div>
+                                                </div>
+                    </div>
+            </li>
+            <li style="min-height: 300px;">
+                    <img src="/images/banners/redes_sociais_triunit.jpg" alt="Redes Sociais">
+                                        <div class="wk-overlay-panel wk-flex wk-flex-center wk-flex-middle wk-text-center wk-overlay-fade">
+                                                <div>
+                                                <div class=" wk-margin"><div class="bannertopo">Gerenciamento de<br><span>redes sociais</span></div>
+<a href="#servicos_desce"><img src="/images/global/seta_baixo.png" alt="Role a página" /></a></div>
+                                                </div>
+                    </div>
+            </li>
+                </ul>
+                <a href="#" class="wk-slidenav wk-slidenav-contrast wk-slidenav-previous wk-hidden-touch" data-wk-slideshow-item="previous"></a>
+        <a href="#" class="wk-slidenav wk-slidenav-contrast wk-slidenav-next wk-hidden-touch" data-wk-slideshow-item="next"></a>
+    </div>
+</div>
+</div>
+</div>
+</div>
+                </div>
+</div>
+<div id="servicos_desce" class="uk-section-muted uk-section uk-section-large">
+                        <div class="uk-container">
+                <div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-h2">
+        Somos uma agência dinâmica e multitarefa, sempre prontos a atender as necessidades do cliente.    </h2>
+<div class="uk-margin uk-text-center uk-text-large">
+    Confira abaixo nossos serviços.</div>
+<hr  class="uk-margin-medium uk-width-xxlarge uk-margin-auto uk-divider-small uk-text-center">
+</div>
+</div>
+<div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <div class="uk-margin uk-panel">
+<div id="wk-grid635" class="wk-grid-width-1-1 wk-grid-width-small-1-2 wk-grid-width-medium-1-2 wk-grid-width-large-1-3 wk-grid-width-xlarge-1-3 wk-grid wk-grid-match wk-grid-large wk-text-left " data-wk-grid-match="{target:'> div > .wk-panel', row:true}" data-wk-grid-margin  data-wk-scrollspy="{cls:'wk-animation-scale-up wk-invisible', target:'> div > .wk-panel', delay:300}">
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-01.svg" alt="WEBSITES RESPONSIVOS">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    WEBSITES RESPONSIVOS                
+            </h3>
+                        <div class="wk-margin"><p>Desenvolvemos desde a concepção do design até a programação do seu site, portal ou landing page, utilizando tecnologias de desenvolvimento web mais recentes. Tudo para que o seu projeto web seja totalmente responsivo, fácil de gerenciar, navegar e otimizado para ter excelente posicionamento em buscadores da web.</p>
+<div id="lista_servicos">Layout Diferenciado e Exclusivo | Responsivo para | Dispositivos Móveis | Utilização de Técnicas de SEO | 
+    Gerenciador de Conteúdo | Fácil Navegação</div>
+</div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-08.svg" alt="DESIGN GRÁFICO">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    DESIGN GRÁFICO                
+            </h3>
+                        <div class="wk-margin"><p>Preparamos todo o material exigido pela sua empresa, com identidade visual própria, dando mais profissionalismo ao seu negócio.</p><p>
+Fazemos todos os materiais de papelaria e comunicação offline necessários, do papel timbrado ao outdoor.</p>
+<div id="lista_servicos">Arte Atraente e Diferenciada | Material de Alta Qualidade | Processo de Entrega Rápida | Mais de 15 Anos de Experiência | Custo x Benefício</div></div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-06.svg" alt="IDENTIDADE VISUAL">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    IDENTIDADE VISUAL                
+            </h3>
+                        <div class="wk-margin"><p>Toda marca para ser relevante deve refletir um estilo, uma cultura, gerar conexões emocionais e maior engajamento com seu público. </p>
+<p>Desenvolvemos logotipos e identidade visual para empresas e profissionais que buscam uma imagem diferenciada e marcante.</p>
+<div id="lista_servicos">Identidade de empresas, produtos e serviços | Design de marca | Design de papelaria corporativa | Manual de Identidade | Visual de marca | Manual de Marca</div>
+</div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-02.svg" alt="MANUTENÇÃO DO WEBSITE">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    MANUTENÇÃO DO WEBSITE                
+            </h3>
+                        <div class="wk-margin">Pacotes de manutenção personalizados, com atualizações de textos, imagens e criação de peças gráficas, para que seu site fique sempre de cara nova. 
+Além disso, damos suporte a dúvidas no gerenciamento de conteúdo.</div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-03.svg" alt="GERENCIAMENTO DE REDES SOCIAIS">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    GERENCIAMENTO DE REDES SOCIAIS                
+            </h3>
+                        <div class="wk-margin">Gestão dos canais sociais Facebook e Instagram, através de um conteúdo planejado e peças gráficas criativas, adequado tanto ao canal, quanto ao público desejado.</div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wk-panel wk-invisible">
+                        <div class="wk-grid " data-wk-grid-margin>
+                <div class="wk-width-large-1-5">
+                    <img src="/images/global/servicos/icones-04.svg" alt="Google AdWords">                </div>
+                <div class="wk-width-large-4-5">
+                    <div class="wk-panel">
+                        <h3 class="wk-h2 wk-margin-top-remove">
+                                    Google AdWords                
+            </h3>
+                        <div class="wk-margin">Para posicionar seus produtos, serviços e sua empresa entre os primeiros anúncios do maior site de busca do mundo, utilizamos estratégias de marketing para criação de anúncios diferenciados e monitoramento no Google AdWords e em canais relacionados com banneres exclusivos, utilizando diversas ferramentas como campanha de display em canais, anúncio de texto e remarketing.</div>
+                                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+(function($){
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.wk-overlay-panel)', $('#wk-grid635')).each(function() {
+        var $img = $(this);
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+        var $canvas = $('<canvas class="wk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+        $img.css('display', 'none').after($canvas);
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+        img.src = this.src;
+    });
+})(jQuery);
+</script>
+</div>
+</div>
+</div>
+<div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <hr  class="uk-margin-large uk-width-large uk-margin-auto">
+<div class="uk-margin-medium uk-text-center">
+            <a class="uk-button uk-button-secondary" href="/orcamento" title="Solicite um orçamento">
+                                        <span uk-icon="icon: happy"></span>
+                    <span class="uk-text-middle">Solicite um orçamento</span>
+            </a>
+</div>
+</div>
+</div>
+                        </div>
+</div>
+<div id="portfolio_triunit" class="uk-section-secondary uk-section uk-section-large">
+                        <div class="uk-container uk-container-expand">
+                <div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-h2">
+        São mais de 1000 projetos online e offline utilizando nosso espírito ousado, jovem e criativo.     </h2>
+<div class="uk-visible@l uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center uk-text-large">
+    Desenvolvemos desde a concepção do design até a programação do seu site, portal ou landing page.</div>
+</div>
+</div>
+<div class="uk-container uk-container-large uk-grid-margin">
+<div uk-grid>
+    <div class="uk-width-1-1@m">
+    <div class="uk-panel">
+<div id="wk-gridc1f" class="wk-grid-width-1-1 wk-grid-width-small-1-2 wk-grid-width-medium-1-4 wk-grid-width-large-1-4 wk-grid-width-xlarge-1-4 wk-grid wk-grid-match wk-grid-collapse " data-wk-grid-match="{target:'> div > .wk-panel', row:true}" data-wk-grid-margin  data-wk-scrollspy="{cls:'wk-animation-fade wk-invisible', target:'> div > .wk-panel', delay:300}">
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/espaco_performance/espacoPerformcance.jpg" class="wk-overlay-fade" alt="Espaço Performance" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Espaço Performance</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/espaco-performance?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/cosbat/cosbat_preview.jpg" class="wk-overlay-fade" alt="Cosbat" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Cosbat</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/cosbat?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/hospital_santa_izabel/hsi_preview.jpg" class="wk-overlay-fade" alt="Hospital Santa Izabel" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Hospital Santa Izabel</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/hospital-santa-izabel?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/redebahia/redebahia_preview.jpg" class="wk-overlay-fade" alt="Rede Bahia" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Rede Bahia</h3>
+                                <div>Website</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/rede-bahia?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/clinica_fipes/fipes_preview.jpg" class="wk-overlay-fade" alt="Clínica Fipes" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Clínica Fipes</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/clinica-fipes?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/instituto_acm/instituto_preview.jpg" class="wk-overlay-fade" alt="Instituto ACM" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Instituto ACM</h3>
+                                <div>Website</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/petmaster?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/andre_couto/andre_tumbnail.jpg" class="wk-overlay-fade" alt="André Couto Dermatologia" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">André Couto Dermatologia</h3>
+                                <div>Website</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/andre-couto-dermatologia?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/casa_de_oxumare/casa_de_oxumare_preview.jpg" class="wk-overlay-fade" alt="Casa de Oxumarê" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Casa de Oxumarê</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/casa-de-oxumare?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/santa_casa/santa_casa_misericordia_bahia_preview.jpg" class="wk-overlay-fade" alt="Santa Casa de Misericórdia da Bahia" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Santa Casa de Misericórdia da Bahia</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/santa-casa-de-misericordia-da-bahia?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/leo_prates/leoprates_preview.jpg" class="wk-overlay-fade" alt="Leo Prates Vereador" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Leo Prates Vereador</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/leo-prates-vereador?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/tiago_correia/tiago_corrreia_preview.jpg" class="wk-overlay-fade" alt="Vereador Tiago Correia" width="711" height="711">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Vereador Tiago Correia</h3>
+                                <div>Website Responsivo e Redes Sociais</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/vereador-tiago-correia?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/centro_medico_veterinario/2centro_medico_veteritario.jpg" class="wk-overlay-fade" alt="Centro Médico Veterinário" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Centro Médico Veterinário</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/centro-medico-veterinario?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/humanizar_gestao_saude/humanizar_preview.jpg" class="wk-overlay-fade" alt="Humanizar Gestão e Saúde" width="417" height="417">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Humanizar Gestão e Saúde</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/humanizar-gestao-e-saude?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/nooba_do_litoral/nooba_preview.jpg" class="wk-overlay-fade" alt="Clínica Nooba do Litoral" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Clínica Nooba do Litoral</h3>
+                                <div>Website Responsivo e Redes Sociais</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/nooba-do-litoral?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/dinamo_vigilancia/dinamo_preview.jpg" class="wk-overlay-fade" alt="Dínamo Vigilância" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Dínamo Vigilância</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/dinamo-vigilancia?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+    <div>
+<div class="wk-panel wk-invisible">
+    <figure class="wk-overlay wk-overlay-hover ">
+        <img src="/images/conteudo/portfolio/shopping_serrinha/shopping_serrinha_preview.jpg" class="wk-overlay-fade" alt="Shopping Serrinha" width="600" height="600">
+        <div class="wk-overlay-panel wk-overlay-bottom wk-overlay-background wk-overlay-slide-bottom">
+                                <h3 class="wk-h3 wk-margin-bottom-remove">Shopping Serrinha</h3>
+                                <div>Website Responsivo</div>
+        </div>
+                                    <a class="wk-position-cover" href="/component/zoo/item/shopping-serrinha?Itemid=101"></a>
+    </figure>
+</div>
+    </div>
+</div>
+<script>
+(function($){
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.wk-overlay-panel)', $('#wk-gridc1f')).each(function() {
+        var $img = $(this);
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+        var $canvas = $('<canvas class="wk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+        $img.css('display', 'none').after($canvas);
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+        img.src = this.src;
+    });
+})(jQuery);
+</script>
+</div>
+<div class="uk-margin-large uk-text-center">
+        <a uk-icon="icon: plus-circle;ratio: 3" class="uk-icon-link" href="http://www.triunit.com.br/portfolio/websites" target="_blank"></a>
+</div>
+</div>
+</div>
+</div>
+                        </div>
+</div>
+<div id="portfolio_triunit" class="uk-section-primary uk-section uk-section-large">
+                        <div class="uk-container uk-container-expand">
+                <div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-h2">
+        Tão eficaz quanto a Comunicação Online, não poderíamos deixar de lado o Marketing Offline.    </h2>
+<div class="uk-visible@l uk-margin-medium uk-width-xlarge uk-margin-auto uk-text-center uk-text-large">
+    Campanhas criadas para atingir o nicho de clientes e consumidores da sua marca.</div>
+</div>
+</div>
+<div class="uk-container uk-container-large uk-grid-margin">
+<div uk-grid>
+    <div class="uk-width-1-1@m">
+    <div class="uk-panel">
+<div id="wk-grid1d2" class="wk-grid-width-1-1 wk-grid-width-small-1-2 wk-grid-width-medium-1-4 wk-grid-width-large-1-4 wk-grid-width-xlarge-1-4 wk-grid wk-grid-match wk-grid-collapse " data-wk-grid-match="{target:'> div > .wk-panel', row:true}" data-wk-grid-margin >
+    <div>
+<div class="wk-panel">
+    <div class="wk-panel-teaser">
+        <figure class="wk-overlay wk-overlay-hover ">
+            <img src="/media/widgetkit/daniela_rosseto-eb812611ec188213d44b11e195c5d96c.jpg" class="wk-overlay-spin" alt="Folder Clínica Daniella Rosseto" width="600" height="600">
+                        <div class="wk-overlay-panel wk-overlay-background wk-overlay-fade"></div>
+                            <div class="wk-overlay-panel wk-overlay-icon wk-overlay-fade"></div>
+                                                                        <a class="wk-position-cover" href="/images/conteudo/impressos/daniela_rosseto.jpg" data-lightbox-type="image" data-wk-lightbox="{group:'.wk-11d2'}" title="Folder Clínica Daniella Rosseto"></a>
+        </figure>
+    </div>
+                <h3 class="wk-panel-title wk-margin-bottom-remove">Folder Clínica Daniella Rosseto</h3>
+</div>
+    </div>
+    <div>
+<div class="wk-panel">
+    <div class="wk-panel-teaser">
+        <figure class="wk-overlay wk-overlay-hover ">
+            <img src="/media/widgetkit/fabasa-123b0be1850e59c34c3501e35fd2e578.jpg" class="wk-overlay-spin" alt="Jornal Fabasa" width="600" height="600">
+                        <div class="wk-overlay-panel wk-overlay-background wk-overlay-fade"></div>
+                            <div class="wk-overlay-panel wk-overlay-icon wk-overlay-fade"></div>
+                                                                        <a class="wk-position-cover" href="/images/conteudo/impressos/fabasa.jpg" data-lightbox-type="image" data-wk-lightbox="{group:'.wk-11d2'}" title="Jornal Fabasa"></a>
+        </figure>
+    </div>
+                <h3 class="wk-panel-title wk-margin-bottom-remove">Jornal Fabasa</h3>
+</div>
+    </div>
+    <div>
+<div class="wk-panel">
+    <div class="wk-panel-teaser">
+        <figure class="wk-overlay wk-overlay-hover ">
+            <img src="/media/widgetkit/globo_fm-4487879e42748f053486cd050ad2550d.jpg" class="wk-overlay-spin" alt="Portfólio Rádio Globo Fm" width="600" height="600">
+                        <div class="wk-overlay-panel wk-overlay-background wk-overlay-fade"></div>
+                            <div class="wk-overlay-panel wk-overlay-icon wk-overlay-fade"></div>
+                                                                        <a class="wk-position-cover" href="/images/conteudo/impressos/globo_fm.jpg" data-lightbox-type="image" data-wk-lightbox="{group:'.wk-11d2'}" title="Portfólio Rádio Globo Fm"></a>
+        </figure>
+    </div>
+                <h3 class="wk-panel-title wk-margin-bottom-remove">Portfólio Rádio Globo Fm</h3>
+</div>
+    </div>
+    <div>
+<div class="wk-panel">
+    <div class="wk-panel-teaser">
+        <figure class="wk-overlay wk-overlay-hover ">
+            <img src="/media/widgetkit/carro-bahia-fm-4365430d9635083cfdb77f399f7ca4a0.jpg" class="wk-overlay-spin" alt="Carro promocional Bahia FM" width="600" height="600">
+                        <div class="wk-overlay-panel wk-overlay-background wk-overlay-fade"></div>
+                            <div class="wk-overlay-panel wk-overlay-icon wk-overlay-fade"></div>
+                                                                        <a class="wk-position-cover" href="/images/conteudo/impressos/carro-bahia-fm.jpg" data-lightbox-type="image" data-wk-lightbox="{group:'.wk-11d2'}" title="Carro promocional Bahia FM"></a>
+        </figure>
+    </div>
+                <h3 class="wk-panel-title wk-margin-bottom-remove">Carro promocional Bahia FM</h3>
+</div>
+    </div>
+</div>
+<script>
+(function($){
+    // get the images of the gallery and replace it by a canvas of the same size to fix the problem with overlapping images on load.
+    $('img[width][height]:not(.wk-overlay-panel)', $('#wk-grid1d2')).each(function() {
+        var $img = $(this);
+        if (this.width == 'auto' || this.height == 'auto' || !$img.is(':visible')) {
+            return;
+        }
+        var $canvas = $('<canvas class="wk-responsive-width"></canvas>').attr({width:$img.attr('width'), height:$img.attr('height')}),
+            img = new Image,
+            release = function() {
+                $canvas.remove();
+                $img.css('display', '');
+                release = function(){};
+            };
+        $img.css('display', 'none').after($canvas);
+        $(img).on('load', function(){ release(); });
+        setTimeout(function(){ release(); }, 1000);
+        img.src = this.src;
+    });
+})(jQuery);
+</script>
+</div>
+<div class="uk-margin-large uk-text-center">
+        <a uk-icon="icon: plus-circle;ratio: 3" class="uk-icon-link" href="http://www.triunit.com.br/portfolio/impressos"></a>
+</div>
+</div>
+</div>
+</div>
+                        </div>
+</div>
+<div class="uk-section-image uk-position-relative uk-light" uk-scrollspy="{&quot;target&quot;:&quot;[uk-scrollspy-class]&quot;,&quot;cls&quot;:&quot;uk-animation-fade&quot;,&quot;delay&quot;:300}">
+        <div style="background-image: url('/images/bgs/orcamento.jpeg');" class="uk-background-norepeat uk-background-cover uk-background-center-center uk-background-fixed uk-section uk-section-large">
+                <div class="uk-position-cover" style="background-color: rgba(63, 57, 85, 0.52);"></div>
+                        <div class="uk-container uk-position-relative">
+                <div class="uk-grid-margin" uk-grid>
+    <div class="uk-width-1-1@m">
+    <h2 class="uk-width-xxlarge uk-margin-auto uk-text-center uk-h2" uk-scrollspy-class>
+        Vamos trabalhar juntos em seu próximo projeto?    </h2>
+<div class="uk-visible@l uk-margin uk-text-center uk-text-large" uk-scrollspy-class>
+    Venha tomar um café com a gente.<br>
+Se não puder, entre em contato através botão abaixo.</div>
+<div class="uk-margin-medium uk-text-center" uk-scrollspy-class>
+            <a class="uk-button uk-button-secondary" href="/orcamento" title="Solicite um orçamento">
+                                        <span uk-icon="icon: happy"></span>
+                    <span class="uk-text-middle">Solicite um orçamento</span>
+            </a>
+</div>
+</div>
+</div>
+                        </div>
+        </div>
+</div

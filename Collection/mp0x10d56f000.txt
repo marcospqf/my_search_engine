@@ -1,0 +1,885 @@
+|||http://www.cptec.inpe.br|<!DOCTYPE html >
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Centro de Previsão de Tempo e Estudos Climáticos - CPTEC/INPE</title>
+ <meta name="description" content="Centro de Previsão de Tempo e Estudos Climáticos - CPTEC/INPE Ministério da Ciência e Tecnologia - Brasil um país de todos" />
+<meta name="keywords" content="previsão numérica, cepetec, impe, inpe, climática, previsão climática, desenvolvimento, tempo, clima, previsão, chuva, sol, satelite, imagens de satélite, tempo em são paulo, tempo no rio de janeiro, tempo para o sudeste, alerta, meteorologia, clima em são paulo, clima no rio de janeiro, clima para o sudeste, meio ambiente, previsão no meu site, clima no meu site, widget, selos,ondas, praias, maré, fases da lua, nascer do sol, pôr do sol, energia, agricultura, agronegócio, mudanças climáticas, amazônia, vale do paraíba, qualidade do ar, poluição, sigma, mapa interativo, sazonal , bóias oceânicas, umidade de solo" />
+
+<meta name="google-site-verification" content="VUh2TkeIEAkCqrD30qZQajzG8adn73ChdycNbW9_pTw" />
+ 
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="/~rwww1/common/colorbox/jquery.min.js"></script>
+ 
+<!--script src="https://code.jquery.com/jquery-1.11.1.min.js"></script-->
+       
+<link rel="stylesheet" href="/~rwww1/common/css/home_tarja.css" />
+<link rel="stylesheet" href="/~rwww1/common/css/jd.gallery.v2.css" />
+<link rel="stylesheet" href="/~rwww1/common/css/video-js.css"/>
+
+<script src="/~rwww1/common/js/mootools.v1.11.js" type="text/javascript"></script>
+<script src="/~rwww1/common/js/jd.gallery.v2.js" type="text/javascript"></script>
+<!--script src="/~rwww1/common/js/jd.gallery.set.js" type="text/javascript"></script-->
+<!--script src="/~rwww1/common/js/jd.gallery.transitions.js" type="text/javascript"></script-->
+
+
+<!--script type="text/javascript" language="javascript" src="/~rwww1/common/js/jquery.carouFredSel-6.2.1.js"></script-->
+<script type="text/javascript" language="javascript" src="/~rwww1/common/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+
+<script type="text/javascript" src="/~rwww1/common/colorbox/jquery.colorbox.js"></script>
+<link rel="stylesheet" href="/~rwww1/common/colorbox/colorbox.css" />
+
+<script type="text/JavaScript">
+// <![CDATA[
+
+var $j = jQuery.noConflict();
+//color box
+var cont = 0; //variavel cartao de natal
+$j(document).ready(function() {
+           
+		 $j(".box1").colorbox({ iframe:true, innerWidth:1160, innerHeight:900, onOpen:function(){} });
+         	 $j(".box2").colorbox({ iframe:true, innerWidth:780, innerHeight:300, onOpen:function(){} });
+                 $j(".box3").colorbox({ iframe:true, innerWidth:760, innerHeight:630, onOpen:function(){} });
+                 $j(".box4").colorbox({ iframe:true, innerWidth:616, innerHeight:745, onOpen:function(){} }); 
+                 $j(".links img").css("cursor", "pointer");
+                $j(".links img:first").css('opacity','0.3');
+                $j(".links img").click(function () {
+                    $j(".links img").css('opacity','1.0');
+                    var link = $j(this).attr("id");
+                    $j(this).css('opacity','0.3');
+
+                    $j(".video_prin").html(
+                      "<video poster=\"http://videosonline.cptec.inpe.br/~rvonline/filmes/flv/" + link + ".jpg\" width=\"390\" height=\"306\" title=\"" + $j(this).attr("title") + "\" controls=\"controls\" preload=\"preload\">"+
+                    	"<source src=\"http://videosonline.cptec.inpe.br/~rvonline/filmes/webm/" + link + ".webm\" type='video/webm; codecs=\"vp8.0, vorbis\"'>"+
+                      "<source src=\"http://videosonline.cptec.inpe.br/~rvonline/filmes/mp4/" + link + ".mp4\" type='video/mp4; codecs=\"avc1.4D401E, mp4a.40.2\"'>"+
+                      "<source src=\"http://videosonline.cptec.inpe.br/~rvonline/filmes/ogv/" + link + ".ogv\" type='video/ogg; codecs=\"theora, vorbis\"'>"+
+                      "<p>Video não está visível</p></video>");
+
+                      addEventVideo();
+                      addEventClick();
+                  });
+
+		var cook = document.cookie;
+
+		if(cook.indexOf("ja_viu") == -1) {
+			$j("#banner-aviso").show();
+			//$j("#pop-up").css("left", (screen.width/2-258.5) + "px");
+			//$j("#pop-up").css("top", (screen.height/2-200) + "px");
+		}
+
+$j("#foo2").carouFredSel({
+   // width   : 370,   // automatically calculated
+  height    : 115,   // automatically calculated
+  circular: false,
+  infinite: false,
+  auto  : false,
+  items   : {
+    visible     : 4,   //  automatically calculated
+    minimum     : null,   //  items.visible
+    start     : 0,
+    width   : 91,   // automatically calculated
+   height    : 50,   // automatically calculated  
+   filter      : null
+  },
+  prev  : { 
+    button  : "#foo2_prev",
+    key   : "left"
+  },
+  next  : { 
+    button  : "#foo2_next",
+    key   : "right"
+  },
+  pagination  : "#foo2_pag",
+
+});
+    
+});
+
+
+
+
+/* contagem de visualizacoes do video */
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    addEventVideo();
+    addEventClick();
+});
+
+function addEventVideo() {
+    var video = document.getElementsByTagName('video')[0];
+    video.addEventListener("play", function(e) {
+        _gaq.push(["_trackEvent","Video iniciado: " + ((video.getAttribute('title') != null)?video.getAttribute('title'):"Previsao Diaria"), e.type, video.currentSrc]);
+    }, false);
+    video.addEventListener("ended", function(e) {
+        _gaq.push(["_trackEvent","Video finalizado: " + ((video.getAttribute('title') !== null)?video.getAttribute('title'):"Previsao Diaria"), e.type, video.currentSrc]);
+    }, false);
+}
+
+function addEventClick() {
+    var linkNoticia = document.getElementsByClassName('ver-noticia')[0];
+    var btnFechar = document.getElementsByClassName('fechar')[0];
+    linkNoticia.addEventListener("click", function(e) {
+        _gaq.push(["_trackEvent","Link da noticia clicado: " + linkNoticia.getAttribute('href'), e.type, linkNoticia.getAttribute('href')]);
+    }, false);
+    btnFechar.addEventListener("ended", function(e) {
+        _gaq.push(["_trackEvent","Banner fechado", e.type, "Banner aviso modelos fechado"]);
+    }, false);
+}
+
+//script cartão de natal
+
+	function fecharPopUp() {
+		document.getElementById("banner-aviso").style.display = "none";
+		var d = new Date();
+		d.setTime(d.getTime() + (12*60*60*1000));
+		var expires = "expires="+d.toUTCString();
+		document.cookie = "ja_viu=true; " + expires + "; path=/";
+	}
+
+        function abrirPopUp() {
+		document.getElementById("banner-aviso").style.display = "block";
+                cont = 0;
+                document.cookie = "ja_viu=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+	}
+
+	window.setInterval(function() {
+		var cook = document.cookie;
+
+		if(cook.indexOf("ja_viu") == -1)
+			cont++;
+
+		if(cont == 18)
+			document.getElementById("banner-aviso").style.display = "none";
+	}, 1000);
+
+//fim script cartão de natal
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+
+//
+/*
+var slidespeed=10000
+  "");
+ )
+
+var newwindow=1 //open links in new window? 1=yes, 0=no
+
+var imageholder=new Array()
+var ie=document.all
+for (i=0;i<slideimages.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideimages[i]
+}
+
+function gotoshow(){
+if (newwindow)
+window.open(slidelinks[whichlink])
+
+else
+window.location=slidelinks[whichlink]
+}*/
+// ]]>
+</script>
+
+
+</head>
+
+<body>
+<!-- inicio topo-->
+<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+	<ul id="menu-barra-temp" style="list-style:none;">
+		<li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+		<li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
+	</ul>
+</div>
+ 
+<script type="text/javascript">
+function titulo(){
+	textos = new Array('CENTRO DE PREVIS&Atilde;O DE TEMPO E ESTUDOS CLIM&Aacute;TICOS','home',true,'pt',true,false,true,'','/home/es','/home/in');// titulo, bandeira, traducao
+return textos;
+}
+</script>
+
+
+<div class="principal">
+
+<!-- banner de ReuniaoClimatica -->
+
+<div style="margin:-50px 5% 5% 10% !important;  z-index:1100;position:absolute;" id="reuniaoClimatica"><img src="/~rwww1/common/img/BannerReuniaoClimaticaMAM.png" usemap="#Map"></div>
+<map name="Map">
+<area shape="rect" coords="551,325,633,349" href="javascript:fechar();"><area shape="poly" coords="85,217,197,216,221,240,198,260,88,256,80,239" href="https://docs.zoho.com/show/remote.do?a_t=REMOTE_CLIENT_VIEW&rid=1j3z6fa36d84291404bf98cb880a587542e50&m_lc=8f7a50188f939a7e9d6260f30355959733793a20e9a8daf808e620350adc5f3ee338d81bdc5cfb801740b06c4e8e5ce883084655833c525da507de76eff27fb8" target="_blank" />
+<area shape="poly" coords="255,217,239,237,256,263,374,255,375,221,312,218" href="http://webconf2.rnp.br/cptec" target="_blank" />
+</map>
+
+<script>
+function fechar(){
+$j("#reuniaoClimatica").hide();
+}
+
+var DataSaida = new Date("02/23/2017 20:00:00");
+var DataHoje = new Date();
+
+if(DataHoje < DataSaida){
+
+console.log("fica");
+setTimeout(fechar, 15000);
+}else{
+console.log("sai");
+$j("#reuniaoClimatica").hide();
+}
+</script>
+
+<!-- fim banner de ReuniaoClimatica -->
+
+
+    <div class="conteudo">
+
+<!-- fim topo-->
+
+
+<br /><div class="esquerda">
+	<!-- inicio lateral-->	
+<div class="menu_lat">
+<div class="li"><a href="http://tempo.cptec.inpe.br" target="_top">Previs&atilde;o de Tempo</a></div>
+<div class="li"><a href="http://energia1.cptec.inpe.br" target="_top">Energia</a></div>
+<div class="li"><a href="http://satelite.cptec.inpe.br/home/" target="_top">Imagens de Sat&eacute;lites</a></div>
+<div class="li"><a href="http://sigma.cptec.inpe.br/produto/radar/" target="_top">Precipita&ccedil;&atilde;o por Radar</a></div>
+<div class="li"><a href="http://sigma.cptec.inpe.br/prec_sat/" target="_top">Precipita&ccedil;&atilde;o por Sat&eacute;lite</a></div>
+<div class="li"><a href="http://tempo.cptec.inpe.br/aeroportos/pt" target="_top">Aeroportos</a></div>
+<div class="li"><a href="http://sigma.cptec.inpe.br/queimadas/" target="_top">Queimadas</a></div>
+<div class="li"><a href="http://agricultura.cptec.inpe.br/" target="_top">Agricultura</a></div>
+<div class="li"><a href="http://satelite.cptec.inpe.br/uv/" target="_top">Radia&ccedil;&atilde;o UV</a></div>
+<!--<div class="li"><a href="http://tempo.cptec.inpe.br/boletimtecnico/pt" target="_top">Boletim T&eacute;cnico</a></div>-->
+<div class="li"><a href="http://sinda.crn2.inpe.br/PCD/" target="_top">Plat. de Coleta de Dados</a></div>
+<div class="li"><a href="http://infoclima1.cptec.inpe.br/" target="_top">InfoClima</a></div>
+<div class="li"><a href="http://enos.cptec.inpe.br/" target="_top">El Ni&ntilde;o e La Ni&ntilde;a</a></div>
+<div class="li"><a href="/pessoal/pt" target="_top">Quem &eacute; quem</a></div>
+<div class="li"><a href="http://supercomputacao.inpe.br" target="_blank">Supercomputa&ccedil;&atilde;o</a></div>
+<div class="li"><a href="/sobreocptec/pt" target="_top">Sobre o CPTEC</a></div>
+<div class="li"><a href="http://www.inpe.br/pos_graduacao/cursos/met/index.php" target="_top">P&oacute;s - Gradua&ccedil;&atilde;o</a></div>
+<div class="li"><a href="/links/pt" target="_top">Links Indicados </a></div>
+<div class="li"><a href="/ped/pt" target="_top">Pesq. e Desenvolvimento</a></div>
+<div class="li"><a href="/faleconosco.shtml" target="_top">Fale Conosco</a></div>
+<!--<div class="li"><a href="/~rwww1/pdf/jornal.pdf" target="_top">CPTEC Comunica (pdf)</a></div>-->
+
+<div class="li"><a href="/trabalhe-conosco/" target="_top">Trabalhe Conosco</a></div>
+
+<div class="li"><a href="/faq">Perguntas Frequentes</a></div>
+<div class="li"><a href="/curiosidades/pt" target="_top">Fen&ocirc;menos Naturais</a></div>
+<div class="li"><a href="http://biblioteca.cptec.inpe.br/" target="_top">Biblioteca</a></div>
+<div class="li"><a href="/servicos-usuario" target="_top">Servi&ccedil;os ao Usu&aacute;rio (pdf)</a></div>
+</div>
+
+<div class="menu_lat">
+<div class="li"> <a href="http://extranet.cptec.inpe.br/"> Extranet</a></div>
+
+<div class="ico"><a href="http://www.cptec.inpe.br/supercomputador/" target="_top"><img src="/~rwww1/common/img/ico_super.jpg" border="0" alt="Novo Supercomputador" /></a></div>
+
+<!--<div class="ico">
+<div style="background-image:url(/~rwww1/common/img/ico_pesquisas.jpg); background-repeat:no-repeat; width:100px; height:77px; padding: 23px 0 0 75px">
+<form action="" name="pesquisa" id="pesquisa">
+  <select name="menu1" onchange="MM_jumpMenu('parent',this,0)">
+    <option value="/~rwww1/pdf/Pesquisa-CPTEC-2009.pdf">Op&ccedil;&atilde;o</option>
+    <option value="/~rwww1/pdf/Pesquisa-CPTEC-2009.pdf">1&ordf; 2009</option>
+    <option value="/~rwww1/pdf/Resultados-Pesquisa-CPTEC-2011.pdf">2&ordf; 2011</option>
+  </select>
+</form>
+</div></div>-->
+<div class="contato">
+<img src="/~rwww1/common/img/logo_cptec.png" border="0"/><br/>
+Sede:<br/><br/> Rodovia Dutra, km 39<br/>
+Cachoeira Paulista - SP<br/>
+CEP 12630-000<br/>
+Brasil<br/>
+Tel: 55 (12) 3186-8400 </div>
+
+
+</div>
+
+	<!-- fim lateral-->
+	</div><!--##################### MEIO DIREITA ###########################-->
+<div class="meio_direita">
+
+
+
+ 
+<!--##################### MEIO ###########################-->
+
+	<div class="meio">
+
+	<!-- -->	
+	<div class="content">
+			<script type="text/javascript">
+	function startGallery() {
+		var myGallery = new gallery($('myGallery'), {
+			timed: true
+		});
+	}
+	window.onDomReady(startGallery);
+</script>
+
+<!-- cartão de natal -->
+
+<!--<img id="pop-up" src="/~rwww1/destaques/cartao_natal2014-FINAL.png" border="0" width="517" height="400" orgWidth="517" orgHeight="400" usemap="#cartao-de-natal" alt="Cartão de Natal 2014" style="position:absolute;display:none;z-index:1000;">
+<map name="cartao-de-natal" id="cartao-de-natal">
+	<area alt="Botão Fechar" title="Fechar pop-up" href="javascript:void(0)" shape="rect" coords="464,29,487,53" style="outline:none;" target="_self" onclick="fecharPopUp()">
+</map>-->
+
+<!-- fim cartão de natal -->
+
+<!-- aviso reestruturacao modelos -->
+<div id="banner-aviso">
+        <a href="http://www.cptec.inpe.br/noticias/noticia/129105" class="ver-noticia"><span>Importante:</span> Veja a not&iacute;cia sobre a reestrutura&ccedil;&atilde;o dos Modelos Num&eacute;ricos de Tempo do CPTEC/INPE.</a>
+	<a href="javascript:void(0)" onclick="fecharPopUp()" class="fechar" title="Fechar pop-up">&#10006;</a>
+</div>
+<!-- fim aviso reestruturacao modelos -->
+
+<div id="myGallery">
+    		<div class="imageElement">
+<h3>Divulgação da previsão por consenso para o trismestre A...</h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129130" title="Divulgação da previsão por consenso para o trismestre A..." class="open"></a>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017327154519.gif" class="full" alt="Divulgação da previsão por consenso para o trismestre A..."/>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017327154519.gif" class="thumbnail" alt="Divulgação da previsão por consenso para o trismestre A..." />
+</div><div class="imageElement">
+<h3>Previsão de chuvas volumosas entre o centro-norte de MG...</h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129129" title="Previsão de chuvas volumosas entre o centro-norte de MG..." class="open"></a>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/destaque/imagem_27032017102934.jpg" class="full" alt="Previsão de chuvas volumosas entre o centro-norte de MG..."/>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/destaque/imagem_27032017102934.jpg" class="thumbnail" alt="Previsão de chuvas volumosas entre o centro-norte de MG..." />
+</div><div class="imageElement">
+<h3>Março chuvoso no Vale do Paraíba</h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129120" title="Março chuvoso no Vale do Paraíba" class="open"></a>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017326145444.png" class="full" alt="Março chuvoso no Vale do Paraíba"/>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017326145444.png" class="thumbnail" alt="Março chuvoso no Vale do Paraíba" />
+</div><div class="imageElement">
+<h3>Chuva abaixo da média no Centro-Oeste</h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129121" title="Chuva abaixo da média no Centro-Oeste" class="open"></a>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/destaque/imagem_26032017104436.jpg" class="full" alt="Chuva abaixo da média no Centro-Oeste"/>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/destaque/imagem_26032017104436.jpg" class="thumbnail" alt="Chuva abaixo da média no Centro-Oeste" />
+</div><div class="imageElement">
+<h3>Reestruturação de Modelos Numéricos de Tempo </h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129105" title="Reestruturação de Modelos Numéricos de Tempo " class="open"></a>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/padrao/imagem_6.jpg" class="full" alt="Reestruturação de Modelos Numéricos de Tempo "/>
+<img src="http://img0.cptec.inpe.br/~rgrafico/icones_noticias/uploadimg/padrao/imagem_6.jpg" class="thumbnail" alt="Reestruturação de Modelos Numéricos de Tempo " />
+</div><div class="imageElement">
+<h3>Divulgação da previsão por consenso para o trismestre M...</h3>
+<span></span>
+<a href="http://www.cptec.inpe.br/noticias/noticia/129074" title="Divulgação da previsão por consenso para o trismestre M..." class="open"></a>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017224161935.png" class="full" alt="Divulgação da previsão por consenso para o trismestre M..."/>
+<img src="http://extranet.cptec.inpe.br/~rextra/imgupload/imagem_2017224161935.png" class="thumbnail" alt="Divulgação da previsão por consenso para o trismestre M..." />
+</div>	
+<div class="imageElement">
+<h3>Avisos meteorológicos</h3>
+<span></span>
+<a href="http://tempo.cptec.inpe.br/avisos" title="Avisos meteorológicos para o Brasil" class="open"></a>
+<img src="http://www.cptec.inpe.br/~rwww1/destaques/banner_aviso.gif" class="full" alt="Avisos meteorológicos para o Brasil"/>
+<img src="http://www.cptec.inpe.br/~rwww1/destaques/banner_aviso.gif" class="thumbnail" alt="Avisos meteorológicos para o Brasil" />
+</div>	
+		</div>
+	  </div>
+	
+	
+	
+	
+	
+	<div class="prev_tempo">
+	<iframe src="http://www.cptec.inpe.br/cidades/previsao.do?parameter=tempoCookie" width="390px" height="210px" scrolling="no" frameborder="0"></iframe>
+	</div>
+	
+	
+	
+<div class="tit_e"><img src="/~rwww1/common/img/ponto_laranja.gif" style="vertical-align:middle" alt="WebTV" />Web TV - Vídeos</div>
+
+<div class="video">
+
+<div class="video_prin">
+      
+<video poster="http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/previsao_27032017_tarde.jpg" class="vidsize" controls>
+  <source src="http://videosonline.cptec.inpe.br/~rvonline/filmes/webm/previsao_27032017_tarde.webm" type='video/webm; codecs="vp8.0, vorbis"'>
+  <source src="http://videosonline.cptec.inpe.br/~rvonline/filmes/mp4/previsao_27032017_tarde.mp4"  type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+  <source src="http://videosonline.cptec.inpe.br/~rvonline/filmes/ogv/previsao_27032017_tarde.ogv" type='video/ogg; codecs="theora, vorbis"'>
+  <p>Video nÃ£o estÃ¡ visÃ­vel</p>
+</video>
+
+	</div>
+<div class="image_carousel">
+    <div class="links" id="foo2">
+      <li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/previsao_27032017_tarde.jpg title="Previsï¿½o Diï¿½ria" id="previsao_27032017_tarde"/></div><div class="txt">Previsï¿½o Diï¿½ria</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/outono_06032017_renata_final.jpg title="Outono" id="outono_06032017_renata_final"/></div><div class="txt">Outono</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/reuclim_mam_23022017_final.jpg title="Previsï¿½o Climï¿½tica MAM 2017" id="reuclim_mam_23022017_final"/></div><div class="txt">Previsï¿½o Climï¿½tica MAM 2017</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/zcas-zcou.jpg title="ZCAS - ZCOU" id="zcas-zcou"/></div><div class="txt">ZCAS - ZCOU</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sos_chuva_ios_01122016_revisado.jpg title="Aplicativo SOS CHUVA - IOS" id="sos_chuva_ios_01122016_revisado"/></div><div class="txt">Aplicativo SOS CHUVA - IOS</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sos_chuva_android_01122016_revisado.jpg title="Aplicativo SOS CHUVA - Android" id="sos_chuva_android_01122016_revisado"/></div><div class="txt">Aplicativo SOS CHUVA - Android</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sensoriamento_remoto1.jpg title="Sensoriamento Remoto 1" id="sensoriamento_remoto1"/></div><div class="txt">Sensoriamento Remoto 1</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sensoriamento_remoto2.jpg title="Sensoriamento Remoto 2" id="sensoriamento_remoto2"/></div><div class="txt">Sensoriamento Remoto 2</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sensoriamento_remoto3.jpg title="Sensoriamento Remoto 3" id="sensoriamento_remoto3"/></div><div class="txt">Sensoriamento Remoto 3</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/TurminhaCptecEmTempoClima.jpg title="Turminha CPTEC em Tempo e Clima" id="TurminhaCptecEmTempoClima"/></div><div class="txt">Turminha CPTEC em Tempo e Clima</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sos_chuva_2016.jpg title="SOS Chuva" id="sos_chuva_2016"/></div><div class="txt">SOS Chuva</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/sos2_chuva_2016.jpg title="SOS Chuva 2" id="sos2_chuva_2016"/></div><div class="txt">SOS Chuva 2</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/mapsat_04042016_final.jpg title="Aplicativo MapSat" id="mapsat_04042016_final"/></div><div class="txt">Aplicativo MapSat</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/uv_marilia_30032016-final.jpg title="Explicativo sobre UV" id="uv_marilia_30032016-final"/></div><div class="txt">Explicativo sobre UV</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/jatos2013.jpg title="Correntes de Jato" id="jatos2013"/></div><div class="txt">Correntes de Jato</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/SF_15032013.jpg title="Sistemas Frontais" id="SF_15032013"/></div><div class="txt">Sistemas Frontais</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/drosmar_raios1.jpg title="Explicativo sobre Raios" id="drosmar_raios1"/></div><div class="txt">Explicativo sobre Raios</div></li>
+<li><div class="img"><img src=http://videosonline.cptec.inpe.br/~rvonline/filmes/jpg/drosmar_raios2.jpg title="Explicativo sobre Raios 2" id="drosmar_raios2"/></div><div class="txt">Explicativo sobre Raios 2</div></li>
+
+    </div>
+    <div class="clearfix"></div>
+    <a class="prev" id="foo2_prev" href="#"><span>prev</span></a>
+    <a class="next" id="foo2_next" href="#"><span>next</span></a>
+    <div class="pagination" id="foo2_pag"></div>
+</div></div>
+<div class="vo"><a href="http://videosonline.cptec.inpe.br/">» vídeos online</a></div>
+	
+	</div>
+
+	<!--fim meio --><!--##################### DIREITA ###########################-->
+ <div class="direita">
+
+<a href="http://tempo.cptec.inpe.br/avisos/" style="margin-left:5px"><img src="/~rwww1/common/img/bannerAviso390x100.jpg"  alt="Avisos Meteorológicos"/></a><br /><br />
+
+<div class="tit_e"><img src="/~rwww1/common/img/ponto_laranja.gif" style="vertical-align:middle"  alt="Aplicativos &amp; Informa&ccedil;&otilde;es" />Aplicativos &amp; Informa&ccedil;&otilde;es</div>
+
+<div class="icon"><a href="/previsaonoseusite/pt"><img src="/~rwww1/common/img/icone_01.png" border="0" alt="previsã no seu site"/></a><br />     Previsão<br /> no seu Site </div>
+ <div class="icon"><a href="/previsaoporemail/pt"><img src="/~rwww1/common/img/icone_06.png" border="0" alt="tempo por email" /></a><br /> Previsão<br /> por E-mail</div>
+ <div class="icon"><a href="http://twitter.com/inpe_cptec"><img src="/~rwww1/common/img/icone_02.gif" border="0" alt="twitter" /></a><br /> Twitter</div>
+ <div class="icon"><a href="/rss/pt"><img src="/~rwww1/common/img/icone_03.gif" border="0" alt="rss" /></a><br /> RSS</div>
+ <div class="icon"><a href="http://sigma.cptec.inpe.br/sigma/"><img src="/~rwww1/common/img/icone_04.gif" border="0" alt="sigma"/></a><br /> Sigma</div>
+ <div class="icon"><a href="/googleearth.shtml"><img src="/~rwww1/common/img/icone_05.gif" border="0" alt="google earth" /></a><br />Google<br /> Earth </div>
+
+
+<!--<a href="javascript:void(0)" onclick="javascript:abrirPopUp()" style="margin-left:5px"><img src="/~rwww1/common/img/bannerhomecptec-NATAL.png"  alt="Comemoração dos 20 anos do CPTEC"/></a><br /><br />-->
+<!--<a href="/monitoramento/pt" class="box2"><img src="/~rwww1/common/img/monitoramento_serrana.gif"  alt="Monitoramento"/></a><br /><br />
+<div class="tit_e"><img src="/~rwww1/common/img/ponto_laranja.gif" style="vertical-align:middle"  alt="Destaques"/>Destaques</div>-->
+
+ <div style="float:left"><iframe src="/webradio/index.html" width="400px" height="183px" scrolling="no" frameborder="0"></iframe></div>		
+  
+
+	<div class="tit_e"><img src="/~rwww1/common/img/ponto_laranja.gif" style="vertical-align:middle" alt="Difusão do Conhecimento" />Difusão do Conhecimento</div>
+	<div class="educacional">
+  <!--<div class="edu1">
+  <script type="text/JavaScript" language="JavaScript1.1">
+// <![CDATA[
+//Presentational Slideshow Script- By Dynamic Drive
+//For full source code and more DHTML scripts, visit http://www.dynamicdrive.com
+//This credit MUST stay intact for legal use
+
+var slideshow_width='140px' //SET SLIDESHOW WIDTH (set to largest image's width if multiple dimensions exist)
+var slideshow_height='101px' //SET SLIDESHOW HEIGHT (set to largest image's height if multiple dimensions exist)
+var pause=14000 //SET PAUSE BETWEEN SLIDE (2000=2 seconds)
+var slidebgcolor="white"
+
+var dropimages=new Array()
+//SET IMAGE PATHS. Extend or contract array as needed
+
+dropimages[0]="/~rwww1/difusao/agenda2016_mini.png";
+dropimages[1]="/~rwww1/difusao/banner_workshop.png"
+
+var droplinks=new Array()
+//SET IMAGE URLs. Use "" if you wish particular image to NOT be linked:1
+
+droplinks[0]="http://difusaoconhecimento.cptec.inpe.br/";
+droplinks[1]="http://chuvaproject.cptec.inpe.br/portal/workshop_ilhabela/index.html"
+
+var droptexto=new Array()
+//SET IMAGE URLs. Use "" if you wish particular image to NOT be linked:
+droptexto[0]="<div class='f1'>Agenda 2016</div><br />Agenda de cursos e eventos para 2016";
+droptexto[1]="<div class='f1'>Workshop</div><br />Aerosol-Cloud-Precipitation";
+////NO need to edit beyond here/////////////
+
+var preloadedimages=new Array()
+for (p=0;p<dropimages.length;p++){
+preloadedimages[p]=new Image()
+preloadedimages[p].src=dropimages[p]
+}
+
+var ie4=document.all
+var dom=document.getElementById
+
+if (ie4||dom)
+document.write('<div style="position:relative;width:'+slideshow_width+';height:'+slideshow_height+';overflow:hidden"><div id="canvas0" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';background-color:'+slidebgcolor+';left:-'+slideshow_width+'"></div><div id="canvas1" style="position:absolute;width:'+slideshow_width+';height:'+slideshow_height+';background-color:'+slidebgcolor+';left:-'+slideshow_width+'"></div></div>')
+else
+document.write('<a href="javascript:rotatelink()"><img name="defaultslide" src="'+dropimages[0]+'" border="0" alt="'+droptexto[0]+'" /></a>"'+droptexto[0])
+
+var curpos=parseInt(slideshow_width)*(-1)
+var degree=10
+var curcanvas="canvas0"
+var curimageindex=linkindex=0
+var nextimageindex=1
+
+
+function movepic(){
+if (curpos<0){
+curpos=Math.min(curpos+degree,0)
+tempobj.style.left=curpos+"px"
+}
+else{
+
+clearInterval(dropslide)
+nextcanvas=(curcanvas=="canvas0")? "canvas0" : "canvas1"
+tempobj=ie4? eval("document.all."+nextcanvas) : document.getElementById(nextcanvas)
+var slideimage='<img src="'+dropimages[curimageindex]+'" border="0" alt="CPTEC" />'
+//alert(slideimage);
+tempobj.innerHTML=(droplinks[curimageindex]!="")? '<a href="'+droplinks[curimageindex]+'">'+slideimage+'</a>' : slideimage
+nextimageindex=(nextimageindex<dropimages.length-1)? nextimageindex+1 : 0
+setTimeout("rotateimage()",pause)
+}
+}
+
+function rotateimage(){
+if (ie4||dom){
+resetit(curcanvas)
+var crossobj=tempobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.style.zIndex++
+var temp='setInterval("movepic()",10)'
+dropslide=eval(temp)
+curcanvas=(curcanvas=="canvas0")? "canvas1" : "canvas0"
+}
+else
+document.images.defaultslide.src=dropimages[curimageindex]
+document.getElementById('teste').innerHTML=droptexto[curimageindex]
+linkindex=curimageindex
+curimageindex=(curimageindex<dropimages.length-1)? curimageindex+1 : 0
+}
+
+function rotatelink(){
+if (droplinks[linkindex]!="")
+window.location=droplinks[linkindex]
+}
+
+function resetit(what){
+curpos=parseInt(slideshow_width)*(-1)
+var crossobj=ie4? eval("document.all."+what) : document.getElementById(what)
+crossobj.style.left=curpos+"px"
+}
+
+function startit(){
+var crossobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.innerHTML='<a href="'+droplinks[curimageindex]+'"><img src="'+dropimages[curimageindex]+'" border="0" alt="CPTEC" /></a>'
+rotateimage()
+}
+if (ie4||dom)
+window.onload=startit
+else
+setInterval("rotateimage()",pause)
+
+//]]>
+</script>
+	
+  <div id="teste"></div>
+   </div>-->
+    <div class="edu2">
+	<ul>
+<li class="df_videos"><a href="http://videoseducacionais.cptec.inpe.br/" class="txt">Vídeos Educativos</a></li>
+<li class="df_glo"><a href="/glossario.shtml" class="txt">Glossário Técnico</a></li>
+<li class="df_bibl"><a href="http://biblioteca.cptec.inpe.br/" class="txt">Biblioteca</a></li>
+<li class="df_soft"><a href="http://downloads.cptec.inpe.br/publicacoes/" class="txt">Softwares Livres</a></li>
+<li class="df_cursos"><a href="http://difusaoconhecimento.cptec.inpe.br" class="txt">Cursos e Eventos</a></li>
+</ul>
+    </div></div>
+	
+<div class="tit_e"> <img src="/~rwww1/common/img/ponto_laranja.gif" alt="Estações do ano" style="vertical-align:middle" />Estações do ano </div>
+	<div class="estacao">
+  
+<div class="st" valign="top" width="130"><a href="http://clima1.cptec.inpe.br/estacoes/pt" target="_parent">Outono<br><img src="/~rwww1/common/img/ic_outono.gif" border="0" width="56" height="60" title=Outono></a><br>20/Mar<br>07h29</div>
+<div class="st" valign="top" width="130"><a href="http://clima1.cptec.inpe.br/estacoes/pt" target="_parent">Inverno<br><img src="/~rwww1/common/img/ic_inverno.gif" border="0" width="56" height="60" title=Inverno></a><br>21/Jun<br>01h24</div>
+<div class="st" valign="top" width="130"><a href="http://clima1.cptec.inpe.br/estacoes/pt" target="_parent">Primavera<br><img src="/~rwww1/common/img/ic_primavera.gif" border="0" width="56" height="60" title=Primavera></a><br>22/Set<br>17h02</div>
+<div class="st" valign="top" width="130"><a href="http://clima1.cptec.inpe.br/estacoes/pt" target="_parent">Ver&atilde;o<br><img src="/~rwww1/common/img/ic_verao.gif" border="0" width="56" height="60" title=Ver&atilde;o></a><br>21/Dez<br>*13h28</div>
+<div style=font-size:10px;color:#7c7c7c;text-align:right>Fonte: IAG/USP <img src=/~rwww1/common/img/pixel.gif width=125px height=2px>*N&atilde;o corrigida para Hor&aacute;rio de Ver&atilde;o </div>
+<div style=font-size:10px;color:#7c7c7c;text-align:right> Clique nas esta&ccedil;&otilde;es para maiores informa&ccedil;&otilde;es</div>
+
+</div>
+
+
+
+<div class="tit_e"><img src="/~rwww1/common/img/ponto_laranja.gif"  style="vertical-align:middle" alt="Projetos Especiais" />Projetos Especiais</div>
+<div class="ped">
+<div class="b"><a href="http://antartica.cptec.inpe.br/">Antártica</a></div>
+<div class="b"><a href="http://brams.cptec.inpe.br/">BRAMS</a></div>
+<div class="b"><a href="http://cenapad.cptec.inpe.br/">Cenapad</a></div>
+<div class="b"><a href="http://chuvaproject.cptec.inpe.br/portal/">CHUVA</a></div>
+<div class="b"><a href="http://etamodel.cptec.inpe.br/">EtaModel</a></div>
+<div class="b"><a href="http://eurobrisa.cptec.inpe.br">Eurobrisa</a></div>
+<div class="b"><a href="http://lba.cptec.inpe.br/">LBA</a></div>
+<div class="b"><a href="http://lma.cptec.inpe.br/">LMA</a></div>
+<div class="b"><a href="http://lpb.cptec.inpe.br/">LPB</a></div>
+<div class="b"><a href="http://marsp.cptec.inpe.br/">MARSP</a></div>
+<div class="b"><a href="http://mudancasclimaticas.cptec.inpe.br/">Mud. Climáticas</a></div>
+<div class="b"><a href="http://musa.cptec.inpe.br/">MUSA</a></div>
+<div class="b"><a href="http://nridaln.cptec.inpe.br/">NRIDALN</a></div>
+<div class="b"><a href="http://www.cptec.inpe.br/proclima">Proclima</a></div>
+<div class="b"><a href="http://serradomar.cptec.inpe.br/">Serra do Mar</a></div>
+<div class="b"><a href="http://sonda.ccst.inpe.br/">SONDA</a></div>
+</div>
+</div>
+<div class="avisoimportante">
+	<div class="tit_e"><img src="http://www.cptec.inpe.br/~rwww1/common/img/ponto_laranja.gif" alt="Projetos Especiais" />Aviso Importante</div>
+
+	<div class="texto">
+		Os produtos apresentados nesta página não podem ser usados para propósitos comerciais, copiados integral ou parcialmente para a reprodução em meios de divulgação, sem a expressa autorização do CPTEC/INPE.<br /><br />
+Os usuários deverão sempre mencionar a fonte das informações e dados como "CPTEC/INPE"<br /><br />
+A geração e a divulgação de produtos operacionais obedecem critérios sistêmicos de controle de qualidade, padronização e periodicidade de disponibilização.  Em nenhum caso o CPTEC/INPE pode ser responsabilizado por danos especiais, indiretos ou decorrentes, ou nenhum dano vinculado ao que provenha do uso destes produtos. 
+</div>
+</div>
+</div>
+</div>
+</div><div class="rodape">
+<div class="rod">
+	<div class="texto"><b>INPE</b> - Instituto Nacional de Pesquisas Espaciais<br />
+	<b>CPTEC</b> - Centro de Previsão de Tempo e Estudos Climáticos</div>	
+	<div class="r">
+	<div class="copy">© Copyright 2016 CPTEC/INPE</div>
+	<div class="contato">Comentários e/ou sugestões: <a href="http://www.cptec.inpe.br/faleconosco/pt">Fale Conosco</a></div>
+	</div>
+</div>
+</div>
+
+<script type="text/javascript">
+// <![CDATA[
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-801689-1']);
+                    _gaq.push(['_trackPageview']);
+
+                    (function() {
+                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                    })();
+//]]>
+            </script>
+<script src="/~rwww1/common/js/headerCPTEC.js" type="text/javascript"></script>
+<script defer async src="/~rwww1/common/js/barra.js" type="text/javascript"></script>
+<!--script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script-->
+</body>
+</html>
+|||http://brasil.gov.br|<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<meta http-equiv="CacheControl" content="no-cache"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="shortcut icon" href="data:;base64,iVBORw0KGgo="/>
+
+<script>
+
+(function(){
+    var securemsg;
+    var dosl7_common;
+
+window["bobcmn"] = "111110101010102000000022000000052000000002d18de820200000096300000000300000000300000006/TSPD/300000008TSPD_101300000004http200000000200000000";
+
+window.NWEf=!!window.NWEf;try{(function(){try{var ll,Ll,Ol=1,_l=1,il=1,jl=1,Jl=1,ZL=1,sL=1,jL=1;for(var lo=0;lo<Ll;++lo)Ol+=2,_l+=2,il+=2,jl+=2,Jl+=2,ZL+=2,sL+=2,jL+=3;ll=Ol+_l+il+jl+Jl+ZL+sL+jL;window.SL===ll&&(window.SL=++ll)}catch(Lo){window.SL=ll}var Zo=!0;function Io(l){l&&(Zo=!1,document.cookie="brav=ad");return Zo}function lO(){}Io(window[lO.name]===lO);Io("function"!==typeof ie9rgb4);Io(/\x3c/.test(function(){return"\x3c"})&!/x3d/.test(function(){return"'x3'+'d';"}));
+var LO=window.attachEvent||/mobi/i.test(window["\x6e\x61vi\x67a\x74\x6f\x72"]["\x75\x73e\x72A\x67\x65\x6et"]),oO=+new Date+6E5,zO,ZO,sO=setTimeout,_O=LO?3E4:6E3;function IO(){if(!document.querySelector)return!0;var l=+new Date,z=l>oO;if(z)return Io(!1);z=ZO&&zO+_O<l;z=Io(z);zO=l;ZO||(ZO=!0,sO(function(){ZO=!1},1));return z}IO();var jO=[17795081,27611931586,1558153217];
+function JO(l){l="string"===typeof l?l:l.toString(36);var z=window[l];if(!z.toString)return;var S=""+z;window[l]=function(l,S){ZO=!1;return z(l,S)};window[l].toString=function(){return S}}for(var Lz=0;Lz<jO.length;++Lz)JO(jO[Lz]);Io(!1!==window.NWEf);(function(){var l={decrypt:function(l){try{return JSON.parse(function(l){l=l.split("l");var z="";for(var S=0;S<l.length;++S)z+=String.fromCharCode(l[S]);return z}(l))}catch(S){}}};return l={configuration:l.decrypt("123l34l97l99l116l105l118l101l34l58l34l110l111l34l44l34l100l101l98l117l103l103l105l110l103l34l58l34l110l111l34l44l34l109l111l100l117l108l101l49l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l50l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l51l34l58l34l101l110l97l98l108l101l100l34l44l34l109l111l100l117l108l101l52l34l58l34l101l110l97l98l108l101l100l34l125")}})();
+var oz=39;window.Oz={Zz:"0874da4a98017800846bd52e451299ad0edc53f73e7e7b22745aef6e0504893cbd277b10e516d2d4581720a6bfc4925bbc3798865c7bcdd2ec0362f5efc5998d39ccedbe38476499093643986d413e9603be62ce9aedab02b39d8fc23ceefa8708385fab59c4f8a763b6e29e1839dc700e842563318fdc8a3196d67550482616"};function L(l){return 553>l}function O(l){var z=arguments.length,S=[];for(var _=1;_<z;++_)S.push(arguments[_]-l);return String.fromCharCode.apply(String,S)}function Z(l,z){l+=z;return l.toString(36)}(function zz(z){z&&"number"!==typeof z||("number"!==typeof z&&(z=1E3),z=Math.max(z,1),setInterval(function(){zz(z-10)},z))})(IO());})();}catch(x){document.cookie='brav=oex'+x;}finally{ie9rgb4=void(0);};function ie9rgb4(a,b){return a>>b>>0};
+
+})();
+
+</script>
+
+<script type="text/javascript" src="/TSPD/08282a9212ab2000f9c3d5886479349a97049f84fc14b84c08c38c0c8336dd99b78f2bd563671994?type=7"></script>
+<noscript>Please enable JavaScript to view the page content.</noscript>
+</head><body>
+</body></html>|||http://www.cptec.inpe.br/faq/categoria/jornal/|<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+	
+	<title>Jornal |  Perguntas Frequentes - CPTEC/INPE</title>
+	
+	<meta property="og:site_name" content="CPTEC/INPE" />
+	<meta property="og:locale" content="pt-BR" />	
+		
+    <meta name="description" content="Tire suas principais dúvidas e encontre informações relacionadas ao Centro de Previsão de Tempo e Estudos Climáticos" />
+    <meta name="keywords" content="faq, perguntas frequentes, questões frequentes, dúvidas, tempo, clima, previsão" />
+    <meta name="author" content="Visualização CPTEC/INPE" />    
+	<meta property="og:url" content="http://www.cptec.inpe.br/faq" />
+    <meta property="og:type" content="website" />    
+	<meta property="og:title" content="Perguntas Frequentes" />
+	<meta property="og:description" content="Tire suas principais dúvidas e encontre informações relacionadas ao Centro de Previsão de Tempo e Estudos Climáticos" />
+    <meta property="og:image" content="http://www.cptec.inpe.br/faq/wp-content/uploads/2017/01/logofaq.jpg" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />	
+		
+	<link rel="shortcut icon" href="http://www.cptec.inpe.br/faq/wp-content/themes/faq/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="http://www.cptec.inpe.br/faq/wp-content/themes/faq/style.css" />
+    <!-- API GOOGLE FONT -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700" rel="stylesheet" type="text/css">
+    <link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Feed de categoria para Perguntas Frequentes &raquo; Jornal" href="http://www.cptec.inpe.br/faq/categoria/jornal/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.cptec.inpe.br\/faq\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='https://api.w.org/' href='http://www.cptec.inpe.br/faq/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.cptec.inpe.br/faq/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.cptec.inpe.br/faq/wp-includes/wlwmanifest.xml" /> 
+</head>
+<body class="archive category category-jornal category-16">
+    <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+        <ul id="menu-barra-temp" style="list-style:none;">
+            <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+            <li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
+        </ul>
+    </div>
+    <header class="topo">
+        <div id="inpe-cptec">
+            <form name="buscaForm" action="http://www.cptec.inpe.br/busca.php">
+                <input name="palavra" class="input_cidade" type="search" placeholder="Digite o nome da cidade">
+                <input value="Buscar" id="buscar" name="image" type="submit">
+            </form>
+            <h1 class="titulo principal"><a href="http://www.cptec.inpe.br/faq" title="Ir para a página inicial do Perguntas Frequentes">Perguntas Frequentes</a></h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="http://www.cptec.inpe.br" title="Home" class="menu-item-1">Home</a></li>
+                <li><a href="http://tempo.cptec.inpe.br" title="Tempo" class="menu-item-2">Tempo</a></li>
+                <li><a href="http://clima1.cptec.inpe.br" title="Clima" class="menu-item-3">Clima</a></li>
+                <li><a href="http://previsaonumerica.cptec.inpe.br" title="Previs&atilde;o Num&eacute;rica" class="menu-item-4">Previs&atilde;o Num&eacute;rica</a></li>
+                <li><a href="http://assimila.cptec.inpe.br" title="Assimila&ccedil;&atilde;o de Dados" class="menu-item-5">Assimila&ccedil;&atilde;o de Dados</a></li>
+                <li><a href="http://satelite.cptec.inpe.br" title="Sat&eacute;lite" class="menu-item-6">Sat&eacute;lite</a></li>
+                <li><a href="http://ondas.cptec.inpe.br" title="Ondas" class="menu-item-7">Ondas</a></li>
+                <li><a href="http://bancodedados.cptec.inpe.br" title="Dados Observacionais" class="menu-item-8">Dados Observacionais</a></li>
+                <li><a href="http://lim1.cptec.inpe.br" title="Instrumenta&ccedil;&atilde;o Meteorol&oacute;gica" class="menu-item-9">Instrumenta&ccedil;&atilde;o Met.</a></li>
+                <li><a href="http://meioambiente.cptec.inpe.br" title="Qualidade do Ar" class="menu-item-10">Qualidade do Ar</a></li>
+            </ul>
+        </nav>
+    </header>   	<div class="centered">
+		<div id="sidebar">
+	<div class="breadcrumbs" typeof="BreadcrumbList">
+    <!-- Breadcrumb NavXT 5.6.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Perguntas Frequentes." href="http://www.cptec.inpe.br/faq" class="home"><span property="name">Perguntas Frequentes</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">Jornal</span><meta property="position" content="2"></span>    </div>
+	<div id="search-form">
+		<form method="get" class="search-form" action="http://www.cptec.inpe.br/faq/">
+			<div class="input-box">
+				<label><input type="search" class="search-field" placeholder="Digite os termos para pesquisa aqui" value="" name="s" title="Faça sua busca!" /></label>
+			</div>
+			<div class="submit-box">
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</div>
+		</form>
+	</div>
+	<div id="categorias">
+		<ul>
+				<li class="cat-item cat-item-13"><a href="http://www.cptec.inpe.br/faq/categoria/agricultura/" >Agricultura</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://www.cptec.inpe.br/faq/categoria/banco-de-dados/" >Banco de Dados</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.cptec.inpe.br/faq/categoria/biblioteca/" >Biblioteca</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.cptec.inpe.br/faq/categoria/clima/" >Clima</a>
+</li>
+	<li class="cat-item cat-item-17"><a href="http://www.cptec.inpe.br/faq/categoria/desmatamento/" >Desmatamento</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://www.cptec.inpe.br/faq/categoria/energia/" >Energia</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://www.cptec.inpe.br/faq/categoria/instrumentacao/" >Instrumentação</a>
+</li>
+	<li class="cat-item cat-item-16 current-cat"><a href="http://www.cptec.inpe.br/faq/categoria/jornal/" >Jornal</a>
+</li>
+	<li class="cat-item cat-item-15"><a href="http://www.cptec.inpe.br/faq/categoria/mudancas-climaticas/" >Mudanças Climáticas</a>
+</li>
+	<li class="cat-item cat-item-2"><a href="http://www.cptec.inpe.br/faq/categoria/o-cptec/" >O CPTEC</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.cptec.inpe.br/faq/categoria/ondas/" >Ondas</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.cptec.inpe.br/faq/categoria/previsao-numerica/" >Previsão Numérica</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://www.cptec.inpe.br/faq/categoria/qualidade-do-ar/" >Qualidade do Ar</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.cptec.inpe.br/faq/categoria/queimadas/" >Queimadas</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://www.cptec.inpe.br/faq/categoria/radiacao-uv/" >Radiação UV</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://www.cptec.inpe.br/faq/categoria/satelites/" >Satélites</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.cptec.inpe.br/faq/categoria/tempo/" >Tempo</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.cptec.inpe.br/faq/categoria/videos-educativos/" >Vídeos Educativos</a>
+</li>
+		</ul>
+	</div>
+</div>
+ 
+		<section id="primary" class="content-area">
+			<main id="content" class="site-content" role="main">		
+				<div class="aviso-filtro">
+					<em>Exibindo resultados para <span class="destaque normal">"Jornal"</span></em>
+				</div>
+				<article class="questao search">
+	<header>
+		<h2><a href="http://www.cptec.inpe.br/faq/qual-a-periodicidade-do-jornal-cptecomunica/">Qual a periodicidade do Jornal CPTEComunica?</a></h2>
+	</header>	
+</article>				<div class="paginacao">				
+					<div class="wp-pagination"></div>				</div>
+			</main>
+		</section>
+	</div>
+    <footer>
+        <div class="centered rodape">
+            <p>
+                <abbr title="Instituto Nacional de Pesquisas Espaciais">INPE</abbr> &minus; Instituto Nacional de Pesquisas Espaciais<br>
+                <abbr title="Centro de Previs&atilde;o de Tempo e Estudos Clim&aacute;ticos">CPTEC</abbr> &minus; Centro de Previs&atilde;o de Tempo e Estudos Clim&aacute;ticos<br>
+            </p>
+        </div>
+        <div class="centered baixo">
+            <p>&copy; Copyright 2017 CPTEC/INPE</p>
+            <p class="right">Coment&aacute;rios e/ou sugest&otilde;es: <a href="http://www.cptec.inpe.br/faleconosco.shtml" title="Fale Conosco">Fale Conosco</a></p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/transpetro.js"></script>
+    <script defer="defer" src="//barra.brasil.gov.br/barra.js" type="text/javascript"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]|
