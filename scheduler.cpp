@@ -73,7 +73,12 @@ bool Scheduler::thistime(double x){
 
 string Scheduler::TopUrl(){
 	//if(inside_url.size()+outside_url.size()==0) cout<<"ENNNNND";
-	int q=rand()&1;
+	int q=rand()%3;
+	if(q>0) q=1;
+	q=!q;
+	if(q){
+	}else{
+	}
 	if(q){
 		if(inside_url.empty()) q=!q;
 	}

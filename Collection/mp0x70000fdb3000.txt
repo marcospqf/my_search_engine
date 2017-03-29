@@ -1,0 +1,2664 @@
+|||http://megacurioso.com.br|
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" async>
+            var _nznt = _nznt || [];
+            _nznt.push(['_setAccount', 'NZN-WAP-00001']);
+            (function () {
+                var nzna = document.createElement('script');
+                nzna.type = 'text/javascript';
+                nzna.async = true;
+                nzna.src = 'https://analytics.gruponzn.com/nzn-tracker.20170320192543.js';
+                var snzn = document.getElementsByTagName('script')[0]; snzn.parentNode.insertBefore(nzna, snzn);
+            })();
+    </script>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <link rel="preconnect" href="//imgnzn-a.akamaized.net">
+    <link rel="preconnect" href="//obj.ibxk.com.br">
+    <link rel="preconnect" href="//fonts.gstatic.com">
+    <link rel="preconnect" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.googletagservices.com">
+    <link rel="dns-prefetch" href="//connect.facebook.net">
+    <link rel="dns-prefetch" href="//platform.linkedin.com">
+    <link rel="dns-prefetch" href="//apis.google.com">
+    <link rel="dns-prefetch" href="//s-akfs.nspmotion.com">
+    <link rel="dns-prefetch" href="//widgets.outbrain.com">
+    <link rel="dns-prefetch" href="//d.tailtarget.com">
+    <link rel="dns-prefetch" href="//tags.t.tailtarget.com">
+    <link rel="dns-prefetch" href="//static.chartbeat.com">
+    <meta property="fb:pages" content="291139254273536" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"7924d91e21","applicationID":"38623054","transactionName":"blYDYEJUDBEFBkcIClccLGJzGioNCQBwDgtNQQ5YXFAQTS0LVwQd","queueTime":0,"applicationTime":629,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="megacurioso, mega, curioso, curiosidades, noticias, bizarro, ciencia, misterios, polemica, invencoes, papo, bar, infografico, noticia, noticias">
+    <meta name="description" content="Mega Curioso - As curiosidades mais interessantes estão aqui">
+    <meta name="p:domain_verify" content="ef8ecce608c68b4836dd844db02df403" />
+    <title>Mega Curioso - As curiosidades mais interessantes estão aqui</title>
+    <link rel="search" type="application/opensearchdescription+xml" title="Mega Curioso" href="http://www.megacurioso.com.br/opensearch.xml">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0 - Novidades do Mega Curioso" href="http://rss.megacurioso.com.br/feed">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="http://imgnzn-a.akamaized.net/megacurioso/favicon.ico" />
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/aaecjanljgkcmjlnanfcibpcckloncba">
+
+
+        <link href="ios-app://866586113/megacurioso/" rel="alternate" />
+
+
+    
+
+
+<meta property="og:title" content="Mega Curioso - As curiosidades mais interessantes est&#227;o aqui" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.megacurioso.com.br/" />
+<meta property="og:image" itemprop="image" content="http://img.ibxk.com.br/2017/03/27/27195339314267.jpg?w=600" />
+<meta property="og:site_name" content="MegaCurioso - As curiosidades mais interessantes est&#227;o aqui" />
+<meta property="og:description" content="Pegando onda em Piha Beach, na Nova Zel&#226;ndia " />
+<meta property="og:locale" content="pt_BR">
+<meta property="fb:app_id" content="388348837923180" />
+<meta property="fb:admins" content="valdbaixaki" />
+<link rel="canonical" href="http://www.megacurioso.com.br/" />
+<link rel="image_src" href="http://img.ibxk.com.br/2017/03/27/27195339314267.jpg">
+
+    
+    <meta name="fragment" content="!">
+
+
+    <meta name="Robots" content="INDEX,FOLLOW">
+    <meta name="RESOURCE-TYPE" content="DOCUMENT">
+    <meta name="DISTRIBUTION" content="GLOBAL">
+    <meta name="AUTHOR" content="MegaCurioso">
+    <meta name="COPYRIGHT" content="Copyright (c) Grupo NZN">
+    <meta name="language" content="pt-br">
+    <meta name="RATING" content="GENERAL">
+    <!-- end / meta tags -->
+
+    <!-- styles -->
+        <link rel="stylesheet" href="http://obj.ibxk.com.br/megacurioso/assets/css/megacurioso-common.20170320161258.css" type="text/css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    
+    <link href="http://obj.ibxk.com.br/megacurioso/assets/css/megacurioso-home.20170320161259.css" rel="stylesheet" />
+
+    <!-- / styles -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+
+    
+
+<!-- TABOOLA -->
+<script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({article:'auto'});
+        !function (e, f, u) {
+            e.async = 1;
+            e.src = u;
+            f.parentNode.insertBefore(e, f);
+        }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/gruponzn-megacurioso/loader.js');
+</script>
+<script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
+
+    
+    
+<!-- navegg -->
+<script id="navegg" type="text/javascript" src="//tag.navdmp.com/tm13767.js"></script>
+<!-- end /navegg --><!-- analytics -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-144680-19']);
+    _gaq.push(['_trackPageview']);
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+<!-- end / analytics -->
+
+
+<!-- Ads -->
+    <script type="text/javascript">
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        //(function () {
+        //    var gads = document.createElement('script');
+        //    gads.async = true;
+        //    gads.type = 'text/javascript';
+        //    var useSSL = 'https:' == document.location.protocol;
+        //    gads.src = (useSSL ? 'https:' : 'http:') +
+        //    '//www.googletagservices.com/tag/js/gpt.js';
+        //    var node = document.getElementsByTagName('script')[0];
+        //    node.parentNode.insertBefore(gads, node);
+        //})();
+    </script>
+
+<!-- end / Ads --><!-- Admotion  -->
+<script type="text/javascript">
+        var nvgParameters = {},
+            nvgSegment = new Array('gender', 'age', 'education', 'interest', 'product', 'marital', 'income', 'cluster', 'product', 'career', 'brand', 'connection', 'decive', 'os');
+        for (i = 0; i < nvgSegment.length; i++) {
+            if (nvgGetSegment(nvgSegment[i]) != '') {
+                if (nvgSegment[i] == 'interest' || nvgSegment[i] == 'product') nvgParameters['d_nvg_' + nvgSegment[i]] = nvgGetSegment(nvgSegment[i]).replace(/-/g, '|');
+                else nvgParameters['d_nvg_' + nvgSegment[i]] = nvgGetSegment(nvgSegment[i]);
+            }
+        }
+</script><!-- TailTarget Tag Manager TT-10709-3/CT-239 -->
+<script>
+        (function(i) {
+            var ts = document.createElement('script');
+            ts.type = 'text/javascript';
+            ts.async = true;
+            ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ts, s);
+        })('TT-10709-3/CT-239');
+</script>
+<!-- End TailTarget Tag Manager -->
+<!-- Inicio da tag TT de segmencatao -->
+<script id="tailtarget">
+        // <![CDATA[
+        var _ttprofiles = _ttprofiles || [];
+        _ttprofiles.profiles = [];
+        _ttprofiles.push(['_enableServices']);
+        document.write("<scr" + "ipt src='" + ("https:" == document.location.protocol ?
+        	"https:" : "http:") + "//d.tailtarget.com/profiles.js'></scr" + "ipt>");
+        // ]]>
+</script><!-- Final da tag TT de segmentacao --><link rel="dns-prefetch" href="//ads.rubiconproject.com/">
+<link rel="dns-prefetch" href="//optimized-by.rubiconproject.com/">
+<!-- Rubicon -->
+<script type="text/javascript">
+    var rubicontag = rubicontag || {};
+    rubicontag.cmd = rubicontag.cmd || [];
+    var gptadslots = [];
+</script>
+<script type="text/javascript" src="//ads.rubiconproject.com/header/14126.js"></script>
+
+    
+    <script>
+        var gptran = false;
+        var gptrun = function (){
+            if(gptran){
+                return;
+            }
+
+            gptran = true;
+
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+
+            var useSSL = 'https:' === document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        };
+        rubicontag.cmd.push(function(){
+            rubicontag.defineSlot('/36373682/mgc/home/leaderboard', [[728, 90], [970, 250]], 'div-gpt-ad-1425497723320-0').setPosition('atf').setFPI('adunit', '/mgc/home/leaderboard').setFPI('position', "ATF");
+            rubicontag.defineSlot('/36373682/mgc/home/leaderboard_bottom', [[728, 90]], 'div-gpt-ad-1425497723320-1').setPosition('btf').setFPI('adunit', '/mgc/home/leaderboard_bottom').setFPI('position', "BTF");
+            rubicontag.defineSlot('/36373682/mgc/home/square', [[300, 250]], 'div-gpt-ad-1425497723320-5').setPosition('atf').setFPI('adunit', '/mgc/home/square').setFPI('position', "ATF");
+
+            rubicontag.setFPV("tt_Age",_ttprofiles.getAge);
+            rubicontag.setFPV("tt_Gender",_ttprofiles.getGender);
+            rubicontag.setFPV("tt_LifeSty",_ttprofiles.getProfiles);
+            rubicontag.setFPV("tt_Intere",_ttprofiles.getSubjects);
+            rubicontag.setFPV("tt_TimeFut",_ttprofiles.getTeam);
+            rubicontag.setFPV("tt_SubSegs",_ttprofiles.getMicrosegments);
+            rubicontag.setFPV("tt_Renda",_ttprofiles.getSocialClass);
+            rubicontag.setFPV('tt_CustomAudience', _ttprofiles.getCustomAudience);
+
+            rubicontag.run(gptrun);
+        });
+
+        googletag.cmd.push(function () {
+            gptadslots[0] = googletag.defineSlot('/36373682/mgc/home/leaderboard', [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1425497723320-0').addService(googletag.pubads());
+            gptadslots[1] = googletag.defineSlot('/36373682/mgc/home/leaderboard_bottom', [[728, 90], [970, 90]], 'div-gpt-ad-1425497723320-1').addService(googletag.pubads());
+            gptadslots[2] = googletag.defineSlot('/36373682/mgc/home/selo', [[315, 90], [480, 90], [970, 90]], 'div-gpt-ad-1425497723320-2').addService(googletag.pubads());
+            gptadslots[3] = googletag.defineSlot('/36373682/mgc/home/selo-2', [[315, 90], [480, 90]], 'div-gpt-ad-1425497723320-3').addService(googletag.pubads());
+            gptadslots[4] = googletag.defineSlot('/36373682/mgc/home/selo-3', [315, 90], 'div-gpt-ad-1425497723320-4').addService(googletag.pubads());
+            gptadslots[5] = googletag.defineSlot('/36373682/mgc/home/square', [[300, 250], [366, 280]], 'div-gpt-ad-1425497723320-5').addService(googletag.pubads());
+            gptadslots[6] = googletag.defineSlot('/1010728/mgc_home_intervencao', [[800, 500]], 'ads-intervencao').addService(googletag.pubads());
+            gptadslots[7] = googletag.defineSlot('/1010728/mgc_home_background', [[1, 1], [1920, 1080]], 'ads_background').addService(googletag.pubads());
+
+            for(var i = 0; i < gptadslots.length; i++){
+                rubicontag && rubicontag.setTargetingForGPTSlot && rubicontag.setTargetingForGPTSlot(gptadslots[i]);
+            }
+
+            googletag.pubads().setTargeting("referer", [document.location.href]);
+
+                googletag.pubads().enableAsyncRendering();
+            googletag.pubads().enableSingleRequest();
+
+            googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+                var patt = /_interstitial|intervencao/;
+                var domId = event.slot.getSlotId().getDomId()
+
+                if (!patt.test(domId)){
+                    var content = document.getElementById(domId);
+                    /*var dimensions = [0, 0];
+
+                    for (var i = 0; i < event.slot.w.length; i++) {
+                        console.info('width: '.event.slot.w[i].b, 'height:', event.slot.w[i].a)
+                        if (event.slot.w[i].b > dimensions[0]) {
+                            dimensions = [event.slot.w[i].b, event.slot.w[i].a];
+                        }
+                    }
+                    content.style.width = dimensions[0] + "px";
+                    content.style.height = dimensions[1] + "px";*/
+
+                    if(event.size) {
+                        content.style.width = event.size[0] + "px";
+                        content.style.height = event.size[1] + "px";
+                    }
+
+                    //if(event.slot.getAdUnitPath() === '/1010728/mgc_home_background')
+                    //{console.log('/1010728/mgc_home_background esta vazia? ' + event.isEmpty);}
+
+                    //se for bg e não estiver vazio, adiciona a classe no body
+                    //if (event.slot.getAdUnitPath() === '/1010728/mgc_home_background' && !event.isEmpty) {
+                    //    var body = document.getElementsByTagName("body")[0];
+                    //    body.setAttribute("class", body.getAttribute("class") + " nzn-ads-custombg");
+                    //}
+
+                    var intervalCarousel = setInterval(function(){
+                        if($('body.nzn-ads-custombg').length > 0)
+                        {
+                            NZN.Tools.createCarouselTV();
+                            clearInterval(intervalCarousel);
+                        }
+
+                    }, 100);
+                }
+            });
+
+            try { nvg13767.dfpnvg(); } catch (e) { }; // navegg
+            var _ttprofiles = window._ttprofiles || [];
+            window.googletag.pubads().setTargeting("tt_Age",_ttprofiles.getAge);
+            window.googletag.pubads().setTargeting("tt_Gender",_ttprofiles.getGender);
+            window.googletag.pubads().setTargeting("tt_LifeSty",_ttprofiles.getProfiles);
+            window.googletag.pubads().setTargeting("tt_Intere",_ttprofiles.getSubjects);
+            window.googletag.pubads().setTargeting("tt_TimeFut",_ttprofiles.getTeam);
+            window.googletag.pubads().setTargeting("tt_SubSegs",_ttprofiles.getMicrosegments);
+            window.googletag.pubads().setTargeting("tt_Renda",_ttprofiles.getSocialClass);
+            window.googletag.pubads().setTargeting('tt_CustomAudience', _ttprofiles.getCustomAudience);
+            googletag.enableServices();
+
+        });
+
+        setTimeout(gptrun, 2000);
+    </script>
+
+  
+</head>
+<body>
+
+    
+
+<!-- header -->
+<header id="nzn-js-navbar" class="navbar">
+
+    
+
+    <div class="navbar-content-wrapper">
+        <div class="navbar-content">
+
+            <div class="navbar-left">
+                <!-- search -->
+<div class="navbar-search navbar-item" id="nzn-js-search" itemscope itemtype="http://schema.org/WebSite">
+    <meta itemprop="url" content="http://www.megacurioso.com.br/" />
+    <form id="nzn-js-search-form" class="nzn-search-form" action="//megacurioso.com.br/busca" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+        <meta itemprop="target" content="http://www.megacurioso.com.br/busca?q={q}" />
+        <input id="nzn-js-search-input" name="q" class="search-input" placeholder="Buscar" type="search" itemprop="query-input" required />
+        <button id="nzn-js-search-submit" class="search-submit" type="submit" disabled><i class="icon icon-search"></i></button>
+    </form>
+</div>
+<!-- end / search -->
+            </div>
+
+            <div class="navbar-right">
+
+                <!-- menu toggle -->
+                <div class="menu-toggle navbar-item">
+                    <div id="menu-trigger" class="navbar-button"><i class="icon icon-bars"></i></div>
+                </div>
+                <!-- / menu toggle -->
+                <!-- facebook -->
+                <div class="tooltip-toggle navbar-item" id="nzn-js-facebook-tooltip">
+                    <div class="navbar-button"><i class="icon icon-facebook-official"></i></div>
+                    <div class="tooltip">
+                        <div class="tooltip-body">
+                            <div class="tooltip-header">
+                                <i class="icon icon-facebook-official"></i>
+                            </div>
+                            <div class="tooltip-content">
+                                Curta nossa página no Facebook!
+                            </div>
+                            <div class="tooltip-footer" id="nzn-js-facebook-tooltip-footer">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / facebook -->
+                <!-- notification -->
+                <div class="tooltip-toggle navbar-item hidden" id="notifications-tooltip">
+                    <div class="navbar-button"><i class="icon icon-bell"></i></div>
+                    <div class="tooltip">
+                        <div class="tooltip-body">
+                            <div class="tooltip-header">
+                                <i class="icon icon-bell"></i>
+                            </div>
+                            <div class="tooltip-content">
+                                Seja notificado das principais novidades sobre tecnologia no TecMundo
+                            </div>
+                            <div class="tooltip-footer">
+                                <a id="alert-button" class="button disabled">Alertas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / notification -->
+                <!-- tip us -->
+                <div class="tooltip-toggle navbar-item" id="tipus-tooltip">
+                    <div class="navbar-button"><i class="icon icon-lightbulb-o"></i></div>
+                    <div class="tooltip">
+                        <div class="tooltip-body">
+                            <div class="tooltip-header">
+                                <i class="icon icon-lightbulb-o"></i>
+                            </div>
+                            <div class="tooltip-content">
+                                Tem uma dica quente? Envie sua sugestão!
+                            </div>
+                            <div class="tooltip-footer">
+                                <a href="//megacurioso.com.br/sugerir-noticia.htm" class="button">Sugerir notícia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- / tip us -->
+            </div>
+
+            <div class="navbar-center" itemscope itemtype="http://schema.org/Organization">
+
+                <!-- logo -->
+                    <!-- se for home -->
+                    <h1>
+                        <a href="http://www.megacurioso.com.br/" class="navbar-brand" title="Mega Curioso - As curiosidades mais interessantes estão aqui">
+                            <img src="http://imgnzn-a.akamaized.net//megacurioso/logo-mega@2x.png" alt="Mega Curioso" class="navbar-brand-img">
+
+                        </a>
+                    </h1>
+                <!-- / logo -->
+
+                <meta itemprop="name" content="Mega Curioso" />
+                <meta itemprop="url" content="http://www.megacurioso.com.br" />
+                
+                <meta itemprop="sameAs" content="https://www.facebook.com/megacurioso" />
+                <meta itemprop="sameAs" content="https://www.twitter.com/MegaCurioso" />
+                <meta itemprop="sameAs" content="https://plus.google.com/+MegacuriosoBr" />
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar-nav-wrapper">
+        
+
+
+    <ul class="navbar-nav">
+
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/novidades/?utm_source=homemegacurioso&utm_medium=novidades" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Novidades')" title="Novidades" class="navbar-nav-link">Novidades</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/mais-lidas/?utm_source=homemegacurioso&utm_medium=maislidas" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Mais lidas')" title="Mais Lidas" class="navbar-nav-link">Mais Lidas</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/bizarro/?utm_source=homemegacurioso&utm_medium=bizarro" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Bizarro')" title="Bizarro" class="navbar-nav-link">Bizarro</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/memes-e-virais/?utm_source=homemegacurioso&utm_medium=memesevirais" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Memes e Virais')" title="Memes e Virais" class="navbar-nav-link">Memes e Virais</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/humor/?utm_source=homemegacurioso&utm_medium=humor" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Humor')" title="Humor" class="navbar-nav-link">Humor</a>
+
+        </li>
+
+        <li class="navbar-nav-item">
+
+            <span title="Assuntos" class="navbar-nav-link">Mais Assuntos</span>
+
+            <!-- assuntos -->
+            <div class="navbar-subnav-wrapper">
+
+                <div class="navbar-subnav-content">
+                    <ul class="navbar-subnav">
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/comportamento/?utm_source=homemegacurioso&utm_medium=comportamento" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Comportamento')" title="Comportamento" class="navbar-subnav-link">Comportamento</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/corpo-humano/?utm_source=homemegacurioso&utm_medium=corpohumano" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Corpo Humano')" title="Corpo Humano" class="navbar-subnav-link">Corpo Humano</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/polemica/?utm_source=homemegacurioso&utm_medium=polemica" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Polemica')" title="Polêmica" class="navbar-subnav-link">Polêmica</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/animais/?utm_source=homemegacurioso&utm_medium=animais" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Animais')" title="Animais" class="navbar-subnav-link">Animais</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-subnav">
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/misterios/?utm_source=homemegacurioso&utm_medium=misterios" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Misterios')" title="Mistérios" class="navbar-subnav-link">Mistérios</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/papo-de-bar/?utm_source=homemegacurioso&utm_medium=papodebar" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Papo de bar')" title="Papo de Bar" class="navbar-subnav-link">Papo de Bar</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/fotografia/?utm_source=homemegacurioso&utm_medium=fotografia" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Fotografia')" title="Fotografia" class="navbar-subnav-link">Fotografia</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/saude-e-beleza/?utm_source=homemegacurioso&utm_medium=saudeebeleza" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Saude e Beleza')" title="Saúde e Beleza" class="navbar-subnav-link">Saúde e Beleza</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- / assuntos -->
+        </li>
+    </ul>
+
+    </nav>
+
+</header>
+<!-- / header -->
+
+    <!-- body -->
+    
+
+
+
+
+
+<div id="interstitial-container" style="display:none"></div>
+
+<div id="nzn-js-container" style="visibility:hidden">
+    <div class="nzn-page-home">
+        <!-- ko ifnot: ShowMobileBanners() -->
+        <div class="nzn-ads-top">
+    <!-- Leaderboard --> 
+    <script>
+        function closeMastHead() {
+            var idbanner = document.getElementById('div-gpt-ad-1425497723320-0');
+            if (idbanner) {
+                idbanner.style.height = "90px";
+                idbanner.parentElement.style.height = "90px";
+            }
+        }
+        function openMastHead() {
+            var idbanner = document.getElementById('div-gpt-ad-1425497723320-0');
+            if (idbanner) {
+                idbanner.style.height = "250px";
+                idbanner.parentElement.style.height = "250px";
+            }
+        }
+    </script>
+
+    <div id='div-gpt-ad-1425497723320-0' class="uk-container-center uk-visible-large nzn-ads-leaderboard">
+        <script type='text/javascript'>
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-0'); });
+        </script>
+    </div>
+    <!-- /Leaderboard -->
+</div>
+        <!-- /ko-->
+        
+
+<div class="nzn-main-wrapper">
+
+    <div class="nzn-main-content">
+
+        <div data-tb-region="mega-highlights" id="carousel-tv">
+
+                <div class="nzn-main nzn-main-model3" data-vr-zone="Home Destaques">
+<a data-tb-region-item href="http://www.megacurioso.com.br/cinema/102216-confira-os-atores-que-deram-vida-a-15-personagens-de-filmes-de-terror.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Confira os atores que deram vida a 15 personagens de filmes de terror " data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/28/28163739123196-t480x560.jpg" alt="Imagem de Confira os atores que deram vida a 15 personagens de filmes de terror  no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Descubra</strong>
+        <h2>Confira os atores que deram vida a 15 personagens de filmes de terror </h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/veiculos/102217-fusca-azul-conheca-a-origem-da-brincadeira-que-gera-socos-e-tapas.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Conhe&#231;a a origem da brincadeira que gera socos e tapas" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/28/28163019592183-t480x280.jpg" alt="Imagem de Fusca azul: conhe&#231;a a origem da brincadeira que gera socos e tapas no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Fusca azul!</strong>
+        <h2>Conhe&#231;a a origem da brincadeira que gera socos e tapas</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/humor/102214-confira-o-guia-ilustrado-da-preguica-em-15-fotos-de-gente-muito-lesada.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Confira o guia ilustrado da pregui&#231;a em 15 fotos de gente muito lesada" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/28/28133429430085-t480x280.jpg" alt="Imagem de Confira o guia ilustrado da pregui&#231;a em 15 fotos de gente muito lesada no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Geniais</strong>
+        <h2>Confira o guia ilustrado da pregui&#231;a em 15 fotos de gente muito lesada</h2>
+    </div>
+</a>
+                </div>
+                <div class="nzn-main nzn-main-model3" data-vr-zone="Home Destaques">
+<a data-tb-region-item href="http://www.megacurioso.com.br/astronomia/102208-7-questoes-curiosas-e-aleatorias-relacionadas-com-o-espaco.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="7 quest&#245;es curiosas relacionadas com o espa&#231;o" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/27/27182916120245-t480x560.jpg" alt="Imagem de 7 quest&#245;es curiosas — e aleat&#243;rias — relacionadas com o espa&#231;o no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Aleatoriedades</strong>
+        <h2>7 quest&#245;es curiosas relacionadas com o espa&#231;o</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/aeronaves/75849-4-acidentes-aereos-assustadores-mas-que-tiveram-sobreviventes.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="4 acidentes a&#233;reos assustadores, mas que tiveram sobreviventes" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2015/09/24/24164517048537-t480x280.jpg" alt="Imagem de 4 acidentes a&#233;reos assustadores, mas que tiveram sobreviventes no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Tenso</strong>
+        <h2>4 acidentes a&#233;reos assustadores, mas que tiveram sobreviventes</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/arqueologia/102203-este-e-rosto-de-um-homem-que-viveu-ha-700-anos.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Este &#233; o rosto de um homem que viveu h&#225; 700 anos" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/27/27111604694063-t480x280.jpg" alt="Imagem de Este &#233; rosto de um homem que viveu h&#225; 700 anos no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Incr&#237;vel</strong>
+        <h2>Este &#233; o rosto de um homem que viveu h&#225; 700 anos</h2>
+    </div>
+</a>
+                </div>
+                <div class="nzn-main nzn-main-model3" data-vr-zone="Home Destaques">
+<a data-tb-region-item href="http://www.megacurioso.com.br/aliens/102207-13-dos-alienigenas-mais-legais-do-cinema-e-da-televisao.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="13 dos alien&#237;genas mais legais do cinema e da televis&#227;o" data-vr-contentbox="" target="_self">
+    <img src="https://img.ibxk.com.br/2017/03/28/28174233603248-t480x560.jpg" alt="Imagem de 13 dos alien&#237;genas mais legais do cinema e da televis&#227;o no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>De outro mundo</strong>
+        <h2>13 dos alien&#237;genas mais legais do cinema e da televis&#227;o</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/esportes/102202-5-curiosidades-fascinantes-sobre-o-sumo.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="5 curiosidades fascinantes sobre o sum&#244;" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/24/24203305655220-t480x280.jpg" alt="Imagem de 5 curiosidades fascinantes sobre o sum&#244; no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Peso pesado</strong>
+        <h2>5 curiosidades fascinantes sobre o sum&#244;</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/policia/43172-estes-sao-os-17-piores-retratos-falados-de-todos-os-tempos.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Estes s&#227;o os 17 piores retratos-falados de todos os tempos" data-vr-contentbox="" target="_self">
+    <img src="https://img.ibxk.com.br/2017/03/26/26101953096001-t480x280.jpg" alt="Imagem de Estes s&#227;o os 17 piores retratos-falados de todos os tempos no site Mega Curioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Procura-se</strong>
+        <h2>Estes s&#227;o os 17 piores retratos-falados de todos os tempos</h2>
+    </div>
+</a>
+                </div>
+                <div class="nzn-main nzn-main-model3" data-vr-zone="Home Destaques">
+<a data-tb-region-item href="http://www.megacurioso.com.br/historia-e-geografia/102201-mais-4-figuras-historicas-que-tocaram-o-terror-no-passado.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Mais 4 figuras hist&#243;ricas que tocaram o terror no passado" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/24/24195201648205-t480x560.jpg" alt="Imagem de Mais 4 figuras hist&#243;ricas que tocaram o terror no passado no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Malvados</strong>
+        <h2>Mais 4 figuras hist&#243;ricas que tocaram o terror no passado</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/animais-sinistros/102196-20-gatos-que-parecem-ter-feito-um-pacto-com-sata.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="20 gatos que parecem ter feito um pacto com Sat&#227;" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/24/24151210914043-t480x280.jpg" alt="Imagem de 20 gatos que parecem ter feito um pacto com Sat&#227; no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Demon&#237;acos</strong>
+        <h2>20 gatos que parecem ter feito um pacto com Sat&#227;</h2>
+    </div>
+</a>
+<a data-tb-region-item href="http://www.megacurioso.com.br/saude-e-beleza/102192-dengue-zika-e-chikungunya-aprenda-a-identificar-e-combater-essas-doencas.htm?utm_source=megacurioso.com.br&amp;utm_medium=home&amp;utm_campaign=tv" class="nzn-main-item" title="Dengue, zika e chikungunya: aprenda a identificar e combater essas doen&#231;as" data-vr-contentbox="" target="_self">
+    <img src="https://imgnzn-a.akamaized.net/2017/03/23/23190835260337-t480x280.jpg" alt="Imagem de Dengue, zika e chikungunya: aprenda a identificar e combater essas doen&#231;as no megacurioso" class="nzn-main-img">
+    <div class="nzn-main-text">
+        <strong>Conhe&#231;a os sintomas</strong>
+        <h2>Dengue, zika e chikungunya: aprenda a identificar e combater essas doen&#231;as</h2>
+    </div>
+</a>
+                </div>
+        </div>
+
+        <div class="nzn-main-button-prev nzn-main-button" id="carousel-tv-prev">
+            <i class="fa fa-angle-left"></i>
+        </div>
+
+        <div class="nzn-main-button-next nzn-main-button" id="carousel-tv-next">
+            <i class="fa fa-angle-right"></i>
+        </div>
+
+        <div class="nzn-main-pagination" id="carousel-tv-pagination"></div>
+    </div>
+</div>
+<!-- / TV -->
+
+        
+
+        <!-- ko with: Part1 -->
+        <!-- ko if: $parent.ShowMobileBanners() -->
+        <div class="nzn-ads-top">
+    <!-- ko if: $parent.ShowMobileBanners()-->
+    <!-- Banner mobile-->
+    <div style="clear:both;width:300px; height:250px; margin:0 auto;" class="uk-visible-small">
+        <div style="clear:both;width:300px; height:250px; margin:0 auto;" data-bind="html:$parent.RenderBannerMobile1()">
+
+        </div>
+    </div>
+    <!-- / Fim banner mobile-->
+    <!-- /ko -->
+
+</div>
+
+        <!-- /ko-->
+        
+
+<h2 class="nzn-mosaic-title">
+    <a href="/novidades/" title="Veja mais notícias">Últimas Novidades</a>
+</h2>
+<!-- Mosaic Novidades -->
+<div data-tb-region="mega-mosaic1" id="nzn-js-mosaic1-wrapper" class="nzn-mosaic-wrapper uk-clearfix" data-bind="with: Mosaic1">
+    <div class="nzn-mosaic nzn-mosaic-model1" itemscope itemtype="http://schema.org/ItemList">
+        <!-- ko foreach: Items -->
+        <article data-tb-region-item class="nzn-mosaic-item" itemscope itemprop="itemListElement" itemtype="http://schema.org/Article">
+            <div class="nzn-mosaic-news">
+                <a data-bind="attr: { href: Url, title: Title }">
+                    <div class="nzn-news-thumb">
+                        <img data-bind="attr: { src: Thumbnail, alt: TituloImagemDestaque }" />
+                    </div>
+                </a>
+                
+                <h3 class="nzn-news-info">
+                    <a itemprop="url" data-bind="attr: { href: Url, title: Title }, text: Title"></a>
+                </h3>
+            </div>
+        </article>
+        <!-- /ko -->
+        <!-- Ad -->
+        <div class="nzn-mosaic-item">
+            <div class="nzn-mosaic-island">
+                
+                <div id='div-gpt-ad-1425497723320-5'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-5'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+        <!-- / Ad -->
+    </div>
+</div>
+<!-- / Mosaic novidades -->
+<!--TABOOLA-->
+<div class="nzn-mosaic-wrapper uk-clearfix">
+        <div id="taboola-below-main-column-thumbnails"></div>
+    </div>
+    <script type="text/javascript">
+         window._taboola = window._taboola || [];
+        _taboola.push({
+            mode: 'thumbnails-b',
+            container: 'taboola-below-main-column-thumbnails',
+            placement: 'Below Main Column Thumbnails',
+            target_type: 'mix'
+        });
+    </script>
+<!--/TABOOLA-->
+<!-- Selos -->
+<div class="uk-container-center nzn-ads-stamp-wrapper uk-visible-large">
+    
+    <div class="nzn-ads-stamp">
+        <!-- mgc/home/selo -->
+        <div id='div-gpt-ad-1425497723320-2'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-2'); });
+            </script>
+        </div>
+    </div>
+
+    <div class="nzn-ads-stamp">
+        <!-- mgc/home/selo-2 -->
+        <div id='div-gpt-ad-1425497723320-3'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-3'); });
+            </script>
+        </div>
+    </div>
+
+    <div class="nzn-ads-stamp">
+        <!-- mgc/home/selo-3 -->
+        <div id='div-gpt-ad-1425497723320-4'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-4'); });
+            </script>
+        </div>
+    </div>
+</div>
+<!-- / Selos -->
+
+        
+
+        <div id="nzn-js-part1-loading" class="nzn-mosaic-wrapper uk-margin-large nzn-mosaic-loading" style="display:none"></div>
+
+        <div data-bind="loadingWrapper: { loading: Loading, isLoaded: IsLoaded, error: Error, statusElement: '#nzn-js-part1-loading', showError: ShowError }" style="visibility:hidden">
+            <!-- Top views -->
+<div id="nzn-js-topviews-wrapper" class="nzn-intervention-wrapper" data-bind="with: TopViews">
+    <div class="nzn-intervention">
+        <h2 class="nzn-intervention-title">
+            <a href="/mais-lidas/" title="Ver todas mais lidas">Mais Lidas</a>
+        </h2>
+
+        <ul class="uk-subnav uk-subnav-pill">
+            <li data-bind="tapOrClick: LoadToday, css: TodayCss"><a href="#">Hoje</a></li>
+            <li data-bind="tapOrClick: LoadWeek, css: WeekCss"><a href="#">Semana</a></li>
+            <li data-bind="tapOrClick: LoadMonth, css: MonthCss"><a href="#">Mês</a></li>
+            <li class="nzn-tabs-loading" data-bind="visible: Loading"><i class="fa fa-spinner fa fa-spin"></i>&nbsp;Carregando...</li>
+        </ul>
+
+        <div data-tb-region="mega-mais-lidas" class="nzn-carousel-wrapper uk-clearfix">
+            <ol class="nzn-carousel uk-list" id="carousel-top" data-bind="template: { foreach: Items, afterAdd: $root.AfterAddNews }">
+                <li>
+                    <div data-tb-region-item class="nzn-carousel-news">
+                        <a data-bind="attr: { href: Url, title: Title }" class="nzn-news-thumb">
+                            <img data-bind="attr: { src: Thumbnail, alt: TituloImagemDestaque }" />
+                        </a>
+                        <a data-bind="attr: { href: Url, title: Title }" class="nzn-news-info">
+                            <span class="nzn-news-num" data-bind="text: $index() + 1"></span>
+                            <span class="nzn-news-title" data-bind="text: Title"></span>
+                        </a>
+                        
+                    </div>
+
+                </li>
+            </ol>
+
+            <a href="#" class="nzn-carousel-prev" id="carousel-top-prev"><i class="fa fa-angle-left"></i></a>
+            <a href="#" class="nzn-carousel-next" id="carousel-top-next"><i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <a href="/mais-lidas/" title="Ver todas mais lidas" class="nzn-button-more">ver <strong>todas</strong> mais lidas</a>
+    </div>
+</div>
+<!-- / Top views -->
+        </div>
+        <!-- /ko -->
+
+        <span id="nzn-js-part2-start"></span>
+
+        <!-- ko with: Part2 -->
+        <div id="nzn-js-part2-loading" class="nzn-mosaic-wrapper uk-margin-large nzn-mosaic-loading" style="display:none"></div>
+
+        <div data-bind="loadingWrapper: { loading: Loading, isLoaded: IsLoaded, error: Error, statusElement: '#nzn-js-part2-loading', showError: ShowError }" style="visibility:hidden">
+            <!-- Mosaic 2 -->
+<div data-tb-region="mega-mosaic2" id="nzn-js-mosaic2-wrapper" class="nzn-mosaic-wrapper uk-clearfix" data-bind="with: Mosaic2">
+    <div class="nzn-mosaic nzn-mosaic-full" data-bind="foreach: Items" itemscope itemtype="http://schema.org/ItemList">
+        <article data-tb-region-item class="nzn-mosaic-item" itemscope itemprop="itemListElement" itemtype="http://schema.org/Article">
+            <div class="nzn-mosaic-news">
+                <a data-bind="attr: { href: Url, title: Title }">
+                    <div class="nzn-news-thumb">
+                        <img data-bind="attr: { src: Thumbnail, alt: TituloImagemDestaque }" />
+                    </div>
+                </a>
+                
+                <h3 class="nzn-news-info">
+                    <a itemprop="url" data-bind="attr: { href: Url, title: Title }, text: Title"></a>
+                </h3>
+            </div>
+        </article>
+    </div>
+</div>
+<!-- / Mosaic 2 -->
+
+            <div class="nzn-ads-shopping">
+                    
+
+
+<div data-bind="shopping: { tag: 'nzn_megacurioso_home_1040x280' }"></div>
+
+
+
+            </div>
+
+            <!-- ko if: $parent.ShowMobileBanners()-->
+            <!-- Banner mobile-->
+            <div style="clear:both;width:300px; height:250px; margin:0 auto;" data-bind="html:$parent.RenderBannerMobile2()">
+            </div>
+            <!-- / Fim banner mobile-->
+            <!-- /ko -->
+            <!-- ko with: DailyImage -->
+            <div class="nzn-intervention-wrapper">
+    <div class="nzn-intervention">
+        <h2 class="nzn-intervention-title"><span>Imagem do Dia</span></h2>
+        <div class="nzn-daily-image">
+            <div id="js-home-daily-image" data-bind="template: { foreach: Items, afterAdd: $root.AfterAddNews }">
+                <div class="nzn-daily-image-container">
+                    <div class="nzn-daily-image-content">
+                        <figure>
+                            <img data-bind="attr:{ src: Image, alt: TituloImagemDestaque }">
+                            <figcaption class="uk-clearfix">
+                                <span class="nzn-daily-image-caption" data-bind="text: Title"></span>
+                                <span class="nzn-daily-image-source">Fonte da imagem: <a data-bind="attr:{ href: SourceUrl }, text: SourceTitle" target="_blank"></a></span>
+                            </figcaption>
+                        </figure>
+                        <div class="uk-float-right nzn-home-share uk-hidden-small">
+                            <ul class="uk-clearfix">
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-facebook-official" data-bind="tapOrClick: FacebookShare" title="Compartilhar"></span>
+                                </li>
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-twitter" data-bind="tapOrClick: TwitterShare" title="Twittar"></span>
+                                </li>
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-google-plus" data-bind="tapOrClick: GooglePlusShare" title="Recomendar"></span>
+                                </li>
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-pinterest" data-bind="tapOrClick: PinterestShare" title="Pin"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <a class="nzn-daily-image-prev"><i class="fa fa-angle-left"></i></a>
+            <a class="nzn-daily-image-next"><i class="fa fa-angle-right"></i></a>
+
+        </div>
+
+    </div>
+   
+</div>
+
+
+            <!-- /ko -->
+        </div>
+        <!-- /ko -->
+
+        <span id="nzn-js-part3-start"></span>
+
+        <!-- ko with: Part3 -->
+        <div id="nzn-js-part3-loading" class="nzn-mosaic-wrapper uk-margin-large nzn-mosaic-loading" style="display:none"></div>
+
+        <div data-bind="loadingWrapper: { loading: Loading, isLoaded: IsLoaded, error: Error, statusElement: '#nzn-js-part3-loading', showError: ShowError }" style="visibility:hidden">
+            <!-- Mosaic 3 -->
+<div data-tb-region="mega-mosaic3" id="nzn-js-mosaic3-wrapper" class="nzn-mosaic-wrapper uk-clearfix">
+    <div class="nzn-mosaic nzn-mosaic-full" itemscope itemtype="http://schema.org/ItemList">
+        <!-- ko with: Mosaic3 -->
+        <!-- ko foreach: Items-->
+        <article data-tb-region-item class="nzn-mosaic-item" itemscope itemprop="itemListElement" itemtype="http://schema.org/Article">
+            <div class="nzn-mosaic-news">
+                <a data-bind="attr: { href: Url, title: Title }">
+                    <div class="nzn-news-thumb">
+                        <img data-bind="attr: { src: Thumbnail, alt: TituloImagemDestaque }" />
+                    </div>
+                </a>
+                
+                <h3 class="nzn-news-info">
+                    <a data-bind="attr: { href: Url, title: Title }, text: Title"></a>
+                </h3>
+            </div>
+        </article>
+        <!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div>
+<!-- / Mosaic 3 -->
+
+            <div class="nzn-intervention-wrapper" data-bind="with: DailyCuriosity">
+    <div class="nzn-intervention nzn-daily-curiosity">
+        <h2 class="nzn-intervention-title"><span>Curiosidade do Dia</span></h2>
+        
+        <div class="nzn-curiosity-text">
+            <ul id="nzn-js-curiosity" data-bind="template: { foreach: Items, afterAdd: $root.AfterAddNews }">
+                <li>
+                    <div class="nzn-curiosity-container uk-text-center">
+                        <p data-bind="html: Title"></p>
+                        <div class="nzn-home-share uk-margin-top">
+                            <ul class="uk-clearfix">
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-facebook-official" data-bind="tapOrClick: FacebookShare" title="Compartilhar"></span>
+                                </li>
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-twitter" data-bind="tapOrClick: TwitterShare" title="Twittar"></span>
+                                </li>
+                                <li>
+                                    <span class="uk-icon-button nzn-button-social fa fa-google-plus" data-bind="tapOrClick: GooglePlusShare" title="Recomendar"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a class="nzn-curiosity-prev"><i class="fa fa-angle-left"></i></a>
+            <a class="nzn-curiosity-next"><i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+</div>
+        </div>
+        <!-- /ko -->
+        <!-- Infinite Mosaic -->
+<!-- ko with: InfiniteScroll -->
+<div class="nzn-mosaic-infinite">
+    <!-- ko foreach: Mosaics -->
+    <div data-tb-region="mega-infinite-scroll" class="nzn-mosaic-wrapper uk-clearfix" data-bind="loadingWrapper: { loading: Loading, isLoaded: Ready, error: Error, statusElement: '#nzn-js-infinite-scroll-loading', showError: true }" style="visibility:hidden">
+        <div class="nzn-mosaic nzn-mosaic-full" data-bind="foreach: Items" itemscope itemtype="http://schema.org/ItemList">
+            <article data-tb-region-item class="nzn-mosaic-item" itemscope itemprop="itemListElement" itemtype="http://schema.org/Article">
+                <div class="nzn-mosaic-news">
+                    <a data-bind="attr: { href: Url, title: Title }">
+                        <div class="nzn-news-thumb">
+                            <img data-bind="attr: { src: Thumbnail, alt: TituloImagemDestaque }" />
+                        </div>
+                    </a>
+                    
+                    <h3 class="nzn-news-info">
+                        <a itemprop="url" data-bind="attr: { href: Url, title: Title }, text: Title"></a>
+                    </h3>
+                </div>
+            </article>
+        </div>
+    </div>
+    <!-- /ko -->
+
+    <div id="nzn-js-infinite-scroll-loading" class="nzn-mosaic-wrapper uk-margin-large nzn-mosaic-loading" style="display:none"></div>
+
+    <!-- ko if: MosaicsLimitExceeded -->
+    <div class="nzn-mosaic-wrapper uk-clearfix">
+        <a href="/novidades/?utm_source=tecmundo.com.com.br&utm_medium=home&utm_campaign=btnvermaisnovidades" class="uk-button uk-button-large uk-width-1-1 uk-button-primary nzn-mosaic-button-more">Ver mais novidades</a>
+    </div>
+    <!-- /ko -->
+</div>
+<!-- /ko -->
+
+<span id="nzn-js-infinite-scroll-start"></span>
+<!-- / Infinite Mosaic -->
+
+
+        <div class="nzn-ads-footer">
+
+    
+
+    <!-- ko ifnot: ShowMobileBanners()-->
+    <!-- Leaderboard Bottom -->
+    
+    <div id="div-gpt-ad-1425497723320-1" class="uk-container-center uk-visible-large nzn-ads-leaderboard">
+        <script type='text/javascript'>
+            var windowsPhone = /(Windows Phone|Windows CE|Xbox)/g.test(navigator.userAgent);
+            if (!windowsPhone) {
+                googletag.cmd.push(function () { googletag.display('div-gpt-ad-1425497723320-1'); });
+            }
+        </script>
+    </div>
+    <!-- /Leaderboard Bottom -->
+    <!-- /ko -->
+
+</div>
+
+        <!-- Apps-Social -->
+<div class="uk-container uk-container-center">
+    <div id="nzn-js-social-wrapper" class="nzn-social-wrapper">
+
+        <div class="uk-grid">
+
+            <!-- facebook -->
+            <div class="uk-width-1-5">
+                <div class="nzn-social-box nzn-social-fb">
+                    <p>Curta o MegaCurioso no <strong>Facebook</strong></p>
+                    <div class="nzn-social-button">
+                        <div class="fb-like" data-href="https://www.facebook.com/megacurioso" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false" data-height="24"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- google plus -->
+            <div class="uk-width-1-5">
+                <div class="nzn-social-box nzn-social-gplus">
+                    <p>Siga o MegaCurioso no <strong>Google+</strong></p>
+                    <div class="nzn-social-button">
+                        <div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/+MegacuriosoBr/" data-rel="publisher"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- youtube -->
+            <div class="uk-width-1-5">
+                <div class="nzn-social-box nzn-social-yt">
+                    <p>Confira nosso canal no <strong>YouTube</strong></p>
+                    <div class="nzn-social-button">
+                        <div class="g-ytsubscribe" data-channel="canalmegacurioso" data-layout="default" data-count="default"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- pinterest -->
+            <div class="uk-width-1-5">
+                <div class="nzn-social-box nzn-social-pt">
+                    <p>Siga o MegaCurioso no <strong>Pinterest</strong></p>
+                    <div class="nzn-social-button">
+                        <a data-pin-do="buttonFollow" href="https://www.pinterest.com/megacurioso/">Mega Curioso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- instagram -->
+            <div class="uk-width-1-5">
+                <div class="nzn-social-box nzn-social-ig">
+                    <p>Siga o MegaCurioso no <strong>Instagram</strong></p>
+                    <div class="nzn-social-button">
+                        <a href="https://instagram.com/megacurioso/" target="_blank">
+                            <i class="icon icon-instagram"></i>
+                            Siga-nos
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+<!-- / Apps-Social -->
+
+        
+
+
+
+
+
+<!-- footer -->
+<footer class="footer">
+
+    <div class="footer-row">
+        <div class="footer-content footer-about">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="http://www.megacurioso.com.br/institucional/34835-sobre-o-mega-curioso.htm"
+                       class="footer-link"
+                       title="Descubra mais sobre o Mega Curioso">Sobre o site</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.megacurioso.com.br/institucional/34834-politica-de-privacidade.htm"
+                       class="footer-link"
+                       title="Consulte nossos termos e políticas">Política de Privacidade</a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://www.facebook.com/megacurioso"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Acesse a nossa página no Facebook"><i class="icon icon-facebook-official"></i>Facebook</a>
+                </li>
+                <li class="footer-item">
+                    <a href="https://plus.google.com/+MegacuriosoBr"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Acesse a nossa página no Google+"><i class="icon icon-google-plus"></i>Google+</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://rss.megacurioso.com.br/feed"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Fique por dentro das novidades do Mega Curioso através do nosso Feed RSS"><i class="icon icon-rss"></i>RSS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-row">
+        <div class="footer-content footer-group">
+            <a href="http://nzn.io/" target="_NEW" title="NZN">
+                <img src="https://objnzn-a.akamaized.net/layout/megacurioso/nzn-logo-new.png" width="105" height="40" />
+            </a>
+
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="http://www.baixaki.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Download de jogos, programas, papéis de parede, aplicativos e mais.">Baixaki Downloads</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.clickjogos.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Jogos online grátis no Click Jogos">Click Jogos</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.tecmundo.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Descubra e aprenda tudo sobre tecnologia">TecMundo</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://games.tecmundo.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Tudo sobre jogos e video games">TecMundo Games</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.superdownloads.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Download de jogos, programas, softwares, antivirus, aplicativos grátis em Windows">Superdownloads</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.megacurioso.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="As curiosidades mais interessantes estão aqui">Mega Curioso</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.minhaserie.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Encontre tudo sobre seriados de televisão">Minha Série</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.emresumo.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="A informação rápida e descomplicada">Em Resumo</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.jogosdemeninas.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Jogos online grátis no Jogos de Meninas">Jogos de Meninas</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.joguinhos.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Jogos online grátis no Joguinhos">Joguinhos</a>
+                </li>
+                
+                <li class="footer-item">
+                    <a href="http://www.rexposta.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Confira os posts mais recentes no Rexposta">Rexposta</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.quizpop.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Comece o quiz e descubra quão bom e quem você é de verdade">QuizPop</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://www.naoentreaki.com.br"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Não entre aki, ou entre por sua conta e risco">Não Entre Aki</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-row">
+        <div class="footer-content footer-copy">
+            <ul class="footer-list">
+                <li class="footer-item">
+                    <a href="http://media.nzn.io/empresa"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Sobre o Grupo NZN">Sobre a NZN</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://media.nzn.io/anuncie"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Anuncie aqui">Anuncie</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://media.nzn.io/contato"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Entre em contato conosco">Contato</a>
+                </li>
+                <li class="footer-item">
+                    <a href="http://media.nzn.io/trabalhe-conosco"
+                       target="_NEW"
+                       class="footer-link"
+                       title="Trabalhe conosco">Trabalhe</a>
+                </li>
+            </ul>
+            <span class="footer-text">&copy; Copyright 2017 -  No Zebra Network LTDA, todos os direitos reservados.</span>
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        window._taboola = window._taboola || [];
+
+        _taboola.push({ flush: true });
+
+    </script>
+</footer>
+<!-- / footer -->
+
+        <!-- ko if: ShowIntervantion() -->
+        
+        <div id='ads-intervencao'>
+            <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('ads-intervencao'); });
+            </script>
+        </div>
+        <!-- /ko -->
+        <!-- mgc_home_background -->
+        <div id='ads_background' class="nzn-ads-background">
+            <script type='text/javascript'>
+                googletag.cmd.push(function() { googletag.display('ads_background'); });
+            </script>
+        </div>
+    </div>
+</div>
+
+
+    <!-- end / body -->
+    <!-- modal app -->
+<div id="js-nzn-modal-app-wrapper" class="modal-wrapper">
+
+    <div class="modal modal-app">
+
+        <a href="javascript:void(0);" class="js-modal-app-close modal-close">
+            <i class="icon icon-close"></i>
+        </a>
+
+        <!-- image -->
+        <div class="nzn-modal-app-image">
+            <a href="javascript:void(0);" class="js-modal-app-close nzn-modal-app-close"></a>
+            <img src="https://objnzn-a.akamaized.net/layout/megacurioso/bg-apps.png" alt="App do MegaCurioso" />
+        </div>
+        <!-- / image -->
+
+        <div class="modal-app-content">
+
+            <!-- title -->
+            <h3 class="modal-app-title">App TecMundo</h3>
+            <!-- / title -->
+            <!-- description -->
+            <p class="modal-app-description">
+                Leve as principais curiosidades no seu bolso e compartilhe as matérias mais interessantes com os amigos!
+            </p>
+            <!-- / description -->
+            <!-- rating -->
+            <div class="modal-app-rating">
+                <i class="icon icon-star fa-lg"></i>
+                <i class="icon icon-star fa-lg"></i>
+                <i class="icon icon-star fa-lg"></i>
+                <i class="icon icon-star fa-lg"></i>
+                <i class="icon icon-star-half-o fa-lg"></i>
+                <span class="modal-app-rating-number">+4.5 mil avaliações</span>
+            </div>
+            <!-- / rating -->
+            <!-- download -->
+            <a href="http://www.megacurioso.com.br" id="js-nzn-modal-app-download" class="modal-app-btn button">
+                <i class="icon icon-lg"></i> Instalar Agora
+            </a>
+            <!-- / download -->
+            <!-- site mobile -->
+            <a class="js-modal-app-close modal-app-link" href="javascript:void(0);">(continuar para o site )</a>
+            <!-- / site mobile -->
+        </div>
+
+    </div>
+
+</div>
+<!-- / modal app -->
+
+    <!-- overlay -->
+    <div class="overlay-mask"></div>
+    <!-- end / overlay -->
+    
+<!-- menu offcanvas -->
+<menu class="menu">
+    
+
+
+    <ul class="navbar-nav">
+
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/novidades/?utm_source=homemegacurioso&utm_medium=novidades" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Novidades')" title="Novidades" class="navbar-nav-link">Novidades</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/mais-lidas/?utm_source=homemegacurioso&utm_medium=maislidas" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Mais lidas')" title="Mais Lidas" class="navbar-nav-link">Mais Lidas</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/bizarro/?utm_source=homemegacurioso&utm_medium=bizarro" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Bizarro')" title="Bizarro" class="navbar-nav-link">Bizarro</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/memes-e-virais/?utm_source=homemegacurioso&utm_medium=memesevirais" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Memes e Virais')" title="Memes e Virais" class="navbar-nav-link">Memes e Virais</a>
+
+        </li>
+        <li class="navbar-nav-item">
+
+            <a href="//www.megacurioso.com.br/humor/?utm_source=homemegacurioso&utm_medium=humor" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Humor')" title="Humor" class="navbar-nav-link">Humor</a>
+
+        </li>
+
+        <li class="navbar-nav-item">
+
+            <span title="Assuntos" class="navbar-nav-link">Mais Assuntos</span>
+
+            <!-- assuntos -->
+            <div class="navbar-subnav-wrapper">
+
+                <div class="navbar-subnav-content">
+                    <ul class="navbar-subnav">
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/comportamento/?utm_source=homemegacurioso&utm_medium=comportamento" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Comportamento')" title="Comportamento" class="navbar-subnav-link">Comportamento</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/corpo-humano/?utm_source=homemegacurioso&utm_medium=corpohumano" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Corpo Humano')" title="Corpo Humano" class="navbar-subnav-link">Corpo Humano</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/polemica/?utm_source=homemegacurioso&utm_medium=polemica" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Polemica')" title="Polêmica" class="navbar-subnav-link">Polêmica</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/animais/?utm_source=homemegacurioso&utm_medium=animais" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Animais')" title="Animais" class="navbar-subnav-link">Animais</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-subnav">
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/misterios/?utm_source=homemegacurioso&utm_medium=misterios" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Misterios')" title="Mistérios" class="navbar-subnav-link">Mistérios</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/papo-de-bar/?utm_source=homemegacurioso&utm_medium=papodebar" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Papo de bar')" title="Papo de Bar" class="navbar-subnav-link">Papo de Bar</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/fotografia/?utm_source=homemegacurioso&utm_medium=fotografia" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Fotografia')" title="Fotografia" class="navbar-subnav-link">Fotografia</a>
+                        </li>
+                        <li class="navbar-subnav-item">
+                            <a href="//www.megacurioso.com.br/saude-e-beleza/?utm_source=homemegacurioso&utm_medium=saudeebeleza" onclick="NZN.Analytics.trackEvent('Header', 'Menu', 'Click Assuntos-Saude e Beleza')" title="Saúde e Beleza" class="navbar-subnav-link">Saúde e Beleza</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- / assuntos -->
+        </li>
+    </ul>
+
+</menu>
+<!-- end / menu offcanvas -->
+
+
+    <div id="modal-background"></div>
+
+    <div id="fb-root"></div>
+
+    <!-- js -->
+    <script>
+        window.FACEBOOK_ID = '388348837923180';
+        window.FACEBOOK_ACCESS_TOKEN = '388348837923180|M2EbGiHaeihuzGE625qYBdDQZA4';
+        window._lorem = 'TyBxdWUgc2VyaWEgZG8gaG9tZW0gc2VtIGEgZmVsaWNpZGFkZT8=';
+        window._ipsum = 'http://api.megacurioso.com.br';
+        window._dolor = 'false';
+        window._sit = window._ipsum + '/api/v2';
+        window._amet = 'http://www.megacurioso.com.br/';
+        window._subdomainMulher = 'http://mulher.megacurioso.com.br/';
+        window._subdomainFikaDika = 'http://fikadika.megacurioso.com.br/';
+        window._consectetur = 10;
+        window._adipiscing = 10;
+        window.Share_Twitter = 'MegaCurioso';
+        window.DisqusStartId = '99360';
+        window._dqs = 'CNQobXcvLI69MOxbfeDkTRh4hhxNXZ8XkiWQ3PVP0H1ZcvWth0fzO8SBX4ugummX';
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min.js"></script>
+    <script src="http://obj.ibxk.com.br/megacurioso/assets/js/script.20170320161250.js"></script>
+
+    <!-- google+ -->
+<script>
+    window.___gcfg = {
+        lang: 'pt-BR'
+    };
+    (function () {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/client:plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+<!-- end / google+ -->
+<!-- facebook -->
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) { return; }
+        js = d.createElement(s);
+        js.type = 'text/javascript';
+        js.async = true;
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=" + window.FACEBOOK_ID + "&channelUrl=" + window._amet + "channel.html&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    })(document, 'script', 'facebook-jssdk');
+</script>
+<!-- end / facebook -->
+<!-- twitter -->
+<script>
+    (function (d, s, id) {
+        var js,
+            fjs = d.getElementsByTagName(s)[0],
+            p = /^http:/.test(d.location) ? 'http' : 'https';
+
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.type = 'text/javascript';
+            js.async = true;
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    })(document, 'script', 'twitter-wjs');
+</script>
+<!-- end / twitter -->
+
+<script type="text/javascript">
+    /* THE PAYLOAD IS WORKING TOO */
+    var disqus_config = function () {
+        this.page.api_key = window._dqs;
+        this.page.url = 'http://www.megacurioso.com.br/';
+    }
+</script>
+
+<!---Disqus Comments-->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'megacurioso';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!---End Disqus Comments-->
+
+    
+
+    <script id="json-script">
+        window._dailyImageJson = {"Id":35254,"Titulo":"Pegando onda em Piha Beach, na Nova Zelândia ","Chamada":"Tim Marshall","Imagem":"http://img.ibxk.com.br/2017/03/27/27195339314267.jpg","Link":"https://unsplash.com/photos/y74zvFZ5mSU","TituloImagemDestaque":""};
+        window._mosaic1Json = {"data":[{"Id":102222,"DateISO":"2017-03-28T19:16:24","Title":"Coleção de Banksy integra novo festival de arte de rua na Nova Zelândia","Chamada":"Iniciativa reunirá a mais extensa montagem das obras desse aclamado artista","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28191607256307.jpg","Url":"/turismo-e-viagens/102222-colecao-de-banksy-integra-novo-festival-de-arte-de-rua-na-nova-zelandia.htm","Views":"544","Tag":{"Url":"turismo-e-viagens","Title":"Turismo e viagens","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/turismo-e-viagens/102222-colecao-de-banksy-integra-novo-festival-de-arte-de-rua-na-nova-zelandia.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28191607256307.jpg","DescriptionOG":"Iniciativa reunirá a mais extensa montagem das obras desse aclamado artista","Canonical":"http://www.megacurioso.com.br/turismo-e-viagens/102222-colecao-de-banksy-integra-novo-festival-de-arte-de-rua-na-nova-zelandia.htm"},"TituloImagemDestaque":"Imagem de Coleção de Banksy integra novo festival de arte de rua na Nova Zelândia no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102221,"DateISO":"2017-03-28T18:32:26","Title":"Paranaense bate recorde ao criar o menor carrinho de rolimã do Brasil","Chamada":"Veículo mede 10 cm de comprimento por 9 cm de largura","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28182818204294.jpg","Url":"/recordes/102221-paranaense-bate-recorde-ao-criar-o-menor-carrinho-de-rolima-do-brasil.htm","Views":"1.785","Tag":{"Url":"recordes","Title":"Recordes","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/recordes/102221-paranaense-bate-recorde-ao-criar-o-menor-carrinho-de-rolima-do-brasil.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28182818204294.jpg","DescriptionOG":"Veículo mede 10 cm de comprimento por 9 cm de largura","Canonical":"http://www.megacurioso.com.br/recordes/102221-paranaense-bate-recorde-ao-criar-o-menor-carrinho-de-rolima-do-brasil.htm"},"TituloImagemDestaque":"Imagem de Paranaense bate recorde ao criar o menor carrinho de rolimã do Brasil no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102219,"DateISO":"2017-03-28T18:24:42","Title":"10 templos religiosos incríveis que existem pelo mundo","Chamada":"Confira uma pequena seleção de estruturas religiosas espetaculares","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28182434220290.jpg","Url":"/arquitetura-e-engenharia/102219-10-templos-religiosos-incriveis-que-existem-pelo-mundo.htm","Views":"1.472","Tag":{"Url":"arquitetura-e-engenharia","Title":"Arquitetura e Engenharia","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/arquitetura-e-engenharia/102219-10-templos-religiosos-incriveis-que-existem-pelo-mundo.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28182434220290.jpg","DescriptionOG":"Confira uma pequena seleção de estruturas religiosas espetaculares","Canonical":"http://www.megacurioso.com.br/arquitetura-e-engenharia/102219-10-templos-religiosos-incriveis-que-existem-pelo-mundo.htm"},"TituloImagemDestaque":"Imagem de 10 templos religiosos incríveis que existem pelo mundo no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102218,"DateISO":"2017-03-28T17:47:32","Title":"Carvalho polonês de 650 anos de idade é eleito a Árvore do Ano","Chamada":"Árvore salvou a vida de 2 judeus durante a Segunda Guerra Mundial e superou uma competição que tinha até uma candidata 'hollywoodiana'","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28174550088257.jpg","Url":"/plantas-e-frutas/102218-carvalho-polones-de-650-anos-de-idade-e-eleito-a-arvore-do-ano.htm","Views":"714","Tag":{"Url":"plantas-e-frutas","Title":"Plantas e Frutas","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/plantas-e-frutas/102218-carvalho-polones-de-650-anos-de-idade-e-eleito-a-arvore-do-ano.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28174550088257.jpg","DescriptionOG":"Árvore salvou a vida de 2 judeus durante a Segunda Guerra Mundial e superou uma competição que tinha até uma candidata 'hollywoodiana'","Canonical":"http://www.megacurioso.com.br/plantas-e-frutas/102218-carvalho-polones-de-650-anos-de-idade-e-eleito-a-arvore-do-ano.htm"},"TituloImagemDestaque":"Imagem de Carvalho polonês de 650 anos de idade é eleito a Árvore do Ano no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102217,"DateISO":"2017-03-28T16:40:38","Title":"Fusca azul: conheça a origem da brincadeira que gera socos e tapas","Chamada":"História teria se iniciado há mais de 1 século, mas com modelos Ford T","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28163019592183.jpg","Url":"/veiculos/102217-fusca-azul-conheca-a-origem-da-brincadeira-que-gera-socos-e-tapas.htm","Views":"18.717","Tag":{"Url":"veiculos","Title":"Veículos","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/veiculos/102217-fusca-azul-conheca-a-origem-da-brincadeira-que-gera-socos-e-tapas.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28163019592183.jpg","DescriptionOG":"História teria se iniciado há mais de 1 século, mas com modelos Ford T","Canonical":"http://www.megacurioso.com.br/veiculos/102217-fusca-azul-conheca-a-origem-da-brincadeira-que-gera-socos-e-tapas.htm"},"TituloImagemDestaque":"Imagem de Fusca azul: conheça a origem da brincadeira que gera socos e tapas no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102216,"DateISO":"2017-03-28T16:37:47","Title":"Confira os atores que deram vida a 15 personagens de filmes de terror ","Chamada":"Descubra como são os rostos das pessoas que interpretaram algumas figuras sinistras do cinema","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28163739123196.jpg","Url":"/cinema/102216-confira-os-atores-que-deram-vida-a-15-personagens-de-filmes-de-terror.htm","Views":"10.460","Tag":{"Url":"cinema","Title":"Cinema","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/cinema/102216-confira-os-atores-que-deram-vida-a-15-personagens-de-filmes-de-terror.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28163739123196.jpg","DescriptionOG":"Descubra como são os rostos das pessoas que interpretaram algumas figuras sinistras do cinema","Canonical":"http://www.megacurioso.com.br/cinema/102216-confira-os-atores-que-deram-vida-a-15-personagens-de-filmes-de-terror.htm"},"TituloImagemDestaque":"Imagem de Confira os atores que deram vida a 15 personagens de filmes de terror  no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102215,"DateISO":"2017-03-28T15:22:56","Title":"Bizarro: escada rolante muda de direção, ganha velocidade e fere 18 pessoas","Chamada":"Acidente aconteceu em Hong Kong no último sábado e foi capturado em vídeo","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28151934837115.jpg","Url":"/acidentes-estranhos/102215-bizarro-escada-rolante-muda-de-direcao-ganha-velocidade-e-fere-18-pessoas.htm","Views":"6.728","Tag":{"Url":"acidentes-estranhos","Title":"Acidentes Estranhos","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/acidentes-estranhos/102215-bizarro-escada-rolante-muda-de-direcao-ganha-velocidade-e-fere-18-pessoas.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28151934837115.jpg","DescriptionOG":"Acidente aconteceu em Hong Kong no último sábado e foi capturado em vídeo","Canonical":"http://www.megacurioso.com.br/acidentes-estranhos/102215-bizarro-escada-rolante-muda-de-direcao-ganha-velocidade-e-fere-18-pessoas.htm"},"TituloImagemDestaque":"Imagem de Bizarro: escada rolante muda de direção, ganha velocidade e fere 18 pessoas no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102214,"DateISO":"2017-03-28T13:40:43","Title":"Confira o guia ilustrado da preguiça em 15 fotos de gente muito lesada","Chamada":"Quando a vida te der limões, apenas agradeça","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28133429430085.jpg","Url":"/humor/102214-confira-o-guia-ilustrado-da-preguica-em-15-fotos-de-gente-muito-lesada.htm","Views":"15.621","Tag":{"Url":"humor","Title":"Humor","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/humor/102214-confira-o-guia-ilustrado-da-preguica-em-15-fotos-de-gente-muito-lesada.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28133429430085.jpg","DescriptionOG":"Quando a vida te der limões, apenas agradeça","Canonical":"http://www.megacurioso.com.br/humor/102214-confira-o-guia-ilustrado-da-preguica-em-15-fotos-de-gente-muito-lesada.htm"},"TituloImagemDestaque":"Imagem de Confira o guia ilustrado da preguiça em 15 fotos de gente muito lesada no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":102213,"DateISO":"2017-03-28T11:25:03","Title":"Incrível: conseguiram transformar uma folha de espinafre em tecido cardíaco","Chamada":"Pesquisadores conseguem usar sistema vascular de planta para cultivar tecidos humanos","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28112453895040.jpg","Url":"/medicina-e-psicologia/102213-incrivel-conseguiram-transformar-uma-folha-de-espinafre-em-tecido-cardiaco.htm","Views":"2.858","Tag":{"Url":"medicina-e-psicologia","Title":"Medicina e Psicologia","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/medicina-e-psicologia/102213-incrivel-conseguiram-transformar-uma-folha-de-espinafre-em-tecido-cardiaco.htm","Image":"http://imgnzn-a.akamaized.net/2017/03/28/28112453895040.jpg","DescriptionOG":"Pesquisadores conseguem usar sistema vascular de planta para cultivar tecidos humanos","Canonical":"http://www.megacurioso.com.br/medicina-e-psicologia/102213-incrivel-conseguiram-transformar-uma-folha-de-espinafre-em-tecido-cardiaco.htm"},"TituloImagemDestaque":"Imagem de Incrível: conseguiram transformar uma folha de espinafre em tecido cardíaco no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0},{"Id":75849,"DateISO":"2017-03-28T10:00:34","Title":"4 acidentes aéreos assustadores, mas que tiveram sobreviventes","Chamada":"Teve gente que sobreviveu à queda de helicóptero dentro de um vulcão ativo!","Image":"http://imgnzn-a.akamaized.net/2015/09/24/24164517048537.jpg","Url":"/aeronaves/75849-4-acidentes-aereos-assustadores-mas-que-tiveram-sobreviventes.htm","Views":"77.474","Tag":{"Url":"aeronaves","Title":"Aeronaves","ParentTitle":null},"Social":{"Type":"article","Url":"http://www.megacurioso.com.br/aeronaves/75849-4-acidentes-aereos-assustadores-mas-que-tiveram-sobreviventes.htm","Image":"http://imgnzn-a.akamaized.net/2015/09/24/24164517048537.jpg","DescriptionOG":"Teve gente que sobreviveu à queda de helicóptero dentro de um vulcão ativo!","Canonical":"http://www.megacurioso.com.br/aeronaves/75849-4-acidentes-aereos-assustadores-mas-que-tiveram-sobreviventes.htm"},"TituloImagemDestaque":"Imagem de 4 acidentes aéreos assustadores, mas que tiveram sobreviventes no megacurioso","isSpecialHighlight":false,"isVideo":false,"CodSubtipo":0}],"previous":"/api/v2/news/latest-news/?top=10&noHighlights=False&idReference=102222&older=False","next":"/api/v2/news/latest-news/?top=10&noHighlights=False&idReference=75849&older=True","total":"19.988","tag":"Novidades"};
+    </script>
+
+    <script src="http://obj.ibxk.com.br/megacurioso/assets/js/home-index.20170320161250.js"></script>
+
+<script type="text/javascript">
+    var _sf_async_config = {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 55260;
+    _sf_async_config.domain = 'megacurioso.com.br';
+    _sf_async_config.useCanonical = true;
+    _sf_async_config.sections = '';
+    _sf_async_config.authors = '';
+    /** CONFIGURATION END **/
+    (function () {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('async', 'true');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function () { oldonload(); loadChartbeat(); };
+    })();
+</script>
+
+    <script type="text/javascript">
+        window._taboola = window._taboola || [];
+        _taboola.push({flush: true});
+    </script>
+
+
+
+    <!-- AUTO TODAS-FIM -->
+<!-- comscore -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: '2', c2: '8756095' });
+    (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src='http://b.scorecardresearch.com/p?c1=2&c2=8756095&cv=2.0' />
+</noscript>
+<!-- end / comscore -->
+<!-- Begin comScore Tag -->
+<script>
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "8", c2: "8756095", c3: "2" });
+    (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+</script>
+<noscript>
+    <img src="http://b.scorecardresearch.com/p?c1=8&c2=8756095&c3=2&c15=&cv=2.0&cj=1" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- AudienceScience Async Data Collection Tag -->
+<script>
+        (function() {
+            var csid = "F09828";
+            var bpid = "gruponzn";
+            var e = document.createElement("script");
+            var s = document.getElementsByTagName("script")[0];
+            e.src = "//js.revsci.net/gateway/gw.js?auto=t&csid=" + csid + "&bpid=" + bpid;
+            e.async = true;
+            s.parentNode.insertBefore(e, s);
+        })();
+</script>
+<!-- End AudienceScience Data Collection Tag --><script async src="https://cdn.onthe.io/io.js/iI1YqZ2t0gfE"></script>
+    <!-- / AUTO TODAS-FIM -->
+
+</body>
+</html>|||http://blog.globo.com/1.html|
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        
+            
+                    <meta name="description" content="globo.com é o blog da Rede Globo. Encontre fotos, vídeos e textos sobre features, notificações, barra, extensão, lançamentos, dispositivos, blog, portal, serviços e home.">
+                
+            <meta name="keywords" content="None">
+        
+
+        
+        <meta property="og:type" content="website"><meta property="og:site_name" content="Blog globo.com"><meta property="og:url" content="http://blog.globo.com/1.html"><meta property="og:image" content="http://s.glbimg.com/en/ho/static/globapp/img/logo.png"><meta property="og:title" content="Blog globo.com"><meta property="og:description" content="No blog da globo.com, você encontra fotos, vídeos e textos sobre features, notificações, barra, extensão, lançamentos, dispositivos, portal, serviços e home.">
+        
+
+        
+            
+                
+                    <title>Blog globo.com</title>
+                
+            
+        
+
+        
+        
+        <link rel="stylesheet" href="http://s.glbimg.com/en/ho/static/base_blog.css?b829f260">
+        
+        <link rel="stylesheet" href="//s-ct.glbimg.qa01.globoi.com/gl/ba/css/barra-globocom.min.css">
+        <link rel="stylesheet" href="http://s.glbimg.com/bu/c/busca.padrao.suggest.css">
+
+        <link type="text/css" rel="stylesheet" media="screen" href="http://comentarios.globo.com/static/widget/css/comentarios.v2.all.css" />
+        
+
+        
+            
+        
+
+        
+            
+                <link rel="shortcut icon" href="http://local.globo.com:8000/media/media/entretenimento/img/favicon.png">
+            
+        
+
+        
+            <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+            
+                <script src="http://s.glbimg.com/en/ho/static/base_blog.js?67a28dda"></script>
+            
+            
+                <script>TVG.publicidade.init({sitepage:'globo.com/globo.com/blog',listpos:'Right,Frame1,Position2,Right2'});</script>
+            
+            <script src="http://s.videos.globo.com/p2/j/api.min.js"></script>
+            <script type="text/javascript" src="http://comentarios.globo.com/static/js/jquery-ui-1.8.2.custom.min.js"></script>
+        
+    </head>
+
+    <body>
+        
+            
+                <div id="glbbarrawidget" style="min-height:42px;_height:42px"></div><noscript><a id="menu-noticias" accesskey="n" title="notícias" href="http://g1.globo.com">notícias</a><a id="menu-esportes" accesskey="e" title="esportes" href="http://globoesporte.globo.com">esportes</a><a id="menu-entretenimento" accesskey="t" title="en tretenimento" href="http://entretenimento.globo.com">entretenimento</a><a id="menu-videos" accesskey="v" title="vídeos" href="http://video.globo.com">vídeos</a></noscript>
+
+            
+        
+        <div id="glb-doc">
+            <header id="glb-topo">
+                
+                    <div id="glb-cabecalho">
+                        <div class="glb-conteudo">
+                            <div class="cabecalho-produto">
+                                <a class="logo analytics-area analytics-id-logo" href="http://blog.globo.com/1.html">
+                                    <span class="img"></span>
+                                    <span class="text">Fique por dentro de tudo o que acontece por aqui</span>
+                                </a>
+                                <div id="busca-padrao" class="analytics-area analytics-id-busca"></div>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+    
+        
+
+
+<div class="menu">
+  
+</div>
+
+    
+
+            </header>
+
+            <div id="glb-corpo">
+                <section class="glb-conteudo">
+                    
+    <section class="glb-grid-8">
+        
+    
+
+    </section>
+
+    <section class="glb-grid-8 corpo-blog">
+        <header class="titulo"> <!--  -->
+            <h1>globo.com</h1>
+            <span class="fio"></span>
+            
+    
+
+        </header>
+        
+    <ul class="posts">
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="17/04/2014"> Quinta-feira, 17/04/2014 às 18:16 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/novo-globoesportecom.html" class="analytics-area analytics-id-post-titulo">Novo Globoesporte.com</a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>Hoje o Globoesporte.com lan&ccedil;ou seu novo site! As principais mudan&ccedil;as acontecem na p&aacute;gina principal: l&aacute; as informa&ccedil;&otilde;es t&ecirc;m uma exposi&ccedil;&atilde;o maior e mais organizada, sem deixar de lado a emo&ccedil;&atilde;o do esporte, suas grandes imagens e as chamadas marcantes e divertidas que viraram marca registrada do portal.</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/nurTx5J1TtMopH0RSlwSS_PAQrU=/s.glbimg.com/en/ho/f/original/2014/04/17/novogloboesportecom_1.png" alt="novo globo esporte" width="620" height="486" /></p>
+<p><br style="color: #222222; font-family: arial; font-size: small; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px;" /><span style="color: #222222; font-family: arial; font-size: small; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; display: inline !important; float: none;"><br /></span></p>
+<p>Agora voc&ecirc; pode personalizar o conte&uacute;do, deixando o seu clube em destaque na p&aacute;gina principal - e facilitando o acesso &agrave;s &uacute;ltimas not&iacute;cias. Ainda &eacute; poss&iacute;vel compartilhar as informa&ccedil;&otilde;es nas m&iacute;dias sociais de maneira mais &aacute;gil. Para tornar a experi&ecirc;ncia da navega&ccedil;&atilde;o ainda mais personalizada, as not&iacute;cias est&atilde;o organizadas em diferentes abas, permitindo ao leitor escolher entre as v&aacute;rias modalidades de esportes.</p>
+<p>&nbsp;</p>
+<p>A navega&ccedil;&atilde;o do site tamb&eacute;m foi renovada: o acesso at&eacute; a p&aacute;gina do seu time est&aacute; mais r&aacute;pido, e o visual mais vivo, aproveitando as cores da marca do Globoesporte.com. O <a href="www.g1.globo.com" target="_top">G1</a>, portal de not&iacute;cias da globo.com, tamb&eacute;m atualizou sua navega&ccedil;&atilde;o para este formato e as cores de sua marca.</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/88K4d2-Xe5C5my1VVdyKsU7Ag2g=/s.glbimg.com/en/ho/f/original/2014/04/17/homenova02.jpg" alt="novo globo esporte" width="620" height="314" /></p>
+<p>&nbsp;</p>
+<p>Para os maiores f&atilde;s e torcedores, uma novidade incr&iacute;vel: ser&aacute; poss&iacute;vel ver o placar e os &uacute;ltimos lances da partida, al&eacute;m de saber quantas pessoas est&atilde;o acompanhando a cobertura do jogo em tempo real junto com voc&ecirc;.</p>
+<p>&nbsp;</p>
+<p>Este &eacute; s&oacute; o come&ccedil;o de muitas mudan&ccedil;as que visam melhorar a experi&ecirc;ncia de uso dos nossos sites. Seja bem-vindo ao novo Globoesporte.com.</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/novo-globoesportecom.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/novo-globoesportecom.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/novo-globoesportecom.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/novo-globoesportecom.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/novo-globoesportecom.html&du=http://blog.globo.com/post/novo-globoesportecom.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios1'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '17',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/1hZIAc6'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/novo-globoesportecom.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('Novo Globoesporte.com'.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios1').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/novo-globoesportecom.html',
+                      titulo: 'Novo Globoesporte.com',
+                      idExterno: '17',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/1hZIAc6',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios1").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="06/01/2014"> Segunda-feira, 06/01/2014 às 15:00 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/gshow-no-ar.html" class="analytics-area analytics-id-post-titulo">Gshow no ar</a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>Acaba de ser lan&ccedil;ado o <a title="GShow" href="http://gshow.globo.com/" target="_blank">Gshow, novo portal de entretenimento da Rede Globo</a>. Ainda mais completo e pr&aacute;tico, o site re&uacute;ne tudo que voc&ecirc; gostaria de saber sobre novelas, s&eacute;ries e programas da TV, al&eacute;m de trazer novidades como bastidores, dicas, listas e muito mais.&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/eNHTQky66dw7Ns4eFbqzXnPWAao=/s.glbimg.com/en/ho/f/original/2014/01/06/gshow01.png" alt="Gshow" width="640" height="434" /></p>
+<p>&nbsp;</p>
+<p><strong>Resumo das Novelas</strong></p>
+<p>&nbsp;</p>
+<p>Ficou ainda mais f&aacute;cil acompanhar os pr&oacute;ximos cap&iacute;tulos das suas novelas preferidas. Na p&aacute;gina principal do portal, voc&ecirc; encontra resumos e programa&ccedil;&atilde;o de tudo que estiver no ar.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Mundo Projac</strong></p>
+<p>&nbsp;</p>
+<p>Acompanhe o que acontece no centro de produ&ccedil;&atilde;o da Rede Globo. Dia a dia dos famosos, relacionamentos, fofocas e not&iacute;cias quent&iacute;ssimas. Procure por qualquer artista e encontre perfis completos com fotos, dados de carreira e muitas not&iacute;cias.&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/CrFJTzMl37OkhsdwTh9DdOVE-0g=/s.glbimg.com/en/ho/f/original/2014/01/06/gshow02.png" alt="GShow Mobile" width="364" height="634" /><br /><strong>Bastidores</strong></p>
+<p>&nbsp;</p>
+<p>Acompanhe a rotina das grava&ccedil;&otilde;es, fique sabendo sobre o que rola nos camarins em primera m&atilde;o, veja como s&atilde;o preparados os cen&aacute;rios e saiba tudo sobre o momento pr&eacute;-grava&ccedil;&atilde;o dos atores.</p>
+<p>&nbsp;</p>
+<p><strong>Estilo TV</strong></p>
+<p>&nbsp;</p>
+<p>Moda, beleza, sa&uacute;de e decora&ccedil;&atilde;o. Aqui, voc&ecirc; acompanha as &uacute;ltimas dicas de famosos e profissionais do mundo da TV.</p>
+<p>&nbsp;</p>
+<p><strong>GShow no celular</strong></p>
+<p>&nbsp;</p>
+<p>O portal tamb&eacute;m traz uma vers&atilde;o compacta especial para o seu smartphone (imagem &agrave; esquerda). Acesse de qualquer lugar e usufrua de todas as se&ccedil;&otilde;es do site.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Outras novidades</strong></p>
+<p>&nbsp;</p>
+<p>N&atilde;o deixe de conhecer tamb&eacute;m as outras se&ccedil;&otilde;es do <a title="GShow" href="http://gshow.globo.com/" target="_blank">Gshow</a> como Receitas, Como Fazer, Listas... s&atilde;o muitas novidades.&nbsp;</p>
+<p>&nbsp;</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/gshow-no-ar.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/gshow-no-ar.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/gshow-no-ar.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/gshow-no-ar.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/gshow-no-ar.html&du=http://blog.globo.com/post/gshow-no-ar.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios2'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '16',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/1efzxDR'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/gshow-no-ar.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('Gshow no ar'.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios2').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/gshow-no-ar.html',
+                      titulo: 'Gshow no ar',
+                      idExterno: '16',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/1efzxDR',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios2").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="08/10/2013"> Terça-feira, 08/10/2013 às 15:30 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html" class="analytics-area analytics-id-post-titulo">Educação Globo traz consulta rápida para o Enem e o vestibular</a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>O Educa&ccedil;&atilde;o &eacute; o mais novo membro das Organiza&ccedil;&otilde;es Globo. Miss&atilde;o: ajudar os candidatos na prepara&ccedil;&atilde;o para o Enem e para os vestibulares. Assuntos mais cobrados, quest&otilde;es de exames anteriores, artigos relacionados ao tema, tudo com material confi&aacute;vel e de f&aacute;cil acesso. &nbsp;</p>
+<p>&nbsp;<img class="ed-foto" src="http://s2.glbimg.com/OSQAuloSXqo9VKLS0a2Fv90_-K8=/s.glbimg.com/en/ho/f/original/2013/10/08/educacao01.png" alt="Educa&ccedil;&atilde;o Globo" width="620" height="541" /></p>
+<p>&nbsp;</p>
+<p>O projeto &eacute; uma iniciativa das Organiza&ccedil;&otilde;es Globo voltada para o segmento de Educa&ccedil;&atilde;o na internet, com foco no estudante que vai prestar prova para o Enem. O site estreia com conte&uacute;do de Literatura, Hist&oacute;ria, F&iacute;sica, Matem&aacute;tica, Biologia, Geografia, Portugu&ecirc;s, atualidades, conhecimentos gerais e muitas dicas para o Enem. Al&eacute;m, &eacute; claro, de resolu&ccedil;&atilde;o de provas anteriores do exame. Outras disciplinas ainda ser&atilde;o adicionadas, como Qu&iacute;mica, Filosofia, Sociologia, Ingl&ecirc;s, Espanhol e outras ferramentas.&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;<img class="ed-foto" src="http://s2.glbimg.com/B91I_dWOD-TuKCzkO4i87lXMzh8=/s.glbimg.com/en/ho/f/original/2013/10/08/educacao02.png" alt="Menu de Hist&oacute;ria do Educa&ccedil;&atilde;o Globo" width="243" height="271" /></p>
+<p>Cada mat&eacute;ria vem dividida por se&ccedil;&otilde;es que v&atilde;o ajudar o estudante a navegar por todo o conte&uacute;do. O material, ali&aacute;s, &eacute; produzido pelos professores do Qi, uma escola de refer&ecirc;ncia em aprova&ccedil;&atilde;o no Enem e no vestibular no Rio de Janeiro. Com credibilidade e clareza, os professores explicam os temas mais cobrados, colaborando com a prepara&ccedil;&atilde;o do candidato para as provas.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Aproveite o material de estudo e seja bem-vindo ao <a title="Educa&ccedil;&atilde;o Globo" href="http://educacao.globo.com/" target="_blank">Educa&ccedil;&atilde;o</a> ;)</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html&du=http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios3'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '15',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/19fij9n'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('Educação Globo traz consulta rápida para o Enem e o vestibular'.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios3').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/educacao-globo-traz-consulta-rapida-para-o-enem-e-o-vestibular.html',
+                      titulo: 'Educação Globo traz consulta rápida para o Enem e o vestibular',
+                      idExterno: '15',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/19fij9n',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios3").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="17/09/2013"> Terça-feira, 17/09/2013 às 16:06 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html" class="analytics-area analytics-id-post-titulo">Globoesporte lança menu personalizado com navegação fácil</a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>&nbsp;</p>
+<p>O novo menu do globoesporte.com est&aacute; de cara nova e cheio de novidades! Ficou mais simples navegar e mais r&aacute;pido encontrar o que voc&ecirc; procura.&nbsp;</p>
+<p>&nbsp;<img class="ed-foto" src="http://s2.glbimg.com/4PV6icGNXBO_T7zxTI9UEn82rvU=/s.glbimg.com/en/ho/f/original/2013/09/17/genovomenu01.png" alt="Globo Esporte novo menu" width="620" height="186" /></p>
+<p>&nbsp;</p>
+<p><strong>Mosaico de Escudos</strong></p>
+<p>&nbsp;</p>
+<p>N&atilde;o importa para quem voc&ecirc; tor&ccedil;a. Agora, seu escudo fica vis&iacute;vel durante toda a navega&ccedil;&atilde;o e te d&aacute; acesso r&aacute;pido &agrave; p&aacute;gina do time. Entre no site e clique no "escudinho" para escolher o seu.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Top Esportes</strong></p>
+<p>&nbsp;</p>
+<p>A se&ccedil;&atilde;o de Top Esportes do Novo Menu te mostra as &aacute;reas mais acessadas do globoesporte.com. A princ&iacute;pio, ela considera o acesso de todos os visitantes. Mas se voc&ecirc; criar uma conta ou fizer login na Globo.com, ela trar&aacute; especificamente apenas as p&aacute;ginas que voc&ecirc; visitou. =)</p>
+<p>&nbsp;</p>
+<p><strong>Navega&ccedil;&atilde;o Principal</strong></p>
+<p>&nbsp;</p>
+<p>Passe o mouse por cada uma das se&ccedil;&otilde;es do Novo Menu: futebol, mma, F1 etc. Em cada uma, voc&ecirc; ver&aacute; as principais editorias de esporte, com mat&eacute;rias, artigos e muito conte&uacute;do.</p>
+<p>&nbsp;<img class="ed-foto" src="http://s2.glbimg.com/As6Y2IZFMYvTPDqGa-nsswS5ess=/s.glbimg.com/en/ho/f/original/2013/09/17/genovomenu02.png" alt="Globo Esporte Novo Menu com Escudo" width="620" height="45" /></p>
+<p>&nbsp;</p>
+<p><strong>Times de A-Z</strong></p>
+<p>&nbsp;</p>
+<p>Essa &aacute;rea fica &agrave; direita e &eacute; o mesmo atalho de escudos de times que voc&ecirc; encontra na p&aacute;gina principal. Caso queira clicar em outro escudo de times, esse &eacute; um dos caminhos.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Busca</strong></p>
+<p>&nbsp;</p>
+<p>N&atilde;o esque&ccedil;a da busca do site! Caso esteja tendo dificuldades para encontrar alguma coisa, basta digitar o termo que procura no campo de texto e pronto!&nbsp;</p>
+<p>&nbsp;</p>
+<p>V&aacute; agora mesmo ao <a title="Globo Esporte" href="http://globoesporte.globo.com/" target="_blank">globoesporte.com</a> para navegar pelo Novo Menu!</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html&du=http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios4'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '14',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/1emrc4G'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('Globoesporte lança menu personalizado com navegação fácil'.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios4').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/globoesporte-lanca-menu-personalizado-com-navegacao-facil.html',
+                      titulo: 'Globoesporte lança menu personalizado com navegação fácil',
+                      idExterno: '14',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/1emrc4G',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios4").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="28/08/2013"> Quarta-feira, 28/08/2013 às 15:21 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html" class="analytics-area analytics-id-post-titulo">Música lança widgets de Playlists, artistas e trilhas </a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>Quer levar a trilha sonora do The Voice para o seu site? Ou que tal uma playlist que voc&ecirc; acabou de criar? Para isso, basta adicionar os widgets do Musica.com.br no seu site ou blog. S&atilde;o tr&ecirc;s modelos diferentes: artistas, playlists e trilhas sonoras.&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/DSVK9IqZ2bxTo2fskdEyfEyrKCE=/s.glbimg.com/en/ho/f/original/2013/08/28/playlist-no-seu-site.png" alt="Musica Widgets de Trilha Sonora" width="620" height="450" /></p>
+<p>&nbsp;</p>
+<p>Para adicionar um box com o seu <strong>artista</strong> preferido, basta procur&aacute;-lo no site do M&uacute;sica. Digite o nome desejado no campo de busca. No menu do artista, voc&ecirc; ver&aacute; a op&ccedil;&atilde;o "No seu site". Personalize a cor, copie e cole o c&oacute;digo no seu editor de sites e pronto! Agora, voc&ecirc; pode ouvir os principais singles do seu cantor preferido de onde estiver.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Funciona da mesma maneira para <strong>trilhas sonoras</strong>. Para adicionar o widget de uma trilha da novela Amor &agrave; Vida, por exemplo, basta digit&aacute;-la no campo de busca e clicar na p&aacute;gina. Procure pela se&ccedil;&atilde;o "No seu site", personalize e cole o c&oacute;digo!</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/gYZnXcEtjwOMvlcmZE5QjsUE3fo=/s.glbimg.com/en/ho/f/original/2013/08/28/musica-widget-playlist.png" alt="M&uacute;sica Widgets para Playlist" width="620" height="169" /></p>
+<p>&nbsp;</p>
+<p>Se o widget que voc&ecirc; quer &eacute; de uma <strong>playlist</strong>, procure por uma no site do M&uacute;sica. Role com o mouse at&eacute; o fim da p&aacute;gina e escolha a op&ccedil;&atilde;o "Coloque esta playlist no seu site". O processo &eacute; super parecido aos de artistas e trilhas. Personalize e crie seu pr&oacute;prio box com as m&uacute;sicas que voc&ecirc; mesmo escolheu!&nbsp;</p>
+<p>&nbsp;</p>
+<p>&Eacute; super simples! Em poucos passos, &eacute; poss&iacute;vel inserir can&ccedil;&otilde;es, artistas ou playlists selecionadas por voc&ecirc; mesmo. Tenha o <a title="M&uacute;sica.com.br" href="http://musica.com.br/" target="_blank">Musica.com.br</a> sempre por perto ;)</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html&du=http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios5'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '13',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/17hQqyr'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('Música lança widgets de Playlists, artistas e trilhas '.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios5').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/musica-lanca-widgets-de-playlists-artistas-e-trilhas.html',
+                      titulo: 'Música lança widgets de Playlists, artistas e trilhas ',
+                      idExterno: '13',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/17hQqyr',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios5").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+            <li class="post">
+                
+
+
+
+<article>
+    <header>
+        <!-- Verificar se o datetime tem que ser em um formato especifico -->
+        <time datetime="19/08/2013"> Segunda-feira, 19/08/2013 às 18:59 </time>
+         <span class="author">
+            
+              
+            
+        </span>
+
+        <h2><a href="http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html" class="analytics-area analytics-id-post-titulo">TechTudo traz novo visual para seção de celulares e tablets</a></h2>
+
+   </header>
+
+   <span class="conteudo-post" class="analytics-area analytics-id-post-corpo">
+        <p>A &aacute;rea de mobile do TechTudo est&aacute; de cara nova. Agora, os f&atilde;s de aparelhos m&oacute;veis ter&atilde;o informa&ccedil;&atilde;o de &uacute;ltima hora, dicas de especialistas, sugest&otilde;es de downloads, acesso a artigos t&eacute;cnicos, tudo em um s&oacute; lugar.&nbsp;</p>
+<p>&nbsp;</p>
+<p><img class="ed-foto" src="http://s2.glbimg.com/YEk3Cd8qmt-MwbXllAhDnuFNA8E=/s.glbimg.com/en/ho/f/original/2013/08/19/techtudomobile.png" alt="TechTudo Mobile" width="620" height="575" /></p>
+<p>&nbsp;</p>
+<p>Quem precisa daquele empurr&atilde;ozinho para saber qual aparelho comprar vai curtir as dicas do F&oacute;rum. S&atilde;o perguntas respondidas pelos pr&oacute;prios usu&aacute;rios do site, feitas por gente que aprende junto.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Quem j&aacute; sabe o quer e est&aacute; atr&aacute;s do aparelho mais quente do momento vai gostar da lista de dispositivos mais procurados. &Eacute; s&oacute; escolher um na lista para ver um review completo sobre o modelo.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Agora, se a d&uacute;vida &eacute; saber qual aplicativo baixar, fique de olho na lista de Apps da Semana. S&atilde;o os downloads mais procurados pelos usu&aacute;rios de mobile. N&atilde;o v&atilde;o faltar sistemas ou gostos.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Visite o <a title="TechTudo Mobile" href="http://www.techtudo.com.br/mobile/" target="_blank">novo TechTudo Mobile</a> e conhe&ccedil;a as novidades. Aproveita e deixa uma dica no f&oacute;rum ;)</p>
+   </span>
+
+   <footer class="analytics-area analytics-id-post-social">
+        
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html&du=http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+
+        
+            <div class="btn-comentario">
+              <span class="button cor-fundo-link"></span>
+              <span class="balao">
+                <span class="quantidade">0</span>
+              </span>
+            </div>
+            <div class="btn-fechar cor-link cor-fundo-link off">
+                <span class="texto">FECHAR</span>
+                <span class="fechar"></span>
+            </div>
+            <div id='boxComentarios6'></div>
+        
+        <div class="separador"></div>
+   </footer>
+
+  <script>
+    $(document).ready(function(){
+      $.barra_share({'local': 'False'});
+    })
+  </script>
+</article>
+
+
+  <script type='text/javascript'>
+       $(document).queue("ajaxRequests", function(){
+          var idExterno = '12',
+                uri = encodeURIComponent('/home-adm/especial-blog/globocom'.replace(/\//g, '@@')),
+                shorturl = encodeURIComponent('http://bit.ly/162Fuy2'.replace(/\//g, '@@')),
+                url = encodeURIComponent('http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html'.replace(/\//g, '@@')),
+                titulo = encodeURIComponent('TechTudo traz novo visual para seção de celulares e tablets'.replace(/\//g, '@@')),
+                url_total = "http://comentarios.globo.com/comentarios/" + uri + "/" + idExterno + "/" +url + "/" + shorturl +"/" + titulo + "/numero";
+
+          $(function(){
+
+              $('#boxComentarios6').comentarios({
+                      uri: '/home-adm/especial-blog/globocom',
+                      url: 'http://blog.globo.com/post/techtudo-traz-novo-visual-para-secao-de-celulares-e-tablets.html',
+                      titulo: 'TechTudo traz novo visual para seção de celulares e tablets',
+                      idExterno: '12',
+                      disclaimer: 'Conforme Termo de Uso, comentários com conteúdo inadequado e spam poderão ser removidos a critério da Globo.com.',
+                      shortUrl: 'http://bit.ly/162Fuy2',
+                      exibeTeaserComentarios: true,
+                      qtdComentariosNoTeaser: 2,
+                      comentariosVemAberto: false
+              });
+
+              $.jsonp({
+                  url: url_total,
+                  cache: false,
+                  callback: '__callbackjsonp_verificaTotalComentarios',
+                  success: function (data) {
+                      var footer = $("#boxComentarios6").parent();
+                      footer.find(".btn-comentario .balao .quantidade").text(data.numeroDeComentarios);
+                  }
+              });
+          });
+      });
+      $(document).dequeue("ajaxRequests");
+  </script>
+  
+
+            </li>
+        
+    </ul>
+
+    <nav class="paginacao">
+        <section class="anterior analytics-area analytics-id-paginacao-anterior">
+            
+                <span class="off"></span>
+            
+        </section>
+
+
+        <section class="numeros analytics-area analytics-id-paginacao-numeros">
+            <input type="text" maxlength="2" value="1" id="paginacao-indice">&nbsp;de&nbsp;<span id="spanTotalPaginas">3</span>
+        </section>
+
+        <section class="proximo analytics-area analytics-id-paginacao-proximo">
+            
+                <a href="http://blog.globo.com/2.html" class="cor-fundo-link"></a>
+            
+        </section>
+    </nav>
+
+    <script type="text/javascript">
+            $('.paginacao').paginacao({url: "http://blog.globo.com/"});
+
+    $('.numeros').find('input').bind('keydown',function(e){
+        if ((e.which>=48 && e.which<=57) || e.which==8 || e.which==0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+     });
+</script>
+
+    </section>
+
+    <section class="glb-grid-4">
+    	
+            <aside class="right2 analytics-area analytics-id-right2">
+                <div id="banner_rm1" class="glb-publicidade-container"></div>
+            </aside>
+        
+
+        
+
+        <section class="sobre">
+            <header>SOBRE A PÁGINA</header>
+            <section>Nosso blog é o lugar ideal para todos aqueles que querem fazer parte da experiência Globo.com. Fique antenado sobre todas as novidades: lançamentos de produtos, plataformas, aplicativos e todo o universo Globo.com.</section>
+            <footer class="analytics-area analytics-id-social">
+
+
+
+    <div class="app_share" data-url="http://blog.globo.com/1.html" produto="">
+        <a class="share_facebook" target="_blank" href="http://www.facebook.com/sharer.php?u=http://blog.globo.com/1.html">
+            <button>
+                <i class="facebook"></i>
+            </button>
+            <span class="balao roll-on-hold">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        
+        <a class="share_twitter" id="custom-tweet-button" href="https://twitter.com/share?url=http://blog.globo.com/1.html" target="_blank">
+
+            <button>
+                <i class="twitter"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>
+            </span>
+        </a>
+        <a class="share_googleplus" href="https://plus.google.com/share?url=http://blog.globo.com/1.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+            <button>
+                <i class="google"></i>
+            </button>
+            <span class="balao">
+                <span class="quantidade">0</span>                
+            </span>
+        </a>
+        <a class="share_orkut" href="http://promote.orkut.com/preview?nt=orkut.com&tt=&cn=http://blog.globo.com/1.html&du=http://blog.globo.com/1.html" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=520,width=640');return false;">
+            <button>
+                <i class="orkut"></i>
+            </button>
+        </a>
+    </div>
+    
+
+</footer>
+        </section>
+
+        
+            <aside class="position2 analytics-area analytics-id-position2">
+                <div id="banner_rm2" class="glb-publicidade-container"></div>
+    

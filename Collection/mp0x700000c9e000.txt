@@ -1,0 +1,610 @@
+|||http://ufmg.br|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!--meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" /-->
+<meta name="google-site-verification" content="S3KDlC4Cf-6fidsZoqCnG4n7LahJCFwT55yLxqUZyCc" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta http-equiv="Content-Language" content="pt-br">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7,chrome=1" />
+<title>UFMG - Universidade Federal de Minas Gerais</title>
+<meta name="keywords" content="UFMG, Universidade Federal de Minas Gerais, Graduação, Pós-Graduação, Ensino, Pesquisa, Extensão, melhor universidade do brasil, assistencia estudantil, universidade gratuita, bolsa e moradia estudantis, ensino de qualidade" />
+<meta name="description" content="UFMG - Universidade Federal de Minas Gerais - Página principal" />
+<meta property="fb:admins" content="100001226190854" />
+<meta property="fb:pages" content="154631594572514" />
+<link href="css/css.css?v=2.1" rel="stylesheet" type="text/css" media="screen"/>
+<!--[if lt IE 8]><script src="js/IE8.js" type="text/javascript"></script><![endif]-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.infinitecarousel.js"></script>
+<script type="text/javascript" src="js/jquery.popupwindow.js"></script>
+<script type="text/javascript" src="js/loopedslider.js"></script>
+<script type="text/javascript" src="js/banners_conf.js"></script>
+<script type="text/javascript" src="js/flickrshow.js"></script>
+<!-- <script type="text/javascript" src="/cedecom/ocupamidias/tumblr.min.js?v=1.6" charset="UTF-8"></script> -->
+<style>
+/*#paginacao .pagination{margin-left: 3px !important;}*/
+</style>
+<script type="text/javascript">
+	var profiles =
+		{	windowCenter:
+			{width:160,height:239,resizable:0,center:1,toolbar:0,scrollbars:0,status:0,resizable:0}
+		};
+	$(document).ready(function(){
+	$(".popupwindow").popupwindow(profiles);
+	//$('#banner_rotativo').infiniteCarousel();
+	$('#destgov').change(function(){
+		window.location = $(this).val();
+	});
+});
+</script>
+</head>
+<body id="verde">
+<div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;"> 
+	<ul id="menu-barra-temp" style="list-style:none;">
+		<li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED"><a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a></li> 
+		<li><a style="font-family:sans,sans-serif; text-decoration:none; color:white;" href="http://epwg.governoeletronico.gov.br/barra/atualize.html">Atualize sua Barra de Governo</a></li>
+	</ul>
+</div>
+<div id="cabecalho">
+	<h1><a href="http://www.ufmg.br" class="expande_direita">Universidade Federal de Minas Gerais</a></h1>
+	<dl id="menu_superior">
+	<dt><a href="/conheca">Conhe&ccedil;a a <span>UFMG</span></a></dt>
+			<dd>Informa&ccedil;&otilde;es institucionais e estrutura administrativa</dd>
+		<dt><a href="http://www.ufmg.br/cursos">Cursos</a></dt>
+			<dd>Cursos de Gradua&ccedil;&atilde;o, P&oacute;s-gradua&ccedil;&atilde;o, Extens&atilde;o</dd>
+		<dt><a href="/pesquisa">Pesquisa</a></dt>
+			<dd>Programas e &oacute;rg&atilde;os vinculados &agrave;s atividades de pesquisa</dd>
+		<dt><a href="/extensao">Extens&atilde;o</a></dt>
+			<dd>Programas e &oacute;rg&atilde;os vinculados &agrave;s atividades extensionistas</dd>
+		<dt><a href="https://www.ufmg.br/ead/">EAD</a></dt>
+			<dd>Cursos de ensino &agrave; dist&acirc;ncia</dd>
+		<dt><a href="/programas">Programas</a></dt>
+			<dd>Programas e projetos especiais coordenados pela Reitoria</dd>
+		<dt><a href="/servicos">Servi&ccedil;os</a></dt>
+			<dd>Servi&ccedil;os oferecidos ao p&uacute;blico externo e &agrave; comunidade UFMG</dd>
+		<dt><a href="/online">Not&iacute;cias</a></dt>
+			<dd>Fatos e eventos que ocorrem na UFMG</dd>
+		<dt><a href="/biblioteca">Biblioteca</a></dt>
+			<dd>Sistema de Bibliotecas da UFMG, consultas, reservas, renova&ccedil;&atilde;o</dd>
+		<dt><a href="http://www.ufmg.br/copeve">Vestibular</a></dt>
+			<dd>Informa&ccedil;&otilde;es sobre o vestibular </dd>
+		<dt><a href="/mapa">Mapa</a></dt>
+			<dd>Lista e estrutura de todo o site da UFMG</dd>
+		<dt><a href="http://www.ufmg.br" class="inicial ativo">Inicial</a></dt>
+			<dd>Atalho para a primeira p&aacute;gina do site</dd>
+		<dt><a href="/contato/fale.shtml" class="contato">Contato</a></dt>
+			<dd>Fale com o N&uacute;cleo Web, jornalistas e o administrador da rede</dd>
+	</dl>
+	<div id="busca">
+		<form action="https://www.ufmg.br/busca.html" id="cse-search-box">
+			<input type="hidden" name="cx" value="011496514098557469916:v5zp64nw6gm" />
+			<input type="hidden" name="cof" value="FORID:9" />
+			<input type="hidden" name="ie" value="ISO-8859-1" />
+			<label for="input_busca">Busca no site da UFMG</label>
+			<input type="text" id="input_busca" maxlength="255" name="q" value="" />
+			<input type="submit" name="sa" value="Procurar" id="btn" />
+		</form>
+	</div>
+	<ul id="links_idioma">
+		<!--li><a href="/espanol" class="primeiro">Espa&ntilde;ol</a></li>
+		<li><a href="/english" class="primeiro">English</a></li-->
+		<li><a href="/dri/programas/aluno-estrangeiro/ingresso-na-ufmg/?lang=en" class="primeiro">English</a></li>
+		<li><a href="http://www.ufmg.br" class="ativo">Portugu&ecirc;s</a></li>
+	</ul>
+</div>
+<div id="conteudo">
+	<div id="conteudo_esquerda">
+		<ul id="menu_esquerda">
+			<li>Menu
+            <!--
+                Agenda de Eventos
+                Acesso Ã  InformaÃ§Ã£o
+                Acessibilidade e inclusão
+                AssistÃªncia Estudantil
+                Bibliotecas e PeriÃ³dicos
+                CalendÃ¡rio
+                Carta de ServiÃ§os ao CidadÃ£o
+                CatÃ¡logo TelefÃ´nico
+                ComunicaÃ§Ã£o
+                Concursos
+                Cultura
+                Cursos de GraduaÃ§Ã£o
+                Formulários
+                PrevisÃ£o do Tempo
+                
+                Registro AcadÃªmico
+                
+                RelatÃ³rio de GestÃ£o
+                Sisu UFMG
+                Unidades e Ã“rgÃ£os
+                Vestibulares
+               -->
+
+				<ul>
+					<li>
+                       <a href="/narede/" target="_blank" onClick="javascript: pageTracker._trackPageview('eventos');">
+                       Agenda de Eventos
+                        </a>
+                    </li>
+                    <li>
+                       <a href="/acessoainformacao" target="_blank" onClick="javascript: pageTracker._trackPageview('acessoainformacao');">
+                        Acesso &agrave; Informa&ccedil;&atilde;o
+                        </a>
+                    </li>
+                    <li>
+                       <a href="/nai" target="_blank" onClick="javascript: pageTracker._trackPageview('acessibilidadeeinclusao');">
+                        Acessibilidade e inclus&atilde;o </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ufmg.br/meulugar/sobre-a-prae/" onClick="javascript: pageTracker._trackPageview('https://www.ufmg.br/meulugar/sobre-a-prae/');">
+                        Assuntos Estudantis
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/biblioteca">
+                        Bibliotecas e Peri&oacute;dicos
+                        </a>
+                    </li>
+					<li>
+                        <a href="/conheca/calendario.shtml">
+                        Calend&aacute;rio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ufmg.br/proplan/gestao-da-informacao/carta-de-servicos-ao-cidadao/" onClick="javascript: pageTracker._trackPageview('cartaCidadao');">
+                        Carta de Servi&ccedil;os ao Cidad&atilde;o
+                        </a>
+                    </li>
+					<li>
+                        <a href="/catalogo">
+                        Cat&aacute;logo Telef&ocirc;nico
+                        </a>
+                    </li>
+					<li>
+                        <a href="/online/dirgeral/">
+                        Comunica&ccedil;&atilde;o
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www2.ufmg.br/concursos" onClick="javascript: pageTracker._trackPageview('www2/concursos');">
+                        Concursos
+                        </a>
+                    </li>  
+					<li>
+                        <a href="http://www.cultura.ufmg.br/" onClick="javascript: pageTracker._trackPageview('cultura.ufmg.br');">
+                        Cultura
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www2.ufmg.br/mostradasprofissoes/Mostra/Cursos" onClick="javascript: pageTracker._trackPageview('www2.ufmg.br/mostradasprofissoes/Mostra/Cursos');">
+                        Cursos de Gradua&ccedil;&atilde;o
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www2.ufmg.br/sods/Sods/Sobre-a-UFMG" onClick="javascript: pageTracker._trackPageview('www2.ufmg.br/sods/Sods/Sobre-a-UFMG');">
+                        Documentos e Normas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.ufmg.br/prorh/formulario-2/" onClick="javascript: pageTracker._trackPageview('https://www.ufmg.br/prorh/formulario-2');">
+                        Formul&aacute;rios
+                        </a>
+                    </li>
+                    <!--li>
+                    	<a href="/guiaacademico">
+                        	Guia Acad&ecirc;mico
+                        </a>
+                    </li-->
+                    <li>
+                        <a href="/online/arquivos/cat_notas_a_comunidade.shtml" >
+                        Notas Oficiais
+                        </a>
+                    </li>
+                    <!--li>
+                        <a href="/servicos/meteorologia.shtml" >
+                        Previs&atilde;o do tempo
+                        </a>
+                    </li-->
+                    <li>
+                    	<a href="https://www.ufmg.br/rededemuseus/" onClick="javascript: pageTracker._trackPageview('www.ufmg.br/drca/');">
+                    	    Rede de Museus
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="https://www2.ufmg.br/drca/" onClick="javascript: pageTracker._trackPageview('www.ufmg.br/drca/');">
+                    	    Registro Acad&ecirc;mico
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="https://www.ufmg.br/proplan/gestao-da-informacao/prestacao-de-contas-da-ufmg/" onClick="javascript: pageTracker._trackPageview('relatorioGestao');">
+                        	Relat&oacute;rio de Gest&atilde;o
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="http://somos.ufmg.br/">
+                       		 Somos UFMG
+                        </a>
+                    </li>
+					<li>
+                    	<a href="/sisu/">
+                       		 Sisu UFMG
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="/conheca/ua_index.shtml" >
+                        	Unidades e &Oacute;rg&atilde;os
+                        </a>
+                    </li>
+                    <li>
+                    	<a href="https://www.ufmg.br/copeve/site_novo/" onClick="javascript: pageTracker._trackPageview('www.ufmg.br/copeve/site_novo/');" class="ultimo_item" >
+                        	Vestibulares
+                        </a>
+                    </li>
+                    
+					
+					<!--<li><a href="http://minha.ufmg.br" onClick="javascript: pageTracker._trackPageview('minhaUFMG');">Minha UFMG</a></li>-->
+					
+					<!--<li><a href="/contato/fale.shtml" onClick="javascript: pageTracker._trackPageview('faleConosco');">Fale Conosco</a></li>-->
+                    
+					<li class="bg_inferior"><span></span></li>
+				</ul>
+			</li>
+		</ul>
+		<div id="bann">
+	  <!--
+      <div id="loopedSliderSisu">	
+				<div class="container"> 
+					<div class="slides">
+
+						<div>
+              <a href="http://www.ufmg.br/sisu/" onClick="javascript: pageTracker._trackPageview('rotativo/sisu');" target="_blank">
+							  <img width="130" height="130" alt="" src="banners/sisu_2014_b.png" />
+						  </a>
+            </div>
+						
+						<div><a href="http://www.ufmg.br/copeve" onClick="javascript: pageTracker._trackPageview('rotativo/biblioteca_teses_dissertacoes');" target="_blank"><img alt="" src="banners/BANNERUFMG_vestibular_61581.png" width="130" height="120" /></a></div>
+											
+					</div>
+				</div>-->
+				<!-- div id="paginacao">
+					<ul class="pagination"></ul>	
+				</div>
+			</div>
+    -->
+ 
+      <!-- <div><a href="http://www.cultura.ufmg.br/index.php?option=com_content&view=article&id=1436&Itemid=177" onClick="javascript: pageTracker._trackPageview('/menucultura');" target="_blank"><img width="130" height="120" alt="Mostra das ProfissÃµes" src="banners/menucultura.png" /></a></div> -->
+      
+      <!-- <div><a href="https://www.ufmg.br/revistaufmg/" onClick="javascript: pageTracker._trackPageview('rotativo/trote');" target="_blank"><img width="130" height="120" alt="Revista da UFMG" src="banners/revistaufmg.png" /></a></div> -->
+      <!-- <div style="padding-top: 0 !important">
+        <span style="border-top: 1px solid #eee; display: block; width: 130px; padding: 12px 0;"><a href="/sisu" id="sisu" onClick="javascript: pageTracker._trackPageview('sisu');"><img src="/banners/sisu2015.png"></a></span>
+      </div> -->
+      
+      <!-- <div style="padding-top: 0 !important">
+        <span style="border-top: 1px solid #eee; display: block; width: 130px; padding: 12px 0;"><a href="http://bit.ly/1GnlSbp" id="sisu" onClick="javascript: pageTracker._trackPageview('festivaldeinverno');"><img src="banners/festivalinverno.png"></a></span>
+      </div> -->
+
+      <!-- <div><a href="https://www.ufmg.br/semanadoconhecimento" onClick="javascript: pageTracker._trackPageview('/semanadoconhecimento/2016');" target="_blank"><img width="130" height="120" alt="Semana do Conhecimento 2016" src="banners/semana-conhecimento-2016.png" /></a></div> -->
+
+      <div><a href="https://www.ufmg.br/90anos" onclick="javascript: pageTracker._trackPageview('/90anos');" target="_blank"><img width="130" height="120" alt="90 anos" src="banners/90anos.png" /></a></div>
+      
+      <div id="loopedSlider" style="margin-bottom: 6px;">	
+				<div class="container"> 
+					<div class="slides">
+
+                        <!--div><a href="https://www.ufmg.br/prorh/wp-content/uploads/2016/08/Folder-de-programa%C3%A7%C3%A3o_digital.pdf" onClick="javascript: pageTracker._trackPageview('/rotativo/semanaservidor2016');" target="_blank"><img width="130" height="120" alt="Semana do Servidor 2016" src="banners/semana-servidor-2016.png" /></a></div-->
+
+						<!--div><a href="https://www.ufmg.br/humanidades" onClick="javascript: pageTracker._trackPageview('rotativo/humanidades');" target="_blank"><img alt="Territorialidades e Humanidades" src="banners/territorialidadeshumanidades2016.png" width="130" height="120" /></a></div-->
+			
+                        <!--div><a href="https://www.ufmg.br/semanadoconhecimento" onClick="javascript: pageTracker._trackPageview('/semanadoconhecimento/2016');" target="_blank"><img width="130" height="120" alt="Semana do Conhecimento 2016" src="banners/semana-conhecimento-2016.png" /></a></div-->
+
+						<!--div><a href="https://www2.ufmg.br/mostradasprofissoes/Mostra-Presencial" onClick="javascript: pageTracker._trackPageview('rotativo/mostra_das_profissoes_2016');" target="_blank"><img alt="Mostra das Profissões" src="banners/mostra-profissoes-2016.png" width="130" height="120" /></a></div-->
+			
+            <!--div><a href="http://www.ufmg.br/festivaldeverao/" onClick="javascript: pageTracker._trackPageview('/festivaldeverao');" target="_blank"><img width="130" height="120" alt="Brasil Doc" src="banners/festivaldeverao.png" /></a></div-->
+            
+            <div><a href="http://www.ufmg.br/brasildoc/" onClick="javascript: pageTracker._trackPageview('/brasildoc');" target="_blank"><img width="130" height="120" alt="Brasil Doc" src="banners/brasildoc.png" /></a></div>
+
+            <!--div><a href="http://www.ufmg.br/trote/" onClick="javascript: pageTracker._trackPageview('/trote');" target="_blank"><img width="130" height="120" alt="Trote" src="banners/banner_trote.jpg" /></a></div-->
+
+            <!--div><a href="https://www.ufmg.br/periodicos/" onClick="javascript: pageTracker._trackPageview('/periodicos');" target="_blank"><img width="130" height="120" alt="Trote" src="banners/periodicos.png" /></a></div-->
+
+						<div><a href="http://www.ufmg.br/meulugar/" onClick="javascript: pageTracker._trackPageview('rotativo/meulugar');" target="_blank"><img width="130" height="120" alt="Sisu" src="banners/banner_meulugar.png" /></a></div>
+
+						<div><a href="https://play.google.com/store/apps/details?id=com.alelu.ufmguia&hl=pt_BR" onClick="javascript: pageTracker._trackPageview('rotativo/app_meulugar');" target="_blank"><img width="130" height="120" alt="Sisu" src="banners/app_meulugar.png" /></a></div>
+
+            <!--div><a href="http://bit.ly/1M5t0uo" onClick="javascript: pageTracker._trackPageview('/online/arquivos/041375.shtml');" target="_blank"><img width="130" height="120" alt="Participa UFMG" src="banners/participa-UFMG-2.png" /></a></div-->
+
+            <!--div><a href="https://www2.ufmg.br/polojequitinhonha/Noticias/17.a-Feira-de-Artesanato-do-Vale-do-Jequitinhonha-UFMG-2016" onClick="javascript: pageTracker._trackPageview('rotativo/feira_artesanato_jequitinhonha_2016');" target="_blank"><img width="130" height="120" alt="Feira do Jequitinhonha" src="banners/feira_artesanato_jequitinhonha_2016.png" /></a></div-->
+
+            <!--div><a href="/nomesocial" onClick="javascript: pageTracker._trackPageview('/nomesocial');" target="_blank"><img width="130" height="120" alt="Nome social" src="banners/nomesocial.png" /></a></div-->
+
+						<!-- <div><a href="http://www.cultura.ufmg.br/index.php?option=com_content&view=article&id=1436&Itemid=177" onClick="javascript: pageTracker._trackPageview('/menucultura');" target="_blank"><img width="130" height="120" alt="Mostra das ProfissÃµes" src="banners/menucultura.png" /></a></div> -->
+
+						<!-- <div><a href="https://www.ufmg.br/festivaldeverao/" onClick="javascript: pageTracker._trackPageview('/menucultura');" target="_blank"><img width="130" height="120" alt="Festival de VerÃ£o 2015" src="banners/banner-festivalverao.jpg" /></a></div> -->
+
+            <!--div><a href="https://www.ufmg.br/festivaldeverao/" onClick="javascript: pageTracker._trackPageview('/festivaldeverao2016');" target="_blank"><img width="130" height="120" alt="Festival de Verão 2016" src="banners/festivalverao2016_banner.png" /></a></div-->
+            
+			      <!--div><a href="https://www2.ufmg.br/mostradasprofissoes" onClick="javascript: pageTracker._trackPageview('www2.ufmg.br/mostradasprofissoes');" target="_blank"><img width="130" height="120" alt="Trote" src="banners/Banner-rotativo_Mostra2014_130x120px.png" /></a></div-->
+
+			      <!-- <div><a href="http://www.ufmg.br/semanadoconhecimento" onClick="javascript: pageTracker._trackPageview('/semanadoconhecimento');" target="_blank"><img width="130" height="120" alt="Semana do Conhecimento 2015" src="banners/semana-conhecimento-2015.png" /></a></div> -->
+			            
+						<!-- <div><a href="https://www.ufmg.br/online/arquivos/039289.shtml" onClick="javascript: pageTracker._trackPageview('rotativo/sbpc');" target="_blank"><img width="130" height="120" alt="Sisu" src="banners/SBPC_homeufmg.png" /></a></div> -->
+
+						<!--div><a href="https://www.ufmg.br/copeve/site_novo"/ onClick="javascript: pageTracker._trackPageview('rotativo/app_meulugar');" target="_blank"><img width="130" height="120" alt="Sisu" src="banners/vestibulares2.png" /></a></div-->
+
+						<!--div><a href="/sisu" onClick="javascript: pageTracker._trackPageview('sisu');" target="_blank"><img width="130" height="120" alt="Sisu" src="/banners/sisu2015.png" /></a></div-->
+
+						<!-- <div><a href="https://www.ufmg.br/revistaufmg/" onClick="javascript: pageTracker._trackPageview('/revistaufmg');" target="_blank"><img width="130" height="120" alt="Revista da UFMG" src="banners/revistaufmg.png" /></a></div> -->
+						
+			      <!--div><a href="https://www.ufmg.br/copeve/" onClick="javascript: pageTracker._trackPageView('rotativo/copeve');" target="_blank"><img src="banners/vestibular_2015_hab_especificas.jpg" width="130" height="120" alt="" /></a></div-->
+
+			      <!--div><a href="https://www.ufmg.br/online/arquivos/031745.shtml" onClick="javascript: pageTracker._trackPageview('rotativo/ufmg_sem_preconceito_2014');"><img alt="UFMG Sem Preconceito" src="banners/ufmg_sem_preconceito_2014.jpg" width="130" height="120" /></a></div-->
+
+						<!--div><a href="http://bit.ly/1hzvsgr"><img alt="" src="banners/banner_garcas.gif" width="130" height="120" /></a></div-->
+						
+						<!--div><a href="https://www2.ufmg.br/polojequitinhonha/Noticias/Vem-ai-a-15a-Feira-de-Artesanato-do-Vale-do-Jequitinhonha" onClick="javascript: pageTracker._trackPageview('rotativo/feira_artesanato_jequitinhonha_2014');" target="_blank"><img alt="" src="banners/feira_artesanato_jequitinhonha_2014.png" width="130" height="120" /></a></div-->
+					
+						<!-- <div><a href="http://www.bibliotecadigital.ufmg.br/" onClick="javascript: pageTracker._trackPageview('rotativo/biblioteca_teses_dissertacoes');" target="_blank"><img alt="" src="banners/biblioteca_teses_dissertacoes.jpg" width="130" height="120" /></a></div> -->
+
+						<!--div><a href="http://46festivalufmg.wordpress.com/" onClick="javascript: pageTracker._trackPageview('rotativo/46_festival_inverno');" target="_blank"><img alt="" src="banners/banner_02_130x120.gif" width="130" height="120" /></a></div-->
+					
+						<!--div><a href="https://www.ufmg.br/conhecimentoecultura" onClick="javascript: pageTracker._trackPageview('rotativo/conhecimento_e_cultura_2013');" target="_blank"><img alt="" src="banners/conhecimentoecultura_2013.jpg" width="130" height="120" /></a></div-->
+			
+						<!--div><a href="https://www.ufmg.br/revistaufmg" onClick="javascript: pageTracker._trackPageview('rotativo/chamada_de_artigo_revista_ufmg');" target="_blank"><img alt="" src="banners/revistaufmg_chamadadeartigos.jpg" width="130" height="120" /></a></div-->
+			
+						<!--div><a href="https://www.ufmg.br/copeve/site_novo" onClick="javascript: pageTracker._trackPageview('rotativo/cp_tu_coltec_2014');" target="_blank"><img alt="CP,TU,COLTEC 2014" src="banners/cp_tu_coltec2014.png" width="130" height="120" /></a></div-->
+			
+						<!--div><a href="https://www.ufmg.br/proex/revistainterfaces" onClick="javascript: pageTracker._trackPageview('rotativo/revista_interfaces_proex');" target="_blank"><img alt="" src="banners/chamada_revista_interfaces_proex.png" width="130" height="120" /></a></div-->
+			
+						<!--div><a href="https://www.ufmg.br/dri/ufmgdomundo" onClick="javascript: pageTracker._trackPageview('rotativo/ufmg_do_mundo');" target="_blank"><img alt="" src="banners/banner_domundo.jpg" width="130" height="120" /></a></div-->
+					
+						<!--div><a href="http://www.ufmg.br/prograd" onClick="javascript: pageTracker._trackPageview('rotativo/revalidacao');" target="_blank"><img alt="" src="banners/banner_revalidacao.jpg" width="130" height="120" /></a></div-->
+					
+						<!--div><a href="https://www2.ufmg.br/concursos/Concursos/Tecnico-Administrativo/Concurso-2013-Cargos-Tecnico-Administrativos" onClick="javascript: pageTracker._trackPageview('rotativo/concurso');" target="_blank"><img alt="" src="banners/2013-05-concurso.png" width="130" height="120" /></a></div-->
+					
+						<!-- <div><a href="http://somos.ufmg.br/" onClick="javascript: pageTracker._trackPageview('rotativo/somos');" target="_blank"><img alt="" src="banners/somos.png" width="130" height="120" /></a></div> -->
+                        
+					  <!--div><a href="https://www.ufmg.br/revistaufmg/" onClick="javascript: pageTracker._trackPageview('rotativo/arquivos');" target="_blank"><img alt="" src="banners/revista_ufmg.png" width="130" height="120" /></a></div-->
+
+						<!--div><a href="//www.ufmg.br/online/arquivos/anexos/cartilha-condutas-vedadas-aos-agentes-publicos-federais-em-eleicoes-2014.pdf" onClick="javascript: pageTracker._trackPageview('rotativo/cartilha_conduta_agentes_publicos_eleicoes');" target="_blank"><img alt="" src="banners/cartilha_conduta_agentes_publicos_eleicoes.png" width="130" height="120" /></a></div-->
+					
+						<!--div><a href="//www.ufmg.br/relatoriodegestao/2010-2014/" onClick="javascript: pageTracker._trackPageview('rotativo/relatoriogestao_2010_2014');" target="_blank"><img alt="" src="banners/relatorio-gestao-2010-2014.png" width="130" height="120" /></a></div-->
+                        
+            <!--div><a href="https://www2.ufmg.br/prograd/prograd/Pro-Reitoria-de-Graduacao/Noticias/Divulgado-o-Edital-de-Revalidacao-de-Diplomas-de-Graduacao-UFMG-2014" onClick="javascript: pageTracker._trackPageview('rotativo/revalidacao');" target="_blank"><img alt="" src="banners/revalidacao_2014.jpg" width="130" height="120" /></a></div-->
+					   
+						<!--div><a href="https://www.ufmg.br/proex/cpinfo/agendain/" onClick="javascript: pageTracker._trackPageview('rotativo/AgendaIn');" target="_blank"><img alt="" src="banners/agendaIn.jpg" width="130" height="120" /></a></div-->
+						
+						<!--div><a href="http://www.fump.ufmg.br/" onClick="javascript: pageTracker._trackPageview('rotativo/fump');" target="_blank"><img alt="" src="banners/banner_fump.png" width="130" height="120" /></a></div-->
+			
+						<!--div><a href="http://www.ufmg.br/ufmgtube" onClick="javascript: pageTracker._trackPageview('rotativo/ufmgtube');" target="_blank"><img alt="" src="banners/ufmg_tube_banner_virtual.jpg" width="130" height="120" /></a></div-->
+						
+					</div>
+				</div>
+				<div id="paginacao">
+					<ul class="pagination"></ul>	
+				</div>
+			</div>
+      
+			<!-- <div><a href="https://www.ufmg.br/festivaldeverao/" onClick="javascript: pageTracker._trackPageview('/menucultura');" target="_blank"><img width="130" height="120" alt="Festival de VerÃ£o 2015" src="banners/banner-festivalverao.jpg" /></a></div> -->
+			<!-- <div><a href="http://www.ufmg.br/sisu/" onClick="javascript: pageTracker._trackPageview('rotativo/sisu');" target="_blank"><img width="130" height="120" alt="Sisu" src="banners/sisu_2014_b.png" /></a></div> -->
+      <!-- <div><a href="http://www.ufmg.br/trote/" onClick="javascript: pageTracker._trackPageview('rotativo/trote');" target="_blank"><img width="130" height="120" alt="Trote" src="banners/banner_trote.jpg" /></a></div> -->
+
+			<div id="banners_esquerda">
+
+				<span><a href="/ouvidoria" id="ouvidoria" onClick="javascript: pageTracker._trackPageview('ouvidoria');">Ouvidoria</a></span>
+                
+				<span><a href="https://www2.ufmg.br/comissaoetica" id="comissaoetica" onclick="javascript: pageTracker._trackPageview('comissaoetica');">Comiss&atilde;o de &Eacute;tica</a></span>
+                
+			<!--
+				<span><a href="http://www.periodicos.capes.gov.br.ez27.periodicos.capes.gov.br" id="capes" onClick="javascript: pageTracker._trackPageview('capes');">Capes</a></span>
+				<span><a href="/reuni" id="reuni" onClick="javascript: pageTracker._trackPageview('reuni');">Reuni</a></span>
+				-->
+				<span>
+					<img src="images/redes.jpg" border="0" usemap="#Map"/>
+					<map name="Map" id="Map">
+						<area shape="rect" coords="14,-3,59,51" href="http://www.twitter.com/ufmgbr" alt="twitter" onClick="javascript: pageTracker._trackPageview('twitter.com/ufmgbr');" />
+						<area shape="rect" coords="69,-2,112,49" href="http://www.facebook.com/ufmgbr" alt="facebook" onClick="javascript: pageTracker._trackPageview('facebook.com/ufmgbr');" />
+					</map>
+				</span>
+			</div>
+
+			
+
+		</div>
+	</div>
+    <div id="conteudo_centro">
+        <!-- <p style="margin-bottom: 20px;"><a href="https://www.ufmg.br/online/arquivos/039289.shtml" target="_blank"><img src="banners/sbpc-banner-site.jpg" alt="69ª Reunião Anual da SBPC" /></a></p> -->
+		<!-- banner antes de "Notícias"
+		<a href="http://www.ufmg.br/copeve/" onClick="javascript: pageTracker._trackPageview('banner/editalVest2014');" style="display:block;width:395px;height:45px;margin-bottom:30px"><img src="banners/vest_2014.png" alt="Vestibular UFMG 2014" /></a>
+		-->
+
+		<!--Noticias de Consulta à Comunidade-->
+		<!--include virtual="/online/lista-noticias-consulta_comunidade_reitoria.html"-->
+
+		<!--Noticias do UFMG, meu lugar-->
+    <!--include virtual="/online/lista-noticias-ufmg-meu-lugar.html"-->
+            
+    <!--Noticias de Domingo no Campus-->
+		<!--include virtual="/online/lista-noticias-domingo_no_campus.html"-->
+        
+    <!--Festival de Inverno da UFMG-->
+    <!--include virtual="/online/fi_abertura.html"-->
+
+    <!--Matrícula-->
+    <!--include virtual="/online/li_matricula.html"-->
+
+    <!--Noticias de Eschwege 50 anos-->
+		<!--include virtual="/online/lista-noticias-eschwege50anos.html"-->
+
+    <!--Noticias sobre a Mostra das Profissões e UFMG Jovem-->
+		<!--include virtual="/online/lista-noticias-mostra-profissoes-ufmg-jovem.html"-->
+        
+		<!--Noticias do Sisu e Vestibular 2016-->
+    <!--include virtual="/online/lista-noticias-sisu-e-vestibular-2016.html"-->
+
+    <!--Noticias do Sisu e Vestibular-->
+    <!--include virtual="/online/lista-noticias-sisu-e-vestibular.html"-->
+        
+    <!--Notícias Reunião SBPC 2016-->
+    <!--include virtual="/online/lista-noticias-reuniao_sbpc.html"-->
+        
+		<!--Festival de Inverno da UFMG-->
+		<!--include virtual="/online/fi_abertura.html"-->
+
+    <!--Noticias do Seminário de Diamantina-->
+    <!--include virtual="/online/lista_noticias_seminario_diamantina.html"-->
+		
+	  <!--Noticias de Conferência das Humanidades-->
+    <!--include virtual="/online/lista-noticias-conferencia_das_humanidades.html"-->
+		
+	  <!--Noticias sobre a semana do conhecimento -->
+	  <!--include virtual="/online/lista-noticias-semanadoconhecimento.html"-->
+        
+    <!--Noticias sobre a semana do servdor -->
+	  <!--include virtual="/online/lista-noticias-semanadoservidor.html"-->
+    
+	  <!--Noticias de Entrevistas-->
+    <!--include virtual="/online/lista-noticias-entrevistas.html"-->
+		
+    <!--Festival de Verão-->
+    <!--include virtual="/online/cat_festivaldeverao.html"-->
+        
+    <!--Noticias do Sisu UFMG-->
+		<!--include virtual="/online/lista-noticias-sisu.html"-->
+        
+    <!--Notícias Volta às aulas-->
+    <!--include virtual="/online/lista-noticias-volta-as-aulas.html"-->
+
+    <!--Notícias UFMG 90 anos-->
+    <h2 style="padding:0px 0 10px">UFMG 90 anos</h2>
+  <ul class="lista_noticias" style="margin-bottom:20px">
+		
+      <li><a href="https://www.ufmg.br/online/arquivos/047043.shtml">28/03 - Planetário e fachada digital do Espaço do Conhecimento vão projetar produção da UFMG; inscrições até quinta</a></li>
+      <li><a href="https://www.ufmg.br/online/arquivos/047014.shtml">24/03 - Trajetórias do Cedeplar e do BDMG são relembradas em seminário na Face</a></li>
+  
+    <li><a href="/online/arquivos/cat_ufmg_90_anos.shtml">
+Mais not&iacute;cias sobre UFMG 90 anos &rarr;
+</a></li>
+</ul>
+
+
+    <!--Noticias de Pesquisa e Inovação-->
+	  <h2 style="padding:0px 0 10px">Pesquisa e Inova&ccedil;&atilde;o</h2>
+  <ul class="lista_noticias" style="margin-bottom:20px">
+		
+      <li><a href="https://www.ufmg.br/online/arquivos/047031.shtml">27/03 - Estudo da Faculdade de Farmácia identifica baixa presença de pesticidas em amostras de mel</a></li>
+  
+    <li><a href="/online/arquivos/cat_pesquisa_e_inovacao.shtml">
+Mais not&iacute;cias sobre Pesquisa e Inova&ccedil;&atilde;o &rarr;
+</a></li>
+</ul>
+
+
+    <!--Noticias da UFMG-->
+		<h2 style="padding:0px 0 10px">Not&iacute;cias da UFMG</h2>
+		<ul class="lista_noticias">
+			<li><a href="https://www.ufmg.br/online/arquivos/047051.shtml">28/03 - Cedeplar promove seminário nesta quarta para debater diversificação e sofisticação da economia mineira</a></li><li><a href="https://www.ufmg.br/online/arquivos/047042.shtml">28/03 - Espetáculo de dança e teatro que valoriza os sentidos será apresentado amanhã, no auditório da Reitoria</a></li><li><a href="https://www.ufmg.br/online/arquivos/047045.shtml">28/03 - Dona Jandira recebe Dona Elisa e Rita Silva em show no Quarta Cultural</a></li><li><a href="https://www.ufmg.br/online/arquivos/047018.shtml">28/03 - UFMG sediará congresso internacional sobre relação entre dança, autismo e educação</a></li><li><a href="https://www.ufmg.br/online/arquivos/047037.shtml">28/03 - Concerto no Conservatório celebra 80 anos de Steve Reich, o pai do 'sampling'</a></li><li><a href="https://www.ufmg.br/online/arquivos/047041.shtml">28/03 - Professora da Comunicação fala hoje na Fafich sobre direito à educação bilíngue</a></li><li><a href="https://www.ufmg.br/online/arquivos/047047.shtml">28/03 - Empresa júnior promove evento sobre empreendedorismo em saúde, esporte e lazer nesta semana</a></li><li><a href="https://www.ufmg.br/online/arquivos/047035.shtml">28/03 - Pianista Ana Claudia de Assis, professora da Escola de Música, seleciona obras para CD e concertos</a></li><li><a href="https://www.ufmg.br/online/arquivos/047040.shtml">27/03 - Eventos científicos organizados na UFMG receberão apoio financeiro da Fapemig</a></li><li><a href="https://www.ufmg.br/online/arquivos/047032.shtml">27/03 - Boletim destaca edição comemorativa dos 50 anos da Revista Literária</a></li>
+			<li><a href="/online/">Mais not&iacute;cias &rarr;</a></li>
+		</ul>
+    
+		<div id="informacoes_gerais">
+			<h2>Departamento de Registro e Controle Acad&ecirc;mico - DRCA</h2><span>:</span>
+			<ul>
+				<li>Consulta aos dados acad&ecirc;micos: <a href="https://sistemas.ufmg.br/iagWeb/">Gradua&ccedil;&atilde;o</a> e <a href="https://sistemas.ufmg.br/iagWeb/">P&oacute;s-gradua&ccedil;&atilde;o</a>.</li>
+				<li><a href="/drca">Informa&ccedil;&otilde;es sobre transfer&ecirc;ncias para a UFMG, reop&ccedil;&atilde;o, rematr&iacute;cula e obten&ccedil;&atilde;o de novo t&iacute;tulo.</a></li>
+			</ul>
+			<p id="sempre_ufmg">Programas</p><span class="foto_sempre_ufmg">:</span>
+			<ul>
+				<li><a href="/copi/sempre_index.shtml" onClick="javascript: pageTracker._trackPageview('sempreUFMG');">Conhe&ccedil;a o Programa Sempre UFMG (Ex-Alunos)</a></li>
+			</ul>
+			<p id="dri" onClick="javascript: pageTracker._trackPageview('/dri');">Internacional</p><span class="foto_dri">:</span>
+			<ul>
+				<li><a href="/dri">Diretoria de Rela&ccedil;&otilde;es Internacionais da UFMG - projetos e conv&ecirc;nios interuniversit&aacute;rios.</a></li>
+			</ul>
+            <p id="prorh">Pr&oacute;-reitoria de Recursos Humanos</p>
+            <span class="foto_prorh"></span>
+			<ul>
+				<li>
+				  <!--a href="http://www2.ufmg.br/concursos/Concursos/Quadro-de-vagas" onClick="javascript: pageTracker._trackPageview('www2.ufmg.br/concursos/Concursos/Quadro-de-vagas');"-->
+          <a href="/prorh" onClick="javascript: pageTracker._trackPageview('/prorh');" >Acesse formul&aacute;rios, programas e not&iacute;cias do setor</a>
+        </li>
+			</ul>
+			<!--p id="relat_gestao">Processos de Contas Anuais</p>
+			<span class="foto_relat_gestao"></span>
+			<ul>
+				<li>
+					<a href="https://www2.ufmg.br/proplan/proplan/home/Servicos/Gestao-da-Informacao/Prestacao-de-Contas-da-UFMG">RelatÃ³rio de gestÃ£o.</a>
+				</li>
+				<li>
+					<a href="https://www2.ufmg.br/proplan/proplan/home/Servicos/Gestao-da-Informacao/Prestacao-de-Contas-da-UFMG">RelatÃ³rio e Certificado de Auditoria e Parecer do Dirigente do Controle Interno.</a>
+				</li>
+			</ul-->
+		</div>
+	</div>
+	<div id="conteudo_direita">
+		<!-- inserir conteÃºdo nas pÃ¡ginas internas; na inicial, o banner estÃ¡ no final e tem posiÃ§Ã£o absoluta -->
+	</div>
+	<div id="banners">
+		<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fufmgbr&amp;send=false&amp;layout=button_count&amp;locale=pt_BR&amp;width=120&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=trebuchet+ms&amp;height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:120px;/*58px*/ height:25px; position: absolute; /*right:38px;*/ top:-77px;" allowTransparency="true"></iframe>
+		<div id="banners_direita">
+			<span style="font:bold 17px 'Trebuchet MS', Arial, Helvetica, sans-serif;">Galeria UFMG</span>
+			<div id="cesc" style="width:130px; height:130px;">
+    			<p>Habilite o JavaScript do seu navegador para ver a galeria.</p>
+			</div>
+			<div id="bann_nav">
+				<a href="#l" class="l" onclick="cesc.left()" title="Anterior">&nbsp;</a>
+				<a href="#p" class="p" onclick="cesc.play()" title="Pause/Play">&nbsp;</a>
+				<a href="#r" class="r" onclick="cesc.right()" title="PrÃ³xima">&nbsp;</a>
+			</div>
+			<p id="bann_p"><a href="https://www.flickr.com/photos/galeriaufmg/sets/72157629518127380" onClick="javascript: pageTracker._trackPageview('flickr.com/galeriaufmg');">veja todas as fotos</a></p>
+			<script>
+			var cesc = $('#cesc').flickrshow({
+				user:'73354383@N05',
+				autoplay:true,
+				interval:6000,
+				hide_buttons:true,
+				per_page:200,
+				extras:2,
+				set:'72157629518127380'
+			});
+			</script>
+			<h2><a href="http://minha.ufmg.br" id="minha_ufmg" onClick="javascript: pageTracker._trackPageview('minhaUFMG');">minhaUFMG</a></h2>
+			<h2 class="sem_borda"><a href="/online/radio" id="radio_ufmg" onClick="javascript: pageTracker._trackPageview('radioUFMGeducativa');">R&aacute;dio UFMG Educativa</a></h2>
+			<a href="http://www.ufmg.br/online/radio/aovivo.php" title="Ou&ccedil;a ao vivo" class="popupwindow" rel="windowCenter" onClick="javascript: pageTracker._trackPageview('radioUFMGeducativa');">Ou&ccedil;a ao vivo</a> 
+			<h2><a href="/online/tv" id="tv_ufmg" onClick="javascript: pageTracker._trackPageview('tvUFMG');">TV UFMG</a></h2>
+			<h2><a href="http://www.ufmg.br/boletim/bol1970/" id="boletim" onClick="javascript: pageTracker._trackPageview('boletim');">Boletim</a></h2>
+			<h2><a href="http://minha.ufmg.br" id="clipping" onClick="javascript: pageTracker._trackPageview('clipping');">Clipping UFMG</a></h2>
+            
+            <a href="http://www.ufmg.br/diversa/20/" id="diversa" onClick="javascript: pageTracker._trackPageview('diversa');"><img src="diversa/logo_1.png"/></a>
+        	
+        <a href="http://www.ufmg.br/narede" id="narede" ><img src="narede/ufmgnarede-index.png"/></a>
+            
+		</div>
+        
+	</div>
+	<div id="rodape">
+		<p><strong>Universidade Federal de Minas Gerais</strong><br />
+		Av. Ant&ocirc;nio Carlos, 6627 - Pampulha - Belo Horizonte - MG<br />
+		CEP 31270-901 - Fone: +55 (31) 3409.5000</p>
+		<p id="copyright">&copy; 2000-2014, Universidade Federal de Minas Gerais</p>
+	</div>
+</div>
+<div id="barra_gov">
+	<small id="me">Minist&eacute;rio da Educa&ccedil;&atilde;o</small>
+	<small id="br">Brasil, um pa&iacute;s de todos</small>
+	<form id="form1" name="form1" method="post" action="">
+		<select name="select" id="destgov">
+			<option value="">Destaques do governo</option>
+			<option value="http://www.brasil.gov.br">Portal do Governo Federal</option>
+			<option value="http://www.e.gov.br">Portal de Servi&ccedil;os do Governo</option>
+			<option value="http://www.radiobras.gov.br">Portal da Ag&ecirc;ncia de Not&iacute;cias</option>
+			<option value="http://www.fomezero.gov.br">Programa Fome Zero</option>
+			<option value="http://www.siapenet.gov.br">Siapenet</option>
+		</select>
+	</form>
+</div>
+<script type="text/javascript">
+		var _gaq = _gaq || [];
+        
