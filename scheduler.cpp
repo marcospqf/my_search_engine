@@ -8,7 +8,7 @@ unordered_set<long long> Scheduler::visited;
 unordered_map<long long, double> Scheduler::last_time;
 const long long  B=193;
 const int MAX_HEAP=1e4;
-double step=2.0;
+double step=35;
 
 Scheduler::Scheduler() {}
 
@@ -25,9 +25,8 @@ Scheduler::url::url(const string &s, const string &d){
 	int x=0;
 	for(char c: d){
 		if(c>='a' and c<='z') x+=c-'a';
-		else x+=5;
 	}
-	priority=(++peso[x])*1000+x;
+	priority=(++peso[x])*peso[x]+d.size();
 }
 
 void Scheduler::PushUrl(const string &s,const string &domain, bool inside){
@@ -49,7 +48,6 @@ void Scheduler::PushUrl(const string &s,const string &domain, bool inside){
 		for(char c: s) hp=hp*B+c;
 		if(!visited.count(hp)) {
 			visited.insert(hp);
-
 			Scheduler::outside_url.insert(cur);
 		}
 	}
@@ -74,10 +72,8 @@ bool Scheduler::thistime(double x){
 }
 
 string Scheduler::TopUrl(){
-	//cout<<inside_url.size()+outside_url.size()<<endl;
-	int q=rand();
-	if(q%5==0) q=1;
-	else q=0;
+	//if(inside_url.size()+outside_url.size()==0) cout<<"ENNNNND";
+	int q=rand()&1;
 	if(q){
 		if(inside_url.empty()) q=!q;
 	}
@@ -97,9 +93,9 @@ string Scheduler::TopUrl(){
 				return s.name;
 			}
 			else{
-				s.priority++;
+				s.priority+=50;
 				inside_url.insert(s);
-			}
+			}	
 		}
 	}
 	else{
@@ -114,9 +110,8 @@ string Scheduler::TopUrl(){
 				return s.name;
 			}
 			else{
-				//cout<<s.name<<endl;
-				//s.priority++;
-				//outside_url.insert(s);
+				s.priority+=50;
+				outside_url.insert(s);
 			}
 		}
 	}
