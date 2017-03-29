@@ -1,0 +1,2446 @@
+|||http://forum.techtudo.com.br/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>TechTudo - Fórum de Tecnologia</title>
+
+    <meta name="description" content="Pergunte, responda e vote nas melhores colaborações! Acesse o fórum de tecnologia do TechTudo e tire dúvidas sobre informática, celulares, jogos e outros.">
+    <meta name="keywords" content="dicas, techtudo, forum, perguntas e respostas, tecnologia">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+    <meta property="fb:app_id" content="289255557788943">
+    <meta property="og:image" content="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/logo-opengraph.png">
+
+    
+    
+        <link rel="canonical" href="http://forum.techtudo.com.br/" />
+    
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feeds/rss">
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    
+
+    <link rel="shortcut icon" href="/m/default/media/images/favicon.ico" />
+
+    <link href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/style/style.css" rel="stylesheet" type="text/css" />
+
+    
+      <link href="/cstyle.css" rel="stylesheet" type="text/css" />
+    
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+
+    <link rel="stylesheet" href="http://barra.globo.com/nova/css/barra-globocom.min.css" type="text/css" />
+
+    <link rel="stylesheet" href="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/css/240f741db5fd.css" type="text/css" />
+
+    
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        google.load("jquery", "1.4.2");
+        google.load("jqueryui", "1", {autoload:true});
+    </script>
+
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        var i18nLang = 'pt_BR';
+        var scriptUrl = '/'
+        var osqaSkin = 'techtudo';
+
+        var messages = {
+            username: '',
+            confirm: "Tem certeza?",
+            yes: "Sim",
+            no: "Não",
+            message: "Mensagem",
+            cancel: "Cancelar",
+            close: "Fechar",
+            ok: "Ok",
+            matching_tags_url: "/tags_relacionadas/",
+            word: "word",
+            words: "palavras",
+            character: "character",
+            characters: "caracteres"
+        }
+
+        var glb = this.glb || {};
+        glb.barra = {
+            exibeAssineJa: true,
+            exibeCentral: true,
+            iframe: false,
+            itemCustomizado: {
+                cor: "#666666",
+                texto: "tecnologia",
+                url: "http://www.techtudo.com.br/"
+            }
+        };
+        (function() {
+            var s = document.createElement("script");
+            s.type = "text/javascript";
+            s.async = true;
+            s.charset = "utf-8";
+            s.src = "http://barra.globo.com/nova/js/barra-globocom.min.js";
+            var ss = document.getElementsByTagName("script")[0];
+            ss.parentNode.insertBefore(s, ss);
+        })();
+    /* ]] */
+    </script>
+
+    <script type="text/javascript" src="http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/CACHE/js/603f54a337ce.js"></script>
+
+    
+      <style type="text/css">
+          body { margin-top:2.4em; }
+      </style>
+      <script type="text/javascript">
+          $(document).ready(function() {
+              var element = $('#validate_email_alert');
+              element.click(function(){notify.close(true);})
+              notify.show();
+          });
+      </script>
+    
+
+    
+
+    
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Techtudo-Forum Search" />
+
+    
+
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <!-- TEALIUM -->
+<script type="text/javascript">
+
+    var utag_data = {"ad_site_page": "techtudo/forum/home", "vertical": "", "site_template_ideal": "Desktop", "video_zoneid": "", "colaborador": "", "site_template_servido": "", "plataforma": "Forum", "hierarquia": "", "data_publicacao": "", "page_name": "Home", "structure_tree": "[\"techtudo\", \"forum\", \"home\"]", "downloadable": "", "data_atualizacao": ""};
+
+</script>
+
+
+    <script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.tiqcdn.com/utag/globo/editoraglobo/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script>
+
+    
+  </head>
+
+  <body>
+    <div id="cabecalho" class="show-for-small-only"><div id="header-produto"><div class="opec-area opec-mobile opec-x60 grid-12">
+    <div class="opec-internal">
+        
+        <div id="banner_mobile_topo" class="tag-manager-publicidade-container"></div>
+    </div>
+</div></div></div>
+
+    <div id="content">
+      <div><div id="banner_floating" class="tag-manager-publicidade-container"></div></div>
+      <div class="notify" style="display:none">
+        
+          
+            
+              <p class="darkred">Primeira vez aqui? Confira o <a href="/faq/">FAQ</a>!</p>
+            
+          
+        
+        <a id="close-notify" onclick="notify.close(true)">&times;</a>
+      </div>
+
+        
+
+        <!-- template header.html -->
+
+
+<div id="header-techtudo">
+  <div class="row">
+    <a href="http://techtudo.com.br" class="brand" title="ir para o TechTudo">Techtudo</a>
+
+    <div class="logo-area">
+      <h1 class="logo">
+        <a href="/" title="voltar para a página principal">Fórum</a>
+      </h1>
+    </div>
+
+    <div id="top">
+       <a href="https://login.globo.com/login/4146?url=http%3A%2F%2Fforum.techtudo.com.br%2Fconta%2Fcadun%2Fpronto%2F" >login</a>  <a href="/sobre/" >sobre</a>  <a href="/faq/" >faq</a> 
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div id="roof" class="small-12 column">
+    <div class="row navbar">
+      <ul id="nav">
+        <li><a id="nav_questions" class="on" href="/perguntas/" >perguntas</a></li><li><a id="nav_tags" href="/tags/" >tags</a></li><li><a id="nav_users" href="/usuarios/" >usuários</a></li><li><a id="nav_badges" href="/trofeus/" >troféus</a></li><li><a id="nav_unanswered" href="/perguntas/nao_respondidas/" >não respondidas</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="searchBar">
+  <div class="row">
+    <div class="row">
+      <form action="/buscar/" method="get" class="medium-8 small-12 column">
+        <input type="text" class="searchInput" value="" name="q" id="keywords" />
+        <button type="submit" name="Submit" class="searchBtn">buscar</button>
+        <div class="options" style="display:none;">
+            <input id="type-nav_questions" type="radio" value="question" name="t" checked="checked" /><label for="type-question">perguntas</label>
+            <input id="type-nav_tags" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-nav_users" type="radio" value="user" name="t" /><label for="type-user">usuários</label>
+        </div>
+      </form>
+      <script>
+          function selecionaTipoConteudoParaBuscaTextual() {
+              //zera o que estiver marcado
+              $("#searchBar .options input[type=radio]").removeAttr("checked");
+              var inputRadioId = "#type-" + $("#nav").find(".on").attr("id")
+
+              if($(inputRadioId).length > 0){
+                $(inputRadioId).attr("checked", true);
+              } else {
+                  //default perguntas
+                $("#type-nav_questions").attr("checked", true);
+              }
+          }
+          $(document).ready(function() {
+            selecionaTipoConteudoParaBuscaTextual();
+          });
+      </script>
+      <div class="askBtn-wrapper medium-4 column">
+        <a id="nav_ask" href="/perguntas/pergunte/" class="askBtn">faça uma pergunta</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- end template header.html -->
+
+
+      <div class="osqa-content row">
+        
+    
+
+    <div id="wrapper" class="small-12 column">
+        
+
+        <div id="room">
+            <div class="row">
+                <div id="head" class="medium-8 small-12 column">
+                    
+                    
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="CALeft" class="medium-8 small-12 column">
+                    
+<div id="questions">
+    <div class="tabBar">
+        
+
+<div class="headQuestions primary-title">
+    
+        
+            
+                
+                    Todas as perguntas
+                
+            
+        
+    
+</div>
+        <a class="feed-icon" style="background-image:url('http://s3.glbimg.com/v1/AUTH_c3907a0b1bc34e0195281f8cc56fbda7/forum_techtudo/techtudo/media/images/feed-icon-small.png');" href="/feeds/rss" title="assinar o feed RSS de perguntas"></a>
+        
+<div class="tabsA"><a id="ativo" href="/perguntas/?ordenacao=ativo" class="on" title="Perguntas atualizadas mais recentemente">ativo</a><a id="novas" href="/perguntas/?ordenacao=novas" title="perguntas feitas mais recentemente">novas</a><a id="maisvotadas" href="/perguntas/?ordenacao=maisvotadas" title="perguntas mais votadas">Mais votadas</a></div>
+
+
+    </div>
+    <div id="listA">
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7" class="views">
+             <div class="item-count">1</div>
+             <div class="numbers-description">visita</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7">Erro Conexão Banco de Dados com XAMP e Wamp com suporte a PHP 7</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 22:00">2 minutos atrás</span>
+            <a href="/usuarios/69443/maschietto/">maschietto</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-banco" href="/tags/banco/" title="veja as perguntas tagueadas 'banco'" rel="tag">banco</a>
+            <a class="tag-link-dreamweaver" href="/tags/dreamweaver/" title="veja as perguntas tagueadas 'dreamweaver'" rel="tag">dreamweaver</a>
+            <a class="tag-link-conexão" href="/tags/conex%C3%A3o/" title="veja as perguntas tagueadas 'conexão'" rel="tag">conexão</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Ao tentar conectar via componente de conexão do Dreamweaver CC2017 dá erro emitindo a mensagem abaixo: 
+Your PHP server doesn´t have the MySQL module loaded or you can´t use the mysql_(p) connect functions.
+Alguém pode me ajudar?
+Obs.: no Xampp ou Wampp com suporte a versões anteriores do PHP a cone" href="/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7" class="views">
+             <div class="item-count">1</div>
+             <div class="numbers-description">visita</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Erro Conexão Banco de Dados com XAMP e Wamp com suporte a PHP 7"
+  data-url="http://forum.techtudo.com.br/perguntas/258454/erro-conexao-banco-de-dados-com-xamp-e-wamp-com-suporte-a-php-7"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre" class="views">
+             <div class="item-count">4</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre">Meu Paint Pro Shop9, não abre</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 21:51">11 minutos atrás</span>
+            <a href="/usuarios/69442/irene/">irene</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-windows" href="/tags/windows/" title="veja as perguntas tagueadas 'windows'" rel="tag">windows</a>
+            <a class="tag-link-erro" href="/tags/erro/" title="veja as perguntas tagueadas 'erro'" rel="tag">erro</a>
+            <a class="tag-link-internet" href="/tags/internet/" title="veja as perguntas tagueadas 'internet'" rel="tag">internet</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Já desinstalei e reinstalei e não resolveu" href="/perguntas/258453/meu-paint-pro-shop9-nao-abre" class="views">
+             <div class="item-count">4</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Meu Paint Pro Shop9, não abre"
+  data-url="http://forum.techtudo.com.br/perguntas/258453/meu-paint-pro-shop9-nao-abre"></div>
+
+</div>
+
+        
+
+            
+                <div class="show-for-small-only">
+    <div class="snippet-plantao-item snippet-plantao-item-ad-x62 questions-x62">
+        <div class='publicidade ad-x62' id="ad-x62">
+            
+            <div id="banner_mobile_meio" class="tag-manager-publicidade-container"></div>
+        </div>
+    </div>
+</div>
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software" class="views">
+             <div class="item-count">31</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software">Valor do Software</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 21:04">57 minutos atrás</span>
+            <a href="/usuarios/20799/marcmira/">marcmira </a><div class="details"><span class="score" title="26659 reputação">(<span class="number-of-reputation ">26.7k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-aplicativos" href="/tags/aplicativos/" title="veja as perguntas tagueadas 'aplicativos'" rel="tag">aplicativos</a>
+            <a class="tag-link-pesquisa" href="/tags/pesquisa/" title="veja as perguntas tagueadas 'pesquisa'" rel="tag">pesquisa</a>
+            <a class="tag-link-topico" href="/tags/topico/" title="veja as perguntas tagueadas 'topico'" rel="tag">topico</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Boa noite pessoal. Estou fazendo uma pesquisa para um trabalho acadêmico. Sou aluno de Sistemas de Informação no Ifes Campus Cachoeiro de Itapemirim. Peço a que vocês por favor que me ajudem respondendo ao questionário no link. Não leva mais de 2 minutos. Desde já agradeço a colaboração!
+https://goo" href="/perguntas/258426/valor-do-software" class="views">
+             <div class="item-count">31</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Valor do Software"
+  data-url="http://forum.techtudo.com.br/perguntas/258426/valor-do-software"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial" class="views">
+             <div class="item-count">9</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial">Como resolver problema no Instagram? Perfil Comercial</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 21:03">58 minutos atrás</span>
+            <a href="/usuarios/69439/afalcao2210/">afalcao2210</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-soluçãodeproblemas" href="/tags/solu%C3%A7%C3%A3odeproblemas/" title="veja as perguntas tagueadas 'soluçãodeproblemas'" rel="tag">soluçãodeproblemas</a>
+            <a class="tag-link-pagina" href="/tags/pagina/" title="veja as perguntas tagueadas 'pagina'" rel="tag">pagina</a>
+            <a class="tag-link-vincular" href="/tags/vincular/" title="veja as perguntas tagueadas 'vincular'" rel="tag">vincular</a>
+            <a class="tag-link-facebook" href="/tags/facebook/" title="veja as perguntas tagueadas 'facebook'" rel="tag">facebook</a>
+            <a class="tag-link-instagram" href="/tags/instagram/" title="veja as perguntas tagueadas 'instagram'" rel="tag">instagram</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Estou com um problema para converter meu perfil pessoal no instagram em um perfil comercial. Ao tentar vincula-lo a uma pagina me deparo com a seguinte mensagem: &quot; A conta do instagram já está vinculada&quot; e nada que eu faço resolve, já tentei:
+
+Desvincular completamente meu facebook do meu instagram " href="/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial" class="views">
+             <div class="item-count">9</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como resolver problema no Instagram? Perfil Comercial"
+  data-url="http://forum.techtudo.com.br/perguntas/258452/como-resolver-problema-no-instagram-perfil-comercial"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap" class="views">
+             <div class="item-count">81</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap">Como recuperar as mensagens não lida do meu numero bloqueado do WhatsZaap</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 20:19">1 uma hora atrás</span>
+            <a href="/usuarios/69317/wlader/">wlader</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-recuperar" href="/tags/recuperar/" title="veja as perguntas tagueadas 'recuperar'" rel="tag">recuperar</a>
+            <a class="tag-link-whatsapp" href="/tags/whatsapp/" title="veja as perguntas tagueadas 'whatsapp'" rel="tag">whatsapp</a>
+            <a class="tag-link-vivo" href="/tags/vivo/" title="veja as perguntas tagueadas 'vivo'" rel="tag">vivo</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="O que aconteceu foi o seguinte, eu desinstalei o WhatsZaap, e depois a porcaria da VIVO bloqueio meu numero, ai não deu para instalar novamente usando meu numero antigo, pois o numero tava bloqueado e não dava para efetuar ativação,   isso ja faz alguns meses, e agora, essa merda da VIVO além de blo" href="/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap" class="views">
+             <div class="item-count">81</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como recuperar as mensagens não lida do meu numero bloqueado do WhatsZaap"
+  data-url="http://forum.techtudo.com.br/perguntas/258222/como-recuperar-as-mensagens-nao-lida-do-meu-numero-bloqueado-do-whatszaap"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email" class="views">
+             <div class="item-count">55</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email">Problemas no Email</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 19:40">2 horas atrás</span>
+            <a href="/usuarios/20799/marcmira/">marcmira </a><div class="details"><span class="score" title="26659 reputação">(<span class="number-of-reputation ">26.7k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-pc" href="/tags/pc/" title="veja as perguntas tagueadas 'pc'" rel="tag">pc</a>
+            <a class="tag-link-computador" href="/tags/computador/" title="veja as perguntas tagueadas 'computador'" rel="tag">computador</a>
+            <a class="tag-link-email" href="/tags/email/" title="veja as perguntas tagueadas 'email'" rel="tag">email</a>
+            <a class="tag-link-problema" href="/tags/problema/" title="veja as perguntas tagueadas 'problema'" rel="tag">problema</a>
+            <a class="tag-link-duvida" href="/tags/duvida/" title="veja as perguntas tagueadas 'duvida'" rel="tag">duvida</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Não sei como posso chamar esse problema, spam, vírus, sei la. Eu to com um problema que os emails que eu envio (são realmente enviados), voltam para minha caixa de entrada dizendo que a entrega foi incompleta e ele volta com o nome da pessoa que eu enviei e, nisso, começa um flood danado, porque dep" href="/perguntas/258384/problemas-no-email" class="views">
+             <div class="item-count">55</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Problemas no Email"
+  data-url="http://forum.techtudo.com.br/perguntas/258384/problemas-no-email"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer#answers" class="status  answered">
+            <div class="item-count">3</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer" class="views">
+             <div class="item-count">701</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer">ES File Explorer não funciona direito: o que fazer?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 19:28">2 horas atrás</span>
+            <a href="/usuarios/69437/carlosxxwx/">carlosxxwx</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-android" href="/tags/android/" title="veja as perguntas tagueadas 'android'" rel="tag">android</a>
+            <a class="tag-link-arquivos" href="/tags/arquivos/" title="veja as perguntas tagueadas 'arquivos'" rel="tag">arquivos</a>
+            <a class="tag-link-cartãosd" href="/tags/cart%C3%A3osd/" title="veja as perguntas tagueadas 'cartãosd'" rel="tag">cartãosd</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer#answers" class="status  answered">
+            <div class="item-count">3</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Utilização do cartão de memória: eu uso o &quot;ES File explorer&quot; como gerenciador de arquivos... Eu não consigo mover um áudio ou uma foto ou pasta para o cartão SD nem consigo deletar o conteúdo dele. Resumindo, eu não posso fazer nada. Alguém me ajuda ???" href="/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer" class="views">
+             <div class="item-count">701</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="ES File Explorer não funciona direito: o que fazer?"
+  data-url="http://forum.techtudo.com.br/perguntas/238221/es-file-explorer-nao-funciona-direito-o-que-fazer"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul" class="views">
+             <div class="item-count">39</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul">COMO RESOLVO O ERRO (NVLDDMKM.SYS) ? TELA AZUL ! ?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 19:20">2 horas atrás</span>
+            <a href="/usuarios/3987/spicy_question/">spicy_question</a><div class="details"><span class="score" title="16020 reputação">(<span class="number-of-reputation ">16.0k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-hardware" href="/tags/hardware/" title="veja as perguntas tagueadas 'hardware'" rel="tag">hardware</a>
+            <a class="tag-link-erro" href="/tags/erro/" title="veja as perguntas tagueadas 'erro'" rel="tag">erro</a>
+            <a class="tag-link-duvida" href="/tags/duvida/" title="veja as perguntas tagueadas 'duvida'" rel="tag">duvida</a>
+            <a class="tag-link-urgente" href="/tags/urgente/" title="veja as perguntas tagueadas 'urgente'" rel="tag">urgente</a>
+            <a class="tag-link-driver" href="/tags/driver/" title="veja as perguntas tagueadas 'driver'" rel="tag">driver</a>
+            <a class="tag-link-computador" href="/tags/computador/" title="veja as perguntas tagueadas 'computador'" rel="tag">computador</a>
+            <a class="tag-link-jogos" href="/tags/jogos/" title="veja as perguntas tagueadas 'jogos'" rel="tag">jogos</a>
+            <a class="tag-link-tela" href="/tags/tela/" title="veja as perguntas tagueadas 'tela'" rel="tag">tela</a>
+            <a class="tag-link-pc" href="/tags/pc/" title="veja as perguntas tagueadas 'pc'" rel="tag">pc</a>
+            <a class="tag-link-games" href="/tags/games/" title="veja as perguntas tagueadas 'games'" rel="tag">games</a>
+            <a class="tag-link-configuração" href="/tags/configura%C3%A7%C3%A3o/" title="veja as perguntas tagueadas 'configuração'" rel="tag">configuração</a>
+            <a class="tag-link-microsoft" href="/tags/microsoft/" title="veja as perguntas tagueadas 'microsoft'" rel="tag">microsoft</a>
+            <a class="tag-link-software" href="/tags/software/" title="veja as perguntas tagueadas 'software'" rel="tag">software</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Galera de uns tempo pra ca minha placa parou por (causa desse erro) supostamente, ele fica dando tela azul quando conecto a placa de video no computador, minha placa de video e uma Asus GeForce GTX 460 DirectCu 1GB GDDR5 PCIe DIRECTCU/2DI/1GD5... e essas sao minhas configurações
+processador :intel c" href="/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul" class="views">
+             <div class="item-count">39</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="COMO RESOLVO O ERRO (NVLDDMKM.SYS) ? TELA AZUL ! ?"
+  data-url="http://forum.techtudo.com.br/perguntas/258443/como-resolvo-o-erro-nvlddmkmsys-tela-azul"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08" class="views">
+             <div class="item-count">16</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08">Como Tirar O Erro Da Tela Preta No OPL 0.8</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 19:18">2 horas atrás</span>
+            <a href="/usuarios/69436/rasante_g/">Rasante_G</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-ps2" href="/tags/ps2/" title="veja as perguntas tagueadas 'ps2'" rel="tag">ps2</a>
+            <a class="tag-link-tela" href="/tags/tela/" title="veja as perguntas tagueadas 'tela'" rel="tag">tela</a>
+            <a class="tag-link-preta" href="/tags/preta/" title="veja as perguntas tagueadas 'preta'" rel="tag">preta</a>
+            <a class="tag-link-games" href="/tags/games/" title="veja as perguntas tagueadas 'games'" rel="tag">games</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="O Meu PS2 Vai De boa no opl mais quando inicio o mk shalin monks da tela preta e nao sai" href="/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08" class="views">
+             <div class="item-count">16</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como Tirar O Erro Da Tela Preta No OPL 0.8"
+  data-url="http://forum.techtudo.com.br/perguntas/258447/como-tirar-o-erro-da-tela-preta-no-opl-08"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a title="esta pergunta tem uma resposta aceita" title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao#answers" class="status answered-accepted answered">
+            <div class="item-count">13</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">81.6k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao">Nokia 3310 novo: o que vocês acharam do celular &#39;tijolão&#39;?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 19:06">2 horas atrás</span>
+            <a href="/usuarios/69435/mi_so/">mi_so</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-nokia" href="/tags/nokia/" title="veja as perguntas tagueadas 'nokia'" rel="tag">nokia</a>
+            <a class="tag-link-celular" href="/tags/celular/" title="veja as perguntas tagueadas 'celular'" rel="tag">celular</a>
+            <a class="tag-link-lançamento" href="/tags/lan%C3%A7amento/" title="veja as perguntas tagueadas 'lançamento'" rel="tag">lançamento</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a title="esta pergunta tem uma resposta aceita" title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao#answers" class="status answered-accepted answered">
+            <div class="item-count">13</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Oi, pessoal!
+O que todos suspeitavam aconteceu: a Nokia relançou o celular tijolão 3310. 
+O aparelho chegou em várias cores: prata (cinza), preto, amarelo e vermelho, e ainda traz o famoso jogo da cobrinha. 
+Mas,ele é bem básico e não roda apps como o WhatsApp, por exemplo. 
+O que vocês acharam da n" href="/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">81.6k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Nokia 3310 novo: o que vocês acharam do celular &#39;tijolão&#39;?"
+  data-url="http://forum.techtudo.com.br/perguntas/256040/nokia-3310-novo-o-que-voces-acharam-do-celular-tijolao"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580" class="views">
+             <div class="item-count">15</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580">Galaxy trend plus gt s7580</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:59">3 horas atrás</span>
+            <a href="/usuarios/69434/alvarez/">Alvarez</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-trend" href="/tags/trend/" title="veja as perguntas tagueadas 'trend'" rel="tag">trend</a>
+            <a class="tag-link-gt" href="/tags/gt/" title="veja as perguntas tagueadas 'gt'" rel="tag">gt</a>
+            <a class="tag-link-plus" href="/tags/plus/" title="veja as perguntas tagueadas 'plus'" rel="tag">plus</a>
+            <a class="tag-link-galaxy" href="/tags/galaxy/" title="veja as perguntas tagueadas 'galaxy'" rel="tag">galaxy</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="***Boa noite tenho um Galaxy trend plus gt s7580,travado, dantes tinha a tela do logotipo agora so tem a tela com um tlm e um pc,quando instalo a rom ele faz tudo bem (parece} mas quando acaba fica na tela tlm pc com um triângulo amarelo já fiz tudo o que sei e vi na net e nada,gostava de resolver i" href="/perguntas/258444/galaxy-trend-plus-gt-s7580" class="views">
+             <div class="item-count">15</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Galaxy trend plus gt s7580"
+  data-url="http://forum.techtudo.com.br/perguntas/258444/galaxy-trend-plus-gt-s7580"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta" class="views">
+             <div class="item-count">29</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta">Como faço para conseguir o dinheiro do meu celular de volta?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:53">3 horas atrás</span>
+            <a href="/usuarios/69430/clebinho-lima/">Clebinho Lima</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-dinheiro" href="/tags/dinheiro/" title="veja as perguntas tagueadas 'dinheiro'" rel="tag">dinheiro</a>
+            <a class="tag-link-devolução" href="/tags/devolu%C3%A7%C3%A3o/" title="veja as perguntas tagueadas 'devolução'" rel="tag">devolução</a>
+            <a class="tag-link-defeito" href="/tags/defeito/" title="veja as perguntas tagueadas 'defeito'" rel="tag">defeito</a>
+            <a class="tag-link-celular" href="/tags/celular/" title="veja as perguntas tagueadas 'celular'" rel="tag">celular</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Comprei o celular Multilaser MS 50 / P9001. Depois de 3 meses utilizando o celular, o mesmo ficou com a tela mechendo sozinha. Mandei para a garantia e depois de 31 dias - que é o prazo da Multilaser - o celular voltou com o mesmo problema. Eu de imediato não reclamei novamente, pois parou o problem" href="/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta" class="views">
+             <div class="item-count">29</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como faço para conseguir o dinheiro do meu celular de volta?"
+  data-url="http://forum.techtudo.com.br/perguntas/258441/como-faco-para-conseguir-o-dinheiro-do-meu-celular-de-volta"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer#answers" class="status  answered">
+            <div class="item-count">4</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer" class="views">
+             <div class="item-count">442</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer">Meu navegador não abre o QR CODE quando entro no **whatsapp web**. O que fazer??</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:28">3 horas atrás</span>
+            <a href="/usuarios/69432/johnnygrodrigues/">johnnygrodrigues</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-qrcode" href="/tags/qrcode/" title="veja as perguntas tagueadas 'qrcode'" rel="tag">qrcode</a>
+            <a class="tag-link-codigoqr" href="/tags/codigoqr/" title="veja as perguntas tagueadas 'codigoqr'" rel="tag">codigoqr</a>
+            <a class="tag-link-whatsappweb" href="/tags/whatsappweb/" title="veja as perguntas tagueadas 'whatsappweb'" rel="tag">whatsappweb</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer#answers" class="status  answered">
+            <div class="item-count">4</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Sempre que entro na pagina do Whatsapp o código (QR) fica apenas carregando e nao abre nunca!" href="/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer" class="views">
+             <div class="item-count">442</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Meu navegador não abre o QR CODE quando entro no **whatsapp web**. O que fazer??"
+  data-url="http://forum.techtudo.com.br/perguntas/256759/meu-navegador-nao-abre-o-qr-code-quando-entro-no-whatsapp-web-o-que-fazer"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como">
+            <div class="item-count">1</div>
+            <div class="numbers-description">vote</div>
+        </a >
+        <a  title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como#answers" class="status  answered">
+            <div class="item-count">6</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como" class="views">
+             <div class="item-count">649</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como">É verdade que da pra ver quem te curtiu no Tinder ? Como ?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:19">3 horas atrás</span>
+            <a href="/usuarios/67155/uhichlnmqaypmpxuhsom/">uhichlnmqaypmpxuhsom</a><div class="details"><span class="score" title="31 reputação">(31)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-aplicativos" href="/tags/aplicativos/" title="veja as perguntas tagueadas 'aplicativos'" rel="tag">aplicativos</a>
+            <a class="tag-link-tinder" href="/tags/tinder/" title="veja as perguntas tagueadas 'tinder'" rel="tag">tinder</a>
+            <a class="tag-link-whatsapp" href="/tags/whatsapp/" title="veja as perguntas tagueadas 'whatsapp'" rel="tag">whatsapp</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como">
+            <div class="item-count">1</div>
+            <div class="numbers-description">vote</div>
+        </a>
+        <a  title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como#answers" class="status  answered">
+            <div class="item-count">6</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Alguem sabe como ?" href="/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como" class="views">
+             <div class="item-count">649</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="É verdade que da pra ver quem te curtiu no Tinder ? Como ?"
+  data-url="http://forum.techtudo.com.br/perguntas/257277/e-verdade-que-da-pra-ver-quem-te-curtiu-no-tinder-como"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet" class="views">
+             <div class="item-count">14</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet">Em SP, qual melhor operadores de celular para usar internet?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:17">3 horas atrás</span>
+            <a href="/usuarios/69430/clebinho-lima/">Clebinho Lima</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-operadora" href="/tags/operadora/" title="veja as perguntas tagueadas 'operadora'" rel="tag">operadora</a>
+            <a class="tag-link-sinal" href="/tags/sinal/" title="veja as perguntas tagueadas 'sinal'" rel="tag">sinal</a>
+            <a class="tag-link-preço" href="/tags/pre%C3%A7o/" title="veja as perguntas tagueadas 'preço'" rel="tag">preço</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Devido aos celulares dual chip, abre a possibilidades de escolher 2 operadores simultaneamente. Qual o melhor custo/beneficio" href="/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet" class="views">
+             <div class="item-count">14</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Em SP, qual melhor operadores de celular para usar internet?"
+  data-url="http://forum.techtudo.com.br/perguntas/258437/em-sp-qual-melhor-operadores-de-celular-para-usar-internet"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br" class="views">
+             <div class="item-count">32</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br">As TVs analógicas com sede em SP vão continuar transmitindo pro resto do BR?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:16">3 horas atrás</span>
+            <a href="/usuarios/3987/spicy_question/">spicy_question</a><div class="details"><span class="score" title="16020 reputação">(<span class="number-of-reputation ">16.0k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-tv" href="/tags/tv/" title="veja as perguntas tagueadas 'tv'" rel="tag">tv</a>
+            <a class="tag-link-sony" href="/tags/sony/" title="veja as perguntas tagueadas 'sony'" rel="tag">sony</a>
+            <a class="tag-link-digital" href="/tags/digital/" title="veja as perguntas tagueadas 'digital'" rel="tag">digital</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="ou só digital?" href="/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br" class="views">
+             <div class="item-count">32</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="As TVs analógicas com sede em SP vão continuar transmitindo pro resto do BR?"
+  data-url="http://forum.techtudo.com.br/perguntas/258429/as-tvs-analogicas-com-sede-em-sp-vao-continuar-transmitindo-pro-resto-do-br"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet" class="views">
+             <div class="item-count">20</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet">PROBLEMA COM QUEDA DE INTERNET</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 18:07">3 horas atrás</span>
+            <a href="/usuarios/69429/theuslima/">theuslima</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-caindo" href="/tags/caindo/" title="veja as perguntas tagueadas 'caindo'" rel="tag">caindo</a>
+            <a class="tag-link-net" href="/tags/net/" title="veja as perguntas tagueadas 'net'" rel="tag">net</a>
+            <a class="tag-link-roteador" href="/tags/roteador/" title="veja as perguntas tagueadas 'roteador'" rel="tag">roteador</a>
+            <a class="tag-link-internet" href="/tags/internet/" title="veja as perguntas tagueadas 'internet'" rel="tag">internet</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="é o seguinte. eu tenho uma conexão de 15mb. até ai tudo bem, do nada to usando normal a internet não importa se é no pc ou no celular. ela cai e so volta se eu reiniciar o roteador. desde já agradeço quem puder ajudar." href="/perguntas/258434/problema-com-queda-de-internet" class="views">
+             <div class="item-count">20</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="PROBLEMA COM QUEDA DE INTERNET"
+  data-url="http://forum.techtudo.com.br/perguntas/258434/problema-com-queda-de-internet"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente" class="views">
+             <div class="item-count">30</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente">Esse PC é o suficiente?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 17:51">4 horas atrás</span>
+            <a href="/usuarios/69427/starlord/">StarLord</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-pcgamers" href="/tags/pcgamers/" title="veja as perguntas tagueadas 'pcgamers'" rel="tag">pcgamers</a>
+            <a class="tag-link-overwatch" href="/tags/overwatch/" title="veja as perguntas tagueadas 'overwatch'" rel="tag">overwatch</a>
+            <a class="tag-link-computador" href="/tags/computador/" title="veja as perguntas tagueadas 'computador'" rel="tag">computador</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Falae galera,
+Então gostaria de saber se essa configuração de PC está suficiente para rodar SOMENTE Overwatch a 60++fps, não importa se é no high ou ultra, pelo menos aceitável.
+Obs: Não estou ligando para GTA, BF ou qualquer jogo pesado aí, é só OVERWATCH!
+VLW!!! 
+Taca ai:
+PLACA DE VÍDEO ASUS GEFOR" href="/perguntas/258427/esse-pc-e-o-suficiente" class="views">
+             <div class="item-count">30</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Esse PC é o suficiente?"
+  data-url="http://forum.techtudo.com.br/perguntas/258427/esse-pc-e-o-suficiente"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens">
+            <div class="item-count">1</div>
+            <div class="numbers-description">vote</div>
+        </a >
+        <a title="esta pergunta tem uma resposta aceita" title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens#answers" class="status answered-accepted answered">
+            <div class="item-count">4</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">9.5k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens">WhatsApp vai deixar apagar mensagens?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 17:29">4 horas atrás</span>
+            <a href="/usuarios/69428/juniorrrx_sousa/">Juniorrrx_sousa</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-mensagens" href="/tags/mensagens/" title="veja as perguntas tagueadas 'mensagens'" rel="tag">mensagens</a>
+            <a class="tag-link-whatsapp" href="/tags/whatsapp/" title="veja as perguntas tagueadas 'whatsapp'" rel="tag">whatsapp</a>
+            <a class="tag-link-apps" href="/tags/apps/" title="veja as perguntas tagueadas 'apps'" rel="tag">apps</a>
+            <a class="tag-link-aplicativos" href="/tags/aplicativos/" title="veja as perguntas tagueadas 'aplicativos'" rel="tag">aplicativos</a>
+            <a class="tag-link-atualização" href="/tags/atualiza%C3%A7%C3%A3o/" title="veja as perguntas tagueadas 'atualização'" rel="tag">atualização</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens">
+            <div class="item-count">1</div>
+            <div class="numbers-description">vote</div>
+        </a>
+        <a title="esta pergunta tem uma resposta aceita" title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens#answers" class="status answered-accepted answered">
+            <div class="item-count">4</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Oi, pessoal!
+Vi que o WhatsApp pode ganhar uma função para cancelar mensagens enviadas em até dois minutos. 
+Mas eu não sei se a notícia é oficial e não encontrei nenhum tutorial para usar o recurso no app beta. Vocês sabem se a notícia é verdadeira?
+Além disso, o que acham da possível atualização?
+" href="/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">9.5k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="WhatsApp vai deixar apagar mensagens?"
+  data-url="http://forum.techtudo.com.br/perguntas/258404/whatsapp-vai-deixar-apagar-mensagens"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona" class="views">
+             <div class="item-count">485</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona">o rastreador trackr bravo funciona??</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 16:52">5 horas atrás</span>
+            <a href="/usuarios/69425/luishenriquepacheco/">luishenriquepacheco</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-rastreadores" href="/tags/rastreadores/" title="veja as perguntas tagueadas 'rastreadores'" rel="tag">rastreadores</a>
+            <a class="tag-link-gps" href="/tags/gps/" title="veja as perguntas tagueadas 'gps'" rel="tag">gps</a>
+            <a class="tag-link-rastreador" href="/tags/rastreador/" title="veja as perguntas tagueadas 'rastreador'" rel="tag">rastreador</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="gostaria de saber mais sobre esse dispositivo que esta sendo lançado aqui no brasil, o trackr bravo.
+se ele realmente é uma boa compra, ou se é alguma furada!" href="/perguntas/253593/o-rastreador-trackr-bravo-funciona" class="views">
+             <div class="item-count">485</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="o rastreador trackr bravo funciona??"
+  data-url="http://forum.techtudo.com.br/perguntas/253593/o-rastreador-trackr-bravo-funciona"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que" class="views">
+             <div class="item-count">33</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que">O IDM começa bem o download de arquivos no google drive mas no meio interrompe e não reinicia mais, por que?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 16:38">5 horas atrás</span>
+            <a href="/usuarios/69424/fausto_malheiros/">fausto_malheiros</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-trava" href="/tags/trava/" title="veja as perguntas tagueadas 'trava'" rel="tag">trava</a>
+            <a class="tag-link-google" href="/tags/google/" title="veja as perguntas tagueadas 'google'" rel="tag">google</a>
+            <a class="tag-link-para" href="/tags/para/" title="veja as perguntas tagueadas 'para'" rel="tag">para</a>
+            <a class="tag-link-drive" href="/tags/drive/" title="veja as perguntas tagueadas 'drive'" rel="tag">drive</a>
+            <a class="tag-link-nao" href="/tags/nao/" title="veja as perguntas tagueadas 'nao'" rel="tag">nao</a>
+            <a class="tag-link-manager" href="/tags/manager/" title="veja as perguntas tagueadas 'manager'" rel="tag">manager</a>
+            <a class="tag-link-internet" href="/tags/internet/" title="veja as perguntas tagueadas 'internet'" rel="tag">internet</a>
+            <a class="tag-link-download" href="/tags/download/" title="veja as perguntas tagueadas 'download'" rel="tag">download</a>
+            <a class="tag-link-reinicia" href="/tags/reinicia/" title="veja as perguntas tagueadas 'reinicia'" rel="tag">reinicia</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="O IDM-Internet Download Manager começa bem o download de arquivos no google drive, até rapido, mas no meio do procedimento ele interrompe e não reinicia mais, por que?" href="/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que" class="views">
+             <div class="item-count">33</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="O IDM começa bem o download de arquivos no google drive mas no meio interrompe e não reinicia mais, por que?"
+  data-url="http://forum.techtudo.com.br/perguntas/258423/o-idm-comeca-bem-o-download-de-arquivos-no-google-drive-mas-no-meio-interrompe-e-nao-reinicia-mais-por-que"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram" class="views">
+             <div class="item-count">23</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram">Não consigo acessar minha conta do instagram</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 16:12">5 horas atrás</span>
+            <a href="/usuarios/69422/clarag/">Clarag</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-conta" href="/tags/conta/" title="veja as perguntas tagueadas 'conta'" rel="tag">conta</a>
+            <a class="tag-link-instagram" href="/tags/instagram/" title="veja as perguntas tagueadas 'instagram'" rel="tag">instagram</a>
+            <a class="tag-link-inexistente" href="/tags/inexistente/" title="veja as perguntas tagueadas 'inexistente'" rel="tag">inexistente</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Galera, quando tento fazer o login no instagram, por qualquer dispositivo, diz que tanto meu nome de usuario como meu email não existem. Meus amigos foram procurar a minha pag e tbm não acharam. Como se a conta nao existisse... E eu nao exclui nada!
+Alguem sabe o que fazer?" href="/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram" class="views">
+             <div class="item-count">23</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Não consigo acessar minha conta do instagram"
+  data-url="http://forum.techtudo.com.br/perguntas/258421/nao-consigo-acessar-minha-conta-do-instagram"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android#answers" class="status  answered">
+            <div class="item-count">7</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">2.3k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android">Qual melhor app para assistir filmes no Android?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 15:57">6 horas atrás</span>
+            <a href="/usuarios/68926/senjougaha/">Senjougaha</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-aplicativos" href="/tags/aplicativos/" title="veja as perguntas tagueadas 'aplicativos'" rel="tag">aplicativos</a>
+            <a class="tag-link-programas" href="/tags/programas/" title="veja as perguntas tagueadas 'programas'" rel="tag">programas</a>
+            <a class="tag-link-sites" href="/tags/sites/" title="veja as perguntas tagueadas 'sites'" rel="tag">sites</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android#answers" class="status  answered">
+            <div class="item-count">7</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Além do aplicativo CRACKIE, que instalei em meu smartphone, alguém conhece outro(s) aplicativo(s) gratuito(s) semelhante(s)? Onde após instalado, você clica no aplicativo e você já tem uma lista de filmes prontos para serem assistidos? Ou também algum site de filmes online gratuitos e que dê para fa" href="/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android" class="views">
+             <div class="item-count"><span class="number-of-reputation thousand">2.3k</span></div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Qual melhor app para assistir filmes no Android?"
+  data-url="http://forum.techtudo.com.br/perguntas/171092/qual-melhor-app-para-assistir-filmes-no-android"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega" class="views">
+             <div class="item-count">31</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega">Código de segurança do Instagram não chega !</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 15:48">6 horas atrás</span>
+            <a href="/usuarios/69421/nathy_nc/">nathy_nc</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-sms" href="/tags/sms/" title="veja as perguntas tagueadas 'sms'" rel="tag">sms</a>
+            <a class="tag-link-instagram" href="/tags/instagram/" title="veja as perguntas tagueadas 'instagram'" rel="tag">instagram</a>
+            <a class="tag-link-código" href="/tags/c%C3%B3digo/" title="veja as perguntas tagueadas 'código'" rel="tag">código</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Meu Instagram eu entro nele normalmente, ele no perfil mostra que meu número está lá salvo mas se eu coloco pra recuperar a conta por SMS diz que não existe número, aí toda h me pede pra confirmar o código por SMS, eu já pus vários números mas o código não chega em nenhuma deles já tem 3 dias por fa" href="/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega" class="views">
+             <div class="item-count">31</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Código de segurança do Instagram não chega !"
+  data-url="http://forum.techtudo.com.br/perguntas/258419/codigo-de-seguranca-do-instagram-nao-chega"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora" class="views">
+             <div class="item-count">20</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora">Os e-mails enviados pelo MailChimp chegam na hora?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 15:45">6 horas atrás</span>
+            <a href="/usuarios/69420/guilhermedrmond/">guilhermedrmond</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-emailcorporativo" href="/tags/emailcorporativo/" title="veja as perguntas tagueadas 'emailcorporativo'" rel="tag">emailcorporativo</a>
+            <a class="tag-link-marketing" href="/tags/marketing/" title="veja as perguntas tagueadas 'marketing'" rel="tag">marketing</a>
+            <a class="tag-link-email" href="/tags/email/" title="veja as perguntas tagueadas 'email'" rel="tag">email</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Gostaria de saber se os emails disparados através do MailChimp chega na caixa de entrada do cliente na hora." href="/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora" class="views">
+             <div class="item-count">20</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Os e-mails enviados pelo MailChimp chegam na hora?"
+  data-url="http://forum.techtudo.com.br/perguntas/258418/os-e-mails-enviados-pelo-mailchimp-chegam-na-hora"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod" class="views">
+             <div class="item-count">22</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod">Como recuperar músicas perdidas do IPod?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 14:17">7 horas atrás</span>
+            <a href="/usuarios/69417/biakomori/">biakomori</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-itunes" href="/tags/itunes/" title="veja as perguntas tagueadas 'itunes'" rel="tag">itunes</a>
+            <a class="tag-link-ipod" href="/tags/ipod/" title="veja as perguntas tagueadas 'ipod'" rel="tag">ipod</a>
+            <a class="tag-link-apple" href="/tags/apple/" title="veja as perguntas tagueadas 'apple'" rel="tag">apple</a>
+            <a class="tag-link-ajuda" href="/tags/ajuda/" title="veja as perguntas tagueadas 'ajuda'" rel="tag">ajuda</a>
+            <a class="tag-link-urgente" href="/tags/urgente/" title="veja as perguntas tagueadas 'urgente'" rel="tag">urgente</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Fui passar algumas músicas de um CD pro meu IPod acabei sincronizando com meu ITunes vazio e perdi quase 20 mil músicas pois elas estavam apenas no IPode. Eu consigo recuperá-las? Tem algum programa que faça isso?
+Tô desesperada :(" href="/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod" class="views">
+             <div class="item-count">22</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como recuperar músicas perdidas do IPod?"
+  data-url="http://forum.techtudo.com.br/perguntas/258417/como-recuperar-musicas-perdidas-do-ipod"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10" class="views">
+             <div class="item-count">22</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10">Alguém sabe me dizer se a liceça estudantil para o AutoCad se limita a 1 download? Estou tendo problemas na instalação da versão 2017 no windows 10</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 13:40">8 horas atrás</span>
+            <a href="/usuarios/69416/natanbra/">natanbra</a><div class="details"><span class="score" title="1 reputação">(1)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-problemas" href="/tags/problemas/" title="veja as perguntas tagueadas 'problemas'" rel="tag">problemas</a>
+            <a class="tag-link-erro" href="/tags/erro/" title="veja as perguntas tagueadas 'erro'" rel="tag">erro</a>
+            <a class="tag-link-autocad" href="/tags/autocad/" title="veja as perguntas tagueadas 'autocad'" rel="tag">autocad</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10#answers" class="status  unanswered">
+            <div class="item-count">0</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Desde já, obrigado" href="/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10" class="views">
+             <div class="item-count">22</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Alguém sabe me dizer se a liceça estudantil para o AutoCad se limita a 1 download? Estou tendo problemas na instalação da versão 2017 no windows 10"
+  data-url="http://forum.techtudo.com.br/perguntas/258416/alguem-sabe-me-dizer-se-a-liceca-estudantil-para-o-autocad-se-limita-a-1-download-estou-tendo-problemas-na-instalacao-da-versao-2017-no-windows-10"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador" class="views">
+             <div class="item-count">45</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador">Trocar placa de vídeo ou processador?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 13:36">8 horas atrás</span>
+            <a href="/usuarios/13618/hugo2013/">hugo2013 </a><div class="details"><span class="score" title="18066 reputação">(<span class="number-of-reputation ">18.1k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-placa" href="/tags/placa/" title="veja as perguntas tagueadas 'placa'" rel="tag">placa</a>
+            <a class="tag-link-ajuda" href="/tags/ajuda/" title="veja as perguntas tagueadas 'ajuda'" rel="tag">ajuda</a>
+            <a class="tag-link-jogos" href="/tags/jogos/" title="veja as perguntas tagueadas 'jogos'" rel="tag">jogos</a>
+            <a class="tag-link-hardware" href="/tags/hardware/" title="veja as perguntas tagueadas 'hardware'" rel="tag">hardware</a>
+            <a class="tag-link-placadevideo" href="/tags/placadevideo/" title="veja as perguntas tagueadas 'placadevideo'" rel="tag">placadevideo</a>
+            <a class="tag-link-processador" href="/tags/processador/" title="veja as perguntas tagueadas 'processador'" rel="tag">processador</a>
+            <a class="tag-link-desempenho" href="/tags/desempenho/" title="veja as perguntas tagueadas 'desempenho'" rel="tag">desempenho</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Boa tarde pessoal, comprei meu pc faz uns 4 anos, ele já está começando a me fazer raiva, não sou mto de jogar jogos offline, mas até os onlines estão começando a pesar.
+Comprei BATTLEGROUNDS e meu pc está passando aperto pra rodar, tudo no very low e rendimento está bem ruim, jogo muito lento.
+Minh" href="/perguntas/258410/trocar-placa-de-video-ou-processador" class="views">
+             <div class="item-count">45</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Trocar placa de vídeo ou processador?"
+  data-url="http://forum.techtudo.com.br/perguntas/258410/trocar-placa-de-video-ou-processador"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar" class="views">
+             <div class="item-count">519</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar">Chegou o LineageOS e eu tenho um Zenfone 2 modelo Z00AD. Vale a pena instalar?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 12:48">9 horas atrás</span>
+            <a href="/usuarios/45803/sandroneri/">sandroneri</a><div class="details"><span class="score" title="36 reputação">(36)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-zenfone2" href="/tags/zenfone2/" title="veja as perguntas tagueadas 'zenfone2'" rel="tag">zenfone2</a>
+            <a class="tag-link-cm14" href="/tags/cm14/" title="veja as perguntas tagueadas 'cm14'" rel="tag">cm14</a>
+            <a class="tag-link-cyanogenmod" href="/tags/cyanogenmod/" title="veja as perguntas tagueadas 'cyanogenmod'" rel="tag">cyanogenmod</a>
+            <a class="tag-link-lineage14" href="/tags/lineage14/" title="veja as perguntas tagueadas 'lineage14'" rel="tag">lineage14</a>
+            <a class="tag-link-lineageos" href="/tags/lineageos/" title="veja as perguntas tagueadas 'lineageos'" rel="tag">lineageos</a>
+            <a class="tag-link-motog2014" href="/tags/motog2014/" title="veja as perguntas tagueadas 'motog2014'" rel="tag">motog2014</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar#answers" class="status  answered">
+            <div class="item-count">2</div>
+            <div class="numbers-description">respostas</div>
+        </a>
+        <a title="Tudo bom galera?
+Com o fim do CyanogemMod, surgiu o LineageOS, que segundo noticias é desenvolvido pelo mesmo grupo do Cyanogen. Possuo dois celulares um MotoG 2014, que roda muito bem a ultima CM14 lançada, e um recém adquirido Zenfone 2 modelo Z00AD, que estou  pensando seriamente em instalar o Li" href="/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar" class="views">
+             <div class="item-count">519</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Chegou o LineageOS e eu tenho um Zenfone 2 modelo Z00AD. Vale a pena instalar?"
+  data-url="http://forum.techtudo.com.br/perguntas/253644/chegou-o-lineageos-e-eu-tenho-um-zenfone-2-modelo-z00ad-vale-a-pena-instalar"></div>
+
+</div>
+
+        
+
+            
+
+            
+<div class="short-summary">
+    <div class="counts explicit-numbers show-for-medium-up">
+        <a class="votes" title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a >
+        <a  title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits" class="views">
+             <div class="item-count">69</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div class="question-summary-wrapper">
+        
+        <h2><a title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits">Como passar meu win 10 32 para 64 bits?</a></h2>
+
+        <div class="userinfo">
+            <span class="relativetime" title="28 de Março de 2017 às 12:06">9 horas atrás</span>
+            <a href="/usuarios/3987/spicy_question/">spicy_question</a><div class="details"><span class="score" title="16020 reputação">(<span class="number-of-reputation ">16.0k</span>)</span></div>
+
+        </div>
+
+        <div class="tags">
+            <a class="tag-link-windows" href="/tags/windows/" title="veja as perguntas tagueadas 'windows'" rel="tag">windows</a>
+            <a class="tag-link-10" href="/tags/10/" title="veja as perguntas tagueadas '10'" rel="tag">10</a>
+            <a class="tag-link-64" href="/tags/64/" title="veja as perguntas tagueadas '64'" rel="tag">64</a>
+            <a class="tag-link-bits" href="/tags/bits/" title="veja as perguntas tagueadas 'bits'" rel="tag">bits</a>
+        </div>
+    </div>
+
+    <div class="counts explicit-numbers show-for-small-only">
+        <a class="votes" title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits">
+            <div class="item-count">0</div>
+            <div class="numbers-description">votos</div>
+        </a>
+        <a  title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits#answers" class="status  answered">
+            <div class="item-count">1</div>
+            <div class="numbers-description">resposta</div>
+        </a>
+        <a title="Quero passar meu winn10 32 para 64 bits, posso fazer isso e salvar meus arquivos no onedrive formatar meu computador e não perder nada depois que formatar voltar meus arquivos não corro risco de perde-los?" href="/perguntas/258297/como-passar-meu-win-10-32-para-64-bits" class="views">
+             <div class="item-count">69</div>
+             <div class="numbers-description">visitas</div>
+        </a>
+    </div>
+
+    <div
+  class="share-bar"
+  data-theme="minimal"
+  data-title="Como passar meu win 10 32 para 64 bits?"
+  data-url="http://forum.techtudo.com.br/perguntas/258297/como-passar-meu-win-10-32-para-64-bits"></div>
+
+</div>
+
+        
+    </div>
+
+    <div class="row questions-pager">
+        <div class="small-12 column pager">
+<ul class="snippet snippet-paginacao"><span class="paginacao-anterior indisponivel"><span class="botao">Anterior</span></span><li class="paginacao-atual">1</li><li class="paginacao-2 paginacao-proxima-x"><a class="texto" href="/perguntas/?ordenacao=ativo&pagina=2" title="Página 2">2</a></li><li class="paginacao-3 paginacao-proxima-x"><a class="texto" href="/perguntas/?ordenacao=ativo&pagina=3" title="Página 3">3</a></li><li class="paginacao-4 paginacao-proxima-x"><a class="texto" href="/perguntas/?ordenacao=ativo&pagina=4" title="Página 4">4</a></li><li class="paginacao-5 paginacao-proxima-x"><a class="texto" href="/perguntas/?ordenacao=ativo&pagina=5" title="Página 5">5</a></li><li class="ellipses">...</li><li class="paginacao-1610 paginacao-proxima-x"><a class="texto" href="/perguntas/?ordenacao=ativo&pagina=1610" title="Página 1610">1610</a></li><span class="paginacao-proxima"><a title="Próxima Página" href="/perguntas/?ordenacao=ativo&pagina=2" class="botao">Próxima</a></span></ul>
+</div>
+    </div>
+</div>
+
+                </div>
+
+                <div id="CARight" class="medium-4 show-for-medium-up column">
+                    
+    <div>
+        <div id="banner_floating" class="tag-manager-publicidade-container"></div>
+    </div>
+    <div class="publicidade banner_rm1 publicidade-banner_rm1 wrapper-widget" style="margin-bottom: 10px;">
+        <div id="banner_rm1" class="tag-manager-publicidade-container"></div>
+    </div>
+    <div class="boxC"><div class="questions-count explicit-numbers questions"><div class="item-count">48275</div><div class="item-description">perguntas</div></div><div class="questions-count explicit-numbers answers"><div class="item-count">137065</div><div class="item-description">respostas</div></div><!--<div><p class="nomargin">
+            Perguntas atualizadas <strong>mais recentemente</strong></p></div>--></div><!--
+<div class="balaodialogo">Olá!</div><style>
+
+.balaodialogo {
+position: relative;
+background-color: #000;
+border-radius: 10px;
+width: 200px;
+height: 150px;
+line-height: 150px; /* vertically center */
+color: white;
+text-align: center;
+}
+
+.balaodialogo:after {
+content: url('/m/techtudo/media/images/blue-up-arrow-h18px.png');
+position: absolute;
+width: 0;
+height: 0;
+border: 15px solid;
+border-top-color: #000;
+top: 100%;
+left: 50%;
+margin-left: -15px; /* ajustar pela largura do balão */
+}
+
+</style>
+-->
+
+    
+    
+
+<div class="boxC">
+	<h3 class="subtitle primary-title">Tags recentes</h3>
+	<div class="body">
+         <div class="tags" id="recent-tags">
+        
+            <a rel="tag" class="tag-link-rx4604gb" title="veja as perguntas tagueadas 'rx4604gb'" href="/tags/rx4604gb/">rx4604gb</a>
+        
+            <a rel="tag" class="tag-link-perdadevideo" title="veja as perguntas tagueadas 'perdadevideo'" href="/tags/perdadevideo/">perdadevideo</a>
+        
+            <a rel="tag" class="tag-link-rx460" title="veja as perguntas tagueadas 'rx460'" href="/tags/rx460/">rx460</a>
+        
+            <a rel="tag" class="tag-link-perdendovideo" title="veja as perguntas tagueadas 'perdendovideo'" href="/tags/perdendovideo/">perdendovideo</a>
+        
+            <a rel="tag" class="tag-link-três" title="veja as perguntas tagueadas 'três'" href="/tags/tr%C3%AAs/">três</a>
+        
+            <a rel="tag" class="tag-link-matlab" title="veja as perguntas tagueadas 'matlab'" href="/tags/matlab/">matlab</a>
+        
+            <a rel="tag" class="tag-link-simulink" title="veja as perguntas tagueadas 'simulink'" href="/tags/simulink/">simulink</a>
+        
+            <a rel="tag" class="tag-link-ghtml" title="veja as perguntas tagueadas 'ghtml'" href="/tags/ghtml/">ghtml</a>
+        
+            <a rel="tag" class="tag-link-dvdplayer" title="veja as perguntas tagueadas 'dvdplayer'" href="/tags/dvdplayer/">dvdplayer</a>
+        
+            <a rel="tag" class="tag-link-vesus" title="veja as perguntas tagueadas 'vesus'" href="/tags/vesus/">vesus</a>
+        
+            <a rel="tag" class="tag-link-gdiplus" title="veja as perguntas tagueadas 'gdiplus'" href="/tags/gdiplus/">gdiplus</a>
+        
+            <a rel="tag" class="tag-link-foobar" title="veja as perguntas tagueadas 'foobar'" href="/tags/foobar/">foobar</a>
+        
+            <a rel="tag" class="tag-link-redeon" title="veja as perguntas tagueadas 'redeon'" href="/tags/redeon/">redeon</a>
+        
+            <a rel="tag" class="tag-link-dell5548" title="veja as perguntas tagueadas 'dell5548'" href="/tags/dell5548/">dell5548</a>
+        
+            <a rel="tag" class="tag-link-r7m265" title="veja as perguntas tagueadas 'r7m265'" href="/tags/r7m265/">r7m265</a>
+        
+            <a rel="tag" class="tag-link-j5metal" title="veja as perguntas tagueadas 'j5metal'" href="/tags/j5metal/">j5metal</a>
+        
+            <a rel="tag" class="tag-link-procedimentos" title="veja as perguntas tagueadas 'procedimentos'" href="/tags/procedimentos/">procedimentos</a>
+        
+            <a rel="tag" class="tag-link-diadoconsumidor" title="veja as perguntas tagueadas 'diadoconsumidor'" href="/tags/diadoconsumidor/">diadoconsumidor</a>
+        
+            <a rel="tag" class="tag-link-boatos" title="veja as perguntas tagueadas 'boatos'" href="/tags/boato

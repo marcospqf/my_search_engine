@@ -1,0 +1,3365 @@
+|||http://harbour.space/courses/computer-science|
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('html') -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--node--19.tpl.php
+   * html--node--%.tpl.php
+   * html--node.tpl.php
+   x html.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/html.tpl.php' -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+	<title>Computer Science Degree | Harbour.Space Barcelona</title>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Develop solid knowledge of real world computing needs and expert technical skills with a Bachelor or Master’s degree in Computer Science or Computer Engineering." />
+<link rel="canonical" href="http://harbour.space/courses/computer-science" />
+<link rel="shortlink" href="http://harbour.space/node/19" />
+<meta property="og:site_name" content="Harbour.Space" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://harbour.space/courses/computer-science" />
+<meta property="og:title" content="Computer Science" />
+<meta property="og:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta property="og:image" content="http://harbour.space/sites/default/files/ogimage.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Harbour_Space" />
+<meta name="twitter:url" content="http://harbour.space/courses/computer-science" />
+<meta name="twitter:title" content="Computer Science" />
+<meta name="twitter:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta name="twitter:image" content="http://harbour.space/sites/default/files/HS_Photo3_0_0.jpg" />
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="google" content="notranslate" />
+	<!-- CSS -->
+		
+	
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--page-top.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('page') -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--programme.tpl.php
+   * page--node--19.tpl.php
+   * page--node--%.tpl.php
+   * page--node.tpl.php
+   x page.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/page.tpl.php' -->
+
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link href="/build/css/video-js.min.css" rel="stylesheet" />
+    <link href="/build/css/academicons.css" rel="stylesheet" />
+
+    <link href="/build/css/style.css?1490186887" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/build/images/favicon/192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/build/images/favicon/160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/build/images/favicon/96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/build/images/favicon/64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/build/images/favicon/32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/build/images/favicon/16.png" />
+    <link rel="apple-touch-icon" href="/build/images/favicon/57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/build/images/favicon/114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/build/images/favicon/72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/build/images/favicon/144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/build/images/favicon/60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/build/images/favicon/120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/build/images/favicon/76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/build/images/favicon/152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/build/images/favicon/180.png" />
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+    
+        fbq('init', '1007429205995768');
+        fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1007429205995768&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Video JS -->
+	<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+</head>
+
+<body class="l-ready">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M6GZL4"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6GZL4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37079975 = new Ya.Metrika({ id:37079975, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37079975" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<!-- Page -->
+<div class="page" id="root">
+
+    
+
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+  <div class="region region-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('block') -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--system--main.tpl.php
+   * block--system.tpl.php
+   * block--content.tpl.php
+   x block.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('node') -->
+<!-- FILE NAME SUGGESTIONS:
+   * node--19.tpl.php
+   x node--programme.tpl.php
+   * node.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/node--programme.tpl.php' -->
+<!-- Header -->
+<header class="header">
+    <div class="header__content">
+	<div class="header__logo">
+    	    <a href="/">
+        	<span class="header__logo__icon"><svg xmlns="http://www.w3.org/2000/svg" width="270" height="26" viewBox="0 0 270 26"><path fill="#FFF" d="M269.359 21.241v3.536h-15.158v-23.573h15.125v3.538h-11.084v6.533h9.5v3.366h-9.5v6.602l11.117-.002zm-28.902 4.04c-5.83 0-9.164-3.098-9.164-8.484v-7.609c0-5.387 3.334-8.487 9.164-8.487 2.492 0 4.547.674 6.197 2.056 1.65 1.378 2.492 3.4 2.492 6.094v.337h-4.041v-.337c0-1.449-.474-2.559-1.449-3.3-.977-.776-2.055-1.146-3.234-1.146-3.402 0-5.086 1.651-5.086 4.514v8.147c0 2.86 1.684 4.514 5.086 4.514 1.18 0 2.258-.371 3.234-1.112.977-.774 1.449-1.887 1.449-3.336v-.335h4.041v.335c0 2.696-.842 4.718-2.492 6.097-1.65 1.38-3.705 2.052-6.197 2.052zm-18.26-6.329h-8.893l-2.121 5.825h-3.74v-1.347l8.422-22.227h3.975l8.422 22.227v1.348h-3.975l-2.09-5.826zm-4.412-12.357l-3.268 8.991h6.469l-3.201-8.991zm-17.484 9.093h-6.164v9.09h-4.043v-23.574h10.207c4.143 0 6.635 2.799 6.635 7.242 0 4.446-2.493 7.242-6.635 7.242zm-.707-10.946h-5.457v7.409h5.457c1.854 0 3.234-1.314 3.234-3.705 0-2.389-1.381-3.704-3.234-3.704zm-22.84 6.297l.471.168c1.281.438 2.293.843 3.033 1.18.773.335 1.549.775 2.393 1.345 1.648 1.11 2.39 2.593 2.39 4.58 0 4.142-3.164 6.97-8.924 6.97-2.63 0-4.818-.706-6.57-2.087-1.717-1.413-2.594-3.436-2.594-6.062h4.043c0 1.112.303 1.989.875 2.696 1.213 1.381 2.729 1.752 4.479 1.752 2.83 0 4.414-1.28 4.414-3.065 0-.842-.371-1.48-1.111-1.92-.741-.471-2.09-1.078-4.043-1.816l-.305-.102-.539-.203c-2.559-.977-4.41-1.919-5.522-2.829-1.113-.943-1.649-2.29-1.649-4.073 0-2.055.741-3.738 2.258-4.985 1.514-1.246 3.604-1.886 6.229-1.886 5.287 0 8.758 2.526 8.758 7.948h-4.041c0-2.964-2.021-4.244-4.75-4.244-2.661 0-4.379 1.212-4.379 2.862 0 .91.336 1.617 1.043 2.054.705.44 2.053 1.009 4.041 1.717zm-30.959 4.68h-4.648v9.059h-4.043v-23.574h10.14c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.416 5.623-4.145 6.803l4.412 8.183v1.346h-3.973l-4.851-9.059zm4.445-7.205c0-2.527-1.246-3.772-3.738-3.772h-5.355v7.544h5.355c2.492 0 3.738-1.248 3.738-3.772zm-27.791 16.767c-2.729 0-4.916-.706-6.535-2.154-1.582-1.445-2.393-3.466-2.393-6.025v-15.896h4.044v16.096c0 2.458 1.751 4.278 4.884 4.278 3.133 0 4.885-1.82 4.885-4.278v-16.096h4.041v15.896c0 2.561-.808 4.58-2.424 6.025-1.584 1.448-3.773 2.154-6.502 2.154zm-23.242.001c-5.693 0-9.266-3.198-9.266-8.485v-7.61c0-5.287 3.572-8.486 9.266-8.486s9.262 3.199 9.262 8.486v7.61c0 5.287-3.569 8.485-9.262 8.485zm5.221-16.297c0-2.661-1.854-4.581-5.221-4.581-3.37 0-5.223 1.919-5.223 4.581v8.015c0 2.661 1.853 4.58 5.223 4.58 3.367 0 5.221-1.919 5.221-4.58v-8.015zm-25.266 15.792h-10.847v-23.573h9.939c4.209 0 6.736 2.157 6.736 6.333 0 2.391-.943 4.042-2.828 5.017 2.491.91 3.737 2.795 3.737 5.692 0 4.274-2.459 6.531-6.737 6.531zm-1.582-20.035h-5.222v6.566h5.222c2.222 0 3.334-1.11 3.334-3.3 0-2.19-1.112-3.266-3.334-3.266zm.908 9.935h-6.13v6.564h6.13c2.258 0 3.369-1.078 3.369-3.232 0-2.222-1.111-3.332-3.369-3.332zm-23.715 1.042h-4.648v9.059h-4.043v-23.574h10.139c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.415 5.623-4.144 6.803l4.414 8.183v1.346h-3.976l-4.85-9.059zm4.447-7.205c0-2.527-1.247-3.772-3.738-3.772h-5.356v7.544h5.356c2.491 0 3.738-1.248 3.738-3.772zm-22.907 10.438h-8.893l-2.122 5.825h-3.74v-1.347l8.422-22.226h3.975l8.421 22.228v1.346h-3.975l-2.088-5.826zm-4.413-12.357l-3.267 8.991h6.467l-3.2-8.991zm-18.09 8.148h-9.77v10.034h-4.04v-23.573h4.041v10.002h9.77v-10.002h4.041v23.573h-4.042v-10.034z"/><circle fill="#FFF" cx="161.555" cy="24.745" r="1.256"/></svg></span>
+	    </a>
+            <span class="header__logo__category">
+                                    Computer Science                            </span>
+            <i class="header__logo__arrow"></i>
+	</div>
+                <nav class="header__nav">
+            <span class="header__item header__phone">
+				<span class="header__phone__icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="20" viewBox="0 0 14 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.988 18.68v1.32h-13.988v-1.999h.003v-16.001h-.003v-2h13.988v1.998h.012v16.682h-.012zm-1.988-16.68h-10v16h10v-16zm-3 3h-4v-2h4v2zm-2.004 8.96c.819 0 1.482.664 1.482 1.482 0 .819-.663 1.483-1.482 1.483-.818 0-1.482-.664-1.482-1.483 0-.817.663-1.482 1.482-1.482z"/></svg></span>
+				<span class="header__item__text">+34 674 291 422</span>
+			</span>
+                                                        <a href="/#user-login" class="header__link header__link_login" data-open="#user-login" data-after-login="/courses/computer-science">
+                    <span class="header__link__text">Log in</span>
+                </a>
+                                                                        <a href="/apply-1" class="header__apply">
+                <span class="header__apply__text">APPLY</span>
+            </a>
+            <span class="header__link header__menu">
+				<span class="header__link__text header__menu__text">Menu</span>
+				<span class="header__menu__icon">
+					<i class="header__menu__icon__line header__menu__icon__line_1"></i>
+					<i class="header__menu__icon__line header__menu__icon__line_2"></i>
+					<i class="header__menu__icon__line header__menu__icon__line_3"></i>
+				</span>
+			</span>
+        </nav>
+    </div>
+                <div class="header__panel">
+            <div class="header__panel__inner">
+                <div class="header__panel__list">
+                                            <a class="header__panel__item" href="/courses/maths-as-a-second-language">Maths as a Second Language</a>
+                                            <a class="header__panel__item header__panel__item_active" href="/courses/computer-science">Computer Science</a>
+                                            <a class="header__panel__item" href="/courses/data-science">Data science</a>
+                                            <a class="header__panel__item" href="/courses/cyber-security">Cyber security</a>
+                                            <a class="header__panel__item" href="/courses/interaction-design">Interaction Design</a>
+                                            <a class="header__panel__item" href="/courses/high-tech-entrepreneurship">High-Tech Entrepreneurship</a>
+                                            <a class="header__panel__item" href="/courses/digital-marketing">Digital marketing</a>
+                                    </div>
+                <div class="header__panel__nav">
+                    <div class="header__panel__nav__item header__panel__nav__item_prev"></div>
+                    <div class="header__panel__nav__item header__panel__nav__item_next"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Cookies -->
+<div class="cookies">
+    <p>
+        This website stores cookies on your computer. These cookies are used to improve your website and provide more personalized services to you,
+        both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy</p>
+    <button class="user__action action">Accept Cookie Policy</button>
+</div>
+<!-- /Cookies --><menu class="menu">
+    <div class="menu__content">
+        <div class="menu__content__inner">
+            <!-- nav -->
+            <div class="menu__nav">
+                <span class="menu__nav__item">Programmes</span>
+                <span class="menu__nav__item menu__nav__item_active">More</span>
+            </div>
+            <!-- programs -->
+            <div class="menu__category menu__category_programs">
+                <ul class="menu__category__list menu__category__list_programs">
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/maths-as-a-second-language">Maths as a Second Language</a></li>
+                                        <li class="menu__item menu__item_active"><a class="menu__item__link" href="/courses/computer-science">Computer Science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/data-science">Data science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/cyber-security">Cyber security</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/interaction-design">Interaction Design</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/high-tech-entrepreneurship">High-Tech Entrepreneurship</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/digital-marketing">Digital marketing</a></li>
+                                    </ul>
+            </div>
+            <!-- more -->
+            <div class="menu__category menu__category_more">
+                <ul class="menu__category__list menu__category__list_more">
+                    <li class="menu__item"><a class="menu__item__link" href="/admissions">Admissions</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faculty">Faculty</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/about">About</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/bcn">Living in BCN</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/careers">Careers</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/contacts">Contact</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faq">FAQ</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/blog">Blog</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/videos">Video</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/apply-1">Apply</a></li>
+                                    </ul>
+            </div>
+            <!-- / -->
+        </div>
+    </div>
+</menu>
+<!--/Header -->
+
+<!-- Intro -->
+<section class="program-intro" data-program="computer-science">
+	<div class="program-intro__wrapper">
+		<article class="program-intro__wrapper__inner">
+			<div class="program-intro__wrapper__content i-content">
+				<h1 class="program-intro__title">	
+										<span class="program-intro__title__part">Computer</span>
+										<span class="program-intro__title__part">Science</span>
+									</h1>
+				<strong class="program-intro__type">Programme</strong>
+				<div class="program-intro__text">Our Computer Science programme has solid roots in mathematics and engineering, while our innovative department optimises the relevance of the programme by including disciplines such as linguistics, psychology, economics, physics and music..
+</div>
+			</div>
+			<i class="program-intro__mouse mouse">
+				<i class="mouse__wheel"></i>
+			</i>
+		</article>
+	</div>
+	<ul class="programs">
+					<li class="programs__item"><a class="programs__item__link" href="/courses/maths-as-a-second-language">Maths as a Second Language</a></li>
+					<li class="programs__item programs__item_active"><a class="programs__item__link" href="/courses/computer-science">Computer Science</a></li>
+					<li class="programs__item"><a class="programs__item__link" href="/courses/data-science">Data science</a></li>
+					<li class="programs__item"><a class="programs__item__link" href="/courses/cyber-security">Cyber security</a></li>
+					<li class="programs__item"><a class="programs__item__link" href="/courses/interaction-design">Interaction Design</a></li>
+					<li class="programs__item"><a class="programs__item__link" href="/courses/high-tech-entrepreneurship">High-Tech Entrepreneurship</a></li>
+					<li class="programs__item"><a class="programs__item__link" href="/courses/digital-marketing">Digital marketing</a></li>
+			</ul>
+	<a class="ribbon ribbon_eda" href="http://www.europeandesign.org/submissions/harbour-space/" target="_blank">
+	<span class="ribbon__icon ribbon__icon_eda"></span>
+	<span class="ribbon__label ribbon__label_eda"></span>
+</a>
+</section>
+<!--/Intro -->
+
+<!-- Overview -->
+<section class="section" id="overview">
+	<div class="section__content i-content">
+		<i class="section__decor"></i>
+		<h2 class="section__title title">
+						<span class="title__part">Programme</span>
+						<span class="title__part">overview</span>
+					</h2>
+		<article class="overview">
+			<!-- bar -->
+			<aside class="overview__bar">
+				<div class="overview__bar__content">
+					<div class="overview__nav">
+												<div class="overview__nav__item overview__nav__item_active" data-degree="Bachelor">Bachelor</div>
+												<div class="overview__nav__item" data-degree="Master">Master</div>
+											</div>
+					<div class="overview__contact">
+						<div class="overview__contact__header">
+							<strong class="overview__contact__title">Programme Contact</strong>
+							<img src="/sites/default/files/pnazarova_5.png" />
+							<small class="overview__contact__note overview__contact__note_name">Polina Nazarova</small>
+							<small class="overview__contact__note overview__contact__note_status">Admission Officer</small>
+						</div>
+												<form class="request-a-call__form form" action="/hsajax/form/8request_a_call" method="post" data-after-submit="/form/thankyou">
+							<p class="form__item"><input type="text" class="inline-field request-a-call__field" name="name" placeholder="Name Surname" required /></p>
+							<p class="form__item"><input type="email" class="inline-field request-a-call__field" name="email" placeholder="Email" required /></p>
+							<p class="form__item"><input type="tel" class="inline-field request-a-call__field tel__input" name="phone" placeholder="Phone number" data-rule-phone="true" required /></p>
+							<p class="form__item"><input type="text" class="inline-field request-a-call__field" name="skype" placeholder="Skype" /></p>
+							<p class="form__item">
+								<select class="inline-select request-a-call__field" name="programme" placeholder="Programme" id="live-in" required>
+																			<option>Maths As A Second Language</option>
+																			<option selected="selected">Computer Science</option>
+																			<option>Data Science</option>
+																			<option>Cyber Security</option>
+																			<option>Interaction Design</option>
+																			<option>High-Tech Entrepreneurship</option>
+																			<option>Digital Marketing</option>
+																	</select>
+							</p>
+							<p class="form__error form__error_empty"></p>
+							<div class="form__success form__success_disabled">Your request<br /> was successfully accepted</div>
+							<button type="submit" class="action">
+								<span class="action__text">Give me a call</span>
+							</button>
+						</form>
+					</div>
+				</div>
+			</aside>
+						<section class="overview__content overview__content_1">
+				<ul class="overview__params params params_lead">
+					<li class="params__years params__item">
+						<span class="params__years__value">3</span>
+						<span class="params__years__title params__item__title">years</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">Full-time</span>
+						<span class="params__item__note">Duration</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">19 900 EUR</span>
+						<span class="params__item__note">Tuition Fee/Year</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">240 ECTS</span>
+						<span class="params__item__note">ECTS</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">English</span>
+						<span class="params__item__note">Language of Instruction</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">All year round</span>
+						<span class="params__item__note">Application Period</span>
+					</li>
+				</ul>
+				<div class="overview__text text">
+										<p>Computer Science BSc programme offers students with basic analytic skills and a strong aptitude for mathematics, programming, and logical reasoning the best in the world opportunity for in-depth study of Computer science concepts and theories in highly practical and cutting edge educational environment. Core computer science skills such as software development, object orientated programming (OOP) and database engineering form the basis of the curriculum, with advanced exploratory courses such as data mining to follow. 
+
+</p>
+										<p>Throughout the study students will continuously acquire an understanding of real-world computing needs, as demonstrated by their ability to address technical issues involving computing problems encountered in industry, government and graduate programs.  </p>
+									</div>
+				<a href="/courses/computer-science?curriculum-Bachelor" class="action overview__action">
+					<span class="action__text">See full curriculum</span>
+				</a>
+				<strong class="overview__title">Programme structure</strong>
+				<!-- year -->
+
+								<div class="overview__year overview__year_1 overview__year_last_false">
+					<dl class="overview__year__number overview__year__number_1">
+						<dd class="overview__year__number__value">1</dd>
+						<dd class="overview__year__number__label">year</dd>
+					</dl>
+					<div class="overview__year__content">
+						<div class="overview__year__text text">
+														<p>In the first year, students obtain the foundational knowledge in mathematics and the basics of programming upon which students will develop understanding of programming and computer science during following years. The courses are mostly given in a form of lectures and takeaway coursework. By the end of this year, students will be able to write programmes and use primary computer science tools.</p>
+													</div>
+						<div class="overview__year__additional">
+							<strong class="overview__year__title">Modules</strong>
+							<ul class="overview__year__modules">
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Combinatorics and Graphs</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Foundations of Programming: C/C++</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Calculus – 1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Practical Unix</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Linear Algebra - 1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Algorithms and Data Structures – 1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Combinatorics and Graphs – 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Object Oriented Programming: Python</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Calculus – 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Algorithms and Data Structures – 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Linear Algebra – 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Computer Organisation and Systems</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Combinatorics and Graphs – 3</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Operating Systems</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Calculus – 3</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Capstone Project - 1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Seminars & Workshops - 1</li>
+															</ul>
+						</div>
+												<span class="more">
+							<span class="more__text">More</span>
+							<span class="more__arrow"></span>
+						</span>
+											</div>
+				</div>
+								<div class="overview__year overview__year_2 overview__year_last_false">
+					<dl class="overview__year__number overview__year__number_2">
+						<dd class="overview__year__number__value">2</dd>
+						<dd class="overview__year__number__label">year</dd>
+					</dl>
+					<div class="overview__year__content">
+						<div class="overview__year__text text">
+														<p>In the second year the students will be offered both math courses in the field of discrete mathematics and courses in the field of software development and programming languages. Most courses require practical coursework and a course project enabling students to get a feel for the challenges and approaches used in this field. The students will also begin developing software for the Capstone project.
+</p>
+														<p>By the end of this year, students will be able to write programmes and use primary computer science tools. </p>
+													</div>
+						<div class="overview__year__additional">
+							<strong class="overview__year__title">Modules</strong>
+							<ul class="overview__year__modules">
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Introduction to Probability</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Introduction to Statistics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Java Programming</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Foundations of Mathematical Logic</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Functional Programming</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Introduction to Optimization</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Machine Learning – 1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Formal Language Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Compilers</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Introduction to Computer Networking</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Database Systems Principles</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Computational Complexity Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Introduction to Cryptography</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Extremal Problems</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Web Applications</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Capstone Project - 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Seminars & Workshops - 2</li>
+															</ul>
+						</div>
+												<span class="more">
+							<span class="more__text">More</span>
+							<span class="more__arrow"></span>
+						</span>
+											</div>
+				</div>
+								<div class="overview__year overview__year_3 overview__year_last_true">
+					<dl class="overview__year__number overview__year__number_3">
+						<dd class="overview__year__number__value">3</dd>
+						<dd class="overview__year__number__label">year</dd>
+					</dl>
+					<div class="overview__year__content">
+						<div class="overview__year__text text">
+														<p>In the third year, students will primarily focus on key computer science subjects including computational theory and cryptography. The practical side of the programme is focused on in-depth understanding of parallel computing, databases, compilers.
+</p>
+														<p>At the end of the third year, students will have sufficient theoretical and programming background to tackle computer science problems in professional real world scenarios. A significant amount of time will be dedicated to the development of the Capstone project.  The courses are taught by researchers and professionals who practice the courses they teach either academically or by sharing their professional experiences in their field. The goal of the final year is to expose students to a range of real-world applications of the material that they've learned to ensure seamless transition into a professional roles.</p>
+													</div>
+						<div class="overview__year__additional">
+							<strong class="overview__year__title">Modules</strong>
+							<ul class="overview__year__modules">
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Information Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Software Engineering</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Computational Geometry</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Machine Learning – 2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Parallel and Distributed Computing</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Bioinformatics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Computer Graphics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Computer Vision</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Introduction to Robotics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Software Development Process</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Computational Genomics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Mobile Application Development</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Technical Project Management</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Algorithms in Bioinformatics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Data Visualization</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Software Testing, Verification and Validation</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Leadership and Group Dynamics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Writing, Documentation, TeX, JavaDoc, Academic</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Numerical Methods</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Capstone Project - 3</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_3">Seminars & Workshops - 3</li>
+															</ul>
+						</div>
+												<span class="more">
+							<span class="more__text">More</span>
+							<span class="more__arrow"></span>
+						</span>
+											</div>
+				</div>
+								<!--/year -->
+			</section>
+						<section class="overview__content overview__content_2">
+				<ul class="overview__params params params_lead">
+					<li class="params__years params__item">
+						<span class="params__years__value">2</span>
+						<span class="params__years__title params__item__title">years</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">Full-time</span>
+						<span class="params__item__note">Duration</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">22 900 EUR</span>
+						<span class="params__item__note">Tuition Fee/Year</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">120 ECTS</span>
+						<span class="params__item__note">ECTS</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">English</span>
+						<span class="params__item__note">Language of Instruction</span>
+					</li>
+					<li class="params__item">
+						<span class="params__item__title">All year round</span>
+						<span class="params__item__note">Application Period</span>
+					</li>
+				</ul>
+				<div class="overview__text text">
+										<p>The MSc programme is designed for those who desire to deepen their
+comprehension of all aspects of the computer sciences. Applicants could be
+graduates from other degrees with a strong mathematical core, or those
+continuing their academic pursuit after achieving a BSc in computer science.</p>
+										<p>The programme is heavily geared towards developing students’ professional skills needed for employment, while being able to adapt to rapidly changing technology, to work effectively, professionally and ethically in computing-related professions, as demonstrated by their communications, teamwork and leadership skills. It also motivates and engages students in life-long learning, including entering graduate programmes in Computer Science and related fields.</p>
+									</div>
+				<a href="/courses/computer-science?curriculum-Master" class="action overview__action">
+					<span class="action__text">See full curriculum</span>
+				</a>
+				<strong class="overview__title">Programme structure</strong>
+				<!-- year -->
+
+								<div class="overview__year overview__year_1 overview__year_last_false">
+					<dl class="overview__year__number overview__year__number_1">
+						<dd class="overview__year__number__value">1</dd>
+						<dd class="overview__year__number__label">year</dd>
+					</dl>
+					<div class="overview__year__content">
+						<div class="overview__year__text text">
+														<p>Students begin the programme already having foundational
+knowledge of programming and mathematics including data
+structures and algorithms, statistics and machine learning.
+During the first year their knowledge of mathematics,
+programming and data analysis will be significantly extended.
+The programme also offers opportunity to learn the key soft skills for
+the professional world including technical project management,
+writing and presenting. </p>
+														<p>Finally during the first year students are
+expected to attend many of the talks and workshops offered by
+the university and being work on the capstone project.</p>
+													</div>
+						<div class="overview__year__additional">
+							<strong class="overview__year__title">Modules</strong>
+							<ul class="overview__year__modules">
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Combinatorics and Graph Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Object-Oriented Programming (C++)</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Data Structures and Algorithms</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Functional Programming</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Theory of Probability and Statistics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Practical Unix</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Introduction to Interaction Design</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Advanced Databases</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Master's Machine Learning</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Python</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Networks</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Java Programming</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Operating Systems</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">R</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Robotics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Leadership and Group Dynamics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Technical Writing and Presenting</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">omplexity Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Technical Project Management</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Bioinformatics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Statistical Data Analysis</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Capstone Project-1</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_1">Seminars & Workshops-1</li>
+															</ul>
+						</div>
+												<span class="more">
+							<span class="more__text">More</span>
+							<span class="more__arrow"></span>
+						</span>
+											</div>
+				</div>
+								<div class="overview__year overview__year_2 overview__year_last_true">
+					<dl class="overview__year__number overview__year__number_2">
+						<dd class="overview__year__number__value">2</dd>
+						<dd class="overview__year__number__label">year</dd>
+					</dl>
+					<div class="overview__year__content">
+						<div class="overview__year__text text">
+														<p>During the second year of the programme students will primarily
+focus on learning key applications of the computer science as well
+as advanced methods in programming. A significant part of the
+year will be allocated to the completion of the capstone project.</p>
+													</div>
+						<div class="overview__year__additional">
+							<strong class="overview__year__title">Modules</strong>
+							<ul class="overview__year__modules">
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Parallel and Disrtibuted Computing</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Automata Theory, Languages, and Computation</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Software Design</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Foundations of Cryptography</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Computer Vision</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Computational Geometry</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Compilers</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Software Engineering</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Neural Networks and Deep Learning</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Discrete Optimization</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Virtualization and Java VM</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Nonlinear Optimization</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Computer Graphics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Information Technology Management</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Big Data Analysis</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Information Theory</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Mobile Application Development </li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Software Testing, Verification and Validation</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Data Visualization</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Algorithms in Bioinformatics</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Spectral Graph Analysis and Data Science Applications</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Capstone Project-2</li>
+																<li class="overview__year__modules__item overview__year__modules__item_year_2">Seminars & Workshops-2</li>
+															</ul>
+						</div>
+												<span class="more">
+							<span class="more__text">More</span>
+							<span class="more__arrow"></span>
+						</span>
+											</div>
+				</div>
+								<!--/year -->
+			</section>
+						<!--/content -->
+		</article>
+	</div>
+</section>
+<!--/Overview -->
+
+<!-- Faculty -->
+<section class="faculty faculty_single section section_branded" id="faculty">
+	<div class="section__content i-content">
+		<h2 class="section__title title">
+			Faculty
+			<span class="section__title__category">Computer Science</span>
+		</h2>
+		<div class="section__description text">
+			<p>We're delighted to introduce some of our excellent teachers. Keep
+track of more news about who's coming to share their expertise at
+Harbour.Space on our Twitter and Facebook.</p>
+		</div>
+
+
+		<div class="peoples peoples_count_7">
+												    <a class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Konstantin Mertsalov_2_1.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">KONSTANTIN </span>
+					<span class="peoples__item__name__second">MERTSALOV</span>
+				</strong>
+				<span class="peoples__item__note">PhD, Director of Software Development Europe, Rational Retention</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Computer-Science/Edith-Elkind" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Edith-Elkin_01.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">EDITH </span>
+					<span class="peoples__item__name__second">ELKIND</span>
+				</strong>
+				<span class="peoples__item__note">PhD, Computer Science Professor at Oxford University</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Computer-Science/Alex-Dainiak" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Alex_D_9.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first"> ALEX</span>
+					<span class="peoples__item__name__second"> DAINIAK</span>
+				</strong>
+				<span class="peoples__item__note">PhD, Computer Science Lecturer at the Moscow Institute of Physics and Technology</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Maths-as-a-Second-Language/Sergey-Shedov" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Shedov06.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">Segrey</span>
+					<span class="peoples__item__name__second">Shedov</span>
+				</strong>
+				<span class="peoples__item__note">Associate professor at the Moscow Institute of Physics and Technology</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Computer-Science/Vladislav-Vorotilov" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Vorotilov Vladislav photo_0.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">VLADISLAV</span>
+					<span class="peoples__item__name__second">VOROTILOV</span>
+				</strong>
+				<span class="peoples__item__note">Computer Science Teacher at MIPT</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Computer-Science/Alexander-Kulikov" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Kulikov.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">Alexander</span>
+					<span class="peoples__item__name__second">Kulikov</span>
+				</strong>
+				<span class="peoples__item__note">Senior research fellow in Laboratory of Mathematical Logic of St. Petersburg Department of Steklov Institute of Mathematics</span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Computer-Science/Vitaly-Chibrikov" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Vitaly_500x500.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">Vitaly </span>
+					<span class="peoples__item__name__second">Chibrikov</span>
+				</strong>
+				<span class="peoples__item__note">Senior Software Developer at JetBrains </span>
+			<!--</span>-->
+			</a>
+												    <a href="http://harbour.space/Faculty/Data-science/Attila-Sali" class="peoples__item peoples__item_count_7">
+						<!--<span class="peoples__item peoples__item_count_7">-->
+				<figure class="peoples__item__photo"><img src="/sites/default/files/faculty/Attila Sali_photo02_0 (1)_0.png" alt="" /></figure>
+				<strong class="peoples__item__name">
+					<span class="peoples__item__name__first">ATTILA</span>
+					<span class="peoples__item__name__second">SALI</span>
+				</strong>
+				<span class="peoples__item__note">Alfréd Rényi Institute of Mathematics, Hungarian Academy of Sciences and Department of Computer Science, Budapest University of Tecnology and Economics</span>
+			<!--</span>-->
+			</a>
+					</div>
+	</div>
+</section>
+<!--/Faculty -->
+
+<!-- Program leadership -->
+<section class="section" id="leadership">
+	<div class="section__content i-content">
+		<i class="section__decor"></i>
+		<h2 class="section__title title">
+						<span class="title__part">Programme</span>
+						<span class="title__part">leadership</span>
+					</h2>
+				<article class="person">
+			<div class="person__content">
+				<div class="person__name">
+					<span class="person__name__first">KONSTANTIN </span>
+					<span class="person__name__second">MERTSALOV</span>
+				</div>
+				<div class="person__summary">Faculty Leader
+Computer Science</div>
+				<div class="person__about">
+					<div class="person__about__text text">
+												<p>Konstantin Mertsalov is European Director
+of Development at Rational Enterprise, a
+globally leading software development
+company specialising in enterprise
+information management.</p>
+											</div>
+					<div class="person__about__text person__about__text_hidden text">
+												<p>Originally from Russia, he moved to New
+York in 1998 to study Computer Science
+and Applied Mathematics , and continued
+his academic career with a Rensselaer
+Polytechnic Institute PhD on large dynamic
+social networks. He's an expert on
+machine learning, information diffusion in
+social network, semantic web search,
+unstructured data, big data and data
+analytics in general. He developed U Rank,
+a search engine that allows people to
+organise, edit and annotate search results
+as well as share information.
+Konstantin aims to lead the Harbour.Space
+Data Science programme with unbridled
+enthusiasm about the relatively new field,
+and he’s determined to use his industry
+knowledge to share, teach and create for
+the future with his students.</p>
+											</div>
+										<span class="more">
+						<span class="more__text">More</span>
+						<span class="more__arrow"></span>
+					</span>
+									</div>
+			</div>
+			<div class="person__photo">
+				<figure class="person__photo__inner"><img src="/sites/default/files/pleader/Konstantin Mertsalov_2_1.png" alt="" /></figure>
+			</div>
+		</article>
+			</div>
+</section>
+<!--/Program leadership -->
+
+<!-- Career path -->
+<section class="career section" id="career">
+	<div class="section__content i-content">
+		<i class="section__decor"></i>
+		<h2 class="section__title title">
+						<span class="title__part">Career path</span>
+					</h2>
+		<div class="section__description text">
+			<p>Every career looks different: it depends on individual aspirations as a well as changes in the industry. We’ve selected some stories to illustrate and celebrate the diversity of the various career paths.</p>
+		</div>
+		<div class="career__steps steps">
+			<ul class="steps__content">
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="paper-plane"></i>
+						</div>
+						<div class="steps__item__name">Junior Software<br />Engineer</div>
+						<div class="steps__item__text">As part of the development team,
+junior software engineers learn to
+apply the knowledge in Computer
+Science obtained at the university to
+practical problems at the workplace.
+While handling entry level tasks, junior
+software engineer quickly builds up
+the experience necessary for taking on
+more responsibility at the next step of
+the career ladder.</div>
+					</div>
+				</li>
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="propeller-plane"></i>
+						</div>
+						<div class="steps__item__name">Software<br />Engineer</div>
+						<div class="steps__item__text">Software engineer takes on the
+responsibility for the development of
+efficient and accurate software. The
+key knowledge and skills at this level
+include a deep understanding of the
+key programming concepts, software
+development experience, attention to
+detail, and focus on the quality
+and performance. The bulk of software
+is developed at this level.</div>
+					</div>
+				</li>
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="reactive-plane"></i>
+						</div>
+						<div class="steps__item__name">Senior Software<br />Engineer</div>
+						<div class="steps__item__text">The senior developer is an expert in
+software engineering best practices
+and the force driving software quality.
+At this level, the engineer also takes on
+coaching and mentoring
+responsibilities to help other members
+of the team to reach their highest
+potential.</div>
+					</div>
+				</li>
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="airship"></i>
+						</div>
+						<div class="steps__item__name">Systems<br />Architect</div>
+						<div class="steps__item__text">As a guru of a technical team, the
+systems architect possesses a deep
+understanding of programming and
+computer science in general as well as
+a strategic vision of the technical
+evolution of the software product. The
+systems architect brings in the
+expertise in system design and the
+modelling skills as well as knowledge
+of technical frameworks and
+components. It is also often the
+responsibility of the systems architect
+to develop the technical component of
+the requirements specification to
+ensure a consistent and
+coherent software product.</div>
+					</div>
+				</li>
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="rocket"></i>
+						</div>
+						<div class="steps__item__name">Director of<br />Development</div>
+						<div class="steps__item__text">As a leader of the engineering team,
+the director of development
+orchestrates the range of talent and
+abilities the team members possess to
+ensure the timely and efficient
+development of software product.
+Director of development succeeds by
+understanding the business
+requirements, mastering technical
+project management, learning to
+accurately estimate work effort, and
+demonstrating first-grade team
+leadership.</div>
+					</div>
+				</li>
+								<li class="steps__item">
+					<div class="steps__item__content">
+						<div class="steps__item__picture">
+							<i class="steps__item__icon" data-icon="ufo"></i>
+						</div>
+						<div class="steps__item__name">Chief Technology<br />Officer</div>
+						<div class="steps__item__text">Chief technology officer is a business
+leader with a big picture view of every
+aspect of the technological side of the
+organisation. The CTO understands
+the current state of business as well as
+the target benchmarks and is
+responsible for enrolling technology to
+advance business in the right
+direction. The responsibilities of the
+CTO often include leading the
+development, information
+technologies, support, technical
+operations, and infrastructure
+departments.</div>
+					</div>
+				</li>
+							</ul>
+		</div>
+	</div>
+</section>
+<!--/Career path -->
+
+<!-- Quotes -->
+<section class="quotes">
+	<ul class="quotes__list">
+				<li class="quotes__item">
+			<div class="quotes__item__content">
+				<span class="quotes__item__picture"><img src="/sites/default/files/quotes/google-logo-vector-free-download copy_1.png" alt="" /></span>
+				<strong class="quotes__item__title"></strong>
+                <span class="quotes__item__text">
+                    <i class="quotes__item__text__before"></i>
+                    <span class="quotes__item__text__inner">Software engineers develop the next-generation technologies that change how millions of users connect,
+explore, and interact with information and one another. </span>
+                    <i class="quotes__item__text__after"></i>
+                </span>
+			</div>
+		</li>
+				<li class="quotes__item">
+			<div class="quotes__item__content">
+				<span class="quotes__item__picture"><img src="/sites/default/files/quotes/techcrunch logo .svg" alt="" /></span>
+				<strong class="quotes__item__title"></strong>
+                <span class="quotes__item__text">
+                    <i class="quotes__item__text__before"></i>
+                    <span class="quotes__item__text__inner">Google and Facebook employees earn a base salary of ~$125K, not counting benefits, 401k matching,
+stock options/grants, etc., and even Yahoo! developers pull in six figures.</span>
+                    <i class="quotes__item__text__after"></i>
+                </span>
+			</div>
+		</li>
+				<li class="quotes__item">
+			<div class="quotes__item__content">
+				<span class="quotes__item__picture"><img src="/sites/default/files/quotes/IBM_logo.png" alt="" /></span>
+				<strong class="quotes__item__title"></strong>
+                <span class="quotes__item__text">
+                    <i class="quotes__item__text__before"></i>
+                    <span class="quotes__item__text__inner">We're looking for ideas and skills from every area of computer science, including information
+retrieval, artificial intelligence, natural language processing, distributed computing, large-scale system
+design, networking, security, data compression, and user interface design. The list goes on and is growing
+every day.</span>
+                    <i class="quotes__item__text__after"></i>
+                </span>
+			</div>
+		</li>
+			</ul>
+    <span class="quotes__nav quotes__nav_prev">
+        <i class="quotes__nav__icon"></i>
+    </span>
+    <span class="quotes__nav quotes__nav_next">
+        <i class="quotes__nav__icon"></i>
+    </span>
+</section>
+<!--/Quotes -->
+
+
+
+<!-- Admission -->
+<section class="admission section" id="admission">
+    <div class="section__content i-content">
+        <i class="admission__decor"></i>
+        <header class="section__header admission__header">
+            <h2 class="section__header__title admission__title">
+                                    <span class="admission__title__part">Apply for </span>
+                                    <span class="admission__title__part">2017-2018</span>
+                            </h2>
+        </header>
+        <a href="/admissions" class="admission__button">
+            <span class="admission__button__text">Go&nbsp;to Admissions</span>
+        </a>
+        <div class="admission__share">
+            <span class="admission__share__title">Share</span>
+            <div class="admission__share__widget" data-url="http://harbour.space/courses/computer-science"></div>
+        </div>
+    </div>
+</section>
+<!--/Admission -->
+
+
+<!-- Blog -->
+<section class="blog section" id="blog">
+	<div class="blog__content section__content i-content">
+		<i class="section__decor"></i>
+		<h2 class="section__title title">Blog <span class="section__title__category">Computer Science</span></h2>
+		<div class="blog__list">
+												<a class="blog__item" href="/blog/2016/careers/voloshin">
+				<span class="blog__item__picture"><img src="/sites/default/files/blog/1012235988.jpg" alt="" /></span>
+				<strong class="blog__item__title">Dmitri Voloshin: "The cost of switching from one employee to another is 25% of an employee’s annual salary"</strong>
+				<span class="blog__item__text">Where is domestic IT education heading? What will be “fashionable” in the medium run, say the next 3-5 years? How will the business change in terms of recruiting staff, and will universities lend a hand in this matter? What will be It companies’ main competitive advantage when looking for “young people with the hunger to learn”? These trends are discussed below.</span>
+                <span class="blog__item__info">
+                                        <span class="blog__item__info__date">April 17</span>
+                    <span class="blog__item__info__person">Dmitri Voloshin</span>
+                </span>
+			</a>
+									<a class="blog__item" href="/blog/2015/The-Man-in-the-Taupe-Blazer">
+				<span class="blog__item__picture"><img src="/sites/default/files/blog/Computer_sciece_web2.png" alt="" /></span>
+				<strong class="blog__item__title">The Man in the Taupe Blazer</strong>
+				<span class="blog__item__text">You are an educated, successful person capable of abstract thought. A VP doing an SVP’s job. Your office, appointed with decent furniture and a healthy amount of natural light filtered through vertical blinds, is commensurate with nearly two decades of service to the craft of management.</span>
+                <span class="blog__item__info">
+                                        <span class="blog__item__info__date">December 23</span>
+                    <span class="blog__item__info__person">Paul Ford</span>
+                </span>
+			</a>
+					</div>
+		<span class="more blog__more">
+			<span class="more__text"><a href="/blog/">Read More</a></span>
+			<span class="more__arrow"></span>
+		</span>
+	</div>
+</section>
+<!-- /Blog -->
+
+<!-- Discover -->
+<section class="discover section section_branded">
+    <div class="section__content i-content">
+        <div class="faq">
+            <a href="/faq" class="faq__link">FAQ</a>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter__title">Newsletter</div>
+            <div class="newsletter__text">Subscribe to&nbsp;our newsletter. No&nbsp;spam, we&nbsp;promise.</div>
+            <form class="newsletter__form" action="//panterastudio.us1.list-manage.com/subscribe/post?u=1083143896c97d4068e3f2ce8&amp;id=1285072bbb" method="post">
+                <input class="newsletter__form__field" name="EMAIL" type="text" placeholder="Type in your email and hit enter" />
+                <input type="hidden" name="b_1083143896c97d4068e3f2ce8_1285072bbb" tabindex="-1" value="">
+            </form>
+        </div>
+    </div>
+</section><!--/Discover -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content i-content">
+        <div class="footer__company">
+            <a class="footer__company__logo" href="/"></a>
+            <small class="footer__company__copyright">All rights reserved. 2015</small>
+        </div>
+        <nav class="footer__menu">
+            <a class="footer__menu__item" href="/about">About</a>
+            <a class="footer__menu__item" href="/bcn">Living in Bcn</a>
+            <a class="footer__menu__item" href="/careers">Careers</a>
+            <a class="footer__menu__item" href="/contacts">Contact</a>
+            <a class="footer__menu__item" href="/blog">Blog</a>
+            <a class="footer__menu__item" href="/faq">FAQ</a>
+        </nav>
+    </div>
+</footer>
+<!--/Footer -->
+
+<!-- Networks -->
+<footer class="networks">
+	<div class="networks__content i-content">
+		<span class="networks__title">Follow us:</span>
+		<a class="networks__item networks__item_facebook" target="_blank" href="https://www.facebook.com/Harbour.Space.University">
+			<span class="networks__item__name">Facebook</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_twitter" target="_blank" href="https://twitter.com/Harbour_Space">
+			<span class="networks__item__name">Twitter</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_linkedin" target="_blank" href="https://www.linkedin.com/company/harbour-space">
+			<span class="networks__item__name">LinkedIn</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_gplus" target="_blank" href="https://instagram.com/Harbour.Space/">
+			<span class="networks__item__name">Instagram</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_vk" target="_blank" href="https://vk.com/harbour.space">
+			<span class="networks__item__name">VK</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_quora" target="_blank" href="https://www.quora.com/profile/Harbour-Space">
+			<span class="networks__item__name">Quora</span>
+			<i class="networks__item__icon"></i>
+					</a>
+	</div>
+</footer><!-- /Networks -->
+
+<!-- Developer -->
+<footer class="developer">
+	<div class="developer__content i-content">
+		<a class="developer__chulakov" href="http://chulakov.com/" target="_blank">
+			<span class="developer__chulakov__name">Chulakov</span>
+			<span class="developer__chulakov__domain">com</span>
+		</a>
+		<div class="developer__description">
+			<span class="developer__description__part">Design, Development and Animation by <a class="developer__description__link" href="http://chulakov.com/" target="_blank">Oleg Chulakov Studio</a>.</span>
+			<span class="developer__description__part">Special thanks to <a class="developer__description__link" href="http://repponen.com/" target="_blank">Anton Repponen</a></span>
+		</div>
+	</div>
+</footer><!-- /Developer -->
+
+
+<!-- User curriculum -->
+<section class="user user-curriculum" id="user-curriculum">
+	<div class="user__wrap">
+		<div class="user__wrap__inner">
+			<i class="user__decor"></i>
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image" src="/build/images/user/email.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Leave your e-mail</div>
+				<div class="user__text text">And in addition we will send you a link to the programme, so you will not lose it</div>
+				<form class="user__form form" action="/hsajax/form/6leave_your_email" data-after="/courses/computer-science?curriculum-Bachelor" method="post">
+					<p class="form__item form__item_compact">
+						<input name="name" type="text" class="field field_large" placeholder="Name" />
+					</p>
+					<p class="form__item form__item_compact">
+						<input name="email" type="email" class="field field_large" placeholder="E-mail" required />
+					</p>
+					<button class="user__action user__action_wide action" type="submit">
+						<span class="action__text user__action__text">Submit ang go to full curriculum</span>
+					</button>
+					<p class="user-curriculum__error form__error form__error_empty"></p>
+					<a href="/courses/computer-science?curriculum-Bachelor" class="user__form__hint" data-skip="true">No, thanks</a>
+					<input type="hidden" name="program" value="Computer Science" />
+				</form>
+			</div>
+		</div>
+	</div>
+	<i class="user__close"></i>
+</section>
+<!--/User curriculum -->
+
+<!-- User call -->
+<section class="user user-call" id="user-call">
+    <!-- Call -->
+    <div class="user-call__call user__wrap" data-user-panel="call">
+        <div class="user__wrap__inner">
+            <i class="user__decor"></i>
+            <div class="user__content user__content_center i-content">
+                <i class="user__picture"><img class="user__picture__image" src="/build/images/user/call.svg" alt=""/></i>
+                <div class="user__title title title_secondary">Request a call</nobr></div>
+                <div class="user__text text">If you are thinking to apply to Harbour.Space university just get in touch. We’d love to talk.</div>
+                <form class="user__form" action="/hsajax/form/1request_a_call" method="post">
+                    <div class="form__group">
+                        <div class="form__complex">
+                            <div class="form__item form__complex__item">
+                                <input class="field" id="first_name" name="name" type="text" placeholder="Name" required />
+                            </div>
+                            <div class="form__item form__complex__item">
+                                <input class="field" id="phone" name="phone" type="text" placeholder="Phone" data-rule-phone="true" required />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form__group">
+                        <div class="form__complex">
+                            <div class="form__item form__complex__item">
+                                <input class="field" id="skype" name="skype" type="text" placeholder="Skype" required />
+                            </div>
+                            <div class="form__item form__complex__item">
+                                <select class="form__item__field select" name="country" placeholder="Select Country" id="live-in" required>
+                                    <option value=""></option>
+                                                                            <option>Afghanistan</option>
+                                                                            <option>Albania</option>
+                                                                            <option>Algeria</option>
+                                                                            <option>Andorra</option>
+                                                                            <option>Angola</option>
+                                                                            <option>Antigua & Deps</option>
+                                                                            <option>Argentina</option>
+                                                                            <option>Armenia</option>
+                                                                            <option>Australia</option>
+                                                                            <option>Austria</option>
+                                                                            <option>Azerbaijan</option>
+                                                                            <option>Bahamas</option>
+                                                                            <option>Bahrain</option>
+                                                                            <option>Bangladesh</option>
+                                                                            <option>Barbados</option>
+                                                                            <option>Belarus</option>
+                                                                            <option>Belgium</option>
+                                                                            <option>Belize</option>
+                                                                            <option>Benin</option>
+                                                                            <option>Bhutan</option>
+                                                                            <option>Bolivia</option>
+                                                                            <option>Bosnia Herzegovina</option>
+                                                                            <option>Botswana</option>
+                                                                            <option>Brazil</option>
+                                                                            <option>Brunei</option>
+                                                                            <option>Bulgaria</option>
+                                                                            <option>Burkina</option>
+                                                                            <option>Burundi</option>
+                                                                            <option>Cambodia</option>
+                                                                            <option>Cameroon</option>
+                                                                            <option>Canada</option>
+                                                                            <option>Cape Verde</option>
+                                                                            <option>Central African Rep</option>
+                                                                            <option>Chad</option>
+                                                                            <option>Chile</option>
+                                                                            <option>China</option>
+                                                                            <option>Colombia</option>
+                                                                            <option>Comoros</option>
+                                                                            <option>Congo</option>
+                                                                            <option>Congo</option>
+                                                                            <option>Costa Rica</option>
+                                                                            <option>Croatia</option>
+                                                                            <option>Cuba</option>
+                                                                            <option>Cyprus</option>
+                                                                            <option>Czech Republic</option>
+                                                                            <option>Denmark</option>
+                                                                            <option>Djibouti</option>
+                                                                            <option>Dominica</option>
+                                                                            <option>Dominican Republic</option>
+                                                                            <option>East Timor</option>
+                                                                            <option>Ecuador</option>
+                                                                            <option>Egypt</option>
+                                                                            <option>El Salvador</option>
+                                                                            <option>Equatorial Guinea</option>
+                                                                            <option>Eritrea</option>
+                                                                            <option>Estonia</option>
+                                                                            <option>Ethiopia</option>
+                                                                            <option>Fiji</option>
+                                                                            <option>Finland</option>
+                                                                            <option>France</option>
+                                                                            <option>Gabon</option>
+                                                                            <option>Gambia</option>
+                                                                            <option>Georgia</option>
+                                                                            <option>Germany</option>
+                                                                            <option>Ghana</option>
+                                                                            <option>Greece</option>
+                                                                            <option>Grenada</option>
+                                                                            <option>Guatemala</option>
+                                                                            <option>Guinea</option>
+                                                                            <option>Guinea-Bissau</option>
+                                                                            <option>Guyana</option>
+                                                                            <option>Haiti</option>
+                                                                            <option>Honduras</option>
+                                                                            <option>Hungary</option>
+                                                                            <option>Iceland</option>
+                                                                            <option>India</option>
+                                                                            <option>Indonesia</option>
+                                                                            <option>Iran</option>
+                                                                            <option>Iraq</option>
+                                                                            <option>Ireland</option>
+                                                                            <option>Israel</option>
+                                                                            <option>Italy</option>
+                                                                            <option>Ivory Coast</option>
+                                                                            <option>Jamaica</option>
+                                                                            <option>Japan</option>
+                                                                            <option>Jordan</option>
+                                                                            <option>Kazakhstan</option>
+                                                                            <option>Kenya</option>
+                                                                            <option>Kiribati</option>
+                                                                            <option>Korea North</option>
+                                                                            <option>Korea South</option>
+                                                                            <option>Kosovo</option>
+                                                                            <option>Kuwait</option>
+                                                                            <option>Kyrgyzstan</option>
+                                                                            <option>Laos</option>
+                                                                            <option>Latvia</option>
+                                                                            <option>Lebanon</option>
+                                                                            <option>Lesotho</option>
+                                                                            <option>Liberia</option>
+                                                                            <option>Libya</option>
+                                                                            <option>Liechtenstein</option>
+                                                                            <option>Lithuania</option>
+                                                                            <option>Luxembourg</option>
+                                                                            <option>Macedonia</option>
+                                                                            <option>Madagascar</option>
+                                                                            <option>Malawi</option>
+                                                                            <option>Malaysia</option>
+                                                                            <option>Maldives</option>
+                                                                            <option>Mali</option>
+                                                                            <option>Malta</option>
+                                                                            <option>Marshall Islands</option>
+                                                                            <option>Mauritania</option>
+                                                                            <option>Mauritius</option>
+                                                                            <option>Mexico</option>
+                                                                            <option>Micronesia</option>
+                                                                            <option>Moldova</option>
+                                                                            <option>Monaco</option>
+                                                                            <option>Mongolia</option>
+                                                                            <option>Montenegro</option>
+                                                                            <option>Morocco</option>
+                                                                            <option>Mozambique</option>
+                                                                            <option>Myanmar</option>
+                                                                            <option>Namibia</option>
+                                                                            <option>Nauru</option>
+                                                                            <option>Nepal</option>
+                                                                            <option>Netherlands</option>
+                                                                            <option>New Zealand</option>
+                                                                            <option>Nicaragua</option>
+                                                                            <option>Niger</option>
+                                                                            <option>Nigeria</option>
+                                                                            <option>Norway</option>
+                                                                            <option>Oman</option>
+                                                                            <option>Pakistan</option>
+                                                                            <option>Palau</option>
+                                                                            <option>Panama</option>
+                                                                            <option>Papua New Guinea</option>
+                                                                            <option>Paraguay</option>
+                                                                            <option>Peru</option>
+                                                                            <option>Philippines</option>
+                                                                            <option>Poland</option>
+                                                                            <option>Portugal</option>
+                                                                            <option>Qatar</option>
+                                                                            <option>Romania</option>
+                                                                            <option>Russian Federation</option>
+                                                                            <option>Rwanda</option>
+                                                                            <option>St Kitts & Nevis</option>
+                                                                            <option>St Lucia</option>
+                                                                            <option>Saint Vincent & the Grenadines</option>
+                                                                            <option>Samoa</option>
+                                                                            <option>San Marino</option>
+                                                                            <option>Sao Tome & Principe</option>
+                                                                            <option>Saudi Arabia</option>
+                                                                            <option>Senegal</option>
+                                                                            <option>Serbia</option>
+                                                                            <option>Seychelles</option>
+                                                                            <option>Sierra Leone</option>
+                                                                            <option>Singapore</option>
+                                                                            <option>Slovakia</option>
+                                                                            <option>Slovenia</option>
+                                                                            <option>Solomon Islands</option>
+                                                                            <option>Somalia</option>
+                                                                            <option>South Africa</option>
+                                                                            <option>South Sudan</option>
+                                                                            <option>Spain</option>
+                                                                            <option>Sri Lanka</option>
+                                                                            <option>Sudan</option>
+                                                                            <option>Suriname</option>
+                                                                            <option>Swaziland</option>
+                                                                            <option>Sweden</option>
+                                                                            <option>Switzerland</option>
+                                                                            <option>Syria</option>
+                                                                            <option>Taiwan</option>
+                                                                            <option>Tajikistan</option>
+                                                                            <option>Tanzania</option>
+                                                                            <option>Thailand</option>
+                                                                            <option>Togo</option>
+                                                                            <option>Tonga</option>
+                                                                            <option>Trinidad & Tobago</option>
+                                                                            <option>Tunisia</option>
+                                                                            <option>Turkey</option>
+                                                                            <option>Turkmenistan</option>
+                                                                            <option>Tuvalu</option>
+                                                                            <option>Uganda</option>
+                                                                            <option>Ukraine</option>
+                                                                            <option>United Arab Emirates</option>
+                                                                            <option>United Kingdom</option>
+                                                                            <option>United States</option>
+                                                                            <option>Uruguay</option>
+                                                                            <option>Uzbekistan</option>
+                                                                            <option>Vanuatu</option>
+                                                                            <option>Vatican City</option>
+                                                                            <option>Venezuela</option>
+                                                                            <option>Vietnam</option>
+                                                                            <option>Yemen</option>
+                                                                            <option>Zambia</option>
+                                                                            <option>Zimbabwe</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="user__action action user-start__action" type="submit">
+                        <span class="action__text user__action__text">Submit</span>
+                    </button>
+                    <p class="user__error form__error form__error_empty"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Register success -->
+    <div class="user-call__success user__wrap" data-user-panel="call-success">
+        <div class="user__wrap__inner">
+            <div class="user__content user__content_single i-content">
+                <i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+                <div class="user__title title title_secondary">Thank you!<br /> We call soon</div>
+                <div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our&nbsp;email.</div>
+                <a href="/" class="user-call__success__action user__action action" data-user-close>
+                    <span class="action__text user__action__text">Done</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- / -->
+    <i class="user__close"></i>
+</section>
+<!--/User curriculum --><!--/User call -->
+
+<!-- User apply -->
+<!-- Apply -->
+<section class="user user-apply" id="user-apply">
+    <div class="user__wrap" data-user-panel="apply">
+        <div class="user__wrap__inner">
+            <article class="user__content user__content_double i-content">
+                <div class="user__content__part user-apply__part user-apply__part_1">
+                    <div class="user__title title title_secondary">Request more information</div>
+                    <div class="user__text">About <nobr>Harbour.Space</nobr></div>
+                    <a href="#" class="user__action user__action_secondary action" data-open="#user-start">
+                        <span class="user__action__text action__text">Send me the info</span>
+                    </a>
+                </div>
+                <div class="user__content__part user-apply__part_2">
+                    <div class="user__title title title_secondary">Apply now</div>
+                    <a href="/apply-1?pid=19" class="user__action action" data-open="#user-login" data-after-login="/apply-1?pid=19">
+                        <span class="user__action__text action__text">yes, i’d like to apply</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <i class="user__close"></i>
+    </div>
+</section><!--/User apply -->
+
+<!-- User start -->
+<section class="user user-start" id="user-start">
+	<!-- Call -->
+	<div class="user__wrap" data-user-panel="start">
+		<div class="user__wrap__inner user-start__inner">
+			<i class="user__decor"></i>
+			<div class="user__content user-start__content i-content">
+				<div class="user__title user-start__title title title_secondary">Request free information about Harbour.Space</div>
+				<div class="user__text user-start__text text">1 minute to&nbsp;complete and fast response time</div>
+				<form class="user__form form" action="/hsajax/form/starthere" method="post" data-after-submit="/form/thankyou">
+					<div class="form__group">
+						<div class="form__complex">
+							<label class="form__label" for="first_name">Your name</label>
+							<div class="form__item form__complex__item">
+								<input class="field" id="first_name" name="name" type="text" placeholder="Name" required />
+							</div>
+							<div class="form__item form__complex__item">
+								<input class="field" id="last_name" name="surname" type="text" placeholder="Surname" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Date of birth</label>
+								<div class="form__date">
+									<input class="form__date__field form__date__field_day form__item__field field" name="day_birth" type="text" placeholder="DD" required />
+									<select class="form__date__field form__date__field_month select" name="month_birth" placeholder="Month" required>
+										<option value=""></option>
+																					<option value="1">January</option>
+																					<option value="2">February</option>
+																					<option value="3">March</option>
+																					<option value="4">April</option>
+																					<option value="5">May</option>
+																					<option value="6">June</option>
+																					<option value="7">July</option>
+																					<option value="8">August</option>
+																					<option value="9">September</option>
+																					<option value="10">October</option>
+																					<option value="11">November</option>
+																					<option value="12">December</option>
+																			</select>
+									<input class="form__date__field field form__date__field_year form__item__field field" name="year_birth" type="text" placeholder="YYYY" required />
+								</div>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Gender</label>
+								<div class="form__item__radio radio radio_secondary">
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="male" checked />
+										Male
+									</label>
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="female" />
+										Female
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Nationality</label>
+								<select class="form__item__field select" name="nationality" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">I live in</label>
+								<select class="form__item__field select" name="live-in" placeholder="Select Country" id="live-in" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="telephone">Phone</label>
+								<input class="field tel__input" id="telephone" name="telephone" type="tel" placeholder="Mobile" data-rule-phone="true" required/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="email">E-mail</label>
+								<input class="field" id="email" name="email" type="email" placeholder="hello@harbour.space" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="skype">Skype</label>
+								<input class="field" id="skype" name="skype" type="text" placeholder="Login" required=""/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Funding</label>
+								<select class="form__item__field select" name="funding" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="Self funding">Self funding</option>
+									<option value="Business or Government funding">Business or Government funding</option>
+									<option value="I need a scholarship">I need a scholarship</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Last Study Location</label>
+								<select class="form__item__field select" name="study-location" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Highest Education</label>
+								<select class="form__item__field select" name="education" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="High School">High School</option>
+									<option value="Bachelor">Bachelor</option>
+									<option value="Master">Master</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Programme of interest</label>
+								<select class="form__item__field select" name="interest" placeholder="Choose Programme">
+									<option value=""></option>
+									<optgroup label="Bachelor">
+										<option value="Bachelor of Computer Science">Bachelor of Computer Science</option>
+										<option value="Bachelor of Data Science">Bachelor of Data Science</option>
+										<option value="Bachelor of Digital Marketing">Bachelor of Digital Marketing</option>
+										<option value="Bachelor of High-Tech Entrepreneurship">Bachelor of High-Tech Entrepreneurship</option>
+										<option value="Bachelor of Interaction Design">Bachelor of Interaction Design</option>
+									</optgroup>
+									<optgroup label="Master">
+										<option value="Master High-Tech Entrepreneurship">Master High-Tech Entrepreneurship</option>
+										<option value="Master in Computer Science">Master in Computer Science</option>
+										<option value="Master in Digital Marketing">Master in Digital Marketing</option>
+										<option value="Master Interaction Design">Master Interaction Design</option>
+										<option value="Master of Data Science">Master of Data Science</option>
+									</optgroup>
+									<optgroup label="Foundation Year">
+										<option value="Maths as a second language">Maths as a second language</option>
+									</optgroup>
+									<optgroup label="MBA">
+										<option value="MBA Business Administration">MBA Business Administration</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Desired Start</label>
+								<select class="form__item__field select" name="desired" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="0 to 6 months">0 to 6 Months</option>
+									<option value="7 to 12 months">7 to 12 Months</option>
+									<option value="13 to 24 months">13 to 24 Months</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group form__group_divider">
+						<div class="form__item">
+							<label class="form__label" for="questions">Any questions?</label>
+							<select class="form__item__field select" id="questions" name="questions" placeholder="Request more info">
+								<option value=""></option>
+								<optgroup label="General Information">
+									<option value="Can you send me more information?">Can you send me more information?</option>
+								</optgroup>
+								<optgroup label="Programme Deadline">
+									<option value="When is the application deadline?">When is the application deadline?</option>
+								</optgroup>
+								<optgroup label="Fees & Prices">
+									<option value="How much does it cost?">How much does it cost?</option>
+									<option value="Can I pay in installments?">Can I pay in installments?</option>
+								</optgroup>
+								<optgroup label="Programme Type & Duration">
+									<option value="Is this available online?">Is this available online?</option>
+									<option value="What is the duration?">What is the duration?</option>
+								</optgroup>
+								<optgroup label="Study Place">
+									<option value="Where is the school located?">Where is the school located?</option>
+									<option value="Where is the campus located?">Where is the campus located?</option>
+									<option value="In whice state/province/region is the school?">In whice state/province/region is the school?</option>
+								</optgroup>
+								<optgroup label="Funding">
+									<option value="What other funding options do you have?">What other funding options do you have?</option>
+								</optgroup>
+								<optgroup label="How to Apply">
+									<option value="What documents are required?">What documents are required?</option>
+									<option value="What is the admission/enrolment process?">What is the admission/enrolment process?</option>
+								</optgroup>
+								<optgroup label="Other">
+									<option value="Other">Other</option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+					<button class="user__action action user-start__action" type="submit">
+						<span class="action__text user__action__text">YES, Send me the info now</span>
+					</button>
+					<p class="user__error form__error form__error_empty"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-visit__success user__wrap" data-user-panel="visit-start">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you!<br /> We call soon</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our&nbsp;email.</div>
+				<a href="/" class="user-visit__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+	<i class="user__close user-start__close"></i>
+</section>
+<!--/User curriculum --><!--/User start -->
+
+<!-- User login -->
+<section class="user user-login" id="user-login">
+	<!-- Login -->
+	<div class="user-login__login user__wrap" data-user-panel="login">
+		<div class="user__wrap__inner">
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Log in</div>
+					<form class="user__form form" action="/hsajax/user/login" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+							<span data-user-to="password" class="form__item__action">Forgot your password?</span>
+						</p>
+						<div class="user__actions">
+							<button class="user__actions__item user__action action" type="submit">
+								<span class="user__action__text action__text">Log in</span>
+							</button>
+														<a class="user__actions__item user__action user__action_facebook action" href="/user/simple-fb-connect?destination=apply-1">
+								<span class="user__action__text action__text"></span>
+							</a>
+						</div>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">New To <nobr>Harbour.Space?</nobr></div>
+					<button class="user__action user__action_secondary action" data-user-to="register">
+						<span class="user__action__text action__text">Sign Up</span>
+					</button>
+				</div>
+			</article>
+		</div>
+		<i class="user__close"></i>
+	</div>
+	<!-- Register -->
+	<div class="user-login__register user__wrap" data-user-panel="register">
+		<div class="user__wrap__inner">
+			<i class="user__close" style="opacity: 1;"></i>
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">I Already Have An&nbsp;Account</div>
+					<div class="user__actions">
+						<button class="user__actions__item user__action user__action_secondary action" data-user-to="login">
+							<span class="user__action__text action__text">Log in</span>
+						</button>
+												<a class="user__actions__item user__action user__action_secondary user__action_facebook action" href="#">
+							<span class="user__action__text action__text"></span>
+						</a>
+					</div>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Registration</div>
+					<div class="user__text">Create an&nbsp;account to&nbsp;get the&nbsp;access to&nbsp;the&nbsp;application process and&nbsp;more.</div>
+					<form class="user__form" action="/hsajax/user/register" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+						</p>
+						<button class="user__action action" type="submit">
+							<span class="user__action__text action__text">Sign Up</span>
+						</button>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</article>
+		</div>
+	</div>
+	<!-- Password -->
+	<div class="user-login__password user__wrap" data-user-panel="password">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_double user__content_double_one i-content">
+				<div class="user__content__part">
+					<i class="user__back" data-user-to="login"></i>
+					<div class="user__title title title_secondary">Password recovery</div>
+					<div class="user__text text">Enter your email and we&rsquo;ll get back to&nbsp;you right&nbsp;away.</div>
+					<form class="user-login__password__form user__form" action="/hsajax/user/reset" method="post">
+						<p class="user-login__password__form__item form__item">
+							<input name="email" type="email" class="user-login__password__form__field field field_large" placeholder="Email" required />
+							<button class="user-login__password__form__action user__action action" type="submit">
+								<span class="action__text user__action__text">Submit</span>
+							</button>
+						</p>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-login__success user__wrap" data-user-panel="register-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you.<br /> You're almost there.</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our email, you're all&nbsp;set.</div>
+								<a href="/apply-1?pid=19" class="user-login__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Password success -->
+	<div class="user-login__success user__wrap" data-user-panel="password-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Success!</div>
+				<div class="user__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+				<a href="/#user-login" class="user-login__success__action user__action user__action_secondary action" data-user-to="login">
+					<span class="action__text user__action__text">Login</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+</section>
+<!--/User login -->
+
+
+<!-- END OUTPUT from 'sites/all/themes/hs/node--programme.tpl.php' -->
+
+
+<!-- END OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+
+  </div>
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+    
+    <!-- User apply -->
+    <!-- Apply -->
+<section class="user user-apply" id="user-apply">
+    <div class="user__wrap" data-user-panel="apply">
+        <div class="user__wrap__inner">
+            <article class="user__content user__content_double i-content">
+                <div class="user__content__part user-apply__part user-apply__part_1">
+                    <div class="user__title title title_secondary">Request more information</div>
+                    <div class="user__text">About <nobr>Harbour.Space</nobr></div>
+                    <a href="#" class="user__action user__action_secondary action" data-open="#user-start">
+                        <span class="user__action__text action__text">Send me the info</span>
+                    </a>
+                </div>
+                <div class="user__content__part user-apply__part_2">
+                    <div class="user__title title title_secondary">Apply now</div>
+                    <a href="/apply-1" class="user__action action" data-open="#user-login" data-after-login="/apply-1">
+                        <span class="user__action__text action__text">yes, i’d like to apply</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <i class="user__close"></i>
+    </div>
+</section>    <!--/User apply -->
+
+    <!-- User start -->
+    <section class="user user-start" id="user-start">
+	<!-- Call -->
+	<div class="user__wrap" data-user-panel="start">
+		<div class="user__wrap__inner user-start__inner">
+			<i class="user__decor"></i>
+			<div class="user__content user-start__content i-content">
+				<div class="user__title user-start__title title title_secondary">Request free information about Harbour.Space</div>
+				<div class="user__text user-start__text text">1 minute to&nbsp;complete and fast response time</div>
+				<form class="user__form form" action="/hsajax/form/starthere" method="post" data-after-submit="/form/thankyou">
+					<div class="form__group">
+						<div class="form__complex">
+							<label class="form__label" for="first_name">Your name</label>
+							<div class="form__item form__complex__item">
+								<input class="field" id="first_name" name="name" type="text" placeholder="Name" required />
+							</div>
+							<div class="form__item form__complex__item">
+								<input class="field" id="last_name" name="surname" type="text" placeholder="Surname" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Date of birth</label>
+								<div class="form__date">
+									<input class="form__date__field form__date__field_day form__item__field field" name="day_birth" type="text" placeholder="DD" required />
+									<select class="form__date__field form__date__field_month select" name="month_birth" placeholder="Month" required>
+										<option value=""></option>
+																					<option value="1">January</option>
+																					<option value="2">February</option>
+																					<option value="3">March</option>
+																					<option value="4">April</option>
+																					<option value="5">May</option>
+																					<option value="6">June</option>
+																					<option value="7">July</option>
+																					<option value="8">August</option>
+																					<option value="9">September</option>
+																					<option value="10">October</option>
+																					<option value="11">November</option>
+																					<option value="12">December</option>
+																			</select>
+									<input class="form__date__field field form__date__field_year form__item__field field" name="year_birth" type="text" placeholder="YYYY" required />
+								</div>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Gender</label>
+								<div class="form__item__radio radio radio_secondary">
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="male" checked />
+										Male
+									</label>
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="female" />
+										Female
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Nationality</label>
+								<select class="form__item__field select" name="nationality" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">I live in</label>
+								<select class="form__item__field select" name="live-in" placeholder="Select Country" id="live-in" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="telephone">Phone</label>
+								<input class="field tel__input" id="telephone" name="telephone" type="tel" placeholder="Mobile" data-rule-phone="true" required/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="email">E-mail</label>
+								<input class="field" id="email" name="email" type="email" placeholder="hello@harbour.space" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="skype">Skype</label>
+								<input class="field" id="skype" name="skype" type="text" placeholder="Login" required=""/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Funding</label>
+								<select class="form__item__field select" name="funding" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="Self funding">Self funding</option>
+									<option value="Business or Government funding">Business or Government funding</option>
+									<option value="I need a scholarship">I need a scholarship</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Last Study Location</label>
+								<select class="form__item__field select" name="study-location" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Highest Education</label>
+								<select class="form__item__field select" name="education" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="High School">High School</option>
+									<option value="Bachelor">Bachelor</option>
+									<option value="Master">Master</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Programme of interest</label>
+								<select class="form__item__field select" name="interest" placeholder="Choose Programme">
+									<option value=""></option>
+									<optgroup label="Bachelor">
+										<option value="Bachelor of Computer Science">Bachelor of Computer Science</option>
+										<option value="Bachelor of Data Science">Bachelor of Data Science</option>
+										<option value="Bachelor of Digital Marketing">Bachelor of Digital Marketing</option>
+										<option value="Bachelor of High-Tech Entrepreneurship">Bachelor of High-Tech Entrepreneurship</option>
+										<option value="Bachelor of Interaction Design">Bachelor of Interaction Design</option>
+									</optgroup>
+									<optgroup label="Master">
+										<option value="Master High-Tech Entrepreneurship">Master High-Tech Entrepreneurship</option>
+										<option value="Master in Computer Science">Master in Computer Science</option>
+										<option value="Master in Digital Marketing">Master in Digital Marketing</option>
+										<option value="Master Interaction Design">Master Interaction Design</option>
+										<option value="Master of Data Science">Master of Data Science</option>
+									</optgroup>
+									<optgroup label="Foundation Year">
+										<option value="Maths as a second language">Maths as a second language</option>
+									</optgroup>
+									<optgroup label="MBA">
+										<option value="MBA Business Administration">MBA Business Administration</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Desired Start</label>
+								<select class="form__item__field select" name="desired" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="0 to 6 months">0 to 6 Months</option>
+									<option value="7 to 12 months">7 to 12 Months</option>
+									<option value="13 to 24 months">13 to 24 Months</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group form__group_divider">
+						<div class="form__item">
+							<label class="form__label" for="questions">Any questions?</label>
+							<select class="form__item__field select" id="questions" name="questions" placeholder="Request more info">
+								<option value=""></option>
+								<optgroup label="General Information">
+									<option value="Can you send me more information?">Can you send me more information?</option>
+								</optgroup>
+								<optgroup label="Programme Deadline">
+									<option value="When is the application deadline?">When is the application deadline?</option>
+								</optgroup>
+								<optgroup label="Fees & Prices">
+									<option value="How much does it cost?">How much does it cost?</option>
+									<option value="Can I pay in installments?">Can I pay in installments?</option>
+								</optgroup>
+								<optgroup label="Programme Type & Duration">
+									<option value="Is this available online?">Is this available online?</option>
+									<option value="What is the duration?">What is the duration?</option>
+								</optgroup>
+								<optgroup label="Study Place">
+									<option value="Where is the school located?">Where is the school located?</option>
+									<option value="Where is the campus located?">Where is the campus located?</option>
+									<option value="In whice state/province/region is the school?">In whice state/province/region is the school?</option>
+								</optgroup>
+								<optgroup label="Funding">
+									<option value="What other funding options do you have?">What other funding options do you have?</option>
+								</optgroup>
+								<optgroup label="How to Apply">
+									<option value="What documents are required?">What documents are required?</option>
+									<option value="What is the admission/enrolment process?">What is the admission/enrolment process?</option>
+								</optgroup>
+								<optgroup label="Other">
+									<option value="Other">Other</option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+					<button class="user__action action user-start__action" type="submit">
+						<span class="action__text user__action__text">YES, Send me the info now</span>
+					</button>
+					<p class="user__error form__error form__error_empty"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-visit__success user__wrap" data-user-panel="visit-start">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you!<br /> We call soon</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our&nbsp;email.</div>
+				<a href="/" class="user-visit__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+	<i class="user__close user-start__close"></i>
+</section>
+<!--/User curriculum -->    <!--/User start -->
+
+    <!-- User login -->
+    <section class="user user-login" id="user-login">
+	<!-- Login -->
+	<div class="user-login__login user__wrap" data-user-panel="login">
+		<div class="user__wrap__inner">
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Log in</div>
+					<form class="user__form form" action="/hsajax/user/login" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+							<span data-user-to="password" class="form__item__action">Forgot your password?</span>
+						</p>
+						<div class="user__actions">
+							<button class="user__actions__item user__action action" type="submit">
+								<span class="user__action__text action__text">Log in</span>
+							</button>
+														<a class="user__actions__item user__action user__action_facebook action" href="/user/simple-fb-connect?destination=apply-1">
+								<span class="user__action__text action__text"></span>
+							</a>
+						</div>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">New To <nobr>Harbour.Space?</nobr></div>
+					<button class="user__action user__action_secondary action" data-user-to="register">
+						<span class="user__action__text action__text">Sign Up</span>
+					</button>
+				</div>
+			</article>
+		</div>
+		<i class="user__close"></i>
+	</div>
+	<!-- Register -->
+	<div class="user-login__register user__wrap" data-user-panel="register">
+		<div class="user__wrap__inner">
+			<i class="user__close" style="opacity: 1;"></i>
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">I Already Have An&nbsp;Account</div>
+					<div class="user__actions">
+						<button class="user__actions__item user__action user__action_secondary action" data-user-to="login">
+							<span class="user__action__text action__text">Log in</span>
+						</button>
+												<a class="user__actions__item user__action user__action_secondary user__action_facebook action" href="#">
+							<span class="user__action__text action__text"></span>
+						</a>
+					</div>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Registration</div>
+					<div class="user__text">Create an&nbsp;account to&nbsp;get the&nbsp;access to&nbsp;the&nbsp;application process and&nbsp;more.</div>
+					<form class="user__form" action="/hsajax/user/register" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+						</p>
+						<button class="user__action action" type="submit">
+							<span class="user__action__text action__text">Sign Up</span>
+						</button>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</article>
+		</div>
+	</div>
+	<!-- Password -->
+	<div class="user-login__password user__wrap" data-user-panel="password">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_double user__content_double_one i-content">
+				<div class="user__content__part">
+					<i class="user__back" data-user-to="login"></i>
+					<div class="user__title title title_secondary">Password recovery</div>
+					<div class="user__text text">Enter your email and we&rsquo;ll get back to&nbsp;you right&nbsp;away.</div>
+					<form class="user-login__password__form user__form" action="/hsajax/user/reset" method="post">
+						<p class="user-login__password__form__item form__item">
+							<input name="email" type="email" class="user-login__password__form__field field field_large" placeholder="Email" required />
+							<button class="user-login__password__form__action user__action action" type="submit">
+								<span class="action__text user__action__text">Submit</span>
+							</button>
+						</p>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-login__success user__wrap" data-user-panel="register-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you.<br /> You're almost there.</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our email, you're all&nbsp;set.</div>
+								<a href="/apply-1" class="user-login__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Password success -->
+	<div class="user-login__success user__wrap" data-user-panel="password-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Success!</div>
+				<div class="user__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+				<a href="/#user-login" class="user-login__success__action user__action user__action_secondary action" data-user-to="login">
+					<span class="action__text user__action__text">Login</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+</section>
+    <!--/User login -->
+
+</div>
+<!--/Page -->
+
+<!-- JS -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="/build/js/script.js?1488191725"></script>
+<!--/JS -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyt

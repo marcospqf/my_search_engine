@@ -1,0 +1,1864 @@
+|||http://www.folhavitoria.com.br/|<!DOCTYPE html>
+<html class="no-js" lang="pt-BR" itemscope itemtype="http://schema.org/NewsArticle">
+ 
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="google-site-verification" content="pqthL5PsuL6we_Hlv2TwUJKXzvdmb56S5r94RCUKK40"/>
+<link rel="apple-touch-icon" href="http://www.folhavitoria.com.br/apple-icon.png">
+<link rel="canonical" href="http://www.folhavitoria.com.br/"/>
+<link href="//www.folhavitoria.com.br/opensearch.xml" rel="search" title="Folha Vitória" type="application/opensearchdescription+xml">
+<title>Folha Vitória</title>
+<meta itemprop="description" name="description" content="Notícias sobre esportes, polícia, entretenimento, política, economia e vídeos no Media Center."/>
+<meta name="keywords" content="jornal online, folha vitoria, esportes, entretenimento, portal de noticias, capixaba, es, economia, entretenimento, rede vitoria, rvc, espirito santo, portal online"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="http://www.folhavitoria.com.br/favicon.png" type="image/x-icon"/>
+<meta http-equiv="refresh" content="300"/>
+<script>
+<!-- Google Analytics -->
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-417266-16', 	'auto', {'allowLinker': true});
+	ga('create', 'UA-52342611-1', 	'auto', {'name': 'Surplusage'});
+
+	ga('send', 'pageview');
+	ga('Surplusage.send', 'pageview');
+
+	try {
+		nvg_cluster 	= nvgGetSegment('cluster');// Cluster //
+		nvg_gender 		= nvgGetSegment('gender'); // Genero //
+		nvg_age 		= nvgGetSegment('age'); // Idade //
+		nvg_location 	= nvgGetSegment('location'); // Local //
+		nvg_education 	= nvgGetSegment('education'); // Educacao //
+	} catch(err) {
+		nvg_cluster		='';
+		nvg_gender		='';
+		nvg_age			='';
+		nvg_location	='';
+		nvg_education	='';
+	}
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 		'UA-52342611-1']);
+	_gaq.push(['_setDomainName', 	'http://www.folhavitoria.com.br/']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_setCustomVar', 1, 	"cluster", 		nvg_cluster,	1]);
+	_gaq.push(['_setCustomVar', 2, 	"gender", 		nvg_gender, 	1]);
+	_gaq.push(['_setCustomVar', 3, 	"age", 			nvg_age, 		1]);
+	_gaq.push(['_setCustomVar', 4, 	"location", 	nvg_location, 	1]);
+	_gaq.push(['_setCustomVar', 5, 	"education", 	nvg_education, 	1]);
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script> <script id="navegg" type="text/javascript" src="//tag.navdmp.com/tm14410.js"></script>
+<script type="text/javascript">
+        var webroot         = '/';
+        var staticWebroot   = 'http://www.folhavitoria.com.br/';
+    </script>
+<!--[if IE]>
+        <script type="text/javascript" src="/js/respond.min.js"></script>
+    <![endif]-->
+<!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/css/ie.css" />
+    <![endif]-->
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/generic.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/js/menu_smartphone/css/component.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/style.css?v2015-e"/>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3&appId=583872005033519";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="//www.google.com/jsapi"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/menu_smartphone/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/menu_smartphone/js/jquery.dlmenu.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/isMobile.min.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/GPT.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/jquery.scrolldepth.min.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/jcarousellite_1.0.1.min.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/jquery.paginar.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/banners-home.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/tracker.js"></script>
+<script type="text/javascript" src="http://www.folhavitoria.com.br/js/owl.carousel.min.js"></script>
+<meta property="fb:pages" content="175145699221304"/>
+<meta prefix="fb: http://ogp.me/ns/fb#" property="fb:app_id" content="838344326229439">
+<meta name="twitter:site" value="@folha_vitoria"/>
+<meta name="twitter:card" content="summary_large_image">
+<script type="text/javascript">
+        GPT.init('mobile');
+                GPT.addSlot('FV_Principal_Intervencao_1000x250', 1000, 250, true);
+                GPT.addSlot('FV_Principal_Retangulo_1_300x250', 300, 250, true);
+                GPT.addSlot('FV_Principal_Retangulo_2_300x250', 300, 250, true);
+                GPT.addSlot('FV_Principal_Botao_1_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Botao_2_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Botao_3_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Botao_4_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Botao_5_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Botao_6_214x100', 214, 100, true);
+                GPT.addSlot('FV_Principal_Oferecimento_Social_120x30', 120, 30, true);
+                GPT.addSlot('FV_Principal_SuperBanner_Generico_728x90', 728, 90, true);
+                GPT.addSlot('FV_Principal_Layer_Conteudo_1x1', 1, 1, true);
+                GPT.addSlot('FV_Principal_SuperBanner_Generico_2_728x90', 728, 90, true);
+                GPT.addSlot('FV_Principal_Oferecimento_Videos_120x30', 120, 30, true);
+                GPT.addSlot('FV_Principal_Oferecimento_Economia_120x30', 120, 30, true);
+                GPT.addSlot('FV_Principal_Vertical_300x600', 300, 600, true);
+                GPT.addSlot('FV_Principal_Intervencao_Rodape_1002x55', 1002, 55, true);
+                GPT.addSlot('FV_Principal_Retangulo_3_300x250', 300, 250, true);
+                GPT.addSlot('FV_Home_Principal_1_214x210', 214, 210, true);
+                GPT.addSlot('FV_Principal_SuperBanner_Topo_728x90', 728, 90, true);
+                        GPT.push(false);
+    </script>
+<script type="application/ld+json">
+    {
+       "@context": "http://schema.org",
+       "@type": "WebSite",
+       "url": "http://www.folhavitoria.com.br/",
+       "potentialAction": {
+         "@type": "SearchAction",
+         "target": "http://www.folhavitoria.com.br/busca?q={search_term_string}",
+         "query-input": "required name=search_term_string"
+       }
+    }
+    </script>
+<script type="application/ld+json">
+    { "@context" : "http://schema.org",
+      "@type" : "Organization",
+      "url" : "http://www.folhavitoria.com.br",
+      "logo" : "http://static.folhavitoria.com.br/img/logo-fv.jpg",
+      "contactPoint" : [
+        { "@type" : "ContactPoint",
+          "telephone" : "+55-27-3331-7174",
+          "contactType" : "sales"
+        } ],
+      "sameAs" : [ 
+        "https://www.facebook.com/folhavitoria",
+        "https://twitter.com/folha_vitoria",
+        "https://plus.google.com/101823570544330867920/posts"] 
+    }
+    </script>
+ 
+<script type="text/javascript">
+        var fb_param = {};
+        fb_param.pixel_id = '6014082878441';
+        fb_param.value = '0.00';
+        fb_param.currency = 'BRL';
+        (function(){
+        var fpw = document.createElement('script');
+        fpw.async = true;
+        fpw.src = '//connect.facebook.net/en_US/fp.js';
+        var ref = document.getElementsByTagName('script')[0];
+        ref.parentNode.insertBefore(fpw, ref);
+    })();
+    </script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6014082878441&amp;value=0&amp;currency=BRL"/></noscript>
+<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+ 
+<script>
+         (function(h,o,t,j,a,r){
+              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+              h._hjSettings={hjid:170608,hjsv:5};
+              a=o.getElementsByTagName('head')[0];
+              r=o.createElement('script');r.async=1;
+              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+              a.appendChild(r);
+         })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+<script type="text/javascript">
+        window.smartlook||(function(d) {
+        var o=smartlook=function(){ o.api.push(arguments)},s=d.getElementsByTagName('script')[0];
+        var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+        c.charset='utf-8';c.src='//rec.getsmartlook.com/bundle.js';s.parentNode.insertBefore(c,s);
+        })(document);
+        smartlook('init', '3c404343782b9a1b080b90cdd33e9851b722f4c8');
+    </script>
+</head>
+<body>
+<div id="barrafv"><script type="text/javascript" src="//www.folhavitoria.com.br/topo/snippet?type=topoV3&amp;topoBanner=FV_Principal_SuperBanner_Topo_728x90"></script></div>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/flexslider.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/owl.carousel.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/owl.theme.default.min.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="http://www.folhavitoria.com.br/css/font-awesome.min.css"/>
+<div class="btnLeiaMais">
+<i class="fa fa-angle-down"></i>
+<div>LEIA MAIS</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		jQuery.scrollDepth();
+
+		$('.btnLeiaMais').click(function(){
+			var y 			= $(window).scrollTop();
+			var height 		= $('body').height();
+			var scrollDown 	= (y+height);
+
+			if($(this).find('i').hasClass('fa-angle-up')) {
+				$('html,body').animate({
+					scrollTop: 0
+				}, 800);
+			}else{
+				$('html,body').animate({
+					scrollTop: scrollDown
+				}, 800);
+			}
+		});
+
+		$(window).scroll(function() {
+	    	var posTop 		= $(window).scrollTop();
+	    	var totalHeight = ($(document).height()-1000);
+
+	    	if(posTop >= totalHeight) {
+					$('.btnLeiaMais .fa').removeClass('fa-angle-down').addClass('fa-angle-up');
+					$('.btnLeiaMais div').text('TOPO');
+			} else {
+					$('.btnLeiaMais .fa').removeClass('fa-angle-up').addClass('fa-angle-down');
+					$('.btnLeiaMais div').text('LEIA MAIS');
+			}
+		});
+	});
+</script>
+<script>
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 160) {
+			$('.menuFolha').addClass("fixed");
+			$('.headBusca').addClass("fixed");
+		} else {
+			$('.menuFolha').removeClass("fixed");
+			$('.headBusca').removeClass("fixed");
+		}
+	});
+</script>
+<div class="row conteudo capa">
+<div class="limit">
+<div class="region banner-intervencao" style="overflow:hidden; float:left; width:1000px; height:auto; margin-left:10px; margin-bottom:10px;">
+<div class="midia" style="float:left;width:1000px;">
+<div id="intervencao-container"></div>
+<div id="div-FV_Principal_Botao_3_214x100">
+<script type="text/javascript">
+						GPT.display('FV_Principal_Intervencao_1000x250');
+					</script>
+</div>
+</div>
+</div>
+<div class="intervencao-rodape">
+<div id="div-FV_Principal_Intervencao_Rodape_1002x55">
+<script type="text/javascript">
+					GPT.display('FV_Principal_Intervencao_Rodape_1002x55');
+				</script>
+</div>
+</div>
+<div class="grid g4 ultimas">
+<div class="container t3">
+<div class="latestNews">
+<h4><i class="fa fa-clock-o"></i> <a href="/noticia/todas.html">ÚLTIMAS</a></h4>
+<div class="container">
+<ul>
+<li>
+<a class="policia" href="policia/noticia/2017/03/video-mostra-sequestro-de-administradora-em-vila-velha.html">"Vídeo mostra sequestro de administradora em Vila Velha"</a>
+</li>
+<li>
+<a class="policia" href="policia/noticia/2017/03/policia-pede-para-que-vitimas-de-golpista-se-apresentem-em-linhares.html">"Polícia pede para que vítimas de golpista se apresentem em Linhares"</a>
+</li>
+<li>
+<a class="geral" href="geral/noticia/2017/03/cariacica-identifica-vitima-de-febre-amarela-e-sesa-investiga-2-morte-no-municipio.html">"Cariacica identifica vítima de febre amarela e Sesa investiga 2ª morte no município"</a>
+</li>
+<li>
+<a class="economia" href="economia/noticia/2017/03/vendas-no-varejo-do-japao-avancam-0-1-em-fevereiro-na-comparacao-anual.html">"Vendas no varejo do Japão avançam 0,1% em fevereiro na comparação anual"</a>
+</li>
+<li>
+<a class="esportes" href="esportes/noticia/2017/03/com-inicio-arrasador-chile-bate-venezuela-e-entra-na-zona-de-classificacao.html">"Com início arrasador, Chile bate Venezuela e entra na zona de classificação"</a>
+</li>
+<li>
+<a class="esportes" href="esportes/noticia/2017/03/federer-sofre-mas-vence-e-vai-as-quartas-em-miami-wawrinka-cai-diante-de-zverev.html">"Federer sofre, mas vence e vai às quartas em Miami; Wawrinka cai diante de Zverev"</a>
+</li>
+<li>
+<a class="geral" href="geral/noticia/2017/03/prefeitura-de-sp-para-de-divulgar-reclamacoes-de-cidadaos.html">"Prefeitura de SP para de divulgar reclamações de cidadãos"</a>
+</li>
+<li>
+<a class="politica" href="politica/noticia/2017/03/prefeito-toma-posse-e-vai-preso-em-ilha-solteira-sp.html">"Prefeito toma posse e vai preso em Ilha Solteira (SP)"</a>
+</li>
+<li>
+<a class="geral" href="geral/noticia/2017/03/justica-decreta-prisao-de-suspeitos-pela-morte-de-argentino-em-bar.html">"Justiça decreta prisão de suspeitos pela morte de argentino em bar"</a>
+</li>
+<li>
+<a class="entretenimento" href="entretenimento/noticia/2017/03/mesa-de-som-usada-pelo-pink-floyd-em-dark-side-e-vendida-por-us-1-8-mi.html">"Mesa de som usada pelo Pink Floyd em 'Dark Side' é vendida por US$ 1,8 mi"</a>
+</li>
+</ul>
+</div>
+ 
+</div>
+<script type="text/javascript">
+	$(document).ready(function () {
+		//Carousel Últimas Notícias
+		$('.latestNews .container').each(function() {
+			$(this).jCarouselLite({
+				btnPrev : $(this).parent('.latestNews').find('.navigation > .back'),
+				btnNext : $(this).parent('.latestNews').find('.navigation > .next'),
+				btnPause : $(this).parent('.latestNews').find('.navigation > .pause'),
+				btnPlay : $(this).parent('.latestNews').find('.navigation > .play'),
+				easing : 'swing',
+				auto : 5000,
+				circular : true,
+				visible : 1,
+				speed : 2000
+			});
+		});
+	});
+</script> </div>
+<div class="container t2">
+<ul class="socialSharing-capa">
+<li><a href="https://www.facebook.com/folhavitoria" class="sharingFB"><i class="fa fa-facebook"></i>&nbsp; Facebook</a></li>
+<li><a href="https://twitter.com/folha_vitoria" class="sharingTW"><i class="fa fa-twitter"></i>&nbsp; Twitter</a></li>
+<li><a href="https://plus.google.com/101823570544330867920/posts" class="sharingGP"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></li>
+</ul> </div>
+<div class="container t4 line"></div>
+</div>
+ 
+<div class="grid g3 coluna_esquerda">
+<div id="div-FV_Principal_Layer_Conteudo_1x1" style="position: relative; z-index: 998;">
+<script type="text/javascript">
+        		   GPT.display('FV_Principal_Layer_Conteudo_1x1');
+           		</script>
+</div>
+<style>.destaquesuper{overflow:hidden;}.destaquesuper img{float:left;margin:0 15px 0px 0;}.destaquesuper h1{line-height:1.1;font-size:28px;margin-bottom:8px;letter-spacing:-0.05em;font-weight:normal;}.destaquesuper h1 a{font-size:inherit;font-weight:inherit;line-height:1.2;}.destaquesuper p{font-size:15px;color:#555;line-height:1.4;font-weight:300;}.destaquesuper a.photo{display:inline-block;width:400px;margin-right:15px}</style>
+<div class="container t3">
+<div class="owl-carousel">
+<div class="item item1">
+<div class="destaque policia">
+<a href="http://www.folhavitoria.com.br/policia/noticia/2017/03/video-mostra-sequestro-de-administradora-em-vila-velha.html" class="photo"><img src="//midias.folhavitoria.com.br/files/2017/03/1490745412-abordagem-sequestro-vilavelha.jpg"></a>
+<h3>Polícia</h3>
+<h1><a href="http://www.folhavitoria.com.br/policia/noticia/2017/03/video-mostra-sequestro-de-administradora-em-vila-velha.html">Vídeo mostra sequestro de administradora em Vila Velha</a></h1>
+<p>A mulher foi sequestrada enquanto esperava o filho sair da escola. Ela foi encontrada cerca de três horas depois no bairro Civit, na Serra</p>
+</div>
+</div>
+<div class="item item2">
+<div class="destaque geral">
+<a href="http://www.folhavitoria.com.br/geral/noticia/2017/03/cariacica-identifica-vitima-de-febre-amarela-e-sesa-investiga-2-morte-no-municipio.html" class="photo"><img src="//midias.folhavitoria.com.br/files/2017/03/1490748292-mosquito.jpg"></a>
+<h3>Geral</h3>
+<h1><a href="http://www.folhavitoria.com.br/geral/noticia/2017/03/cariacica-identifica-vitima-de-febre-amarela-e-sesa-investiga-2-morte-no-municipio.html">Cariacica identifica vítima de febre amarela e Sesa investiga 2ª morte no município</a></h1>
+<p>A morte proveniente da doença aconteceu no último dia 13 de março, apenas seis dias depois de a vítima ter começado a apresentar os sintomas da doença</p>
+</div>
+</div>
+<div class="item item3">
+<div class="destaque entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/chegou-a-hora-de-votar-ajude-a-escolher-os-vencedores-do-premio-art-et-decor-2017.html" class="photo"><img src="//midias.folhavitoria.com.br/files/2017/03/1490734642-art-decor.jpg"></a>
+<h3>Entretenimento</h3>
+<h1><a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/chegou-a-hora-de-votar-ajude-a-escolher-os-vencedores-do-premio-art-et-decor-2017.html">Chegou a hora de votar! Ajude a escolher os vencedores do Prêmio Art et Décor 2017</a></h1>
+<p>Prêmio foi lançado nesta terça-feira (28) e a votação já pode ser realizada. Ao todo, 50 categorias disputam a premiação este ano. Confira todos os detalhes!</p>
+</div>
+</div>
+</div>
+</div>
+<script>
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:0,
+	    nav:true,
+	    items:1,
+	    autoplay:true,
+	    autoplayTimeout:5000,
+	    autoplayHoverPause:true,
+	    animateOut: 'fadeOut',
+		animateIn: 'fadeIn'
+	})
+</script>
+ 
+<div class="grid principais">
+<div class="grid g1">
+<div class="container t1 news economia principal01">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/economia/noticia/2017/03/conta-de-luz-do-capixaba-cai-em-mais-de-10-em-abril.html" class="link"></a>
+<div class="legend">
+<strong style="text-transform:uppercase">Economia</strong><br>
+<a href="http://www.folhavitoria.com.br/economia/noticia/2017/03/conta-de-luz-do-capixaba-cai-em-mais-de-10-em-abril.html">Conta de luz do capixaba cai em mais de 10% em abril</a>
+</div>
+<a href="http://www.folhavitoria.com.br/economia/noticia/2017/03/conta-de-luz-do-capixaba-cai-em-mais-de-10-em-abril.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490740590-edp-conta.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news geral principal02">
+<h3>Geral</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/governo-anuncia-investimento-de-r-200-milhoes-para-educacao-de-estudantes-capixabas.html">
+Governo anuncia investimento de R$ 200 milhões para educação </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news politica principal04">
+<h3>Política</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/politica/noticia/2017/03/guerino-zanon-e-eleito-o-novo-presidente-da-amunes.html">
+Prefeito Guerino Zanon é eleito o novo presidente da Amunes </a>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news geral principal03">
+<h3>Geral</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/veja-quais-linhas-de-onibus-vao-circular-com-catraca-alta-a-partir-desta-quarta-na-gv.html">
+Veja quais linhas de ônibus terão catraca alta a partir de amanhã </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news policia principal05">
+<h3>Polícia</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/homem-assalta-farmacia-e-e-agredido-por-moradores-em-vila-velha.html">
+Homem assalta farmácia e é agredido por moradores em Vila Velha </a>
+</div>
+</div>
+</div>
+<div class="grid g3">
+<div class="container t1 news politica principal06">
+<a class="photo" href="http://www.folhavitoria.com.br/politica/noticia/2017/03/assembleia-aprova-volta-de-40-policiais-militares-para-orgaos-publicos.html"><img src="//midias.folhavitoria.com.br/files/2017/03/1490748689-32875893573-c25946a39a-b.jpg"></a>
+<div class="space"></div>
+<h3>Política</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/politica/noticia/2017/03/assembleia-aprova-volta-de-40-policiais-militares-para-orgaos-publicos.html">Assembleia aprova volta de 40 policiais militares para órgãos públicos</a>
+</div>
+<div class="container t1 news geral principal07">
+<a class="photo" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/desmanche-de-bicicletas-desativado-vira-criadouro-de-ratos-e-insetos-em-vila-velha.html"><img src="//midias.folhavitoria.com.br/files/2017/03/1490745759-galpao-abandonado.jpg"></a>
+<div class="space"></div>
+<h3>Geral</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/desmanche-de-bicicletas-desativado-vira-criadouro-de-ratos-e-insetos-em-vila-velha.html">Desmanche de bicicletas desativado vira criadouro de ratos e insetos</a>
+</div>
+<div class="container t1 news entretenimento principal08">
+<a class="photo" href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/premio-art-et-decor-chega-a-11-edicao-com-novas-categorias-e-sera-lancado-nesta-terca-feira.html"><img src="//midias.folhavitoria.com.br/files/2017/03/1490716042-1490629444-1461971912-anne-carpe.jpg"></a>
+<div class="space"></div>
+<h3>Entretenimento</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/premio-art-et-decor-chega-a-11-edicao-com-novas-categorias-e-sera-lancado-nesta-terca-feira.html">Prêmio Art et Décor chega a 11ª edição com novas categorias</a>
+</div>
+</div>
+ 
+ 
+<div class="container t3 line"></div>
+<div class="grid ads">
+<div class="container t1">
+<div class="midia" style="position:relative;">
+<div id="bannerEsquerdaExpansivo" class="expansivo_214x100">
+<div id="div-FV_Principal_Botao_1_214x100">
+<script type="text/javascript">
+									GPT.display('FV_Principal_Botao_1_214x100');
+								</script>
+</div>
+</div>
+</div>
+</div>
+<div class="container t1">
+<div class="midia" style="position:relative;">
+<div id="bannerCentroExpansivo" class="expansivo_214x100">
+<div id="div-FV_Principal_Botao_2_214x100">
+<script type="text/javascript">
+									GPT.display('FV_Principal_Botao_2_214x100');
+								</script>
+</div>
+</div>
+</div>
+</div>
+<div class="container t1">
+<div class="midia" style="position:relative;">
+<div id="bannerDireitaExpansivo" class="expansivo_214x100">
+<div id="div-FV_Principal_Botao_3_214x100">
+<script type="text/javascript">
+									GPT.display('FV_Principal_Botao_3_214x100');
+								</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="container titulo t3 editorRecomenda">
+<h2>Leia também</a></h2>
+<div class="line"></div>
+</div>
+<div class="container t3 destaque">
+<div class="flexslider flexCapa">
+<ul class="slides">
+<li>
+<div class="element_453px">
+<a href="http://www.folhavitoria.com.br/politica/noticia/2017/03/fachin-atende-parecer-da-pgr-e-prorroga-investigacao-de-dilma-e-lula.html" class="link"></a>
+<div class="legend">
+<h3>Política</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/politica/noticia/2017/03/fachin-atende-parecer-da-pgr-e-prorroga-investigacao-de-dilma-e-lula.html">
+<strong>Fachin atende parecer da PGR e prorroga investigação de Dilma e Lula</strong>
+</a>
+</div>
+ 
+<img alt="Fachin atende parecer da PGR e prorroga investigação de Dilma e Lula" src="//midias.folhavitoria.com.br/files/2017/03/1490743332-fachin.jpg"/>
+</div>
+<div class="element_226px">
+<a href="http://www.folhavitoria.com.br/politica/noticia/2017/03/deputado-federal-weverton-rocha-se-torna-reu-no-stf.html" class="link"></a>
+<div class="legend">
+<h3>Política</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/politica/noticia/2017/03/deputado-federal-weverton-rocha-se-torna-reu-no-stf.html">
+<strong>Deputado Weverton Rocha se torna réu no STF</strong>
+</a>
+</div>
+ 
+<img alt="Deputado Weverton Rocha se torna réu no STF" src="//midias.folhavitoria.com.br/files/2017/03/1490743556-weverton-rocha-pdt-ma.jpg"/>
+</div>
+</li>
+<li>
+<div class="element_453px">
+<a href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/sem-messi-argentina-perde-para-bolivia-em-la-paz-e-se-complica-nas-eliminatorias.html" class="link"></a>
+<div class="legend">
+<h3>Esportes</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/sem-messi-argentina-perde-para-bolivia-em-la-paz-e-se-complica-nas-eliminatorias.html">
+<strong>Sem Messi, Argentina perde para Bolívia em La Paz e se complica nas Eliminatórias</strong>
+</a>
+</div>
+ 
+<img alt="Sem Messi, Argentina perde para Bolívia em La Paz e se complica nas Eliminatórias" src="//midias.folhavitoria.com.br/files/2017/03/1490743687-argentina.jpg"/>
+</div>
+<div class="element_226px">
+<a href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/ze-ricardo-vai-poupar-titulares-do-flamengo-contra-o-volta-redonda-pela-taca-rio.html" class="link"></a>
+<div class="legend">
+<h3>Esportes</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/ze-ricardo-vai-poupar-titulares-do-flamengo-contra-o-volta-redonda-pela-taca-rio.html">
+<strong>Fla vai poupar titulares contra o Volta Redonda</strong>
+</a>
+</div>
+ 
+<img alt="Fla vai poupar titulares contra o Volta Redonda" src="//midias.folhavitoria.com.br/files/2017/03/1488931087-ze-ricardo-tecnico-do-flamengo.jpg"/>
+</div>
+</li>
+<li>
+<div class="element_453px">
+<a href="http://www.folhavitoria.com.br/economia/noticia/2017/03/aneel-divulga-lista-com-reducao-de-tarifa-em-abril-para-distribuidoras-de-energia.html" class="link"></a>
+<div class="legend">
+<h3>Economia</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/economia/noticia/2017/03/aneel-divulga-lista-com-reducao-de-tarifa-em-abril-para-distribuidoras-de-energia.html">
+<strong>Aneel divulga lista com redução de tarifa em abril para distribuidoras de energia</strong>
+</a>
+</div>
+ 
+<img alt="Aneel divulga lista com redução de tarifa em abril para distribuidoras de energia" src="//midias.folhavitoria.com.br/files/2016/10/1475865695-energia.jpg"/>
+</div>
+<div class="element_226px">
+<a href="http://www.folhavitoria.com.br/geral/noticia/2017/03/equador-busca-fazer-acordo-com-odebrecht.html" class="link"></a>
+<div class="legend">
+<h3>Geral</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/equador-busca-fazer-acordo-com-odebrecht.html">
+<strong>Equador busca fazer acordo com Odebrecht</strong>
+</a>
+</div>
+ 
+<img alt="Equador busca fazer acordo com Odebrecht" src="//midias.folhavitoria.com.br/files/2017/03/1490397131-1488931311-odebrecht.jpg"/>
+</div>
+</li>
+</ul>
+</div>
+<script>
+  $('.flexCapa').flexslider({
+	animation: "slide",
+	slideshow: true,
+	slideshowSpeed: 10000,
+	pauseOnHover: true 
+  });
+</script> </div>
+ 
+ 
+   
+ 
+<div class="grid entretenimento">
+<div class="container t3 titulo">
+<h2><a href="/entretenimento">ENTRETENIMENTO</a></h2>
+<div class="line"></div>
+</div>
+<div class="grid g3 miniNews">
+<div class="container t1 news entretenimento">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490734834-maisa.jpg"/></a>
+</div>
+<div class="space"></div>
+<h3><strong style="text-transform:uppercase">Entretenimento</strong><br></h3>
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber.html">Maísa Silva implora para ir a after party de Justin Bieber</a>
+</div>
+<div class="container t1 news entretenimento">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/sophia-abrahao-comemora-um-mes-na-bancada-do-video-show-estou-me-soltando-cada-vez-mais.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490735002-sophia.jpg"/></a>
+</div>
+<div class="space"></div>
+<h3><strong style="text-transform:uppercase">Entretenimento</strong><br></h3>
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/sophia-abrahao-comemora-um-mes-na-bancada-do-video-show-estou-me-soltando-cada-vez-mais.html">Sophia Abrahão comemora um mês na bancada do Vídeo Show</a>
+</div>
+<div class="container t1 news entretenimento">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/fernanda-abreu-vai-se-apresentar-no-rock-in-rio.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490735076-fernanda-abreu.jpg"/></a>
+</div>
+<div class="space"></div>
+<h3><strong style="text-transform:uppercase">Entretenimento</strong><br></h3>
+<a href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/fernanda-abreu-vai-se-apresentar-no-rock-in-rio.html">Fernanda Abreu vai se apresentar no Rock in Rio</a>
+</div>
+<div class="row">
+<div class="line t1"></div>
+<div class="line t1"></div>
+<div class="line t1"></div>
+</div>
+<div class="container t1 news entretenimento">
+<h3>Entretenimento</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/lugar-na-fila-para-show-de-justin-bieber-no-rio-custa-ate-r-1-mil.html">
+<strong>Lugar na fila para show de Justin Bieber no Rio custa até R$ 1 mil</strong>
+</a>
+</div>
+<div class="container t1 news entretenimento">
+<h3>Entretenimento</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/bates-motel-muda-cena-do-chuveiro-de-psicose-para-empoderar-personagem.html">
+Bates Motel muda cena do chuveiro para empoderar personagem </a>
+</div>
+<div class="container t1 news entretenimento">
+<h3>Entretenimento</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/entretenimento/noticia/2017/03/kris-jenner-termina-namoro-com-corey-gamble.html">
+Kris Jenner termina namoro com Corey Gamble para focar em sua vida </a>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="grid entretenimento">
+<div class="grid g1">
+<div class="container titulo t1">
+<h2><a href="/entretenimento/ensaio"><small>Ensaio</small></a></h2>
+<div class="line"></div>
+</div>
+<div class="container t1 news entretenimento">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/entretenimento/ensaio" class="link"></a>
+<div class="legend">
+<a href="http://www.folhavitoria.com.br/entretenimento/ensaio">Ainda está perdendo tempo sem ver as fotos do Ensaio? Clique!</a>
+</div>
+<a href="http://www.folhavitoria.com.br/entretenimento/ensaio"><img alt="" src="//midias.folhavitoria.com.br/files/2016/07/1467813672-ensaio.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="grid g5">
+<div class="container titulo t5">
+<h2><a href="/entretenimento/happy-hour"><small>Happy Hour</small></a></h2>
+<div class="line"></div>
+</div>
+<div class="container news t5">
+<div class="flexslider flexHHcapa">
+<ul class="slides">
+<li>
+<a href="/entretenimento/happy-hour/lancamento-do-premio-art-et-decor-2017.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/lancamento-do-premio-art-et-decor-2017.html" class="font_20px">
+<strong>Lançamento do Prêmio Art et Décor 2017</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/03/447x220-2_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/lancamento-do-premio-marcas-icones.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/lancamento-do-premio-marcas-icones.html" class="font_20px">
+<strong>Lançamento do Prêmio Marcas Ícones</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/03/447x220_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/vix-camarote-com-a-jovem-pan.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/vix-camarote-com-a-jovem-pan.html" class="font_20px">
+<strong>Vix Camarote com a Jovem Pan</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/02/thumb-hh-camarote-vix_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/wesley-safadao-e-bell-marques-agitam-guarapari.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/wesley-safadao-e-bell-marques-agitam-guarapari.html" class="font_20px">
+<strong>Wesley Safadão e Bell Marques agitam Guarapari</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/01/447x220-4_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/baile-do-comandante-agita-a-pedreira.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/baile-do-comandante-agita-a-pedreira.html" class="font_20px">
+<strong>Baile do Comandante agita a Pedreira</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/01/447x220-3_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/festa-rio-me-2016-dj-kolombo-no-multiplace-mais.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/festa-rio-me-2016-dj-kolombo-no-multiplace-mais.html" class="font_20px">
+<strong>Festa Rio Me 2016 - Dj Kolombo no Multiplace Mais</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/01/447x220-2_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/jorge-e-mateus-no-multiplace-mais.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/jorge-e-mateus-no-multiplace-mais.html" class="font_20px">
+<strong>Jorge e Mateus no Multiplace Mais</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/01/447x220-1_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/reveillon-ilha-shows-queima-de-fogos-na-melhor-vista-de-vitoria.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/reveillon-ilha-shows-queima-de-fogos-na-melhor-vista-de-vitoria.html" class="font_20px">
+<strong>Reveillon Ilha Shows: Queima de fogos na melhor vista de Vitória</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2017/01/447x220_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/abertura-do-verao-pedreira-henrique-e-juliano-e-jammil-e-uma-noites.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/abertura-do-verao-pedreira-henrique-e-juliano-e-jammil-e-uma-noites.html" class="font_20px">
+<strong>Abertura do Verão Pedreira: Henrique e Juliano e Jammil e Uma Noites</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2016/12/447x220-10_447x220.jpg" alt="">
+</li>
+<li>
+<a href="/entretenimento/happy-hour/gusttavo-lima-no-multiplace-mais.html" class="link"></a>
+<div class="legend">
+<h3>HAPPY HOUR</h3>
+<a href="/entretenimento/happy-hour/gusttavo-lima-no-multiplace-mais.html" class="font_20px">
+<strong>Gusttavo Lima no Multiplace Mais</strong>
+</a>
+</div>
+<div class="date"></div>
+<img src="http://midias.folhavitoria.com.br/files/2016/12/447x220-9_447x220.jpg" alt="">
+</li>
+</ul>
+</div>
+<script>
+							  $('.flexHHcapa').flexslider({
+								animation: "slide",
+								slideshow: false,
+								controlNav: false,
+						    	animationLoop: true,
+								itemWidth: 447
+							  });
+						</script>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="grid geral">
+<div class="container t3 titulo">
+<h2><a href="/geral">Geral</a></h2>
+<div class="line"></div>
+</div>
+<div class="grid g1">
+<div class="container t1 news geral">
+<div class="photo">
+<a href="http://folhavitoria.com.br/geral/noticia/2017/03/gravidas-nos-ultimos-meses-de-gestacao-ganham-ensaio-fotografico-em-anchieta.html" class="link"></a>
+<div class="legend">
+<a href="http://folhavitoria.com.br/geral/noticia/2017/03/gravidas-nos-ultimos-meses-de-gestacao-ganham-ensaio-fotografico-em-anchieta.html">Grávidas nos últimos meses de gestação ganham ensaio fotográfico em Anchieta</a>
+</div>
+<a href="http://folhavitoria.com.br/geral/noticia/2017/03/gravidas-nos-ultimos-meses-de-gestacao-ganham-ensaio-fotografico-em-anchieta.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490744581-barriga-gravida.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news geral">
+<h3>Geral</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/anvisa-proibe-fabricacao-e-comercializacao-de-bebida-energetica.html">
+Anvisa proíbe fabricação e comercialização de bebida energética </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news geral">
+<h3>Geral</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/prefeitura-de-viana-disponibiliza-atendimento-com-nutricionista-em-unidades-da-cidade.html">
+<strong>Prefeitura de Viana disponibiliza atendimento com nutricionista </strong>
+</a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news geral">
+<h3>Geral</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_14px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/termo-que-repassara-r-120-mil-para-iluminacao-do-convento-sera-assinado-nesta-quarta.html">
+Termo que repassará R$ 120 mil para iluminação do Convento será assinado nesta quarta-feira </a>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news geral">
+<a href="http://www.folhavitoria.com.br/geral/noticia/2017/03/grande-vitoria-registra-primeira-morte-confirmada-por-febre-amarela.html" class="photo"><img src="//midias.folhavitoria.com.br/files/2017/03/1490743384-1490697451-vacinaprefeiturasrrra-jpf.jpg"></a>
+<div class="space"></div>
+<h3>Geral</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/geral/noticia/2017/03/grande-vitoria-registra-primeira-morte-confirmada-por-febre-amarela.html">Grande Vitória registra primeira morte confirmada por febre amarela </a>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="grid videos principal">
+<div class="container t3 titulo">
+<h2><a href="/videos">Vídeos</a></h2>
+<div class="line"></div>
+<div class="oferecimento">
+OFERECIMENTO
+<div id="div-FV_Principal_Oferecimento_Videos_120x30" style="float: right; position:relative; margin-top:-12px;">
+<script type="text/javascript">
+								GPT.display('FV_Principal_Oferecimento_Videos_120x30');
+							</script>
+</div>
+</div>
+<div class="flexVideos capa flexslider">
+<ul class="slides">
+<li>
+<div class="thumb">
+<a href="http://www.folhavitoria.com.br/videos/2017/03/1490741703119321295.html">
+<img src="http://midias.folhavitoria.com.br/files/2017/03/1490741703119321295_thumb_214x140.jpg" alt="">
+</a>
+<a href="http://www.folhavitoria.com.br/videos/2017/03/1490741703119321295.html" class="btnPlay">&#217;</a>
+</div>
+<h3>Educação</h3>
+<p><a href="http://www.folhavitoria.com.br/videos/2017/03/1490741703119321295.html" class="font_14px"><strong>Ensino público fica abaixo da meta de crescimento</strong></a></p>
+</li>
+<li>
+<div class="thumb">
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907415231278326965.html">
+<img src="http://midias.folhavitoria.com.br/files/2017/03/14907415231278326965_thumb_214x140.jpg" alt="">
+</a>
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907415231278326965.html" class="btnPlay">&#217;</a>
+</div>
+<h3>TV</h3>
+<p><a href="http://www.folhavitoria.com.br/videos/2017/03/14907415231278326965.html" class="font_14px"><strong>Operadoras de TV sofrem cortes</strong></a></p>
+</li>
+<li>
+<div class="thumb">
+<a href="http://www.folhavitoria.com.br/videos/2017/03/1490741403538366359.html">
+<img src="http://midias.folhavitoria.com.br/files/2017/03/1490741403538366359_thumb_214x140.jpg" alt="">
+</a>
+<a href="http://www.folhavitoria.com.br/videos/2017/03/1490741403538366359.html" class="btnPlay">&#217;</a>
+</div>
+<h3>Ônibus</h3>
+<p><a href="http://www.folhavitoria.com.br/videos/2017/03/1490741403538366359.html" class="font_14px"><strong>Começa teste de nova catraca em ônibus</strong></a></p>
+</li>
+<li>
+<div class="thumb">
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907412831511501567.html">
+<img src="http://midias.folhavitoria.com.br/files/2017/03/14907412831511501567_thumb_214x140.jpg" alt="">
+</a>
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907412831511501567.html" class="btnPlay">&#217;</a>
+</div>
+<h3>Comércio</h3>
+<p><a href="http://www.folhavitoria.com.br/videos/2017/03/14907412831511501567.html" class="font_14px"><strong>Federação do comércio tem expectativa de novos comércios</strong></a></p>
+</li>
+<li>
+<div class="thumb">
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907412232061428197.html">
+<img src="http://midias.folhavitoria.com.br/files/2017/03/14907412232061428197_thumb_214x140.jpg" alt="">
+</a>
+<a href="http://www.folhavitoria.com.br/videos/2017/03/14907412232061428197.html" class="btnPlay">&#217;</a>
+</div>
+<h3>Grande Vitória</h3>
+<p><a href="http://www.folhavitoria.com.br/videos/2017/03/14907412232061428197.html" class="font_14px"><strong>Primeira morte por febre amarela é confirmada</strong></a></p>
+</li>
+</ul>
+</div>
+<script>
+	  $('.flexVideos').flexslider({
+		animation: "slide",
+		slideshow: false,
+		controlNav: false,
+    	animationLoop: true,
+		itemWidth: 214,
+		itemMargin: 20,
+	  });
+</script> </div>
+</div>
+ 
+ 
+<div class="grid policia">
+<div class="container t3 titulo">
+<h2><a href="/policia">Polícia</a></h2>
+<div class="line"></div>
+</div>
+<div class="grid g1">
+<div class="container t1 news policia">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/policia/noticia/2017/03/pai-e-filho-sao-baleados-apos-confusao-durante-festa-em-cariacica.html" class="link"></a>
+<div class="legend">
+<a href="http://www.folhavitoria.com.br/policia/noticia/2017/03/pai-e-filho-sao-baleados-apos-confusao-durante-festa-em-cariacica.html">Pai e filho são baleados após confusão durante festa </a>
+</div>
+<a href="http://www.folhavitoria.com.br/policia/noticia/2017/03/pai-e-filho-sao-baleados-apos-confusao-durante-festa-em-cariacica.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490745415-pai-e-filho-baleados.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/suspeitos-de-assalto-a-onibus-na-grande-vitoria-sao-presos.html">
+<strong>Suspeitos de assalto a ônibus na Grande Vitória são presos </strong>
+</a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/homem-e-preso-por-tentar-assaltar-mae-e-filha-na-entrada-de-clinica-em-vv.html">
+Homem é preso por tentar assaltar mãe e filha em clínica de VV </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/suspeito-de-assaltar-motorista-de-aplicativo-e-morto-pela-policia-em-sp.html">
+<strong>Suspeito de assaltar motorista de aplicativo é morto pela polícia</strong>
+</a>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<i class="fa fa-video-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/familia-de-capixaba-que-morreu-apos-violencia-domestica-vai-pedir-guarda-do-filho.html">
+Família de capixaba que morreu após violência doméstica vai pedir guarda </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/enxame-de-abelhas-atrapalha-fuga-de-quadrilha-em-linhares.html">
+<strong>Enxame de abelhas atrapalha fuga de quadrilha em Linhares</strong>
+</a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news policia">
+<h3>Polícia</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/policia/noticia/2017/03/governo-do-estado-entrega-22-viaturas-para-as-policias-civil-e-militar.html">
+<strong>Governo do ES entrega 22 viaturas para polícias Civil e Militar</strong>
+</a>
+</div>
+</div>
+</div>
+ 
+ 
+<div class="grid g3 blogs">
+<div class="container titulo t3 navContainer">
+<h2>Blogs</h2>
+<div class="line"></div>
+<div class="navigation">
+<a href="javascript:void(0);" class="miniBtn flex-prev-blog"><span>&#212;</span></a>
+<a href="javascript:void(0);" class="miniBtn flex-next-blog"><span>&#215;</span></a>
+</div>
+</div>
+<div class="container t3">
+<div class="flexBlogs">
+<ul class="slides">
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/entre-maes" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/entre-maes.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/entre-maes" target="_blank">Entre Mães</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/entre-maes/2017/03/eu-tambem-me-frustro/" target="_blank">Eu também me frustro!</a></p>
+</li>
+<li class="esportes">
+<a href="http://www.folhavitoria.com.br/esportes/blogs/loucaporesportes" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/loucaporesportes.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/esportes/blogs/loucaporesportes" target="_blank">Louca por Esportes</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/esportes/blogs/loucaporesportes/2017/03/28/sonho-alto-primo-de-craque-se-destaca-no-futebol/" target="_blank">Sonho alto: primo de craque se destaca no futebol</a></p>
+</li>
+<li class="politica">
+<a href="http://www.folhavitoria.com.br/politica/blogs/bastidores" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/bastidores.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/politica/blogs/bastidores" target="_blank">Bastidores</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/politica/blogs/bastidores/2017/03/magno-malta-e-a-caravana-de-2018/" target="_blank">Magno Malta e a caravana de 2018</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/empregoseconcursos.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos" target="_blank">Empregos & Concursos</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos/2017/03/28/empresas-oferecem-salarios-de-ate-r-14-mil/" target="_blank">Empresas oferecem salários de até R$ 14 mil</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/art-et-decor" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/art-et-decor.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/art-et-decor" target="_blank">Art Et Decor</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/art-et-decor/2017/03/11o-premio-art-et-decor-e-amanha/" target="_blank">11º Prêmio Art et Décor – período de votação, novidades e muito mais – é hoje!</a></p>
+</li>
+<li class="esportes">
+<a href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/corridaderua.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua" target="_blank">Corrida de Rua</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua/2017/03/27/dicas-da-nutri-que-corre-antes-e-depois-da-corrida-e-da-reeducacao-alimentar/" target="_blank">Dicas da Nutri que Corre: Antes e depois da corrida e da reeducação alimentar</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/na-balada" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/na-balada.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/na-balada" target="_blank">Na Balada</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/na-balada/2017/03/ivete-sangalo-surpreende-fa-com-pedido-de-carona/" target="_blank">Ivete Sangalo surpreende fã com pedido de carona</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/caminhos-de-fe" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/caminhos-de-fe.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/caminhos-de-fe" target="_blank">Caminhos de Fé</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/caminhos-de-fe/2017/03/27/show-catolico-beneficente-no-teatro-de-vila-velha-dia-31/" target="_blank">Show católico beneficente em Vila Velha dia 31</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/petblog" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/petblog.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/petblog" target="_blank">Petblog - Curiosidades e conversas sobre o mundo pet</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/petblog/2017/03/27/figado-do-cachorro/" target="_blank">Cuide bem do fígado do seu cachorro</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/receitas-do-chef" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/receitas-do-chef.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/receitas-do-chef" target="_blank">Receitas do Chef</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/receitas-do-chef/2017/03/receita-de-torta-capixaba-da-ilha-das-caieiras-com-chef-eliana-do-restaurante-beco-do-siri/" target="_blank">Receita de Torta Capixaba da Ilha das Caieiras com a Chef Eliana do restaurante Beco do Siri</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/horadaripa" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/horadaripa.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/horadaripa" target="_blank">Hora da Ripa</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/horadaripa/2017/03/24/mensagem-enviada-pelo-leitor-saulo-alves-nascimento-coutinho/" target="_blank">Lixo acumulado incomoda quem passa pela orla do balneário de Praia Grande</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/midiaemercado" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/midiaemercado.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/midiaemercado" target="_blank">Mídia e Mercado</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/midiaemercado/2017/03/27/cigana-flor-no-inverno-da-acucar-moreno/" target="_blank">Cigana Flor no Inverno da Açúcar Moreno</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/livrepensar" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/livrepensar.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/livrepensar" target="_blank">Livre Pensar</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/livrepensar/2017/03/mudar-a-previdencia-beneficia-os-pobres-dizem-economistas-do-governo/" target="_blank">Mudar a Previdência beneficia os pobres, dizem economistas do governo</a></p>
+</li>
+<li class="politica">
+<a href="http://www.folhavitoria.com.br/politica/blogs/esplanada" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/esplanada.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/politica/blogs/esplanada" target="_blank">Esplanada</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/politica/blogs/esplanada/2017/03/27/cavendish-x-cunha/" target="_blank">Cavendish x Cunha</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/elogoali" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/elogoali.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/elogoali" target="_blank">É Logo Ali</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/elogoali/2017/03/12487/" target="_blank">Que tal aproveitar o outono para conhecer São Roque de Maravilha em Alfredo Chaves?</a></p>
+</li>
+<li class="economia">
+<a href="http://www.folhavitoria.com.br/economia/blogs/gestaoeresultados" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/gestaoeresultados.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/economia/blogs/gestaoeresultados" target="_blank">Gestão & Resultados</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/economia/blogs/gestaoeresultados/2017/03/27/o-desafio-da-mudanca-novos-paradigmas/" target="_blank">O desafio da Mudança – novos paradigmas.</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/folha-viagem" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/folha-viagem.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/folha-viagem" target="_blank">Folha Viagem</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/folha-viagem/2017/03/25/companhia-aerea-surpreende-e-lanca-passagens-por-r-7990-nos-voos-de-vitoria-para-salvador/" target="_blank">Companhia aérea surpreende e lança passagens por R$ 79,90 nos voos de Vitória para Salvador</a></p>
+</li>
+<li class="economia">
+<a href="http://www.folhavitoria.com.br/economia/blogs/negocios-de-sucesso" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/negocios-de-sucesso.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/economia/blogs/negocios-de-sucesso" target="_blank">Negócios de Sucesso</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/economia/blogs/negocios-de-sucesso/2017/03/25/confira-na-integra-o-programa-negocios-de-sucesso-de-sabado-2503/" target="_blank">Confira na íntegra o programa Negócios de Sucesso de sábado (25/03)</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/espacogourmet" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/espacogourmet.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/espacogourmet" target="_blank">Espaço Gourmet</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/espacogourmet/2017/03/24/mexido-de-bacalhau/" target="_blank">Mexido de bacalhau</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/direito-direto" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/direito-direto.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/direito-direto" target="_blank">Direito Direto</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/direito-direto/2017/03/23/a-realidade-por-tras-das-mudancas-na-terceirizacao-por-leandro-colnago-fraga/" target="_blank">A realidade por trás das mudanças na Terceirização – por Leandro Colnago Fraga</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/du-ponto-de-vista-masculino" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/du-ponto-de-vista-masculino.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/du-ponto-de-vista-masculino" target="_blank">Du Ponto de Vista Masculino</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/du-ponto-de-vista-masculino/2017/03/23/nao-erre-ao-se-vestir-siga-os-passos/" target="_blank">Não erre ao se vestir, siga os passos</a></p>
+</li>
+<li class="esportes">
+<a href="http://www.folhavitoria.com.br/esportes/blogs/tribo-mma" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/tribo-mma.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/esportes/blogs/tribo-mma" target="_blank">Tribo MMA</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/esportes/blogs/tribo-mma/2017/03/a-capixaba-karolline-rosa-luta-hoje-no-maior-evento-de-mma-do-brasil/" target="_blank">A capixaba Karolline Rosa luta hoje no maior evento de MMA do Brasil</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/estilo-e-beleza" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/estilo-e-beleza.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/estilo-e-beleza" target="_blank">Estilo e Beleza</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/estilo-e-beleza/2017/03/vix-paula-hermanny-homenageia-as-mulheres/" target="_blank">Vix Paula Hermanny homenageia as mulheres!!</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/educacaoeempreendedorismo" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/educacaoeempreendedorismo.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/educacaoeempreendedorismo" target="_blank">Educação e Empreendedorismo</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/educacaoeempreendedorismo/2017/03/21/treine-sua-mente-para-ver-o-positivo/" target="_blank">Treine sua mente para ver o positivo</a></p>
+</li>
+<li class="economia">
+<a href="http://www.folhavitoria.com.br/economia/blogs/carromotoecia" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/carromotoecia.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/economia/blogs/carromotoecia" target="_blank">Carro, Moto e Cia</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/economia/blogs/carromotoecia/2017/03/16/novo-land-rover-discovery-project-hero-inclui-nova-tecnologia-um-drone-desenvolvido-para-ajudar-a-cruz-vermelha-a-salvar-vidas/" target="_blank">Novo Land Rover Discovery “Project Hero” inclui nova tecnologia: um drone desenvolvido para ajudar a cruz vermelha a salvar vidas</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/folhinha-macakids" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/folhinha-macakids.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/folhinha-macakids" target="_blank">Folhinha Macakids</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/folhinha-macakids/2017/03/nossa-querida-arara-azul/" target="_blank">Nossa querida: Arara Azul!</a></p>
+</li>
+<li class="esportes">
+<a href="http://www.folhavitoria.com.br/esportes/blogs/3-pontos" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/3-pontos.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/esportes/blogs/3-pontos" target="_blank">3 Pontos</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/esportes/blogs/3-pontos/2017/02/19/gigante-de-221m-porzingis-vence-o-torneio-de-habilidades-da-nba/" target="_blank">Gigante de 2,21m, Porzingis vence o Torneio de Habilidades da NBA</a></p>
+</li>
+<li class="entretenimento">
+<a href="http://www.folhavitoria.com.br/entretenimento/blogs/sexo-e-prazer" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/sexo-e-prazer.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/entretenimento/blogs/sexo-e-prazer" target="_blank">Sexo e Prazer</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/entretenimento/blogs/sexo-e-prazer/2017/02/17/sexo-casual-nao-precisa-ser-raso/" target="_blank">Sexo casual não precisa ser raso</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/flagradoleitor" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/flagradoleitor.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/flagradoleitor" target="_blank">Flagra do Leitor</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/flagradoleitor/2017/01/12/de-ferias-em-itaunas-turista-registra-por-do-sol-espetacular/" target="_blank">De férias em Itaúnas, turista registra pôr do sol espetacular</a></p>
+</li>
+<li class="geral">
+<a href="http://www.folhavitoria.com.br/geral/blogs/es-solidario" target="_blank"><img alt="" class="" src="//www.folhavitoria.com.br/img/blogs/es-solidario.jpg"/></a>
+<h3><a href="http://www.folhavitoria.com.br/geral/blogs/es-solidario" target="_blank">Espírito Santo Solidário</a></h3>
+<p class="font_18px"><a href="http://www.folhavitoria.com.br/geral/blogs/es-solidario/2016/12/02/dia-d-da-campanha-es-solidario-leva-alegria-e-diversao-para-alunos/" target="_blank">Dia D da campanha ES Solidário leva alegria e diversão para alunos</a></p>
+</li>
+</ul>
+</div>
+<script>
+		  $('.flexBlogs').flexslider({
+			animation: "slide",
+			slideshow: true,
+			slideshowSpeed: 10000,
+			controlNav: false,
+	    	animationLoop: true,
+			itemWidth: 321,
+			itemMargin: 20,
+		  });
+
+		$('.flex-prev-blog').on('click', function(){
+		    $('.flexBlogs').flexslider('prev');
+		    return false;
+		});
+		$('.flex-next-blog').on('click', function(){
+		    $('.flexBlogs').flexslider('next');
+		    return false;
+		});
+
+	</script>
+</div>
+</div>
+ 
+ 
+<div class="grid esportes">
+<div class="container t3 titulo">
+<h2><a href="/esportes">Esportes</a></h2>
+<div class="line"></div>
+</div>
+<div class="grid g1">
+<div class="container t1 news esportes">
+<div class="photo">
+<a href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/brasil-tentara-superar-retrospecto-negativo-recente-contra-o-paraguai.html" class="link"></a>
+<div class="legend">
+<a href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/brasil-tentara-superar-retrospecto-negativo-recente-contra-o-paraguai.html">Brasil tenta superar retrospecto negativo diante do Paraguai</a>
+</div>
+<a href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/brasil-tentara-superar-retrospecto-negativo-recente-contra-o-paraguai.html"><img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490721357-braxurujogo.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<a class="font_18px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/sornoza-torce-o-tornozelo-em-treino-do-flu-e-preocupa-abel-braga.html">
+<strong>Sornoza torce o tornozelo em treino do Flu e preocupa Abel Braga</strong>
+</a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_14px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/thiago-maia-exalta-confianca-e-projeta-3a-vitoria-seguida-do-santos-no-paulistao.html">
+Thiago Maia exalta confiança e projeta 3ª vitória do Santos </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/presidente-da-cbb-celebra-apoio-do-cob-apos-reuniao-com-nuzman.html">
+<strong>Presidente da CBB celebra apoio do COB após reunião </strong>
+</a>
+</div>
+</div>
+<div class="grid g1">
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_18px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/selecao-completa-dois-anos-sem-enfrentar-europeus-e-tite-mostra-ansiedade.html">
+Tite está ansioso para Seleção Brasileira enfrentar europeus </a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<a class="font_14px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/sede-da-copa-russia-arranca-empate-com-a-belgica-no-fim-em-amistoso.html">
+<strong>Rússia arranca empate com a Bélgica no fim em amistoso</strong>
+</a>
+</div>
+<div class="container t1 line"></div>
+<div class="container t1 news esportes">
+<h3>Esportes</h3>
+<i class="fa fa-camera"></i>&nbsp; <a class="font_14px" href="http://www.folhavitoria.com.br/esportes/noticia/2017/03/arabia-saudita-vence-se-aproxima-de-vaga-na-copa-e-complica-a-australia.html">
+Arábia vence, se aproxima da Copa e complica a Austrália </a>
+</div>
+</div>
+</div>
+ 
+</div>
+</div>
+<div class="grid g2 sidebar">
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/especial/questionario/2017/03/votacao-11o-premio-art-et-decor.html">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/ppi-art-decor.png"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/especial/questionario/2017/03/votacao-11o-premio-art-et-decor.html"><strong>Art et Décor</strong></a>
+<p>Há 11 anos premiamos o talento, a criatividade, a busca de soluções para o bem viver em todos os sentidos</p>
+</div>
+<div class="container t2 retangulo">
+<div id="div-FV_Principal_Retangulo_1_300x250">
+<script type="text/javascript">
+						GPT.display('FV_Principal_Retangulo_1_300x250');
+					</script>
+</div>
+</div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/geral/blogs/guiadevacinacao/">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/ppi-vacina.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/geral/blogs/guiadevacinacao/"><strong>Guia de vacinação</strong></a>
+<p>O Especial Vacinação traz uma série de reportagens com orientações sobre as opções de imunização de doenças</p>
+</div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/geral/blogs/petblog/">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490707034-cao-4.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/geral/blogs/petblog/"><strong>Pet Blog</strong></a>
+<p>Os pets precisam de cuidados! Se tem dúvidas ou quer compartilhar momentos com eles, acompanhe os posts!</p>
+</div>
+ 
+ 
+<div class="readMore container t2">
+<div class="navigation">
+<a href="javascript:void(0);" class="back miniBtn"><span>&#212;</span></a>
+<div class="carouselLidas">
+<ul style="padding: 0px; margin-left: 22px; position: relative; height: 23px;" class="carouselLidasContainer">
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Geral</a></li>
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Polícia</a></li>
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Política</a></li>
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Economia</a></li>
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Entretenimento</a></li>
+<li class="carouselLidasItem" style="position: absolute; left: 0px; top: 0px; display: none;"><a>Esportes</a></li>
+</ul>
+</div>
+<a href="javascript:void(0);" class="next miniBtn"><span>&#215;</span></a>
+</div>
+<h4>MAIS LIDAS</h4>
+<div class="carouselEditorias">
+<ul style="list-style: none outside none; position: relative; height: 350px;" class="carouselEditoriasContainer">
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 2">
+<li class="geral">
+<span>1</span>
+<a href="/geral/noticia/2017/03/veja-quais-linhas-de-onibus-vao-circular-com-catraca-alta-a-partir-desta-quarta-na-gv.html">
+Veja quais linhas de ônibus vão circular com catraca alta a partir desta quarta na GV </a>
+</li>
+<li class="geral">
+<span>2</span>
+<a href="/geral/noticia/2017/03/jovem-morre-apos-tomar-garrafa-de-tequila-em-aposta-feita-em-boate.html">
+Jovem morre após tomar garrafa de tequila em aposta feita em boate </a>
+</li>
+<li class="geral">
+<span>3</span>
+<a href="/geral/noticia/2017/03/grande-vitoria-registra-primeira-morte-confirmada-por-febre-amarela.html">
+Grande Vitória registra primeira morte confirmada por Febre Amarela </a>
+</li>
+<li class="geral">
+<span>4</span>
+<a href="/geral/noticia/2017/03/oportunidades-no-es-agencias-abrem-quase-120-vagas-de-emprego-nesta-segunda-feira.html">
+Oportunidades no ES! Agências abrem quase 120 vagas de emprego nesta segunda-feira </a>
+</li>
+<li class="geral">
+<span>5</span>
+<a href="/geral/noticia/2017/03/familia-reconhece-corpo-de-desaparecido-em-naufragio-em-guarapari.html">
+Família reconhece corpo de desaparecido em naufrágio em Guarapari </a>
+</li>
+</ul>
+</li>
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 3">
+<li class="policia">
+<span>1</span>
+<a href="/policia/noticia/2017/03/jovens-sao-assassinados-a-tiros-dentro-de-carro-em-vila-velha.html">
+Jovens são assassinados a tiros dentro de carro em Vila Velha </a>
+</li>
+<li class="policia">
+<span>2</span>
+<a href="/policia/noticia/2017/03/mulher-e-esganada-pelo-companheiro-em-venda-nova-do-imigrante.html">
+Mulher é esganada pelo companheiro em Venda Nova do Imigrante </a>
+</li>
+<li class="policia">
+<span>3</span>
+<a href="/policia/noticia/2017/03/jovem-mata-primo-estrangulado-para-se-defender-de-suposto-estupro-em-cariacica.html">
+Jovem mata primo estrangulado para se defender de suposto estupro em Cariacica </a>
+</li>
+<li class="policia">
+<span>4</span>
+<a href="/policia/noticia/2017/03/suspeito-de-roubar-arma-e-espancar-policial-civil-em-paralisacao-da-pm-e-preso.html">
+Suspeito de roubar arma e espancar policial civil em paralisação da PM é preso </a>
+</li>
+<li class="policia">
+<span>5</span>
+<a href="/policia/noticia/2017/03/corpos-de-homens-sao-encontrados-sem-roupa-em-praia-de-linhares.html">
+Corpos de homens são encontrados sem roupa em praia de Linhares </a>
+</li>
+</ul>
+</li>
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 4">
+<li class="politica">
+<span>1</span>
+<a href="/politica/noticia/2017/03/ccj-do-senado-comeca-a-discutir-lei-de-abuso-de-autoridade.html">
+CCJ do Senado começa a discutir lei de abuso de autoridade </a>
+</li>
+<li class="politica">
+<span>2</span>
+<a href="/politica/noticia/2017/03/nova-fase-da-lava-jato-operacao-paralelo-mira-operadores-do-mercado-financeiro.html">
+Nova fase da Lava Jato, Operação Paralelo mira operadores do mercado financeiro </a>
+</li>
+<li class="politica">
+<span>3</span>
+<a href="/politica/noticia/2017/03/pf-deflagra-mais-uma-fase-da-operacao-lava-jato-nesta-terca-feira.html">
+PF deflagra mais uma fase da Operação Lava Jato nesta terça-feira </a>
+</li>
+<li class="politica">
+<span>4</span>
+<a href="/politica/noticia/2017/03/assembleia-aprova-volta-de-40-policiais-militares-para-orgaos-publicos.html">
+Assembleia aprova volta de 40 policiais militares para órgãos públicos </a>
+</li>
+<li class="politica">
+<span>5</span>
+<a href="/politica/noticia/2017/03/deputado-do-pmdb-indicou-fiscal-preso-na-carne-fraca.html">
+Deputado do PMDB indicou fiscal preso na Carne Fraca </a>
+</li>
+</ul>
+</li>
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 5">
+<li class="economia">
+<span>1</span>
+<a href="/economia/noticia/2017/03/capixabas-podem-renegociar-dividas-e-limpar-nome-durante-feirao-saiba-como.html">
+Capixabas podem renegociar dívidas e ‘limpar’ nome durante feirão. Saiba como! </a>
+</li>
+<li class="economia">
+<span>2</span>
+<a href="/economia/noticia/2017/03/mrv-engenharia-lanca-primeiro-minha-casa-minha-vida-faixa-1-5-no-estado.html">
+MRV Engenharia lança primeiro “Minha Casa, Minha Vida” faixa 1,5 no estado </a>
+</li>
+<li class="economia">
+<span>3</span>
+<a href="/economia/noticia/2017/03/ministerio-da-agricultura-interdita-dois-frigorificos-alvos-da-carne-fraca.html">
+Ministério da Agricultura interdita dois frigoríficos alvos da Carne Fraca </a>
+</li>
+<li class="economia">
+<span>4</span>
+<a href="/economia/noticia/2017/03/com-crise-brasileiro-volta-ao-celular-basico.html">
+Com crise, brasileiro volta ao celular básico </a>
+</li>
+<li class="economia">
+<span>5</span>
+<a href="/economia/noticia/2017/03/veja-opcoes-para-fazer-pe-de-meia-e-nao-depender-da-aposentadoria-do-governo.html">
+Veja opções para fazer 'pé-de-meia' e não depender da aposentadoria do governo </a>
+</li>
+</ul>
+</li>
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 7">
+<li class="entretenimento">
+<span>1</span>
+<a href="/entretenimento/noticia/2017/03/larissa-manoela-comemora-convite-para-festa-pos-show-de-justin-bieber-no-brasil.html">
+Larissa Manoela comemora convite para festa pós show de Justin Bieber no Brasil </a>
+</li>
+<li class="entretenimento">
+<span>2</span>
+<a href="/entretenimento/noticia/2017/03/thais-fersoza-exibe-barrigao-em-vestido-justo-e-diz-estar-se-sentindo-linda.html">
+Thais Fersoza exibe barrigão em vestido justo e diz estar se sentindo linda </a>
+</li>
+<li class="entretenimento">
+<span>3</span>
+<a href="/entretenimento/noticia/2017/03/thiaguinho-tem-mala-extraviada-e-perde-a-calma-em-aeroporto-do-rio-de-janeiro.html">
+Thiaguinho tem mala extraviada e perde a calma em aeroporto do Rio de Janeiro </a>
+</li>
+<li class="entretenimento">
+<span>4</span>
+<a href="/entretenimento/noticia/2017/03/juliana-paes-ensina-truque-inusitado-para-evitar-olhares-do-marido-para-outras-mulheres.html">
+Juliana Paes ensina truque inusitado para evitar olhares do marido para outras mulheres </a>
+</li>
+<li class="entretenimento">
+<span>5</span>
+<a href="/entretenimento/noticia/2017/03/agatha-moreira-revela-que-recebeu-ajuda-do-namorado-para-papel-em-novo-mundo.html">
+Agatha Moreira revela que recebeu ajuda do namorado para papel em Novo Mundo </a>
+</li>
+</ul>
+</li>
+<li style="width: 300px; position: absolute; left: 0px; top: 0px" class="carouselEditoriasItem">
+<ul class="list 8">
+<li class="esportes">
+<span>1</span>
+<a href="/esportes/noticia/2017/03/confirmado-kleber-andrade-recebe-classico-entre-flamengo-e-fluminense.html">
+Confirmado! Kleber Andrade recebe clássico entre Flamengo e Fluminense </a>
+</li>
+<li class="esportes">
+<span>2</span>
+<a href="/esportes/noticia/2017/03/kleber-andrade-deve-receber-flamengo-e-fluminense-no-dia-2-de-abril.html">
+Kleber Andrade deve receber Flamengo e Fluminense no dia 2 de abril </a>
+</li>
+<li class="esportes">
+<span>3</span>
+<a href="/esportes/noticia/2017/03/judoca-nacif-elias-passa-por-cirurgia-de-emergencia-no-espirito-santo.html">
+Judoca Nacif Elias passa por cirurgia de emergência no Espírito Santo </a>
+</li>
+<li class="esportes">
+<span>4</span>
+<a href="/esportes/noticia/2017/03/torcedor-que-morreu-ao-cair-de-arquibancada-do-morumbi-fraturou-as-duas-pernas.html">
+Torcedor que morreu ao cair de arquibancada do Morumbi fraturou as duas pernas </a>
+</li>
+<li class="esportes">
+<span>5</span>
+<a href="/esportes/noticia/2017/03/lutador-capixaba-tetraplegico-inspira-superacao-desenhando-estampas-com-o-queixo.html">
+Lutador capixaba tetraplégico inspira superação desenhando estampas com o queixo </a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<script src="http://www.folhavitoria.com.br/js/jquery.paginar.js"></script>
+<script>
+    $(function() {
+        //Mais Lidas
+        var start = 0;
+        var current = start;
+        var $ul = $('.carouselLidas > ul');
+        var $li = $('li', $ul);
+
+        //Substitui caracteres especiais básicos
+        function replaceSpecialCharacters(str) {
+            return str
+            .replace("á", "a")
+            .replace("é", "e")
+            .replace("í", "i")
+            .replace("ó", "o")
+            .replace("ú", "u")
+            .replace("ç", "c")
+            .replace("à", "a")
+            .replace("ã", "a")
+            .replace("õ", "o")
+        }
+
+        $('.readMore > .navigation > .next').click(function() {
+            if (current < $li.size()-1) {
+                current++;
+                var cls = replaceSpecialCharacters($li.eq(current).find('a').text().toLowerCase());
+                $ul.removeAttr('class').addClass(cls);
+            }
+        });
+
+        $('.readMore > .navigation > .back').click(function() {
+            if (current > 0) {
+                current--;
+                var cls = replaceSpecialCharacters($li.eq(current).find('a').text().toLowerCase());
+                $ul.removeAttr('class').addClass(cls);
+            }
+        });
+
+
+        $('.carouselLidasContainer li').eq(start).each(function () {
+            var element = $(this).find('a').text().toLowerCase();
+            var cls = replaceSpecialCharacters(element);
+            $(this).parent().removeAttr('class').addClass('carouselLidasContainer ' + cls);
+        });
+
+
+
+        /* Paginadores */
+        $('.carouselEditorias').paginar({
+            start : current
+        });
+
+        $('.carouselLidas').paginar({
+            start : current,
+            container : '.carouselLidasContainer',
+            item : '.carouselLidasItem'
+        });
+    });
+</script>
+ 
+<div class="container t2 social colunaSocial">
+<div class="titulo">
+<h2>Social</h2>
+<div class="line"></div>
+</div>
+<div class="oferecimento">
+<div id="div-FV_Principal_Oferecimento_Social_120x30" style="float: right">
+<script type="text/javascript">
+							GPT.display('FV_Principal_Oferecimento_Social_120x30');
+						</script>
+</div>
+</div>
+<ul>
+<li>
+<h3><span>Coluna</span> <a class="" href="http://www.folhavitoria.com.br/social/helio-dorea/"><br>Helio Dórea</a></h3>
+<a class="photo" href="http://www.folhavitoria.com.br/social/helio-dorea/">
+<img width="140" alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490665201-foto-destaq-.JPG">
+</a>
+<p>
+<a href="http://www.folhavitoria.com.br/social/helio-dorea/">15 anos de Sofia</a><br>
+Sofia Chieppe brilhou em sua festa début toda de azul suave, bem de acordo com o clima sunset da festa </p>
+</li>
+<li>
+<h3><span>Coluna</span> <a class="" href="http://www.folhavitoria.com.br/social/andreapena"><br>Andrea Pena</a></h3>
+<a class="photo" href="http://www.folhavitoria.com.br/social/andreapena">
+<img width="140" alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490693872-coluns.jpg">
+</a>
+<p>
+<a href="http://www.folhavitoria.com.br/social/andreapena">Mês da Mulher</a><br>
+Camila Fiorot e Taísa Nemer em noite 'ladies only' no Itamaraty Hall, que agora se chama Casa Aberta </p>
+</li>
+</ul>
+</div>
+<div class="container t2 social colunaSocial colunaWesley">
+<ul>
+<li>
+<h3><span>Coluna</span> <a class="" href="http://www.folhavitoria.com.br/entretenimento/wesleysathler"><br>Wesley Sathler</a></h3>
+<a class="photo" href="http://www.folhavitoria.com.br/social/wesleysathler/">
+<img width="140" alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490665410-nota-de-abertura-veludo-1.jpg">
+</a>
+<p>
+<a href="http://www.folhavitoria.com.br/social/wesleysathler/">O veludo é nosso!</a><br>
+E quem disse que veludo é coisa só para lugares frios? Ele está com tudo na nova estação </p>
+</li>
+</ul>
+</div>
+<div class="container t2">
+<div class="titulo">
+<h2><a href="geral/clima">Tempo em Vitória/ES</a></h2>
+<div class="line"></div>
+</div>
+<h3>Tempo no ES Com Talita Carvalho</h3><p><iframe width="100%" height="125" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314871887&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe></p> <a href="geral/clima"><small>Confira a previsão do tempo para seu município</small></a>
+</div>
+<div class="container t2 line"></div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/jovempan-news-vitoria/index.php?utm_source=homefv&utm_medium=ppi&utm_term=cliqueeouca&utm_campaign=chamada">
+<img alt="" src="//midias.folhavitoria.com.br/files/2016/07/botao-play-pan-news-01-1.gif"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/jovempan-news-vitoria/index.php?utm_source=homefv&utm_medium=ppi&utm_term=cliqueeouca&utm_campaign=chamada"><strong>Clique e ouça!</strong></a>
+<p>Informação com a credibilidade de Caio Blinder, Denise Campos, Reinaldo Azevedo, Thiago Uberreich e outros jornalistas</p>
+</div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua/2017/03/20/com-percurso-inedito-corrida-maconica-e-unica-prova-do-mes-abril-em-vitoria/#prettyPhoto">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/corrida-maconica.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua/2017/03/20/com-percurso-inedito-corrida-maconica-e-unica-prova-do-mes-abril-em-vitoria/#prettyPhoto"><strong>Corrida Maçônica</strong></a>
+<p>A Corrida Maçônica oferece aos corredores um percurso inédito pelas principais ruas e avenidas de Vitória. Confira tudo!</p>
+</div>
+<div class="container t2">
+<div id="div-FV_Principal_Vertical_300x600">
+<script type="text/javascript">
+						GPT.display('FV_Principal_Vertical_300x600');
+					</script>
+</div>
+</div>
+<div class="space2"></div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/cidades/cachoeiro-de-itapemirim">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490707567-cachoeiro-4.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/cidades/cachoeiro-de-itapemirim"><strong>Folha Cachoeiro</strong></a>
+<p>Todos os destaques do município de Cachoeiro, localizado no sul do Espírito Santo, você encontra no Folha Cachoeiro. Confira!</p>
+</div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/economia/guiamercadoimobiliario">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/02/ppi-imoveis-120x120.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/economia/guiamercadoimobiliario"><strong>Especial Imóveis</strong></a>
+<p>Quer ficar informado sobre promoções de imóveis e melhores oportunidades para ter a casa própria? Leia!</p>
+</div>
+<div class="space2"></div>
+<div class="container t2">
+<div id="div-FV_Principal_Retangulo_2_300x250">
+<script type="text/javascript">
+						GPT.display('FV_Principal_Retangulo_2_300x250');
+					</script>
+</div>
+</div>
+<div class="container t2 ppi">
+<a href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos/">
+<img alt="" src="//midias.folhavitoria.com.br/files/2017/03/1490707794-trabalho.jpg"/>
+</a>
+<a class="font_14px" href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos/"><strong>Empregos e Concursos</strong></a>
+<p>Fique por dentro das oportunidades de emprego, estágio, editais de concursos e muito mais no Espírito Santo</p>
+</div>
+</div>
+<div class="limit">
+ 
+<div class="grid g4 banner">
+<div class="container fullbanner">
+<div id="div-FV_Principal_SuperBanner_Generico_2_728x90">
+<script type="text/javascript">
+							GPT.display('FV_Principal_SuperBanner_Generico_2_728x90');
+						</script>
+</div>
+</div>
+</div>
+ 
+<div class="grid g3 coluna_esquerda">
+<div class="g3 entretenimento grid">
+<div class="container  titulo t3">
+<h2><a href="/entretenimento/cinema">Cinema</a></h2>
+<div class="line"></div>
+<div class="navigation">
+<a href="javascript:void(0);" class="miniBtn flex-prev-cinema back"><span>Ô</span></a>
+<a href="javascript:void(0);" class="miniBtn flex-next-cinema next"><span>×</span></a>
+</div>
+</div>
+<div class="space"></div>
+<div class="container boxCinema t3">
+<div class="flexSlider flexCinema">
+<ul class="slides">
+<li>
+<a href="/entretenimento/cinema/filme/fragmentado.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1490282267-fragmentado-poster.jpg" alt="Cartaz /entretenimento/cinema/filme/fragmentado.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/fragmentado.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/insubstituivel.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1490282712-insubstituivel-poster.jpg" alt="Cartaz /entretenimento/cinema/filme/insubstituivel.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/insubstituivel.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/power-rangers.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1490283085-power-rangers-poster.jpg" alt="Cartaz /entretenimento/cinema/filme/power-rangers.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/power-rangers.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/um-homem-chamado-ove.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1490283753-um-homem-chamado-ove-poster.jpg" alt="Cartaz /entretenimento/cinema/filme/um-homem-chamado-ove.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/um-homem-chamado-ove.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/moonlight-sob-a-luz-do-luar.html"><img src="http://midias.folhavitoria.com.br/files/2017/02/1487867306-moon.jpg" alt="Cartaz /entretenimento/cinema/filme/moonlight-sob-a-luz-do-luar.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/moonlight-sob-a-luz-do-luar.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/logan.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1488470038-logan.jpg" alt="Cartaz /entretenimento/cinema/filme/logan.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/logan.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/kong-a-ilha-da-caveira.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1489065787-kong.jpg" alt="Cartaz /entretenimento/cinema/filme/kong-a-ilha-da-caveira.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/kong-a-ilha-da-caveira.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/silencio.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1489067385-silencio.jpg" alt="Cartaz /entretenimento/cinema/filme/silencio.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/silencio.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/um-limite-entre-nos.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1489067662-limite-entre-nos.jpg" alt="Cartaz /entretenimento/cinema/filme/um-limite-entre-nos.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/um-limite-entre-nos.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/a-bela-e-a-fera-2017.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1489678131-a-bela-e-a-fera-1.jpg" alt="Cartaz /entretenimento/cinema/filme/a-bela-e-a-fera-2017.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/a-bela-e-a-fera-2017.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/eu-nao-sou-negro.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/eu-nao-sou-negro.jpg" alt="Cartaz /entretenimento/cinema/filme/eu-nao-sou-negro.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/eu-nao-sou-negro.html"></a></p>
+</div>
+</li>
+<li>
+<a href="/entretenimento/cinema/filme/tinha-que-ser-ele.html"><img src="http://midias.folhavitoria.com.br/files/2017/03/1489679261-tinha-que-ser-ele-cartaz.jpg" alt="Cartaz /entretenimento/cinema/filme/tinha-que-ser-ele.html"></a>
+<div class="texto">
+<p><a href="/entretenimento/cinema/filme/tinha-que-ser-ele.html"></a></p>
+</div>
+</li>
+</ul>
+<script>
+    $('.flexCinema').flexslider({
+        animation: "slide",
+        itemWidth: 214,
+        itemMargin: 20,
+        controlNav: false,
+        slideshow: false
+    });
+    
+    $('.flex-prev-cinema').on('click', function(){
+        $('.flexCinema').flexslider('prev');
+        return false;
+    });
+    $('.flex-next-cinema').on('click', function(){
+        $('.flexCinema').flexslider('next');
+        return false;
+    });
+</script> </div>
+</div>
+</div>
+<div class="grid g3 informe">
+</div>
+</div>
+ 
+ 
+<div class="grid g2 sidebar">
+<div class="container t2 titulo">
+<h2>EMPREGOS E CONCURSOS</h2>
+<div class="line"></div>
+</div>
+<div class="container empregos t2">
+<p><a href="geral/blogs/empregos-e-concursos">Veja as vagas abertas no ES e garanta seu lugar no mercado de trabalho</a></p>
+</div>
+<div class="container t2 facebook">
+<div class="titulo">
+<h2>Facebook</h2>
+<div class="line"></div>
+</div>
+<div class="fb-page" data-href="https://www.facebook.com/folhavitoria" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/folhavitoria"><a href="https://www.facebook.com/folhavitoria">Folha Vitória</a></blockquote></div></div>
+</div>
+ 
+ 
+ 
+<div class="container t2">
+<div id="FV_Principal_Retangulo_3_300x250" style="float: right; position:relative; margin-top:-12px;">
+<script type="text/javascript">
+							GPT.display('FV_Principal_Retangulo_3_300x250');
+						</script>
+</div>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+<div class="row rodape">
+<div class="row shadow_footer">&nbsp;</div>
+<div class="row footer">
+<div class="limit">
+<div class="grid g4">
+<div class="container t4">
+<div class="column">
+<ul>
+<li><h4 class="geral"><a href="http://www.folhavitoria.com.br/geral"><strong>Geral</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/guiadevacinacao/" target="__self">Guia de Vacinação</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/entre-maes/" target="__self">Entre Mães</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/art-et-decor/" target="__self">Art et Décor</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/clima" target="__self">Clima</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/livrepensar/" target="__self">Livre Pensar</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/es-solidario" target="__self">Espírito Santo Solidário</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/transito" target="__self">Trânsito</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/empregoseconcursos/" target="__self">Empregos e Concursos</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/folha-viagem/" target="__self">Folha Viagem</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/midiaemercado/" target="__self">Mídia & Mercado</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/direito-direto/" target="__self">Direito Direto</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/caminhos-de-fe/" target="__self">Caminhos de Fé</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/educacaoeempreendedorismo/" target="__self">Educação e Empreendedorismo</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/petblog" target="__self">Pet Blog</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/horadaripa/" target="__self">Hora da Ripa</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/flagradoleitor" target="__self">Flagra do Leitor</a></li>
+</ul>
+</div>
+ 
+<div class="column">
+<ul>
+<li><h4 class="policia"><a href="http://www.folhavitoria.com.br/policia"><strong>Polícia</strong></a></h4></li>
+</ul>
+<div class="space2"></div>
+<ul>
+<li><h4 class="politica"><a href="http://www.folhavitoria.com.br/politica"><strong>Política</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/politica/blogs/bastidores/" target="__self">Bastidores</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/politica/blogs/esplanada/" target="__self">Esplanada</a></li>
+</ul>
+<div class="space2"></div>
+<ul>
+<li><h4 class="economia"><a href="http://www.folhavitoria.com.br/economia"><strong>Economia</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/economia/blogs/negocios-de-sucesso" target="__self">Negócios de Sucesso</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/economia/blogs/carromotoecia/" target="__self">Carro, Moto e Cia</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/economia/blogs/gestaoeresultados/" target="__self">Gestão e Resultados</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/economia/guiamercadoimobiliario" target="__self">Imóveis</a></li>
+</ul>
+</div>
+ 
+<div class="column">
+<ul>
+<li><h4 class="videos"><a href="http://www.folhavitoria.com.br/videos"><strong>Vídeos</strong></a></h4></li>
+</ul>
+<div class="space2"></div>
+<ul>
+<li><h4 class="entretenimento"><a href="http://www.folhavitoria.com.br/entretenimento"><strong>Entretenimento</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/geral/blogs/verao-com-saude/" target="__self">Verão com Saúde </a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/folhinha-macakids/" target="__self">Folhinha MacaKids</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/receitas-do-chef/" target="__self">Receitas do Chef</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/estilo-e-beleza/" target="__self">Estilo e Beleza</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/du-ponto-de-vista-masculino/" target="__self">Du Ponto de Vista Masculino </a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/na-balada" target="__self">Na Balada</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/happy-hour" target="__self">Happy Hour</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/cinema/" target="__self">Cinema</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/ensaio/" target="0">Ensaio</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/espacogourmet/" target="__self">Espaço Gourmet</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/elogoali/" target="__self">É Logo Ali</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/entretenimento/blogs/sexo-e-prazer/" target="__self">Sexo e Prazer</a></li>
+</ul>
+</div>
+ 
+<div class="column">
+<ul>
+<li><h4 class="esportes"><a href="http://www.folhavitoria.com.br/esportes"><strong>Esportes</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/esportes/blogs/3-pontos/" target="__self">3 Pontos</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/esportes/blogs/corridaderua/" target="__self">Corrida de Rua</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/esportes/blogs/loucaporesportes/" target="__self">Louca por Esportes</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/esportes/blogs/tribo-mma/" target="__self">Tribo MMA</a></li>
+</ul>
+<div class="space2"></div>
+<ul>
+<li><h4 class="social"><a href="javascript:;"><strong>Social</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/social/andreapena" target="__self">Andrea Pena</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/social/helio-dorea/" target="__self">Helio Dórea</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/social/wesleysathler" target="__self">Wesley Sathler</a></li>
+</ul>
+</div>
+ 
+<div class="column">
+<ul>
+<li><h4><a href="javascript:;"><strong>Institucional</strong></a></h4></li>
+<li>- <a href="http://www.folhavitoria.com.br/anuncie">Anuncie</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/contato.html">Fale Conosco</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/expediente.html">Expediente</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/privacidade.html">Política de Privacidade</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/cadastro.html">Cadastro</a></li>
+<li>- <a href="http://www.folhavitoria.com.br/rss.html">RSS</a></li>
+</ul>
+</div>
+ 
+</div>
+</div>
+</div>

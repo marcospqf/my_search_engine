@@ -1,0 +1,406 @@
+|||http://www.dizai.org.br/|<!DOCTYPE html>
+<html lang="pt-BR" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+        <title>Diz Aí | Futura</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="pingback" href="http://www.dizai.org.br/xmlrpc.php" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+        <meta property="fb:app_id" content="296066250419799"/>
+        
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.4.19 - http://yoast.com/wordpress/seo/ -->
+<link rel="canonical" href="http://www.dizai.org.br/" />
+<link rel="next" href="http://www.dizai.org.br/page/2/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Diz Aí | Futura" />
+<meta property="og:url" content="http://www.dizai.org.br/" />
+<meta property="og:site_name" content="Diz Aí" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel='stylesheet' id='farbtastic-css'  href='http://www.dizai.org.br/wp-admin/css/farbtastic.css?ver=1.3u1' type='text/css' media='all' />
+<link rel='stylesheet' id='futura.bootstrap-css'  href='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/css/bootstrap.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-css'  href='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/style.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='futura.slide_temporada-css'  href='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/css/jquery.galleryview-3.0-dev.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bxslider.home-css'  href='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/css/jquery.bxslider.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.dizai.org.br/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<!-- This site uses the Yoast Google Analytics plugin v5.2.2 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-65593416-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Yoast Google Analytics -->
+<script type='text/javascript' src='http://www.dizai.org.br/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.dizai.org.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.dizai.org.br/wp-content/plugins/jquery-lightbox-balupton-edition/scripts/jquery.lightbox.min.js?ver=1.4.9'></script>
+<script type='text/javascript' src='http://www.dizai.org.br/wp-content/plugins/jquery-lightbox-balupton-edition/scripts/jquery.lightbox.plugin.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.dizai.org.br/wp-content/plugins/tag-cloud-canvas/jquery.tagcanvas.min.js?ver=3.9.3'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.dizai.org.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.dizai.org.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.3" />
+      
+<script type="text/javascript">jQuery(function($) {
+  $.Lightbox.construct({
+    "show_linkback": false
+  });
+});</script>
+          </head>
+    <body class="fundo">
+    		 <!-- Facebook JavaScript SDK -->
+		<div id="fb-root"></div>
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({appId: '296066250419799', status: true, cookie: true,
+		             xfbml: true});
+		  };
+		  (function() {
+		    var e = document.createElement('script'); e.async = true;
+		    e.src = document.location.protocol +
+		      '//connect.facebook.net/en_US/all.js';
+		    document.getElementById('fb-root').appendChild(e);
+		  }());
+		</script>
+		<!-- End Facebook JavaScript SDK -->
+		<div class="container">
+			<div class="row">
+				<div class='col-md-12'>
+					<div class="col-md-9">
+						<div class='social'>
+							<a class="face" href="https://www.facebook.com/canalfuturaoficial" target="_blank"><img src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/facebook.png' width='36px' alt='Facebook' title='Facebook' /></a>
+							<a class="twitter" href="https://twitter.com/canalfutura" target="_blank"><img src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/twitter.png' width='36px' alt='Twitter' title='Twitter' /></a>
+							<a class="youtube" href="http://www.youtube.com/user/canalfutura" target="_blank"><img src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/youtube.png' width='36px' alt='Youtube' title='Youtube' /></a>
+							
+						</div>
+						<div class="title-logo">
+							<a href="http://www.dizai.org.br"><img class="title-img" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/title.png' alt='Diz Aí' title='Diz Aí'></a>
+						</div>
+						
+					</div>
+					<div class="col-md-3">
+						<a href="http://www.futura.org.br" target="_blank"><img class="logo" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/logo.png' alt='Futura' title='Futura'></a>
+					</div>
+				</div>
+			</div>
+			<div class="tudo">
+			<div class="row content-menu">
+				<div class="col-md-12">
+					<nav class='menu'>
+						<div class="menu-verde"></div>
+						<div class="menu-cian"></div>
+						<div class="menu-azul"></div>
+						<div class="menu-vermelho"></div>
+						<div class="menu-laranja"></div>
+						<div class="menu-principal-container"><ul id="menu-principal" class="menu"><li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-240"><a href="http://www.dizai.org.br/projeto-diz-ai/">Projeto Diz Aí</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a href="http://www.dizai.org.br/temporadas">Temporadas</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61"><a href="http://www.dizai.org.br/fique-por-dentro/">Fique por dentro</a></li>
+<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a href="http://www.dizai.org.br/fala-jovem/">Fala Jovem</a></li>
+<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58"><a href="http://www.dizai.org.br/fale-conosco/">Fale Conosco</a></li>
+</ul></div> 
+					</nav>
+				</div>
+			</div>
+			<div class="row content-busca">
+				<div class=" col-md-3">
+					<div class='breadcrumbs'>
+												<span class='glyphicon glyphicon-home breadcrumbs-icon'><span class='text-home'><a href="">início</a><span>
+									</div>
+				</div>
+				<div class="col-md-9">
+					<form class='search' action='http://www.dizai.org.br/' method='get'>
+						<input class='busca' type='text' name='s' id='s' class='search' value='' placeholder="busca no site" />
+					<button type='submit' class='lupa' value='' /><span class="glyphicon glyphicon-search icon-lupa"></span></button>
+					</form>
+				</div>
+
+			</div>
+			<hr />
+
+			
+
+
+
+					
+				
+			
+			
+		
+
+	<div class="content-page_home row col-md-12">
+
+	<div class="col-md-7">
+		<span class="glyphicon glyphicon-map-marker icon-map"><span> Notícias</span></span>
+
+
+
+				<div class="content-noticia">
+			<div class="text-content">
+				<div class="header-noticia">
+									<a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-bruno-pereirabr/"> <img class="wp-post-image" src="http://dizai.futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2017/02/16681522_1275397329206688_816600823066777424_n1487091058-300x178.jpg"></a>
+									 					
+					 <h1><a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-bruno-pereirabr/"> Fala Jovem </a></h1> 
+					
+										
+					 <h2><a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-bruno-pereirabr/"> Diz ai Fronteiras II:…  </a></h2> 
+					<p class="conteudo_post"> Diz ai Fronteiras II: Depoimento de Bruno Pereira/BR </p>
+				</div>
+			</div>
+		</div>
+			<span><img src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base.png' alt='border-bottom' title='Diz Aí'></span>
+	</div>
+	<div class="col-md-5">
+		<div class="outras-noticias">
+							<ul class="ul-outranoticia" style="margin-top: 6px;">
+						
+			
+				<li>
+					<h1><a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-bruno-pereirabr/"> Diz ai Fronteiras II: Depoimento de Bruno Pereira/BR</a></h1>
+				</li>
+			
+						
+			
+				<li>
+					<h1><a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-oscar-argiello/"> Diz ai Fronteiras II: Depoimento de Oscar Argiello/PY</a></h1>
+				</li>
+			
+						
+			
+				<li>
+					<h1><a href="http://www.dizai.org.br/fala-jovem/diz-ai-fronteiras-ii-depoimento-de-vidal-canteros/"> Diz ai Fronteiras II: Depoimento de Vidal Canteros/PY</a></h1>
+				</li>
+			
+			
+			</ul>
+
+					</div>
+	</div>
+	</div>
+	<hr />
+	<div class='container'>
+		<div class='box_geral' style="margin-bottom:100px;">
+			<div class='box_video'>
+				<div class="image_carousel">
+					<div id="foo2">
+						<ul class='carousel'>
+														<li>
+							<h2 class="titulo-prog">8ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=U-18TXUh6sU&list=PLNM2T4DNzmq5-_nUy51JoC1Cp3u2gFz_J">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/U-18TXUh6sU/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Fronteiras II</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">7ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=23oTP7fgr2Y&list=PLNM2T4DNzmq7nanPZb27C3mxmR5A-XMFV">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/23oTP7fgr2Y/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Maleta Juventudes</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">6ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=r3m_r2LqwCg&list=PLNM2T4DNzmq4ELvFtVXkD0uLlmcrG62o5">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/r3m_r2LqwCg/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Amazônida</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">5ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=Tm23tgU5NPc&index=1&list=PLNM2T4DNzmq74hBcH58fpIVNAZd_0tGdm">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/Tm23tgU5NPc/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Fronteiras</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">4ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=GjuKhoG1UYU&list=PLNM2T4DNzmq7MHr_BAamtV9IOrHlSafAL">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/GjuKhoG1UYU/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Enfrentamento ao Extermínio da Juventude Negra</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">3ª Temporada</h2>  
+								<a href="https://www.youtube.com/watch?v=J8xceioXG8c&list=PLNM2T4DNzmq5HZo-bJAidayEUZafCp43Q">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/J8xceioXG8c/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Juventude Rural: Zona da Mata, Agreste e Sertão do Nordeste</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">3ª Temporada</h2>  
+								<a href="http://www.youtube.com/watch?v=T8gdAxrfD_U&list=PLNM2T4DNzmq4th88sEMv_1W44H88OVbjy">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/T8gdAxrfD_U/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Juventude Rural - Semiárido Nordestino</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">3ª Temporada</h2>  
+								<a href="http://www.youtube.com/watch?v=okWXITkqEn4&list=PLNM2T4DNzmq4YdUYYDnLaBkr-hVok0hTo">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/okWXITkqEn4/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí Juventude Rural</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">2ª Temporada</h2>  
+								<a href="http://www.youtube.com/watch?v=VzRtQhb8MXs&list=PLNM2T4DNzmq6VyKruBd5etvkqgOlsw7FK">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/VzRtQhb8MXs/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí II</h3>
+								</a>
+							</li>
+														<li>
+							<h2 class="titulo-prog">1ª Temporada</h2>  
+								<a href="http://www.youtube.com/watch?v=2FOYy5FrwcQ&list=PLNM2T4DNzmq5fNbCGK9hBFtPYnvJMImCG">
+									<span class="glyphicon glyphicon-play-circle play_video2"></span>
+									<div class="images">
+										<img class="capa-video" src="http://i1.ytimg.com/vi/2FOYy5FrwcQ/mqdefault.jpg" width='180' height='160' />
+										<img class="base-footer" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/base-footer.png'/>
+									</div>
+									<h3>Diz Aí I</h3>
+								</a>
+							</li>
+																	
+						</ul>
+							
+					<a class="prev" id="foo2_prev" href="#"><img class="title-img" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/left.png'></a>
+					<a class="next" id="foo2_next" href="#"><img class="title-img" src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/right.png'></a>
+					</div>
+					<div class="clearfix"></div>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr />
+
+	<div class="row">
+		<div class="col-md-6">
+		<span class="glyphicon glyphicon-map-marker icon-map"><span> TagCloud</span></span>
+
+		<img class='text_dizai' src='http://www.dizai.org.br/wp-content/themes/diz-ai_2014/image/title-tag.png' />
+				
+		<div class='balao'>
+				
+				<li id="tag_cloud_canvas-4" class="widget widget_tag_cloud_canvas"><canvas width="640" height="370" id="tagCloudCanvas4"
+    >
+    <p>Your browser doesn't support canvas.</p>
+</canvas>
+<div id="tags">
+            <a href='http://www.dizai.org.br/tag/3a-temporada/' class='tag-link-156' title='28 tópicos' style='font-size: 18.754966887417pt;'>3ª Temporada</a>
+<a href='http://www.dizai.org.br/tag/4a-temporada/' class='tag-link-157' title='6 tópicos' style='font-size: 13.099337748344pt;'>4ª Temporada</a>
+<a href='http://www.dizai.org.br/tag/5a-temporada/' class='tag-link-158' title='19 tópicos' style='font-size: 17.271523178808pt;'>5ª Temporada</a>
+<a href='http://www.dizai.org.br/tag/barreiras-barreras/' class='tag-link-143' title='6 tópicos' style='font-size: 13.099337748344pt;'>Barreiras / Barreras</a>
+<a href='http://www.dizai.org.br/tag/brasil/' class='tag-link-55' title='6 tópicos' style='font-size: 13.099337748344pt;'>Brasil</a>
+<a href='http://www.dizai.org.br/tag/brasil-e-argentina/' class='tag-link-142' title='25 tópicos' style='font-size: 18.291390728477pt;'>Brasil e Argentina</a>
+<a href='http://www.dizai.org.br/tag/brasileiros-y-uruguayos/' class='tag-link-48' title='12 tópicos' style='font-size: 15.509933774834pt;'>Brasileiros y Uruguayos</a>
+<a href='http://www.dizai.org.br/tag/brasil-e-uruguai/' class='tag-link-54' title='24 tópicos' style='font-size: 18.198675496689pt;'>Brasil e Uruguai</a>
+<a href='http://www.dizai.org.br/tag/comunicacao/' class='tag-link-120' title='3 tópicos' style='font-size: 10.781456953642pt;'>Comunicação</a>
+<a href='http://www.dizai.org.br/tag/contrabando/' class='tag-link-50' title='8 tópicos' style='font-size: 14.026490066225pt;'>Contrabando</a>
+<a href='http://www.dizai.org.br/tag/discriminacao/' class='tag-link-78' title='8 tópicos' style='font-size: 14.026490066225pt;'>Discriminação</a>
+<a href='http://www.dizai.org.br/tag/diversidade/' class='tag-link-63' title='6 tópicos' style='font-size: 13.099337748344pt;'>Diversidade</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-enfrentamento-ao-exterminio-juventude-negra/' class='tag-link-167' title='1 tópico' style='font-size: 8pt;'>Diz Aí; Enfrentamento ao Extermínio; Juventude Negra</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-amazonida/' class='tag-link-165' title='4 tópicos' style='font-size: 11.708609271523pt;'>Diz Aí Amazônida</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-enfrentamento-ao-exterminio/' class='tag-link-32' title='12 tópicos' style='font-size: 15.509933774834pt;'>Diz Aí Enfrentamento ao Extermínio</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-fronteiras/' class='tag-link-19' title='63 tópicos' style='font-size: 22pt;'>Diz Aí Fronteiras</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-fronteiras-ii/' class='tag-link-171' title='3 tópicos' style='font-size: 10.781456953642pt;'>Diz Aí Fronteiras II</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-juventude-rural/' class='tag-link-159' title='12 tópicos' style='font-size: 15.509933774834pt;'>Diz Aí Juventude Rural</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-semiarido-nordestino/' class='tag-link-20' title='13 tópicos' style='font-size: 15.880794701987pt;'>Diz Aí Semiárido Nordestino</a>
+<a href='http://www.dizai.org.br/tag/diz-ai-zona-da-mata-agreste-e-sertao-do-nordeste/' class='tag-link-16' title='7 tópicos' style='font-size: 13.562913907285pt;'>Diz Aí Zona da Mata. Agreste e Sertão do Nordeste</a>
+<a href='http://www.dizai.org.br/tag/enfrentamento/' class='tag-link-161' title='1 tópico' style='font-size: 8pt;'>Enfrentamento</a>
+<a href='http://www.dizai.org.br/tag/estreia/' class='tag-link-163' title='2 tópicos' style='font-size: 9.6688741721854pt;'>estreia</a>
+<a href='http://www.dizai.org.br/tag/exploracao-sexual/' class='tag-link-162' title='1 tópico' style='font-size: 8pt;'>Exploração Sexual</a>
+<a href='http://www.dizai.org.br/tag/formacao/' class='tag-link-71' title='4 tópicos' style='font-size: 11.708609271523pt;'>Formação</a>
+<a href='http://www.dizai.org.br/tag/fronteira/' class='tag-link-56' title='16 tópicos' style='font-size: 16.622516556291pt;'>Fronteira</a>
+<a href='http://www.dizai.org.br/tag/fronteira-da-paz/' class='tag-link-87' title='2 tópicos' style='font-size: 9.6688741721854pt;'>Fronteira Da Paz</a>
+<a href='http://www.dizai.org.br/tag/gravacao/' class='tag-link-106' title='3 tópicos' style='font-size: 10.781456953642pt;'>Gravação</a>
+<a href='http://www.dizai.org.br/tag/guia/' class='tag-link-168' title='1 tópico' style='font-size: 8pt;'>Guia</a>
+<a href='http://www.dizai.org.br/tag/inscricoes-diz-ai-fronteiras/' class='tag-link-33' title='3 tópicos' style='font-size: 10.781456953642pt;'>Inscrições Diz Aí Fronteiras</a>
+<a href='http://www.dizai.org.br/tag/integracao/' class='tag-link-76' title='3 tópicos' style='font-size: 10.781456953642pt;'>Integração</a>
+<a href='http://www.dizai.org.br/tag/jovens/' class='tag-link-9' title='58 tópicos' style='font-size: 21.629139072848pt;'>Jovens</a>
+<a href='http://www.dizai.org.br/tag/jovens-dinamizadores/' class='tag-link-24' title='38 tópicos' style='font-size: 19.960264900662pt;'>Jovens-Dinamizadores</a>
+<a href='http://www.dizai.org.br/tag/juventude/' class='tag-link-166' title='2 tópicos' style='font-size: 9.6688741721854pt;'>Juventude</a>
+<a href='http://www.dizai.org.br/tag/juventude-negra/' class='tag-link-22' title='12 tópicos' style='font-size: 15.509933774834pt;'>Juventude Negra</a>
+<a href='http://www.dizai.org.br/tag/juventude-rural/' class='tag-link-15' title='32 tópicos' style='font-size: 19.311258278146pt;'>Juventude Rural</a>
+<a href='http://www.dizai.org.br/tag/lancamento/' class='tag-link-169' title='1 tópico' style='font-size: 8pt;'>Lançamento</a>
+<a href='http://www.dizai.org.br/tag/libres-ar/' class='tag-link-27' title='31 tópicos' style='font-size: 19.218543046358pt;'>Libres/ AR</a>
+<a href='http://www.dizai.org.br/tag/livramento-rs/' class='tag-link-26' title='31 tópicos' style='font-size: 19.218543046358pt;'>Livramento/ RS</a>
+<a href='http://www.dizai.org.br/tag/mobilizacao/' class='tag-link-160' title='1 tópico' style='font-size: 8pt;'>Mobilização</a>
+<a href='http://www.dizai.org.br/tag/musica/' class='tag-link-53' title='7 tópicos' style='font-size: 13.562913907285pt;'>Música</a>
+<a href='http://www.dizai.org.br/tag/oportunidades/' class='tag-link-154' title='4 tópicos' style='font-size: 11.708609271523pt;'>Oportunidades</a>
+<a href='http://www.dizai.org.br/tag/plano-de-juventude-viva/' class='tag-link-164' title='1 tópico' style='font-size: 8pt;'>Plano de Juventude Viva</a>
+<a href='http://www.dizai.org.br/tag/rivera-uy/' class='tag-link-25' title='36 tópicos' style='font-size: 19.774834437086pt;'>Rivera/ UY</a>
+<a href='http://www.dizai.org.br/tag/uruguaiana-rs/' class='tag-link-30' title='33 tópicos' style='font-size: 19.403973509934pt;'>Uruguaiana/ RS</a>
+<a href='http://www.dizai.org.br/tag/videos/' class='tag-link-7' title='20 tópicos' style='font-size: 17.456953642384pt;'>Vídeos</a>        </div>
+<script type="text/javascript">
+jQuery(function() {
+   if(!jQuery('#tagCloudCanvas4').tagcanvas({
+     textColour : '#333333',
+     shape : 'sphere',
+     outlineThickness : 1,
+     maxSpeed : 0.01,
+     depth : 5.0
+   }, 'tags')) {
+     // TagCanvas failed to load
+     jQuery('#tagCloudCanvas4Container').hide();
+   }
+   // your other jQuery stuff here...
+ });
+</script>    
+        </li>
+
+			</div>
+		</div>
+		
+		<div class="col-md-6">
+			<span class="glyphicon glyphicon-map-marker icon-map"><span> Últimas Fotos</span></span>
+
+									<div id="carousel" class="flexslider">
+        		<ul class="slides">
+																<li>
+		                    <a href="http://dizai.futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2017/02/16681522_1275397329206688_816600823066777424_n1487091058.jpg" title="16681522_127

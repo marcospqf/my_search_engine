@@ -1,0 +1,433 @@
+|||http://redefamilia.com.br/|<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Rede Família de Televisão</title>
+	<meta name="theme-color" content="#8B9AFF">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.redefamilia.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='app-css'  href='http://www.redefamilia.com.br/wp-content/themes/rede-familia/assets/css/app.min.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css'  href='https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700&#038;ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://www.redefamilia.com.br/wp-content/themes/rede-familia/style.css?ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='newsletter-subscription-css'  href='http://www.redefamilia.com.br/wp-content/plugins/newsletter/subscription/style.css?ver=4.8.0' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://www.redefamilia.com.br/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.13' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.redefamilia.com.br/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.redefamilia.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.redefamilia.com.br/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='http://www.redefamilia.com.br/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.redefamilia.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.redefamilia.com.br/wp-includes/wlwmanifest.xml" /> 
+
+<script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
+	Share: "Compartilhar",
+	Save: "Salvar",
+	Subscribe: "Inscrever",
+	Email: "Email",
+	Bookmark: "Favoritos",
+	ShowAll: "Mostrar tudo",
+	ShowLess: "Mostrar menos",
+	FindServices: "Procurar serviço(s)",
+	FindAnyServiceToAddTo: "Encontrar rapidamente qualquer serviço para",
+	PoweredBy: "Serviço fornecido por",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Adicionar aos favoritos",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Adicionar a favoritos",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;"
+};
+
+</script>
+<script type="text/javascript" src="http://static.addtoany.com/menu/page.js" async="async"></script>
+	<style type="text/css">
+		div.wpcf7 .screen-reader-response {
+			display: none;
+		}
+		div.wpcf7 img.ajax-loader {
+			border: none;
+			vertical-align: middle;
+			margin-left: 4px;
+		}
+		div.wpcf7 .form-inline img.ajax-loader {
+			display: inline;
+		}
+		div.wpcf7 div.ajax-error {
+			display: none;
+		}
+		div.wpcf7 .wpcf7-display-none {
+			display: none;
+		}
+		div.wpcf7 .form-inline .form-group {
+			max-width: 250px;
+		}
+		div.wpcf7 .input-group-addon img {
+			height: 100%;
+			width: auto;
+			max-width: none !important;
+			border-radius: 5px;
+		}
+		div.wpcf7 .input-group-addon.input-group-has-image {
+			padding: 0;
+		}
+	</style>
+	<link rel="icon" href="http://www.redefamilia.com.br/wp-content/uploads/2017/01/cropped-logo-rede-familia-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="http://www.redefamilia.com.br/wp-content/uploads/2017/01/cropped-logo-rede-familia-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="http://www.redefamilia.com.br/wp-content/uploads/2017/01/cropped-logo-rede-familia-1-180x180.png" />
+<meta name="msapplication-TileImage" content="http://www.redefamilia.com.br/wp-content/uploads/2017/01/cropped-logo-rede-familia-1-270x270.png" />
+
+<!-- BEGIN GADWP v4.9.6.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-25357505-46', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+</head>
+<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:true ,banner:false ,submenu:false}</script>
+
+<br><br>
+
+<body class="home blog wp-custom-logo center-simple">
+<header class="header">
+	<section class="container">
+		<nav class="navbar navbar-default">
+	<div class="navbar-brand"><a href="http://www.redefamilia.com.br/" class="custom-logo-link" rel="home" itemprop="url"><img width="160" height="69" src="http://www.redefamilia.com.br/wp-content/uploads/2017/01/cropped-logo-rede-familia.png" class="custom-logo" alt="" itemprop="logo" /></a></div>
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+	</div>
+	<div id="navbar-collapse-1" class="collapse navbar-collapse"><ul id="menu-menu-principal" class="nav navbar-nav"><li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a title="Ao Vivo" href="http://www.redefamilia.com.br/ao-vivo/">Ao Vivo</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-47 dropdown"><a title="Programação" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Programação <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a title="Alerta Total" href="http://www.redefamilia.com.br/programas/alerta-total/">Alerta Total</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a title="RF News" href="http://www.redefamilia.com.br/programas/rf-news/">RF News</a></li>
+	<li id="menu-item-423" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-423"><a title="Visão Geral" href="http://www.redefamilia.com.br/programas/visao-geral/">Visão Geral</a></li>
+	<li id="menu-item-86" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-86"><a title="Camarote" href="http://www.redefamilia.com.br/programas/camarote/">Camarote</a></li>
+	<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a title="Versátil &#038; Atual" href="http://www.redefamilia.com.br/programas/versatil-atual/">Versátil &#038; Atual</a></li>
+	<li id="menu-item-420" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-420"><a title="Rede Família Esporte" href="http://www.redefamilia.com.br/programas/rede-familia-esporte-2a-edicao/">Rede Família Esporte</a></li>
+</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-48 dropdown"><a title="Notícias" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">Notícias <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-45" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45"><a title="Notícia" href="http://www.redefamilia.com.br/categoria/noticia/">Notícia</a></li>
+	<li id="menu-item-43" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43"><a title="Entretenimento" href="http://www.redefamilia.com.br/categoria/entretenimento/">Entretenimento</a></li>
+	<li id="menu-item-44" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44"><a title="Esporte" href="http://www.redefamilia.com.br/categoria/esporte/">Esporte</a></li>
+	<li id="menu-item-46" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-46"><a title="Por Dentro" href="http://www.redefamilia.com.br/categoria/por-dentro/">Por Dentro</a></li>
+</ul>
+</li>
+<li id="menu-item-39" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-39 dropdown"><a title="+" href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true">+ <span class="caret"></span></a>
+<ul role="menu" class=" dropdown-menu">
+	<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a title="Sobre a Rede Familia" href="http://www.redefamilia.com.br/sobre-a-rede-familia/">Sobre a Rede Familia</a></li>
+	<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a title="Como anunciar" href="http://www.redefamilia.com.br/como-anunciar/">Como anunciar</a></li>
+	<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a title="Como assistir" href="http://www.redefamilia.com.br/como-assistir/">Como assistir</a></li>
+</ul>
+</li>
+</ul></div></nav>	</section>
+	<div class="slider">
+	<div id="slide_header" class="carousel slide full" data-ride="carousel">
+	<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+					<div class="item active">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/02/banner_index_02.jpg" class="attachment-full size-full wp-post-image img-responsive " alt="" srcset="http://www.redefamilia.com.br/wp-content/uploads/2017/02/banner_index_02.jpg 1920w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/banner_index_02-300x72.jpg 300w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/banner_index_02-768x184.jpg 768w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/banner_index_02-1024x245.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" />				<div class="carousel-caption">
+									</div>
+			</div>
+					<div class="item ">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/02/aovivo.jpg" class="attachment-full size-full wp-post-image img-responsive " alt="" srcset="http://www.redefamilia.com.br/wp-content/uploads/2017/02/aovivo.jpg 1920w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/aovivo-300x72.jpg 300w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/aovivo-768x184.jpg 768w, http://www.redefamilia.com.br/wp-content/uploads/2017/02/aovivo-1024x245.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" />				<div class="carousel-caption">
+											<a class="btn btn-primary" href="http://www.redefamilia.com.br/ao-vivo/" role="button">
+							ASSISTIR AO VIVO						</a>
+									</div>
+			</div>
+				</div>
+
+	<!-- Controls -->
+		<a class="left carousel-control" href="#slide_header" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a class="right carousel-control" href="#slide_header" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Próximo</span>
+		</a>
+	</div>
+</div>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25357505-46', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</header>
+<main><div class="container"><section id="index-posts" class="col-md-8 posts clearfix">
+			<article class="col-md-12 featured">
+			<a href="http://www.redefamilia.com.br/2017/03/28/dicas-para-economizar-na-compra-de-passagens-aereas-confira/" title="Dicas para economizar na compra de passagens aéreas, confira">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.35.46.png" class="attachment-thumb-first-post size-thumb-first-post wp-post-image img-responsive " alt="" srcset="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.35.46.png 636w, http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.35.46-300x167.png 300w" sizes="(max-width: 636px) 100vw, 636px" />				<div class="color"></div>
+				<section>
+					<header>
+						<ul class="breadcrumb clearfix "><li class="http://www.redefamilia.com.br/categoria/entretenimento/saude-e-bem-estar/" style="background-color:#5bce60;">Saúde e Bem-estar</li></ul>						
+			<span class="date-post ">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>						<h3>Dicas para economizar na compra de passagens aéreas, confira</h3>
+					</header>
+					<footer>
+							Se você gosta de viajar, conhecer novos lugares, entrar em contato com pessoas de diferentes culturas ou simplesmente gosta de descansar longe da sua casa, as viagens devem estar sempre nos planos					</footer>
+				</section>
+			</a>
+		</article>
+		<article class="col-md-6 col-sm-6 mid-featured mobile">
+			<a href="http://www.redefamilia.com.br/2017/03/28/dicas-para-economizar-na-compra-de-passagens-aereas-confira/" class="img" title="Dicas para economizar na compra de passagens aéreas, confira">
+				<figure>
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.35.46-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				</figure>
+			</a>
+			<header>
+				<ul class="breadcrumb clearfix col-md-6 col-sm-6 col-xs-6"><li style="background-color:#5bce60;">
+						<a href="http://www.redefamilia.com.br/categoria/entretenimento/saude-e-bem-estar/">
+							Saúde e Bem-estar
+						</a>
+					</li></ul>				
+			<span class="date-post col-md-6 col-sm-6 col-xs-6">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>			</header>
+			<a href="http://www.redefamilia.com.br/2017/03/28/dicas-para-economizar-na-compra-de-passagens-aereas-confira/" class="titleHeader" title="Dicas para economizar na compra de passagens aéreas, confira">
+				<h4>Dicas para economizar na compra de passagens aéreas, confira</h4>
+			</a>
+			<footer>
+				Se você gosta de viajar, conhecer novos lugares, entrar em contato com pessoas de diferentes culturas ou simplesmente gosta de descansar longe da sua casa, as viagens devem estar sempre nos planos			</footer>
+		</article>
+			<article class="col-md-6 col-sm-6 mid-featured list-00">
+			<a href="http://www.redefamilia.com.br/2017/03/28/baklava-de-nozes-e-a-receita-desta-terca-feira-no-versatil-atual/" class="img" title="Baklava de Nozes é a receita desta terça-feira no Versátil &#038; Atual">
+				<figure class="img-01">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/20170328_1517101-350x220.jpg" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				</figure>
+				<figure class="img-02 hidden">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/20170328_1517101-255x200.jpg" class="attachment-thumb-index-post size-thumb-index-post wp-post-image img-responsive " alt="" />				</figure>
+			</a>
+			<header>
+				<ul class="breadcrumb clearfix col-md-6 col-sm-6 col-xs-6"><li style="background-color:;">
+						<a href="http://www.redefamilia.com.br/categoria/por-dentro/">
+							Por Dentro
+						</a>
+					</li></ul>				
+			<span class="date-post col-md-6 col-sm-6 col-xs-6">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>			</header>
+			<a href="http://www.redefamilia.com.br/2017/03/28/baklava-de-nozes-e-a-receita-desta-terca-feira-no-versatil-atual/" class="titleHeader" title="Baklava de Nozes é a receita desta terça-feira no Versátil &#038; Atual">
+				<h4>Baklava de Nozes é a receita desta terça-feira no Versátil &#038; Atual</h4>
+			</a>
+			<footer>
+				Na cozinha, a Chef Mayara Sales ensinou a fazer um Baklava de Nozes. Vale a pena experimentar!			</footer>
+		</article>
+			<article class="col-md-6 col-sm-6 mid-featured list-01">
+			<a href="http://www.redefamilia.com.br/2017/03/28/sheila-mello-veste-filha-de-4-anos-de-marilyn-monroe-para-festa-de-aniversario-e-divide-os-fas-crianca-tem-que-ser-crianca/" class="img" title="Sheila Mello veste filha de 4 anos de Marilyn Monroe para festa de aniversário e divide os fãs: &#8220;Criança tem que ser criança&#8221;">
+				<figure class="img-01">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.27.24-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				</figure>
+				<figure class="img-02 hidden">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.27.24-255x200.png" class="attachment-thumb-index-post size-thumb-index-post wp-post-image img-responsive " alt="" srcset="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.27.24-255x200.png 255w, http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.27.24-511x400.png 511w" sizes="(max-width: 255px) 100vw, 255px" />				</figure>
+			</a>
+			<header>
+				<ul class="breadcrumb clearfix col-md-6 col-sm-6 col-xs-6"><li style="background-color:#5bce60;">
+						<a href="http://www.redefamilia.com.br/categoria/entretenimento/famosos/">
+							Famosos
+						</a>
+					</li></ul>				
+			<span class="date-post col-md-6 col-sm-6 col-xs-6">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>			</header>
+			<a href="http://www.redefamilia.com.br/2017/03/28/sheila-mello-veste-filha-de-4-anos-de-marilyn-monroe-para-festa-de-aniversario-e-divide-os-fas-crianca-tem-que-ser-crianca/" class="titleHeader" title="Sheila Mello veste filha de 4 anos de Marilyn Monroe para festa de aniversário e divide os fãs: &#8220;Criança tem que ser criança&#8221;">
+				<h4>Sheila Mello veste filha de 4 anos de Marilyn Monroe para festa de aniversário e divide os fãs: &#8220;Criança tem que ser criança&#8221;</h4>
+			</a>
+			<footer>
+				Festa de quatro anos de Brenda aconteceu no domingo (26)			</footer>
+		</article>
+			<article class="col-md-6 col-sm-6 mid-featured list-02">
+			<a href="http://www.redefamilia.com.br/2017/03/28/capitao-da-selecao-neymar-diz-viver-o-melhor-momento-da-carreira-nao-falo-de-numeros-falo-de-futebol/" class="img" title="Capitão da seleção, Neymar diz viver o melhor momento da carreira: &#8216;Não falo de números, falo de futebol&#8217;">
+				<figure class="img-01">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.19.33-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				</figure>
+				<figure class="img-02 hidden">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.19.33-255x200.png" class="attachment-thumb-index-post size-thumb-index-post wp-post-image img-responsive " alt="" />				</figure>
+			</a>
+			<header>
+				<ul class="breadcrumb clearfix col-md-6 col-sm-6 col-xs-6"><li style="background-color:#1268b3;">
+						<a href="http://www.redefamilia.com.br/categoria/esporte/futebol/">
+							Futebol
+						</a>
+					</li></ul>				
+			<span class="date-post col-md-6 col-sm-6 col-xs-6">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>			</header>
+			<a href="http://www.redefamilia.com.br/2017/03/28/capitao-da-selecao-neymar-diz-viver-o-melhor-momento-da-carreira-nao-falo-de-numeros-falo-de-futebol/" class="titleHeader" title="Capitão da seleção, Neymar diz viver o melhor momento da carreira: &#8216;Não falo de números, falo de futebol&#8217;">
+				<h4>Capitão da seleção, Neymar diz viver o melhor momento da carreira: &#8216;Não falo de números, falo de futebol&#8217;</h4>
+			</a>
+			<footer>
+				Camisa 10 foi o escolhido de Tite para usar a tarja no jogo contra o Paraguai			</footer>
+		</article>
+			<article class="col-md-6 col-sm-6 mid-featured list-03">
+			<a href="http://www.redefamilia.com.br/2017/03/28/contribuintes-tem-um-mes-para-declarar-o-imposto-de-renda-sem-pagar-multa/" class="img" title="Contribuintes têm um mês para declarar o Imposto de Renda sem pagar multa">
+				<figure class="img-01">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.12.04-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				</figure>
+				<figure class="img-02 hidden">
+					<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Captura-de-Tela-2017-03-28-as-09.12.04-255x200.png" class="attachment-thumb-index-post size-thumb-index-post wp-post-image img-responsive " alt="" />				</figure>
+			</a>
+			<header>
+				<ul class="breadcrumb clearfix col-md-6 col-sm-6 col-xs-6"><li style="background-color:#ED145B;">
+						<a href="http://www.redefamilia.com.br/categoria/noticia/">
+							Notícia
+						</a>
+					</li></ul>				
+			<span class="date-post col-md-6 col-sm-6 col-xs-6">
+				<span class="glyphicon glyphicon-calendar"></span>28/03/2017
+			</span>			</header>
+			<a href="http://www.redefamilia.com.br/2017/03/28/contribuintes-tem-um-mes-para-declarar-o-imposto-de-renda-sem-pagar-multa/" class="titleHeader" title="Contribuintes têm um mês para declarar o Imposto de Renda sem pagar multa">
+				<h4>Contribuintes têm um mês para declarar o Imposto de Renda sem pagar multa</h4>
+			</a>
+			<footer>
+				Quem enviar a declaração após 28 de abril deverá pagar ao menos R$ 165,74 para a Receita			</footer>
+		</article>
+	</section>	<aside class="sidebar widget-area col-md-4">
+		<section class="widget col-md-12 widget-rede-social">
+			<h3 class="widget-title col-md-12">Siga nas Redes Sociais</h3>
+			<ul class="rede-social">
+	<li>
+		<a href="https://www.facebook.com/RedeFamiliaOficial/" class="icon-facebook" target="_blank" alt="icon-facebook"></a>
+	</li>
+	<li>
+		<a href="https://twitter.com/redefamilia" class="icon-twitter" target="_blank" alt="icon-twitter"></a>
+	</li>
+	<li>
+		<a href="mailto:marketing@redefamilia.com.br" class="icon-email" target="_blank" alt="icon-email"></a>
+	</li>
+	<li>
+		<a href="https://www.youtube.com/channel/UC9n34_IrC-Bgt3DIlfdC8pQ" class="icon-youtube" target="_blank" alt="icon-youtube"></a>
+	</li>
+</ul>		</section>
+	</aside>
+	<aside class="sidebar widget-area col-md-4">
+		<section id="wp_bannerize-2" class="widget col-md-12 WPBannerizeWidget"><div class="wp_bannerize home">
+<div><a  onclick="WPBannerizeJavascript.incrementClickCount(1)"  href="http://www.redefamilia.com.br" rel="nofollow" target="_blank">
+<img src="http://192.185.222.8/~redefamilia/wp-content/uploads/2017/01/home.jpg" alt="" width="350" height="180"/>
+</a>
+</div></div>
+</section><section id="text-3" class="widget col-md-12 widget_text">			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/redefamiliaoficial" data-tabs="timeline" data-width="400" data-height="380" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/redefamiliaoficial" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/redefamiliaoficial">Rede Família de Televisão</a></blockquote></div></div>
+		</section>	</aside>
+</div><section id="newsletter-footer" class="container-fluid newsletter">
+	<h2 class="com-md-12">Rede Família no seu e-mail</h2>
+	<p class="com-md-12">Cadastre seu e-mail e receba nossas notícias e novidades.</p>
+	<form method="post" class="container" action="http://www.redefamilia.com.br/?na=s" onsubmit="return newsletter_check(this)">
+		<input class="input tnp-email col-lg-offset-1 col-lg-7 col-md-9 col-sm-9 col-xs-8" type="email" name="ne" placeholder="Coloque seu e-mail&hellip;" required>
+		<button type="submit" class="btn btn-submit tnp-submit col-lg-3 col-md-3 col-sm-3 col-xs-4">Cadastrar</button>
+	</form>
+</section>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof newsletter_check !== "function") {
+	window.newsletter_check = function (f) {
+		var re = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-]{1,})+\.)+([a-zA-Z0-9]{2,})+$/;
+		if (!re.test(f.elements["ne"].value)) {
+			alert("O e-mail está incorreto.");
+			return false;
+		}
+		for (var i=1; i<20; i++) {
+		if (f.elements["np" + i] && f.elements["np" + i].required && f.elements["np" + i].value == "") {
+			alert("");
+			return false;
+		}
+		}
+		if (f.elements["ny"] && !f.elements["ny"].checked) {
+			alert("You must accept the privacy statement");
+			return false;
+		}
+		return true;
+	}
+}
+//]]>
+</script><section class="container list-video clearfix">
+	<h3>Vídeos recentes da Rede Família</h3>		<article class="col-md-3 col-sm-6 col-xs-12">
+			<a href="http://www.redefamilia.com.br/video/versatil-atual-240317/" title="Versátil &#038; Atual &#8211; 24/03/17">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Versatil_24_03-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				<div class="color"></div>
+			</a>
+			<a href="http://www.redefamilia.com.br/video/versatil-atual-240317/" title="Versátil &#038; Atual &#8211; 24/03/17">
+				<h4>Versátil &#038; Atual &#8211; 24/03/17</h4>
+			</a>
+					</article>
+			<article class="col-md-3 col-sm-6 col-xs-12">
+			<a href="http://www.redefamilia.com.br/video/visao-geral-240317/" title="Visão Geral &#8211; 24/03/17">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/VisaoGeral_14_03-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				<div class="color"></div>
+			</a>
+			<a href="http://www.redefamilia.com.br/video/visao-geral-240317/" title="Visão Geral &#8211; 24/03/17">
+				<h4>Visão Geral &#8211; 24/03/17</h4>
+			</a>
+					</article>
+			<article class="col-md-3 col-sm-6 col-xs-12">
+			<a href="http://www.redefamilia.com.br/video/visao-geral-230317/" title="Visão Geral &#8211; 23/03/17">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/VisaoGeral_23_03-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				<div class="color"></div>
+			</a>
+			<a href="http://www.redefamilia.com.br/video/visao-geral-230317/" title="Visão Geral &#8211; 23/03/17">
+				<h4>Visão Geral &#8211; 23/03/17</h4>
+			</a>
+					</article>
+			<article class="col-md-3 col-sm-6 col-xs-12">
+			<a href="http://www.redefamilia.com.br/video/versatil-atual-230317/" title="Versátil &#038; Atual &#8211; 23/03/17">
+				<img src="http://www.redefamilia.com.br/wp-content/uploads/2017/03/Versatil_23_03-350x220.png" class="attachment-thumb-second-post size-thumb-second-post wp-post-image img-responsive " alt="" />				<div class="color"></div>
+			</a>
+			<a href="http://www.redefamilia.com.br/video/versatil-atual-230317/" title="Versátil &#038; Atual &#8211; 23/03/17">
+				<h4>Versátil &#038; Atual &#8211; 23/03/17</h4>
+			</a>
+					</article>
+	</section>
+</main>
+<footer class="footer">
+	<section class="container">
+		<div class="row">
+			<div class="col-md-7">
+									<div class="widget-footer widget-area col-md-6">
+						<section id="nav_menu-2" class="widget col-md-12 widget_nav_menu"><h4 class="widget-title col-md-12">Menu Institucional</h4><div class="menu-menu-institucional-container"><ul id="menu-menu-institucional" class="menu"><li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65"><a href="http://www.redefamilia.com.br/sobre-a-rede-familia/">Sobre a Rede Familia</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://www.redefamilia.com.br/como-anunciar/">Como anunciar</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-64"><a href="http://www.redefamilia.com.br/como-assistir/">Como assistir</a></li>
+</ul></div></section><section id="text-2" class="widget col-md-12 widget_text"><h4 class="widget-title col-md-12">Nosso endereço</h4>			<div class="textwidget"><p>Jorge Hennings, 155,<br />
+Campinas, São Paulo</p>
+</div>
+		</section>					</div>
+									<div class="widget-footer widget-area col-md-6">
+						<section id="nav_menu-3" class="widget col-md-12 widget_nav_menu"><h4 class="widget-title col-md-12">Programas</h4><div class="menu-menu-programas-container"><ul id="menu-menu-programas" class="menu"><li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="http://www.redefamilia.com.br/programas/alerta-total/">Alerta Total</a></li>
+<li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a href="http://www.redefamilia.com.br/programas/rf-news/">RF News</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="http://www.redefamilia.com.br/programas/visao-geral/">Visão Geral</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-102"><a href="http://www.redefamilia.com.br/programas/camarote/">Camarote</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="http://www.redefamilia.com.br/programas/versatil-atual/">Versátil &#038; Atual</a></li>
+<li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a h

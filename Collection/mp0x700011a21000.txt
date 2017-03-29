@@ -1,0 +1,1107 @@
+|||http://horoscopo.ego.globo.com/ne/home.html|<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" class="old-ie" itemscope itemtype="http://schema.org/Organization" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><![endif]-->
+<!--[if IE 9]><html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" class="ie" itemscope itemtype="http://schema.org/Organization" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><![endif]-->
+<!--[if !IE]> --><html lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="http://schema.org/Organization" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"><!-- <![endif]-->
+<head>
+		<link rel="canonical" href="http://www.personare.com.br/">
+    <title>Horóscopo etc - EGO</title>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="description" content="Leia no Horóscopo etc o seu horóscopo diário, o personalizado e tudo sobre o seu signo. Descubra o que os astros revelam sobre sua vida amorosa, familiar e profissional, além de previsões sobre o seu futuro e de seus famosos favoritos." />
+<meta name="keywords" content="horóscopo, horóscopo etc, horóscopo diário, signos, astral, previsões, artigos, mapa profissional, mapa astral, mapa natal, sinastria amorosa, previsões, sol, lua, tarot, I ching, runas, numerologia, oráculos, astrologia, revolução solar, horóscopo personalizado, ascendente, cartas, meio céu, vênus, amor, carreira, família." />
+<meta name="editoria" content="personare" />
+<meta name="language" content="portuguese" />
+<meta name="robots" content="all" />
+<meta name="revist" content="1 days" />
+
+<!-- SCRIPT DO OPEN X -->
+<script type="text/javascript">
+  var OA_channel = 'Home';
+</script>
+<!--FIM SCRIPT DO OPEN X -->	<!-- Facebook metas -->
+<meta property="og:description" content="Leia no Horóscopo etc o seu horóscopo diário, o personalizado e tudo sobre o seu signo. Descubra o que os astros revelam sobre sua vida amorosa, familiar e profissional, além de previsões sobre o seu futuro e de seus famosos favoritos."/>
+<meta property="og:image" content="https://dkw5ssdvaqf8l.cloudfront.net/static/psr/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/img/horoscopo.ego.globo.com/icones/200x200/logo.png"/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:site_name" content="EGO"/>
+<meta property="og:title" content="Horóscopo etc - EGO"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://www.personare.com.br"/>
+<meta property="og:locale" content="pt_BR">
+<meta property="fb:app_id" content="256358577743486">
+<!-- Gooleplus metas-->
+<meta itemprop="name" content="Horóscopo etc - EGO">
+<meta itemprop="description" content="Leia no Horóscopo etc o seu horóscopo diário, o personalizado e tudo sobre o seu signo. Descubra o que os astros revelam sobre sua vida amorosa, familiar e profissional, além de previsões sobre o seu futuro e de seus famosos favoritos.">
+<meta itemprop="image" content="https://dkw5ssdvaqf8l.cloudfront.net/static/psr/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/img/horoscopo.ego.globo.com/icones/200x200/logo.png">	<script	src='http://connect.facebook.net/en_US/all.js'></script>
+	<link href="http://ego.globo.com/fonts/typography.css" rel="stylesheet" />
+	<script src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/modernizr.custom.05740.js"></script>
+	<link href="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/css/global.css" rel="stylesheet" />
+	<link type="text/css" rel="stylesheet" media="screen" href="http://s.glbimg.com/gl/ba/css/barra-globocom.min.css" />
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.20/jquery-ui.min.js"></script>
+	<!-- SWFObject -->
+	<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+			<script type="text/javascript" src="https://dkw5ssdvaqf8l.cloudfront.net/static/psr/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/base.js"></script>
+  	  	<script type="text/javascript" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/Feedback.class.js"></script>		
+	<script src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/global.js"></script>
+	<script src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/modernizr.custom.05740.js"></script>
+	
+<!-- tag-manager -->
+<script type="text/javascript">
+        window.tagManager = {
+            "structureTree": ["ego", "Horóscopo Etc"],
+            "sitePage": '/',
+            "pageName": 'Home',
+    };
+
+    var utag_data = {
+        "structure_tree": window.tagManager.structureTree,
+        "ad_site_page": window.tagManager.sitePage,
+        "page_name": window.tagManager.pageName
+    };
+
+    var extraData = window.tagManager.extraData;
+    if (typeof extraData != 'undefined' && extraData instanceof Object) {
+        for (var key in extraData) {
+            utag_data[key] = extraData[key];
+        }
+    }
+</script>
+<script type="text/javascript">
+    window.onload = function(e){ 
+        (function(a,b,c,d){
+        a='//tags.globo.com/utag/globo/ego/prod/utag.js';
+        b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+        a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+        })();
+    }
+</script>	<link rel="icon" type="image/png" href="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/favicon-horoscopo.png" />
+		
+    <style type="text/css">
+        #freshwidget-button{
+            display: none !important;
+        }
+    </style>
+
+		  	<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+if (typeof _vwo_code !== "object") {
+    var _vwo_code=(function(){
+    var account_id=38276,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());
+        _vwo_settings_timer=_vwo_code.init();
+}
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+</head>
+<body class="home">
+	<span class='glb-tooltip off'></span>
+	<div id='fb-root'></div><div id="glb-doc">
+	
+
+<script>NeXT.createScript('Slices/Navigation/Header', '','https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/')</script><header id="glb-topo">
+	<div id="glb-cabecalho">
+		<div class="glb-conteudo">
+			<div class="glb-logo">
+				<div class="logo"><a href="/" title="P&aacute;gina Inicial">Hor&oacute;scopo Etc</a></div>
+			</div>
+							<p class="por-personare">Por <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/logo-personare-peq.png" alt="Personare" /></p>
+						<span class="oferecimento">
+				<div class="box-banner banner-80-34">
+    <div id="banner_insert">
+        <script type="text/javascript">
+            if (typeof OAS_RICH !== 'undefined') OAS_RICH("Right")
+        </script>
+    </div>
+</div>			</span>
+			<div id="busca-global">
+							<form name="busca-padrao" id="frmBusca" action="/busca" method="get">
+					<fieldset>
+						<label id="lbl-busca-campo" for="busca-campo">Buscar</label>
+						<input type="search" name="searchTerms" placeholder="buscar no hor&oacute;scopo etc" id="busca-campo" value="" />
+						<input class="bt bt-buscar" type="submit" value="Buscar" type="submit" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="glb-menu">
+		<div class="glb-conteudo">
+			<nav>
+				<ul class="primeiro">
+					<li class="item-pai ego"><a href="http://ego.globo.com" title="Ego">Ego</a></li>
+					<li class="item-pai item-dropdown">
+						<a href="#" title="Signos">Signos</a>
+						<dl class="dropdown signs">
+							<dt>
+								<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+								<a href="/signos" title="Signos">Signos</a>
+							</dt>
+							<dd class="aries"><a href="/signos/aries" title="&aacute;ries">&Aacute;ries</a></dd>
+							<dd class="touro"><a href="/signos/touro" title="touro">Touro</a></dd>
+							<dd class="gemeos"><a href="/signos/gemeos" title="g&ecirc;meos">G&ecirc;meos</a></dd>
+							<dd class="cancer"><a href="/signos/cancer" title="c&acirc;ncer">C&acirc;ncer</a></dd>
+							<dd class="col-2 leao"><a href="/signos/leao" title="le&atilde;o">Le&atilde;o</a></dd>
+							<dd class="col-2 virgem"><a href="/signos/virgem" title="virgem">Virgem</a></dd>
+							<dd class="col-2 libra"><a href="/signos/libra" title="libra">Libra</a></dd>
+							<dd class="col-2 escorpiao"><a href="/signos/escorpiao" title="escorpi&atilde;o">Escorpi&atilde;o</a></dd>
+							<dd class="col-3 sagitario"><a href="/signos/sagitario" title="sagit&aacute;rio">Sagit&aacute;rio</a></dd>
+							<dd class="col-3 capricornio"><a href="/signos/capricornio" title="capric&oacute;rnio">Capric&oacute;rnio</a></dd>
+							<dd class="col-3 aquario"><a href="/signos/aquario" title="aqu&aacute;rio">Aqu&aacute;rio</a></dd>
+							<dd class="col-3 peixes"><a href="/signos/peixes" title="peixes">Peixes</a></dd>
+						</dl>
+					</li>
+					<li class="item-pai item-dropdown">
+						<a href="/astrologia" title="Astrologia">Astrologia</a>
+						<dl class="dropdown">
+							<dt>
+								<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+								<a href="/astrologia" title="Astrologia">Astrologia</a>
+							</dt>
+							<dd><a href="/astrologia/mapa-astral" title="mapa astral">Mapa astral</a></dd>
+							<dd><a href="/astrologia/mapa-sexual" title="mapa sexual">Mapa Sexual</a></dd>
+							<dd><a href="/astrologia/sinastria-amorosa" title="sinastria amorosa">Sinastria amorosa</a></dd>
+														<dd><a href="/astrologia/horoscopo" title="hor&oacute;scopo personalizado">Hor&oacute;scopo personalizado</a></dd>
+							
+							<dd><a href="/astrologia/jeito-de-amar" title="jeito de amar">Jeito de amar</a></dd>
+							<dd><a href="/astrologia/seu-jeito-de-ser-mae" title="jeito de ser m&atilde;e">Jeito de ser m&atilde;e</a></dd>
+														<dd><a href="/astrologia/mapa-profissional" title="mapa profissional">Mapa profissional</a></dd>
+							<dd><a href="/astrologia/revolucao-solar" title="revolu&ccedil;&atilde;o solar">Revolu&ccedil;&atilde;o solar</a></dd>
+						</dl>
+					</li>
+					<li class="item-pai item-dropdown">
+						<a href="/numerologia" title="Numerologia">Numerologia</a>
+						<dl class="dropdown">
+							<dt>
+								<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+								<a href="/numerologia" title="Numerologia">Numerologia</a>
+							</dt>
+							<dd><a href="/numerologia/mapa-numerologico" title="mapa numerol&oacute;gico">Mapa numerol&oacute;gico</a></dd>
+							<dd><a href="/numerologia/previsoes-numerologicas" title="previsoes numerológicas">Previsões Numerol&oacute;gicas</a></dd>
+							<dd><a href="/numerologia/mapa-infantil" title="mapa infantil">Mapa infantil</a></dd>
+							<dd><a href="/numerologia/mapa-do-amor" title="mapa do amor">Mapa do amor</a></dd>
+							<dd><a href="/numerologia/mapa-do-ano" title="mapa do ano 2017">Mapa do ano 2017</a></dd>
+													</dl>
+					</li>
+					<li class="item-pai item-dropdown">
+						<a href="/tarot" title="Tarot">Tarot</a>
+						<dl class="dropdown">
+							<dt>
+								<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+								<a href="/tarot" title="Tarot">Tarot</a>
+							</dt>
+							<dd><a href="/tarot/tarot-e-o-amor" title="tarot e o amor">Tarot e o amor</a></dd>
+							<dd><a href="/tarot/tarot-mensal" title="tarot mensal">Tarot Mensal</a></dd>
+							<dd><a href="/tarot/tarot-semestral" title="tarot semestral">Tarot semestral</a></dd>
+							<dd><a href="/tarot/tarot-do-dia" title="tarot do dia">Tarot do dia</a></dd>
+						</dl>
+					</li>
+					<li class="item-pai item-dropdown">
+						<a href="/oraculos" title="Or&aacute;culos">Or&aacute;culos</a>
+						<dl class="dropdown">
+							<dt>
+								<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+								<a href="/oraculos" title="Or&aacute;culos">Or&aacute;culos</a>
+							</dt>
+							<dd><a href="/oraculos/runas-e-vida-material" title="runas e vida material">Runas e vida material</a></dd>
+							<dd><a href="/oraculos/i-ching" title="i-ching">I-ching</a></dd>
+						</dl>
+					</li>
+										<li class="item-pai item-dropdown right" id="user-form-login">
+						<a href="#" title="Meu Perfil">Meu Perfil</a>
+						<div class="dropdown">
+							<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-dropdown.png" class="seta">
+							<form  id="FormLogin" name="FormLogin" method="post" action="javascript:void(Login.efetuaLogin('FormLogin'));"  enctype="application/x-www-form-urlencoded" class="">
+  <input type="hidden" name="FormID" value="FormLogin" id="" />
+  <script type="text/javascript">
+    window['validationsFormLogin'] = {};
+    window['validationsFormLogin'] = {"FormLogin":{"txEmail":{"Check":[{"Pattern":{"Exec":"verifyLogin","isFunc":true,"serverCheck":false},"Message":{"-101":"Ol\u00e1! Verifique se digitou corretamente o endere\u00e7o do seu e-mail.","-102":"Ol\u00e1! Verifique se digitou corretamente o endere\u00e7o do seu e-mail.","-103":"Este e-mail n\u00e3o est\u00e1 cadastrado.","-104":"Faltou incluir seu e-mail ;)","-300":"Digite sua senha.","-302":"Verifique a senha, por favor.","-9999":"Redirecionando..."}}]}}};
+  </script>
+
+								<input name="FormID" value="FormPOPLogin" type="hidden">
+								<input name="ReturnToURL" value="" type="hidden">
+								<fieldset>
+									<legend>Dados de Acesso</legend>
+									<h3>Entrar no Meu Perfil</h3>									
+									<div class="email">
+										<label for="txEmail">E-mail</label>
+										<input name="txEmail" value="" placeholder="email" type="text" autocomplete="on" id="txEmail" />
+										<div id="FormLogin_txEmail_Feedback"></div>
+									</div>									
+									<div class="password">
+										<label for="pwPassword">Senha</label>
+										<input name="pwPassword" value="" placeholder="senha" type="password" autocomplete="on" id="pwPassword" />
+										<div id="FormLogin_pwPassword_Feedback"></div>										
+									</div>
+									<input class="bt bt-enviar" type="submit" value="Entrar" />
+								</fieldset>
+							</form>
+<script type='text/javascript'>
+jQuery(function($) {
+  jQuery('#FormLogin').bind('submit', ValidationForm.validate);
+
+});
+</script>							<p><a href="javascript:Login.forgotPassword();" class="link-senha">Esqueci minha senha</a></p>
+							<div class="box-criar-um-perfil">
+								<p><a class="bt bt-secundario bt-criar-um-perfil" href="javascript:Register.pop('')">Criar um perfil</a></p>								
+							</div>
+						</div>
+					</li>
+									</ul>
+			</nav>
+		</div>
+	</div>
+</header>	<div id="glb-corpo">
+		<div class="glb-conteudo">
+			<div class="glb-principal">			
+				
+
+<script>NeXT.createScript('Slices/Product/Horoscope/Solar/Content', '','https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/')</script><div class="glb-bl-conteudo glb-bl-previsoes-do-dia">
+	<h1 class="titulo">Previsões <strong>do dia</strong></h1>
+	<p class="subtitulo">Como o horóscopo pode ajudar no seu dia</p>
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+			<div class="box-topo">
+				<nav class="signos">
+					<ul>
+													<li class="aries"><a class="showContent on" href="#solar-aries" title="Áries" data-link="/signos/aries">Áries</a></li>
+													<li class="touro"><a class="showContent " href="#solar-touro" title="Touro" data-link="/signos/touro">Touro</a></li>
+													<li class="gemeos"><a class="showContent " href="#solar-gemeos" title="Gêmeos" data-link="/signos/gemeos">Gêmeos</a></li>
+													<li class="cancer"><a class="showContent " href="#solar-cancer" title="Câncer" data-link="/signos/cancer">Câncer</a></li>
+													<li class="leao"><a class="showContent " href="#solar-leao" title="Leão" data-link="/signos/leao">Leão</a></li>
+													<li class="virgem"><a class="showContent " href="#solar-virgem" title="Virgem" data-link="/signos/virgem">Virgem</a></li>
+													<li class="libra"><a class="showContent " href="#solar-libra" title="Libra" data-link="/signos/libra">Libra</a></li>
+													<li class="escorpiao"><a class="showContent " href="#solar-escorpiao" title="Escorpião" data-link="/signos/escorpiao">Escorpião</a></li>
+													<li class="sagitario"><a class="showContent " href="#solar-sagitario" title="Sagitário" data-link="/signos/sagitario">Sagitário</a></li>
+													<li class="capricornio"><a class="showContent " href="#solar-capricornio" title="Capricórnio" data-link="/signos/capricornio">Capricórnio</a></li>
+													<li class="aquario"><a class="showContent " href="#solar-aquario" title="Aquário" data-link="/signos/aquario">Aquário</a></li>
+													<li class="peixes"><a class="showContent " href="#solar-peixes" title="Peixes" data-link="/signos/peixes">Peixes</a></li>
+											</ul>
+				</nav>
+			</div>
+							<hr />
+				<article id="solar-aries" class="conteudo on">
+					<header>
+													<div class="selo-signo-do-mes">Signo do mês</div>
+												<img class="icone aries" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/aries-g.png" alt="Icone Áries" />
+						<h2 class="signo">Áries</h2>
+						<p class="periodo">
+						<time datetime="2017-03-21">21 mar</time> a <time datetime="2017-04-19">19 abr</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>O encontro entre Sol e Lua em seu signo marca um momento em que seus talentos afloram e você se sente imbuído de uma energia transformadora. É Lua Nova, momento de renovação! Você naturalmente assume posição de destaque e até de liderança, servindo de inspiração aos demais... <a href="/signos/aries">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-touro" class="conteudo ">
+					<header>
+												<img class="icone touro" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/touro-g.png" alt="Icone Touro" />
+						<h2 class="signo">Touro</h2>
+						<p class="periodo">
+						<time datetime="2017-04-20">20 abr</time> a <time datetime="2017-05-20">20 mai</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>Uma postura segura marca suas ações com o encontro Sol-Lua, levando-lhe a encarar os desafios com zelo e discrição. Ainda que os fatores de crise insistam em lhe tirar da zona de conforto, o aprendizado será valioso. Seja estratégico e reavalie as áreas de sua vida que demandam maior atenção... <a href="/signos/touro">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-gemeos" class="conteudo ">
+					<header>
+												<img class="icone gemeos" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/gemeos-g.png" alt="Icone Gêmeos" />
+						<h2 class="signo">Gêmeos</h2>
+						<p class="periodo">
+						<time datetime="2017-05-21">21 mai</time> a <time datetime="2017-06-21">21 jun</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>A Lua na área de amizades forma conjunção com o Sol, revelando um momento de complementaridade de talentos nas ações em grupo, movido tanto pelo bem-querer mútuo como pelas necessidades em comum. Seu equilíbrio emocional fará a diferença, deixando o grupo mais coeso... <a href="/signos/gemeos">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-cancer" class="conteudo ">
+					<header>
+												<img class="icone cancer" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/cancer-g.png" alt="Icone Câncer" />
+						<h2 class="signo">Câncer</h2>
+						<p class="periodo">
+						<time datetime="2017-06-22">22 jun</time> a <time datetime="2017-07-22">22 jul</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>Sua percepção da realidade fica mais forte diante do encontro entre Sol e Lua na área profissional, levando-lhe a realizar ações proveitosas para a gestão de sua vida de um modo geral. Avalie o que precisa de intervenção e coloque as mãos na massa. Com o foco nas prioridades, você alcançará bons resultados... <a href="/signos/cancer">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-leao" class="conteudo ">
+					<header>
+												<img class="icone leao" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/leao-g.png" alt="Icone Leão" />
+						<h2 class="signo">Leão</h2>
+						<p class="periodo">
+						<time datetime="2017-07-23">23 jul</time> a <time datetime="2017-08-22">22 ago</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>As energias conjuntas de Sol e Lua na área espiritual fortalecem sua relação com o mundo e elevam suas expectativas frente aos objetivos que você vem traçando para sua vida. É um momento favorável para resgatar vocações e desenvolver habilidades, pois é Lua Nova. Exercite-as!.. <a href="/signos/leao">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-virgem" class="conteudo ">
+					<header>
+												<img class="icone virgem" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/virgem-g.png" alt="Icone Virgem" />
+						<h2 class="signo">Virgem</h2>
+						<p class="periodo">
+						<time datetime="2017-08-23">23 ago</time> a <time datetime="2017-09-22">22 set</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>O momento é proveitoso para o autoconhecimento, pois Sol e Lua se articulam conjuntamente na oitava casa zodiacal, proporcionando-lhe um mergulho em aspectos da sua intimidade e elevando seu grau de satisfação perante a vida. Reflita sobre suas conquistas e trace metas em prol da sua felicidade... <a href="/signos/virgem">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-libra" class="conteudo ">
+					<header>
+												<img class="icone libra" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/libra-g.png" alt="Icone Libra" />
+						<h2 class="signo">Libra</h2>
+						<p class="periodo">
+						<time datetime="2017-09-23">23 set</time> a <time datetime="2017-10-22">22 out</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>Momentos de grande harmonia envolvem seus relacionamentos nessa fase de conjunção Sol-Lua, facilitando a aproximação física e emocional. As necessidades do outro se complementam às suas e as ações conjuntas, se bem direcionadas, podem culminar em resultados prósperos... <a href="/signos/libra">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-escorpiao" class="conteudo ">
+					<header>
+												<img class="icone escorpiao" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/escorpiao-g.png" alt="Icone Escorpião" />
+						<h2 class="signo">Escorpião</h2>
+						<p class="periodo">
+						<time datetime="2017-10-23">23 out</time> a <time datetime="2017-11-21">21 nov</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>A necessidade de conforto e segurança lhe guia nesse momento, em que Sol e Lua se aspectam na sexta casa zodiacal. Sua casa tende a ser vista como um porto seguro para as emoções, assim como a rotina lhe proporciona equilíbrio constante. Dedique-se à família com amor e prestatividade... <a href="/signos/escorpiao">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-sagitario" class="conteudo ">
+					<header>
+												<img class="icone sagitario" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/sagitario-g.png" alt="Icone Sagitário" />
+						<h2 class="signo">Sagitário</h2>
+						<p class="periodo">
+						<time datetime="2017-11-22">22 nov</time> a <time datetime="2017-12-21">21 dez</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>As energias de Sol e Lua, associadas na área social, sugerem um momento em que você se sente mais à vontade para interagir com grupos, ainda que sejam mais heterogêneos do que está habituado. Os estímulos intelectuais resultantes das trocas intelectuais e afetivas lhe enriquecerão... <a href="/signos/sagitario">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-capricornio" class="conteudo ">
+					<header>
+												<img class="icone capricornio" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/capricornio-g.png" alt="Icone Capricórnio" />
+						<h2 class="signo">Capricórnio</h2>
+						<p class="periodo">
+						<time datetime="2017-12-22">22 dez</time> a <time datetime="2017-01-19">19 jan</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>Associados na área familiar, as energias de Sol e Lua harmonizam o ambiente doméstico e apontam um momento de tranquilidade com as pessoas queridas. Seu equilíbrio emocional será um porto seguro para quem está ao seu lado, por isso mostre-se acessível e companheiro... <a href="/signos/capricornio">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-aquario" class="conteudo ">
+					<header>
+												<img class="icone aquario" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/aquario-g.png" alt="Icone Aquário" />
+						<h2 class="signo">Aquário</h2>
+						<p class="periodo">
+						<time datetime="2017-01-20">20 jan</time> a <time datetime="2017-02-18">18 fev</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>As energias conjuntas de Sol e Lua sugerem um momento de maior empatia com os grupos de seu interesse, pois destacam o lado articulador da sua personalidade. Aproveite para aprender coisas novas e compartilhar conhecimento. Suas ideias se ampliarão significativamente... <a href="/signos/aquario">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+							<hr />
+				<article id="solar-peixes" class="conteudo ">
+					<header>
+												<img class="icone peixes" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/signos/peixes-g.png" alt="Icone Peixes" />
+						<h2 class="signo">Peixes</h2>
+						<p class="periodo">
+						<time datetime="2017-02-19">19 fev</time> a <time datetime="2017-03-20">20 mar</time>
+						</p>
+					</header>
+					<div class="miolo">
+						<h2><strong>Hoje</strong> 28 de Mar&ccedil;o</h2>
+						<p>A Lua Nova busca renovação nesse encontro com o Sol na segunda casa, de modo que pode ser interessante pesquisar formas de investimento que dinamizem seu patrimônio. Antes de tomar decisões, procure observar os prós e os contras, inclusive nas entrelinhas, considerando a tensão com Júpiter... <a href="/signos/peixes">Veja a previsão completa»</a></p>
+					</div>
+				</article>
+										<div class="box-saiba-mais">
+					<h3>Quer saber mais? Leia seu horóscopo personalizado <small>(com seu nome e data de aniversário)</small></h3>
+					<form id="box-register-home" action="javascript:Register.pop('/',jQuery('#box-register-home').serialize())" name="box-register-home">
+						<fieldset>
+							<legend>Formulário de pré-cadastro</legend>
+							<div class="box-campos">
+								<div class="box-campo">
+									<label for="nome_completo">Nome completo</label><br />
+									<input id="nome_completo" name="txName" required="required" type="text" placeholder="nome completo" />
+								</div>
+								<div class="box-campo">
+									<label for="dia_nascimento">Data de nascimento</label><br />
+									<input class="ipt-dt ipt-dd" name="ddBirthDateDay" required="required" id="dia_nascimento" min="1" max="31" maxlength="2" placeholder="dd" type="number" />
+									<input  class="ipt-dt ipt-mm" name="ddBirthDateMonth" required="required" id="mes_nascimento" min="1" max="12" maxlength="2" placeholder="mm" type="number" />
+									<input class="ipt-dt ipt-aaaa" name="ddBirthDateYear" required="required" id="ano_nascimento" min="1" maxlength="4" placeholder="aaaa" type="number" />
+								</div>
+							</div>
+							<input class="bt bt-enviar" onclick="javascript:Register.pop('/',jQuery('#box-register-home').serialize())" value="Confirmar" type="submit"/>
+						</fieldset>
+					</form>
+				</div>
+					</div>
+	</div>
+</div>			</div>
+			<div class="gbl-lateral">
+				<div class="box-banner banner-300-100">
+	<div id="banner_midbanner">
+    	<script type="text/javascript">
+            if (typeof OAS_RICH !== 'undefined') OAS_RICH("Position1")
+        </script>
+    </div>
+</div>				<div class="widget widget-saiba-mais-sobre-voce">			
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+			<div class="box-topo">
+				<h2>Saiba mais <strong>sobre você</strong></h2>
+			</div>
+			<div class="conteudo">
+				<ul>
+					<li>
+						<a href="/astrologia/mapa-astral">
+							<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-astral-m.jpg" alt="Icone mapa astral" />
+							<h3>Mapa Astral</h3>
+							<p>Tudo sobre o assunto mais interessante do mundo. Você.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/tarot/tarot-e-o-amor">
+							<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/tarot-amor-m.jpg" alt="Icone tarot e o amor" />
+							<h3>Tarot e o Amor</h3>
+							<p>Perspectivas para sua vida amorosa.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/numerologia/mapa-numerologico">
+							<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-numerologico-m.jpg" alt="Icone mapa numerológico" />
+							<h3>Mapa Numerológico</h3>
+							<p>Você, suas escolhas e o rumo da sua vida.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/numerologia/mapa-do-ano"><img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-ano-m.jpg" alt="Icone Mapa do ano" />
+							<h3>Mapa do Ano</h3>
+							<p>Faça as melhores escolhas e alcance suas metas.</p>
+						</a>
+					</li>
+					<li>
+						<a href="/astrologia/mapa-sexual">
+							<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-sexual-m.png" alt="Icone mapa sexual" />
+							<h3>Mapa Sexual</h3>
+							<p>Seu potencial sexual e como aproveitá-lo ao máximo.</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+			<div class="box-banner banner-920-100">
+	<div id="banner_slb_meio">
+        <script type="text/javascript">
+            if (typeof OAS_RICH !== 'undefined') OAS_RICH("Middle")
+        </script>
+    </div>
+</div>			<div class="widget widget-retencao divisoria-topo">
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+							<div class="selo-gratis">Grátis!</div>
+				<span class="icone-tarot"></span>
+				<h2><strong>Tarot do Dia</strong> conselhos para hoje</h2>
+				<p class="subtitulo">Embaralhe, escolha uma carta e veja conselhos para o seu dia</p>
+				<p class="bt-p"><a class="bt" href="/tarot/tarot-do-dia">Tire sua carta</a></p>
+					</div>
+	</div>
+</div>
+<div class="widget widget-retencao divisoria-topo">
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+							<div class="selo-gratis">Grátis</div>
+				<span class="icone-iching"></span>
+				<h2><strong>I-Ching</strong> or&aacute;culo da sabedoria</h2>
+				<p class="subtitulo">Hexagramas com conselhos para seu momento</p>
+				<p class="bt-p"><a class="bt" href="/oraculos/i-ching">Jogue as moedas</a></p>
+					</div>
+	</div>
+</div>
+<div class="widget widget-retencao divisoria-topo widget-ultimo">
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+			<div class="selo-amostra-gratis">Amostra Grátis!</div>
+			<span class="icone-horoscopo"></span>
+			<h2><strong>Mapa Astral</strong> tudo sobre você</h2>
+			<p class="subtitulo">Descubra seu jeito de ser, agir, pensar, amar e mais.</p>
+			<p class="bt-p"><a class="bt" href="/astrologia/mapa-astral">Leia seu mapa</a></p>
+		</div>
+	</div>
+</div>			<hr class="linha-divisoria-full"/>
+			<div class="glb-principal glb-bl-descubra-mais-sobre-signos">
+				<h2>Descubra mais <strong>sobre signos</strong></h2>
+				<span class="fio"></span>
+					<div class="glb-bl-conteudo glb-bl-chamada-artigo ">
+				<div>
+			<nav>			
+				<ul>
+																		<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/o-comportamento-de-cada-signo-na-cama-m7207" title="O comportamento de cada signo na cama">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2015/07/8895_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Famosos</h3>
+			<p>O comportamento de cada signo na cama</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+																								<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/astrologia-revela-seus-medos-m7206" title="Astrologia revela seus medos">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2011/07/2373_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Famosos</h3>
+			<p>Astrologia revela seus medos</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+																								<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/numerologia-revela-do-que-voce-costuma-fugir-m7205" title="Numerologia revela do que você costuma fugir">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2015/08/9111_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Famosos</h3>
+			<p>Numerologia revela do que você costuma fugir</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+															</ul>
+			</nav>	
+		</div>
+	</div>
+
+	
+			</div>
+			<div class="gbl-lateral home-square-lateral">
+				<div class="box-banner banner-300-250 opec-position">
+	<div id="banner_rm2" >
+        <script type="text/javascript">
+            if (typeof OAS_RICH !== 'undefined') OAS_RICH("Position2")
+        </script>
+    </div>
+</div>			</div>
+			<div class="glb-principal divisoria-topo glb-bl-o-que-os-astros-dizem-sobre-famosos">
+				<h2><strong>O que os astros dizem</strong> sobre os famosos</h2>
+				<span class="fio"></span>
+					<div class="glb-bl-conteudo glb-bl-chamada-artigo ">
+				<div>
+			<nav>			
+				<ul>
+																		<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/virginiana-famosa-fatima-bernardes-m5425" title="Virginiana famosa: Fátima Bernardes">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2014/08/7313_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Você</h3>
+			<p>Virginiana famosa: Fátima Bernardes</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+																								<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/sagitariana-famosa-angelica-m5731" title="Sagitariana famosa: Angélica">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2014/11/7743_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Você</h3>
+			<p>Sagitariana famosa: Angélica</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+																								<li>
+								
+
+<div id="magazine_modules_highlight">	<a href="/escorpiano-famoso-paulo-gustavo-m5629" title="Escorpiano famoso: Paulo Gustavo">
+		<span class="borda"></span>
+		<img class="thumb" src="https://dkw5ssdvaqf8l.cloudfront.net/media/psr/framework/nef/SharedFiles/Magazine/dbImages/2014/10/7517_216x144.jpg" alt="" />
+		<div class="box-conteudo">
+			<h3 class="chapeu">Você</h3>
+			<p>Escorpiano famoso: Paulo Gustavo</p>
+		</div>
+	</a>
+
+
+</div>
+
+							</li>
+															</ul>
+			</nav>	
+		</div>
+	</div>
+
+			</div>
+			<div class="gbl-lateral home-widget-lateral divisoria-topo">
+				<div class="widget widget-retencao interno">
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+			<span class="icone-tarot-amor"></span>
+			<h2><strong>Tarot e o amor:</strong> seu futuro afetivo</h2>
+			<p class="subtitulo">Use os conselhos do Tarot para definir sua vida amorosa</p>
+			<p class="bt-p"><a class="bt" href="/tarot/tarot-e-o-amor">Jogue agora</a></p>
+		</div>
+	</div>
+</div>
+			</div>
+			<hr class="linha-divisoria-full"/>
+			<div class="glb-principal mais-servicos-home">
+				<div class="widget widget-mais-servicos">
+	<h2>+ Servi&ccedil;os <strong>para voc&ecirc;</strong></h2>
+	<span class="fio"></span>
+	<div class="glb-bl-interno">
+		<div class="box-conteudo">
+			<ul id="list-more-services">
+				<li class="area-da-vida elemento-1 on">
+					<a href="#">Você e o Futuro <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-esquerda.png" alt="&raquo;" class="seta" /></a>
+					<ul class="interna">
+							<li>
+						<a href="/numerologia/mapa-do-ano">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-ano-m.jpg" alt="Icone mapa do ano" />
+								<h3>Mapa do Ano 2017</h3>
+								<p>Uma an&aacute;lise sobre o seu potencial de realiza&ccedil;&atilde;o no ano</p>
+						</a>
+							</li>
+							<li>
+						<a href="/tarot/tarot-semestral">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/tarot-semestral-m.jpg" alt="Icone tarot semestral" />
+								<h3>Tarot Semestral</h3>
+								<p>Descubra tend&ecirc;ncias para os pr&oacute;ximos seis meses</p>
+						</a>
+							</li>
+							<li>
+						<a href="/astrologia/revolucao-solar">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/revolucao-solar-m.jpg" alt="Icone revolução solar" />
+								<h3>Revolu&ccedil;&atilde;o Solar</h3>
+								<p>Seu anivers&aacute;rio marca um novo come&ccedil;o, explore esse momento</p>
+						</a>
+							</li>
+							<li>
+						<a href="/numerologia/previsoes-numerologicas">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/previsoes-numerologicas-m.png" alt="Icone Previsões numerológicas" />
+								<h3>Previsões Numerológicas</h3>
+								<p>As principais tendências para você nos próximos meses.</p>
+						</a>
+							</li>
+											</ul>
+				</li>
+				<li class="area-da-vida elemento-2">
+					<a href="#">Amor <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-esquerda.png" alt="&raquo;" class="seta" /></a>
+					<ul class="interna">
+							<li>
+						<a href="/tarot/tarot-e-o-amor">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/tarot-amor-m.jpg" alt="Icone tarot e o amor" />
+								<h3>Tarot e o Amor</h3>
+								<p>Possibilidades para sua vida amorosa.</p>
+						</a>
+							</li>
+							<li>
+						<a href="/numerologia/mapa-do-amor">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-amor-m.jpg" alt="Icone mapa do amor" />
+								<h3>Mapa do Amor</h3>
+								<p>Entenda como você vive o amor.</p>
+						</a>
+							</li>
+							<li>
+						<a href="/astrologia/sinastria-amorosa">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/sinastria-amorosa-m.jpg" alt="Icone sinastria amorosa" />
+								<h3>Sinastria Amorosa</h3>
+								<p>Uma análise completa do seu relacionamento.</p>
+						</a>
+							</li>
+
+							<li>
+                                <a href="/astrologia/mapa-sexual">
+                                    <img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-sexual-m.png" alt="Icone mapa sexual" />
+                                    <h3>Mapa Sexual</h3>
+                                    <p>Seu potencial sexual e como aproveitá-lo ao máximo.</p>
+                                </a>
+                            </li>
+					</ul>
+				</li>
+				<li class="area-da-vida elemento-3">
+					<a href="#">Identidade <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-esquerda.png" alt="&raquo;" class="seta" /></a>
+					<ul class="interna">
+							<li>
+						<a href="/tarot/tarot-do-dia">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/tarot-dia-m.jpg" alt="Icone tarot do dia" />
+								<h3>Tarot do Dia</h3>
+								<p>Escolha uma carta e veja conselhos para o seu dia.</p>
+						</a>
+							</li>
+							<li>
+						<a href="/astrologia/horoscopo">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/horoscopo-m.jpg" alt="Icone horóscopo personalizado" />
+								<h3>Hor&oacute;scopo Personalizado</h3>
+								<p>Conheça as principais tendências para o seu momento.</p>
+						</a>
+							</li>
+							<li>
+						<a href="/astrologia/mapa-astral">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-astral-m.jpg" alt="Icone mapa astral " />
+								<h3>Mapa Astral</h3>
+								<p>Saiba tudo sobre o assunto mais interessante do mundo. Você.</p>
+						</a>
+							</li>
+							<li>
+						<a href="/numerologia/mapa-numerologico">
+								<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-numerologico-m.jpg" alt="Icone mapa numerológico" />
+								<h3>Mapa Numerol&oacute;gico</h3>
+								<p>Você, suas escolhas e o rumo da sua vida.</p>
+						</a>
+							</li>
+					</ul>
+				</li>
+				<li class="area-da-vida elemento-4">
+					<a href="#">Carreira e Finan&ccedil;as <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-esquerda.png" alt="&raquo;" class="seta" /></a>
+					<ul class="interna">
+								<li>
+							<a href="/astrologia/mapa-profissional">
+									<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-profissional-m.jpg" alt="Icone profissional" />
+									<h3>Mapa Profissional</h3>
+									<p>Explore seus talentos e descubra que o sucesso é para todos.</p>
+							</a>
+								</li>
+								<li>
+							<a href="/oraculos/runas-e-vida-material">
+									<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/runas-vida-material-m.jpg" alt="Icone runas e vida material" />
+									<h3>Runas e Vida Material</h3>
+									<p>Esclareça as questões de sua vida profissional e financeira.</p>
+							</a>
+								</li>
+					</ul>
+				</li>
+				<li class="area-da-vida elemento-5 ultimo">
+					<a href="#">Casa e Fam&iacute;lia <img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/seta-esquerda.png" alt="&raquo;" class="seta" /></a>
+					<ul class="interna">
+							<li>
+						<a href="/numerologia/mapa-infantil">
+							<img class="icone" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/icones/mapa-infantil-m.jpg" alt="Icone mapa infantil" />
+							<h3>Mapa Infantil</h3>
+							<p>Um guia para ajudar na educação de suas crianças.</p>
+						</a>
+							</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>			</div>
+			<div class="gbl-lateral alinhado-ao-mais-servicos-square">
+				<div class="box-banner banner-300-250 opec-position">
+	<div id="banner_rm3" >
+        <script type="text/javascript">
+            if (typeof OAS_RICH !== 'undefined') OAS_RICH("Position3")
+        </script>
+    </div>
+</div>			</div>
+			<div class="modulo shopping">
+	<script type="text/javascript" src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/js/init.vitrine.js"></script>
+</div>		</div>
+	</div>
+</div>
+
+
+<script>NeXT.createScript('Slices/Navigation/Footer', '','https://dkw5ssdvaqf8l.cloudfront.net/static/psr/br/assets/8c243eba1104d7daad66ffc298ea0948/nef/')</script><div id="pop_overlay"></div>
+<div id="pop_container">
+    <div id="pop_content" class="loading"></div>
+</div>
+<script type="text/javascript">
+   jQuery(function ($) {
+	    popContainer = jQuery('#pop_container');
+	    popOverlay = jQuery('#pop_overlay');
+	    popContent = jQuery('#pop_content');
+   });
+</script>
+<div id="loadingClip">
+	<img src="https://dkw5ssdvaqf8l.cloudfront.net/static/hetc/br/framework/nef/img/loader-grd.gif" />
+</div>
+<div id="glb-diretorio">
+	<div class="glb-conteudo">
+		<h2><a href="/">Hor&oacute;scopo Etc</a></h2>
+		<nav>
+			<ul class="col-1">
+				<li><a href="/" title="hor&oacute;scopo">Hor&oacute;scopo</a></li>
+				<li><a href="/astrologia" title="astrologia">Astrologia</a></li>
+				<li><a href="/numerologia" title="numerologia">Numerologia</a></li>
+				<li><a href="/tarot" title="tarot">Tarot</a></li>
+				<li><a href="/oraculos" title="or&aacute;culos">Or&aacute;culos</a></li>
+				<li><a href="/astrologia/horoscopo" title="meu perfil">Meu perfil</a></li>
+				<li><a href="/seu-perfil/analises/" title="minhas an&aacute;lises">Minhas an&aacute;lises</a></li>
+				<li><a href="/duvidas" title="d&uacute;vidas">D&uacute;vidas</a></li>
+				<li class="ultimo"><a href="/privacidade" title="pol&iacute;tica de privacidade">Pol&iacute;tica de privacidade</a></li>
+			</ul>
+			<ul class="col-2">
+				<li class="titulo">Signos</li>
+				<li><a href="/signos/aries" title="&aacute;ries">&Aacute;ries</a></li>
+				<li><a href="/signos/touro" title="touro">Touro</a></li>
+				<li><a href="/signos/gemeos" title="g&ecirc;meos">G&ecirc;meos</a></li>
+				<li><a href="/signos/cancer" title="c&acirc;ncer">C&acirc;ncer</a></li>
+				<li><a href="/signos/leao" title="le&atilde;o">Le&atilde;o</a></li>
+				<li><a href="/signos/virgem" title="virgem">Virgem</a></li>
+				<li><a href="/signos/libra" title="libra">Libra</a></li>
+				<li><a href="/signos/escorpiao" title="escorpi&atilde;o">Escorpi&atilde;o</a></li>
+				<li><a href="/signos/sagitario" title="sagit&aacute;rio">Sagit&aacute;rio</a></li>
+				<li><a href="/signos/capricornio" title="capric&oacute;rnio">Capric&oacute;rnio</a></li>
+				<li><a href="/signos/aquario" title="aqu&aacute;rio">Aqu&aacute;rio</a></li>
+				<li><a href="/signos/peixes" title="peixes">Peixes</a></li>
+			</ul>
+			<ul class="col-3">
+				<li class="titulo"><a href="/astrologia" title="astrologia">Astrologia</a></li>
+				<li><a href="/astrologia/mapa-astral" title="mapa astral">Mapa astral</a></li>
+				<li><a href="/astrologia/mapa-sexual" title="mapa astral">Mapa Sexual</a></li>
+				<li><a href="/astrologia/sinastria-amorosa" title="sinastria amorosa">Sinastria amorosa</a></li>
+												<li><a href="/astrologia/horoscopo" title="hor&oacute;scopo personalizado">Hor&oacute;scopo personalizado</a></li>
+																<li><a href="/astrologia/mapa-profissional" title="mapa profissional">Mapa profissional</a></li>
+				<li><a href="/astrologia/revolucao-solar" title="revolu&ccedil;&atilde;o solar">Revolu&ccedil;&atilde;o solar</a></li>
+			</ul>
+			<ul class="col-4">
+				<li class="titulo"><a href="/numerologia" title="numerologia">Numerologia</a></li>
+				<li><a href="/numerologia/mapa-numerologico" title="mapa numerol&oacute;gico">Mapa numerol&oacute;gico</a></li>
+				<li><a href="/numerologia/previsoes-numerologicas" title="previsoes numerologicas">Previsoes Numerol&oacute;gicas</a></li>
+				<li><a href="/numerologia/mapa-infantil" title="mapa infantil">Mapa infantil</a></li>
+				<li><a href="/numerologia/mapa-do-amor" title="mapa do amor">Mapa do amor</a></li>
+				<li><a href="/numerologia/mapa-do-ano" title="mapa do ano 2017">Mapa do ano 2017</a></li>
+							</ul>
+			<ul class="col-4 ultimo">
+				<li class="titulo"><a href="/tarot" title="tarot">Tarot</a></li>
+				<li><a href="/tarot/tarot-e-o-amor" title="tarot e o amor">Tarot e o amor</a></li>
+				<li><a href="/tarot/tarot-mensal" title="tarot mensal">Tarot Mensal</a></li>
+				<li><a href="/tarot/tarot-semestral" title="tarot semestral">Tarot semestral</a></li>
+				<li><a href="/tarot/tarot-do-dia" title="tarot do dia">Tarot do dia</a></li>
+			</ul>
+			<ul class="col-5">
+				<li class="titulo"><a href="/oraculos" title="or&aacute;culos">Or&aacute;culos</a></li>
+				<li><a href="/oraculos/runas-e-vida-material" title="runas e vida material">Runas e vida material</a></li>
+				<li class="ultimo"><a href="/oraculos/i-ching" title="i-ching">I-ching</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<footer id="glb-rodape">
+	<div class="glb-conteudo">
+		<div class="rodape-menu-produtos">
+			<h2><a href="http://www.globo.com" title="globo.com">globo.com</a></h2>
+			<nav>
+				<ul>					
+			        <li><a href="http://g1.globo.com" title="notÃ­cias" id="menu-noticias">not&iacute;cias</a></li>					
+			        <li><a href="http://globoesporte.globo.com" title="esportes" id="menu-esportes">esportes</a></li>
+			        <li><a href="http://entretenimento.globo.com" title="entretenimento" id="menu-entretenimento">entretenimento</a></li>
+			        <li><a href="http://video.globo.com" title="vÃ­deos" id="menu-videos">v&iacute;deos</a></li>
+			        <li class="ultimo"><a title="todos os sites" href="http://www.globo.com/todos-os-sites.html">todos os sites</a></li>
+		        </ul>
+	        </nav>
+        </div>
+        <div class="rodape-menu-servicos">
+		    <span>&copy; Copyright 2017 Globo Comunica&ccedil;&atilde;o e Participa&ccedil;&otilde;es S.A. <a href="http://www.globo.com/Globo.com/homev6/0,,PL0-0,00-POLITICA+DE+PRIVACIDADE.html" title="PolÃ­tica de Privacidade">Pol&iacute;tica de Privacidade</a></span>
+		    <ul>
+		        <li class="primeiro"><a href="https://login.globo.com/login/464" title="central globo.com">central globo.com</a></li>
+		        <li><a href="http://atendimento.globo.com/Portal/ISP/assineja/panfletos/panfleto_home_globo" title="assine a globo.com">assine a globo.com</a></li>
+		        <li><a href="http://www.globo.com/Portal/anuncie/glb_anuncie_panfleto" title="anuncie conosco">anuncie conosco</a></li>
+		    </ul>
+		</div>
+	</div>
+</footer>
+<div id="content-print-product" class="off"></div><!-- Begin comScore UDM code -->  
+<script type="text/javascript">
+function comScore(C){var A="comScore",j=document,y=j.location,B="",z="undefined",x=2048,D,v,i,w,c="characterSet",l="defaultCharset",u=(typeof encodeURIComponent!=z?encodeURIComponent:escape);if(j.cookie.indexOf(A+"=")!=-1){i=j.cookie.split(";");for(w=0,y=i.length;w<y;w++){var d=i[w].indexOf(A+"=");if(d!=-1){B="&"+unescape(i[w].substring(d+A.length+1))}}}C=C+"&ns__t="+(new Date().getTime());C=C+"&ns_c="+(j[c]?j[c]:(j[l]?j[l]:""))+"&c8="+u(j.title)+B+"&c7="+u(y&&y.href?y.href:j.URL)+"&c9="+u(j.referrer);if(C.length>x&&C.indexOf("&")>0){D=C.substr(0,x-8).lastIndexOf("&");C=(C.substring(0,D)+"&ns_cut="+u(C.substring(D+1))).substr(0,x)}if(j.images){v=new Image();if(typeof ns_p==z){ns_p=v}v.src=C}else{j.write('<p><img src="'+C+'" height="1" width="1" alt="*"/></p>')}}comScore("http"+(document.location.href.charAt(4)=="s"?"s://sb":"://b")+".scorecardresearch.com/p?c1=2&c2=6035227");
+</script>
+<noscript><p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035227" height="1" width="1" alt="*"/></p></noscript>
+<script language="JavaScript1.3" src="http://b.scorecardresearch.com/c2/6035227/cs.js"></script>
+<!-- End comScore UDM code --> <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"c73032e858","applicationID":"18308937","transactionName":"NFdRZktUXBZUUxVcDA0dZkBQGlERWR4RXRM=","queueTime":0,"applicationTime":49,"atts":"GBBSEANOTxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>|||http://redeglobo.globo.com/tv-digital/|
+
+
+
+
+
+<!DOCTYPE HTML><!--[if IE 9]><html class="ie9" lang="pt-br"><![endif]--><html lang="pt-br" itemscope itemtype="http://schema.org/WebPage"><head><!-- TEALIUM --><script type="text/javascript">
+
+    var utag_data = {"structure_tree": "[\"Rede Globo\", \"tv digital\"]", "ad_site_page": "redeglobo", "page_name": "index", "ad_positions": "{\"mobile\": [\"banner_rm2\", \"banner_feed_esppub\", \"banner_mobile_topo\", \"banner_rm3\", \"banner_mobile_fim\"], \"desktop\": [\"banner_feed_esppub\", \"banner_slb_meio\", \"banner_insert\", \"banner_rm2\", \"banner_rm3\", \"banner_floating\", \"banner_slb_topo\"]}"};
+
+</script><script type="text/javascript">
+        (function (a, b, c, d) {
+            a = '//tags.globo.com/utag/globo/redeglobo/prod/utag.js';
+            b = document;
+            c = 'script';
+            d = b.createElement(c);
+            d.src = a;
+            d.type = 'text/java' + c;
+            d.async = true;
+            a = b.getElementsByTagName(c)[0];
+            a.parentNode.insertBefore(d, a);
+        })();
+    </script><link rel='preconnect' href='http://s.glbimg.com'><link rel='preconnect' href='http://s2.glbimg.com'><link rel='preconnect' href='http://s3.glbimg.com'><link rel='preconnect' href='http://tags.globo.com'><link rel='preconnect' href='http://tags.tiqcdn.com'><link rel='preconnect' href='http://www.google-analytics.com'><link rel="preload" href="http://s.glbimg.com/gl/ba/fonts/opensans-regular-webfont.woff" as="font" type="font/woff2" crossorigin><link rel="preload" href="http://s.glbimg.com/gl/ba/fonts/opensans-bold-webfont.woff" as="font" type="font/woff2" crossorigin><link rel="preload" href="http://s.glbimg.com/gl/ba/fonts/proximanova-regular-limited-webfont.woff" as="font" type="font/woff2" crossorigin><link rel="preload" href="http://s.glbimg.com/gl/ba/fonts/proximanova-bold-limited-webfont.woff" as="font" type="font/woff2" crossorigin><title>
+                
+                    
+                    
+                        TV Digital
+                    
+                </title><meta charset="utf-8"><meta name="description"
+                  content="
+                      "><meta name="keywords"
+                  content="
+                      "><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta property="busca:title" content="TV Digital"/><meta property="busca:species" content="Home"/><meta property="busca:publisher" content="www.globo.com"/><meta property="busca:issued" content="25/03/2017 08:33:06"/><meta property="busca:modified" content="25/03/2017 08:33:06"/><meta property="busca:image" content="" /><meta itemprop="name" content="TV Digital"><meta itemprop="url" content="http://redeglobo.globo.com/tv-digital/index.html"><meta itemprop="image" content="http://s.glbimg.com/og/rg/static/commons/img/rede-globo_200x200.png"><meta itemprop="description" content=""><link rel="canonical" href="http://redeglobo.globo.com/tv-digital/"><meta property="og:type" content="website"><meta property="og:url"
+                      content="http://redeglobo.globo.com/tv-digital/index.html"><meta property="og:description"
+                      content=""><meta property="og:title" content="TV Digital"><meta property="og:locale" content="pt_BR"><meta property="og:site_name" content="Rede Globo"><meta property="og:image" content="http://s.glbimg.com/og/rg/static/commons/img/rede-globo_200x200.png"><meta property="fb:app_id" content="289255557788943"><link rel="shortcut icon" href="http://s.glbimg.com/og/rg/static/portal/img/favicon.ico"><link rel="stylesheet" href="http://s.glbimg.com/og/rg/static/CACHE/css/bf7414b6ad1e.css" type="text/css" media="screen" /><link rel="stylesheet" media="screen" href="http://s.glbimg.com/og/rg/o/tv-digital/desktop/tvdigital12.css" type="text/css" id="css-folder"><style type="text/css">.gui-color-primary-bg-swap:hover,.gui-color-primary-bg-swap-selected{color:#fff}.gui-color-primary,.gui-color-primary-link,.gui-color-active,.gui-color-overrider.gui-color-active,.gui-color-primary-bg-swap,.gui-color-primary-bg-swap a,.header-navegacao .header-navegacao-color,.menu-container .menu-navegacao-color,a,.glb-palco-cor-primaria,.glb-palco-cor-primaria-link:visited,.lnk-votacao-opcao-active,.lnk-votacao-opcao-active:hover,.lnk-votacao-opcao-active:visited,div.lightplayer div.info h6,.glb-poll-primary-color,.glb-poll-primary-color-link{color:#009ddb}.no-touch .gui-color-primary-parent-hover:hover .gui-color-primary,a:hover{color:#00668f}.no-touch .gui-color-primary-link:hover,.no-touch .gui-color-primary-hover:hover,.glb-palco-cor-primaria-link:hover,.no-touch .glb-palco-cor-primaria-link:hover,.glb-interatividade-botao.btn-vote-agora:hover,.glb-interatividade-botao.btn-vote-agora:visited:hover,.no-touch .glb-poll-primary-color-link:hover{color:#0078a8}.gui-color-primary-link:visited,.no-touch .gui-color-primary-link:visited,.glb-poll-primary-color-link:visited,.no-touch .glb-poll-primary-color-link:visited{color:#009ddb}.no-touch .gui-color-primary-link:active,.no-touch .gui-color-primary-parent-hover:active .gui-color-primary,.no-touch .glb-poll-primary-color-link:active{color:#00668f}.gui-color-primary-bg,.gui-color-primary-bg-link,.gui-color-primary-bg-before:before,.gui-color-primary-bg-after:after,.gui-color-primary-bg-swap:hover,.gui-color-primary-bg-swap-selected,.glb-palco-cor-primaria-fundo,span.view-more-transparent.cor-padrao-fundo,.glb-poll-primary-color-bg,.glb-poll-primary-color-bg-link,.glb-poll-primary-color-bg-before:before{background-color:#009ddb}.gui-color-primary-bg-link:visited,.no-touch .gui-color-primary-bg-link:visited,.glb-poll-primary-color-bg-link:visited,.no-touch .glb-poll-primary-color-bg-link:visited{background-color:#009ddb}.no-touch .gui-color-primary-bg-link:hover,.no-touch .glb-poll-primary-color-bg-link:hover{background-color:#0078a8}.no-touch .gui-color-primary-bg-link:active{background-color:#00668f}.gui-color-primary-border,.gui-color-primary-bg-swap:hover,.gui-color-primary-bg-swap-selected,.glb-interatividade-input:focus,.widget-galeria-talento-imagem-borda:hover,.glb-poll-primary-color-border{border-color:#009ddb}.gui-color-primary-border-top{border-top-color:#009ddb}.gui-color-primary-border-right{border-right-color:#009ddb}.gui-color-primary-border-bottom{border-bottom-color:#009ddb}.gui-color-primary-border-left{border-left-color:#009ddb}.gui-color-gray-border{border-color:#c8c8c8}.gui-color-primary-bg-swap{background-color:#fff}.gui-color-primary-btn-border{border-bottom-color:#0078a8}.gui-fill-primary{fill:#009ddb}.no-touch .gui-color-primary-link{transition:color .35s}.no-touch .gui-color-primary-bg-link{transition:background-color .35s}.no-touch .gui-color-primary-parent-hover .gui-color-primary{transition:color .35s}.footer.product-color{background:#009ddb !important}.footer.product-color li{border-left-color:rgba(255,255,255,0.75) !important}.footer.product-color .first-line{border-bottom-color:rgba(255,255,255,0.75) !important}.widget-title{border-left-color:#00668f !important}#rodape .logo-data{background:#00668f}#rodape .versao-classica{background:#009ddb;border-bottom:1px solid rgba(255,255,255,0.75)}.photo-gallery .carousel-image-description{border-left:2px solid #009ddb}div.lightplayer div.playlist span.hover-img{border-color:#00668f}div.lightplayer div.playlist a.next{background-color:#00668f}.glb-poll-primary-color-btn-border{border-bottom-color:#0078a8}.no-touch .glb-poll-primary-color-link{transition:color .35s}.no-touch .glb-poll-primary-color-bg-link{transition:background-color .35s}.no-touch .glb-poll-primary-color-bg-link:active{%background-color-active}</style><script type="text/javascript">var FOLDER_STYLE = window.FOLDER_STYLE || {};FOLDER_STYLE.color_3 = "#999999";FOLDER_STYLE.color_2 = "#999999";FOLDER_STYLE.color_primary = "#009ddb";</script><script src="http://s3.glbimg.com/cdn/libs/jquery/2.1.4/jquery.min.js"></script><script src="http://s3.glbimg.com/cdn/libs/modernizr/2.8.3/modernizr.glb.js"></script><script async src="http://s3.glbimg.com/cdn/libs/element-tracker/1.2.1/element-tracker.min.js"></script><script>
+        glb = window.glb || {};
+        glb.fnProduct = {
+            color: "#009ddb",
+            home: "//redeglobo.globo.com/",
+            label: "redeglobo",
+            menuOrder: 59,
+            name: "redeglobo",
+        };
+    </script><script type="text/javascript" src="http://s.glbimg.com/og/rg/static/CACHE/js/be659315866f.js"></script><script src="http://s.videos.globo.com/p2/j/api.min.js"></script><script src="//s3.glbimg.com/cdn/libs/gui-lightbox/1.5.4/js/gui.lightbox.min.js"></script><script type="text/javascript">var SETTINGS=SETTINGS||{};SETTINGS.TIPO_PAGINA='Home';SETTINGS.BASE_URL='http://redeglobo.globo.com';SETTINGS.FACEBOOK_APP_ID='289255557788943';SETTINGS.zoneId='';SETTINGS.adUnit='tvg_Gshow/Rede_Globo';SETTINGS.adCustomData='tvg_pgStr=rede globo/tv digital&amp;tvg_pgName=index&amp;tvg_pgTipo=Home&amp;tvg_cma=rede globo,tv digital';</script><meta property="twitter:card" content="summary"><meta property="twitter:site" content="@redeglobo"><meta property="twitter:title" content="TV Digital"><meta property="twitter:description" content=""><meta property="twitter:image" content="http://s.glbimg.com/og/rg/static/commons/img/rede-globo_200x200.png"><meta property="twitter:url" content="http://redeglobo.globo.com/tv-digital/index.html"><meta name="format-detection" content="telephone=no"><meta property="busca:title" content="TV Digital"><meta property="busca:species" content="home"><meta property="busca:issued" content="2017-03-25T08:33:06z"><meta property="busca:modified" content="2017-03-25T08:33:06z"><meta property="busca:publisher" content="redeglobo"><meta property="busca:image" content="http://s.glbimg.com/og/rg/static/commons/img/rede-globo_200x200.png"><meta property="fb:pages" content="150312925065096"></head><body class=''><div  class="
+             glb-grid glb-grid-24 "><div id="glb-topo" class="glb-topo">
+<style type="text/css">#menu-container{display:none}</style><nav id="menu-container" class="regua-navegacao-tab menu-container menu-no-animation"><div id="menu-rounder" class="menu-rounder"><div id="menu-cascade" class="menu-cascade" data-menu-index="0"><ul class="menu-root menu-level menu-level-0"><li class="menu-item " id="menu-1-veja-a-cobertura-digital"><a href="http://redeglobo.globo.com/tv-digital/estacoes.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">veja a cobertura digital<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-1-duvidas"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">dúvidas<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">dúvidas</span></a><li class="menu-item " id="menu-2-fale-com-a-globo"><a href="http://redeglobo.globo.com/tv-digital/noticia/fale-com-a-globo.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">fale com a globo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-glossario"><a href="http://redeglobo.globo.com/tv-digital/noticia/glossario.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">glossário<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-perguntas-frequentes"><a href="http://redeglobo.globo.com/tv-digital/noticia/duvidas-frequentes.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">perguntas frequentes<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-1-programacao-da-globo"><a href="http://redeglobo.globo.com/programacao.html" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">programação da globo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item is-father " id="menu-1-saiba-tudo"><a class="menu-item-link menu-navegacao-color"><span class="menu-item-title">saiba tudo<span class="menu-item-arrow menu-navegacao-color"></span></span></a><ul class="menu-level menu-submenu menu-submenu-level1  menu-submenu-column-1"><a class="menu-submenu-title menu-item-back"><span class="menu-item-arrow menu-navegacao-color"></span><span class="regua-navegacao-menu-item">saiba tudo</span></a><li class="menu-item " id="menu-2-como-assistir"><a href="http://redeglobo.globo.com/tv-digital/noticia/saiba-como-assistir-aos-programas-em-alta-definicao-e-em-movimento.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">como assistir<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-como-funciona"><a href="http://redeglobo.globo.com/tv-digital/noticia/como-funciona-a-tv-digital-descubra.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">como funciona<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-2-como-instalar"><a href="http://redeglobo.globo.com/tv-digital/noticia/estrelas-da-globo-ensinam-a-instalar-a-tv-digital-em-menos-de-um-minuto.ghtml" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">como instalar<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></li><li class="menu-item " id="menu-1-negocios"><a href="http://negocios8.redeglobo.com.br/Paginas/home.aspx" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">negócios<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li><li class="menu-item " id="menu-1-grupo-globo"><a href="http://grupoglobo.globo.com/" class="menu-item-link menu-navegacao-color"><span class="menu-item-title">grupo globo<span class="menu-item-arrow menu-navegacao-color"></span></span></a></li></ul></div><div id="menu-addon" class="menu-addon"></div></div></nav><div id="menu-content-overlay"></div><script>glb = window.glb || {}; glb.fnEnvName = "prod" || "prod";</script><script type=text/javascript id=fn-cdn-init>!function e(n,t,o){function r(s,a){if(!t[s]){if(!n[s]){var c="function"==typeof require&&require;if(!a&&c)return c(s,!0);if(i)return i(s,!0);var l=new Error("Cannot find module '"+s+"'");throw l.code="MODULE_NOT_FOUND",l}var u=t[s]={exports:{}};n[s][0].call(u.exports,function(e){var t=n[s][1][e];return r(t?t:e)},u,u.exports,e,n,t,o)}return t[s].exports}for(var i="function"==typeof require&&require,s=0;s<o.length;s++)r(o[s]);return r}({1:[function(e,n,t){var o;o={components:["common","app"],typeFiles:["css","js","sprites","json"],fnExpires:{prod:60,staging:60,qa:1,local:1},fnCdnBaseUrls:{prod:"//s3.glbimg.com/cdn/fn/",staging:"//s3.glbimg.com/cdn_staging/fn/",qa:"//s3.glbimg.qa.globoi.com/cdn/fn/",local:"static/"},fnConfigFiles:{prod:"config/latest/config-fn.min.json",staging:"config/latest/config-fn.min.json",qa:"config/latest/config-fn.min.json",local:"config/config-fn.local.json"},fnInternalHosts:[{pattern:"globocom(.admin|.be)?(.qa|.dev)?.globoi.com",host:"www.globo.com"},{pattern:"g1(.admin|.be)?(.qa|.dev)?.globoi.com",host:"g1.globo.com"},{pattern:"techtudo(-v2)?(.admin|.be)?(.qa|.qa01|.dev)?.globoi.com",host:"www.techtudo.com.br"},{pattern:"gshow(.admin|.be)?(.qa|.dev)?.globoi.com",host:"gshow.globo.com"},{pattern:"globoesporte(.admin|.be)?(.qa|.dev)?.globoi.com",host:"globoesporte.globo.com"},{pattern:"famosos(.admin|.be)?(.qa|.dev)?.globoi.com",host:"famosos.globo.com"}],fnDevice:"mobile",debug:!1,fnEnv:"prod",defaultHost:"famosos.globo.com"},null!=glb.cdnConfig&&(o=window.extendObjs(o,glb.cdnConfig)),"undefined"!=typeof n&&n.exports&&(n.exports=o)},{}],2:[function(e,n,t){var o,r,i,s;s=function(){return/MobApp_Android|MobApp_iOS|MobApp_WP/},i=function(){return window.getUserAgent?window.getUserAgent():window.navigator.userAgent},r=function(){var e,n,t,o,r;o=i(),r=o.split(" ");for(t in r)if(e=r[t],s().test(e))return n=e.split("/"),{name:n[0].replace("_"," "),version:n[1],frameworkVersion:n[2]};return null},o=function(){var e,n,t,o;if(window.glb=window.glb||{},!glb.extractAppFromUserAgent){glb.extractAppFromUserAgent=r,glb.nativeAppInfo=r(),glb.nativeAppType=null;try{localStorage.removeItem("glbOnApp")}catch(n){e=n}if(null!==window.glb.nativeAppInfo)if(window.glb.nativeAppInfo.frameworkVersion){if(o=parseInt(window.glb.nativeAppInfo.frameworkVersion,10),o>=1){manageElementClasses.hasClass(document.documentElement,"glb-on-app")||(document.documentElement.className+=" glb-on-app");try{localStorage.setItem("glbOnApp",glb.nativeAppInfo.frameworkVersion)}catch(t){e=t}glb.nativeAppType="master-app"}}else manageElementClasses.hasClass(document.documentElement,"glb-on-app-comnio")||(document.documentElement.className+=" glb-on-app-comnio"),glb.nativeAppType="comnio-app"}},"undefined"!=typeof n&&n.exports&&(n.exports=o)},{}],3:[function(e,n,t){var o,r,i,s,a,c;window.glb=window.glb||{},c=e("../../globo-cdn-src/scripts/tiny-basket.coffee"),o=e("../../globo-cdn-src/scripts/common/__custom-event.coffee"),i=window.isArray,a=window.stringStartsWith,glb.extendArrays=function(e,n){return i(e)&&i(n)?(Array.prototype.push.apply(e,n),e):void 0},glb.addGlbOnAppClass=e("../../globo-cdn-src/scripts/app/__master-app-addclass.coffee"),glb.addHasReguaClass=e("../../globo-cdn-src/scripts/regua/__regua-navegacao-addclass.coffee"),glb.cdnConfig=e("../../globo-cdn-src/scripts/__cdn-configs.coffee"),glb.createProductColorCss=function(e){return c.injectStylesheet("text/css",".menu-navegacao-color { color: "+e+"; }","fn-menu-color-default")},glb.getCurrentInternalHost=function(e){var n,t,o,r,i,s;for(s=glb.cdnConfig.fnInternalHosts,n=0,r=s.length;r>n;n++)if(t=s[n],o=new RegExp(t.pattern),i=t.host,o.test(e))return i;return e},glb.getCurrentProduct=function(e){var n,t,o;return null!=glb.fnProduct?glb.fnProduct:(n=e.configFnJson,o=null!=glb.host?glb.host:window.location.host,t=e.defaultHost,"prod"!==glb.fnEnv&&(o=glb.getCurrentInternalHost(o)),null!=n.products[o]?n.products[o]:n.products[t])},glb.getCurrentBuscaDomain=function(e){return null!=glb.fnBuscaUrl?glb.fnBuscaUrl:"famosos.globo.com"===e.fnHost?"ego.globo.com":e.fnHost},glb.getProductsLists=function(e){var n,t,o,r,i,s,a,c;for(t=[],s=[],o=[],t=function(){var t,o;t=e.products,o=[];for(n in t)c=t[n],o.push({home:c.home,name:c.name,order:c.menuOrder});return o}(),t.sort(function(e,n){return e.order-n.order}),r=0,i=t.length;i>r;r++)a=t[r],s.push(a.name),o.push(a.home);return{names:s,homes:o}},glb.getCurrentEnv=function(){var e,n,t;return null!=glb.fnEnv?glb.fnEnv:(n=null!=glb.host?glb.host:window.location.host,t=-1!==n.indexOf("local.globo.com")||-1!==n.indexOf("localhost")||-1!==n.indexOf(".qa.globoi.com")||-1!==n.indexOf(".qa01.globoi.com")||-1!==n.indexOf(".dev.globoi.com"),e="prod",t?e="qa":null!=glb.fnEnvName&&glb.fnEnvName?e=glb.fnEnvName.toLowerCase():-1!==n.indexOf("local.cdn.globo")&&(e="local"),e)},window.fnSpriteSvgSuccess=function(e){var n;n=document.querySelector("#regua-svg-container"),n||(n=document.createElement("div"),n.id="regua-svg-container",n.className="regua-svg-container",n.style.height=0,n.style.width=0,n.style.position="absolute",n.style.left="-999999999px",document.body.insertBefore(n,document.body.childNodes[0])),n.innerHTML=e},r=function(e,n,t){var o,r,i;for(r=0,i=e.length;i>r;r++)o=e[r],a(o.url,"//")||(o.url=n+o.url),o.expire=t,o.sourceMap&&(o.sourceMap=n+o.sourceMap)},s=function(e,n){var t,o,i,s,a,l,u,d,p,g,f,w,m,h,b,v,y,C,x,A,E,T,S,R;for(a=n.debug,o=n.components,S=n.typeFiles,d=n.fnDevice,p=n.fnEnv,g=n.fnExpires[p],u=n.fnCdnBaseUrls[p],n.configFnJson=e,n.fnProduct=glb.getCurrentProduct(n),n.fnHost=n.fnProduct.home.replace(/(\/)+/g,""),n.fnBuscaUrl=glb.getCurrentBuscaDomain(n),null!=(null!=(A=n.fnProduct)?A.color:void 0)&&glb.createProductColorCss(n.fnProduct.color),f=glb.getProductsLists(n.configFnJson),n.fnProductsNames=f.names,n.fnProductsHomes=f.homes,l={},R={},w=0,v=S.length;v>w;w++)T=S[w],l[T]=[];for(m=0,y=o.length;y>m;m++)if(t=o[m],E=R[t]||"app"===t&&!glb.nativeAppType||"regua"===t&&!glb.hasRegua,!E&&(R[t]=!0,s=e[t],s&&s[d]))for(i=s[d],h=0,C=S.length;C>h;h++)T=S[h],i&&i[T]&&glb.extendArrays(l[T],i[T]);for(b=0,x=S.length;x>b;b++)T=S[b],l[T]&&(r(l[T],u,g),c.require(l[T],a))},glb.fnCdnStarted=!1,glb.initFnCdn=function(e){var n,t,o,i,a,l,u,d;if(!glb.fnCdnStarted)return glb.fnCdnStarted=!0,null!=glb.cdnComponents&&(e.components=glb.extendArrays(e.components,glb.cdnComponents)),glb.addGlbOnAppClass(),glb.addHasReguaClass(),e.fnDevice=glb.isMobile?"mobile":"desktop",d="undefined"!=typeof XDomainRequest,n=e.debug=glb.fnDebug||d||-1!==window.location.hash.indexOf("debug-fn-cdn-on"),i=e.fnEnv=glb.getCurrentEnv(),a=e.fnExpire=e.fnExpires[i],t=e.fnCdnBaseUrl=e.fnCdnBaseUrls[i],o=e.fnConfigFile=e.fnConfigFiles[i],u=function(n){return s(n,e)},l=[{url:o,key:"fn-config",success:u}],r(l,t,a),c.require(l,n)}},{"../../globo-cdn-src/scripts/__cdn-configs.coffee":1,"../../globo-cdn-src/scripts/app/__master-app-addclass.coffee":2,"../../globo-cdn-src/scripts/common/__custom-event.coffee":4,"../../globo-cdn-src/scripts/regua/__regua-navegacao-addclass.coffee":6,"../../globo-cdn-src/scripts/tiny-basket.coffee":8}],4:[function(e,n,t){var o,r,i;try{new CustomEvent("test")}catch(i){r=i,o=function(e,n){var t;return t=void 0,n=n||{bubbles:!1,cancelable:!1,detail:void 0},t=document.createEvent("CustomEvent"),t.initCustomEvent(e,n.bubbles,n.cancelable,n.detail),t},o.prototype=window.Event.prototype,window.CustomEvent=o}"undefined"!=typeof n&&n.exports&&(n.exports=window.CustomEvent)},{}],5:[function(e,n,t){var o,r,i;r=function(e,n){var t;return null==e||null==n?!1:(t=new RegExp("(?:^|\\s)"+n+"(?!\\S)"),!!e.className.match(t))},o=function(e,n){r(e,n)||(e.className+=" "+n)},i=function(e,n){var t;r(e,n)&&(t=new RegExp("(?:^|\\s)"+n+"(?!\\S)","g"),e.className=e.className.replace(t,""))},window.manageElementClasses={hasClass:r,addClass:o,removeClass:i},"undefined"!=typeof n&&n.exports&&(n.exports=window.manageElementClasses)},{}],6:[function(e,n,t){var o,r,i,s;window.glb=window.glb||{},i=e("../../../globo-cdn-src/scripts/common/__manage-element-classes"),o=i.addClass,s=i.removeClass,glb.reguaShouldStart=e("../../../globo-cdn-src/scripts/regua/__regua-shouldstart"),r=function(){var e;e=glb.reguaShouldStart(),null==glb.hasRegua&&(glb.hasRegua=e),glb.hasRegua?(o(document.documentElement,"has-regua"),o(document.documentElement,"svg-support"),s(document.documentElement,"has-not-regua")):(s(document.documentElement,"has-regua"),s(document.documentElement,"svg-support"),o(document.documentElement,"has-not-regua"))},"undefined"!=typeof n&&n.exports&&(n.exports=r)},{"../../../globo-cdn-src/scripts/common/__manage-element-classes":5,"../../../globo-cdn-src/scripts/regua/__regua-shouldstart":7}],7:[function(e,n,t){var o,r,i,s,a,c,l,u;window.viewportSize={},window.viewportSize.getHeight=function(){return l("Height")},window.viewportSize.getWidth=function(){return l("Width")},l=function(e){var n,t,o,r,i,s;return s=void 0,i=e.toLowerCase(),o=window.document,r=o.documentElement,void 0===window["inner"+e]?s=r["client"+e]:window["inner"+e]!==r["client"+e]?(n=o.createElement("body"),n.id="vpw-test-b",n.style.cssText="overflow:scroll",t=o.createElement("div"),t.id="vpw-test-d",t.style.cssText="position:absolute;top:-1000px",t.innerHTML="<style>@media("+i+":"+r["client"+e]+"px){body#vpw-test-b div#vpw-test-d{"+i+":7px!important}}</style>",n.appendChild(t),r.insertBefore(n,o.head),s=7===t["offset"+e]?r["client"+e]:window["inner"+e],r.removeChild(n)):s=window["inner"+e],s},window.myInnerWidth=viewportSize.getWidth(),window.myInnerHeight=viewportSize.getHeight(),r=function(){return window.myInnerWidth||window.innerWidth},o=function(){return window.myInnerHeight||window.innerHeight},i=function(){var e;return null!=window.isAndroidBrowser?window.isAndroidBrowser:(e=navigator.userAgent,window.isAndroidBrowser=e.indexOf("Mozilla/5.0")>-1&&e.indexOf("Android ")>-1&&e.indexOf("AppleWebKit")>-1&&-1===e.indexOf("Chrome"),window.isAndroidBrowser)},c=function(){var e;return null!=window.isWindowsPhoneBrowser?window.isWindowsPhoneBrowser:(e=navigator.userAgent,window.isWindowsPhoneBrowser=e.match(/Windows Phone/i)||e.match(/iemobile/i)||e.match(/WPDesktop/i),window.isWindowsPhoneBrowser)},s=function(){return null!=window.isPortrait?window.isPortrait:(window.isPortrait=r()<=o(),window.isPortrait)},a=function(){return null!=window.isTouchable?window.isTouchable:(window.isTouchable="ontouchstart"in window||navigator.msMaxTouchPoints||window.DocumentTouch&&document instanceof window.DocumentTouch,window.isTouchable)},u=function(){var e;return window.REGUAMAXWIDTHPORTRAIT=window.REGUAMAXWIDTHPORTRAIT||640,window.REGUAMAXWIDTHLANDSCAPE=window.REGUAMAXWIDTHLANDSCAPE||767,window.isPortrait=s(),window.isTouchable=a(),window.isAndroidBrowser=i(),window.isWindowsPhoneBrowser=c(),e=r(),glb.isMobile=window.isPortrait&&e<=window.REGUAMAXWIDTHPORTRAIT||!window.isPortrait&&e<=window.REGUAMAXWIDTHLANDSCAPE,glb.isMobile&&glb.reguaReady&&!window.isAndroidBrowser&&!window.isWindowsPhoneBrowser&&(!glb.nativeAppType||"comnio-app"!==glb.nativeAppType)&&document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")&&(null==window.glb.nativeAppInfo||window.glb.nativeAppInfo.frameworkVersion)},"undefined"!=typeof n&&n.exports&&(n.exports=u)},{}],8:[function(e,n,t){var o,r,i,s,a,c,l,u,d,p,g,f,w,m,h,b,v,y,C,x=function(e,n){return function(){return e.apply(n,arguments)}};C=window.stringStartsWith=function(e,n){return e.slice(0,n.length)===n},m=window.isArray=function(e){return e&&e.constructor===Array},d=window.extendObjs=function(e,n){var t,o;o={};for(t in e)o[t]=e[t];for(t in n)o[t]=n[t];return o},f=document.head||document.getElementsByTagName("head")[0],h=null;try{h=window.localStorageInterface||window.localStorage}catch(u){l=u,console.log("localstorage error",l),h=null}g=function(){var e,n;if(n="modernizr",!h||!h.setItem)return!1;try{return h.setItem(n,n),h.removeItem(n),!0}catch(e){return l=e,console.log("localstorage error",l),!1}},p=g(),window.localStorageCache=y={save:function(e,n,t){var o,r,i;if(!p)return!1;r=60*t*1e3,i={value:n,timestamp:(new Date).getTime()+r};try{h.setItem(e,JSON.stringify(i))}catch(o){return l=o,console.log("localstorage error",l),!1}return n},load:function(e){var n,t;if(!p)return!1;try{t=JSON.parse(h.getItem(e))}catch(n){return l=n,console.log("localstorage error",l),!1}return t?(new Date).getTime()<t.timestamp&&t.value:!1}},w=function(e,n){var t;t=document.createElement("style"),t.setAttribute("type","text/css"),t.id=e,f.appendChild(t),n(null,t)},v=function(e,n,t){var o;try{return e.styleSheet?e.styleSheet.cssText=n:"textContent"in e?e.textContent=n:e.appendChild(document.createTextNode(n)),t(null)}catch(o){l=o,t(l)}},b=function(e){"STYLE"===e.tagName&&e.parentNode&&e.parentNode.removeChild(e)},c=function(e,n,t,o){w(n,function(n,r){n?o(n):(t&&(e.css+="\n/*# sourceMappingURL="+t+" */"),v(r,e.css||"",function(e){e?(b(r),o(e)):o(null,r)}))})},i=function(e,n,t,o){o=o||function(){},c({css:e},n,t,o)},a=function(e){var n;return n=document.createElement("script"),n.async=!0,null!=e&&(n.id=e),n},s=function(e,n){var t,o;return o=new XMLHttpRequest,t=-1===n.indexOf(location.host)||!C(n,"/"),!t||"withCredentials"in o?o.open(e,n,!0):"undefined"!=typeof XDomainRequest?(o=new XDomainRequest,o.open(e.toLowerCase(),n)):o=null,o},o=function(){function e(){this.post=x(this.post,this),this.get=x(this.get,this),this.getJsonp=x(this.getJsonp,this),this.jsonpId=0}return e.prototype.complete=function(e,n,t,o,r,i){var s;e&&!o&&(s=e,r&&(s=JSON.stringify(e)),y.save(t,s,n)),i(e)},e.prototype.getCache=function(e,n,t){var o;return!n&&(o=y.load(e))?(t&&(o=JSON.parse(o.toString())),o):null},e.prototype.request=function(e,n,t){var o,r,i,a,c,l,u,d,p,g,f,w,m,h,b,v,y;return d=null!=t.expire&&t.expire>=0?t.expire:60,a=t.success||function(){},c=t.error||function(){},i=t.key||n,v=t.type,h=t.skipCache,b=t.timeout||null,p=null,y=t.xhrConfigsCallback,l=t.data,u=null!=t.dataType?t.dataType:v,null==v&&(v=n.split("."),v=v[v.length-1]),g="json"===v,w="json"===u,(o=this.getCache(i,h,g))?void a(o):(m=s(e,n))?(y&&"function"==typeof y&&y(m),f="undefined"!=typeof XDomainRequest&&m instanceof XDomainRequest,m.onload||(m.onload=function(e){return function(){var n;return p&&clearTimeout(p),n=f||m.status>=200&&m.status<400,n?(o=m.responseText,g&&(o=JSON.parse(o)),e.complete(o,d,i,h,g,a)):(console.error("AjaxCache Request Error",m.status,m.responseText),c(m.status,m))}}(this)),m.onerror||(m.onerror=function(){return console.error("AjaxCache Request Error",m.status,m.responseText),c(m.status,m)}),"GET"!==e&&l?(w&&(l=JSON.stringify(l)),f?setTimeout(function(){return m.send(l)},0):m.send(l)):f?setTimeout(function(){return m.send()},0):m.send(),b&&(r=function(){return null!=m.abort?m.abort():void 0},p=setTimeout(r,b)),m):(console.error("AjaxCache Request Error","This browser does not support this operation"),c("500",m),m)},e.prototype.getJsonp=function(e,n){var t,o,r,i,s,c,l,u;return i=null!=n.expire&&n.expire>=0?n.expire:60,r=n.success||function(){},o=n.key||e,u=n.skipCache,c=!0,s="ajaxCacheJsonp"+this.jsonpId++,(t=this.getCache(o,u,c))?void r(t):(window[s]=function(e){return function(n){return e.complete(n,i,o,u,c,r)}}(this),e+=-1===e.indexOf("?")?"?callback="+s:"&callback="+s,l=a(s),l.src=e,void f.appendChild(l))},e.prototype.get=function(e,n){return this.request("GET",e,n)},e.prototype.post=function(e,n){return this.request("POST",e,n)},e}(),window.ajaxCache=new o,r=function(){function e(){}return e.prototype.insertJsOnScriptTag=function(e,n,t){var o;return t&&(n+="\n//# sourceMappingURL="+t),o=document.createTextNode(n),e.appendChild(o)},e.prototype.injectScriptTag=function(e,n,t,o){var r;r=a(t),r.src=n,f.appendChild(r)},e.prototype.injectScript=function(e,n,t,o){var r;r=a(t),this.insertJsOnScriptTag(r,n,o),f.appendChild(r)},e.prototype.injectLinkTag=function(e,n,t,o){var r;r=document.createElement("link"),r.id=t,r.type="text/css",r.rel="stylesheet",r.href=n,f.appendChild(r)},e.prototype.injectStylesheet=function(e,n,t,o){i(n,t,o,null)},e.prototype.defaultHandler=function(e,n,t,o){window["tinyBasketResult"+e]=window["tinyBasketResult"+e]||{},window["tinyBasketResult"+e][t.toString()]=n},e.prototype.getHandler=function(e,n){return"js"===e?n?this.injectScriptTag:this.injectScript:"css"===e?n?this.injectLinkTag:this.injectStylesheet:this.defaultHandler},e.prototype.skipCacheRequestManager=function(e,n){return n.success(e)},e.prototype.getRequestManager=function(e,n){return!n||"js"!==e&&"css"!==e?"jsonp"===e?ajaxCache.getJsonp:ajaxCache.get:this.skipCacheRequestManager},e.prototype.require=function(e,n){var t,o,r,i,s,a,c,l,u,p,g,f,w;if(o=this,e)for(m(e)||(e=[e]),i=0,a=e.length;a>i;i++)l=e[i],w=l.url,f=l.type,u=l.skipCache||n,null==f&&(f=w.split("."),f=f[f.length-1]),r=this.getHandler(f,u),c=this.getRequestManager(f,u),g=l.success||function(){},p=l.sourceMap||"",s=l.id||l.key||"ajax-cache-id-"+Math.round(1e5*Math.random()),"string"==typeof g&&(g=window[g]&&"function"==typeof window[g]?window[g]:function(){}),t=function(e,n,t,r,i){return function(s){n.call(o,e,s,r,i),t(s)}},c(w,d(l,{success:t(f,r,g,s,p)}))},e}(),window.tinyBasket=new r,"undefined"!=typeof n&&n.exports&&(n.exports=window.tinyBasket)},{}]},{},[3]);</script><script>(function(){var n;window.glb=window.glb||{},glb.cdnComponents=glb.cdnComponents||[],glb.cdnComponents.push("menu"),glb.menuReady=!0,n=null!==window.noAutoLoadFN&&window.noAutoLoadFN,n||(glb.fnTimeoutMs=glb.fnTimeoutMs||2e3,null!==glb.fnTimeout&&clearTimeout(glb.fnTimeout),glb.menuReady&&glb.headerReady&&glb.reguaReady?glb.initFnCdn(glb.cdnConfig):glb.fnTimeout=setTimeout(function(){return glb.initFnCdn(glb.cdnConfig)},glb.fnTimeoutMs))}).call(this);</script>
+<style type="text/css">.header-navegacao,.header-navegacao .row{-moz-box-sizing:border-box;-webkit-box-sizing:border-box}.header-editoria--link,.header-navegacao,.header-subeditoria--link{font-family:Arial,sans-serif}@font-face{font-family:proximanova-bold;src:url(https://s3.glbimg.com/cdn/fonts/proximanova/bold.woff2) format("woff2"),url(https://s3.glbimg.com/cdn/fonts/proximanova/bold.woff) format("woff"),url(https://s3.glbimg.com/cdn/fonts/proximanova/bold.ttf) format("truetype")}@font-face{font-family:proximanova-semibold-limited-webfont;src:url(//s.glbimg.com/gl/ba/fonts/proximanova-semibold-limited-webfont.eot);src:url(//s.glbimg.com/gl/ba/fonts/proximanova-semibold-limited-webfont.eot?#iefix) format("embedded-opentype"),url(//s.glbimg.com/gl/ba/fonts/proximanova-semibold-limited-webfont.woff) format("woff"),url(//s.glbimg.com/gl/ba/fonts/proximanova-semibold-limited-webfont.ttf) format("truetype"),url(//s.glbimg.com/gl/ba/fonts/proximanova-semibold-limited-webfont.svg#proximanova-semibold-limited-webfont) format("svg")}@font-face{font-family:proximanova-light;src:url(https://s3.glbimg.com/cdn/fonts/proximanova/light.woff2) format("woff2"),url(https://s3.glbimg.com/cdn/fonts/proximanova/light.woff) format("woff"),url(https://s3.glbimg.com/cdn/fonts/proximanova/light.ttf) format("truetype")}#glb-cabecalho{z-index:99999}#glb-cabecalho>.glb-conteudo{width:100%;min-width:100%}.header-navegacao .grid-12{width:90.625%;margin:0 auto;display:block;position:relative}.header-navegacao .row{width:100%;box-sizing:border-box}.header-navegacao .logo,.header-navegacao .logo-area{display:inline-block;margin:0;padding:0;font-size:0}#busca-padrao,.floating-bar,.glb-on-app.has-regua .header-navegacao,.glbbarrawidget,.header-home .banner,.header-home .header-subtitle,.header-home .header-title,.header-navegacao .bottom,.menu-area,.search-area,.svg-container{display:none}.header-navegacao{font-size:0;box-sizing:border-box}.header-navegacao *{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.header-navegacao .logo-area{vertical-align:middle;line-height:1}.header-navegacao .logo{font-weight:700;color:#fff;font-size:0}.header-navegacao .logo-mobile{display:inline}.header-navegacao .logo-desktop{display:none}.header-navegacao .area-principal{height:50px;line-height:50px;text-align:center;position:relative}.header-navegacao .header-subtitle{height:30px;line-height:30px;text-align:center}.header-title,.header-title-content{font-size:0;height:auto;width:100%;display:inline-block;vertical-align:middle}.header-navegacao-color{background-color:currentColor}.header-title{letter-spacing:-1px;margin:0 auto;line-height:1}.header-title-content{padding:0 16px}.header-editoria--link{display:inline-block;vertical-align:middle;font-size:22px;text-decoration:none;text-transform:uppercase;font-weight:400;color:#fff;line-height:normal;max-width:100%}.header-navegacao.header-editoria .logo-area{left:.75rem;position:absolute;top:0;height:100%}.header-navegacao.header-editoria .logo{position:relative;top:50%;-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);transform:translateY(-50%)}.header-subeditoria--link{color:#fff;font-size:12px;text-transform:uppercase;padding:0 8px}@media (min-width:768px){.glbbarrawidget{display:block;height:44px;background-color:#fff}.header-navegacao .area-principal{height:74px;line-height:74px;font-size:0}.header-navegacao .header-subtitle{height:35px;line-height:35px}.header-navegacao .logo-mobile{display:none}.header-navegacao .logo-desktop{display:inline}.header-editoria .logo-area{margin-left:42px}.header-editoria--link{font-size:30px}.header-subeditoria--link{font-size:16px}}@media (min-width:1065px){.header-editoria .logo-area{margin-left:92px;padding-left:20px}.header-title{padding:0 16px}}.glb-on-app .header-navegacao{display:none}.glb-on-app.has-not-regua .header-navegacao{display:block}</style><style>
+    .header-navegacao-color {
+      color: #009DDB;
+    }
+
+    .header-navegacao .logo {
+      width: 24px;
+      height: 24px;
+    }
+
+    .header-navegacao .header-title {
+      padding: 0 24px;
+    }
+
+    @media (max-width: 767px) {
+      .has-not-regua .header-navegacao .header-title {
+        padding: 0 24px 0 66px; 
+      }
+    }
+
+    @media (min-width: 768px) {
+      .header-navegacao .logo {
+        width: 30px;
+        height: 30px;
+      }
+
+      .header-navegacao .header-title {
+        padding: 0 72px;  
+      }
+
+    
+    }
+
+    @media (min-width: 1065px) {
+      .header-navegacao .header-title {
+        padding: 0 142px;  
+      }
+    }
+  </style><script>(function(){!function(){var n,e,t,o,r,l,i,a,c;c=function(){return/MobApp_Android|MobApp_iOS|MobApp_WP/},i=function(){return window.getUserAgent?window.getUserAgent():window.navigator.userAgent},l=function(){var n,e,t,o,r;o=i(),r=o.split(" ");for(t in r)if(n=r[t],c().test(n))return e=n.split("/"),{name:e[0].replace("_"," "),version:e[1],frameworkVersion:e[2]};return null},e=function(){var n,e;e=l(),null!==e&&e.frameworkVersion&&(n=parseInt(e.frameworkVersion,10),n>=1&&(document.documentElement.className+=" glb-on-app"))};try{new n("test")}catch(o){t=o,n=function(n,e){var t;return e=e||{bubbles:!1,cancelable:!1,detail:void 0},t=document.createEvent("CustomEvent"),t.initCustomEvent(n,e.bubbles,e.cancelable,e.detail),t},n.prototype=window.Event.prototype,window.CustomEvent=n}a=null;try{a=localStorage.getItem("glbOnApp"),a&&(document.documentElement.className+=" glb-on-app")}catch(r){t=r}return a||e(),window.glb=window.glb||{},glb.cdnConfig=glb.cdnConfig||{},glb.cdnComponents=glb.cdnComponents||[],glb.cdnComponents.push("header")}()}).call(this);</script><header id="header-produto" class='header-navegacao header-redeglobo header-editoria' data-analytics="T"><div id="glbbarrawidget" class="glbbarrawidget"></div><div class="gui-color-primary-bg header-principal header-navegacao-color"><div class="grid-12 header-navegacao-container row"><div class="area-principal column"><a class="logo-area" href="http://redeglobo.globo.com/tv-digital/"><span class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42"><title>redeglobo.com</title><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFF" d="M37.76 21c0 2.727-.014 5.417-.276 8.025-.143 1.42-.85 1.746-2.167 1.885-4.554.48-9.597.59-14.317.576-4.72.014-9.763-.097-14.317-.576-1.317-.14-2.024-.464-2.167-1.885-.262-2.608-.277-5.298-.277-8.025s.014-5.417.276-8.025c.142-1.42.85-1.746 2.167-1.885 4.554-.48 9.597-.59 14.317-.576 4.72-.014 9.763.097 14.317.576 1.317.14 2.024.464 2.167 1.885.262 2.608.277 5.298.277 8.025M42 21c0 11.565-9.41 21-21 21S0 32.565 0 21 9.41 0 21 0s21 9.435 21 21zm-29.535 0c0-4.68 3.81-8.5 8.535-8.5s8.535 3.82 8.535 8.5-3.81 8.5-8.535 8.5-8.535-3.82-8.535-8.5z"/></svg></span></a><h1 class="header-title"><div class="header-title-content"><a class="header-editoria--link" href="http://redeglobo.globo.com/tv-digital/">tv digital</a></div></h1></div></div></div><div class="svg-container"><!-- default:svg --><!-- endinject --></div><div id="busca-padrao"></div><div class="banner opec-area opec-right grid-12 row"><div id="banner_insert" class="tag-manager-publicidade-container"></div></div></header><script>
+    glb.cdnConfig.headerConfig = glb.cdnConfig.headerConfig || {
+      brand: {link: "http://redeglobo.globo.com/tv-digital/"},
+      editoria: {label: "tv digital", link: "http://redeglobo.globo.com/tv-digital/"},
+    };
+
+    glb.headerReady = true;
+    glb.headerCdn = true;
+    document.dispatchEvent(new CustomEvent('glb.headerDom.ready'));
+  </script></div><div id="glb-corpo" class="glb-corpo"><div class="publicidade publicidade-banner_floating"><div id="banner_floating" class="tag-manager-publicidade-container"></div></div><div class="row show-for-medium-up"><div class="column
+                    small-24
+                    medium-24
+                    large-24 large-offset-0
+                    xlarge-22 xlarge-offset-1"><div class="publicidade publicidade-banner_slb_topo"><div id="banner_slb_topo" class="tag-manager-publicidade-container"></div></div></div></div><div class="areatemplate-topo row-full-width"></div><div class="row"><div class="small-24 column areatemplate-showtime"></div></div><div class="row"><div class="areatemplate-meio
+                column
+                medium-20 medium-offset-2
+                large-24 large-offset-0
+                xlarge-22 xlarge-offset-1"></div></div><div class="row small-collapse medium-uncollapse"><div class="areatemplate-direita-superior
+                    column
+                    medium-20 medium-offset-2 medium-pull-2 
+                    large-9 large-offset-0 large-pull-0
+                    xlarge-7 xlarge-offset-1 xlarge-pull-1
+                    float-right">
+
+
+<div ><section id="widget-card-programacao" class="gui-card widget-card-programacao glb-style-card-programacao--nacional abaixo-destaque"
+             data-track-category="cards" data-track-action="programacao"><header class="gui-card-title gui-color-primary-bg"><h3 class="gui-text-title"><a data-track-click="clique | titulo" href="http://redeglobo.globo.com/programacao.html">
+                    PROGRAMAÇÃO
+                    <span class="card-programacao-logo"></span></a></h3></header><div class="gui-card-content"><ul class="widget-card-programacao"><li class="widget-card-programacao__programa"><a href="http://redeglobo.globo.com/novidades/esportes/noticia/plantao.html" target="_self" data-track-click="clique | posicao 1"><div class="gui-image-hover"><figure class="gui-image-full gui-image-scale"><span class="gui-overlay"></span><picture><!--[if IE 9]><video style="display: none;"><![endif]--><source data-media-query="small" srcset="http://s2.glbimg.com/8LFALtsUOM3P4HqThNwL2Vy3RfM=/388x218/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg" media="(max-width: 38.6875em)"><source data-media-query="large" srcset="http://s2.glbimg.com/aOFJDfXiA1GRBwh81nfAfDgx0_4=/370x208/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg" media="(min-width: 62.5em) and (max-width: 85.5625em)"><source data-media-query="xxlarge" srcset="http://s2.glbimg.com/aOFJDfXiA1GRBwh81nfAfDgx0_4=/370x208/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg" media="(min-width: 99.375em)"><source data-media-query="medium" srcset="http://s2.glbimg.com/8LFALtsUOM3P4HqThNwL2Vy3RfM=/388x218/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg" media="(min-width: 38.75em) and (max-width: 62.4375em)"><source data-media-query="xlarge" srcset="http://s2.glbimg.com/aOFJDfXiA1GRBwh81nfAfDgx0_4=/370x208/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg" media="(min-width: 85.625em) and (max-width: 99.3125em)"><!--[if IE 9]></video><![endif]--><img  src="http://s2.glbimg.com/8LFALtsUOM3P4HqThNwL2Vy3RfM=/388x218/top/smart/filters:strip_icc()/s2.glbimg.com/DmktVbgdebRaNxaAIrXpmBUXCEM=/0x70:1244x772/300x169/i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/o/V/ebE6SHToA7onLLYiGFiA/brasil-2.jpg"></picture></figure></div><time class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--hora" datetime="2017-03-28T21:45:00">21h45</time><h4 class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--chamada gui-color-primary">Futebol</h4></a></li><li class="widget-card-programacao__programa"><a href="http://gshow.globo.com/realities/bbb/" target="_self" data-track-click="clique | posicao 2"><time class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--hora" datetime="2017-03-28T23:45:00">23h45</time><h4 class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--chamada gui-color-primary">Big Brother Brasil 17</h4></a></li><li class="widget-card-programacao__programa"><a href="http://g1.globo.com/jornal-da-globo/" target="_self" data-track-click="clique | posicao 3"><time class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--hora" datetime="2017-03-29T00:06:00">00h06</time><h4 class="widget-card-programacao__programa-dados widget-card-programacao__programa-dados--chamada gui-color-primary">Jornal da Globo</h4></a></li></ul></div><footer class="gui-card-footer"><a data-track-click="clique | tudo sobre"
+               class="gui-link-more gui-color-primary-link"
+               href="http://redeglobo.globo.com/programacao.html">PROGRAMAÇÃO COMPLETA <i class="gui-icon gui-icon-arrow-right2"></i></a></footer></section></div>
+
+<!-- gerado em: 2017-03-2822:14:40Z --></div><div class="areatemplate-esquerda
+                column
+                medium-20 medium-offset-2
+                large-15 large-offset-0
+                xlarge-14 xlarge-offset-1"><script type="text/javascript">SETTINGS=window.SETTINGS||{};SETTINGS.BASTIAN={PORTAL:'redeglobo',FEED_TYPE:'EDITORIAL',DEVICE_GROUP:'desktop',IS_PHOTO_PRIORIZED:false,IS_RECOMMENDED:false,FALKOR_URL:'http://falkor-cda.bastian.globo.com',RECOMMENDATION_URL:'',HORIZON_HOST:'',PUSHSTREAM_HOST:'stream.push.globo.com',};BastianVersion='1.10.0-rc10';</script><script>SETTINGS=window.SETTINGS||{};SETTINGS.BASTIAN=SETTINGS.BASTIAN||{};SETTINGS.BASTIAN["AB_HOST"]="globo-ab.globo.com"</script>
+<div id="bstn-launcher"><div id="bstn-destaques-launcher"><style type="text/css">.bstn-dtqs{box-shadow:0 1px 2px rgba(0,0,0,.1);height:288px;margin-bottom:9px}.bstn-dtq,.bstn-dtqs>div{height:100%}.bstn-dtq{background:#fff;background-size:0;display:none;overflow:hidden;position:relative}.bstn-dtq:first-child{display:block}.with-photo:before{background-color:#000;background-image:inherit;background-position:50%;background-size:cover}.with-photo:after,.with-photo:before{position:absolute;top:0;right:0;bottom:0;left:0;content:""}.with-photo:after{background:rgba(0,0,0,.3);z-index:1}.bstn-dtq-list{position:absolute;top:20px;right:24px;bottom:0;left:16px;display:flex;flex-direction:column;z-index:2}.bstn-dtq-itemlist{flex-shrink:1}.bstn-dtq-spaceritem,.no-photo .bstn-dtq-list:after{content:"";flex-grow:1}.bstn-dtq-aggregateditem{position:relative}.bstn-dtq-mainitem+.bstn-dtq-aggregateditem{margin-top:12px}.with-photo .bstn-dtq-mainitem+.bstn-dtq-aggregateditem{margin-top:25px}.bstn-dtq-aggregateditem+.bstn-dtq-aggregateditem{margin-top:8px}.with-photo .bstn-dtq-list>:last-child,.with-video .bstn-dtq-list>:last-child{margin-bottom:20px}.model-2 .with-photo:nth-child(2) .bstn-dtq-mainitem+.bstn-dtq-aggregateditem:before,.with-photo:first-child .bstn-dtq-mainitem+.bstn-dtq-aggregateditem:before{background:hsla(0,0%,85%,.3);content:"";height:1px;margin-top:-12px;position:absolute;right:-51%;width:150%}.bstn-dtq-link{display:block}.bstn-dtq-aggregateditem .bstn-dtq-link{display:inline-block;padding:0 0 0 20px}.bstn-dtq-aggregateditem .bstn-dtq-link:before{background:#666;border-radius:100%;content:"";height:3px;margin:9px 10px 0 -15px;position:absolute;width:3px}.with-photo .bstn-dtq-aggregateditem .bstn-dtq-link:before{background:#fff;height:2px;opacity:.8;width:2px}.bstn-dtq-video{position:absolute;top:0;right:0;bottom:0;left:0;display:flex}.bstn-dtq-duration{position:absolute;right:0;bottom:0;color:#fff;font-size:16px;letter-spacing:-.8px}.bstn-dtq-chapeu,.bstn-dtq-duration{font-family:Arial,sans-serif;font-weight:400}.bstn-dtq-chapeu{color:#333;display:block;font-size:14px;line-height:16px;text-shadow:none;text-transform:uppercase}.with-photo .bstn-dtq-chapeu{color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.6)}.bstn-dtq-chapeu:after{margin:15px 0 0}.bstn-dtq-chapeuitem .feed-destaque-cobertura{position:static}.bstn-dtq-chapeuitem .bstn-aovivo-label{margin:0}.bstn-dtq-title{font-family:Arial,sans-serif;font-weight:700;display:block;font-size:24px;letter-spacing:-1.5px;line-height:28px;margin:auto 0;text-decoration:none}.bstn-dtq-aggregateditem .bstn-dtq-title{font-family:Arial,sans-serif;font-weight:400;display:inline-block;font-size:14px;letter-spacing:-.5px;line-height:18px;vertical-align:top}.with-photo .bstn-dtq-title,.with-summary .bstn-dtq-title{margin-top:auto}.with-photo .bstn-dtq-title{text-shadow:0 1px 3px rgba(0,0,0,.8);color:#fff!important}.with-video .bstn-dtq-title{margin-right:63px}.with-photo.with-aggregated .bstn-dtq-mainitem .bstn-dtq-title,.with-photo.with-summary .bstn-dtq-mainitem .bstn-dtq-title,.with-photo.with-video .bstn-dtq-mainitem .bstn-dtq-title{font-size:20px;letter-spacing:-1px;line-height:24px}.with-video .bstn-dtq-aggregateditem .bstn-dtq-title{margin-right:15px}.bstn-dtq-summary{font-family:Arial,sans-serif;font-weight:400;color:#333!important;display:block;font-size:14px;letter-spacing:-.5px;line-height:20px;margin:8px 0 auto}.with-photo .bstn-dtq-summary{color:#fff!important;margin-top:12px}@media (min-width:540px){.bstn-dtqs{box-shadow:none;height:460px;margin-bottom:0}.model-1 .with-photo:after{background:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4))}.bstn-dtq{border:1px solid #e1e1e1;border-radius:3px}.bstn-dtq.with-photo{border:0 none}.bstn-dtq-list{position:absolute;top:24px;right:48px;bottom:0;left:24px}.with-photo .bstn-dtq-list>:last-child,.with-video .bstn-dtq-list>:last-child{margin-bottom:24px}.bstn-dtq-chapeu{font-size:16px}.model-1 .with-video .bstn-dtq-title{margin-right:0}.bstn-dtq-mainitem .bstn-dtq-title{font-size:40px!important;letter-spacing:-2.5px!important;line-height:44px!important}.bstn-dtq-aggregateditem .bstn-dtq-title{font-size:16px;letter-spacing:-.8px;line-height:24px}.model-2 .with-photo:nth-child(2) .bstn-dtq-mainitem+.bstn-dtq-aggregateditem:before,.with-photo:first-child .bstn-dtq-mainitem+.bstn-dtq-aggregateditem:before{left:-51%}.bstn-dtq-aggregateditem .bstn-dtq-link:before{background:#666;height:5px;width:5px;margin-top:10px}.with-photo .bstn-dtq-aggregateditem .bstn-dtq-link:before{margin-top:12px}.bstn-dtq-summary{font-size:16px;letter-spacing:-.8px;line-height:24px;margin-top:25px}}@media (min-width:1000px){.bastian-destaques{height:560px}.model-1 .bastian-destaque-itemlist{max-width:50%}}</style><div id="bstn-destaques-temp"><div><div class="bstn-dtqs model-1 xlarge-22 xlarge-offset-1"><div><div class="bstn-dtq type-basico with-photo with-chapeu" style=""><ul class="bstn-dtq-list"><li class="bstn-dtq-itemlist bstn-dtq-chapeuitem"><span class="bstn-dtq-chapeu gui-subject gui-color-primary-bg-after">TV DIGITAL</span></li><li class="bstn-dtq-itemlist bstn-dtq-spaceritem"></li><li class="bstn-dtq-itemlist bstn-dtq-mainitem"><a class="bstn-dtq-link" href="http://redeglobo.globo.com/tv-digital/estacoes.html"><div><span class="bstn-dtq-title gui-color-primary gui-color-hover gui-color-primary-bg-after">Descubra as estações de transmissão do sinal digital da Globo perto de você</span></div></a></li></ul></div></div></div></div></div><script>'use strict';(function(a){var b=a.querySelector('#bstn-destaques-temp');if(b){var c=b.removeChild(b.firstChild),d=a.querySelector('.areatemplate-showtime');d&&c&&(d.parentNode.classList.add('small-collapse','large-uncollapse'),d.innerHTML='',d.appendChild(c))}})(eval('this').document);</script></div><div id="bstn-feed-launcher"><style type="text/css">@media (max-width:539px){body{background-color:#e6e6e6}}.areatemplate-esquerda{margin-top:7px!important}#feed-placeholder,.bstn-feed,.feed-root{contain:layout style}.bastian-page{contain:layout paint style}.bstn-feed{font-size:16px;margin-bottom:32px;overflow:hidden}.bastian-page[data-index="1"] .bastian-feed-item[data-index="1"]>:first-child{margin-top:0}.feed-post{background-color:#fff;contain:layout paint style;margin:16px 0 0;overflow:hidden}.bstn-fd-item-cover{background-color:#ccc;background-position:50%;background-size:cover;border-radius:3px 3px 0 0;height:0;overflow:hidden;padding-top:56.25%;position:relative;width:100%}.bstn-fd-cover-picture{position:absolute;top:0;left:0;width:100%;height:100%}.bstn-fd-picture-image{color:transparent;height:100%;width:100%}.standalone .bstn-item-cover{margin:0}.feed-text-wrapper{padding:16px 16px 14px}.feed-post-header{display:flex;font-size:11px;margin-bottom:8px}.feed-post-header-chapeu{color:#333;font-family:Arial,sans-serif;font-weight:700;letter-spacing:0;flex:0 1 0;flex-basis:auto;line-height:normal;overflow:hidden;text-overflow:ellipsis;text-transform:uppercase;white-space:nowrap}.feed-post-time{flex:0 0 0;margin-left:4px;white-space:nowrap}.with-post-chapeu .feed-post-time-icon{display:none}.feed-post-time-icon{color:#999;display:inline-block;margin-right:4px;margin-top:-2px;speak:none;vertical-align:middle}.feed-post-time-icon:before{content:"\B7";display:block;font-size:24px;height:3px;line-height:1px}.feed-post-time-label{color:#999}.bstn-aovivo-label,.feed-post-time-label{font-family:Arial,sans-serif;display:inline-block;text-transform:uppercase}.bstn-aovivo-label{background:red;border-radius:3px;color:#fff;font-size:10px;font-weight:700;line-height:normal;margin-top:-4px;padding-left:20px;padding:3px 8px;position:relative;z-index:2}.feed-post-link{display:block;text-decoration:none}.feed-post-body-title{font-size:20px;font-weight:700;letter-spacing:-1px;line-height:24px;word-wrap:break-word}.feed-post-body-resumo,.feed-post-body-title{font-family:Arial,sans-serif;margin-bottom:4px}.feed-post-body-resumo{color:#333;font-size:14px;letter-spacing:-.3px;line-height:20px}.post-aggregateds{display:none}.aggregator{margin:2px 0 3px}.aggregated-items{list-style-type:none;padding-left:14px}.aggregated-item{color:#999;padding:4px 0;position:relative}.aggregated-item:before{content:"\B7";font-size:24px;left:-15px;line-height:21px;position:absolute;top:4px}.aggregated-item-text{font-family:Arial,sans-serif;display:inline;font-size:14px;letter-spacing:-.5px;line-height:20px}.load-more{border-radius:3px;box-shadow:inset 0 -2px 0 0 rgba(0,0,0,.2);margin-top:16px;text-align:center;text-transform:uppercase}.load-more a{color:#fff;display:block;font-family:Arial,sans-serif;font-size:14px;font-weight:700;padding:15px 0}.post-notifier-pushstream{display:none}@media (min-width:540px){.bastian-feed-item{position:relative}.bastian-feed-item:before{position:absolute;top:0;right:0;left:0;background-color:#c8c8c8;content:"";height:1px;z-index:1}.bastian-page[data-index="1"] .bastian-feed-item[data-index="1"]:before{content:normal;display:none}.feed-post{box-shadow:none;background-color:transparent;border-radius:0;margin:0;overflow:visible;margin:0 0 32px;padding:33px 0 0!important}.feed-post-body{display:flex}.feed-post-body>:first-child:not(.feed-text-wrapper){flex:0 0 48%;margin-right:16px}.feed-text-wrapper{flex:1 0 0;padding:0}.feed-post-body-title{font-size:24px;line-height:28px}.feed-post-body-resumo{letter-spacing:-.3px;line-height:20px;margin-bottom:7px}}@media (min-width:1000px){.areatemplate-esquerda{margin-top:32px!important}}.label-tempo-real,.scoreboard-bastian-feed{display:none}@media (max-width:539px){.scoreboard-bastian-feed{display:block;margin-top:10px;padding-bottom:16px;border-bottom:1px solid #e6e6e6;margin-bottom:16px;min-height:36px}.scoreboard-bastian-feed>*{display:none}.highlight-bastian-feed{font-size:14px;letter-spacing:-.5px}.highlight-bastian-feed .time{color:#999;margin-bottom:4px}.highlight-bastian-feed .text{margin-bottom:4px;color:#333}}</style><div class="feed-root"><div id="feed-placeholder" class="feed-placeholder"><div><div class="bastian bstn-feed bastian.feed bstn-feed-ssr"><div><div><div class="bastian-page" data-index="0"><div></div></div></div><div><div class="bastian-page" data-index="1"><div><div class="bastian-feed-item" data-index="1"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-descubra-para-onde-apontar-sua-antena-para-ver-a-globo.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" srcSet="http://s2.glbimg.com/JtQVsEMG8VIIH3X6bbv1i4KOMsc=/0x0:1323x924/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg 1x,http://s2.glbimg.com/nAQ7BVhO1kH74-ISd9sm5wKmLFU=/0x0:1323x924/810x456/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg 1.5x,http://s2.glbimg.com/lvMCJrSINNZyks7OJvdWeFpBBbY=/0x0:1323x924/1080x608/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg 2x" src="http://s2.glbimg.com/JtQVsEMG8VIIH3X6bbv1i4KOMsc=/0x0:1323x924/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-descubra-para-onde-apontar-sua-antena-para-ver-a-globo.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">Saiba para onde apontar sua antena para ver a Globo </p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Nova funcionalidade mostra em qual direção está a retransmissora mais perto </p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="2"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-confira-cronograma-de-desligamento-do-sinal-analogico.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" srcSet="http://s2.glbimg.com/OXoU1kC87ziK-D5RkSgAmk2csog=/0x0:696x390/540x304/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png 1x,http://s2.glbimg.com/qatgPF9l1thedwl7va3WcB5FlMo=/0x0:696x390/810x456/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png 1.5x,http://s2.glbimg.com/sL-aHzCd1OunUf7MWKvBGLlnF_Y=/0x0:696x390/1080x608/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png 2x" src="http://s2.glbimg.com/OXoU1kC87ziK-D5RkSgAmk2csog=/0x0:696x390/540x304/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-confira-cronograma-de-desligamento-do-sinal-analogico.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">Confira cronograma de desligamento do sinal analógico </p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Processo iniciado em 1 de março de 2016 só termina em 2023. Veja a lista de cidades que terão seu desligamento até 2018.
+</p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="3"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-sorriso-maroto-anitta-e-ludmilla-estrelam-campanha.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" alt="Foto: (tv digital)" title="Foto: (tv digital)" srcSet="http://s2.glbimg.com/xYiFrPOXNRx3CeKrR-o_EVaMOxs=/0x0:606x341/540x304/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg 1x,http://s2.glbimg.com/PI01zsKTyuTOsDEPgTCzFQGKt_U=/0x0:606x341/810x456/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg 1.5x,http://s2.glbimg.com/VoBLkHhk8WhHZ0vnlY6BpuGb4DI=/0x0:606x341/1080x608/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg 2x" src="http://s2.glbimg.com/xYiFrPOXNRx3CeKrR-o_EVaMOxs=/0x0:606x341/540x304/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-sorriso-maroto-anitta-e-ludmilla-estrelam-campanha.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">TV Globo Digital: Sorriso Maroto, Anitta e Ludmilla estrelam campanha </p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Munhoz &amp; Mariano, Psirico e Neto LX também cantam seus sucessos nos clipes que ensinam a instalar a antena digital e a ligá-la ao aparelho de TV </p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="4"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-digital-confira-o-que-muda-na-sua-televisao-com-o-novo-formato.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" alt="Foto: (tv digital)" title="Foto: (tv digital)" srcSet="http://s2.glbimg.com/AU2eytDWapl0hwN33TvN777y4MM=/0x0:1000x758/540x304/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg 1x,http://s2.glbimg.com/BoOYSSxdRM5P_qdMThVGoSZWfSg=/0x0:1000x758/810x456/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg 1.5x,http://s2.glbimg.com/wY8Ft9ic06IiFs7Lmix8CnZtNlg=/0x0:1000x758/1080x608/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg 2x" src="http://s2.glbimg.com/AU2eytDWapl0hwN33TvN777y4MM=/0x0:1000x758/540x304/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-digital-confira-o-que-muda-na-sua-televisao-com-o-novo-formato.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">TV Analógica: confira o que mudou na sua televisão com o novo formato  </p></div></div><div class="_label_event"><p class="feed-post-body-resumo">A resolução passou a ser de 16:9, formato widescreen</p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="5"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-digital-tire-suas-duvidas-sobre-as-mudancas-no-sinal-analogico.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" alt="Foto: (tv digital)" title="Foto: (tv digital)" srcSet="http://s2.glbimg.com/nOHlA7uNTU0P0fWqBX9_cMIweKQ=/0x0:704x409/540x304/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg 1x,http://s2.glbimg.com/P6jJZ9zs-ehw3jC_-5it-Rm35ec=/0x0:704x409/810x456/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg 1.5x,http://s2.glbimg.com/soUy1dFLfbAxgpnFvk2ejCkkxq8=/0x0:704x409/1080x608/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg 2x" src="http://s2.glbimg.com/nOHlA7uNTU0P0fWqBX9_cMIweKQ=/0x0:704x409/540x304/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-digital-tire-suas-duvidas-sobre-as-mudancas-no-sinal-analogico.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">TV Digital: tire suas dúvidas sobre a migração do sinal analógico para o sinal digital</p></div></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="6"><div><div class="feed-post type-basico no-image"><div class="feed-post-body"><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/duvidas-frequentes.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">Dúvidas Frequentes sobre a TV Digital</p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Tudo o que você precisa saber sobre a tv digital</p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="7"><div><div class="feed-post type-basico"><div class="feed-post-body"><div class="_label_event"><a href="http://redeglobo.globo.com/tv-digital/noticia/seja-digital-ligue-147-e-tire-duvidas-na-central-de-atendimento.ghtml" class="feed-post-figure-link gui-image-hover"><div class="bstn-fd-item-cover " style=""><picture class="bstn-fd-cover-picture"><img class="bstn-fd-picture-image" srcSet="http://s2.glbimg.com/SN7HaZY73q9c7R_xNKsiwdW8q70=/0x0:1920x1741/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png 1x,http://s2.glbimg.com/RqKB4rCyupT4db_XslomFsaLFWM=/0x0:1920x1741/810x456/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png 1.5x,http://s2.glbimg.com/aLjRz-fZjUJgEnalQ43VdrYGyKw=/0x0:1920x1741/1080x608/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png 2x" src="http://s2.glbimg.com/SN7HaZY73q9c7R_xNKsiwdW8q70=/0x0:1920x1741/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png"></picture></div></a></div><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/seja-digital-ligue-147-e-tire-duvidas-na-central-de-atendimento.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">Seja Digital: ligue 147 e tire suas dúvidas na Central de Atendimento </p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Empresa que administra a transição da TV analógica para a digital no Brasil disponibiliza ainda contato por e-mail ou pelo site oficial www.sejadigital.com.br</p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="8"><div><div class="feed-post type-basico no-image"><div class="feed-post-body"><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">onda digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 3 semanas</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/onda-digital-estudantes-tiram-duvidas-sobre-a-instalacao-do-sistema-digital.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">Estudantes tiram dúvidas sobre a instalação do sistema digital </p></div></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div><div class="bastian-feed-item" data-index="9"><div><div class="feed-post type-basico no-image"><div class="feed-post-body"><div class="feed-text-wrapper"><div class="feed-post-header with-post-chapeu"><span class="feed-post-header-chapeu">tv digital</span><span class="feed-post-time"><i class="feed-post-time-icon gui-icon gui-icon-clock"></i><span class="feed-post-time-label">há 1 mês</span></span></div><a href="http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-pais-deve-ter-93-de-cobertura-para-fim-do-sinal-analogico.ghtml" class="feed-post-link"><div class="_label_event"><div><p class="feed-post-body-title gui-color-primary gui-color-hover">TV Digital: desligamento do sinal analógico
+</p></div></div><div class="_label_event"><p class="feed-post-body-resumo">Domicílios que acessam o serviço livre, aberto e gratuito por transmissão terrestre deverão ter recepção digitalizada para a realização do desligamento
+</p></div></a><!--!--></div></div></div><div class="post-aggregateds"></div></div></div></div></div></div></div><div class="load-more gui-color-primary-bg"><a href="/tv-digital/index/feed/pagina-4.html">Veja mais</a></div><!--!--></div></div></div></div><link id="bstn-external-style" type="text/css" rel="stylesheet" data-href="https://s3.glbimg.com/v1/AUTH_51034a7b511149ff823d11cbcd04b2b7/bastian/build/bastian.css"><script>'use strict';(function(b,c,d,e,f,g){function h(){Bastian({"config":{"forePosts":3},"itemCount":0,"items":[{"age":3138512,"aggregatedPosts":[],"content":{"chapeu":{"label":"TV DIGITAL"},"image":{"cropOptions":{"landscape":{"bottom":736,"left":0,"right":938,"top":0},"type":"landscape and portrait"},"rightsHolder":"tv digital","size":{"height":736,"width":938},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/NDOFkyQIYgYs2F_jKpgIADRtC2A=/0x0:938x736/1080x608/smart/http://s2.glbimg.com/cL3cIm_oWvJuqceiwRVZRJXxG84=/0x0:938x736/938x736/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo.png","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/2Wug-yBJmuru6-P9A2_VosjR_tw=/0x0:938x736/810x456/smart/http://s2.glbimg.com/cL3cIm_oWvJuqceiwRVZRJXxG84=/0x0:938x736/938x736/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo.png","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/u_-2vmuSJZjVIYo1Q0rNrWe8YhQ=/0x0:938x736/540x304/smart/http://s2.glbimg.com/cL3cIm_oWvJuqceiwRVZRJXxG84=/0x0:938x736/938x736/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo.png","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/xkRat4LZY_Wdhp5PfqiT15TTYqc=/570x620/smart/http://s2.glbimg.com/cL3cIm_oWvJuqceiwRVZRJXxG84=/0x0:938x736/938x736/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo.png","width":570}},"url":"http://s2.glbimg.com/cL3cIm_oWvJuqceiwRVZRJXxG84=/0x0:938x736/938x736/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo.png"},"summary":"Confira a cobertura em mapa especial e interativo","title":"Descubra as estações de transmissão do sinal digital da Globo perto de você","url":"http://redeglobo.globo.com/tv-digital/estacoes.html"},"created":"2017-02-20T17:26:41.936Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"49d1c3d5-62e8-4d6e-80e6-457956f3f117","isPinned":true,"lastPublication":"2017-02-20T17:26:41.756784016Z","modified":"2017-03-27T18:08:18.361Z","pinned":{"cascade":true,"isForePost":false,"position":1,"time":"2017-03-27T18:08:17.41426161Z"},"postHash":"e8a72809230de6c422ee0b119d584676","publication":"2017-02-20T17:26:41.756784016Z","tenantId":"redeglobo","type":"basico","versionId":"5124623b-ccd1-477b-a8e1-d8a9c04fdd2c"},{"age":3138774,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":924,"left":0,"right":1323,"top":0},"type":"landscape and portrait"},"size":{"height":924,"width":1323},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/lvMCJrSINNZyks7OJvdWeFpBBbY=/0x0:1323x924/1080x608/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/nAQ7BVhO1kH74-ISd9sm5wKmLFU=/0x0:1323x924/810x456/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/JtQVsEMG8VIIH3X6bbv1i4KOMsc=/0x0:1323x924/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/oxLwp7VbwFYHGUiB-tBuo3303HE=/570x620/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg","width":570}},"url":"http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/D/7xrpF6QlqzqcFj5u2KUA/print.jpg"},"summary":"Nova funcionalidade mostra em qual direção está a retransmissora mais perto ","title":"Saiba para onde apontar sua antena para ver a Globo ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-descubra-para-onde-apontar-sua-antena-para-ver-a-globo.ghtml"},"created":"2017-02-20T17:22:20.126Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"008d3560-c7da-4be0-a8fb-b133d1fee6d9","isPinned":true,"lastPublication":"2017-02-20T17:22:20.018045022Z","modified":"2017-03-27T18:09:42.700Z","pinned":{"cascade":true,"isForePost":false,"position":2,"time":"2017-03-27T18:09:41.912464996Z"},"postHash":"cb867757c76fab57df01903347cff50c","publication":"2017-02-20T17:22:20.018045022Z","tenantId":"redeglobo","type":"basico","versionId":"6fc076b2-6aa1-4305-8741-43c8edf65260"},{"age":3136520,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":390,"left":0,"right":696,"top":0},"type":"landscape and portrait"},"size":{"height":390,"width":696},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/sL-aHzCd1OunUf7MWKvBGLlnF_Y=/0x0:696x390/1080x608/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/qatgPF9l1thedwl7va3WcB5FlMo=/0x0:696x390/810x456/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/OXoU1kC87ziK-D5RkSgAmk2csog=/0x0:696x390/540x304/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/qoMqPB09QfYTn5n4CxzJG0kRtNg=/570x620/smart/http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png","width":570}},"url":"http://s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/photos/logo_redes.png"},"summary":"Processo iniciado em 1 de março de 2016 só termina em 2023. Veja a lista de cidades que terão seu desligamento até 2018.\n","title":"Confira cronograma de desligamento do sinal analógico ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-confira-cronograma-de-desligamento-do-sinal-analogico.ghtml"},"created":"2017-02-20T17:59:53.534Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"57a229b0-2c06-4224-a0a3-536c1b20b547","isPinned":true,"lastPublication":"2017-02-20T17:59:53.465828931Z","modified":"2017-03-28T19:00:22.905Z","pinned":{"cascade":true,"isForePost":false,"position":3,"time":"2017-03-28T19:00:22.069337912Z"},"postHash":"5569f10ddb99c822814668fbd54b7253","publication":"2017-02-20T17:59:53.465828931Z","tenantId":"redeglobo","type":"basico","versionId":"1453c87e-75b4-493c-9a02-5fd036318693"},{"age":3137657,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":341,"left":0,"right":606,"top":0},"type":"landscape and portrait"},"rightsHolder":"tv digital","size":{"height":341,"width":606},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/VoBLkHhk8WhHZ0vnlY6BpuGb4DI=/0x0:606x341/1080x608/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/PI01zsKTyuTOsDEPgTCzFQGKt_U=/0x0:606x341/810x456/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/xYiFrPOXNRx3CeKrR-o_EVaMOxs=/0x0:606x341/540x304/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/4eDEGpiOa_z2Ph4N8DgBx3mCNzQ=/570x620/smart/http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg","width":570}},"url":"http://s2.glbimg.com/7er-dCc1W7-W-8sVSehQ4_9hXMs=/0x0:606x341/606x341/s.glbimg.com/og/rg/f/original/2017/02/20/sem_titulo_1_1.jpg"},"summary":"Munhoz \u0026 Mariano, Psirico e Neto LX também cantam seus sucessos nos clipes que ensinam a instalar a antena digital e a ligá-la ao aparelho de TV ","title":"TV Globo Digital: Sorriso Maroto, Anitta e Ludmilla estrelam campanha ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-sorriso-maroto-anitta-e-ludmilla-estrelam-campanha.ghtml"},"created":"2017-02-20T17:40:56.373Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"2e459326-e652-4dce-9c87-d28d7f731c95","isPinned":true,"lastPublication":"2017-02-20T17:40:56.313930393Z","modified":"2017-03-27T18:09:05.606Z","pinned":{"cascade":false,"isForePost":false,"position":4,"time":"2017-03-27T18:09:05.535481096Z"},"postHash":"6373d6b7fbdb70db33d38c41dcac2881","publication":"2017-02-20T17:40:56.313930393Z","tenantId":"redeglobo","type":"basico","versionId":"f4ac56bc-2f56-4ea5-972a-f4facdb282ba"},{"age":3139049,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":758,"left":0,"right":1000,"top":0},"type":"landscape and portrait"},"rightsHolder":"tv digital","size":{"height":758,"width":1000},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/wY8Ft9ic06IiFs7Lmix8CnZtNlg=/0x0:1000x758/1080x608/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/BoOYSSxdRM5P_qdMThVGoSZWfSg=/0x0:1000x758/810x456/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/AU2eytDWapl0hwN33TvN777y4MM=/0x0:1000x758/540x304/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/d2DIiCz52ZaFxbgzmAIEpZ7bRw8=/570x620/smart/http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg","width":570}},"url":"http://s2.glbimg.com/ZZA7d08g2hdE97pkbJ9-NLRojP8=/0x0:1000x758/1000x758/s.glbimg.com/og/rg/f/original/2017/02/20/wide-copia.jpg"},"summary":"A resolução passou a ser de 16:9, formato widescreen","title":"TV Analógica: confira o que mudou na sua televisão com o novo formato  ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-digital-confira-o-que-muda-na-sua-televisao-com-o-novo-formato.ghtml"},"created":"2017-02-20T17:17:44.467Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"652cae0c-9075-4d1b-9b51-330164b67a7d","isPinned":true,"lastPublication":"2017-02-20T17:17:44.322005215Z","modified":"2017-03-27T18:18:01.138Z","pinned":{"cascade":false,"isForePost":false,"position":5,"time":"2017-03-27T18:18:00.262666218Z"},"postHash":"d98b3df78891ab162ab598de64f8def1","publication":"2017-02-20T17:17:44.322005215Z","tenantId":"redeglobo","type":"basico","versionId":"e5009bbb-c19e-441c-aaad-f5894734084d"},{"age":3139672,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":409,"left":0,"right":704,"top":0},"type":"landscape and portrait"},"rightsHolder":"tv digital","size":{"height":409,"width":704},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/soUy1dFLfbAxgpnFvk2ejCkkxq8=/0x0:704x409/1080x608/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/P6jJZ9zs-ehw3jC_-5it-Rm35ec=/0x0:704x409/810x456/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/nOHlA7uNTU0P0fWqBX9_cMIweKQ=/0x0:704x409/540x304/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/ucSeMpsoWhxOxyO4ZBMwz4k7iIc=/570x620/smart/http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg","width":570}},"url":"http://s2.glbimg.com/yukAMzm1YZw8nma4WXerYOABKGw=/0x0:704x409/704x409/s.glbimg.com/og/rg/f/original/2017/02/20/tvdigital.jpg"},"summary":"","title":"TV Digital: tire suas dúvidas sobre a migração do sinal analógico para o sinal digital","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-digital-tire-suas-duvidas-sobre-as-mudancas-no-sinal-analogico.ghtml"},"created":"2017-02-20T17:07:21.246Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"5c00b7e4-326e-4685-b652-a012cf8a9be5","isPinned":true,"lastPublication":"2017-02-20T17:07:21.163134727Z","modified":"2017-03-27T18:31:58.286Z","pinned":{"cascade":false,"isForePost":false,"position":6,"time":"2017-03-27T18:31:57.44860928Z"},"postHash":"d822e390b058c10a4c0500a521d9f186","publication":"2017-02-20T17:07:21.163134727Z","tenantId":"redeglobo","type":"basico","versionId":"946efca3-b81e-4d63-9957-537f5529f782"},{"age":3138930,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Tudo o que você precisa saber sobre a tv digital","title":"Dúvidas Frequentes sobre a TV Digital","url":"http://redeglobo.globo.com/tv-digital/noticia/duvidas-frequentes.ghtml"},"created":"2017-02-20T17:19:43.892Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"5c3e43a7-5ebc-424a-bb45-e086f5339c48","isPinned":true,"lastPublication":"2017-02-20T17:19:43.815327644Z","modified":"2017-03-27T18:08:53.242Z","pinned":{"cascade":false,"isForePost":false,"position":7,"time":"2017-03-27T18:08:53.177689957Z"},"postHash":"be8a1509d3e934b48be1aa9c08b74f92","publication":"2017-02-20T17:19:43.815327644Z","tenantId":"redeglobo","type":"basico","versionId":"c81cff84-6dc5-4df2-b159-4cbb37e38185"},{"age":3139994,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":1741,"left":0,"right":1920,"top":0},"type":"landscape and portrait"},"size":{"height":1741,"width":1920},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/aLjRz-fZjUJgEnalQ43VdrYGyKw=/0x0:1920x1741/1080x608/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/RqKB4rCyupT4db_XslomFsaLFWM=/0x0:1920x1741/810x456/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/SN7HaZY73q9c7R_xNKsiwdW8q70=/0x0:1920x1741/540x304/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/nrkLkWH_br3lGx89msI62BIM8Ew=/570x620/smart/http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png","width":570}},"url":"http://i.s3.glbimg.com/v1/AUTH_b58693ed41d04a39826739159bf600a0/internal_photos/bs/2017/B/y/OInd9tQfC63Zm4TUk12A/screencapture-sejadigital-br-home-1487009759968.png"},"summary":"Empresa que administra a transição da TV analógica para a digital no Brasil disponibiliza ainda contato por e-mail ou pelo site oficial www.sejadigital.com.br","title":"Seja Digital: ligue 147 e tire suas dúvidas na Central de Atendimento ","url":"http://redeglobo.globo.com/tv-digital/noticia/seja-digital-ligue-147-e-tire-duvidas-na-central-de-atendimento.ghtml"},"created":"2017-02-20T17:01:59.482Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"f3f8f91f-8f23-48df-9692-1bac155f1d93","isPinned":true,"lastPublication":"2017-02-20T17:01:59.415167855Z","modified":"2017-03-17T01:12:41.483Z","pinned":{"cascade":false,"isForePost":false,"position":8,"time":"2017-03-17T01:12:41.403938351Z"},"postHash":"c6d85530b76911b06434bd485109c273","publication":"2017-02-20T17:01:59.415167855Z","tenantId":"redeglobo","type":"basico","versionId":"57d6a168-3131-4b02-8236-83ff9262d99c"},{"age":1655737,"aggregatedPosts":[],"content":{"chapeu":{"label":"onda digital"},"summary":"","title":"Estudantes tiram dúvidas sobre a instalação do sistema digital ","url":"http://redeglobo.globo.com/tv-digital/noticia/onda-digital-estudantes-tiram-duvidas-sobre-a-instalacao-do-sistema-digital.ghtml"},"created":"2017-03-09T21:19:36.509Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"72f2731d-c81d-4551-8c3f-600679fba913","isPinned":false,"lastPublication":"2017-03-09T21:19:36.328762444Z","modified":"2017-03-09T21:19:36.509Z","pinned":null,"postHash":"6abde76e69140601cc95a95102e5f365","publication":"2017-03-09T21:19:36.328762444Z","tenantId":"redeglobo","type":"basico","versionId":"9d585faa-4036-4a34-bd72-cb7b9f4998c1"},{"age":3136070,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Domicílios que acessam o serviço livre, aberto e gratuito por transmissão terrestre deverão ter recepção digitalizada para a realização do desligamento\n","title":"TV Digital: desligamento do sinal analógico\n","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-pais-deve-ter-93-de-cobertura-para-fim-do-sinal-analogico.ghtml"},"created":"2017-02-20T18:07:23.473Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"affd4402-ffb3-4b95-b1d2-99762260d9f4","isPinned":false,"lastPublication":"2017-02-20T18:07:23.405884887Z","modified":"2017-03-27T16:50:03.466Z","pinned":null,"postHash":"3528c336be0281ebdc5e652c6c0f7841","publication":"2017-02-20T18:07:23.405884887Z","tenantId":"redeglobo","type":"basico","versionId":"3af08331-4c8e-4f36-afa4-11990c4c507a"},{"age":3136931,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Mais nitidez e sem chuviscos na tela: ainda não migrou por quê? ","title":"Globo em alta definição: veja como funciona e as vantagens da TV Digital ","url":"http://redeglobo.globo.com/tv-digital/noticia/globo-em-alta-definicao-veja-como-funciona-e-as-vantagens-da-tv-digital.ghtml"},"created":"2017-02-20T17:53:02.297Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"5ad2dc46-603f-43c8-8975-281071347018","isPinned":false,"lastPublication":"2017-02-20T17:53:02.234777887Z","modified":"2017-02-20T17:53:02.297Z","pinned":null,"postHash":"82134e4304e04b974feea9e81f105edb","publication":"2017-02-20T17:53:02.234777887Z","tenantId":"redeglobo","type":"basico","versionId":"5e549224-2398-45a9-b245-55d814262461"},{"age":3136995,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":572,"left":0,"right":828,"top":0},"type":"landscape and portrait"},"rightsHolder":"fale com a globo","size":{"height":572,"width":828},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/8lywWkhUFTzAnC42lX4mdDJ3Ao4=/0x0:828x572/1080x608/smart/http://s2.glbimg.com/58CQ1H8PHUSq_E-YmbJNypMJqkA=/0x0:828x572/828x572/s.glbimg.com/og/rg/f/original/2017/02/20/logo-01_Fn9DDl7.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/fhPfqzBE0G7j_XJPbOcQMSzeu_4=/0x0:828x572/810x456/smart/http://s2.glbimg.com/58CQ1H8PHUSq_E-YmbJNypMJqkA=/0x0:828x572/828x572/s.glbimg.com/og/rg/f/original/2017/02/20/logo-01_Fn9DDl7.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/TNQtzlWz70oMZhTXvYY4-IDV1G8=/0x0:828x572/540x304/smart/http://s2.glbimg.com/58CQ1H8PHUSq_E-YmbJNypMJqkA=/0x0:828x572/828x572/s.glbimg.com/og/rg/f/original/2017/02/20/logo-01_Fn9DDl7.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/akHyNkNxnParbYK6tBjquuH254A=/570x620/smart/http://s2.glbimg.com/58CQ1H8PHUSq_E-YmbJNypMJqkA=/0x0:828x572/828x572/s.glbimg.com/og/rg/f/original/2017/02/20/logo-01_Fn9DDl7.jpg","width":570}},"url":"http://s2.glbimg.com/58CQ1H8PHUSq_E-YmbJNypMJqkA=/0x0:828x572/828x572/s.glbimg.com/og/rg/f/original/2017/02/20/logo-01_Fn9DDl7.jpg"},"summary":"Quer falar com a gente? ","title":"Fale com a Globo e tire suas dúvidas sobre a TV Digital","url":"http://redeglobo.globo.com/tv-digital/noticia/fale-com-a-globo.ghtml"},"created":"2017-02-20T17:51:58.489Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"4fecfa86-e8a7-4092-b5e3-22e1b479c630","isPinned":false,"lastPublication":"2017-02-20T17:51:58.401020052Z","modified":"2017-02-20T17:51:58.489Z","pinned":null,"postHash":"cb9b386733a68b78e9bfe8216b309d36","publication":"2017-02-20T17:51:58.401020052Z","tenantId":"redeglobo","type":"basico","versionId":"23ab0457-0226-4389-9c17-fa962d6a2661"},{"age":3137304,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Entenda cada termo e vire um especialista no tema","title":"Glossário da TV Digital","url":"http://redeglobo.globo.com/tv-digital/noticia/glossario.ghtml"},"created":"2017-02-20T17:46:49.989Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"0358ff42-00f1-41a1-a50a-dc86a0b5d346","isPinned":false,"lastPublication":"2017-02-20T17:46:49.89677767Z","modified":"2017-02-20T18:02:22.716Z","pinned":null,"postHash":"92f33cc0da48b73d98a20c62f2ae9a38","publication":"2017-02-20T17:46:49.89677767Z","tenantId":"redeglobo","type":"basico","versionId":"a8bf52da-8a45-4069-b791-b0c549dbb32e"},{"age":3137436,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"type":"video"},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/EJhQnWTD3P9DSkT4qCJIpUQrEn8=/1080x608/smart/filters:max-age(3600)/http://s01.video.glbimg.com/x720/3802343.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/L-Wfg2H3FB1S8Z8YxQHEoLfTg10=/810x456/smart/filters:max-age(3600)/http://s01.video.glbimg.com/x720/3802343.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/ZviX331krPjg-p-D1yozG4FWtHE=/540x304/smart/filters:max-age(3600)/http://s01.video.glbimg.com/x720/3802343.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/5d85oem_BsM_nhpKmV2W1lS941o=/570x620/smart/filters:max-age(3600)/http://s01.video.glbimg.com/x720/3802343.jpg","width":570}},"url":"http://s01.video.glbimg.com/x720/3802343.jpg"},"summary":"Patrulha Digital mostra as facilidades do sistema e as opções de mobilidade","title":"Donos e clientes de bares aprendem a usar sinal de TV digital; confira vídeo","url":"http://redeglobo.globo.com/tv-digital/noticia/donos-e-clientes-de-bares-aprendem-a-usar-sinal-de-tv-digital-confira-video.ghtml","video":{"duration":213880,"id":3.802343e+06,"trademark":""}},"created":"2017-02-20T17:44:38.064Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"a500496e-7c77-4b97-b9c2-f16dc7fc204d","isPinned":false,"lastPublication":"2017-02-20T17:44:37.954986254Z","modified":"2017-02-20T17:44:38.064Z","pinned":null,"postHash":"2d4a49e40b1ce3ccae23ac5d286e96f0","publication":"2017-02-20T17:44:37.954986254Z","tenantId":"redeglobo","type":"basico","versionId":"2e0bff01-7604-4aaa-b53a-589fc1e6ccb6"},{"age":3137507,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Frequência de 700 MHz será usada pelas operadoras vencedoras de leilão ","title":"TV Globo Digital: 4G ocupará faixa deixada por canais abertos analógicos ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-4g-ocupara-faixa-deixada-por-canais-abertos-analogicos.ghtml"},"created":"2017-02-20T17:43:26.704Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"fec4d93a-6e2b-48d1-be1f-a048eec8652e","isPinned":false,"lastPublication":"2017-02-20T17:43:26.656865814Z","modified":"2017-02-20T17:43:26.704Z","pinned":null,"postHash":"e1d53b9dfbc2a979311bbcd99146865c","publication":"2017-02-20T17:43:26.656865814Z","tenantId":"redeglobo","type":"basico","versionId":"3d5b61a1-5d2d-41ea-9d1e-f3cefcf7e99e"},{"age":3137557,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Processo de desligamento da TV analógica começa em abril de 2016 ","title":"TV Globo Digital: decisão de desligar sinal analógico é de 2003; entenda ","url":"http://redeglobo.globo.com/tv-digital/noticia/tv-globo-digital-decisao-de-desligar-sinal-analogico-e-de-2003-entenda.ghtml"},"created":"2017-02-20T17:42:36.683Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"a2b0de5c-1222-42db-867d-68f7aeba13fb","isPinned":false,"lastPublication":"2017-02-20T17:42:36.612290921Z","modified":"2017-02-20T17:42:36.683Z","pinned":null,"postHash":"1af4b53fcf71ce42777168e9c8312dea","publication":"2017-02-20T17:42:36.612290921Z","tenantId":"redeglobo","type":"basico","versionId":"e4b73a58-d215-4f09-9e7a-d81d5d5190e5"},{"age":3138015,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"summary":"Clique e veja as diferenças e melhorias da nova geração!","title":"Veja a Globo em alta definição pela parabólica","url":"https://www.sathdregional.com/"},"created":"2017-02-20T17:34:59.105Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"73d04cb6-1f31-4522-8d0b-8dce4b0e2f58","isPinned":false,"lastPublication":"2017-02-20T17:34:59.025996928Z","modified":"2017-02-20T18:02:46.048Z","pinned":null,"postHash":"2ddb57ed7c5c34e9d0934b07dd716326","publication":"2017-02-20T17:34:59.025996928Z","tenantId":"redeglobo","type":"basico","versionId":"ec56040c-a8ce-4d81-b073-64a003028a66"},{"age":3140154,"aggregatedPosts":[],"content":{"chapeu":{"label":"tv digital"},"image":{"cropOptions":{"landscape":{"bottom":613,"left":0,"right":1121,"top":0},"type":"landscape and portrait"},"rightsHolder":"globo","size":{"height":613,"width":1121},"sizes":{"L":{"height":608,"url":"http://s2.glbimg.com/2R8lJb8suWcvZVNr78C5WSoxGbc=/0x0:1121x613/1080x608/smart/http://s2.glbimg.com/amY-_bie7_x7fogEllroTyJYKNc=/0x0:1121x613/1121x613/s.glbimg.com/og/rg/f/original/2017/02/18/erika_moura.jpg","width":1080},"M":{"height":456,"url":"http://s2.glbimg.com/_AYTJn833AHQHJJb3fsDhyyBYeM=/0x0:1121x613/810x456/smart/http://s2.glbimg.com/amY-_bie7_x7fogEllroTyJYKNc=/0x0:1121x613/1121x613/s.glbimg.com/og/rg/f/original/2017/02/18/erika_moura.jpg","width":810},"S":{"height":304,"url":"http://s2.glbimg.com/8vUzsYtmUv_kMKujLoRu8G1oNzg=/0x0:1121x613/540x304/smart/http://s2.glbimg.com/amY-_bie7_x7fogEllroTyJYKNc=/0x0:1121x613/1121x613/s.glbimg.com/og/rg/f/original/2017/02/18/erika_moura.jpg","width":540},"V":{"height":620,"url":"http://s2.glbimg.com/kxpGYHT__RjfMlJ7M4XS-B1NviE=/570x620/smart/http://s2.glbimg.com/amY-_bie7_x7fogEllroTyJYKNc=/0x0:1121x613/1121x613/s.glbimg.com/og/rg/f/original/2017/02/18/erika_moura.jpg","width":570}},"url":"http://s2.glbimg.com/amY-_bie7_x7fogEllroTyJYKNc=/0x0:1121x613/1121x613/s.glbimg.com/og/rg/f/original/2017/02/18/erika_moura.jpg"},"summary":"Alunos esclarecem questões sobre o desligamento e a nossa Globeleza Erika Moura acompanha a Onda Digital nos dias 4 e 11 de março; confira\n","title":"Patrulha Digital: tire dúvidas em 32 unidades do SENAI SP ","url":"http://redeglobo.globo.com/tv-digital/noticia/patrulha-digital-tire-duvidas-em-32-unidades-do-senai-de-sao-paulo.ghtml"},"created":"2017-02-20T16:59:20.077Z","draft":false,"feedId":"2bf54b2c-c828-4ab1-95c4-fbacde6dc326","id":"2c3576cd-4da9-469e-93de-5a63cb596378","isPinned":false,"lastPublication":"2017-02-20T16:59:20.005861604Z","modified":"2017-03-17T01:12:55.761Z","pinned":null,"postHash":"74f4923c1c276d7d5c713543d057c748","publication":"2017-02-20T16:59:20.005861604Z","tenantId":"redeglobo","type":"basico","versionId":"ba42b3e6-3f5b-4a47-bb02-04ebec675d27"}],"limit":30,"nextPage":4,"perPage":30,"referer":"/tv-digital/index.html"})}f=b.querySelector('.areatemplate-esquerda'),f&&(f.classList.remove(c+'-20',c+'-offset-2'),g=f.parentNode.classList,g.remove('small-'+d,c+'-un'+d),g.add(c+'-'+d,'large-un'+d));var i=b.getElementById('bstn-external-style');i.setAttribute('href',i.getAttribute('data-href')),window.launchBastian=h,b.addEventListener('bstn-app-loaded',h,!1)})(eval('this').document,'medium','collapse','script');</script><script type="text/javascript" async src="https://s3.glbimg.com/v1/AUTH_51034a7b511149ff823d11cbcd04b2b7/bastian/build/bastian.js"></script></div></div>
+
+<script async src="http://s.videos.globo.com/p2/j/api.min.js"></script></div><div class="areatemplate-direita
+                column
+                medium-20 medium-offset-2 medium-pull-2

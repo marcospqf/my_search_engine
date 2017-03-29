@@ -1,0 +1,748 @@
+|||http://www.vagalume.com.br/|<!DOCTYPE html>
+<html class="page-home" lang="pt" prefix="og: https://ogp.me/ns#">
+<head>
+<title>VAGALUME - Letras de Músicas e muitas músicas para ouvir!</title>
+<link rel=dns-prefetch href="https://s1.vagalume.com"/><link rel=dns-prefetch href="https://s2.vagalume.com"/><link rel=dns-prefetch href="//suggest.vagalume.com.br"/>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<meta name=language content=pt-br>
+<link rel="alternate" media="only screen and (max-width: 640px)" href='//m.vagalume.com.br/'><link rel=canonical href="https://www.vagalume.com.br/">
+<meta name=description content="O site sobre música mais completo do Brasil! Milhões de letras de músicas, traduções de letras e cifras. Player para ouvir músicas, rádio online e crie suas playlists" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://www.vagalume.com.br/","potentialAction":{"@type":"SearchAction","target":"https://www.vagalume.com.br/search.php?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<meta property="og:title" content="VAGALUME - Letras de Músicas e muitas músicas para ouvir!">
+<meta property="og:description" content="O maior site de música do Brasil. Mais de 2 milhões de músicas cadastradas para ver a letra e ouvir!">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://s1.vagalume.com/images/vagalume-fb-share.png">
+<meta property=og:site_name content=Vagalume>
+<meta property=fb:app_id content=324474348807>
+<link rel=search type=application/opensearchdescription+xml title=Vagalume href=/api/opensearch.xml>
+<link type=text/css rel=stylesheet href="/css/vgl2_201703211503.css"/>
+<link type=text/css rel=stylesheet href="/css/header_default_201703211503.css"/>
+<link type=text/css rel=stylesheet href="/css/home_201703211503.css" />
+<!--[if lt IE 9]><script type=text/javascript src="/js/iefix.js"}"></script><![endif]-->
+<link rel="chrome-webstore-item" href="//chrome.google.com/webstore/detail/ipgcdnbeeiajinajlafjcdfhckglcopd">
+
+</head>
+<body class="general">
+<header>
+<div id=topo>
+<h1 class=logo><a href="/" id=logoTitle title=www.vagalume.com.br>Muito mais que s&oacute; letras de m&uacute;sicas</a></h1>
+<form method=get id=search action=/search.php>
+<label class="suggest" data-publish=1 data-suggest-placeholder="O que voc&ecirc; quer ouvir? Digite nome da m&uacute;sica, artista ou trecho">
+<input type=text name=q id=searchText maxlength=135 size=30 placeholder="O que voc&ecirc; quer ouvir?" autocomplete=off value="">
+<button type=submit>Buscar</button>
+</label>
+</form>
+<menu id=navbar>
+<li data-navbar=VagalumeMain><a href="/">Vagalume</a></li>
+<li data-navbar=Artists><a href="/browse/">A-Z</a></li>
+<li data-navbar=Songstyles><a href="/browse/style/">Estilos</a></li>
+<li data-navbar=Top100><a href="/top100/">Top 100</a></li>
+<li data-navbar=Playlists class=last><a href="/playlisteiros/">Playlists</a></li>
+<li data-navbar=Radio><a href="https://vagalume.fm/"><span class="vico newRadioMenu"></span>R&aacute;dio</a></li>
+<li data-navbar=Hotspots><a href="/browse/hotspots/">Hot Spots</a></li>
+<li data-navbar=News><a href="/news/">Not&iacute;cias</a></li>
+</menu>
+</div>
+
+</header>
+<div id=vagalume>
+<div id=hotspot>
+<div id=hotImg>
+<ul id=hotAnimated>
+<li class='hShow hotVisible hFade'>
+<a href="https://www.vagalume.com.br/mura-masa/1-night-feat-charli-xcx.html?hotspot=1#play:sjle_ZI4elo:3ade68b7ga9c92ea3:BIG" data-hotID="8090">
+<img src="https://s2.vagalume.com/mura-masa/images/119727.jpg" alt="Mura Masa ft. Charli XCX" width=570 height=315>
+</a>
+</li>
+<li class='hNext hotVisible'>
+<a href="https://www.vagalume.com.br/kendrick-lamar/the-heart-part-four.html?hotspot=1#play:lbYIUnV8u7E:3ade68b7gdcb92ea3" data-hotID="8087" data-hot='https://s2.vagalume.com/kendrick-lamar/images/119726.jpg' data-alt='Kendrick Lamar'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/lollapalooza2017/?hotspot=1" data-hotID="8068" data-hot='https://s2.vagalume.com/vaga-lume/images/119713.jpg' data-alt='Lollapalooza Brasil 2017'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/brooke-candy/living-out-loud-feat-sia.html?hotspot=1#play:LFKRCIZ02J0:3ade68b7gf9c92ea3:BIG" data-hotID="8086" data-hot='https://s2.vagalume.com/brooke-candy/images/119712.jpg' data-alt='Brooke Candy ft. Sia'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/prince-royce/deja-vu-feat-shakira.html?hotspot=1#play:XEvKn-QgAY0:3ade68b7g3cb92ea3:BIG" data-hotID="8082" data-hot='https://s2.vagalume.com/prince-royce/images/119694.jpg' data-alt='Prince Royce ft. Shakira'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/all-time-low/last-young-renegade.html?hotspot=1#play:zdXNNw4947U:3ade68b7g8ab92ea3:BIG" data-hotID="8081" data-hot='https://s2.vagalume.com/all-time-low/images/119690.jpg' data-alt='All Time Low'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/iggy-azalea/mo-bounce.html?hotspot=1#play:YQ2xtWgBlzk:3ade68b7g4ab92ea3:BIG" data-hotID="8080" data-hot='https://s2.vagalume.com/iggy-azalea/images/119677.jpg' data-alt='Iggy Azalea'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/zayn/still-got-time-feat-partynextdoor.html?hotspot=1#play:K4ZeDuKF4m8:3ade68b7gd9b92ea3" data-hotID="8079" data-hot='https://s2.vagalume.com/zayn/images/117397.jpg' data-alt='ZAYN'></a>
+</li>
+<li>
+<a href="https://www.vagalume.com.br/nicki-minaj/regret-in-your-tears.html?hotspot=1#play:7Bbuxtq-zk0:3ade68b7gb9b92ea3" data-hotID="8078" data-hot='https://s2.vagalume.com/nicki-minaj/images/117755.jpg' data-alt='Nicki Minaj'></a>
+</li>
+<li class='hPrev hotVisible'>
+<a href="https://vagalume.fm/lollapalooza-2017/?hotspot=1" data-hotID="8074" data-hot='https://s2.vagalume.com/vaga-lume/images/119667.jpg' data-alt='Lollapalooza Brasil no Vagalume.FM!'></a>
+</li>
+</ul>
+</div>
+<div id=hotDesc style='background-color:#141217'>
+<h6 data-text='Hot'>Hot	Spot</h6>
+<ul>
+<li class='hShow' data-hotColors='#141217!#9E822E!#82252D'>
+<a href="https://www.vagalume.com.br/mura-masa/1-night-feat-charli-xcx.html?hotspot=1#play:sjle_ZI4elo:3ade68b7ga9c92ea3:BIG" data-hotID="8090">
+<h4 class=hotH4>Mura Masa ft. Charli XCX</h4>
+<p class=hotP>Veja o novo clipe, &quot;1 Night&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#100A03!#460E11!#440D12'>
+<a href="https://www.vagalume.com.br/kendrick-lamar/the-heart-part-four.html?hotspot=1#play:lbYIUnV8u7E:3ade68b7gdcb92ea3" data-hotID="8087">
+<h4 class=hotH4>Kendrick Lamar</h4>
+<p class=hotP>Escute a nova m&uacute;sica, &quot;The Heart Part Four&quot;, com letra e tradu&ccedil;&atilde;o!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#2E2C2E!#6B4286!#D3FF00'>
+<a href="https://www.vagalume.com.br/lollapalooza2017/?hotspot=1" data-hotID="8068">
+<h4 class=hotH4>Lollapalooza Brasil 2017</h4>
+<p class=hotP>J&aacute; deixou saudades! Confira aqui tudo o que rolou em nossa cobertura da edi&ccedil;&atilde;o deste ano do Lolla: v&iacute;deos, fotos, mat&eacute;rias, entrevistas e muito mais!</p>
+</a>
+</li>
+<li data-hotColors='#000000!#B67D86!#94886E'>
+<a href="https://www.vagalume.com.br/brooke-candy/living-out-loud-feat-sia.html?hotspot=1#play:LFKRCIZ02J0:3ade68b7gf9c92ea3:BIG" data-hotID="8086">
+<h4 class=hotH4>Brooke Candy ft. Sia</h4>
+<p class=hotP>Veja o novo clipe, &quot;Living Out Loud&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#191925!#000000!#8E6F6C'>
+<a href="https://www.vagalume.com.br/prince-royce/deja-vu-feat-shakira.html?hotspot=1#play:XEvKn-QgAY0:3ade68b7g3cb92ea3:BIG" data-hotID="8082">
+<h4 class=hotH4>Prince Royce ft. Shakira</h4>
+<p class=hotP>Veja o clipe da m&uacute;sica &quot;Deja Vu&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#141015!#000000!#133D55'>
+<a href="https://www.vagalume.com.br/all-time-low/last-young-renegade.html?hotspot=1#play:zdXNNw4947U:3ade68b7g8ab92ea3:BIG" data-hotID="8081">
+<h4 class=hotH4>All Time Low</h4>
+<p class=hotP>Veja o novo clipe da banda, &quot;Last Young Renegade&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#0D0A0A!#0B0F3D!#3A2E87'>
+<a href="https://www.vagalume.com.br/iggy-azalea/mo-bounce.html?hotspot=1#play:YQ2xtWgBlzk:3ade68b7g4ab92ea3:BIG" data-hotID="8080">
+<h4 class=hotH4>Iggy Azalea</h4>
+<p class=hotP>Veja o novo clipe da rapper, &quot;MO Bounce&quot;, com legendas!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#070507!#000000!#004040'>
+<a href="https://www.vagalume.com.br/zayn/still-got-time-feat-partynextdoor.html?hotspot=1#play:K4ZeDuKF4m8:3ade68b7gd9b92ea3" data-hotID="8079">
+<h4 class=hotH4>ZAYN</h4>
+<p class=hotP>Veja o lyric video de &quot;Still Got Time (feat. PARTYNEXDOOR)&quot;, novo single do cantor!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#000102!#000000!#D2B093'>
+<a href="https://www.vagalume.com.br/nicki-minaj/regret-in-your-tears.html?hotspot=1#play:7Bbuxtq-zk0:3ade68b7gb9b92ea3" data-hotID="8078">
+<h4 class=hotH4>Nicki Minaj</h4>
+<p class=hotP>Veja o lyric video de &quot;Regret In Your Tears&quot;, nova m&uacute;sica da rapper!</p>
+<span class=hotPlay>play</span>
+</a>
+</li>
+<li data-hotColors='#2E2C2E!#89E346!#904BC0'>
+<a href="https://vagalume.fm/lollapalooza-2017/?hotspot=1" data-hotID="8074">
+<h4 class=hotH4>Lollapalooza Brasil no Vagalume.FM!</h4>
+<p class=hotP>Escute a nossa esta&ccedil;&atilde;o com os principais artistas desta edi&ccedil;&atilde;o do Lollapalooza Brasil, como The Weeknd, Metallica, The Chainsmokers e mais!</p>
+</a>
+</li>
+</ul>
+<span class=hotPrev></span>
+<span class=hotNext></span>
+</div>
+<div id=shapeAnimated><div id=shToRotate style='border-right-color:#82252D'></div></div>
+<div id=hShape1 style='background-color:#82252D'></div>
+<div id=hShape2 style='background-color:#9E822E'></div>
+<svg id=hShape3>
+<defs>
+<polygon id="r1" points="50,60 240,0 240,315 50,260" />
+<linearGradient id = "g1" x1 = "0%" y1 = "0%" x2 = "120%" y2 = "0%">
+<stop stop-color = "black" offset = "0%"/>
+<stop id=sh3Color stop-color = "#141217" offset = "100%"/>
+</linearGradient>
+</defs>
+<use x = "325" y = "25" xlink:href = "#r1" fill = "url(#g1)"/>
+</svg>
+</div>
+<div id=home_leaderboard1 class=ad data-ad=home_leaderboard data-adSize="[[1000, 90], [970, 250]]"></div>
+<div class="vNews vNews3 vTrack" data-vtrack=Noticias>
+<h6 data-text=Not&iacute;cias>Not&iacute;cias</h6>
+<a class=moreNews href=/news/>Todas as Not&iacute;cias &raquo;</a>
+<div class="block area2x2 c2">
+<div class="OUTBRAIN" data-widget-id="SF_1" data-ob-template="Vagalume"></div>
+<script type="text/javascript" async="async" src="https://widgets.outbrain.com/outbrain.js"></script>
+</div>
+<a href="/news/2017/03/28/calvin-harris-anuncia-parceria-com-ariana-grande-e-pharrell-williams-heartstroke.html" class="block area1x2" style="background:url(https://s2.vagalume.com/dynimage/news32050w192h316.jpg) no-repeat top center;">
+<p><span>Calvin Harris anuncia parceria com Ariana Grande e Pharrell Williams, &quot;Heartstroke&quot;</span>
+</p>
+</a>
+<a href="/news/2017/03/28/chris-brown-grava-clipe-de-privacy.html" class="block area2x1 l3" style="background:url(https://s2.vagalume.com/dynimage/news32049w394h153.jpg) no-repeat top center;">
+<p><span>Chris Brown grava clipe de &quot;Privacy&quot;</span>
+</p>
+</a>
+<a href="/news/2017/03/28/harry-styles-fara-primeira-performance-solo-no-saturday-night-live-em-abril.html" class="block area2x1 c3 l3" style="background:url(https://s2.vagalume.com/dynimage/news32048w394h153.jpg) no-repeat top center;">
+<p><span>Harry Styles fará primeira performance solo no &quot;Saturday Night Live&quot; em abril</span>
+</p>
+</a>
+<a href="/news/2017/03/28/tegan-and-sara-lancam-curta-metragem-veja-u-turn.html" class="block area2x1 c4" style="background:url(https://s2.vagalume.com/dynimage/news32047w394h153.jpg) no-repeat top center;">
+<p><span>Tegan And Sara lançam curta-metragem para divulgar a música &quot;U-Turn&quot;. Veja!</span>
+</p>
+</a>
+<a href="/news/2017/03/28/novo-album-do-queens-of-stone-age-ja-esta-pronto-diz-ator-proximo-a-banda.html" class="block area2x1 c4 l2" style="background:url(https://s2.vagalume.com/dynimage/news32046w394h153.jpg) no-repeat top center;">
+<p><span>Novo álbum do Queens Of Stone Age já está pronto, diz ator e podcaster próximo à banda</span>
+</p>
+</a>
+<a href="/news/2017/03/28/novo-album-de-lana-del-rey-tera-musica-composta-por-the-weeknd.html" class="block area1x1 c5 l3" style="background:url(https://s2.vagalume.com/dynimage/news32044w192h153.jpg) no-repeat top center;">
+<p><span>Novo álbum de Lana Del Rey terá música composta por The Weeknd</span>
+</p>
+</a>
+<hr/>
+</div>
+<div id=pls class=vTrack>
+<h6 data-text="Playlist de hoje">Playlist de hoje</h6>
+<a class=playlist href="/playlisteiros/apenas-cantores-com-a-mesma-inicial-da-cidade-onde-voce-mora/" title="Apenas cantores com a mesma inicial da cidade onde você mora.">
+Apenas cantores com a mesma inicial da cidade onde você mora.</a>
+<var class="vBtn play" data-url="/playlisteiros/apenas-cantores-com-a-mesma-inicial-da-cidade-onde-voce-mora/#play">PLAY</var>
+<ul>
+<li>
+<a href="/iggy-azalea/fancy-feat-charli-xcx.html">Fancy (feat. Charli Xcx) / <b>Iggy Azalea</b></a>
+</li>
+<li>
+<a href="/cassia-eller/o-segundo-sol.html">O Segundo Sol / <b>Cássia Eller</b></a>
+</li>
+<li>
+<a href="/one-direction/best-song-ever.html">Best Song Ever / <b>One Direction</b></a>
+</li>
+<li>
+<a href="/duran-duran/ordinary-world.html">Ordinary World / <b>Duran Duran</b></a>
+</li>
+<li>
+<a href="/depeche-mode/enjoy-the-silence.html">Enjoy The Silence / <b>Depeche Mode</b></a>
+</li>
+<li>
+<a href="/coldplay/hymn-for-the-weekend.html">Hymn for the Weekend (Feat. Beyoncé) / <b>Coldplay</b></a>
+</li>
+<li>
+<a href="/bruce-springsteen/streets-of-philadelphia.html">Streets Of Philadelphia / <b>Bruce Springsteen</b></a>
+</li>
+<li>
+<a href="/rammstein/du-hast.html">Du Hast / <b>Rammstein</b></a>
+</li>
+<li>
+<a href="/david-bowie/space-oddity.html">Space Oddity / <b>David Bowie</b></a>
+</li>
+<li>
+<a href="/deftones/diamond-eyes.html">Diamond Eyes / <b>Deftones</b></a>
+</li>
+</ul>
+<a href="/playlisteiros/apenas-cantores-com-a-mesma-inicial-da-cidade-onde-voce-mora/">+ 292 m&uacute;sicas sugeridas (at&eacute; agora)</a>
+<a class="blue" href="/playlisteiros/apenas-cantores-com-a-mesma-inicial-da-cidade-onde-voce-mora/">vem sugerir tamb&eacute;m!</a>
+</div>
+<div id=quote class=vTrack data-vtrack-mark="Charlie Brown Jr / Meu Novo Mundo / A vontade de te ver já é maior que tudo. (#36)">
+<h6 data-text=Quote>Quote</h6>
+ <a href="/charlie-brown-jr/meu-novo-mundo.html" id=quoteImg data-link="1cukx" data-img="https://s2.vagalume.com/dynimage/spotquote36.jpg" data-id="quote36"></a>
+<div id=quoteText>
+<span>A vontade de te ver já é maior que tudo.</span>
+</div>
+<div id=quoteArt>
+<a href="/charlie-brown-jr/meu-novo-mundo.html">
+Meu Novo Mundo<span>Charlie Brown Jr</span>
+</a>
+<var id=share></var>
+<var class="vBtn play" data-url="/charlie-brown-jr/meu-novo-mundo.html#play">PLAY</var>
+</div>
+</div>
+<div id=spotVideo class=vTrack>
+<h6 data-text='Clipes em destaque'>Clipes em destaque</h6>
+<div id=label_video>
+<label id=month class=vSel>
+<select class=vForm>
+<option value="01">Janeiro</option>
+ <option value="02">Fevereiro</option>
+ <option value="03">Março</option>
+ <option value="04">Abril</option>
+ <option value="05">Maio</option>
+ <option value="06">Junho</option>
+ <option value="07">Julho</option>
+ <option value="08">Agosto</option>
+ <option value="09">Setembro</option>
+ <option value="10">Outubro</option>
+ <option value="11">Novembro</option>
+ <option value="12">Dezembro</option>
+ </select>
+</label>
+<label id=year class=vSel>
+<select class=vForm>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+</select>
+</label>
+</div>
+<div id=artVideo>
+<div id=vTeaser class=vPlayerStd itemprop=video itemtype="https://schema.org/VideoObject">
+<img itemprop=thumbnail alt=Play src="https://i1.ytimg.com/vi/94MHIeeGwys/hqdefault.jpg"/>
+<div class=vidCtrl>
+<ul>
+<li class="prev disable"></li>
+<li class=play></li>
+<li class=next></li>
+</ul>
+</div>
+</div>
+</div>
+<div id=moreSpotVideo class=shadowSpotDown>
+<ul>
+<li  id=vh_li201703 data-month="MAR / 2017" class="firstDay selected">
+<a class=mus href="/michael-buble/i-believe-in-you.html" data-date="28/03/2017" data-playitem="[&quot;94MHIeeGwys&quot;,&quot;I Believe In You&quot;,&quot;3ade68b8gc41da0b3&quot;,&quot;Michael Bubl\u00e9&quot;,&quot;3ade68b6gf49beda3&quot;]" data-img="https://s2.vagalume.com/michael-buble/images/profile.jpg">I Believe In You</a>
+Michael Bublé</li>
+<li >
+<a class=mus href="/maroon-5/cold-feat-future.html" data-date="27/03/2017" data-playitem="[&quot;XatXy6ZhKZw&quot;,&quot;Cold (Feat. Future)&quot;,&quot;3ade68b8ga288b0b3&quot;,&quot;Maroon 5&quot;,&quot;3ade68b6g61f9eda3&quot;]" data-img="https://s2.vagalume.com/maroon-5/images/profile.jpg">Cold (Feat. Future)</a>
+Maroon 5</li>
+<li >
+<a class=mus href="/the-chainsmokers/paris.html" data-date="24/03/2017" data-playitem="[&quot;fRNkQH4DVg8&quot;,&quot;Paris&quot;,&quot;3ade68b8gb096b0b3&quot;,&quot;The Chainsmokers&quot;,&quot;3ade68b7g14e62ea3&quot;]" data-img="https://s2.vagalume.com/the-chainsmokers/images/profile.jpg">Paris</a>
+The Chainsmokers</li>
+<li >
+<a class=mus href="/the-pretty-reckless/oh-my-god.html" data-date="23/03/2017" data-playitem="[&quot;ldaYUkyDxx0&quot;,&quot;Oh My God&quot;,&quot;3ade68b8g497da0b3&quot;,&quot;The Pretty Reckless&quot;,&quot;3ade68b7gf9431ea3&quot;]" data-img="https://s2.vagalume.com/the-pretty-reckless/images/profile.jpg">Oh My God</a>
+The Pretty Reckless</li>
+<li >
+<a class=mus href="/kings-of-leon/reverend.html" data-date="22/03/2017" data-playitem="[&quot;ldaMJG_sb18&quot;,&quot;Reverend&quot;,&quot;3ade68b8gd6ffa0b3&quot;,&quot;Kings Of Leon&quot;,&quot;3ade68b6g564aeda3&quot;]" data-img="https://s2.vagalume.com/kings-of-leon/images/profile.jpg">Reverend</a>
+Kings Of Leon</li>
+<li >
+<a class=mus href="/you-me-at-six/give.html" data-date="21/03/2017" data-playitem="[&quot;r6EakBG9DuI&quot;,&quot;Give&quot;,&quot;3ade68b8gb3c3b0b3&quot;,&quot;You Me At Six&quot;,&quot;3ade68b7g1b030ea3&quot;]" data-img="https://s2.vagalume.com/you-me-at-six/images/profile.jpg">Give</a>
+You Me At Six</li>
+<li >
+<a class=mus href="/lady-gaga/john-wayne.html" data-date="20/03/2017" data-playitem="[&quot;o9iQ8lIfyEs&quot;,&quot;John Wayne&quot;,&quot;3ade68b8ga7a0b0b3&quot;,&quot;Lady Gaga&quot;,&quot;3ade68b7g7d2c0ea3&quot;]" data-img="https://s2.vagalume.com/lady-gaga/images/profile.jpg">John Wayne</a>
+Lady Gaga</li>
+<li >
+<a class=mus href="/twenty-one-pilots/heavydirtysoul.html" data-date="17/03/2017" data-playitem="[&quot;r_9Kf0D5BTs&quot;,&quot;Heavydirtysoul&quot;,&quot;3ade68b8g4f2d70b3&quot;,&quot;Twenty One Pilots&quot;,&quot;3ade68b7g2e7f1ea3&quot;]" data-img="https://s2.vagalume.com/twenty-one-pilots/images/profile.jpg">Heavydirtysoul</a>
+Twenty One Pilots</li>
+<li >
+<a class=mus href="/zara-larsson/so-good-feat-ty-dolla-sign.html" data-date="16/03/2017" data-playitem="[&quot;XTWDTBkj6xU&quot;,&quot;So Good (Feat. Ty Dolla $ign)&quot;,&quot;3ade68b8gc837b0b3&quot;,&quot;Zara Larsson&quot;,&quot;3ade68b7gc3152ea3&quot;]" data-img="https://s2.vagalume.com/zara-larsson/images/profile.jpg">So Good (Feat. Ty Dolla $ign)</a>
+Zara Larsson</li>
+<li >
+<a class=mus href="/mariah-carey/i-dont-feat-yg.html" data-date="15/03/2017" data-playitem="[&quot;oiQ68AW0LMY&quot;,&quot;I Don&#039;t (Feat. YG)&quot;,&quot;3ade68b8gdcf7b0b3&quot;,&quot;Mariah Carey&quot;,&quot;3ade68b4g9fb6eda3&quot;]" data-img="https://s2.vagalume.com/mariah-carey/images/profile.jpg">I Don&#039;t (Feat. YG)</a>
+Mariah Carey</li>
+<li >
+<a class=mus href="/james-blunt/love-me-better.html" data-date="14/03/2017" data-playitem="[&quot;RFHHEac83B8&quot;,&quot;Love Me Better&quot;,&quot;3ade68b8g0ce7b0b3&quot;,&quot;James Blunt&quot;,&quot;3ade68b6g601feda3&quot;]" data-img="https://s2.vagalume.com/james-blunt/images/profile.jpg">Love Me Better</a>
+James Blunt</li>
+<li >
+<a class=mus href="/inna/gimme-gimme.html" data-date="13/03/2017" data-playitem="[&quot;Jr4TMIU9oQ4&quot;,&quot;Gimme Gimme&quot;,&quot;3ade68b8g9fc7b0b3&quot;,&quot;Inna&quot;,&quot;3ade68b7g2fd21ea3&quot;]" data-img="https://s2.vagalume.com/inna/images/profile.jpg">Gimme Gimme</a>
+Inna</li>
+<li >
+<a class=mus href="/robin-schulz/shed-a-light-ft-david-guetta-cheat-codes.html" data-date="10/03/2017" data-playitem="[&quot;vdI0JLVhdYc&quot;,&quot;Shed a Light (Ft. David Guetta &amp; Cheat Codes)&quot;,&quot;3ade68b8gc7d3b0b3&quot;,&quot;Robin Schulz&quot;,&quot;3ade68b7g0a592ea3&quot;]" data-img="https://s2.vagalume.com/robin-schulz/images/profile.jpg">Shed a Light (Ft. David Guetta &amp; Cheat Codes)</a>
+Robin Schulz</li>
+<li >
+<a class=mus href="/ed-sheeran/shape-of-you.html" data-date="09/03/2017" data-playitem="[&quot;JGwWNGJdvx8&quot;,&quot;Shape Of You&quot;,&quot;3ade68b8g4a06b0b3&quot;,&quot;Ed Sheeran&quot;,&quot;3ade68b7g30dd1ea3&quot;]" data-img="https://s2.vagalume.com/ed-sheeran/images/profile.jpg">Shape Of You</a>
+Ed Sheeran</li>
+<li >
+<a class=mus href="/dan-croll/away-from-today.html" data-date="08/03/2017" data-playitem="[&quot;Foeoyb9AIS0&quot;,&quot;Away From Today&quot;,&quot;3ade68b8g0577b0b3&quot;,&quot;Dan Croll&quot;,&quot;3ade68b7g0c872ea3&quot;]" data-img="https://s2.vagalume.com/dan-croll/images/profile.jpg">Away From Today</a>
+Dan Croll</li>
+<li >
+<a class=mus href="/taylor-swift/i-dont-wanna-live-forever.html" data-date="07/03/2017" data-playitem="[&quot;7F37r50VUTQ&quot;,&quot;I Don&#039;t Wanna Live Forever&quot;,&quot;3ade68b8g8594b0b3&quot;,&quot;Taylor Swift&quot;,&quot;3ade68b6gaefbfda3&quot;]" data-img="https://s2.vagalume.com/taylor-swift/images/profile.jpg">I Don&#039;t Wanna Live Forever</a>
+Taylor Swift</li>
+<li >
+<a class=mus href="/martin-garrix/scared-to-be-lonely-feat-dua-lipa.html" data-date="06/03/2017" data-playitem="[&quot;e2vBLd5Egnk&quot;,&quot;Scared To Be Lonely (Feat. Dua Lipa)&quot;,&quot;3ade68b8g5767b0b3&quot;,&quot;Martin Garrix&quot;,&quot;3ade68b7gb5462ea3&quot;]" data-img="https://s2.vagalume.com/martin-garrix/images/profile.jpg">Scared To Be Lonely (Feat. Dua Lipa)</a>
+Martin Garrix</li>
+<li >
+<a class=mus href="/lily-allen/going-to-a-town.html" data-date="03/03/2017" data-playitem="[&quot;5NeqyLBHkCQ&quot;,&quot;Going To a Town&quot;,&quot;3ade68b8gc657b0b3&quot;,&quot;Lily Allen&quot;,&quot;3ade68b6g5e76fda3&quot;]" data-img="https://s2.vagalume.com/lily-allen/images/profile.jpg">Going To a Town</a>
+Lily Allen</li>
+<li >
+<a class=mus href="/ed-sheeran/castle-on-the-hill.html" data-date="02/03/2017" data-playitem="[&quot;K0ibBPhiaG0&quot;,&quot;Castle On The Hill&quot;,&quot;3ade68b8gda06b0b3&quot;,&quot;Ed Sheeran&quot;,&quot;3ade68b7g30dd1ea3&quot;]" data-img="https://s2.vagalume.com/ed-sheeran/images/profile.jpg">Castle On The Hill</a>
+Ed Sheeran</li>
+<li >
+<a class=mus href="/little-mix/touch.html" data-date="01/03/2017" data-playitem="[&quot;gBAfejjUQoA&quot;,&quot;Touch&quot;,&quot;3ade68b8g2a63b0b3&quot;,&quot;Little Mix&quot;,&quot;3ade68b7g9f402ea3&quot;]" data-img="https://s2.vagalume.com/little-mix/images/profile.jpg">Touch</a>
+Little Mix</li>
+</ul>
+</div>
+<div class=spotVideo>
+<var class="up vBtn disable"></var><var class="down vBtn"></var>
+</div>
+</div>
+<div id="main_vagalumefm">
+<h6 data-text="R&aacute;dio Vagalume.FM">R&aacute;dio Vagalume.FM</h6>
+<a href="https://vagalume.fm/" target="_blank">Todas as esta&ccedil;&otilde;es &raquo;</a>
+<ul>
+<li>
+<a href="https://vagalume.fm/vagalume-vibe/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/vagalume-vibe.png" alt="Vagalume Vibe">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/pop/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/pop.png" alt="Pop">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/sertanejo/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/sertanejo.png" alt="Sertanejo">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock.png" alt="Rock">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/mpb/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/mpb.png" alt="MPB">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/summer/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/summer.png" alt="Summer">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/gospel/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/gospel.png" alt="Gospel">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/reggae/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/reggae.png" alt="Raggae">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/punk-pop/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/punk-pop.png" alt="Punk Pop">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/acustico/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/acustico.png" alt="Ac&uacute;stico">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/eletronica/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/eletronica.png" alt="Eletr&ocirc;nica">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rb/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rb.png" alt="R&amp;B">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock-de-bowie-ao-seculo-21/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock-de-bowie-ao-seculo-21.png" alt="Rock - De Bowie ao s&eacute;culo 21">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/rock-das-raizes-ao-progressivo/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/rock-das-raizes-ao-progressivo.png" alt="Rock - Das Ra&iacute;zes ao Progressivo ">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/light/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/light.png" alt="Light">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/flashback/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/flashback.png" alt="Flashback">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/dance-music/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/dance-music.png" alt="Dance Music">
+</a>
+</li>
+<li>
+<a href="https://vagalume.fm/trilhas-e-etc/" target=_blank>
+<img src="https://s1.vagalume.com/images/vagalumefm/stations/trilhas-e-etc.png" alt="Temas de S&eacute;ries e Desenhos">
+</a>
+</li>
+</ul>
+</div>
+<div id=tops>
+<div id=topartists class=vTrack>
+<h6 data-text='Top Artistas'>Top Artistas</h6>
+<div id=label_filter_art>
+<label class="vSel lblgroup art">
+<select class=vForm data-type=art>
+<option value=internacional>Internacional</option>
+<option value=all>Geral</option>
+<option value=nacional>Nacional</option>
+</select>
+</label>
+<label class="vSel lbltime art">
+<select class=vForm data-type=art>
+<option data-type="day" value="20170328">Hoje</option>
+<option data-type="day" value="20170327">Ontem</option>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topart>
+<li class=vArtV>
+<a href="/ed-sheeran/" data-img="https://s2.vagalume.com/ed-sheeran/images/profile-widew314.jpg" width=314>
+<span class=rankPos>01&deg;</span>
+<em>
+<span>Ed Sheeran</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/melanie-martinez/" data-img="https://s2.vagalume.com/melanie-martinez/images/profile-big.jpg" width=152>
+<span class=rankPos>02&deg;</span>
+<em>
+<span>Melanie Martinez</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/the-chainsmokers/" data-img="https://s2.vagalume.com/the-chainsmokers/images/profile-big.jpg" width=152>
+<span class=rankPos>03&deg;</span>
+<em>
+<span>The Chainsmokers</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/coldplay/" data-img="https://s2.vagalume.com/coldplay/images/profile-big.jpg" width=152>
+<span class=rankPos>04&deg;</span>
+<em>
+<span>Coldplay</span>
+</em>
+</a>
+</li>
+<li class=vArtV>
+<a href="/justin-bieber/" data-img="https://s2.vagalume.com/justin-bieber/images/profile-big.jpg" width=152>
+<span class=rankPos>05&deg;</span>
+<em>
+<span>Justin Bieber</span>
+</em>
+</a>
+</li>
+</ul>
+<div class="pagination art">
+<var class="vBtn up disable" data-type=art></var><var class="vBtn down " data-type=art></var>
+<a href="/top100/artistas/" class=linkTop100> Top 100 artistas &raquo;</a>
+</div>
+</div>
+<div id=topmusics class=vTrack>
+<h6 data-text='Top M&uacute;sicas'>Top M&uacute;sicas</h6>
+<div id=label_filter_msc>
+<label class="vSel lblgroup mus">
+<select class=vForm data-type=mus>
+<option value=lyrics>Geral</option>
+<option value=all>Letras</option>
+<option value=translations>Tradu&ccedil;&otilde;es</option>
+<option value=chords>Cifras</option>
+</select>
+</label>
+<label class="vSel lbltime mus">
+<select class=vForm data-type=mus>
+<option data-type="day" value="20170328">Hoje</option>
+<option data-type="day" value="20170327">Ontem</option>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topmus>
+<li>
+<b>01</b>
+<a href="/ana-vilela/trem-bala.html">Trem Bala<i>Ana Vilela</i></a>
+</li>
+<li>
+<b>02</b>
+<a href="/henrique-e-juliano/vidinha-de-balada.html">Vidinha de Balada<i>Henrique e Juliano</i></a>
+</li>
+<li>
+<b>03</b>
+<a href="/ed-sheeran/shape-of-you.html">Shape Of You<i>Ed Sheeran</i></a>
+</li>
+<li>
+<b>04</b>
+<a href="/thiago-matheus/eu-nao-quero-casar.html">Eu Não Quero Casar<i>Thiago Matheus</i></a>
+</li>
+<li>
+<b>05</b>
+<a href="/ed-sheeran/shape-of-you-traducao.html">Shape Of You (tradução)<i>Ed Sheeran</i></a>
+</li>
+<li>
+<b>06</b>
+<a href="/ney-alves/kakaka.html">Kakaka<i>Ney Alves</i></a>
+</li>
+<li>
+<b>07</b>
+<a href="/haikaiss/rap-lord.html">Rap Lord<i>Haikaiss</i></a>
+</li>
+<li>
+<b>08</b>
+<a href="/nego-do-borel/voce-partiu-meu-coracao-feat-anitta-wesley-safadao.html">Voce Partiu Meu Coração (Feat. Anitta & Wesley Safadão)<i>Nego do Borel</i></a>
+</li>
+<li>
+<b>09</b>
+<a href="/matheus-e-kauan/te-assumi-pro-brasil.html">Te Assumi Pro Brasil<i>Matheus e Kauan</i></a>
+</li>
+<li>
+<b>10</b>
+<a href="/marilia-mendonca/de-quem-e-a-culpa.html">De Quem É a Culpa?<i>Marília Mendonça</i></a>
+</li>
+<span class=notFound>Dados ainda n&atilde;o dispon&iacute;veis para o<br/>periodo que voc&ecirc; escolheu!<br/><br/>Se o problema persistir, por favor<br/><a href="/contato/" rel="nofollow">avise</a> a equipe do Vagalume!</span>
+</ul>
+<div class="pagination mus">
+<var class="vBtn up disable" data-type=mus></var><var class="vBtn down" data-type=mus></var>
+<a href="/top100/musicas/" class=linkTop100> Top 100 m&uacute;sicas &raquo;</a>
+</div>
+</div>
+<div id=topalbuns class=vTrack>
+<h6 data-text="Top &Aacute;lbuns">Top &Aacute;lbuns</h6>
+<div id=label_filter_alb>
+<label class="vSel lblgroup alb">
+<select class=vForm data-type=alb>
+<option value=internacional>Internacional</option>
+<option value=all>Geral</option>
+<option value=nacional>Nacional</option>
+</select>
+</label>
+<label class="vSel lbltime alb">
+<select class=vForm data-type=alb>
+<option data-type="week" value="201712">Semana</option>
+<option data-type="month" value="201611">Nov'16</option>
+<option data-type="month" value="201612">Dez'16</option>
+<option data-type="month" value="201701">Jan'17</option>
+<option data-type="month" value="201702">Fev'17</option>
+<option data-type="month" value="201703" selected=selected>Mar'17</option>
+</select>
+</label>
+</div>
+<ul class=content_topalb>
+<li class=vArtAlb>
+<a href="/ed-sheeran/discografia/-10.html" data-date="2017" data-img="https://s2.vagalume.com/ed-sheeran/discografia/-10-W100.jpg">
+<span class=rankPos>01&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>÷</span>
+<i>Ed Sheeran</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/melanie-martinez/discografia/cry-baby.html" data-date="2015" data-img="https://s2.vagalume.com/melanie-martinez/discografia/cry-baby-W100.jpg">
+<span class=rankPos>02&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Cry Baby</span>
+<i>Melanie Martinez</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/ed-sheeran/discografia/x-letras-11.html" data-date="2014" data-img="https://s2.vagalume.com/ed-sheeran/discografia/x-letras-11-W100.jpg">
+<span class=rankPos>03&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>x</span>
+<i>Ed Sheeran</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/shawn-mendes/discografia/illuminate.html" data-date="2016" data-img="https://s2.vagalume.com/shawn-mendes/discografia/illuminate-W100.jpg">
+<span class=rankPos>04&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Illuminate</span>
+<i>Shawn Mendes</i>
+</a>
+</li>
+<li class=vArtAlb>
+<a href="/justin-bieber/discografia/purpose.html" data-date="2015" data-img="https://s2.vagalume.com/justin-bieber/discografia/purpose-W100.jpg">
+<span class=rankPos>05&deg;</span>
+<figure class=albumArt>
+</figure>
+<span>Purpose</span>
+<i>Justin Bieber</i>
+</a>
+</li>
+</ul>
+<div class="pagination alb">
+<var class="up vBtn disable" data-type=alb></var><var class="down vBtn" data-type=alb></var>
+<a href="/top100/albuns/" class=linkTop100> Top 100 &aacute;lbuns &raquo;</a>
+</div>
+</div>
+</div></div>
+<footer id=rodape>
+<div id=footVglLink>
+<div>
+<span>www.vagalume.com.br</span>
+</div>
+</div>
+<div id=footVglSections>
+<div id=column1>
+<div id=allSites>
+<span>Todos os nossos sites</span>
+<ul>
+<li><a href="https://www.vagalume.com.br/playlisteiros/">Playlisteiros</a></li>
+<li><a href="https://drive.vagalume.com.br/">Drive</a></li>
+<li><a href="https://aprenda.vagalume.com.br/">Aprenda Inglês</a></li>
+<li><a href="https://traducao.vagalume.com.br/">Tradução</a></li>
+<li><a href="https://www.vagalume.com.br/copa2014/">Copa Vagalume 2014</a></li>
+<li><a href="https://www.vagalume.com.br/retrospectiva/2016/">Retrospectiva Vagalume 2016</a></li>
+<li><a href="https://vagalume.fm">Rádio Vagalume.FM</a></li>
+</ul>
+</div>
+</div>
+<div id=column2>
+<div id=onSmartphone>
+<span>Ouça música grátis no Vagalume.FM pelo seu celular</span>
+<ol>
+<li><a class=iconGplay target=_blank href="https://play.google.com/store/apps/details?id=br.com.vagalume.fm&referrer=utm_campaign%3DVagalume%26utm_source%3DVagalumeHomeFooter"></a></li>
+<li><a class=iconApple target=_blank href="https://itunes.apple.com/br/app/vagalume/id1154246231?ct=VagalumeHomeFooter"></a></li>
+</ol>
+</div>
+<br>
+<div id=onNetwork>
+<span>Nas Redes Sociais</span>
+<ol>
+<li><a class=iconFB href="//facebook.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconInstagram href="//instagram.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconTwitter href="//twitter.com/sitevagalume" target=_blank></a></li>
+<li><a class=iconGoogle href="//google.com/+vagalume" target=_blank></a></li>
+<li><a class=iconYT href="//youtube.com/user/sitevagalume" target=_blank></a></li>
+<li><a class=iconTumblr href="//quotes.vagalume.com/" target=_blank></a></li>
+</ol>
+</div>			
+</div>
+<div id=column3>
+<div id=onPC>
+<span>No seu PC</span>
+<ol>
+<li><a class=iconChrome href="/plugin/chrome/"></a></li>
+<li><a class=iconItunes href="/plugin/itunes/"></a></li>
+<li><a class=iconMP href="/plugin/mediaplayer/"></a></li>
+<li><a class=iconWinamp href="/plugin/winamp/"></a></li>
+</ol>
+</div>
+<br>
+<div id=vagaPartner>
+<span>Parceiro Vagalume</span>
+<a class=iconPartner href="//entretenimento.r7.com/" target=_blank></a>
+</div>
+</div>
+</div>
+</footer>
+<div id=vgInfo><p>As informações deste site são postadas integralmente pelos usuários. É importante dizer que é possível que os dados estejam desatualizados ou incorretos, sendo assim, o Vagalume exime-se de qualquer responsabilidade sobre as informações publicadas.Caso haja interesse em remover ou alterar alguma informação, <a href="/contato/">entre em contato</a> conosco.</p><br><p>É permitida somente a visualização no site das letras de músicas encontradas aqui, vedada sua reprodução através de quaisquer outros meios (Lei 9610/98).Todas as letras de músicas são propriedade dos seus respectivos autores e divulgadas somente para fins educacion

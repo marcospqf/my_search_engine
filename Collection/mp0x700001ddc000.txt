@@ -1,0 +1,429 @@
+|||http://www.ressoar.org.br/|<!DOCTYPE html>
+<html dir="ltr" lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>Instituto Ressoar</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="shortcut icon" href="http://www.ressoar.org.br/wp-content/themes/ressoar2/favicon.ico" />
+<script src="http://www.ressoar.org.br/wp-content/themes/ressoar2/font-awesome/css/font-awesome.css" ></script>
+
+<link rel="stylesheet" href="http://www.ressoar.org.br/wp-content/themes/ressoar2/font-awesome/css/font-awesome.css" />
+<link rel="stylesheet" type="text/css" media="all" href="http://www.ressoar.org.br/wp-content/themes/ressoar2/style.css" />
+<link rel="pingback" href="http://www.ressoar.org.br/xmlrpc.php" />
+<link rel='stylesheet' id='justifiedGallery-css'  href='http://www.ressoar.org.br/wp-content/plugins/flickr-justified-gallery/css/justifiedGallery.min.css?ver=v3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='flickrJustifiedGalleryWPPlugin-css'  href='http://www.ressoar.org.br/wp-content/plugins/flickr-justified-gallery/css/flickrJustifiedGalleryWPPlugin.css?ver=v3.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='swipebox-css'  href='http://www.ressoar.org.br/wp-content/plugins/flickr-justified-gallery/lightboxes/swipebox/css/swipebox.min.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='r7-social-css'  href='http://www.ressoar.org.br/wp-content/plugins/R7/social/css/social.css?ver=3.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.ressoar.org.br/wp-content/plugins/contact-form-7/styles.css?ver=2.4.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.ressoar.org.br/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.50' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-content/plugins/R7/social/js/r7social_callbacks.js?ver=3.0.4'></script>
+<script type='text/javascript' src='http://assets.pinterest.com/js/pinit.js?ver=3.0.4'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.ressoar.org.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.ressoar.org.br/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Instituto Ressoar' href='http://www.ressoar.org.br/' />
+
+<!-- R7 Pagemap 
+<PageMap>
+ <DataObject type="web-page">
+    <Attribute name="title">Empreendedorismo</Attribute>
+    <Attribute name="author"></Attribute>
+    <Attribute name="description"></Attribute>
+    <Attribute name="publishedAt">2017-03-20T15:15:29Z</Attribute>
+    <Attribute name="updatedAt">2017-03-28T15:21:21Z</Attribute>
+    
+ <DataObject type="web-page">
+</PageMap>
+ / R7 Pagemap -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.ressoar.org.br/"/>
+<meta property="og:site_name" content="Instituto Ressoar" />
+<meta property="og:title" content="Instituto Ressoar" />
+<meta property="og:image" content="http://www.ressoar.org.br/wp-content/plugins/R7/social/images/logo-recordtv-og.png"/>
+<link rel="image_src" href="http://www.ressoar.org.br/files/2017/03/microsoft-basico-home.png" /><script src="http://www.ressoar.org.br/wp-content/plugins/r7-acessibilidade/js/mousetrap.min.js"></script>
+        <script type='text/javascript'>
+          var makeShortcut = function(keyNumber, locationHref, fn) {
+            var shortcuts = [
+                'alt+' + keyNumber,
+                'shift+alt+' + keyNumber,
+                'command+' + keyNumber,
+                'ctrl+' + keyNumber
+            ],
+            _fn = fn || function() {
+                window.location = locationHref;
+            };
+            Mousetrap.bind(shortcuts, function() {
+                _fn();
+                return false;
+            });
+          };
+          // página inicial
+          makeShortcut(1, '');
+          // ir para conteúdo
+          makeShortcut(2, '#', function() {
+              scroll(0,0);
+          });
+          // mapa do site
+          makeShortcut(3, '');
+          // foco no campo de busca
+          makeShortcut(4, '');
+          // informações de contato (página Fale com o R7)
+          makeShortcut(9, '');
+          // detalhes das teclas de atalho (página Acessibilidade)
+          makeShortcut(0, '');
+        </script>
+        
+
+
+
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="http://www.ressoar.org.br/wp-content/themes/ressoar2/css/ie.css" />
+<script src="http://www.ressoar.org.br/wp-content/themes/ressoar2/js/html5.js"></script>
+<![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+
+<script type="text/javascript" src="http://www.ressoar.org.br/wp-content/themes/ressoar2/js/funcs2.js"></script>
+</head>
+
+
+<body class="home blog">
+
+
+
+<div id="content">
+	<header>
+	  <div class="row social">
+		  <div class="col-lg-3 col-lg-offset-7 col-md-3 col-md-offset-7 col-xs-3 col-xs-offset-7 text-right">
+				FIQUE CONECTADO:
+		  </div>
+		  <div class="col-lg-2 col-md-2 col-xs-2">
+								<a href="https://www.facebook.com/institutoressoar" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="https://twitter.com/ressoar" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/instituto_ressoar/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+								<a href="https://www.youtube.com/user/programaressoar" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+						  </div>
+	  </div>
+	  <div class="row logo-menu">
+			<div class="col-lg-3 col-md-3 col-xs-3 text-center"><a href="http://www.ressoar.org.br"><img src="http://www.ressoar.org.br/wp-content/themes/ressoar2/images/logo.png" /></a></div>
+			<div class="col-lg-9 col-md-9 col-xs-9"><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-4874" class="menu-item menu-item-type-custom menu-item-4874"><a href="http://www.ressoar.org.br/quem-somos">Quem Somos</a></li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-25"><a href="http://www.ressoar.org.br/projetos/">Projetos</a></li>
+<li id="menu-item-30" class="menu-item menu-item-type-taxonomy menu-item-30"><a href="http://www.ressoar.org.br/noticias/">Notícias</a></li>
+<li id="menu-item-4866" class="menu-item menu-item-type-post_type menu-item-4866"><a href="http://www.ressoar.org.br/programas/">Programas</a></li>
+<li id="menu-item-4910" class="menu-item menu-item-type-custom menu-item-4910"><a href="http://www.ressoar.org.br/galeria/">Galeria</a></li>
+<li id="menu-item-5062" class="menu-item menu-item-type-custom menu-item-5062"><a href="http://www.ressoar.org.br/cursos/">Cursos</a></li>
+<li id="menu-item-4867" class="menu-item menu-item-type-post_type menu-item-4867"><a href="http://www.ressoar.org.br/parceiros/">Parceiros</a></li>
+<li id="menu-item-4865" class="menu-item menu-item-type-post_type menu-item-4865"><a href="http://www.ressoar.org.br/contato/">Contato</a></li>
+<li id="menu-item-4877" class="menu-item menu-item-type-post_type menu-item-4877"><a href="http://www.ressoar.org.br/apoie/">Apoie</a></li>
+</ul></div></div>
+	  </div>
+	</header>
+
+<section id="container">
+	<div id="banner" class="col-lg-12 col-md-12 col-xs-12 banner">
+		<div class="mask5">
+			<a href="" class="btnPrev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+			<a href="" class="btnNext"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				<ul>
+								<li>
+					<a href="https://www.facebook.com/institutoressoar" target="_blank"><img width="1100" height="365" src="http://www.ressoar.org.br/files/2016/12/banner-Home-1100x365.jpg" class="attachment-banner" alt="banner Home" title="banner Home" /></a>
+					<div class="legenda" style="background: ;">
+							<h3><a href="https://www.facebook.com/institutoressoar" target="_blank">Acompanhe o Ressoar</a></h3>
+							<p><a href="https://www.facebook.com/institutoressoar" target="_blank">Notícia boa você só encontra aqui, no Ressoar, acompanhe em nossas redes sociais todos os acontecimentos.</a></p>
+					</div>
+				</li>
+								<li>
+					<a href="" target="_blank"><img width="1100" height="365" src="http://www.ressoar.org.br/files/2017/02/Banner-Site.jpg" class="attachment-banner" alt="Banner Site" title="Banner Site" /></a>
+					<div class="legenda" style="background: ;">
+							<h3><a href="" target="_blank">Ressoar na Record News</a></h3>
+							<p><a href="" target="_blank">O programa Ressoar é uma revista eletrônica do Terceiro Setor, que trata de maneira direta questões como Responsabilidade Social, Cidadania, Meio Ambiente e Inclusão Social.
+
+O programa Ressoar é apresentado pelo Reinaldo Gottino e vai ao ar na Record News todos os domingos, às 17h00 e reprises domingo às 05h00 e sábado às 12h30.</a></p>
+					</div>
+				</li>
+							</ul>
+		</div>
+	</div>
+	<div class="row destaques" id="destaques">
+		<div class="col-lg-12 col-md-12 col-xs-12">
+			<div class="maskDestaques">
+    		<ul class="sliderDestaques">
+    			<li class="pgDes selected">
+    				<ul>
+											<li class="multimeios foto">
+								<a href="http://www.ressoar.org.br/noticias/" target="_blank">
+									<img width="300" height="213" src="http://www.ressoar.org.br/files/2016/11/300x213-3.jpg" class="attachment-destaques" alt="300x213 (3)" title="300x213 (3)" />									<div class="legenda text-right">
+										<img width="50" height="35" src="http://www.ressoar.org.br/files/2016/11/5.png" class="attachment-legenda-logo" alt="5" title="5" />									</div>
+								</a>
+								<div class="row">
+									<div class="col-lg-2 ressoar-logo"></div>
+									<div class="col-lg-10 descricao">
+										<h3><a href="http://www.ressoar.org.br/noticias/" target="_blank">Doação de Livros </a></h3>
+										<p><a href="http://www.ressoar.org.br/noticias/" target="_blank">O Instituto Ressoar em parceria com a Editora Minuano vem transformando vidas de diversas crianças do Projeto Nova Canaã no sertão da Bahia</a></p>
+										<div class="ver-mais text-right"><a href="">Ver mais</a></div>
+									</div>
+								</div>
+						</li>
+											<li class="sertao foto">
+								<a href="http://www.ressoar.org.br/noticias/" target="_blank">
+									<img width="300" height="213" src="http://www.ressoar.org.br/files/2016/11/300x213.jpg" class="attachment-destaques" alt="300x213" title="300x213" />									<div class="legenda text-right">
+										<img width="50" height="35" src="http://www.ressoar.org.br/files/2016/11/5.png" class="attachment-legenda-logo" alt="5" title="5" />									</div>
+								</a>
+								<div class="row">
+									<div class="col-lg-2 ressoar-logo"></div>
+									<div class="col-lg-10 descricao">
+										<h3><a href="http://www.ressoar.org.br/noticias/" target="_blank">Projeto Felicidade</a></h3>
+										<p><a href="http://www.ressoar.org.br/noticias/" target="_blank">Uma festa marcante que já em sua 6ª edição. uma festa que resgata a auto estima e coragem das meninas na luta contra o câncer.</a></p>
+										<div class="ver-mais text-right"><a href="">Ver mais</a></div>
+									</div>
+								</div>
+						</li>
+											<li class="multimeios foto">
+								<a href="http://www.ressoar.org.br/noticias/" target="_blank">
+									<img width="300" height="215" src="http://www.ressoar.org.br/files/2016/12/Jantar-Ressoar-Solidário-2016-385-300x215.jpg" class="attachment-destaques" alt="Jantar Ressoar Solidário 2016 (385)" title="Jantar Ressoar Solidário 2016 (385)" />									<div class="legenda text-right">
+										<img width="50" height="35" src="http://www.ressoar.org.br/files/2016/11/5.png" class="attachment-legenda-logo" alt="5" title="5" />									</div>
+								</a>
+								<div class="row">
+									<div class="col-lg-2 ressoar-logo"></div>
+									<div class="col-lg-10 descricao">
+										<h3><a href="http://www.ressoar.org.br/noticias/" target="_blank">Jantar Ressoar Solidário</a></h3>
+										<p><a href="http://www.ressoar.org.br/noticias/" target="_blank">Em sua 5ª edição o Jantar Ressoar Solidário, destina-se à arrecadação de fundos para as obras assistenciais do Instituto de Responsabilidade Social da Rede Record.</a></p>
+										<div class="ver-mais text-right"><a href="">Ver mais</a></div>
+									</div>
+								</div>
+						</li>
+											</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+			<nav class="pager col-lg-12 col-md-12 col-xs-12">
+				<a href=""></a>
+				<a href=""></a>
+				<a href=""></a>
+			</nav>
+	</div>
+	<div class="row videos">
+		<!--
+		 <div class="col-lg-6">
+			<div class="polaroid">
+								<a href="" target="_blank"><img width="300" height="215" src="http://www.ressoar.org.br/files/2016/12/Jantar-Ressoar-Solidário-2016-385-300x215.jpg" class="attachment-destaques" alt="Jantar Ressoar Solidário 2016 (385)" title="Jantar Ressoar Solidário 2016 (385)" /></a>
+				<h4><a href="" target="_blank"><i class="fa fa-play" aria-hidden="true"></i>ASSISTA AQUI</a></h4>
+							</div>
+
+		</div>
+
+	   -->
+<style>
+
+
+
+</style>
+		<div class="col-lg-6 col-md-6 col-xs-6">
+			<div id="rotativo-video" class="rotativo-video">
+				<div class="mask-video">
+					<ul>
+						
+
+									<li>
+										<div class="polaroid">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="375" height="280" src="http://www.ressoar.org.br/files/2016/12/Vídeo-Programa1.jpg" class="attachment-videos-programa" alt="Vídeo-Programa1" title="Vídeo-Programa1" /></a>
+											<h4>
+												<a href="http://www.ressoar.org.br/programas/" target="_blank">
+												<i class="fa fa-play" aria-hidden="true"></i>ASSISTA AQUI</a>
+											</h4>
+										</div>
+										<div class="program">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="608" height="350" src="http://www.ressoar.org.br/files/2016/12/Programas-1.jpg" class="attachment-videos-programa" alt="Programas (1)" title="Programas (1)" /></a>
+											<div class="legenda">
+												<div class="descricao">
+													<h3><a href="http://www.ressoar.org.br/programas/" target="_blank">Ressoar na Record News</a></h3>
+													<p><a href="http://www.ressoar.org.br/programas/" target="_blank">O programa Ressoar é apresentado pelo Reinaldo Gottino e vai ao ar na Record News todos os domingos, às 17h30</a></p>
+												</div>
+											</div>
+										</div>
+									</li>
+						
+
+									<li>
+										<div class="polaroid">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="375" height="280" src="http://www.ressoar.org.br/files/2016/12/Vídeo-Programa1.jpg" class="attachment-videos-programa" alt="Vídeo-Programa1" title="Vídeo-Programa1" /></a>
+											<h4>
+												<a href="http://www.ressoar.org.br/programas/" target="_blank">
+												<i class="fa fa-play" aria-hidden="true"></i>ASSISTA AQUI</a>
+											</h4>
+										</div>
+										<div class="program">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="608" height="350" src="http://www.ressoar.org.br/files/2016/12/Programas-1.jpg" class="attachment-videos-programa" alt="Programas (1)" title="Programas (1)" /></a>
+											<div class="legenda">
+												<div class="descricao">
+													<h3><a href="http://www.ressoar.org.br/programas/" target="_blank">Ressoar na Record News</a></h3>
+													<p><a href="http://www.ressoar.org.br/programas/" target="_blank">O programa Ressoar é apresentado pelo Reinaldo Gottino e vai ao ar na Record News todos os domingos, às 17h30</a></p>
+												</div>
+											</div>
+										</div>
+									</li>
+						
+
+									<li>
+										<div class="polaroid">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="375" height="280" src="http://www.ressoar.org.br/files/2016/11/375x280.jpg" class="attachment-videos-programa" alt="375x280" title="375x280" /></a>
+											<h4>
+												<a href="http://www.ressoar.org.br/programas/" target="_blank">
+												<i class="fa fa-play" aria-hidden="true"></i>ASSISTA AQUI</a>
+											</h4>
+										</div>
+										<div class="program">
+											<a href="http://www.ressoar.org.br/programas/" target="_blank"><img width="375" height="280" src="http://www.ressoar.org.br/files/2016/12/Vídeo-Programa1.jpg" class="attachment-videos-programa" alt="Vídeo-Programa1" title="Vídeo-Programa1" /></a>
+											<div class="legenda">
+												<div class="descricao">
+													<h3><a href="http://www.ressoar.org.br/programas/" target="_blank">Ressoar na Record News</a></h3>
+													<p><a href="http://www.ressoar.org.br/programas/" target="_blank">O programa Ressoar é apresentado pelo Reinaldo Gottino e vai ao ar na Record News todos os domingos, às 17h30</a></p>
+												</div>
+											</div>
+										</div>
+									</li>
+											</ul>
+				</div>
+				<nav class="pager">
+					<a href=""></a>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="row galeria" id="galeria">
+		<div class="maskSolutions">
+			<ul class="sliderDest">
+				<li class="pgSol selected">
+					<ul>
+														<li><a href="http://www.ressoar.org.br/galerias/saida-cultural-teatro-folha/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/03/Passeio-Cultural4-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="Passeio Cultural4" title="Passeio Cultural4" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/movimento-aproximacao/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/03/16729188_1765539210440826_2683127947046446056_n-1-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="16729188_1765539210440826_2683127947046446056_n (1)" title="16729188_1765539210440826_2683127947046446056_n (1)" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/jantar-fs-e-sergio-marone/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/03/Paris6_6-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="Jantar Sergio Marone" title="Jantar Sergio Marone" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/hamburgada-do-bem/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/02/16602570_756263091193332_2424429314848439580_n-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="16602570_756263091193332_2424429314848439580_n" title="16602570_756263091193332_2424429314848439580_n" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/6070/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/01/0fbd6124-2107-4c55-8272-3d9834ac30ce-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="0fbd6124-2107-4c55-8272-3d9834ac30ce" title="0fbd6124-2107-4c55-8272-3d9834ac30ce" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/brazil-foundation/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2017/01/FOTO-196-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="FOTO-196" title="FOTO-196" /></a></li>
+													</ul>
+										</li>
+										<li class="pgSol">
+											<ul>
+																		<li><a href="http://www.ressoar.org.br/galerias/campanha-adote-uma-crianca-neste-natal-2016/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/31515666190_f29bb3844d_o-320x195.jpg" class="attachment-noticias-menor wp-post-image" alt="31515666190_f29bb3844d_o" title="31515666190_f29bb3844d_o" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/cha-solidario-amc-2/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Cha-Solidario-AMC-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Cha Solidario AMC" title="Cha Solidario AMC" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/festa-de-natal-projeto-nova-canaa-2014/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Natal-Projeto-Canaa-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Natal Projeto Canaa" title="Natal Projeto Canaa" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/jantar-ressoar-solidario-2014/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Ressoar-Solidario-2014-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Ressoar Solidario 2014" title="Ressoar Solidario 2014" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/projeto-nova-canaa-dia-das-criancas-2014/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Dia-das-Criancas-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Dia das Criancas" title="Dia das Criancas" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/aula-pratica-alunos-ressoar-multimeios/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Multimeios-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Multimeios" title="Multimeios" /></a></li>
+													</ul>
+										</li>
+										<li class="pgSol">
+											<ul>
+																		<li><a href="http://www.ressoar.org.br/galerias/evento-degustar-fortaleza/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Degustar-Fortaleza-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Degustar Fortaleza" title="Degustar Fortaleza" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/4%c2%aa-festa-de-debutante-projeto-felicidade-e-fiorelo-buffet/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Projeto-Felicidade-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Projeto Felicidade" title="Projeto Felicidade" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/jantar-ressoar-solidario/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Jantar-Ressoar-Solidario-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Jantar Ressoar Solidario" title="Jantar Ressoar Solidario" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/cha-da-tarde-em-prol-do-projeto-raabe/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Projeto-Raabe-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Projeto Raabe" title="Projeto Raabe" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/ressoar-solidario-beneficia-pessoas-em-situacao-de-rua/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Ressoar-Solidario1-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Ressoar Solidario" title="Ressoar Solidario" /></a></li>
+												<li><a href="http://www.ressoar.org.br/galerias/instituto-ressoar-participa-da-quality-service-conference/"><img width="320" height="195" src="http://www.ressoar.org.br/files/2016/12/Instituto-Ressoar1-320x195.png" class="attachment-noticias-menor wp-post-image" alt="Instituto Ressoar" title="Instituto Ressoar" /></a></li>
+							</ul>
+			</li>
+		</ul>
+		</div>
+		<nav class="pager">
+			<a href=""></a>
+			<a href=""></a>
+			<a href=""></a>
+		</nav>
+	</div>
+
+	<div class="row parceiros">
+		<div class="col-lg-2 col-md-2 col-xs-2">
+			<h4>Parceiros: </h4>
+		</div>
+		<div class="col-lg-7 col-md-7 col-xs-7" id="parceiros">
+			<div class="mask2">
+				<ul>
+										<li>
+						<a href="" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2017/03/logoHB-85x80.jpg" class="attachment-parceiros" alt="Hamburgada do Bem" title="Hamburgada do Bem" /></a>
+					</li>
+										<li>
+						<a href="http://www.fs.com.br" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/fs-85x80.jpg" class="attachment-parceiros" alt="fs" title="fs" /></a>
+					</li>
+										<li>
+						<a href="http://ellaarts.com.br/" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/ellaarts-85x80.jpg" class="attachment-parceiros" alt="ellaarts" title="ellaarts" /></a>
+					</li>
+										<li>
+						<a href="http://www.domboscofestas.com.br/" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/dombosco-85x80.jpg" class="attachment-parceiros" alt="dombosco" title="dombosco" /></a>
+					</li>
+										<li>
+						<a href="http://clinicamartinez.com.br/" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/clinicamartinez-85x80.jpg" class="attachment-parceiros" alt="clinicamartinez" title="clinicamartinez" /></a>
+					</li>
+										<li>
+						<a href="" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/biadoria-85x80.jpg" class="attachment-parceiros" alt="biadoria" title="biadoria" /></a>
+					</li>
+										<li>
+						<a href="" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/began-85x80.jpg" class="attachment-parceiros" alt="began" title="began" /></a>
+					</li>
+										<li>
+						<a href="" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/anderson-85x80.jpg" class="attachment-parceiros" alt="anderson" title="anderson" /></a>
+					</li>
+										<li>
+						<a href="" target="_blank"><img width="85" height="80" src="http://www.ressoar.org.br/files/2016/11/anastacia-85x80.jpg" class="attachment-parceiros" alt="anastacia" title="anastacia" /></a>
+					</li>
+									</ul>
+				<a href="" class="btnNext hidden"></a>
+				<a href="" class="btnPrev hidden"></a>
+			</div>
+		</div>
+		<div class="col-lg-2 col-md-2 col-xs-2 col-lg-offset-1">
+			<a href="http://www.ressoar.org.br/parceiros/" class="button">Ver mais</a>
+		</div>
+	</div>
+
+
+
+</section>
+
+
+
+
+
+		<footer>
+			<div class="row">
+				<div class="align-footer">
+					<div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-xs-4 col-xs-offset-1 endereco">
+							Alameda Ministro Rocha Azevedo, 395 Jd. Paulista CEP 01410-001 - São Paulo - SP					</div>
+					<div class="col-lg-4 col-md-4 col-xs-4 ">
+						<h5>Newsletter</h5>
+												<p>  <div class="wpcf7" id="wpcf7-f1-p6022-o1"><form action="/#wpcf7-f1-p6022-o1" method="post" class="wpcf7-form">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="1" />
+<input type="hidden" name="_wpcf7_version" value="2.4.6" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1-p6022-o1" />
+</div>
+<p><span class="wpcf7-form-control-wrap nome"><input type="text" name="nome" value="" class="wpcf7-text wpcf7-validates-as-required wpcf7-use-title-as-watermark" size="40" title="Nome*:" /></span><br />
+<span class="wpcf7-form-control-wrap email"><input type="text" name="email" value="" class="wpcf7-text wpcf7-validates-as-email wpcf7-validates-as-required wpcf7-use-title-as-watermark" size="40" title="E-mail*:" /></span><input type="submit" value="Enviar" class="wpcf7-submit" /><img class="ajax-loader" style="visibility: hidden;" alt="Enviando ..." src="http://www.ressoar.org.br/wp-content/plugins/contact-form-7/images/ajax-loader.gif" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>  </p>
+												<!--form name="newsletter" action="" method="POST">
+
+							<input type="text" name="nome" placeholder="Nome: " />
+							<input type="email" name="email" placeholder="E-mail: " />
+							<input type="submit" value="Enviar" />
+						</form-->
+					</div>
+					<div class="col-lg-3 col-md-3 col-xs-3"><a href=""><img src="http://www.ressoar.org.br/wp-content/themes/ressoar2/images/footer-logo.png" /></a></div>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-xs-12 copyright text-center">
+				Todos os direitos reservados - Instituto Ressoar - 2016			</div>
+		</footer>
+
+
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-content/plugins/contact-form-7/jquery.form.js?ver=2.52'></script>
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-content/plugins/contact-form-7/scripts.js?ver=2.4.6'></script>
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-content/plugins/flickr-justified-gallery/js/jquery.justifiedGallery.min.js?ver=v3.6'></script>
+<script type='text/javascript' src='http://www.ressoar.org.br/wp-content/plugins/flickr-justified-gallery/js/flickrJustifiedGalleryWPPlugin.js?ver=v3.4.0'></script>
+<script type='te

@@ -1,0 +1,1833 @@
+|||http://harbour.space/Faculty/Computer-Science/Alex-Dainiak|
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('html') -->
+<!-- FILE NAME SUGGESTIONS:
+   * html--node--233.tpl.php
+   * html--node--%.tpl.php
+   * html--node.tpl.php
+   x html.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/html.tpl.php' -->
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+	<title>ALEX DAINIAK | Harbour.Space</title>
+	<!-- Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<link rel="canonical" href="http://harbour.space/Faculty/Computer-Science/Alex-Dainiak" />
+<link rel="shortlink" href="http://harbour.space/node/233" />
+<meta property="og:site_name" content="Harbour.Space" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://harbour.space/Faculty/Computer-Science/Alex-Dainiak" />
+<meta property="og:title" content="ALEX DAINIAK" />
+<meta property="og:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta property="og:image" content="http://harbour.space/sites/default/files/ogimage.jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@Harbour_Space" />
+<meta name="twitter:url" content="http://harbour.space/Faculty/Computer-Science/Alex-Dainiak" />
+<meta name="twitter:title" content="ALEX DAINIAK" />
+<meta name="twitter:description" content="Harbour.Space, a university for technology and design in Barcelona, taught in English. Programs include computer science, math and digital marketing." />
+<meta name="twitter:image" content="http://harbour.space/sites/default/files/HS_Photo3_0_0.jpg" />
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+	<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="google" content="notranslate" />
+	<!-- CSS -->
+		
+	
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--page-top.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+	
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('page') -->
+<!-- FILE NAME SUGGESTIONS:
+   * page--faculty-person.tpl.php
+   * page--node--233.tpl.php
+   * page--node--%.tpl.php
+   * page--node.tpl.php
+   x page.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/page.tpl.php' -->
+
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+    <link href="/build/css/video-js.min.css" rel="stylesheet" />
+    <link href="/build/css/academicons.css" rel="stylesheet" />
+
+    <link href="/build/css/style.css?1490186887" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="196x196" href="/build/images/favicon/192.png" />
+    <link rel="icon" type="image/png" sizes="160x160" href="/build/images/favicon/160.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/build/images/favicon/96.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/build/images/favicon/64.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/build/images/favicon/32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/build/images/favicon/16.png" />
+    <link rel="apple-touch-icon" href="/build/images/favicon/57.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/build/images/favicon/114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/build/images/favicon/72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/build/images/favicon/144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/build/images/favicon/60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/build/images/favicon/120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/build/images/favicon/76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/build/images/favicon/152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/build/images/favicon/180.png" />
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+    
+        fbq('init', '1007429205995768');
+        fbq('track', "PageView");
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1007429205995768&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Video JS -->
+	<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+</head>
+
+<body class="l-ready">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M6GZL4"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6GZL4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter37079975 = new Ya.Metrika({ id:37079975, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/37079975" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<!-- Page -->
+<div class="page" id="root">
+
+    
+
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('region') -->
+<!-- FILE NAME SUGGESTIONS:
+   * region--content.tpl.php
+   x region.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+  <div class="region region-content">
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('block') -->
+<!-- FILE NAME SUGGESTIONS:
+   * block--system--main.tpl.php
+   * block--system.tpl.php
+   * block--content.tpl.php
+   x block.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+    
+
+<!-- THEME DEBUG -->
+<!-- CALL: theme('node') -->
+<!-- FILE NAME SUGGESTIONS:
+   * node--233.tpl.php
+   x node--faculty-person.tpl.php
+   * node.tpl.php
+-->
+<!-- BEGIN OUTPUT from 'sites/all/themes/hs/node--faculty-person.tpl.php' -->
+<!-- Header -->
+<header class="header header_light">
+    <div class="header__content">
+        <a href="/" class="header__logo"><svg xmlns="http://www.w3.org/2000/svg" width="270" height="26" viewBox="0 0 270 26"><path fill="#FFF" d="M269.359 21.241v3.536h-15.158v-23.573h15.125v3.538h-11.084v6.533h9.5v3.366h-9.5v6.602l11.117-.002zm-28.902 4.04c-5.83 0-9.164-3.098-9.164-8.484v-7.609c0-5.387 3.334-8.487 9.164-8.487 2.492 0 4.547.674 6.197 2.056 1.65 1.378 2.492 3.4 2.492 6.094v.337h-4.041v-.337c0-1.449-.474-2.559-1.449-3.3-.977-.776-2.055-1.146-3.234-1.146-3.402 0-5.086 1.651-5.086 4.514v8.147c0 2.86 1.684 4.514 5.086 4.514 1.18 0 2.258-.371 3.234-1.112.977-.774 1.449-1.887 1.449-3.336v-.335h4.041v.335c0 2.696-.842 4.718-2.492 6.097-1.65 1.38-3.705 2.052-6.197 2.052zm-18.26-6.329h-8.893l-2.121 5.825h-3.74v-1.347l8.422-22.227h3.975l8.422 22.227v1.348h-3.975l-2.09-5.826zm-4.412-12.357l-3.268 8.991h6.469l-3.201-8.991zm-17.484 9.093h-6.164v9.09h-4.043v-23.574h10.207c4.143 0 6.635 2.799 6.635 7.242 0 4.446-2.493 7.242-6.635 7.242zm-.707-10.946h-5.457v7.409h5.457c1.854 0 3.234-1.314 3.234-3.705 0-2.389-1.381-3.704-3.234-3.704zm-22.84 6.297l.471.168c1.281.438 2.293.843 3.033 1.18.773.335 1.549.775 2.393 1.345 1.648 1.11 2.39 2.593 2.39 4.58 0 4.142-3.164 6.97-8.924 6.97-2.63 0-4.818-.706-6.57-2.087-1.717-1.413-2.594-3.436-2.594-6.062h4.043c0 1.112.303 1.989.875 2.696 1.213 1.381 2.729 1.752 4.479 1.752 2.83 0 4.414-1.28 4.414-3.065 0-.842-.371-1.48-1.111-1.92-.741-.471-2.09-1.078-4.043-1.816l-.305-.102-.539-.203c-2.559-.977-4.41-1.919-5.522-2.829-1.113-.943-1.649-2.29-1.649-4.073 0-2.055.741-3.738 2.258-4.985 1.514-1.246 3.604-1.886 6.229-1.886 5.287 0 8.758 2.526 8.758 7.948h-4.041c0-2.964-2.021-4.244-4.75-4.244-2.661 0-4.379 1.212-4.379 2.862 0 .91.336 1.617 1.043 2.054.705.44 2.053 1.009 4.041 1.717zm-30.959 4.68h-4.648v9.059h-4.043v-23.574h10.14c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.416 5.623-4.145 6.803l4.412 8.183v1.346h-3.973l-4.851-9.059zm4.445-7.205c0-2.527-1.246-3.772-3.738-3.772h-5.355v7.544h5.355c2.492 0 3.738-1.248 3.738-3.772zm-27.791 16.767c-2.729 0-4.916-.706-6.535-2.154-1.582-1.445-2.393-3.466-2.393-6.025v-15.896h4.044v16.096c0 2.458 1.751 4.278 4.884 4.278 3.133 0 4.885-1.82 4.885-4.278v-16.096h4.041v15.896c0 2.561-.808 4.58-2.424 6.025-1.584 1.448-3.773 2.154-6.502 2.154zm-23.242.001c-5.693 0-9.266-3.198-9.266-8.485v-7.61c0-5.287 3.572-8.486 9.266-8.486s9.262 3.199 9.262 8.486v7.61c0 5.287-3.569 8.485-9.262 8.485zm5.221-16.297c0-2.661-1.854-4.581-5.221-4.581-3.37 0-5.223 1.919-5.223 4.581v8.015c0 2.661 1.853 4.58 5.223 4.58 3.367 0 5.221-1.919 5.221-4.58v-8.015zm-25.266 15.792h-10.847v-23.573h9.939c4.209 0 6.736 2.157 6.736 6.333 0 2.391-.943 4.042-2.828 5.017 2.491.91 3.737 2.795 3.737 5.692 0 4.274-2.459 6.531-6.737 6.531zm-1.582-20.035h-5.222v6.566h5.222c2.222 0 3.334-1.11 3.334-3.3 0-2.19-1.112-3.266-3.334-3.266zm.908 9.935h-6.13v6.564h6.13c2.258 0 3.369-1.078 3.369-3.232 0-2.222-1.111-3.332-3.369-3.332zm-23.715 1.042h-4.648v9.059h-4.043v-23.574h10.139c4.582 0 7.108 2.663 7.108 7.242 0 3.132-1.415 5.623-4.144 6.803l4.414 8.183v1.346h-3.976l-4.85-9.059zm4.447-7.205c0-2.527-1.247-3.772-3.738-3.772h-5.356v7.544h5.356c2.491 0 3.738-1.248 3.738-3.772zm-22.907 10.438h-8.893l-2.122 5.825h-3.74v-1.347l8.422-22.226h3.975l8.421 22.228v1.346h-3.975l-2.088-5.826zm-4.413-12.357l-3.267 8.991h6.467l-3.2-8.991zm-18.09 8.148h-9.77v10.034h-4.04v-23.573h4.041v10.002h9.77v-10.002h4.041v23.573h-4.042v-10.034z"/><circle fill="#FFF" cx="161.555" cy="24.745" r="1.256"/></svg></a>
+        <nav class="header__nav">
+            <a href="/faculty" onclick="javascript:history.back(); return false;" class="header__close"></a>
+        </nav>
+    </div>
+</header>
+<menu class="menu">
+    <div class="menu__content">
+        <div class="menu__content__inner">
+            <!-- nav -->
+            <div class="menu__nav">
+                <span class="menu__nav__item">Programmes</span>
+                <span class="menu__nav__item menu__nav__item_active">More</span>
+            </div>
+            <!-- programs -->
+            <div class="menu__category menu__category_programs">
+                <ul class="menu__category__list menu__category__list_programs">
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/maths-as-a-second-language">Maths as a Second Language</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/computer-science">Computer Science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/data-science">Data science</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/cyber-security">Cyber security</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/interaction-design">Interaction Design</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/high-tech-entrepreneurship">High-Tech Entrepreneurship</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/courses/digital-marketing">Digital marketing</a></li>
+                                    </ul>
+            </div>
+            <!-- more -->
+            <div class="menu__category menu__category_more">
+                <ul class="menu__category__list menu__category__list_more">
+                    <li class="menu__item"><a class="menu__item__link" href="/admissions">Admissions</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faculty">Faculty</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/about">About</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/bcn">Living in BCN</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/careers">Careers</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/contacts">Contact</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/faq">FAQ</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/blog">Blog</a></li>
+                    <li class="menu__item"><a class="menu__item__link" href="/videos">Video</a></li>
+                                        <li class="menu__item"><a class="menu__item__link" href="/apply-1">Apply</a></li>
+                                    </ul>
+            </div>
+            <!-- / -->
+        </div>
+    </div>
+</menu>
+<!--/Header -->
+<section class="man">
+    <div class="man__content i-content">
+
+        <figure class="man__photo">
+            <div class="man__photo__visual">
+                <img class="man__photo__visual__image" src="/sites/default/files/Alex_D.png" alt="ALEX DAINIAK" />
+            </div>
+        </figure>
+
+        <div class="man__data">
+                        <a class="man__faculty" href="/courses/computer-science">Computer Science</a>
+
+            <h1 class="man__name title">
+                                <!-- <span class="man__name__first man__name__first_long">Ingo Beyer Von</span> -->
+                <span class="man__name__first">ALEX</span>
+                <span class="man__name__last">DAINIAK</span>
+            </h1>
+
+            <article class="man__summary">
+                <!-- <dl class="man__info man__info_type man__info_type_theorist"> -->
+                <dl class="man__info man__info_type man__info_type_theorist">
+                    <dt class="man__info__title">Current position</dt>
+                    <dd class="man__info__value text">PhD, Computer Science Lecturer at the Moscow Institute of Physics and Technology</dd>
+                </dl>
+                                <dl>
+                    <dt class="man__info__title">Skills</dt>
+                    <dd class="man__info__value text">Algorithms<br />Computer Science<br />Software Development<br />Machine Learning<br />Discrete Mathematics<br />C++ <br><br /><p> </p></dd>
+                </dl>
+                                                                <dl class="man__info">
+                    <dt class="man__info__title">Personal web</dt>
+                    <dd class="man__info__value text"><a href="http://www.dainiak.com/" target="_blank">http://www.dainiak.com/</a></dd>
+                </dl>
+                                                                <dl class="man__info">
+                    <dt class="man__info__title">Social</dt>
+                    <dd class="man__info__value man__social">
+                        <a class="man__social__item man__social__item_tw" target="_blank" href="https://twitter.com/dainiak"></a>                        <a class="man__social__item man__social__item_in" target="_blank" href="https://ru.linkedin.com/in/dainiak"></a>                        <a class="man__social__item man__social__item_fb" target="_blank" href="https://www.facebook.com/dainiak"></a>                        <a class="man__social__item man__social__item_gp socicon-googleplus" target="_blank" href="https://plus.google.com/+AlexDainiak"></a>                                                <a class="man__social__item man__social__item_gs ai ai-google-scholar" target="_blank" href="https://scholar.google.com/citations?user=-clcowQAAAAJ&hl=en"></a>                    </dd>
+                </dl>
+                            </article>
+
+            <article class="man__details">
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">THE COURSES</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><ul>
+<li> Discrete Optimisation
+<li> Basic Concepts of Functions. Roots, Degrees, Logarithms
+</ul></p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">About</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p>Alex was born in Moscow in 1985. His first encounter with programming happened in 1998 at a Pascal circle and that was love at first sight (or, better said, first line of code). </p>
+                                                    <p>Alex teaches math and programming since graduating from the Moscow State University. </p>
+                                                    <p>For some time Alex was employed professionally as a web front-end developer and optimization algorithms developer, now he primarily does teaching discrete mathematics and related things. Still, he produces a reasonable amount of code from time to time and takes part in personal and team software development projects.</p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Experience</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><b> Associate professor </b><br>
+Moscow Institute of Physics and Technology<br>
+September 2009 – Present | Moscow, Russian Federation</p>
+                                                    <p><b> Senior developer </b><br>
+Video International<br>
+August 2011 – March 2013 | Moscow, Russian Federation</p>
+                                                    <p><b> Instructor </b><br>
+Yandex Data Analysis School  <br>
+September 2010 – December 2011 | Moscow, Russian Federation
+</p>
+                                                    <p><b> Teaching assistant </b><br>
+Moscow State University <br>
+February 2009 – December 2011 | Moscow, Russian Federation
+
+</p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Education</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><b> Yandex School of Data Analysis </b><br>
+Master's degree, Mathematics and Computer Science<br>
+2008 – 2010 | Moscow, Russian Federation</p>
+                                                    <p><b> Moscow State University</b><br>
+Ph.D., Discrete mathematics<br>
+2007 – 2009<br>
+Ph. D. thesis: ‘‘Bounds for the Number of Independent Sets in some Classes of Graphs’’
+</p>
+                                                    <p><b> Moscow State University</b><br>
+M.Sc., Discrete mathematics<br>
+2002 – 2007</p>
+                                            </div>
+                </div>
+                                <div class="man__detail">
+                    <h2 class="man__detail__title title title_secondary">Selected Publications</h2>
+                    <div class="man__detail__intro text">
+                        <p></p>
+                    </div>
+                    <div class="man__detail__text text">
+                                                    <p><ul>
+<li> A. B. Dainyak. Estimates of the number of independent sets in graphs with a fixed independence number // Moscow University Computational Mathematics and Cybernetics. June 2009, Volume 33, Issue 2, pp 97-100
+<li> A. B. Dainyak. On the number of independent sets in the trees of a fixed diameter // Journal of Applied and Industrial Mathematics. April 2010, Volume 4, Issue 2, pp 163–171
+<li> B. Dainyak, A. D. Kurnosov. On an extremal inverse problem in graph theory // Journal of Applied and Industrial Mathematics April 2015, Volume 9, Issue 2, pp 157–164
+</ul></p>
+                                            </div>
+                </div>
+                                            </article>
+
+        </div>
+
+    </div>
+
+    
+</section>
+<!--/Man -->
+
+<!-- Discover -->
+<section class="discover section section_branded">
+    <div class="section__content i-content">
+        <div class="faq">
+            <a href="/faq" class="faq__link">FAQ</a>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter__title">Newsletter</div>
+            <div class="newsletter__text">Subscribe to&nbsp;our newsletter. No&nbsp;spam, we&nbsp;promise.</div>
+            <form class="newsletter__form" action="//panterastudio.us1.list-manage.com/subscribe/post?u=1083143896c97d4068e3f2ce8&amp;id=1285072bbb" method="post">
+                <input class="newsletter__form__field" name="EMAIL" type="text" placeholder="Type in your email and hit enter" />
+                <input type="hidden" name="b_1083143896c97d4068e3f2ce8_1285072bbb" tabindex="-1" value="">
+            </form>
+        </div>
+    </div>
+</section><!--/Discover -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer__content i-content">
+        <div class="footer__company">
+            <a class="footer__company__logo" href="/"></a>
+            <small class="footer__company__copyright">All rights reserved. 2015</small>
+        </div>
+        <nav class="footer__menu">
+            <a class="footer__menu__item" href="/about">About</a>
+            <a class="footer__menu__item" href="/bcn">Living in Bcn</a>
+            <a class="footer__menu__item" href="/careers">Careers</a>
+            <a class="footer__menu__item" href="/contacts">Contact</a>
+            <a class="footer__menu__item" href="/blog">Blog</a>
+            <a class="footer__menu__item" href="/faq">FAQ</a>
+        </nav>
+    </div>
+</footer>
+<!--/Footer -->
+
+<!-- Networks -->
+<footer class="networks">
+	<div class="networks__content i-content">
+		<span class="networks__title">Follow us:</span>
+		<a class="networks__item networks__item_facebook" target="_blank" href="https://www.facebook.com/Harbour.Space.University">
+			<span class="networks__item__name">Facebook</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_twitter" target="_blank" href="https://twitter.com/Harbour_Space">
+			<span class="networks__item__name">Twitter</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_linkedin" target="_blank" href="https://www.linkedin.com/company/harbour-space">
+			<span class="networks__item__name">LinkedIn</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_gplus" target="_blank" href="https://instagram.com/Harbour.Space/">
+			<span class="networks__item__name">Instagram</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_vk" target="_blank" href="https://vk.com/harbour.space">
+			<span class="networks__item__name">VK</span>
+			<i class="networks__item__icon"></i>
+					</a>
+		<a class="networks__item networks__item_quora" target="_blank" href="https://www.quora.com/profile/Harbour-Space">
+			<span class="networks__item__name">Quora</span>
+			<i class="networks__item__icon"></i>
+					</a>
+	</div>
+</footer><!-- /Networks -->
+
+<!-- Developer -->
+<footer class="developer">
+	<div class="developer__content i-content">
+		<a class="developer__chulakov" href="http://chulakov.com/" target="_blank">
+			<span class="developer__chulakov__name">Chulakov</span>
+			<span class="developer__chulakov__domain">com</span>
+		</a>
+		<div class="developer__description">
+			<span class="developer__description__part">Design, Development and Animation by <a class="developer__description__link" href="http://chulakov.com/" target="_blank">Oleg Chulakov Studio</a>.</span>
+			<span class="developer__description__part">Special thanks to <a class="developer__description__link" href="http://repponen.com/" target="_blank">Anton Repponen</a></span>
+		</div>
+	</div>
+</footer><!--/Developer -->
+
+<!-- END OUTPUT from 'sites/all/themes/hs/node--faculty-person.tpl.php' -->
+
+
+<!-- END OUTPUT from 'sites/all/themes/hs/block.tpl.php' -->
+
+  </div>
+
+<!-- END OUTPUT from 'sites/all/themes/hs/region.tpl.php' -->
+
+
+    
+    <!-- User apply -->
+    <!-- Apply -->
+<section class="user user-apply" id="user-apply">
+    <div class="user__wrap" data-user-panel="apply">
+        <div class="user__wrap__inner">
+            <article class="user__content user__content_double i-content">
+                <div class="user__content__part user-apply__part user-apply__part_1">
+                    <div class="user__title title title_secondary">Request more information</div>
+                    <div class="user__text">About <nobr>Harbour.Space</nobr></div>
+                    <a href="#" class="user__action user__action_secondary action" data-open="#user-start">
+                        <span class="user__action__text action__text">Send me the info</span>
+                    </a>
+                </div>
+                <div class="user__content__part user-apply__part_2">
+                    <div class="user__title title title_secondary">Apply now</div>
+                    <a href="/apply-1" class="user__action action" data-open="#user-login" data-after-login="/apply-1">
+                        <span class="user__action__text action__text">yes, i’d like to apply</span>
+                    </a>
+                </div>
+            </article>
+        </div>
+        <i class="user__close"></i>
+    </div>
+</section>    <!--/User apply -->
+
+    <!-- User start -->
+    <section class="user user-start" id="user-start">
+	<!-- Call -->
+	<div class="user__wrap" data-user-panel="start">
+		<div class="user__wrap__inner user-start__inner">
+			<i class="user__decor"></i>
+			<div class="user__content user-start__content i-content">
+				<div class="user__title user-start__title title title_secondary">Request free information about Harbour.Space</div>
+				<div class="user__text user-start__text text">1 minute to&nbsp;complete and fast response time</div>
+				<form class="user__form form" action="/hsajax/form/starthere" method="post" data-after-submit="/form/thankyou">
+					<div class="form__group">
+						<div class="form__complex">
+							<label class="form__label" for="first_name">Your name</label>
+							<div class="form__item form__complex__item">
+								<input class="field" id="first_name" name="name" type="text" placeholder="Name" required />
+							</div>
+							<div class="form__item form__complex__item">
+								<input class="field" id="last_name" name="surname" type="text" placeholder="Surname" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Date of birth</label>
+								<div class="form__date">
+									<input class="form__date__field form__date__field_day form__item__field field" name="day_birth" type="text" placeholder="DD" required />
+									<select class="form__date__field form__date__field_month select" name="month_birth" placeholder="Month" required>
+										<option value=""></option>
+																					<option value="1">January</option>
+																					<option value="2">February</option>
+																					<option value="3">March</option>
+																					<option value="4">April</option>
+																					<option value="5">May</option>
+																					<option value="6">June</option>
+																					<option value="7">July</option>
+																					<option value="8">August</option>
+																					<option value="9">September</option>
+																					<option value="10">October</option>
+																					<option value="11">November</option>
+																					<option value="12">December</option>
+																			</select>
+									<input class="form__date__field field form__date__field_year form__item__field field" name="year_birth" type="text" placeholder="YYYY" required />
+								</div>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Gender</label>
+								<div class="form__item__radio radio radio_secondary">
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="male" checked />
+										Male
+									</label>
+									<label class="radio__item radio__item_secondary">
+										<input type="radio" name="gender" value="female" />
+										Female
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Nationality</label>
+								<select class="form__item__field select" name="nationality" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">I live in</label>
+								<select class="form__item__field select" name="live-in" placeholder="Select Country" id="live-in" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="telephone">Phone</label>
+								<input class="field tel__input" id="telephone" name="telephone" type="tel" placeholder="Mobile" data-rule-phone="true" required/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="email">E-mail</label>
+								<input class="field" id="email" name="email" type="email" placeholder="hello@harbour.space" required />
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label" for="skype">Skype</label>
+								<input class="field" id="skype" name="skype" type="text" placeholder="Login" required=""/>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Funding</label>
+								<select class="form__item__field select" name="funding" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="Self funding">Self funding</option>
+									<option value="Business or Government funding">Business or Government funding</option>
+									<option value="I need a scholarship">I need a scholarship</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Last Study Location</label>
+								<select class="form__item__field select" name="study-location" placeholder="Select Country" required>
+									<option value=""></option>
+																		<option>Afghanistan</option>
+																		<option>Albania</option>
+																		<option>Algeria</option>
+																		<option>Andorra</option>
+																		<option>Angola</option>
+																		<option>Antigua & Deps</option>
+																		<option>Argentina</option>
+																		<option>Armenia</option>
+																		<option>Australia</option>
+																		<option>Austria</option>
+																		<option>Azerbaijan</option>
+																		<option>Bahamas</option>
+																		<option>Bahrain</option>
+																		<option>Bangladesh</option>
+																		<option>Barbados</option>
+																		<option>Belarus</option>
+																		<option>Belgium</option>
+																		<option>Belize</option>
+																		<option>Benin</option>
+																		<option>Bhutan</option>
+																		<option>Bolivia</option>
+																		<option>Bosnia Herzegovina</option>
+																		<option>Botswana</option>
+																		<option>Brazil</option>
+																		<option>Brunei</option>
+																		<option>Bulgaria</option>
+																		<option>Burkina</option>
+																		<option>Burundi</option>
+																		<option>Cambodia</option>
+																		<option>Cameroon</option>
+																		<option>Canada</option>
+																		<option>Cape Verde</option>
+																		<option>Central African Rep</option>
+																		<option>Chad</option>
+																		<option>Chile</option>
+																		<option>China</option>
+																		<option>Colombia</option>
+																		<option>Comoros</option>
+																		<option>Congo</option>
+																		<option>Congo</option>
+																		<option>Costa Rica</option>
+																		<option>Croatia</option>
+																		<option>Cuba</option>
+																		<option>Cyprus</option>
+																		<option>Czech Republic</option>
+																		<option>Denmark</option>
+																		<option>Djibouti</option>
+																		<option>Dominica</option>
+																		<option>Dominican Republic</option>
+																		<option>East Timor</option>
+																		<option>Ecuador</option>
+																		<option>Egypt</option>
+																		<option>El Salvador</option>
+																		<option>Equatorial Guinea</option>
+																		<option>Eritrea</option>
+																		<option>Estonia</option>
+																		<option>Ethiopia</option>
+																		<option>Fiji</option>
+																		<option>Finland</option>
+																		<option>France</option>
+																		<option>Gabon</option>
+																		<option>Gambia</option>
+																		<option>Georgia</option>
+																		<option>Germany</option>
+																		<option>Ghana</option>
+																		<option>Greece</option>
+																		<option>Grenada</option>
+																		<option>Guatemala</option>
+																		<option>Guinea</option>
+																		<option>Guinea-Bissau</option>
+																		<option>Guyana</option>
+																		<option>Haiti</option>
+																		<option>Honduras</option>
+																		<option>Hungary</option>
+																		<option>Iceland</option>
+																		<option>India</option>
+																		<option>Indonesia</option>
+																		<option>Iran</option>
+																		<option>Iraq</option>
+																		<option>Ireland</option>
+																		<option>Israel</option>
+																		<option>Italy</option>
+																		<option>Ivory Coast</option>
+																		<option>Jamaica</option>
+																		<option>Japan</option>
+																		<option>Jordan</option>
+																		<option>Kazakhstan</option>
+																		<option>Kenya</option>
+																		<option>Kiribati</option>
+																		<option>Korea North</option>
+																		<option>Korea South</option>
+																		<option>Kosovo</option>
+																		<option>Kuwait</option>
+																		<option>Kyrgyzstan</option>
+																		<option>Laos</option>
+																		<option>Latvia</option>
+																		<option>Lebanon</option>
+																		<option>Lesotho</option>
+																		<option>Liberia</option>
+																		<option>Libya</option>
+																		<option>Liechtenstein</option>
+																		<option>Lithuania</option>
+																		<option>Luxembourg</option>
+																		<option>Macedonia</option>
+																		<option>Madagascar</option>
+																		<option>Malawi</option>
+																		<option>Malaysia</option>
+																		<option>Maldives</option>
+																		<option>Mali</option>
+																		<option>Malta</option>
+																		<option>Marshall Islands</option>
+																		<option>Mauritania</option>
+																		<option>Mauritius</option>
+																		<option>Mexico</option>
+																		<option>Micronesia</option>
+																		<option>Moldova</option>
+																		<option>Monaco</option>
+																		<option>Mongolia</option>
+																		<option>Montenegro</option>
+																		<option>Morocco</option>
+																		<option>Mozambique</option>
+																		<option>Myanmar</option>
+																		<option>Namibia</option>
+																		<option>Nauru</option>
+																		<option>Nepal</option>
+																		<option>Netherlands</option>
+																		<option>New Zealand</option>
+																		<option>Nicaragua</option>
+																		<option>Niger</option>
+																		<option>Nigeria</option>
+																		<option>Norway</option>
+																		<option>Oman</option>
+																		<option>Pakistan</option>
+																		<option>Palau</option>
+																		<option>Panama</option>
+																		<option>Papua New Guinea</option>
+																		<option>Paraguay</option>
+																		<option>Peru</option>
+																		<option>Philippines</option>
+																		<option>Poland</option>
+																		<option>Portugal</option>
+																		<option>Qatar</option>
+																		<option>Romania</option>
+																		<option>Russian Federation</option>
+																		<option>Rwanda</option>
+																		<option>St Kitts & Nevis</option>
+																		<option>St Lucia</option>
+																		<option>Saint Vincent & the Grenadines</option>
+																		<option>Samoa</option>
+																		<option>San Marino</option>
+																		<option>Sao Tome & Principe</option>
+																		<option>Saudi Arabia</option>
+																		<option>Senegal</option>
+																		<option>Serbia</option>
+																		<option>Seychelles</option>
+																		<option>Sierra Leone</option>
+																		<option>Singapore</option>
+																		<option>Slovakia</option>
+																		<option>Slovenia</option>
+																		<option>Solomon Islands</option>
+																		<option>Somalia</option>
+																		<option>South Africa</option>
+																		<option>South Sudan</option>
+																		<option>Spain</option>
+																		<option>Sri Lanka</option>
+																		<option>Sudan</option>
+																		<option>Suriname</option>
+																		<option>Swaziland</option>
+																		<option>Sweden</option>
+																		<option>Switzerland</option>
+																		<option>Syria</option>
+																		<option>Taiwan</option>
+																		<option>Tajikistan</option>
+																		<option>Tanzania</option>
+																		<option>Thailand</option>
+																		<option>Togo</option>
+																		<option>Tonga</option>
+																		<option>Trinidad & Tobago</option>
+																		<option>Tunisia</option>
+																		<option>Turkey</option>
+																		<option>Turkmenistan</option>
+																		<option>Tuvalu</option>
+																		<option>Uganda</option>
+																		<option>Ukraine</option>
+																		<option>United Arab Emirates</option>
+																		<option>United Kingdom</option>
+																		<option>United States</option>
+																		<option>Uruguay</option>
+																		<option>Uzbekistan</option>
+																		<option>Vanuatu</option>
+																		<option>Vatican City</option>
+																		<option>Venezuela</option>
+																		<option>Vietnam</option>
+																		<option>Yemen</option>
+																		<option>Zambia</option>
+																		<option>Zimbabwe</option>
+																	</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Highest Education</label>
+								<select class="form__item__field select" name="education" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="High School">High School</option>
+									<option value="Bachelor">Bachelor</option>
+									<option value="Master">Master</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group">
+						<div class="form__complex">
+							<div class="form__item form__complex__item">
+								<label class="form__label">Programme of interest</label>
+								<select class="form__item__field select" name="interest" placeholder="Choose Programme">
+									<option value=""></option>
+									<optgroup label="Bachelor">
+										<option value="Bachelor of Computer Science">Bachelor of Computer Science</option>
+										<option value="Bachelor of Data Science">Bachelor of Data Science</option>
+										<option value="Bachelor of Digital Marketing">Bachelor of Digital Marketing</option>
+										<option value="Bachelor of High-Tech Entrepreneurship">Bachelor of High-Tech Entrepreneurship</option>
+										<option value="Bachelor of Interaction Design">Bachelor of Interaction Design</option>
+									</optgroup>
+									<optgroup label="Master">
+										<option value="Master High-Tech Entrepreneurship">Master High-Tech Entrepreneurship</option>
+										<option value="Master in Computer Science">Master in Computer Science</option>
+										<option value="Master in Digital Marketing">Master in Digital Marketing</option>
+										<option value="Master Interaction Design">Master Interaction Design</option>
+										<option value="Master of Data Science">Master of Data Science</option>
+									</optgroup>
+									<optgroup label="Foundation Year">
+										<option value="Maths as a second language">Maths as a second language</option>
+									</optgroup>
+									<optgroup label="MBA">
+										<option value="MBA Business Administration">MBA Business Administration</option>
+									</optgroup>
+								</select>
+							</div>
+							<div class="form__item form__complex__item">
+								<label class="form__label">Desired Start</label>
+								<select class="form__item__field select" name="desired" placeholder="Select One" required>
+									<option value=""></option>
+									<option value="0 to 6 months">0 to 6 Months</option>
+									<option value="7 to 12 months">7 to 12 Months</option>
+									<option value="13 to 24 months">13 to 24 Months</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="form__group form__group_divider">
+						<div class="form__item">
+							<label class="form__label" for="questions">Any questions?</label>
+							<select class="form__item__field select" id="questions" name="questions" placeholder="Request more info">
+								<option value=""></option>
+								<optgroup label="General Information">
+									<option value="Can you send me more information?">Can you send me more information?</option>
+								</optgroup>
+								<optgroup label="Programme Deadline">
+									<option value="When is the application deadline?">When is the application deadline?</option>
+								</optgroup>
+								<optgroup label="Fees & Prices">
+									<option value="How much does it cost?">How much does it cost?</option>
+									<option value="Can I pay in installments?">Can I pay in installments?</option>
+								</optgroup>
+								<optgroup label="Programme Type & Duration">
+									<option value="Is this available online?">Is this available online?</option>
+									<option value="What is the duration?">What is the duration?</option>
+								</optgroup>
+								<optgroup label="Study Place">
+									<option value="Where is the school located?">Where is the school located?</option>
+									<option value="Where is the campus located?">Where is the campus located?</option>
+									<option value="In whice state/province/region is the school?">In whice state/province/region is the school?</option>
+								</optgroup>
+								<optgroup label="Funding">
+									<option value="What other funding options do you have?">What other funding options do you have?</option>
+								</optgroup>
+								<optgroup label="How to Apply">
+									<option value="What documents are required?">What documents are required?</option>
+									<option value="What is the admission/enrolment process?">What is the admission/enrolment process?</option>
+								</optgroup>
+								<optgroup label="Other">
+									<option value="Other">Other</option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+					<button class="user__action action user-start__action" type="submit">
+						<span class="action__text user__action__text">YES, Send me the info now</span>
+					</button>
+					<p class="user__error form__error form__error_empty"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-visit__success user__wrap" data-user-panel="visit-start">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you!<br /> We call soon</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our&nbsp;email.</div>
+				<a href="/" class="user-visit__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+	<i class="user__close user-start__close"></i>
+</section>
+<!--/User curriculum -->    <!--/User start -->
+
+    <!-- User login -->
+    <section class="user user-login" id="user-login">
+	<!-- Login -->
+	<div class="user-login__login user__wrap" data-user-panel="login">
+		<div class="user__wrap__inner">
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Log in</div>
+					<form class="user__form form" action="/hsajax/user/login" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+							<span data-user-to="password" class="form__item__action">Forgot your password?</span>
+						</p>
+						<div class="user__actions">
+							<button class="user__actions__item user__action action" type="submit">
+								<span class="user__action__text action__text">Log in</span>
+							</button>
+														<a class="user__actions__item user__action user__action_facebook action" href="/user/simple-fb-connect?destination=apply-1">
+								<span class="user__action__text action__text"></span>
+							</a>
+						</div>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">New To <nobr>Harbour.Space?</nobr></div>
+					<button class="user__action user__action_secondary action" data-user-to="register">
+						<span class="user__action__text action__text">Sign Up</span>
+					</button>
+				</div>
+			</article>
+		</div>
+		<i class="user__close"></i>
+	</div>
+	<!-- Register -->
+	<div class="user-login__register user__wrap" data-user-panel="register">
+		<div class="user__wrap__inner">
+			<i class="user__close" style="opacity: 1;"></i>
+			<article class="user__content user__content_double i-content">
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">I Already Have An&nbsp;Account</div>
+					<div class="user__actions">
+						<button class="user__actions__item user__action user__action_secondary action" data-user-to="login">
+							<span class="user__action__text action__text">Log in</span>
+						</button>
+												<a class="user__actions__item user__action user__action_secondary user__action_facebook action" href="#">
+							<span class="user__action__text action__text"></span>
+						</a>
+					</div>
+				</div>
+				<div class="user__content__part">
+					<div class="user__title title title_secondary">Registration</div>
+					<div class="user__text">Create an&nbsp;account to&nbsp;get the&nbsp;access to&nbsp;the&nbsp;application process and&nbsp;more.</div>
+					<form class="user__form" action="/hsajax/user/register" method="post">
+						<p class="form__item">
+							<input name="email" type="email" class="field field_large" placeholder="Email" required />
+						</p>
+						<p class="form__item">
+							<input name="password" type="password" class="field field_large" placeholder="Password" required />
+						</p>
+						<button class="user__action action" type="submit">
+							<span class="user__action__text action__text">Sign Up</span>
+						</button>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</article>
+		</div>
+	</div>
+	<!-- Password -->
+	<div class="user-login__password user__wrap" data-user-panel="password">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_double user__content_double_one i-content">
+				<div class="user__content__part">
+					<i class="user__back" data-user-to="login"></i>
+					<div class="user__title title title_secondary">Password recovery</div>
+					<div class="user__text text">Enter your email and we&rsquo;ll get back to&nbsp;you right&nbsp;away.</div>
+					<form class="user-login__password__form user__form" action="/hsajax/user/reset" method="post">
+						<p class="user-login__password__form__item form__item">
+							<input name="email" type="email" class="user-login__password__form__field field field_large" placeholder="Email" required />
+							<button class="user-login__password__form__action user__action action" type="submit">
+								<span class="action__text user__action__text">Submit</span>
+							</button>
+						</p>
+						<p class="user__form__error form__error form__error_empty"></p>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Register success -->
+	<div class="user-login__success user__wrap" data-user-panel="register-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Thank you.<br /> You're almost there.</div>
+				<div class="user__text text">Keep an&nbsp;eye out for an&nbsp;activation email in&nbsp;your inbox. Once you&rsquo;ve followed the link in&nbsp;our email, you're all&nbsp;set.</div>
+								<a href="/apply-1" class="user-login__success__action user__action action" data-user-close>
+					<span class="action__text user__action__text">Done</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- Password success -->
+	<div class="user-login__success user__wrap" data-user-panel="password-success">
+		<div class="user__wrap__inner">
+			<div class="user__content user__content_single i-content">
+				<i class="user__picture"><img class="user__picture__image user__picture__image_success" src="/build/images/user/success.svg" alt=""/></i>
+				<div class="user__title title title_secondary">Success!</div>
+				<div class="user__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+				<a href="/#user-login" class="user-login__success__action user__action user__action_secondary action" data-user-to="login">
+					<span class="action__text user__action__text">Login</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- / -->
+</section>
+    <!--/User login -->
+
+</div>
+<!--/Page -->
+
+<!-- JS -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="/build/js/script.js?1488191725"></script>
+<!--/JS -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-67982187-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<!-- Google Code for HTE, CS test Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 941094980;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "s2qbCMPlomUQxPDfwAM";
+    var google_remarketing_only = false;
+    /* ]]> */
+</script>
+<script type="text/javascript"
+        src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt=""
+             src="//www.googleadservices.com/pagead/conversion/941094980/?label=s2qbCMPlomUQxPDfwAM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+</body>
+<!-- END OUTPUT from 'sites/all/themes/hs/page.tpl.php' -->
+
+
+	
+</html>
+
+<!-- END OUTPUT from 'sites/all/themes/hs/html.tpl.php' -->
+
+|||http://www.dainiak.com/|<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope="" itemtype="http://schema.org/WebPage">
+<head>
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { (function(){function e(a){this.t={};this.tick=function(a,c,b){this.t[a]=[void 0!=b?b:(new Date).getTime(),c];if(void 0==b)try{window.console.timeStamp("CSI/"+a)}catch(h){}};this.tick("start",null,a)}var a,d;window.performance&&(d=(a=window.performance.timing)&&a.responseStart);var f=0<d?new e(d):new e;window.jstiming={Timer:e,load:f};if(a){var c=a.navigationStart;0<c&&d>=c&&(window.jstiming.srt=d-c)}if(a){var b=window.jstiming.load;0<c&&d>=c&&(b.tick("_wtsrt",void 0,c),b.tick("wtsrt_","_wtsrt",d),
+b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
+<link rel="apple-touch-icon" href="http://www.gstatic.com/sites/p/acd669/system/app/images/apple-touch-icon.png" type="image/png" />
+<script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
+window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
+window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
+</script>
+<script>
+
+  
+
+  var breadcrumbs = [{"path":"/home","deleted":false,"title":"Home","dir":"ltr"}];
+  var JOT_clearDotPath = 'http://www.gstatic.com/sites/p/acd669/system/app/images/cleardot.gif';
+
+  
+  var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+  
+  
+
+  
+
+  var webspace = {"enableAnalytics":true,"pageSharingId":"jotspot_page","enableUniversalAnalytics":false,"sharingPolicy":"OPENED_WITH_INDICATOR","siteTitle":"Alex Dainiak / \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0414\u0430\u0439\u043d\u044f\u043a","adsensePublisherId":null,"features":{"validateClientGvizDataSourceUrls":true,"contactStoreMigrationPollForGapi":true,"gapiLoaderUtil":true,"moreMobileStyleImprovements":true,"accumulativeBubblePanelCreation":true,"oAuthForChartsApi":true,"batchFileCabinetOperations":true,"fileCabinetScreenReaderFix":true,"picasaAlbumInsert":false,"pageDrafts":false,"mobileOrientationFix":true,"plusBadge":false,"pdfEmbedSupport":false,"jsClickFix":true},"isPublic":true,"isConsumer":false,"serverFlags":{"cajaBaseUrl":"//www.gstatic.com/caja","cajaDebugMode":false},"onepickBaseUrl":"https://docs.google.com","domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttp://sites.google.com/a/dainiak.com/www/home\u0026service\u003djotspot","analyticsAccountId":"UA-28098440-1","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":null,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"http://csi.gstatic.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["http://www.gstatic.com/sites/p/acd669/system/app/css/sitelayouteditor.css"],"text":["http://www.gstatic.com/sites/p/acd669/system/js/codemirror.js","http://www.gstatic.com/sites/p/acd669/system/app/css/codemirror_css.css","http://www.gstatic.com/sites/p/acd669/system/js/trog_edit__en.js","http://www.gstatic.com/sites/p/acd669/system/app/css/trogedit.css","/_/rsrc/1489651108000/system/app/css/editor.css","http://www.gstatic.com/sites/p/acd669/system/app/css/codeeditor.css","/_/rsrc/1489651108000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"dainiak.com","baseUri":"","name":"www","siteTemplateId":false,"siteNoticeRevision":null,"siteNoticeUrlAddress":null,"siteNoticeMessage":null,"page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":null,"parentWuid":null,"siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Home","locale":"en","wuid":"wuid:gx:172b681fefcc3c8a","revision":13,"path":"/home","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"home","canChangePath":false,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/system/app/pages/gadgets"}};
+  webspace.page.breadcrumbs = breadcrumbs;
+
+  
+  var JOT_siteRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
+
+</script>
+<script type="text/javascript">
+                window.jstiming.load.tick('scl');
+              </script>
+<meta name="title" content="Alex Dainiak /  " />
+<meta itemprop="name" content="Alex Dainiak /  " />
+<meta property="og:title" content="Alex Dainiak /  " />
+<meta name="description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<meta itemprop="description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<meta id="meta-tag-description" property="og:description" content="Personal homepage of Alex Dainiak.&#xA;   ." />
+<style type="text/css">
+      
+      /* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/WxrXJa0C3KdtC7lMafG4dRTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/OpXUqTo0UgQQhGj_SFdLWBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/1hZf02POANh32k2VkgEoUBTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/cDKhRaXnQTOVbaoxwdOr9xTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/K23cxWVTrIFD6DJsEVi07RTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/vSzulfKSK0LLjjfeaxcREhTbgVql8nDJpwnrE27mub0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(//fonts.gstatic.com/s/roboto/v15/vPcynSL0qHq_6dX7lKVByfesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/77FXFjRbGzN4aCrSFhlh3hJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/isZ-wbCXNKAbnjo6_TwHThJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/UX6i4JxQDm3fVTc1CPuwqhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/jSN2CGVDbcVyCnfJfjSdfBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/PwZc-YbIL414wB9rB1IAPRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/97uahxiqZRoncBaCEI3aWxJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(//fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/ek4gzZ-GeXAPcSbHtCeQI_esZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/-2n2p-_Y08sg57CNWQfKNvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/u0TOpm082MNkS5K0Q4rhqvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/NdF9MtnOpLzo-noMoG0miPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/Fcx7Wwv8OzT71A3E1XOAjvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(//fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCzTOQ_MqJVwkKsUn0wKzc2I.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCzUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC0bcKLIaa1LC45dFaAfauRA.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC2o_sUJ8uO4YLWRInS22T3Y.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC76up8jxqWt8HVA3mDhkV_0.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcCyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url(//fonts.gstatic.com/s/roboto/v15/t6Nd4cfPRhZP44Q5QAjcC44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+    
+    </style>
+<link rel="stylesheet" type="text/css" href="http://www.gstatic.com/sites/p/acd669/system/app/themes/simple/standard-css-simple-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1489651108000/system/app/css/overlay.css?cb=simple12a200goog-ws-left-noheadnonethemedefaultstandard" />
+<link rel="stylesheet" type="text/css" href="/_/rsrc/1489651108000/system/app/css/camelot/allthemes-view.css" />
+<!--[if IE]>
+          <link rel="stylesheet" type="text/css" href="/system/app/css/camelot/allthemes%2die.css" />
+        <![endif]-->
+<title>Alex Dainiak /  </title>
+<meta itemprop="image" content="http://www.dainiak.com/home/dainiak.jpg" />
+<meta property="og:image" content="http://www.dainiak.com/home/dainiak.jpg" />
+<script type="text/javascript">
+                window.jstiming.load.tick('cl');
+              </script>
+</head>
+<body xmlns="http://www.google.com/ns/jotspot" id="body" class=" en            ">
+<div id="sites-page-toolbar" class="sites-header-divider">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-status" class="sites-status" style="display:none;"><div id="sites-notice" class="sites-notice" role="status" aria-live="assertive"> </div></div>
+</div>
+<div id="sites-chrome-everything-scrollbar">
+<div id="sites-chrome-everything" class="">
+<div id="sites-chrome-page-wrapper" style="direction: ltr">
+<div id="sites-chrome-page-wrapper-inside">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-chrome-header-wrapper" style="">
+<table id="sites-chrome-header" class="sites-layout-hbox" cellspacing="0" style="">
+<tr class="sites-header-primary-row" id="sites-chrome-userheader">
+</tr>
+<tr class="sites-header-secondary-row" id="sites-chrome-horizontal-nav">
+<td colspan="2" id="sites-chrome-header-horizontal-nav-container" role="navigation">
+</td>
+</tr>
+</table>
+</div>
+<div id="sites-chrome-main-wrapper">
+<div id="sites-chrome-main-wrapper-inside">
+<table id="sites-chrome-main" class="sites-layout-hbox" cellspacing="0" cellpadding="{scmCellpadding}" border="0">
+<tr>
+<td id="sites-chrome-sidebar-left" class="sites-layout-sidebar-left initial" style="width:200px">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_2bd" class="sites-embed" role="navigation"><div class="sites-embed-content sites-sidebar-nav"><ul role="navigation" jotId="navList" class="has-expander"><li class="topLevel nav-first "><div class="current-bg" jotId="wuid:gx:172b681fefcc3c8a" dir="ltr" style="padding-left: 19px;">Home</div></li><li class="topLevel parent " wuid="gx:4ebfa1fcc0fc4f46"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/teaching" jotId="wuid:gx:4ebfa1fcc0fc4f46" class="sites-navigation-link topLevel">Teaching</a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:5880b94c3bb38b18"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/teaching/courses" jotId="wuid:gx:5880b94c3bb38b18" class="sites-navigation-link">Courses</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/teaching/courses/current" jotId="wuid:gx:4927852b0fc0c776" class="sites-navigation-link">Current courses</a></div></li><li class="parent closed " wuid="gx:71582ab7528ce42b"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/teaching/courses/past" jotId="wuid:gx:71582ab7528ce42b" class="sites-navigation-link">Past courses</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/teaching/courses/past/2009-2013" jotId="wuid:gx:393ff2223a897e30" class="sites-navigation-link">2009—2013</a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/teaching/courses/past/2013-2014" jotId="wuid:gx:5521a4cff2e104b5" class="sites-navigation-link">2013—2014</a></div></li></ul></li></ul></li></ul></li><li class="topLevel parent " wuid="gx:5a30fd404414b61f"><div dir="ltr" style="padding-left: 0px;"><div class="expander"></div><a href="/ru" jotId="wuid:gx:5a30fd404414b61f" class="sites-navigation-link topLevel">   </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ru/personal" jotId="wuid:gx:147e8e3dd92d7a92" class="sites-navigation-link"></a></div></li><li class="parent closed " wuid="gx:13a293c6110de49f"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/research" jotId="wuid:gx:13a293c6110de49f" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/research/publications" jotId="wuid:gx:1ac622ed1b966a50" class="sites-navigation-link"></a></div></li></ul></li><li class="parent closed " wuid="gx:23637e19ed554ea0"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/teaching" jotId="wuid:gx:23637e19ed554ea0" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:4d08ee3ffc4684"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/tools" jotId="wuid:gx:4d08ee3ffc4684" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/miktex" jotId="wuid:gx:86864de7fbac634" class="sites-navigation-link"> MiKTeX</a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/gentest" jotId="wuid:gx:5fbfbc62cf0a5591" class="sites-navigation-link">    </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/tools/python" jotId="wuid:gx:6c626024232e42c4" class="sites-navigation-link">  Python</a></div></li></ul></li><li class="parent closed " wuid="gx:7ba085c818eebe5"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/courses" jotId="wuid:gx:7ba085c818eebe5" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:cd1044c68b64a99"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/teaching/courses/past" jotId="wuid:gx:cd1044c68b64a99" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:8bd26dd4ba2384b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2009-2010" jotId="wuid:gx:8bd26dd4ba2384b" class="sites-navigation-link">2009—2010</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2009-2010/extrcomb_s2010" jotId="wuid:gx:5f1f0a49885b8959" class="sites-navigation-link">    (,  2010)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2009-2010/combinatorics_s2010" jotId="wuid:gx:1f31300cfa71a166" class="sites-navigation-link">   ( ,  2010)</a></div></li></ul></li><li class="parent closed " wuid="gx:373c711daa46740b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2010-2011" jotId="wuid:gx:373c711daa46740b" class="sites-navigation-link">2010—2011</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/optimization_f2010" jotId="wuid:gx:651ce9e65dc2d7ac" class="sites-navigation-link">    ( ,  2010)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/optimization_s2011" jotId="wuid:gx:1aa270a08f2515fc" class="sites-navigation-link">  ( ,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/computation_s2011" jotId="wuid:gx:62e815c0d157258a" class="sites-navigation-link">  (,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2010-2011/graphtheory_f2010" jotId="wuid:gx:67325b2748a3f850" class="sites-navigation-link">   (,  2010)</a></div></li></ul></li><li class="parent closed " wuid="gx:624ad577c88b1d4b"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2011-2012" jotId="wuid:gx:624ad577c88b1d4b" class="sites-navigation-link">2011—2012</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/discretestructures_f2011s2012" jotId="wuid:gx:43a596b391e255be" class="sites-navigation-link">  (, 2011—2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/vlsi_f2011" jotId="wuid:gx:312004de8f4b1d8" class="sites-navigation-link">     ( ,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/graphtheory_s2012" jotId="wuid:gx:18723b45af4b982a" class="sites-navigation-link">   ( ,  2012)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/graphtheory_f2011" jotId="wuid:gx:1efb7322e6e79f52" class="sites-navigation-link">   (,  2011)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2011-2012/codingtheory_s2012" jotId="wuid:gx:46f47e79bf4a430b" class="sites-navigation-link">   (,  2012)</a></div></li></ul></li><li class="parent closed " wuid="gx:5b1b6e1ec1c536ab"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2012-2013" jotId="wuid:gx:5b1b6e1ec1c536ab" class="sites-navigation-link">2012—2013</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/discopt_s2013" jotId="wuid:gx:63b9e5a2238d4500" class="sites-navigation-link">  (,  2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/discretestructures_f2012s2013" jotId="wuid:gx:218bf14c28c0cbe4" class="sites-navigation-link">  (, 2012—2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2012-2013/codingtheory_f2012" jotId="wuid:gx:31a7418c79ffe2e9" class="sites-navigation-link">  (,  2012)</a></div></li></ul></li><li class="parent closed " wuid="gx:3be96afadda0e17c"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2013-2014" jotId="wuid:gx:3be96afadda0e17c" class="sites-navigation-link">2013—2014</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/graphdrawing_s2014" jotId="wuid:gx:3164f507f6f2cbf" class="sites-navigation-link">  (St. Petersburg CS Club,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/discopt_s2014" jotId="wuid:gx:4921b027254b0b1" class="sites-navigation-link">  (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/discretestructures_f2013s2014" jotId="wuid:gx:30cc8b2bfb1f27af" class="sites-navigation-link">  (, 2013—2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/graphtheory_f2013" jotId="wuid:gx:81d7bfc68b9ddc7" class="sites-navigation-link">   (,  2013)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2013-2014/codingtheory_f2013" jotId="wuid:gx:24e69cf659ea5701" class="sites-navigation-link">  (,  2013)</a></div></li></ul></li><li class="parent closed " wuid="gx:23eda098a5642d6c"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2014-2015" jotId="wuid:gx:23eda098a5642d6c" class="sites-navigation-link">2014—2015</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/algalg_f2014" jotId="wuid:gx:7f08e303cc83af0f" class="sites-navigation-link">   (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/discopt_f2014" jotId="wuid:gx:7911079b4b38ed1d" class="sites-navigation-link">  (,  2014)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/discretestructures_f2014s2015" jotId="wuid:gx:20453b956662f080" class="sites-navigation-link">  (, 2014—2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2014-2015/codingtheory_s2015" jotId="wuid:gx:317810d4d4e5cb6c" class="sites-navigation-link">  (,  2015)</a></div></li></ul></li><li class="parent closed " wuid="gx:2c07d908f4a43091"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2015-2016" jotId="wuid:gx:2c07d908f4a43091" class="sites-navigation-link">2015—2016</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/algalg_f2015" jotId="wuid:gx:7f16926237c6df87" class="sites-navigation-link">   (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/dataviz_f2015" jotId="wuid:gx:6edaa4d1d5d311f4" class="sites-navigation-link">  (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/discopt_s2016" jotId="wuid:gx:3890e9494fe77508" class="sites-navigation-link">  (,  2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/discopt_f2015" jotId="wuid:gx:707354c70397bd68" class="sites-navigation-link">  (,  2015)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/ds_2015-2016" jotId="wuid:gx:2cd1694751a0480e" class="sites-navigation-link">  (, 2015—2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2015-2016/codingtheory_s2016" jotId="wuid:gx:b41f9521a1bbd70" class="sites-navigation-link">  (,  2016)</a></div></li></ul></li><li class="parent closed " wuid="gx:faf018e98889c3"><div dir="ltr" style="padding-left: 76px;"><div class="expander"></div><a href="/ru/teaching/courses/past/2016-2017" jotId="wuid:gx:faf018e98889c3" class="sites-navigation-link">2016—2017</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2016-2017/algalg_f2016" jotId="wuid:gx:3abf3b7ee02258d9" class="sites-navigation-link">   (,  2016)</a></div></li><li class=""><div dir="ltr" style="padding-left: 114px;"><a href="/ru/teaching/courses/past/2016-2017/visual_f2016-1" jotId="wuid:gx:28190bfc224f19f8" class="sites-navigation-link">  (,  2016)</a></div></li></ul></li></ul></li><li class="parent closed " wuid="gx:62cd55356bb1a2c8"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/teaching/courses/current" jotId="wuid:gx:62cd55356bb1a2c8" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/teaching/courses/current/discopt_s2017" jotId="wuid:gx:6314906312189dc8" class="sites-navigation-link">  (,  2017)</a></div></li><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/teaching/courses/current/ds_2016-2017" jotId="wuid:gx:5439421fd2f7ce8e" class="sites-navigation-link">  (, 2016—2017)</a></div></li></ul></li></ul></li><li class="parent closed " wuid="gx:2ae6abe800bc8432"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/teaching/misc" jotId="wuid:gx:2ae6abe800bc8432" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/criteria" jotId="wuid:gx:2809807794a0e029" class="sites-navigation-link">«  »   </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/tips" jotId="wuid:gx:5da8114445fe82df" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/teaching/misc/email" jotId="wuid:gx:3f4c1a1f1448f260" class="sites-navigation-link">   </a></div></li></ul></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/teaching/slides" jotId="wuid:gx:2e6813881a01222" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/teaching/books" jotId="wuid:gx:4df3f4d70d6a0ec4" class="sites-navigation-link"> </a></div></li></ul></li><li class="parent closed " wuid="gx:2b2de7d23469c42a"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/software" jotId="wuid:gx:2b2de7d23469c42a" class="sites-navigation-link"></a></div><ul role="navigation" class="has-expander"><li class="parent closed " wuid="gx:f7e146315862f09"><div dir="ltr" style="padding-left: 38px;"><div class="expander"></div><a href="/ru/software/old" jotId="wuid:gx:f7e146315862f09" class="sites-navigation-link"> </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 76px;"><a href="/ru/software/old/winopto" jotId="wuid:gx:3b0129cc1f41ac2b" class="sites-navigation-link"> </a></div></li><li class="parent closed " wuid="gx:5a207c2146efd353"><div dir="ltr" style="padding-left: 57px;"><div class="expander"></div><a href="/ru/software/old/dos" jotId="wuid:gx:5a207c2146efd353" class="sites-navigation-link">  DOS</a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 95px;"><a href="/ru/software/old/dos/em3" jotId="wuid:gx:253bad8152d17bd5" class="sites-navigation-link"> -3</a></div></li></ul></li></ul></li></ul></li><li class="parent closed " wuid="gx:5970bb2d4c0a90c8"><div dir="ltr" style="padding-left: 19px;"><div class="expander"></div><a href="/ru/links" jotId="wuid:gx:5970bb2d4c0a90c8" class="sites-navigation-link">    </a></div><ul role="navigation" class="has-expander"><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/freebooks" jotId="wuid:gx:2383946b9d9eaadd" class="sites-navigation-link">     </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/contests" jotId="wuid:gx:2c22f520d1b07044" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/news" jotId="wuid:gx:2b7b42cd0dec60c5" class="sites-navigation-link">   </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/edu" jotId="wuid:gx:3da28982e2636c99" class="sites-navigation-link"> </a></div></li><li class=""><div dir="ltr" style="padding-left: 57px;"><a href="/ru/links/software" jotId="wuid:gx:385af5e08c4b1884" class="sites-navigation-link">   </a></div></li></ul></li><li class=""><div dir="ltr" style="padding-left: 38px;"><a href="/ru/feedback" jotId="wuid:gx:16613e76f8f3799f" class="sites-navigation-link">  </a></div></li></ul></li><li class="topLevel "><div dir="ltr" style="padding-left: 19px;"><a href="/system/app/pages/sitemap/hierarchy" jotId="wuid:gx:65c3a1fe7410c698" class="sites-navigation-link topLevel">Sitemap</a></div></li></ul></div></div>
+</td>
+<td id="sites-canvas-wrapper">
+<div id="sites-canvas" role="main">
+<div id="goog-ws-editor-toolbar-container"> </div>
+<div xmlns="http://www.w3.org/1999/xhtml" id="title-crumbs" style="">
+</div>
+<h3 xmlns="http://www.w3.org/1999/xhtml" id="sites-page-title-header" style="" align="left">
+<span id="sites-page-title" dir="ltr" tabindex="-1" style="outline: none">Home</span>
+</h3>
+<div id="sites-canvas-main" class="sites-canvas-main">
+<div id="sites-canvas-main-content">
+<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div style="float:right"><img src="http://www.dainiak.com/home/dainiak.jpg" style="width:300px" /></div>
+<div style="float:left">
+<ul>
+<li><a href="https://dainiak.github.io">Main site</a></li>
+<li><a href="https://plus.google.com/+AlexDainiak" rel="author">My profile</a></li>
+</ul>
+</div></div></td></tr></tbody></table>
+</div> 
+</div> 
+<div id="sites-canvas-bottom-panel">
+<div xmlns="http://www.w3.org/1999/xhtml" id="COMP_page-subpages"> </div>
+<div id="sites-attachments-container">
+<div xmlns="http://www.w3.org/1999/xhtml" id="sites-attachments">
+<div class="sites-attachments-row"><div class="sites-attachments-icon" style="left:0px;"><span aria-label="Attachments" title="Attachments"><div class="sites-translucent sites-symbol" aria-hidden="true"></div></span></div><div id="sites-attachments-update-div" class="sites-attachments-inner-div" style="display:none;"><span class="sites-attachments-update-icon"><img src="http://www.gstatic.com/sites/p/acd669/system/app/images/spinner.gif" /></span><div class="sites-attachments-update-text">Updating...</div></div></div><div class="sites-attachments-separator"></div>
+<div id="attachment-wuid:gx:74e898aa3825e0ed"><div class="sites-attachments-row"><div class="sites-attachments-icon sites-attachments-icon-accessible" style="left:5px"><div class="sites-translucent sites-symbol" aria-label="Image" title="Image"></div></div><div class="sites-attachments-inner-div"><div class="sites-attachments-name"><a href="/home/dainiak.jpg?attredirects=0" target="_blank" rel="noopener noreferrer">dainiak.jpg</a> <div class="sites-translucent">(70k)</div></div><div class="sites-attachments-author">Alex Dainiak, <div class="sites-translucent">Mar 21, 2012, 2:16 AM</div></div></div><div class="sites-attachments-version sites-attachments-version-accessible"><a href="/system/app/pages/admin/revisions?wuid=wuid:gx:74e898aa3825e0ed">v.2</a></div><div id="attachment-download-wuid:gx:74e898aa3825e0ed" class="sites-attachments-icon sites-attachments-icon-accessible" style="right:0px"><a href="/home/dainiak.jpg?attredirects=0&amp;d=1" aria-label="Download dainiak.jpg" title="Download" role="button"><span class="sites-symbol" aria-hidden="true"></span></a></div></div><div class="sites-attachments-separator"></div></div>
+<div style="height: 10px"></div>
+</div>
+</div>
+</div>
+</div> 
+</td> 
+</tr>
+</table> 
+</div> 
+</div> 
+<div id="sites-chrome-footer-wrapper">
+<div id="sites-chrome-footer-wrapper-inside">
+<div id="sites-chrome-footer">
+</div>
+</div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-adminfooter-container">
+<div xmlns="http://www.w3.org/1999/xhtml" class="sites-adminfooter" role="navigation"><p><a class="sites-system-link" href="http://sites.google.com/a/dainiak.com/www/system/app/pages/reportAbuse" target="_blank">Report Abuse</a><span aria-hidden="true">|</span><a class="sites-system-link" href="javascript:;" onclick="window.open(webspace.printUrl)">Print Page</a><span aria-hidden="true">|</span><span class="sites-system-link">Powered By</span> <b class="powered-by"><a href="http://sites.google.com">Google Sites</a></b></p></div>
+</div>
+</div> 
+</div> 
+<div id="sites-chrome-onebar-footer">
+</div>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('sjl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="http://www.gstatic.com/sites/p/acd669/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    window.jstiming.load.tick('jl');
+  </script>
+<script xmlns="http://www.w3.org/1999/xhtml">if (webspace.editorResources['text']) {webspace.editorResources['text'].unshift('\/system\/app\/css\/overlay.css?cb\x3dsimple12a200goog-ws-left-noheadnonethemedefaultstandard');webspace.editorResources['text'].unshift('\/_\/rsrc\/1489651108000\/system\/app\/themes\/simple\/standard-css-simple-ltr-ltr.css');}</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+      
+          sites.core.Analytics.createTracker();
+          sites.core.Analytics.trackPageview();
+        
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+      gsites.HoverPopupMenu.createSiteDropdownMenus('sites-header-nav-dropdown', false);
+    </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript" defer="true">
+            JOT_setupNav("2bd", "", true);
+            JOT_addListener('titleChange', 'JOT_NAVIGATION_titleChange', 'COMP_2bd');
+          </script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+  setTimeout(function() {
+    var fingerprint = gsites.date.TimeZone.getFingerprint([1109635200000, 1128902400000, 1130657000000, 1143333000000, 1143806400000, 1145000000000, 1146380000000, 1152489600000, 1159800000000, 1159500000000, 1162095000000, 1162075000000, 1162105500000]);
+    gsites.Xhr.send('http://www.dainiak.com/_/tz', null, null, 'GET', null, null, { afjstz: fingerprint });
+  }, 500);
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml">
+                    window.onload = function() {
+                      if (false) {
+                        JOT_setMobilePreview();
+                      }
+                      var loadTimer = window.jstiming.load;
+                      loadTimer.tick("ol");
+                      load

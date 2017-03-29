@@ -1,0 +1,413 @@
+|||http://cartaodevisita.com.br/|
+<!doctype html>
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<base href="/">
+		
+		<title>Cartão de Visita</title>
+		<meta name="description" content="Cartão de Visita">
+		<meta name="keywords" content="Cartão de Visita">
+		
+		<meta name="viewport" content="width=device-width">
+
+	
+		<link rel="stylesheet" href="/css/site.css?1.17">
+		<link rel="stylesheet" href="/css/form_modal.css?1.17">
+		
+		<script src="/js/libs/modernizr-2.5.3.min.js"></script>
+		<script src="/js/libs/jquery-1.9.1.min.js"></script>
+		<script src="/js/libs/swfobject.js"></script>
+		<script src="/js/libs/util.js?123"></script>
+		<script src="/js/script.js?1.17"></script>
+		<script type="text/javascript">
+			var SITE_PATH = '/';
+			var SITE_PATH_ADM = '/adm/';
+
+			//*********************************************************
+			//R7
+			(function (url) {
+				var
+				isSSL = document.location.protocol === 'https:',
+				r7adUrl = (isSSL ? 'https:' : 'http:') + '//adv.r7.com/script?href=',
+				pageUrl = (typeof url === 'undefined' ? document.location.href : url);
+				document.write('<scr' + 'ipt src="' + r7adUrl + pageUrl + '"><\/scr' + 'ipt>');
+			}());
+			//R7
+		</script>
+
+
+
+
+		<style>
+			#r7header {
+				background-color: #0071bc;
+				display: block;
+				height: 60px;
+				text-align: center;
+				width: 100%;
+			}
+		</style>
+		<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+	</head>
+	<body>
+		<a id="r7header" href="http://www.r7.com" target="_blank">
+			<amp-img src="https://scs.r7.com/amp/logo-r7-amp.png" width="200" height="60"></amp-img>
+		</a>
+		<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:false ,banner:false ,submenu:false}</script>
+		<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Atualize seu browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">instale o Google Chrome Frame</a> para utilizar este site.</p><![endif]-->
+		<div class="content">
+			
+			<header class="full_width">
+	<div class="full_width top_logo_banner">
+		<div class="logo">
+			<a href="/"><img src="/img/logo.png" /></a>
+		</div>
+
+		<div class="banner">
+			<script>
+				r7ad.printGAds([728, 90], 'Superbanner');
+			</script>
+		</div>
+	</div>
+
+	<div class="full_width main_menu">
+		<ul>
+			<li class="" title="Coluna Cartão de Visita"><a href="/menu/1/coluna-cartao-de-visita">Coluna Cartão de Visita</a><ul class="">		<li title="Por Zacarias Pagnanelli"><a href="/menu/1/10/por-zacarias-pagnanelli">Por Zacarias Pagnanelli</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=aab3238922bcc25a6f606eb525ffdc56"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/14.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Informes"><a href="/menu/2/informes">Informes</a><ul class="">		<li title="Canal Jurídico"><a href="/menu/2/61/canal-juridico">Canal Jurídico</a></li>		<li title="Pista 60 Camarote 120"><a href="/menu/2/74/kids-e-teens">Kids e Teens</a></li></ul>	</li>	<li class="" title="Business"><a href="/menu/4/business">Business</a><ul class="">		<li title="Agronegócio"><a href="/menu/4/54/agronegocio">Agronegócio</a></li></ul>	</li>	<li class="" title="Autoridades"><a href="/menu/3/autoridades">Autoridades</a>	</li>	<li class="" title="Cultura"><a href="/menu/5/cultura">Cultura</a><ul class="col2">		<li title="Teatro"><a href="/menu/5/9/teatro">Teatro</a></li>		<li title="Música"><a href="/menu/5/8/musica">Música</a></li>		<li title="Cinema"><a href="/menu/5/12/cinema">Cinema</a></li>		<li title="Viagem"><a href="/menu/5/13/viagem">Viagem</a></li>		<li title="Educação"><a href="/menu/5/17/educacao">Educação</a></li>		<li title="Fotografia"><a href="/menu/5/14/fotografia">Fotografia</a></li>		<li title="Arquitetura"><a href="/menu/5/15/arquitetura">Arquitetura</a></li>		<li title="Decoração"><a href="/menu/5/16/decoracao">Decoração</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=9bf31c7ff062936a96d3c8bd1f8f2ff3"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/15.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Viver"><a href="/menu/6/viver">Viver</a><ul class="col2">		<li title="Saúde"><a href="/menu/6/18/saude">Saúde</a></li>		<li title="Moda"><a href="/menu/6/19/moda">Moda</a></li>		<li title="Beleza"><a href="/menu/6/20/beleza">Beleza</a></li>		<li title="Beber e Comer"><a href="/menu/6/21/beber-e-comer">Beber e Comer</a></li>		<li title="Esporte"><a href="/menu/6/22/esporte">Esporte</a></li>		<li title="Mundo Pet"><a href="/menu/6/39/mundo-pet">Mundo Pet</a></li><li class="banner">	<div class="img publicidade_submenu header">		<a target="_new" href="/assinc/ad.php?id=67c6a1e7ce56d3d6fa748ab6d9af3fd7"><img title="Compartilha Brasil" class="" src="/upload/publicidade_img/47.jpg" width="180" height="50" />		</a>	</div></li></ul>	</li>	<li class="" title="Notícias"><a href="/menu/7/noticias">Notícias</a>	</li>	<li class="" title="Televisão"><a href="/menu/8/televisao">Televisão</a>	</li>	<li class="last" title="Motor"><a href="/menu/9/motor">Motor</a>	</li>		</ul>
+	</div>
+
+	<div class="full_width sec_menu">
+		<div class="search">
+			<form action="pesquisa/" onsubmit="return formSearch();" method="GET">
+				<input type="text" name="palavra-chave" id="palavra-chave" value=""/>
+				<input type="submit" value="" />
+			</form>
+		</div>
+
+		<div class="sec_menu_options">
+			<ul>
+				<li>Colunistas
+				<ul class="submenu col2">		<li><a href="/menu/1/10/por-zacarias-pagnanelli">Zacarias Pagnanelli</a></li>		<li><a href="/menu/11/40/programa-cartao-de-visita">Débora Santilli</a></li>		<li><a href="/menu/15/29/andrea-pagnanelli">Andrea Pagnanelli</a></li>		<li><a href="/menu/15/31/godi-junior">Godi Júnior</a></li>		<li><a href="/menu/15/35/rodolfo-bonventti">Rodolfo Bonventti</a></li>		<li><a href="/menu/15/37/ruvin-singal">Ruvin Singal</a></li>		<li><a href="/menu/15/46/lica-gimenes">Lica Gimenes</a></li>		<li><a href="/menu/15/52/tamara-almeida">Tamara Almeida</a></li>		<li><a href="/menu/15/60/cau-marques">Cau Marques</a></li>		<li><a href="/menu/15/68/fabiola-lajusticia">Fabíola Lajusticia</a></li>		<li><a href="/menu/15/73/patricia-fernandes">Patrícia Fernandes</a></li>		<li><a href="/menu/15/75/andre-garcia">André Garcia</a></li>		<li><a href="/menu/15/79/julia-contarelli">Júlia Contarelli</a></li>		<li><a href="/menu/15/80/fabiano-de-abreu">Fabiano de Abreu</a></li></ul>				</li>
+				<li>Blogueiros
+				<ul class="submenu col2">		<li><a href="/menu/16/42/roberto-kroll">Roberto Kroll</a></li>		<li><a href="/menu/16/48/talita-alves">Talita Alves</a></li>		<li><a href="/menu/16/59/mauro-e-tati">Mauro e Tati</a></li>		<li><a href="/menu/16/64/luh-isaga">Luh Isaga</a></li>		<li><a href="/menu/16/72/fabiano-de-abreu">Fabiano de Abreu</a></li>		<li><a href="/menu/16/77/rodrigo-pagliani">Rodrigo Pagliani</a></li>		<li><a href="/menu/16/78/blogueiro">Blogueiro</a></li></ul>				</li>
+				<li>Cartão na TV
+				<ul class="submenu ">		<li><a href="/menu/11/40/programa-cartao-de-visita">Programa Cartão de Visita</a></li>		<li><a href="/menu/11/76/economia-negocios">Economia/Negócios</a></li>		<li><a href="/menu/11/81/cartao-de-visita-online">Cartão de Visita OnLine</a></li></ul>				</li>
+				<a href="/menu/12/na-midia"><li>Na Mídia</li></a>
+				<li>
+					<a target="_blank" href="https://www.facebook.com/colunacartaodevisita"><img src="/img/ico_fb.png"/></a>
+					<a target="_blank" href="https://twitter.com/cartaovip"><img src="/img/ico_tt.png"/></a>
+					<!--<a target="_blank" href=""><img src="/img/ico_yt.png"/></a>
+					<a target="_blank" href=""><img src="/img/ico_instg.png"/></a>!-->
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="full_width">
+
+	</div>
+</header>
+			<div role="main" class="main full_width home">
+				
+<div class="slideshow full_width">
+	<ul>
+
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><img src="/upload/slide_img/11.jpg?1490749049" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/dark_green.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_1">Cartão de Visita</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_2">Fábio Bopp</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita" target=""><p class="descricao_3">Chefe do GER da Polícia Civil</p></a>
+			</div>
+		</li>
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17899/ao-vivo-programa-06" target=""><img src="/upload/slide_img/90.jpg?1490749049" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/red.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17899/ao-vivo-programa-06" target=""><p class="descricao_1">Rodrigo Pagliani e</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17899/ao-vivo-programa-06" target=""><p class="descricao_2">Godi Júnior</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17899/ao-vivo-programa-06" target=""><p class="descricao_3">ao vivo</p></a>
+			</div>
+		</li>
+			<li class="full_width">
+			<div class="img">
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><img src="/upload/slide_img/88.jpg?1490749049" /></a>
+			</div>
+			<div class="info" style="background:url(/img/slide_arrow_bkg/dark_gray.png) 100% 0 no-repeat;">
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_1">Posse</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_2">Ministro do STF</p></a>
+				<a href="http://cartaodevisita.r7.com/conteudo/17771/posse-ministro-alexandre-de-moraes" target=""><p class="descricao_3">Alexandre de Moraes</p></a>
+			</div>
+		</li>
+	
+	</ul>
+	<div class="controls">
+		<div class="prior"></div>
+		<div class="next"></div>
+	</div>
+</div>
+				<div class="main_content">
+					
+					<div class="column left_column">
+						
+<!-- 
+###############################################
+	Coluna Esquerda 
+-->
+<div class="column _1">
+	<div class="block first">
+		<div class="block_header">
+			<span class="title"><a href="/menu/2/informes">personalidades</a></span>
+			<span class="ver_todos"><a href="/menu/2/informes">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<div class="img"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce"><img src="/upload/conteudo_img/17649.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">Juliluly traz novidades para você!</a></h3>
+			<p class="description"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">Na Juliluly se tem motivos para comemorar a semana do consumidor.</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17649/juliluly-traz-novidades-para-voce">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block second">
+		<div class="block_header">
+			<span class="title"><a href="/menu/5/cultura">cultura</a></span>
+			<span class="ver_todos"><a href="/menu/5/cultura">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17894/semana-de-comunicacao"><img src="/upload/conteudo_img/17894.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17894/semana-de-comunicacao">Semana de Comunicação</a></h3>
+			<p class="description"><a href="/conteudo/17894/semana-de-comunicacao">Faculdade Belas Artes de São Paulo</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17894/semana-de-comunicacao">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro"><img src="/upload/conteudo_img/17824.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">29º EDIÇÃO DO PRÊMIO SHELL DE TEATRO</a></h3>
+			<p class="description"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">Antônio Fagundes foi homenageado</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17824/29-edi-o-do-pr-mio-shell-de-teatro">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title"><a href="/menu/7/noticias">notícias</a></span>
+			<span class="ver_todos"><a href="/menu/7/noticias">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content dotted_bottom">
+			<h3 class="title"><a href="/conteudo/17806/excesso-de-peso-em-aeronave-atrasa-voo">Excesso de peso em aeronave atrasa voo</a></h3>
+			<p class="description"><a href="/conteudo/17806/excesso-de-peso-em-aeronave-atrasa-voo">Atraso foi de 2 horas no total</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+		<div class="block_content dotted_bottom">
+			<h3 class="title"><a href="/conteudo/17789/projeto-fenix-alcando-voo">Projeto Fênix - Alçando Voo</a></h3>
+			<p class="description"><a href="/conteudo/17789/projeto-fenix-alcando-voo">É apresentado pelo TJSP</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+		<div class="block_content">
+			<h3 class="title"><a href="/conteudo/17756/forum-discute-o-papel-da-midia-brasileira-para-garantir-a-credibilidade-da-informacao">Fórum discute o papel da Mídia Brasileira para garantir a credibilidade da informação</a></h3>
+			<p class="description"><a href="/conteudo/17756/forum-discute-o-papel-da-midia-brasileira-para-garantir-a-credibilidade-da-informacao">Voltado a profissionais de comunicação</a></p>
+			<p class="detail">0 comentários</p>
+		</div>
+	</div>
+
+	<div class="block fourth">
+		<div class="block_header">
+			<span class="title"><a href="/menu/4/business">business</a></span>
+			<span class="ver_todos"><a href="/menu/4/business">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17728/linha-de-credito-especial"><img src="/upload/conteudo_img/17728.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17728/linha-de-credito-especial">Linha de crédito especial</a></h3>
+			<p class="description"><a href="/conteudo/17728/linha-de-credito-especial">No setor de Duas Rodas</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17728/linha-de-credito-especial">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17725/economia-compartilhada"><img src="/upload/conteudo_img/17725.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17725/economia-compartilhada">Economia compartilhada</a></h3>
+			<p class="description"><a href="/conteudo/17725/economia-compartilhada">Através do sistema fraction ownership</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17725/economia-compartilhada">+ detalhes</a></span>
+		</div>
+	</div>
+
+</div>						<!-- 
+###############################################
+	Coluna Central
+-->
+<div class="column _2">
+	<div class="block first">
+		<div class="block_header">
+			<span class="title"><a href="/menu/8/televisao">televisão</a></span>
+			<span class="ver_todos"><a href="/menu/8/televisao">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+
+		<div class="block_content half">
+			<div class="img"><a href="/conteudo/17900/tamara-almeida-investe-em-carreira-de-apresentadora-e-e-representada-pela-ford-artist-brasil"><img src="/upload/conteudo_img/17900.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17900/tamara-almeida-investe-em-carreira-de-apresentadora-e-e-representada-pela-ford-artist-brasil">Tamara Almeida investe em carreira de apresentadora e é representada pela Ford Artist Brasil</a></h3>
+			<p class="description"><a href="/conteudo/17900/tamara-almeida-investe-em-carreira-de-apresentadora-e-e-representada-pela-ford-artist-brasil">Modelo internacional da Ford Models Brasil por quase uma década</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17900/tamara-almeida-investe-em-carreira-de-apresentadora-e-e-representada-pela-ford-artist-brasil">+ detalhes</a></span>
+		</div>
+
+		<div class="block_content half right">
+			<div class="img"><a href="/conteudo/17862/escola-do-amor"><img src="/upload/conteudo_img/17862.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17862/escola-do-amor">Escola do Amor</a></h3>
+			<p class="description"><a href="/conteudo/17862/escola-do-amor">No programa Escola do Amor desse sábado (01/04) vamos conhecer o casal Karem e Sergio, eles erraram e estavam desiludidos mas, se conheceram e conseguiram voltar a acreditar no amor.</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17862/escola-do-amor">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block second">
+		<div class="block_header">
+			<span class="title"><a href="/menu/6/viver">viver</a></span>
+			<span class="ver_todos"><a href="/menu/6/viver">+ VER TODOS</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<div class="img"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo"><img src="/upload/conteudo_img/17830.jpg" /></a></div>
+			<h3 class="title"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">Sensory-All Med Spa promove uma tarde de beleza e bem estar em São Paulo</a></h3>
+			<p class="description"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">O Sensory-All Med Spa está com uma nova gama de serviços e durante todo o evento foram feitas demonstrações destes novos procedimentos pelas profissionais do Spa, com o objetivo de apresentar os tratamentos e os equipamentos adquiridos para melhor atendê</a></p>
+			<span class="mais_detalhes"><a href="/conteudo/17830/sensory-all-med-spa-promove-uma-tarde-de-beleza-e-bem-estar-em-sao-paulo">+ detalhes</a></span>
+		</div>
+	</div>
+
+	<div class="block third">
+		<div class="block_content half">
+			<div class="img">
+			<div class="img publicidade home_center">	<a target="_new" href="/assinc/ad.php?id=d645920e395fedad7bbbed0eca3fe2e0"><img title="Bebidas e Afins" class="" src="/upload/publicidade_img/40.png" width="180" height="150" />	</a></div>			</div>
+
+			<div class="block_header">
+				<span class="title"><a href="/menu/9/motor">motor</a></span>
+				<span class="ver_todos"><a href="/menu/9/motor">+ VER TODOS</a></span>
+				<div class="underline_tick"></div>
+			</div>
+
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17790/campeonato-off-road">Campeonato OFF-ROAD</a></h3>
+				<p class="description"><a href="/conteudo/17790/campeonato-off-road">Polaris Cup 2017</a></p>
+				<p class="detail">23/03/2017 - 10:35:00</p>
+			</div>
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17770/bmw-motorrad-start-collection-e-confirmada-para-o-brasil">BMW Motorrad Start Collection é confirmada para o Brasil</a></h3>
+				<p class="description"><a href="/conteudo/17770/bmw-motorrad-start-collection-e-confirmada-para-o-brasil">Desenvolvida por especialistas brasileiros</a></p>
+				<p class="detail">22/03/2017 - 12:22:00</p>
+			</div>
+			<div class="block_content dotted_bottom">
+				<h3 class="title"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">XJ6N ABS 2018 CHEGA COM NOVAS CORES E GRAFISMO</a></h3>
+				<p class="description"><a href="/conteudo/17727/xj6n-abs-2018-chega-com-novas-cores-e-grafismo">Conheça as novidades</a></p>
+				<p class="detail">20/03/2017 - 11:15:00</p>
+			</div>
+			<div class="block_content">
+				<h3 class="title"><a href="/conteudo/17633/indian-motorcycle-inaugura-concession-ria-em-goi-nia">INDIAN MOTORCYCLE INAUGURA CONCESSIONÁRIA EM GOIÂNIA</a></h3>
+				<p class="description"><a href="/conteudo/17633/indian-motorcycle-inaugura-concession-ria-em-goi-nia">Seguindo o plano de expansão da marca no Brasil, a quinta concessionária da Indian chega ao centro oeste brasileiro.</a></p>
+				<p class="detail">14/03/2017 - 10:56:00</p>
+			</div>
+		</div>
+
+		<div class="block_content half right">
+			<div class="block_header">
+				<span class="title"><a href="">colunistas</a></span>
+				<div class="underline_tick"></div>
+			</div>
+
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/35/rodolfo-bonventti"><img src="/upload/colunista_img/3.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/35/rodolfo-bonventti">Rodolfo Bonventti</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/75/andre-garcia"><img src="/upload/colunista_img/19.png" /></a></div>
+				<p class="detail"><a href="/menu/15/75/andre-garcia">André Garcia</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/52/tamara-almeida"><img src="/upload/colunista_img/15.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/52/tamara-almeida">Tamara Almeida</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/11/40/programa-cartao-de-visita"><img src="/upload/colunista_img/4.png" /></a></div>
+				<p class="detail"><a href="/menu/11/40/programa-cartao-de-visita">Débora Santilli</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/37/ruvin-singal"><img src="/upload/colunista_img/10.jpg" /></a></div>
+				<p class="detail"><a href="/menu/15/37/ruvin-singal">Ruvin Singal</a></p>
+			</div>
+			<div class="block_content">
+				<div class="img colunista"><a href="/menu/15/80/fabiano-de-abreu"><img src="/upload/colunista_img/21.png" /></a></div>
+				<p class="detail"><a href="/menu/15/80/fabiano-de-abreu">Fabiano de Abreu</a></p>
+			</div>
+
+		</div>
+	</div>
+</div>						<!-- 
+###############################################
+REDES SOCIAIS
+-->
+<div class="block redessociais">
+	<div class="block_header">
+		<span class="title">na rede</span>
+		<div class="underline_tick"></div>
+	</div>
+
+	<div class="block_content half">
+		<!-- TIWTTER -->
+		<a class="twitter-timeline" href="https://twitter.com/cartaovip" data-widget-id="353271054053040128">Tweets de @cartaovip</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+
+	<div class="block_content half right">
+		<!-- FACEBOOK FACEPILE-->
+		<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcolunacartaodevisita&amp;width=340&amp;height=320&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color=23808285&amp;header=false"
+			scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:340px; height:320px;" allowTransparency="true"></iframe>
+	</div>
+</div>					</div>
+
+				<!-- 
+	###############################################
+	Coluna Direita 1
+-->
+<div class="column _3">
+	<div class="block">
+	<div class="img publicidade top_right">	<a target="" href=""><div id="flash_450147941">	<h1>Instale o Flash</h1>	<p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /></a></p></div><script type="text/javascript">swfobject.embedSWF("/upload/publicidade_img/6.swf", "flash_450147941", "300", "250", "9.0.0", "expressInstall.swf", false, { wmode:'opaque' });</script>	</a></div><div class="img publicidade top_right">	<a target="_new" href="/assinc/ad.php?id=f033ab37c30201f73f142449d037028d"><img title="barrio orlando" class="" src="/upload/publicidade_img/80.jpg" width="310" height="161" />	</a></div>	</div>
+
+	<div class="block video_destaque">
+		<div class="block_header">
+			<span class="title"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Programa Cartão de Visita</a></span>
+			<div class="underline_tick"></div>
+		</div>
+		<iframe  width="310" height="250" src="https://www.youtube.com/embed/_tlIaXw9mAQ" frameborder="0" scrolling="false"></iframe>
+		<p class="detail"><a href="https://www.youtube.com/channel/UCSMx1mh8dcVv0v8fNYZkHnQ?spfreload=5">Fábio Bopp - Chefe do GER</a></p>
+	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">+ acessadas</span>
+			<div class="underline_tick"></div>
+		</div>
+
+	<div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">24 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17849/o-apresentador-cido-marques-e-a-mc-lary-figueiredo-agitam-a-loja-triton-eyewear-em-sp">O apresentador Cido Marques e a Mc Lary Figueiredo, agitam a loja Triton Eyewear em SP</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17793/especializacao-em-implantodontia">23 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17793/especializacao-em-implantodontia">Especialização em implantodontia</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17860/amanda-sabbatini-faz-sucesso-com-seus-cursos-de-make-up">27 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17860/amanda-sabbatini-faz-sucesso-com-seus-cursos-de-make-up">Amanda Sabbatini faz sucesso com seus cursos de Make Up</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17878/um-novo-conceito-de-beleza">28 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17878/um-novo-conceito-de-beleza">Um novo conceito de beleza.</a></h3></div><div class="block_content dotted_bottom">	<p class="detail"><a href="/conteudo/17822/atual-vice-campeao-da-superbike-motociclista-de-rp-se-prepara-para-a-temporada-2017">24 de Março de 2017</a></p>	<h3 class="title"><a href="/conteudo/17822/atual-vice-campeao-da-superbike-motociclista-de-rp-se-prepara-para-a-temporada-2017">Atual vice-campeão da SuperBike, motociclista de RP se prepara para a temporada 2017</a></h3></div>	</div>
+
+	<div class="block third">
+		<div class="block_header">
+			<span class="title">destaque</span>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content destaque">
+			<div class="block_header"><span class="aspas_destaque open"></span></div>
+			<h3 class="texto"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Não é uma tarefa fácil e não é justo ver diversas pessoas criticando a figura do policial.</a></h3>
+			<div class="block_header"><span class="aspas_destaque close"></span></div>
+			<div class="underline_tick"></div>
+		</div>
+		<div class="block_content">
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-especial-de-rea-o-da-pol-cia-civil-convidado-do-cart-o-de-visita">Fábio Bopp</a></p>
+			<p class="description destaque"><a href="http://cartaodevisita.r7.com/conteudo/17807/chefe-do-grupo-espe

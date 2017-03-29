@@ -1,0 +1,1122 @@
+|||http://globosatplay.globo.com/gloob/|<!DOCTYPE html>
+<!--
+1.132.2
+     |         |         |              ,---.
+,---.|    ,---.|---.,---.|--- .    ,    |---',---.,---.,---.,---.,---.,-.-.,---.,---.
+|   ||    |   ||   ||   ||     \  /     |    |    |   ||   ||    ,---|| | |,---|`---.
+`---|`---'`---'`---'`---'`---'  `'      `    `    `---'`---|`    `---^` ' '`---^`---'
+`---'                                                  `---'
+-->
+<html>
+<head>
+  <title>Gloob | Globosat Play</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+
+  
+  <link rel="canonical" href="http://globosatplay.globo.com/gloob/" />
+
+  <meta name="description" content="Séries, desenhos animados e personagens incríveis. O Gloob é um mundo de diversão e inspiração para as crianças. Assista na íntegra no GloobPlay."></meta>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Globosat Play">
+  <meta property="og:title" content="Gloob">
+  <meta property="og:description" content="Séries, desenhos animados e personagens incríveis. O Gloob é um mundo de diversão e inspiração para as crianças. Assista na íntegra no GloobPlay.">
+  <meta property="og:url" content="http://globosatplay.globo.com/gloob/">
+  <meta property="og:image" content="https://s2.glbimg.com/AqhiIMBwu4_wnwbwt8JFoujpwd0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/14/0e/895ebb97fa0bc50f49e0a47865df.png">
+
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:title" value="Gloob">
+  <meta name="twitter:description" value="Séries, desenhos animados e personagens incríveis. O Gloob é um mundo de diversão e inspiração para as crianças. Assista na íntegra no GloobPlay.">
+  <meta name="twitter:url" value="http://globosatplay.globo.com/gloob/">
+  <meta name="twitter:image" value="https://s2.glbimg.com/AqhiIMBwu4_wnwbwt8JFoujpwd0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/14/0e/895ebb97fa0bc50f49e0a47865df.png">
+
+  <meta itemprop="gapower:channel_title" content="Gloob"></meta>
+  <meta itemprop="gapower:program_title" content="Gloob"></meta>
+
+
+  <link href="https://s.glbimg.com/po/fo/globo-fontface.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="all" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/application-9d40f76a780f5916bf7fd79da1974777.css" />
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="jVm+klbDcqHXeSPsB5Nus1GOhDnRxZPTg6rr+R9LeOhwZ9NmVJ2vkYZwwlWR6OJL5vhdr+IBWaJ8LK82BdhcSg==" />
+  <meta name="env-status" />
+
+  <link rel="stylesheet" media="screen" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/temas/gloob-8690a8b132303d135207d10af72af7b1.css" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/favicons/gloob-70151617792036f37eddef12d993c62c.ico" />
+
+  
+    <meta name="apple-itunes-app" content="app-id=453880374">
+
+  <meta name="google-play-app" content="app-id=com.globo.muuandroidv1">
+
+  <meta name="app-title" content="Globosat Play - Filmes e TV">
+
+  <meta name="app-author" content="Globosat">
+
+  <meta name="app-name" content="Globosat Play">
+
+  <link rel="apple-touch-icon" href='https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/globosatplay/apple-touch-images/touch-icon-globosatplay-0fad810d918c8bb52fdee5a3bf5306b1.jpg'>
+
+<meta name="apple-mobile-web-app-title" content="Globosat Play - Filmes e TV">
+
+</head>
+
+<body class="limit-width" data-service-provider="gplay" data-canal-id="1989" data-canal-slug="gloob" data-canal-titulo-produto="Gloob Play" data-canal-titulo="Gloob">
+  <div id="globosat_play_lightbox" class="notificacao"></div>
+
+  <div class="page-wrapper">
+      
+  <header class="globotv-bar product">
+  <div class="container">
+    <a class="logo hover globocom" href="http://www.globo.com/">
+      <span class="svg-container svg-container-globotv-logos-play globocom"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path d="M66.425 75.619c-6.026 0-9.489 3.321-10.845 9.048-4.067-6.634-12.502-9.95-19.882-9.95C13.856 74.716 0 95.07 0 116.932c0 21.56 10.695 41.61 33.439 41.61 9.94 0 17.321-3.613 21.84-10.25h.301v5.126c0 11.006-7.833 17.185-18.375 17.185-12.501 0-20.183-6.782-27.113-6.782-4.218 0-8.736 5.429-8.736 9.5 0 11.911 25.303 16.281 34.191 16.281 24.701 0 41.722-13.118 41.722-39.199V87.686c0-7.242-4.517-12.067-10.844-12.067zm-27.863 63.025c-11.299 0-16.87-10.556-16.87-22.167 0-10.097 5.571-21.859 16.87-21.859 11.897 0 17.018 12.06 17.018 22.62 0 10.554-5.422 21.406-17.018 21.406zM94.14 40.643c-6.325 0-10.843 4.826-10.843 12.061v92.874c0 7.236 4.52 12.062 10.843 12.062 6.327 0 10.847-4.825 10.847-12.062V52.704c0-7.236-4.519-12.061-10.847-12.061zm52.568 34.073c-22.894 0-38.858 20.05-38.858 42.064 0 22.615 15.513 41.761 38.858 41.761 23.348 0 38.862-19.146 38.862-41.761-.003-22.013-15.966-42.064-38.862-42.064zm0 63.928c-11.747 0-17.172-11.46-17.172-21.863 0-10.4 5.275-22.161 17.172-22.161 11.901 0 17.172 11.761 17.172 22.161-.001 10.403-5.422 21.863-17.172 21.863zm84.353-63.928c-7.53 0-14.911 2.562-20.635 7.541V52.704c0-7.235-4.521-12.058-10.846-12.058s-10.844 4.827-10.844 12.058v92.874c0 7.238 4.518 12.062 10.844 12.062 6.025 0 9.489-3.313 10.846-9.043 4.065 6.633 12.501 9.952 19.882 9.952 21.84 0 35.696-20.358 35.696-40.859 0-21.111-11.599-42.974-34.943-42.974zm-3.616 63.928c-11.9 0-17.02-12.064-17.02-22.614 0-10.557 5.42-21.411 17.02-21.411 11.296 0 16.871 11.91 16.871 22.161 0 10.103-5.574 21.864-16.871 21.864zm80.434-63.928c-22.895 0-38.859 20.05-38.859 42.064 0 22.615 15.514 41.761 38.859 41.761 23.345 0 38.859-19.146 38.859-41.761 0-22.013-15.964-42.064-38.859-42.064zm0 63.928c-11.751 0-17.172-11.46-17.172-21.863 0-10.4 5.272-22.161 17.172-22.161 11.898 0 17.173 11.761 17.173 22.161.001 10.403-5.424 21.863-17.173 21.863zm56.031-3.622c-6.471 0-11.744 5.282-11.744 11.764 0 6.484 5.273 11.758 11.744 11.758 6.481 0 11.751-5.273 11.751-11.758 0-6.482-5.269-11.764-11.751-11.764zm73.205-.9c-2.562 0-10.695 4.522-16.113 4.522-11.752 0-18.23-11.156-18.23-21.863 0-11.154 5.878-22.161 18.23-22.161 6.928 0 11.746 4.223 17.168 4.223 5.121 0 8.285-5.88 8.285-10.403 0-10.556-17.924-13.724-26.51-13.724-22.894 0-38.86 20.052-38.86 42.066 0 22.619 15.514 41.761 38.86 41.761 7.835 0 26.51-3.766 26.51-14.925 0-5.126-4.215-9.496-9.34-9.496zm46.547-59.406c-22.893 0-38.865 20.05-38.865 42.064 0 22.615 15.52 41.761 38.865 41.761 23.351 0 38.86-19.146 38.86-41.761 0-22.013-15.969-42.064-38.86-42.064zm0 63.928c-11.748 0-17.174-11.46-17.174-21.863 0-10.4 5.277-22.161 17.174-22.161 11.897 0 17.171 11.761 17.171 22.161-.002 10.403-5.424 21.863-17.171 21.863zm128.333-63.928c-7.384 0-16.868 4.071-22.894 11.007-5.723-7.237-13.405-11.007-22.442-11.007-7.979 0-14.911 3.316-20.185 9.047-.756-5.125-4.363-8.145-9.938-8.145-6.331 0-10.85 4.826-10.85 12.063v57.896c0 7.236 4.519 12.062 10.85 12.062 6.32 0 10.843-4.825 10.843-12.062v-37.841c0-8.747 3.91-14.927 12.8-14.927 7.834 0 12.654 6.181 12.654 14.927v37.841c0 7.236 4.517 12.062 10.843 12.062s10.843-4.825 10.843-12.062v-37.841c0-8.747 4.824-14.927 12.807-14.927 7.835 0 12.651 6.181 12.651 14.927v37.841c0 7.236 4.52 12.062 10.845 12.062 6.324 0 10.843-4.825 10.843-12.062v-41.611c.002-18.996-12.048-29.25-29.67-29.25z"></path></svg></span>
+    </a>
+
+      <a class="logo hover" href="https://globosatplay.globo.com/">
+        <span class="svg-container svg-container-globotv-logos-play product_logo_bar_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path d="M225.728 116.69c5.171-3.807 7.133-8.557 7.095-15.634-.053-9.752-6.654-20.7-24.013-20.7h-25.766v77.43h28.176c15.693 0 24.488-10.325 24.488-23.698 0-7.076-3.396-13.962-9.98-17.398zm-22.899-19.402l5.57.005c2.905.003 6.345 2.217 6.352 6.309.005 3.951-2.691 6.765-6.432 6.765h-5.49V97.288zm6.681 43.386h-6.681v-15.456h6.232c4.686 0 7.953 3.552 7.951 7.782 0 3.899-3.249 7.674-7.502 7.674zm-71.024-62.463c-22.501 0-40.864 18.359-40.864 40.859 0 22.502 18.363 40.862 40.864 40.862 22.5 0 40.858-18.36 40.858-40.862 0-22.499-18.358-40.859-40.858-40.859zm0 61.582c-11.411 0-20.719-9.314-20.719-20.723 0-11.41 9.308-20.72 20.719-20.72 11.41 0 20.716 9.31 20.716 20.72 0 11.409-9.306 20.723-20.716 20.723zM278.68 78.211c-22.5 0-40.866 18.359-40.866 40.859 0 22.502 18.366 40.862 40.866 40.862 22.498 0 40.857-18.36 40.857-40.862 0-22.499-18.359-40.859-40.857-40.859zm0 61.582c-11.409 0-20.723-9.314-20.723-20.723 0-11.41 9.314-20.72 20.723-20.72 11.407 0 20.718 9.31 20.718 20.72 0 11.409-9.311 20.723-20.718 20.723zM86.808 80.356l-19.676 32.692H38.878v16.942h19.26c-3.672 5.453-8.653 9.348-17.683 9.293-10.436-.06-20.382-6.93-20.382-21.364 0-12.255 10.572-20.476 19.963-20.472 7.175.006 15.931 2.146 21.86 11.98l10.569-17.495C63.67 82.615 53.921 78.23 38.878 78.23 17.124 78.692.055 97.313 0 117.389c0 24.571 19.684 40.396 39.503 40.396h58.045v-17.428H73.884l36.2-60.004H86.808v.003zm263.237 79.562c-15.851 0-28.404-8.191-28.404-25.002v-2.553h20.003c0 5.104 2.339 10.744 8.191 10.744 4.149 0 7.662-3.298 7.662-7.554 0-5.106-4.257-6.808-8.407-8.617-2.341-1.063-4.679-2.022-7.021-2.979-10.21-4.256-19.257-10.213-19.257-22.557 0-14.679 14.15-23.189 27.556-23.189 7.66 0 16.279 2.871 21.276 8.936 4.043 4.999 5 9.363 5.214 15.531h-19.896c-.639-4.359-2.128-7.659-7.236-7.659-3.508 0-6.912 2.448-6.912 6.171 0 1.172.106 2.342.741 3.299 1.916 3.193 12.238 7.235 15.536 8.724 10.426 4.786 18.404 10.214 18.404 22.555 0 16.49-11.917 24.15-27.45 24.15M484.248 97.36v60.428h-20.105V97.36h-15.537V80.356h51.07V97.36h-15.428zm-66.283-16.977l-46.7 77.406h23.274l6.457-10.711h23.777v10.697h20.135V80.382l-26.943.001zm6.808 51.971h-14.887l14.887-24.674v24.674zm122.789 27.66c22.51 0 40.879-18.372 40.879-40.883 0-22.514-18.369-40.883-40.879-40.883-22.513 0-40.89 18.369-40.89 40.883.002 22.511 18.379 40.883 40.89 40.883m-14.509-54.178c0-3.338 1.674-5.287 4.094-5.307h.08c.984.01 2.095.334 3.263 1.01l22.985 13.296c4.097 2.364 4.097 6.233 0 8.6l-22.985 13.29c-1.174.684-2.289 1.004-3.275 1.01h-.059c-2.427-.015-4.103-1.959-4.103-5.306v-26.593zm72.871 54.11V78.18h30.715c3.931 0 7.433.633 10.504 1.898 3.072 1.269 5.652 3.004 7.74 5.209a22.93 22.93 0 0 1 4.793 7.664c1.105 2.902 1.658 5.945 1.658 9.133s-.553 6.232-1.658 9.132a22.442 22.442 0 0 1-4.854 7.661c-2.131 2.205-4.713 3.945-7.74 5.211-3.035 1.27-6.518 1.902-10.449 1.902h-23.719v33.955h-6.99zm29.912-40.332c2.697 0 5.148-.43 7.355-1.287 2.205-.858 4.106-2.062 5.7-3.615 1.595-1.553 2.818-3.393 3.679-5.518.856-2.123 1.284-4.494 1.284-7.109 0-2.533-.428-4.883-1.284-7.051-.859-2.164-2.084-4.022-3.679-5.578-1.594-1.551-3.495-2.758-5.7-3.616-2.207-.856-4.658-1.285-7.355-1.285h-22.924v35.06h22.924zM754.221 78.18h-8.719l-30.904 75.518h-39.244V78.18h-7v81.904h51.732l8.104-20.139h43.342l8.104 20.139h8.104L754.221 78.18zm-23.698 55.38L749.8 85.67l19.396 47.89h-38.673zm74.088 26.513v-34.996l-32.539-46.908h8.473l27.568 40.275 27.566-40.275h8.473l-32.541 46.908v34.996h-7z"></path></svg></span>
+      </a>
+
+      <div class="nav">
+        <nav class="globotv-menu">
+  <ul class="menus-list">
+      <li class="menu menu-imagens">
+  <a class="hover" href="#submenu-canais-on-demand" target="">
+    canais on demand
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+      <li class="menu menu-imagens">
+  <a class="hover" href="#submenu-canais-ao-vivo" target="">
+    canais ao vivo
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+  </ul>
+
+    <ul id="submenu-canais-on-demand" class="submenu-desktop">
+
+    <li class="submenu">
+      <a href="/gnt/" class="hover" target="">
+          <img alt="GNT" src="https://s2.glbimg.com/owXo_AuzXsewGbymokum3Px1hNg=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/cd/42/f8c3ab3a0806db0d3a25be8e3dfc.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/sportv/" class="hover" target="">
+          <img alt="Sportv" src="https://s2.glbimg.com/YZzWRXA_UZpv5TtS5BftBafcWTQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e6/30/60088d29c359199350ca5e311113.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/multishow/" class="hover" target="">
+          <img alt="Multishow" src="https://s2.glbimg.com/yZrIzkN4d1t8pbsZ5ZRmrLpndnI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/57/da/90787ec387873e12483a3363850d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globosat/" class="hover" target="">
+          <img alt="Mais Globosat" src="https://s2.glbimg.com/V09IjSiHI-RVIxt5ckp67B0FKK8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f7/37/f06994396e53ce346d9b1110d5fa.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bis/" class="hover" target="">
+          <img alt="Bis" src="https://s2.glbimg.com/almnq5i-myCjBFbmx-HafTE99yY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/fa/35/0472b79b64d10a7ad49850152e09.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/viva/" class="hover" target="">
+          <img alt="Viva" src="https://s2.glbimg.com/jM3p1M-C9zcXsbAIxfyvuxz1QyE=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e4/b0/eabd3712ed5e6993b057285b742d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-off/" class="hover" target="">
+          <img alt="Canal Off" src="https://s2.glbimg.com/qw5LG0byy28d0MQLhEcKS-EUPlQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/07/d8/cf57622b5e9059559abaddb0bb0d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gloob/" class="hover" target="">
+          <img alt="Gloob" src="https://s2.glbimg.com/hwNQO4AUKn-ycNo9diLRbjZlSp0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f2/96/2131a11bd6e424ab40aa4501ec9a.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/telecine/" class="hover" target="">
+          <img alt="Telecine" src="https://s2.glbimg.com/5D9bjkZxIQlNkvFa9KInlWbS-2k=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/2b/91/b51ce4a90d032485539bb76b88cb.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/universal/" class="hover" target="">
+          <img alt="Universal" src="https://s2.glbimg.com/GKpQMFt6hn8MfCQ73hl8dUnUUKU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/94/b1/1a6547118a55a34416b57b20266b.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/studio-universal/" class="hover" target="">
+          <img alt="Studio Universal" src="https://s2.glbimg.com/mT0eGmbF4jgMq1oQNUIghUnPVyI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/83/e7/aebc2bc07e5e7ce0a3f0763fd800.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/syfy/" class="hover" target="">
+          <img alt="Syfy" src="https://s2.glbimg.com/iOzatcXFrK1gH4tQyiY7aD4yaFY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e2/87/c92c89490db0b9ff929715504424.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globonews/" class="hover" target="">
+          <img alt="GloboNews" src="https://s2.glbimg.com/uvCLa2BVKnnyG_a4ENt4b3dKqkc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f8/f1/181818ebc8ebada6692c2181b35c.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-brasil/" class="hover" target="">
+          <img alt="Canal Brasil" src="https://s2.glbimg.com/-7H97OTMVY2HbZCrXSXMjmNsNWM=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/4b/28/31f10b1840f3390ac7879a2d79df.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/megapix/" class="hover" target="">
+          <img alt="Megapix" src="https://s2.glbimg.com/2XwwbKR9VfYgc3ULHuMPKhzrDmw=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/29/40/515e40badec65c9166ef89d73d57.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/combate/" class="hover" target="">
+          <img alt="Combate" src="https://s2.glbimg.com/Gjr_jBax0j8SZF5_ky2UgTK4DGU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/50/d7/5b9a9cd7f72d4f87e2ddae8821f6.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bbb/" class="hover" target="">
+          <img alt="Big Brother Brasil - BBB 17" src="https://s2.glbimg.com/iyULlirEgCBCwja2a2R0NU-HHzQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/05/16/615a9b75a8a72ae749fcf70ff579.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="http://philos.tv" class="hover" target="">
+          <img alt="Philos" src="http://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/8b/e4/420682b6218fff989045ef050010.png" />
+      </a>
+    </li>
+</ul>
+
+    <ul id="submenu-canais-ao-vivo" class="submenu-desktop">
+
+    <li class="submenu">
+      <a href="/bbb/ao-vivo/" class="hover" target="">
+          <img alt="Big Brother Brasil - Pay-Per-View" src="https://s2.glbimg.com/iyULlirEgCBCwja2a2R0NU-HHzQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/05/16/615a9b75a8a72ae749fcf70ff579.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/sportv/" class="hover" target="">
+          <img alt="SporTV" src="https://s2.glbimg.com/YZzWRXA_UZpv5TtS5BftBafcWTQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e6/30/60088d29c359199350ca5e311113.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globonews/ao-vivo/" class="hover" target="">
+          <img alt="GloboNews" src="https://s2.glbimg.com/uvCLa2BVKnnyG_a4ENt4b3dKqkc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f8/f1/181818ebc8ebada6692c2181b35c.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gnt/ao-vivo/" class="hover" target="">
+          <img alt="GNT" src="https://s2.glbimg.com/owXo_AuzXsewGbymokum3Px1hNg=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/cd/42/f8c3ab3a0806db0d3a25be8e3dfc.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/multishow/ao-vivo/" class="hover" target="">
+          <img alt="Multishow" src="https://s2.glbimg.com/yZrIzkN4d1t8pbsZ5ZRmrLpndnI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/57/da/90787ec387873e12483a3363850d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/viva/ao-vivo/" class="hover" target="">
+          <img alt="VIVA" src="https://s2.glbimg.com/jM3p1M-C9zcXsbAIxfyvuxz1QyE=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e4/b0/eabd3712ed5e6993b057285b742d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bis/ao-vivo/" class="hover" target="">
+          <img alt="BIS" src="https://s2.glbimg.com/almnq5i-myCjBFbmx-HafTE99yY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/fa/35/0472b79b64d10a7ad49850152e09.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globosat/ao-vivo/" class="hover" target="">
+          <img alt="Mais Globosat" src="https://s2.glbimg.com/V09IjSiHI-RVIxt5ckp67B0FKK8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f7/37/f06994396e53ce346d9b1110d5fa.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gloob/ao-vivo/" class="hover" target="">
+          <img alt="Gloob" src="https://s2.glbimg.com/hwNQO4AUKn-ycNo9diLRbjZlSp0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f2/96/2131a11bd6e424ab40aa4501ec9a.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-off/ao-vivo/" class="hover" target="">
+          <img alt="Canal Off" src="https://s2.glbimg.com/qw5LG0byy28d0MQLhEcKS-EUPlQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/07/d8/cf57622b5e9059559abaddb0bb0d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-brasil/ao-vivo/" class="hover" target="">
+          <img alt="Canal Brasil" src="https://s2.glbimg.com/-7H97OTMVY2HbZCrXSXMjmNsNWM=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/4b/28/31f10b1840f3390ac7879a2d79df.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/combate/ao-vivo/" class="hover" target="">
+          <img alt="Combate" src="https://s2.glbimg.com/Gjr_jBax0j8SZF5_ky2UgTK4DGU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/50/d7/5b9a9cd7f72d4f87e2ddae8821f6.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/premierefc/ao-vivo/" class="hover" target="">
+          <img alt="Premiere" src="https://s2.glbimg.com/DvhrLwBrT4IhCVwyfYKZLg-DKgI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/85/cf/3fa34bf1382ee8a2cb6e0cf567fa.png" />
+      </a>
+    </li>
+</ul>
+
+
+  <div class="popover-area">
+  </div>
+</nav>
+
+      </div>
+  </div>
+</header>
+
+
+<header class="globotv-header">
+  <div class="container">
+      <div class="logo">
+        
+  <a class="gplay" href="/gloob/">
+  <span class="svg-container svg-container-globotv-logos-play gloob_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path fill="#010101" d="M221.566 86.099c-27.46 0-49.72 22.26-49.72 49.721 0 27.457 22.26 49.715 49.72 49.715 27.453 0 49.714-22.258 49.714-49.715 0-27.461-22.261-49.721-49.714-49.721zm0 58.828c-5.044 0-9.121-4.078-9.121-9.105a9.12 9.12 0 0 1 9.121-9.119c5.031 0 9.11 4.088 9.11 9.119.001 5.027-4.079 9.105-9.11 9.105z"></path><path fill="#010101" d="M283.292 64.552c-14.643 0-26.515 11.873-26.515 26.518 0 14.646 11.872 26.516 26.515 26.516 14.648 0 26.518-11.865 26.518-26.517 0-14.644-11.87-26.517-26.518-26.517zm.006 32.315a5.8 5.8 0 0 1-5.805-5.799c0-3.2 2.599-5.801 5.805-5.801 3.2 0 5.792 2.601 5.792 5.801a5.793 5.793 0 0 1-5.792 5.799zM162.322 185.535l-39.17-6.91 21.872-124.03 39.17 6.903z"></path><path fill="#010101" d="M357.013 113.179l-8.938-4.183 9.808-21.024-36.048-16.808-42.021 90.119 44.616 20.809c.015.004.019.01.023.01l.344.158.004-.01c19 8.621 41.443.356 50.28-18.597 8.838-18.954.743-41.458-18.068-50.474zm-16.107 34.537a4.975 4.975 0 0 1-6.607 2.406 5.058 5.058 0 0 1-.155-.088l-.005.01-4.337-2.019 4.208-9.021 4.335 2.021-.005.01c.061.023.104.041.161.066a4.988 4.988 0 0 1 2.405 6.615zM118.538 78.433l-58.536 27.293 12.605 27.033 21.663-10.102c-1.149 9.311-6.918 17.854-16.056 22.112-14.104 6.576-30.866.479-37.443-13.625-6.571-14.102-.477-30.864 13.631-37.441 7.542-3.52 15.845-3.4 22.941-.378l14.56-35.235c-16.62-6.947-35.997-7.146-53.611 1.07-33.185 15.475-47.537 54.915-32.065 88.1 15.473 33.18 54.913 47.535 88.097 32.059 33.18-15.473 47.534-54.908 32.061-88.092a66.74 66.74 0 0 0-7.847-12.794"></path><g fill="#010101"><path d="M447.572 161.148c22.511 0 40.879-18.371 40.879-40.883 0-22.517-18.369-40.883-40.879-40.883-22.516 0-40.891 18.366-40.891 40.883.004 22.512 18.379 40.883 40.891 40.883m-14.51-54.18c0-3.338 1.673-5.287 4.095-5.306h.079c.981.009 2.094.333 3.262 1.009l22.987 13.295c4.095 2.366 4.095 6.235 0 8.6l-22.987 13.291c-1.174.686-2.289 1.008-3.273 1.012h-.06c-2.428-.016-4.103-1.959-4.103-5.307v-26.594zM505.934 161.08V79.312h30.719c3.93 0 7.432.633 10.505 1.896 3.069 1.271 5.648 3.007 7.735 5.21 2.092 2.207 3.688 4.764 4.793 7.663s1.658 5.942 1.658 9.134c0 3.188-.554 6.231-1.658 9.133a22.421 22.421 0 0 1-4.854 7.661c-2.13 2.203-4.713 3.943-7.74 5.212-3.035 1.269-6.516 1.897-10.447 1.897h-23.721v33.957l-6.99.005zm29.913-40.334c2.696 0 5.147-.428 7.354-1.287 2.207-.857 4.104-2.062 5.701-3.615 1.594-1.552 2.815-3.393 3.677-5.518.854-2.124 1.286-4.494 1.286-7.109 0-2.533-.428-4.883-1.286-7.05-.857-2.165-2.083-4.022-3.677-5.577-1.598-1.552-3.494-2.76-5.701-3.617-2.207-.855-4.658-1.285-7.354-1.285h-22.925v35.062l22.925-.004zM654.23 79.312h-8.723l-30.9 75.52h-39.244v-75.52h-6.999v81.904h51.729l8.104-20.143h43.342l8.103 20.143h8.104L654.23 79.312zm-23.696 55.382l19.272-47.892 19.396 47.892h-38.668zM704.623 161.205v-34.997l-32.541-46.906h8.473l27.568 40.276 27.566-40.276h8.473l-32.539 46.906v34.997z"></path></g></svg></span>
+</a>
+
+      </div>
+
+    <nav class="globotv-menu">
+  <ul class="menus-list">
+      <li class="menu menu-item">
+  <a class="hover" href="/gloob/ao-vivo/" target="">
+    ao vivo
+
+  </a>
+</li>
+
+      <li class="menu menu-monotema">
+  <a class="hover" href="#submenu-programas" target="">
+    programas
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+      <li class="menu menu-monotema">
+  <a class="hover" href="#submenu-ajuda" target="">
+    Ajuda
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+  </ul>
+
+    <ul id="submenu-programas" class="submenu-desktop">
+
+    <li class="submenu item hover">
+      <a href="/gloob/aboboras-invasoras/" class="hover" target="">
+          Abóboras Invasoras
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/ace/" class="hover" target="">
+          Ace
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/alvinnn-e-os-esquilos/" class="hover" target="">
+          Alvinnn!!! e os Esquilos
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/ana-e-os-robos/" class="hover" target="">
+          Ana e os Robôs
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/avatars/" class="hover" target="">
+          Avatars
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/click/" class="hover" target="">
+          Click
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/coruja-e-a-bicharada/" class="hover" target="">
+          Coruja e a Bicharada
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/desencantados/" class="hover" target="">
+          Desencantados
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/detetives-do-predio-azul/" class="hover" target="">
+          Detetives do Prédio Azul
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/especial-dpa/" class="hover" target="">
+          Especial DPA
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/especial-miraculous/" class="hover" target="">
+          Especial Miraculous
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/especial-telecine-play/" class="hover" target="">
+          Especial Telecine Play
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/esquadrao-bizarro/" class="hover" target="">
+          Esquadrão Bizarro
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/gaby-estrella/" class="hover" target="">
+          Gaby Estrella
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/lolirock/" class="hover" target="">
+          LoliRock
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/meu-querido-alce/" class="hover" target="">
+          Meu Querido Alce
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/miraculous-as-aventuras-de-ladybug/" class="hover" target="">
+          Miraculous – As Aventuras de Ladybug
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/nerds-e-monstros/" class="hover" target="">
+          Nerds e Monstros
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/o-castelo-assombrado-de-dani/" class="hover" target="">
+          O Castelo Assombrado de Dani
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/o-pequeno-nicolau/" class="hover" target="">
+          O Pequeno Nicolau
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/osmar-a-primeira-fatia-do-pao-de-forma/" class="hover" target="">
+          Osmar - A Primeira Fatia do Pão de Forma
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/pequeno-grande-avo/" class="hover" target="">
+          Pequeno Grande Avô
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/porto-papel/" class="hover" target="">
+          Porto Papel
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/sos-fada-manu/" class="hover" target="">
+          S.O.S Fada Manu
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/sally-bollywood/" class="hover" target="">
+          Sally Bollywood
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/tem-crianca-na-cozinha/" class="hover" target="">
+          Tem Criança na Cozinha
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/thunderbirds/" class="hover" target="">
+          Thunderbirds
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/tronquinho-e-o-pao-de-queijo/" class="hover" target="">
+          Tronquinho e o Pão de Queijo
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/zack-e-bud/" class="hover" target="">
+          Zack e Bud
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/gloob/zorro/" class="hover" target="">
+          Zorro
+      </a>
+    </li>
+</ul>
+
+    <ul id="submenu-ajuda" class="submenu-desktop">
+
+    <li class="submenu item hover">
+      <a href="/ajuda/" class="hover" target="">
+          Perguntas Frequentes
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/conheca/" class="hover" target="">
+          Conheça
+      </a>
+    </li>
+</ul>
+
+
+  <div class="popover-area">
+  </div>
+</nav>
+
+
+    <div class="search consider-btn-login">
+      <form action="/gloob/busca" class="search-form" method="get">
+        <span class="globotv_icons magnifying"></span>
+        <input type="text" name="q" id="q" placeholder="procure no Gloob Play..." disabled="disabled" autocomplete="off" />
+      </form>
+      <a href="#" class="search-trigger">
+        <span class="globotv_icons magnifying"></span>
+      </a>
+      <span class="divider"></span>
+    </div>
+
+      <div class="login">
+        <nav class="globotv-menu user-settings-container">
+          <a class="btn-login" href="#">Entrar</a>
+
+          <ul class="menus-list">
+            <li class="menu menu-monotema"></li>
+          </ul>
+
+          <div class="popover-area"></div>
+        </nav>
+      </div>
+  </div>
+</header>
+
+
+<header class="globotv-header-mobile">
+  <div class="container">
+    <div class="menu-toggle">
+      <a href="#" class="globotv_icons list_mobile" id="globotv-mobile-toggle"></a>
+    </div>
+
+      <div class="main-logo">
+            <a class="gplay" href="/gloob/">
+  <span class="svg-container svg-container-globotv-logos-play gloob_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path fill="#010101" d="M221.566 86.099c-27.46 0-49.72 22.26-49.72 49.721 0 27.457 22.26 49.715 49.72 49.715 27.453 0 49.714-22.258 49.714-49.715 0-27.461-22.261-49.721-49.714-49.721zm0 58.828c-5.044 0-9.121-4.078-9.121-9.105a9.12 9.12 0 0 1 9.121-9.119c5.031 0 9.11 4.088 9.11 9.119.001 5.027-4.079 9.105-9.11 9.105z"></path><path fill="#010101" d="M283.292 64.552c-14.643 0-26.515 11.873-26.515 26.518 0 14.646 11.872 26.516 26.515 26.516 14.648 0 26.518-11.865 26.518-26.517 0-14.644-11.87-26.517-26.518-26.517zm.006 32.315a5.8 5.8 0 0 1-5.805-5.799c0-3.2 2.599-5.801 5.805-5.801 3.2 0 5.792 2.601 5.792 5.801a5.793 5.793 0 0 1-5.792 5.799zM162.322 185.535l-39.17-6.91 21.872-124.03 39.17 6.903z"></path><path fill="#010101" d="M357.013 113.179l-8.938-4.183 9.808-21.024-36.048-16.808-42.021 90.119 44.616 20.809c.015.004.019.01.023.01l.344.158.004-.01c19 8.621 41.443.356 50.28-18.597 8.838-18.954.743-41.458-18.068-50.474zm-16.107 34.537a4.975 4.975 0 0 1-6.607 2.406 5.058 5.058 0 0 1-.155-.088l-.005.01-4.337-2.019 4.208-9.021 4.335 2.021-.005.01c.061.023.104.041.161.066a4.988 4.988 0 0 1 2.405 6.615zM118.538 78.433l-58.536 27.293 12.605 27.033 21.663-10.102c-1.149 9.311-6.918 17.854-16.056 22.112-14.104 6.576-30.866.479-37.443-13.625-6.571-14.102-.477-30.864 13.631-37.441 7.542-3.52 15.845-3.4 22.941-.378l14.56-35.235c-16.62-6.947-35.997-7.146-53.611 1.07-33.185 15.475-47.537 54.915-32.065 88.1 15.473 33.18 54.913 47.535 88.097 32.059 33.18-15.473 47.534-54.908 32.061-88.092a66.74 66.74 0 0 0-7.847-12.794"></path><g fill="#010101"><path d="M447.572 161.148c22.511 0 40.879-18.371 40.879-40.883 0-22.517-18.369-40.883-40.879-40.883-22.516 0-40.891 18.366-40.891 40.883.004 22.512 18.379 40.883 40.891 40.883m-14.51-54.18c0-3.338 1.673-5.287 4.095-5.306h.079c.981.009 2.094.333 3.262 1.009l22.987 13.295c4.095 2.366 4.095 6.235 0 8.6l-22.987 13.291c-1.174.686-2.289 1.008-3.273 1.012h-.06c-2.428-.016-4.103-1.959-4.103-5.307v-26.594zM505.934 161.08V79.312h30.719c3.93 0 7.432.633 10.505 1.896 3.069 1.271 5.648 3.007 7.735 5.21 2.092 2.207 3.688 4.764 4.793 7.663s1.658 5.942 1.658 9.134c0 3.188-.554 6.231-1.658 9.133a22.421 22.421 0 0 1-4.854 7.661c-2.13 2.203-4.713 3.943-7.74 5.212-3.035 1.269-6.516 1.897-10.447 1.897h-23.721v33.957l-6.99.005zm29.913-40.334c2.696 0 5.147-.428 7.354-1.287 2.207-.857 4.104-2.062 5.701-3.615 1.594-1.552 2.815-3.393 3.677-5.518.854-2.124 1.286-4.494 1.286-7.109 0-2.533-.428-4.883-1.286-7.05-.857-2.165-2.083-4.022-3.677-5.577-1.598-1.552-3.494-2.76-5.701-3.617-2.207-.855-4.658-1.285-7.354-1.285h-22.925v35.062l22.925-.004zM654.23 79.312h-8.723l-30.9 75.52h-39.244v-75.52h-6.999v81.904h51.729l8.104-20.143h43.342l8.103 20.143h8.104L654.23 79.312zm-23.696 55.382l19.272-47.892 19.396 47.892h-38.668zM704.623 161.205v-34.997l-32.541-46.906h8.473l27.568 40.276 27.566-40.276h8.473l-32.539 46.906v34.997z"></path></g></svg></span>
+</a>
+
+      </div>
+
+
+    <nav id="nav-mobile">
+      <div>
+        <ul id="mobile-menu-header" class="nav-menu">
+  
+
+  
+
+
+
+
+    <li class="menu item "><a href="/gloob/ao-vivo/">ao vivo</a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-programas">programas<span class='globotv_icons arrow_right'></span></a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-ajuda">Ajuda<span class='globotv_icons arrow_right'></span></a></li>
+
+
+</ul>
+<ul id="mobile-submenu-ajuda" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>Ajuda</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/ajuda/">Perguntas Frequentes</a></li>
+
+
+
+    <li class="menu item "><a href="/conheca/">Conheça</a></li>
+
+
+</ul>
+<ul id="mobile-submenu-programas" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>programas</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/gloob/aboboras-invasoras/">Abóboras Invasoras</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/ace/">Ace</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/alvinnn-e-os-esquilos/">Alvinnn!!! e os Esquilos</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/ana-e-os-robos/">Ana e os Robôs</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/avatars/">Avatars</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/click/">Click</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/coruja-e-a-bicharada/">Coruja e a Bicharada</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/desencantados/">Desencantados</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/detetives-do-predio-azul/">Detetives do Prédio Azul</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/especial-dpa/">Especial DPA</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/especial-miraculous/">Especial Miraculous</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/especial-telecine-play/">Especial Telecine Play</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/esquadrao-bizarro/">Esquadrão Bizarro</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/gaby-estrella/">Gaby Estrella</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/lolirock/">LoliRock</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/meu-querido-alce/">Meu Querido Alce</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/miraculous-as-aventuras-de-ladybug/">Miraculous – As Aventuras de Ladybug</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/nerds-e-monstros/">Nerds e Monstros</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/o-castelo-assombrado-de-dani/">O Castelo Assombrado de Dani</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/o-pequeno-nicolau/">O Pequeno Nicolau</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/osmar-a-primeira-fatia-do-pao-de-forma/">Osmar - A Primeira Fatia do Pão de Forma</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/pequeno-grande-avo/">Pequeno Grande Avô</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/porto-papel/">Porto Papel</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/sos-fada-manu/">S.O.S Fada Manu</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/sally-bollywood/">Sally Bollywood</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/tem-crianca-na-cozinha/">Tem Criança na Cozinha</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/thunderbirds/">Thunderbirds</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/tronquinho-e-o-pao-de-queijo/">Tronquinho e o Pão de Queijo</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/zack-e-bud/">Zack e Bud</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/zorro/">Zorro</a></li>
+
+
+</ul>
+<ul id="mobile-menu-bar" class="nav-menu">
+  
+
+  <li class="menu item label"><a href="#">globosat play</a></li>
+
+
+    <li class="menu item btn-login"><a href="#">Entrar</a></li>
+
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-canais-on-demand">canais on demand<span class='globotv_icons arrow_right'></span></a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-canais-ao-vivo">canais ao vivo<span class='globotv_icons arrow_right'></span></a></li>
+
+
+    <li class="menu item "><a href="/">Home Globosat Play</a></li>
+
+</ul>
+<ul id="mobile-submenu-canais-ao-vivo" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>canais ao vivo</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/bbb/ao-vivo/">Big Brother Brasil - Pay-Per-View</a></li>
+
+
+
+    <li class="menu item "><a href="/sportv/">SporTV</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/ao-vivo/">GloboNews</a></li>
+
+
+
+    <li class="menu item "><a href="/gnt/ao-vivo/">GNT</a></li>
+
+
+
+    <li class="menu item "><a href="/multishow/ao-vivo/">Multishow</a></li>
+
+
+
+    <li class="menu item "><a href="/viva/ao-vivo/">VIVA</a></li>
+
+
+
+    <li class="menu item "><a href="/bis/ao-vivo/">BIS</a></li>
+
+
+
+    <li class="menu item "><a href="/globosat/ao-vivo/">Mais Globosat</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/ao-vivo/">Gloob</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-off/ao-vivo/">Canal Off</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-brasil/ao-vivo/">Canal Brasil</a></li>
+
+
+
+    <li class="menu item "><a href="/combate/ao-vivo/">Combate</a></li>
+
+
+
+    <li class="menu item "><a href="/premierefc/ao-vivo/">Premiere</a></li>
+
+
+</ul>
+<ul id="mobile-submenu-canais-on-demand" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>canais on demand</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/gnt/">GNT</a></li>
+
+
+
+    <li class="menu item "><a href="/sportv/">Sportv</a></li>
+
+
+
+    <li class="menu item "><a href="/multishow/">Multishow</a></li>
+
+
+
+    <li class="menu item "><a href="/globosat/">Mais Globosat</a></li>
+
+
+
+    <li class="menu item "><a href="/bis/">Bis</a></li>
+
+
+
+    <li class="menu item "><a href="/viva/">Viva</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-off/">Canal Off</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/">Gloob</a></li>
+
+
+
+    <li class="menu item "><a href="/telecine/">Telecine</a></li>
+
+
+
+    <li class="menu item "><a href="/universal/">Universal</a></li>
+
+
+
+    <li class="menu item "><a href="/studio-universal/">Studio Universal</a></li>
+
+
+
+    <li class="menu item "><a href="/syfy/">Syfy</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/">GloboNews</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-brasil/">Canal Brasil</a></li>
+
+
+
+    <li class="menu item "><a href="/megapix/">Megapix</a></li>
+
+
+
+    <li class="menu item "><a href="/combate/">Combate</a></li>
+
+
+
+    <li class="menu item "><a href="/bbb/">Big Brother Brasil - BBB 17</a></li>
+
+
+
+    <li class="menu item "><a href="http://philos.tv">Philos</a></li>
+
+
+</ul>
+
+      </div>
+      <form action="/gloob/busca" class="form-busca" method="GET"><span class="globotv_icons magnifying"></span><input autocomplete="off" name="q" role="textbox" type="text" value=""></form>
+    </nav>
+  </div>
+</header>
+
+
+
+    <div id="canal_nao_disponivel" class="notificacao" style="display: none"></div>
+    <div id="usuario_em_trial" class="notificacao" style="display: none;"></div>
+    <div id="trial_finalizado" class="notificacao" style="display: none;"></div>
+
+    
+
+
+
+
+  <div class="ab-simulcast">
+  <div class="player-wrapper" data-media-id="4163742">
+  </div>
+
+  <a class="simulcast-link" href="/gloob/ao-vivo/">
+    <svg version="1.1" x="0px" y="0px" viewBox="0 0 512 512"><path d="M415.997,255.999c0,6.136-3.188,11.502-7.96,14.516 c0,0.004,0,0.023,0,0.023L121.399, 445.574l-0.002-0.002c-2.519,1.537-5.456,2.436-8.605,2.436c-9.273, 0-16.791-7.651-16.791-17.091 c0-0.066,0.009-0.129,0.01-0.195L96, 430.718v-348.9l0.035-0.021C96.026,81.561,96,81.329,96,81.091C96,71.652,103.518,64, 112.791,64 c3.184,0,6.149,0.918,8.686,2.484l0.017-0.01c0,0,213.942,130.659,286.553, 175.004c0,0.003,0,0.006,0,0.01 C412.813,244.504,415.997,249.866,415.997,255.999z"></path></svg>
+    <h2>
+      <strong>Agora</strong> no Gloob
+    </h2>
+
+      <h3>D.P.A. - Detetives Do Prédio Azul</h3>
+      <h4>21:45 - 22:15</h4>
+  </a>
+</div>
+
+
+<div class="carousel fade" id="destaque">
+  <div class="content">
+    <div class="carousel-inner">
+
+        <div class="item active" data-item-position="1" data-item-title="">
+
+            
+    <div class="destaque-principal">
+        <a href="http://globosatplay.globo.com/gloob/v/4941371/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s04.video.glbimg.com/1280x448/4941371.jpg", alt="Miraculous – As Aventuras de Ladybug", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Miraculous – As Aventuras de Ladybug</h2>
+
+  <p class="fade-step step-1">Marinette fica chateada por parecer que Adrien está gostando de outra menina, Lila. A e...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+
+    <div class="destaque-secundario">
+        <a href="http://globosatplay.globo.com/gloob/v/5426526/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s03.video.glbimg.com/1280x448/5426526.jpg", alt="Alvinnn!!! e os Esquilos", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Alvinnn!!! e os Esquilos</h2>
+
+  <p class="fade-step step-1">Simon acidentalmente envia um e-mail sobre um professor e os meninos devem fazer todo o...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+    <div class="destaque-secundario">
+        <a href="http://globosatplay.globo.com/gloob/v/5399195/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s04.video.glbimg.com/1280x448/5399195.jpg", alt="Porto Papel", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Porto Papel</h2>
+
+  <p class="fade-step step-1">Matilde quer jogar videogame e acaba atrapalhando Barbacrespa, que precisa se concentra...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+        </div>
+    </div>
+
+    
+    
+  </div>
+
+  
+</div>
+
+
+
+<div id="trilho-programas-container">
+  <div class="grid container programas">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Top <strong>Programas</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track track-programas posters default-bottom-space" data-canal="gloob" data-action="mais_vistos"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="grid container recentes">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Novos <strong>Episódios</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks recentes default-bottom-space" data-canal="gloob" data-quantidade="5" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+
+  <div class="grid container tema-canal">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2><strong>Desenho e Animações</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks tema-canal default-bottom-space" data-trilho-id="535e8e0a72696f3385090000" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+  <div class="grid container tema-canal">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2><strong>Séries</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks tema-canal default-bottom-space" data-trilho-id="535e8e0a72696f33850a0000" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+
+<div class="grid container mais-vistos">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Mais <strong>vistos</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks mais-vistos" data-canal="gloob" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+
+
+
+    <div class="footer">
+  <footer class="sitemap">
+  <div class="container">
+    <div class="logo">
+      
+    <a class="gplay" href="/">
+      <span class="svg-container svg-container-globotv-logos-play product_logo_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 163.667 960 238.253" class="globotv-logos-play-svg unfilled"><path fill-rule="evenodd" clip-rule="evenodd" d="M183.044 241.491h25.766c17.359 0 23.96 10.949 24.013 20.701.038 7.077-1.924 11.827-7.095 15.634 6.584 3.436 9.98 10.322 9.98 17.397 0 13.373-8.795 23.699-24.488 23.699h-28.176v-77.431zm25.355 16.937l-5.57-.004v13.077h5.49c3.741 0 6.437-2.813 6.432-6.764-.007-4.092-3.447-6.306-6.352-6.309m.662 27.926h-6.232v15.456h6.681c4.253 0 7.502-3.776 7.502-7.674.002-4.23-3.265-7.782-7.951-7.782m-70.575-26.867c11.41 0 20.716 9.31 20.716 20.72 0 11.407-9.306 20.722-20.716 20.722-11.411 0-20.719-9.314-20.719-20.722 0-11.41 9.308-20.72 20.719-20.72m0-20.14c22.5 0 40.858 18.36 40.858 40.86 0 22.501-18.358 40.862-40.858 40.862-22.501 0-40.864-18.361-40.864-40.862 0-22.5 18.363-40.86 40.864-40.86m140.194 20.14c11.407 0 20.718 9.31 20.718 20.72 0 11.407-9.311 20.722-20.718 20.722-11.409 0-20.723-9.314-20.723-20.722 0-11.41 9.314-20.72 20.723-20.72m0-20.14c22.498 0 40.857 18.36 40.857 40.86 0 22.501-18.359 40.862-40.857 40.862-22.5 0-40.866-18.361-40.866-40.862 0-22.5 18.366-40.86 40.866-40.86m-191.872 2.144l-19.676 32.693H38.878v16.942h19.26c-3.672 5.453-8.653 9.348-17.683 9.294-10.436-.06-20.382-6.93-20.382-21.365 0-12.254 10.572-20.476 19.963-20.471 7.175.006 15.931 2.145 21.86 11.98l10.569-17.495c-8.795-9.318-18.544-13.703-33.587-13.703C17.124 239.828.055 258.448 0 278.525c0 24.571 19.684 40.397 39.503 40.397h58.045v-17.429H73.884l36.2-60.003H86.808z"></path><path d="M350.045 321.054c-15.851 0-28.404-8.191-28.404-25.002v-2.553h20.003c0 5.104 2.338 10.745 8.191 10.745 4.149 0 7.662-3.298 7.662-7.554 0-5.107-4.257-6.807-8.407-8.617-2.341-1.063-4.679-2.022-7.022-2.979-10.21-4.256-19.256-10.213-19.256-22.557 0-14.679 14.15-23.19 27.555-23.19 7.66 0 16.28 2.872 21.277 8.936 4.043 4.999 5 9.363 5.213 15.531h-19.895c-.639-4.36-2.128-7.659-7.236-7.659-3.508 0-6.913 2.448-6.913 6.17 0 1.172.107 2.342.742 3.3 1.916 3.193 12.238 7.235 15.536 8.723 10.426 4.787 18.404 10.214 18.404 22.555 0 16.491-11.917 24.151-27.45 24.151M484.248 258.496v60.427h-20.105v-60.427h-15.538v-17.005h51.071v17.005zM417.965 241.519l-46.7 77.407h23.274l6.457-10.712h23.777v10.697h20.135v-77.393h-26.943zm6.808 51.97h-14.886l14.886-24.673v24.673z"></path><path fill="#010101" d="M547.562 321.15c22.51 0 40.879-18.372 40.879-40.883 0-22.513-18.369-40.883-40.879-40.883-22.512 0-40.889 18.37-40.889 40.883.001 22.511 18.378 40.883 40.889 40.883m-14.509-54.178c0-3.338 1.674-5.287 4.094-5.306h.08c.984.009 2.094.334 3.262 1.009l22.986 13.296c4.096 2.365 4.096 6.234 0 8.6l-22.986 13.29c-1.174.684-2.289 1.004-3.275 1.01h-.059c-2.426-.015-4.102-1.959-4.102-5.306v-26.593zM605.924 321.082v-81.766h30.715c3.93 0 7.432.632 10.504 1.898 3.072 1.269 5.652 3.004 7.74 5.21 2.088 2.208 3.686 4.762 4.793 7.663 1.105 2.902 1.658 5.945 1.658 9.133s-.553 6.232-1.658 9.132a22.435 22.435 0 0 1-4.855 7.661c-2.131 2.206-4.713 3.946-7.74 5.211-3.035 1.269-6.518 1.902-10.449 1.902h-23.719v33.956h-6.989zm29.912-40.333c2.697 0 5.148-.429 7.355-1.286 2.205-.859 4.107-2.063 5.701-3.616 1.594-1.552 2.818-3.392 3.678-5.517.857-2.124 1.285-4.495 1.285-7.11 0-2.533-.428-4.883-1.285-7.05-.859-2.165-2.084-4.023-3.678-5.578-1.594-1.551-3.496-2.758-5.701-3.617-2.207-.857-4.658-1.285-7.355-1.285h-22.924v35.059h22.924zM754.221 239.316h-8.719l-30.904 75.518h-39.244v-75.518h-7v81.904h51.732l8.104-20.139h43.342l8.104 20.139h8.104l-33.519-81.904zm-23.698 55.38l19.277-47.89 19.396 47.89h-38.673zM804.611 321.208v-34.995l-32.539-46.909h8.473l27.568 40.276 27.567-40.276h8.472l-32.541 46.909v34.995z"></path><g><path d="M768.746 222.843V199.5h10.394c4.061 0 6.545 2.45 6.545 5.949 0 2.94-1.96 4.899-4.095 5.354 2.484.385 4.55 2.94 4.55 5.74 0 3.745-2.485 6.299-6.755 6.299h-10.639zm13.929-16.974c0-2.1-1.4-3.779-4.024-3.779h-7v7.524h7c2.623 0 4.024-1.61 4.024-3.745zm.455 10.36c0-2.135-1.47-4.025-4.34-4.025h-7.14v8.049h7.14c2.73 0 4.34-1.54 4.34-4.024zM789.69 222.843V199.5h15.294v2.59h-12.389v7.524h12.144v2.59h-12.144v8.049h12.389v2.59H789.69zM814.27 222.843V202.09h-7.386v-2.59h17.709v2.59h-7.419v20.753h-2.904zM840.827 222.843l-2.064-5.18h-11.619l-2.064 5.18h-3.325l9.379-23.343h3.605l9.414 23.343h-3.326zm-7.874-20.334l-4.97 12.564h9.904l-4.934-12.564z"></path></g></svg></span>
+</a>
+    </div>
+
+    <div class="menus">
+      <ul class="menu canais-on-demand">
+          <li><strong>canais on demand</strong></li>
+
+            <li><a href="/gnt/">GNT</a></li>
+            <li><a href="/sportv/">Sportv</a></li>
+            <li><a href="/multishow/">Multishow</a></li>
+            <li><a href="/globosat/">Mais Globosat</a></li>
+            <li><a href="/bis/">Bis</a></li>
+            <li><a href="/viva/">Viva</a></li>
+            <li><a href="/canal-off/">Canal Off</a></li>
+            <li><a href="/gloob/">Gloob</a></li>
+            <li><a href="/telecine/">Telecine</a></li>
+            <li><a href="/universal/">Universal</a></li>
+            <li><a href="/studio-universal/">Studio Universal</a></li>
+            <li><a href="/syfy/">Syfy</a></li>
+            <li><a href="/globonews/">GloboNews</a></li>
+            <li><a href="/canal-brasil/">Canal Brasil</a></li>
+            <li><a href="/megapix/">Megapix</a></li>
+            <li><a href="/combate/">Combate</a></li>
+            <li><a href="/bbb/">Big Brother Brasil - BBB 17</a></li>
+            <li><a href="http://philos.tv">Philos</a></li>
+      </ul>
+
+      <ul class="menu live-channels">
+          <li><strong>canais ao vivo</strong></li>
+
+            <li><a href="/bbb/ao-vivo/">Big Brother Brasil - Pay-Per-View</a></li>
+            <li><a href="/sportv/">SporTV</a></li>
+            <li><a href="/globonews/ao-vivo/">GloboNews</a></li>
+            <li><a href="/gnt/ao-vivo/">GNT</a></li>
+            <li><a href="/multishow/ao-vivo/">Multishow</a></li>
+            <li><a href="/viva/ao-vivo/">VIVA</a></li>
+            <li><a href="/bis/ao-vivo/">BIS</a></li>
+            <li><a href="/globosat/ao-vivo/">Mais Globosat</a></li>
+            <li><a href="/gloob/ao-vivo/">Gloob</a></li>
+            <li><a href="/canal-off/ao-vivo/">Canal Off</a></li>
+            <li><a href="/canal-brasil/ao-vivo/">Canal Brasil</a></li>
+            <li><a href="/combate/ao-vivo/">Combate</a></li>
+            <li><a href="/premierefc/ao-vivo/">Premiere</a></li>
+      </ul>
+
+      <ul class="menu extras">
+            <li><strong><a href="/conheca/">conheça</a></strong></li>
+            <li><strong><a href="/ajuda/">Ajuda</a></strong></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  <footer><div class="grid container"><div class="row"><div class="span12"><div class="logo"><a href="http://www.globo.com">globo.com</a></div><nav><ul><li><a title="notícias" href="http://g1.globo.com">notícias</a></li><li><a title="esportes" href="http://globoesporte.globo.com">esportes</a></li><li><a title="entretenimento" href="http://entretenimento.globo.com">entretenimento</a></li><li><a title="vídeos" href="http://globotv.globo.com">vídeos</a></li></ul><p><a title="grupo globo" href="http://www.grupoglobo.globo.com/">grupo globo</a></p><p><a title="todos os sites" href="http://www.globo.com/Globo.com/sites/0,,5623,00.html">todos os sites</a></p></nav></div></div><div class="row"><div class="span12"><div class="copyright"><p>&copy; Copyright 2000-2017 Globo Comunicação e Participações S.A.<a href="http://www.globo.com/Globo.com/homev6/0,,PL0-0,00-POLITICA+DE+PRIVACIDADE.html">Política de Privacidade</a></p><ul><li><a title="central globo.com" href="https://login.globo.com/login/464">central globo.com</a></li><li><a title="assine a globo.com" href="http://atendimento.globo.com/Portal/ISP/assineja/panfletos/panfleto_home_globo">assine a globo.com</a></li><li class="last"><a title="anuncie conosco" href="http://www.globo.com/Portal/anuncie/glb_anuncie_panfleto">anuncie conosco</a></li></ul></div></div></div></div></footer>
+</div>
+
+  </div>
+
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/user_tracker/user_tracker.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/application-e47448599ad8b715414e0827ec56bb8e.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/gapower/globosat_play_ga_power.js"></script>
+  
+  <script src="https://s.videos.globo.com/p2/j/api.min.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/canais/home-

@@ -1,0 +1,712 @@
+|||http://www.futura.org.br/|<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7 lt-ie9 lt-ie8" lang="pt-BR" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 lt-ie9" lang="pt-BR" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html class="no-js" lang="pt-BR" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+<script type="text/javascript">
+var ajaxurl = 'http://www.futura.org.br/wp-admin/admin-ajax.php';
+console.log(ajaxurl);
+</script>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Home - Futura</title>
+<link rel="pingback" href="http://www.futura.org.br/xmlrpc.php" />
+<link rel="shortcut icon" href="http://www.futura.org.br/wp-content/themes/futura/assets/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.futura.org.br/wp-content/themes/futura/assets/images/favicon.ico" type="image/x-icon">
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic,300,300italic' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="http://www.futura.org.br/wp-content/themes/futura/assets/js/html5.min.js" type="text/javascript"></script>
+<![endif]-->
+
+<!--[if IE 9]>
+        <link rel="stylesheet" type="text/css" href="http://www.futura.org.br/wp-content/themes/futura/assets/css/futura/ie9.css" />
+<![endif]-->
+
+
+
+<!-- This site is optimized with the Yoast SEO plugin v2.3.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="robots" content="noindex,follow"/>
+<link rel="canonical" href="http://www.futura.org.br/" />
+<meta property="og:locale" content="pt_BR" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Home - Futura" />
+<meta property="og:url" content="http://www.futura.org.br/" />
+<meta property="og:site_name" content="Futura" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Home - Futura"/>
+<meta name="twitter:domain" content="Futura"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.futura.org.br\/","name":"Canal Futura","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.futura.org.br\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Feed de Futura &raquo;" href="http://www.futura.org.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Futura &raquo;  Feed de comentários" href="http://www.futura.org.br/comments/feed/" />
+<link rel='stylesheet' id='odin-style-css'  href='http://www.futura.org.br/wp-content/themes/futura/assets/css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://www.futura.org.br/wp-content/plugins/wp-polls/polls-css.css?ver=2,7' type='text/css' media='all' />
+<style type='text/css'>
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 18px;
+	line-height: 20px;
+	height: 20px;
+	background: #00cb56;
+	border: 1px solid #015e28;
+}
+
+</style>
+<link rel='stylesheet' id='ubermenu-basic-css'  href='http://www.futura.org.br/wp-content/plugins/ubermenu/standard/styles/basic.css?ver=2.4.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://www.futura.org.br/wp-includes/css/dashicons.min.css?ver=3.9.1' type='text/css' media='all' />
+<!-- This site uses the Google Analytics by Yoast plugin v5.4.6 - Universal disabled - https://yoast.com/wordpress/plugins/google-analytics/ -->
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-26090052-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+<!-- / Google Analytics by Yoast -->
+<script>var jquery_placeholder_url = 'http://www.futura.org.br/wp-content/plugins/gravity-forms-placeholders/jquery.placeholder-1.0.1.js';</script><script type='text/javascript' src='http://www.futura.org.br/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.futura.org.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.futura.org.br/wp-content/themes/futura/assets/js/jquery.gray.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.futura.org.br/wp-content/themes/futura/assets/js/jquery.gray.min.js?ver=3.9.1'></script>
+<script type='text/javascript' src='http://www.futura.org.br/wp-content/plugins/gravity-forms-placeholders/gf.placeholders.js?ver=1.0'></script>
+<link rel='shortlink' href='http://www.futura.org.br/' />
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.futura.org.br/?wordfence_logHuman=1&hid=15224ECBC70A7D7F6A9FA7BCBBA7DC4F');
+</script>
+<!--Plugin WP Missed Schedule Active - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 -->
+
+
+<!-- UberMenu CSS - Controlled through UberMenu Options Panel 
+================================================================ -->
+<style type="text/css" id="ubermenu-style-generator-css">
+/* Image Text Padding */
+#megaMenu .ss-nav-menu-with-img > a > .wpmega-link-title, #megaMenu .ss-nav-menu-with-img > a > .wpmega-link-description, #megaMenu .ss-nav-menu-with-img > a > .wpmega-item-description, #megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-title, #megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-link-description, #megaMenu .ss-nav-menu-with-img > span.um-anchoremulator > .wpmega-item-description{
+  padding-left: 233px;
+}	
+</style>
+<!-- end UberMenu CSS -->
+		
+			
+
+ 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</head>
+
+<body onload="initialize()" class="home page page-id-10 page-template page-template-template-home-php page-template page-template-template-home-php wpb-js-composer js-comp-ver-4.2.1 vc_responsive" itemscope="" itemtype="http://schema.org/WebPage">
+
+<menu class="menu_mobile">
+    <div class="menu_content">
+        <div class="menu_title">Menu</div>
+
+        <div class="menu_parent"><a href="http://www.futura.org.br/">O FUTURA</a><div class="open_submenu">+</div><div class="submenu"><a href="http://www.futura.org.br/quem-somos/">Quem Somos</a></div><div class="submenu"><a href="http://www.futura.org.br/acao-social/publicacoes/almanaque-futura-de-redes-sociais/">Almanaque Futura</a></div><div class="submenu"><a href="http://www.futura.org.br/anuarios-de-programacao-2/">Anuário de Programação</a></div><div class="submenu"><a href="/campanhas/">Campanhas</a></div><div class="submenu"><a href="http://www.futura.org.br/missao/">Missão</a></div><div class="submenu"><a href="http://www.futura.org.br/premios/">Prêmios</a></div><div class="submenu"><a href="http://www.futura.org.br/pesquisas/">Pesquisas</a></div><div class="submenu"><a href="/teses">Teses</a></div><div class="submenu"><a href="/como-assistir-2/">Como assistir</a></div><div class="submenu"><a href="http://www.futura.org.br/parcerias-futura/">Parcerias</a></div><div class="submenu"><a href="/o-futura/parceiros-mantenedores/universidades">Universidades Parceiras</a></div></div><div class="menu_parent"><a href="/programas/">PROGRAMAS</a><div class="open_submenu">+</div><div class="submenu"><a href="#">PROGRAMAS ATUAIS</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/minuto-futura/">Minuto Futura</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/um-cientista-uma-historia/">Um Cientista, Uma História</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/futura-profissao/">Futura Profissão</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/saude-a-vontade/">Saúde À Vontade</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/ted/">TED Compartilhando Ideias</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/minha-rua/">Minha Rua</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/o-que-e-o-que-e-animais/">O Que É, O Que É? - Animais</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/achado-em-meu-quintal/">Achado em Meu Quintal</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/garagemmaker/">Garagem Maker</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/no-campo/">No campo</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/um-pe-de-que/">Um Pé de Quê?</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/afinando-a-lingua/">Afinando a Língua</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/tempos-de-escola/">Tempos de Escola</a></div><div class="submenu"><a href="http://www.destinoeducacao.org.br/">Destino: Educação Brasil</a></div><div class="submenu"><a href="http://www.futura.org.br/conexaofutura/">Conexão Futura</a></div><div class="submenu"><a href="http://www.futura.org.br/saladebate/">Sala Debate</a></div><div class="submenu"><a href="http://www.futura.org.br/saladenoticias/">Sala de Notícias</a></div><div class="submenu"><a href="http://www.futura.org.br/jornalfutura">Jornal Futura</a></div><div class="submenu"><a href="http://www.futura.org.br/entrevista/">Entrevista</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/cine-conhecimento/">Cine Conhecimento</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/mundo-da-leitura/">Mundo da Leitura</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/teca-na-tv/">Teca na TV</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/paio-dongo/">Paio & Dongo</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/dinheiro-no-bolso/">Dinheiro no Bolso</a></div><div class="submenu"><a href="#">PROGRAMAS FORA DA GRADE</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/ao-ponto-especial/">Ao Ponto Especial</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/entre-fronteiras/">Entre Fronteiras</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/conhecendo-os-presidentes/">Conhecendo... os Presidentes</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/ciencia-em-quadro/">Ciência em Quadro</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/alimente-se-bem/">Alimente-se Bem</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/leva/">Leva</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/armados/">Armados</a></div><div class="submenu"><a href="http://www.futura.org.br/programas/escola-das-aguas-o-desafio-pantaneiro/">Escola das Águas</a></div></div><div class="menu_parent"><a href="/noticias">BLOG</a></div><div class="menu_parent"><a href="/espaco-educador/">ESPAÇO DO EDUCADOR</a><div class="open_submenu">+</div><div class="submenu"><a href="/multimidia/tipo/audio/">Áudios</a></div><div class="submenu"><a href="/multimidia/tipo/pdf/">Planos de Aula</a></div><div class="submenu"><a href="/multimidia/tipo/video/">Vídeos</a></div></div><div class="menu_parent"><a href="http://www.futura.org.br/acoes-sociais/">AÇÕES SOCIAIS</a><div class="open_submenu">+</div><div class="submenu"><a href="/acao-social/kits-educacionais">Kits Educativos</a></div><div class="submenu"><a href="/mobilizacao">Mobilização</a></div><div class="submenu"><a href="/acoes-sociais/projetos-especiais">Projetos Especiais</a></div><div class="submenu"><a href="/acao-social/publicacoes">Publicações</a></div></div><div class="menu_parent"><a href="/mantenedores">PARCEIROS MANTENEDORES</a></div><div class="menu_parent"><a href="/fale-conosco">FALE CONOSCO</a></div>    </div>
+
+</menu>
+
+<container class="fullpage" data-role="page" id="pageone">
+
+<a href="#" class="menu_mobile_bt dashicons dashicons-menu"></a>
+    <div class="menu_idiomas">
+        <div class="container">
+        <div class="item-mantenedor col-lg-4 col-md-4 colxs-4 col-sm-4"> Parceiros Mantenedores </div>
+            <div class="itens-idiomas col-lg-4 col-md-4 colxs-4 col-sm-4">
+
+                            <ul id="navlist">
+                    <li class="active">
+                        <a href="http://www.futura.org.br">
+                            <!-- <img class="bandeira" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/bra.jpg"> -->
+                            <span class="text-idioma">PORTUGUÊS BR</span>
+                        </a>
+                    </li>
+                    <span> | </span>
+                    <li >
+                        <a href="/international">
+                            <!-- <img class="bandeira" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/brit.jpg"> -->
+                            <span class="text-idioma">ENGLISH</span>
+                        </a>
+                    </li>
+                    <!--<li >
+                        <a href="/internacional">
+                            <img class="bandeira" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/esp.jpg">
+                            <span class="text-idioma">ESPAÑOL</span>
+                        </a>
+                    </li> //-->
+                </ul>
+            </div>
+
+                        <div class="itens-login col-lg-4 col-md-4 colxs-4 col-sm-4">
+                <ul id="navlist">
+                    <li><a href="#" class="btn-open-modalLogin-msg">Login</a></li>
+                    <li>|</li>
+                    <li><a href="/cadastro">Cadastro</a></li>
+                </ul>
+            </div>
+                    </div>
+    </div>
+   <div class="verde row ubber-menu">
+        <div class="container">
+            <header id="header" role="banner header-geral">
+                <div class="col-lg-3 col-md-2 col-sm-2 col-xs-2 logo">
+                                            <a href='http://www.futura.org.br' title='Futura'><h1 class='logo-title'><img class="logo-futura-home mozilla-class-logo-menu" src='http://www.futura.org.br/wp-content/themes/futura/assets/images/logo-futura.png' alt='Canal Futura' title='Canal Futura'>Canal Futura</h1></a>
+                    
+                                        <div class="parceiros_mantenedores">
+                        <div class="juncao-logo">
+                            <img src="http://www.futura.org.br/wp-content/themes/futura/assets/images/juncaoLogoParceiros.jpg">
+                        </div>
+                        <iframe class="frame-parceiros-menu" src="http://www.futura.org.br/wp-content/themes/futura/api/logos-parceiros.php" frameborder="0" scrolling="no"></iframe>                          
+                    </div>
+                </div>
+
+                     
+
+                                            <div class="col-lg-10 col-md-10 col-sm-11 col-xs-11 menu sub-menu">
+                        
+                            <nav id="main-navigation" role="navigation">
+                                <a class="assistive-text" href="#content" title="Ir para o Conteúdo">Ir para o Conteúdo</a>
+                                    <div id="megaMenu" class="megaMenuContainer megaMenu-nojs megaMenuHorizontal megaResponsive megaResponsiveToggle wpmega-withjs megaMenuOnHover megaFullWidth wpmega-noconflict megaCenterMenubar megaMinimizeResiduals megaResetStyles themeloc-main-menu"><div id="megaMenuToggle" class="megaMenuToggle">Menu&nbsp; <span class="megaMenuToggle-icon"></span></div><ul id="megaUber" class="megaMenu"><li id="menu-item-2676" class="ofutura menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-10 current_page_item menu-item-has-children mega-with-sub ss-nav-menu-item-0 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center"><a href="http://www.futura.org.br/"><span class="wpmega-link-title">O FUTURA</span></a>
+<ul class="sub-menu sub-menu-1">
+<li id="menu-item-2684" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/quem-somos/"><span class="wpmega-link-title">Quem Somos</span></a></li><li id="menu-item-90699" class="menu-item menu-item-type-post_type menu-item-object-publicacoes ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/acao-social/publicacoes/almanaque-futura-de-redes-sociais/"><span class="wpmega-link-title">Almanaque Futura</span></a></li><li id="menu-item-90702" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/anuarios-de-programacao-2/"><span class="wpmega-link-title">Anuário de Programação</span></a></li><li id="menu-item-3638" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/campanhas/"><span class="wpmega-link-title">Campanhas</span></a></li><li id="menu-item-2687" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/missao/"><span class="wpmega-link-title">Missão</span></a></li><li id="menu-item-2688" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/premios/"><span class="wpmega-link-title">Prêmios</span></a></li><li id="menu-item-2689" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/pesquisas/"><span class="wpmega-link-title">Pesquisas</span></a></li><li id="menu-item-4666" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/teses"><span class="wpmega-link-title">Teses</span></a></li><li id="menu-item-2693" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/como-assistir-2/"><span class="wpmega-link-title">Como assistir</span></a></li><li id="menu-item-5726" class="menu-item menu-item-type-post_type menu-item-object-page ss-nav-menu-item-depth-1"><a href="http://www.futura.org.br/parcerias-futura/"><span class="wpmega-link-title">Parcerias</span></a></li><li id="menu-item-4663" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/o-futura/parceiros-mantenedores/universidades"><span class="wpmega-link-title">Universidades Parceiras</span></a></li></ul>
+</li><li id="menu-item-2697" class="programacao menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-with-sub ss-nav-menu-item-1 ss-nav-menu-item-depth-0 ss-nav-menu-mega ss-nav-menu-mega-alignCenter"><a href="/programas/"><span class="wpmega-link-title">PROGRAMAS</span></a>
+<ul class="sub-menu sub-menu-1">
+<li id="menu-item-5750" class="sem-clique menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">PROGRAMAS ATUAIS</span></a>
+	<ul class="sub-menu sub-menu-2">
+<li id="menu-item-181417" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/minuto-futura/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/01/minuto-site1452099584.png" alt="minuto-site" title="minuto-site" /><span class="wpmega-link-title">Minuto Futura</span></a></li><li id="menu-item-189253" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/um-cientista-uma-historia/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/10/cientista-logo1445447555.png" alt="cientista-logo" title="cientista-logo" /><span class="wpmega-link-title">Um Cientista, Uma História</span></a></li><li id="menu-item-167894" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/futura-profissao/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/11/logo-site-futura-profissao.png" alt="logo-site-futura-profissao" title="logo-site-futura-profissao" /><span class="wpmega-link-title">Futura Profissão</span></a></li><li id="menu-item-167899" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/saude-a-vontade/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/10/saaudeavon1445449300.png" alt="saúdeavon" title="saúdeavon" /><span class="wpmega-link-title">Saúde À Vontade</span></a></li><li id="menu-item-167896" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/ted/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/08/ted1439233454.png" alt="ted" title="ted" /><span class="wpmega-link-title">TED Compartilhando Ideias</span></a></li><li id="menu-item-167895" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/minha-rua/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/11/minharualogo1447335478.png" alt="minharualogo" title="minharualogo" /><span class="wpmega-link-title">Minha Rua</span></a></li><li id="menu-item-174236" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/o-que-e-o-que-e-animais/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/11/oqeoqelogo1448558055.png" alt="oqeoqelogo" title="oqeoqelogo" /><span class="wpmega-link-title">O Que É, O Que É? &#8211; Animais</span></a></li><li id="menu-item-167897" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/achado-em-meu-quintal/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/09/logo-aemq1441214120.png" alt="logo-aemq" title="logo-aemq" /><span class="wpmega-link-title">Achado em Meu Quintal</span></a></li><li id="menu-item-167898" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/garagemmaker/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/07/garagem1436556312.png" alt="garagem" title="garagem" /><span class="wpmega-link-title">Garagem Maker</span></a></li><li id="menu-item-174304" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/no-campo/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/11/no-campo-logo1479943475.jpg" alt="no-campo-logo" title="no-campo-logo" /><span class="wpmega-link-title">No campo</span></a></li><li id="menu-item-125076" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/um-pe-de-que/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/updq-logo.png" alt="updq-logo" title="updq-logo" /><span class="wpmega-link-title">Um Pé de Quê?</span></a></li><li id="menu-item-2735" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/afinando-a-lingua/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/04/logo-afinando_jpg.jpg" alt="logo-afinando_jpg" title="logo-afinando_jpg" /><span class="wpmega-link-title">Afinando a Língua</span></a></li><li id="menu-item-3384" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/tempos-de-escola/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/11/logo-tempos.png" alt="logo-tempos" title="logo-tempos" /><span class="wpmega-link-title">Tempos de Escola</span></a></li><li id="menu-item-127611" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.destinoeducacao.org.br/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/destino-educacao_jpg.jpg" alt="destino-educacao_jpg" title="destino-educacao_jpg" /><span class="wpmega-link-title">Destino: Educação Brasil</span></a></li><li id="menu-item-131056" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/conexaofutura/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/blog-educacao-participa-de-mais-um-programa-conexao-futura.jpg" alt="blog-educacao-participa-de-mais-um-programa-conexao-futura" title="blog-educacao-participa-de-mais-um-programa-conexao-futura" /><span class="wpmega-link-title">Conexão Futura</span></a></li><li id="menu-item-131055" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/saladebate/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/sala-debate1.jpg" alt="sala-debate" title="sala-debate" /><span class="wpmega-link-title">Sala Debate</span></a></li><li id="menu-item-131752" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/saladenoticias/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/sala-noticias_jpg.jpg" alt="sala-noticias_jpg" title="sala-noticias_jpg" /><span class="wpmega-link-title">Sala de Notícias</span></a></li><li id="menu-item-131753" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/jornalfutura"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/09/logo-jornal-futura.jpg" alt="logo-jornal-futura" title="logo-jornal-futura" /><span class="wpmega-link-title">Jornal Futura</span></a></li><li id="menu-item-131751" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/entrevista/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/entrevista-logo_jpg.jpg" alt="entrevista-logo_jpg" title="entrevista-logo_jpg" /><span class="wpmega-link-title">Entrevista</span></a></li><li id="menu-item-125075" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/cine-conhecimento/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/cine-conhecimento-logo.png" alt="cine-conhecimento-logo" title="cine-conhecimento-logo" /><span class="wpmega-link-title">Cine Conhecimento</span></a></li><li id="menu-item-137062" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/mundo-da-leitura/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/mundo-da-leitura-site.png" alt="Mundo da Leitura" title="Mundo da Leitura" /><span class="wpmega-link-title">Mundo da Leitura</span></a></li><li id="menu-item-125012" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/teca-na-tv/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/logo-teca.png" alt="logo teca" title="logo teca" /><span class="wpmega-link-title">Teca na TV</span></a></li><li id="menu-item-125074" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/paio-dongo/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/11/logo-paio-dongo.png" alt="logo-paio-dongo" title="logo-paio-dongo" /><span class="wpmega-link-title">Paio &#038; Dongo</span></a></li><li id="menu-item-3103" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/dinheiro-no-bolso/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/11/logo-site-dinheiro.png" alt="logo-site-dinheiro" title="logo-site-dinheiro" /><span class="wpmega-link-title">Dinheiro no Bolso</span></a></li>	</ul>
+</li><li id="menu-item-5751" class="sem-clique menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children ss-nav-menu-item-depth-1"><a href="#"><span class="wpmega-link-title">PROGRAMAS FORA DA GRADE</span></a>
+	<ul class="sub-menu sub-menu-2">
+<li id="menu-item-174303" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/ao-ponto-especial/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/11/logo-ao-ponto1479988800.jpg" alt="logo-ao-ponto" title="logo-ao-ponto" /><span class="wpmega-link-title">Ao Ponto Especial</span></a></li><li id="menu-item-167900" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/entre-fronteiras/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/11/logo-entre-fronteiras1479942177.jpg" alt="Logo-Entre-Fronteiras" title="Logo-Entre-Fronteiras" /><span class="wpmega-link-title">Entre Fronteiras</span></a></li><li id="menu-item-167901" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/conhecendo-os-presidentes/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/conhecendo-presidentes-logo1.png" alt="conhecendo-presidentes-logo" title="conhecendo-presidentes-logo" /><span class="wpmega-link-title">Conhecendo&#8230; os Presidentes</span></a></li><li id="menu-item-125938" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/ciencia-em-quadro/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/ciencia-em-quadro-logo.png" alt="ciencia-em-quadro-logo" title="ciencia-em-quadro-logo" /><span class="wpmega-link-title">Ciência em Quadro</span></a></li><li id="menu-item-125939" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/alimente-se-bem/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2014/12/alimente-se-bem-logo.png" alt="alimente-se-bem-logo" title="alimente-se-bem-logo" /><span class="wpmega-link-title">Alimente-se Bem</span></a></li><li id="menu-item-131742" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/leva/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/levalogo.png" alt="levalogo" title="levalogo" /><span class="wpmega-link-title">Leva</span></a></li><li id="menu-item-131743" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/armados/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/armados2.png" alt="armados2" title="armados2" /><span class="wpmega-link-title">Armados</span></a></li><li id="menu-item-152645" class="menu-item menu-item-type-post_type menu-item-object-cpt_programa ss-nav-menu-item-depth-2 ss-nav-menu-with-img"><a href="http://www.futura.org.br/programas/escola-das-aguas-o-desafio-pantaneiro/"><img class="um-img um-img-resize" height="82" width="226" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/escola2.png" alt="escola2" title="escola2" /><span class="wpmega-link-title">Escola das Águas</span></a></li>	</ul>
+</li></ul>
+</li><li id="menu-item-133520" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-2 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center"><a href="/noticias"><span class="wpmega-link-title">BLOG</span></a></li><li id="menu-item-2716" class="multimidia menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children mega-with-sub ss-nav-menu-item-3 ss-nav-menu-item-depth-0 ss-nav-menu-mega ss-nav-menu-mega-alignCenter"><a href="/espaco-educador/"><span class="wpmega-link-title">ESPAÇO DO EDUCADOR</span></a>
+<ul class="sub-menu sub-menu-1">
+<li id="menu-item-133522" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/multimidia/tipo/audio/"><span class="wpmega-link-title">Áudios</span></a></li><li id="menu-item-133524" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/multimidia/tipo/pdf/"><span class="wpmega-link-title">Planos de Aula</span></a></li><li id="menu-item-133525" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/multimidia/tipo/video/"><span class="wpmega-link-title">Vídeos</span></a></li></ul>
+</li><li id="menu-item-133526" class="acao-social menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children mega-with-sub ss-nav-menu-item-4 ss-nav-menu-item-depth-0 ss-nav-menu-mega ss-nav-menu-mega-fullWidth ss-nav-menu-mega-alignCenter ss-nav-menu-highlight"><a href="http://www.futura.org.br/acoes-sociais/"><span class="wpmega-link-title">AÇÕES SOCIAIS</span></a>
+<ul class="sub-menu sub-menu-1">
+<li id="menu-item-133527" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/acao-social/kits-educacionais"><span class="wpmega-link-title">Kits Educativos</span></a></li><li id="menu-item-133528" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/mobilizacao"><span class="wpmega-link-title">Mobilização</span></a></li><li id="menu-item-133529" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/acoes-sociais/projetos-especiais"><span class="wpmega-link-title">Projetos Especiais</span></a></li><li id="menu-item-133530" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-depth-1"><a href="/acao-social/publicacoes"><span class="wpmega-link-title">Publicações</span></a></li></ul>
+</li><li id="menu-item-2724" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-5 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center"><a href="/mantenedores"><span class="wpmega-link-title">PARCEIROS MANTENEDORES</span></a></li><li id="menu-item-133532" class="menu-item menu-item-type-custom menu-item-object-custom ss-nav-menu-item-6 ss-nav-menu-item-depth-0 ss-nav-menu-reg um-flyout-align-center"><a href="/fale-conosco"><span class="wpmega-link-title">FALE CONOSCO</span></a></li></ul></div>                                    <!--<form method="get" class="navbar-form navbar-right" action="http://www.futura.org.br/" role="search">
+                                        <label for="navbar-search" class="sr-only">Pesquisar:</label>
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="s" id="navbar-search" />
+                                        </div>
+                                        <button type="submit" class="btn btn-default">Pesquisa</button>
+                                    </form>-->
+                                
+                            </nav><!-- #main-menu -->
+
+                        </div>
+                                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 caixa-lupa"><a href="#"><img class="img-responsive img-thumbnail lupa" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/lupa.png" alt="" title="" width="47px" height="83px"/></a></div>
+                    
+                </header><!-- #header -->
+
+            </div>
+        
+        <div class="busca-fundo">
+            <div class="container">
+                <div class="busca">
+                    <form method="get" class="navbar-form navbar-right form-busca" action="http://www.futura.org.br/" role="search">
+                        <label for="navbar-search" class="sr-only">Pesquisar:</label>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <span class='texto-busca col-lg-1 col-md-1 col-sm-1 col-xs-1'>BUSCA</span>
+                            <input type="text" class="form-control col-lg-10 col-md-10 col-sm-10 col-xs-10" name="s" id="navbar-search" />
+                            <span class="btn-busca"><img class="img-responsive img-thumbnail img-fechar" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/fechar.png" alt="" title="" width="" height="" /></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="passando-hoje" style="display:none;">
+            <div class='passando-hoje-fundo2 tablet-none'></div>
+            <div class="passando-conteudo">
+        
+        
+        <div id="js-passando" style="display:none !important;">
+                <div class="passando-bg-verde"><span class="passando-hjspan tablet-none">PASSANDO AGORA</span><img class="small-tablet-none passando-img img-responsive img-thumbnail" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/127.jpg" width="127" height="46" />
+                        <div class="passando-now">21:00</div>
+                        <div class="passando-horarios">
+                            21:00<br/>
+                            21:30
+                        </div>
+                        <div class="passando-linha"></div>
+                        <div class="passando-span100"><span>Entre Fronteiras | Victoria Fa Leia mais </span></div></div>
+                <div class="passando-span99 logo-parceiros mobile-none"><div class='titulo-todos-parceiros2'>MANTENEDORES</div><div id="0" class="todos-parceiros"><a href="http://www.futura.org.br/mantenedores/votorantim/">
+                            <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/03/votorantim_header.png" /></a>
+                    </div>
+                </div>
+            </div>         
+            
+            <div id="js-busca">
+                <div class="busca">
+                    <form style="padding-left:0px" method="get" class="navbar-form navbar-right form-busca margin-busca" action="http://www.futura.org.br/" role="search">
+                        <label for="navbar-search" class="sr-only">Pesquisar:</label>
+                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 form-busca-head">
+                        <span class='texto-busca col-lg-1 col-md-1 col-sm-1 col-xs-1'>BUSCA</span>
+                            <input type="text" class="form-control col-lg-10 col-md-10 col-sm-10 col-xs-10 navbar-search-form" name="s" id="navbar-search" placeholder="O que deseja procurar ?" />
+                           <span class="btn-busca"><img class="img-responsive img-thumbnail img-fechar" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/fechar.png" alt="" title="" width="" height="" /></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div id="main" class="row main-content-page">
+        <div class="slide-fundo">        
+            <div class="container">
+				<input type="hidden" class='link_slider' name="link_slider" value="http://www.futura.org.br/institucional-2/futura-estreia-nova-grade-de-programacao-com-conteudos-ineditos/">
+							<input type="hidden" class='link_slider' name="link_slider" value="http://www.futura.org.br/genero/euvocetodasnos-estreia-aborda-movimentos-feministas-e-redes-sociais/">
+							<input type="hidden" class='link_slider' name="link_slider" value="http://www.futura.org.br/historia/novo-entrevista-aborda-cultura-questoes-etnico-raciais-e-juventudes/">
+							<input type="hidden" class='link_slider' name="link_slider" value="http://www.futura.org.br/destaque/aberto-chamado-publico-de-projetos-audiovisuais-futuraprodav2-3/">
+							<input type="hidden" class='link_slider' name="link_slider" value="http://www.futura.org.br/institucional-2/futura-play-assista-quando-e-onde-quiser/ ">
+				<div class="load_transmissao_ao_vivo"></div>
+	<div class='content-home container '>
+	<div class="wpb_row row">
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<!-- meta slider -->
+<div style="width: 100%;" class="metaslider metaslider-flex metaslider-4080 ml-slider">
+    <style type="text/css" id="metaslider-css-4080">
+        #metaslider_4080.flexslider .slides li {margin-right: 0px !important;}
+    </style>
+    <div id="metaslider_container_4080">
+        <div id="metaslider_4080">
+            <ul class="slides">
+                <li class='slider-4080 slide-239921 ms-layer' style='display: none; float: left;'><img src="http://www.futura.org.br/wp-content/uploads/2017/03/modelo-home1489525537.png" alt="" class="msDefaultImage" height="400" width="600" /></li>
+                <li class='slider-4080 slide-239914 ms-layer' style='display: none; float: left;'><img src="http://www.futura.org.br/wp-content/uploads/2017/03/euvchome1488998704.png" alt="" class="msDefaultImage" height="400" width="600" /></li>
+                <li class='slider-4080 slide-239898 ms-layer' style='display: none; float: left;'><img src="http://www.futura.org.br/wp-content/uploads/2017/03/djamila-home1488828507.png" alt="" class="msDefaultImage" height="400" width="600" /></li>
+                <li class='slider-4080 slide-238072 ms-layer' style='display: none; float: left;'><img src="http://www.futura.org.br/wp-content/uploads/2017/02/prodav21487626125.png" alt="" class="msDefaultImage" height="400" width="600" /></li>
+                <li class='slider-4080 slide-238070 ms-layer' style='display: none; float: left;'><img src="http://www.futura.org.br/wp-content/uploads/2017/02/modelo-home1487625049.png" alt="" class="msDefaultImage" height="400" width="600" /></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+                <li class="slide-off"></li>
+            </ul>
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        var metaslider_4080 = function($) {
+            $('#metaslider_4080').addClass('flexslider'); // theme/plugin conflict avoidance
+            $('#metaslider_4080').flexslider({ 
+                slideshowSpeed:8000,
+                animation:'slide',
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:true,
+                direction:'horizontal',
+                reverse:false,
+                animationSpeed:800,
+                prevText:"&lt;",
+                nextText:"&gt;",
+                easing:"linear",
+                slideshow:true,
+                before: function(slider) {
+                    $('#metaslider_4080 li:not(".flex-active-slide") .animated').each(function(index) {
+                        var el = $(this);
+                        var cloned = el.clone();
+                        el.before(cloned);
+                        $(this).remove();
+                    });
+                },
+                itemWidth:($(window).width() > 1300?600:485),
+                minItems:1,
+                itemMargin:0
+            });            
+            jQuery(window).resize(function(){
+               jQuery('#metaslider_4080').metaslider_scale_layers({
+                   downscale_only: false,
+                   orig_width: 600
+               });
+            });
+            jQuery('#metaslider_4080').metaslider_scale_layers({
+                downscale_only: false,
+                orig_width: 600
+            });
+        };
+        var timer_metaslider_4080 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_4080, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_4080, 1) : metaslider_4080(window.jQuery);
+        };
+        timer_metaslider_4080();
+    </script>
+</div>
+<!--// meta slider-->
+
+		</div> 
+	</div> 
+		</div> 
+	</div> 
+</div><div class="wpb_row row">
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			</div></div></div></div></div><div class="container-faixa-prog" >
+        <div class="faixa-programacao"><article class="content-programacao programacao-da-semana col-lg-12 col-md-12 col-sm-12 col-xs-12" id="content" role="main"><div class="col-lg-2 col-md-2 col-xs-12 col-sm-12 no-ar-hoje" style="display: table; height: 90px; position: relative; overflow: hidden;"><div style=" position: absolute; top: 6%;display: table-cell; vertical-align: middle;"><h2 class="noar"><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 noar">No Ar</span></h2><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nome-prog">Indisponível</span></div></div><div class="col-lg-2 hoje col-md-2 col-xs-12 col-sm-12 hoje"><h2>HOJE<span class="sub-hoje"> NO FUTURA </span></h2></div><div class="col-lg-8 col-md-8 col-xs-12 col-sm-12 container-programacao-hoje">
+                <a class="link-mais-programacao" href="programacao/#21-00"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 exibindo-agora"><h1>Debate</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">21:00</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a>
+                <a class="link-mais-programacao" href="programacao/#22-00"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 "><h1>Tambores Afrouruguaios</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">22:00</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a>
+                <a class="link-mais-programacao" href="programacao/#22-15"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 "><h1>Entrevista | Giovana Xavier 2</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">22:15</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a>
+                <a class="link-mais-programacao" href="programacao/#22-30"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 "><h1>Futurando</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">22:30</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a>
+                <a class="link-mais-programacao" href="programacao/#23-00"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 "><h1>Profissão Repórter | Aedes Aegypti</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">23:00</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a>
+                <a class="link-mais-programacao" href="programacao/#23-45"><section class="col-lg-3 col-md-3 col-sm-3 col-xs-6 programa-na-faixa"><span class="horarios">
+                </span><span class="col-lg-12 col-md-12 col-sm-12 col-xs-12 programacao-conteudo-h1 "><h1>O Outro Escritor | Vida Dura</h1></span><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-saiba-mais" style="position:absolute; bottom:0;">23:45</div><span class="saber-mais-programa">SAIBA MAIS</span></section></a></div><a href="programacao/#21-00">
+        <section class="col-lg-2 col-md-2 col-xs-12 col-sm-12 ver-toda-programacao"><h3>PROGRAMAÇÃO <span>COMPLETA</span></h3></section></a><a href="baixar-programacao" target="_blank" class="baixar_programacao_home col-lg-2 col-md-2 col-xs-12 col-sm-12">BAIXE A PROGRAMAÇÃO</a></div></article></article></div>
+    </div></div><div class='container'><div class='wpb_row row'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 wpb_column column_container'><div class='wpb_wrapper'>
+		</div> 
+	</div> 
+</div><div class="wpb_row row">
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			</div></div></div></div>
+        <div class='faixa-green epsodio-box-home' style='background-color:#f6f6f6 !important;'>
+            <div class='container'><article class='title-theme'>
+            <h2 class='panel-title-cores panel-title-cores-home' style='color:#000000  !important;'>Destaques<span class='blococor' style='color:#4c35b8 !important'>__</span></h2><section class='col-lg-6 col-md-6 col-sm-12 col-xs-12' style='margin-bottom:20px'>
+                    <div class='post-em-destaque post-maior post-maior-home'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 box-img-post-home'><div class='youtube_img_to_player' data-id='-NrYtZM51rI'><img class='img-responsive img-thumbnail' src='https://img.youtube.com/vi/-NrYtZM51rI/sddefault.jpg' width='580' alt='alt_padrao' ></div><div class='content-box-light content-box-light-home' style='color:#666666  !important;'><a href='http://www.futura.org.br/episodios/poluicao-ambiental-causa-a-morte-de-milhoes-de-criancas-pelo-mundo/'><h3>Poluição ambiental causa a morte de milhões de crianças pelo mundo</h3></a><p>Relatórios da OMS apontam que um milhão e setecentas mil crianças com menos de 5 anos morrem em todo o mundo por problemas ligados a poluição.</p><p class='leia-mais-description-maior'> <a href='http://www.futura.org.br/episodios/poluicao-ambiental-causa-a-morte-de-milhoes-de-criancas-pelo-mundo/'> Leia mais </a></p>
+                    </div></div></section><section class='col-lg-6 col-md-6 col-sm-12 col-xs-12 box-light-margem box-lista' style='margin-bottom:20px'><ul><li class='22222222 post-em-destaque post-menor post-menor-home  rigth-mobile ' style='position:relative;'><span>
+                    <a href='http://www.futura.org.br/documentarios-2/historias-emocionantes-esperam-por-voce-no-curtas/'><img class='img-responsive img-thumbnail img-post_destaque_home' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2017/03/conectados31490711917-195x155.png' width='195' height='155' align='left' alt='alt_padrao'></a><a href='http://www.futura.org.br/documentarios-2/historias-emocionantes-esperam-por-voce-no-curtas/'><h3 class='title_destaque_home'>Histórias emocionantes esperam por você no Curtas</h3></a><p class='content-box-light'>A semana traz filmes sobre velhice, a luta de transexuais, a importância da internet na periferia e o inédito 'Não me sinto segura na Internet'</p><p class='leia-mais-description'> <a href='http://www.futura.org.br/documentarios-2/historias-emocionantes-esperam-por-voce-no-curtas/'>Leia mais </a></p></span></li><li class='22222222 post-em-destaque post-menor post-menor-home ' style='position:relative;'><span>
+                    <a href='http://www.futura.org.br/educacao/futura-transmite-ao-vivo-o-lancamento-do-12o-premio-itau-unicef-2/'><img class='img-responsive img-thumbnail img-post_destaque_home' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2017/03/unicef1490628487-195x155.png' width='195' height='155' align='left' alt='alt_padrao'></a><a href='http://www.futura.org.br/educacao/futura-transmite-ao-vivo-o-lancamento-do-12o-premio-itau-unicef-2/'><h3 class='title_destaque_home'>Futura transmite ao vivo o lançamento do 12º Prêmio Itaú-Unicef</h3></a><p class='content-box-light'>A edição 2017 do Prêmio traz o tema "Educação Integral: parcerias em construção". Transmissão começa às 14h30 no site do Futura.</p><p class='leia-mais-description'> <a href='http://www.futura.org.br/educacao/futura-transmite-ao-vivo-o-lancamento-do-12o-premio-itau-unicef-2/'>Leia mais </a></p></span></li><li class='22222222 post-em-destaque post-menor post-menor-home  rigth-mobile ' style='position:relative;'><span>
+                    <a href='http://www.futura.org.br/institucional-2/projeto-cuidando-do-futuro-apresenta-resultados-de-2016/'><img class='img-responsive img-thumbnail img-post_destaque_home' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2017/03/parceria1488909658-195x155.jpg' width='195' height='155' align='left' alt='alt_padrao'></a><a href='http://www.futura.org.br/institucional-2/projeto-cuidando-do-futuro-apresenta-resultados-de-2016/'><h3 class='title_destaque_home'>Projeto “Cuidando do Futuro” apresenta resultados de 2016</h3></a><p class='content-box-light'>O estudantes avaliados reconhecem a importância do cuidado com o meio ambiente e da preservação dos recursos naturais</p><p class='leia-mais-description'> <a href='http://www.futura.org.br/institucional-2/projeto-cuidando-do-futuro-apresenta-resultados-de-2016/'>Leia mais </a></p></span></li></ul></section><section class='col-lg-12 col-md-12 col-sm-12 col-xs-12 container-ver-posts ver-posts-destaques-home'> <a href='http://www.futura.org.br/noticias'><span class='ver-todos-posts faixafull' style='color:#000'>VER TODOS OS DESTAQUES <span class='imgseta'></span></span></a></section></article></div>
+        </div>
+        <div class='container'><div class='wpb_row row'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 wpb_column column_container'><div class='wpb_wrapper'>
+		</div> 
+	</div> 
+</div><div class="wpb_row row"><div class='content-modal' id='174327' style='display:none;'><span class='hide-titulo-projeto'>Pitching Futura</span>
+                    <span class='hide-conteudo-projeto'>[caption id="attachment_174335" align="alignleft" width="300"]<a href="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/levante_21449510176.png"><img class="size-medium wp-image-174335" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/levante_21449510176-300x300.png" alt="Levante!" width="300" height="300" /></a> Documentário Levante!, vencedor do V Pitching Futura[/caption]
+
+O significado original da expressão americana Pitching vem do beisebol e designa o lançador da bola. Adaptado para o mercado, podemos definir como um discurso de venda, onde o realizador precisa convencer o ouvinte a se interessar pela sua ideia, pelo negócio. Informalmente, o empreendedor precisa “vender seu peixe”.
+
+Esse tipo de seleção de projetos para a produção de novos programas é um procedimento comum em feiras internacionais, mas somente na última década o termo passou a fazer parte do, digamos, glossário televisivo brasileiro. Num canal como o Futura, onde se prioriza a mistura de sotaques e a pluralidade de formatos, o Pitching já está no calendário anual de eventos. Produtores independentes de todo o Brasil têm a oportunidade de apresentar propostas para programas e documentários.
+
+O primeiro edital no Futura foi lançado em 2005 para a produção de séries. Em 2009, o canal criou o Pitching Social, destinado para ONG´s e TV´s Universitárias parceiras do Futura. Desde 2010, a seleção de projetos passou a buscar ideias para documentários de 52 minutos, com a criação do Pitching para Documentários do Canal Futura – Doc Futura, focado em direitos humanos.
+
+O projeto vencedor da primeira edição foi <a title="Leva" href="http://www.futura.org.br/programas/leva/" target="_blank">Leva</a>. O documentário acompanha a vida de moradores da ocupação e revela a organização de siglas que se unem para transformar os espaços abandonados em habitáveis. A estruturação do edifício pelos movimentos de luta por moradia refletem na reorganização e redescoberta das pessoas como indivíduos por meio do coletivo. Em 2012, o documentário recebeu a medalha de bronze na categoria “Social Issues/Current Events”, do New York Film Festival.
+
+No ano de 2011, no Doc Futura II, o projeto <a title="Armados" href="http://www.futura.org.br/programas/armados/" target="_blank">Armados</a>, que discute sobre o impacto das armas de fogo nos campos da saúde pública e dos direitos humanos no Brasil venceu a disputa. O doc recebeu Prêmio Promax, pela abertura em animação. E em 2012, o ganhador do Doc Futura III foi o documentário<a title="De Volta" href="http://www.futura.org.br/programas/de-volta/" target="_blank"> De Volta</a>, indicado ao Emmy 2014, que registra a rotina de 4 presidiários no Rio de Janeiro durante o período da saída temporária de Natal. O vencedor do Doc Futura IV é <a title="Escola das Águas" href="http://www.futura.org.br/programas/escola-das-aguas-o-desafio-pantaneiro/" target="_blank">Escola das Águas</a>, que busca entender as adaptações de uma escola ao modo de vida dos habitantes do Pantanal, seus costumes e folclores. Em 2014, <a title="Levante!" href="http://www.levante.vc/" target="_blank">Levante!</a> é o documentário vencedor do Doc Futura V, que mostra como as novas tecnologias se traduzem nas mais poderosas ferramentas de expansão da comunicação e transformação da realidade social. O filme foi feito de forma colaborativa com Faixa de Gaza, Hong Kong, México e Brasil.
+
+O mais recente vencedor é o Não Saia Hoje, documentário que irá mostrar a jornada de um grupo de mães da periferia da cidade de Santos pela justiça, e em memória de seus filhos que morreram injustamente em maio de 2006, na chacina conhecida como Crimes de Maio.</span></div><div class='content-modal' id='125364' style='display:none;'><span class='hide-titulo-projeto'>Diz Aí</span>
+                    <span class='hide-conteudo-projeto'><img class="alignleft wp-image-126287 size-medium" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/03/site-300x212.jpg" alt="Diz Aí" width="300" height="212" />
+
+Ao tratar de questões relacionadas à juventude, a voz do jovem deve ser provocada e privilegiada. Críticos e reflexivos, os jovens refletem e debatem as questões de que são protagonistas. É esta a proposta da série <strong>Diz Aí</strong> – valorizar o entendimento e as histórias das juventudes sobre questões que fazem parte de suas vidas.
+
+Produzida pela área de Mobilização e Articulação Comunitária do Futura, o <strong>Diz Aí</strong> é uma série de programas de curta duração que traz a opinião do jovem de diversas partes do país para questões étnico-raciais, de gênero, mercado de trabalho, sexualidade, geração de renda, cultura, cidadania, meio ambiente, acesso à tecnologias, combate à seca, entre outros temas.
+
+Com formato dinâmico e delineado junto a coletivos juvenis, o programa provoca as juventudes a refletirem e debaterem entre pares, com o poder público e a sociedade.
+
+Para saber mais acesse <strong><a title="Diz Aí" href="http://www.dizai.org.br">www.dizai.org.br</a></strong>
+
+Confira também o guia <a title="Guia Diz Aí" href="http://www.futura.org.br/espaco-educador/diz-ai-enfrentamento-ao-exterminio-da-juventude-negra/" target="_blank"><strong style="color: #666666;">Diz aí – Enfrentamento ao extermínio da juventude negra</strong></a><span style="color: #666666;">, produzido com o objetivo de aprofundar a reflexão iniciada pela série sobre o combate à violência e a necessidade de se reduzirem as altas taxas de homicídio que vitimizam as juventudes brasileiras, especialmente, as negras.</span></span></div><div class='content-modal' id='176456' style='display:none;'><span class='hide-titulo-projeto'>Geração Futura Educadores</span>
+                    <span class='hide-conteudo-projeto'>[caption id="attachment_176461" align="alignleft" width="300"]<a href="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/gfe_3b1450107863.jpg"><img class="size-medium wp-image-176461" src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/gfe_3b1450107863-300x200.jpg" alt="Geração Futura Educadores" width="300" height="200" /></a> Geração Futura Educadores[/caption]
+
+O Geração Futura é um projeto de experimentação audiovisual que utiliza o potencial do Canal Futura como televisão educativa. Iniciado em 2003, foi voltado para alunos do Ensino Médio de escolas municipais. Os jovens participavam de oficinas teóricas e práticas, realizadas durante um mês, dentro das instalações da Fundação Roberto Marinho e, ao final desse período, apresentavam vídeos realizados pelos próprios, desde o roteiro, produção, gravação e edição.
+
+A partir de 2006, um novo modelo foi criado, o Geração Futura Universidades Parceiras, cujo objetivo é buscar uma maior interação entre o Canal Futura e as Instituições de Ensino Superior que hoje retransmitem a programação do
+
+Futura, através de suas TVs universitárias nos diversos estados do Brasil, e outras que são parceiras em coproduções em projetos audiovisuais. Após duas semanas de workshop com profissionais do mercado de televisão, os estudantes universitários retornam às suas cidades para a produção dos vídeos de acordo com o tema definido na oficina.
+
+Em 2014 foi criada uma nova modalidade, o <strong>Geração Futura Educadores</strong>, com profissionais de educação de escolas municipais e estaduais do Rio de Janeiro.
+
+O objetivo é permitir que esses educadores conheçam de perto o funcionamento de um canal de TV, entendam como funciona o processo de realização de um programa, desde o roteiro até a edição, passando pela produção, gravação até sua exibição. As oficinas, que duram uma semana, também buscam trazer uma maior proximidade na relação professor-aluno, já que os jovens estão cada vez mais familiarizados com as novas ferramentas audiovisuais. Essa oficina de vídeo também fideliza a ligação do Futura com seu público mais presente e traz para a programação do canal, conteúdos genuinamente pensados e realizados por educadores, com novos temas, experimentos de formato e linguagem.</span></div>
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			</div></div></div></div><!-- especiais --><div class='faixa-green projetos-especiais' style='background-color: #c52376!important;'>
+                                <div class='container'><article class='title-theme article-especiais projects-specials col-lg-12 col-md-12 col-sm-12 col-xs-12'>
+                        <h2 class='panel-title-cores fonte-LatinoBold' style='color:#fff !important;'>PROJETOS ESPECIAIS<span class='blococor' style='color:#00cb56'>__</span></h2><section class='col-lg-12 col-md-12 col-sm-12 col-xs-12 box-light-margem box-lista' style='border-color:'><ul><a href='http://www.futura.org.br/acoes-sociais/projetos-especiais/pitching-futura/'><li id='174327' class='link-mais-box-light post-especiais home-especiais especiais-li  bottom-mobile  col-lg-4 col-md-4 col-sm-4 col-xs-4' style='margin-right: 0px !important;border-color:#00ad48 !important;'><img class='img-responsive img-thumbnail img-box-light-total' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/doc-futura-logo1449507255.png' height='185' width='360' align='left' alt='P'><div class='content-box-light'><div><h3 style='margin-left: 1px;color:#fff'>Pitching Futura</h3></div></div></li></a><a href='http://www.futura.org.br/acoes-sociais/projetos-especiais/diz-ai-2/'><li id='125364' class='link-mais-box-light post-especiais home-especiais especiais-li  bottom-mobile  col-lg-4 col-md-4 col-sm-4 col-xs-4' style='margin-right: 0px !important;border-color:#00ad48 !important;margin-left:30px'><img class='img-responsive img-thumbnail img-box-light-total' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/05/dizainovo-site.png' height='185' width='360' align='left' alt='Diz Aí'><div class='content-box-light'><div><h3 style='margin-left: 1px;color:#fff'>Diz Aí</h3></div></div></li></a><a href='http://www.futura.org.br/acoes-sociais/projetos-especiais/geracao-futura-educadores/'><li id='176456' class='link-mais-box-light post-especiais home-especiais especiais-li  bottom-mobile  col-lg-4 col-md-4 col-sm-4 col-xs-4' style='margin-right: 0px !important;border-color:#00ad48 !important;margin-left:30px'><img class='img-responsive img-thumbnail img-box-light-total' src='http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2015/12/geraacaao_educa_peq1450098832.jpg' height='185' width='360' align='left' alt='G'><div class='content-box-light'><div><h3 style='margin-left: 1px;color:#fff'>Geração Futura Educadores</h3></div></div></li></a><ul></section></article><section class='col-lg-12 col-md-12 col-sm-12 col-xs-12 container-ver-posts ver-posts-especiais'>
+                            <a href='http://www.futura.org.br/acao-social/projetos-especiais/'><span class='ver-todos-posts faixafull' style='color:#fff'>VER TODOS OS PROJETOS ESPECIAIS
+                                <span class='imgseta'></span>
+                            </span></a>
+                        </section></div>
+                            </div><div class='container'><div class='wpb_row row'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 wpb_column column_container'><div class='wpb_wrapper'>
+		</div> 
+	</div> 
+</div><div class="wpb_row row">
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			
+		</div> 
+	</div> 
+</div><div class="wpb_row row">
+	<div class="col-lg-12 wpb_column column_container">
+		<div class="wpb_wrapper">
+			<div class="container"><article class="title-theme space-educator col-lg-8 col-md-8 col-sm-12 col-xs-12 panel-default"><h2 class="panel-title fonte-LatinoBold title-multimidia">Espaço do Educador</h2><section class="box-light-margem box-lista multimidia"><ul><a class="link-mais-box-light" href="http://www.futura.org.br/espaco-educador/alimente-se-bem-shake-energetico-2/" count=""><li class="box-light box-light-multimidia lista-box-light bg-multimidia-Audio col-lg-3  rigth-mobile  col-md-3 col-sm-12 col-xs-3 clearfix"><div class="multimidia-box-img"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/img/sound-icon.png" ></div><h3 class="titulo-multimidia-boxlight"> <div>Alimente-se bem: shake energético </div></h3><div class="content-box-light"><p class="text-multimidia-home">Classificação Indicativa: Livre
+Diretor: Tarciana Gomes
+Transcendentes é um documentário que mostra a realidade do mercado de trabalho piauiense por m Leia mais </p></div><div class="mais-sobre-light mais-sobre-marg"><div class="borda-saibamais" style="margin-top: 4.2px !important;"><div class="icone-mais-multimidia icone-mais mais-no-bug-multimidia dashicons dashicons-plus"></div></div><span class="saber-mais-green">SAIBA MAIS</span></div></li></a><a class="link-mais-box-light" href="http://www.futura.org.br/espaco-educador/a-saga-da-laranja-teca-na-tv-3/" count=""><li class="box-light box-light-multimidia lista-box-light bg-multimidia-Video col-lg-3  col-md-3 col-sm-12 col-xs-3 clearfix"><div class="multimidia-box-img"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/img/play-icon.png" ></div><h3 class="titulo-multimidia-boxlight"> <div>A saga da laranja &#8211; Teca na TV </div></h3><div class="content-box-light"><p class="text-multimidia-home">Classificação Indicativa: Livre
+Diretor: Tarciana Gomes
+Transcendentes é um documentário que mostra a realidade do mercado de trabalho piauiense por m Leia mais </p></div><div class="mais-sobre-light mais-sobre-marg"><div class="borda-saibamais" style="margin-top: 4.2px !important;"><div class="icone-mais-multimidia icone-mais mais-no-bug-multimidia dashicons dashicons-plus"></div></div><span class="saber-mais-green">SAIBA MAIS</span></div></li></a><a class="link-mais-box-light" href="http://www.futura.org.br/espaco-educador/afinando-a-lingua-2012/" count=""><li class="box-light box-light-multimidia lista-box-light bg-multimidia-PDF col-lg-3  rigth-mobile  col-md-3 col-sm-12 col-xs-3 clearfix"><div class="multimidia-box-img"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/img/pdf-icon.png" ></div><h3 class="titulo-multimidia-boxlight"> <div>Afinando a língua &#8211; temporada 2012 </div></h3><div class="content-box-light"><p class="text-multimidia-home">Classificação Indicativa: Livre
+Diretor: Tarciana Gomes
+Transcendentes é um documentário que mostra a realidade do mercado de trabalho piauiense por m Leia mais </p></div><div class="mais-sobre-light mais-sobre-marg"><div class="borda-saibamais" style="margin-top: 4.2px !important;"><div class="icone-mais-multimidia icone-mais  dashicons dashicons-plus"></div></div><span class="saber-mais-green">SAIBA MAIS</span></div></li></a><a class="link-mais-box-light" href="http://www.futura.org.br/espaco-educador/a-minha-propria-barba-teca-na-tv-3/" count=""><li class="box-light box-light-multimidia lista-box-light bg-multimidia-Video col-lg-3  col-md-3 col-sm-12 col-xs-3 clearfix"><div class="multimidia-box-img"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/img/play-icon.png" ></div><h3 class="titulo-multimidia-boxlight"> <div>A minha própria barba &#8211; Teca na TV </div></h3><div class="content-box-light"><p class="text-multimidia-home">Classificação Indicativa: Livre
+Diretor: Tarciana Gomes
+Transcendentes é um documentário que mostra a realidade do mercado de trabalho piauiense por m Leia mais </p></div><div class="mais-sobre-light mais-sobre-marg"><div class="borda-saibamais" style="margin-top: 4.2px !important;"><div class="icone-mais-multimidia icone-mais  dashicons dashicons-plus"></div></div><span class="saber-mais-green">SAIBA MAIS</span></div></li></a></sectio></ul></article></div></div></div></div></div><div class="faixa-social">
+                <div class="container"><h2 class="panel-title social-title-panel" style="margin-top:0px; font-family: Latinobold !important;">REDES SOCIAIS</h2><ul class="midia-social"><li class="box-social-mobi"><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><div class="box-light box-facebook margin-rigth" style=" border: 2px solid #286CC1!important; background: #286CC1 !important;"><div class="topo-fanpage" style="border-color: #286CC1;"><div class="like"><iframe class="button-like" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fcanalfuturaoficial&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=1406242956302059" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe></div><img class="capa-fanpage img-responsive img-thumbnail" src="http://graph.facebook.com/canalfuturaoficial/picture" width="90"><h3 class="title-facebook"> <a href="http://www.facebook.com/canalfuturaoficial" target="_blank">Canal Futura </a></h3></div><div class="face-box" style="border-color: #286CC1;"><div class="fb-page" data-href="https://www.facebook.com/canalfuturaoficial" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div></div><div class="footer-box-face"><img class="logo-plugin" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/facebook-plugin.png" alt="Plugin Facebook" title="Plugin Facebook"><p> Facebook social plugin.</p></div></div></section><li class="box-fb-mobi" style="display:none"><a href="https://www.facebook.com/canalfuturaoficial" target="_blank"><div class="box-mobi-face col-sm-12 col-xs-12"><div class="logo-fb col-sm-2 col-xs-2"></div><div class="mobi-separador col-sm-1 col-xs-1"></div><div class="txt-mobi-midia col-sm-8 col-xs-8 frase1">Curta o Canal Futura</div><div class="txt-mobi-midia col-sm-8 col-xs-8 frase2">Curta o Canal Futura no Facebook</div></div></a></li><li class="box-tw-mobi" style="display:none"><a href="https://twitter.com/canalfutura" target="_blank"><div class="box-mobi-twitter col-sm-12 col-xs-12"><div class="top-twitter col-sm-12 col-xs-12"><span class="txt-twitter">Último Tweet <span class="logo-twitter"></span></span></div><div id="ultimo-tw" class="ultimo-tw col-sm-12 col-xs-12" ></div></div></a></li><li class="box-yt-mobi" style="display:none"><a href="https://www.youtube.com/user/canalfutura" target="_blank"><div class="box-mobi-youtube col-sm-12 col-xs-12"><div class="logo-youtube col-sm-2 col-xs-2"></div><div class="mobi-separador col-sm-1 col-xs-1"></div><div class="txt-mobi-midia col-sm-8 col-xs-8">Conheça o Canal Futura no Youtube</div></div></a></li><li class="box-social-mobi"><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><div class="box-light box-youtube margin-rigth" style="overflow:hidden;border-color:#ce3f43 !important;"><div class="mini_topo"><span>Nos acompanhe no youtube</span></div><ul><div class="topo-youtube"><img class="capa-fanpage" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/rodape_youtube_52.png" width="78"><h3 class="title-facebook"> <a href="https://www.youtube.com/user/canalfutura" target="_blank">Canal Futura </a></h3></div><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 conteudo_do_youtube" style="">
+                                <div class="camada_hover camada_hover_youtube img-responsive img-thumbnail"><a href="https://youtube.com.br/watch?v=mjFwTBwqMSg"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/images/rodape_youtube.png" class="mobi-youtube-logo"></a></div><li><img src='https://i.ytimg.com/vi/mjFwTBwqMSg/hqdefault.jpg' ><span class="titulo"><a href="https://youtube.com.br/watch?v=mjFwTBwqMSg" target="_blank">Circulação - Almanaque Saúde - Canal Futura</a></span><span class="by"> por <a class="youtubeuser" href="https://www.youtube.com/user/Canal Futura">Canal Futura</a></span></li></section><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 conteudo_do_youtube" style="">
+                                <div class="camada_hover camada_hover_youtube img-responsive img-thumbnail"><a href="https://youtube.com.br/watch?v=zMOYfxKuL70"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/images/rodape_youtube.png" class="mobi-youtube-logo"></a></div><li><img src='https://i.ytimg.com/vi/zMOYfxKuL70/hqdefault.jpg' ><span class="titulo"><a href="https://youtube.com.br/watch?v=zMOYfxKuL70" target="_blank">Futura Play é a programação do Canal Futura onde e quando você quiser!</a></span><span class="by"> por <a class="youtubeuser" href="https://www.youtube.com/user/Canal Futura">Canal Futura</a></span></li></section><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12 conteudo_do_youtube" style="padding-bottom:0px !important">
+                                <div class="camada_hover camada_hover_youtube img-responsive img-thumbnail"><a href="https://youtube.com.br/watch?v=QJuYzPprUi8"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/images/rodape_youtube.png" class="mobi-youtube-logo"></a></div><li><img src='https://i.ytimg.com/vi/QJuYzPprUi8/hqdefault.jpg' ><span class="titulo"><a href="https://youtube.com.br/watch?v=QJuYzPprUi8" target="_blank">Saúde Bucal - Almanaque Saúde - Canal Futura</a></span><span class="by"> por <a class="youtubeuser" href="https://www.youtube.com/user/Canal Futura">Canal Futura</a></span></li></section><section class="margin-fotter"><li></li></section><div class="rodape-youtube"><img src="http://www.futura.org.br/wp-content/themes/futura/assets/images/rodape_youtube.png" width="22px" height="17px" ><span class="social_plugin"> Youtube social plugin</span></div></ul></section></li><li class="box-social-mobi"><section class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><div class="box-light box-twitter-pai margin-rigth"><div class="box-twitter"><a class="twitter-timeline" href="https://twitter.com/canalfutura" data-theme="light" data-chrome="nofooter" data-widget-id="450682319339143170">Tweets de @canalfutura</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?"http":"https";if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div></div></section></li></ul></article></div>
+            </div><div class='wpb_row row'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 wpb_column column_container'><div class='wpb_wrapper'>
+		</div> 
+	</div> 
+</div>
+	</div>
+
+
+
+
+
+	</div><!-- #main -->
+
+	<!-- Modal de Login / Download !-->
+            <div class="modal-down">
+        <div class="modal fade myModal myModalLogin" id="myModal">
+            <div id="innermyModal" class="modal-dialog modal-lg innermyModal">
+                <div class="container-fecha-modal">
+                    <!--<span class="glyphicon glyphicon-remove remove-modal"></span>-->
+                </div>
+                <div class="modal-content" style="background:none">
+                    <div class="form-cadastro">
+                        <h1 class="titulo-modal">Login</h1>
+                        <img class="fechar-modal-down" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/fechar-modal.png" />
+                        
+                        <div class="erro-msg-login erro-login e1 col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
+                            <img class="img-erro" aria-hidden="true" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/erro.png" />
+                            <div class="msg-erro"></div>
+                            <!-- <div class="msg-erro">Você precisa <span>estar logado</span> para fazer essa ação.</div> -->
+                        </div>
+
+                        <div class="erro-msg-login success-login e1 col-lg-5 col-md-5 col-sm-12 col-xs-12 " style="background-color: #F0FAF0;border: 2px solid #D0F7D5;display:none;">
+                            <img class="img-erro" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/check-dow.png" />
+                            <div class="msg-erro">Login efetuado com sucesso!</div>
+                        </div>
+
+                        <form method="post" id="form-login">
+                            <input type="hidden" name="action" id="action" value="CustomLoginFutura" />
+                            <li>
+                                <span>E-mail</span>
+                                 <input type="text" name="user_email" class="campo" maxlength="100" placeholder="Digite seu e-mail"/>
+                            </li>
+
+                            <li>
+                                <span>Senha</span>
+                                <input type="password" name="user_pass" class="campo" maxlength="100" placeholder="Digite sua senha"/>
+                                <label>
+                                    <input type="checkbox" name="lembrar" value="true" class="lembrar-login">
+                                    Continuar Conectado.
+                                </label>
+                            </li>
+
+                             <li style="margin-top: -30px;">
+                                <input type="submit" name="submit-login" value="Entrar" class="btn botao-padrao" />
+                                <img class="loader" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/load.gif" style="display:none;">
+                                <a href="/wp-login.php?action=lostpassword"><span class="esqueceu-senha">Esqueci minha senha.</span></a>
+                            </li>
+
+                            <li>
+                                <span class="cadastre-se">Se você não ainda é cadastrado, <a href="http://www.futura.org.br/cadastro ">INSCREVA-SE AQUI.</a></span>
+                            </li>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-down">
+        <div class="modal fade myModal myModalLoginSuccess" id="myModal">
+            <div id="innermyModal" class="modal-dialog modal-lg innermyModal">
+                <div class="container-fecha-modal">
+                    <!--<span class="glyphicon glyphicon-remove remove-modal"></span>-->
+                </div>
+                <div class="modal-content" style="background:none">
+                    <div class="form-cadastro">
+                        <h1 class="titulo-modal">Login</h1>
+                        <img class="fechar-modal-down" aria-hidden="true" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/fechar-modal.png" />
+                        
+                        <div class="erro-msg-login e1 col-lg-5 col-md-5 col-sm-12 col-xs-12  " style="margin-top: 39px;background-color: #F0FAF0;border: 2px solid #D0F7D5;">
+                            <img class="img-erro" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/check-dow.png" />
+                            <div class="msg-erro">Login efetuado com sucesso!</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-down">
+        <div class="modal fade myModal myModalDown" id="myModal">
+            <div id="innermyModal" class="modal-dialog modal-lg innermyModal">
+                <div class="container-fecha-modal">
+                    <!--<span class="glyphicon glyphicon-remove remove-modal"></span>-->
+                </div>
+                    <div class="modal-content" style="background:none">
+                        <div class="container-img-erro">
+                            <img class="erro" aria-hidden="true" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/erro.png" style="display:none;">
+                            <img class="load-down" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/load.gif">
+                        </div>
+                        <div class="separador-msg"></div>
+                        <div id="msgErro" class="msg line-msg">     
+                           Aguarde enquanto seu arquivo está sendo preparado.
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="modal fade myModal modal-projeto" id="myModal">
+            <div id="innermyModal" class="modal-dialog modal-lg innermyModal inner-modal-projeto">
+                <div class="modal-content" style="background:none">
+                    <div class="form-cadastro">
+                        <h1 class="titulo-modal"></h1>
+                        <img class="fechar-modal-down" style="right:27px" aria-hidden="true" src="http://www.futura.org.br/wp-content/themes/futura/assets/images/fechar-modal.png" />
+                        <div class="conteudo-modal-projeto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script type="text/javascript">
+	    <!--
+	        jQuery(document).ready(function(){
+	            var altura = screen.height;
+	                altura = parseInt( altura );
+	            if( altura >= 1024 )
+	            jQuery( '.innermyModal' ).attr( 'style', 'margin-top:7%;' )
+	            else
+	            jQuery( '.innermyModal' ).attr( 'style', 'margin-top:50px;' )
+	        });
+	    //-->
+	</script>
+
+<div style="margin-top:20px;"></div>
+</div></div></div></div><div class="faixa-social faixa-parceiros-futura">
+                        <div class="container"><article class="title-theme"><h2 class="panel-title front-title" style="margin-top:0px; font-family: Latinobold !important;">PARCEIROS MANTENEDORES</h2><div class="">
+            <div style="text-align:center;width:100%">
+            <ul class="parceiros-logo" style="text-align:center;" ><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/votorantim1469634986.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/votorantim/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/votorantim1469634951.png" class="colorido" style="box-sizing:content-box" alt="Votorantim" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/10/logo2-pequena1477506744.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/firjan/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/10/logo1-pequena1477506725.png" class="colorido" style="box-sizing:content-box" alt="FIRJAN" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/fiesp1469634968.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/fiesp/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/fiesp1469634925.png" class="colorido" style="box-sizing:content-box" alt="Sistema FIESP, SENAI-SP e SESI-SP" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/10/logo4-pequena14775028531477506957.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/cni/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/10/logo3-pequena14775028411477506932.png" class="colorido" style="box-sizing:content-box" alt="CNI" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/globo1469634978.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/globo/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/globo_web1469634940.png" class="colorido" style="box-sizing:content-box" alt="Rede Globo" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/08/fecomercio-black1472469921.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/sistema-fecomercio-rj/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/08/fecomercio1472468828.png" class="colorido" style="box-sizing:content-box" alt="Fecomércio RJ e Senac RJ" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/bradesco1469634955.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/bradesco/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/fundaacaao-bradesco1469634936.png" class="colorido" style="box-sizing:content-box" alt="Fundação Bradesco" /></a></li><li class="logo-preta" style="background:url(http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/itau1469634982.png) 0.3ex 0.5ex no-repeat;"><a href="http://www.futura.org.br/mantenedores/itau/" style="box-sizing:content-box"> <img src="http://futurabucket.org.br.s3.amazonaws.com/wp-content/uploads/2016/07/itau1469634944.png" class="colorido" style="box-sizing:content-box" alt="Fundação Itaú Social" /></a></li></ul>
+            </div>
+            </div>
+            </article></div>
+                    </div><div class='container'><div class='wpb_row row'><div class='col-lg-12 col-md-12 col-sm-12 col-xs-12 wpb_column column_container'><div class='wpb_wrapper'></div></div></div></div>
+<footer style="margin-top:0 !important;" id="footer" role="contentinfo" 
+ style="margin-top:0px !important">
+	<div class='container'>
+		<div class="row">
+		<div class='col-lg-2 col-md-2  col-sm-2 col-xs-2 logo-futura-footer'>
+			<a href='http://www.futura.org.br'><img class='img-responsive img-thumbnail' src='http://www.futura.org.br/wp-content/themes/futura/assets/images/logo-futura.png' alt='Canal Futura' title='Canal Futura'></a>
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-2 col-xs-10 hidden-md hidden-sm hidden-lg">
+		<div class="title_menu social-title"> Social </div>
+		 	<div class="social">
+		 		<div class="midias-sociais">
+		 			<ul>
+		 				<a href="https://www.facebook.com/canalfuturaoficial" target="_blank"><li><span class='dashicons dashicons-facebook-alt'></span>Facebook</li></a>
+		 				<a href="https://twitter.com/canalfutura" target="_blank"><li><span class='dashicons dashicons-twitter'></span>Twitter</li></a>
+		 				<a href="http://www.youtube.com/user/canalfutura" target="_blank"><li><span class='dashicons dashicons-video-alt3'></span>Youtube</li></a>
+		 				<a href="https://plus.google.com/u/0/100564058559701781310/" target="_blank" rel="publisher"><li><span class='dashicons dashicons-googleplus'></span>Google+</li></a>
+		 			</ul>
+		 		</div>
+		 	</div>			 
+		</div>
+			<div class="col-lg-8 col-md-10 col-sm-10 col-xs-6 menu-rodape">
+				<div class="title_menu"> Programas </div>
+		 		<ul id="menu-menu-footer" class="sub-menu"><li><a href='http://www.futura.org.br/programas/afinando-a-lingua/'>Afinando a Língua</a><li><a href='http://www.futura.org.br/programas/alimente-se-bem/'>Alimente-se Bem</a><li><a href='http://www.futura.org.br/programas/ao-ponto-especial/'>Ao Ponto Especial</a><li><a href='http://www.futura.org.br/programas/armados/'>Armados</a><li><a href='http://www.futura.org.br/conexaofutura/'>Conexão Futura</a><li><a href='http://www.futura.org.br/programas/de-volta/'>De Volta</a><li><a href='http://www.futura.org.br/programas/destino-educacao/'>Destino: Educação</a><li><a href='http://www.futura.org.br/enemnofutura/'>Enem no Futura</a><li><a href='http://www.futura.org.br/programas/escola-das-aguas-o-desafio-pantaneiro/'>Escola das Águas</a><li><a href='http://www.futura.org.br/programas/futura-profissao/'>Futura Profissão</a><li><a href='http://levante.vc/'>Levante</a><li><a href='http://www.futura.org.br/programas/minha-rua/'>Minha Rua</a></ul>			</div>
+		</div>
+	</div>
+	<div class="footer2">
+		<div class='container'>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class='footer-logo-futura'>
+						<p class="direitos"> <span> Canal Futura </span> - Todos os direitos reservados.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class='footer-logo-trii'>
+						<a href="http://trii.com.br" target="_blank"><img class="img-responsive img-thumbnail img-logo-trii" src='http://www.futura.org.br/wp-content/themes/futura/assets/images/logo-trii-branco.png' width='57' height='35' alt='Agência de Marketing Digital RJ' title='Agência de Marketing Digital RJ'></a>
+						<p class="desenvolvimento"> Desenvolvido por </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer><!-- #footer -->
+
+
+
+<a href="javascript:;" id="scrollToTop2">
+		<div class="btn-topo2"> </div>
+	</a>
+
+<link rel='stylesheet' id='js_composer_front-css'  href='http://www.futura.org.br/wp-content/plugins/js_composer/assets/css/js_composer_front.css?ver=4.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-flex-slider-css'  href='http://www.futura.org.br/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=2.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-public-css'  href='http://www.futura.org.br/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=2.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-pro-animate-css'  href='http://www.futura.org.br/wp-content/plugins/ml-slider-pro/modules/layer/assets/animate/animate.css?ver=2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='metaslider-pro-public-css'  href='http://www.futura.org.br/wp-content/plugins/ml-slider-pro/assets/public.css?ver=2.4' type='text/css' media='all' />

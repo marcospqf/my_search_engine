@@ -1,0 +1,1444 @@
+|||http://extra.globo.com/lazer/retratosdavida/|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+<html lang="pt-BR"> <head> <meta http-equiv="content-type" content="text/html; charset=UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <title> Famosos e celebridades no Extra Online | Jornal Extra </title> <meta content="Celebridades e famosos da TV e dos palcos nacionais e internacionais. Saiba tudo sobre os bastidores de festas VIP, eventos, casamentos e bastidores das fofocas no Retratos da Vida!" name="description"/> <meta content="Notícias dos Famosos,Retratos da Vida,Famosos,Artistas,Extra,Notícias,Jornal" name="keywords"/> <link rel="alternate" media="only screen and (max-width: 640px)" href="http://w.extra.globo.com"> <link rel="alternate" media="only screen and (max-width: 640px)" href="http://s.extra.globo.com"> <link rel="alternate" media="only screen and (max-width: 640px) " href="http://m.extra.globo.com/famosos/"> <link rel="alternate" type="application/rss+xml" href="http://extra.globo.com/famosos/rss.xml" title="Extra Online - Plant&atilde;o"/> <link rel="canonical" href="http://extra.globo.com/famosos/"/> <meta name="robots" content="noodp,noydir"/> <link rel="publisher" href="https://plus.google.com/115683671295748872640"/> <meta property="og:image" content="http://extra.globo.com/skins/extra/images/extra-face-1.jpg"/> <link rel="shortcut icon" type="image/x-icon" href="http://extra.globo.com/favicon.ico"/> <link rel="apple-touch-icon" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/extra-apple-60x60.png"/> <link rel="apple-touch-icon" sizes="76x76" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/extra-apple-76x76.png"/> <link rel="apple-touch-icon" sizes="120x120" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/extra-apple-120x120.png"/> <link rel="apple-touch-icon" sizes="152x152" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/extra-apple-152x152.png"/> <link rel="stylesheet" type="text/css" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/default.css"/> <link rel="stylesheet" type="text/css" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/famososfile.css"/> <link rel="stylesheet" type="text/css" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/famososfile-complement.css"/> <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" type="text/css" rel="stylesheet"> <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'> <!--[if lt IE 8]><link rel="stylesheet" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/ie7.css" media="all"/><![endif]--> <meta content="Extra Notícias" property="al:android:app_name"/> <meta content="br.com.infoglobo.extranoticias.activities.ExternalActivity" property="al:android:class"/> <meta content="br.com.infoglobo.extranoticias" property="al:android:package"/> <link rel="alternate" href="android-app://br.com.infoglobo.extranoticias/http/m.extra.globo.com/famosos/"/> <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> <script>window.jQuery || document.write('<script src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/jquery/jquery-1.8.3.min.js"><\/script>')</script> <script>
+
+	var urlsCadastro = new Object();
+
+	urlsCadastro.urlLoginPadraoGlobocom = "https://login.globo.com/login/4728"
+	urlsCadastro.urlCadastroPadraoGlobocom = "https://login.globo.com/cadastro/4728"
+	urlsCadastro.idServicoPadraoGlobocom = "4728"
+
+	urlsCadastro.idServico = "3196"
+	urlsCadastro.urlCadastro = "https://login.globo.com/cadastro/3196"
+	urlsCadastro.urlLogin = "https://login.globo.com/login/3196"
+	urlsCadastro.urlLogout = "https://login.globo.com/logout"
+	urlsCadastro.urlPerfil = "https://meuperfil.globo.com"
+	urlsCadastro.urlServico = "?service=ajax&action=sso&globoID=3196"
+	urlsCadastro.urlIntervencao = "http://s.glbimg.com/gl/ba/barra-globocom.callback.html"
+
+	urlsCadastro.urlCadastroCompleto = "https://login.globo.com/cadastro/4788"
+	urlsCadastro.urlLoginCompleto = "https://login.globo.com/login/4788"
+	urlsCadastro.urlServicoCompleto = "?service=ajax&action=sso&globoID=4788"
+	urlsCadastro.idServicoCadastroCompleto = "4788"
+	urlsCadastro.idServicoCadastro = "3196"
+
+
+</script> <script>
+	var publication = 'http://extra.globo.com/';
+	var caminhoDaImagemEstatica = 'https://exstatic.infoglobo.com.br/skins/1490300412/extra';
+	var isMobile = false;
+	
+	
+</script> <script type="text/javascript">
+	function includeStyleScript(url, tag, onload){
+		tag = tag.toLowerCase();
+		var found = false;
+		var linkScript = document.getElementsByTagName(tag);
+		for(var i = 0; i < linkScript.length; i++){
+			var urlTest = (linkScript[i].href) ? linkScript[i].href : linkScript[i].src;
+			if(urlTest==url){ found=true; break; }
+		}
+		if(found == false){
+			if(tag == "link"){
+				var lnk = document.createElement('link'), head = document.getElementsByTagName('head')[0] || document.documentElement;
+				lnk.rel     = 'stylesheet';
+				lnk.type    = 'text/css';
+				lnk.href    = url;
+				head.insertBefore(lnk, head.lastChild);
+			}else if(tag == "script"){
+				var lnk = document.createElement('script'), head = document.getElementsByTagName('head')[0] || document.documentElement;
+				lnk.type    = 'text/javascript';
+				lnk.src     = url;
+				if(typeof onload == 'function') {
+					lnk.async = false;
+					lnk.onload = onload;
+				}
+				head.insertBefore(lnk, head.lastChild);
+			}
+		}
+	}
+</script> <script src="http://extra.globo.com/plataforma/js/1490300412/minificados/cadastro/autenticacao.js" type="text/javascript"></script> <script src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/extra/authentication.js" type="text/javascript"></script> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/retratos.js"></script> <script type="text/javascript">
+	(function() {
+		if(!/\biPad\b/.test(navigator.userAgent)) return;
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.async = true;
+		s.charset = "utf-8";
+		s.src = "https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/extra/ipad.js";
+		var ss = document.getElementsByTagName("script")[0];
+		ss.parentNode.insertBefore(s, ss);
+	})();
+</script> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/extra/faleComExtra.min.js"></script> <script type="text/javascript" src="http://extra.globo.com/plataforma/js/1490300412/minificados/autenticacao/infg_id_globoid.js"></script> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/extra/advertisement.js"></script> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/extra/globalGTM.js"></script> <script type="text/javascript" id="navegg" src="http://tag.navdmp.com/tm12732.js"></script> <script type="text/javascript">
+	$(document).ready(function() {
+		
+		if (true && false) {
+			
+			if (900000 > 60000) {
+				reloadAutomatico(900000);
+			}
+		}
+		
+		if (true && true && !false) {
+			
+			if (900000 > 60000) {
+				reloadAutomatico(900000);
+			}
+		}
+		
+	});
+	
+	function reloadAutomatico(tempoRefreshAutomatico) {
+		if (tempoRefreshAutomatico != undefined) {
+			setTimeout("location.reload(true);", tempoRefreshAutomatico);
+		}
+	}
+</script> <link rel="stylesheet" href="http://s.glbimg.com/gl/ba/css/barra-globocom.min.css" type="text/css"/> <script type="text/javascript">
+	var urlLogin = urlsCadastro.urlLoginPadraoGlobocom;
+	
+	var glb = glb || {};
+    glb.barra = {
+	    exibeAssineJa: false,
+	    exibeCentral: false
+    };
+    (function() { 
+    	var s = document.createElement("script"); 
+    	s.type = "text/javascript"; s.async = true; s.charset = "utf-8"; 
+    	s.src = "http://s.glbimg.com/gl/ba/js/barra-globocom.min.js"; 
+    	var ss = document.getElementsByTagName("script")[0]; ss.parentNode.insertBefore(s, ss);
+    })();
+    
+	var urlCallback = encodeURIComponent(urlsCadastro.urlIntervencao);
+	
+    var objGlbConfig = {loginUrl:urlLogin,logoutUrl:urlsCadastro.urlLogout,loginCallback:urlCallback};
+    
+    try {
+    	when(function() {return (typeof glb.barra.options != 'undefined');}, function() {$.extend(glb.barra.options,objGlbConfig);},400,50);
+    } catch(e) {
+    	setTimeout(function() {$.extend(glb.barra.options,objGlbConfig);}, 2000);
+    }
+    
+</script> <script type="text/javascript">
+var _vrq = _vrq || [];
+_vrq.push(['id', 40]);
+_vrq.push(['automate', false]);
+_vrq.push(['track', function(){}]);
+(function(d, a){ 
+var s = d.createElement(a), 
+x = d.getElementsByTagName(a)[0]; 
+s.async = true; 
+s.src = '//vra.outbrain.com/vrs.js'; 
+x.parentNode.insertBefore(s, x); 
+})(document, 'script');
+</script> <script type="text/javascript">
+var dadosNavegg = {};
+if (typeof nvg12732 !== "undefined") {
+	dadosNavegg.gender = nvg12732.getSegment("gender");
+	dadosNavegg.age = nvg12732.getSegment("age");
+	dadosNavegg.education = nvg12732.getSegment("education");
+	dadosNavegg.marital = nvg12732.getSegment("marital");
+	dadosNavegg.income = nvg12732.getSegment("income");
+	dadosNavegg.interest = nvg12732.getSegment("interest");
+	dadosNavegg.product = nvg12732.getSegment("product");
+	dadosNavegg.brand = nvg12732.getSegment("brand");
+	dadosNavegg.career = nvg12732.getSegment("career");
+	dadosNavegg.country = nvg12732.getSegment("country");
+	dadosNavegg.region = nvg12732.getSegment("region");
+	dadosNavegg.city = nvg12732.getSegment("city");
+	dadosNavegg.cluster = nvg12732.getSegment("cluster");
+}
+</script> <script type="text/javascript">
+
+	try {
+		var gender = ltgc ('gender');
+	} catch(e) {
+		var gender = 'sem navegg';
+	}
+
+
+var _gaq = _gaq || [];
+
+_gaq.push(
+	['_setAccount', 'UA-1531962-7'],
+	['_setDomainName',  'extra.globo.com'], 
+	['_setCustomVar', 1, 'Sexo-Cadun', getCookieCadun(), 2],
+	
+    
+	
+		['_setCustomVar', 2, 'Tipo-Conteudo','capa-famosos', 3],
+	
+	
+		['_setCustomVar', 3, 'Sexo-navegg', gender, 1], 
+		['_setCustomVar', 4, 'Interesse-navegg', '', 1],
+	
+	['_trackPageview']
+);
+
+function getCookieCadun() {
+	var sexo = 'SEXO';
+
+	if (document.cookie.length > 0) {
+		c_start = document.cookie.indexOf(sexo + "=");
+		if (c_start != -1) {
+			c_start = c_start + sexo.length + 1;
+			c_end = document.cookie.indexOf(";",c_start);
+			if (c_end == -1) {
+				c_end = document.cookie.length;
+			}
+			return unescape(document.cookie.substring(c_start,c_end));
+		}
+	}
+	
+	return 'sem-info';
+}
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script> <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic' rel='stylesheet' type='text/css'> </head> <body class="retratos"> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-BDVW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-BDVW');</script> <script type="text/javascript">
+
+	var DFP_adCustomData = "video_duration=menor_2min";
+	var DFP_adUnit = "info.web.extra/videos";	
+	
+	var utag_data = {
+	  produto : "Extra",
+	  tipo_pagina : "home",
+	  editoria : "famosos",
+	  id_conteudo : "",
+	  entidades : [""][0].split(','),
+	  topico : [""][0].split(','),
+	  especial_publicitario : "0",
+	  pageLevelTargeting: {"ognCluster":[]}
+	}
+</script> <script type="text/javascript">
+    (function(a,b,c,d){
+    a='//tags.tiqcdn.com/utag/globo/infoglobo.extra/prod/utag.js';
+    b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+    a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+    })();
+</script> <div id="skin" class="display_none"> <div id="pub-skin" class="dfp comercial"></div> <div class="editorial"> <script>
+				var bgEditorialUrl = 'http://extra.globo.com//img/6a4/2013/4/17/18/famosos-1920x1200.jpg'.replace('.com//','.com/');
+				</script> </div> </div> <div id="pub-slb-topo" class="dfp superbanner"></div> <div id="wrapper"> <header id="header" class="big "> <div class="top_bar clearfix"> <h1 class="hide"><a href="http://extra.globo.com/" onclick="registraEvento(this, 'Top Menu', 'Logo topmenu', pathname, 0, true);return false;">Extra Online</a></h1> <div class="tools_wrapper"> <nav> <ul class="misc"> <li><a href="/fotografias/" onclick="_gaq.push(['_trackEvent', 'Top Menu', 'Foto', pathname]);">Foto</a></li> <li><a href="/videos/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Top Menu', 'Vídeo', pathname]);">Vídeo</a></li> </ul> </nav> <div class="wrapper"> <nav class="external_links"> <ul> <li><a href="https://jornaldigital.extra.globo.com" target="_blank" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Extra Digital']);">Extra Digital</a></li> <li><a href="/promocao/" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Promoções']);">Promoções</a></li> <li><a href="http://acervo.extra.globo.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Acervo']);">Acervo</a></li> <li><a href="http://classificados.globo.com/" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Classificados']);">Classificados</a></li> <li><a href="http://oglobo.globo.com/" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'O Globo']);">O Globo</a></li> <li><a href="http://extra.globo.com/principios-editoriais/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Princípios Editoriais']);">Princípios Editoriais</a></li> </ul> </nav> <nav class="account"><a href="https://seguro.oglobo.com.br/assinatura-jornal-extra/plano_assinatura.aspx?id_parc=6241&cod_prod=2841&utm_source=siteextra&utm_campaign=botaoassine_capa&utm_medium=botaoassine" onclick="_gaq.push(['_trackEvent', 'Link de Saida', 'Conteudo Externo', window.location.pathname+window.location.search+'Assinatura Digital']);" target="_blank">Assine</a></nav> </div> </div> </div> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/jquery/lazyload.js"></script> <nav class="main_nav" role="navigation"> <div class="link-shrink"><a href="http://extra.globo.com/" onclick="registraEvento(this, 'Top Menu', 'Logo flutuante', pathname, 0, true);return false;">Extra Online</a></div> <div class="holder"></div> <ul> <li class="home"> <a href="http://extra.globo.com/" onclick="_gaq.push(['_trackEvent','Menu Superior','Capa', pathname]);">Capa</a> </li> <li class="news submenu_yes"> <a href="http://extra.globo.com/noticias/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Home', pathname]);">Notícias</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/noticias/" class="goto_home">Ir para capa de Notícias</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/noticias/brasil/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Brasil', pathname]);">Brasil</a> </li> <li> <a href="http://extra.globo.com/noticias/celular-e-tecnologia/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Celular e Tecnologia', pathname]);">Celular e Tecnologia</a> </li> <li> <a href="http://extra.globo.com/noticias/economia/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Economia', pathname]);">Economia</a> </li> <li> <a href="http://extra.globo.com/noticias/educacao/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Educação', pathname]);">Educação</a> </li> <li> <a href="http://extra.globo.com/noticias/economia/minha-casa-minhas-duvidas/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Economia/Minha casa, minhas dúvidas', pathname]);">Minha casa, minhas dúvidas</a> </li> <li> <a href="http://extra.globo.com/noticias/mundo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Mundo', pathname]);">Mundo</a> </li> <li> <a href="http://extra.globo.com/noticias/rio/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Rio', pathname]);">Rio</a> </li> <li> <a href="http://extra.globo.com/noticias/saude-e-ciencia/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Saúde e Ciência', pathname]);">Saúde e Ciência</a> </li> <li> <a href="http://extra.globo.com/noticias/saude-e-ciencia/mosquito/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Saúde e Ciência/Mosquito', pathname]);">Mosquito</a> </li> <li> <a href="http://extra.globo.com/noticias/educacao/vida-de-calouro/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Educação/Vida de Calouro', pathname]);">Vida de Calouro</a> </li> </ul> </div> <div class="hot-topics"> <ul> <li class="title middle">Assuntos Quentes</li> <li> <a href="http://extra.globo.com/noticias/economia/operacao-carne-fraca/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Operação Carne Fraca', pathname]);"><span class="arrow"></span>Operação Carne Fraca</a> </li> <li> <a href="http://extra.globo.com/noticias/brasil/febre-amarela/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Febre amarela', pathname]);"><span class="arrow"></span>Febre amarela</a> </li> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/noticias/brasil/contra-a-corrente/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Contra a Corrente', pathname]);"><span class="arrow"></span>Contra a Corrente</a> </li> <li> <a href="http://extra.globo.com/noticias/extra-extra/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Extra, Extra', pathname]);"><span class="arrow"></span>Extra, Extra</a> </li> <li> <a href="http://extra.globo.com/noticias/eboato-everdade/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/#Éboato ou #Éverdade', pathname]);"><span class="arrow"></span>#Éboato ou #Éverdade</a> </li> <li> <a href="http://extra.globo.com/noticias/viral/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Notícias/Viral', pathname]);"><span class="arrow"></span>Viral</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/noticias/brasil/otimo-diz-temer-sobre-definicao-de-data-de-julgamento-no-tse-21127603.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - noticias', 'Pos. 1']);"> <span>'Ótimo', diz Temer sobre definição de data de julgamento no TSE</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/noticias/brasil/camara-aprova-mp-que-cria-cartao-para-subsidiar-compra-de-material-de-construcao-21127536.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - noticias', 'Pos. 2']);"> <span>Câmara aprova MP que cria cartão para subsidiar compra de material de construção</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/noticias/economia/braskem-diz-que-segue-sem-balanco-financeiro-auditado-de-2016-21127490.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - noticias', 'Pos. 3']);"> <span>Braskem diz que segue sem balanço financeiro auditado de 2016</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/noticias/economia/brf-contrata-ex-presidente-da-itambe-para-comandar-negocios-no-brasil-21127489.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - noticias', 'Pos. 4']);"> <span>BRF contrata ex-presidente da Itambé para comandar negócios no Brasil</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Notícias"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/noticias/rio/saiba-quais-reacoes-podem-aparecer-apos-vacina-contra-febre-amarela-21121110.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Notícias', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/21121109-bcf-756/w311h175-PROP/infochpdpict000065963779.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/noticias/rio/saiba-quais-reacoes-podem-aparecer-apos-vacina-contra-febre-amarela-21121110.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Notícias', pathname]);"> <big> Saiba </big> <small> quais reações podem aparecer após a vacina contra febre amarela </small> </a> </div> </div> </div> </div> </li> <li class="police submenu_yes"> <a href="http://extra.globo.com/casos-de-policia/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/Home', pathname]);">Polícia</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/casos-de-policia/" class="goto_home">Ir para capa de Polícia</a> </div> <div class="hot-topics"> <ul> <li class="title middle">Assuntos Quentes</li> <li> <a href="http://extra.globo.com/casos-de-policia/bope/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/Bope', pathname]);"><span class="arrow"></span>Bope</a> </li> <li> <a href="http://extra.globo.com/noticias/trafico-internacional-de-drogas/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/Tráfico de drogas', pathname]);"><span class="arrow"></span>Tráfico de drogas</a> </li> <li> <a href="http://extra.globo.com/casos-de-policia/upp/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/UPP', pathname]);"><span class="arrow"></span>UPP</a> </li> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/casos-de-policia/comissario-de-policia/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/Comissário de Polícia', pathname]);"><span class="arrow"></span>Comissário de Polícia</a> </li> <li> <a href="http://extra.globo.com/casos-de-policia/papo-federal/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Polícia/Papo Federal', pathname]);"><span class="arrow"></span>Papo Federal</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/casos-de-policia/policial-militar-morto-enquanto-abastecia-carro-em-mage-na-baixada-fluminense-21127555.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - casos-de-policia', 'Pos. 1']);"> <span>Policial Militar é morto enquanto abastecia o carro em Magé, na Baixada Fluminense</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/casos-de-policia/policia-prende-suspeito-de-assaltos-com-arma-de-brinquedo-na-niteroi-manilha-21127525.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - casos-de-policia', 'Pos. 2']);"> <img src="http://extra.globo.com/casos-de-policia/21127527-221-922/w162h91-PROP/suspeito.jpg" width="162" height="91"/> <span>Polícia prende suspeito de assaltos com arma de brinquedo na Niterói-Manilha</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/casos-de-policia/sete-pessoas-sao-detidas-por-pratica-de-aborto-na-baixada-fluminense-21126563.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - casos-de-policia', 'Pos. 3']);"> <span>Sete pessoas são detidas por prática de aborto na Baixada Fluminense</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/casos-de-policia/prf-apreende-cerca-de-130-kg-de-pedras-semipreciosas-avaliadas-em-165-mil-rv1-1-21126337.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - casos-de-policia', 'Pos. 4']);"> <span>PRF apreende cerca de 130 kg de pedras semipreciosas avaliadas em R$ 165 mil</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Casos de Polícia"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/casos-de-policia/no-rio-uma-crianca-atingida-por-bala-perdida-cada-duas-semanas-20875648.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Polícia', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/20875646-021-611/w311h175-PROP/64557384_ext-cisao-goncalo-rj-26-01-2016-criancas-atingidas-por-balas-per.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/casos-de-policia/no-rio-uma-crianca-atingida-por-bala-perdida-cada-duas-semanas-20875648.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Polícia', pathname]);"> <big> No Rio, </big> <small> uma criança é atingida por bala perdida a cada duas semanas </small> </a> </div> </div> </div> </div> </li> <li class="jobs submenu_yes"> <a href="http://extra.globo.com/emprego/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Emprego/Home', pathname]);">Emprego</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/emprego/" class="goto_home">Ir para capa de Emprego</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/emprego/capacitacao/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Emprego/Capacitação', pathname]);">Capacitação</a> </li> <li> <a href="http://extra.globo.com/emprego/concursos/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Emprego/Concursos', pathname]);">Concursos</a> </li> <li> <a href="http://extra.globo.com/emprego/servidor-publico/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Emprego/Servidor Público', pathname]);">Servidor Público</a> </li> </ul> </div> <div class="hot-topics"> <ul> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/emprego/advocacia-geral-da-uniao-pede-autorizacao-para-abrir-concurso-com-1384-vagas-21127368.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - emprego', 'Pos. 1']);"> <img src="http://extra.globo.com/incoming/21127367-9fb-477/w162h91-PROP/2016-908068704-2010-328644569-2010042939246_20100429_20160509.jpg" width="162" height="91"/> <span>Advocacia-Geral da União pede autorização para abrir concurso com 1.384 vagas</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/emprego/servidor-publico/mp-rj-recorre-justica-para-cobrar-repasse-mensal-devido-pelo-estado-do-rio-21126318.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - emprego', 'Pos. 2']);"> <span>MP-RJ recorre à Justiça para cobrar repasse mensal devido pelo Estado do Rio</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/emprego/servidor-publico/uniao-fara-novo-bloqueio-nas-contas-do-estado-do-rio-para-reaver-58-milhoes-21124536.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - emprego', 'Pos. 3']);"> <span>União fará novo bloqueio nas contas do Estado do Rio para reaver R$ 58 milhões</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/emprego/servidor-publico/predio-alugado-pelo-governo-do-rio-tem-luz-cortada-servidores-sao-dispensados-21124373.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - emprego', 'Pos. 4']);"> <span>Prédio alugado pelo governo do Rio tem a luz cortada, e servidores são dispensados</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Emprego"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/emprego/servidor-publico/pezao-promete-pagar-salario-de-marco-da-seguranca-antes-de-quitar-folha-de-fevereiro-21121865.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Emprego', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/21121864-301-9c0/w311h175-PROP/cmf-seguranca-1.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/emprego/servidor-publico/pezao-promete-pagar-salario-de-marco-da-seguranca-antes-de-quitar-folha-de-fevereiro-21121865.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Emprego', pathname]);"> <big> Pezão </big> <small> promete pagar salário de março da Segurança antes de quitar folha de fevereiro </small> </a> </div> </div> </div> </div> </li> <li class="retratos submenu_yes"> <a href="http://extra.globo.com/famosos/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Home', pathname]);">Famosos</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/famosos/" class="goto_home">Ir para capa de Famosos</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/famosos/ensaio-sensual/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Ensaios Sensuais', pathname]);">Ensaios Sensuais</a> </li> <li> <a href="http://extra.globo.com/famosos/retratos-da-bola/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Retratos da Bola', pathname]);">Retratos da Bola</a> </li> <li> <a href="http://extra.globo.com/famosos/twitter-dos-famosos/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Twitter dos Famosos', pathname]);">Twitter dos Famosos</a> </li> </ul> </div> <div class="hot-topics"> <ul> <li class="title middle">Assuntos Quentes</li> <li> <a href="http://extra.globo.com/tv-e-lazer/deborah-secco/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Deborah Secco', pathname]);"><span class="arrow"></span>Deborah Secco</a> </li> <li> <a href="http://extra.globo.com/famosos/gretchen/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Gretchen', pathname]);"><span class="arrow"></span>Gretchen</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/luana-piovani/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Luana Piovani', pathname]);"><span class="arrow"></span>Luana Piovani</a> </li> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/famosos/astros-dos-astros/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Famosos/Astros dos Astros', pathname]);"><span class="arrow"></span>Astros dos Astros</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/famosos/namorada-de-caua-reymond-fala-sobre-desejo-de-ser-mae-sempre-quis-21126999.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - famosos', 'Pos. 1']);"> <img src="http://extra.globo.com/incoming/21126997-23a-fa6/w162h91-PROP/mariana1.jpg" width="162" height="91"/> <span>Namorada de Cauã Reymond fala sobre desejo de ser mãe: 'Sempre quis'</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/famosos/zeze-di-camargo-perde-processo-vai-pagar-quase-70-mil-ex-motorista-21126797.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - famosos', 'Pos. 2']);"> <span>Zezé Di Camargo perde processo e vai pagar quase R$ 70 mil a ex-motorista</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/famosos/morena-que-dormiu-com-bieber-diz-ter-recebido-contato-de-producao-do-cantor-21126271.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - famosos', 'Pos. 3']);"> <span>Morena que dormiu com Bieber diz ter recebido contato de produção do cantor</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/famosos/sheila-mello-volta-comentar-sobre-polemica-envolvendo-filha-21125989.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - famosos', 'Pos. 4']);"> <span>Sheila Mello volta a comentar sobre a polêmica envolvendo a filha </span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Famosos"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/famosos/bruna-linzmeyer-beija-namorada-em-praia-ve-flagra-se-esconde-sob-cabaninha-21117602.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Famosos', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/21117584-f2e-588/w311h175-PROP/bruna.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/famosos/bruna-linzmeyer-beija-namorada-em-praia-ve-flagra-se-esconde-sob-cabaninha-21117602.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Famosos', pathname]);"> <big> Bruna </big> <small> Linzmeyer beija a namorada em praia, vê flagra e se esconde sob cabaninha </small> </a> </div> </div> </div> </div> </li> <li class="mulher submenu_yes"> <a href="http://extra.globo.com/mulher/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Home', pathname]);">Mulher</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/mulher/" class="goto_home">Ir para capa de Mulher</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/mulher/beleza/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Beleza', pathname]);">Beleza</a> </li> <li> <a href="http://extra.globo.com/mulher/corpo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Corpo', pathname]);">Corpo</a> </li> <li> <a href="http://extra.globo.com/mulher/decoracao-e-jardim/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Decoração', pathname]);">Decoração</a> </li> <li> <a href="http://extra.globo.com/mulher/moda/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Moda', pathname]);">Moda</a> </li> </ul> </div> <div class="hot-topics"> <ul> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/mulher/um-dedo-de-prosa/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Mulher/Um Dedo de Prosa', pathname]);"><span class="arrow"></span>Um Dedo de Prosa</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/mulher/decoracao-e-jardim/deixa-sua-pequena-sala-pratica-charmosa-ousando-na-iluminacao-21098298.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - mulher', 'Pos. 1']);"> <img src="http://extra.globo.com/incoming/21098294-1ef-485/w162h91-PROP/opcao-01011-.jpg" width="162" height="91"/> <span>Deixa sua pequena sala prática e charmosa ousando na iluminação</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/mulher/corpo/bruna-hamu-relata-cuidados-com-gestacao-diz-ter-engordado-dez-quilos-21122172.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - mulher', 'Pos. 2']);"> <span>Bruna Hamú relata cuidados com a gestação e diz ter engordado dez quilos</span> </a> </div> </li> <li class="project especial-publicitario"> <div> <div class="title middle">Especial Publicitário</div> <div class="title_text"> <a href="http://extra.globo.com/projetos-especiais/de-carona-com-elas/">De carona com elas</a> </div> <div id="pub-selo-submenu-5" class="dfp lowlinks"></div> </div> <div class="text"> <a href="http://extra.globo.com/projetos-especiais/de-carona-com-elas/mulheres-superam-medo-de-dirigir-na-chuva-rv1-1-20699209.html" onclick="_gaq.push(['_trackEvent', 'Area Principal', 'Pos. 5', pathname]);"> <span>Mulheres superam o medo de dirigir na chuva</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Mulher"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/mulher/corpo/bruna-hamu-relata-cuidados-com-gestacao-diz-ter-engordado-dez-quilos-21122172.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Mulher', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/21122170-edd-7f0/w311h175-PROP/bruna-hamu.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/mulher/corpo/bruna-hamu-relata-cuidados-com-gestacao-diz-ter-engordado-dez-quilos-21122172.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Mulher', pathname]);"> <big> Bruna Hamú </big> <small> relata cuidados com a gestação e diz ter engordado dez quilos </small> </a> </div> </div> </div> </div> </li> <li class="tv submenu_yes"> <a href="http://extra.globo.com/tv-e-lazer/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Home', pathname]);">TV e Lazer</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/tv-e-lazer/" class="goto_home">Ir para capa de TV e Lazer</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/tv-e-lazer/bbb/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/BBB', pathname]);">BBB</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/musica/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Música', pathname]);">Música</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/premio-extra-tv/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Prêmio Extra de TV', pathname]);">Prêmio Extra de TV</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/resumo-de-novelas/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Resumo de Novelas', pathname]);">Resumo de Novelas</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/viagem-e-turismo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Viagem e turismo', pathname]);">Viagem e turismo</a> </li> </ul> </div> <div class="hot-topics"> <ul> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/tv-e-lazer/roda-de-samba/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Roda de Samba', pathname]);"><span class="arrow"></span>Roda de Samba</a> </li> <li> <a href="http://extra.globo.com/tv-e-lazer/telinha/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'TV e Lazer/Telinha', pathname]);"><span class="arrow"></span>Telinha</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/tv-e-lazer/shakira-barcelona-construirao-escola-na-colombia-21126944.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - tv-e-lazer', 'Pos. 1']);"> <span>Shakira e Barcelona construirão escola na Colômbia</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/tv-e-lazer/anitta-posa-com-amigos-de-justin-bieber-21126402.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - tv-e-lazer', 'Pos. 2']);"> <img src="http://extra.globo.com/incoming/21126401-321-e4f/w162h91-PROP/whatsapp-image-2017-03-28-at-18-33-162jpeg.jpg" width="162" height="91"/> <span>Anitta posa com amigos de Justin Bieber</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/tv-e-lazer/bbb/bbb17-brothers-especulam-proximos-rumos-do-jogo-21125831.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - tv-e-lazer', 'Pos. 3']);"> <span>‘BBB17’: Brothers especulam próximos rumos do jogo</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/tv-e-lazer/critica-trem-descarrilado-dos-strokes-no-lollapalooza-21125783.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - tv-e-lazer', 'Pos. 4']);"> <span>Crítica: o trem descarrilado dos Strokes no Lollapalooza</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.TV e Lazer"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/tv-e-lazer/telinha/fim-de-lei-do-amor-tem-passagem-de-tempo-festa-tiao-doente-21121167.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - TV e Lazer', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/20256118-254-663/w311h175-PROP/lei-amor-pedro-helo.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/tv-e-lazer/telinha/fim-de-lei-do-amor-tem-passagem-de-tempo-festa-tiao-doente-21121167.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - TV e Lazer', pathname]);"> <big> Fim de 'A </big> <small> lei do amor' tem passagem de tempo, festa e Tião doente </small> </a> </div> </div> </div> </div> </li> <li class="sports submenu_yes"> <a href="http://extra.globo.com/esporte/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Home', pathname]);">Esporte</a> <div class="submenu no_js"> <div class="submenu_channels"> <div class="submenu_top"> <a href="http://extra.globo.com/esporte/" class="goto_home">Ir para capa de Esporte</a> </div> <div class="channels"> <ul> <li> <a href="http://extra.globo.com/esporte/botafogo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Botafogo', pathname]);">Botafogo</a> </li> <li> <a href="http://extra.globo.com/esporte/flamengo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Flamengo', pathname]);">Flamengo</a> </li> <li> <a href="http://extra.globo.com/esporte/fluminense/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Fluminense', pathname]);">Fluminense</a> </li> <li> <a href="http://extra.globo.com/esporte/rio-2016/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Rio 2016', pathname]);">Rio 2016</a> </li> <li> <a href="http://extra.globo.com/esporte/vasco/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Vasco', pathname]);">Vasco</a> </li> </ul> </div> <div class="hot-topics"> <ul> <li class="title middle">Assuntos Quentes</li> <li> <a href="http://extra.globo.com/esporte/jogos-estudantis/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Jogos Estudantis', pathname]);"><span class="arrow"></span>Jogos Estudantis</a> </li> <li class="title middle">Blogs</li> <li> <a href="http://extra.globo.com/esporte/extra-campo/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Extracampo', pathname]);"><span class="arrow"></span>Extracampo</a> </li> <li> <a href="http://extra.globo.com/esporte/gilmar-ferreira/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/Gilmar Ferreira', pathname]);"><span class="arrow"></span>Gilmar Ferreira</a> </li> <li> <a href="http://extra.globo.com/esporte/mma/" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Esporte/MMA', pathname]);"><span class="arrow"></span>MMA</a> </li> </ul> </div> </div> <div class="submenu_highlight"> <div class="close-top"> <a href="javascript://" class="button default close hide"> <span>Fechar</span> </a> </div> <div class="last-featured"> <div class="title middle">Últimas</div> <ul> <li> <div class="text"> <a href="http://extra.globo.com/esporte/colombia-bate-equador-segue-subindo-nas-eliminatorias-chile-tambem-vence-21127463.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - esporte', 'Pos. 1']);"> <span>Colômbia bate Equador e segue subindo nas eliminatórias; Chile também vence</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/esporte/fluminense/justica-concede-liminar-que-autoriza-flu-jogar-no-maracana-sem-custos-21127243.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - esporte', 'Pos. 2']);"> <img src="http://extra.globo.com/incoming/21127263-618-88b/w162h91-PROP/infochpdpict000062372830.jpg" width="162" height="91"/> <span>Justiça concede liminar que autoriza Flu a jogar no Maracanã sem custos</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/esporte/deulofeu-tecnologia-de-video-ajudam-espanha-vencer-franca-21126995.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - esporte', 'Pos. 3']);"> <span>Deulofeu e tecnologia de vídeo ajudam Espanha a vencer a França</span> </a> </div> </li> <li> <div class="text"> <a href="http://extra.globo.com/esporte/sem-messi-argentina-perde-da-bolivia-por-2-0-nas-eliminatorias-21126927.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Ultimas Noticias - esporte', 'Pos. 4']);"> <span>Sem Messi, Argentina perde da Bolívia por 2 x 0 nas eliminatórias</span> </a> </div> </li> </ul> </div> <div class="highlight" data-vr-zone="menu.Esporte"> <div data-vr-contentbox=""> <a class="headline " href="http://extra.globo.com/esporte/apos-beijar-muito-no-lolla-mari-do-volei-vai-jantar-com-affair-liberte-sua-mente-21122735.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Esporte', pathname]);"> <span class="horizontal"> <img src="http://extra.globo.com/incoming/21122734-10b-f1b/w311h175-PROP/mari-volei-1.jpg" width="311" height="175"/> </span> </a> <a class="headline " href="http://extra.globo.com/esporte/apos-beijar-muito-no-lolla-mari-do-volei-vai-jantar-com-affair-liberte-sua-mente-21122735.html" onclick="_gaq.push(['_trackEvent', 'Menu Superior', 'Destaque Editorial - Esporte', pathname]);"> <big> Após </big> <small> beijar muito no Lolla, Mari do vôlei vai a jantar com affair: ‘Liberte a sua mente’ </small> </a> </div> </div> </div> </div> </li> </ul> <form action="http://extra.globo.com/busca/" target="_self" name="formbusca" method="post" class="search" onSubmit="return byBuscaValidaBusca(this);"> <div id="busca"> <fieldset> <label for="search_field" class="off">Buscar no Extra</label> <input type="search" name="q" id="search_field" value="Busque no Extra"/> <input type="submit" id="search_submit" value="Buscar" class="hide" onclick="_gaq.push(['_trackEvent', 'Busca', 'Menu', pathname]);"/> </fieldset> </div> </form> </nav> <script type="text/javascript">
+	menu();
+</script> <div class="channel_bar home-famosos"> <div id="pub-selopatrocinio" class="dfp bc-ad banner"></div> <ol id="bc_famous" class="breadcrumb"> <li id="black-baloon"> Famosos</li> <li class="last-child"> <a href="http://extra.globo.com/famosos/">Retratos da Vida</a> </li> </ol> </div> <script type="text/javascript">
+	gaBreadcrumb();
+</script> </header> <div id="main" class="clearfix default"> <section id="retratos_top"> <div class="headlines"> <div class="carousel"> <div class="controls"> <a href="#" onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Navegacao', 'Anterior']);" class="prev1"></a> <a href="#" onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Navegacao', 'Proximo']);" class="next1"></a> </div> <ul> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 1', pathname]);" href="http://extra.globo.com/famosos/namorada-de-caua-reymond-fala-sobre-desejo-de-ser-mae-sempre-quis-21126999.html"> <span>Namorada de Cauã Reymond fala sobre desejo de ser...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21126997-23a-fa6/w162h288/mariana1.jpg" alt="Namorada de Cau&#227; Reymond fala sobre desejo de ser m&#227;e: &#39;Sempre quis&#39;" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 2', pathname]);" href="http://extra.globo.com/famosos/zeze-di-camargo-perde-processo-vai-pagar-quase-70-mil-ex-motorista-21126797.html"> <span>Zezé Di Camargo perde processo e vai pagar quase...</span> </a> </h2> <img src="http://extra.globo.com/incoming/20644388-ca5-ed9/w162h288/zeze-e-luciano-tif.jpg" alt="Zez&#233; Di Camargo perde processo e vai pagar quase R$ 70 mil a ex-motorista" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 3', pathname]);" href="http://extra.globo.com/famosos/morena-que-dormiu-com-bieber-diz-ter-recebido-contato-de-producao-do-cantor-21126271.html"> <span>Morena que dormiu com Bieber diz ter recebido...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21126535-29b-5b5/w162h288/tati_neves.JPG" alt="Morena que dormiu com Bieber diz ter recebido contato de produ&#231;&#227;o do cantor" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 4', pathname]);" href="http://extra.globo.com/famosos/sheila-mello-volta-comentar-sobre-polemica-envolvendo-filha-21125989.html"> <span>Sheila Mello volta a comentar sobre a polêmica...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21126022-9c0-2bf/w162h288/sheilam.jpg" alt="Sheila Mello volta a comentar sobre a pol&#234;mica envolvendo a filha" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 5', pathname]);" href="http://extra.globo.com/famosos/ze-do-caixao-recebe-alta-apos-17-dias-internado-aparece-sem-barba-longa-21124841.html"> <span>Zé do Caixão recebe alta após 17 dias internado e...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21125075-bfc-0d9/w162h288/ze-do-caixao.jpg" alt="Z&#233; do Caix&#227;o recebe alta ap&#243;s 17 dias internado e aparece sem barba longa" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 6', pathname]);" href="http://extra.globo.com/famosos/filha-de-baby-do-brasil-anuncia-curso-para-mulheres-deixarem-de-ser-cachorras-21124420.html"> <span>Filha de Baby do Brasil anuncia curso para...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21124427-20b-daa/w162h288/16906868_270593786706662_7767246521417859072_n-(1).jpg" alt="Filha de Baby do Brasil anuncia curso para mulheres &#39;deixarem de ser cachorras&#39;" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 7', pathname]);" href="http://extra.globo.com/famosos/sem-glamour-grazi-faz-proprio-cabelo-para-gravar-ultima-cena-de-lei-do-amor-video-rv1-1-21123758.html"> <span>Sem glamour! Grazi faz o próprio cabelo para...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21123755-ef8-2bb/w162h288/grazi-cabelo.jpg" alt="Sem glamour! Grazi faz o pr&#243;prio cabelo para gravar &#250;ltima cena de &#39;A lei do amor&#39;; v&#237;deo" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 8', pathname]);" href="http://extra.globo.com/famosos/sheila-mello-se-irrita-com-criticas-por-vestir-filha-de-marilyn-monroe-quem-ve-erotizacao-precisa-de-tratamento-21123398.html"> <span>Sheila Mello se irrita com críticas por vestir...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21118541-c30-695/w162h288/sheila3333.jpeg.jpg" alt="Sheila Mello se irrita com cr&#237;ticas por vestir filha de Marilyn Monroe: &#39;Quem v&#234; erotiza&#231;&#227;o, precisa de tratamento&#39;" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 9', pathname]);" href="http://extra.globo.com/famosos/bruna-linzmeyer-se-declara-para-namorada-na-web-ja-apresentou-familia-21122910.html"> <span>Bruna Linzmeyer se declara para a namorada na web...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21122985-345-659/w162h288/bruna-linzmeyer-nova-namorada.jpg" alt="Bruna Linzmeyer se declara para a namorada na web e j&#225; a apresentou &#224; fam&#237;lia" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 10', pathname]);" href="http://extra.globo.com/famosos/nicole-kidman-diz-que-marido-ficou-devastado-ao-ve-la-ferida-apos-gravar-cenas-de-agressao-21122480.html"> <span>Nicole Kidman diz que marido ficou 'devastado' ao...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21122478-e7b-bae/w162h288/nicole.jpg" alt="Nicole Kidman diz que marido ficou &#39;devastado&#39; ao v&#234;-la ferida ap&#243;s gravar cenas de agress&#227;o" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 11', pathname]);" href="http://extra.globo.com/famosos/justin-bieber-nao-sera-impedido-de-deixar-rio-mesmo-apos-ser-notificado-de-processo-pela-justica-21121562.html"> <span>Justin Bieber não será impedido de deixar o Rio...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21121561-7dd-9b4/w162h288/bieber.jpg" alt="Justin Bieber n&#227;o ser&#225; impedido de deixar o Rio mesmo ap&#243;s ser notificado de processo pela Justi&#231;a" width="162" height="288"/> </div> </li> <li> <div class="xx module3a"> <h2> <a class="title_toggle " onclick="_gaq.push(['_trackEvent', 'Carrossel', 'Pos. 12', pathname]);" href="http://extra.globo.com/famosos/monica-carvalho-completa-46-anos-com-corpo-impecavel-veja-cliques-da-bela-21122000.html"> <span>Mônica Carvalho completa 46 anos com corpo...</span> </a> </h2> <img src="http://extra.globo.com/incoming/21121987-59a-d1b/w162h288/monica9.JPG" alt="M&#244;nica Carvalho completa 46 anos com corpo impec&#225;vel. Veja cliques da bela" width="162" height="288"/> </div> </li> </ul> </div> </div> </section> <script type="text/javascript">
+	$('.carousel li .banner script').remove();
+</script> <div class="content "> <script type="text/javascript" src="https://exstatic.infoglobo.com.br/resources/1490300412/js/lib/jquery/cycle.js"></script> <div id="other_news"> <div class="section" id="photo_gallery"> <div class="slideshow"> <div class="controls"> <ul class="photo_nav hide page next"> <li><a href="#" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Anterior']);" class="page prev">Anterior</a></li> <li><a href="#" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Proxima']);" class="page next">Pr&oacute;ximo</a></li> </ul> </div> <div class="photos"> <span class="mais_galerias"><a href="http://extra.globo.com/famosos/fotos/" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Outras Galerias']);">outras galerias</a></span> <ul> <li> <span class="seta"> <img src="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/seta_balao.png" width="22" height="22"> </span> <div class="header"> <h2><a href="http://extra.globo.com/famosos/mario-gomes-vende-hamburguer-batata-frita-na-praia-21026109.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.1', pathname]);">Aos 64 anos, Mario Gomes vende...</a></h2> </div> <a href="http://extra.globo.com/famosos/mario-gomes-vende-hamburguer-batata-frita-na-praia-21026109.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.1', pathname]);"><img src="http://extra.globo.com/incoming/21022229-97c-929/w367h550-PROP/mario20.png" width="367" height="550"/></a> </li> <li> <span class="seta"> <img src="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/seta_balao.png" width="22" height="22"> </span> <div class="header"> <h2><a href="http://extra.globo.com/famosos/sabrina-sato-suas-fantasias-ousadas-que-deram-que-falar-20970768.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.2', pathname]);">Sabrina Sato e suas fantasias ousadas...</a></h2> </div> <a href="http://extra.globo.com/famosos/sabrina-sato-suas-fantasias-ousadas-que-deram-que-falar-20970768.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.2', pathname]);"><img src="http://extra.globo.com/incoming/20970839-4b7-96b/w367h550-PROP/sato44.jpg" width="367" height="550"/></a> </li> <li> <span class="seta"> <img src="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/seta_balao.png" width="22" height="22"> </span> <div class="header"> <h2><a href="http://extra.globo.com/famosos/la-vem-noiva-veja-as-famosas-que-vao-subir-ao-altar-em-breve-19695621.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.3', pathname]);">Lá vem a noiva! Veja as famosas que...</a></h2> </div> <a href="http://extra.globo.com/famosos/la-vem-noiva-veja-as-famosas-que-vao-subir-ao-altar-em-breve-19695621.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.3', pathname]);"><img src="http://extra.globo.com/incoming/19695363-ef8-cf4/w367h550-PROP/001-galeria-marina.jpg" width="367" height="550"/></a> </li> <li> <span class="seta"> <img src="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/seta_balao.png" width="22" height="22"> </span> <div class="header"> <h2><a href="http://extra.globo.com/famosos/o-amor-esta-no-ar-nao-faltam-casais-apaixonados-veja-os-famosos-que-ja-assumiram-novos-namoros-em-2016-18978849.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.4', pathname]);">O amor está no ar, e não faltam...</a></h2> </div> <a href="http://extra.globo.com/famosos/o-amor-esta-no-ar-nao-faltam-casais-apaixonados-veja-os-famosos-que-ja-assumiram-novos-namoros-em-2016-18978849.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.4', pathname]);"><img src="http://extra.globo.com/incoming/18978841-32c-2d7/w367h550-PROP/001-2016-899052192-i7d_1293_20160328.jpg" width="367" height="550"/></a> </li> <li> <span class="seta"> <img src="https://exstatic.infoglobo.com.br/skins/1490300412/extra/images/seta_balao.png" width="22" height="22"> </span> <div class="header"> <h2><a href="http://extra.globo.com/famosos/apaixonados-gatos-veja-quem-sao-os-casais-mais-sarados-do-mundo-dos-famosos-18414055.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.5', pathname]);">Apaixonados e gatos! Veja quem são os...</a></h2> </div> <a href="http://extra.globo.com/famosos/apaixonados-gatos-veja-quem-sao-os-casais-mais-sarados-do-mundo-dos-famosos-18414055.html" onclick="_gaq.push(['_trackEvent', 'Box de Galerias', 'Pos.5', pathname]);"><img src="http://extra.globo.com/incoming/18414046-276-6b6/w367h550-PROP/01-erasmo-gabriela.jpg" width="367" height="550"/></a> </li> </ul> </div> </div> </div> </div> <section id="coluna_vertical"> <div class="red-eye"> <div class="inner leo"> <h3> <a href="http://extra.globo.com/famosos/bruna-linzmeyer-beija-namorada-em-praia-ve-flagra-se-esconde-sob-cabaninha-21117602.html" onclick="_gaq.push(['_trackEvent', 'Frases de Famosos', 'Pos.1', pathname]);"> Bruna Linzmeyer troca beijos com a nova namorada na praia </a> </h3> </div> <div class="author left">Leonardo Ferreira </div> </div> <div class="red-eye"> <div class="inner "> <h3> <a href="http://extra.globo.com/famosos/sheila-mello-se-irrita-com-criticas-por-vestir-filha-de-marilyn-monroe-quem-ve-erotizacao-precisa-de-tratamento-21123398.html" onclick="_gaq.push(['_trackEvent', 'Frases de Famosos', 'Pos.2', pathname]);"> Quem vê erotização nisso precisa de tratamento </a> </h3> </div> <div class="author right">Sheila Mello</div> </div> </section> <div id="coluna_vertical"> <section class="twitter-famous"> <div class="header"> <small>O que dizem os</small> <big>famosos</big> </div> <div class="body"> <a class="twitter-timeline" height="254" data-dnt="true" href="https://twitter.com/search?q=from:12MarceloV OR from:dante_bonfim OR from:fredgol9 OR from:Cristiano OR from:paulinhop8 OR from:DavidLuiz_4 OR from:neymarjr OR from:hernanes OR from:JoAlvesOficial OR from:CentralNeymarJ OR from:HulkGivanildo_V OR from:b_10duarte OR from:Pele OR from:AlexandrePato OR from:ClaroRonaldo" data-widget-id="476807727763558400" rel="nofollow">Tweets sobre "from:12MarceloV OR from:dante_bonfim OR from:fredgol9 OR from:Cristiano OR from:paulinhop8 OR from:DavidLuiz_4 OR from:neymarjr OR from:hernanes OR from:JoAlvesOficial OR from:CentralNeymarJ OR from:HulkGivanildo_V OR from:b_10duarte OR from:Pele OR from:AlexandrePato OR from:ClaroRonaldo"</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> </div> <div class="footer"> <a href="http://twitter.com/retratosdavida" onclick="_gaq.push(['_trackEvent', 'Box do Twitter','Siga o Famosos no Twitter']);" target="_blank"> Siga o Famosos no Twitter </a> </div> </section> </div> <div id="channel_related"> <script type="text/javascript">
+	includeStyleScript("https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/boxes-breaking-news.css", 'link');
+</script> <section class="breaking_news box"> <header> <h1> <a href="http://extra.globo.com/famosos/plantao.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias','Mais Noticias', pathname]);">Mais Not&iacute;cias</a> </h1> <a href="http://extra.globo.com/famosos/rss.xml" class="rss" alt="Rss famosos" title="Rss famosos">Assine o RSS</a> </header> <ol class="body"> <li class="date_row">28 de Março de 2017</li> <li class=""> <a href="http://extra.globo.com/famosos/anitta-se-vicia-em-vai-embrazando-funk-de-mc-zaac-musica-viraliza-vira-hit-21122259.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 1', pathname]);"> <img src="http://extra.globo.com/incoming/21122255-405-2f9/w107h60-PROP/mc.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-28T05:32:00-03:00" pubdate="pubdate"> 05:32 </time> </div> <a href="http://extra.globo.com/famosos/anitta-se-vicia-em-vai-embrazando-funk-de-mc-zaac-musica-viraliza-vira-hit-21122259.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 1', pathname]);">Anitta se ‘vicia’ em ‘Vai embrazando’, funk de MC Zaac, música viraliza e vira hit</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/mulher-jaca-investe-300-mil-em-fabrica-de-jeans-emagrece-para-ser-modelo-de-prova-21122119.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 2', pathname]);"> <img src="http://extra.globo.com/incoming/21122110-540-9aa/w107h60-PROP/jac2-.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-28T05:12:00-03:00" pubdate="pubdate"> 05:12 </time> </div> <a href="http://extra.globo.com/famosos/mulher-jaca-investe-300-mil-em-fabrica-de-jeans-emagrece-para-ser-modelo-de-prova-21122119.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 2', pathname]);">Mulher Jaca investe R$ 300 mil em fábrica de jeans e emagrece para ser modelo de prova</a> </div> </li> <li class="date_row">27 de Março de 2017</li> <li class=""> <a href="http://extra.globo.com/famosos/perola-faria-reata-com-bernardo-velasco-ganha-declaracao-na-web-21121001.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 3', pathname]);"> <img src="http://extra.globo.com/incoming/21121000-fa5-1d8/w107h60-PROP/perola_faria.JPG" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T19:00:18-03:00" pubdate="pubdate"> 19:00 </time> </div> <a href="http://extra.globo.com/famosos/perola-faria-reata-com-bernardo-velasco-ganha-declaracao-na-web-21121001.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 3', pathname]);">Pérola Faria reata com Bernardo Velasco e ganha declaração na web</a> </div> </li> <li class="no-bg"> <div id="pub-box-home" class="dfp artigo-links-patrocinados" data-notice="Publicidade"></div> </li> <li class=""> <a href="http://extra.globo.com/famosos/amizade-de-thaila-ayala-julia-faria-estremece-fas-questionam-motivo-da-briga-nas-redes-21120850.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 4', pathname]);"> <img src="http://extra.globo.com/incoming/21120847-4e9-24a/w107h60-PROP/thaila_ayala3.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T18:33:18-03:00" pubdate="pubdate"> 18:33 </time> </div> <a href="http://extra.globo.com/famosos/amizade-de-thaila-ayala-julia-faria-estremece-fas-questionam-motivo-da-briga-nas-redes-21120850.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 4', pathname]);">Amizade de Thaila Ayala e Julia Faria estremece e fãs questionam motivo da briga nas redes</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/mateus-da-dupla-jorge-mateus-sera-pai-de-um-menino-dom-21120778.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 5', pathname]);"> <img src="http://extra.globo.com/incoming/21120791-31c-716/w107h60-PROP/17437971_273161196473245_8700777948333998080_n.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T18:14:38-03:00" pubdate="pubdate"> 18:14 </time> </div> <a href="http://extra.globo.com/famosos/mateus-da-dupla-jorge-mateus-sera-pai-de-um-menino-dom-21120778.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 5', pathname]);">Mateus, da dupla Jorge e Mateus, será pai de um menino: 'Dom'</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/ivete-sangalo-pede-carona-para-fa-posta-em-rede-social-ta-achando-que-pegadinha-21120354.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 6', pathname]);"> <img src="http://extra.globo.com/incoming/21120283-106-f67/w107h60-PROP/ivete.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T17:23:04-03:00" pubdate="pubdate"> 17:23 </time> </div> <a href="http://extra.globo.com/famosos/ivete-sangalo-pede-carona-para-fa-posta-em-rede-social-ta-achando-que-pegadinha-21120354.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 6', pathname]);">Ivete Sangalo pede carona para fã e posta em rede social: 'Tá achando que é pegadinha'</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/bocao-vermelho-de-danielle-cicarelli-chama-atencao-na-web-coringa-voce-21120080.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 7', pathname]);"> <img src="http://extra.globo.com/incoming/21119949-2f1-c29/w107h60-PROP/cicarelli.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T16:27:24-03:00" pubdate="pubdate"> 16:27 </time> </div> <a href="http://extra.globo.com/famosos/bocao-vermelho-de-danielle-cicarelli-chama-atencao-na-web-coringa-voce-21120080.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 7', pathname]);">Bocão vermelho de Danielle Cicarelli chama atenção na web: 'Coringa, é você?'</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/filhos-de-eike-voltam-aparecer-apos-evitarem-exposicao-com-prisao-do-pai-21119796.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 8', pathname]);"> <img src="http://extra.globo.com/incoming/21119809-870-86a/w107h60-PROP/olin.JPG" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T16:01:05-03:00" pubdate="pubdate"> 16:01 </time> </div> <a href="http://extra.globo.com/famosos/filhos-de-eike-voltam-aparecer-apos-evitarem-exposicao-com-prisao-do-pai-21119796.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 8', pathname]);">Filhos de Eike voltam a aparecer após evitarem exposição com a prisão do pai</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/modelo-faz-piada-apos-reatar-namoro-com-dolabella-nem-uma-uma-semana-sem-ter-dado-21119510.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 9', pathname]);"> <img src="http://extra.globo.com/incoming/21119521-ec0-87c/w107h60-PROP/dado4444.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T15:27:06-03:00" pubdate="pubdate"> 15:27 </time> </div> <a href="http://extra.globo.com/famosos/modelo-faz-piada-apos-reatar-namoro-com-dolabella-nem-uma-uma-semana-sem-ter-dado-21119510.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 9', pathname]);">Modelo faz piada após reatar namoro com Dolabella: 'Nem uma uma semana sem ter dado'</a> </div> </li> <li class=""> <a href="http://extra.globo.com/famosos/xuxa-chamada-de-velha-apos-foto-ousada-rebate-aceita-que-doi-menos-21118768.html" class="img_link" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 10', pathname]);"> <img src="http://extra.globo.com/incoming/21118748-b37-b49/w107h60-PROP/xuxa.jpg" width="107" height="60"/> </a> <div class="text"> <div class="info"> <a href="http://extra.globo.com/famosos/" class="channel_badge retratos">Famosos</a> <time datetime="2017-03-27T11:34:20-03:00" pubdate="pubdate"> 11:34 </time> </div> <a href="http://extra.globo.com/famosos/xuxa-chamada-de-velha-apos-foto-ousada-rebate-aceita-que-doi-menos-21118768.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias', 'Pos. 10', pathname]);">Xuxa é chamada de 'velha' após foto ousada e rebate: 'Aceita que dói menos'</a> </div> </li> </ol> <div class="more_lists"> <a class="button default medium" href="http://extra.globo.com/famosos/plantao.html" onclick="_gaq.push(['_trackEvent', 'Ultimas Noticias','Ver Todas as Noticias', pathname]);">VER TODAS AS NOT&Iacute;CIAS</a> </div> </section> <div class="highlights"> <script type="text/javascript">
+	includeStyleScript("https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/boxes-breaking-news.css", 'link');
+</script> <section> <header> <h3>Blogs</h3> </header> <ul> <li> <h4> <a href="http://extra.globo.com/famosos/astros-dos-astros/"> Astros dos Astros </a> </h4> <span> <a href="http://extra.globo.com/famosos/astros-dos-astros/aries-ja-esta-entre-nos-21085579.html" onclick="_gaq.push(['_trackEvent', 'Blogs', 'Pos.1', pathname]);"> Áries já está entre nós </a> </span> </li> </ul> </section> </div> </div> </div> <aside> <div id="pub-retangulo-1" class="dfp banner" data-notice="Publicidade"></div> <link rel="stylesheet" type="text/css" href="https://exstatic.infoglobo.com.br/skins/1490300412/extra/css/box-multimidia.css"> <script src="http://s.videos.globo.com/p2/j/api.min.js" type="text/javascript"></script> <section class="widget widget-video-famous"> <div class="video"> <header> <h2>V&iacute;deos</h2> </header> <div class="video-wrapper"><div class="container-video" data-provider="globo" data-id="5724049"></div></div> </div> <div class="legenda"> <a href="http://extra.globo.com/videos/#famosos" onclick="_gaq.push(['_trackEvent', 'Box de Videos de Famosos', 'Ver todos os Videos']);">Ver todos os v&iacute;deos</a> </div> </section> <script type="text/javascript"> 
+			_video = new embedVideo({
+				width: 288,
+				height: 216
+			});	
+			var prov = $('section.widget-video-famous .container-video').attr('data-provider'), id = $('section.widget-video-famous .container-video').attr('data-id');
+			if(/^youtube|globo|facebook|twitcam|instagram|livestream|vimeo|dailymotion$/.test(prov) && id) {
+				_video.embedVideo($('section.widget-video-famous .container-video'), prov, id);
+			}
+		</script> <section class="box social top_rated acordion"> <div class="lidas"> <header> <h2 id="active" class="arrow"> <a href="#lidas" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Veja as mais Lidas']);">As mais <font>lidas </font></a> <span class="bullet"></span> </h2> </header> <ol class="body"> <li class=" "> <a href="http://extra.globo.com/famosos/bruna-linzmeyer-beija-namorada-em-praia-ve-flagra-se-esconde-sob-cabaninha-21117602.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 1', pathname]);"> <img src="http://extra.globo.com/incoming/21117584-f2e-588/w107h60-PROP/bruna.jpg" width="107" height="60"/> <span class="ranking">1</span> <div class="text"> <span class="innertext"> Bruna Linzmeyer beija a namorada em praia, vê flagra e se esconde sob cabaninha </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/morena-que-dormiu-com-bieber-diz-ter-recebido-contato-de-producao-do-cantor-21126271.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 2', pathname]);"> <img src="http://extra.globo.com/incoming/21126535-29b-5b5/w107h60-PROP/tati_neves.JPG" width="107" height="60"/> <span class="ranking">2</span> <div class="text"> <span class="innertext"> Morena que dormiu com Bieber diz ter recebido contato de produção do cantor </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/anitta-se-vicia-em-vai-embrazando-funk-de-mc-zaac-musica-viraliza-vira-hit-21122259.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 3', pathname]);"> <img src="http://extra.globo.com/incoming/21122255-405-2f9/w107h60-PROP/mc.jpg" width="107" height="60"/> <span class="ranking">3</span> <div class="text"> <span class="innertext"> Anitta se ‘vicia’ em ‘Vai embrazando’, funk de MC Zaac, música viraliza e vira hit </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/bruna-linzmeyer-se-declara-para-namorada-na-web-ja-apresentou-familia-21122910.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 4', pathname]);"> <img src="http://extra.globo.com/incoming/21122985-345-659/w107h60-PROP/bruna-linzmeyer-nova-namorada.jpg" width="107" height="60"/> <span class="ranking">4</span> <div class="text"> <span class="innertext"> Bruna Linzmeyer se declara para a namorada na web e já a apresentou à família </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/sheila-mello-se-irrita-com-criticas-por-vestir-filha-de-marilyn-monroe-quem-ve-erotizacao-precisa-de-tratamento-21123398.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 5', pathname]);"> <img src="http://extra.globo.com/incoming/21118541-c30-695/w107h60-PROP/sheila3333.jpeg.jpg" width="107" height="60"/> <span class="ranking">5</span> <div class="text"> <span class="innertext"> Sheila Mello se irrita com críticas por vestir filha de Marilyn Monroe: 'Quem vê erotização, precisa de tratamento' </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/sheila-mello-volta-comentar-sobre-polemica-envolvendo-filha-21125989.html" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Lidas', 'Pos. 6', pathname]);"> <img src="http://extra.globo.com/incoming/21126022-9c0-2bf/w107h60-PROP/sheilam.jpg" width="107" height="60"/> <span class="ranking">6</span> <div class="text"> <span class="innertext"> Sheila Mello volta a comentar sobre a polêmica envolvendo a filha </span> </div> </a> </li> </ol> </div> <div class="comentadas closed"> <header> <h2 id="active" class="arrow"> <a href="#comentadas" onclick="_gaq.push(['_trackEvent', 'Box de As Mais Comentadas', 'Veja as mais comentadas']);">Veja as mais <font>comentadas</font></a> <span class="bullet"></span> </h2> </header> <ol class="body" style="display: none;"> <li class=" "> <a href="http://extra.globo.com/famosos/sheila-mello-se-irrita-com-criticas-por-vestir-filha-de-marilyn-monroe-quem-ve-erotizacao-precisa-de-tratamento-21123398.html" onclick="_gaq.push(['_trackEvent', 'Box As Mais Comentadas', 'Pos. 1', pathname]);"> <img src="http://extra.globo.com/incoming/21118541-c30-695/w107h60-PROP/sheila3333.jpeg.jpg" width="107" height="60"/> <span class="ranking">1</span> <div class="text"> <span class="innertext"> Sheila Mello se irrita com críticas por vestir filha de Marilyn Monroe: 'Quem vê erotização, precisa de tratamento' </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/bruna-linzmeyer-se-declara-para-namorada-na-web-ja-apresentou-familia-21122910.html" onclick="_gaq.push(['_trackEvent', 'Box As Mais Comentadas', 'Pos. 2', pathname]);"> <img src="http://extra.globo.com/incoming/21122985-345-659/w107h60-PROP/bruna-linzmeyer-nova-namorada.jpg" width="107" height="60"/> <span class="ranking">2</span> <div class="text"> <span class="innertext"> Bruna Linzmeyer se declara para a namorada na web e já a apresentou à família </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/monica-carvalho-completa-46-anos-com-corpo-impecavel-veja-cliques-da-bela-21122000.html" onclick="_gaq.push(['_trackEvent', 'Box As Mais Comentadas', 'Pos. 3', pathname]);"> <img src="http://extra.globo.com/incoming/21121987-59a-d1b/w107h60-PROP/monica9.JPG" width="107" height="60"/> <span class="ranking">3</span> <div class="text"> <span class="innertext"> Mônica Carvalho completa 46 anos com corpo impecável. Veja cliques da bela </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/xuxa-chamada-de-velha-apos-foto-ousada-rebate-aceita-que-doi-menos-21118768.html" onclick="_gaq.push(['_trackEvent', 'Box As Mais Comentadas', 'Pos. 4', pathname]);"> <img src="http://extra.globo.com/incoming/21118748-b37-b49/w107h60-PROP/xuxa.jpg" width="107" height="60"/> <span class="ranking">4</span> <div class="text"> <span class="innertext"> Xuxa é chamada de 'velha' após foto ousada e rebate: 'Aceita que dói menos' </span> </div> </a> </li> <li class=" "> <a href="http://extra.globo.com/famosos/justin-bieber-nao-sera-impedido-de-deixar-rio-mesmo-apos-ser-notificado-de-processo-pela-justica-21121562.html" onclick="_gaq.push(['_trackEvent', 'Box As Mais Comentadas', 'Pos. 5', pathname]);"> <img src="http://extra.globo.com/incoming/21121561-7dd-9b4/w107h60-PROP/bieber.jpg" width="107" height="60"/> <span class="ranking">5</span> <div class="text"> <span class="innertext"> Justin Bieber não será impedido de deixar o Rio mesmo após ser notificado de processo pela Justiça </span> </div> </a> </li> </ol> </div> </section> <div id="pub-halfpage" class="dfp banner" data-notice="Publicidade"></div> </aside> <div class="clearfix"></div> </div> <div id="services"> </div> <div class="box-shopping"> <div id="vitrine"></div> <script type="text/javascript">
+$(document).ready(function(){
+	try {
+		new Vitrine({
+			sitepage: "ogcextrav3/retratosdavida/capa",
+			text_color: "c722fd",
+			tabs: 5.00,
+			container: '#vitrine'
+		}).init();
+	} catch (e) {
+		console.warn("Vitrine not loaded", e);
+	}
+})
+</script> <script type="text/javascript" src="//vitrines.globo.com/vitrine/vitrine.min.js"></script> </div> </div> <footer id="footer"> <div class="sitemap_footer"> <div class="wrapper"> <ul> <li class="title"> <h6> <a href="http://extra.globo.com/noticias/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Home', pathname]);">Notícias</a> </h6> </li> <li><a href="http://extra.globo.com/noticias/animais/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Animais', pathname]);">Animais</a> </li> <li><a href="http://extra.globo.com/noticias/brasil/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Brasil', pathname]);">Brasil</a> </li> <li><a href="http://extra.globo.com/noticias/carros-e-motos/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Carros e Motos', pathname]);">Carros e Motos</a> </li> <li><a href="http://extra.globo.com/noticias/celular-e-tecnologia/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Celular e Tecnologia', pathname]);">Celular e Tecnologia</a> </li> <li><a href="http://extra.globo.com/noticias/brasil/contra-a-corrente/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Contra a Corrente', pathname]);">Contra a Corrente</a> </li> <li><a href="http://extra.globo.com/noticias/economia/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Economia', pathname]);">Economia</a> </li> <li><a href="http://extra.globo.com/noticias/educacao/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Educação', pathname]);">Educação</a> </li> <li><a href="http://extra.globo.com/noticias/economia/eu-patrao/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Eu-Patrão', pathname]);">Eu-Patrão</a> </li> <li><a href="http://extra.globo.com/noticias/extra-extra/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Extra, Extra', pathname]);">Extra, Extra</a> </li> <li><a href="http://extra.globo.com/noticias/economia/minha-casa-minhas-duvidas/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Minha casa, minhas dúvidas', pathname]);">Minha casa, minhas dúvidas</a> </li> <li><a href="http://extra.globo.com/noticias/mundo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Mundo', pathname]);">Mundo</a> </li> <li><a href="http://extra.globo.com/noticias/por-dentro-da-foto/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Por Dentro da Foto', pathname]);">Por Dentro da Foto</a> </li> <li><a href="http://extra.globo.com/noticias/religiao-e-fe/pai-paulo-de-oxala/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Pai Paulo de Oxalá', pathname]);">Pai Paulo de Oxalá</a> </li> <li><a href="http://extra.globo.com/noticias/rio/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Rio', pathname]);">Rio</a> </li> <li><a href="http://extra.globo.com/noticias/saude-e-ciencia/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Saúde e Ciência', pathname]);">Saúde e Ciência</a> </li> <li><a href="http://extra.globo.com/noticias/brasil/sem-mimimi/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Sem mimimi', pathname]);">Sem mimimi</a> </li> <li><a href="http://extra.globo.com/noticias/religiao-e-fe/shmuel-lemle/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Notícias/Shmuel Lemle', pathname]);">Shmuel Lemle</a> </li> </ul> <ul> <li class="title"> <h6> <a href="http://extra.globo.com/casos-de-policia/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Casos de Polícia/Home', pathname]);">Casos de Polícia</a> </h6> </li> <li><a href="http://extra.globo.com/casos-de-policia/comissario-de-policia/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Casos de Polícia/Comissário de Polícia', pathname]);">Comissário de Polícia</a> </li> <li><a href="http://extra.globo.com/casos-de-policia/papo-federal/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Casos de Polícia/Papo Federal', pathname]);">Papo Federal</a> </li> <li class="title spacer"> <h6> <a href="http://extra.globo.com/emprego/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Emprego/Home', pathname]);">Emprego</a> </h6> </li> <li><a href="http://extra.globo.com/emprego/capacitacao/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Emprego/Capacitação', pathname]);">Capacitação</a> </li> <li><a href="http://extra.globo.com/emprego/concursos/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Emprego/Concursos', pathname]);">Concursos</a> </li> <li><a href="http://extra.globo.com/emprego/servidor-publico/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Emprego/Servidor Público', pathname]);">Servidor Público</a> </li> <li class="title spacer"> <h6> <a href="http://extra.globo.com/famosos/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Famosos/Home', pathname]);">Famosos</a> </h6> </li> <li><a href="http://extra.globo.com/famosos/astros-dos-astros/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Famosos/Astros dos Astros', pathname]);">Astros dos Astros</a> </li> <li><a href="http://extra.globo.com/famosos/ensaio-sensual/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Famosos/Ensaios Sensuais', pathname]);">Ensaios Sensuais</a> </li> <li><a href="http://extra.globo.com/famosos/fotos/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Famosos/Fotos', pathname]);">Fotos</a> </li> <li><a href="http://extra.globo.com/famosos/retratos-da-bola/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Famosos/Retratos da Bola', pathname]);">Retratos da Bola</a> </li> </ul> <ul> <li class="title"> <h6> <a href="http://extra.globo.com/mulher/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Home', pathname]);">Mulher</a> </h6> </li> <li><a href="http://extra.globo.com/mulher/beleza/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Beleza', pathname]);">Beleza</a> </li> <li><a href="http://extra.globo.com/mulher/corpo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Corpo', pathname]);">Corpo</a> </li> <li><a href="http://extra.globo.com/mulher/decoracao-e-jardim/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Decoração', pathname]);">Decoração</a> </li> <li><a href="http://extra.globo.com/mulher/moda/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Moda', pathname]);">Moda</a> </li> <li><a href="http://extra.globo.com/mulher/um-dedo-de-prosa/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Mulher/Um Dedo de Prosa', pathname]);">Um Dedo de Prosa</a> </li> <li class="title spacer"> <h6> <a href="http://extra.globo.com/tv-e-lazer/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Home', pathname]);">TV e Lazer</a> </h6> </li> <li><a href="http://extra.globo.com/tv-e-lazer/resumo-de-novelas/malhacao/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Malhação', pathname]);">Malhação</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/musica/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Música', pathname]);">Música</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/resumo-de-novelas/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Resumo de Novelas', pathname]);">Resumo de Novelas</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/roda-de-samba/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Roda de Samba', pathname]);">Roda de Samba</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/telinha/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Telinha', pathname]);">Telinha</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/vai-dar-certo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Vai Dar Certo', pathname]);">Vai Dar Certo</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/novela-velho-chico/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Velho Chico', pathname]);">Velho Chico</a> </li> <li><a href="http://extra.globo.com/tv-e-lazer/viagem-e-turismo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'TV e Lazer/Viagem e Turismo', pathname]);">Viagem e Turismo</a> </li> </ul> <ul> <li class="title"> <h6> <a href="http://extra.globo.com/esporte/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Home', pathname]);">Esporte</a> </h6> </li> <li><a href="http://extra.globo.com/esporte/botafogo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Botafogo', pathname]);">Botafogo</a> </li> <li><a href="http://extra.globo.com/esporte/extra-campo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Extracampo', pathname]);">Extracampo</a> </li> <li><a href="http://extra.globo.com/esporte/flamengo/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Flamengo', pathname]);">Flamengo</a> </li> <li><a href="http://extra.globo.com/esporte/fluminense/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Fluminense', pathname]);">Fluminense</a> </li> <li><a href="http://extra.globo.com/esporte/gilmar-ferreira/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Gilmar Ferreira', pathname]);">Gilmar Ferreira</a> </li> <li><a href="http://extra.globo.com/esporte/lutas/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Lutas', pathname]);">Lutas</a> </li> <li><a href="http://extra.globo.com/esporte/mma/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/MMA', pathname]);">MMA</a> </li> <li><a href="http://extra.globo.com/esporte/rio-2016/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Rio 2016', pathname]);">Rio 2016</a> </li> <li><a href="http://extra.globo.com/esporte/vasco/" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Esporte/Vasco', pathname]);">Vasco</a> </li> </ul> <div class="functions"> <ul class="weather"> <li class="title"> <h6> <a onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Previsao do Tempo'])" href="http://extra.globo.com/previsao-do-tempo/"> Previs&atilde;o do Tempo </a> </h6> Rio de Janeiro </li> <li class="temperature partrainy"> <span></span> </li> <li class="min_max"> <span class="min">m&iacute;n 19&deg;</span> <span class="max">m&aacute;x 28&deg;</span> </li> <li class="desc"> Sol com muitas nuvens durante o dia. Períodos de nublado, com chuva a qualquer hora. </li> <li class="other-places"> <a onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Previsao do tempo Outras cidades'])" href="http://extra.globo.com/previsao-do-tempo/"> Outras cidades </a> </li> </ul> <ul class="medias"> <li class="title"><h6>Receba o Extra</h6></li> <li class="rss"><a href="/rss.html" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Extra RSS', pathname]);" class="hide" title="Extra RSS">Extra RSS</a></li> <li class="sms"><a href="/apps-de-noticias" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'App de Notícias', pathname]);" class="hide" title="App de Notícias">App de Notícias</a></li> </ul> </div> </div> </div> <div class="versions_footer"> <a href="/?versao=mobi" onclick="_gaq.push(['_trackEvent', 'Menu Inferior', 'Versão para Celular', pathname]);" class="hide" title="Vers&atilde;o para Celular">Vers&atilde;o para Celular</a> </div> <div class="corporate_footer"> <div class="wrapper"> <ul> <li><a href="https://infoglobosites2.secure.force.com/extra/" target="_blank">Fale com Extra</a></li> <li><a href="/politica-de-privacidade" target="_blank">Política de Privacidade</a></li> <li><a href="javascript: modalInstitucional('termos');">Termos de Uso</a></li> <li><a href="/whatsapp-termo-de-uso" target="_blank">WhatsApp - Termos de uso</a></li> <li><a href="javascript: modalInstitucional('ajuda');">Ajuda</a></li> </ul><ul> <li><a href="http://anuncie.globo.com/infoglobo/" target="_blank">Anuncie no Site</a></li> <li><a href="https://seguro.oglobo.com.br/assinatura-jornal-extra/Default.aspx?id_parc=1694&utm_source=siteextra&utm_medium=botãoassine&utm_campaign=botaoassine_rodapé" target="_blank">Assine o Extra Digital</a></li> <li><a href="http://www.vagas.com.br/infoglobo" target="_blank">Trabalhe Conosco</a></li> <li><a href="http://extra.globo.com/mapa-do-site">Mapa do Site</a></li> </ul> <div class="disclaimer"> &copy; 2006 - 2017 Todos os direitos reservados a Infoglobo Comunica&ccedil;&atilde;o e Participa&ccedil;&otilde;es S.A. Este material n&atilde;o pode ser publicado, transmitido por broadcast, reescrito ou redistribui&ccedil;&atilde;o sem pr&eacute;via autoriza&ccedil;&atilde;o. </div> </div> </div> </footer> <div id="pub-floating" class="dfp banner_dhtml"></div> <script type="text/javascript">
+		removerBannerVazio();
+	</script> </body> </html>
+
+
+|||http://www.estrelando.com.br/teen/|<!doctype html>
+<html class="no-js"><head>
+	    <meta charset="utf-8">
+    <!--<title>ESTRELANDO</title>-->
+
+    <!--<meta id="mtdesc" name="description" content="" />-->
+
+    <meta property="og:url" content="http://www.estrelando.com.br/teen/" />
+
+    <title>Estrelando</title>
+    <meta property="fb:pages" content="248945111786069" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ESTRELANDO" />
+    <meta property="og:locale" content="pt_BR" />
+		<meta name="google-site-verification" content="PGQUu54uVVifO4GhGe9UM-T_cqPLRX5VxsxsCtCTTFY" />
+    <script type="text/javascript">
+		    var AKAMAI_MEDIA_ANALYTICS_CONFIG_FILE_PATH = 'http://ma739-r.analytics.edgesuite.net/config/beacon-8087.xml?enableGenericAPI=1';
+		</script>
+		<script type="text/javascript" src="http://79423.analytics.edgesuite.net/html5/akamaihtml5-min.js"></script>
+
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="http://www.estrelando.com.br/css/style.css?2">
+     <link rel="stylesheet" href="http://www.estrelando.com.br/css/style-1100.css" type="text/css" media="screen and (max-width:960px)" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script async src="http://www.estrelando.com.br/js/functions-20150716.js?2131233333312312312333"></script>
+
+										
+
+				
+
+
+	<!-- PeG -->
+	<script type="text/javascript" language="JavaScript">
+	    //name: Estrelando (Direct_BR)
+	    //created: 07/23/2015 13:48
+	    var cb = new Date().getTime();
+	    var asiPqTag = false;
+	    try {
+	        document.write("<sc" + "ript type='text/javascript' language='JavaScript' src='//pq-direct.revsci.net/pql?placementIdList=6TKjrQ,Jbtio8,sj4l2r&cb=" + cb + "'></sc" + "ript>");
+	    } catch (err) {}
+	</script>
+	<script type="text/javascript" language="JavaScript">
+	   if (typeof asiPlacements != "undefined") { for(var p in asiPlacements) {
+	      window["ASPQ_"+p]=""; for(var key in asiPlacements[p].data) {
+	         window["ASPQ_"+p] += "PQ_"+p+"_"+key;
+	      }
+	   }
+	}
+	</script>
+	<!-- /PeG -->
+
+    <script>
+	    (function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+
+	</script>
+    <script type='text/javascript'>
+		  var googletag = googletag || {};
+		  googletag.cmd = googletag.cmd || [];
+		  (function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+			  '//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		  })();
+	</script>
+
+	<script type='text/javascript' src='//static.criteo.net/js/ld/publishertag.js'></script>
+
+
+	<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+</script>
+<script>
+googletag.cmd.push(function() {
+var mapping970 = googletag.sizeMapping().addSize([0, 0], [[300, 250], [300, 100], [300, 25]]).addSize([750, 600], [[970, 90], [728,90]]).addSize([960, 690], [[970, 90], [728,90]]).addSize([1024, 768], [[970, 90], [728,90]]).build();var mapping300 = googletag.sizeMapping().addSize([1024, 768], [[300, 250], [300, 25]]).addSize([960, 690], [[300, 250], [300, 25]]).addSize([640, 480], [[300, 250], [300, 25]]).addSize([0, 0], [[300, 250], [300, 25]]).build();var mapping600 = googletag.sizeMapping().addSize([1024, 768], [[300, 600], [300, 250], [300, 25]]).addSize([960, 690], [[300, 600], [300, 250], [300, 25]]).addSize([640, 480], [[300, 250], [300, 25]]).addSize([0, 0], [[300, 250], [300, 25]]).build();var mapping728 = googletag.sizeMapping().addSize([1024, 768], [[728, 90], [468, 60], [320, 50]]).addSize([640, 480], [[468, 60], [320, 50]]).addSize([0, 0], [[320, 50]]).build();	googletag.defineSlot('/10646962/teen_970x90_1', [[728,90],[468,60],[970,90],[320,50]], 'div-8c2a00c456aafb7d94444056df8c5d25').defineSizeMapping(mapping970).addService(googletag.pubads());
+	googletag.defineSlot('/10646962/teen_970x90_2', [[728,90],[468,60],[970,90],[320,50]], 'div-011c69615d6971ea204602572696d46a').defineSizeMapping(mapping970).addService(googletag.pubads());
+	googletag.defineSlot('/10646962/teen_728x90_1', [[728,90]], 'div-bb13bd52b9f9643c49de2b013ab5bb1e').defineSizeMapping(mapping728).addService(googletag.pubads());
+	googletag.defineSlot('/10646962/teen_300x250_1', [[300,250],[300,75],[300,100]], 'div-83ab98173b19d01fbf5d1137f06e12ed').defineSizeMapping(mapping300).addService(googletag.pubads());
+	googletag.defineSlot('/10646962/teen_300x600_1', [[300,250],[300,100],[300,75],[300,600]], 'div-7807cb0e8427b39d69f17e4ec7279a9a').defineSizeMapping(mapping600).addService(googletag.pubads());
+
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+});
+</script>
+
+
+     <!-- <meta property="og:image" content=""/> -->
+
+     <!-- endbuild -->
+  </head>
+  <body>
+	  
+
+		<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KPZTG2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KPZTG2');</script>
+<!-- End Google Tag Manager -->
+
+	<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:true ,banner:false ,submenu:false}</script>
+
+	<header>
+		<section id="social-search">
+			<div class="center">
+
+				<div class="logo"><a href="http://www.estrelando.com.br/"><img src="http://www.estrelando.com.br/images/logo.png" /></a></div>
+				<div class="social-search">
+					<nav class="social">
+						<a href="https://instagram.com/portalestrelando" class="ig" target="_blank"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.facebook.com/estrelando?fref=ts" class="fb"  target="_blank"><i class="fa fa-facebook-square"></i></a>
+						<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://plus.google.com/+PortalEstrelando/posts" class="gp" target="_blank"><i class="fa fa-google-plus"></i></a>
+					</nav>
+					<div class="busca">
+						<form action="http://www.estrelando.com.br/busca-geral/" method="GET" name="form-busca">
+							<input type="text" name="q" class="input-busca" placeholder="Encontre no Estrelando" value=""/>
+							<div class="btn-busca-lupa"><input type="submit" class="btn-busca" value="BUSCAR" /></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+		
+        
+        <section id="menu-bar">
+			<div class="center">
+				<ul>
+					<li class="celebridades " >
+						<a href="http://www.estrelando.com.br/celebridades">Celebridades</a>
+						<ul >
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/celebridades/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/rankings"><span>Ranking</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/perfis"><span>Perfis</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/celebridades/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>
+					</li>
+					<li class="estilo " >
+						<a href="http://www.estrelando.com.br/estilo">Estilo</a>
+						<ul >
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/estilo/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/estilo/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/estilo/rankings"><span>Ranking</span></a></li>
+								<!--<li><a href="http://www.estrelando.com.br/estilo/perfis"><span>Perfis</span></a></li>-->
+								<li><a href="http://www.estrelando.com.br/estilo/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/estilo/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/estilo/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>
+					</li>
+					<li class="realities " >
+						<a href="http://www.estrelando.com.br/realities">Realities</a>
+						<ul >
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/realities/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/rankings"><span>Ranking</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/perfis"><span>Perfis</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/realities/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>
+					</li>
+					<li class="series " >
+						<a href="http://www.estrelando.com.br/series">Séries</a>
+						<ul >
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/series/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/rankings"><span>Ranking</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/perfis"><span>Perfis</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/series/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>
+					</li>
+					<li class="teen hover" >
+						<a href="http://www.estrelando.com.br/teen">Teen</a>
+						<ul style="display:block">
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/teen/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/rankings" class="ajaxed"><span>Ranking</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/perfis"><span>Perfis</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/teen/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>
+					</li>
+					<li class="videos ">
+						<a href="http://www.estrelando.com.br/videos">Vídeos</a>
+						<!--<ul >
+							<div class="align-menu">
+								<li><a href="http://www.estrelando.com.br/videos/notas"><span>Notícias</span></a></li>
+								<li><a href="http://www.estrelando.com.br/videos/fotos"><span>Fotos</span></a></li>
+								<li><a href="http://www.estrelando.com.br/videos/rankings"><span>Ranking</span></a></li>
+								<li><a href="http://www.estrelando.com.br/videos/quizes"><span>Quiz</span></a></li>
+								<li><a href="http://www.estrelando.com.br/videos/foruns"><span>Fóruns</span></a></li>
+								<li><a href="http://www.estrelando.com.br/videos/enquetes"><span>Enquete</span></a></li>
+							</div>
+							<div class="menu-social">
+								<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+								<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>					
+							</div>
+						</ul>-->
+					</li>
+					<li class="especiais ">
+						<a href="http://www.estrelando.com.br/especiais">Especiais</a>
+					</li>
+				</ul>
+			</div>
+		</section>	</header>
+
+	<section id="content">
+		<div class="center">
+
+			<div class="publicidade-newsletter">
+      <div class="pub adCabecalho">
+<!-- /10646962/teen_970x90_1 -->
+<div id='div-8c2a00c456aafb7d94444056df8c5d25'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-8c2a00c456aafb7d94444056df8c5d25'); });
+</script>
+</div>
+
+</div>
+       </div>
+
+			<div class="editorias teen">
+				<div class="noticia-title">
+					<h1>Teen</h1>
+					<div class="noticia-publicacao">VOCÊ ESTÁ AQUI: <a href="" class="hover">Teen</a></div>
+				</div>
+
+
+				<div class="compartilhar-interna">
+					<nav>
+                    	<a href="https://www.facebook.com/estrelando?fref=ts" target="_blank" class="fb" ><i class="fa fa-facebook-square"></i>Facebook</a>
+						<a href="https://twitter.com/estrelando" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+						<a href="https://plus.google.com/+PortalEstrelando/posts" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+						<a href="https://instagram.com/portalestrelando" target="_blank" class="ig"><i class="fa fa-instagram"></i>Instagram</a>
+					</nav>
+				</div>
+
+				<div class="destaques">
+                								<div class="destaques-left">
+					  								<div class="destaque-1">
+									<a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed"><img src="/uploads/2017/03/28/emmy-1490735382.600x360.jpg"/></a>
+									<div class="legenda">
+										<div class="legenda-texto">
+                                            											<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed">Ladrões roubam a casa de Emmy Rossum e causam prejuízo de mais de 400 mil reais. Confira quem são os famosos que já tiveram suas mansões invadidas!</a></h3>
+											<!--<a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed"></a>-->
+										</div>
+										<div class="compartilhar-destaque">
+											<ul>
+											  <li><a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" onClick="alterMetaTag("Ladrões roubam a casa de Emmy Rossum e causam prejuízo de mais de 400 mil reais. Confira quem são os famosos que já tiveram suas mansões invadidas!","","http://www.estrelando.com.br/uploads/2017/03/28/emmy-1490735382.300x300.jpg");"><i class="fa fa-facebook-square"></i></a></li>
+                                              <li><a href="https://twitter.com/intent/tweet?via=Estrelando&url=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780"><i class="fa fa-twitter"></i></a></li>
+                                              <li><a href="https://plus.google.com/share?url=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+											<a href="" class="icon-compartilhar"></a>
+										</div>
+									</div>
+									<div class="destaque-data">
+                                    28<br/>
+                                    Mar                                	</div>
+                            	</div>
+                         								<div class="destaque-2">
+									<a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed"><img src="/uploads/2017/03/28/larissamanoela-1490731397.296x180.jpg"/></a>
+									<div class="legenda">
+										<div class="legenda-texto">
+                                            											<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed">Larissa Manoela posta montagem com Justin Bieber n...</a></h3>
+											<!--<a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed"></a>-->
+										</div>
+										<div class="compartilhar-destaque">
+											<ul>
+											  <li><a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" onClick="alterMetaTag("Larissa Manoela posta montagem com Justin Bieber no lugar do ex-namorado, vem ver!","","http://www.estrelando.com.br/uploads/2017/03/28/larissamanoela-1490731397.300x300.jpg");"><i class="fa fa-facebook-square"></i></a></li>
+                                              <li><a href="https://twitter.com/intent/tweet?via=Estrelando&url=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297"><i class="fa fa-twitter"></i></a></li>
+                                              <li><a href="https://plus.google.com/share?url=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+											<a href="" class="icon-compartilhar"></a>
+										</div>
+									</div>
+									<div class="destaque-data">
+                                    28<br/>
+                                    Mar                                	</div>
+                            	</div>
+                         								<div class="destaque-3">
+									<a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed"><img src="/uploads/2017/03/28/taylorbillie-1490728242.296x180.jpg"/></a>
+									<div class="legenda">
+										<div class="legenda-texto">
+                                            											<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed">Taylor Lautner e Billie Lourd celebram a chegada d...</a></h3>
+											<!--<a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed"></a>-->
+										</div>
+										<div class="compartilhar-destaque">
+											<ul>
+											  <li><a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" onClick="alterMetaTag("Taylor Lautner e Billie Lourd celebram a chegada da primavera em grande estilo!","","http://www.estrelando.com.br/uploads/2017/03/28/taylorbillie-1490728242.300x300.jpg");"><i class="fa fa-facebook-square"></i></a></li>
+                                              <li><a href="https://twitter.com/intent/tweet?via=Estrelando&url=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293"><i class="fa fa-twitter"></i></a></li>
+                                              <li><a href="https://plus.google.com/share?url=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+											<a href="" class="icon-compartilhar"></a>
+										</div>
+									</div>
+									<div class="destaque-data">
+                                    28<br/>
+                                    Mar                                	</div>
+                            	</div>
+                         								</div><div class="destaques-right">
+					  								<div class="destaque-4">
+									<a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed"><img src="/uploads/2017/03/28/maisasilva-1490724735.450x270.jpg"/></a>
+									<div class="legenda">
+										<div class="legenda-texto">
+                                            											<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed">Maísa Silva implora para ir a <i>after party</i> de Justin Bieber, vem ver!</a></h3>
+											<!--<a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed"></a>-->
+										</div>
+										<div class="compartilhar-destaque">
+											<ul>
+											  <li><a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" onClick="alterMetaTag("Maísa Silva implora para ir a <i>after party</i> de Justin Bieber, vem ver!","","http://www.estrelando.com.br/uploads/2017/03/28/maisasilva-1490724735.300x300.jpg");"><i class="fa fa-facebook-square"></i></a></li>
+                                              <li><a href="https://twitter.com/intent/tweet?via=Estrelando&url=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289"><i class="fa fa-twitter"></i></a></li>
+                                              <li><a href="https://plus.google.com/share?url=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+											<a href="" class="icon-compartilhar"></a>
+										</div>
+									</div>
+									<div class="destaque-data">
+                                    28<br/>
+                                    Mar                                	</div>
+                            	</div>
+                         								<div class="destaque-5">
+									<a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed"><img src="/uploads/2017/03/28/sophia-abrahao-completa-um-ano-na-bancada-do-video-show-1490714743.450x270.jpg"/></a>
+									<div class="legenda">
+										<div class="legenda-texto">
+                                            											<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed">Sophia Abrahão comemora um mês na bancada do <i>Vídeo Show</i>: <i>- Estou me soltando cada vez mais</i></a></h3>
+											<!--<a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed"></a>-->
+										</div>
+										<div class="compartilhar-destaque">
+											<ul>
+											  <li><a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" onClick="alterMetaTag("Sophia Abrahão comemora um mês na bancada do <i>Vídeo Show</i>: <i>- Estou me soltando cada vez mais</i>","","http://www.estrelando.com.br/uploads/2017/03/28/sophia-abrahao-completa-um-ano-na-bancada-do-video-show-1490714743.300x300.jpg");"><i class="fa fa-facebook-square"></i></a></li>
+                                              <li><a href="https://twitter.com/intent/tweet?via=Estrelando&url=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282"><i class="fa fa-twitter"></i></a></li>
+                                              <li><a href="https://plus.google.com/share?url=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282"><i class="fa fa-google-plus"></i></a></li>
+											</ul>
+											<a href="" class="icon-compartilhar"></a>
+										</div>
+									</div>
+									<div class="destaque-data">
+                                    28<br/>
+                                    Mar                                	</div>
+                            	</div>
+                         </div>				</div>
+				<div class="pub adCabecalho">
+<!-- /10646962/teen_970x90_2 -->
+<div id='div-011c69615d6971ea204602572696d46a'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-011c69615d6971ea204602572696d46a'); });
+</script>
+</div>
+
+</div>
+				<div class="editorias-conteudo">
+
+					<div class="editorias-lista">
+						<ul class="listagem-noticias">
+                    <li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed"><img src="/uploads/2017/03/28/emmy-1490735382.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed">Ladrões roubam a casa de Emmy Rossum e causam prejuízo de mais de 400 mil reais. Confira quem são os famosos que já tiveram suas mansões invadidas!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" target="_blank" class="fb" onClick="alterMetaTag('Ladrões roubam a casa de Emmy Rossum e causam prejuízo de mais de 400 mil reais. Confira quem são os famosos que já tiveram suas mansões invadidas!','',"http://www.estrelando.com.br/uploads/2017/03/28/emmy-1490735382.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed"><img src="/uploads/2017/03/28/larissamanoela-1490731397.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed">Larissa Manoela posta montagem com Justin Bieber no lugar do ex-namorado, vem ver!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" target="_blank" class="fb" onClick="alterMetaTag('Larissa Manoela posta montagem com Justin Bieber no lugar do ex-namorado, vem ver!','',"http://www.estrelando.com.br/uploads/2017/03/28/larissamanoela-1490731397.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/larissa-manoela-posta-montagem-com-justin-bieber-no-lugar-do-ex-namorado-vem-ver-214297" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed"><img src="/uploads/2017/03/28/taylorbillie-1490728242.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed">Taylor Lautner e Billie Lourd celebram a chegada da primavera em grande estilo!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" target="_blank" class="fb" onClick="alterMetaTag('Taylor Lautner e Billie Lourd celebram a chegada da primavera em grande estilo!','',"http://www.estrelando.com.br/uploads/2017/03/28/taylorbillie-1490728242.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/taylor-lautner-e-billie-lourd-celebram-a-chegada-da-primavera-em-grande-estilo-214293" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed"><img src="/uploads/2017/03/28/maisasilva-1490724735.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed">Maísa Silva implora para ir a <i>after party</i> de Justin Bieber, vem ver!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" target="_blank" class="fb" onClick="alterMetaTag('Maísa Silva implora para ir a <i>after party</i> de Justin Bieber, vem ver!','',"http://www.estrelando.com.br/uploads/2017/03/28/maisasilva-1490724735.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/maisa-silva-implora-para-ir-a-after-party-de-justin-bieber-vem-ver-214289" class="ajaxed"></a></p>
+											</div>
+										</li>
+																 <div style="margin: 20px -20px 20px -20px">
+									 	<!-- /10646962/teen_728x90_1 -->
+<div id='div-bb13bd52b9f9643c49de2b013ab5bb1e'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-bb13bd52b9f9643c49de2b013ab5bb1e'); });
+</script>
+</div>
+
+								 	 </div>
+								 <li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed"><img src="/uploads/2017/03/28/sophia-abrahao-completa-um-ano-na-bancada-do-video-show-1490714743.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed">Sophia Abrahão comemora um mês na bancada do <i>Vídeo Show</i>: <i>- Estou me soltando cada vez mais</i></a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" target="_blank" class="fb" onClick="alterMetaTag('Sophia Abrahão comemora um mês na bancada do <i>Vídeo Show</i>: <i>- Estou me soltando cada vez mais</i>','',"http://www.estrelando.com.br/uploads/2017/03/28/sophia-abrahao-completa-um-ano-na-bancada-do-video-show-1490714743.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/sophia-abrahao-comemora-um-mês-na-bancada-do-video-show---estou-me-soltando-cada-vez-mais-214282" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" class="ajaxed"><img src="/uploads/2017/03/28/nina-dobrev-1490714138.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" class="ajaxed">Nina Dobrev perde o seu gatinho e faz homenagem nas redes sociais. Veja os famosos que adoram seus <i>pets</i>!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" target="_blank" class="fb" onClick="alterMetaTag('Nina Dobrev perde o seu gatinho e faz homenagem nas redes sociais. Veja os famosos que adoram seus <i>pets</i>!','',"http://www.estrelando.com.br/uploads/2017/03/28/nina-dobrev-1490714138.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-adoram-exibir-seus-pets-177452" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" class="ajaxed"><img src="/uploads/2017/03/28/anafurtado-1490712756.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" class="ajaxed">Ana Furtado muda o visual e escurece os fios. Confira as famosas que eram loiras e ficaram morenas!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" target="_blank" class="fb" onClick="alterMetaTag('Ana Furtado muda o visual e escurece os fios. Confira as famosas que eram loiras e ficaram morenas!','',"http://www.estrelando.com.br/uploads/2017/03/28/anafurtado-1490712756.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-as-famosas-que-eram-loiras-e-ficaram-morenas-181532" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" class="ajaxed"><img src="/uploads/2017/03/28/fiorella-mattheis-1490711041.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" class="ajaxed">Fiorella Mattheis adota fios rosa para viver uma <i>stripper</i>. Confira os famosos que adoram cabelos coloridos!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" target="_blank" class="fb" onClick="alterMetaTag('Fiorella Mattheis adota fios rosa para viver uma <i>stripper</i>. Confira os famosos que adoram cabelos coloridos!','',"http://www.estrelando.com.br/uploads/2017/03/28/fiorella-mattheis-1490711041.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-sao-os-famosos-que-adoram-cabelos-coloridos-137681" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" class="ajaxed"><img src="/uploads/2017/03/28/jessica-chastain-decote-1490710125.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" class="ajaxed">Jessica Chastain vai à <i>première</i> de filme com vestido decotado e chama atenção. Veja quem mais adora apostar em decotes!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" target="_blank" class="fb" onClick="alterMetaTag('Jessica Chastain vai à <i>première</i> de filme com vestido decotado e chama atenção. Veja quem mais adora apostar em decotes!','',"http://www.estrelando.com.br/uploads/2017/03/28/jessica-chastain-decote-1490710125.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/28/veja-quem-mais-adora-apostar-em-decotes-213010" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" class="ajaxed"><img src="/uploads/2017/03/28/shailene-woodley-1490706451.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" class="ajaxed">Shailene Woodley se alegará culpada e ficará um ano em condicional</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" target="_blank" class="fb" onClick="alterMetaTag('Shailene Woodley se alegará culpada e ficará um ano em condicional','',"http://www.estrelando.com.br/uploads/2017/03/28/shailene-woodley-1490706451.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/shailene-woodley-se-alegara-culpada-e-ficara-um-ano-em-condicional-214271" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>28</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" class="ajaxed"><img src="/uploads/2017/03/28/justin-bieber-tera-que-cumprir-pena-mas-nao-teve-passaporte-retido-no-brasil-e-organiza-festa-secreta-1490701915.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" class="ajaxed">Justin Bieber deve participar de festão no Rio de Janeiro, após <i>show</i> de quarta-feira. Saiba os detalhes!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" target="_blank" class="fb" onClick="alterMetaTag('Justin Bieber deve participar de festão no Rio de Janeiro, após <i>show</i> de quarta-feira. Saiba os detalhes!','',"http://www.estrelando.com.br/uploads/2017/03/28/justin-bieber-tera-que-cumprir-pena-mas-nao-teve-passaporte-retido-no-brasil-e-organiza-festa-secreta-1490701915.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>27</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" class="ajaxed"><img src="/uploads/2017/03/27/rafa-brites-1490631650.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" class="ajaxed">Rafa Brites garante que na hora de limpar o banheiro <I>não tem para ninguém</I>! Veja os famosos que são gente como a gente!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" target="_blank" class="fb" onClick="alterMetaTag('Rafa Brites garante que na hora de limpar o banheiro <I>não tem para ninguém</I>! Veja os famosos que são gente como a gente!','',"http://www.estrelando.com.br/uploads/2017/03/27/rafa-brites-1490631650.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/27/veja-os-famosos-que-sao-gente-como-a-gente-162306" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-gallery">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>27</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" class="ajaxed"><img src="/uploads/2017/03/27/underwater-2-1490625695.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" class="ajaxed">Kristen Stewart aparece toda machucada em bastidores de filme, entenda!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" target="_blank" class="fb" onClick="alterMetaTag('Kristen Stewart aparece toda machucada em bastidores de filme, entenda!','',"http://www.estrelando.com.br/uploads/2017/03/27/underwater-2-1490625695.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/foto/2017/03/27/kristen-stewart-aparece-toda-machucada-em-bastidores-de-filme-entenda-214236" class="ajaxed"></a></p>
+											</div>
+										</li>
+							<li class="icon-news">
+											<div class="editoria-data">
+												<div class="editoria-item-icon"></div>
+												<h3>27</h3>
+												<p>Mar</p>
+											</div>
+											<a href="http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" class="ajaxed"><img src="/uploads/2017/03/27/kendall1-1490624875.300x300.jpg" width="185" height="185"/></a></a>
+											<div class="editoria-texto">
+												<h3><a href="http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" class="ajaxed">Kendall Jenner encarna Marilyn Monroe em vídeo retrô, assista!</a></h3>
+												<div class="compartilhar-realities">
+													<nav>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" target="_blank" class="fb" onClick="alterMetaTag('Kendall Jenner encarna Marilyn Monroe em vídeo retrô, assista!','',"http://www.estrelando.com.br/uploads/2017/03/27/kendall1-1490624875.300x300.jpg");"><i class="fa fa-facebook-square"></i>Facebook</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" target="_blank" class="tw"><i class="fa fa-twitter"></i>Twitter</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" target="_blank" class="gp"><i class="fa fa-google-plus"></i>Google+</a>
+														<a href="http://www.facebook.com/sharer.php?u=http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" target="_blank" class="pt"><i class="fa fa-pinterest"></i>Pinterest</a>
+													</nav>
+												</div>
+												<p><a href="http://www.estrelando.com.br/nota/2017/03/27/kendall-jenner-encarna-marilyn-monroe-em-video-retro-assista-214237" class="ajaxed"></a></p>
+											</div>
+										</li>
+							
+						</ul>
+
+						<div class="paginacao">
+							 <ul>
+   
+				     <li><a  class="hover" href="/teen/?pagina=1">1</a></li>
+							     <li><a   href="/teen/?pagina=2">2</a></li>
+							     <li><a   href="/teen/?pagina=3">3</a></li>
+							     <li><a   href="/teen/?pagina=4">4</a></li>
+							     <li><a   href="/teen/?pagina=5">5</a></li>
+							<li><a  href="/teen/?pagina=6.1333333333333" class="next"></a></li>
+     </ul>
+<div class="bg-paginacao"></div>
+    							<div class="bg-paginacao"></div>
+						</div>
+					</div>
+
+
+
+					<div class="aside">
+						<div class="align-aside">
+
+							<div class="publicidade300x250"><!-- /10646962/teen_300x250_1 -->
+<div id='div-83ab98173b19d01fbf5d1137f06e12ed'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-83ab98173b19d01fbf5d1137f06e12ed'); });
+</script>
+</div>
+
+</div>
+
+							<div class="social-sidebar">
+    <div class="sidebar-facebook">
+        <a href="https://www.facebook.com/estrelando?fref=ts" target="_blank">
+            <i class="fa fa-facebook-square"></i>
+            <div class="btn-like">
+                <h2>Like</h2>
+                <h3>Estrelando</h3>
+            </div>
+        </a>
+    </div>
+    <div class="sidebar-twitter">
+        <a href="https://twitter.com/estrelando" target="_blank"><i class="fa fa-twitter"></i>							
+            <div class="btn-like">
+                <h2>Twitter</h2>
+                <h3>@estrelando</h3>
+            </div>
+        </a>	
+    </div>
+</div>							   
+    <div class="noticias-famosos">
+        <div class="noticias-header">
+            <a href="javascript:" onClick="maislidas(1);" class="left active">Mais Lidas</a>
+            <a href="javascript:" onClick="maislidas(1);" class="right">Últimas</a>
+        </div>
+        <div class="mlidas1" style="display:none">
+            <ul class="noticias-middle">
+                                     <li>
+                                                                    <a href="http://www.estrelando.com.br/foto/2015/04/29/robert-downey-jr-se-reencontrou-com-sarah-jessica-parker-sua-ex-e-disse-que-a-amou-relembre-aqui-os-casais-mais-improvaveis-161674" class="ajaxed">
+                                        <img src="/uploads/2015/04/29/fto_ft1_200001.300x300.jpg" width="90" height="90"/>
+                                    </a>
+
+                            <div><a href="http://www.estrelando.com.br/foto/2015/04/29/robert-downey-jr-se-reencontrou-com-sarah-jessica-parker-sua-ex-e-disse-que-a-amou-relembre-aqui-os-casais-mais-improvaveis-161674" class="ajaxed">Robert Downey Jr. se reencontrou com Sarah Jessica Parker, sua ex, e disse que a amou. Relembre aqui os casais mais improváveis!</a></div>
+                        </li>
+            
+                                 <li>
+                                                                    <a href="http://www.estrelando.com.br/foto/2014/12/16/assim-como-os-irmaos-shiloh-usa-terno-e-gravata-para-evento-veja-flagras-e-looks-da-filha-de-angelina-jolie-e-brad-pitt-157857" class="ajaxed">
+                                        <img src="/uploads/2014/12/16/fto_ft1_191886.300x300.jpg" width="90" height="90"/>
+                                    </a>
+
+                            <div><a href="http://www.estrelando.com.br/foto/2014/12/16/assim-como-os-irmaos-shiloh-usa-terno-e-gravata-para-evento-veja-flagras-e-looks-da-filha-de-angelina-jolie-e-brad-pitt-157857" class="ajaxed">Assim como os irmãos, Shiloh usa terno e gravata para evento. Veja flagras e <i>looks</i> da filha de Angelina Jolie e Brad Pitt!</a></div>
+                        </li>
+            
+                                 <li>
+                                                                    <a href="http://www.estrelando.com.br/foto/2015/05/16/ana-paula-siebert-exibe-a-boa-forma-em-praia-paradisiaca-confira-as-fotos-da-lua-de-mel-dela-e-de-roberto-justus-190456" class="ajaxed">
+                                        <img src="/uploads/2015/05/16/fto_ft1_274544.300x300.jpg" width="90" height="90"/>
+                                    </a>
+
+                            <div><a href="http://www.estrelando.com.br/foto/2015/05/16/ana-paula-siebert-exibe-a-boa-forma-em-praia-paradisiaca-confira-as-fotos-da-lua-de-mel-dela-e-de-roberto-justus-190456" class="ajaxed">Ana Paula Siebert exibe a boa forma em praia paradisíaca. Confira as fotos da lua de mel dela e de Roberto Justus!</a></div>
+                        </li>
+            
+                                 <li>
+                                                                    <a href="http://www.estrelando.com.br/foto/2014/10/15/thais-fersoza-da-detalhes-sobre-o-vestido-todo-pensado-com-tanto-carinho-confira-aqui-as-famosas-que-sairam-do-comum-com-o-vestido-de-noiva-148022" class="ajaxed">
+                                        <img src="/uploads/2014/10/15/fto_ft1_174017.300x300.jpg" width="90" height="90"/>
+                                    </a>
+
+                            <div><a href="http://www.estrelando.com.br/foto/2014/10/15/thais-fersoza-da-detalhes-sobre-o-vestido-todo-pensado-com-tanto-carinho-confira-aqui-as-famosas-que-sairam-do-comum-com-o-vestido-de-noiva-148022" class="ajaxed">Thais Fersoza dá detalhes sobre o vestido: <i>Todo pensado com tanto carinho</i>, confira aqui as famosas que saíram do comum com o vestido de noiva!</a></div>
+                        </li>
+            
+                                 <li>
+                                                                    <a href="http://www.estrelando.com.br/foto/2015/05/27/preta-gil-e-rodrigo-godoy-aproveitam-ultimo-almoco-em-dubai-saiba-tudo-sobre-a-lua-de-mel-do-casal-190768" class="ajaxed">
+                                        <img src="/uploads/2015/05/27/fto_ft1_275525.300x300.jpg" width="90" height="90"/>
+                                    </a>
+
+                            <div><a href="http://www.estrelando.com.br/foto/2015/05/27/preta-gil-e-rodrigo-godoy-aproveitam-ultimo-almoco-em-dubai-saiba-tudo-sobre-a-lua-de-mel-do-casal-190768" class="ajaxed">Preta Gil e Rodrigo Godoy aproveitam último almoço em Dubai. Saiba tudo sobre a lua de mel do casal!</a></div>
+                        </li>
+                        </ul>
+
+           <!-- <div class="noticias-footer">
+                <a href="">Veja mais</a>
+            </div>	-->
+
+        </div>
+
+       <div class="ultidas1">
+                <ul class="noticias-middle">
+                
+            
+            
+            
+            
+                                     <li>
+                                                                     <a href="http://www.estrelando.com.br/foto/2017/03/28/confira-o-antes-e-depois-de-john-travolta-e-elenco-de-grease---nos-tempos-da-brilhantina-156482" class="ajaxed">
+                                        <img src="/uploads/2017/03/28/olivia-1490738560.300x300.jpg" width="90" height="90"/>
+                                    </a>
+                                                         <div><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-o-antes-e-depois-de-john-travolta-e-elenco-de-grease---nos-tempos-da-brilhantina-156482" class="ajaxed">Olivia Newton-John diz que reunião de 40 anos de <i>Grease</i> pode acontecer. Confira o antes e depois do elenco do filme!</a></div>
+                        </li>
+                
+                                     <li>
+                                                                     <a href="http://www.estrelando.com.br/nota/2017/03/28/gwen-stefani-que-se-cuide-blake-shelton-da-em-cima-de-luke-bryan-entenda-214303" class="ajaxed">
+                                        <img src="/uploads/2017/03/28/blakeluke-1490738425.300x300.jpg" width="90" height="90"/>
+                                    </a>
+                                                         <div><a href="http://www.estrelando.com.br/nota/2017/03/28/gwen-stefani-que-se-cuide-blake-shelton-da-em-cima-de-luke-bryan-entenda-214303" class="ajaxed">Gwen Stefani que se cuide: Blake Shelton dá em cima de Luke Bryan, entenda!</a></div>
+                        </li>
+                
+                                     <li>
+                                                                     <a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed">
+                                        <img src="/uploads/2017/03/28/emmy-1490735382.300x300.jpg" width="90" height="90"/>
+                                    </a>
+                                                         <div><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-quem-sao-os-famosos-que-ja-tiveram-suas-mansoes-invadidas-211780" class="ajaxed">Ladrões roubam a casa de Emmy Rossum e causam prejuízo de mais de 400 mil reais. Confira quem são os famosos que já tiveram suas mansões invadidas!</a></div>
+                        </li>
+                
+                                     <li>
+                                                                     <a href="http://www.estrelando.com.br/nota/2017/03/28/o-futuro-chegou-sequência-de-jumanji-tera-videogame-ao-inves-de-jogo-de-tabuleiro-214301" class="ajaxed">
+                                        <img src="/uploads/2017/03/28/jumanji2-1490735873.300x300.jpg" width="90" height="90"/>
+                                    </a>
+                                                         <div><a href="http://www.estrelando.com.br/nota/2017/03/28/o-futuro-chegou-sequência-de-jumanji-tera-videogame-ao-inves-de-jogo-de-tabuleiro-214301" class="ajaxed">O futuro chegou: sequência de <i>Jumanji</i> terá <i>videogame</i> ao invés de jogo de tabuleiro!</a></div>
+                        </li>
+                
+                                     <li>
+                                                                     <a href="http://www.estrelando.com.br/foto/2017/03/28/emilio-orciollo-neto-paula-burlamaqui-e-nathalia-dill-estreiam-em-nova-profissao-entenda-214300" class="ajaxed">
+                                        <img src="/uploads/2017/03/28/ceu1-1490735133.300x300.jpg" width="90" height="90"/>
+                                    </a>
+                                                         <div><a href="http://www.estrelando.com.br/foto/2017/03/28/emilio-orciollo-neto-paula-burlamaqui-e-nathalia-dill-estreiam-em-nova-profissao-entenda-214300" class="ajaxed">Emilio Orciollo Neto, Paula Burlamaqui e Nathalia Dill estreiam em nova profissão, entenda!</a></div>
+                        </li>
+                
+            
+                </ul>
+                <div class="noticias-footer">
+                     <a href="/celebridades/notas">Veja mais</a>
+                </div>
+         </div>
+    </div>
+
+   													<div class="enquete">
+							<div class="foto-enquete">
+								<img src="/uploads/2017/03/21/live-action-disney-1490126345.335x220.jpg" width="300" height="196">
+							</div>
+                           	<div class="formulario-enquete">
+                                 <h3>Enquete</h3>
+                                 <h2>Qual <i>live action</i> está te deixando mais ansioso?</h2>
+
+                            	<form action="" method="POST" name="enqueteinterna_1">
+									<input type="hidden" name="ipaddress" id="ipaddress" value="172.25.129.7"/>
+									 <div id="res1_1" style="display:block;  overflow:hidden">
+																				<div class="input-text">
+												<div class="input-radio"><input type="radio" name="enquete_1" value="" id="op_0" class="" onClick="ativaVotoEnqueteInterna4('enqueteinterna_1',5265,1);"><label for="op_0"></label></div>
+												<div class="text-radio"><i>O Rei Leão</i>, vai ser incrível!</div>
+											</div>
+
+																				<div class="input-text">
+												<div class="input-radio"><input type="radio" name="enquete_1" value="" id="op_1" class="" onClick="ativaVotoEnqueteInterna4('enqueteinterna_1',5266,1);"><label for="op_1"></label></div>
+												<div class="text-radio"><i>Mulan</i>, melhor princesa!</div>
+											</div>
+
+																				<div class="input-text">
+												<div class="input-radio"><input type="radio" name="enquete_1" value="" id="op_2" class="" onClick="ativaVotoEnqueteInterna4('enqueteinterna_1',5267,1);"><label for="op_2"></label></div>
+												<div class="text-radio"><i>Aladdin</i>, imagina o Gênio?!</div>
+											</div>
+
+																				<div class="input-text">
+												<div class="input-radio"><input type="radio" name="enquete_1" value="" id="op_3" class="" onClick="ativaVotoEnqueteInterna4('enqueteinterna_1',5268,1);"><label for="op_3"></label></div>
+												<div class="text-radio"><I>A Pequena Sereia</i>, votamos na Lindsay Lohan para Ariel!</div>
+											</div>
+
+									
+                                      </div>
+
+                                      <div id="res2_1" style="display:none;  overflow:hidden">
+                                        <div class="input-text">
+													  <div class="input-radio">45%</div>
+													  <div class="text-radio"><i>O Rei Leão</i>, vai ser incrível!</div>
+												   </div>
+										<div class="input-text">
+													  <div class="input-radio">22%</div>
+													  <div class="text-radio"><i>Mulan</i>, melhor princesa!</div>
+												   </div>
+										<div class="input-text">
+													  <div class="input-radio">12%</div>
+													  <div class="text-radio"><i>Aladdin</i>, imagina o Gênio?!</div>
+												   </div>
+										<div class="input-text">
+													  <div class="input-radio">21%</div>
+													  <div class="text-radio"><I>A Pequena Sereia</i>, votamos na Lindsay Lohan para Ariel!</div>
+												   </div>
+										
+											   <div class="input-text">		<br>
+												  <div class="input-radio"></div>
+												  											  </div>
+
+
+                                        </div>
+
+                                        <div class="input-btn">
+                                            <input type="hidden" name="votes_1" id="votes_1" value="" />
+                                            <button  type="button" name="enviar" id="enviarvoto" onClick="ini_enquente_interna_home(214057,document.enqueteinterna_1.votes_1.value,1);">Votar</button>
+                                            <a href="javascript:" class="enquete-btn" id="re1" onclick="verres1(1);">Ver Resultado</a>
+                                        </div>
+
+                                        <div id="agradecimento1" style=" position:absolute; text-align:center; bottom: 45px; left: 30px; display:none;">
+                                            <h3>Obrigado! Seu voto foi enviado.</h3>
+                                        </div>
+								</form>
+							</div>
+						</div>
+
+
+	  							<!-- /10646962/teen_300x600_1 -->
+<div id='div-7807cb0e8427b39d69f17e4ec7279a9a'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-7807cb0e8427b39d69f17e4ec7279a9a'); });
+</script>
+</div>
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+<footer>
+		<div class="footer-conteudo">
+			 <div class="footer-destaque">
+				<div class="bg-descricao left">
+					<div class="footer-destaque-descricao">
+						<h3>NOVELAS</h3>
+                        										<p>Saiba tudo dos bastidores e dos próximos capítulos!</p>
+														</div>
+			  </div>
+
+			  <div class="bg-rotativo right">
+					<div class="rotativo-footer-destaque">
+                        <div class="slidebanner">
+                            <div class="controls-left">
+                                <a href="#" class="prev"><i class="fa fa-angle-left"></i></a>
+                            </div>
+                            <div class="controls-right">
+                                <a href="#" class="next"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                            <div class="mask">
+                                <ul class="thumbnails">
+                                												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/novo-mundo-272"><img src="/uploads/2017/03/23/-6b2d50d487701f25af51b22751b711923ebfe49189e9d5dfe0-pimgpsh_fullsize_distr-1490280425.620x100.jpg" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/rock-story-267"><img src="/uploads/2017/01/09/rock-story-1483976408.620x100.png" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/a-lei-do-amor-265"><img src="/uploads/2017/02/06/a-lei-do-amor-banner-1486409954.620x100.png" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/o-rico-e-lazaro-271"><img src="/uploads/2017/03/13/rico-lazaro-1489433226.620x100.jpg" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/carinha-de-anjo-270"><img src="/uploads/2017/02/06/carinha-de-anjo-1486410101.620x100.jpg" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/carinha-de-anjo-270"><img src="/uploads/2017/02/06/carinha-de-anjo-1486410101.620x100.jpg" width="620" height="100" /></a></li>
+									 												 <li class="item"><a href="http://www.estrelando.com.br/especiais-interna/ezel-268"><img src="/uploads/2017/01/09/ezel-1--1483987345.620x100.png" width="620" height="100" /></a></li>
+									 
+
+
+                                </ul>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-redes">
+				<div class="center">
+					<div class="footer-redes-descricao">
+						<h2>REDES</h2>
+						<h3>SOCIAIS</h3>
+					</div>
+					<div class="footer-redes-lista">
+						<a href="https://www.facebook.com/estrelando?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook-square"></i>FACEBOOK</a>
+						<a href="https://twitter.com/estrelando" class="tw" target="_blank"><i class="fa fa-twitter"></i>TWITTER</a>
+                        <a href="https://instagram.com/portalestrelando" class="ig" target="_blank"><i class="fa fa-instagram"></i>INSTAGRAM</a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="footer-lista">
+				<div class="center">
+					<div class="footer-aplicativo">
+							<h2>BAIXE NOSSO</h2>
+							<h3>APLICATIVO</h3>
+
+							<div class="footer-baixar-app">
+								<a href="https://play.google.com/store/apps/details?id=br.com.containerdigital.estrelando" target="_blank" class="baixar-google-play"></a>
+								<a href="https://itunes.apple.com/us/app/estrelando/id955542944?mt=8" target="_blank" class="baixar-apple-store"></a>
+							</div>
+					</div>
+					<div class="footer-links">
+
+						<div class="footer-links-editoriais">
+							<h3>EDITORIAS</h3>
+							<ul>
+								<li><a href="http://www.estrelando.com.br/celebridades">Celebridades</a></li>
+								<li><a href="http://www.estrelando.com.br/estilo">Estilo</a></li>
+								<li><a href="http://www.estrelando.com.br/realities">Realities</a></li>
+								<li><a href="http://www.estrelando.com.br/series">Séries</a></li>
+								<li><a href="http://www.estrelando.com.br/teen">Teen</a></li>
+								<li><a href="http://www.estrelando.com.br/videos">Vídeos</a></li>
+								<li><a href="http://www.estrelando.com.br/especiais">Especiais</a></li>
+								<!--<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>-->
+							</ul>
+						</div>
+
+												<div class="footer-links-especiais">
+							<h3>ESPECIAIS</h3>
+                            <ul>
+                            									           <li><a href="http://www.estrelando.com.br/especiais-interna/jonas-brothers-183">Jonas Brothers</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/a-fazenda-184">A Fazenda</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/crepusculo-187">Crepúsculo</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/malhação-189">Malhação</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/oscar-205">Oscar</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/família-real-206">Família Real</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/harry-potter-208">Harry Potter</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/jogos-vorazes-212">Jogos Vorazes</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/bbb-214">BBB</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/the-voice-216">The Voice</a></li>
+																		           <li><a href="http://www.estrelando.com.br/especiais-interna/one-direction-228">One Direction</a></li>
+									
+							</ul>
+
+
+						</div>
+
+
+						<div class="footer-links-destaques">
+							<h3>DESTAQUES</h3>
+							<ul>
+                    											<li><a href="http://www.estrelando.com.br/foto/2017/03/28/confira-os-famosos-que-ja-viraram-memes-207952">Sofá de Luma Costa vira <i>meme</i>, veja!</a></li>
+																		<li><a href="http://www.estrelando.com.br/foto/2017/03/28/as-vezes-em-que-nicki-minaj-deu-o-que-falar-211117">Nicki Minaj pergunta por Gretchen</a></li>
+																		<li><a href="http://www.estrelando.com.br/foto/2017/03/28/momentos-em-que-todo-mundo-ja-sabia-que-mariah-carey-e-bryan-tanaka-eram-um-casal-214167">Mariah Carey celebra aniversário, veja!</a></li>
+																		<li><a href="http://www.estrelando.com.br/nota/2017/03/28/justin-bieber-deve-participar-de-festao-no-rio-de-janeiro-apos-show-de-quarta-feira-saiba-os-detalhes-214269">Bieber irá badalar no Rio após <i>show</i></a></li>
+																		<li><a href="http://www.estrelando.com.br/nota/2017/03/28/capitao-america-e-homem-de-ferro-fazem-participacao-em-novo-trailer-de-homem-aranha-de-volta-ao-lar-assista-214278">Veja o <i>trailer </i>do filme do Homem-Aranha</a></li>
+															<!--<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>
+								<li><a href="">Item um da lista</a></li>-->
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="footer">
+			<div class="center">
+				<div class="footer-logo-menu">
+					<div class="footer-logo">
+						<img src="http://www.estrelando.com.br/images/logo.png" />
+					</div>
+					<div class="footer-menu">
+						<nav>
+							<a href="http://www.estrelando.com.br/quem-somos" class="ajaxed">QUEM SOMOS</a>
+							<a href="http://www.estrelando.com.br/contato" class="ajaxed">FALE CONOSCO</a>
+							<!--<a href="http://www.estrelando.com.br/pdf/Estrelando-MídiaKit-2015.pdf" target="_blank">ANUNCIE NO ESTRELANDO</a>-->
+                            <a href="http://www.estrelando.com.br/pdf/MidiaKit_Estrelando_2016.pdf" target="_blank">ANUNCIE NO ESTRELANDO</a>
+
+							<a href="http://www.estrelando.com.br/trabalhe-estrelando" class="ajaxed">TRABALHE NO ESTRELANDO</a>
+						</nav>
+					</div>
+				</div>
+				<div class="copyright-container">
+					<div class="copyright">Copyright - 2017 | Todos os direitos reservados</div>
+					<div class="container">Desenvolvido por <a href="http://containerdigital.com.br/" target="_blank"><img src="http://www.estrelando.com.br/images/logo-container.png" /></a></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bg"></div>
+	</footer>
+
+			
+	
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-3859639-7', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+    <script>
+	  function alterMetaTag(title, fulltext, urlfoto){
+		  /* $("meta[property=og:image]").attr("content", urlfoto);
+		   $("meta[property=og:title]").attr("content", fulltext);
+           $("meta[property=og:description]").attr("content", title);*/
+	  }
+
+	  $(document).ready(function(e) {
+
+		//$('meta[property="og:title"]').remove();
+		//$('meta[property="og:description"]').remove();
+		//$('meta[property="og:url"]').remove();
+
+		//$("head").append('<meta property="og:url" content="blubb3">');
+
+		//$('head').append('<meta property="og:url" content="http://www.estrelando.com.br/teen/">');
+
+
+		//$("meta[property=og:title]").attr("content", ESTRELANDO );
+		/*
+		$('head').append('<meta property="og:title" content="">');
+
+		$(document).attr("title", "ESTRELANDO");
+       	$("head").append('<meta property="og:description" content="">');
+		$("#mtdesc").attr("content","");
+	    $('head').append('<meta property="og:image" content="" />');
+		$("head").append('<meta property="og:site_name" content="ESTRELANDO">');
+		$("head").append('<meta property="og:locale" content="pt_BR">');
+	     */
+      });
+
+	  console.log('?' + "");
+
+	</script>
+
+	<img style="border:0px; display: none" src="http://parceiro.log.r7.com/parceiro.gif">
+	<img src="http://b.scorecardresearch.com/p?c1=2&c2=14194541&cv=2.0&cj=1" />
+
+	<!-- Begin comScore Tag -->
+	<script>

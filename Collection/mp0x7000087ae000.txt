@@ -1,0 +1,1878 @@
+|||http://globosatplay.globo.com/globonews/|<!DOCTYPE html>
+<!--
+1.132.2
+     |         |         |              ,---.
+,---.|    ,---.|---.,---.|--- .    ,    |---',---.,---.,---.,---.,---.,-.-.,---.,---.
+|   ||    |   ||   ||   ||     \  /     |    |    |   ||   ||    ,---|| | |,---|`---.
+`---|`---'`---'`---'`---'`---'  `'      `    `    `---'`---|`    `---^` ' '`---^`---'
+`---'                                                  `---'
+-->
+<html>
+<head>
+  <title>GloboNews | Globosat Play</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+
+  
+  <link rel="canonical" href="http://globosatplay.globo.com/globonews/" />
+
+  <meta name="description" content="Nunca desliga. A GloboNews é o primeiro e mais importante canal de jornalismo da TV brasileira. Momentos decisivos, fatos marcantes. Análise e repercussão. 24 horas no ar."></meta>
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Globosat Play">
+  <meta property="og:title" content="GloboNews">
+  <meta property="og:description" content="Nunca desliga. A GloboNews é o primeiro e mais importante canal de jornalismo da TV brasileira. Momentos decisivos, fatos marcantes. Análise e repercussão. 24 horas no ar.">
+  <meta property="og:url" content="http://globosatplay.globo.com/globonews/">
+  <meta property="og:image" content="https://s2.glbimg.com/vaKVjp1G5oEnuoq0g7fsw-H3U6s=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/44/92/e3e879c57a76b70c1400f7d6cd9e.png">
+
+  <meta name="twitter:card" value="summary">
+  <meta name="twitter:title" value="GloboNews">
+  <meta name="twitter:description" value="Nunca desliga. A GloboNews é o primeiro e mais importante canal de jornalismo da TV brasileira. Momentos decisivos, fatos marcantes. Análise e repercussão. 24 horas no ar.">
+  <meta name="twitter:url" value="http://globosatplay.globo.com/globonews/">
+  <meta name="twitter:image" value="https://s2.glbimg.com/vaKVjp1G5oEnuoq0g7fsw-H3U6s=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/44/92/e3e879c57a76b70c1400f7d6cd9e.png">
+
+  <meta itemprop="gapower:channel_title" content="GloboNews"></meta>
+  <meta itemprop="gapower:program_title" content="GloboNews"></meta>
+
+
+  <link href="https://s.glbimg.com/po/fo/globo-fontface.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" media="all" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/application-9d40f76a780f5916bf7fd79da1974777.css" />
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Ld8ETQzjws1Nrtc8aaErZWZevU94R1x9BH4oNgBZ8dWZNRFbzI9v+dzUdx6YjRezX5FUG7liJEcb+WvXau5bbw==" />
+  <meta name="env-status" />
+
+  <link rel="stylesheet" media="screen" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/temas/globonews-c578bdc8bfa5ceb2d1574eb85c95570e.css" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/favicons/globonews-6cab916a82dbdeaed2cc25af902e4f4e.ico" />
+
+  
+    <meta name="apple-itunes-app" content="app-id=453880374">
+
+  <meta name="google-play-app" content="app-id=com.globo.muuandroidv1">
+
+  <meta name="app-title" content="Globosat Play - Filmes e TV">
+
+  <meta name="app-author" content="Globosat">
+
+  <meta name="app-name" content="Globosat Play">
+
+  <link rel="apple-touch-icon" href='https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/globosatplay/apple-touch-images/touch-icon-globosatplay-0fad810d918c8bb52fdee5a3bf5306b1.jpg'>
+
+<meta name="apple-mobile-web-app-title" content="Globosat Play - Filmes e TV">
+
+</head>
+
+<body class="limit-width" data-service-provider="gplay" data-canal-id="1987" data-canal-slug="globonews" data-canal-titulo-produto="GloboNews Play" data-canal-titulo="GloboNews">
+  <div id="globosat_play_lightbox" class="notificacao"></div>
+
+  <div class="page-wrapper">
+      
+  <header class="globotv-bar product">
+  <div class="container">
+    <a class="logo hover globocom" href="http://www.globo.com/">
+      <span class="svg-container svg-container-globotv-logos-play globocom"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path d="M66.425 75.619c-6.026 0-9.489 3.321-10.845 9.048-4.067-6.634-12.502-9.95-19.882-9.95C13.856 74.716 0 95.07 0 116.932c0 21.56 10.695 41.61 33.439 41.61 9.94 0 17.321-3.613 21.84-10.25h.301v5.126c0 11.006-7.833 17.185-18.375 17.185-12.501 0-20.183-6.782-27.113-6.782-4.218 0-8.736 5.429-8.736 9.5 0 11.911 25.303 16.281 34.191 16.281 24.701 0 41.722-13.118 41.722-39.199V87.686c0-7.242-4.517-12.067-10.844-12.067zm-27.863 63.025c-11.299 0-16.87-10.556-16.87-22.167 0-10.097 5.571-21.859 16.87-21.859 11.897 0 17.018 12.06 17.018 22.62 0 10.554-5.422 21.406-17.018 21.406zM94.14 40.643c-6.325 0-10.843 4.826-10.843 12.061v92.874c0 7.236 4.52 12.062 10.843 12.062 6.327 0 10.847-4.825 10.847-12.062V52.704c0-7.236-4.519-12.061-10.847-12.061zm52.568 34.073c-22.894 0-38.858 20.05-38.858 42.064 0 22.615 15.513 41.761 38.858 41.761 23.348 0 38.862-19.146 38.862-41.761-.003-22.013-15.966-42.064-38.862-42.064zm0 63.928c-11.747 0-17.172-11.46-17.172-21.863 0-10.4 5.275-22.161 17.172-22.161 11.901 0 17.172 11.761 17.172 22.161-.001 10.403-5.422 21.863-17.172 21.863zm84.353-63.928c-7.53 0-14.911 2.562-20.635 7.541V52.704c0-7.235-4.521-12.058-10.846-12.058s-10.844 4.827-10.844 12.058v92.874c0 7.238 4.518 12.062 10.844 12.062 6.025 0 9.489-3.313 10.846-9.043 4.065 6.633 12.501 9.952 19.882 9.952 21.84 0 35.696-20.358 35.696-40.859 0-21.111-11.599-42.974-34.943-42.974zm-3.616 63.928c-11.9 0-17.02-12.064-17.02-22.614 0-10.557 5.42-21.411 17.02-21.411 11.296 0 16.871 11.91 16.871 22.161 0 10.103-5.574 21.864-16.871 21.864zm80.434-63.928c-22.895 0-38.859 20.05-38.859 42.064 0 22.615 15.514 41.761 38.859 41.761 23.345 0 38.859-19.146 38.859-41.761 0-22.013-15.964-42.064-38.859-42.064zm0 63.928c-11.751 0-17.172-11.46-17.172-21.863 0-10.4 5.272-22.161 17.172-22.161 11.898 0 17.173 11.761 17.173 22.161.001 10.403-5.424 21.863-17.173 21.863zm56.031-3.622c-6.471 0-11.744 5.282-11.744 11.764 0 6.484 5.273 11.758 11.744 11.758 6.481 0 11.751-5.273 11.751-11.758 0-6.482-5.269-11.764-11.751-11.764zm73.205-.9c-2.562 0-10.695 4.522-16.113 4.522-11.752 0-18.23-11.156-18.23-21.863 0-11.154 5.878-22.161 18.23-22.161 6.928 0 11.746 4.223 17.168 4.223 5.121 0 8.285-5.88 8.285-10.403 0-10.556-17.924-13.724-26.51-13.724-22.894 0-38.86 20.052-38.86 42.066 0 22.619 15.514 41.761 38.86 41.761 7.835 0 26.51-3.766 26.51-14.925 0-5.126-4.215-9.496-9.34-9.496zm46.547-59.406c-22.893 0-38.865 20.05-38.865 42.064 0 22.615 15.52 41.761 38.865 41.761 23.351 0 38.86-19.146 38.86-41.761 0-22.013-15.969-42.064-38.86-42.064zm0 63.928c-11.748 0-17.174-11.46-17.174-21.863 0-10.4 5.277-22.161 17.174-22.161 11.897 0 17.171 11.761 17.171 22.161-.002 10.403-5.424 21.863-17.171 21.863zm128.333-63.928c-7.384 0-16.868 4.071-22.894 11.007-5.723-7.237-13.405-11.007-22.442-11.007-7.979 0-14.911 3.316-20.185 9.047-.756-5.125-4.363-8.145-9.938-8.145-6.331 0-10.85 4.826-10.85 12.063v57.896c0 7.236 4.519 12.062 10.85 12.062 6.32 0 10.843-4.825 10.843-12.062v-37.841c0-8.747 3.91-14.927 12.8-14.927 7.834 0 12.654 6.181 12.654 14.927v37.841c0 7.236 4.517 12.062 10.843 12.062s10.843-4.825 10.843-12.062v-37.841c0-8.747 4.824-14.927 12.807-14.927 7.835 0 12.651 6.181 12.651 14.927v37.841c0 7.236 4.52 12.062 10.845 12.062 6.324 0 10.843-4.825 10.843-12.062v-41.611c.002-18.996-12.048-29.25-29.67-29.25z"></path></svg></span>
+    </a>
+
+      <a class="logo hover" href="https://globosatplay.globo.com/">
+        <span class="svg-container svg-container-globotv-logos-play product_logo_bar_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 0 960 238.253" class="globotv-logos-play-svg unfilled"><path d="M225.728 116.69c5.171-3.807 7.133-8.557 7.095-15.634-.053-9.752-6.654-20.7-24.013-20.7h-25.766v77.43h28.176c15.693 0 24.488-10.325 24.488-23.698 0-7.076-3.396-13.962-9.98-17.398zm-22.899-19.402l5.57.005c2.905.003 6.345 2.217 6.352 6.309.005 3.951-2.691 6.765-6.432 6.765h-5.49V97.288zm6.681 43.386h-6.681v-15.456h6.232c4.686 0 7.953 3.552 7.951 7.782 0 3.899-3.249 7.674-7.502 7.674zm-71.024-62.463c-22.501 0-40.864 18.359-40.864 40.859 0 22.502 18.363 40.862 40.864 40.862 22.5 0 40.858-18.36 40.858-40.862 0-22.499-18.358-40.859-40.858-40.859zm0 61.582c-11.411 0-20.719-9.314-20.719-20.723 0-11.41 9.308-20.72 20.719-20.72 11.41 0 20.716 9.31 20.716 20.72 0 11.409-9.306 20.723-20.716 20.723zM278.68 78.211c-22.5 0-40.866 18.359-40.866 40.859 0 22.502 18.366 40.862 40.866 40.862 22.498 0 40.857-18.36 40.857-40.862 0-22.499-18.359-40.859-40.857-40.859zm0 61.582c-11.409 0-20.723-9.314-20.723-20.723 0-11.41 9.314-20.72 20.723-20.72 11.407 0 20.718 9.31 20.718 20.72 0 11.409-9.311 20.723-20.718 20.723zM86.808 80.356l-19.676 32.692H38.878v16.942h19.26c-3.672 5.453-8.653 9.348-17.683 9.293-10.436-.06-20.382-6.93-20.382-21.364 0-12.255 10.572-20.476 19.963-20.472 7.175.006 15.931 2.146 21.86 11.98l10.569-17.495C63.67 82.615 53.921 78.23 38.878 78.23 17.124 78.692.055 97.313 0 117.389c0 24.571 19.684 40.396 39.503 40.396h58.045v-17.428H73.884l36.2-60.004H86.808v.003zm263.237 79.562c-15.851 0-28.404-8.191-28.404-25.002v-2.553h20.003c0 5.104 2.339 10.744 8.191 10.744 4.149 0 7.662-3.298 7.662-7.554 0-5.106-4.257-6.808-8.407-8.617-2.341-1.063-4.679-2.022-7.021-2.979-10.21-4.256-19.257-10.213-19.257-22.557 0-14.679 14.15-23.189 27.556-23.189 7.66 0 16.279 2.871 21.276 8.936 4.043 4.999 5 9.363 5.214 15.531h-19.896c-.639-4.359-2.128-7.659-7.236-7.659-3.508 0-6.912 2.448-6.912 6.171 0 1.172.106 2.342.741 3.299 1.916 3.193 12.238 7.235 15.536 8.724 10.426 4.786 18.404 10.214 18.404 22.555 0 16.49-11.917 24.15-27.45 24.15M484.248 97.36v60.428h-20.105V97.36h-15.537V80.356h51.07V97.36h-15.428zm-66.283-16.977l-46.7 77.406h23.274l6.457-10.711h23.777v10.697h20.135V80.382l-26.943.001zm6.808 51.971h-14.887l14.887-24.674v24.674zm122.789 27.66c22.51 0 40.879-18.372 40.879-40.883 0-22.514-18.369-40.883-40.879-40.883-22.513 0-40.89 18.369-40.89 40.883.002 22.511 18.379 40.883 40.89 40.883m-14.509-54.178c0-3.338 1.674-5.287 4.094-5.307h.08c.984.01 2.095.334 3.263 1.01l22.985 13.296c4.097 2.364 4.097 6.233 0 8.6l-22.985 13.29c-1.174.684-2.289 1.004-3.275 1.01h-.059c-2.427-.015-4.103-1.959-4.103-5.306v-26.593zm72.871 54.11V78.18h30.715c3.931 0 7.433.633 10.504 1.898 3.072 1.269 5.652 3.004 7.74 5.209a22.93 22.93 0 0 1 4.793 7.664c1.105 2.902 1.658 5.945 1.658 9.133s-.553 6.232-1.658 9.132a22.442 22.442 0 0 1-4.854 7.661c-2.131 2.205-4.713 3.945-7.74 5.211-3.035 1.27-6.518 1.902-10.449 1.902h-23.719v33.955h-6.99zm29.912-40.332c2.697 0 5.148-.43 7.355-1.287 2.205-.858 4.106-2.062 5.7-3.615 1.595-1.553 2.818-3.393 3.679-5.518.856-2.123 1.284-4.494 1.284-7.109 0-2.533-.428-4.883-1.284-7.051-.859-2.164-2.084-4.022-3.679-5.578-1.594-1.551-3.495-2.758-5.7-3.616-2.207-.856-4.658-1.285-7.355-1.285h-22.924v35.06h22.924zM754.221 78.18h-8.719l-30.904 75.518h-39.244V78.18h-7v81.904h51.732l8.104-20.139h43.342l8.104 20.139h8.104L754.221 78.18zm-23.698 55.38L749.8 85.67l19.396 47.89h-38.673zm74.088 26.513v-34.996l-32.539-46.908h8.473l27.568 40.275 27.566-40.275h8.473l-32.541 46.908v34.996h-7z"></path></svg></span>
+      </a>
+
+      <div class="nav">
+        <nav class="globotv-menu">
+  <ul class="menus-list">
+      <li class="menu menu-imagens">
+  <a class="hover" href="#submenu-canais-on-demand" target="">
+    canais on demand
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+      <li class="menu menu-imagens">
+  <a class="hover" href="#submenu-canais-ao-vivo" target="">
+    canais ao vivo
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+  </ul>
+
+    <ul id="submenu-canais-on-demand" class="submenu-desktop">
+
+    <li class="submenu">
+      <a href="/gnt/" class="hover" target="">
+          <img alt="GNT" src="https://s2.glbimg.com/owXo_AuzXsewGbymokum3Px1hNg=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/cd/42/f8c3ab3a0806db0d3a25be8e3dfc.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/sportv/" class="hover" target="">
+          <img alt="Sportv" src="https://s2.glbimg.com/YZzWRXA_UZpv5TtS5BftBafcWTQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e6/30/60088d29c359199350ca5e311113.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/multishow/" class="hover" target="">
+          <img alt="Multishow" src="https://s2.glbimg.com/yZrIzkN4d1t8pbsZ5ZRmrLpndnI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/57/da/90787ec387873e12483a3363850d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globosat/" class="hover" target="">
+          <img alt="Mais Globosat" src="https://s2.glbimg.com/V09IjSiHI-RVIxt5ckp67B0FKK8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f7/37/f06994396e53ce346d9b1110d5fa.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bis/" class="hover" target="">
+          <img alt="Bis" src="https://s2.glbimg.com/almnq5i-myCjBFbmx-HafTE99yY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/fa/35/0472b79b64d10a7ad49850152e09.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/viva/" class="hover" target="">
+          <img alt="Viva" src="https://s2.glbimg.com/jM3p1M-C9zcXsbAIxfyvuxz1QyE=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e4/b0/eabd3712ed5e6993b057285b742d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-off/" class="hover" target="">
+          <img alt="Canal Off" src="https://s2.glbimg.com/qw5LG0byy28d0MQLhEcKS-EUPlQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/07/d8/cf57622b5e9059559abaddb0bb0d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gloob/" class="hover" target="">
+          <img alt="Gloob" src="https://s2.glbimg.com/hwNQO4AUKn-ycNo9diLRbjZlSp0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f2/96/2131a11bd6e424ab40aa4501ec9a.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/telecine/" class="hover" target="">
+          <img alt="Telecine" src="https://s2.glbimg.com/5D9bjkZxIQlNkvFa9KInlWbS-2k=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/2b/91/b51ce4a90d032485539bb76b88cb.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/universal/" class="hover" target="">
+          <img alt="Universal" src="https://s2.glbimg.com/GKpQMFt6hn8MfCQ73hl8dUnUUKU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/94/b1/1a6547118a55a34416b57b20266b.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/studio-universal/" class="hover" target="">
+          <img alt="Studio Universal" src="https://s2.glbimg.com/mT0eGmbF4jgMq1oQNUIghUnPVyI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/83/e7/aebc2bc07e5e7ce0a3f0763fd800.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/syfy/" class="hover" target="">
+          <img alt="Syfy" src="https://s2.glbimg.com/iOzatcXFrK1gH4tQyiY7aD4yaFY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e2/87/c92c89490db0b9ff929715504424.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globonews/" class="hover" target="">
+          <img alt="GloboNews" src="https://s2.glbimg.com/uvCLa2BVKnnyG_a4ENt4b3dKqkc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f8/f1/181818ebc8ebada6692c2181b35c.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-brasil/" class="hover" target="">
+          <img alt="Canal Brasil" src="https://s2.glbimg.com/-7H97OTMVY2HbZCrXSXMjmNsNWM=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/4b/28/31f10b1840f3390ac7879a2d79df.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/megapix/" class="hover" target="">
+          <img alt="Megapix" src="https://s2.glbimg.com/2XwwbKR9VfYgc3ULHuMPKhzrDmw=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/29/40/515e40badec65c9166ef89d73d57.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/combate/" class="hover" target="">
+          <img alt="Combate" src="https://s2.glbimg.com/Gjr_jBax0j8SZF5_ky2UgTK4DGU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/50/d7/5b9a9cd7f72d4f87e2ddae8821f6.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bbb/" class="hover" target="">
+          <img alt="Big Brother Brasil - BBB 17" src="https://s2.glbimg.com/iyULlirEgCBCwja2a2R0NU-HHzQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/05/16/615a9b75a8a72ae749fcf70ff579.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="http://philos.tv" class="hover" target="">
+          <img alt="Philos" src="http://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/8b/e4/420682b6218fff989045ef050010.png" />
+      </a>
+    </li>
+</ul>
+
+    <ul id="submenu-canais-ao-vivo" class="submenu-desktop">
+
+    <li class="submenu">
+      <a href="/bbb/ao-vivo/" class="hover" target="">
+          <img alt="Big Brother Brasil - Pay-Per-View" src="https://s2.glbimg.com/iyULlirEgCBCwja2a2R0NU-HHzQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/05/16/615a9b75a8a72ae749fcf70ff579.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/sportv/" class="hover" target="">
+          <img alt="SporTV" src="https://s2.glbimg.com/YZzWRXA_UZpv5TtS5BftBafcWTQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e6/30/60088d29c359199350ca5e311113.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globonews/ao-vivo/" class="hover" target="">
+          <img alt="GloboNews" src="https://s2.glbimg.com/uvCLa2BVKnnyG_a4ENt4b3dKqkc=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f8/f1/181818ebc8ebada6692c2181b35c.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gnt/ao-vivo/" class="hover" target="">
+          <img alt="GNT" src="https://s2.glbimg.com/owXo_AuzXsewGbymokum3Px1hNg=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/cd/42/f8c3ab3a0806db0d3a25be8e3dfc.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/multishow/ao-vivo/" class="hover" target="">
+          <img alt="Multishow" src="https://s2.glbimg.com/yZrIzkN4d1t8pbsZ5ZRmrLpndnI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/57/da/90787ec387873e12483a3363850d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/viva/ao-vivo/" class="hover" target="">
+          <img alt="VIVA" src="https://s2.glbimg.com/jM3p1M-C9zcXsbAIxfyvuxz1QyE=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/e4/b0/eabd3712ed5e6993b057285b742d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/bis/ao-vivo/" class="hover" target="">
+          <img alt="BIS" src="https://s2.glbimg.com/almnq5i-myCjBFbmx-HafTE99yY=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/fa/35/0472b79b64d10a7ad49850152e09.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/globosat/ao-vivo/" class="hover" target="">
+          <img alt="Mais Globosat" src="https://s2.glbimg.com/V09IjSiHI-RVIxt5ckp67B0FKK8=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f7/37/f06994396e53ce346d9b1110d5fa.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/gloob/ao-vivo/" class="hover" target="">
+          <img alt="Gloob" src="https://s2.glbimg.com/hwNQO4AUKn-ycNo9diLRbjZlSp0=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/f2/96/2131a11bd6e424ab40aa4501ec9a.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-off/ao-vivo/" class="hover" target="">
+          <img alt="Canal Off" src="https://s2.glbimg.com/qw5LG0byy28d0MQLhEcKS-EUPlQ=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/07/d8/cf57622b5e9059559abaddb0bb0d.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/canal-brasil/ao-vivo/" class="hover" target="">
+          <img alt="Canal Brasil" src="https://s2.glbimg.com/-7H97OTMVY2HbZCrXSXMjmNsNWM=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/4b/28/31f10b1840f3390ac7879a2d79df.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/combate/ao-vivo/" class="hover" target="">
+          <img alt="Combate" src="https://s2.glbimg.com/Gjr_jBax0j8SZF5_ky2UgTK4DGU=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/50/d7/5b9a9cd7f72d4f87e2ddae8821f6.png" />
+      </a>
+    </li>
+    <li class="submenu">
+      <a href="/premierefc/ao-vivo/" class="hover" target="">
+          <img alt="Premiere" src="https://s2.glbimg.com/DvhrLwBrT4IhCVwyfYKZLg-DKgI=/s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/media_kit/85/cf/3fa34bf1382ee8a2cb6e0cf567fa.png" />
+      </a>
+    </li>
+</ul>
+
+
+  <div class="popover-area">
+  </div>
+</nav>
+
+      </div>
+  </div>
+</header>
+
+
+<header class="globotv-header">
+  <div class="container">
+      <div class="logo">
+        
+  <a class="gplay" href="/globonews/">
+  <span class="svg-container svg-container-globotv-logos-play globonews_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 163.667 960 238.253" class="globotv-logos-play-svg unfilled"><g fill="#010101"><path d="M362.116 271.521c-12.004-3.328-24.123-4.639-24.603-10.696.01-3.676 3.301-4.415 6.066-4.415 2.027 0 4.918.599 6.619 1.731 1.765 1.18 3.021 2.859 3.062 5.256v-.003.003h29.153c-.604-20.832-21.874-29.78-41.981-26.645h-30.417L287.94 277.3v-40.548h-27.751l-25.683 47.122v-47.122h-97.017v37.184l-20.223-37.184h-31.35v88.071h29.189v-38.718l21.745 38.718h97.927l25.438-44.982v44.982h28.463l26.156-46.538c5.412 5.733 14.477 8.047 22.791 10.397 14.064 4.009 17.608 5.15 17.608 9.381 0 4.142-5.516 6.298-8.327 6.298-3.201 0-5.727-1.925-6.977-5.283-.322-.837-.601-2.036-.601-3.852h-32.556c.585 26.616 30.452 30.021 40.018 30.021 18.896 0 39.108-7.134 39.108-29.241-.002-15.563-11.779-21.162-23.782-24.485m-153.482 29.171h-42.709v-9.416H199v-20.97h-33.076v-9.422h42.709v39.808z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M83.159 280.794c0 5.986-.029 11.9-.604 17.627-.316 3.121-1.876 3.835-4.775 4.143-10.032 1.052-21.133 1.296-31.531 1.261-10.393.035-21.5-.209-31.53-1.261-2.905-.308-4.457-1.021-4.777-4.143-.572-5.727-.605-11.641-.605-17.627 0-5.991.033-11.908.605-17.632.321-3.117 1.873-3.833 4.777-4.143 10.03-1.05 21.137-1.294 31.53-1.264 10.398-.03 21.5.214 31.531 1.264 2.899.31 4.459 1.025 4.775 4.143.575 5.724.604 11.641.604 17.632m9.339 0c0 25.404-20.72 46.129-46.249 46.129C20.723 326.923 0 306.198 0 280.794c0-25.412 20.723-46.133 46.249-46.133 25.528 0 46.249 20.721 46.249 46.133m-65.042 0c0-10.285 8.386-18.67 18.793-18.67s18.795 8.385 18.795 18.67c0 10.28-8.388 18.671-18.795 18.671-10.408 0-18.793-8.391-18.793-18.671"></path><g><path d="M454.809 321.133c22.511 0 40.879-18.371 40.879-40.883 0-22.513-18.368-40.883-40.879-40.883-22.512 0-40.887 18.37-40.887 40.883 0 22.512 18.375 40.883 40.887 40.883m-14.51-54.179c0-3.338 1.673-5.287 4.095-5.306h.079c.985.009 2.094.333 3.262 1.009l22.987 13.296c4.095 2.366 4.095 6.234 0 8.6l-22.987 13.29c-1.174.683-2.289 1.004-3.273 1.009h-.06c-2.428-.013-4.103-1.959-4.103-5.305v-26.593zM513.17 321.064v-81.767h30.715c3.93 0 7.432.633 10.505 1.898 3.073 1.27 5.652 3.004 7.739 5.21 2.088 2.208 3.686 4.763 4.793 7.663 1.104 2.902 1.658 5.944 1.658 9.133s-.554 6.232-1.658 9.132a22.425 22.425 0 0 1-4.855 7.661c-2.13 2.207-4.713 3.946-7.74 5.211-3.035 1.27-6.516 1.902-10.448 1.902h-23.72v33.956h-6.989zm29.913-40.333c2.696 0 5.147-.428 7.354-1.286s4.107-2.063 5.701-3.616c1.594-1.552 2.819-3.392 3.677-5.518.858-2.123 1.286-4.494 1.286-7.109 0-2.532-.428-4.883-1.286-7.049-.857-2.166-2.083-4.024-3.677-5.579-1.594-1.551-3.494-2.758-5.701-3.616-2.207-.857-4.658-1.286-7.354-1.286h-22.925v35.06h22.925zM661.467 239.298h-8.719l-30.904 75.52H582.6v-75.52h-6.999v81.904h51.731l8.104-20.139h43.342l8.103 20.139h8.104l-33.518-81.904zm-23.696 55.381l19.276-47.891 19.396 47.891h-38.672zM711.859 321.191v-34.996l-32.541-46.908h8.473l27.568 40.276 27.567-40.276h8.472l-32.539 46.908v34.996z"></path></g></g></svg></span>
+</a>
+
+      </div>
+
+    <nav class="globotv-menu">
+  <ul class="menus-list">
+      <li class="menu menu-item">
+  <a class="hover" href="/globonews/ao-vivo/" target="">
+    ao vivo
+
+  </a>
+</li>
+
+      <li class="menu menu-monotema">
+  <a class="hover" href="#submenu-programas" target="">
+    programas
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+      <li class="menu menu-monotema">
+  <a class="hover" href="#submenu-especiais" target="">
+    Especiais
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+      <li class="menu menu-monotema">
+  <a class="hover" href="#submenu-ajuda" target="">
+    Ajuda
+
+      <span class="globotv_icons arrow_down"></span>
+  </a>
+</li>
+
+  </ul>
+
+    <ul id="submenu-programas" class="submenu-desktop">
+
+    <li class="submenu item hover">
+      <a href="/globonews/arquivo-n/" class="hover" target="">
+          Arquivo N
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/cidades-e-solucoes/" class="hover" target="">
+          Cidades e Soluções
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/clube-dos-correspondentes/" class="hover" target="">
+          Clube dos Correspondentes
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/conta-corrente/" class="hover" target="">
+          Conta Corrente
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/dialogos-com-mario-sergio-conti/" class="hover" target="">
+          Diálogos com Mario Sergio Conti
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/dossie-globonews/" class="hover" target="">
+          Dossiê GloboNews
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/entre-aspas/" class="hover" target="">
+          Entre Aspas
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/estudio-i/" class="hover" target="">
+          Estúdio I
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/fatos-e-versoes/" class="hover" target="">
+          Fatos e Versões
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/fernando-gabeira/" class="hover" target="">
+          Fernando Gabeira
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-alexandre-garcia/" class="hover" target="">
+          GloboNews Alexandre Garcia
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-documentario/" class="hover" target="">
+          GloboNews Documentário
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-especial/" class="hover" target="">
+          GloboNews Especial
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-internacional/" class="hover" target="">
+          GloboNews Internacional
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-literatura/" class="hover" target="">
+          GloboNews Literatura
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-miriam-leitao/" class="hover" target="">
+          GloboNews Miriam Leitão
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-painel/" class="hover" target="">
+          GloboNews Painel
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-em-pauta/" class="hover" target="">
+          GloboNews em Pauta
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/globonews-documento/" class="hover" target="">
+          Globonews Documento
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/manhattan-connection/" class="hover" target="">
+          Manhattan Connection
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/milenio/" class="hover" target="">
+          Milênio
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/mundo-sa/" class="hover" target="">
+          Mundo S/A
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/oficio-em-cena/" class="hover" target="">
+          Ofício em Cena
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/pelo-mundo/" class="hover" target="">
+          Pelo Mundo
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/politica-no-brasil/" class="hover" target="">
+          Política no Brasil
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/que-mundo-e-esse/" class="hover" target="">
+          Que Mundo é Esse?
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/roberto-davila/" class="hover" target="">
+          Roberto D&#39;Avila
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/sem-fronteiras/" class="hover" target="">
+          Sem Fronteiras
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/globonews/via-brasil/" class="hover" target="">
+          Via Brasil
+      </a>
+    </li>
+</ul>
+
+    <ul id="submenu-especiais" class="submenu-desktop">
+
+    <li class="submenu item hover">
+      <a href="/globonews/especiais/personalidades/" class="hover" target="">
+          Personalidades
+      </a>
+    </li>
+</ul>
+
+    <ul id="submenu-ajuda" class="submenu-desktop">
+
+    <li class="submenu item hover">
+      <a href="/ajuda/" class="hover" target="">
+          Perguntas Frequentes
+      </a>
+    </li>
+    <li class="submenu item hover">
+      <a href="/conheca/" class="hover" target="">
+          Conheça
+      </a>
+    </li>
+</ul>
+
+
+  <div class="popover-area">
+  </div>
+</nav>
+
+
+    <div class="search consider-btn-login">
+      <form action="/globonews/busca" class="search-form" method="get">
+        <span class="globotv_icons magnifying"></span>
+        <input type="text" name="q" id="q" placeholder="procure no GloboNews Play..." disabled="disabled" autocomplete="off" />
+      </form>
+      <a href="#" class="search-trigger">
+        <span class="globotv_icons magnifying"></span>
+      </a>
+      <span class="divider"></span>
+    </div>
+
+      <div class="login">
+        <nav class="globotv-menu user-settings-container">
+          <a class="btn-login" href="#">Entrar</a>
+
+          <ul class="menus-list">
+            <li class="menu menu-monotema"></li>
+          </ul>
+
+          <div class="popover-area"></div>
+        </nav>
+      </div>
+  </div>
+</header>
+
+
+<header class="globotv-header-mobile">
+  <div class="container">
+    <div class="menu-toggle">
+      <a href="#" class="globotv_icons list_mobile" id="globotv-mobile-toggle"></a>
+    </div>
+
+      <div class="main-logo">
+            <a class="gplay" href="/globonews/">
+  <span class="svg-container svg-container-globotv-logos-play globonews_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 163.667 960 238.253" class="globotv-logos-play-svg unfilled"><g fill="#010101"><path d="M362.116 271.521c-12.004-3.328-24.123-4.639-24.603-10.696.01-3.676 3.301-4.415 6.066-4.415 2.027 0 4.918.599 6.619 1.731 1.765 1.18 3.021 2.859 3.062 5.256v-.003.003h29.153c-.604-20.832-21.874-29.78-41.981-26.645h-30.417L287.94 277.3v-40.548h-27.751l-25.683 47.122v-47.122h-97.017v37.184l-20.223-37.184h-31.35v88.071h29.189v-38.718l21.745 38.718h97.927l25.438-44.982v44.982h28.463l26.156-46.538c5.412 5.733 14.477 8.047 22.791 10.397 14.064 4.009 17.608 5.15 17.608 9.381 0 4.142-5.516 6.298-8.327 6.298-3.201 0-5.727-1.925-6.977-5.283-.322-.837-.601-2.036-.601-3.852h-32.556c.585 26.616 30.452 30.021 40.018 30.021 18.896 0 39.108-7.134 39.108-29.241-.002-15.563-11.779-21.162-23.782-24.485m-153.482 29.171h-42.709v-9.416H199v-20.97h-33.076v-9.422h42.709v39.808z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M83.159 280.794c0 5.986-.029 11.9-.604 17.627-.316 3.121-1.876 3.835-4.775 4.143-10.032 1.052-21.133 1.296-31.531 1.261-10.393.035-21.5-.209-31.53-1.261-2.905-.308-4.457-1.021-4.777-4.143-.572-5.727-.605-11.641-.605-17.627 0-5.991.033-11.908.605-17.632.321-3.117 1.873-3.833 4.777-4.143 10.03-1.05 21.137-1.294 31.53-1.264 10.398-.03 21.5.214 31.531 1.264 2.899.31 4.459 1.025 4.775 4.143.575 5.724.604 11.641.604 17.632m9.339 0c0 25.404-20.72 46.129-46.249 46.129C20.723 326.923 0 306.198 0 280.794c0-25.412 20.723-46.133 46.249-46.133 25.528 0 46.249 20.721 46.249 46.133m-65.042 0c0-10.285 8.386-18.67 18.793-18.67s18.795 8.385 18.795 18.67c0 10.28-8.388 18.671-18.795 18.671-10.408 0-18.793-8.391-18.793-18.671"></path><g><path d="M454.809 321.133c22.511 0 40.879-18.371 40.879-40.883 0-22.513-18.368-40.883-40.879-40.883-22.512 0-40.887 18.37-40.887 40.883 0 22.512 18.375 40.883 40.887 40.883m-14.51-54.179c0-3.338 1.673-5.287 4.095-5.306h.079c.985.009 2.094.333 3.262 1.009l22.987 13.296c4.095 2.366 4.095 6.234 0 8.6l-22.987 13.29c-1.174.683-2.289 1.004-3.273 1.009h-.06c-2.428-.013-4.103-1.959-4.103-5.305v-26.593zM513.17 321.064v-81.767h30.715c3.93 0 7.432.633 10.505 1.898 3.073 1.27 5.652 3.004 7.739 5.21 2.088 2.208 3.686 4.763 4.793 7.663 1.104 2.902 1.658 5.944 1.658 9.133s-.554 6.232-1.658 9.132a22.425 22.425 0 0 1-4.855 7.661c-2.13 2.207-4.713 3.946-7.74 5.211-3.035 1.27-6.516 1.902-10.448 1.902h-23.72v33.956h-6.989zm29.913-40.333c2.696 0 5.147-.428 7.354-1.286s4.107-2.063 5.701-3.616c1.594-1.552 2.819-3.392 3.677-5.518.858-2.123 1.286-4.494 1.286-7.109 0-2.532-.428-4.883-1.286-7.049-.857-2.166-2.083-4.024-3.677-5.579-1.594-1.551-3.494-2.758-5.701-3.616-2.207-.857-4.658-1.286-7.354-1.286h-22.925v35.06h22.925zM661.467 239.298h-8.719l-30.904 75.52H582.6v-75.52h-6.999v81.904h51.731l8.104-20.139h43.342l8.103 20.139h8.104l-33.518-81.904zm-23.696 55.381l19.276-47.891 19.396 47.891h-38.672zM711.859 321.191v-34.996l-32.541-46.908h8.473l27.568 40.276 27.567-40.276h8.472l-32.539 46.908v34.996z"></path></g></g></svg></span>
+</a>
+
+      </div>
+
+
+    <nav id="nav-mobile">
+      <div>
+        <ul id="mobile-menu-header" class="nav-menu">
+  
+
+  
+
+
+
+
+    <li class="menu item "><a href="/globonews/ao-vivo/">ao vivo</a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-programas">programas<span class='globotv_icons arrow_right'></span></a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-especiais">Especiais<span class='globotv_icons arrow_right'></span></a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-ajuda">Ajuda<span class='globotv_icons arrow_right'></span></a></li>
+
+
+</ul>
+<ul id="mobile-submenu-ajuda" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>Ajuda</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/ajuda/">Perguntas Frequentes</a></li>
+
+
+
+    <li class="menu item "><a href="/conheca/">Conheça</a></li>
+
+
+</ul>
+<ul id="mobile-submenu-especiais" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>Especiais</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/globonews/especiais/personalidades/">Personalidades</a></li>
+
+
+</ul>
+<ul id="mobile-submenu-programas" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>programas</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/globonews/arquivo-n/">Arquivo N</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/cidades-e-solucoes/">Cidades e Soluções</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/clube-dos-correspondentes/">Clube dos Correspondentes</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/conta-corrente/">Conta Corrente</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/dialogos-com-mario-sergio-conti/">Diálogos com Mario Sergio Conti</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/dossie-globonews/">Dossiê GloboNews</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/entre-aspas/">Entre Aspas</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/estudio-i/">Estúdio I</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/fatos-e-versoes/">Fatos e Versões</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/fernando-gabeira/">Fernando Gabeira</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-alexandre-garcia/">GloboNews Alexandre Garcia</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-documentario/">GloboNews Documentário</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-especial/">GloboNews Especial</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-internacional/">GloboNews Internacional</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-literatura/">GloboNews Literatura</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-miriam-leitao/">GloboNews Miriam Leitão</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-painel/">GloboNews Painel</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-em-pauta/">GloboNews em Pauta</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/globonews-documento/">Globonews Documento</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/manhattan-connection/">Manhattan Connection</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/milenio/">Milênio</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/mundo-sa/">Mundo S/A</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/oficio-em-cena/">Ofício em Cena</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/pelo-mundo/">Pelo Mundo</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/politica-no-brasil/">Política no Brasil</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/que-mundo-e-esse/">Que Mundo é Esse?</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/roberto-davila/">Roberto D'Avila</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/sem-fronteiras/">Sem Fronteiras</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/via-brasil/">Via Brasil</a></li>
+
+
+</ul>
+<ul id="mobile-menu-bar" class="nav-menu">
+  
+
+  <li class="menu item label"><a href="#">globosat play</a></li>
+
+
+    <li class="menu item btn-login"><a href="#">Entrar</a></li>
+
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-canais-on-demand">canais on demand<span class='globotv_icons arrow_right'></span></a></li>
+
+
+
+    <li class="menu item sliding"><a href="#mobile-submenu-canais-ao-vivo">canais ao vivo<span class='globotv_icons arrow_right'></span></a></li>
+
+
+    <li class="menu item "><a href="/">Home Globosat Play</a></li>
+
+</ul>
+<ul id="mobile-submenu-canais-ao-vivo" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>canais ao vivo</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/bbb/ao-vivo/">Big Brother Brasil - Pay-Per-View</a></li>
+
+
+
+    <li class="menu item "><a href="/sportv/">SporTV</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/ao-vivo/">GloboNews</a></li>
+
+
+
+    <li class="menu item "><a href="/gnt/ao-vivo/">GNT</a></li>
+
+
+
+    <li class="menu item "><a href="/multishow/ao-vivo/">Multishow</a></li>
+
+
+
+    <li class="menu item "><a href="/viva/ao-vivo/">VIVA</a></li>
+
+
+
+    <li class="menu item "><a href="/bis/ao-vivo/">BIS</a></li>
+
+
+
+    <li class="menu item "><a href="/globosat/ao-vivo/">Mais Globosat</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/ao-vivo/">Gloob</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-off/ao-vivo/">Canal Off</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-brasil/ao-vivo/">Canal Brasil</a></li>
+
+
+
+    <li class="menu item "><a href="/combate/ao-vivo/">Combate</a></li>
+
+
+
+    <li class="menu item "><a href="/premierefc/ao-vivo/">Premiere</a></li>
+
+
+</ul>
+<ul id="mobile-submenu-canais-on-demand" class="submenu">
+  <li class="menu item back"><a href="#"><span class='globotv_icons arrow_left'></span>canais on demand</a></li>
+
+
+  
+
+
+
+
+    <li class="menu item "><a href="/gnt/">GNT</a></li>
+
+
+
+    <li class="menu item "><a href="/sportv/">Sportv</a></li>
+
+
+
+    <li class="menu item "><a href="/multishow/">Multishow</a></li>
+
+
+
+    <li class="menu item "><a href="/globosat/">Mais Globosat</a></li>
+
+
+
+    <li class="menu item "><a href="/bis/">Bis</a></li>
+
+
+
+    <li class="menu item "><a href="/viva/">Viva</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-off/">Canal Off</a></li>
+
+
+
+    <li class="menu item "><a href="/gloob/">Gloob</a></li>
+
+
+
+    <li class="menu item "><a href="/telecine/">Telecine</a></li>
+
+
+
+    <li class="menu item "><a href="/universal/">Universal</a></li>
+
+
+
+    <li class="menu item "><a href="/studio-universal/">Studio Universal</a></li>
+
+
+
+    <li class="menu item "><a href="/syfy/">Syfy</a></li>
+
+
+
+    <li class="menu item "><a href="/globonews/">GloboNews</a></li>
+
+
+
+    <li class="menu item "><a href="/canal-brasil/">Canal Brasil</a></li>
+
+
+
+    <li class="menu item "><a href="/megapix/">Megapix</a></li>
+
+
+
+    <li class="menu item "><a href="/combate/">Combate</a></li>
+
+
+
+    <li class="menu item "><a href="/bbb/">Big Brother Brasil - BBB 17</a></li>
+
+
+
+    <li class="menu item "><a href="http://philos.tv">Philos</a></li>
+
+
+</ul>
+
+      </div>
+      <form action="/globonews/busca" class="form-busca" method="GET"><span class="globotv_icons magnifying"></span><input autocomplete="off" name="q" role="textbox" type="text" value=""></form>
+    </nav>
+  </div>
+</header>
+
+
+
+    <div id="canal_nao_disponivel" class="notificacao" style="display: none"></div>
+    <div id="usuario_em_trial" class="notificacao" style="display: none;"></div>
+    <div id="trial_finalizado" class="notificacao" style="display: none;"></div>
+
+    
+
+
+
+
+  <div class="ab-simulcast">
+  <div class="player-wrapper" data-media-id="3180453">
+  </div>
+
+  <a class="simulcast-link" href="/globonews/ao-vivo/">
+    <svg version="1.1" x="0px" y="0px" viewBox="0 0 512 512"><path d="M415.997,255.999c0,6.136-3.188,11.502-7.96,14.516 c0,0.004,0,0.023,0,0.023L121.399, 445.574l-0.002-0.002c-2.519,1.537-5.456,2.436-8.605,2.436c-9.273, 0-16.791-7.651-16.791-17.091 c0-0.066,0.009-0.129,0.01-0.195L96, 430.718v-348.9l0.035-0.021C96.026,81.561,96,81.329,96,81.091C96,71.652,103.518,64, 112.791,64 c3.184,0,6.149,0.918,8.686,2.484l0.017-0.01c0,0,213.942,130.659,286.553, 175.004c0,0.003,0,0.006,0,0.01 C412.813,244.504,415.997,249.866,415.997,255.999z"></path></svg>
+    <h2>
+      <strong>Agora</strong> no GloboNews
+    </h2>
+
+      <h3>Jornal das Dez</h3>
+      <h4>22:00 - 23:00</h4>
+  </a>
+</div>
+
+
+<div class="carousel fade" id="destaque">
+  <div class="content">
+    <div class="carousel-inner">
+
+        <div class="item active" data-item-position="1" data-item-title="">
+
+            
+    <div class="destaque-principal">
+        <a href="/globonews/v/5759568/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s01.video.glbimg.com/1280x448/5759568.jpg", alt="Estúdio I", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Estúdio I</h2>
+
+  <p class="fade-step step-1">Autoridades estão em alerta com a primeira morte por febre amarela na região metropolit...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+
+    <div class="destaque-secundario">
+        <a href="/globonews/v/5757691/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s04.video.glbimg.com/1280x448/5757691.jpg", alt="Mundo S/A", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Mundo S/A</h2>
+
+  <p class="fade-step step-1">O Mundo S/A mostra a indústria de cosméticos e serviços de beleza, que descobrem tendên...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+    <div class="destaque-secundario">
+        <a href="/globonews/v/5757689/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s02.video.glbimg.com/1280x448/5757689.jpg", alt="Cidades e Soluções", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Cidades e Soluções</h2>
+
+  <p class="fade-step step-1">O Cidades e Soluções percorreu o Brasil pra conhecer de perto a realidade dos biomas: A...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+        </div>
+        <div class="item " data-item-position="2" data-item-title="">
+
+            
+    <div class="destaque-principal">
+        <a href="/globonews/v/5757602/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s03.video.glbimg.com/1280x448/5757602.jpg", alt="Conta Corrente", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Conta Corrente</h2>
+
+  <p class="fade-step step-1">Cresce o número de famílias brasileiras endividadas, mostra um levantamento obtido com ...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+
+    <div class="destaque-secundario">
+        <a href="/globonews/v/5757520/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s01.video.glbimg.com/1280x448/5757520.jpg", alt="GloboNews em Pauta", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">GloboNews em Pauta</h2>
+
+  <p class="fade-step step-1">Os desdobramentos da operação Carne Fraca. Subiu pra seis o número de empresas interdit...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+    <div class="destaque-secundario">
+        <a href="/globonews/v/5754714/">
+    <div class="hover-layer"><span class="overlay"></span><span class="globotv_icons play"></span></div>
+
+<span class="gradient"></span>
+<div class="image-container">
+  <img class="placeholder" src="data:image/gif;base64,R0lGODlhKAAOAIAAAAAAAAAAACH5BAkKAAEALAAAAAAoAA4AAAIVjI+py+0Po5y02ouz3rz7D4biSJIFADs=">
+  <img src="http://s03.video.glbimg.com/1280x448/5754714.jpg", alt="Manhattan Connection", class="image">
+</div>
+
+  <div class="caption">
+  
+
+  <h2 class="fade-step step-0">Manhattan Connection</h2>
+
+  <p class="fade-step step-1">Programa discute a expectativa nos Estados Unidos para a dissolução do Obamacare e os d...</p>
+
+
+  
+</div>
+
+  
+
+
+
+</a>
+
+    </div>
+
+        </div>
+    </div>
+
+    <a class="control left" data-slide="prev" href="#destaque">
+  <span class="globotv_icons arrow_left_thin"></span>
+</a>
+    <a class="control right" data-slide="next" href="#destaque">
+  <span class="globotv_icons arrow_right_thin"></span>
+</a>
+  </div>
+
+  <div class="bullets">
+  <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target="#destaque"></li>
+      <li class="" data-slide-to="1" data-target="#destaque"></li>
+  </ol>
+</div>
+</div>
+
+
+
+<div id="trilho-programas-container">
+  <div class="grid container programas">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Top <strong>Programas</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track track-programas posters default-bottom-space" data-canal="globonews" data-action="mais_vistos"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="grid container recentes">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Novos <strong>Episódios</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks recentes default-bottom-space" data-canal="globonews" data-quantidade="5" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+
+
+<div class="grid container mais-vistos">
+  <div class="row">
+    <div class="span12">
+      <section><header class="navigable"><h2>Mais <strong>vistos</strong></h2><div class="pagination-buttons"><a href="#" rel="prev" class="disabled"><div class="button"><span class="globotv_icons arrow_left"></span></div></a><a href="#" rel="next" class="disabled"><div class="button"><span class="globotv_icons arrow_right"></span></div></a></div></header><div class="pauta"><div class="barra"></div></div>
+      <div class="track blocks mais-vistos" data-canal="globonews" data-navegacao="serie"><div class="inner"><div class="view-port"><div class="slider-container"></div></div></div></div>
+</section>    </div>
+  </div>
+</div>
+
+
+
+
+    <div class="footer">
+  <footer class="sitemap">
+  <div class="container">
+    <div class="logo">
+      
+    <a class="gplay" href="/">
+      <span class="svg-container svg-container-globotv-logos-play product_logo_play"><svg xmlns="http://www.w3.org/2000/svg" width="960" height="238.253" viewbox="0 163.667 960 238.253" class="globotv-logos-play-svg unfilled"><path fill-rule="evenodd" clip-rule="evenodd" d="M183.044 241.491h25.766c17.359 0 23.96 10.949 24.013 20.701.038 7.077-1.924 11.827-7.095 15.634 6.584 3.436 9.98 10.322 9.98 17.397 0 13.373-8.795 23.699-24.488 23.699h-28.176v-77.431zm25.355 16.937l-5.57-.004v13.077h5.49c3.741 0 6.437-2.813 6.432-6.764-.007-4.092-3.447-6.306-6.352-6.309m.662 27.926h-6.232v15.456h6.681c4.253 0 7.502-3.776 7.502-7.674.002-4.23-3.265-7.782-7.951-7.782m-70.575-26.867c11.41 0 20.716 9.31 20.716 20.72 0 11.407-9.306 20.722-20.716 20.722-11.411 0-20.719-9.314-20.719-20.722 0-11.41 9.308-20.72 20.719-20.72m0-20.14c22.5 0 40.858 18.36 40.858 40.86 0 22.501-18.358 40.862-40.858 40.862-22.501 0-40.864-18.361-40.864-40.862 0-22.5 18.363-40.86 40.864-40.86m140.194 20.14c11.407 0 20.718 9.31 20.718 20.72 0 11.407-9.311 20.722-20.718 20.722-11.409 0-20.723-9.314-20.723-20.722 0-11.41 9.314-20.72 20.723-20.72m0-20.14c22.498 0 40.857 18.36 40.857 40.86 0 22.501-18.359 40.862-40.857 40.862-22.5 0-40.866-18.361-40.866-40.862 0-22.5 18.366-40.86 40.866-40.86m-191.872 2.144l-19.676 32.693H38.878v16.942h19.26c-3.672 5.453-8.653 9.348-17.683 9.294-10.436-.06-20.382-6.93-20.382-21.365 0-12.254 10.572-20.476 19.963-20.471 7.175.006 15.931 2.145 21.86 11.98l10.569-17.495c-8.795-9.318-18.544-13.703-33.587-13.703C17.124 239.828.055 258.448 0 278.525c0 24.571 19.684 40.397 39.503 40.397h58.045v-17.429H73.884l36.2-60.003H86.808z"></path><path d="M350.045 321.054c-15.851 0-28.404-8.191-28.404-25.002v-2.553h20.003c0 5.104 2.338 10.745 8.191 10.745 4.149 0 7.662-3.298 7.662-7.554 0-5.107-4.257-6.807-8.407-8.617-2.341-1.063-4.679-2.022-7.022-2.979-10.21-4.256-19.256-10.213-19.256-22.557 0-14.679 14.15-23.19 27.555-23.19 7.66 0 16.28 2.872 21.277 8.936 4.043 4.999 5 9.363 5.213 15.531h-19.895c-.639-4.36-2.128-7.659-7.236-7.659-3.508 0-6.913 2.448-6.913 6.17 0 1.172.107 2.342.742 3.3 1.916 3.193 12.238 7.235 15.536 8.723 10.426 4.787 18.404 10.214 18.404 22.555 0 16.491-11.917 24.151-27.45 24.151M484.248 258.496v60.427h-20.105v-60.427h-15.538v-17.005h51.071v17.005zM417.965 241.519l-46.7 77.407h23.274l6.457-10.712h23.777v10.697h20.135v-77.393h-26.943zm6.808 51.97h-14.886l14.886-24.673v24.673z"></path><path fill="#010101" d="M547.562 321.15c22.51 0 40.879-18.372 40.879-40.883 0-22.513-18.369-40.883-40.879-40.883-22.512 0-40.889 18.37-40.889 40.883.001 22.511 18.378 40.883 40.889 40.883m-14.509-54.178c0-3.338 1.674-5.287 4.094-5.306h.08c.984.009 2.094.334 3.262 1.009l22.986 13.296c4.096 2.365 4.096 6.234 0 8.6l-22.986 13.29c-1.174.684-2.289 1.004-3.275 1.01h-.059c-2.426-.015-4.102-1.959-4.102-5.306v-26.593zM605.924 321.082v-81.766h30.715c3.93 0 7.432.632 10.504 1.898 3.072 1.269 5.652 3.004 7.74 5.21 2.088 2.208 3.686 4.762 4.793 7.663 1.105 2.902 1.658 5.945 1.658 9.133s-.553 6.232-1.658 9.132a22.435 22.435 0 0 1-4.855 7.661c-2.131 2.206-4.713 3.946-7.74 5.211-3.035 1.269-6.518 1.902-10.449 1.902h-23.719v33.956h-6.989zm29.912-40.333c2.697 0 5.148-.429 7.355-1.286 2.205-.859 4.107-2.063 5.701-3.616 1.594-1.552 2.818-3.392 3.678-5.517.857-2.124 1.285-4.495 1.285-7.11 0-2.533-.428-4.883-1.285-7.05-.859-2.165-2.084-4.023-3.678-5.578-1.594-1.551-3.496-2.758-5.701-3.617-2.207-.857-4.658-1.285-7.355-1.285h-22.924v35.059h22.924zM754.221 239.316h-8.719l-30.904 75.518h-39.244v-75.518h-7v81.904h51.732l8.104-20.139h43.342l8.104 20.139h8.104l-33.519-81.904zm-23.698 55.38l19.277-47.89 19.396 47.89h-38.673zM804.611 321.208v-34.995l-32.539-46.909h8.473l27.568 40.276 27.567-40.276h8.472l-32.541 46.909v34.995z"></path><g><path d="M768.746 222.843V199.5h10.394c4.061 0 6.545 2.45 6.545 5.949 0 2.94-1.96 4.899-4.095 5.354 2.484.385 4.55 2.94 4.55 5.74 0 3.745-2.485 6.299-6.755 6.299h-10.639zm13.929-16.974c0-2.1-1.4-3.779-4.024-3.779h-7v7.524h7c2.623 0 4.024-1.61 4.024-3.745zm.455 10.36c0-2.135-1.47-4.025-4.34-4.025h-7.14v8.049h7.14c2.73 0 4.34-1.54 4.34-4.024zM789.69 222.843V199.5h15.294v2.59h-12.389v7.524h12.144v2.59h-12.144v8.049h12.389v2.59H789.69zM814.27 222.843V202.09h-7.386v-2.59h17.709v2.59h-7.419v20.753h-2.904zM840.827 222.843l-2.064-5.18h-11.619l-2.064 5.18h-3.325l9.379-23.343h3.605l9.414 23.343h-3.326zm-7.874-20.334l-4.97 12.564h9.904l-4.934-12.564z"></path></g></svg></span>
+</a>
+    </div>
+
+    <div class="menus">
+      <ul class="menu canais-on-demand">
+          <li><strong>canais on demand</strong></li>
+
+            <li><a href="/gnt/">GNT</a></li>
+            <li><a href="/sportv/">Sportv</a></li>
+            <li><a href="/multishow/">Multishow</a></li>
+            <li><a href="/globosat/">Mais Globosat</a></li>
+            <li><a href="/bis/">Bis</a></li>
+            <li><a href="/viva/">Viva</a></li>
+            <li><a href="/canal-off/">Canal Off</a></li>
+            <li><a href="/gloob/">Gloob</a></li>
+            <li><a href="/telecine/">Telecine</a></li>
+            <li><a href="/universal/">Universal</a></li>
+            <li><a href="/studio-universal/">Studio Universal</a></li>
+            <li><a href="/syfy/">Syfy</a></li>
+            <li><a href="/globonews/">GloboNews</a></li>
+            <li><a href="/canal-brasil/">Canal Brasil</a></li>
+            <li><a href="/megapix/">Megapix</a></li>
+            <li><a href="/combate/">Combate</a></li>
+            <li><a href="/bbb/">Big Brother Brasil - BBB 17</a></li>
+            <li><a href="http://philos.tv">Philos</a></li>
+      </ul>
+
+      <ul class="menu live-channels">
+          <li><strong>canais ao vivo</strong></li>
+
+            <li><a href="/bbb/ao-vivo/">Big Brother Brasil - Pay-Per-View</a></li>
+            <li><a href="/sportv/">SporTV</a></li>
+            <li><a href="/globonews/ao-vivo/">GloboNews</a></li>
+            <li><a href="/gnt/ao-vivo/">GNT</a></li>
+            <li><a href="/multishow/ao-vivo/">Multishow</a></li>
+            <li><a href="/viva/ao-vivo/">VIVA</a></li>
+            <li><a href="/bis/ao-vivo/">BIS</a></li>
+            <li><a href="/globosat/ao-vivo/">Mais Globosat</a></li>
+            <li><a href="/gloob/ao-vivo/">Gloob</a></li>
+            <li><a href="/canal-off/ao-vivo/">Canal Off</a></li>
+            <li><a href="/canal-brasil/ao-vivo/">Canal Brasil</a></li>
+            <li><a href="/combate/ao-vivo/">Combate</a></li>
+            <li><a href="/premierefc/ao-vivo/">Premiere</a></li>
+      </ul>
+
+      <ul class="menu extras">
+            <li><strong><a href="/conheca/">conheça</a></strong></li>
+            <li><strong><a href="/ajuda/">Ajuda</a></strong></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  <footer><div class="grid container"><div class="row"><div class="span12"><div class="logo"><a href="http://www.globo.com">globo.com</a></div><nav><ul><li><a title="notícias" href="http://g1.globo.com">notícias</a></li><li><a title="esportes" href="http://globoesporte.globo.com">esportes</a></li><li><a title="entretenimento" href="http://entretenimento.globo.com">entretenimento</a></li><li><a title="vídeos" href="http://globotv.globo.com">vídeos</a></li></ul><p><a title="grupo globo" href="http://www.grupoglobo.globo.com/">grupo globo</a></p><p><a title="todos os sites" href="http://www.globo.com/Globo.com/sites/0,,5623,00.html">todos os sites</a></p></nav></div></div><div class="row"><div class="span12"><div class="copyright"><p>&copy; Copyright 2000-2017 Globo Comunicação e Participações S.A.<a href="http://www.globo.com/Globo.com/homev6/0,,PL0-0,00-POLITICA+DE+PRIVACIDADE.html">Política de Privacidade</a></p><ul><li><a title="central globo.com" href="https://login.globo.com/login/464">central globo.com</a></li><li><a title="assine a globo.com" href="http://atendimento.globo.com/Portal/ISP/assineja/panfletos/panfleto_home_globo">assine a globo.com</a></li><li class="last"><a title="anuncie conosco" href="http://www.globo.com/Portal/anuncie/glb_anuncie_panfleto">anuncie conosco</a></li></ul></div></div></div></div></footer>
+</div>
+
+  </div>
+
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/user_tracker/user_tracker.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/application-e47448599ad8b715414e0827ec56bb8e.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/gapower/globosat_play_ga_power.js"></script>
+  
+  <script src="https://s.videos.globo.com/p2/j/api.min.js"></script>
+  <script src="https://s3.glbimg.com/v1/AUTH_180b9dd048d9434295d27c4b6dadc248/programas/assets/canais/home-2216d3cc90d3a2ad457a0011417492c3.js"></script>
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+
+    _gaq.push(
+      ['_setAccount', 'UA-48127693-1'],
+      ['_setDomainName', '.globosatplay.globo.com'],
+
+      ['b._setAccount', 'UA-296593-15'],
+      ['b._setDomainName', '.globo.com'],
+      ['b._trackPageview']
+    );
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = GlobotvProgramas.Analytics.analyticsUrl();
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  <script src="https://s.glbimg.com/bu/rt/js/glb-pv-min.js"></script>
+
+
+  <script type="text/javascript">
+function comScore(C){var A="comScore",j=document,y=j.location,B="",z="undefined",x=2048,D,v,i,w,c="characterSet",l="defaultCharset",u=(typeof encodeURIComponent!=z?encodeURIComponent:escape);if(j.cookie.indexOf(A+"=")!=-1){i=j.cookie.split(";");for(w=0,y=i.length;w<y;w++){var d=i[w].indexOf(A+"=");if(d!=-1){B="&"+unescape(i[w].substring(d+A.length+1))}}}C=C+"&ns__t="+(new Date().getTime());C=C+"&ns_c="+(j[c]?j[c]:(j[l]?j[l]:""))+"&c8="+u(j.title)+B+"&c7="+u(y&&y.href?y.href:j.URL)+"&c9="+u(j.referrer);if(C.length>x&&C.indexOf("&")>0){D=C.substr(0,x-8).lastIndexOf("&");C=(C.substring(0,D)+"&ns_cut="+u(C.substring(D+1))).substr(0,x)}if(j.images){v=new Image();if(typeof ns_p==z){ns_p=v}v.src=C}else{j.write('<p><img src="'+C+'" height="1" width="1" alt="*"/></p>')}}comScore("http"+(document.location.href.charAt(4)=="s"?"s://sb":"://b")+".scorecardresearch.com/p?c1=2&c2=6035227");
+</script>
+<noscript><p><img src="https://sb.scorecardresearch.com/p?c1=2&amp;c2=6035227" height="1" width="1" alt="*"/></p></noscript>
+<script type="text/javascript">
+  (function() {
+    // Script
+    var s = document.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.charset = 'utf-8';
+    s.src = 'https://sb.scorecardresearch.com/c2/6035227/cs.js';
+    var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);
+  })();
+</script>
+
+
+  <script type="text/javascript" charset="utf-8" class="responsive-script">
+    $(function() {
+      $.responsiveHub({
+        layouts: {
+          978: "web",
+          710: "tablet",
+          320: "phone"
+        },
+        defaultLayout: "web"
+      });
+    });
+  </script>
+</body>
+</html>
+|||http://www.redealeluia.com.br/|<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="http://www.redealeluia.com.br/wp-content/themes/redealeluia/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia|Merriweather:400,700" />
+ 	
+    <link rel="pingback" href="http://www.redealeluia.com.br/xmlrpc.php" />
+
+    <meta name="description" content="A Rede da Família" />
+<meta name="robots" content="index, follow" />
+<link rel="alternate" type="application/rss+xml" title="Rede Aleluia &raquo; Feed" href="http://www.redealeluia.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Rede Aleluia &raquo; Feed de comentários" href="http://www.redealeluia.com.br/comments/feed/" />
+<link rel='stylesheet' id='qcf_style-css'  href='http://www.redealeluia.com.br/wp-content/plugins/quick-contact-form/quick-contact-form-style.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-style-css'  href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpz-shortcodes-css'  href='http://www.redealeluia.com.br/wp-content/themes/redealeluia/functions/wpzoom/assets/css/shortcodes.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-custom-css'  href='http://www.redealeluia.com.br/wp-content/themes/redealeluia/custom.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='media-queries-css'  href='http://www.redealeluia.com.br/wp-content/themes/redealeluia/media-queries.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wzslider-css'  href='http://www.redealeluia.com.br/wp-content/themes/redealeluia/functions/wpzoom/assets/css/wzslider.css?ver=3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='lightboxStyle-css'  href='http://www.redealeluia.com.br/wp-content/plugins/lightbox-plus/css/black/colorbox.css?ver=2.6' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-content/plugins/quick-contact-form/quick-contact-form-javascript.js?ver=3.6'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.10.3'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-content/themes/redealeluia/functions/wpzoom/assets/js/shortcodes.js?ver=1'></script>
+<script type='text/javascript' src='http://www.redealeluia.com.br/wp-content/themes/redealeluia/js/init.js?ver=3.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.redealeluia.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.redealeluia.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.6" />
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3855426-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<style type="text/css" media="screen">
+.qcf-style.RedeAleluia {width:280px;}
+.qcf-style.RedeAleluia input[type=text], .qcf-style.RedeAleluia textarea, .qcf-style.RedeAleluia select, .qcf-style.RedeAleluia #submit {border-radius:0;}
+.qcf-style.RedeAleluia input[type=text], .qcf-style.RedeAleluia textarea, .qcf-style.RedeAleluia select {border: 1px solid #415063;font-family: arial, sans-serif; font-size: 1.2em;color: #465069;}
+.qcf-style.RedeAleluia input[type=text].required, .qcf-style textarea.required {border: 1px solid #00C618;}
+.qcf-style.RedeAleluia div {background:#FFF;}
+</style>
+<style type="text/css" media="screen">
+.qcf-style {width:100%;}
+.qcf-style input[type=text], .qcf-style textarea, .qcf-style select, .qcf-style #submit {border-radius:5px;}
+.qcf-style input[type=text], .qcf-style textarea, .qcf-style select {border: 0px solid #cccccc;font-family: arial, sans-serif; font-size: 1.2em;color: #465069;}
+.qcf-style input[type=text].required, .qcf-style textarea.required {border: 1px solid #cccccc;}
+.qcf-style div {background:#FFF;}
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.redealeluia.com.br/wp-content/plugins/wp-recaptcha/recaptcha.css" /><!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="Rede Aleluia 1.0.2" />
+<meta name="generator" content="WPZOOM Framework 1.3.9" />
+<style type="text/css"></style>
+</head>
+<body class="home blog">
+
+	<header id="header">
+
+
+	  <div class="head-wrap">
+
+			<div id="logo">
+								
+				<a href="http://www.redealeluia.com.br" title="A Rede da Família">
+											<img src="http://www.redealeluia.com.br/wp-content/uploads/2013/09/logorede21.png" alt="Rede Aleluia" />
+									</a>
+				
+							</div><!-- / #logo -->
+            <br></br>
+			<form method="get" id="searchform" action="http://www.redealeluia.com.br/">
+	<fieldset>
+		<input type="text" name="s" id="s" placeholder="Procure o conteúdo desejado" /><input type="submit" id="searchsubmit" value="Procure o conteúdo desejado" />
+	</fieldset>
+</form>
+<div class="clear"></div></br>
+ 
+		  
+		</div>
+
+		<div id="menu">
+
+			<div class="wrap">
+
+				<a class="btn_menu" id="toggle-main" href="#"></a>
+
+				<div id="menu-wrap">
+
+					<ul id="mainmenu" class="dropdown"><li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-20"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br">Página Inicial</a></li>
+<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br/sobre-a-rede-3/">Sobre a Rede Aleluia</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br/emissoras-2/">Emissoras</a></li>
+<li id="menu-item-1677" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1677"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br/category/noticias/">Notícias</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br/category/videos/">Vídeos</a></li>
+<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a style="border-top-color:#dd3333" href="https://www.webexchange.com.br/owa/auth/logon.aspx?replaceCurrent=1&#038;url=https%3a%2f%2fwww.webexchange.com.br%2fowa%2f">Webmail</a></li>
+<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a style="border-top-color:#dd3333" href="http://www.redealeluia.com.br/contato-3/">Fale Conosco</a></li>
+</ul>                     <a href="http://www.twitter.com/redealeluiabr"><img class="alignnone size-full wp-image-12" title="Twitter" alt="Twitter" src="/img/bt_twitter.png" width="49" height="49" /></a>
+                     
+                      <a href="https://www.facebook.com/redealeluiabr"><img class="alignnone size-full wp-image-12" title="Facebook" alt="Facebook" src="/img/bt_facebook.png" width="35" height="49" /></a>
+
+                    <a href="https://plus.google.com/105032980499493253466" rel="publisher"><img class="alignnone size-full wp-image-12" title="Google +" alt="Google +" src="/img/bt_google.png" width="35" height="49" /></a>
+                       
+				</div>
+
+				<div class="clear"></div>
+
+			</div>
+
+		</div><!-- /#menu -->
+
+		<div class="clear"></div>
+	
+	</header>
+
+	<div id="content">
+
+<section id="main" role="main">
+ 
+	<div class="archiveposts">
+
+		<div class="loop">
+
+		
+		<div class="post-1668 post type-post status-publish format-standard sticky hentry category-noticias topsticky">
+
+			<div class="post-thumb"><a href="http://www.redealeluia.com.br/a-forca-e-o-alcance-da-rede-aleluia/" title="A força e o alcance da Rede Aleluia"><img src="http://www.redealeluia.com.br/wp-content/uploads/2016/09/Rede1-600x340.jpg" alt="A força e o alcance da Rede Aleluia" class="Thumbnail thumbnail loop-sticky " width="600" height="340" /></a></div>			 
+			<div class="post-content">	
+				
+				<h2>
+					<a href="http://www.redealeluia.com.br/a-forca-e-o-alcance-da-rede-aleluia/" title="Permalink to A força e o alcance da Rede Aleluia" rel="bookmark">A força e o alcance da Rede Aleluia</a>
+									</h2>
+
+ 
+				<div class="recent-meta">
+					<p class="date">16/09/2016</p>
+					
+						<span class="separator"> &mdash; </span>
+						<span><a href="http://www.redealeluia.com.br/a-forca-e-o-alcance-da-rede-aleluia/#respond" title="Comentário para A força e o alcance da Rede Aleluia">Nenhum comentário</a></span>
+					
+				</div><div class="clear"></div>
+	 
+				<div class="entry">
+					 
+ 										
+					<p>Há mais de 20 anos no ar, a emissora, presente nas principais cidades brasileiras e até nas mais distantes, já ajudou milhões de ouvintes</p>
+				</div><!-- /.entry -->
+		
+			</div><!-- /.post-content -->
+		
+			<div class="clear"></div>
+
+		</div><!-- #post-1668 -->
+
+		
+		
+
+		
+		<div class="post-1672 post type-post status-publish format-standard hentry category-videos">
+
+			<div class="post-thumb"><a href="http://www.redealeluia.com.br/palavra-amiga-do-bispo-macedo-3/" title="Palavra Amiga do Bispo Macedo"><img src="http://www.redealeluia.com.br/wp-content/uploads/2016/09/hqdefault-120x120.jpg" alt="Palavra Amiga do Bispo Macedo" class="Thumbnail thumbnail loop " width="120" height="120" /></a></div>			 
+			<div class="post-content">	
+				
+				<h2>
+					<a href="http://www.redealeluia.com.br/palavra-amiga-do-bispo-macedo-3/" title="Permalink to Palavra Amiga do Bispo Macedo" rel="bookmark">Palavra Amiga do Bispo Macedo</a>
+									</h2>
+
+ 
+				<div class="recent-meta">
+					<p class="date">16/09/2016</p>
+					
+						<span class="separator"> &mdash; </span>
+						<span><a href="http://www.redealeluia.com.br/palavra-amiga-do-bispo-macedo-3/#respond" title="Comentário para Palavra Amiga do Bispo Macedo">Nenhum comentário</a></span>
+					
+				</div><div class="clear"></div>
+	 
+				<div class="entry">
+					 
+ 										
+					<p>Ouça a palavra Amiga do Bispo Macedo todos os dias na Rede Aleluia &nbsp;</p>
+				</div><!-- /.entry -->
+		
+			</div><!-- /.post-content -->
+		
+			<div class="clear"></div>
+
+		</div><!-- #post-1672 -->
+
+		
+		
+
+		
+		<div class="post-1630 post type-post status-publish format-standard hentry category-noticias tag-musicas">
+
+			<div class="post-thumb"><a href="http://www.redealeluia.com.br/selecaomusical/" title="Seleção Musical"><img src="http://www.redealeluia.com.br/wp-content/uploads/2015/05/musical-120x120.jpg" alt="Seleção Musical" class="Thumbnail thumbnail loop " width="120" height="120" /></a></div>			 
+			<div class="post-content">	
+				
+				<h2>
+					<a href="http://www.redealeluia.com.br/selecaomusical/" title="Permalink to Seleção Musical" rel="bookmark">Seleção Musical</a>
+									</h2>
+
+ 
+				<div class="recent-meta">
+					<p class="date">13/07/2016</p>
+					
+						<span class="separator"> &mdash; </span>
+						<span><a href="http://www.redealeluia.com.br/selecaomusical/#comments" title="Comentário para Seleção Musical">18 comentários</a></span>
+					
+				</div><div class="clear"></div>
+	 
+				<div class="entry">
+					 
+ 										
+					<p>Agora, após a voz do Brasil, a Rede Aleluia está inteiramente musical. Todos os dias você pode ouvir os melhores louvores das 20:00 h às&hellip; <a class="read-more" href="http://www.redealeluia.com.br/selecaomusical/">Read More &rsaquo;</a></p>
+				</div><!-- /.entry -->
+		
+			</div><!-- /.post-content -->
+		
+			<div class="clear"></div>
+
+		</div><!-- #post-1630 -->
+
+		
+		
+
+		
+		<div class="post-1527 post type-post status-publish format-standard hentry category-noticias">
+
+			<div class="post-thumb"><a href="http://www.redealeluia.com.br/rede-aleluia-de-radio-voce-nao-pode-deixar-de-ouvir/" title="Rede Aleluia de Rádio: você não pode deixar de ouvir"><img src="http://www.universal.org/uploads/2014/11/17/459282985.300x200.jpg" alt="Rede Aleluia de Rádio: você não pode deixar de ouvir" class="Thumbnail thumbnail loop " width="120" height="120" /></a></div>			 
+			<div class="post-content">	
+				
+				<h2>
+					<a href="http://www.redealeluia.com.br/rede-aleluia-de-radio-voce-nao-pode-deixar-de-ouvir/" title="Permalink to Rede Aleluia de Rádio: você não pode deixar de ouvir" rel="bookmark">Rede Aleluia de Rádio: você não pode deixar de ouvir</a>
+									</h2>
+
+ 
+				<div class="recent-meta">
+					<p class="date">19/02/2016</p>
+					
+						<span class="separator"> &mdash; </span>
+						<span><a href="http://www.redealeluia.com.br/rede-aleluia-de-radio-voce-nao-pode-deixar-de-ouvir/#comments" title="Comentário para Rede Aleluia de Rádio: você não pode deixar de ouvir">15 comentários</a></span>
+					
+				</div><div class="clear"></div>
+	 
+				<div class="entry">
+					 
+ 										
+					<p>Todos os dias um conteúdo de qualidade, que transforma vidas O rádio tem a capacidade de levar mensagens até mesmo a lugares em que o&hellip; <a class="read-more" href="http://www.redealeluia.com.br/rede-aleluia-de-radio-voce-nao-pode-deixar-de-ouvir/">Read More &rsaquo;</a></p>
+				</div><!-- /.entry -->
+		
+			</div><!-- /.post-content -->
+		
+			<div class="clear"></div>
+
+		</div><!-- #post-1527 -->
+
+		
+		
+
+	 
+
+</div>
+
+<div class="navigation"><span class='page-numbers current'>1</span>
+<a class='page-numbers' href='http://www.redealeluia.com.br/page/2/'>2</a>
+<a class='page-numbers' href='http://www.redealeluia.com.br/page/3/'>3</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class='page-numbers' href='http://www.redealeluia.com.br/page/57/'>57</a>
+<a class="next page-numbers" href="http://www.redealeluia.com.br/page/2/">Próxima &rsaquo;</a></div> 
+	</div> <!-- /.archiveposts -->
+
+	<div id="homewidgets">
+
+		<div class="col1">
+					</div>
+
+		<div class="col2">
+					</div>
+
+	</div> <!-- /.columnwidgets -->
+
+</section><!-- /#main -->
+
+<section id="sidebar">
+	
+	
+	
+			 
+
+				<div class="nocol">
+					<div id="text-3" class="widget widget_text">			<div class="textwidget"><a href="http://www.crosshost.com.br/players/digital/?id_player=17" class="lbp_secondary" rel="lightbox[secondary-demo]" title="Rede Aleluia on line"><img class="alignnone size-full wp-image-13" alt="img" src="http://www.redealeluia.com.br/wp-content/uploads/2013/09/banner_radio1.jpg" width="340" height="158" /></a>
+
+</div>
+		<div class="clear"></div></div>				</div> 
+			
+			<div class="col1">
+				<div id="text-10" class="widget widget_text"><h3 class="title">Mobile</h3>			<div class="textwidget"><img src="http://www.redealeluia.com.br/wp-content/uploads/2013/09/mobile.jpg" alt="mob" width="176" height="228" border="0" usemap="#Map" />
+<map name="Map" id="Map">
+  <area shape="circle" coords="55,172,21" href="https://itunes.apple.com/app/rede-aleluia/id378164059?mt=8" target="_blank" />
+  <area shape="circle" coords="112,173,25" href="https://play.google.com/store/apps/details?id=br.com.mobradio.redealeluia#?t=W251bGwsMSwyLDIxMiwiYnIuY29tLm1vYnJhZGlvLnJlZGVhbGVsdWlhIl0" target="_blank" alt="ndroid" />
+</map></div>
+		<div class="clear"></div></div><div id="text-11" class="widget widget_text"><h3 class="title">Facebook</h3>			<div class="textwidget"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fredealeluiabr&amp;width=180&amp;height=320&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=122597001272786" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:320px;" allowTransparency="true"></iframe></div>
+		<div class="clear"></div></div><div id="text-13" class="widget widget_text"><h3 class="title">Twitter</h3>			<div class="textwidget"><a class="twitter-timeline"  href="https://twitter.com/redealeluiabr"  data-widget-id="382611862908448768">Tweets by @redealeluiabr</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+		<div class="clear"></div></div>			</div>
+
+			<div class="col2">
+				<div id="text-14" class="widget widget_text"><h3 class="title">APRESENTADORES</h3>			<div class="textwidget"><a href="http://www.bispomacedo.com.br" target="_blank"><img class="alignnone size-full wp-image-63" alt="bt_bm" src="http://www.redealeluia.com.br/wp-content/uploads/2013/09/bt_bm2.jpg" width="127" height="103" /></a>
+
+<a href="http://www.renatocardoso.com/blog" target="_blank"><img class="alignnone size-full wp-image-65" alt="bt_brc" src="http://www.redealeluia.com.br/wp-content/uploads/2015/02/renato-cardoso.png" width="127" height="103" /></a>
+
+<a href="http://www.cristianecardoso.com" target="_blank"><img class="alignnone size-full wp-image-68" alt="cris" src="http://www.redealeluia.com.br/wp-content/uploads/2013/09/cris.jpg" width="127" height="103" /></a>
+
+</div>
+		<div class="clear"></div></div><div id="text-6" class="widget widget_text"><h3 class="title">Publicidade</h3>			<div class="textwidget"><a href="http://www.universal.org/pastoronline"><img class="alignnone size-full wp-image-58" alt="banner_simples" src="http://www.redealeluia.com.br/wp-content/uploads/2014/10/banner-pastor.png" width="130" height="271" /></a></div>
+		<div class="clear"></div></div>			</div> 
+			
+			 
+		
+ 	
+	<div class="clear"></div>
+
+</section>
+
+<div class="clear"></div>
+	</div>
+
+	<div id="carousel">
+
+		<div class="wrap">
+
+			<div id="slides">
+
+				<ul class="slides">
+
+					<li class="post-1672 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/videoseries?list=PLwPaS2wgyD9Zg81GIbHem-OAhRHzBaBfI&wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/palavra-amiga-do-bispo-macedo-3/" title="Palavra Amiga do Bispo Macedo">Palavra Amiga do Bispo Macedo</a></h3>
+
+							<div class="excerpt">
+								<p>Ouça a palavra Amiga do Bispo Macedo todos os dias na Rede Aleluia &nbsp;</p>
+							</div>
+
+						</li><li class="post-1649 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/Cbj4azHcYLE?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/saiba-o-que-o-bispo-macedo-pensa-sobre-o-homossexualismo/" title="Saiba o que o bispo Macedo pensa sobre o homossexualismo">Saiba o que o bispo Macedo pensa sobre o homossexualismo</a></h3>
+
+							<div class="excerpt">
+								<p>Líder da Universal falou sobre o assunto durante programa de rádio Durante o programa &#8220;Palavra Amiga&#8221;, que vai ao ar diariamente pela Rede Aleluia de rádio, o&hellip; <a class="read-more" href="http://www.redealeluia.com.br/saiba-o-que-o-bispo-macedo-pensa-sobre-o-homossexualismo/">Read More &rsaquo;</a></p>
+							</div>
+
+						</li><li class="post-1640 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/YP85ikXJXYc?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/a-mae-do-fracasso/" title="A mãe do fracasso">A mãe do fracasso</a></h3>
+
+							<div class="excerpt">
+								<p>Assista ao vídeo com a Palavra Amiga do bispo Macedo exibida no dia 21 de maio de 2015 &nbsp; Que aprendizado essa mensagem lhe trouxe?&hellip; <a class="read-more" href="http://www.redealeluia.com.br/a-mae-do-fracasso/">Read More &rsaquo;</a></p>
+							</div>
+
+						</li><li class="post-1627 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/KNIeuu-8Hlw?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/a-boa-medida-recalcada-e-sacudida/" title="A boa medida recalcada e sacudida">A boa medida recalcada e sacudida</a></h3>
+
+							<div class="excerpt">
+								<p>Assista ao vídeo com a Palavra Amiga do bispo Macedo exibida no dia 8 de maio de 2015 Que aprendizado essa mensagem lhe trouxe? O&hellip; <a class="read-more" href="http://www.redealeluia.com.br/a-boa-medida-recalcada-e-sacudida/">Read More &rsaquo;</a></p>
+							</div>
+
+						</li><li class="post-1609 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/FJLNPH4bHEo?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/a-fe-do-tudo-ou-nada/" title="A fé do tudo ou nada">A fé do tudo ou nada</a></h3>
+
+							<div class="excerpt">
+								<p>Assista ao vídeo com a Palavra Amiga do bispo Macedo exibida no dia 3 de abril de 2015 &nbsp; Que aprendizado essa mensagem lhe trouxe?&hellip; <a class="read-more" href="http://www.redealeluia.com.br/a-fe-do-tudo-ou-nada/">Read More &rsaquo;</a></p>
+							</div>
+
+						</li><li class="post-1594 video">
+
+							<div class="cover">
+
+								<iframe width=" 600 " height=" 340 " src="https://www.youtube.com/embed/PW1h8Q3FMh0?wmode=transparent" frameborder="0" allowfullscreen></iframe>
+							</div>
+
+							<h3><a href="http://www.redealeluia.com.br/o-inimigo-espiritual/" title="O inimigo espiritual">O inimigo espiritual</a></h3>
+
+							<div class="excerpt">
+								<p>Assista ao vídeo com a Palavra Amiga do bispo Macedo exibida no dia 18 de março de 2015 &nbsp; Que aprendizado essa mensagem lhe trouxe?&hellip; <a class="read-more" href="http://www.redealeluia.com.br/o-inimigo-espiritual/">Read More &rsaquo;</a></p>
+							</div>
+
+						</li>
+				</ul>
+
+			</div>
+
+			<div id="thumbs">
+
+				<ul class="slides">
+
+					<li class="post-1672">
+
+							<div class="inner">
+
+								<div class="cover"><img src="http://www.redealeluia.com.br/wp-content/uploads/2016/09/hqdefault-125x85.jpg" alt="Palavra Amiga do Bispo Macedo" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>Palavra Amiga do Bispo Macedo</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li><li class="post-1649">
+
+							<div class="inner">
+
+								<div class="cover"><img src="http://www.redealeluia.com.br/wp-content/uploads/2016/03/hqdefault-125x85.jpg" alt="Saiba o que o bispo Macedo pensa sobre o homossexualismo" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>Saiba o que o bispo Macedo pensa sobre o homossexualismo</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li><li class="post-1640">
+
+							<div class="inner">
+
+								<div class="cover"><img src="https://i.ytimg.com/vi/YP85ikXJXYc/hqdefault.jpg" alt="A mãe do fracasso" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>A mãe do fracasso</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li><li class="post-1627">
+
+							<div class="inner">
+
+								<div class="cover"><img src="https://i.ytimg.com/vi/KNIeuu-8Hlw/hqdefault.jpg" alt="A boa medida recalcada e sacudida" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>A boa medida recalcada e sacudida</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li><li class="post-1609">
+
+							<div class="inner">
+
+								<div class="cover"><img src="https://i.ytimg.com/vi/FJLNPH4bHEo/hqdefault.jpg" alt="A fé do tudo ou nada" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>A fé do tudo ou nada</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li><li class="post-1594">
+
+							<div class="inner">
+
+								<div class="cover"><img src="https://i.ytimg.com/vi/PW1h8Q3FMh0/hqdefault.jpg" alt="O inimigo espiritual" class="Thumbnail thumbnail carousel-thumbs " width="125" height="85" /></div>
+								<h4>O inimigo espiritual</h4>
+
+								
+								<div class="clear"></div>
+
+							</div>
+
+						</li>
+				</ul>
+
+			</div>
+
+			<div class="clear"></div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		jQuery.fn.wrapInChunks=function(h,c){c=c||1;var d=jQuery(this);for(var i=0;i<d.length;i+=c){d.slice(i,i+c).wrapAll(h)}return this};
+		jQuery.fn.replaceWith=function(r){return this.each(function(){e=jQuery(this);jQuery(this).after(r).next().addClass(e.attr('class')).html(e.html()).prev().remove()})};
+
+function getPostIdClass(elem) {
+	var classes = jQuery(elem).attr('class').split(/\s+/),
+	    id = 0;
+
+	for ( var i = 0; i < classes.length; i++ ) {
+		if ( classes[i].match(/^post\-/i) ) {
+			id = classes[i];
+			break;
+		}
+	}
+
+	return id;
+}
+
+		jQuery(function($){
+			jQuery('#carousel #thumbs li').replaceWith('<div class="item"/>');
+			jQuery('#carousel #thumbs div.item').wrapInChunks('<li/>', 3);
+
+			jQuery('#carousel #thumbs').flexslider({
+				animation: 'slide',
+				direction: 'vertical',
+				controlNav: true,
+				directionNav: false,
+				animationLoop: false,
+				slideshow: false
+			});
+
+			jQuery('#carousel #slides').flexslider({
+				controlNav: false,
+				directionNav: false,
+				animation: 'slide',
+				animationLoop: true,
+				smoothHeight: true,
+				slideshow: false,
+								start: function(slider){
+					jQuery('#carousel #thumbs li:first-child div.item:first-child').addClass('current');
+
+					jQuery('#carousel #thumbs .item .inner').on('click', function(){
+						var id = getPostIdClass( jQuery(this).parent() );
+						if ( id <= 0 ) return;
+
+						var index = slider.slides.index( slider.slides.filter('.' + id) );
+
+						slider.direction = (index > slider.currentSlide) ? 'next' : 'prev';
+						slider.flexAnimate(index, slider.pauseOnAction);
+					});
+				},
+				before: function(slider){
+					var id = getPostIdClass( slider.slides.eq(slider.animatingTo) );
+					if ( id <= 0 ) return;
+
+					jQuery('#carousel #thumbs .item').removeClass('current');
+					jQuery('#carousel #thumbs .item.' + id).addClass('current');
+
+					if ( jQuery('#carousel #thumbs li').length > 1 ) {
+						var navSlider = jQuery('#carousel #thumbs').data('flexslider'),
+								currPage = navSlider.slides.index( navSlider.slides.find('.item.' + id).parent('li') );
+						navSlider.direction = (currPage > navSlider.currentSlide) ? 'next' : 'prev';
+						navSlider.flexAnimate(currPage, navSlider.pauseOnAction);
+					}
+				}
+			});
+
+			jQuery('#carousel #thumbs li').off('click');
+
+		});
+	</script>
+	<div id="footer">
+
+		<div class="wrap">
+
+			<div class="left">
+				<h2 class="title">&copy; 2017 Rede Aleluia. Todos os direitos reservados.				</h2>
+			</div>
+
+			<div class="right">
+				<p class="wpzoom"><a href="http://www.agenciadispare.com.br" target="_blank" title="Dispare"><img src="http://www.redealeluia.com.br/wp-content/themes/redealeluia/images/logo

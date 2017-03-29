@@ -52,8 +52,10 @@ void Crawler::Crawl()
     string nextUrl= Scheduler::TopUrl();
     Crawler::scheduler_mutex.unlock();
     //cout<<nextUrl<<endl;
-    if(nextUrl.size()==0) 
+    if(nextUrl.size()==0) {
+		 cout<<" **";
       continue;
+	 }
     CkString x;
     if(!spider.GetUrlDomain(nextUrl.c_str(),x)) continue;
 
@@ -70,33 +72,37 @@ void Crawler::Crawl()
       ncraw++;
       cout << ncraw << ": "<< collectedUrl.getString() << std::endl;
       Crawler::crawlado.unlock();
-
+          
+		
+		Crawler::scheduler_mutex.lock();
       int sz=spider.get_NumOutboundLinks();
+      CkString Next;
       for(int x=0;x<sz;x++){
         string Url=spider.getOutboundLink(x);
         Url=spider.canonicalizeUrl(Url.c_str());
         
-        CkString Next;
-        if(spider.GetBaseDomain(Url.c_str(),Next)){
-          Crawler::scheduler_mutex.lock();
+		  if(spider.GetBaseDomain(Url.c_str(),Next)){
           Scheduler::PushUrl(Url,Next.getString(),false);
-          Crawler::scheduler_mutex.unlock();
         }
       }
 
+      Crawler::scheduler_mutex.unlock();
+
       sz=spider.get_NumUnspidered();
-      for(int x=0;x<30;x++){
+      
+		Crawler::scheduler_mutex.lock();
+      for(int x=0;x<sz;x++){
         CkString Next;
         spider.GetUnspideredUrl(0,Next);
         spider.SkipUnspidered(0);
 
         string Url=spider.canonicalizeUrl(Next.getString());
         if(spider.GetBaseDomain(Url.c_str(),Next)){
-          Crawler::scheduler_mutex.lock();
           Scheduler::PushUrl(Url,Next.getString(),true);
-          Crawler::scheduler_mutex.unlock();
         }
       }
+      Crawler::scheduler_mutex.unlock();
+
       int unspidered = spider.get_NumUnspidered();
       for(int i = 0; i < unspidered; i++)
       {

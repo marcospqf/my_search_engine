@@ -33,6 +33,7 @@ class Scheduler
 		
 		//return the next query to be processed, if the queue is empty, return ""
 		static string TopUrl();
+
     
     static bool thistime(double x);
 
@@ -43,6 +44,8 @@ class Scheduler
 			url(const string &s, const string &d);
 			bool operator<(const url &a) const;
 		};
+		
+		static long long peso[100000];
 
 		static set<url> inside_url;
 		static set<url> outside_url;

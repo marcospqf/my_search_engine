@@ -1,0 +1,1626 @@
+|||http://www.jornalciencia.com/|<!DOCTYPE html>
+
+<title>Jornal Ciência &#8211; Conhecimento é tudo!</title>
+                        <script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            WebFontConfig['google'] = {families: ['Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic', 'Noto+Serif:400,700,400italic,700italic&amp;subset=latin-ext']};
+
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script>
+                        <link rel="alternate" type="application/rss+xml" title="Feed de Jornal Ciência &raquo;" href="http://www.jornalciencia.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jornal Ciência &raquo;  Feed de comentários" href="http://www.jornalciencia.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jornal Ciência &raquo; Home  Feed de comentários" href="http://www.jornalciencia.com/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.jornalciencia.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.jornalciencia.com/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fvp-frontend-css'  href='http://www.jornalciencia.com/wp-content/plugins/featured-video-plus/styles/frontend.css' type='text/css' media='all' />
+<link rel='stylesheet' id='social_comments_rtl-css'  href='http://www.jornalciencia.com/wp-content/plugins/social-comments/assets/css/social_comments.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wabtn-style-css'  href='http://www.jornalciencia.com/wp-content/plugins/whatsapp/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='twitter-bootstrap-css'  href='http://www.jornalciencia.com/wp-content/themes/admag/css/plugins/bootstrap/css/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-style-css'  href='http://www.jornalciencia.com/wp-content/themes/admag/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fvpdata = {"ajaxurl":"http:\/\/www.jornalciencia.com\/wp-admin\/admin-ajax.php","nonce":"f3b3f9540e","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/plugins/featured-video-plus/js/frontend.min.js'></script>
+<script type='text/javascript' src='https://cdn.pushassist.com/account/assets/psa-jornalciencia.js'></script>
+<link rel='https://api.w.org/' href='http://www.jornalciencia.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.jornalciencia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jornalciencia.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.8" />
+<link rel="canonical" href="http://www.jornalciencia.com/" />
+<link rel='shortlink' href='http://www.jornalciencia.com/' />
+<script type="text/javascript">window._taboola = window._taboola || [];
+_taboola.push({home:'auto'});
+!function (e, f, u) {
+	e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+}(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/jornalciencia/loader.js');
+</script><script src="https://pushem.org/widget/widget.js?token=&site_id=0"></script>
+<style type="text/css">.logo img{height: 50px;}.mid-logo-wrapper .logo img{height: 100px;}body,p,code, kbd, pre, samp{font-size: 15px;line-height: 26px;}body{background-image: url("") !important;}.mega-menu .dropdown-menu > li > a:hover, 
+.mega-menu .dropdown-submenu:hover>a,
+.star-reviews,
+.post-content a,
+a,
+.dropdown-menu .mega-menu-news .mega-menu-detail h4 a:hover,
+.nav .tabs-left > .nav-tabs > li > a:hover, 
+.nav .tabs-left > .nav-tabs > li.active > a,
+.navbar-nav>li>a:hover, 
+.navbar-nav>li>a:focus, 
+.dropdown-menu>.active>a,
+.navbar-nav>li.open>a, 
+.navbar-nav>li.open>a:after,
+.widget-content li h3 a:hover, 
+.news-title a:hover, 
+.small-article h6 a:hover,
+.simple-post h3 a:hover, 
+.widget-post h3 a:hover,
+.widget_categories li a:hover, 
+.widget_categories li a:hover span, 
+.comments-wrapper .comment-reply-link, 
+.post-header .simple-share a, 
+.parallax-wrapper .simple-share a,
+.post-content > p:first-child:first-letter, 
+.drop-caps,
+.author-position,
+.simple-share .author a,
+.simple-share .author a:hover,
+.box-news .simple-share a,
+.box-news .simple-share a:hover,
+.post-nav-wrapper a:hover,
+.author-box .author-info h3 a:hover,
+.author-contact a:hover,
+.comments-wrapper .author-name:hover,
+.post-header .simple-share a:hover, 
+.post-header .simple-share a:focus, 
+.parallax-wrapper .simple-share a:hover, 
+.parallax-wrapper .simple-share a:focus,
+.tag-list li.trending{color: #ff6600}.progress-bar,.progress-bar, .tags-widget li a:hover, .tagcloud a:hover, .tag-list li a:hover, .tag-list li.active a{background-color: #ff6600}.mega-menu .dropdown-submenu:hover>a:after,
+.nav .tabs-left > .nav-tabs > li.active>a:after{border-left-color: #ff6600}.widget .nav-tabs>li.active>a, 
+.widget .nav-tabs>li.active>a:focus, 
+.widget .nav-tabs>li.active>a:hover,
+.block-title span,
+.comments-wrapper .comment-reply-link:hover,
+.modern-quote,
+.box-news .simple-share a:hover,
+.simple-share .author a:hover,
+.post-header .simple-share a:hover, 
+.post-header .simple-share a:focus, 
+.parallax-wrapper .simple-share a:hover, 
+.parallax-wrapper .simple-share a:focus,
+.progress-bar, .tags-widget li a:hover, .tagcloud a:hover{border-color: #ff6600}.navbar-nav>li>a{font-size: 18px;line-height: 20px;}.mega-menu .dropdown-menu>li, .dropdown-menu>li>a, .mega-menu .nav-tabs>li>a{font-size: 14px;line-height: 18px;}.block-title, .comment-reply-title, .widget .nav-tabs>li>a,.widget .nav-tabs>li, .wpb_heading, .widgettitle, .footer-title{font-size: 20px;line-height: 24px;}.mm-listview>li>a{font-size: 14px;}.h1, h1{font-size: 42px;line-height: 46px;}.h2, h2{font-size: 32px;line-height: 36px;}.h3, h3{font-size: 26px;line-height: 30px;}.h4, h4{font-size: 24px;line-height: 28px;}.h5, h5{font-size: 16px;line-height: 20px;}.h6, h6{font-size: 14px;line-height: 18px;}.post-title{font-size: 42px;line-height: 46px;}.parallax-wrapper .post-title{font-size: 52px;line-height: 56px;}.post-content{max-width: 730px}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><link rel="shortcut icon" href="http://www.jornalciencia.com/wp-content/uploads/2016/01/favicon2-2.png" type="image/x-icon" /><script type="text/javascript">
+      /* <![CDATA[ */var ajaxurl = "http://www.jornalciencia.com/wp-admin/admin-ajax.php";var dt_path = "http://www.jornalciencia.com/wp-content/themes/admag";var dt_paginated_blocks = [];var dt_paginated_blocks_type = [];var dt_paginated_blocks_items = [];/* ]]> */
+      </script><style type="text/css" title="dynamic-css" class="options-output">body{background-color:#efefef;}.main-content, .news-details, .theiaStickySidebar{background-color:#FFFFFF;}.header-wrapper, .header-mid{background-color:#FFFFFF;}.header, .no-js .sb-search .sb-icon-search{background-color:#ffffff;}.header-top{background-color:#545454;}.sticky-sidebar{background-color:#FFFFFF;}.footer{background-color:#373737;}.footer-bottom{background-color:#2c2c2c;}.logo{margin-top:0;margin-bottom:3px;margin-left:15px;}.mid-logo-wrapper .logo{margin-top:20px;margin-right:0;margin-bottom:0;margin-left:0;}html,body,.post-review-text,code, kbd, pre, samp{font-family:Roboto;text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{opacity: 0;}.ie.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{visibility: hidden;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family:"Noto Serif";text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{visibility: hidden;}.widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4{font-family:"Noto Serif";text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{opacity: 0;}.ie.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{visibility: hidden;}.featured-header h2, .page-subtitle{font-family:Roboto;text-transform:none;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .featured-header h2, .page-subtitle,{opacity: 0;}.ie.wf-loading .featured-header h2, .page-subtitle,{visibility: hidden;}.block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title{font-family:Roboto;text-transform:uppercase;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{opacity: 0;}.ie.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{visibility: hidden;}.mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown{font-family:Roboto;text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{opacity: 0;}.ie.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{visibility: hidden;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript> 
+
+
+
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.jornalciencia.com/xmlrpc.php">
+
+	<title>Jornal Ciência &#8211; Conhecimento é tudo!</title>
+                        <script>
+                            /* You can add more configuration options to webfontloader by previously defining the WebFontConfig with your options */
+                            if ( typeof WebFontConfig === "undefined" ) {
+                                WebFontConfig = new Object();
+                            }
+                            WebFontConfig['google'] = {families: ['Roboto:100,300,400,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic', 'Noto+Serif:400,700,400italic,700italic&amp;subset=latin-ext']};
+
+                            (function() {
+                                var wf = document.createElement( 'script' );
+                                wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont.js';
+                                wf.type = 'text/javascript';
+                                wf.async = 'true';
+                                var s = document.getElementsByTagName( 'script' )[0];
+                                s.parentNode.insertBefore( wf, s );
+                            })();
+                        </script>
+                        <link rel="alternate" type="application/rss+xml" title="Feed de Jornal Ciência &raquo;" href="http://www.jornalciencia.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jornal Ciência &raquo;  Feed de comentários" href="http://www.jornalciencia.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Jornal Ciência &raquo; Home  Feed de comentários" href="http://www.jornalciencia.com/home/feed/" />
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-includes/js/wp-embed.min.js'></script>
+<link rel='https://api.w.org/' href='http://www.jornalciencia.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.jornalciencia.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.jornalciencia.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.4.8" />
+<link rel="canonical" href="http://www.jornalciencia.com/" />
+<link rel='shortlink' href='http://www.jornalciencia.com/' />
+<script type="text/javascript">window._taboola = window._taboola || [];
+_taboola.push({home:'auto'});
+!function (e, f, u) {
+	e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+}(document.createElement('script'), document.getElementsByTagName('script')[0], '//cdn.taboola.com/libtrc/jornalciencia/loader.js');
+</script><script src="https://pushem.org/widget/widget.js?token=&site_id=0"></script>
+<style type="text/css">.logo img{height: 50px;}.mid-logo-wrapper .logo img{height: 100px;}body,p,code, kbd, pre, samp{font-size: 15px;line-height: 26px;}body{background-image: url("") !important;}.mega-menu .dropdown-menu > li > a:hover, 
+.mega-menu .dropdown-submenu:hover>a,
+.star-reviews,
+.post-content a,
+a,
+.dropdown-menu .mega-menu-news .mega-menu-detail h4 a:hover,
+.nav .tabs-left > .nav-tabs > li > a:hover, 
+.nav .tabs-left > .nav-tabs > li.active > a,
+.navbar-nav>li>a:hover, 
+.navbar-nav>li>a:focus, 
+.dropdown-menu>.active>a,
+.navbar-nav>li.open>a, 
+.navbar-nav>li.open>a:after,
+.widget-content li h3 a:hover, 
+.news-title a:hover, 
+.small-article h6 a:hover,
+.simple-post h3 a:hover, 
+.widget-post h3 a:hover,
+.widget_categories li a:hover, 
+.widget_categories li a:hover span, 
+.comments-wrapper .comment-reply-link, 
+.post-header .simple-share a, 
+.parallax-wrapper .simple-share a,
+.post-content > p:first-child:first-letter, 
+.drop-caps,
+.author-position,
+.simple-share .author a,
+.simple-share .author a:hover,
+.box-news .simple-share a,
+.box-news .simple-share a:hover,
+.post-nav-wrapper a:hover,
+.author-box .author-info h3 a:hover,
+.author-contact a:hover,
+.comments-wrapper .author-name:hover,
+.post-header .simple-share a:hover, 
+.post-header .simple-share a:focus, 
+.parallax-wrapper .simple-share a:hover, 
+.parallax-wrapper .simple-share a:focus,
+.tag-list li.trending{color: #ff6600}.progress-bar,.progress-bar, .tags-widget li a:hover, .tagcloud a:hover, .tag-list li a:hover, .tag-list li.active a{background-color: #ff6600}.mega-menu .dropdown-submenu:hover>a:after,
+.nav .tabs-left > .nav-tabs > li.active>a:after{border-left-color: #ff6600}.widget .nav-tabs>li.active>a, 
+.widget .nav-tabs>li.active>a:focus, 
+.widget .nav-tabs>li.active>a:hover,
+.block-title span,
+.comments-wrapper .comment-reply-link:hover,
+.modern-quote,
+.box-news .simple-share a:hover,
+.simple-share .author a:hover,
+.post-header .simple-share a:hover, 
+.post-header .simple-share a:focus, 
+.parallax-wrapper .simple-share a:hover, 
+.parallax-wrapper .simple-share a:focus,
+.progress-bar, .tags-widget li a:hover, .tagcloud a:hover{border-color: #ff6600}.navbar-nav>li>a{font-size: 18px;line-height: 20px;}.mega-menu .dropdown-menu>li, .dropdown-menu>li>a, .mega-menu .nav-tabs>li>a{font-size: 14px;line-height: 18px;}.block-title, .comment-reply-title, .widget .nav-tabs>li>a,.widget .nav-tabs>li, .wpb_heading, .widgettitle, .footer-title{font-size: 20px;line-height: 24px;}.mm-listview>li>a{font-size: 14px;}.h1, h1{font-size: 42px;line-height: 46px;}.h2, h2{font-size: 32px;line-height: 36px;}.h3, h3{font-size: 26px;line-height: 30px;}.h4, h4{font-size: 24px;line-height: 28px;}.h5, h5{font-size: 16px;line-height: 20px;}.h6, h6{font-size: 14px;line-height: 18px;}.post-title{font-size: 42px;line-height: 46px;}.parallax-wrapper .post-title{font-size: 52px;line-height: 56px;}.post-content{max-width: 730px}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.jornalciencia.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><link rel="shortcut icon" href="http://www.jornalciencia.com/wp-content/uploads/2016/01/favicon2-2.png" type="image/x-icon" /><script type="text/javascript">
+      /* <![CDATA[ */var ajaxurl = "http://www.jornalciencia.com/wp-admin/admin-ajax.php";var dt_path = "http://www.jornalciencia.com/wp-content/themes/admag";var dt_paginated_blocks = [];var dt_paginated_blocks_type = [];var dt_paginated_blocks_items = [];/* ]]> */
+      </script><style type="text/css" title="dynamic-css" class="options-output">body{background-color:#efefef;}.main-content, .news-details, .theiaStickySidebar{background-color:#FFFFFF;}.header-wrapper, .header-mid{background-color:#FFFFFF;}.header, .no-js .sb-search .sb-icon-search{background-color:#ffffff;}.header-top{background-color:#545454;}.sticky-sidebar{background-color:#FFFFFF;}.footer{background-color:#373737;}.footer-bottom{background-color:#2c2c2c;}.logo{margin-top:0;margin-bottom:3px;margin-left:15px;}.mid-logo-wrapper .logo{margin-top:20px;margin-right:0;margin-bottom:0;margin-left:0;}html,body,.post-review-text,code, kbd, pre, samp{font-family:Roboto;text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{opacity: 0;}.ie.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{visibility: hidden;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family:"Noto Serif";text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{visibility: hidden;}.widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4{font-family:"Noto Serif";text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{opacity: 0;}.ie.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{visibility: hidden;}.featured-header h2, .page-subtitle{font-family:Roboto;text-transform:none;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .featured-header h2, .page-subtitle,{opacity: 0;}.ie.wf-loading .featured-header h2, .page-subtitle,{visibility: hidden;}.block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title{font-family:Roboto;text-transform:uppercase;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{opacity: 0;}.ie.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{visibility: hidden;}.mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown{font-family:Roboto;text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{opacity: 0;}.ie.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{visibility: hidden;}body{background-color:#efefef;}.main-content, .news-details, .theiaStickySidebar{background-color:#FFFFFF;}.header-wrapper, .header-mid{background-color:#FFFFFF;}.header, .no-js .sb-search .sb-icon-search{background-color:#ffffff;}.header-top{background-color:#545454;}.sticky-sidebar{background-color:#FFFFFF;}.footer{background-color:#373737;}.footer-bottom{background-color:#2c2c2c;}.logo{margin-top:0;margin-bottom:3px;margin-left:15px;}.mid-logo-wrapper .logo{margin-top:20px;margin-right:0;margin-bottom:0;margin-left:0;}html,body,.post-review-text,code, kbd, pre, samp{font-family:Roboto;text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{opacity: 0;}.ie.wf-loading html,body,.post-review-text,code, kbd, pre, samp,{visibility: hidden;}h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family:"Noto Serif";text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{opacity: 0;}.ie.wf-loading h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,{visibility: hidden;}.widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4{font-family:"Noto Serif";text-transform:none;font-weight:400;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{opacity: 0;}.ie.wf-loading .widget-post h3, .tag-list li, .dropdown-menu .mega-menu-news .mega-menu-detail h4,{visibility: hidden;}.featured-header h2, .page-subtitle{font-family:Roboto;text-transform:none;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .featured-header h2, .page-subtitle,{opacity: 0;}.ie.wf-loading .featured-header h2, .page-subtitle,{visibility: hidden;}.block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title{font-family:Roboto;text-transform:uppercase;font-weight:900;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{opacity: 0;}.ie.wf-loading .block-title, .comment-reply-title, .widget .nav-tabs>li>a, .wpb_heading, .widgettitle, .footer-title,{visibility: hidden;}.mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown{font-family:Roboto;text-transform:none;font-weight:700;font-style:normal;opacity: 1;visibility: visible;-webkit-transition: opacity 0.24s ease-in-out;-moz-transition: opacity 0.24s ease-in-out;transition: opacity 0.24s ease-in-out;}.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{opacity: 0;}.ie.wf-loading .mega-menu .navbar-nav>li>a,.mm-listview a, .mega-menu .nav-tabs>li>a, .header-top .top-menu li, .mega-menu .nav, .mega-menu .collapse, .mega-menu .dropdown,{visibility: hidden;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+<script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/jornalciencia/loader.js',
+  'tb_loader_script');
+</script> 
+
+<body class="home page page-id-41 page-template page-template-home-page page-template-home-page-php wide wpb-js-composer js-comp-ver-4.8.0.1 vc_responsive">
+
+<script type="text/javascript" id="r7barrautil" src="http://barra.r7.com/barra.js">{responsivo:true ,banner:false ,submenu:false}</script>
+
+
+
+</head>
+
+<body class="home page page-id-41 page-template page-template-home-page page-template-home-page-php sticky-header wide wpb-js-composer js-comp-ver-4.8.0.1 vc_responsive">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="main">
+	<header class="fixed-sidebar-header">
+    
+        
+    <div class="header" id="header">
+      <div class="container">
+        <div class="mag-content">
+          <div class="row">
+            <div class="col-md-12">
+
+            <a class="navbar-toggle collapsed" id="nav-button" href="#mobile-nav">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            
+
+            <nav class="navbar mega-menu">
+                                            <a class="logo" href="http://www.jornalciencia.com/" title="Jornal Ciência - Conhecimento é tudo!" rel="home">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/200x502-3-1.png" alt="Jornal Ciência" />
+                </a>
+                          
+              <div id="main-nav" class="collapse navbar-collapse"><ul id="menu-main-menu" class="nav navbar-nav"><li id="menu-item-1820" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-41 current_page_item menu-item-1820 active"><a href="http://www.jornalciencia.com/">Home</a></li>
+<li class="dropdown mega-full mega-menu2 menu-color4"><a href="http://www.jornalciencia.com/category/saude/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="4">Saúde <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/acaro-de-cilios-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="acaro-de-cilios" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/">Já ouviu falar em “ácaros de cílios”? Eles podem estar vivendo em seu rosto neste exato momento</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/inseminaçao-laboratorio_01-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="inseminaçao-laboratorio_01" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/">Na busca por novas terapias, cientistas criam embriões metade humanos, metade animais</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/cientistas-criam-pilula-de-insulina-que-pode-diminuir-os-niveis-de-acucar-em-diabeticos/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Diabetes2_web_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="Diabetes2_web_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/cientistas-criam-pilula-de-insulina-que-pode-diminuir-os-niveis-de-acucar-em-diabeticos/">Cientistas criam pílula de insulina que pode diminuir os níveis de açúcar em diabéticos</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/remedio-utilizado-para-tratar-problemas-de-bexiga-e-associado-a-casos-de-demencia/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/droga-pode-causar-demencia-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="droga-pode-causar-demencia" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/remedio-utilizado-para-tratar-problemas-de-bexiga-e-associado-a-casos-de-demencia/">Remédio utilizado para tratar problemas de bexiga é associado a casos de demência</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/em-nova-orleans-o-numero-de-mortes-acidentais-relacionadas-ao-consumo-de-drogas-excede-o-de-assassinatos/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Heroina-drogas_01-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="Heroina-drogas_01" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/em-nova-orleans-o-numero-de-mortes-acidentais-relacionadas-ao-consumo-de-drogas-excede-o-de-assassinatos/">Em Nova Orleans, o número de mortes acidentais relacionadas ao consumo de drogas excede o de assassinatos</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li class="dropdown mega-full mega-menu2 menu-color5"><a href="http://www.jornalciencia.com/category/sociedade/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="5">Sociedade <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-06-255x180.png" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="fotos-06" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">TOP 15 fotos que marcaram a humanidade</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/pessoas-introvertidas-trabalham-melhor-segundo-especialista/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/trabalho-computador-emprego_01-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="trabalho-computador-emprego_01" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/pessoas-introvertidas-trabalham-melhor-segundo-especialista/">Pessoas introvertidas trabalham melhor, segundo especialista</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/conheca-a-historia-de-herculine-barbin-uma-hermafrodita-que-confundiu-a-franca-durante-o-seculo-19/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/A-trágica-história-de-Herculine-Barbin-a-hermafrodita-que-confundiu-a-França-no-século-XIX-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="A-trágica-história-de-Herculine-Barbin-a-hermafrodita-que-confundiu-a-França-no-século-XIX" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/conheca-a-historia-de-herculine-barbin-uma-hermafrodita-que-confundiu-a-franca-durante-o-seculo-19/">Conheça a história de Herculine Barbin, uma hermafrodita que confundiu a França durante o século 19</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/tecnicas-utilizadas-pelos-politicos-para-fazerem-mentiras-parecerem-verdades/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tecnicas-usadas-por-politicos_2-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="tecnicas-usadas-por-politicos_2" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/tecnicas-utilizadas-pelos-politicos-para-fazerem-mentiras-parecerem-verdades/">Técnicas utilizadas pelos políticos para fazerem mentiras parecerem verdades</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/conheca-o-caso-do-alemao-apaixonado-por-uma-mumia/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tanzler2-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="tanzler2" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/conheca-o-caso-do-alemao-apaixonado-por-uma-mumia/">Conheça o caso do alemão apaixonado por uma múmia</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li class="dropdown mega-full mega-menu2 menu-color6"><a href="http://www.jornalciencia.com/category/tecnologia/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="6">Tecnologia <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/confira-o-codigo-que-ajuda-a-dar-carga-extra-de-16-na-bateria-do-celular/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/celular-codigo-extra-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="celular-codigo-extra" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/confira-o-codigo-que-ajuda-a-dar-carga-extra-de-16-na-bateria-do-celular/">Confira o código que ajuda a dar carga extra de 16% na bateria do celular</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/veja-se-voce-corre-o-risco-de-perder-seu-emprego-para-um-robo/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/robotica-industria-carros_01-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="robotica-industria-carros_01" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/veja-se-voce-corre-o-risco-de-perder-seu-emprego-para-um-robo/">Veja se você corre o risco de perder seu emprego para um robô</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/para-que-servem-aquelas-curvas-nas-pontas-das-asas-do-aviao/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/partes-curvas-do-aviao-255x180.jpeg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="partes-curvas-do-aviao" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/para-que-servem-aquelas-curvas-nas-pontas-das-asas-do-aviao/">Para que servem aquelas curvas nas pontas das asas do avião?</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/cientistas-transformaram-folhas-de-espinafre-em-tecido-cardiaco-humano/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/espinafre-tecido-cardiaco_02-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="espinafre-tecido-cardiaco_02" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/cientistas-transformaram-folhas-de-espinafre-em-tecido-cardiaco-humano/">Cientistas transformaram folhas de espinafre em tecido cardíaco humano</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/prosper-haniel-mine_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="prosper-haniel-mine_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">Alemanha está transformando mina de carvão em uma bateria de energia renovável</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li class="dropdown mega-full mega-menu2 menu-color3"><a href="http://www.jornalciencia.com/category/meio-ambiente/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="3">Meio Ambiente <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/soviet-nuclear_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="soviet-nuclear_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/giantdinofootprintcrop1_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="giantdinofootprintcrop1_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">Maior pegada de dinossauro do mundo é encontrada em “Jurassic Park” da Austrália</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/anvisa-divulga-lista-dos-vegetais-com-maiores-indices-de-contaminacao-por-agrotoxicos/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/agrotoxicos-anvisa-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="agrotoxicos-anvisa" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/anvisa-divulga-lista-dos-vegetais-com-maiores-indices-de-contaminacao-por-agrotoxicos/">ANVISA divulga lista dos vegetais com maiores índices de contaminação por agrotóxicos</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/prosper-haniel-mine_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="prosper-haniel-mine_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">Alemanha está transformando mina de carvão em uma bateria de energia renovável</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-20-fotos-que-farao-voce-pensar-duas-vezes-antes-de-viajar-para-a-australia/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-para-nunca-ir-a-australia_capa-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="fotos-para-nunca-ir-a-australia_capa" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-20-fotos-que-farao-voce-pensar-duas-vezes-antes-de-viajar-para-a-australia/">TOP 20 fotos que farão você pensar duas vezes antes de viajar para a Austrália</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li class="dropdown mega-full mega-menu2 menu-color2"><a href="http://www.jornalciencia.com/category/diversos/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="2">Diversos <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/mensagens-paciencia-capa-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="mensagens-paciencia-capa" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">TOP 11 pessoas que não têm paciência</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tirinhas-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="tirinhas" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">TOP 15 tirinhas que mostram os medos de muitas pessoas</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/metro-mexico-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="metro-mexico" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">Metrô do México usa assento com pênis para conscientizar sobre sobre assédio sexual</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/misterios-da-ciencia_01-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="misterios-da-ciencia_01" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/">TOP 10 imagens que a Ciência não conseguiu explicar até hoje</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/top-15-fotos-sensacionais-que-nao-foram-manipuladas-digitalmente/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-sem-manipulação-capa-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="fotos-sem-manipulação-capa" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/top-15-fotos-sensacionais-que-nao-foram-manipuladas-digitalmente/">TOP 15 fotos sensacionais que não foram manipuladas digitalmente</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li class="dropdown mega-full mega-menu2 menu-color7"><a href="http://www.jornalciencia.com/category/universo/" class="dropdown-toggle" aria-haspopup="true" data-mega-cat="7">Universo <span class="caret"></span></a><ul class="dropdown-menu fullwidth">
+                    <li><div class="mega-menu-5block">
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/cientistas-usam-sons-de-starquakes-para-estudar-a-formacao-das-estrelas/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/magnetar_burst_torsional_waves_4096_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="magnetar_burst_torsional_waves_4096_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/cientistas-usam-sons-de-starquakes-para-estudar-a-formacao-das-estrelas/">Cientistas usam sons de “starquakes” para estudar a formação das estrelas</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/rosetta-fotografou-mudancas-no-cometa-67p-durante-sua-viagem-pelo-sistema-solar/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Rosetta_1024-255x180.gif" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="Rosetta_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/rosetta-fotografou-mudancas-no-cometa-67p-durante-sua-viagem-pelo-sistema-solar/">Rosetta fotografou mudanças no cometa 67P durante sua viagem pelo Sistema Solar</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/nasa-esta-escondendo-base-alienigena-na-lua-dizem-os-teoricos-da-conspiracao/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/nasa-base-alienigena-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="nasa-base-alienigena" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/nasa-esta-escondendo-base-alienigena-na-lua-dizem-os-teoricos-da-conspiracao/">NASA está escondendo base alienígena na Lua, dizem os teóricos da conspiração</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/voce-vai-para-o-ceu-quando-nasce-sugere-ex-astronauta-da-missao-apollo/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/earthmoonimageApollo8_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="earthmoonimageApollo8_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/voce-vai-para-o-ceu-quando-nasce-sugere-ex-astronauta-da-missao-apollo/">“Você vai para o céu quando nasce”, sugere ex-astronauta da missão Apollo</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+
+            <div class="mega-menu-news animated fadeIn">
+              <div class="mega-menu-img">
+                                <a href="http://www.jornalciencia.com/astronomos-encontram-estrela-orbitando-um-buraco-negro-a-1-da-velocidade-da-luz/">
+                  <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Tuc-X9-cloud_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="Tuc-X9-cloud_1024" />                </a>
+              </div>
+              <div class="mega-menu-detail">
+                <h4 class="h5 entry-title">
+                  <a href="http://www.jornalciencia.com/astronomos-encontram-estrela-orbitando-um-buraco-negro-a-1-da-velocidade-da-luz/">Astrônomos encontram estrela orbitando um buraco negro a 1% da velocidade da luz</a>
+                </h4>
+                <p class="simple-share"></p>              </div>
+            </div>
+</div></li></ul></li>
+<li id="menu-item-1325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1325"><a href="http://www.jornalciencia.com/contato/">Contato</a></li>
+</ul></div>
+              
+              <div class="header-right no-top-searchbar">
+                <div class="social-icons">
+                                    <!-- Only for Fixed Sidebar Layout -->
+                  
+                </div><!-- .social-icons -->
+                <a href="#" class="fixed-button navbar-toggle" id="fixed-button">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </a><!-- .fixed-button -->
+              </div>
+
+                          </nav>
+            </div>
+          </div>
+        </div><!-- .mag-content -->
+      </div><!-- .container -->
+    </div><!-- .header -->
+    
+  </header><!-- .header-wrapper -->
+
+	<div id="content" class="site-content">
+    <!-- Begin Main Wrapper -->
+    <div class="container main-wrapper">
+      
+      <div class="mag-content clearfix">
+						  <div class="row">
+						    <div class="col-md-12">
+						    	<div class="content-top-wrapper"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- JC- Responsivo Novo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3224639215991618"
+     data-ad-slot="7672769576"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+										</div>
+									</div>
+								</div>
+      <div class="main-content mag-content clearfix">
+        <div class="row">
+    <div class="col-sm-12">
+      <ul class="tag-list clearfix">
+        <li class="trending">#Tendência</li>
+        <li><a href="http://www.jornalciencia.com/tag/frases/">frases</a></li><li><a href="http://www.jornalciencia.com/tag/paciencia/">Paciência</a></li><li><a href="http://www.jornalciencia.com/tag/placas/">placas</a></li><li><a href="http://www.jornalciencia.com/tag/fotos/">fotos</a></li><li><a href="http://www.jornalciencia.com/tag/historicas/">históricas</a></li><li><a href="http://www.jornalciencia.com/tag/acidente-nuclear/">acidente nuclear</a></li><li><a href="http://www.jornalciencia.com/tag/cazaquistao/">Cazaquistão</a></li><li><a href="http://www.jornalciencia.com/tag/chernobyl/">Chernobyl</a></li><li><a href="http://www.jornalciencia.com/tag/relatorio-confidencial/">relatório confidencial</a></li><li><a href="http://www.jornalciencia.com/tag/russia/">Rússia</a></li><li><a href="http://www.jornalciencia.com/tag/fran-krause/">Fran Krause</a></li><li><a href="http://www.jornalciencia.com/tag/medos/">medos</a></li><li><a href="http://www.jornalciencia.com/tag/tirinhas/">tirinhas</a></li><li><a href="http://www.jornalciencia.com/tag/australia/">Austrália</a></li><li><a href="http://www.jornalciencia.com/tag/jurassic-park/">Jurassic Park</a></li>      </ul>
+    </div>
+</div>
+        
+        <div class="row inf-wrapper homepage-wrapper">
+          <div class="col-md-12 main-wp">
+            <div class="row row-fluid"><div class="col-md-12"><div class="wpb_wrapper">  <div class="row featured-wrapper">
+    <div class="col-md-12">
+            <div class="swiper-container" >
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide"><div class="row"><div class="col-md-8 omega">            
+            <div class="featured-big">
+              <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/mensagens-paciencia-capa-870x500.jpg" class="attachment-featured_big size-featured_big wp-post-image" alt="mensagens-paciencia-capa" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor2'>Diversos</span>                  <h2 class="h1">TOP 11 pessoas que não têm paciência</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:48:27+00:00">6 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+          </div>          <div class="col-md-4 alpha">            
+            <div class="featured-small featured-top">
+              <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-06-870x500.png" class="attachment-featured_big size-featured_big wp-post-image" alt="fotos-06" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor5'>Sociedade</span>                  <h2 class="h4">TOP 15 fotos que marcaram a humanidade</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:07:14+00:00">7 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+                                
+            <div class="featured-small">
+              <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/soviet-nuclear_1024-870x415.jpg" class="attachment-featured_big size-featured_big wp-post-image" alt="soviet-nuclear_1024" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor3'>Meio Ambiente</span>                  <h2 class="h4">Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:55:15+00:00">7 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+          </div></div></div>          <div class="swiper-slide"><div class="row"><div class="col-md-8 omega">            
+            <div class="featured-big">
+              <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tirinhas-870x475.jpg" class="attachment-featured_big size-featured_big wp-post-image" alt="tirinhas" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor2'>Diversos</span>                  <h2 class="h1">TOP 15 tirinhas que mostram os medos de muitas pessoas</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:26:50+00:00">8 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+          </div>          <div class="col-md-4 alpha">            
+            <div class="featured-small featured-top">
+              <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/giantdinofootprintcrop1_1024-870x415.jpg" class="attachment-featured_big size-featured_big wp-post-image" alt="giantdinofootprintcrop1_1024" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor3'>Meio Ambiente</span>                  <h2 class="h4">Maior pegada de dinossauro do mundo é encontrada em “Jurassic Park” da Austrália</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:48:59+00:00">8 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+                                
+            <div class="featured-small">
+              <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/" class="featured-href">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/acaro-de-cilios-870x500.jpg" class="attachment-featured_big size-featured_big wp-post-image" alt="acaro-de-cilios" />                <div class="featured-header">
+                  <span class='dt_cat bgcolor4'>Saúde</span>                  <h2 class="h4">Já ouviu falar em “ácaros de cílios”? Eles podem estar vivendo em seu rosto neste exato momento</h2>
+                  <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:20:34+00:00">9 horas</time> atrás</span></p>                </div>
+              </a>
+            </div>
+            
+          </div></div></div>                    
+          
+        </div><!-- .swiper-wrapper -->
+        <div class="swiper-button-next"><i class="fa fa-angle-right"></i></div>
+        <div class="swiper-button-prev"><i class="fa fa-angle-left"></i></div>
+      </div><!-- .swiper-container -->
+    </div>
+  </div><!-- .featured-wrapper -->
+</div></div></div><div class="row row-fluid"><div class="dt_content col-md-8"><div class="wpb_wrapper"><div class="row vc_inner row-fluid no-margin"><div class="col-md-3"><div class="wpb_wrapper">  <div class="dt-block">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="block-title"><span>Últimas</span></h3>      </div>
+    </div>
+    <div id="dtblock1fa59cdc1acf9ad722430cf212885405"><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28195 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-frases tag-paciencia tag-placas">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">TOP 11 pessoas que não têm paciência</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:48:27+00:00">6 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28175 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-fotos tag-historicas">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">TOP 15 fotos que marcaram a humanidade</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:07:14+00:00">7 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28174 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-acidente-nuclear tag-cazaquistao tag-chernobyl tag-relatorio-confidencial tag-russia">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:55:15+00:00">7 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28156 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-fran-krause tag-medos tag-tirinhas">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">TOP 15 tirinhas que mostram os medos de muitas pessoas</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:26:50+00:00">8 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28150 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-australia tag-jurassic-park tag-pegada-de-dinossauro">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">Maior pegada de dinossauro do mundo é encontrada em “Jurassic Park” da Austrália</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:48:59+00:00">8 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28141 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-acaros-de-cilios tag-demodex-folliculorum">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/">Já ouviu falar em “ácaros de cílios”? Eles podem estar vivendo em seu rosto neste exato momento</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:20:34+00:00">9 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock1"><div class="col-md-12">
+<article class="widget-post clearfix post-28142 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-campanha tag-metro">
+  <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">Metrô do México usa assento com pênis para conscientizar sobre sobre assédio sexual</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T15:28:56+00:00">10 horas</time> atrás</span></p>  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblock1fa59cdc1acf9ad722430cf212885405");dt_paginated_blocks_items.push("dtsimpleblock1");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div><div class="col-md-9"><div class="wpb_wrapper">  <div class="dt-block">
+        <div class="row"><div class="col-md-12"><h3 class="block-title"><span>Mais popular do dia</span></h3></div></div>    <div id="dtblock55a1a9804b0754d9e284f29002d154ae"><div class="row dtmodernblock2"><div class="col-md-12">
+<article class="news-block post-28107 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-ciencia tag-misterios">
+  <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/misterios-da-ciencia_01-540x355.jpg" class="attachment-modern_medium_thumb size-modern_medium_thumb wp-post-image" alt="misterios-da-ciencia_01" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/misterios-da-ciencia_01-540x355.jpg 540w, http://www.jornalciencia.com/wp-content/uploads/2017/03/misterios-da-ciencia_01-730x480.jpg 730w" sizes="(max-width: 540px) 100vw, 540px" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/diversos/' class='dt_cat'>Diversos</a>  <header class="news-details">
+    <h3 class="news-title">
+      <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/">
+        TOP 10 imagens que a Ciência não conseguiu explicar até hoje      </a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/anddy/">Anddy Queiroz</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T12:46:04+00:00">12 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblock55a1a9804b0754d9e284f29002d154ae");dt_paginated_blocks_items.push("dtmodernblock2");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+  <div class="dt-block">
+    <div class="row">
+      <div class="col-md-12">
+              </div>
+    </div>
+    <div id="dtblock1d0c0eb16625de2bb4c772cbb8ee78bf"><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28175 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-fotos tag-historicas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-06-160x120.png" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="fotos-06" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">TOP 15 fotos que marcaram a humanidade</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:07:14+00:00">7 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28134 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-emprego tag-pessoas-introvertidas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/pessoas-introvertidas-trabalham-melhor-segundo-especialista/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/trabalho-computador-emprego_01-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="trabalho-computador-emprego_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/pessoas-introvertidas-trabalham-melhor-segundo-especialista/">Pessoas introvertidas trabalham melhor, segundo especialista</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T14:27:56+00:00">11 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28086 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-franca tag-herculine-barbin tag-hermafrodita tag-michael-foucault">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/conheca-a-historia-de-herculine-barbin-uma-hermafrodita-que-confundiu-a-franca-durante-o-seculo-19/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/A-trágica-história-de-Herculine-Barbin-a-hermafrodita-que-confundiu-a-França-no-século-XIX-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="A-trágica-história-de-Herculine-Barbin-a-hermafrodita-que-confundiu-a-França-no-século-XIX" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/conheca-a-historia-de-herculine-barbin-uma-hermafrodita-que-confundiu-a-franca-durante-o-seculo-19/">Conheça a história de Herculine Barbin, uma hermafrodita que confundiu a França durante o século 19</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T20:54:30+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28058 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-politicos tag-tecnicas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/tecnicas-utilizadas-pelos-politicos-para-fazerem-mentiras-parecerem-verdades/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tecnicas-usadas-por-politicos_2-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="tecnicas-usadas-por-politicos_2" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/tecnicas-utilizadas-pelos-politicos-para-fazerem-mentiras-parecerem-verdades/">Técnicas utilizadas pelos políticos para fazerem mentiras parecerem verdades</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/gustavo/">Gustavo Teixera</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T20:23:30+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28051 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-alemao tag-apaixonado tag-carl-tanzler tag-mumia">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/conheca-o-caso-do-alemao-apaixonado-por-uma-mumia/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tanzler2-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="tanzler2" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/conheca-o-caso-do-alemao-apaixonado-por-uma-mumia/">Conheça o caso do alemão apaixonado por uma múmia</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T19:24:48+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-28013 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-casamento tag-estresse tag-filhos tag-maridos tag-relacionamento">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/maridos-sao-mais-estressantes-que-filhos-segundo-estudo/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/casal-brigando-briga-relacionamento_01-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="casal-brigando-briga-relacionamento_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/maridos-sao-mais-estressantes-que-filhos-segundo-estudo/">Maridos são mais estressantes que filhos, segundo estudo</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/gustavo/">Gustavo Teixera</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T16:47:29+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock3"><div class="col-md-12">
+<article class="simple-post clearfix post-27974 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-arqueologia tag-fotos-historicas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-10-fotos-que-provam-que-o-mundo-pode-ainda-esconder-muitos-segredos/">
+                <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos_arqueologicas_1-160x120.jpg" class="attachment-simple_medium_thumb size-simple_medium_thumb wp-post-image" alt="fotos_arqueologicas_1" />      </a>
+    </div>
+      <header>
+    <h3 class="h4">
+      <a href="http://www.jornalciencia.com/top-10-fotos-que-provam-que-o-mundo-pode-ainda-esconder-muitos-segredos/">TOP 10 fotos que provam que o mundo pode ainda esconder muitos segredos</a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/gustavo/">Gustavo Teixera</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T15:50:29+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblock1d0c0eb16625de2bb4c772cbb8ee78bf");dt_paginated_blocks_items.push("dtsimpleblock3");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div></div><div class="row vc_inner row-fluid no-margin"><div class="col-md-12"><div class="wpb_wrapper">  <div class="dt-block">
+        <div class="row"><div class="col-md-12"><h3 class="block-title"><span>Saúde</span></h3></div></div>    <div id="dtblock4f8cfcfaa6fb51862844141c5ef5f9e2"><div class="row dtmodernblock4"><div class="col-md-12">
+<article class="news-block big-block post-26188 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente category-saude tag-malaria tag-poluicao-do-ar">
+  <a href="http://www.jornalciencia.com/a-poluicao-do-ar-mata-mais-criancas-do-que-a-malaria/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/poluiçao-do-ar_01-730x480.png" class="attachment-modern_big_thumb size-modern_big_thumb wp-post-image" alt="poluiçao-do-ar_01" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/poluiçao-do-ar_01-540x355.png 540w, http://www.jornalciencia.com/wp-content/uploads/2017/03/poluiçao-do-ar_01-730x480.png 730w" sizes="(max-width: 730px) 100vw, 730px" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/meio-ambiente/' class='dt_cat'>Meio Ambiente</a>  <header class="news-details">
+    <h3 class="news-title h1">
+      <a href="http://www.jornalciencia.com/a-poluicao-do-ar-mata-mais-criancas-do-que-a-malaria/">
+        A poluição do ar mata mais crianças do que a malária      </a>
+    </h3>
+    <p class="excerpt">Mais de um quarto de todas as mortes infantis com menos de cinco anos são decorrentes do ambiente insalubre em que vivem. &nbsp; Um novo relatório da Organização Mundial de&#8230;</p>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/julia-moretto/">Julia Moretto</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-13T11:25:02+00:00">2 semanas</time> atrás</span></p>  </header>
+</article><!-- News block --></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblock4f8cfcfaa6fb51862844141c5ef5f9e2");dt_paginated_blocks_items.push("dtmodernblock4");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div></div>  <div class="dt-block">
+            <div id="dtblockf9b143d6e84b60bb60db587d3e45c2ba"><div class="row dtmodernblock5"><div class="col-md-6">
+<article class="news-block small-block post-28137 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-embrioes tag-novas-terapias tag-quimeras">
+  <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/inseminaçao-laboratorio_01-540x355.jpg" class="attachment-modern_medium_thumb size-modern_medium_thumb wp-post-image" alt="inseminaçao-laboratorio_01" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/inseminaçao-laboratorio_01-540x355.jpg 540w, http://www.jornalciencia.com/wp-content/uploads/2017/03/inseminaçao-laboratorio_01-730x480.jpg 730w" sizes="(max-width: 540px) 100vw, 540px" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/saude/' class='dt_cat'>Saúde</a>  <header class="news-details">
+    <h3 class="news-title h4">
+      <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/">
+        Na busca por novas terapias, cientistas criam embriões metade humanos, metade animais      </a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T14:57:48+00:00">10 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div><div class="col-md-6">
+<article class="news-block small-block post-28131 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-diabeticos tag-pilula-de-insulina">
+  <a href="http://www.jornalciencia.com/cientistas-criam-pilula-de-insulina-que-pode-diminuir-os-niveis-de-acucar-em-diabeticos/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Diabetes2_web_1024-540x355.jpg" class="attachment-modern_medium_thumb size-modern_medium_thumb wp-post-image" alt="Diabetes2_web_1024" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/saude/' class='dt_cat'>Saúde</a>  <header class="news-details">
+    <h3 class="news-title h4">
+      <a href="http://www.jornalciencia.com/cientistas-criam-pilula-de-insulina-que-pode-diminuir-os-niveis-de-acucar-em-diabeticos/">
+        Cientistas criam pílula de insulina que pode diminuir os níveis de açúcar em diabéticos      </a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T13:59:35+00:00">11 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div></div><div class="row dtmodernblock5"><div class="col-md-6">
+<article class="news-block small-block post-28124 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-demencia tag-medicamento">
+  <a href="http://www.jornalciencia.com/remedio-utilizado-para-tratar-problemas-de-bexiga-e-associado-a-casos-de-demencia/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/droga-pode-causar-demencia-540x355.jpg" class="attachment-modern_medium_thumb size-modern_medium_thumb wp-post-image" alt="droga-pode-causar-demencia" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/droga-pode-causar-demencia-540x355.jpg 540w, http://www.jornalciencia.com/wp-content/uploads/2017/03/droga-pode-causar-demencia-730x480.jpg 730w" sizes="(max-width: 540px) 100vw, 540px" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/saude/' class='dt_cat'>Saúde</a>  <header class="news-details">
+    <h3 class="news-title h4">
+      <a href="http://www.jornalciencia.com/remedio-utilizado-para-tratar-problemas-de-bexiga-e-associado-a-casos-de-demencia/">
+        Remédio utilizado para tratar problemas de bexiga é associado a casos de demência      </a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/kevin/">Kevin Lucena</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T13:47:26+00:00">11 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div><div class="col-md-6">
+<article class="news-block small-block post-28125 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-consumo-de-drogas tag-mortes-acidentais tag-nova-orleans">
+  <a href="http://www.jornalciencia.com/em-nova-orleans-o-numero-de-mortes-acidentais-relacionadas-ao-consumo-de-drogas-excede-o-de-assassinatos/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Heroina-drogas_01-540x355.jpg" class="attachment-modern_medium_thumb size-modern_medium_thumb wp-post-image" alt="Heroina-drogas_01" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/Heroina-drogas_01-540x355.jpg 540w, http://www.jornalciencia.com/wp-content/uploads/2017/03/Heroina-drogas_01-730x480.jpg 730w" sizes="(max-width: 540px) 100vw, 540px" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/saude/' class='dt_cat'>Saúde</a>  <header class="news-details">
+    <h3 class="news-title h4">
+      <a href="http://www.jornalciencia.com/em-nova-orleans-o-numero-de-mortes-acidentais-relacionadas-ao-consumo-de-drogas-excede-o-de-assassinatos/">
+        Em Nova Orleans, o número de mortes acidentais relacionadas ao consumo de drogas excede o de assassinatos      </a>
+    </h3>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T13:37:36+00:00">11 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblockf9b143d6e84b60bb60db587d3e45c2ba");dt_paginated_blocks_items.push("dtmodernblock5");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div><div class="dt_sidebar col-md-4"><div class="wpb_wrapper">
+   <div class="">
+      
+         
+         <aside id="boxed_widget-5" class="widget widget_boxed_widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Gigante Vertical -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-3224639215991618"
+     data-ad-slot="1938581578"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></aside><aside id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://www.jornalciencia.com/">
+				<div class="input-group">
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="form-control" placeholder="Pesquisar &hellip;" value="" name="s" title="Pesquisar por:" />
+				 
+				<span class="input-group-btn"><button type="submit" class="btn btn-default" value="Pesquisar" />
+			<i class="fa fa-search"></i></button></span></div></form></aside><aside id="tabs_widget-3" class="widget widget_tabs_widget">      <ul class="nav nav-tabs" role="tablist" id="widget-tab">
+                  <li role="presentation" class="active"><a href="#dtblock5eb7a2d150892c53f80aa35d097ad202" aria-controls="dtblock5eb7a2d150892c53f80aa35d097ad202" role="tab" data-toggle="tab" aria-expanded="true">Mais recentes</a></li>
+                  <li role="presentation" class=""><a href="#dtblock92cee2775f063aa6534b9daeb2319291" aria-controls="dtblock92cee2775f063aa6534b9daeb2319291" role="tab" data-toggle="tab" aria-expanded="false">Populares</a></li>
+              </ul>
+
+      <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane animated fadeIn clearfix active" id="dtblock5eb7a2d150892c53f80aa35d097ad202">
+            <div class="">
+              <div id="dtblock5eb7a2d150892c53f80aa35d097ad202kkk">
+<article class="widget-post clearfix post-28195 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-frases tag-paciencia tag-placas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/mensagens-paciencia-capa-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="mensagens-paciencia-capa" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">TOP 11 pessoas que não têm paciência</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:48:27+00:00">6 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28175 post type-post status-publish format-standard has-post-thumbnail hentry category-sociedade tag-fotos tag-historicas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-06-95x80.png" class="attachment-text_thumb size-text_thumb wp-post-image" alt="fotos-06" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">TOP 15 fotos que marcaram a humanidade</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:07:14+00:00">7 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28174 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-acidente-nuclear tag-cazaquistao tag-chernobyl tag-relatorio-confidencial tag-russia">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/soviet-nuclear_1024-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="soviet-nuclear_1024" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:55:15+00:00">7 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28156 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-fran-krause tag-medos tag-tirinhas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tirinhas-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="tirinhas" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">TOP 15 tirinhas que mostram os medos de muitas pessoas</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:26:50+00:00">8 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28150 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-australia tag-jurassic-park tag-pegada-de-dinossauro">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/giantdinofootprintcrop1_1024-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="giantdinofootprintcrop1_1024" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">Maior pegada de dinossauro do mundo é encontrada em “Jurassic Park” da Austrália</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:48:59+00:00">8 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28141 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-acaros-de-cilios tag-demodex-folliculorum">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/acaro-de-cilios-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="acaro-de-cilios" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/ja-ouviu-falar-em-acaros-de-cilios-eles-podem-estar-vivendo-em-seu-rosto-neste-exato-momento/">Já ouviu falar em “ácaros de cílios”? Eles podem estar vivendo em seu rosto neste exato momento</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:20:34+00:00">9 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28142 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-campanha tag-metro">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/metro-mexico-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="metro-mexico" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">Metrô do México usa assento com pênis para conscientizar sobre sobre assédio sexual</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T15:28:56+00:00">10 horas</time> atrás</span></p>  </header>
+</article>
+<article class="widget-post clearfix post-28137 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-embrioes tag-novas-terapias tag-quimeras">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/inseminaçao-laboratorio_01-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="inseminaçao-laboratorio_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/na-busca-por-novas-terapias-cientistas-criam-embrioes-metade-humanos-metade-animais/">Na busca por novas terapias, cientistas criam embriões metade humanos, metade animais</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T14:57:48+00:00">10 horas</time> atrás</span></p>  </header>
+</article></div>
+            </div>
+          </div>
+
+                            <div role="tabpanel" class="tab-pane animated fadeIn clearfix" id="dtblock92cee2775f063aa6534b9daeb2319291">
+            <div class="">
+              <div id="dtblock92cee2775f063aa6534b9daeb2319291kkk">
+<article class="widget-post clearfix post-2039 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-unha">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/voce-possui-manchas-brancas-semicirculares-nas-unhas-descubra-o-que-elas-sao/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/lunula-parte-branca-da-unha-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="lunula-parte-branca-da-unha" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/voce-possui-manchas-brancas-semicirculares-nas-unhas-descubra-o-que-elas-sao/">Você possui manchas brancas semicirculares nas unhas? Descubra o que elas são!</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-2137 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-alimentos tag-inflamacao tag-inflamatorio">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/conheca-os-6-alimentos-inflamatorios-que-voce-deveria-evitar-para-ter-boa-saude/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/pipoca-de-micro-ondas-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="pipoca-de-micro-ondas" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/conheca-os-6-alimentos-inflamatorios-que-voce-deveria-evitar-para-ter-boa-saude/">Conheça os 6 alimentos inflamatórios que você deveria evitar para ter boa saúde</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-2124 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-masturbacao tag-sexualidade">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/o-que-acontece-com-o-seu-corpo-se-voce-nao-se-masturbar/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/masturbacao-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="masturbacao" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/o-que-acontece-com-o-seu-corpo-se-voce-nao-se-masturbar/">O que acontece com o seu corpo se você não se masturbar?</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-3586 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-catarata tag-colirio tag-medico tag-oftalmologia tag-olhos tag-visao">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/seria-o-fim-das-cirurgias-cientistas-desenvolvem-colirio-que-derrete-a-catarata-nos-olhos/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/03/catarata-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="catarata" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/seria-o-fim-das-cirurgias-cientistas-desenvolvem-colirio-que-derrete-a-catarata-nos-olhos/">Seria o fim das cirurgias? Cientistas desenvolvem colírio que “derrete” a catarata nos olhos</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-2305 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-acucar tag-diabetes">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/saiba-o-que-acontece-com-o-seu-corpo-quando-voce-para-de-ingerir-acucar/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/acucar-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="acucar" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/saiba-o-que-acontece-com-o-seu-corpo-quando-voce-para-de-ingerir-acucar/">Saiba o que acontece com o seu corpo quando você para de ingerir açúcar</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-2598 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-gravidez tag-ovario tag-ovulo tag-transgenero tag-transplante tag-utero">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/ciencia-avanca-e-homens-ja-podem-engravidar-atraves-de-transplante-de-utero/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/02/homem-gravido-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="homem-gravido" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/ciencia-avanca-e-homens-ja-podem-engravidar-atraves-de-transplante-de-utero/">Ciência avança e homens já podem engravidar através de transplante de útero!</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-1997 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-agrotoxico tag-alimentos tag-proibido tag-saude tag-toxico">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-10-alimentos-que-voce-nao-deve-comer-de-maneira-alguma/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/01/maca-fruta-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="maca-fruta" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-10-alimentos-que-voce-nao-deve-comer-de-maneira-alguma/">TOP 09 alimentos que você não deve comer de maneira alguma!</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article>
+<article class="widget-post clearfix post-6559 post type-post status-publish format-standard has-post-thumbnail hentry category-saude tag-cannabis-sativa tag-drogas tag-maconha">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/maconha-vicia-e-gera-prejuizos-permanentes-no-cerebro-diz-novo-estudo/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2016/06/cigarro-de-maconha-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="cigarro-de-maconha" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/maconha-vicia-e-gera-prejuizos-permanentes-no-cerebro-diz-novo-estudo/">Maconha vicia e gera prejuízos permanentes no cérebro, diz novo estudo</a>
+    </h3>
+    <p class="simple-share"><i class="fa fa-eye"></i> </p>  </header>
+</article></div>
+            </div>
+          </div>
+
+                        </div><!-- Tab content -->
+</aside><aside id="boxed_widget-6" class="widget widget_boxed_widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Gigante Vertical -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-3224639215991618"
+     data-ad-slot="1938581578"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></aside>
+      
+   </div>
+</div></div></div><div class="row row-fluid"><div class="col-md-12"><div class="wpb_wrapper">
+	<div class="wpb_raw_code wpb_raw_js">
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+  <div class="dt-block">
+    <h3 class="block-title"><span>Universo </span></h3>    <div id="dtblocka79b41f4c92221155c2995020de60911"><div class="row dtgridblock6"><div class="col-md-8">
+<article class="featured-small box-news box-big post-27971 post type-post status-publish format-standard has-post-thumbnail hentry category-universo tag-formacao-das-estrelas tag-nasa tag-starquakes">
+    <a href="http://www.jornalciencia.com/cientistas-usam-sons-de-starquakes-para-estudar-a-formacao-das-estrelas/">
+    <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/magnetar_burst_torsional_waves_4096_1024-775x320.jpg" class="attachment-grid_big_thumb size-grid_big_thumb wp-post-image" alt="magnetar_burst_torsional_waves_4096_1024" />  </a>
+  <header class="featured-header">
+    <a href='http://www.jornalciencia.com/category/universo/' class='dt_cat bgcolor7'>Universo</a>    <h2><a href="http://www.jornalciencia.com/cientistas-usam-sons-de-starquakes-para-estudar-a-formacao-das-estrelas/">Cientistas usam sons de “starquakes” para estudar a formação das estrelas</a></h2>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/julia-moretto/">Julia Moretto</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T15:22:31+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="featured-small box-news post-27800 post type-post status-publish format-standard has-post-thumbnail hentry category-universo tag-67p tag-cometa tag-rosetta tag-sistema-solar">
+    <a href="http://www.jornalciencia.com/rosetta-fotografou-mudancas-no-cometa-67p-durante-sua-viagem-pelo-sistema-solar/">
+    <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Rosetta_1024.gif" class="attachment-grid_large_thumb size-grid_large_thumb wp-post-image" alt="Rosetta_1024" />  </a>
+  <header class="featured-header">
+    <a href='http://www.jornalciencia.com/category/universo/' class='dt_cat bgcolor7'>Universo</a>    <h2 class="h4"><a href="http://www.jornalciencia.com/rosetta-fotografou-mudancas-no-cometa-67p-durante-sua-viagem-pelo-sistema-solar/">Rosetta fotografou mudanças no cometa 67P durante sua viagem pelo Sistema Solar</a></h2>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/julia-moretto/">Julia Moretto</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-24T16:58:14+00:00">4 dias</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtgridblock6"><div class="col-md-4">
+<article class="featured-small box-news post-27231 post type-post status-publish format-standard has-post-thumbnail hentry category-universo tag-nasa tag-ufo">
+    <a href="http://www.jornalciencia.com/nasa-esta-escondendo-base-alienigena-na-lua-dizem-os-teoricos-da-conspiracao/">
+    <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/nasa-base-alienigena.jpg" class="attachment-grid_large_thumb size-grid_large_thumb wp-post-image" alt="nasa-base-alienigena" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/nasa-base-alienigena-300x165.jpg 300w, http://www.jornalciencia.com/wp-content/uploads/2017/03/nasa-base-alienigena.jpg 1000w" sizes="(max-width: 1000px) 100vw, 1000px" />  </a>
+  <header class="featured-header">
+    <a href='http://www.jornalciencia.com/category/universo/' class='dt_cat bgcolor7'>Universo</a>    <h2 class="h4"><a href="http://www.jornalciencia.com/nasa-esta-escondendo-base-alienigena-na-lua-dizem-os-teoricos-da-conspiracao/">NASA está escondendo base alienígena na Lua, dizem os teóricos da conspiração</a></h2>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/gustavo/">Gustavo Teixera</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-22T11:28:50+00:00">7 dias</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="featured-small box-news post-26435 post type-post status-publish format-standard has-post-thumbnail hentry category-universo tag-astronauta tag-ceu tag-missao-apollo">
+    <a href="http://www.jornalciencia.com/voce-vai-para-o-ceu-quando-nasce-sugere-ex-astronauta-da-missao-apollo/">
+    <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/earthmoonimageApollo8_1024.jpg" class="attachment-grid_large_thumb size-grid_large_thumb wp-post-image" alt="earthmoonimageApollo8_1024" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/earthmoonimageApollo8_1024-300x122.jpg 300w, http://www.jornalciencia.com/wp-content/uploads/2017/03/earthmoonimageApollo8_1024.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />  </a>
+  <header class="featured-header">
+    <a href='http://www.jornalciencia.com/category/universo/' class='dt_cat bgcolor7'>Universo</a>    <h2 class="h4"><a href="http://www.jornalciencia.com/voce-vai-para-o-ceu-quando-nasce-sugere-ex-astronauta-da-missao-apollo/">“Você vai para o céu quando nasce”, sugere ex-astronauta da missão Apollo</a></h2>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-16T14:09:07+00:00">2 semanas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="featured-small box-news post-26432 post type-post status-publish format-standard has-post-thumbnail hentry category-universo tag-buraco-negro tag-velocidade-da-luz">
+    <a href="http://www.jornalciencia.com/astronomos-encontram-estrela-orbitando-um-buraco-negro-a-1-da-velocidade-da-luz/">
+    <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/Tuc-X9-cloud_1024.jpg" class="attachment-grid_large_thumb size-grid_large_thumb wp-post-image" alt="Tuc-X9-cloud_1024" srcset="http://www.jornalciencia.com/wp-content/uploads/2017/03/Tuc-X9-cloud_1024-300x122.jpg 300w, http://www.jornalciencia.com/wp-content/uploads/2017/03/Tuc-X9-cloud_1024.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />  </a>
+  <header class="featured-header">
+    <a href='http://www.jornalciencia.com/category/universo/' class='dt_cat bgcolor7'>Universo</a>    <h2 class="h4"><a href="http://www.jornalciencia.com/astronomos-encontram-estrela-orbitando-um-buraco-negro-a-1-da-velocidade-da-luz/">Astrônomos encontram estrela orbitando um buraco negro a 1% da velocidade da luz</a></h2>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/julia-moretto/">Julia Moretto</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-16T13:42:13+00:00">2 semanas</time> atrás</span></p>  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblocka79b41f4c92221155c2995020de60911");dt_paginated_blocks_items.push("dtgridblock6");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div></div><div class="row row-fluid"><div class="col-md-12"><div class="wpb_wrapper">  <div class="dt-block">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="block-title"><span>Tecnologia</span></h3>      </div>
+    </div>
+    <div id="dtblocke7869676f80bc836a9c4200bbbcb270c"><div class="row dtsimpleblock7"><div class="col-md-4">
+<article class="widget-post clearfix post-28118 post type-post status-publish format-standard has-post-thumbnail hentry category-tecnologia tag-bateria tag-celular">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/confira-o-codigo-que-ajuda-a-dar-carga-extra-de-16-na-bateria-do-celular/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/celular-codigo-extra-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="celular-codigo-extra" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/confira-o-codigo-que-ajuda-a-dar-carga-extra-de-16-na-bateria-do-celular/">Confira o código que ajuda a dar carga extra de 16% na bateria do celular</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T12:56:19+00:00">12 horas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28091 post type-post status-publish format-standard has-post-thumbnail hentry category-tecnologia tag-automacao tag-emprego tag-robo tag-robotica">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/veja-se-voce-corre-o-risco-de-perder-seu-emprego-para-um-robo/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/robotica-industria-carros_01-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="robotica-industria-carros_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/veja-se-voce-corre-o-risco-de-perder-seu-emprego-para-um-robo/">Veja se você corre o risco de perder seu emprego para um robô</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T11:30:00+00:00">14 horas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28031 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos category-tecnologia tag-aviao tag-winglets">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/para-que-servem-aquelas-curvas-nas-pontas-das-asas-do-aviao/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/partes-curvas-do-aviao-95x80.jpeg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="partes-curvas-do-aviao" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/para-que-servem-aquelas-curvas-nas-pontas-das-asas-do-aviao/">Para que servem aquelas curvas nas pontas das asas do avião?</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T18:45:01+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock7"><div class="col-md-4">
+<article class="widget-post clearfix post-28030 post type-post status-publish format-standard has-post-thumbnail hentry category-saude category-tecnologia tag-folhas-de-espinafre tag-tecido-cardiaco">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/cientistas-transformaram-folhas-de-espinafre-em-tecido-cardiaco-humano/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/espinafre-tecido-cardiaco_02-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="espinafre-tecido-cardiaco_02" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/cientistas-transformaram-folhas-de-espinafre-em-tecido-cardiaco-humano/">Cientistas transformaram folhas de espinafre em tecido cardíaco humano</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T18:32:57+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28008 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente category-tecnologia tag-alemanha tag-energia-renovavel tag-mina-de-carvao">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/prosper-haniel-mine_1024-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="prosper-haniel-mine_1024" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">Alemanha está transformando mina de carvão em uma bateria de energia renovável</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T16:20:04+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-27933 post type-post status-publish format-standard has-post-thumbnail hentry category-tecnologia tag-alemanha tag-sol-artificial">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/o-maior-sol-artificial-do-mundo-acaba-de-ser-ligado-na-alemanha/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/sol-artificial-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="sol-artificial" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/o-maior-sol-artificial-do-mundo-acaba-de-ser-ligado-na-alemanha/">O maior “Sol artificial” do mundo acaba de ser ligado na Alemanha</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T13:42:16+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblocke7869676f80bc836a9c4200bbbcb270c");dt_paginated_blocks_items.push("dtsimpleblock7");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+
+	<div class="wpb_raw_code wpb_raw_js">
+		<div class="wpb_wrapper">
+			
+		</div>
+	</div>
+  <div class="dt-block">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="block-title"><span>Diversos</span></h3>      </div>
+    </div>
+    <div id="dtblockd88ce56505e5ffe01e714ee1fe736ede"><div class="row dtsimpleblock8"><div class="col-md-4">
+<article class="widget-post clearfix post-28195 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-frases tag-paciencia tag-placas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/mensagens-paciencia-capa-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="mensagens-paciencia-capa" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">TOP 11 pessoas que não têm paciência</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T18:48:27+00:00">6 horas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28156 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-fran-krause tag-medos tag-tirinhas">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/tirinhas-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="tirinhas" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-tirinhas-que-mostram-os-medos-de-muitas-pessoas/">TOP 15 tirinhas que mostram os medos de muitas pessoas</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:26:50+00:00">8 horas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28142 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-campanha tag-metro">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/metro-mexico-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="metro-mexico" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/metro-do-mexico-usa-assento-com-penis-para-conscientizar-sobre-sobre-assedio-sexual/">Metrô do México usa assento com pênis para conscientizar sobre sobre assédio sexual</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T15:28:56+00:00">10 horas</time> atrás</span></p>  </header>
+</article></div></div><div class="row dtsimpleblock8"><div class="col-md-4">
+<article class="widget-post clearfix post-28107 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-ciencia tag-misterios">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/misterios-da-ciencia_01-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="misterios-da-ciencia_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-10-imagens-que-a-ciencia-nao-conseguiu-explicar-ate-hoje/">TOP 10 imagens que a Ciência não conseguiu explicar até hoje</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T12:46:04+00:00">12 horas</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28064 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-fotos-sensacionais tag-manipuladas tag-photoshop">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/top-15-fotos-sensacionais-que-nao-foram-manipuladas-digitalmente/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/fotos-sem-manipulação-capa-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="fotos-sem-manipulação-capa" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/top-15-fotos-sensacionais-que-nao-foram-manipuladas-digitalmente/">TOP 15 fotos sensacionais que não foram manipuladas digitalmente</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T20:28:57+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div><div class="col-md-4">
+<article class="widget-post clearfix post-28057 post type-post status-publish format-standard has-post-thumbnail hentry category-diversos tag-hamburguer-vegetariano tag-sangrar">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/hamburguer-vegetariano-que-sangra-esta-prestes-a-chegar-ao-mercado/">
+        <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/hamburguer-vegetariano_01-95x80.jpg" class="attachment-text_thumb size-text_thumb wp-post-image" alt="hamburguer-vegetariano_01" />      </a>
+    </div>
+      <header>
+    <h3 class="h5">
+      <a href="http://www.jornalciencia.com/hamburguer-vegetariano-que-sangra-esta-prestes-a-chegar-ao-mercado/">Hambúrguer vegetariano que “sangra” está prestes a chegar ao mercado</a>
+    </h3>
+    <p class="simple-share"><span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T20:00:21+00:00">1 dia</time> atrás</span></p>  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblockd88ce56505e5ffe01e714ee1fe736ede");dt_paginated_blocks_items.push("dtsimpleblock8");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div></div><div class="row row-fluid"><div class="no-margin dt_content col-md-8"><div class="wpb_wrapper">  <div class="dt-block">
+        <div class="row"><div class="col-md-12"><h3 class="block-title"><span>Meio Ambiente</span></h3></div></div>    <div id="dtblockdb78fb750e1f5db9918bacf8294b97a4"><div class="row dtmodernblock9"><div class="col-md-12">
+<article class="news-block big-block post-28174 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-acidente-nuclear tag-cazaquistao tag-chernobyl tag-relatorio-confidencial tag-russia">
+  <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/" class="overlay-link">
+    <figure class="image-overlay">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/soviet-nuclear_1024-730x415.jpg" class="attachment-modern_big_thumb size-modern_big_thumb wp-post-image" alt="soviet-nuclear_1024" />    </figure>
+  </a>
+  <a href='http://www.jornalciencia.com/category/meio-ambiente/' class='dt_cat'>Meio Ambiente</a>  <header class="news-details">
+    <h3 class="news-title h1">
+      <a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">
+        Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial      </a>
+    </h3>
+    <p class="excerpt">Recentemente, Kazbek Apsalikov, diretor do Instituto de Biofísica da Rússia descobriu um relatório secreto sobre as consequências de um teste de armas nucleares, realizado por soviéticos no Cazaquistão durante a&#8230;</p>
+    <p class="simple-share">de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/merelin/">Merelyn Cerqueira</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T17:55:15+00:00">7 horas</time> atrás</span></p>  </header>
+</article><!-- News block --></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblockdb78fb750e1f5db9918bacf8294b97a4");dt_paginated_blocks_items.push("dtmodernblock9");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+  <div class="dt-block">
+    <div class="row">
+      <div class="col-md-12">
+              </div>
+    </div>
+    <div id="dtblockfaec7dd8571958670b003f05dbcc4fd8"><div class="row dtsimpleblock10"><div class="col-md-12">
+<article class="simple-post simple-big clearfix post-28150 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente tag-australia tag-jurassic-park tag-pegada-de-dinossauro">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/giantdinofootprintcrop1_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="giantdinofootprintcrop1_1024" />      </a>
+    </div>
+    <header>
+    <p class="simple-share"><a href='http://www.jornalciencia.com/category/meio-ambiente/' class=''>Meio Ambiente</a> / de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/anddy/">Anddy Queiroz</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T16:48:59+00:00">8 horas</time> atrás</span></p>    <h3>
+      <a href="http://www.jornalciencia.com/maior-pegada-de-dinossauro-do-mundo-e-encontrada-em-jurassic-park-da-australia/">Maior pegada de dinossauro do mundo é encontrada em “Jurassic Park” da Austrália</a>
+    </h3>
+    <p class="excerpt">Em um estudo publicado recentemente no The Journal of Vertebrate Paleontology, pesquisadores descreveram um impressionante achado pré-histórico. &nbsp; Em um trecho de 25 quilômetros da costa da Austrália Ocidental estão&#8230;</p>
+  </header>
+</article></div></div><div class="row dtsimpleblock10"><div class="col-md-12">
+<article class="simple-post simple-big clearfix post-28095 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente category-saude tag-agrotoxico tag-alimentos">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/anvisa-divulga-lista-dos-vegetais-com-maiores-indices-de-contaminacao-por-agrotoxicos/">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/agrotoxicos-anvisa-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="agrotoxicos-anvisa" />      </a>
+    </div>
+    <header>
+    <p class="simple-share"><a href='http://www.jornalciencia.com/category/meio-ambiente/' class=''>Meio Ambiente</a> / de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/gustavo/">Gustavo Teixera</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-28T12:04:06+00:00">13 horas</time> atrás</span></p>    <h3>
+      <a href="http://www.jornalciencia.com/anvisa-divulga-lista-dos-vegetais-com-maiores-indices-de-contaminacao-por-agrotoxicos/">ANVISA divulga lista dos vegetais com maiores índices de contaminação por agrotóxicos</a>
+    </h3>
+    <p class="excerpt">Após os recentes escândalos envolvendo a carne, a Agência Nacional da Vigilância Sanitária, a ANVISA, divulgou uma lista que mostra quais são os alimentos com maiores índices de contaminação por&#8230;</p>
+  </header>
+</article></div></div><div class="row dtsimpleblock10"><div class="col-md-12">
+<article class="simple-post simple-big clearfix post-28008 post type-post status-publish format-standard has-post-thumbnail hentry category-meio-ambiente category-tecnologia tag-alemanha tag-energia-renovavel tag-mina-de-carvao">
+      <div class="simple-thumb">
+      <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">
+            <img src="http://www.jornalciencia.com/wp-content/uploads/2017/03/prosper-haniel-mine_1024-255x180.jpg" class="attachment-simple_big_thumb size-simple_big_thumb wp-post-image" alt="prosper-haniel-mine_1024" />      </a>
+    </div>
+    <header>
+    <p class="simple-share"><a href='http://www.jornalciencia.com/category/meio-ambiente/' class=''>Meio Ambiente</a> / de <span class="author vcard"><a class="url fn n" href="http://www.jornalciencia.com/author/julia-moretto/">Julia Moretto</a></span> - <span class="article-date"><i class="fa fa-clock-o"></i> <time class="entry-date published updated" datetime="2017-03-27T16:20:04+00:00">1 dia</time> atrás</span></p>    <h3>
+      <a href="http://www.jornalciencia.com/alemanha-esta-transformando-mina-de-carvao-em-uma-bateria-de-energia-renovavel/">Alemanha está transformando mina de carvão em uma bateria de energia renovável</a>
+    </h3>
+    <p class="excerpt">Alemanha está transformando uma de suas antigas minas de carvão em uma gigantesca &#8220;estação bateria&#8221; que armazenará energia hidroelétrica e fornecerá energia para cerca de 400 mil casas, com a&#8230;</p>
+  </header>
+</article></div></div></div><script type="text/javascript">
+      /* <![CDATA[ */dt_paginated_blocks.push("dtblockfaec7dd8571958670b003f05dbcc4fd8");dt_paginated_blocks_items.push("dtsimpleblock10");dt_paginated_blocks_type.push("");/* ]]&gt; */</script>  </div>
+</div></div><div class="dt_sidebar col-md-4"><div class="wpb_wrapper">
+   <div class="">
+      
+         
+         <aside id="boxed_widget-7" class="widget widget_boxed_widget"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Gigante Vertical -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-3224639215991618"
+     data-ad-slot="1938581578"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></aside>
+      
+   </div>
+</div></div></div>
+          </div>
+        </div>
+      </div><!-- .main-content -->
+
+      
+    </div><!-- .main-wrapper -->
+
+  </div><!-- #content -->
+
+<!-- Footer -->
+<footer class="footer source-org vcard copyright clearfix" id="footer">
+    <div class="footer-main">
+    <div class="fixed-main">
+      <div class="container">
+        <div class="mag-content">
+          <div class="row">
+
+    <div class="col-md-5">
+    <div id="text-3" class="footer-block clearfix widget_text">			<div class="textwidget"><p><img class="alignnone size-medium wp-image-1297" src="http://www.jornalciencia.com/wp-content/uploads/2016/01/200x50-2.png" alt="200x50" width="360" height="96" /></p>
+<p>Um site da Plug Network.</p>
+<p><a href="http://homol.jornalciencia.com/contato/">Fale Conosco</a></p>
+<p>&nbsp;</p>
+</div>
+		</div><div id="text-4" class="footer-block clearfix widget_text">			<div class="textwidget"><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10198218-3', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+		</div>  </div>
+  
+    <div class="col-md-3">
+    <div id="tag_cloud-2" class="footer-block clearfix widget_tag_cloud"><h3 class="footer-title">Categorias</h3><div class="tagcloud"><a href='http://www.jornalciencia.com/category/diversos/' class='tag-link-2' title='1.276 tópicos' >Diversos</a>
+<a href='http://www.jornalciencia.com/category/meio-ambiente/' class='tag-link-3' title='776 tópicos' >Meio Ambiente</a>
+<a href='http://www.jornalciencia.com/category/saude/' class='tag-link-4' title='1.575 tópicos' >Saúde</a>
+<a href='http://www.jornalciencia.com/category/sem-categoria/' class='tag-link-1' title='60 tópicos' >Sem categoria</a>
+<a href='http://www.jornalciencia.com/category/sociedade/' class='tag-link-5' title='805 tópicos' >Sociedade</a>
+<a href='http://www.jornalciencia.com/category/tecnologia/' class='tag-link-6' title='436 tópicos' >Tecnologia</a>
+<a href='http://www.jornalciencia.com/category/universo/' class='tag-link-7' title='352 tópicos' >Universo</a></div>
+</div>  </div>
+  
+    <div class="col-md-4">
+    		<div id="recent-posts-3" class="footer-block clearfix widget_recent_entries">		<h3 class="footer-title">Tópicos recentes</h3>		<ul>
+					<li>
+				<a href="http://www.jornalciencia.com/top-11-pessoas-que-nao-tem-paciencia/">TOP 11 pessoas que não têm paciência</a>
+						</li>
+					<li>
+				<a href="http://www.jornalciencia.com/top-15-fotos-que-marcaram-a-humanidade/">TOP 15 fotos que marcaram a humanidade</a>
+						</li>
+					<li>
+				<a href="http://www.jornalciencia.com/russia-encobriu-um-acidente-nuclear-mais-grave-do-que-chernobyl-sugere-relatorio-confidencial/">Rússia encobriu um acidente nuclear mais grave do que Chernobyl, sugere relatório confidencial</a>
+						</li>
+				</ul>
+		</div>		  </div>
+  
+  
+</div>        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <div class="fixed-main">
+      <div class="container">
+        <div class="mag-content">
+          <div class="row">
+  <div class="col-md-6">
+    Jornal Ciência © 2015. Todos os direitos reservados  </div>
+
+  <div class="col-md-6">
+      <div class="social-icons pull-right">
+      <a href="#" title="" data-original-title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a><a href="" title="" data-original-title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a><a href="" title="" data-original-title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a>    </div>
+    </div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+  
+</footer>
+<!-- End Footer -->
+
+</div><!-- End Main -->
+
+
+
+<div class="mobile-overlay" id="mobile-overlay"></div>
+<!-- Mobile Menu -->
+<nav id="mobile-nav" class="mm-menu mm-offcanvas">
+  <div>
+   <div><ul><li class="page_item page-item-661"><a href="http://www.jornalciencia.com/contato/">Contato</a></li><li class="page_item page-item-41 current_page_item"><a href="http://www.jornalciencia.com/">Home</a></li><li class="page_item page-item-2"><a href="http://www.jornalciencia.com/pagina-exemplo/">Página de Exemplo</a></li><li class="page_item page-item-1321"><a href="http://www.jornalciencia.com/pagina-exemplo-2/">Página de Exemplo</a></li></ul></div>
+   <div class="mobile-nav-footer">
+      <form role="search" method="get" class="search-form" action="http://www.jornalciencia.com/">
+				<div class="input-group">
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="form-control" placeholder="Pesquisar &hellip;" value="" name="s" title="Pesquisar por:" />
+				 
+				<span class="input-group-btn"><button type="submit" class="btn btn-default" value="Pesquisar" />
+			<i class="fa fa-search"></i></button></span></div></form>   </div>
+  </div>
+</nav>
+
+<script id="r7-footer-portal" src="http://barra.r7.com/footer/footer-portal/footer-portal.js" charset="UTF-8">{showPane:false, bgC:'#e2e2e2', isPartner:true, partnerLabel:'Hora7'}</script>
+
+
+
+
+<!-- Push Notifications for this site is powered by PushAssist. Push Notifications for Chrome, Safari, FireFox, Opera. - Plugin version 2.1.6 - https://pushassist.com/ --><script type="text/javascript">window._taboola = window._taboola || [];
+_taboola.push({flush: true});</script><script type='text/javascript' src='http://www.jornalciencia.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.jornalciencia.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Enviando ...","cached":"1"};
+var _wpcf7 = {"loaderUrl":"http:\/\/www.jornalciencia.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Enviando ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/themes/admag/css/plugins/bootstrap/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/themes/admag/js/plugins.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/themes/admag/js/script.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-includes/js/comment-reply.min.js'></script>
+<script type='text/javascript' src='http://www.jornalciencia.com/wp-content/plugins/js_compos
