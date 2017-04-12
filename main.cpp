@@ -31,6 +31,6 @@ int main()
   
   
   cout<<"Starting to crawl"<<endl;
-  c.Start(18);
+  c.Start(100);
 	cout<<"ACABOU JOVEM!"<<endl;
 }

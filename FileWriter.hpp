@@ -17,7 +17,7 @@ class FileWriter {
 		
 		//Put the string on the format given:
 		//All | must be replaced by ' '
-		void Filter(CkString &s);
+		void Filter(string &s);
 
 		void OpenStream();
 

@@ -11,7 +11,7 @@ Crawler::Crawler()
 void Crawler::PoeNaRoda(vector<string> &v){
 	for(string s: v){
 		string x;
-		for(int j=7;j<s.size();j++) x.push_back(s[j]);
+		for(int j=0;j<s.size();j++) x.push_back(s[j]);
 		Scheduler::PushUrl(s,x,false);
 	}
 }
@@ -46,7 +46,6 @@ void Crawler::Crawl()
 	fw.OpenStream();
 
 	while(true){
-		if(ncraw>1e6) break;
 		string nextUrl;
 		Crawler::scheduler_mutex.lock();
 		nextUrl=Scheduler::TopUrl();
@@ -54,14 +53,15 @@ void Crawler::Crawl()
 		while(nextUrl.size()==0){
 			nextUrl=Scheduler::TopUrl();
 			cont++;
-			if(cont>200) break;
+			if(cont>2000) break;
 		}
 		Crawler::scheduler_mutex.unlock();
 		if(nextUrl.size()==0) continue;
 		CkString x;
-		if(!spider.GetUrlDomain(nextUrl.c_str(),x)) continue;
+	
+    if(!spider.GetUrlDomain(nextUrl.c_str(),x)) continue;
 
-		spider.Initialize(x);
+		spider.Initialize(x.getString());
 		spider.AddUnspidered(nextUrl.c_str());
 
 		if(spider.CrawlNext())
@@ -78,25 +78,29 @@ void Crawler::Crawl()
 
 
 			int sz=spider.get_NumOutboundLinks();
-			CkString Next;
+			CkString Next,aux;
 			for(int x=0;x<sz;x++){
 				string Url=spider.getOutboundLink(x);
-				Url=spider.canonicalizeUrl(Url.c_str());
-				if(spider.GetBaseDomain(Url.c_str(),Next)){
+      //  if(spider.CanonicalizeUrl(Url.c_str(),aux)) Url=aux.getString();
+      //  else continue;
+        if(spider.GetBaseDomain(Url.c_str(),Next)){
 					Crawler::scheduler_mutex.lock();
 					Scheduler::PushUrl(Url,Next.getString(),false);
 					Crawler::scheduler_mutex.unlock();
 				}
+
 			}
 
 
 			sz=spider.get_NumUnspidered();
 
-			for(int x=0;x<sz;x++){
+			for(int x=0;x<sz%15;x++){
 				CkString Next;
 				spider.GetUnspideredUrl(0,Next);
 				spider.SkipUnspidered(0);
-				string Url=spider.canonicalizeUrl(Next.getString());
+				string Url=Next.getString();
+   //     if(spider.CanonicalizeUrl(Url.c_str(),aux)) Url=aux.getString();
+    //    else continue;
 				if(spider.GetBaseDomain(Url.c_str(),Next)){
 					Crawler::scheduler_mutex.lock();
 					Scheduler::PushUrl(Url,Next.getString(),true);

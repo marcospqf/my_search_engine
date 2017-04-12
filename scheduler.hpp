@@ -34,13 +34,13 @@ class Scheduler
 		//return the next query to be processed, if the queue is empty, return ""
 		static string TopUrl();
 
-    
     static bool thistime(double x);
 
 	private:
 		struct url {
 			string name,domain;
 			int priority;
+			int sizeurl;
 			url(const string &s, const string &d);
 			bool operator<(const url &a) const;
 		};
